@@ -1,0 +1,112 @@
+; timotei-crackme-07 — reconstruction MASM32
+; Pas le .asm auteur (perdu). Reconstruit depuis le PE + listing IDA
+; (timotei-crackme-07-idapro.asm). DIE : MASM 6.14 / masm32 / link 5.12.
+;
+; Idée du binaire :
+;   VirtualProtect(.text, PAGE_EXECUTE_READWRITE)
+;   WriteConsole prompt / ReadConsole password
+;   xor dword ptr [smc], password_dword
+;   smc sur disque = 9090469Fh  (octets 9F 46 90 90)
+;   password "tI??" → EB 0F ?? ?? = jmp short good
+;
+; Compiler (Windows + MASM32) :
+;   \masm32\bin\ml /c /coff timotei-crackme-07.masm
+;   \masm32\bin\link /SUBSYSTEM:CONSOLE /OUT:timotei-crackme-07.masm.exe ^
+;       timotei-crackme-07.obj
+;
+; Note : ml/link peuvent décaler les VA. Le dd 9090469Fh est calé pour
+; la géométrie du binaire d'origine (fail path = 13 octets entre smc+4
+; et good). Si le binaire reconstruit diffère, recalculer :
+;   clear = EB 0F 90 90
+;   disk  = clear XOR password  (ex. "tI\0\0" → 9F 46 90 90)
+;
+; Lancer : timotei-crackme-07.masm.exe  →  taper tIme / tItk / …
+
+.686
+.model flat, stdcall
+option casemap:none
+
+include \masm32\include\windows.inc
+include \masm32\include\kernel32.inc
+includelib \masm32\lib\kernel32.lib
+
+.data
+
+szPrompt    db "_.: eNter tHe pAsSw0rD : ",0
+szOk        db "_.: l0gIn aCcEpTeD ",0
+
+buffer      db 100 dup(0)       ; ReadConsole max 64h dans l'original
+nRead       dd 0
+hOut        dd 0
+hIn         dd 0
+oldProt     dd 0
+
+.code
+
+start:
+
+    ; ---------------------------------------------------------------
+    ; .text est RX : sans RWX, le xor sur smc → access violation
+    ; PAGE_EXECUTE_READWRITE = 40h
+    ; plage large (3E8h) comme l'original, depuis le début de start
+    ; ---------------------------------------------------------------
+    invoke  VirtualProtect, offset start, 3E8h, \
+            PAGE_EXECUTE_READWRITE, offset oldProt
+
+    invoke  GetStdHandle, STD_OUTPUT_HANDLE
+    mov     hOut, eax
+    invoke  GetStdHandle, STD_INPUT_HANDLE
+    mov     hIn, eax
+
+    ; WriteConsoleA(hOut, prompt, 1Ah, NULL, NULL) — comme le PE
+    push    0
+    push    0
+    push    1Ah
+    push    offset szPrompt
+    push    hOut
+    call    WriteConsoleA
+
+    ; ReadConsoleA(hIn, buffer, 64h, &nRead, NULL)
+    push    0
+    push    offset nRead
+    push    64h
+    push    offset buffer
+    push    hIn
+    call    ReadConsoleA
+
+    ; ---------------------------------------------------------------
+    ; SMC : password[0..3] (dword LE) XOR le code à smc
+    ; ---------------------------------------------------------------
+    mov     eax, dword ptr buffer
+    xor     dword ptr smc, eax
+
+    ; le CPU enchaîne ici sur le dword tout juste patché
+smc:
+    ; disque d'origine : 9F 46 90 90
+    ; "tI??" → EB 0F ?? ??  (jmp short good, rel8 = 0Fh)
+    dd      9090469Fh
+
+    ; --- fallthrough : mauvais password (même bruit que le PE) ---
+    ; 6 + 2 + 5 = 13 octets jusqu'à good  (pour que EB 0F atterrisse juste)
+    xor     al, 0Ch             ; 34 0C
+    sub     al, 22h             ; 2C 22
+    xor     al, 38h             ; 34 38
+    push    0                   ; 6A 00
+    call    fail_exit           ; E8 rel32 (5 o) → total 13 o
+
+    ; --- bon password : jmp short atterrit ici ---
+good:
+    push    0
+    push    0
+    push    14h
+    push    offset szOk
+    push    hOut
+    call    WriteConsoleA
+    push    0
+    call    fail_exit
+
+; thunk proche du style original (call e8 → jmp [IAT])
+fail_exit:
+    jmp     dword ptr [ExitProcess]
+
+end start
