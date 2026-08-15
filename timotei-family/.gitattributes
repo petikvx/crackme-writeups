@@ -1,0 +1,7 @@
+# binaires d'origine + reconstructions
+timotei-crackme-0[1-4] linguist-vendored
+*.exe linguist-vendored
+*.bin linguist-vendored
+*.asm linguist-language=Assembly
+*.nasm linguist-language=Assembly
+*.fasm linguist-language=Assembly
