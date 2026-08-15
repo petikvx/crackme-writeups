@@ -10,8 +10,8 @@
 ;   password "tI??" → EB 0F ?? ?? = jmp short good
 ;
 ; Compiler (Windows + MASM32) :
-;   \masm32\bin\ml /c /coff timotei-crackme-07.masm
-;   \masm32\bin\link /SUBSYSTEM:CONSOLE /OUT:timotei-crackme-07.masm.exe ^
+;   \masm32\bin\ml /c /coff timotei-crackme-07-masm.asm
+;   \masm32\bin\link /SUBSYSTEM:CONSOLE /OUT:timotei-crackme-07-masm.asm.exe ^
 ;       timotei-crackme-07.obj
 ;
 ; Note : ml/link peuvent décaler les VA. Le dd 9090469Fh est calé pour
@@ -20,7 +20,7 @@
 ;   clear = EB 0F 90 90
 ;   disk  = clear XOR password  (ex. "tI\0\0" → 9F 46 90 90)
 ;
-; Lancer : timotei-crackme-07.masm.exe  →  taper tIme / tItk / …
+; Lancer : timotei-crackme-07-masm.asm.exe  →  taper tIme / tItk / …
 
 .686
 .model flat, stdcall

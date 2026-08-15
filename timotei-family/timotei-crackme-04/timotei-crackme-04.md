@@ -13,8 +13,8 @@ Dossier : `timotei-family/timotei-crackme-04/` — [série](../README.md) · [re
 | [`timotei-crackme-04-idapro.asm`](timotei-crackme-04-idapro.asm) | listing IDA (section 8) |
 | [`timotei-crackme-04-idapro.c`](timotei-crackme-04-idapro.c) | Hex-Rays 9.4 (section 8) |
 | [`timotei-crackme-04.c`](timotei-crackme-04.c) | équivalent C à la main (section 8) |
-| [`timotei-crackme-04.nasm`](timotei-crackme-04.nasm) | source reconstruit NASM (section 9) |
-| [`timotei-crackme-04.fasm`](timotei-crackme-04.fasm) | source reconstruit FASM (section 9) |
+| [`timotei-crackme-04-nasm.asm`](timotei-crackme-04-nasm.asm) | source reconstruit NASM (section 9) |
+| [`timotei-crackme-04-fasm.asm`](timotei-crackme-04-fasm.asm) | source reconstruit FASM (section 9) |
 
 Réponse acceptée :
 
@@ -360,17 +360,17 @@ Pas le fichier auteur. Même verdict que #01–#03 : FASM d’origine (ELF `exec
 
 | Fichier | Assembleur | Binaire de test | Résultat |
 |---|---|---|---|
-| [`timotei-crackme-04.nasm`](timotei-crackme-04.nasm) | NASM 2.16.01 | `timotei-crackme-04.nasm.bin` | **`.text` et `.data` identiques** |
-| [`timotei-crackme-04.fasm`](timotei-crackme-04.fasm) | FASM 1.73.32 | `timotei-crackme-04.fasm.bin` (869 o) | même comportement ; ELF tassé |
+| [`timotei-crackme-04-nasm.asm`](timotei-crackme-04-nasm.asm) | NASM 2.16.01 | `timotei-crackme-04-nasm.bin` | **`.text` et `.data` identiques** |
+| [`timotei-crackme-04-fasm.asm`](timotei-crackme-04-fasm.asm) | FASM 1.73.32 | `timotei-crackme-04-fasm.bin` (869 o) | même comportement ; ELF tassé |
 
 ### 9.2 Compiler
 
 ```bash
-nasm -f elf64 -o timotei-crackme-04.nasm.o timotei-crackme-04.nasm
+nasm -f elf64 -o timotei-crackme-04-nasm.o timotei-crackme-04-nasm.asm
 ld -nostdlib -static -no-pie \
-   -o timotei-crackme-04.nasm.bin timotei-crackme-04.nasm.o
+   -o timotei-crackme-04-nasm.bin timotei-crackme-04-nasm.o
 
-fasm.x64 timotei-crackme-04.fasm timotei-crackme-04.fasm.bin
+fasm.x64 timotei-crackme-04-fasm.asm timotei-crackme-04-fasm.bin
 ```
 
 Les reconstructions **reproduisent le leurre**. Sans patch, `+ORC` ne suffit toujours pas.

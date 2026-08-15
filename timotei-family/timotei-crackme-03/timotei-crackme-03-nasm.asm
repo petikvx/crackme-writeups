@@ -3,12 +3,12 @@
 ; Reconstruction depuis objdump / .data.
 ;
 ; Compiler :
-;   nasm -f elf64 -o timotei-crackme-03.nasm.o timotei-crackme-03.nasm
-;   ld -nostdlib -static -no-pie -o timotei-crackme-03.nasm.bin \
-;      timotei-crackme-03.nasm.o
+;   nasm -f elf64 -o timotei-crackme-03-nasm.o timotei-crackme-03-nasm.asm
+;   ld -nostdlib -static -no-pie -o timotei-crackme-03-nasm.bin \
+;      timotei-crackme-03-nasm.o
 ;
 ; Lancer :
-;   printf 'Defeat COVID!\n' | ./timotei-crackme-03.nasm.bin
+;   printf 'Defeat COVID!\n' | ./timotei-crackme-03-nasm.bin
 
 BITS 64
 DEFAULT ABS

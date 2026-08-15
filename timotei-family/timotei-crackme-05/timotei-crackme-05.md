@@ -13,7 +13,7 @@ Dossier : `timotei-family/timotei-crackme-05/` — [série](../README.md) · [re
 | [`timotei-crackme-05-idapro.asm`](timotei-crackme-05-idapro.asm) | listing IDA (section 8) |
 | [`timotei-crackme-05-idapro.c`](timotei-crackme-05-idapro.c) | Hex-Rays 9.4 (section 8) |
 | [`timotei-crackme-05.c`](timotei-crackme-05.c) | prédicat C à la main (section 8) |
-| [`timotei-crackme-05.fasm`](timotei-crackme-05.fasm) | reconstruction FASM PE (section 9) |
+| [`timotei-crackme-05-fasm.asm`](timotei-crackme-05-fasm.asm) | reconstruction FASM PE (section 9) |
 
 Réponse acceptée (famille, pas un secret unique) :
 
@@ -267,12 +267,12 @@ Pas le `.asm` auteur. DIE pointe vers **MASM32**. On fournit une reconstruction 
 
 | Fichier | Assembleur | Binaire | Résultat |
 |---|---|---|---|
-| [`timotei-crackme-05.fasm`](timotei-crackme-05.fasm) | FASM 1.73.32 | `timotei-crackme-05.fasm.bin` (2048 o) | même prédicat, autre IAT / layout |
+| [`timotei-crackme-05-fasm.asm`](timotei-crackme-05-fasm.asm) | FASM 1.73.32 | `timotei-crackme-05-fasm.bin` (2048 o) | même prédicat, autre IAT / layout |
 
 ```bash
-fasm.x64 timotei-crackme-05.fasm timotei-crackme-05.fasm.bin
+fasm.x64 timotei-crackme-05-fasm.asm timotei-crackme-05-fasm.bin
 # puis, keyfile déjà écrit par le solveur :
-wine timotei-crackme-05.fasm.bin
+wine timotei-crackme-05-fasm.bin
 ```
 
 `puts` est un `strlen` naïf, pas le truc `0x01010101`. Le `mov [buf+6], 'i'` mort n’est pas reproduit (aucun effet).

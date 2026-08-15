@@ -3,12 +3,12 @@
 ; strippé, pas de libc, pas de crt). Reconstruction depuis objdump / .data.
 ;
 ; Compiler :
-;   nasm -f elf64 -o timotei-crackme-02.nasm.o timotei-crackme-02.nasm
-;   ld -nostdlib -static -no-pie -o timotei-crackme-02.nasm.bin \
-;      timotei-crackme-02.nasm.o
+;   nasm -f elf64 -o timotei-crackme-02-nasm.o timotei-crackme-02-nasm.asm
+;   ld -nostdlib -static -no-pie -o timotei-crackme-02-nasm.bin \
+;      timotei-crackme-02-nasm.o
 ;
 ; Lancer (le secret est argv[1], pas stdin) :
-;   ./timotei-crackme-02.nasm.bin '31337!!P'
+;   ./timotei-crackme-02-nasm.bin '31337!!P'
 
 BITS 64
 DEFAULT ABS                     ; adresses absolues, comme le binaire d'origine

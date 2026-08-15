@@ -10,10 +10,10 @@ Dossier : `timotei-family/timotei-crackme-01/` — [série](../README.md) · [re
 | `timotei-crackme-01` | binaire d’origine |
 | [`timotei-crackme-01.md`](timotei-crackme-01.md) | ce write-up |
 | [`timotei-crackme-01-solve.py`](timotei-crackme-01-solve.py) | solveur PIN + FNV-1 (section 6) |
-| [`timotei-crackme-01.asm`](timotei-crackme-01.asm) | listing IDA (section 8) |
+| [`timotei-crackme-01-idapro.asm`](timotei-crackme-01-idapro.asm) | listing IDA (section 8) |
 | [`timotei-crackme-01.c`](timotei-crackme-01.c) | Hex-Rays 9.4 (section 8) |
-| [`timotei-crackme-01.nasm`](timotei-crackme-01.nasm) | source reconstruit NASM (section 9) |
-| [`timotei-crackme-01.fasm`](timotei-crackme-01.fasm) | source reconstruit FASM (section 9) |
+| [`timotei-crackme-01-nasm.asm`](timotei-crackme-01-nasm.asm) | source reconstruit NASM (section 9) |
+| [`timotei-crackme-01-fasm.asm`](timotei-crackme-01-fasm.asm) | source reconstruit FASM (section 9) |
 
 Réponses acceptées :
 
@@ -634,7 +634,7 @@ Fichiers ajoutés :
 
 | Fichier | Origine |
 |---|---|
-| [`timotei-crackme-01.asm`](timotei-crackme-01.asm) | listing IDA (Intel, labels du binaire) |
+| [`timotei-crackme-01-idapro.asm`](timotei-crackme-01-idapro.asm) | listing IDA (Intel, labels du binaire) |
 | [`timotei-crackme-01.c`](timotei-crackme-01.c) | Hex-Rays 9.4 (une seule fonction : `start`) |
 
 Hashes IDA = ceux de `diec` : MD5 `80D85D8A340F40C02EA40A03BFDAAC23`, SHA256 `93862A67…E1F6`.
@@ -736,23 +736,23 @@ Pourquoi FASM plutôt que NASM comme dialecte d’origine :
 
 | Fichier | Assembleur | Binaire de test | Résultat |
 |---|---|---|---|
-| [`timotei-crackme-01.nasm`](timotei-crackme-01.nasm) | NASM 2.16.01 | `timotei-crackme-01.nasm.bin` (9792 o) | **101/101 mnémoniques identiques** à l’original, EP `0x401000` |
-| [`timotei-crackme-01.fasm`](timotei-crackme-01.fasm) | FASM 1.73.32 | `timotei-crackme-01.fasm.bin` (955 o) | même comportement ; ELF tassé, pas de section headers |
+| [`timotei-crackme-01-nasm.asm`](timotei-crackme-01-nasm.asm) | NASM 2.16.01 | `timotei-crackme-01-nasm.bin` (9792 o) | **101/101 mnémoniques identiques** à l’original, EP `0x401000` |
+| [`timotei-crackme-01-fasm.asm`](timotei-crackme-01-fasm.asm) | FASM 1.73.32 | `timotei-crackme-01-fasm.bin` (955 o) | même comportement ; ELF tassé, pas de section headers |
 
-`timotei-crackme-01.asm` (IDA) n’est **pas** un source compilable : export listing + en-tête MASM 32 bits fantôme.
+`timotei-crackme-01-idapro.asm` (IDA) n’est **pas** un source compilable : export listing + en-tête MASM 32 bits fantôme.
 
 ### 9.3 Compiler
 
 ```bash
 # NASM (déjà installé ici)
-nasm -f elf64 -o timotei-crackme-01.nasm.o timotei-crackme-01.nasm
+nasm -f elf64 -o timotei-crackme-01-nasm.o timotei-crackme-01-nasm.asm
 ld -nostdlib -static -no-pie \
-   -o timotei-crackme-01.nasm.bin timotei-crackme-01.nasm.o
+   -o timotei-crackme-01-nasm.bin timotei-crackme-01-nasm.o
 
 # FASM — soit le paquet, soit le binaire officiel
 sudo apt install fasm
 # ou : https://flatassembler.net/  → fasm.x64
-fasm timotei-crackme-01.fasm timotei-crackme-01.fasm.bin
+fasm timotei-crackme-01-fasm.asm timotei-crackme-01-fasm.bin
 ```
 
 `-no-pie` est obligatoire pour NASM+ld : sinon le linker moderne sort un PIE et les `mov esi, label` 32 bits cassent.
@@ -762,14 +762,14 @@ Lancer (deux writes séparés, sinon le premier `read(10)` avale PIN + réponse)
 ```bash
 python3 -c "
 import subprocess, time
-p = subprocess.Popen(['./timotei-crackme-01.nasm.bin'], stdin=subprocess.PIPE)
+p = subprocess.Popen(['./timotei-crackme-01-nasm.bin'], stdin=subprocess.PIPE)
 p.stdin.write(b'777\n');  p.stdin.flush(); time.sleep(0.05)
 p.stdin.write(b'+HCU\n'); p.stdin.flush(); p.stdin.close()
 p.wait()
 "
 ```
 
-Même chose avec `timotei-crackme-01.fasm.bin`. Le solveur (`run_binary`) parle au binaire **d’origine** ; pour tester une reconstruction, changer `BINARY` ou lancer comme ci-dessus.
+Même chose avec `timotei-crackme-01-fasm.bin`. Le solveur (`run_binary`) parle au binaire **d’origine** ; pour tester une reconstruction, changer `BINARY` ou lancer comme ci-dessus.
 
 ### 9.4 Vérification live
 
@@ -858,14 +858,14 @@ L’original paginé 4K correspond au FASM « ELF executable » plus ancien (3 `
 ; préfixe 67h, movabs rsi, sub au lieu de xor) suivent le listing du binaire.
 ;
 ; Compiler :
-;   nasm -f elf64 -o timotei-crackme-01.nasm.o timotei-crackme-01.nasm
-;   ld -nostdlib -static -no-pie -o timotei-crackme-01.nasm.bin \
-;      timotei-crackme-01.nasm.o
+;   nasm -f elf64 -o timotei-crackme-01-nasm.o timotei-crackme-01-nasm.asm
+;   ld -nostdlib -static -no-pie -o timotei-crackme-01-nasm.bin \
+;      timotei-crackme-01-nasm.o
 ;
 ; Lancer (deux writes, sinon read(10) avale PIN + réponse) :
 ;   python3 -c "
 ;   import subprocess,time
-;   p=subprocess.Popen(['./timotei-crackme-01.nasm.bin'],stdin=subprocess.PIPE)
+;   p=subprocess.Popen(['./timotei-crackme-01-nasm.bin'],stdin=subprocess.PIPE)
 ;   p.stdin.write(b'777\n'); p.stdin.flush(); time.sleep(0.05)
 ;   p.stdin.write(b'+HCU\n'); p.stdin.flush(); p.stdin.close(); p.wait()
 ;   "
@@ -1011,7 +1011,7 @@ dummy:          db 0
 ; pas un dump du .asm auteur.
 ;
 ; Compiler (produit directement un ELF, pas d'étape ld) :
-;   fasm timotei-crackme-01.fasm timotei-crackme-01.fasm.bin
+;   fasm timotei-crackme-01-fasm.asm timotei-crackme-01-fasm.bin
 ;
 ; Installer fasm si besoin :
 ;   sudo apt install fasm
@@ -1020,7 +1020,7 @@ dummy:          db 0
 ; Lancer (deux writes, sinon read(10) avale PIN + réponse) :
 ;   python3 -c "
 ;   import subprocess,time
-;   p=subprocess.Popen(['./timotei-crackme-01.fasm.bin'],stdin=subprocess.PIPE)
+;   p=subprocess.Popen(['./timotei-crackme-01-fasm.bin'],stdin=subprocess.PIPE)
 ;   p.stdin.write(b'777\n'); p.stdin.flush(); time.sleep(0.05)
 ;   p.stdin.write(b'+HCU\n'); p.stdin.flush(); p.stdin.close(); p.wait()
 ;   "

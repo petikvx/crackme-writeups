@@ -1,13 +1,9 @@
-; timotei-crackme-05 — reconstruction FASM (PE console)
-; L'original est du MASM32 6.14 (DIE), linké par Microsoft Linker 5.12.
-; Ce fichier n'est PAS le .asm auteur : même prédicat, autre image.
+; timotei-crackme-06 — reconstruction FASM (PE console)
+; Original : MASM32 6.14 + link 5.12 (DIE). Même prédicat, autre image.
 ;
-; Compiler (fasm produit le PE directement) :
-;   fasm.x64 timotei-crackme-05.fasm timotei-crackme-05.fasm.bin
-;
-; Lancer sous Wine, keyfile dans le cwd :
-;   python3 timotei-crackme-05-solve.py
-;   wine timotei-crackme-05.fasm.bin
+;   fasm.x64 timotei-crackme-06-fasm.asm timotei-crackme-06-fasm.bin
+;   python3 timotei-crackme-06-solve.py
+;   wine timotei-crackme-06-fasm.bin
 
 format PE console
 entry start
@@ -34,22 +30,20 @@ start:
         call    [ReadFile]
         test    eax, eax
         jz      fail
-        sub     byte [NumberOfBytesRead], 16h
-        jnz     fail
-        mov     eax, buffer
         xor     edx, edx
         xor     ecx, ecx
-sumloop:
-        cmp     ecx, 15h
-        je      sumdone
-        add     dl, [eax]
-        inc     eax
-        inc     ecx
-        jmp     sumloop
-sumdone:
-        cmp     dl, [eax]
+        sub     byte [NumberOfBytesRead], 0Dh
+        jnz     fail
+        mov     eax, buffer
+        add     edx, [eax]
+        sub     edx, [eax+4]
+        add     edx, [eax+8]
+        cmp     edx, 0BC614Eh
+        jl      fail
+        cmp     dl, [eax+0Ch]
         jne     fail
-        mov     byte [eax-0Fh], 69h
+        cmp     byte [eax+0Ah], 36h
+        jne     fail
         push    aAccepted
         call    puts
         push    aCRLF
@@ -104,7 +98,7 @@ waitkey:
 
 section '.data' data readable writeable
 
-FileName        db 'timotei.crackme#5.enjoy!', 0
+FileName        db 'timotei.crackme#6.enjoy!', 0
 buffer          rb 80
 hFile           dd 0
 NumberOfBytesRead dd 0
@@ -120,24 +114,21 @@ section '.idata' import data readable writeable
   dd 0,0,0,0,0
 
 kernel32_iat:
-  CreateFileA            dd RVA _CreateFileA
-  ReadFile               dd RVA _ReadFile
-  CloseHandle            dd RVA _CloseHandle
-  ExitProcess            dd RVA _ExitProcess
-  GetStdHandle           dd RVA _GetStdHandle
-  WriteFile              dd RVA _WriteFile
+  CreateFileA             dd RVA _CreateFileA
+  ReadFile                dd RVA _ReadFile
+  CloseHandle             dd RVA _CloseHandle
+  ExitProcess             dd RVA _ExitProcess
+  GetStdHandle            dd RVA _GetStdHandle
+  WriteFile               dd RVA _WriteFile
   FlushConsoleInputBuffer dd RVA _FlushConsoleInputBuffer
-  Sleep                  dd RVA _Sleep
+  Sleep                   dd RVA _Sleep
   dd 0
-
 msvcrt_iat:
-  _kbhit                 dd RVA __kbhit
-  _getch                 dd RVA __getch
+  _kbhit                  dd RVA __kbhit
+  _getch                  dd RVA __getch
   dd 0
-
 kernel32_name db 'KERNEL32.DLL',0
 msvcrt_name   db 'msvcrt.dll',0
-
 _CreateFileA            dw 0
                         db 'CreateFileA',0
 _ReadFile               dw 0

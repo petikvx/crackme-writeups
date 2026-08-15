@@ -13,8 +13,8 @@ Dossier : `timotei-family/timotei-crackme-02/` — [série](../README.md) · [re
 | [`timotei-crackme-02-idapro.asm`](timotei-crackme-02-idapro.asm) | listing IDA (section 8) |
 | [`timotei-crackme-02-idapro.c`](timotei-crackme-02-idapro.c) | Hex-Rays 9.4 (section 8) |
 | [`timotei-crackme-02.c`](timotei-crackme-02.c) | équivalent C à la main (section 8) |
-| [`timotei-crackme-02.nasm`](timotei-crackme-02.nasm) | source reconstruit NASM (section 9) |
-| [`timotei-crackme-02.fasm`](timotei-crackme-02.fasm) | source reconstruit FASM (section 9) |
+| [`timotei-crackme-02-nasm.asm`](timotei-crackme-02-nasm.asm) | source reconstruit NASM (section 9) |
+| [`timotei-crackme-02-fasm.asm`](timotei-crackme-02-fasm.asm) | source reconstruit FASM (section 9) |
 
 Réponses acceptées (famille, pas un secret unique) :
 
@@ -392,26 +392,26 @@ Ce n’est **pas** le fichier auteur. Le source a disparu (et les symboles avec)
 
 | Fichier | Assembleur | Binaire de test | Résultat |
 |---|---|---|---|
-| [`timotei-crackme-02.nasm`](timotei-crackme-02.nasm) | NASM 2.16.01 | `timotei-crackme-02.nasm.bin` | **`.text` et `.data` identiques** à l’octet près, EP `0x401000` |
-| [`timotei-crackme-02.fasm`](timotei-crackme-02.fasm) | FASM 1.73.32 | `timotei-crackme-02.fasm.bin` (584 o) | même comportement ; ELF tassé, pas de section headers |
+| [`timotei-crackme-02-nasm.asm`](timotei-crackme-02-nasm.asm) | NASM 2.16.01 | `timotei-crackme-02-nasm.bin` | **`.text` et `.data` identiques** à l’octet près, EP `0x401000` |
+| [`timotei-crackme-02-fasm.asm`](timotei-crackme-02-fasm.asm) | FASM 1.73.32 | `timotei-crackme-02-fasm.bin` (584 o) | même comportement ; ELF tassé, pas de section headers |
 
 ### 9.2 Compiler
 
 ```bash
-nasm -f elf64 -o timotei-crackme-02.nasm.o timotei-crackme-02.nasm
+nasm -f elf64 -o timotei-crackme-02-nasm.o timotei-crackme-02-nasm.asm
 ld -nostdlib -static -no-pie \
-   -o timotei-crackme-02.nasm.bin timotei-crackme-02.nasm.o
+   -o timotei-crackme-02-nasm.bin timotei-crackme-02-nasm.o
 
 # FASM 1.73.32 (binaire officiel, pas besoin de sudo)
 # https://flatassembler.net/fasm-1.73.32.tgz  →  fasm/fasm.x64
-fasm.x64 timotei-crackme-02.fasm timotei-crackme-02.fasm.bin
+fasm.x64 timotei-crackme-02-fasm.asm timotei-crackme-02-fasm.bin
 # ou : sudo apt install fasm
 ```
 
 `-no-pie` est obligatoire pour NASM+ld : sinon les `movabs` 64 bits et l’ancre `0x40103F` cassent.
 
 ```bash
-./timotei-crackme-02.nasm.bin '31337!!P'
+./timotei-crackme-02-nasm.bin '31337!!P'
 ```
 
 ### 9.3 Vérification live

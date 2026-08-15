@@ -5,14 +5,14 @@
 ; préfixe 67h, movabs rsi, sub au lieu de xor) suivent le listing du binaire.
 ;
 ; Compiler :
-;   nasm -f elf64 -o timotei-crackme-01.nasm.o timotei-crackme-01.nasm
-;   ld -nostdlib -static -no-pie -o timotei-crackme-01.nasm.bin \
-;      timotei-crackme-01.nasm.o
+;   nasm -f elf64 -o timotei-crackme-01-nasm.o timotei-crackme-01-nasm.asm
+;   ld -nostdlib -static -no-pie -o timotei-crackme-01-nasm.bin \
+;      timotei-crackme-01-nasm.o
 ;
 ; Lancer (deux writes, sinon read(10) avale PIN + réponse) :
 ;   python3 -c "
 ;   import subprocess,time
-;   p=subprocess.Popen(['./timotei-crackme-01.nasm.bin'],stdin=subprocess.PIPE)
+;   p=subprocess.Popen(['./timotei-crackme-01-nasm.bin'],stdin=subprocess.PIPE)
 ;   p.stdin.write(b'777\n'); p.stdin.flush(); time.sleep(0.05)
 ;   p.stdin.write(b'+HCU\n'); p.stdin.flush(); p.stdin.close(); p.wait()
 ;   "

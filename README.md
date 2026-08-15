@@ -38,7 +38,8 @@ Outils Linux (file, objdump, gdb, nasm, wine32, diec, …) :
 - Nom de dossier = nom du crackme, stable, ASCII (`timotei-crackme-01`, pas `timo#1`).
 - Le `.exe` reste pour les binaires Windows.
 - Le write-up s’appelle comme le binaire + `.md`.
-- On ne patche pas le binaire d’origine ; les reconstructions (NASM/FASM) sont des fichiers à part.
+- On ne patche pas le binaire d’origine ; les reconstructions sont des fichiers à part.
+- Sources assembleur en `*.asm` pour la colorisation : `*-nasm.asm`, `*-fasm.asm`, `*-masm.asm`, dumps IDA `*-idapro.asm`.
 
 ## Licence / origine
 

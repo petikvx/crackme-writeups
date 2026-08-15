@@ -13,8 +13,8 @@ Dossier : `timotei-family/timotei-crackme-03/` — [série](../README.md) · [re
 | [`timotei-crackme-03-idapro.asm`](timotei-crackme-03-idapro.asm) | listing IDA (section 8) |
 | [`timotei-crackme-03-idapro.c`](timotei-crackme-03-idapro.c) | Hex-Rays 9.4 (section 8) |
 | [`timotei-crackme-03.c`](timotei-crackme-03.c) | équivalent C à la main (section 8) |
-| [`timotei-crackme-03.nasm`](timotei-crackme-03.nasm) | source reconstruit NASM (section 9) |
-| [`timotei-crackme-03.fasm`](timotei-crackme-03.fasm) | source reconstruit FASM (section 9) |
+| [`timotei-crackme-03-nasm.asm`](timotei-crackme-03-nasm.asm) | source reconstruit NASM (section 9) |
+| [`timotei-crackme-03-fasm.asm`](timotei-crackme-03-fasm.asm) | source reconstruit FASM (section 9) |
 
 Réponse acceptée :
 
@@ -375,21 +375,21 @@ Pas le fichier auteur. Labels reconstruits. Même verdict que #01 / #02 : FASM d
 
 | Fichier | Assembleur | Binaire de test | Résultat |
 |---|---|---|---|
-| [`timotei-crackme-03.nasm`](timotei-crackme-03.nasm) | NASM 2.16.01 | `timotei-crackme-03.nasm.bin` | **`.text` et `.data` identiques**, BSS `0x4020EC` |
-| [`timotei-crackme-03.fasm`](timotei-crackme-03.fasm) | FASM 1.73.32 | `timotei-crackme-03.fasm.bin` (801 o) | même comportement ; ELF tassé |
+| [`timotei-crackme-03-nasm.asm`](timotei-crackme-03-nasm.asm) | NASM 2.16.01 | `timotei-crackme-03-nasm.bin` | **`.text` et `.data` identiques**, BSS `0x4020EC` |
+| [`timotei-crackme-03-fasm.asm`](timotei-crackme-03-fasm.asm) | FASM 1.73.32 | `timotei-crackme-03-fasm.bin` (801 o) | même comportement ; ELF tassé |
 
 ### 9.2 Compiler
 
 ```bash
-nasm -f elf64 -o timotei-crackme-03.nasm.o timotei-crackme-03.nasm
+nasm -f elf64 -o timotei-crackme-03-nasm.o timotei-crackme-03-nasm.asm
 ld -nostdlib -static -no-pie \
-   -o timotei-crackme-03.nasm.bin timotei-crackme-03.nasm.o
+   -o timotei-crackme-03-nasm.bin timotei-crackme-03-nasm.o
 
-fasm.x64 timotei-crackme-03.fasm timotei-crackme-03.fasm.bin
+fasm.x64 timotei-crackme-03-fasm.asm timotei-crackme-03-fasm.bin
 ```
 
 ```bash
-printf 'Defeat COVID!\n' | ./timotei-crackme-03.nasm.bin
+printf 'Defeat COVID!\n' | ./timotei-crackme-03-nasm.bin
 ```
 
 ### 9.3 Vérification live

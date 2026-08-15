@@ -2,6 +2,5 @@
 timotei-family/timotei-crackme-0[1-4] linguist-vendored
 *.exe linguist-vendored
 *.bin linguist-vendored
+# reconstructions : *-nasm.asm / *-fasm.asm / *-masm.asm / *-idapro.asm
 *.asm linguist-language=Assembly
-*.nasm linguist-language=Assembly
-*.fasm linguist-language=Assembly

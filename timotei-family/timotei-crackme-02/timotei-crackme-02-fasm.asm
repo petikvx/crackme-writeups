@@ -4,14 +4,14 @@
 ; (listing + .data), pas un dump du .asm auteur. Strippé : plus de labels.
 ;
 ; Compiler (produit directement un ELF, pas d'étape ld) :
-;   fasm timotei-crackme-02.fasm timotei-crackme-02.fasm.bin
+;   fasm timotei-crackme-02-fasm.asm timotei-crackme-02-fasm.bin
 ;
 ; Installer fasm si besoin :
 ;   sudo apt install fasm
 ;   # ou https://flatassembler.net/  (fasm + fasm.x64)
 ;
 ; Lancer (le secret est argv[1], pas stdin) :
-;   ./timotei-crackme-02.fasm.bin '31337!!P'
+;   ./timotei-crackme-02-fasm.bin '31337!!P'
 
 format ELF64 executable 3
 entry _start

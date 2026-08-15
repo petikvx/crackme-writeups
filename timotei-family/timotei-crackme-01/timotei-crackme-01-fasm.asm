@@ -5,7 +5,7 @@
 ; pas un dump du .asm auteur.
 ;
 ; Compiler (produit directement un ELF, pas d'étape ld) :
-;   fasm timotei-crackme-01.fasm timotei-crackme-01.fasm.bin
+;   fasm timotei-crackme-01-fasm.asm timotei-crackme-01-fasm.bin
 ;
 ; Installer fasm si besoin :
 ;   sudo apt install fasm
@@ -14,7 +14,7 @@
 ; Lancer (deux writes, sinon read(10) avale PIN + réponse) :
 ;   python3 -c "
 ;   import subprocess,time
-;   p=subprocess.Popen(['./timotei-crackme-01.fasm.bin'],stdin=subprocess.PIPE)
+;   p=subprocess.Popen(['./timotei-crackme-01-fasm.bin'],stdin=subprocess.PIPE)
 ;   p.stdin.write(b'777\n'); p.stdin.flush(); time.sleep(0.05)
 ;   p.stdin.write(b'+HCU\n'); p.stdin.flush(); p.stdin.close(); p.wait()
 ;   "

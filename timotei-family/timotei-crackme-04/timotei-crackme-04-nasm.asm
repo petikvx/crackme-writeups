@@ -3,9 +3,9 @@
 ; FNV-1 32 bits sur argv[1], 4 octets, cible 0x6FCD79A2 → +ORC.
 ;
 ; Compiler :
-;   nasm -f elf64 -o timotei-crackme-04.nasm.o timotei-crackme-04.nasm
-;   ld -nostdlib -static -no-pie -o timotei-crackme-04.nasm.bin \
-;      timotei-crackme-04.nasm.o
+;   nasm -f elf64 -o timotei-crackme-04-nasm.o timotei-crackme-04-nasm.asm
+;   ld -nostdlib -static -no-pie -o timotei-crackme-04-nasm.bin \
+;      timotei-crackme-04-nasm.o
 ;
 ; Lancer (l'EP d'origine sort tout de suite ; patcher e_entry → 0x401007) :
 ;   python3 timotei-crackme-04-solve.py

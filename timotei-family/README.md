@@ -40,7 +40,7 @@ python3 timotei-crackme-01-solve.py
 ```
 
 Détail : [timotei-crackme-01.md](timotei-crackme-01/timotei-crackme-01.md)  
-Sources reconstruites : `.nasm` / `.fasm` dans le même dossier.
+Sources reconstruites : `*-nasm.asm` / `*-fasm.asm` (ou `*-masm.asm`) dans le même dossier.
 
 ## #02 en un coup d’œil
 

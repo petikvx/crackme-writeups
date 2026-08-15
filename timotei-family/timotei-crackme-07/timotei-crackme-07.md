@@ -12,7 +12,7 @@ Dossier : `timotei-family/timotei-crackme-07/` — [série](../README.md) · [re
 | [`timotei-crackme-07-solve.py`](timotei-crackme-07-solve.py) | SMC / famille `tI**` (section 6) |
 | [`timotei-crackme-07.c`](timotei-crackme-07.c) | prédicat C (section 8) |
 | [`timotei-crackme-07-idapro.asm`](timotei-crackme-07-idapro.asm) | listing IDA (section 8) |
-| [`timotei-crackme-07.masm`](timotei-crackme-07.masm) | source reconstruit MASM32 (section 9) |
+| [`timotei-crackme-07-masm.asm`](timotei-crackme-07-masm.asm) | source reconstruit MASM32 (section 9) |
 | [`screenshot01.png`](screenshot01.png) | live cmd : `petik` échoue, `tItk` réussit (section 5) |
 | [`screenshot02.png`](screenshot02.png) | x64dbg avant le XOR, buffer `petik\r\n` (section 4) |
 
@@ -323,7 +323,7 @@ return dec[0] == 0xEB && dec[1] == 0x0F;  /* ⇒ password[0:2] == "tI" */
 
 Pas le fichier auteur. DIE dit **MASM32** ; le listing IDA + le PE permettent une reconstruction lisible.
 
-Fichier : [`timotei-crackme-07.masm`](timotei-crackme-07.masm)
+Fichier : [`timotei-crackme-07-masm.asm`](timotei-crackme-07-masm.asm)
 
 ```asm
 invoke  VirtualProtect, offset start, 3E8h, PAGE_EXECUTE_READWRITE, offset oldProt
@@ -344,8 +344,8 @@ good:
 Compiler sous Windows (MASM32) :
 
 ```
-\masm32\bin\ml /c /coff timotei-crackme-07.masm
-\masm32\bin\link /SUBSYSTEM:CONSOLE /OUT:timotei-crackme-07.masm.exe timotei-crackme-07.obj
+\masm32\bin\ml /c /coff timotei-crackme-07-masm.asm
+\masm32\bin\link /SUBSYSTEM:CONSOLE /OUT:timotei-crackme-07-masm.asm.exe timotei-crackme-07.obj
 ```
 
 Le `dd 9090469Fh` est calé pour la **géométrie du PE d’origine** (13 octets entre la fin du dword et `good`, pour que `EB 0F` tombe juste). Un `ml`/`link` moderne peut décaler les VA : dans ce cas, recalculer

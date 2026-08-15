@@ -13,7 +13,7 @@ Dossier : `timotei-family/timotei-crackme-06/` — [série](../README.md) · [re
 | [`timotei-crackme-06-idapro.asm`](timotei-crackme-06-idapro.asm) | listing IDA (section 8) |
 | [`timotei-crackme-06-idapro.c`](timotei-crackme-06-idapro.c) | Hex-Rays 9.4 (section 8) |
 | [`timotei-crackme-06.c`](timotei-crackme-06.c) | prédicat C (section 8) |
-| [`timotei-crackme-06.fasm`](timotei-crackme-06.fasm) | reconstruction FASM PE (section 9) |
+| [`timotei-crackme-06-fasm.asm`](timotei-crackme-06-fasm.asm) | reconstruction FASM PE (section 9) |
 
 Réponse acceptée (famille) :
 
@@ -235,9 +235,9 @@ if (buf[10] != '6') fail;
 
 ## 9. Reconstruction FASM
 
-Original = MASM32. Fichier : [`timotei-crackme-06.fasm`](timotei-crackme-06.fasm) → `timotei-crackme-06.fasm.bin` (PE console).
+Original = MASM32. Fichier : [`timotei-crackme-06-fasm.asm`](timotei-crackme-06-fasm.asm) → `timotei-crackme-06-fasm.bin` (PE console).
 
 ```bash
-fasm.x64 timotei-crackme-06.fasm timotei-crackme-06.fasm.bin
-wine timotei-crackme-06.fasm.bin
+fasm.x64 timotei-crackme-06-fasm.asm timotei-crackme-06-fasm.bin
+wine timotei-crackme-06-fasm.bin
 ```

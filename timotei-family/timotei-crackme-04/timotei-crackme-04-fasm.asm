@@ -2,7 +2,7 @@
 ; ELF64 "executable" d'un seul fichier. EP leurre + FNV-1 sur argv[1].
 ;
 ; Compiler :
-;   fasm.x64 timotei-crackme-04.fasm timotei-crackme-04.fasm.bin
+;   fasm.x64 timotei-crackme-04-fasm.asm timotei-crackme-04-fasm.bin
 ;
 ; Même contrainte que l'original : l'EP tombe sur le stub exit.
 ; Pour tester : patcher e_entry sur real_start, ou NOP les 7 premiers octets.

@@ -3,10 +3,10 @@
 ; Reconstruction depuis le binaire, pas un dump du .asm auteur.
 ;
 ; Compiler :
-;   fasm.x64 timotei-crackme-03.fasm timotei-crackme-03.fasm.bin
+;   fasm.x64 timotei-crackme-03-fasm.asm timotei-crackme-03-fasm.bin
 ;
 ; Lancer :
-;   printf 'Defeat COVID!\n' | ./timotei-crackme-03.fasm.bin
+;   printf 'Defeat COVID!\n' | ./timotei-crackme-03-fasm.bin
 
 format ELF64 executable 3
 entry _start
