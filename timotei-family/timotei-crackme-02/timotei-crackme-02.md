@@ -10,6 +10,8 @@ Dossier : `timotei-family/timotei-crackme-02/` — [série](../README.md) · [re
 | `timotei-crackme-02` | binaire d’origine |
 | [`timotei-crackme-02.md`](timotei-crackme-02.md) | ce write-up |
 | [`timotei-crackme-02-solve.py`](timotei-crackme-02-solve.py) | solveur pack ROL8 + jump (section 6) |
+| [`timotei-crackme-02-idapro.asm`](timotei-crackme-02-idapro.asm) | listing IDA (section 8) |
+| [`timotei-crackme-02-idapro.c`](timotei-crackme-02-idapro.c) | Hex-Rays 9.4 (section 8) |
 | [`timotei-crackme-02.c`](timotei-crackme-02.c) | équivalent C à la main (section 8) |
 | [`timotei-crackme-02.nasm`](timotei-crackme-02.nasm) | source reconstruit NASM (section 9) |
 | [`timotei-crackme-02.fasm`](timotei-crackme-02.fasm) | source reconstruit FASM (section 9) |
@@ -316,9 +318,58 @@ Contrairement au #01, un mauvais input ne se tait pas toujours : la plupart des 
 
 ---
 
-## 8. Équivalent C (à la main)
+## 8. Dumps IDA Pro (asm + Hex-Rays)
 
-Pas d’IDA / Hex-Rays ici : 115 octets de `.text` strippé, le listing tient dans un écran. Fichier : [`timotei-crackme-02.c`](timotei-crackme-02.c).
+Fichiers ajoutés :
+
+| Fichier | Origine |
+|---|---|
+| [`timotei-crackme-02-idapro.asm`](timotei-crackme-02-idapro.asm) | listing IDA (Intel) |
+| [`timotei-crackme-02-idapro.c`](timotei-crackme-02-idapro.c) | Hex-Rays 9.4 (une seule fonction : `start`) |
+| [`timotei-crackme-02.c`](timotei-crackme-02.c) | C à la main, juste le prédicat |
+
+Hashes IDA = ceux de `diec` : MD5 `3EE57072020F7B5666B4A9FAD51269F8`, SHA256 `E851D0C3…16DE`.
+
+Binaire strippé : pas de labels auteur. IDA a posé `start`, `loc_401028` (pack), `loc_40103F` (ancre), `loc_401069` (`out`). Les syscalls sont annotés `sys_write` / `sys_exit`. Constantes visibles : `0AFDCh`, `2Fh`.
+
+### Ce que Hex-Rays a bien reconstruit
+
+Le pack ROL8 est lisible :
+
+```c
+LOBYTE(v11) = *v13;
+v11 = __ROL8__(v11, 8);
+++v13;
+```
+
+`argc == 2` apparaît comme `(_BYTE)retaddr == 2` : Hex-Rays prend `[rsp]` pour l’adresse de retour d’un `start` C, alors que c’est `argc` au `_start` nu. L’octet comparé est le bon.
+
+Le jump calculé survit, une fois `20516` remis en hexa :
+
+```c
+LOWORD(v12) = v11 - 20516;   // 20516 = 0x5024
+return ((...)((char *)&loc_40103F + v12))(...);
+```
+
+`add rbx, 0xAFDC` puis `mov di, bx` : `0xAFDC ≡ -0x5024 (mod 2^16)`, donc `LOWORD(rbx - 20516) == (rbx + 0xAFDC) & 0xFFFF`. Le `di` est juste. Hex-Rays a transformé le `jmp rax` en appel de fonction (tail call).
+
+### Pièges dans ces dumps
+
+1. **« Compiler : GNU C++ »** — faux. Asm à la main, DIE « Unknown ». En-tête MASM `.686p` / `.model flat` : artefact 32 bits sur un ELF64.
+
+2. **`goodway` a disparu du C.** Après `jmp rax`, le `sys_write` de `0x40104E` n’est plus dans le graphe. Hex-Rays s’arrête au jump / `sys_exit`. Si on ne lit que le `.c`, on ne voit jamais `_.:pass accepted:._`. Le listing a le `write` juste sous le `jmp rax`, sans label.
+
+3. **`[rsp+arg_8]`.** IDA a fabriqué un frame : `arg_8 = qword ptr 10h`. `mov rdi, [rsp+arg_8]` est bien `[rsp+0x10] = argv[1]`. Le nom ment, l’adresse non.
+
+4. **`buf db '…', 0Ah, 0` puis 200 `db 0`.** IDA a mis un `0` dans le label `buf` (21 octets) et dumpé le padding octet par octet. Le `write` envoie `0x2F` octets, `0` compris. `Credit` / `greetz` sont bien là, jamais référencés — Hex-Rays ne les montre pas.
+
+5. **Les autres atterrissages n’existent pas en C.** Boucle `di==0`, `exit` silencieux `di==0x2A`, `SIGSEGV` : uniquement dans le listing / ndisasm.
+
+En pratique : le `.asm` IDA pour l’ancre `loc_40103F` et le `jmp rax`, le `.c` pour le `ROL8`, et le C à la main (ou le listing) dès que Hex-Rays avale le `write` de succès.
+
+### C à la main
+
+Fichier : [`timotei-crackme-02.c`](timotei-crackme-02.c). Le prédicat seulement — le binaire ne compare pas `di` à `0x0F`, il saute.
 
 ```c
 rbx = 0;
@@ -330,8 +381,6 @@ di = (uint16_t)(rbx + 0xAFDC);
 if (di == 0x0F)
     syscall(SYS_write, 1, good, 0x2F);
 ```
-
-C’est le prédicat, pas le crackme : le binaire ne compare pas `di` à `0x0F`, il saute. Les mauvais `di` ne prennent pas un `else` ; ils décodent autre chose.
 
 ---
 

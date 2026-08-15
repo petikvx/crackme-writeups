@@ -1,5 +1,5 @@
-/* timotei-crackme-02 — reconstruction C à la main (binaire strippé,
- * 0x73 octets de .text, pas de Hex-Rays sous la main).
+/* timotei-crackme-02 — reconstruction C à la main (binaire strippé).
+ * Hex-Rays : timotei-crackme-02-idapro.c (le write de succès y disparaît).
  *
  * Équivalent du listing à 0x401000. Les crédits / greetz du .data ne
  * sont jamais référencés. Le secret est argv[1], pas stdin.

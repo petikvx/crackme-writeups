@@ -21,7 +21,7 @@ crackme-writeups/timotei-family/
 |---|---|---|---|
 | [01](timotei-crackme-01/timotei-crackme-01.md) | ELF64 Linux (asm, non strippé) | oui | PIN `777` ou `1509`, puis `+HCU` |
 | [02](timotei-crackme-02/timotei-crackme-02.md) | ELF64 Linux (stripped) | oui | `argv[1]` : `s[-8]=='3'` et `s[-1]=='P'` (ex. `31337!!P`) |
-| 03 | ELF64 Linux (`int 0x80`) | — | — |
+| [03](timotei-crackme-03/timotei-crackme-03.md) | ELF64 Linux (`int 0x80`) | oui | stdin : `Defeat COVID!` |
 | 04 | ELF64 Linux | — | — |
 | 05 | PE32 console | — | — |
 | 06 | PE32 console | — | — |
@@ -52,6 +52,17 @@ python3 timotei-crackme-02/timotei-crackme-02-solve.py
 ```
 
 Détail : [timotei-crackme-02.md](timotei-crackme-02/timotei-crackme-02.md)
+
+## #03 en un coup d’œil
+
+UI ANSI + mix `int 0x80` / `syscall`. Le hint `Defeat COVID` est dans le `.data` ; le check impose le `!`.
+
+```bash
+printf 'Defeat COVID!\n' | ./timotei-crackme-03/timotei-crackme-03
+python3 timotei-crackme-03/timotei-crackme-03-solve.py
+```
+
+Détail : [timotei-crackme-03.md](timotei-crackme-03/timotei-crackme-03.md)
 
 ## Origine
 

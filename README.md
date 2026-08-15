@@ -23,7 +23,7 @@ Pour ajouter une série : un nouveau dossier à la racine, le même schéma à l
 
 | Famille | Auteur | Épreuves | Résolues |
 |---|---|---|---|
-| [timotei-family](timotei-family/README.md) | timotei | 12 (4 ELF64 + 8 PE32) | 2 / 12 |
+| [timotei-family](timotei-family/README.md) | timotei | 12 (4 ELF64 + 8 PE32) | 3 / 12 |
 
 ## Convention
 

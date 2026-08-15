@@ -1,0 +1,149 @@
+; timotei-crackme-03 — reconstruction FASM
+; ELF64 "executable" d'un seul fichier, mix int 0x80 + syscall.
+; Reconstruction depuis le binaire, pas un dump du .asm auteur.
+;
+; Compiler :
+;   fasm.x64 timotei-crackme-03.fasm timotei-crackme-03.fasm.bin
+;
+; Lancer :
+;   printf 'Defeat COVID!\n' | ./timotei-crackme-03.fasm.bin
+
+format ELF64 executable 3
+entry _start
+
+segment readable executable
+
+_start:
+        mov     eax, 4
+        mov     ebx, 1
+        mov     ecx, cls
+        mov     edx, 4
+        int     80h
+
+        mov     eax, 4
+        mov     ebx, 1
+        mov     ecx, cur1
+        mov     edx, 7
+        int     80h
+
+        mov     eax, 1
+        mov     edi, 1
+        db      48h, 0BEh
+        dq      stars
+        mov     edx, 29h
+        syscall
+
+        mov     eax, 4
+        mov     ebx, 1
+        mov     ecx, cur4
+        mov     edx, 7
+        int     80h
+
+        mov     eax, 1
+        mov     edi, 1
+        db      48h, 0BEh
+        dq      stars
+        mov     edx, 29h
+        syscall
+
+        mov     eax, 4
+        mov     ebx, 1
+        mov     ecx, blink
+        mov     edx, 0Ah
+        int     80h
+
+        mov     eax, 4
+        mov     ebx, 1
+        mov     ecx, cur2
+        mov     edx, 7
+        int     80h
+
+        mov     eax, 1
+        mov     edi, 1
+        db      48h, 0BEh
+        dq      warn
+        mov     edx, 29h
+        syscall
+
+        mov     eax, 4
+        mov     ebx, 1
+        mov     ecx, reset
+        mov     edx, 9
+        int     80h
+
+        mov     eax, 4
+        mov     ebx, 1
+        mov     ecx, cur3
+        mov     edx, 7
+        int     80h
+
+        mov     eax, 1
+        mov     edi, 1
+        db      48h, 0BEh
+        dq      prompt
+        mov     edx, 14h
+        syscall
+
+        mov     eax, 0
+        mov     edi, 0
+        mov     esi, buffer
+        mov     edx, 64h
+        syscall
+
+        xor     ebx, ebx
+        mov     ecx, buffer
+        mov     dl, [ecx + 0Ch]
+        sub     dl, 30h
+check:
+        mov     bl, [ecx]
+        cmp     bl, 0Ah
+        je      compare
+        add     [ecx], dl
+        inc     ecx
+        jmp     check
+
+compare:
+        mov     esi, buffer
+        mov     edi, secret
+        mov     ecx, 0Eh
+        repz    cmpsb
+        test    ecx, ecx
+        jnz     _out
+
+        mov     eax, 4
+        mov     ebx, 1
+        mov     ecx, cls
+        mov     edx, 4
+        int     80h
+
+        mov     eax, 1
+        mov     edi, 1
+        db      48h, 0BEh
+        dq      good
+        mov     edx, 1Ch
+        syscall
+
+_out:
+        mov     eax, 1
+        xor     ebx, ebx
+        int     80h
+
+segment readable writable
+
+Credit          db '._:timotei crackme#3:_:.', 0
+hint            db 'Defeat COVID', 0
+secret          db 35h, 56h, 57h, 56h, 52h, 65h, 11h
+                db 34h, 40h, 47h, 3Ah, 35h, 12h, 00h
+cls             db 1Bh, '[2J'
+blink           db 1Bh, '[5;37;1m', 0
+reset           db 1Bh, '[0;0;0m', 0
+cur1            db 1Bh, '[1;10H'
+cur2            db 1Bh, '[2;10H'
+cur3            db 1Bh, '[3;10H'
+cur4            db 1Bh, '[4;10H'
+stars           db '****************************************', 10
+warn            db '*.warning - self destruction activated.*', 10
+prompt          db '*.enter abort code: '
+good            db '*.Code accepted.Take care!*', 10
+                rb 3                    ; align 4, comme .bss @ +3
+buffer          rb 100
