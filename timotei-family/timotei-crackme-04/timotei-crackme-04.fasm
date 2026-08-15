@@ -1,0 +1,66 @@
+; timotei-crackme-04 — reconstruction FASM
+; ELF64 "executable" d'un seul fichier. EP leurre + FNV-1 sur argv[1].
+;
+; Compiler :
+;   fasm.x64 timotei-crackme-04.fasm timotei-crackme-04.fasm.bin
+;
+; Même contrainte que l'original : l'EP tombe sur le stub exit.
+; Pour tester : patcher e_entry sur real_start, ou NOP les 7 premiers octets.
+
+format ELF64 executable 3
+entry _start
+
+segment readable executable
+
+_start:
+        nop
+        push    _out
+        ret
+
+real_start:
+        cmp     byte [rsp], 2
+        jne     _out
+
+        mov     rdi, [rsp + 10h]
+        sub     ecx, ecx
+        sub     al, al
+        not     ecx
+        cld
+        repnz   scasb
+        not     ecx
+        dec     ecx
+        sub     ecx, 4
+        jne     _out
+
+        mov     rsi, [rsp + 10h]
+        mov     ecx, 4
+        mov     eax, 811C9DC5h
+        mov     edi, 1000193h
+        xor     ebx, ebx
+nextbyte:
+        mul     edi
+        mov     bl, [rsi]
+        xor     eax, ebx
+        inc     rsi
+        dec     ecx
+        jnz     nextbyte
+        cmp     eax, 6FCD79A2h
+        jne     _out
+
+        mov     eax, 1
+        mov     edi, 1
+        db      48h, 0BEh
+        dq      good
+        mov     edx, 0Eh
+        syscall
+
+_out:
+        mov     eax, 60
+        xor     rdi, rdi
+        syscall
+
+segment readable writable
+
+Credit          db '._:timotei crackme#4:_:.', 0
+good            db '_.:solved:._', 10, 0
+riddle          db "'Gold, with six bars, or with the visor raised (in full face) for royalty, Silver, with five bars, (in full face) for a duke or marquis, Silver, with four bars, with visor raised (in profile) for an earl, viscount or baron, Steel, without bars, and with visor open (in full face) for a knight or a baronet, Steel, with visor closed (in profile) for a squire or a gentleman.'hint: He is a legend so far for the cue, tell me to whom does this question leads to? To prove your thoughts to be dead right, Fowler,Noll and Vo stays on your side."

@@ -22,7 +22,7 @@ crackme-writeups/timotei-family/
 | [01](timotei-crackme-01/timotei-crackme-01.md) | ELF64 Linux (asm, non strippé) | oui | PIN `777` ou `1509`, puis `+HCU` |
 | [02](timotei-crackme-02/timotei-crackme-02.md) | ELF64 Linux (stripped) | oui | `argv[1]` : `s[-8]=='3'` et `s[-1]=='P'` (ex. `31337!!P`) |
 | [03](timotei-crackme-03/timotei-crackme-03.md) | ELF64 Linux (`int 0x80`) | oui | stdin : `Defeat COVID!` |
-| 04 | ELF64 Linux | — | — |
+| [04](timotei-crackme-04/timotei-crackme-04.md) | ELF64 Linux | oui | `argv[1]` : `+ORC` (EP leurre, FNV-1) |
 | 05 | PE32 console | — | — |
 | 06 | PE32 console | — | — |
 | 07 | PE32 console (MASM) | — | — |
@@ -63,6 +63,16 @@ python3 timotei-crackme-03/timotei-crackme-03-solve.py
 ```
 
 Détail : [timotei-crackme-03.md](timotei-crackme-03/timotei-crackme-03.md)
+
+## #04 en un coup d’œil
+
+L’EP `push exit / ret` sort tout de suite. `./timotei-crackme-04 +ORC` et `./timotei-crackme-04 rt` sont identiques. Le script Python **n’est pas un lanceur** : il retrouve le FNV, puis montre la différence sur une copie (`e_entry` → `0x401007`).
+
+```bash
+python3 timotei-crackme-04/timotei-crackme-04-solve.py
+```
+
+Détail : [timotei-crackme-04.md](timotei-crackme-04/timotei-crackme-04.md)
 
 ## Origine
 
