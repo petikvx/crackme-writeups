@@ -1,0 +1,77 @@
+; timotei-crackme-02 — reconstruction FASM
+; Dialecte le plus proche de l'original : ELF64 "executable" d'un seul
+; fichier, pas de libc, pas de crt. Reconstruction depuis le binaire
+; (listing + .data), pas un dump du .asm auteur. Strippé : plus de labels.
+;
+; Compiler (produit directement un ELF, pas d'étape ld) :
+;   fasm timotei-crackme-02.fasm timotei-crackme-02.fasm.bin
+;
+; Installer fasm si besoin :
+;   sudo apt install fasm
+;   # ou https://flatassembler.net/  (fasm + fasm.x64)
+;
+; Lancer (le secret est argv[1], pas stdin) :
+;   ./timotei-crackme-02.fasm.bin '31337!!P'
+
+format ELF64 executable 3
+entry _start
+
+; FASM 1.73 tasse le ELF (code juste après le header).
+; L'original 2020 est paginé 4K (EP 0x401000, data 0x402000). Même code.
+segment readable executable
+
+_start:
+        cmp     byte [rsp], 2
+        jne     _out
+
+        mov     rdi, [rsp + 10h]
+        sub     ecx, ecx
+        sub     al, al
+        not     ecx
+        cld
+        repnz   scasb
+        not     ecx
+        dec     ecx
+        cmp     ecx, 3
+        jle     _out
+
+        sub     rbx, rbx
+        sub     rdi, rdi
+        mov     rax, [rsp + 10h]
+pack:
+        mov     bl, [rax]
+        rol     rbx, 8
+        inc     rax
+        dec     ecx
+        jnz     pack
+
+        add     rbx, 0AFDCh
+        mov     di, bx
+here:
+        ; FASM encode `mov rax, here` en 48 C7 C0 imm32 (7 o) dès que
+        ; l'adresse tient dans un imm32 signé. L'offset du jump EST cette
+        ; taille : 10+3+2 = 0Fh. Il faut le movabs 10 octets (48 B8 imm64).
+        db      48h, 0B8h
+        dq      here
+        add     rax, rdi
+        jmp     rax                     ; goodway ssi di == 0Fh
+
+goodway:
+        mov     eax, 1
+        mov     edi, 1
+        db      48h, 0BEh               ; movabs rsi, good (10 o, comme l'original)
+        dq      good
+        mov     edx, 2Fh
+        syscall
+
+_out:
+        mov     eax, 60
+        xor     rdi, rdi
+        syscall
+
+segment readable writable
+
+Credit          db '._:timotei crackme#2:_:.', 0
+greetz          db ':.greetz fly out to jeffli6789 & BinaryNewbie..', 0
+good            db '_.:pass accepted:._', 10
+                db 200 dup 0

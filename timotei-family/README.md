@@ -20,7 +20,7 @@ crackme-writeups/timotei-family/
 | # | Plateforme | Write-up | Solution |
 |---|---|---|---|
 | [01](timotei-crackme-01/timotei-crackme-01.md) | ELF64 Linux (asm, non strippé) | oui | PIN `777` ou `1509`, puis `+HCU` |
-| 02 | ELF64 Linux (stripped) | — | — |
+| [02](timotei-crackme-02/timotei-crackme-02.md) | ELF64 Linux (stripped) | oui | `argv[1]` : `s[-8]=='3'` et `s[-1]=='P'` (ex. `31337!!P`) |
 | 03 | ELF64 Linux (`int 0x80`) | — | — |
 | 04 | ELF64 Linux | — | — |
 | 05 | PE32 console | — | — |
@@ -41,6 +41,17 @@ python3 timotei-crackme-01-solve.py
 
 Détail : [timotei-crackme-01.md](timotei-crackme-01/timotei-crackme-01.md)  
 Sources reconstruites : `.nasm` / `.fasm` dans le même dossier.
+
+## #02 en un coup d’œil
+
+Pas de prompt : le secret est `argv[1]`. Famille, pas un unique mot de passe.
+
+```bash
+./timotei-crackme-02/timotei-crackme-02 '31337!!P'
+python3 timotei-crackme-02/timotei-crackme-02-solve.py
+```
+
+Détail : [timotei-crackme-02.md](timotei-crackme-02/timotei-crackme-02.md)
 
 ## Origine
 
