@@ -9,6 +9,7 @@ Les binaires d’origine sont inclus. Ce ne sont **pas** des malwares, mais un A
 ```
 crackme-writeups/
 ├── README.md                 ← tu es ici
+├── scripts/install-re-tools.sh
 └── <famille>/
     ├── README.md             ← liste des épreuves de cette série
     └── <nom-du-crackme>/
