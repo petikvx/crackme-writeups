@@ -24,7 +24,7 @@ crackme-writeups/timotei-family/
 | [03](timotei-crackme-03/timotei-crackme-03.md) | ELF64 Linux (`int 0x80`) | oui | stdin : `Defeat COVID!` |
 | [04](timotei-crackme-04/timotei-crackme-04.md) | ELF64 Linux | oui | `argv[1]` : `+ORC` (EP leurre, FNV-1) |
 | [05](timotei-crackme-05/timotei-crackme-05.md) | PE32 console | oui | keyfile 22 o, checksum 8 bits (ex. `crackme#5 keyfile OK!` + `0x12`) |
-| 06 | PE32 console | — | — |
+| [06](timotei-crackme-06/timotei-crackme-06.md) | PE32 console | oui | keyfile 13 o : `A-B+C >= 12345678`, `buf[10]=='6'` (ex. `0000000000600`) |
 | 07 | PE32 console (MASM) | — | — |
 | 08 | PE32 console | — | — |
 | 09 | PE32 GUI | — | — |
@@ -85,6 +85,17 @@ python3 timotei-crackme-05/timotei-crackme-05-solve.py
 ```
 
 Détail : [timotei-crackme-05.md](timotei-crackme-05/timotei-crackme-05.md)
+
+## #06 en un coup d’œil
+
+Même gabarit que le #05, keyfile `timotei.crackme#6.enjoy!` : 13 octets, 3 dwords + `'6'` + low byte.
+
+```bash
+python3 timotei-crackme-06/timotei-crackme-06-solve.py
+wine timotei-crackme-06/timotei-crackme-06.exe
+```
+
+Détail : [timotei-crackme-06.md](timotei-crackme-06/timotei-crackme-06.md)
 
 ## Origine
 
