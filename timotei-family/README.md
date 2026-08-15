@@ -23,7 +23,7 @@ crackme-writeups/timotei-family/
 | [02](timotei-crackme-02/timotei-crackme-02.md) | ELF64 Linux (stripped) | oui | `argv[1]` : `s[-8]=='3'` et `s[-1]=='P'` (ex. `31337!!P`) |
 | [03](timotei-crackme-03/timotei-crackme-03.md) | ELF64 Linux (`int 0x80`) | oui | stdin : `Defeat COVID!` |
 | [04](timotei-crackme-04/timotei-crackme-04.md) | ELF64 Linux | oui | `argv[1]` : `+ORC` (EP leurre, FNV-1) |
-| 05 | PE32 console | — | — |
+| [05](timotei-crackme-05/timotei-crackme-05.md) | PE32 console | oui | keyfile 22 o, checksum 8 bits (ex. `crackme#5 keyfile OK!` + `0x12`) |
 | 06 | PE32 console | — | — |
 | 07 | PE32 console (MASM) | — | — |
 | 08 | PE32 console | — | — |
@@ -73,6 +73,18 @@ python3 timotei-crackme-04/timotei-crackme-04-solve.py
 ```
 
 Détail : [timotei-crackme-04.md](timotei-crackme-04/timotei-crackme-04.md)
+
+## #05 en un coup d’œil
+
+PE32, keyfile `timotei.crackme#5.enjoy!` (22 octets, dernier = somme des 21). L’analyse se fait sous Linux ; l’exec = Wine ou VirtualBox ([§10](timotei-crackme-05/timotei-crackme-05.md#10-lancer-le-exe-depuis-linux)).
+
+```bash
+python3 timotei-crackme-05/timotei-crackme-05-solve.py
+# puis, dans ce dossier :
+#   wine timotei-crackme-05.exe
+```
+
+Détail : [timotei-crackme-05.md](timotei-crackme-05/timotei-crackme-05.md)
 
 ## Origine
 
