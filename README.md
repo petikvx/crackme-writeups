@@ -20,6 +20,13 @@ crackme-writeups/
 
 Pour ajouter une série : un nouveau dossier à la racine, le même schéma à l’intérieur.
 
+Outils Linux (file, objdump, gdb, nasm, wine32, diec, …) :
+
+```bash
+./scripts/install-re-tools.sh --dry-run
+./scripts/install-re-tools.sh          # sudo / apt
+```
+
 ## Familles
 
 | Famille | Auteur | Épreuves | Résolues |
