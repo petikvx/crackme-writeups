@@ -1,0 +1,38 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a154aca8fab7bbca27302a2
+
+urls:
+  page: https://crackmes.one/crackme/6a154aca8fab7bbca27302a2
+  download: https://crackmes.one/download/crackme/6a154aca8fab7bbca27302a2
+
+title: "CrackNotMe's CrackmesForBeginners (CFB) #3"
+author_on_site: "CrackNotMe"
+author_local: "cracknotme"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: 3
+local_slug: CFB3
+
+binary:
+  path: "original/CFB3.exe"
+  name: "CFB3.exe"
+  sha256: "5398416bb82f08c4f6a8779b83d97d2137a058218b07b0f7098ef70cdb639aca"
+  md5: "241b6b3865204d9e0ba2b75d179ee462"
+  size_bytes: 262144
+
+status: solved
+solution_summary: >-
+  Mini-VM bytecode in .rdata: per-char LOAD + XORI/ADD + CMP/JNE.
+  Password pwn_vm_3 (Wine ACCESS GRANTED).
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-16T19:59:00Z"
