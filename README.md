@@ -49,20 +49,33 @@ Outils Linux (file, objdump, gdb, nasm, wine32, diec, …) :
 ./scripts/add-crackme.sh --author timotei <id-ou-url>
 
 # options
-./scripts/add-crackme.sh --dry-run <id>       # simule, n’écrit rien
-./scripts/add-crackme.sh --no-download <id>   # dossiers + ORIGIN sans ZIP
+./scripts/add-crackme.sh --dry-run <id>         # simule, n’écrit rien
+./scripts/add-crackme.sh --no-download <id>     # dossiers + ORIGIN sans ZIP
+./scripts/add-crackme.sh --skip-existing <id>   # si l’ID est déjà là → exit 0
+./scripts/add-crackme.sh --force <id>           # re-scaffold + re-télécharge (écrase ORIGIN/README squelette)
 ```
+
+**ID déjà présent**
+
+Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
+
+- En **TTY** : menu  
+  `[a]` annuler (défaut) · `[s]` skip · `[r]` re-télécharger `original/` seulement · `[f]` force scaffold  
+  Si le challenge a l’air déjà travaillé (tools/analysis/write-up/`status: solved`), le mode scaffold demande une confirmation.
+- Hors TTY : **erreur** (rien n’est téléchargé), sauf `--skip-existing` ou `--force`.
+- Mode `[r]` : ne touche pas au README / write-up ; conserve `original/source/` s’il existe ; met à jour les hash dans `ORIGIN.yml`.
 
 **Ce que fait le script**
 
 1. Extrait l’**ID** (24 hex) depuis l’URL ou l’argument.
 2. (Best-effort) lit titre / auteur / plateforme sur la page crackmes.one.
 3. Résout l’auteur local via `authors/*/author.yml` (`aliases`), ou crée un nouveau slug.
-4. Télécharge le ZIP (`…/download/crackme/<id>`).
-5. Dézippe avec **7z** et le mot de passe du site : **`crackmes.one`**  
+4. Si l’ID existe déjà → menu / flags (ci-dessus) ; **pas de download** tant qu’on n’a pas choisi.
+5. Télécharge le ZIP (`…/download/crackme/<id>`).
+6. Dézippe avec **7z** et le mot de passe du site : **`crackmes.one`**  
    (`7z x -y -pcrackmes.one -ooriginal/ …`).
-6. Calcule **sha256** / md5 du binaire extrait.
-7. Crée :
+7. Calcule **sha256** / md5 du binaire extrait.
+8. Crée :
    ```text
    authors/<auteur>/<id>/
      ORIGIN.yml     # id + urls + binary.path + binary.sha256
@@ -71,7 +84,7 @@ Outils Linux (file, objdump, gdb, nasm, wine32, diec, …) :
      analysis/      # vide (IDA, screens plus tard)
      tools/         # vide (solveur, recon plus tard)
    ```
-8. Met à jour `authors/<auteur>/catalog.yml` (`by_id` / `by_sha256`).
+9. Met à jour `authors/<auteur>/catalog.yml` (`by_id` / `by_sha256`).
 
 **Ensuite (manuel)**
 

@@ -6,6 +6,12 @@
 #   ./scripts/add-crackme.sh https://crackmes.one/download/crackme/6991e765853c2615340abd8c
 #   ./scripts/add-crackme.sh 6991e765853c2615340abd8c
 #   ./scripts/add-crackme.sh --author timotei 64e275ead931496abf908ff7
+#   ./scripts/add-crackme.sh --force <id>          # re-télécharge même si l’ID existe
+#   ./scripts/add-crackme.sh --skip-existing <id>  # exit 0 si déjà là (CI / boucles)
+#
+# Si l’ID existe déjà : pas de téléchargement automatique. En TTY, menu
+# (annuler / skip / re-télécharger le binaire / forcer scaffold). Hors TTY :
+# erreur, sauf --force / --skip-existing.
 #
 # ZIP crackmes.one : password = crackmes.one  (extrait avec 7z -p…)
 #
@@ -17,9 +23,13 @@ USER_AGENT="crackme-writeups-add-crackme/1.0 (+https://github.com/petikvx/crackm
 AUTHOR_FORCE=""
 DRY_RUN=0
 NO_DOWNLOAD=0
+FORCE=0
+SKIP_EXISTING=0
+# none | abort | skip | redl | rescaffold
+EXISTING_ACTION=""
 
 usage() {
-  sed -n '2,14p' "$0" | sed 's/^# \?//'
+  sed -n '2,20p' "$0" | sed 's/^# \?//'
   exit "${1:-0}"
 }
 
@@ -39,6 +49,8 @@ while [[ $# -gt 0 ]]; do
     --author) AUTHOR_FORCE="${2:-}"; shift 2 ;;
     --dry-run) DRY_RUN=1; shift ;;
     --no-download) NO_DOWNLOAD=1; shift ;;
+    --force|-f) FORCE=1; shift ;;
+    --skip-existing) SKIP_EXISTING=1; shift ;;
     --) shift; ARGS+=("$@"); break ;;
     -*) die "option inconnue: $1" ;;
     *) ARGS+=("$1"); shift ;;
@@ -46,6 +58,9 @@ while [[ $# -gt 0 ]]; do
 done
 [[ ${#ARGS[@]} -ge 1 ]] || usage 1
 INPUT="${ARGS[0]}"
+if [[ "$FORCE" -eq 1 && "$SKIP_EXISTING" -eq 1 ]]; then
+  die "--force et --skip-existing sont mutuellement exclusifs"
+fi
 
 # --- parse ID (24 hex) ---
 extract_id() {
@@ -62,6 +77,26 @@ ID="$(extract_id "$INPUT" || true)"
 
 PAGE_URL="https://crackmes.one/crackme/${ID}"
 DL_URL="https://crackmes.one/download/crackme/${ID}"
+
+# Recherche précoce authors/*/<id> (avant curl métadonnées / download)
+find_existing_dirs() {
+  local id="$1"
+  local d
+  [[ -d "$ROOT/authors" ]] || return 0
+  shopt -s nullglob
+  for d in "$ROOT/authors"/*/"$id"; do
+    [[ -d "$d" ]] && printf '%s\n' "$d"
+  done
+  shopt -u nullglob
+}
+
+mapfile -t EXISTING_DIRS_EARLY < <(find_existing_dirs "$ID")
+if [[ ${#EXISTING_DIRS_EARLY[@]} -gt 0 && "$SKIP_EXISTING" -eq 1 ]]; then
+  log "id           : $ID"
+  log "existant     : ${EXISTING_DIRS_EARLY[0]}"
+  log "skip : ID déjà présent (--skip-existing) — pas de réseau / download"
+  exit 0
+fi
 
 need curl
 need 7z
@@ -178,6 +213,73 @@ TMP_DIR="$(mktemp -d "${TMPDIR:-/tmp}/add-crackme.XXXXXX")"
 cleanup() { rm -rf "$TMP_DIR"; }
 trap cleanup EXIT
 
+# true si le dossier a l’air d’un write-up déjà travaillé (ne pas écraser à la légère)
+looks_worked() {
+  local d="$1"
+  [[ -d "$d/analysis" ]] && [[ -n "$(find "$d/analysis" -type f 2>/dev/null | head -1)" ]] && return 0
+  [[ -d "$d/tools" ]] && [[ -n "$(find "$d/tools" -type f 2>/dev/null | head -1)" ]] && return 0
+  if [[ -f "$d/ORIGIN.yml" ]] && grep -qiE '^status:[[:space:]]*solved' "$d/ORIGIN.yml" 2>/dev/null; then
+    return 0
+  fi
+  if [[ -f "$d/README.md" ]] && [[ "$(wc -l < "$d/README.md")" -gt 40 ]]; then
+    return 0
+  fi
+  return 1
+}
+
+prompt_existing() {
+  # stdout: abort|skip|redl|rescaffold
+  # Lit stdin (TTY ou pipe). EOF / vide → abort. Scripts non interactifs :
+  # préférer --force / --skip-existing.
+  local existing="$1"
+  warn "ID déjà présent — aucun téléchargement tant qu’on n’a pas choisi."
+  printf '\n' >&2
+  printf '  Dossier existant : %s\n' "$existing" >&2
+  if [[ -f "$existing/ORIGIN.yml" ]]; then
+    printf '  ORIGIN.yml       : %s\n' "$existing/ORIGIN.yml" >&2
+  fi
+  if looks_worked "$existing"; then
+    printf '  (semble déjà travaillé : analysis/tools/write-up ou status solved)\n' >&2
+  fi
+  printf '\n' >&2
+  printf 'Que faire ?\n' >&2
+  printf '  [a] annuler          — exit 1, rien téléchargé (défaut)\n' >&2
+  printf '  [s] skip             — exit 0, rien modifier\n' >&2
+  printf '  [r] re-télécharger   — ZIP → original/ seulement (garde README, analysis, tools)\n' >&2
+  printf '  [f] force scaffold   — réécrit ORIGIN.yml + README squelette + re-télécharge\n' >&2
+  if [[ ! -t 0 ]]; then
+    printf '(stdin non-TTY : répondre a/s/r/f sur stdin, ou utiliser --force / --skip-existing)\n' >&2
+  fi
+  printf 'Choix [a/s/r/f] : ' >&2
+  local ans=""
+  if ! read -r ans; then
+    ans=""
+  fi
+  case "${ans,,}" in
+    s|skip) printf 'skip\n' ;;
+    r|redl|re|redownload) printf 'redl\n' ;;
+    f|force|rescaffold) printf 'rescaffold\n' ;;
+    ""|a|abort|q|n|no) printf 'abort\n' ;;
+    *)
+      warn "choix inconnu « ${ans} » → annuler"
+      printf 'abort\n'
+      ;;
+  esac
+}
+
+EXISTING_DIRS=("${EXISTING_DIRS_EARLY[@]+"${EXISTING_DIRS_EARLY[@]}"}")
+if [[ ${#EXISTING_DIRS[@]} -eq 0 ]]; then
+  mapfile -t EXISTING_DIRS < <(find_existing_dirs "$ID")
+fi
+EXISTING_DIR=""
+if [[ ${#EXISTING_DIRS[@]} -gt 0 ]]; then
+  EXISTING_DIR="${EXISTING_DIRS[0]}"
+  if [[ ${#EXISTING_DIRS[@]} -gt 1 ]]; then
+    warn "plusieurs dossiers pour le même ID :"
+    for d in "${EXISTING_DIRS[@]}"; do warn "  - $d"; done
+  fi
+fi
+
 log "id           : $ID"
 log "page         : $PAGE_URL"
 log "download     : $DL_URL"
@@ -185,18 +287,92 @@ log "author_site  : ${AUTHOR_ON_SITE:-?}"
 log "author_local : $AUTHOR_LOCAL"
 log "title        : ${TITLE:-?}"
 log "dest         : $CHALLENGE_DIR"
+if [[ -n "$EXISTING_DIR" ]]; then
+  log "existant     : $EXISTING_DIR"
+fi
 
 if [[ "$DRY_RUN" -eq 1 ]]; then
-  log "dry-run: stop avant création / download"
+  if [[ -n "$EXISTING_DIR" ]]; then
+    log "dry-run: ID déjà présent → pas de download (utilisez --force pour forcer)"
+  else
+    log "dry-run: stop avant création / download"
+  fi
   exit 0
 fi
 
-if [[ -e "$CHALLENGE_DIR" ]]; then
-  die "le dossier existe déjà: $CHALLENGE_DIR"
-fi
+# --- gestion collision ID ---
+WRITE_ORIGIN=1
+WRITE_README=1
+DO_DOWNLOAD=1
+[[ "$NO_DOWNLOAD" -eq 1 ]] && DO_DOWNLOAD=0
 
-mkdir -p "$ORIG_DIR" "$ANALYSIS_DIR" "$TOOLS_DIR"
-mkdir -p "$ROOT/authors/${AUTHOR_LOCAL}"
+if [[ -n "$EXISTING_DIR" ]]; then
+  # Aligner dest sur le dossier déjà là (évite un second authors/x/id)
+  if [[ "$EXISTING_DIR" != "$CHALLENGE_DIR" ]]; then
+    if [[ -n "$AUTHOR_FORCE" && "$CHALLENGE_DIR" != "$EXISTING_DIR" ]]; then
+      warn "ID déjà sous $(dirname "${EXISTING_DIR#$ROOT/}") — on ignore --author pour cette passe"
+    fi
+    CHALLENGE_DIR="$EXISTING_DIR"
+    AUTHOR_LOCAL="$(basename "$(dirname "$EXISTING_DIR")")"
+    ORIG_DIR="$CHALLENGE_DIR/original"
+    ANALYSIS_DIR="$CHALLENGE_DIR/analysis"
+    TOOLS_DIR="$CHALLENGE_DIR/tools"
+    log "dest (réel)  : $CHALLENGE_DIR"
+  fi
+
+  if [[ "$FORCE" -eq 1 ]]; then
+    EXISTING_ACTION="rescaffold"
+  elif [[ "$SKIP_EXISTING" -eq 1 ]]; then
+    EXISTING_ACTION="skip"
+  else
+    EXISTING_ACTION="$(prompt_existing "$EXISTING_DIR")"
+  fi
+
+  case "$EXISTING_ACTION" in
+    skip)
+      log "skip : ID $ID déjà présent → $CHALLENGE_DIR"
+      exit 0
+      ;;
+    abort)
+      die "ID $ID déjà présent : $CHALLENGE_DIR (relancer avec --force, --skip-existing, ou répondre au menu)"
+      ;;
+    redl)
+      log "mode re-téléchargement : original/ seulement (pas d’écrasement README/ORIGIN)"
+      WRITE_ORIGIN=0
+      WRITE_README=0
+      DO_DOWNLOAD=1
+      mkdir -p "$ORIG_DIR" "$ANALYSIS_DIR" "$TOOLS_DIR"
+      # vider original/ avant re-extract pour éviter bascules de binaire
+      if [[ -d "$ORIG_DIR" ]]; then
+        find "$ORIG_DIR" -mindepth 1 -maxdepth 1 ! -name 'source' -exec rm -rf {} +
+        # garde original/source/ (décompilé local) si présent
+      fi
+      ;;
+    rescaffold)
+      if looks_worked "$CHALLENGE_DIR" && [[ "$FORCE" -ne 1 ]]; then
+        # double confirm en interactif si write-up déjà là
+        if [[ -t 0 && -t 1 ]]; then
+          printf '!!  ce challenge a l’air déjà résolu/documenté. Écraser ORIGIN/README squelette ? [y/N] : ' >&2
+          read -r conf || true
+          [[ "${conf,,}" == "y" || "${conf,,}" == "yes" ]] || die "annulé (write-up préservé)"
+        else
+          die "challenge déjà travaillé — refuse rescaffold hors TTY sans --force"
+        fi
+      fi
+      log "mode force scaffold : ORIGIN + README squelette + download"
+      WRITE_ORIGIN=1
+      WRITE_README=1
+      DO_DOWNLOAD=1
+      mkdir -p "$ORIG_DIR" "$ANALYSIS_DIR" "$TOOLS_DIR"
+      ;;
+    *)
+      die "action existante inconnue: $EXISTING_ACTION"
+      ;;
+  esac
+else
+  mkdir -p "$ORIG_DIR" "$ANALYSIS_DIR" "$TOOLS_DIR"
+  mkdir -p "$ROOT/authors/${AUTHOR_LOCAL}"
+fi
 
 # author.yml minimal si absent
 AUTHOR_YML="$ROOT/authors/${AUTHOR_LOCAL}/author.yml"
@@ -219,8 +395,9 @@ BINARY_NAME=""
 SHA256=""
 MD5=""
 SIZE_BYTES=0
+BINARY_PATH=""
 
-if [[ "$NO_DOWNLOAD" -eq 0 ]]; then
+if [[ "$DO_DOWNLOAD" -eq 1 ]]; then
   log "téléchargement ZIP…"
   HTTP_CODE="$(curl -sS -L \
     -A "$USER_AGENT" \
@@ -297,8 +474,9 @@ fi
 
 # --- ORIGIN.yml ---
 ORIGIN_YML="$CHALLENGE_DIR/ORIGIN.yml"
-{
-  cat <<EOF
+if [[ "$WRITE_ORIGIN" -eq 1 ]]; then
+  {
+    cat <<EOF
 # Origine crackmes.one — généré par scripts/add-crackme.sh
 id: ${ID}
 
@@ -336,10 +514,43 @@ download:
   zip_password: crackmes.one
   fetched_at: "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
 EOF
-} > "$ORIGIN_YML"
+  } > "$ORIGIN_YML"
+elif [[ -n "$SHA256" && -f "$ORIGIN_YML" ]]; then
+  # re-téléchargement : rafraîchir seulement les champs binary.* / fetched_at si présents
+  python3 - "$ORIGIN_YML" "$BINARY_PATH" "$BINARY_NAME" "$SHA256" "$MD5" "$SIZE_BYTES" <<'PY'
+import re, sys
+from pathlib import Path
+path, bpath, bname, sha, md5, size = sys.argv[1:7]
+text = Path(path).read_text(encoding="utf-8")
+
+def set_field(src, key, value, quoted=True):
+    if quoted:
+        val = f'"{value}"'
+    else:
+        val = value
+    pat = re.compile(rf'^(\s*{re.escape(key)}:\s*).*$', re.M)
+    if pat.search(src):
+        return pat.sub(rf'\g<1>{val}', src, count=1)
+    return src
+
+text = set_field(text, "path", bpath)
+text = set_field(text, "name", bname)
+text = set_field(text, "sha256", sha)
+text = set_field(text, "md5", md5)
+text = set_field(text, "size_bytes", size, quoted=False)
+from datetime import datetime, timezone
+ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+text = set_field(text, "fetched_at", ts)
+Path(path).write_text(text, encoding="utf-8")
+print("ORIGIN binary fields refreshed")
+PY
+else
+  log "ORIGIN.yml conservé (pas de réécriture)"
+fi
 
 # --- README squelette ---
-cat > "$CHALLENGE_DIR/README.md" <<EOF
+if [[ "$WRITE_README" -eq 1 ]]; then
+  cat > "$CHALLENGE_DIR/README.md" <<EOF
 # ${TITLE:-crackme $ID}
 
 | | |
@@ -371,6 +582,9 @@ tools/      # solveur, recon
 - [ ] write-up
 - [ ] solveur
 EOF
+else
+  log "README.md conservé (pas de réécriture)"
+fi
 
 # --- maj catalog.yml (best-effort) ---
 CATALOG="$ROOT/authors/${AUTHOR_LOCAL}/catalog.yml"
