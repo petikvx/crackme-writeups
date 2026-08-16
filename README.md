@@ -87,6 +87,7 @@ Outils Linux (file, objdump, gdb, nasm, wine32, diec, …) :
 | Famille | Auteur | Épreuves | Résolues |
 |---|---|---|---|
 | [timotei](authors/timotei/README.md) | timotei (`tim0tei`, `timotei_`) | 12 (4 ELF64 + 8 PE32) | 12 / 12 |
+| [cracknotme](authors/cracknotme/README.md) | CrackNotMe | 1+ (CFB…) | 1 / 1 |
 
 ## Convention
 

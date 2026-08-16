@@ -1,0 +1,36 @@
+# Origine crackmes.one
+id: 6a1547f42b3df128c1df5ca5
+
+urls:
+  page: https://crackmes.one/crackme/6a1547f42b3df128c1df5ca5
+  download: https://crackmes.one/download/crackme/6a1547f42b3df128c1df5ca5
+
+title: "CrackNotMe's CrackmesForBeginners (CFB) #1"
+author_on_site: CrackNotMe
+author_local: cracknotme
+
+platform: Windows
+arch: x86-64
+language: C/C++
+
+difficulty: null
+quality: null
+size: "263 KB"
+published: null
+
+series_index: 1
+local_slug: CFB1
+
+binary:
+  path: original/CFB1.exe
+  name: CFB1.exe
+  sha256: 2806a1d20c1cc2d1c1bcc7e2e3a90963ad990376ae52f3c0889a88dbd86eb311
+  md5: 9a38d7317c01bf69463b556da5e8fdc2
+  size_bytes: 269312
+
+status: solved
+solution_summary: "serial hex: pour chaque username[i], ((i+0x5A)^c)+0x13 en %02X (ex. petik → 3D513B4748)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-16T15:00:42Z"

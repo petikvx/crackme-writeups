@@ -375,50 +375,39 @@ EOF
 # --- maj catalog.yml (best-effort) ---
 CATALOG="$ROOT/authors/${AUTHOR_LOCAL}/catalog.yml"
 python3 - "$CATALOG" "$ID" "$SHA256" "$CHALLENGE_DIR" "$BINARY_PATH" "$TITLE" "$ROOT" <<'PY'
-import os, sys, re
+import os
+import re
+import sys
+from pathlib import Path
 
 catalog, cid, sha, cdir, bpath, title, root = sys.argv[1:8]
 rel = os.path.relpath(cdir, root)
 brel = os.path.join(rel, bpath) if bpath else rel
+title_clean = title.replace('"', "")
 
-# ensure file exists with headers
-if not os.path.isfile(catalog):
-    with open(catalog, "w", encoding="utf-8") as f:
-        f.write("# Index id ↔ sha256 ↔ path (série locale)\n")
-        f.write("by_id: {}\n")
-        f.write("by_sha256: {}\n")
+entry_id_lines = [
+    f"  {cid}:",
+    f'    sha256: "{sha}"',
+    f'    path: "{brel}"',
+    f'    title: "{title_clean}"',
+]
+entry_sha_lines = (
+    [
+        f"  {sha}:",
+        f"    id: {cid}",
+        f'    path: "{brel}"',
+        f"    page: https://crackmes.one/crackme/{cid}",
+    ]
+    if sha
+    else []
+)
 
-text = open(catalog, encoding="utf-8").read()
-# naive YAML append blocks — if empty maps, rewrite simply
-entry_id = f"  {cid}:\n    sha256: \"{sha}\"\n    path: \"{brel}\"\n    title: \"{title.replace(chr(34), '')}\"\n"
-entry_sha = f"  {sha}:\n    id: {cid}\n    path: \"{brel}\"\n    page: https://crackmes.one/crackme/{cid}\n" if sha else ""
+text = ""
+if os.path.isfile(catalog):
+    text = Path(catalog).read_text(encoding="utf-8")
 
-def upsert_section(src: str, key: str, block: str) -> str:
-    if not block:
-        return src
-    # if key already present, skip duplicate
-    if re.search(rf"(?m)^  {re.escape(block.splitlines()[0].strip().rstrip(':'))}:\s*$", src):
-        return src
-    if re.search(rf"(?m)^{re.escape(key)}:\s*\{\{\s*\}}\s*$", src):
-        return re.sub(rf"(?m)^{re.escape(key)}:\s*\{\{\s*\}}\s*$", f"{key}:\n{block}", src, count=1)
-    if re.search(rf"(?m)^{re.escape(key)}:\s*$", src):
-        return re.sub(rf"(?m)^{re.escape(key)}:\s*$", f"{key}:\n{block}", src, count=1)
-    # append
-    if not src.endswith("\n"):
-        src += "\n"
-    return src + f"\n{key}:\n{block}"
-
-# simpler: always rewrite catalog from scratch by merging known entries via regex — keep it dumb
-if "by_id:" not in text:
-    text = "by_id:\nby_sha256:\n"
-
-# remove existing id entry lines block (minimal)
-text2 = text
-# append at end under sections using python yaml-less approach: full rewrite
-import pathlib
 lines_by_id = []
 lines_by_sha = []
-# parse existing roughly
 cur = None
 for line in text.splitlines():
     if line.strip() == "by_id:":
@@ -432,15 +421,19 @@ for line in text.splitlines():
     elif cur == "sha":
         lines_by_sha.append(line)
 
+
 def drop_key(lines, key):
+    """Retire un bloc '  <key>:' et ses lignes indentées."""
     out = []
     skip = False
+    key_re = re.compile(r"^  " + re.escape(key) + r":\s*$")
     for ln in lines:
-        if re.match(rf"^  {re.escape(key)}:\s*$", ln):
+        if key_re.match(ln):
             skip = True
             continue
         if skip:
-            if re.match(r"^  [0-9a-fA-F]", ln) or re.match(r"^[a-z_]", ln):
+            # nouvelle clé de premier niveau sous by_* : "  something:"
+            if re.match(r"^  \S", ln) and ln.rstrip().endswith(":"):
                 skip = False
             else:
                 continue
@@ -448,15 +441,22 @@ def drop_key(lines, key):
             out.append(ln)
     return out
 
+
 if cid:
     lines_by_id = drop_key(lines_by_id, cid)
-    lines_by_id.extend(entry_id.rstrip().splitlines())
+    lines_by_id.extend(entry_id_lines)
 if sha:
     lines_by_sha = drop_key(lines_by_sha, sha)
-    lines_by_sha.extend(entry_sha.rstrip().splitlines())
+    lines_by_sha.extend(entry_sha_lines)
 
-out = ["# Index id ↔ sha256 ↔ path", "by_id:"] + lines_by_id + ["", "by_sha256:"] + lines_by_sha + [""]
-pathlib.Path(catalog).write_text("\n".join(out), encoding="utf-8")
+out_lines = (
+    ["# Index id ↔ sha256 ↔ path", "by_id:"]
+    + lines_by_id
+    + ["", "by_sha256:"]
+    + lines_by_sha
+    + [""]
+)
+Path(catalog).write_text("\n".join(out_lines), encoding="utf-8")
 print("catalog updated")
 PY
 

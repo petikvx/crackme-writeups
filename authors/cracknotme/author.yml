@@ -1,0 +1,12 @@
+# Auteur local (slug stable)
+slug: cracknotme
+display_name: CrackNotMe
+
+aliases:
+  - cracknotme
+  - CrackNotMe
+
+source:
+  site: crackmes.one
+  notes: >
+    Série CrackmesForBeginners (CFB) et autres challenges de CrackNotMe.

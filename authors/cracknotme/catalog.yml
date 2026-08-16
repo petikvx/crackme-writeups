@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a1547f42b3df128c1df5ca5:
+    sha256: "2806a1d20c1cc2d1c1bcc7e2e3a90963ad990376ae52f3c0889a88dbd86eb311"
+    path: "authors/cracknotme/6a1547f42b3df128c1df5ca5/original/CFB1.exe"
+    title: "CrackNotMe's CrackmesForBeginners (CFB) #1"
+
+by_sha256:
+  2806a1d20c1cc2d1c1bcc7e2e3a90963ad990376ae52f3c0889a88dbd86eb311:
+    id: 6a1547f42b3df128c1df5ca5
+    path: "authors/cracknotme/6a1547f42b3df128c1df5ca5/original/CFB1.exe"
+    page: https://crackmes.one/crackme/6a1547f42b3df128c1df5ca5
