@@ -4,6 +4,8 @@ Write-ups de crackmes (surtout [crackmes.one](https://crackmes.one)). Reverse en
 
 Les binaires d’origine sont inclus. Ce ne sont **pas** des malwares, mais un AV peut quand même gueuler sur les ELF / PE.
 
+> **Agents / automatisation** : voir [`AGENTS.md`](AGENTS.md) (workflow reverse → solveur → write-up → push).
+
 ## Arborescence
 
 ```
