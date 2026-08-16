@@ -188,21 +188,31 @@ OK
 
 → **`pwn_vm_3`**
 
+Piège fréquent : `pwn-vm-3` (tirets) **échoue** — les positions 3 et 6 sont des **`_`** (`0x5f`), pas `-` (`0x2d`).
+
 ---
 
 ## 4. Vérification
 
-### Live x64dbg (screenshot)
+### Live Wine (screenshot-ok)
 
-Même run que le shot : password `pwn_vm_3` → message VM → **ACCESS GRANTED** pendant que le PC est dans le handler `LOAD` / la boucle `0x…3780`.
+![wine CFB3.exe : Password pwn_vm_3 → ACCESS GRANTED](analysis/screenshot-ok.png)
 
-### Solveur + Wine
+### Live x64dbg (screenshot-verification-vm)
+
+![boucle fetch/decode/dispatch de la mini-VM](analysis/screenshot-verification-vm.png)
+
+Password `pwn_vm_3` → message *Executing virtual machine verification...* → **ACCESS GRANTED** (PC dans le handler `LOAD` / boucle `~0x…3780`).
+
+### Solveur
 
 ```bash
 cd authors/cracknotme/6a154aca8fab7bbca27302a2
 python3 tools/cfb3-solve.py
 python3 tools/cfb3-solve.py --check pwn_vm_3
 # OK
+python3 tools/cfb3-solve.py --check pwn-vm-3
+# FAIL
 
 printf 'pwn_vm_3\n\n' | wine original/CFB3.exe
 # [*] Executing virtual machine verification...
@@ -227,6 +237,7 @@ python3 tools/cfb3-solve.py --trace
 
 - Suite CFB : #1 serial hex, #2 maze WASD, **#3 interpréteur maison**.
 - « **virtual machine verification** » = exécution du **bytecode custom**, pas un test « suis-je dans une VM ».
+- Password = **underscores** : `pwn_vm_3` ; tirets `pwn-vm-3` → DENIED.
 - Pas de crypto lourde : contraintes linéaires (XOR / ADD) byte à byte.
 - Opcode **4** (XOR registre/registre) est dans la table mais **non utilisé** par ce programme.
 - `IsDebuggerPresent` / `cpuid` MSVC : bruit de runtime, hors prédicat.
