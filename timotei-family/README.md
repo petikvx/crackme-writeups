@@ -29,7 +29,7 @@ crackme-writeups/timotei-family/
 | [08](timotei-crackme-08/timotei-crackme-08.md) | PE32 console | oui | quiz : `2 2 1 3 1 2` + `42` |
 | [09](timotei-crackme-09/timotei-crackme-09.md) | PE32 GUI | oui | serial : `CM` + `atoi≥2023` + sum%n==0 (ex. `2191CMCM`) |
 | [10](timotei-crackme-10/timotei-crackme-10.md) | PE32 GUI | oui | name+serial : tri + `(d²)>>32` (ex. `timotei` → `eiim784527143`) |
-| 11 | PE32 GUI (Polink) | — | — |
+| [11](timotei-crackme-11/timotei-crackme-11.md) | PE32 GUI 1K (Polink) | oui | argv `t62O3668101526` → MessageBox `Good Work` |
 | 12 | PE32 GUI | — | — |
 
 ## #01 en un coup d’œil
@@ -143,6 +143,19 @@ wine timotei-crackme-10/timotei-crackme-10.exe                       # crackme (
 ```
 
 Détail : [timotei-crackme-10.md](timotei-crackme-10/timotei-crackme-10.md)
+
+## #11 en un coup d’œil
+
+PE **1 Ko**, command line + MessageBox. Arg : **`t62O3668101526`** → **Good Work**. Sous Wine la boîte peut ne pas s’afficher (`hWnd` invalide) : préférer Windows / VM.
+
+```bash
+python3 timotei-crackme-11/timotei-crackme-11-solve.py
+wine timotei-crackme-11/timotei-crackme-11-recon.exe t62O3668101526   # MessageBox Good Work
+# original (hWnd souvent invalide) :
+#   timotei-crackme-11.exe t62O3668101526
+```
+
+Détail : [timotei-crackme-11.md](timotei-crackme-11/timotei-crackme-11.md)
 
 ## Origine
 

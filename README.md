@@ -31,7 +31,7 @@ Outils Linux (file, objdump, gdb, nasm, wine32, diec, …) :
 
 | Famille | Auteur | Épreuves | Résolues |
 |---|---|---|---|
-| [timotei-family](timotei-family/README.md) | timotei | 12 (4 ELF64 + 8 PE32) | 10 / 12 |
+| [timotei-family](timotei-family/README.md) | timotei | 12 (4 ELF64 + 8 PE32) | 11 / 12 |
 
 ## Convention
 
