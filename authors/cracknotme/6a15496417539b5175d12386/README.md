@@ -155,6 +155,16 @@ S#########
 
 ## 5. Vérification
 
+### Live Windows (screenshot01)
+
+![CFB2.exe sous Windows : SDDSSASSDDSSDDDSSDDD → ACCESS GRANTED](analysis/screenshot01.png)
+
+### Live Wine (screenshot02)
+
+![wine original/CFB2.exe : même path → ACCESS GRANTED](analysis/screenshot02.png)
+
+### Solveur
+
 ```bash
 cd authors/cracknotme/6a15496417539b5175d12386
 python3 tools/cfb2-solve.py
@@ -162,7 +172,6 @@ python3 tools/cfb2-solve.py -q
 python3 tools/cfb2-solve.py --check SDDSSASSDDSSDDDSSDDD
 # OK
 
-# Wine
 printf 'SDDSSASSDDSSDDDSSDDD\n\n' | wine original/CFB2.exe
 # [+] ACCESS GRANTED! … solved CFB2!
 ```
