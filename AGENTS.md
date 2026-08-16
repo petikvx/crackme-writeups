@@ -154,7 +154,7 @@ git push origin main
 - [ ] `ORIGIN.yml` : `status: solved` + summary  
 - [ ] `authors/<slug>/README.md` + README racine à jour  
 - [ ] Screenshots liés s’ils existent dans `analysis/`  
-- [ ] Commit + push `main` (scaleway)
+- [ ] Commit + push `main`
 
 ---
 
