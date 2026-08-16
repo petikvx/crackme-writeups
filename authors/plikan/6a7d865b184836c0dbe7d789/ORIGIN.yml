@@ -1,0 +1,40 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a7d865b184836c0dbe7d789
+
+urls:
+  page: https://crackmes.one/crackme/6a7d865b184836c0dbe7d789
+  download: https://crackmes.one/download/crackme/6a7d865b184836c0dbe7d789
+
+title: "plikan's Easy Keygen Crackme"
+author_on_site: "plikan"
+author_local: "plikan"
+
+platform: "Windows"
+arch: "x86"
+language: ".NET / C#"
+
+difficulty: null
+quality: null
+size: "1.0 MB"
+published: null
+
+series_index: null
+local_slug: EasyKeygen
+
+binary:
+  path: "original/Easy_Keygen_Crackme.exe"
+  name: "Easy_Keygen_Crackme.exe"
+  sha256: "b6ec4f8991db7a5d909e703b3fdf5d8950b8f0128e826a8eda3f1f910b5ff9e1"
+  md5: "c19df1556e4cec935ff96d9903c66a4e"
+  size_bytes: 1059840
+
+status: solved
+solution_summary: >-
+  HWID keygen: SHA256(MachineGuid + VolSerialC.ToString("X")) then
+  SHA256(that + "plikan") then SHA512; license = uppercase first 25 hex as
+  XXXXX-XXXXX-XXXXX-XXXXX-XXXXX. Live (Windows --local):
+  7beeda5e-… / 12C52EF1 → EBD19-CAF83-9A28D-42ED6-3AFD7 (Access granted).
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-16T17:56:53Z"

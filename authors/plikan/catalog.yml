@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a7d865b184836c0dbe7d789:
+    sha256: "b6ec4f8991db7a5d909e703b3fdf5d8950b8f0128e826a8eda3f1f910b5ff9e1"
+    path: "authors/plikan/6a7d865b184836c0dbe7d789/original/Easy_Keygen_Crackme.exe"
+    title: "plikan's Easy Keygen Crackme"
+
+by_sha256:
+  b6ec4f8991db7a5d909e703b3fdf5d8950b8f0128e826a8eda3f1f910b5ff9e1:
+    id: 6a7d865b184836c0dbe7d789
+    path: "authors/plikan/6a7d865b184836c0dbe7d789/original/Easy_Keygen_Crackme.exe"
+    page: https://crackmes.one/crackme/6a7d865b184836c0dbe7d789
