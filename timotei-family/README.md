@@ -26,7 +26,7 @@ crackme-writeups/timotei-family/
 | [05](timotei-crackme-05/timotei-crackme-05.md) | PE32 console | oui | keyfile 22 o, checksum 8 bits (ex. `crackme#5 keyfile OK!` + `0x12`) |
 | [06](timotei-crackme-06/timotei-crackme-06.md) | PE32 console | oui | keyfile 13 o : `A-B+C >= 12345678`, `buf[10]=='6'` (ex. `0000000000600`) |
 | [07](timotei-crackme-07/timotei-crackme-07.md) | PE32 console (MASM) | oui | password console : préfixe `tI` (SMC, ex. `tIme`) |
-| 08 | PE32 console | — | — |
+| [08](timotei-crackme-08/timotei-crackme-08.md) | PE32 console | oui | quiz : `2 2 1 3 1 2` + `42` |
 | 09 | PE32 GUI | — | — |
 | 10 | PE32 GUI | — | — |
 | 11 | PE32 GUI (Polink) | — | — |
@@ -107,6 +107,17 @@ wineconsole timotei-crackme-07/timotei-crackme-07.exe   # taper tIme
 ```
 
 Détail : [timotei-crackme-07.md](timotei-crackme-07/timotei-crackme-07.md)
+
+## #08 en un coup d’œil
+
+Quiz histoire du cracking. Réponses : **2 2 1 3 1 2 42**.
+
+```bash
+python3 timotei-crackme-08/timotei-crackme-08-solve.py
+wineconsole timotei-crackme-08/timotei-crackme-08.exe
+```
+
+Détail : [timotei-crackme-08.md](timotei-crackme-08/timotei-crackme-08.md)
 
 ## Origine
 
