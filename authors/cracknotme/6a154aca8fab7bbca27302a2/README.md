@@ -56,7 +56,9 @@ Un seul secret : le password (pas de username).
 banner CFB3
 lire password (getline + trim)
 si vide → erreur
-afficher "Executing virtual machine verification..."
+afficher "[*] Executing virtual machine verification..."
+  → ce n’est PAS une détection d’hyperviseur / VMware
+  → c’est le lancement de la mini-VM propriétaire (bytecode)
 IP = 0, regs[4] = 0, flag = 0, pwd_index = 0
 tant que IP*3 < 0x78 :
   raw = bytecode[IP*3]
@@ -66,6 +68,50 @@ tant que IP*3 < 0x78 :
 si opcode OK → ACCESS GRANTED
 sinon / FAIL / sortie anormale → ACCESS DENIED
 ```
+
+### « Virtual machine verification » — ce que c’est
+
+Le message console **`[*] Executing virtual machine verification...`** (`.rdata` `0x140021818`) est imprimé **juste avant** la boucle interpréteur (`~0x140003767` → `lea rdx, … ; call puts-like`).
+
+| Interprétation naïve | Réalité dans CFB3 |
+|---|---|
+| Anti-VM (VMware / VirtualBox / QEMU) | **Non** |
+| Sandbox / `IsDebuggerPresent` comme gate | **Non** (import CRT possible, pas le prédicat password) |
+| Mini-VM **maison** sur un bytecode | **Oui** — vérification du password *via* cette VM |
+
+Preuve dynamique (x64dbg, Windows) : [screenshot-verification-vm.png](analysis/screenshot-verification-vm.png)
+
+![x64dbg sur la boucle VM + console pwn_vm_3 → ACCESS GRANTED](analysis/screenshot-verification-vm.png)
+
+Sur le listing on voit notamment :
+
+```text
+lea  rdx, "[*] Executing virtual machine verification..."
+call …                          ; print
+…
+cmp  rbx, 0x78                  ; borne bytecode
+movzx eax, byte [rbx+r9+0x213c0]; fetch opcode
+dec  eax
+cmp  eax, 8
+ja   deny
+movzx edx, byte […+0x213c1]     ; op A
+movzx r8d, byte […+0x213c2]     ; op B
+mov  ecx, [r9+rax*4+0x3964]     ; jump table
+add  rcx, r9
+jmp  rcx                        ; dispatch handler
+```
+
+État runtime typique pendant un `LOAD` :
+
+| Slot stack (main) | Rôle |
+|---|---|
+| `[rbp-0x58]` | IP (offset dans le bytecode, pas +3) |
+| `[rbp-0x50 … -0x4D]` | 4 registres 8-bit |
+| `[rbp-0x4C]` | flag CMP (`sete`) |
+| `[rbp-0x48]` | index password |
+| `[rbp-0x40]` | run flag (word, init `1`) |
+
+**Note** : des `cpuid` existent plus loin dans le binaire (init MSVC / features CPU, signature `GenuineIntel` via XOR `0x6c65746e`…). Ce n’est **pas** la « virtual machine verification » du challenge.
 
 ---
 
@@ -77,7 +123,9 @@ sinon / FAIL / sortie anormale → ACCESS DENIED
 |---|---|---|
 | Bytecode (0x78 octets, 40 instr × 3) | `0x1400213c0` | `0x1fdc0` |
 | Jump table (9 × DWORD RVA) | `0x140003964` | `0x2d64` |
-| Boucle interpréteur | `~0x140003780` | |
+| Message « Executing virtual machine… » | `0x140021818` | |
+| Print du message + entrée boucle | `~0x140003767` | |
+| Boucle fetch/decode/dispatch | `~0x140003780` | |
 
 ### Opcodes (valeur **brute** dans le bytecode)
 
@@ -139,6 +187,12 @@ OK
 
 ## 4. Vérification
 
+### Live x64dbg (screenshot)
+
+Même run que le shot : password `pwn_vm_3` → message VM → **ACCESS GRANTED** pendant que le PC est dans le handler `LOAD` / la boucle `0x…3780`.
+
+### Solveur + Wine
+
 ```bash
 cd authors/cracknotme/6a154aca8fab7bbca27302a2
 python3 tools/cfb3-solve.py
@@ -146,6 +200,7 @@ python3 tools/cfb3-solve.py --check pwn_vm_3
 # OK
 
 printf 'pwn_vm_3\n\n' | wine original/CFB3.exe
+# [*] Executing virtual machine verification...
 # [+] ACCESS GRANTED! … solved CFB3!
 ```
 
@@ -166,6 +221,7 @@ python3 tools/cfb3-solve.py --trace
 ## 6. Notes
 
 - Suite CFB : #1 serial hex, #2 maze WASD, **#3 interpréteur maison**.
+- « **virtual machine verification** » = exécution du **bytecode custom**, pas un test « suis-je dans une VM ».
 - Pas de crypto lourde : contraintes linéaires (XOR / ADD) byte à byte.
-- Le message *Executing virtual machine verification...* est un spoil utile.
 - Opcode **4** (XOR registre/registre) est dans la table mais **non utilisé** par ce programme.
+- `IsDebuggerPresent` / `cpuid` MSVC : bruit de runtime, hors prédicat.
