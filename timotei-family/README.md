@@ -27,7 +27,7 @@ crackme-writeups/timotei-family/
 | [06](timotei-crackme-06/timotei-crackme-06.md) | PE32 console | oui | keyfile 13 o : `A-B+C >= 12345678`, `buf[10]=='6'` (ex. `0000000000600`) |
 | [07](timotei-crackme-07/timotei-crackme-07.md) | PE32 console (MASM) | oui | password console : préfixe `tI` (SMC, ex. `tIme`) |
 | [08](timotei-crackme-08/timotei-crackme-08.md) | PE32 console | oui | quiz : `2 2 1 3 1 2` + `42` |
-| 09 | PE32 GUI | — | — |
+| [09](timotei-crackme-09/timotei-crackme-09.md) | PE32 GUI | oui | serial : `CM` + `atoi≥2023` + sum%n==0 (ex. `2191CMCM`) |
 | 10 | PE32 GUI | — | — |
 | 11 | PE32 GUI (Polink) | — | — |
 | 12 | PE32 GUI | — | — |
@@ -118,6 +118,19 @@ wineconsole timotei-crackme-08/timotei-crackme-08.exe
 ```
 
 Détail : [timotei-crackme-08.md](timotei-crackme-08/timotei-crackme-08.md)
+
+## #09 en un coup d’œil
+
+PE32 GUI, serial dans un dialog. Exemple : **`2191CMCM`** → Registered.
+
+```bash
+python3 timotei-crackme-09/timotei-crackme-09-solve.py
+./timotei-crackme-09/timotei-crackme-09-serializer-console-nasm.bin   # keygen NASM
+wine timotei-crackme-09/timotei-crackme-09-serializer-gui-fasm.bin    # keygen GUI FASM
+wine timotei-crackme-09/timotei-crackme-09.exe                        # crackme
+```
+
+Détail : [timotei-crackme-09.md](timotei-crackme-09/timotei-crackme-09.md)
 
 ## Origine
 
