@@ -1,0 +1,38 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a15496417539b5175d12386
+
+urls:
+  page: https://crackmes.one/crackme/6a15496417539b5175d12386
+  download: https://crackmes.one/download/crackme/6a15496417539b5175d12386
+
+title: "CrackNotMe's CrackmesForBeginners (CFB) #2"
+author_on_site: "CrackNotMe"
+author_local: "cracknotme"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: null
+quality: null
+size: "260 KB"
+published: null
+
+series_index: 2
+local_slug: CFB2
+
+binary:
+  path: "original/CFB2.exe"
+  name: "CFB2.exe"
+  sha256: "20aa2133b4694a036e349a28b2203d729fa3964cde3a07f641e33e1abe26596b"
+  md5: "a30f7459cb23e70ba1d4dfcef4b4639f"
+  size_bytes: 265728
+
+status: solved
+solution_summary: >-
+  Maze 10x10 in .rdata (0=free,1=wall,2=finish@9,9); WASD path from (0,0).
+  Shortest: SDDSSASSDDSSDDDSSDDD (Wine ACCESS GRANTED).
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-16T19:01:27Z"
