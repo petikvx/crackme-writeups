@@ -105,10 +105,10 @@ Langue : **français** (comme le reste du dépôt), termes techniques en anglais
 ```bash
 git add authors/<slug>/… README.md   # ce qui a changé
 git commit -m "message clair (auteur + challenge + idée de la soluce)"
-GIT_SSH_COMMAND='ssh -i ~/.ssh/scaleway -o IdentitiesOnly=yes' git push origin main
+git push origin main
 ```
 
-- Push sur **`main`** via la clé **`~/.ssh/scaleway`** (IdentitiesOnly).
+- Push sur **`main`** (remote `origin` déjà configuré sur la machine).
 - Message de commit : style historique du repo (ex. `cracknotme CFB#3: mini-VM password pwn_vm_3`).
 - Ne pas committer `__pycache__/`, bases IDA brutes (voir `.gitignore`).
 - Screenshots / binaires d’origine : **oui**, ils font partie du dépôt.
