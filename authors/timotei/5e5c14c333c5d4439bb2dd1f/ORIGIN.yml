@@ -1,0 +1,35 @@
+# Origine crackmes.one
+id: 5e5c14c333c5d4439bb2dd1f
+
+urls:
+  page: https://crackmes.one/crackme/5e5c14c333c5d4439bb2dd1f
+  download: https://crackmes.one/download/crackme/5e5c14c333c5d4439bb2dd1f
+
+title: "timotei crackme#1"
+author_on_site: timotei
+author_local: timotei
+
+platform: Unix/linux etc.
+arch: x86-64
+language: Assembler
+
+difficulty: null
+quality: null
+size: ""
+published: 2020-03-01
+
+series_index: 1
+local_slug: timotei-crackme-01
+
+binary:
+  path: original/timotei-crackme-01
+  name: timotei-crackme-01
+  sha256: 93862a67da543c331ac03d60dcaac424a199b1c55d954b10d9fbc46a31eae1f6
+  md5: 80d85d8a340f40c02ea40a03bfdaac23
+  size_bytes: 9832
+
+status: solved
+solution_summary: PIN 777 ou 1509, puis +HCU
+
+download:
+  zip_password: crackmes.one

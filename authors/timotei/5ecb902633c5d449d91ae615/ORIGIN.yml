@@ -1,0 +1,35 @@
+# Origine crackmes.one
+id: 5ecb902633c5d449d91ae615
+
+urls:
+  page: https://crackmes.one/crackme/5ecb902633c5d449d91ae615
+  download: https://crackmes.one/download/crackme/5ecb902633c5d449d91ae615
+
+title: "timotei crackme#3"
+author_on_site: tim0tei
+author_local: timotei
+
+platform: Unix/linux etc.
+arch: x86-64
+language: Assembler
+
+difficulty: null
+quality: null
+size: ""
+published: 2020-05-25
+
+series_index: 3
+local_slug: timotei-crackme-03
+
+binary:
+  path: original/timotei-crackme-03
+  name: timotei-crackme-03
+  sha256: de8a8557ae64f4c54a2f9d68c337766339cfa45e3955a33545c43ea34f877ea9
+  md5: a5669e5ecfe2cf00ca64336160820325
+  size_bytes: 8776
+
+status: solved
+solution_summary: "stdin: Defeat COVID!"
+
+download:
+  zip_password: crackmes.one

@@ -1,0 +1,35 @@
+# Origine crackmes.one
+id: 64d93015b25df8732eebc87c
+
+urls:
+  page: https://crackmes.one/crackme/64d93015b25df8732eebc87c
+  download: https://crackmes.one/download/crackme/64d93015b25df8732eebc87c
+
+title: "timotei crackme#11 1K-Edition :-)"
+author_on_site: timotei_
+author_local: timotei
+
+platform: Windows
+arch: x86
+language: Assembler
+
+difficulty: null
+quality: null
+size: ""
+published: 2023-08-13
+
+series_index: 11
+local_slug: timotei-crackme-11
+
+binary:
+  path: original/timotei-crackme-11.exe
+  name: timotei-crackme-11.exe
+  sha256: fc78eb900757f454e9e2065db2af3c5d8eef306999bf45ea534094c7971efa1c
+  md5: a03c3b5ca3ccfd7ced15b3e1eeeb2f94
+  size_bytes: 1024
+
+status: solved
+solution_summary: argv t62O3668101526 → MessageBox Good Work
+
+download:
+  zip_password: crackmes.one

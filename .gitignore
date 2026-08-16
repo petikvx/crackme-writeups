@@ -25,3 +25,6 @@ Thumbs.db
 *.i64
 *.binja
 *.bndb
+
+# local wine patches
+*-winehwnd0.exe

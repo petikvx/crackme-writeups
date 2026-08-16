@@ -1,0 +1,35 @@
+# Origine crackmes.one
+id: 5e7a61ca33c5d4439bb2df60
+
+urls:
+  page: https://crackmes.one/crackme/5e7a61ca33c5d4439bb2df60
+  download: https://crackmes.one/download/crackme/5e7a61ca33c5d4439bb2df60
+
+title: "timotei crackme#2"
+author_on_site: tim0tei
+author_local: timotei
+
+platform: Unix/linux etc.
+arch: x86-64
+language: Assembler
+
+difficulty: null
+quality: null
+size: ""
+published: 2020-03-24
+
+series_index: 2
+local_slug: timotei-crackme-02
+
+binary:
+  path: original/timotei-crackme-02
+  name: timotei-crackme-02
+  sha256: e851d0c3426f6cc558fd0adab5a7bab84eab69603ee21b418dadceaa210c16de
+  md5: 3ee57072020f7b5666b4a9fad51269f8
+  size_bytes: 8768
+
+status: solved
+solution_summary: "argv[1]: s[-8]=='3' et s[-1]=='P' (ex. 31337!!P)"
+
+download:
+  zip_password: crackmes.one

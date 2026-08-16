@@ -1,0 +1,19 @@
+# Auteur local (slug stable)
+slug: timotei
+display_name: timotei
+
+aliases:
+  - timotei
+  - tim0tei
+  - timotei_
+
+source:
+  site: crackmes.one
+  search_url: "https://crackmes.one/search?name=timotei&sort_by=date&sort_order=desc"
+  notes: >
+    Compte auteur variable selon l'époque (timotei / tim0tei / timotei_).
+    Tout est rangé sous le slug local "timotei".
+
+series:
+  total: 12
+  solved: 12

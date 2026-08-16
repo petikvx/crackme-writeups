@@ -1,0 +1,35 @@
+# Origine crackmes.one
+id: 6490994f33c5d43938913a00
+
+urls:
+  page: https://crackmes.one/crackme/6490994f33c5d43938913a00
+  download: https://crackmes.one/download/crackme/6490994f33c5d43938913a00
+
+title: "timotei crackme#8"
+author_on_site: timotei_
+author_local: timotei
+
+platform: Windows
+arch: x86
+language: Assembler
+
+difficulty: null
+quality: null
+size: ""
+published: 2023-06-19
+
+series_index: 8
+local_slug: timotei-crackme-08
+
+binary:
+  path: original/timotei-crackme-08.exe
+  name: timotei-crackme-08.exe
+  sha256: 11a9accd9afb18245c559dbbbc93a5ceb833e118dfd52a6299bc1b97e6bdc37e
+  md5: 13b51432e2a0755ea5631d455976a8d4
+  size_bytes: 3584
+
+status: solved
+solution_summary: quiz 2 2 1 3 1 2 + 42
+
+download:
+  zip_password: crackmes.one

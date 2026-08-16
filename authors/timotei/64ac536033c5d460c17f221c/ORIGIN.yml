@@ -1,0 +1,35 @@
+# Origine crackmes.one
+id: 64ac536033c5d460c17f221c
+
+urls:
+  page: https://crackmes.one/crackme/64ac536033c5d460c17f221c
+  download: https://crackmes.one/download/crackme/64ac536033c5d460c17f221c
+
+title: "timotei crackme#10"
+author_on_site: timotei_
+author_local: timotei
+
+platform: Windows
+arch: x86
+language: Assembler
+
+difficulty: null
+quality: null
+size: ""
+published: 2023-07-10
+
+series_index: 10
+local_slug: timotei-crackme-10
+
+binary:
+  path: original/timotei-crackme-10.exe
+  name: timotei-crackme-10.exe
+  sha256: 15af16b8a7b88b86691f7c1e72952bcd2bd31a919b00f37d044bf21aa650f32d
+  md5: 7a45656539cc4e1b85fa35eee21e366b
+  size_bytes: 9216
+
+status: solved
+solution_summary: "name+serial: tri + (d²)>>32 (ex. timotei → eiim784527143)"
+
+download:
+  zip_password: crackmes.one

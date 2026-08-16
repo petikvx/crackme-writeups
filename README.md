@@ -8,17 +8,25 @@ Les binaires d’origine sont inclus. Ce ne sont **pas** des malwares, mais un A
 
 ```
 crackme-writeups/
-├── README.md                 ← tu es ici
-├── scripts/install-re-tools.sh
-└── <famille>/
-    ├── README.md             ← liste des épreuves de cette série
-    └── <nom-du-crackme>/
-        ├── binaire
-        ├── write-up.md       ← quand c’est résolu
-        └── solveur / dumps / sources reconstruits
+├── README.md
+├── scripts/
+│   ├── install-re-tools.sh
+│   └── add-crackme.sh          ← URL ou ID crackmes.one
+└── authors/
+    └── <auteur>/                 # slug local (ex. timotei)
+        ├── author.yml            # aliases site (timotei / tim0tei / …)
+        ├── catalog.yml           # id ↔ sha256 ↔ path
+        ├── README.md
+        └── <id-crackmes.one>/    # ex. 64e275ead931496abf908ff7
+            ├── ORIGIN.yml        # id + urls + binary.sha256
+            ├── README.md         # write-up
+            ├── original/         # binaire d’origine
+            ├── analysis/         # IDA, screenshots
+            └── tools/            # solveur, recon, serializers
 ```
 
-Pour ajouter une série : un nouveau dossier à la racine, le même schéma à l’intérieur.
+L’**ID** crackmes.one est la clé d’origine ; le **SHA-256** du fichier dans `original/` prouve le binaire.
+Un numéro de série (`series_index`) n’est utilisé que s’il existe (ex. timotei #01…#12).
 
 Outils Linux (file, objdump, gdb, nasm, wine32, diec, …) :
 
@@ -27,19 +35,67 @@ Outils Linux (file, objdump, gdb, nasm, wine32, diec, …) :
 ./scripts/install-re-tools.sh          # sudo / apt
 ```
 
+### Ajouter un crackme (crackmes.one)
+
+**Dépendances** : `curl`, `7z` (p7zip), `sha256sum`, `python3`.
+
+```bash
+# n’importe laquelle de ces formes
+./scripts/add-crackme.sh https://crackmes.one/crackme/<id>
+./scripts/add-crackme.sh https://crackmes.one/download/crackme/<id>
+./scripts/add-crackme.sh <id>
+
+# forcer le slug auteur local (recommandé pour une série connue)
+./scripts/add-crackme.sh --author timotei <id-ou-url>
+
+# options
+./scripts/add-crackme.sh --dry-run <id>       # simule, n’écrit rien
+./scripts/add-crackme.sh --no-download <id>   # dossiers + ORIGIN sans ZIP
+```
+
+**Ce que fait le script**
+
+1. Extrait l’**ID** (24 hex) depuis l’URL ou l’argument.
+2. (Best-effort) lit titre / auteur / plateforme sur la page crackmes.one.
+3. Résout l’auteur local via `authors/*/author.yml` (`aliases`), ou crée un nouveau slug.
+4. Télécharge le ZIP (`…/download/crackme/<id>`).
+5. Dézippe avec **7z** et le mot de passe du site : **`crackmes.one`**  
+   (`7z x -y -pcrackmes.one -ooriginal/ …`).
+6. Calcule **sha256** / md5 du binaire extrait.
+7. Crée :
+   ```text
+   authors/<auteur>/<id>/
+     ORIGIN.yml     # id + urls + binary.path + binary.sha256
+     README.md      # squelette write-up
+     original/      # contenu du ZIP
+     analysis/      # vide (IDA, screens plus tard)
+     tools/         # vide (solveur, recon plus tard)
+   ```
+8. Met à jour `authors/<auteur>/catalog.yml` (`by_id` / `by_sha256`).
+
+**Ensuite (manuel)**
+
+- Reverse → fichiers dans `analysis/` et `tools/`.
+- Write-up dans le `README.md` du challenge.
+- Dans `ORIGIN.yml` : `status: solved`, `solution_summary`, éventuellement `series_index` si c’est une série numérotée (timotei #01…#12).
+- Mettre à jour le tableau dans `authors/<auteur>/README.md` si besoin.
+
+**Lien ID ↔ fichier** : `ORIGIN.yml` contient à la fois l’id crackmes.one et le `sha256` du binaire dans `original/`.
+
 ## Familles
 
 | Famille | Auteur | Épreuves | Résolues |
 |---|---|---|---|
-| [timotei-family](timotei-family/README.md) | timotei | 12 (4 ELF64 + 8 PE32) | 12 / 12 |
+| [timotei](authors/timotei/README.md) | timotei (`tim0tei`, `timotei_`) | 12 (4 ELF64 + 8 PE32) | 12 / 12 |
 
 ## Convention
 
-- Nom de dossier = nom du crackme, stable, ASCII (`timotei-crackme-01`, pas `timo#1`).
-- Le `.exe` reste pour les binaires Windows.
-- Le write-up s’appelle comme le binaire + `.md`.
-- On ne patche pas le binaire d’origine ; les reconstructions sont des fichiers à part.
-- Sources assembleur en `*.asm` pour la colorisation : `*-nasm.asm`, `*-fasm.asm`, `*-masm.asm`, dumps IDA `*-idapro.asm`.
+- Dossier challenge = **ID crackmes.one** (24 hex), pas le titre.
+- `ORIGIN.yml` : `id` + `urls` + `binary.sha256` (lien page ↔ fichier).
+- `original/` : binaire d’origine **non patché** ; recon / solveurs dans `tools/`.
+- Write-up = `README.md` du dossier challenge (rendu GitHub à l’ouverture).
+- Dumps IDA dans `analysis/` ; sources `*-nasm.asm` / `*-fasm.asm` / `*-masm.asm` dans `tools/`.
+- Auteur local = slug (`timotei`) + `aliases` dans `author.yml` si le pseudo site change.
 
 ## Licence / origine
 

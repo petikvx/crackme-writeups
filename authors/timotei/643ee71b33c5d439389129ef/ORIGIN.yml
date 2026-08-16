@@ -1,0 +1,35 @@
+# Origine crackmes.one
+id: 643ee71b33c5d439389129ef
+
+urls:
+  page: https://crackmes.one/crackme/643ee71b33c5d439389129ef
+  download: https://crackmes.one/download/crackme/643ee71b33c5d439389129ef
+
+title: "timotei crackme#5"
+author_on_site: timotei_
+author_local: timotei
+
+platform: Windows
+arch: x86
+language: Assembler
+
+difficulty: null
+quality: null
+size: ""
+published: 2023-04-18
+
+series_index: 5
+local_slug: timotei-crackme-05
+
+binary:
+  path: original/timotei-crackme-05.exe
+  name: timotei-crackme-05.exe
+  sha256: 99a18b1ac4b05ed75646fffa5c36628f251471f750db8d88f238136b43860824
+  md5: c20a5740116f3794f3f1dcc5d96b0dc9
+  size_bytes: 2560
+
+status: solved
+solution_summary: keyfile 22 o, checksum 8 bits
+
+download:
+  zip_password: crackmes.one

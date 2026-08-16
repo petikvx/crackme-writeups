@@ -1,0 +1,35 @@
+# Origine crackmes.one
+id: 649dbf9f33c5d460c17f1ec2
+
+urls:
+  page: https://crackmes.one/crackme/649dbf9f33c5d460c17f1ec2
+  download: https://crackmes.one/download/crackme/649dbf9f33c5d460c17f1ec2
+
+title: "timotei crackme#9"
+author_on_site: timotei_
+author_local: timotei
+
+platform: Windows
+arch: x86
+language: Assembler
+
+difficulty: null
+quality: null
+size: ""
+published: 2023-06-29
+
+series_index: 9
+local_slug: timotei-crackme-09
+
+binary:
+  path: original/timotei-crackme-09.exe
+  name: timotei-crackme-09.exe
+  sha256: d7b95a6613c6339e1718fedda458c1da6ee693eab540e3fe1465c79bea249982
+  md5: d750491b5c6bd079c2d3f789371d9eda
+  size_bytes: 6656
+
+status: solved
+solution_summary: "serial CM + atoi>=2023 + sum%n==0 (ex. 2191CMCM)"
+
+download:
+  zip_password: crackmes.one

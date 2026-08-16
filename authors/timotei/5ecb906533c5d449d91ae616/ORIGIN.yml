@@ -1,0 +1,35 @@
+# Origine crackmes.one
+id: 5ecb906533c5d449d91ae616
+
+urls:
+  page: https://crackmes.one/crackme/5ecb906533c5d449d91ae616
+  download: https://crackmes.one/download/crackme/5ecb906533c5d449d91ae616
+
+title: "timotei crackme#4"
+author_on_site: tim0tei
+author_local: timotei
+
+platform: Unix/linux etc.
+arch: x86-64
+language: Assembler
+
+difficulty: null
+quality: null
+size: ""
+published: 2020-05-25
+
+series_index: 4
+local_slug: timotei-crackme-04
+
+binary:
+  path: original/timotei-crackme-04
+  name: timotei-crackme-04
+  sha256: fdb1884fed91315ccfa8685221ecaaa6364a40733a4182d9b12476c67224ee2a
+  md5: 6d82bae021fbc1b808013689bd5c473e
+  size_bytes: 9056
+
+status: solved
+solution_summary: "argv[1]: +ORC (EP leurre, FNV-1)"
+
+download:
+  zip_password: crackmes.one

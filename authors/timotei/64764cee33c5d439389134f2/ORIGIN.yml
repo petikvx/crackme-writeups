@@ -1,0 +1,35 @@
+# Origine crackmes.one
+id: 64764cee33c5d439389134f2
+
+urls:
+  page: https://crackmes.one/crackme/64764cee33c5d439389134f2
+  download: https://crackmes.one/download/crackme/64764cee33c5d439389134f2
+
+title: "timotei crackme#7"
+author_on_site: timotei_
+author_local: timotei
+
+platform: Windows
+arch: x86
+language: Assembler
+
+difficulty: null
+quality: null
+size: ""
+published: 2023-05-30
+
+series_index: 7
+local_slug: timotei-crackme-07
+
+binary:
+  path: original/timotei-crackme-07.exe
+  name: timotei-crackme-07.exe
+  sha256: 45b99bffdb6f2f99b3b571f395a71d92106b5db95e8541e10f91989eb1c96e58
+  md5: f86db33aefb6c60ec1e4e35d4be3cc2c
+  size_bytes: 2560
+
+status: solved
+solution_summary: password console préfixe tI (SMC)
+
+download:
+  zip_password: crackmes.one

@@ -1,0 +1,35 @@
+# Origine crackmes.one
+id: 6452ba5533c5d43938912e35
+
+urls:
+  page: https://crackmes.one/crackme/6452ba5533c5d43938912e35
+  download: https://crackmes.one/download/crackme/6452ba5533c5d43938912e35
+
+title: "timotei crackme#6"
+author_on_site: timotei_
+author_local: timotei
+
+platform: Windows
+arch: x86
+language: Assembler
+
+difficulty: null
+quality: null
+size: ""
+published: 2023-05-03
+
+series_index: 6
+local_slug: timotei-crackme-06
+
+binary:
+  path: original/timotei-crackme-06.exe
+  name: timotei-crackme-06.exe
+  sha256: 7e6da2c5799c001e41087ca7a3e109dd530e486617de6c66e9f23dcc1fa41453
+  md5: 2581df5b9022722ed494be8637d656aa
+  size_bytes: 2560
+
+status: solved
+solution_summary: "keyfile 13 o: A-B+C >= 12345678, buf[10]=='6'"
+
+download:
+  zip_password: crackmes.one
