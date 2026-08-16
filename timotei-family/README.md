@@ -28,7 +28,7 @@ crackme-writeups/timotei-family/
 | [07](timotei-crackme-07/timotei-crackme-07.md) | PE32 console (MASM) | oui | password console : préfixe `tI` (SMC, ex. `tIme`) |
 | [08](timotei-crackme-08/timotei-crackme-08.md) | PE32 console | oui | quiz : `2 2 1 3 1 2` + `42` |
 | [09](timotei-crackme-09/timotei-crackme-09.md) | PE32 GUI | oui | serial : `CM` + `atoi≥2023` + sum%n==0 (ex. `2191CMCM`) |
-| 10 | PE32 GUI | — | — |
+| [10](timotei-crackme-10/timotei-crackme-10.md) | PE32 GUI | oui | name+serial : tri + `(d²)>>32` (ex. `timotei` → `eiim784527143`) |
 | 11 | PE32 GUI (Polink) | — | — |
 | 12 | PE32 GUI | — | — |
 
@@ -131,6 +131,18 @@ wine timotei-crackme-09/timotei-crackme-09.exe                        # crackme
 ```
 
 Détail : [timotei-crackme-09.md](timotei-crackme-09/timotei-crackme-09.md)
+
+## #10 en un coup d’œil
+
+PE32 GUI, Name + Serial. Exemple : **`timotei`** → **`eiim784527143`**. Attention : `WM_MOUSEMOVE` ferme l’app.
+
+```bash
+python3 timotei-crackme-10/timotei-crackme-10-solve.py timotei
+wine timotei-crackme-10/timotei-crackme-10-serializer-gui-fasm.bin   # serial live
+wine timotei-crackme-10/timotei-crackme-10.exe                       # crackme (clavier)
+```
+
+Détail : [timotei-crackme-10.md](timotei-crackme-10/timotei-crackme-10.md)
 
 ## Origine
 
