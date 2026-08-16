@@ -30,7 +30,7 @@ crackme-writeups/timotei-family/
 | [09](timotei-crackme-09/timotei-crackme-09.md) | PE32 GUI | oui | serial : `CM` + `atoi≥2023` + sum%n==0 (ex. `2191CMCM`) |
 | [10](timotei-crackme-10/timotei-crackme-10.md) | PE32 GUI | oui | name+serial : tri + `(d²)>>32` (ex. `timotei` → `eiim784527143`) |
 | [11](timotei-crackme-11/timotei-crackme-11.md) | PE32 GUI 1K (Polink) | oui | argv `t62O3668101526` → MessageBox `Good Work` |
-| 12 | PE32 GUI | — | — |
+| [12](timotei-crackme-12/timotei-crackme-12.md) | PE32 GUI | oui | serial amiable `n1-n2` (ex. `220-284`) |
 
 ## #01 en un coup d’œil
 
@@ -156,6 +156,18 @@ wine timotei-crackme-11/timotei-crackme-11-recon.exe t62O3668101526   # MessageB
 ```
 
 Détail : [timotei-crackme-11.md](timotei-crackme-11/timotei-crackme-11.md)
+
+## #12 en un coup d’œil
+
+PE32 GUI, serial **`n1-n2`** : paires amiables / parfaits. Exemple : **`220-284`** → Registered.
+
+```bash
+python3 timotei-crackme-12/timotei-crackme-12-solve.py
+wine timotei-crackme-12/timotei-crackme-12.exe   # Serial 220-284 → Check
+# MASM : timotei-crackme-12-masm.asm + .rc (Windows / MASM32)
+```
+
+Détail : [timotei-crackme-12.md](timotei-crackme-12/timotei-crackme-12.md)
 
 ## Origine
 

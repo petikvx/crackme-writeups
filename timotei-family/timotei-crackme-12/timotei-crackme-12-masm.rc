@@ -1,0 +1,23 @@
+// Resource dialog — timotei-crackme-12 reconstruction MASM32
+// Compile: \masm32\bin\rc /v timotei-crackme-12-masm.rc
+
+#include <windows.h>
+
+#define IDD_MAIN     100
+#define IDC_PROMPT   400
+#define IDC_SERIAL   405
+#define IDC_STATUS   406
+#define IDC_CHECK    402
+
+IDD_MAIN DIALOGEX 40, 40, 200, 78
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "timotei's Crackme #12"
+FONT 8, "Tahoma"
+BEGIN
+    LTEXT           ".:please enter a valid serial:.", IDC_PROMPT, 8, 6, 184, 10
+    LTEXT           "Serial:", -1, 8, 22, 36, 10
+    EDITTEXT        IDC_SERIAL, 48, 20, 144, 12, ES_AUTOHSCROLL | WS_BORDER | WS_TABSTOP
+    LTEXT           "Status:", -1, 8, 40, 36, 10
+    EDITTEXT        IDC_STATUS, 48, 38, 144, 12, ES_READONLY | WS_BORDER
+    DEFPUSHBUTTON   "&Check", IDC_CHECK, 70, 56, 60, 14, WS_TABSTOP
+END
