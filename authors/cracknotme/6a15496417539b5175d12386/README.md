@@ -12,6 +12,8 @@ Dossier : `authors/cracknotme/6a15496417539b5175d12386/` — [série auteur](../
 | [`original/CFB2.exe`](original/CFB2.exe) | binaire d’origine |
 | [`README.md`](README.md) | ce write-up |
 | [`tools/cfb2-solve.py`](tools/cfb2-solve.py) | BFS maze → chemin W/A/S/D |
+| [`analysis/screenshot01.png`](analysis/screenshot01.png) | live Windows : path → **ACCESS GRANTED** |
+| [`analysis/screenshot02.png`](analysis/screenshot02.png) | live Wine : path → **ACCESS GRANTED** |
 
 ## Réponse
 
@@ -24,7 +26,7 @@ python3 tools/cfb2-solve.py -q
 # SDDSSASSDDSSDDDSSDDD
 ```
 
-Preuve Wine : `ACCESS GRANTED! … successfully solved CFB2!`
+Preuve : [screenshot01 (Windows)](analysis/screenshot01.png) · [screenshot02 (Wine)](analysis/screenshot02.png).
 
 ---
 
