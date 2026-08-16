@@ -12,6 +12,7 @@ Dossier : `authors/cracknotme/6a154aca8fab7bbca27302a2/` — [série auteur](../
 | [`original/CFB3.exe`](original/CFB3.exe) | binaire d’origine |
 | [`README.md`](README.md) | ce write-up |
 | [`tools/cfb3-solve.py`](tools/cfb3-solve.py) | désasm / simu VM + password |
+| [`analysis/screenshot-verification-vm.png`](analysis/screenshot-verification-vm.png) | x64dbg : boucle VM + console `pwn_vm_3` → GRANTED |
 
 ## Réponse
 
@@ -24,7 +25,7 @@ python3 tools/cfb3-solve.py -q
 # pwn_vm_3
 ```
 
-Preuve Wine : `ACCESS GRANTED! … successfully solved CFB3!`
+Preuve : Wine + [screenshot x64dbg](analysis/screenshot-verification-vm.png) (`ACCESS GRANTED`).
 
 ---
 

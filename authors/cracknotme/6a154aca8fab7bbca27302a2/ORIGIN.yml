@@ -30,8 +30,9 @@ binary:
 
 status: solved
 solution_summary: >-
-  Mini-VM bytecode in .rdata: per-char LOAD + XORI/ADD + CMP/JNE.
-  Password pwn_vm_3 (Wine ACCESS GRANTED).
+  Mini-VM bytecode in .rdata ("Executing virtual machine verification" =
+  custom interpreter, not hypervisor anti-VM). Per-char LOAD+XORI/ADD+CMP/JNE
+  → password pwn_vm_3.
 
 download:
   zip_password: crackmes.one
