@@ -19,6 +19,7 @@ fi
 # strings/objdump/readelf/nm : binutils
 # 7z : paquet « 7zip » (Ubuntu 24.04) ; « p7zip-full » en repli
 # diec : « detectiteasy » s'il est dans tes dépôts (souvent un .deb hors archive)
+# glow : snap install glow (après les paquets apt)
 PACKAGES=(
   file
   binutils
@@ -113,6 +114,16 @@ if [[ -n "${VIRTUAL_ENV:-}" ]]; then
   run python3 -m pip install -q pefile
 fi
 
+# glow (rendu markdown terminal) — snap
+if command -v glow >/dev/null 2>&1; then
+  echo "OK   glow déjà présent : $(command -v glow)"
+elif ! command -v snap >/dev/null 2>&1; then
+  echo "SKIP glow  (snap absent — installer snapd puis relancer, ou : snap install glow)"
+else
+  echo "-> snap install glow"
+  run "${SUDO[@]}" snap install glow
+fi
+
 echo
 echo "=== vérif ==="
 check() {
@@ -137,6 +148,7 @@ check wine
 check wineconsole
 check diec
 check 7z
+check glow
 
 python3 -c "import pefile; print('OK   pefile         ', pefile.__file__)" 2>/dev/null \
   || echo "MISS pefile"

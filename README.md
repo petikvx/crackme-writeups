@@ -30,12 +30,14 @@ crackme-writeups/
 L’**ID** crackmes.one est la clé d’origine ; le **SHA-256** du fichier dans `original/` prouve le binaire.
 Un numéro de série (`series_index`) n’est utilisé que s’il existe (ex. timotei #01…#12).
 
-Outils Linux (file, objdump, gdb, nasm, wine32, diec, …) :
+Outils Linux (file, objdump, gdb, nasm, wine32, diec, glow, …) :
 
 ```bash
 ./scripts/install-re-tools.sh --dry-run
-./scripts/install-re-tools.sh          # sudo / apt
+./scripts/install-re-tools.sh          # sudo / apt (+ snap install glow)
 ```
+
+`glow` (rendu markdown en terminal) est installé via **snap** si `snap` est disponible.
 
 ### Ajouter un crackme (crackmes.one)
 
