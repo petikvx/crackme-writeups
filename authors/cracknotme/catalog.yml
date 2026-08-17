@@ -25,6 +25,11 @@ by_id:
     path: "authors/cracknotme/6a1569de2b3df128c1df5cb1/original/CFB5.exe"
     title: "CrackNotMe's CrackmesForBeginners (CFB) #5"
 
+  6a537448a27dfa335e4c8518:
+    sha256: "4133e300c07b8728ab3059fbe2c7bfcc6c4ffc56c2c95207d2a85f2fe4a7fdc7"
+    path: "authors/cracknotme/6a537448a27dfa335e4c8518/original/CFB6.exe"
+    title: "CrackNotMe's CrackmesForBeginners (CFB) #6"
+
 by_sha256:
   2806a1d20c1cc2d1c1bcc7e2e3a90963ad990376ae52f3c0889a88dbd86eb311:
     id: 6a1547f42b3df128c1df5ca5
@@ -46,3 +51,7 @@ by_sha256:
     id: 6a1569de2b3df128c1df5cb1
     path: "authors/cracknotme/6a1569de2b3df128c1df5cb1/original/CFB5.exe"
     page: https://crackmes.one/crackme/6a1569de2b3df128c1df5cb1
+  4133e300c07b8728ab3059fbe2c7bfcc6c4ffc56c2c95207d2a85f2fe4a7fdc7:
+    id: 6a537448a27dfa335e4c8518
+    path: "authors/cracknotme/6a537448a27dfa335e4c8518/original/CFB6.exe"
+    page: https://crackmes.one/crackme/6a537448a27dfa335e4c8518
