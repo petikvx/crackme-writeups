@@ -30,14 +30,21 @@ crackme-writeups/
 L’**ID** crackmes.one est la clé d’origine ; le **SHA-256** du fichier dans `original/` prouve le binaire.
 Un numéro de série (`series_index`) n’est utilisé que s’il existe (ex. timotei #01…#12).
 
-Outils Linux (file, objdump, gdb, nasm, wine32, diec, glow, …) :
+Outils Linux (file, objdump, gdb, nasm, wine32, xvfb, diec, glow, …) :
 
 ```bash
 ./scripts/install-re-tools.sh --dry-run
 ./scripts/install-re-tools.sh          # sudo / apt (+ snap install glow)
 ```
 
-`glow` (rendu markdown en terminal) est installé via **snap** si `snap` est disponible.
+- `glow` (rendu markdown en terminal) : **snap** si `snap` est disponible.
+- `xvfb` / `xvfb-run` : display virtuel pour lancer **Wine** sur un serveur sans écran :
+
+```bash
+xvfb-run -a wine original/CFB1.exe
+```
+
+- `diec` (Detect It Easy, binaire CLI) : **pas** un paquet apt — le script télécharge le **.deb** adapté à la distro depuis [DIE-engine releases](https://github.com/horsicq/DIE-engine/releases) (`/etc/os-release` / `lsb_release` → Ubuntu 20.04 / 22.04 / 24.04 / 26.04, Debian, …).
 
 ### Ajouter un crackme (crackmes.one)
 
