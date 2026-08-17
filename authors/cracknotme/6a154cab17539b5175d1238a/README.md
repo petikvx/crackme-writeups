@@ -12,6 +12,7 @@ Dossier : `authors/cracknotme/6a154cab17539b5175d1238a/` — [série auteur](../
 | [`original/CFB4.exe`](original/CFB4.exe) | binaire d’origine |
 | [`README.md`](README.md) | ce write-up |
 | [`tools/cfb4-solve.py`](tools/cfb4-solve.py) | inversion rotors + password |
+| [`analysis/screenshot01.png`](analysis/screenshot01.png) | live : `rotors_spin_9` → **ACCESS GRANTED** |
 
 ## Réponse
 
@@ -28,13 +29,9 @@ python3 tools/cfb4-solve.py -q
 r o t o r s _ s p i n _ 9
 ```
 
-Preuve live (Wine) :
+Preuve live : [screenshot01.png](analysis/screenshot01.png).
 
-```text
-[*] Encrypting input through custom rotors...
-   [+] ACCESS GRANTED! Congratulations!
-   You have successfully solved CFB4!
-```
+![`rotors_spin_9` → ACCESS GRANTED](analysis/screenshot01.png)
 
 ---
 
@@ -178,6 +175,8 @@ python3 tools/cfb4-solve.py --check rotors_spin_9
 printf 'rotors_spin_9\n\n' | wine original/CFB4.exe
 # … ACCESS GRANTED! …
 ```
+
+Capture live : [screenshot01.png](analysis/screenshot01.png).
 
 ---
 
