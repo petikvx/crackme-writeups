@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a154cab17539b5175d1238a
+
+urls:
+  page: https://crackmes.one/crackme/6a154cab17539b5175d1238a
+  download: https://crackmes.one/download/crackme/6a154cab17539b5175d1238a
+
+title: "CrackNotMe's CrackmesForBeginners (CFB) #4"
+author_on_site: "CrackNotMe"
+author_local: "cracknotme"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: 4
+local_slug: cfb4
+
+binary:
+  path: "original/CFB4.exe"
+  name: "CFB4.exe"
+  sha256: "cd0b68303a4eb9c3535cf1bd19fcdf81c3330e07adc7cd9168f34e5342aa0eca"
+  md5: "654bf8c567823955928da12c9d784739"
+  size_bytes: 263680
+
+status: solved
+solution_summary: "password 13 chars via custom rotors (ADD/XOR chain) → rotors_spin_9"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-17T15:24:04Z"
