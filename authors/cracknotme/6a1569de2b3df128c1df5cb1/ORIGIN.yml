@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a1569de2b3df128c1df5cb1
+
+urls:
+  page: https://crackmes.one/crackme/6a1569de2b3df128c1df5cb1
+  download: https://crackmes.one/download/crackme/6a1569de2b3df128c1df5cb1
+
+title: "CrackNotMe's CrackmesForBeginners (CFB) #5"
+author_on_site: "CrackNotMe"
+author_local: "cracknotme"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: 5
+local_slug: cfb5
+
+binary:
+  path: "original/CFB5.exe"
+  name: "CFB5.exe"
+  sha256: "64bb4fd05efff08db82a5cc77df08cdcfdf980f1e6fc72a1a961b270de6a8336"
+  md5: "5ca7daf6aed16f799a797a433fffdbe6"
+  size_bytes: 264704
+
+status: solved
+solution_summary: "8-char password → 8x8 GoL torus, 4 gens B3/S23 → LifeGame (multi preimages)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-17T17:40:22Z"

@@ -12,6 +12,7 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml) (id ↔ sha256).
 | 2 | [CFB #2 Maze Runner](6a15496417539b5175d12386/) | [`6a154964…`](https://crackmes.one/crackme/6a15496417539b5175d12386) | Windows x86-64 | path WASD `SDDSSASSDDSSDDDSSDDD` |
 | 3 | [CFB #3 Mini VM](6a154aca8fab7bbca27302a2/) | [`6a154aca…`](https://crackmes.one/crackme/6a154aca8fab7bbca27302a2) | Windows x86-64 | password `pwn_vm_3` |
 | 4 | [CFB #4 Custom rotors](6a154cab17539b5175d1238a/) | [`6a154cab…`](https://crackmes.one/crackme/6a154cab17539b5175d1238a) | Windows x86-64 | password `rotors_spin_9` |
+| 5 | [CFB #5 Game of Life](6a1569de2b3df128c1df5cb1/) | [`6a1569de…`](https://crackmes.one/crackme/6a1569de2b3df128c1df5cb1) | Windows x86-64 | password `LifeGame` |
 
 ## Arborescence d’un challenge
 
