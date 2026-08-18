@@ -13,6 +13,7 @@ crackme-writeups/
 ├── README.md
 ├── scripts/
 │   ├── install-re-tools.sh
+│   ├── install-grok-build.sh   ← Grok Build (Colab / Codespaces / local)
 │   └── add-crackme.sh          ← URL ou ID crackmes.one
 └── authors/
     └── <auteur>/                 # slug local (ex. timotei)
@@ -36,6 +37,16 @@ Outils Linux (file, objdump, gdb, nasm, wine32, xvfb, diec, glow, …) :
 ./scripts/install-re-tools.sh --dry-run
 ./scripts/install-re-tools.sh          # sudo / apt (+ snap install glow)
 ```
+
+Grok Build (agent TUI xAI) — utile sur **Codespaces** / **Colab** / machine locale :
+
+```bash
+./scripts/install-grok-build.sh --dry-run
+./scripts/install-grok-build.sh              # curl | install.sh officiel
+./scripts/install-grok-build.sh --login      # + grok login --device-auth
+```
+
+Auth sans navigateur local : `grok login --device-auth` (ou `export XAI_API_KEY=…`).
 
 - `glow` (rendu markdown en terminal) : **snap** si `snap` est disponible.
 - `xvfb` / `xvfb-run` : display virtuel pour lancer **Wine** sur un serveur sans écran :
