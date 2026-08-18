@@ -11,7 +11,7 @@ Reverse engineering **éducatif** de crackmes (surtout [crackmes.one](https://cr
 3. Produire un **solveur** reproductible
 4. Écrire le **write-up** (`README.md` du challenge)
 5. Mettre à jour les index (`ORIGIN.yml`, `authors/*/README.md`, README racine)
-6. **Commit + push** quand le challenge (ou la doc demandée) est terminé
+6. **Stop** : livrer le challenge terminé en local. **Ne pas** `git commit` / `git push` sauf demande explicite de l’utilisateur (« commit », « push », « on push », …)
 
 Les binaires d’origine sont **inclus** (pas des malwares, mais un AV peut gueuler).
 
@@ -100,18 +100,23 @@ Structure type :
 
 Langue : **français** (comme le reste du dépôt), termes techniques en anglais OK.
 
-### 5. Git
+### 5. Git (uniquement sur demande)
+
+Par défaut : **aucun** `git commit` ni `git push` à la fin d’un challenge.  
+Attendre une consigne claire (`commit`, `push`, `commit + push`, `on push`, …).
+
+Quand c’est demandé :
 
 ```bash
 git add authors/<slug>/… README.md   # ce qui a changé
 git commit -m "message clair (auteur + challenge + idée de la soluce)"
-git push origin main
+# git push origin main   ← seulement si push demandé aussi
 ```
 
-- Push sur **`main`** (remote `origin` déjà configuré sur la machine).
+- Remote : **`main`** / `origin` (déjà configuré).
 - Message de commit : style historique du repo (ex. `cracknotme CFB#3: mini-VM password pwn_vm_3`).
 - Ne pas committer `__pycache__/`, bases IDA brutes (voir `.gitignore`).
-- Screenshots / binaires d’origine : **oui**, ils font partie du dépôt.
+- Screenshots / binaires d’origine : **oui**, ils font partie du dépôt (quand on commit).
 
 ---
 
@@ -154,7 +159,7 @@ git push origin main
 - [ ] `ORIGIN.yml` : `status: solved` + summary  
 - [ ] `authors/<slug>/README.md` + README racine à jour  
 - [ ] Screenshots liés s’ils existent dans `analysis/`  
-- [ ] Commit + push `main`
+- [ ] Git : **seulement si demandé** (`commit` / `push`)
 
 ---
 
@@ -169,4 +174,4 @@ git push origin main
 | Série ELF/PE + recon asm | `authors/timotei/` |
 | Ajout crackme | `scripts/add-crackme.sh`, section README racine |
 
-Quand l’utilisateur dit « on continue » avec une URL `add-crackme` réussie : **enchaîner reverse → solveur → write-up → index → push** sans redemander la structure.
+Quand l’utilisateur dit « on continue » avec une URL `add-crackme` réussie : **enchaîner reverse → solveur → write-up → index** sans redemander la structure. **Pas** de commit/push sauf s’il le demande ensuite.
