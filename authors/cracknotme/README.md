@@ -14,6 +14,7 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml) (id ↔ sha256).
 | 4 | [CFB #4 Custom rotors](6a154cab17539b5175d1238a/) | [`6a154cab…`](https://crackmes.one/crackme/6a154cab17539b5175d1238a) | Windows x86-64 | password `rotors_spin_9` |
 | 5 | [CFB #5 Game of Life](6a1569de2b3df128c1df5cb1/) | [`6a1569de…`](https://crackmes.one/crackme/6a1569de2b3df128c1df5cb1) | Windows x86-64 | password `LifeGame` |
 | 6 | [CFB #6 Quantum State](6a537448a27dfa335e4c8518/) | [`6a537448…`](https://crackmes.one/crackme/6a537448a27dfa335e4c8518) | Windows x86-64 | flag `pwn{6_st4g3_m3m0ry_p4tch_g0d}` |
+| 7 | [CFB #7 Shattered Mirror](6a5374710b25d281a65688e6/) | [`6a537471…`](https://crackmes.one/crackme/6a5374710b25d281a65688e6) | Windows x86-64 | password `Pwn.By_SMC_2026` |
 
 ## Arborescence d’un challenge
 

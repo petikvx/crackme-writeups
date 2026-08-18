@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a5374710b25d281a65688e6
+
+urls:
+  page: https://crackmes.one/crackme/6a5374710b25d281a65688e6
+  download: https://crackmes.one/download/crackme/6a5374710b25d281a65688e6
+
+title: "CrackNotMe's CrackmesForBeginners (CFB) #7"
+author_on_site: "CrackNotMe"
+author_local: "cracknotme"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: 7
+local_slug: cfb7
+
+binary:
+  path: "original/CFB7.exe"
+  name: "CFB7.exe"
+  sha256: "4f9fc45d510842edb48a247e617cca2786994880202bca0413d6dcc87c6e34b4"
+  md5: "1562094492f8da4a818f0800e75f8cc8"
+  size_bytes: 215552
+
+status: solved
+solution_summary: "Shattered Mirror — XOR 0x5A shellcode compare → password Pwn.By_SMC_2026"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-18T20:04:22Z"
