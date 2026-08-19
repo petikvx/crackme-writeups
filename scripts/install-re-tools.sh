@@ -21,6 +21,7 @@ fi
 # diec : binaire Detect It Easy — .deb GitHub DIE-engine (pas de paquet apt standard)
 # glow : snap install glow (après les paquets apt)
 # xvfb : framebuffer virtuel pour Wine headless (serveur dédié sans display)
+# mingw-w64 : cross GCC/G++ Win32 (i686) + Win64 (x86_64) pour recon PE
 PACKAGES=(
   file
   binutils
@@ -38,6 +39,7 @@ PACKAGES=(
   wine32
   xvfb
   7zip
+  mingw-w64
 )
 
 DIE_RELEASES_API="https://api.github.com/repos/horsicq/DIE-engine/releases/latest"
@@ -368,6 +370,10 @@ check Xvfb
 check diec
 check 7z
 check glow
+check x86_64-w64-mingw32-gcc
+check x86_64-w64-mingw32-g++
+check i686-w64-mingw32-gcc
+check i686-w64-mingw32-g++
 
 python3 -c "import pefile; print('OK   pefile         ', pefile.__file__)" 2>/dev/null \
   || echo "MISS pefile"
@@ -375,4 +381,5 @@ python3 -c "import pefile; print('OK   pefile         ', pefile.__file__)" 2>/de
 echo
 echo "wine : $(wine --version 2>/dev/null || echo absent)"
 echo "wine headless (serveur) : xvfb-run -a wine original/CFB1.exe"
+echo "mingw PE64 : x86_64-w64-mingw32-gcc  |  PE32 : i686-w64-mingw32-gcc"
 echo "fini."
