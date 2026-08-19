@@ -16,6 +16,7 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml) (id ↔ sha256).
 | 6 | [CFB #6 Quantum State](6a537448a27dfa335e4c8518/) | [`6a537448…`](https://crackmes.one/crackme/6a537448a27dfa335e4c8518) | Windows x86-64 | flag `pwn{6_st4g3_m3m0ry_p4tch_g0d}` |
 | 7 | [CFB #7 Shattered Mirror](6a5374710b25d281a65688e6/) | [`6a537471…`](https://crackmes.one/crackme/6a5374710b25d281a65688e6) | Windows x86-64 | password `Pwn.By_SMC_2026` |
 | 8 | [CFB #8 Concurrently Yours](6a537490055757d3df60fcc3/) | [`6a537490…`](https://crackmes.one/crackme/6a537490055757d3df60fcc3) | Windows x86-64 | token hex dynamique PID⊕TID0..2 vs `deadbeef…4242` |
+| 9 | [CFB #9 The Impostor](6a5374be6f511264ea482525/) | [`6a5374be…`](https://crackmes.one/crackme/6a5374be6f511264ea482525) | Windows x86-64 | side-load `validator.dll` / `VerifyLicense` → `0x1337C0DE` |
 
 ## Arborescence d’un challenge
 

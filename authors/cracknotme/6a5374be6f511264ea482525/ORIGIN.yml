@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a5374be6f511264ea482525
+
+urls:
+  page: https://crackmes.one/crackme/6a5374be6f511264ea482525
+  download: https://crackmes.one/download/crackme/6a5374be6f511264ea482525
+
+title: "CrackNotMe's CrackmesForBeginners (CFB) #9"
+author_on_site: "CrackNotMe"
+author_local: "cracknotme"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 3.0
+quality: 4.0
+size: "242.00 KB"
+published: "2026-07-12"
+
+series_index: 9
+local_slug: cfb9
+
+binary:
+  path: "original/CFB9.exe"
+  name: "CFB9.exe"
+  sha256: "abb88c6b84c21e46afc51d3bda0afa7e0402c94fc942362310a435c8979c9123"
+  md5: "2dc01938ed3443a7d9a8ba769da38fd9"
+  size_bytes: 247808
+
+status: solved
+solution_summary: "The Impostor — side-load validator.dll / VerifyLicense → 0x1337C0DE (clé démo impostor)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-19T18:53:05Z"
