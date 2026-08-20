@@ -50,6 +50,11 @@ by_id:
     path: "authors/cracknotme/6a5375046f511264ea482529/original/CFB10.exe"
     title: "CrackNotMe's CrackmesForBeginners (CFB) #10"
 
+  69ff482c8fab7bbca273011e:
+    sha256: "16aec18469633987b2d8c035a92ac14cfe4a5cfc9ca3237a6b7f56dfa56536df"
+    path: "authors/cracknotme/69ff482c8fab7bbca273011e/original/CrackMe.exe"
+    title: "CrackNotMe's ASMe"
+
 by_sha256:
   2806a1d20c1cc2d1c1bcc7e2e3a90963ad990376ae52f3c0889a88dbd86eb311:
     id: 6a1547f42b3df128c1df5ca5
@@ -91,3 +96,7 @@ by_sha256:
     id: 6a5375046f511264ea482529
     path: "authors/cracknotme/6a5375046f511264ea482529/original/CFB10.exe"
     page: https://crackmes.one/crackme/6a5375046f511264ea482529
+  16aec18469633987b2d8c035a92ac14cfe4a5cfc9ca3237a6b7f56dfa56536df:
+    id: 69ff482c8fab7bbca273011e
+    path: "authors/cracknotme/69ff482c8fab7bbca273011e/original/CrackMe.exe"
+    page: https://crackmes.one/crackme/69ff482c8fab7bbca273011e

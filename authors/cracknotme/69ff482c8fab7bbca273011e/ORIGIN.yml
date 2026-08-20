@@ -1,0 +1,39 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69ff482c8fab7bbca273011e
+
+urls:
+  page: https://crackmes.one/crackme/69ff482c8fab7bbca273011e
+  download: https://crackmes.one/download/crackme/69ff482c8fab7bbca273011e
+
+title: "CrackNotMe's ASMe"
+author_on_site: "CrackNotMe"
+author_local: "cracknotme"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembly (FASM)"
+
+difficulty: null
+quality: null
+size: "4 KB"
+published: null
+
+series_index: null
+local_slug: ASMe
+
+binary:
+  path: "original/CrackMe.exe"
+  name: "CrackMe.exe"
+  sha256: "16aec18469633987b2d8c035a92ac14cfe4a5cfc9ca3237a6b7f56dfa56536df"
+  md5: "da730b281f8afbe19f6bd32f9db3ffa3"
+  size_bytes: 4096
+
+status: solved
+solution_summary: >-
+  FASM Win32 GUI: FNV-like hash (0x4c4b40 rounds, magic 0x01000193 via TLS
+  XOR) must be 0x350721c5; decrypts PEB stub returning 0x6f4c8d22 → "Correct Key!".
+  Examples: pXi8, 5PDx. Avoid debugger (BeingDebugged/NtGlobalFlag).
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-19T20:02:22Z"

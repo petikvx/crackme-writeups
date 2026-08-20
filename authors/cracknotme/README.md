@@ -18,6 +18,7 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml) (id ↔ sha256).
 | 8 | [CFB #8 Concurrently Yours](6a537490055757d3df60fcc3/) | [`6a537490…`](https://crackmes.one/crackme/6a537490055757d3df60fcc3) | Windows x86-64 | token hex dynamique PID⊕TID0..2 vs `deadbeef…4242` |
 | 9 | [CFB #9 The Impostor](6a5374be6f511264ea482525/) | [`6a5374be…`](https://crackmes.one/crackme/6a5374be6f511264ea482525) | Windows x86-64 | side-load `validator.dll` / `VerifyLicense` → `0x1337C0DE` |
 | 10 | [CFB #10 The Keymaster's Sigil](6a5375046f511264ea482529/) | [`6a537504…`](https://crackmes.one/crackme/6a5375046f511264ea482529) | Windows x86-64 | RSA-1024 key-replacement · user `keymaster` + sig PKCS1/SHA256 |
+| — | [ASMe (ASM CrackMe)](69ff482c8fab7bbca273011e/) | [`69ff482c…`](https://crackmes.one/crackme/69ff482c8fab7bbca273011e) | Windows PE32 FASM | serial `pXi8` / `5PDx` (hash `0x350721c5`) |
 
 ## Arborescence d’un challenge
 
