@@ -55,6 +55,11 @@ by_id:
     path: "authors/cracknotme/69ff482c8fab7bbca273011e/original/CrackMe.exe"
     title: "CrackNotMe's ASMe"
 
+  69b4768cf2d49d8512f649ff:
+    sha256: "1737657d3a16df2d5aab21835e31c1c37d6dcc74287c212a3adc30162f0d9e80"
+    path: "authors/cracknotme/69b4768cf2d49d8512f649ff/original/ChocolateFactory.exe"
+    title: "CrackNotMe's Willy Wonka&#39;s Chocolate Factory"
+
 by_sha256:
   2806a1d20c1cc2d1c1bcc7e2e3a90963ad990376ae52f3c0889a88dbd86eb311:
     id: 6a1547f42b3df128c1df5ca5
@@ -100,3 +105,7 @@ by_sha256:
     id: 69ff482c8fab7bbca273011e
     path: "authors/cracknotme/69ff482c8fab7bbca273011e/original/CrackMe.exe"
     page: https://crackmes.one/crackme/69ff482c8fab7bbca273011e
+  1737657d3a16df2d5aab21835e31c1c37d6dcc74287c212a3adc30162f0d9e80:
+    id: 69b4768cf2d49d8512f649ff
+    path: "authors/cracknotme/69b4768cf2d49d8512f649ff/original/ChocolateFactory.exe"
+    page: https://crackmes.one/crackme/69b4768cf2d49d8512f649ff

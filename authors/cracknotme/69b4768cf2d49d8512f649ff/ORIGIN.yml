@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69b4768cf2d49d8512f649ff
+
+urls:
+  page: https://crackmes.one/crackme/69b4768cf2d49d8512f649ff
+  download: https://crackmes.one/download/crackme/69b4768cf2d49d8512f649ff
+
+title: "CrackNotMe's Willy Wonka's Chocolate Factory"
+author_on_site: "CrackNotMe"
+author_local: "cracknotme"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C/C++ (MSVC)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: chocolate-factory
+
+binary:
+  path: "original/ChocolateFactory.exe"
+  name: "ChocolateFactory.exe"
+  sha256: "1737657d3a16df2d5aab21835e31c1c37d6dcc74287c212a3adc30162f0d9e80"
+  md5: "41cc12f08945987065675f45b278ce1c"
+  size_bytes: 163328
+
+status: solved
+solution_summary: "Golden Ticket Ch0c-M1lk-CrMe-choT (S-box + weights + caramel mix + CRC16 0x1021; W4 non unique)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-20T16:50:25Z"

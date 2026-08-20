@@ -122,7 +122,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | Famille | Auteur | Épreuves | Résolues |
 |---|---|---|---|
 | [timotei](authors/timotei/README.md) | timotei (`tim0tei`, `timotei_`) | 12 (4 ELF64 + 8 PE32) | 12 / 12 |
-| [cracknotme](authors/cracknotme/README.md) | CrackNotMe | 11+ (CFB… + ASMe) | 11 / 11 |
+| [cracknotme](authors/cracknotme/README.md) | CrackNotMe | 12+ (CFB… + ASMe + Wonka) | 12 / 12 |
 | [plikan](authors/plikan/README.md) | plikan | 1 (Easy Keygen .NET) | 1 / 1 |
 
 ## Convention

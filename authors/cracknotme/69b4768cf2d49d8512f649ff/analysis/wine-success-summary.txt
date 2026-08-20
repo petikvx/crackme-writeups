@@ -1,0 +1,13 @@
+# Preuve Wine — ticket Ch0c-M1lk-CrMe-choT
+# printf 'Ch0c-M1lk-CrMe-choT\n' | wine original/ChocolateFactory.exe
+
+Enter your Golden Ticket (16 characters, format XXXX-XXXX-XXXX-XXXX):
+Processing your ticket through the factory...
+
+[Workshop 1: Cocoa Plantation]  ... 100% [  OK  ]
+[Workshop 2: Milk River]        ... 100% [  OK  ]
+[Workshop 3: Caramel Oven]      ... 100% [  OK  ]
+[Workshop 4: Packaging Line]    ... 100% [  OK  ]
+
+Congratulations! You found the Golden Ticket!
+Chocolate Champion Trophy!
