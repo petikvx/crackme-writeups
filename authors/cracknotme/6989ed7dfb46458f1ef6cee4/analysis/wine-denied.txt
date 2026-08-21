@@ -1,0 +1,12 @@
+
+
+=== MONSTER CRACKME v1.0 ===
+
+Enter Password: 
+
+[-] ACCESS DENIED (Integrity Error / Wrong Password).
+
+
+
+[INFO] Closing in 5 seconds...
+

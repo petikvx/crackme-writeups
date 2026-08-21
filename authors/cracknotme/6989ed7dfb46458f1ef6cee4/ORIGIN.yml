@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6989ed7dfb46458f1ef6cee4
+
+urls:
+  page: https://crackmes.one/crackme/6989ed7dfb46458f1ef6cee4
+  download: https://crackmes.one/download/crackme/6989ed7dfb46458f1ef6cee4
+
+title: "CrackNotMe's Monster CrackMe 1.0 (MCM)"
+author_on_site: "CrackNotMe"
+author_local: "cracknotme"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C/C++ (MSVC)"
+
+difficulty: 4.0
+quality: 4.0
+size: ""
+published: null
+
+series_index: null
+local_slug: monster-crackme
+
+binary:
+  path: "original/CrackMe.exe"
+  name: "CrackMe.exe"
+  sha256: "ed0bf27ae3f1aca6e776a05fb774c8426f9ddf344120381a51a355fb76a099a6"
+  md5: "b3a23f06c8c98663bf8f6a98a247697c"
+  size_bytes: 223232
+
+status: solved
+solution_summary: "password y5 — LCG matrix key ⊕ parent/child mask → VM ops F0 imm=1 + FF"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-21T16:17:28Z"
