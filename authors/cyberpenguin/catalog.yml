@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a83e2f205a9e80a90724421:
+    sha256: "f27ca3167737d987db891fdf33b2fb758db0c9b4240040617f7dc66fa7cccc44"
+    path: "authors/cyberpenguin/6a83e2f205a9e80a90724421/original/what_password"
+    title: "Cyberpenguin's What password???"
+
+by_sha256:
+  f27ca3167737d987db891fdf33b2fb758db0c9b4240040617f7dc66fa7cccc44:
+    id: 6a83e2f205a9e80a90724421
+    path: "authors/cyberpenguin/6a83e2f205a9e80a90724421/original/what_password"
+    page: https://crackmes.one/crackme/6a83e2f205a9e80a90724421
