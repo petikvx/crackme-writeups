@@ -1,0 +1,6 @@
+
+=== MCM v3.0 ===
+Enter Password: 
+[-] FAILED. ACCESS DENIED.
+
+Press any key to exit...

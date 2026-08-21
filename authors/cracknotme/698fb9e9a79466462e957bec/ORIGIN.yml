@@ -11,15 +11,15 @@ author_local: "cracknotme"
 
 platform: "Windows"
 arch: "x86-64"
-language: ""
+language: "C/C++ (MSVC)"
 
-difficulty: null
-quality: null
+difficulty: 3.0
+quality: 5.0
 size: ""
-published: null
+published: "2026-02-13"
 
 series_index: null
-local_slug: null
+local_slug: mcm3
 
 binary:
   path: "original/CrackMe_packed.exe"
@@ -29,7 +29,7 @@ binary:
   size_bytes: 363008
 
 status: pending
-solution_summary: ""
+solution_summary: "packer XOR unpacké (mcm3-unpack) ; buried text S3rg0M_Admin_2024 = honeypot ; vrai gate mini-VM+checksum 0x762 non résolu"
 
 download:
   zip_password: crackmes.one
