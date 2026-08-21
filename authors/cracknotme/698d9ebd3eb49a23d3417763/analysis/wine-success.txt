@@ -1,0 +1,11 @@
+
+
+=== MCM v2.0 ===
+
+Enter Password: 
+
+[+] SUCCESS! ACCESS GRANTED.
+
+
+
+Closing in 5 seconds...

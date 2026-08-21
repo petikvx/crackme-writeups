@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 698fb9e9a79466462e957bec
+
+urls:
+  page: https://crackmes.one/crackme/698fb9e9a79466462e957bec
+  download: https://crackmes.one/download/crackme/698fb9e9a79466462e957bec
+
+title: "CrackNotMe's MCM 3.0 REWORK"
+author_on_site: "CrackNotMe"
+author_local: "cracknotme"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/CrackMe_packed.exe"
+  name: "CrackMe_packed.exe"
+  sha256: "2baf205890340e7ff50119748da85692548e8132de714ce652e8ae9270685982"
+  md5: "35fec8b1ad8856f9083a332e0d6b9259"
+  size_bytes: 363008
+
+status: pending
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-21T17:44:31Z"

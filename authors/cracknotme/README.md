@@ -22,6 +22,7 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml) (id ↔ sha256).
 | — | [Willy Wonka's Chocolate Factory](69b4768cf2d49d8512f649ff/) | [`69b4768c…`](https://crackmes.one/crackme/69b4768cf2d49d8512f649ff) | Windows PE32+ | ticket `Ch0c-M1lk-CrMe-choT` |
 | — | [Turbine Control KeyGenMe](69bd737bf2d49d8512f64adc/) | [`69bd737b…`](https://crackmes.one/crackme/69bd737bf2d49d8512f64adc) | Windows PE32+ | keygen HWID `TCU-XXXXX` → 4 blocs (ex. `AAAAA` → `<<<<-S~Fp-0iAU-4658`) |
 | — | [Monster CrackMe 1.0 (MCM)](6989ed7dfb46458f1ef6cee4/) | [`6989ed7d…`](https://crackmes.one/crackme/6989ed7dfb46458f1ef6cee4) | Windows PE32+ | password `y5` (VM F0/FF + mask parent/enfant) |
+| — | [MCM 2.0](698d9ebd3eb49a23d3417763/) | [`698d9ebd…`](https://crackmes.one/crackme/698d9ebd3eb49a23d3417763) | Windows PE32+ | password `Z1Y` (matrix FNV + VM parent/enfant) |
 
 ## Arborescence d’un challenge
 

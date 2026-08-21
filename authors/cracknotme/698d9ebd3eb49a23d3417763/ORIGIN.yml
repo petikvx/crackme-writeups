@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 698d9ebd3eb49a23d3417763
+
+urls:
+  page: https://crackmes.one/crackme/698d9ebd3eb49a23d3417763
+  download: https://crackmes.one/download/crackme/698d9ebd3eb49a23d3417763
+
+title: "CrackNotMe's MCM 2.0"
+author_on_site: "CrackNotMe"
+author_local: "cracknotme"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C/C++ (MSVC)"
+
+difficulty: 2.8
+quality: 4.0
+size: ""
+published: null
+
+series_index: null
+local_slug: mcm2
+
+binary:
+  path: "original/CrackMe.exe"
+  name: "CrackMe.exe"
+  sha256: "553996fbd290ebbd59a9c62d744df4c5d1dbb1920606080e1703e5754d0cf7e6"
+  md5: "232d6626307f4bfe5a67e9cb5c1de5e4"
+  size_bytes: 236544
+
+status: solved
+solution_summary: "password Z1Y (aussi z1y) — FNV stub→matrix LCG + parent/child DRx/VM; Wine SUCCESS"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-21T16:25:14Z"
