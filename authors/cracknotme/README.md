@@ -20,6 +20,7 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml) (id ↔ sha256).
 | 10 | [CFB #10 The Keymaster's Sigil](6a5375046f511264ea482529/) | [`6a537504…`](https://crackmes.one/crackme/6a5375046f511264ea482529) | Windows x86-64 | RSA-1024 key-replacement · user `keymaster` + sig PKCS1/SHA256 |
 | — | [ASMe (ASM CrackMe)](69ff482c8fab7bbca273011e/) | [`69ff482c…`](https://crackmes.one/crackme/69ff482c8fab7bbca273011e) | Windows PE32 FASM | serial `pXi8` / `5PDx` (hash `0x350721c5`) |
 | — | [Willy Wonka's Chocolate Factory](69b4768cf2d49d8512f649ff/) | [`69b4768c…`](https://crackmes.one/crackme/69b4768cf2d49d8512f649ff) | Windows PE32+ | ticket `Ch0c-M1lk-CrMe-choT` |
+| — | [Turbine Control KeyGenMe](69bd737bf2d49d8512f64adc/) | [`69bd737b…`](https://crackmes.one/crackme/69bd737bf2d49d8512f64adc) | Windows PE32+ | keygen HWID `TCU-XXXXX` → 4 blocs (ex. `AAAAA` → `<<<<-S~Fp-0iAU-4658`) |
 
 ## Arborescence d’un challenge
 

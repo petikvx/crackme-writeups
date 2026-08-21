@@ -1,0 +1,28 @@
+
+================================================================
+    TurbineControl_Diag v2.4  |  Industrial Calibration Suite
+    (C) 2026 Pwn.by Industrial Solutions
+    [WARN] Unauthorized use is prohibited by federal law.
+================================================================
+
+  [SYS] Initializing PLC communication bus...
+  [SYS] Loading turbine parameter database...
+  [SYS] Verifying sensor calibration tables...
+  [SYS] System ready. License verification required.
+
+  [SYS] Hardware ID resolved: TCU-AAAAA
+
+  Enter Calibration License Key (XXXX-YYYY-ZZZZ-WWWW): 
+  [SYS] Verifying license block 1/4...
+  [SYS] Verifying license block 2/4...
+  [SYS] Verifying license block 3/4...
+  [SYS] Verifying license block 4/4...
+
+  ========================================================
+  [OK] Calibration Unlocked! Full diagnostic access granted.
+  [OK] Turbine parameter tuning is now available.
+  ========================================================
+
+  Press any key to exit...
+
+[keygen] HWID=TCU-AAAAA  key=<<<<-S~Fp-0iAU-4658  ok=True

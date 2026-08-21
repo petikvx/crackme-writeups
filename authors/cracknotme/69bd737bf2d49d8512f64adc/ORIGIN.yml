@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69bd737bf2d49d8512f64adc
+
+urls:
+  page: https://crackmes.one/crackme/69bd737bf2d49d8512f64adc
+  download: https://crackmes.one/download/crackme/69bd737bf2d49d8512f64adc
+
+title: "CrackNotMe's Turbine Control KeyGenMe"
+author_on_site: "CrackNotMe"
+author_local: "cracknotme"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: turbine-control
+
+binary:
+  path: "original/TurbineControl.exe"
+  name: "TurbineControl.exe"
+  sha256: "35a347e5218dbf82cff0499b9c1ad724bc979feb4e4dbf08e1688a4e9e5bea73"
+  md5: "a01704e032bc04847564ef2941d2adc9"
+  size_bytes: 689664
+
+status: solved
+solution_summary: "Keygen HWID TCU-XXXXX → 4 blocs (dérivé HWID^0x1f, S-box chain, produit 5040+somme 150, poly31%10000) ; blacklist TCAL/ADMN"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-21T14:49:08Z"
