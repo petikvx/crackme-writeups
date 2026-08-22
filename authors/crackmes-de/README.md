@@ -33,3 +33,4 @@ Série **rezk2ll** (NASM) importée depuis crackmes.de.
 | 21 | [888](5ab77f5833c5d40ad448c397/) | crp | Linux ELF32 tiny | `./888 x y key` → OK |
 | 22 | [tiny_crackme](5ab77f5833c5d40ad448c3ed/) | yanisto | Linux ELF32 tiny | `729040cd` |
 | 23 | [naive_crackme](5ab77f5833c5d40ad448c3ee/) | yanisto | Linux ELF32 | `V7l$j^F;` |
+| 24 | [oxfoo1me](5ab77f5c33c5d40ad448c5f3/) | 0xf001 | Linux ELF32 | `fucktheduck` |

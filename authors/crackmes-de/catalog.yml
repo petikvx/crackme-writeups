@@ -115,6 +115,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c238/original/crackme1.tgz"
     title: "crackmes.de's crackme1 by darius949"
 
+  5ab77f5c33c5d40ad448c5f3:
+    sha256: "09bb194c55de58497d157b6e9e7812c4b2ebd30634c59838d5e208f350544871"
+    path: "authors/crackmes-de/5ab77f5c33c5d40ad448c5f3/original/oxfoo1m3.tgz"
+    title: "crackmes.de's oxfoo1me by 0xf001"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -208,3 +213,7 @@ by_sha256:
     id: 5ab77f5533c5d40ad448c238
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c238/original/crackme1.tgz"
     page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c238
+  09bb194c55de58497d157b6e9e7812c4b2ebd30634c59838d5e208f350544871:
+    id: 5ab77f5c33c5d40ad448c5f3
+    path: "authors/crackmes-de/5ab77f5c33c5d40ad448c5f3/original/oxfoo1m3.tgz"
+    page: https://crackmes.one/crackme/5ab77f5c33c5d40ad448c5f3

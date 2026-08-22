@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5c33c5d40ad448c5f3
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5c33c5d40ad448c5f3
+  download: https://crackmes.one/download/crackme/5ab77f5c33c5d40ad448c5f3
+
+title: "crackmes.de's oxfoo1me by 0xf001"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: "oxfoo1me"
+
+binary:
+  path: "original/oxfoo1m3.tgz"
+  name: "oxfoo1m3.tgz"
+  sha256: "09bb194c55de58497d157b6e9e7812c4b2ebd30634c59838d5e208f350544871"
+  md5: "2ef12015a7ad34ad57962d4d1fb6ce57"
+  size_bytes: 1315
+
+status: "solved"
+solution_summary: "password fucktheduck (expected myne{xtvfw~ XOR (11+i); exit 0xf001)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T18:36:56Z"
