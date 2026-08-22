@@ -1,0 +1,37 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6333c5d40ad448ca8a
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6333c5d40ad448ca8a
+  download: https://crackmes.one/download/crackme/5ab77f6333c5d40ad448ca8a
+
+title: "crackmes.de's easy_linux_crackme by lord"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: easy-linux-crackme
+
+binary:
+  path: "original/blah.tar.gz"
+  name: "blah.tar.gz"
+  sha256: "7c3eda667ff1d5db3220a91c8b5dbc446e4e9165a7c9bfa0110518fc4142fa1e"
+  md5: "5ded62bcbc0e90c07000d009eaa5b3e7"
+  size_bytes: 362
+  note: "tar.gz → blah ELF"
+
+status: solved
+solution_summary: "getgid()==0xdead → Okej!; verify via gdb"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T16:25:06Z"
