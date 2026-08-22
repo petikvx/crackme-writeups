@@ -144,7 +144,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [oguzbey](authors/oguzbey/README.md) | oguzbey | 1 (Lucky Numbers) | 1 / 1 |
 | [andrewl](authors/andrewl/README.md) | andrewl | 1 (Quick Crypto) | 1 / 1 |
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
-| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de (rezk2ll…) | 4+ | 3 / 4 |
+| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de (rezk2ll…) | 4 | 4 / 4 |
 
 ## Historique des résolutions
 
@@ -152,6 +152,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-08-22 | [CrackMe_ASM](authors/crackmes-de/5ab77f6533c5d40ad448cb71/) | crackmes.de / rezk2ll |
 | 2026-08-22 | [BeatMe](authors/crackmes-de/5ab77f6533c5d40ad448cb72/) | crackmes.de / rezk2ll |
 | 2026-08-22 | [KeygenmeNasm](authors/crackmes-de/5ab77f6533c5d40ad448cb73/) | crackmes.de / rezk2ll |
 | 2026-08-22 | [f1nd_my_k3y5](authors/crackmes-de/5ab77f6533c5d40ad448cb74/) | crackmes.de / rezk2ll |

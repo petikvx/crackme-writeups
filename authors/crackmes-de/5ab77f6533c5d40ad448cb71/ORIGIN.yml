@@ -1,0 +1,37 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6533c5d40ad448cb71
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6533c5d40ad448cb71
+  download: https://crackmes.one/download/crackme/5ab77f6533c5d40ad448cb71
+
+title: "crackmes.de's crackme_nasm by rezk2ll"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: 4
+local_slug: crackme-nasm
+
+binary:
+  path: "original/CrackMe_ASM.zip"
+  name: "CrackMe_ASM.zip"
+  sha256: "283ef62a85d1820d02f17e9c37c822dcf687f98bc671b8fafbbade3f9d121388"
+  md5: "e8e408a72bcd05bfc00201e331c54dd5"
+  size_bytes: 915
+  note: "ZIP → CrackMe_ASM ELF + blah.txt"
+
+status: solved
+solution_summary: "password S3CrE+Fl4G! (built in BSS; cmp dword S3Cr)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T16:10:45Z"
