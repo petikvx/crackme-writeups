@@ -1,0 +1,37 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6133c5d40ad448c924
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6133c5d40ad448c924
+  download: https://crackmes.one/download/crackme/5ab77f6133c5d40ad448c924
+
+title: "crackmes.de's staple by chtis"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: staple
+
+binary:
+  path: "original/staple.tar.gz"
+  name: "staple.tar.gz"
+  sha256: "282f1cfff2d0da14ca720c415e05dea86c8e79ee906a3eec3574cf44303c3532"
+  md5: "3af53351477a1a9bc39fd8cf77a886e6"
+  size_bytes: 6437
+  note: "tar.gz → staple + sourcecode.zip + README"
+
+status: solved
+solution_summary: "password bruceschneier → secret 62f6sHpFshNh844rTh (CRC XOR blob)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T16:25:10Z"
