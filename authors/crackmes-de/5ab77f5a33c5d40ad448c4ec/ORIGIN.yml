@@ -28,8 +28,8 @@ binary:
   md5: "74a92f27f4437dd0c3b2537f29d1626d"
   size_bytes: 10420
 
-status: pending
-solution_summary: ""
+status: solved
+solution_summary: "ElGamal SHA1(name); X via reused-k on LordCarder/ProThief. petik→65796CB3…662C (k=1337)."
 
 download:
   zip_password: crackmes.one

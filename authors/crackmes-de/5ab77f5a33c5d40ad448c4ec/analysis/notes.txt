@@ -1,4 +1,7 @@
-UPX 3.91 modified (upx -d refuses: modified/hacked/protected).
-Patch hints in ReadMe (not acceptable as solution): 004069A4 / 00401257.
-Need manual unpack then broken-ElGamal keygen.
-Status: pending.
+UPX 3.91 modified (SW0/SW1). Unpack: rename sections to UPX0/UPX1 then upx -d
+→ original/B0rken.ElGamal.KeygenMe-SW.unpacked.exe.
+
+P/G/Y 256-bit hardcoded. X recovered by reused-k on blacklisted pairs.
+X=7F4BEFC372EED0BA1D4A3543243EE574734C8347459FA21E5BCC5BCF0351812D
+
+Status: solved (tools/b0rken-elgamal-solve.py).
