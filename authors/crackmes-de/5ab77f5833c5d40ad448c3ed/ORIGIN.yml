@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3ed
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3ed
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3ed
+
+title: "crackmes.de's tiny_crackme by yanisto"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: "tiny-crackme"
+
+binary:
+  path: "original/tiny-crackme.gz"
+  name: "tiny-crackme.gz"
+  sha256: "21ef152daa6804ade9283697cbb5bab45e1438f7e660672c02c0044fbdab4cfc"
+  md5: "2f492a1d3e15580e062644b8a0142956"
+  size_bytes: 769
+
+status: "solved"
+solution_summary: "password 729040cd (SMC XOR + checksum 0x5508046b, fd swap)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T17:54:06Z"
