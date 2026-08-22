@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6633c5d40ad448cbf4
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6633c5d40ad448cbf4
+  download: https://crackmes.one/download/crackme/5ab77f6633c5d40ad448cbf4
+
+title: "crackmes.de's negligent_deobfuscate_1 by neon"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/negligent.zip"
+  name: "negligent.zip"
+  sha256: "a557b1a0f82e23db2d3499d625bf5a1aa41a18c5141751b3539521c4270c937d"
+  md5: "b259271de28e7ab797323189ae8ce2c2"
+  size_bytes: 1297
+
+status: solved
+solution_summary: "deobfuscation: transfer dword 2 across 4 .data slots → [0x40400C]=2; auto-deob in tools/"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T19:05:37Z"
