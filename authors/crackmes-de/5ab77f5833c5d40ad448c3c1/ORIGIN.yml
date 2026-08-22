@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3c1
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3c1
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3c1
+
+title: "crackmes.de's .dll_.disaster by issogoo"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/dll_disaster_issogoo.zip"
+  name: "dll_disaster_issogoo.zip"
+  sha256: "30ddd3742be2c5b31cc032e87e46fb467263955437082a733ca1518bbb4c19f5"
+  md5: "82f92d925daec6b7f5261cf00d005ea0"
+  size_bytes: 25956
+
+status: solved
+solution_summary: "inject_here.dll reads tick@0x403282; serial=sprintf('%08X', tick+0xCAFFEE)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T19:05:50Z"
