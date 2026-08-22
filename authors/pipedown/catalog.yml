@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69cd43df49fa49a2a2602312:
+    sha256: "ef2711822d6491a8ff9a8cb4eb536cb47ad46ea16752ecf5e2067f299b38601e"
+    path: "authors/pipedown/69cd43df49fa49a2a2602312/original/ineedtobehonest"
+    title: "pipedown's I need to be honest"
+
+by_sha256:
+  ef2711822d6491a8ff9a8cb4eb536cb47ad46ea16752ecf5e2067f299b38601e:
+    id: 69cd43df49fa49a2a2602312
+    path: "authors/pipedown/69cd43df49fa49a2a2602312/original/ineedtobehonest"
+    page: https://crackmes.one/crackme/69cd43df49fa49a2a2602312

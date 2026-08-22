@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69cd43df49fa49a2a2602312
+
+urls:
+  page: https://crackmes.one/crackme/69cd43df49fa49a2a2602312
+  download: https://crackmes.one/download/crackme/69cd43df49fa49a2a2602312
+
+title: "pipedown's I need to be honest"
+author_on_site: "pipedown"
+author_local: "pipedown"
+
+platform: "Linux"
+arch: "x86-64"
+language: "Assembler"
+
+difficulty: 1.6
+quality: 4.5
+size: ""
+published: "2026-04-01"
+
+series_index: null
+local_slug: ineedtobehonest
+
+binary:
+  path: "original/ineedtobehonest"
+  name: "ineedtobehonest"
+  sha256: "ef2711822d6491a8ff9a8cb4eb536cb47ad46ea16752ecf5e2067f299b38601e"
+  md5: "2afbf73c8d2ceea3e74939ee60af66b9"
+  size_bytes: 7008
+
+status: solved
+solution_summary: "password SecurePass_2k26_X64_Reverse (+ sum 0x9be); flags XOR 0x47/0x5a/0x6c (aussi en clair)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T14:42:39Z"

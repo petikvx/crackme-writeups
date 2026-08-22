@@ -1,0 +1,18 @@
+
+================================================
+   REVERSE ENGINEERING CHALLENGE v3.14159
+================================================
+
+[*] This binary contains 3 hidden flags
+[*] Your mission:
+    1. Bypass the password verification
+    2. Decrypt the 3 flags from memory
+
+[>] Enter password: 
+
+[+] PASSWORD VERIFIED!
+[+] Extracting hidden flags...
+
+<FLAG>CRYPTO_KEY_ALPHA_2026</FLAG>
+<FLAG>REVERSE_ENGINEERING_CHALLENGE</FLAG>
+<FLAG>MEMORY_HIDDEN_GAMMA_X64</FLAG>
