@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5c33c5d40ad448c666
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5c33c5d40ad448c666
+  download: https://crackmes.one/download/crackme/5ab77f5c33c5d40ad448c666
+
+title: "crackmes.de's j666 by josamont"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/j666.tar.gz"
+  name: "j666.tar.gz"
+  sha256: "c91aa052eb99feeb79783d93f310ef16282cd679eb94baec67a6c60f8e4a7f06"
+  md5: "6e670d553ed3ec59ad7c54e93810575f"
+  size_bytes: 495
+
+status: solved
+solution_summary: "password 04919AB9"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T17:53:53Z"
