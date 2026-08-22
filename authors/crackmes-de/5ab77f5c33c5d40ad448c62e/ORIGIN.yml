@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5c33c5d40ad448c62e
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5c33c5d40ad448c62e
+  download: https://crackmes.one/download/crackme/5ab77f5c33c5d40ad448c62e
+
+title: "crackmes.de's crackme3_by_sx0r by sx0r"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Crackme#3_S!x0r.tar.gz"
+  name: "Crackme#3_S!x0r.tar.gz"
+  sha256: "2b2943cd2987caa83647d5e5c93638ef11d2e921915eb19259ded68b9e29c8cb"
+  md5: "763c28f4e4dbd69b1daa43cdfe5d7f4d"
+  size_bytes: 883
+
+status: solved
+solution_summary: "keygen XXXX-XXXX; sixor → 6E9F-0065 (modpow)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T17:53:58Z"
