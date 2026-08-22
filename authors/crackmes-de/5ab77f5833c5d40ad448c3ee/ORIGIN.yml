@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3ee
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3ee
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3ee
+
+title: "crackmes.de's naive_crackme by yanisto"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: "naive-crackme"
+
+binary:
+  path: "original/naive-crk.gz"
+  name: "naive-crk.gz"
+  sha256: "59fd0ac0b409808e07231b08d1b77b5578c44e5a4ccab5572c3aa2d98269aa78"
+  md5: "5b9a1b9dff10593dcf8d1f5d4188f713"
+  size_bytes: 2120
+
+status: "solved"
+solution_summary: "password V7l$j^F; (checksum 0xc0ffee, fd0/fd1 swapped, fix e_entry)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T17:54:04Z"
