@@ -152,7 +152,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
-| 2026-08-22 | [b0rken_elgamal](authors/crackmes-de/5ab77f5a33c5d40ad448c4ec/) | crackmes.de / smilingwolf |
+| 2026-08-22 | [b0rken_elgamal_keygenme](authors/crackmes-de/5ab77f5a33c5d40ad448c4ec/) | crackmes.de / smilingwolf |
 | 2026-08-22 | [dll_disaster](authors/crackmes-de/5ab77f5833c5d40ad448c3c1/) | crackmes.de / issogoo |
 | 2026-08-22 | [negligent_deobfuscate_1](authors/crackmes-de/5ab77f6633c5d40ad448cbf4/) | crackmes.de / neon |
 | 2026-08-22 | [de_kryptzo_2](authors/crackmes-de/5ab77f5833c5d40ad448c3e1/) | crackmes.de / starzboy |

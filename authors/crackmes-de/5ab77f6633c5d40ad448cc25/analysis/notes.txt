@@ -1,7 +1,23 @@
-RC6-32/20 decrypt of 16-byte CT at 0x4030CF.
-Key = 16 bytes from edit (GetDlgItemText).
-TESTKEYzzzzzazazaazaz is a red herring (anti-olly / fake).
+RC6-32/20 decrypt of 16-byte CT at VA 0x4030CF.
 CT: c59f1ee93bec2739c442e7d9f3a3aa8c
-Need correct key for English plaintext MessageBox body.
-"outside the box / shell / dormant" hints — key still unknown.
-Status: pending.
+Key = 16 bytes from edit (GetDlgItemText id 0x3EB → buf 0x403112).
+TESTKEY / gISL79UlXonU / OLLYDBG = red herrings (anti-olly + dead strings).
+
+Key schedule (emulated): non-standard init
+  S[0]=0 (ecx after FindWindow path)
+  eax0 = 0x402099 ^ dword[0x401009]  (=0x402099^0x243f6a88)
+  then S[i]=eax0+i*0x8F3665C7 for i=1..43
+  then classic RC6 mixing (132 iters) with user key as L[]
+Decrypt matches Rivest RC6-32/20 (NESSIE zero-TV last dword 9848a41e).
+
+Hints (crackme.txt): outside the box / shell / dormant / wake me up
+→ MessageBox body must be readable English; caption always "You did it!".
+
+Tried: unicorn schedule + brute len≤4 [a-z0-9], dict words (std+mod Q),
+hint phrases — no full printable English PT yet.
+
+Likely remaining: correct key not in small charset; or ecx/eax0
+differ on live path; or secret is also the encrypted .text stub
+("abcdefgh"…) as dormant shellcode.
+
+Status: pending (key unknown).

@@ -37,4 +37,4 @@ Série **rezk2ll** (NASM) importée depuis crackmes.de.
 | 25 | [de_kryptzo_2](5ab77f5833c5d40ad448c3e1/) | starzboy | Win PE32 | petik/2ZUGRLbN→4c2ed685 |
 | 26 | [negligent_deobfuscate_1](5ab77f6633c5d40ad448cbf4/) | neon | Win PE32 | deob: dword 2→[0x40400C] |
 | 27 | [dll_disaster](5ab77f5833c5d40ad448c3c1/) | issogoo | Win PE32 | inject_here.dll tick+0xCAFFEE |
-| 28 | [b0rken_elgamal](5ab77f5a33c5d40ad448c4ec/) | smilingwolf | Win PE32 | petik→ElGamal serial |
+| 28 | [b0rken_elgamal_keygenme](5ab77f5a33c5d40ad448c4ec/) | smilingwolf | Win PE32 | petik→65796CB3…662C (reused-k) |

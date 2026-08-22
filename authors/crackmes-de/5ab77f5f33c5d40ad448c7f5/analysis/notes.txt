@@ -1,8 +1,21 @@
 FSG 1.33 — unpacked via unipacker → original/cauchy_km1.unpacked.exe (OEP 0x401000).
 
-RSA-1024 keygenme (taunt: "or maybe you factorized RSA1024?").
-e = 0x10001 from string "10001".
-Modulus / other params XOR-0xFF embedded between code (see 0x401246, 0x40139a).
-Requires 1-byte patch that is NOT a jump (per NFO) + keygen.
-Buffers 0x4043B0 / 0x404500 empty in static dump — runtime decrypt of embedded hex TBD.
-Status: pending (crypto + patch not finished).
+RSA-looking keygenme (taunt: "or maybe you factorized RSA1024?").
+e = 0x10001 (string "10001").
+
+XOR-0xFF embedded hex ASCII:
+  @file 0x1246 (256 hex) → N1 1023-bit
+  @file 0x139a (256 hex) → N2 1023-bit
+  @0x100e / 0x1142 → 54-hex blobs (216-bit) — not p/q of N1/N2
+Fermat (2e6) and factordb: not factored. gcd(N1,N2)=1.
+
+Flow sketch:
+  name → dword hash (HTBT-4cr_ / ROL mix) @0x404916
+  serial hex → bytes → transforms → bigint powmod @0x402aa4
+  compare via bigint_cmp @0x401b67
+  success → MessageBox "Good, your abilities ROX"
+
+NFO: patch ONLY 1 BYTE, NOT a jump + keygen.
+Buffers 0x4043B0 / 0x404500 filled at runtime (VirtualAlloc bigint).
+
+Status: pending (need factor N or recover d / identify 1-byte patch target).
