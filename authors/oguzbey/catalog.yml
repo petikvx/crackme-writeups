@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5e567e1d33c5d4439bb2dca0:
+    sha256: "6dc056d56f71c9e75a5470721bcaa28806066d8a47fb7658c4d718eb71149e0f"
+    path: "authors/oguzbey/5e567e1d33c5d4439bb2dca0/original/lucky_numbers"
+    title: "oguzbey's Lucky Numbers"
+
+by_sha256:
+  6dc056d56f71c9e75a5470721bcaa28806066d8a47fb7658c4d718eb71149e0f:
+    id: 5e567e1d33c5d4439bb2dca0
+    path: "authors/oguzbey/5e567e1d33c5d4439bb2dca0/original/lucky_numbers"
+    page: https://crackmes.one/crackme/5e567e1d33c5d4439bb2dca0

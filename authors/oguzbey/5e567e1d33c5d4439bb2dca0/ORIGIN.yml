@@ -1,0 +1,34 @@
+id: 5e567e1d33c5d4439bb2dca0
+
+urls:
+  page: https://crackmes.one/crackme/5e567e1d33c5d4439bb2dca0
+  download: https://crackmes.one/download/crackme/5e567e1d33c5d4439bb2dca0
+
+title: "oguzbey's Lucky Numbers"
+author_on_site: "oguzbey"
+author_local: "oguzbey"
+
+platform: "Linux"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 1.5
+quality: 5.0
+published: "2020-02-26"
+
+series_index: null
+local_slug: lucky-numbers
+
+binary:
+  path: "original/lucky_numbers"
+  name: "lucky_numbers"
+  sha256: "6dc056d56f71c9e75a5470721bcaa28806066d8a47fb7658c4d718eb71149e0f"
+  md5: "007e70da5226757d3900b04aefc5c09e"
+  size_bytes: 8456
+
+status: solved
+solution_summary: "lucky number 88 — ADC+DAA==0x16, digit2=='8'; read fd 2"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T16:10:00Z"
