@@ -1,0 +1,37 @@
+# Origine crackmes.one
+id: 632cf67b33c5d4425e2cd501
+
+urls:
+  page: https://crackmes.one/crackme/632cf67b33c5d4425e2cd501
+  download: https://crackmes.one/download/crackme/632cf67b33c5d4425e2cd501
+
+title: "Xeeven's FindThePassword1"
+author_on_site: "Xeeven"
+author_local: "xeeven"
+
+platform: "Linux"
+arch: "x86"
+language: "Assembler (NASM)"
+
+difficulty: 1.2
+quality: 4.2
+size: ""
+published: "2022-09-22"
+
+series_index: null
+local_slug: findthepassword1
+
+binary:
+  path: "original/findthepassword1.tar.7z"
+  name: "findthepassword1.tar.7z"
+  sha256: "bd00a8850973310b306c98c134a04952ec1cd7685fade9e018e4936b0b1d9b25"
+  md5: "feff757fa62e1734222448a10a422063"
+  size_bytes: 2344
+  note: "7z→tar→findthepassword1 ELF + readme.asm; ELF sha256 b48ca4221e90e1c34cb79bb5cfacac1b6953c61f06a89c8cfad5f6d71f81ed0a"
+
+status: solved
+solution_summary: "password 8675309 — cmpsb; sys_read on fd 2 (stderr)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T16:01:00Z"

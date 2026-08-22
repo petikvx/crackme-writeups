@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  632cf67b33c5d4425e2cd501:
+    sha256: "bd00a8850973310b306c98c134a04952ec1cd7685fade9e018e4936b0b1d9b25"
+    path: "authors/xeeven/632cf67b33c5d4425e2cd501/original/findthepassword1.tar.7z"
+    title: "Xeeven's FindThePassword1"
+
+by_sha256:
+  bd00a8850973310b306c98c134a04952ec1cd7685fade9e018e4936b0b1d9b25:
+    id: 632cf67b33c5d4425e2cd501
+    path: "authors/xeeven/632cf67b33c5d4425e2cd501/original/findthepassword1.tar.7z"
+    page: https://crackmes.one/crackme/632cf67b33c5d4425e2cd501

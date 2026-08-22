@@ -1,0 +1,8 @@
++ ------------------- +
+| Find the Password 1 |
+|           by Xeeven |
++ ------------------- +
+Password: + *** *** *** *** *** +
+|   Congratulations!  |
++ *** *** *** *** *** +
+
