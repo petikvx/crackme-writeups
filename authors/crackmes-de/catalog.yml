@@ -20,6 +20,31 @@ by_id:
     path: "authors/crackmes-de/5ab77f6533c5d40ad448cb71/original/CrackMe_ASM.zip"
     title: "crackmes.de's crackme_nasm by rezk2ll"
 
+  5ab77f6333c5d40ad448ca8b:
+    sha256: "8cc438204dc25648b1360feea5bccd538db74f565ece2c68a88c58dbb200a14c"
+    path: "authors/crackmes-de/5ab77f6333c5d40ad448ca8b/original/cm1eng.gz"
+    title: "crackmes.de's easy_crackme_2 by lord"
+
+  5ab77f6333c5d40ad448ca8a:
+    sha256: "7c3eda667ff1d5db3220a91c8b5dbc446e4e9165a7c9bfa0110518fc4142fa1e"
+    path: "authors/crackmes-de/5ab77f6333c5d40ad448ca8a/original/blah.tar.gz"
+    title: "crackmes.de's easy_linux_crackme by lord"
+
+  5ab77f6233c5d40ad448c9c3:
+    sha256: "202f0eb63b72bb14e4734dbea8cb9e8c238ccf780e572db03eb48f92285225fd"
+    path: "authors/crackmes-de/5ab77f6233c5d40ad448c9c3/original/yyyyyyy1.tar.gz"
+    title: "crackmes.de's yyyyyyy1 by yyyyyyy"
+
+  5ab77f6133c5d40ad448c924:
+    sha256: "282f1cfff2d0da14ca720c415e05dea86c8e79ee906a3eec3574cf44303c3532"
+    path: "authors/crackmes-de/5ab77f6133c5d40ad448c924/original/staple.tar.gz"
+    title: "crackmes.de's staple by chtis"
+
+  5ab77f5f33c5d40ad448c7bd:
+    sha256: "dd9106ff7c81ca493289f862b74603202a0e6f53ea07b988041c2cf1804ca4ea"
+    path: "authors/crackmes-de/5ab77f5f33c5d40ad448c7bd/original/logic.tgz"
+    title: "crackmes.de's basic_logic by eholzbach"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -37,3 +62,23 @@ by_sha256:
     id: 5ab77f6533c5d40ad448cb71
     path: "authors/crackmes-de/5ab77f6533c5d40ad448cb71/original/CrackMe_ASM.zip"
     page: https://crackmes.one/crackme/5ab77f6533c5d40ad448cb71
+  8cc438204dc25648b1360feea5bccd538db74f565ece2c68a88c58dbb200a14c:
+    id: 5ab77f6333c5d40ad448ca8b
+    path: "authors/crackmes-de/5ab77f6333c5d40ad448ca8b/original/cm1eng.gz"
+    page: https://crackmes.one/crackme/5ab77f6333c5d40ad448ca8b
+  7c3eda667ff1d5db3220a91c8b5dbc446e4e9165a7c9bfa0110518fc4142fa1e:
+    id: 5ab77f6333c5d40ad448ca8a
+    path: "authors/crackmes-de/5ab77f6333c5d40ad448ca8a/original/blah.tar.gz"
+    page: https://crackmes.one/crackme/5ab77f6333c5d40ad448ca8a
+  202f0eb63b72bb14e4734dbea8cb9e8c238ccf780e572db03eb48f92285225fd:
+    id: 5ab77f6233c5d40ad448c9c3
+    path: "authors/crackmes-de/5ab77f6233c5d40ad448c9c3/original/yyyyyyy1.tar.gz"
+    page: https://crackmes.one/crackme/5ab77f6233c5d40ad448c9c3
+  282f1cfff2d0da14ca720c415e05dea86c8e79ee906a3eec3574cf44303c3532:
+    id: 5ab77f6133c5d40ad448c924
+    path: "authors/crackmes-de/5ab77f6133c5d40ad448c924/original/staple.tar.gz"
+    page: https://crackmes.one/crackme/5ab77f6133c5d40ad448c924
+  dd9106ff7c81ca493289f862b74603202a0e6f53ea07b988041c2cf1804ca4ea:
+    id: 5ab77f5f33c5d40ad448c7bd
+    path: "authors/crackmes-de/5ab77f5f33c5d40ad448c7bd/original/logic.tgz"
+    page: https://crackmes.one/crackme/5ab77f5f33c5d40ad448c7bd

@@ -1,0 +1,37 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6333c5d40ad448ca8b
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6333c5d40ad448ca8b
+  download: https://crackmes.one/download/crackme/5ab77f6333c5d40ad448ca8b
+
+title: "crackmes.de's easy_crackme_2 by lord"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: easy-crackme-2
+
+binary:
+  path: "original/cm1eng.gz"
+  name: "cm1eng.gz"
+  sha256: "8cc438204dc25648b1360feea5bccd538db74f565ece2c68a88c58dbb200a14c"
+  md5: "97bc0cabc272e185f3fa22f74daccf94"
+  size_bytes: 362
+  note: "gzip → cm1eng ELF"
+
+status: solved
+solution_summary: "password pucybut (QTBXCTU XOR 0x21)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T16:25:05Z"
