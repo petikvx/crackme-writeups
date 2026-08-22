@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5d07f03233c5d41c6d56e10c
+
+urls:
+  page: https://crackmes.one/crackme/5d07f03233c5d41c6d56e10c
+  download: https://crackmes.one/download/crackme/5d07f03233c5d41c6d56e10c
+
+title: "andrewl's Quick Crypto, 18k"
+author_on_site: "andrewl"
+author_local: "andrewl"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/chall"
+  name: "chall"
+  sha256: "0f2335c1d73b87e3d2d5c315bc749c4abb743cb8e48e8b6f6177fc92342d61bf"
+  md5: "84fd04be7302d4db3d25827f33fda7bd"
+  size_bytes: 18364
+
+status: solved
+solution_summary: "key 9B916917-B6117336 — TEA-like unrolled decipher → CSAWHAHA"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T16:04:22Z"

@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5d07f03233c5d41c6d56e10c:
+    sha256: "0f2335c1d73b87e3d2d5c315bc749c4abb743cb8e48e8b6f6177fc92342d61bf"
+    path: "authors/andrewl/5d07f03233c5d41c6d56e10c/original/chall"
+    title: "andrewl's Quick Crypto, 18k"
+
+by_sha256:
+  0f2335c1d73b87e3d2d5c315bc749c4abb743cb8e48e8b6f6177fc92342d61bf:
+    id: 5d07f03233c5d41c6d56e10c
+    path: "authors/andrewl/5d07f03233c5d41c6d56e10c/original/chall"
+    page: https://crackmes.one/crackme/5d07f03233c5d41c6d56e10c
