@@ -140,6 +140,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [ockotajny](authors/ockotajny/README.md) | OckoTajny | 1 (netCrack) | 1 / 1 |
 | [teknikclel69](authors/teknikclel69/README.md) | Teknikclel69 | 1 (silly) | 1 / 1 |
 | [xeeven](authors/xeeven/README.md) | Xeeven | 1 (FindThePassword1) | 1 / 1 |
+| [r3tr0bs](authors/r3tr0bs/README.md) | R3tr0BS | 1 (EZ crackme) | 1 / 1 |
 
 ## Historique des résolutions
 
@@ -147,6 +148,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-08-22 | [EZ crackme](authors/r3tr0bs/5fcfb87933c5d424269a1afc/) | R3tr0BS |
 | 2026-08-22 | [FindThePassword1](authors/xeeven/632cf67b33c5d4425e2cd501/) | Xeeven |
 | 2026-08-22 | [silly](authors/teknikclel69/65afe04ceef082e477ff6026/) | Teknikclel69 |
 | 2026-08-22 | [netCrack](authors/ockotajny/693017b52d267f28f69b82ae/) | OckoTajny |

@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5fcfb87933c5d424269a1afc:
+    sha256: "349faf92f282c2f1f0872408f8325e6805baeb4b94e36d512ba15d7f631cc2db"
+    path: "authors/r3tr0bs/5fcfb87933c5d424269a1afc/original/Crackme.tar"
+    title: "R3tr0BS's EZ crackme"
+
+by_sha256:
+  349faf92f282c2f1f0872408f8325e6805baeb4b94e36d512ba15d7f631cc2db:
+    id: 5fcfb87933c5d424269a1afc
+    path: "authors/r3tr0bs/5fcfb87933c5d424269a1afc/original/Crackme.tar"
+    page: https://crackmes.one/crackme/5fcfb87933c5d424269a1afc

@@ -1,0 +1,35 @@
+id: 5fcfb87933c5d424269a1afc
+
+urls:
+  page: https://crackmes.one/crackme/5fcfb87933c5d424269a1afc
+  download: https://crackmes.one/download/crackme/5fcfb87933c5d424269a1afc
+
+title: "R3tr0BS's EZ crackme"
+author_on_site: "R3tr0BS"
+author_local: "r3tr0bs"
+
+platform: "Linux"
+arch: "x86"
+language: "Assembler (NASM)"
+
+difficulty: 1.0
+quality: 3.8
+published: "2020-12-08"
+
+series_index: null
+local_slug: ez-crackme
+
+binary:
+  path: "original/Crackme.tar"
+  name: "Crackme.tar"
+  sha256: "349faf92f282c2f1f0872408f8325e6805baeb4b94e36d512ba15d7f631cc2db"
+  md5: "bc2aa993a479c706a36a1cd24de28c51"
+  size_bytes: 20480
+  note: "tar → run.exe (ELF32) + Readme.txt"
+
+status: solved
+solution_summary: "password P455w0rd (argv) — plaintext .data"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T16:05:00Z"
