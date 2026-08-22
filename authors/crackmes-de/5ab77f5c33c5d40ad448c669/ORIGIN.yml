@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5c33c5d40ad448c669
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5c33c5d40ad448c669
+  download: https://crackmes.one/download/crackme/5ab77f5c33c5d40ad448c669
+
+title: "crackmes.de's j333 by josamont"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/j333.tar.gz"
+  name: "j333.tar.gz"
+  sha256: "b6aad7aa56bec0a8039cbd40990cccd272d42307ccd1233ebb710157fb52f185"
+  md5: "1f579d61909df489686d7912bb6ea7c0"
+  size_bytes: 358
+
+status: solved
+solution_summary: "password 246581 (PTY, read fd1)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T17:53:49Z"
