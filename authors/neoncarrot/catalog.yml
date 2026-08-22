@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  697e5b0a16739b40dcb5da9d:
+    sha256: "a2534bf2fbcb56dc19bdce82a9692a11c03f9cc18ffef58a7bb41b3f3fb2ea65"
+    path: "authors/neoncarrot/697e5b0a16739b40dcb5da9d/original/FindTheCorrectKey.zip"
+    title: "neoncarrot's Find the correct key!"
+
+by_sha256:
+  a2534bf2fbcb56dc19bdce82a9692a11c03f9cc18ffef58a7bb41b3f3fb2ea65:
+    id: 697e5b0a16739b40dcb5da9d
+    path: "authors/neoncarrot/697e5b0a16739b40dcb5da9d/original/FindTheCorrectKey.zip"
+    page: https://crackmes.one/crackme/697e5b0a16739b40dcb5da9d

@@ -10,7 +10,7 @@ Reverse engineering **éducatif** de crackmes (surtout [crackmes.one](https://cr
 2. Reverse le binaire
 3. Produire un **solveur** reproductible
 4. Écrire le **write-up** (`README.md` du challenge)
-5. Mettre à jour les index (`ORIGIN.yml`, `authors/*/README.md`, README racine)
+5. Mettre à jour les index (`ORIGIN.yml`, `authors/*/README.md`, README racine : famille **et** historique)
 6. **Stop** : livrer le challenge terminé en local. **Ne pas** `git commit` / `git push` sauf demande explicite de l’utilisateur (« commit », « push », « on push », …)
 
 Les binaires d’origine sont **inclus** (pas des malwares, mais un AV peut gueuler).
@@ -80,8 +80,12 @@ Identifier : plateforme, arch, compiler, UI (console / GUI), type de prédicat
 | `README.md` | write-up complet (voir modèle ci-dessous) |
 | `ORIGIN.yml` | `status: solved`, `solution_summary`, `series_index` / `local_slug` si série |
 | `authors/<slug>/README.md` | ligne dans le tableau de progression |
-| README racine | compteur « résolues » de la famille à jour |
+| README racine | compteur « résolues » de la famille **+** ligne dans **Historique des résolutions** |
 | `analysis/` | screenshots live si l’utilisateur en fournit (les lier dans le write-up) |
+
+**Historique (README racine)** : tableau `Date | Crackme | Auteur`.  
+Ajouter la **nouvelle résolution en première ligne de données** (juste sous l’en-tête) — **plus récent en haut**.  
+Date = jour du commit write-up / soluce (ou jour de la résolution locale si pas encore commit).
 
 ### 4. Write-up (`README.md` du challenge)
 
@@ -157,7 +161,8 @@ git commit -m "message clair (auteur + challenge + idée de la soluce)"
 - [ ] Preuve live (Wine / native) OK  
 - [ ] Write-up lisible avec **réponse en tête**  
 - [ ] `ORIGIN.yml` : `status: solved` + summary  
-- [ ] `authors/<slug>/README.md` + README racine à jour  
+- [ ] `authors/<slug>/README.md` + README racine (compteur famille) à jour  
+- [ ] Historique README racine : **nouvelle ligne en haut** (`Date | Crackme | Auteur`)  
 - [ ] Screenshots liés s’ils existent dans `analysis/`  
 - [ ] Git : **seulement si demandé** (`commit` / `push`)
 

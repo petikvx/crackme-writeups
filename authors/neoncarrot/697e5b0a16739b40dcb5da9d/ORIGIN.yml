@@ -1,0 +1,37 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 697e5b0a16739b40dcb5da9d
+
+urls:
+  page: https://crackmes.one/crackme/697e5b0a16739b40dcb5da9d
+  download: https://crackmes.one/download/crackme/697e5b0a16739b40dcb5da9d
+
+title: "neoncarrot's Find the correct key!"
+author_on_site: "neoncarrot"
+author_local: "neoncarrot"
+
+platform: "Windows"
+arch: "x86"
+language: "C (LCC / get-keys + check-keys UPX)"
+
+difficulty: 4.3
+quality: 5.0
+size: ""
+published: "2026-01-31"
+
+series_index: null
+local_slug: find-the-correct-key
+
+binary:
+  path: "original/FindTheCorrectKey.zip"
+  name: "FindTheCorrectKey.zip"
+  sha256: "a2534bf2fbcb56dc19bdce82a9692a11c03f9cc18ffef58a7bb41b3f3fb2ea65"
+  md5: "c2361f8fd789a4f7477e4f463b415d04"
+  size_bytes: 20501
+  note: "ZIP → get-keys.exe + check-keys.exe (UPX)"
+
+status: solved
+solution_summary: "get-keys pass providechaos; key 75 digits 439272362961741018146349942923915526002573998999491954071123154782706705610"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T15:16:03Z"

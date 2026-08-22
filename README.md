@@ -130,6 +130,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [pipedown](authors/pipedown/README.md) | pipedown | 1 (I need to be honest) | 1 / 1 |
 | [jeffli6789](authors/jeffli6789/README.md) | jeffli6789 | 1 (RE CTF 2026 wallpaper) | 1 / 1 |
 | [cr-ck_god001](authors/cr-ck_god001/README.md) | Cr@ck_God001 | 1 (Crackme GUI) | 1 / 1 |
+| [neoncarrot](authors/neoncarrot/README.md) | neoncarrot | 1 (Find the correct key!) | 1 / 1 |
 
 ## Historique des résolutions
 
@@ -137,6 +138,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-08-22 | [Find the correct key!](authors/neoncarrot/697e5b0a16739b40dcb5da9d/) | neoncarrot |
 | 2026-08-22 | [Crackme (GUI)](authors/cr-ck_god001/6991e765853c2615340abd8c/) | Cr@ck_God001 |
 | 2026-08-22 | [RE CTF 2026 — wallpaper](authors/jeffli6789/69a2911b7a778cfffbfb67ca/) | jeffli6789 |
 | 2026-08-22 | [I need to be honest](authors/pipedown/69cd43df49fa49a2a2602312/) | pipedown |
