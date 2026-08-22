@@ -1,0 +1,37 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5f33c5d40ad448c7bd
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5f33c5d40ad448c7bd
+  download: https://crackmes.one/download/crackme/5ab77f5f33c5d40ad448c7bd
+
+title: "crackmes.de's basic_logic by eholzbach"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: basic-logic
+
+binary:
+  path: "original/logic.tgz"
+  name: "logic.tgz"
+  sha256: "dd9106ff7c81ca493289f862b74603202a0e6f53ea07b988041c2cf1804ca4ea"
+  md5: "da3601fb628992478104ff6fc6078a4b"
+  size_bytes: 784
+  note: "tgz → logic/logic + readme"
+
+status: solved
+solution_summary: "password str(pid)+str(time); read on fd1 → PTY"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T16:25:11Z"
