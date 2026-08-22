@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c397
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c397
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c397
+
+title: "crackmes.de's 888 by crp"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: "888"
+
+binary:
+  path: "original/888.tgz"
+  name: "888.tgz"
+  sha256: "ebcde79b635eb535f4f00265f839d2895f595ebc3740ae026727de351da32e56"
+  md5: "591fa5e074426f6575f03344363bfc82"
+  size_bytes: 984
+
+status: "solved"
+solution_summary: "./888 x y key (argc≥4 + argv key; SIGTRAP×2 → OK; modern kernel needs gdb check)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T17:54:09Z"
