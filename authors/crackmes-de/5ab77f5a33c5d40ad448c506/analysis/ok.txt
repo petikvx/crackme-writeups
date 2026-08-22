@@ -1,0 +1,2 @@
+password: stefu!u| (ELF EI_PAD)
+00000000: 7f45 4c46 0101 0100 7374 6566 7521 757c  .ELF....stefu!u|

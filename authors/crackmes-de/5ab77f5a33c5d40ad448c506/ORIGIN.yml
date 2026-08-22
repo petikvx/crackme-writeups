@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5a33c5d40ad448c506
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5a33c5d40ad448c506
+  download: https://crackmes.one/download/crackme/5ab77f5a33c5d40ad448c506
+
+title: "crackmes.de's grainne by stefanie"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/grainne.zip"
+  name: "grainne.zip"
+  sha256: "cae1d1832490aeaa892de58ee7dede0abfa0fb395a2a37ee12d30768929c1ae8"
+  md5: "c030e9b0284c99241d7ae413dfcd29f9"
+  size_bytes: 2105
+
+status: solved
+solution_summary: "password stefu!u| (ELF e_ident padding)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T17:53:59Z"
