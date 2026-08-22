@@ -138,6 +138,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [cosmosss](authors/cosmosss/README.md) | CosmoSSS | 1 (Password Very Easy) | 1 / 1 |
 | [abolhb](authors/abolhb/README.md) | ABOLHB | 1 (MasonCrackmeV2) | 1 / 1 |
 | [ockotajny](authors/ockotajny/README.md) | OckoTajny | 1 (netCrack) | 1 / 1 |
+| [teknikclel69](authors/teknikclel69/README.md) | Teknikclel69 | 1 (silly) | 1 / 1 |
 
 ## Historique des résolutions
 
@@ -145,6 +146,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-08-22 | [silly](authors/teknikclel69/65afe04ceef082e477ff6026/) | Teknikclel69 |
 | 2026-08-22 | [netCrack](authors/ockotajny/693017b52d267f28f69b82ae/) | OckoTajny |
 | 2026-08-22 | [MasonCrackmeV2](authors/abolhb/68ff92e62d267f28f69b78f1/) | ABOLHB |
 | 2026-08-22 | [Password (Very Easy)](authors/cosmosss/6943c5440992a052ab22240f/) | CosmoSSS |

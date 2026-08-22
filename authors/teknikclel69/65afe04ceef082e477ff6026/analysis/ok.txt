@@ -1,0 +1,3 @@
+# preuve : password chicken baguette\n
+# strace -e write ./original/main
+write(0, "you did the thing\n", 18) = -1 EBADF  # fd=0 volontairement « silly »

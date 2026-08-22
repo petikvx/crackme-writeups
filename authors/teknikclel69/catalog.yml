@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  65afe04ceef082e477ff6026:
+    sha256: "3bc20f8b6f99edb24c567d4a762d0ec256c55d08d80bb4606d76ff2e9f1819bb"
+    path: "authors/teknikclel69/65afe04ceef082e477ff6026/original/main"
+    title: "Teknikclel69's silly"
+
+by_sha256:
+  3bc20f8b6f99edb24c567d4a762d0ec256c55d08d80bb4606d76ff2e9f1819bb:
+    id: 65afe04ceef082e477ff6026
+    path: "authors/teknikclel69/65afe04ceef082e477ff6026/original/main"
+    page: https://crackmes.one/crackme/65afe04ceef082e477ff6026

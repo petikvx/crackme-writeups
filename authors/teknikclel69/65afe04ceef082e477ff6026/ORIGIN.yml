@@ -1,0 +1,36 @@
+# Origine crackmes.one
+id: 65afe04ceef082e477ff6026
+
+urls:
+  page: https://crackmes.one/crackme/65afe04ceef082e477ff6026
+  download: https://crackmes.one/download/crackme/65afe04ceef082e477ff6026
+
+title: "Teknikclel69's silly"
+author_on_site: "Teknikclel69"
+author_local: "teknikclel69"
+
+platform: "Linux"
+arch: "x86"
+language: "Assembler (NASM)"
+
+difficulty: 1.5
+quality: 4.8
+size: ""
+published: "2024-01-23"
+
+series_index: null
+local_slug: silly
+
+binary:
+  path: "original/main"
+  name: "main"
+  sha256: "3bc20f8b6f99edb24c567d4a762d0ec256c55d08d80bb4606d76ff2e9f1819bb"
+  md5: "d77937a972208bfa07fcd6e739d3c50b"
+  size_bytes: 8916
+
+status: solved
+solution_summary: "password chicken baguette — trole() chinese→chicken; cmpsb; write fd=0"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T15:30:00Z"
