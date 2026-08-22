@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3d2
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3d2
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3d2
+
+title: "crackmes.de's crackmelinux by nobz"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/CrackmeLinux.zip"
+  name: "CrackmeLinux.zip"
+  sha256: "dcc5e00d3bbace9d2ea811bae8413eb34476a7ecf3a3795aaac0c1e2cedb6c00"
+  md5: "51b7e96aed631bb90494f85f452acf65"
+  size_bytes: 628
+
+status: solved
+solution_summary: "password 0bfu5c4t3D=-_-\" (XOR 0x1337babe)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T17:54:07Z"
