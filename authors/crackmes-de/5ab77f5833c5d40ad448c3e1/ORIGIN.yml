@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3e1
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3e1
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3e1
+
+title: "crackmes.de's de_kryptzo_2 by starzboy"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: "de-kryptzo-2"
+
+binary:
+  path: "original/De-KryptZo2.zip"
+  name: "De-KryptZo2.zip"
+  sha256: "9f92c091ec5ad4b2e945dcfd1ae4b3e5387c9edb7d085fc6682c7e6543006923"
+  md5: "eca4a48bac419874a0f86fcd7af7ca91"
+  size_bytes: 2554
+
+status: "solved"
+solution_summary: "petik / 2ZUGRLbN → hash 4c2ed685 (SMC key 221)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T19:05:49Z"

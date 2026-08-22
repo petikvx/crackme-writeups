@@ -34,3 +34,6 @@ Série **rezk2ll** (NASM) importée depuis crackmes.de.
 | 22 | [tiny_crackme](5ab77f5833c5d40ad448c3ed/) | yanisto | Linux ELF32 tiny | `729040cd` |
 | 23 | [naive_crackme](5ab77f5833c5d40ad448c3ee/) | yanisto | Linux ELF32 | `V7l$j^F;` |
 | 24 | [oxfoo1me](5ab77f5c33c5d40ad448c5f3/) | 0xf001 | Linux ELF32 | `fucktheduck` |
+| 25 | [de_kryptzo_2](5ab77f5833c5d40ad448c3e1/) | starzboy | Win PE32 | petik/2ZUGRLbN→4c2ed685 |
+| 26 | [negligent_deobfuscate_1](5ab77f6633c5d40ad448cbf4/) | neon | Win PE32 | deob: dword 2→[0x40400C] |
+| 27 | [dll_disaster](5ab77f5833c5d40ad448c3c1/) | issogoo | Win PE32 | inject_here.dll tick+0xCAFFEE |

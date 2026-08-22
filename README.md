@@ -144,7 +144,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [oguzbey](authors/oguzbey/README.md) | oguzbey | 1 (Lucky Numbers) | 1 / 1 |
 | [andrewl](authors/andrewl/README.md) | andrewl | 1 (Quick Crypto) | 1 / 1 |
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
-| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 24+ | 24 / 24+ |
+| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 27+ | 27 / 27+ |
 
 ## Historique des résolutions
 
@@ -152,6 +152,9 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-08-22 | [dll_disaster](authors/crackmes-de/5ab77f5833c5d40ad448c3c1/) | crackmes.de / issogoo |
+| 2026-08-22 | [negligent_deobfuscate_1](authors/crackmes-de/5ab77f6633c5d40ad448cbf4/) | crackmes.de / neon |
+| 2026-08-22 | [de_kryptzo_2](authors/crackmes-de/5ab77f5833c5d40ad448c3e1/) | crackmes.de / starzboy |
 | 2026-08-22 | [oxfoo1me](authors/crackmes-de/5ab77f5c33c5d40ad448c5f3/) | crackmes.de / 0xf001 |
 | 2026-08-22 | [naive_crackme](authors/crackmes-de/5ab77f5833c5d40ad448c3ee/) | crackmes.de / yanisto |
 | 2026-08-22 | [tiny_crackme](authors/crackmes-de/5ab77f5833c5d40ad448c3ed/) | crackmes.de / yanisto |

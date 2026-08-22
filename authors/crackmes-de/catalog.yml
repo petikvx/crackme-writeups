@@ -120,6 +120,56 @@ by_id:
     path: "authors/crackmes-de/5ab77f5c33c5d40ad448c5f3/original/oxfoo1m3.tgz"
     title: "crackmes.de's oxfoo1me by 0xf001"
 
+  5ab77f6633c5d40ad448cc25:
+    sha256: "3d43979486b0f451b43082faa568fdadfe57585b51a6ad21f7fb1645b27deaff"
+    path: "authors/crackmes-de/5ab77f6633c5d40ad448cc25/original/bugger_v.7.zip"
+    title: "crackmes.de's bugger_v.7 by shism"
+
+  5ab77f6633c5d40ad448cbf4:
+    sha256: "a557b1a0f82e23db2d3499d625bf5a1aa41a18c5141751b3539521c4270c937d"
+    path: "authors/crackmes-de/5ab77f6633c5d40ad448cbf4/original/negligent.zip"
+    title: "crackmes.de's negligent_deobfuscate_1 by neon"
+
+  5ab77f6233c5d40ad448c9e0:
+    sha256: "f2a15c379d7aeec22371d0c09b046f266cddc03bebb3c8258589cbea10d2190b"
+    path: "authors/crackmes-de/5ab77f6233c5d40ad448c9e0/original/nine.zip"
+    title: "crackmes.de's unlockme_crackme_9_by_sharpe by sharpe"
+
+  5ab77f6033c5d40ad448c84f:
+    sha256: "1c2852c6d2f0d937eb50f2fb3251d5d24fad44e86161821bac6556ad5935567a"
+    path: "authors/crackmes-de/5ab77f6033c5d40ad448c84f/original/D4ph1_-_Epicurus.zip"
+    title: "crackmes.de's epicurus by d4ph1"
+
+  5ab77f5f33c5d40ad448c7f5:
+    sha256: "2269c09e84cbc2e1148880fe1adc276c52a9ff1e9e630ceb34a9a9218c128163"
+    path: "authors/crackmes-de/5ab77f5f33c5d40ad448c7f5/original/cauchy_keygenme1.zip"
+    title: "crackmes.de's keygenme_1 by cauchy_htb"
+
+  5ab77f5a33c5d40ad448c4ec:
+    sha256: "917bc112bea06aaf6117861587b18417786f05b785d5df5f4330ba3a6647408a"
+    path: "authors/crackmes-de/5ab77f5a33c5d40ad448c4ec/original/B0rken.ElGamal.KeygenMe-SW.zip"
+    title: "crackmes.de's b0rken_elgamal_keygenme by smilingwolf"
+
+  5ab77f5933c5d40ad448c46f:
+    sha256: "99643c8863c02b6d6d6363f285e58a35de8979b7cc9e5bddd332b85a1c4d2c1d"
+    path: "authors/crackmes-de/5ab77f5933c5d40ad448c46f/original/meloquynthe-yo-meat.zip"
+    title: "crackmes.de's meloquynthe_yolejedi_meat by meat"
+
+  5ab77f5833c5d40ad448c3e1:
+    sha256: "9f92c091ec5ad4b2e945dcfd1ae4b3e5387c9edb7d085fc6682c7e6543006923"
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3e1/original/De-KryptZo2.zip"
+    title: "crackmes.de's de_kryptzo_2 by starzboy"
+
+  5ab77f5833c5d40ad448c3c1:
+    sha256: "30ddd3742be2c5b31cc032e87e46fb467263955437082a733ca1518bbb4c19f5"
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3c1/original/dll_disaster_issogoo.zip"
+    title: "crackmes.de's .dll_.disaster by issogoo"
+
+  5ab77f5333c5d40ad448c10f:
+    sha256: "a8cad907e863c3c3bf8b055f88deddb3a31d0d36edf97f6fb31050cf3ad27512"
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c10f/original/Crackme_1.by.Amnon.HTBTeam.zip"
+    title: "crackmes.de's crackme_1_by_amnon by amnon"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -217,3 +267,43 @@ by_sha256:
     id: 5ab77f5c33c5d40ad448c5f3
     path: "authors/crackmes-de/5ab77f5c33c5d40ad448c5f3/original/oxfoo1m3.tgz"
     page: https://crackmes.one/crackme/5ab77f5c33c5d40ad448c5f3
+  3d43979486b0f451b43082faa568fdadfe57585b51a6ad21f7fb1645b27deaff:
+    id: 5ab77f6633c5d40ad448cc25
+    path: "authors/crackmes-de/5ab77f6633c5d40ad448cc25/original/bugger_v.7.zip"
+    page: https://crackmes.one/crackme/5ab77f6633c5d40ad448cc25
+  a557b1a0f82e23db2d3499d625bf5a1aa41a18c5141751b3539521c4270c937d:
+    id: 5ab77f6633c5d40ad448cbf4
+    path: "authors/crackmes-de/5ab77f6633c5d40ad448cbf4/original/negligent.zip"
+    page: https://crackmes.one/crackme/5ab77f6633c5d40ad448cbf4
+  f2a15c379d7aeec22371d0c09b046f266cddc03bebb3c8258589cbea10d2190b:
+    id: 5ab77f6233c5d40ad448c9e0
+    path: "authors/crackmes-de/5ab77f6233c5d40ad448c9e0/original/nine.zip"
+    page: https://crackmes.one/crackme/5ab77f6233c5d40ad448c9e0
+  1c2852c6d2f0d937eb50f2fb3251d5d24fad44e86161821bac6556ad5935567a:
+    id: 5ab77f6033c5d40ad448c84f
+    path: "authors/crackmes-de/5ab77f6033c5d40ad448c84f/original/D4ph1_-_Epicurus.zip"
+    page: https://crackmes.one/crackme/5ab77f6033c5d40ad448c84f
+  2269c09e84cbc2e1148880fe1adc276c52a9ff1e9e630ceb34a9a9218c128163:
+    id: 5ab77f5f33c5d40ad448c7f5
+    path: "authors/crackmes-de/5ab77f5f33c5d40ad448c7f5/original/cauchy_keygenme1.zip"
+    page: https://crackmes.one/crackme/5ab77f5f33c5d40ad448c7f5
+  917bc112bea06aaf6117861587b18417786f05b785d5df5f4330ba3a6647408a:
+    id: 5ab77f5a33c5d40ad448c4ec
+    path: "authors/crackmes-de/5ab77f5a33c5d40ad448c4ec/original/B0rken.ElGamal.KeygenMe-SW.zip"
+    page: https://crackmes.one/crackme/5ab77f5a33c5d40ad448c4ec
+  99643c8863c02b6d6d6363f285e58a35de8979b7cc9e5bddd332b85a1c4d2c1d:
+    id: 5ab77f5933c5d40ad448c46f
+    path: "authors/crackmes-de/5ab77f5933c5d40ad448c46f/original/meloquynthe-yo-meat.zip"
+    page: https://crackmes.one/crackme/5ab77f5933c5d40ad448c46f
+  9f92c091ec5ad4b2e945dcfd1ae4b3e5387c9edb7d085fc6682c7e6543006923:
+    id: 5ab77f5833c5d40ad448c3e1
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3e1/original/De-KryptZo2.zip"
+    page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3e1
+  30ddd3742be2c5b31cc032e87e46fb467263955437082a733ca1518bbb4c19f5:
+    id: 5ab77f5833c5d40ad448c3c1
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3c1/original/dll_disaster_issogoo.zip"
+    page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3c1
+  a8cad907e863c3c3bf8b055f88deddb3a31d0d36edf97f6fb31050cf3ad27512:
+    id: 5ab77f5333c5d40ad448c10f
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c10f/original/Crackme_1.by.Amnon.HTBTeam.zip"
+    page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c10f
