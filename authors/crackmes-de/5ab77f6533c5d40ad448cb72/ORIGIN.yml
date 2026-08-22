@@ -1,0 +1,37 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6533c5d40ad448cb72
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6533c5d40ad448cb72
+  download: https://crackmes.one/download/crackme/5ab77f6533c5d40ad448cb72
+
+title: "crackmes.de's beatme by rezk2ll"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: 3
+local_slug: beatme
+
+binary:
+  path: "original/BeatMe.zip"
+  name: "BeatMe.zip"
+  sha256: "08436301f303e9155c9bc5b43902b7593607ec62353c9563f3f58c9fbf67252f"
+  md5: "14b3b7cfa5211965e1b98cd5a50ce2c5"
+  size_bytes: 839
+  note: "ZIP → BeatMe ELF"
+
+status: solved
+solution_summary: "keygen: pwd[0]='0'+L, pwd[1]=user[2], pwd[2+i]=user[i]+L//2+1; rezk2ll→7zvi~o6pp"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T16:10:43Z"
