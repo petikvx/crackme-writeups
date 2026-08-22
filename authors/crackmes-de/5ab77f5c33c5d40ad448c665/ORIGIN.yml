@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5c33c5d40ad448c665
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5c33c5d40ad448c665
+  download: https://crackmes.one/download/crackme/5ab77f5c33c5d40ad448c665
+
+title: "crackmes.de's j555 by josamont"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/j555.tar.gz"
+  name: "j555.tar.gz"
+  sha256: "d63b2b14c983f457bfa9e4909d9c01cbfa2b9dbd64f2912852cad56d741383f6"
+  md5: "668848b4f0b003375226234a853ad4a8"
+  size_bytes: 450
+
+status: solved
+solution_summary: "password 13303518 (PTY fd1 / atoi)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T17:53:54Z"
