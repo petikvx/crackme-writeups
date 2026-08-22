@@ -144,7 +144,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [oguzbey](authors/oguzbey/README.md) | oguzbey | 1 (Lucky Numbers) | 1 / 1 |
 | [andrewl](authors/andrewl/README.md) | andrewl | 1 (Quick Crypto) | 1 / 1 |
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
-| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 15+ | 15 / 15+ |
+| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 18+ | 18 / 18+ |
 
 ## Historique des résolutions
 
@@ -152,6 +152,9 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-08-22 | [grainne2](authors/crackmes-de/5ab77f5a33c5d40ad448c505/) | crackmes.de / stefanie |
+| 2026-08-22 | [grainne](authors/crackmes-de/5ab77f5a33c5d40ad448c506/) | crackmes.de / stefanie |
+| 2026-08-22 | [frogger](authors/crackmes-de/5ab77f5a33c5d40ad448c4f7/) | crackmes.de / macabre |
 | 2026-08-22 | [Crackme3](authors/crackmes-de/5ab77f5c33c5d40ad448c62e/) | crackmes.de / sx0r |
 | 2026-08-22 | [fr0g_kgm1](authors/crackmes-de/5ab77f5c33c5d40ad448c65b/) | crackmes.de / fr0gsek |
 | 2026-08-22 | [j666](authors/crackmes-de/5ab77f5c33c5d40ad448c666/) | crackmes.de / josamont |

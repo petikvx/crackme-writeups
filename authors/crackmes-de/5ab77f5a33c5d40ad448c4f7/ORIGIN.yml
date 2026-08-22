@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5a33c5d40ad448c4f7
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5a33c5d40ad448c4f7
+  download: https://crackmes.one/download/crackme/5ab77f5a33c5d40ad448c4f7
+
+title: "crackmes.de's frogger_crackme by macabre"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/frogger-crackme.zip"
+  name: "frogger-crackme.zip"
+  sha256: "8777b9d315c936701d27b09c3df9396609ffbb3e8f1b095fdd125a7eec94a377"
+  md5: "6d019b97931570363eb2b66f4a832eb5"
+  size_bytes: 2396
+
+status: solved
+solution_summary: "frog / 62-qqqqqs (SMC jmp; needs mprotect)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T17:54:02Z"

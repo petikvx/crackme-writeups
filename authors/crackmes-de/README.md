@@ -25,3 +25,6 @@ Série **rezk2ll** (NASM) importée depuis crackmes.de.
 | 13 | [j666](5ab77f5c33c5d40ad448c666/) | josamont | `04919AB9` |
 | 14 | [fr0g_kgm1](5ab77f5c33c5d40ad448c65b/) | fr0gsek | keygen login⊕table |
 | 15 | [Crackme3](5ab77f5c33c5d40ad448c62e/) | sx0r | keygen XXXX-XXXX |
+| 16 | [frogger](5ab77f5a33c5d40ad448c4f7/) | macabre | frog / 62-qqqqqs |
+| 17 | [grainne](5ab77f5a33c5d40ad448c506/) | stefanie | `stefu!u|` |
+| 18 | [grainne2](5ab77f5a33c5d40ad448c505/) | stefanie | `LOVE` |
