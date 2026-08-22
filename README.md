@@ -133,45 +133,45 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 
 ## Historique des résolutions
 
-Dates = jour du commit write-up / soluce sur `main` (ordre chronologique).
+Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
-| 2026-08-15 | [timotei-crackme-01](authors/timotei/) | timotei |
-| 2026-08-15 | [timotei-crackme-02](authors/timotei/) | timotei |
-| 2026-08-15 | [timotei-crackme-03](authors/timotei/) | timotei |
-| 2026-08-15 | [timotei-crackme-04](authors/timotei/) | timotei |
-| 2026-08-15 | [timotei-crackme-05](authors/timotei/) | timotei |
-| 2026-08-15 | [timotei-crackme-06](authors/timotei/) | timotei |
-| 2026-08-15 | [timotei-crackme-07](authors/timotei/) | timotei |
-| 2026-08-16 | [timotei-crackme-08](authors/timotei/) | timotei |
-| 2026-08-16 | [timotei-crackme-09](authors/timotei/) | timotei |
-| 2026-08-16 | [timotei-crackme-10](authors/timotei/) | timotei |
-| 2026-08-16 | [timotei-crackme-11](authors/timotei/) | timotei |
-| 2026-08-16 | [timotei-crackme-12](authors/timotei/) | timotei |
-| 2026-08-16 | [CFB #1](authors/cracknotme/6a1547f42b3df128c1df5ca5/) | CrackNotMe |
-| 2026-08-16 | [Easy Keygen](authors/plikan/6a7d865b184836c0dbe7d789/) | plikan |
-| 2026-08-16 | [CFB #2 Maze Runner](authors/cracknotme/6a15496417539b5175d12386/) | CrackNotMe |
-| 2026-08-16 | [CFB #3 Mini VM](authors/cracknotme/6a154aca8fab7bbca27302a2/) | CrackNotMe |
-| 2026-08-17 | [CFB #4 Custom rotors](authors/cracknotme/6a154cab17539b5175d1238a/) | CrackNotMe |
-| 2026-08-17 | [CFB #5 Game of Life](authors/cracknotme/6a1569de2b3df128c1df5cb1/) | CrackNotMe |
-| 2026-08-17 | [CFB #6 Quantum State](authors/cracknotme/6a537448a27dfa335e4c8518/) | CrackNotMe |
-| 2026-08-18 | [CFB #7 Shattered Mirror](authors/cracknotme/6a5374710b25d281a65688e6/) | CrackNotMe |
-| 2026-08-18 | [CFB #8 Concurrently Yours](authors/cracknotme/6a537490055757d3df60fcc3/) | CrackNotMe |
-| 2026-08-19 | [CFB #9 The Impostor](authors/cracknotme/6a5374be6f511264ea482525/) | CrackNotMe |
-| 2026-08-19 | [CFB #10 The Keymaster's Sigil](authors/cracknotme/6a5375046f511264ea482529/) | CrackNotMe |
-| 2026-08-20 | [ASMe](authors/cracknotme/69ff482c8fab7bbca273011e/) | CrackNotMe |
-| 2026-08-20 | [Willy Wonka's Chocolate Factory](authors/cracknotme/69b4768cf2d49d8512f649ff/) | CrackNotMe |
-| 2026-08-21 | [Turbine Control KeyGenMe](authors/cracknotme/69bd737bf2d49d8512f64adc/) | CrackNotMe |
-| 2026-08-21 | [Monster CrackMe 1.0 (MCM)](authors/cracknotme/6989ed7dfb46458f1ef6cee4/) | CrackNotMe |
-| 2026-08-21 | [MCM 2.0](authors/cracknotme/698d9ebd3eb49a23d3417763/) | CrackNotMe |
-| 2026-08-21 | [MCM 3.0 REWORK](authors/cracknotme/698fb9e9a79466462e957bec/) *(packer + honeypot ; VM pending)* | CrackNotMe |
-| 2026-08-21 | [What password???](authors/cyberpenguin/6a83e2f205a9e80a90724421/) | Cyberpenguin |
-| 2026-08-22 | [CRACKME](authors/simbahdd/6a160c2a2b3df128c1df5cc1/) | SimbaHDD |
-| 2026-08-22 | [Use your brain](authors/tdaron/69d8fe40471059af19ad08ca/) | tdaron |
-| 2026-08-22 | [I need to be honest](authors/pipedown/69cd43df49fa49a2a2602312/) | pipedown |
-| 2026-08-22 | [RE CTF 2026 — wallpaper](authors/jeffli6789/69a2911b7a778cfffbfb67ca/) | jeffli6789 |
 | 2026-08-22 | [Crackme (GUI)](authors/cr-ck_god001/6991e765853c2615340abd8c/) | Cr@ck_God001 |
+| 2026-08-22 | [RE CTF 2026 — wallpaper](authors/jeffli6789/69a2911b7a778cfffbfb67ca/) | jeffli6789 |
+| 2026-08-22 | [I need to be honest](authors/pipedown/69cd43df49fa49a2a2602312/) | pipedown |
+| 2026-08-22 | [Use your brain](authors/tdaron/69d8fe40471059af19ad08ca/) | tdaron |
+| 2026-08-22 | [CRACKME](authors/simbahdd/6a160c2a2b3df128c1df5cc1/) | SimbaHDD |
+| 2026-08-21 | [What password???](authors/cyberpenguin/6a83e2f205a9e80a90724421/) | Cyberpenguin |
+| 2026-08-21 | [MCM 3.0 REWORK](authors/cracknotme/698fb9e9a79466462e957bec/) *(packer + honeypot ; VM pending)* | CrackNotMe |
+| 2026-08-21 | [MCM 2.0](authors/cracknotme/698d9ebd3eb49a23d3417763/) | CrackNotMe |
+| 2026-08-21 | [Monster CrackMe 1.0 (MCM)](authors/cracknotme/6989ed7dfb46458f1ef6cee4/) | CrackNotMe |
+| 2026-08-21 | [Turbine Control KeyGenMe](authors/cracknotme/69bd737bf2d49d8512f64adc/) | CrackNotMe |
+| 2026-08-20 | [Willy Wonka's Chocolate Factory](authors/cracknotme/69b4768cf2d49d8512f649ff/) | CrackNotMe |
+| 2026-08-20 | [ASMe](authors/cracknotme/69ff482c8fab7bbca273011e/) | CrackNotMe |
+| 2026-08-19 | [CFB #10 The Keymaster's Sigil](authors/cracknotme/6a5375046f511264ea482529/) | CrackNotMe |
+| 2026-08-19 | [CFB #9 The Impostor](authors/cracknotme/6a5374be6f511264ea482525/) | CrackNotMe |
+| 2026-08-18 | [CFB #8 Concurrently Yours](authors/cracknotme/6a537490055757d3df60fcc3/) | CrackNotMe |
+| 2026-08-18 | [CFB #7 Shattered Mirror](authors/cracknotme/6a5374710b25d281a65688e6/) | CrackNotMe |
+| 2026-08-17 | [CFB #6 Quantum State](authors/cracknotme/6a537448a27dfa335e4c8518/) | CrackNotMe |
+| 2026-08-17 | [CFB #5 Game of Life](authors/cracknotme/6a1569de2b3df128c1df5cb1/) | CrackNotMe |
+| 2026-08-17 | [CFB #4 Custom rotors](authors/cracknotme/6a154cab17539b5175d1238a/) | CrackNotMe |
+| 2026-08-16 | [CFB #3 Mini VM](authors/cracknotme/6a154aca8fab7bbca27302a2/) | CrackNotMe |
+| 2026-08-16 | [CFB #2 Maze Runner](authors/cracknotme/6a15496417539b5175d12386/) | CrackNotMe |
+| 2026-08-16 | [Easy Keygen](authors/plikan/6a7d865b184836c0dbe7d789/) | plikan |
+| 2026-08-16 | [CFB #1](authors/cracknotme/6a1547f42b3df128c1df5ca5/) | CrackNotMe |
+| 2026-08-16 | [timotei-crackme-12](authors/timotei/) | timotei |
+| 2026-08-16 | [timotei-crackme-11](authors/timotei/) | timotei |
+| 2026-08-16 | [timotei-crackme-10](authors/timotei/) | timotei |
+| 2026-08-16 | [timotei-crackme-09](authors/timotei/) | timotei |
+| 2026-08-16 | [timotei-crackme-08](authors/timotei/) | timotei |
+| 2026-08-15 | [timotei-crackme-07](authors/timotei/) | timotei |
+| 2026-08-15 | [timotei-crackme-06](authors/timotei/) | timotei |
+| 2026-08-15 | [timotei-crackme-05](authors/timotei/) | timotei |
+| 2026-08-15 | [timotei-crackme-04](authors/timotei/) | timotei |
+| 2026-08-15 | [timotei-crackme-03](authors/timotei/) | timotei |
+| 2026-08-15 | [timotei-crackme-02](authors/timotei/) | timotei |
+| 2026-08-15 | [timotei-crackme-01](authors/timotei/) | timotei |
 
 ## Convention
 
