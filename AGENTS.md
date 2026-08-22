@@ -97,7 +97,8 @@ Structure type :
 
 1. En-tête : titre, lien ORIGIN + crackmes.one, auteur, plateforme  
 2. Table des fichiers du dossier  
-3. **Réponse** (serial / path / password) en évidence + commande solveur  
+3. **Réponse** (serial / path / password) en évidence + commande solveur — si user/login : exemple **`petik`**  
+
 4. Premier regard (`file`, banner, hashes)  
 5. Flow  
 6. Prédicat (tables, asm, pseudo-code)  
@@ -135,6 +136,17 @@ git commit -m "message clair (auteur + challenge + idée de la soluce)"
 | Solveur | `tools/<slug>-solve.py` (ex. `cfb3-solve.py`, `easy-keygen-solve.py`) |
 | Asm recon | `*-nasm.asm`, `*-fasm.asm`, `*-masm.asm`, dumps IDA nommés clairement |
 | Screens | `analysis/screenshot01.png`, ou noms descriptifs (`screenshot-ok.png`, `screenshot-verification-vm.png`) |
+| User / login d’exemple | **`petik`** (voir ci-dessous) |
+
+### Exemples user / keygen : toujours `petik`
+
+Quand un challenge prend un **username / login / name** (keygen, name→serial, user+key, …) :
+
+- Write-up « Réponse » : table d’exemple avec **`petik`** (et le serial/password qui en découle).
+- Solveur : défaut CLI `--user` / `--login` / `--name` = **`petik`** ; docstrings / `-q` / `--check` alignés.
+- Index (`authors/*/README.md`, `solution_summary`) : citer `petik→…` plutôt que `test` / `admin` / le nick de l’auteur du crackme.
+
+Exceptions seulement si la contrainte du binaire **interdit** `petik` (longueur min/max, charset, etc.) — alors le dire dans le write-up et choisir le plus proche possible.
 
 ### Analyse PE sous Linux
 
@@ -161,7 +173,7 @@ git commit -m "message clair (auteur + challenge + idée de la soluce)"
 
 - [ ] Solveur dans `tools/`, smoke-test OK  
 - [ ] Preuve live (Wine / native) OK  
-- [ ] Write-up lisible avec **réponse en tête**  
+- [ ] Write-up lisible avec **réponse en tête** (user d’exemple = **`petik`** si applicable)  
 - [ ] `ORIGIN.yml` : `status: solved` + summary  
 - [ ] `authors/<slug>/README.md` + README racine (compteur famille) à jour  
 - [ ] Historique README racine : **nouvelle ligne en haut** (`Date | Crackme | Auteur`)  
