@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  68ff92e62d267f28f69b78f1:
+    sha256: "8e356198c31ce2d85814016398c52875dbdb67f88d61dfe2eb35042e9bedfb61"
+    path: "authors/abolhb/68ff92e62d267f28f69b78f1/original/masoncrackmev2.exe"
+    title: "ABOLHB's MasonCrackmeV2"
+
+by_sha256:
+  8e356198c31ce2d85814016398c52875dbdb67f88d61dfe2eb35042e9bedfb61:
+    id: 68ff92e62d267f28f69b78f1
+    path: "authors/abolhb/68ff92e62d267f28f69b78f1/original/masoncrackmev2.exe"
+    page: https://crackmes.one/crackme/68ff92e62d267f28f69b78f1

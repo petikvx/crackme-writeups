@@ -1,0 +1,36 @@
+# Origine crackmes.one
+id: 68ff92e62d267f28f69b78f1
+
+urls:
+  page: https://crackmes.one/crackme/68ff92e62d267f28f69b78f1
+  download: https://crackmes.one/download/crackme/68ff92e62d267f28f69b78f1
+
+title: "ABOLHB's MasonCrackmeV2"
+author_on_site: "ABOLHB"
+author_local: "abolhb"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C (MinGW + UPX)"
+
+difficulty: 3.0
+quality: 3.0
+size: ""
+published: "2025-10-27"
+
+series_index: null
+local_slug: masoncrackmev2
+
+binary:
+  path: "original/masoncrackmev2.exe"
+  name: "masoncrackmev2.exe"
+  sha256: "8e356198c31ce2d85814016398c52875dbdb67f88d61dfe2eb35042e9bedfb61"
+  md5: "87d92b11581177056ccb3f19151c2727"
+  size_bytes: 65446
+
+status: solved
+solution_summary: "password MEMSENALF — UPX; MasonH777 concat ME|MS|EN|AL|F; Wine via recon"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T15:27:20Z"

@@ -1,0 +1,7 @@
+---------------------------------
+Hello this is my first crackme :)
+I recommend you reading readme.md
+---------------------------------
+Enter the password:Congrats, you've won!! :)
+Thank you for playing the game
+Created by: OckoTajny

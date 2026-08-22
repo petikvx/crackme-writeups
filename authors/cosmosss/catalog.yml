@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6943c5440992a052ab22240f:
+    sha256: "b1192d4c487c5b47583612cc56286003ba65f5f33189d454150a9b88215e0344"
+    path: "authors/cosmosss/6943c5440992a052ab22240f/original/parol.exe"
+    title: "CosmoSSS's Password(Very Easy)"
+
+by_sha256:
+  b1192d4c487c5b47583612cc56286003ba65f5f33189d454150a9b88215e0344:
+    id: 6943c5440992a052ab22240f
+    path: "authors/cosmosss/6943c5440992a052ab22240f/original/parol.exe"
+    page: https://crackmes.one/crackme/6943c5440992a052ab22240f

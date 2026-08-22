@@ -44,6 +44,8 @@ authors/<slug-auteur>/
 
 ```bash
 ./scripts/add-crackme.sh https://crackmes.one/crackme/<id>
+# plusieurs d’un coup :
+./scripts/add-crackme.sh URL1 URL2 ID3
 # ZIP password site : crackmes.one
 ```
 

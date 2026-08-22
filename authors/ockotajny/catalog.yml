@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  693017b52d267f28f69b82ae:
+    sha256: "eeae8ee1378e314b87b6609a0cba99e42c67eb8d45db5cdc92964b587fa30ab2"
+    path: "authors/ockotajny/693017b52d267f28f69b82ae/original/netcrack.zip"
+    title: "OckoTajny's netCrack"
+
+by_sha256:
+  eeae8ee1378e314b87b6609a0cba99e42c67eb8d45db5cdc92964b587fa30ab2:
+    id: 693017b52d267f28f69b82ae
+    path: "authors/ockotajny/693017b52d267f28f69b82ae/original/netcrack.zip"
+    page: https://crackmes.one/crackme/693017b52d267f28f69b82ae

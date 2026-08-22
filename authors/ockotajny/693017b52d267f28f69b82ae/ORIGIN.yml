@@ -1,0 +1,37 @@
+# Origine crackmes.one
+id: 693017b52d267f28f69b82ae
+
+urls:
+  page: https://crackmes.one/crackme/693017b52d267f28f69b82ae
+  download: https://crackmes.one/download/crackme/693017b52d267f28f69b82ae
+
+title: "OckoTajny's netCrack"
+author_on_site: "OckoTajny"
+author_local: "ockotajny"
+
+platform: "Linux"
+arch: "x86-64"
+language: "Assembler"
+
+difficulty: 2.2
+quality: 4.0
+size: ""
+published: "2025-12-03"
+
+series_index: null
+local_slug: netcrack
+
+binary:
+  path: "original/netcrack.zip"
+  name: "netcrack.zip"
+  sha256: "eeae8ee1378e314b87b6609a0cba99e42c67eb8d45db5cdc92964b587fa30ab2"
+  md5: "896d1961b321a7ab4dca6a793cab89db"
+  size_bytes: 2502
+  note: "ZIP → netCrack ELF + readme.md"
+
+status: solved
+solution_summary: "input=IP; TCP/3125 HTTP; response suffix Platon; demo 127.0.0.1"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T15:27:06Z"

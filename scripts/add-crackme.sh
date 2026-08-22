@@ -9,6 +9,12 @@
 #   ./scripts/add-crackme.sh --force <id>          # re-télécharge même si l’ID existe
 #   ./scripts/add-crackme.sh --skip-existing <id>  # exit 0 si déjà là (CI / boucles)
 #
+# Plusieurs URLs / IDs d’affilée (même options pour tout le batch) :
+#   ./scripts/add-crackme.sh URL1 URL2 URL3
+#   ./scripts/add-crackme.sh --skip-existing id1 id2 id3
+#   En batch, chaque item est traité séparément ; un échec n’arrête pas
+#   les suivants (exit final = 1 s’il y a eu au moins un échec).
+#
 # Si l’ID existe déjà : pas de téléchargement automatique. En TTY, menu
 # (annuler / skip / re-télécharger le binaire / forcer scaffold). Hors TTY :
 # erreur, sauf --force / --skip-existing.
@@ -29,7 +35,8 @@ SKIP_EXISTING=0
 EXISTING_ACTION=""
 
 usage() {
-  sed -n '2,20p' "$0" | sed 's/^# \?//'
+  # n’imprimer que le bandeau de commentaires en tête (pas le code)
+  awk 'NR==1{next} /^#/{sub(/^# ?/,""); print; next} {exit}' "$0"
   exit "${1:-0}"
 }
 
@@ -57,10 +64,40 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 [[ ${#ARGS[@]} -ge 1 ]] || usage 1
-INPUT="${ARGS[0]}"
 if [[ "$FORCE" -eq 1 && "$SKIP_EXISTING" -eq 1 ]]; then
   die "--force et --skip-existing sont mutuellement exclusifs"
 fi
+
+# --- batch : plusieurs URLs / IDs → un sous-appel par item ---
+if [[ ${#ARGS[@]} -gt 1 ]]; then
+  FLAG_ARGS=()
+  [[ -n "$AUTHOR_FORCE" ]] && FLAG_ARGS+=(--author "$AUTHOR_FORCE")
+  [[ "$DRY_RUN" -eq 1 ]] && FLAG_ARGS+=(--dry-run)
+  [[ "$NO_DOWNLOAD" -eq 1 ]] && FLAG_ARGS+=(--no-download)
+  [[ "$FORCE" -eq 1 ]] && FLAG_ARGS+=(--force)
+  [[ "$SKIP_EXISTING" -eq 1 ]] && FLAG_ARGS+=(--skip-existing)
+
+  BATCH_OK=0
+  BATCH_FAIL=0
+  BATCH_N=${#ARGS[@]}
+  BATCH_I=0
+  for input in "${ARGS[@]}"; do
+    BATCH_I=$((BATCH_I + 1))
+    log "======== batch ${BATCH_I}/${BATCH_N} : ${input} ========"
+    # pas de set -e sur le sous-appel : on continue le batch
+    if "$0" "${FLAG_ARGS[@]}" -- "$input"; then
+      BATCH_OK=$((BATCH_OK + 1))
+    else
+      BATCH_FAIL=$((BATCH_FAIL + 1))
+      warn "échec batch item : $input"
+    fi
+  done
+  log "batch terminé : ${BATCH_OK} ok, ${BATCH_FAIL} échec(s) / ${BATCH_N}"
+  [[ "$BATCH_FAIL" -eq 0 ]] || exit 1
+  exit 0
+fi
+
+INPUT="${ARGS[0]}"
 
 # --- parse ID (24 hex) ---
 extract_id() {

@@ -1,0 +1,36 @@
+# Origine crackmes.one
+id: 6943c5440992a052ab22240f
+
+urls:
+  page: https://crackmes.one/crackme/6943c5440992a052ab22240f
+  download: https://crackmes.one/download/crackme/6943c5440992a052ab22240f
+
+title: "CosmoSSS's Password(Very Easy)"
+author_on_site: "CosmoSSS"
+author_local: "cosmosss"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler (MASM)"
+
+difficulty: 1.0
+quality: 4.0
+size: ""
+published: "2025-12-18"
+
+series_index: null
+local_slug: parol
+
+binary:
+  path: "original/parol.exe"
+  name: "parol.exe"
+  sha256: "b1192d4c487c5b47583612cc56286003ba65f5f33189d454150a9b88215e0344"
+  md5: "42240ff67368a63d56d9035bb4397bec"
+  size_bytes: 3072
+
+status: solved
+solution_summary: "password SuperPass — lstrcmpA GUI MASM"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T15:26:43Z"

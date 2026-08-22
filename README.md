@@ -67,6 +67,10 @@ xvfb-run -a wine original/CFB1.exe
 ./scripts/add-crackme.sh https://crackmes.one/download/crackme/<id>
 ./scripts/add-crackme.sh <id>
 
+# plusieurs URLs / IDs d’affilée (mêmes options pour tout le batch)
+./scripts/add-crackme.sh URL1 URL2 URL3
+./scripts/add-crackme.sh --skip-existing id1 id2 id3
+
 # forcer le slug auteur local (recommandé pour une série connue)
 ./scripts/add-crackme.sh --author timotei <id-ou-url>
 
@@ -131,6 +135,9 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [jeffli6789](authors/jeffli6789/README.md) | jeffli6789 | 1 (RE CTF 2026 wallpaper) | 1 / 1 |
 | [cr-ck_god001](authors/cr-ck_god001/README.md) | Cr@ck_God001 | 1 (Crackme GUI) | 1 / 1 |
 | [neoncarrot](authors/neoncarrot/README.md) | neoncarrot | 1 (Find the correct key!) | 1 / 1 |
+| [cosmosss](authors/cosmosss/README.md) | CosmoSSS | 1 (Password Very Easy) | 1 / 1 |
+| [abolhb](authors/abolhb/README.md) | ABOLHB | 1 (MasonCrackmeV2) | 1 / 1 |
+| [ockotajny](authors/ockotajny/README.md) | OckoTajny | 1 (netCrack) | 1 / 1 |
 
 ## Historique des résolutions
 
@@ -138,6 +145,9 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-08-22 | [netCrack](authors/ockotajny/693017b52d267f28f69b82ae/) | OckoTajny |
+| 2026-08-22 | [MasonCrackmeV2](authors/abolhb/68ff92e62d267f28f69b78f1/) | ABOLHB |
+| 2026-08-22 | [Password (Very Easy)](authors/cosmosss/6943c5440992a052ab22240f/) | CosmoSSS |
 | 2026-08-22 | [Find the correct key!](authors/neoncarrot/697e5b0a16739b40dcb5da9d/) | neoncarrot |
 | 2026-08-22 | [Crackme (GUI)](authors/cr-ck_god001/6991e765853c2615340abd8c/) | Cr@ck_God001 |
 | 2026-08-22 | [RE CTF 2026 — wallpaper](authors/jeffli6789/69a2911b7a778cfffbfb67ca/) | jeffli6789 |
