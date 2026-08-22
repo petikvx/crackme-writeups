@@ -1,0 +1,2 @@
+password: LOVE (ELF EI_PAD)
+00000000: 7f45 4c46 0101 0100 4c4f 5645 eb21 eb7c  .ELF....LOVE.!.|

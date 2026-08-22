@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5a33c5d40ad448c505
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5a33c5d40ad448c505
+  download: https://crackmes.one/download/crackme/5ab77f5a33c5d40ad448c505
+
+title: "crackmes.de's grainne2 by stefanie"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/grainne2.tar.gz"
+  name: "grainne2.tar.gz"
+  sha256: "6c6b41269bfb287635574a18b1ef31857f641a30a225bb604c0e30573cbace6f"
+  md5: "cea3f32f3f2335707864233d43a3b4c2"
+  size_bytes: 1021
+
+status: solved
+solution_summary: "password LOVE (ELF e_ident padding)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T17:54:01Z"
