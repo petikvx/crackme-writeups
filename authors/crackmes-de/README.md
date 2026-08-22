@@ -20,3 +20,6 @@ Série **rezk2ll** (NASM) importée depuis crackmes.de.
 | 8 | [staple](5ab77f6133c5d40ad448c924/) | [`…c924`](https://crackmes.one/crackme/5ab77f6133c5d40ad448c924) | Linux ELF32 | `bruceschneier` → secret ZIP |
 | 9 | [basic_logic](5ab77f5f33c5d40ad448c7bd/) | [`…c7bd`](https://crackmes.one/crackme/5ab77f5f33c5d40ad448c7bd) | Linux ELF32 | pid\|\|time (PTY) |
 | 10 | [j333](5ab77f5c33c5d40ad448c669/) | josamont | Linux ELF32 | `246581` |
+| 11 | [j444](5ab77f5c33c5d40ad448c667/) | josamont | `247356` |
+| 12 | [j555](5ab77f5c33c5d40ad448c665/) | josamont | `13303518` |
+| 13 | [j666](5ab77f5c33c5d40ad448c666/) | josamont | `04919AB9` |

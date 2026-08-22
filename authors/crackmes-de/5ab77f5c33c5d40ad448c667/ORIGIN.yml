@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5c33c5d40ad448c667
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5c33c5d40ad448c667
+  download: https://crackmes.one/download/crackme/5ab77f5c33c5d40ad448c667
+
+title: "crackmes.de's j444 by josamont"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/j444.tar.gz"
+  name: "j444.tar.gz"
+  sha256: "350f77298e73e2c1dd1e9f36159395eda642ac1d48deb647dd4216e188f90c5b"
+  md5: "2b0ed2613fd47d305b454363458defcd"
+  size_bytes: 399
+
+status: solved
+solution_summary: "password 247356 (PTY fd1 / atoi)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T17:53:51Z"
