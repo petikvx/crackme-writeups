@@ -19,7 +19,7 @@ size: ""
 published: null
 
 series_index: null
-local_slug: null
+local_slug: "epicurus"
 
 binary:
   path: "original/D4ph1_-_Epicurus.zip"
@@ -28,8 +28,8 @@ binary:
   md5: "d622e614bba613a16580549f75109092"
   size_bytes: 21914
 
-status: pending
-solution_summary: ""
+status: "solved"
+solution_summary: "click icon + petik → EE0E-8AFF8715-EB04; apopthegm Epicurus quote"
 
 download:
   zip_password: crackmes.one
