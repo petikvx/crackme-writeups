@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5cfb961a33c5d41c6d56e069:
+    sha256: "482891baafc979828b409e8752551953c3c475c4ed386d698274d4f82d1bcc16"
+    path: "authors/bageyelet/5cfb961a33c5d41c6d56e069/original/rop-obf"
+    title: "bageyelet's rop"
+
+by_sha256:
+  482891baafc979828b409e8752551953c3c475c4ed386d698274d4f82d1bcc16:
+    id: 5cfb961a33c5d41c6d56e069
+    path: "authors/bageyelet/5cfb961a33c5d41c6d56e069/original/rop-obf"
+    page: https://crackmes.one/crackme/5cfb961a33c5d41c6d56e069

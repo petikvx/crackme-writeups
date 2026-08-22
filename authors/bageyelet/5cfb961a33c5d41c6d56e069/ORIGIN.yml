@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5cfb961a33c5d41c6d56e069
+
+urls:
+  page: https://crackmes.one/crackme/5cfb961a33c5d41c6d56e069
+  download: https://crackmes.one/download/crackme/5cfb961a33c5d41c6d56e069
+
+title: "bageyelet's rop"
+author_on_site: "bageyelet"
+author_local: "bageyelet"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/rop-obf"
+  name: "rop-obf"
+  sha256: "482891baafc979828b409e8752551953c3c475c4ed386d698274d4f82d1bcc16"
+  md5: "04eb1acd1f186d0d6ccd78d53aa9787b"
+  size_bytes: 9236
+
+status: solved
+solution_summary: "password 4 8 15 16 23 42 — ROP VM, 6× (input^V[i]==V[i+6]) → print 1"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T16:10:38Z"
