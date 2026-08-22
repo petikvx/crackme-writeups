@@ -126,6 +126,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [plikan](authors/plikan/README.md) | plikan | 1 (Easy Keygen .NET) | 1 / 1 |
 | [cyberpenguin](authors/cyberpenguin/README.md) | Cyberpenguin | 1 (What password???) | 1 / 1 |
 | [simbahdd](authors/simbahdd/README.md) | SimbaHDD | 1 (CRACKME) | 1 / 1 |
+| [tdaron](authors/tdaron/README.md) | tdaron | 1 (Use your brain) | 1 / 1 |
 
 ## Convention
 

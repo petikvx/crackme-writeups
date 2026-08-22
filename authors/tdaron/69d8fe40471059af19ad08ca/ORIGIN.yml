@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69d8fe40471059af19ad08ca
+
+urls:
+  page: https://crackmes.one/crackme/69d8fe40471059af19ad08ca
+  download: https://crackmes.one/download/crackme/69d8fe40471059af19ad08ca
+
+title: "tdaron's Use your brain"
+author_on_site: "tdaron"
+author_local: "tdaron"
+
+platform: "Linux"
+arch: "x86-64"
+language: "C (Brainfuck compiled)"
+
+difficulty: 4.0
+quality: 4.0
+size: ""
+published: "2026-04-10"
+
+series_index: null
+local_slug: use-your-brain
+
+binary:
+  path: "original/a.out"
+  name: "a.out"
+  sha256: "74dac86091d2b943ed99c55c183f0d38afae5c975cac88ff17157bf0d34de452"
+  md5: "fb75feff41bee244467e5da3a05fedf6"
+  size_bytes: 180416
+
+status: solved
+solution_summary: "password 'bruh wtf' — brainfuck→C ; 8× (getchar + N×dec) ; message you made it hero"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T14:16:01Z"

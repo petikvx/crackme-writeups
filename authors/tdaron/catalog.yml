@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69d8fe40471059af19ad08ca:
+    sha256: "74dac86091d2b943ed99c55c183f0d38afae5c975cac88ff17157bf0d34de452"
+    path: "authors/tdaron/69d8fe40471059af19ad08ca/original/a.out"
+    title: "tdaron's Use your brain"
+
+by_sha256:
+  74dac86091d2b943ed99c55c183f0d38afae5c975cac88ff17157bf0d34de452:
+    id: 69d8fe40471059af19ad08ca
+    path: "authors/tdaron/69d8fe40471059af19ad08ca/original/a.out"
+    page: https://crackmes.one/crackme/69d8fe40471059af19ad08ca
