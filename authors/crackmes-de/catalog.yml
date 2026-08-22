@@ -1,0 +1,39 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5ab77f6533c5d40ad448cb74:
+    sha256: "11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938"
+    path: "authors/crackmes-de/5ab77f6533c5d40ad448cb74/original/f1nd_My_k3y5.zip"
+    title: "crackmes.de's f1nd_my_k3y5 by rezk2ll"
+
+  5ab77f6533c5d40ad448cb73:
+    sha256: "c089b3a19b42fe85dda07624cfe659fc608a544831c0444a39b71aa0e833ae6d"
+    path: "authors/crackmes-de/5ab77f6533c5d40ad448cb73/original/KeygenmeNasm.zip"
+    title: "crackmes.de's keygenmenasm by rezk2ll"
+
+  5ab77f6533c5d40ad448cb72:
+    sha256: "08436301f303e9155c9bc5b43902b7593607ec62353c9563f3f58c9fbf67252f"
+    path: "authors/crackmes-de/5ab77f6533c5d40ad448cb72/original/BeatMe.zip"
+    title: "crackmes.de's beatme by rezk2ll"
+
+  5ab77f6533c5d40ad448cb71:
+    sha256: "283ef62a85d1820d02f17e9c37c822dcf687f98bc671b8fafbbade3f9d121388"
+    path: "authors/crackmes-de/5ab77f6533c5d40ad448cb71/original/CrackMe_ASM.zip"
+    title: "crackmes.de's crackme_nasm by rezk2ll"
+
+by_sha256:
+  11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
+    id: 5ab77f6533c5d40ad448cb74
+    path: "authors/crackmes-de/5ab77f6533c5d40ad448cb74/original/f1nd_My_k3y5.zip"
+    page: https://crackmes.one/crackme/5ab77f6533c5d40ad448cb74
+  c089b3a19b42fe85dda07624cfe659fc608a544831c0444a39b71aa0e833ae6d:
+    id: 5ab77f6533c5d40ad448cb73
+    path: "authors/crackmes-de/5ab77f6533c5d40ad448cb73/original/KeygenmeNasm.zip"
+    page: https://crackmes.one/crackme/5ab77f6533c5d40ad448cb73
+  08436301f303e9155c9bc5b43902b7593607ec62353c9563f3f58c9fbf67252f:
+    id: 5ab77f6533c5d40ad448cb72
+    path: "authors/crackmes-de/5ab77f6533c5d40ad448cb72/original/BeatMe.zip"
+    page: https://crackmes.one/crackme/5ab77f6533c5d40ad448cb72
+  283ef62a85d1820d02f17e9c37c822dcf687f98bc671b8fafbbade3f9d121388:
+    id: 5ab77f6533c5d40ad448cb71
+    path: "authors/crackmes-de/5ab77f6533c5d40ad448cb71/original/CrackMe_ASM.zip"
+    page: https://crackmes.one/crackme/5ab77f6533c5d40ad448cb71

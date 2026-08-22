@@ -1,0 +1,37 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6533c5d40ad448cb74
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6533c5d40ad448cb74
+  download: https://crackmes.one/download/crackme/5ab77f6533c5d40ad448cb74
+
+title: "crackmes.de's f1nd_my_k3y5 by rezk2ll"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: "Assembler (NASM, rezk2ll)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: 1
+local_slug: f1nd-my-k3y5
+
+binary:
+  path: "original/f1nd_My_k3y5.zip"
+  name: "f1nd_My_k3y5.zip"
+  sha256: "11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938"
+  md5: "27d8c2004933373c21ed07b5a7d0f340"
+  size_bytes: 1154
+  note: "ZIP → f1nd_My_k3y5 ELF + README ; ELF sha256 f1bb613a5e747711f34043a6b75ef6b336eeae75644b484923f90438b0e69e0d"
+
+status: solved
+solution_summary: "keygen 13 chars, sum (c+add)^xor == 0x41a and last=='!'; ex. AAAAAAAAAoy~!"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T16:10:40Z"

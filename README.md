@@ -144,6 +144,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [oguzbey](authors/oguzbey/README.md) | oguzbey | 1 (Lucky Numbers) | 1 / 1 |
 | [andrewl](authors/andrewl/README.md) | andrewl | 1 (Quick Crypto) | 1 / 1 |
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
+| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de (rezk2ll…) | 4+ | 1 / 4 |
 
 ## Historique des résolutions
 
@@ -151,6 +152,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-08-22 | [f1nd_my_k3y5](authors/crackmes-de/5ab77f6533c5d40ad448cb74/) | crackmes.de / rezk2ll |
 | 2026-08-22 | [rop-obf](authors/bageyelet/5cfb961a33c5d41c6d56e069/) | bageyelet |
 | 2026-08-22 | [Quick Crypto, 18k](authors/andrewl/5d07f03233c5d41c6d56e10c/) | andrewl |
 | 2026-08-22 | [Lucky Numbers](authors/oguzbey/5e567e1d33c5d4439bb2dca0/) | oguzbey |
