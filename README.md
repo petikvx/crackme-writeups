@@ -144,7 +144,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [oguzbey](authors/oguzbey/README.md) | oguzbey | 1 (Lucky Numbers) | 1 / 1 |
 | [andrewl](authors/andrewl/README.md) | andrewl | 1 (Quick Crypto) | 1 / 1 |
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
-| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 19+ | 19 / 19+ |
+| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 23+ | 23 / 23+ |
 
 ## Historique des résolutions
 
@@ -152,6 +152,10 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-08-22 | [naive_crackme](authors/crackmes-de/5ab77f5833c5d40ad448c3ee/) | crackmes.de / yanisto |
+| 2026-08-22 | [tiny_crackme](authors/crackmes-de/5ab77f5833c5d40ad448c3ed/) | crackmes.de / yanisto |
+| 2026-08-22 | [888](authors/crackmes-de/5ab77f5833c5d40ad448c397/) | crackmes.de / crp |
+| 2026-08-22 | [crackme1](authors/crackmes-de/5ab77f5533c5d40ad448c238/) | crackmes.de / darius949 |
 | 2026-08-22 | [CrackmeLinux](authors/crackmes-de/5ab77f5833c5d40ad448c3d2/) | crackmes.de / nobz |
 | 2026-08-22 | [grainne2](authors/crackmes-de/5ab77f5a33c5d40ad448c505/) | crackmes.de / stefanie |
 | 2026-08-22 | [grainne](authors/crackmes-de/5ab77f5a33c5d40ad448c506/) | crackmes.de / stefanie |

@@ -1,0 +1,37 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c238
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c238
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c238
+
+title: "crackmes.de's crackme1 by darius949"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: "crackme1-darius949"
+
+binary:
+  path: "original/crackme1.tgz"
+  name: "crackme1.tgz"
+  sha256: "eb4da8baabad00790b32217957831dd2af8ac9138e90f784ac0e2f393c5d04a3"
+  md5: "099466f457fb15191ff6bcec39d7294f"
+  size_bytes: 7470
+  note: "crackme1.tgz is actually the ELF"
+
+status: "solved"
+solution_summary: "serial = sum name[i]+name[i+1]; test→780"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T17:54:11Z"

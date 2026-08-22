@@ -29,3 +29,7 @@ Série **rezk2ll** (NASM) importée depuis crackmes.de.
 | 17 | [grainne](5ab77f5a33c5d40ad448c506/) | stefanie | `stefu!u|` |
 | 18 | [grainne2](5ab77f5a33c5d40ad448c505/) | stefanie | `LOVE` |
 | 19 | [CrackmeLinux](5ab77f5833c5d40ad448c3d2/) | nobz | `0bfu5c4t3D=-_-"` |
+| 20 | [crackme1](5ab77f5533c5d40ad448c238/) | darius949 | Linux ELF32 | name→serial `780` |
+| 21 | [888](5ab77f5833c5d40ad448c397/) | crp | Linux ELF32 tiny | `./888 x y key` → OK |
+| 22 | [tiny_crackme](5ab77f5833c5d40ad448c3ed/) | yanisto | Linux ELF32 tiny | `729040cd` |
+| 23 | [naive_crackme](5ab77f5833c5d40ad448c3ee/) | yanisto | Linux ELF32 | `V7l$j^F;` |
