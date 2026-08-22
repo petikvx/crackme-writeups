@@ -30,10 +30,14 @@ def main() -> int:
         if not BIN.is_file():
             print(f"missing {BIN}", file=sys.stderr)
             return 1
-        out = subprocess.check_output(
-            [str(BIN)], input=(PASSWORD + "\n").encode(), timeout=2
+        # sys_exit laisse ebx=1 → code retour 1 même en succès
+        proc = subprocess.run(
+            [str(BIN)],
+            input=(PASSWORD + "\n").encode(),
+            capture_output=True,
+            timeout=2,
         )
-        text = out.decode(errors="replace")
+        text = proc.stdout.decode(errors="replace")
         ok = "correct" in text
         print(text.strip().splitlines()[-1] if text.strip() else text)
         print("OK" if ok else "FAIL")
