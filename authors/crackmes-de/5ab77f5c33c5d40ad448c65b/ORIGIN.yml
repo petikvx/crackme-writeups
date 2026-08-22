@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5c33c5d40ad448c65b
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5c33c5d40ad448c65b
+  download: https://crackmes.one/download/crackme/5ab77f5c33c5d40ad448c65b
+
+title: "crackmes.de's fr0g_kgm1 by fr0gsek"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/KGM#1.zip"
+  name: "KGM#1.zip"
+  sha256: "f1c1f69bc58d17ccfcac0a59e18c026538826fcac4be711ce7a36951884d8a42"
+  md5: "e56b34a858adaa5b95353ac6f2670e11"
+  size_bytes: 1004
+
+status: solved
+solution_summary: "keygen: serial[i]=login[(31-i)%n]^TABLE; login fr0g1"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T17:53:56Z"
