@@ -16,3 +16,4 @@ Série **rezk2ll** (NASM) importée depuis crackmes.de.
 | 4 | [CrackMe_ASM](5ab77f6533c5d40ad448cb71/) | [`…cb71`](https://crackmes.one/crackme/5ab77f6533c5d40ad448cb71) | Linux ELF32 | `S3CrE+Fl4G!` |
 | 5 | [easy_crackme_2](5ab77f6333c5d40ad448ca8b/) | [`…ca8b`](https://crackmes.one/crackme/5ab77f6333c5d40ad448ca8b) | Linux ELF32 | `pucybut` |
 | 6 | [easy_linux_crackme](5ab77f6333c5d40ad448ca8a/) | [`…ca8a`](https://crackmes.one/crackme/5ab77f6333c5d40ad448ca8a) | Linux ELF32 | getgid==0xdead |
+| 7 | [yyyyyyy1](5ab77f6233c5d40ad448c9c3/) | [`…c9c3`](https://crackmes.one/crackme/5ab77f6233c5d40ad448c9c3) | Linux ELF32 | keygen 16-char hash |

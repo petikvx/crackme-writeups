@@ -1,0 +1,37 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6233c5d40ad448c9c3
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6233c5d40ad448c9c3
+  download: https://crackmes.one/download/crackme/5ab77f6233c5d40ad448c9c3
+
+title: "crackmes.de's yyyyyyy1 by yyyyyyy"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: yyyyyyy1
+
+binary:
+  path: "original/yyyyyyy1.tar.gz"
+  name: "yyyyyyy1.tar.gz"
+  sha256: "202f0eb63b72bb14e4734dbea8cb9e8c238ccf780e572db03eb48f92285225fd"
+  md5: "098b9183c2fefdad6a9c7fbee8d69f51"
+  size_bytes: 2280
+  note: "tar.gz → yyyyyyy1 ELF + readme"
+
+status: solved
+solution_summary: "keygen 16 chars, hash (~((ebx^c)+0x2a)-1); ex. 8bwh8ZVdOlNOZ5T\\"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T16:25:08Z"
