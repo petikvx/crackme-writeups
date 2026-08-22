@@ -1,0 +1,37 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6533c5d40ad448cb73
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6533c5d40ad448cb73
+  download: https://crackmes.one/download/crackme/5ab77f6533c5d40ad448cb73
+
+title: "crackmes.de's keygenmenasm by rezk2ll"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: 2
+local_slug: keygenmenasm
+
+binary:
+  path: "original/KeygenmeNasm.zip"
+  name: "KeygenmeNasm.zip"
+  sha256: "c089b3a19b42fe85dda07624cfe659fc608a544831c0444a39b71aa0e833ae6d"
+  md5: "d539dfd02528cab17a0ce54c20c879ca"
+  size_bytes: 1234
+  note: "ZIP → keygenme ELF + note.txt"
+
+status: solved
+solution_summary: "keygen: password[i]=user[i]|prev (prev0=5); ex. khaled→okimme"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T16:10:41Z"
