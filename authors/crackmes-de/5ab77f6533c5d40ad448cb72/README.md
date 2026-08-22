@@ -15,13 +15,13 @@ Keygenme **ELF32** NASM, strippé. Strings en **ROT−1**. Auteur : **rezk2ll**.
 
 | Champ | Exemple |
 |---|---|
-| Username | **`rezk2ll`** (longueur 3..8) |
-| Password | **`7zvi~o6pp`** |
+| Username | **`petik`** (longueur 3..8) |
+| Password | **`5tshwln`** |
 
 ```bash
-python3 tools/beatme-solve.py -q --user rezk2ll
-# rezk2ll:7zvi~o6pp
-python3 tools/beatme-solve.py --check --user rezk2ll
+python3 tools/beatme-solve.py -q --user petik
+# petik:5tshwln
+python3 tools/beatme-solve.py --check --user petik
 ```
 
 ## Prédicat

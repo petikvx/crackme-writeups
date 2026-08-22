@@ -4,8 +4,8 @@
 serial = sum(name[i]+name[i+1] for i in range(len(name)))  (name[len]=0)
 
 Usage:
-  python3 crackme1-solve.py -q --name test
-  python3 crackme1-solve.py --check --name test
+  python3 crackme1-solve.py -q --name petik
+  python3 crackme1-solve.py --check --name petik
 """
 from __future__ import annotations
 import argparse, subprocess
@@ -22,7 +22,7 @@ def serial_for(name: str) -> int:
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("-q", action="store_true")
-    ap.add_argument("--name", default="test")
+    ap.add_argument("--name", default="petik")
     ap.add_argument("--check", action="store_true")
     a = ap.parse_args()
     s = serial_for(a.name)

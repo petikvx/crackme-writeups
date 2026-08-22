@@ -12,8 +12,8 @@ Password == cipher(username).
 
 Usage:
   python3 keygenmenasm-solve.py -q
-  python3 keygenmenasm-solve.py -q --user alice
-  python3 keygenmenasm-solve.py --check --user khaled
+  python3 keygenmenasm-solve.py -q --user petik
+  python3 keygenmenasm-solve.py --check --user petik
 """
 from __future__ import annotations
 
@@ -25,7 +25,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 BIN = ROOT / "original" / "keygenme"
-DEFAULT_USER = "khaled"
+DEFAULT_USER = "petik"
 
 
 def cipher(user: str) -> str:

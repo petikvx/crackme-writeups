@@ -5,8 +5,8 @@ Username >=5. Serial XXXX-XXXX (hex).
 hash = ∏ chars starting 0x7e4c9e32; modular pow / mul checks.
 
 Usage:
-  python3 crackme3-sx0r-solve.py -q --user sixor
-  python3 crackme3-sx0r-solve.py --check --user sixor
+  python3 crackme3-sx0r-solve.py -q --user petik
+  python3 crackme3-sx0r-solve.py --check --user petik
 """
 from __future__ import annotations
 import argparse, os, pty, random, select, time
@@ -72,7 +72,7 @@ def live(user: str, serial: str) -> bytes:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("-q", action="store_true")
-    ap.add_argument("--user", default="sixor")
+    ap.add_argument("--user", default="petik")
     ap.add_argument("--check", action="store_true")
     ap.add_argument("--seed", type=int, default=0)
     args = ap.parse_args()

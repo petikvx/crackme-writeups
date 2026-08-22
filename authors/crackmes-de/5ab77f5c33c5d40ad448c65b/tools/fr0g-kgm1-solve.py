@@ -6,8 +6,8 @@ TABLE = SeRiAlAbCdEfGhIjKlMnOpQrStUvWxYz
 Write 32 bytes to /var/tmp/thegame.serial then enter login (>=5).
 
 Usage:
-  python3 fr0g-kgm1-solve.py -q --login fr0g1
-  python3 fr0g-kgm1-solve.py --check --login fr0g1
+  python3 fr0g-kgm1-solve.py -q --login petik
+  python3 fr0g-kgm1-solve.py --check --login petik
 """
 from __future__ import annotations
 import argparse, os, subprocess, sys
@@ -24,7 +24,7 @@ def keygen(login: str) -> bytes:
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("-q", action="store_true")
-    ap.add_argument("--login", default="fr0g1"); ap.add_argument("--check", action="store_true")
+    ap.add_argument("--login", default="petik"); ap.add_argument("--check", action="store_true")
     a = ap.parse_args()
     ser = keygen(a.login)
     if a.q:

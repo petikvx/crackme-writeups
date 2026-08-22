@@ -53,7 +53,7 @@ def check(user: str = "frog") -> bool:
 
 def main():
     ap=argparse.ArgumentParser(); ap.add_argument("-q",action="store_true")
-    ap.add_argument("--user",default="frog"); ap.add_argument("--check",action="store_true")
+    ap.add_argument("--user",default="petik"); ap.add_argument("--check",action="store_true")
     a=ap.parse_args(); key=key_for(a.user)
     if a.q: print(f"{a.user} {key}"); return 0
     if a.check:

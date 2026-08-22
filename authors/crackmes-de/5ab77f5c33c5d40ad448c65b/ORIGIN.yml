@@ -29,7 +29,7 @@ binary:
   size_bytes: 1004
 
 status: solved
-solution_summary: "keygen: serial[i]=login[(31-i)%n]^TABLE; login fr0g1"
+solution_summary: "keygen: serial[i]=login[(31-i)%n]^TABLE; login petik"
 
 download:
   zip_password: crackmes.one

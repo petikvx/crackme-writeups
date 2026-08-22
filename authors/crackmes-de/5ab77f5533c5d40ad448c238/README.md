@@ -20,7 +20,7 @@
 
 | Nom | Serial |
 |---|---|
-| `test` | **`780`** |
+| `petik` | **`970`** |
 
 ```text
 serial = Σ (name[i] + name[i+1])  pour i ∈ [0, len(name))
@@ -28,11 +28,11 @@ avec name[len] = 0
 ```
 
 ```bash
-python3 tools/crackme1-solve.py -q --name test
-# test:780
-printf 'test\n780\n' | ./original/crackme1
+python3 tools/crackme1-solve.py -q --name petik
+# petik:970
+printf 'petik\n970\n' | ./original/crackme1
 # Vous avez craque le no de serie
-python3 tools/crackme1-solve.py --check --name test
+python3 tools/crackme1-solve.py --check --name petik
 ```
 
 ## Premier regard
@@ -60,13 +60,13 @@ for (i = 0; name[i]; i++)
     c += (unsigned)name[i] + (unsigned)name[i+1];
 ```
 
-Exemple `test` : `(t+e)+(e+s)+(s+t)+(t+0)` = `780`.
+Exemple `petik` : `(p+e)+(e+t)+(t+i)+(i+k)+(k+0)` = `970`.
 
 ## Vérification
 
 ```bash
-printf 'test\n780\n' | ./original/crackme1
-# c=780
+printf 'petik\n970\n' | ./original/crackme1
+# c=970
 # Vous avez craque le no de serie
 ```
 

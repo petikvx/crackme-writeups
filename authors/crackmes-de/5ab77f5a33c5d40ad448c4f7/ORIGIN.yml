@@ -29,7 +29,7 @@ binary:
   size_bytes: 2396
 
 status: solved
-solution_summary: "frog / 62-qqqqqs (SMC jmp; needs mprotect)"
+solution_summary: "petik / 62-qqqqqv (SMC jmp; needs mprotect)"
 
 download:
   zip_password: crackmes.one

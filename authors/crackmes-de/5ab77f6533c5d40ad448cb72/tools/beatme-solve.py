@@ -9,8 +9,8 @@ Username corps L∈[3..8]. Password :
 (Vérif inverse : ROT-1 puis −L//2 sur pwd[2..] == user.)
 
 Usage:
-  python3 beatme-solve.py -q --user rezk2ll
-  python3 beatme-solve.py --check --user rezk2ll
+  python3 beatme-solve.py -q --user petik
+  python3 beatme-solve.py --check --user petik
 """
 from __future__ import annotations
 
@@ -22,7 +22,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 BIN = ROOT / "original" / "BeatMe"
-DEFAULT_USER = "rezk2ll"
+DEFAULT_USER = "petik"
 
 
 def keygen(user: str) -> str:

@@ -30,7 +30,7 @@ binary:
   note: "ZIP → BeatMe ELF"
 
 status: solved
-solution_summary: "keygen: pwd[0]='0'+L, pwd[1]=user[2], pwd[2+i]=user[i]+L//2+1; rezk2ll→7zvi~o6pp"
+solution_summary: "keygen: pwd[0]='0'+L, pwd[1]=user[2], pwd[2+i]=user[i]+L//2+1; petik→5tshwln"
 
 download:
   zip_password: crackmes.one

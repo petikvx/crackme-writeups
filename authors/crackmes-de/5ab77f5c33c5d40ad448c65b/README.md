@@ -4,11 +4,11 @@
 
 ## Réponse
 
-Login exemple **`fr0g1`** (≥5). Serial 32 octets dans `/var/tmp/thegame.serial` :
+Login exemple **`petik`** (≥5). Serial 32 octets dans `/var/tmp/thegame.serial` :
 
 `serial[i] = login[(31-i) % len] XOR "SeRiAlAbCdEfGhIjKlMnOpQrStUvWxYz"[i]`
 
 ```bash
-python3 tools/fr0g-kgm1-solve.py --check --login fr0g1
+python3 tools/fr0g-kgm1-solve.py --check --login petik
 # Yeh, you did it
 ```

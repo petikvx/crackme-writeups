@@ -30,7 +30,7 @@ binary:
   note: "crackme1.tgz is actually the ELF"
 
 status: "solved"
-solution_summary: "serial = sum name[i]+name[i+1]; test→780"
+solution_summary: "serial = sum name[i]+name[i+1]; petik→970"
 
 download:
   zip_password: crackmes.one

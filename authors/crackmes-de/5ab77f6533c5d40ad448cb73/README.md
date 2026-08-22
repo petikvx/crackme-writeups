@@ -14,16 +14,16 @@ Keygenme **ELF32** NASM, non strippé. Auteur : **rezk2ll**.
 
 ## Réponse
 
-| Champ | Exemple (`khaled`) |
+| Champ | Exemple (`petik`) |
 |---|---|
-| Username | **`khaled`** (longueur corps 3..13) |
-| Password | **`okimme`** |
+| Username | **`petik`** (longueur corps 3..13) |
+| Password | **`uuu}k`** |
 
 ```bash
-python3 tools/keygenmenasm-solve.py -q --user khaled
-# khaled:okimme
+python3 tools/keygenmenasm-solve.py -q --user petik
+# petik:uuu}k
 
-python3 tools/keygenmenasm-solve.py --check --user khaled
+python3 tools/keygenmenasm-solve.py --check --user petik
 ```
 
 > Les deux `read()` enchaînés : envoyer username puis password en **deux écritures** (sinon le 1er `read` avale tout le pipe).
