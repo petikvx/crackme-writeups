@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a160c2a2b3df128c1df5cc1
+
+urls:
+  page: https://crackmes.one/crackme/6a160c2a2b3df128c1df5cc1
+  download: https://crackmes.one/download/crackme/6a160c2a2b3df128c1df5cc1
+
+title: "SimbaHDD's CRACKME"
+author_on_site: "SimbaHDD"
+author_local: "simbahdd"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C (MinGW-w64)"
+
+difficulty: 1.3
+quality: 4.0
+size: ""
+published: "2026-05-26"
+
+series_index: null
+local_slug: crackme
+
+binary:
+  path: "original/crackme.exe"
+  name: "crackme.exe"
+  sha256: "dead29f6b77611aacf0467139236c0ddc6fb422bfa0422721003c9f19c46ca1a"
+  md5: "3f9ddcd22f9d8c72b51e5df5402f5ae0"
+  size_bytes: 127358
+
+status: solved
+solution_summary: "password simba123 — strcmp en clair (.data); Wine original SEH, preuve via recon MinGW"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T14:11:04Z"

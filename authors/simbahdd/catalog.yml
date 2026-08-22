@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a160c2a2b3df128c1df5cc1:
+    sha256: "dead29f6b77611aacf0467139236c0ddc6fb422bfa0422721003c9f19c46ca1a"
+    path: "authors/simbahdd/6a160c2a2b3df128c1df5cc1/original/crackme.exe"
+    title: "SimbaHDD's CRACKME"
+
+by_sha256:
+  dead29f6b77611aacf0467139236c0ddc6fb422bfa0422721003c9f19c46ca1a:
+    id: 6a160c2a2b3df128c1df5cc1
+    path: "authors/simbahdd/6a160c2a2b3df128c1df5cc1/original/crackme.exe"
+    page: https://crackmes.one/crackme/6a160c2a2b3df128c1df5cc1

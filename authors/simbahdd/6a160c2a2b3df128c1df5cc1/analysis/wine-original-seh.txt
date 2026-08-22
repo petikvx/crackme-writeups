@@ -1,0 +1,2 @@
+0128:err:seh:call_stack_handlers invalid frame 00000001400070B8 (00007FFFFE102000-00007FFFFE300000)
+0128:err:seh:NtRaiseException Exception frame is not in stack limits => unable to dispatch exception.
