@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69a2911b7a778cfffbfb67ca
+
+urls:
+  page: https://crackmes.one/crackme/69a2911b7a778cfffbfb67ca
+  download: https://crackmes.one/download/crackme/69a2911b7a778cfffbfb67ca
+
+title: "jeffli6789's Crackmes.one RE CTF 2026"
+author_on_site: "jeffli6789"
+author_local: "jeffli6789"
+
+platform: "Linux"
+arch: "x86-64"
+language: "Assembler"
+
+difficulty: 3.5
+quality: 4.5
+size: ""
+published: "2026-02-28"
+
+series_index: null
+local_slug: wallpaper
+
+binary:
+  path: "original/wallpaper"
+  name: "wallpaper"
+  sha256: "7526418ecada66780062b7f6ca7205c4540d6e2800fc994a4d02f75ae4b2b673"
+  md5: "af440ff9e876c87b2612458c15ca437a"
+  size_bytes: 912
+
+status: solved
+solution_summary: "CMO{1001223210123010301233322110103321001} — 37 digits on 16×4 wallpaper bitmask + 64-bit rot state (MITM)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T14:45:39Z"

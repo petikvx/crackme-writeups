@@ -128,6 +128,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [simbahdd](authors/simbahdd/README.md) | SimbaHDD | 1 (CRACKME) | 1 / 1 |
 | [tdaron](authors/tdaron/README.md) | tdaron | 1 (Use your brain) | 1 / 1 |
 | [pipedown](authors/pipedown/README.md) | pipedown | 1 (I need to be honest) | 1 / 1 |
+| [jeffli6789](authors/jeffli6789/README.md) | jeffli6789 | 1 (RE CTF 2026 wallpaper) | 1 / 1 |
 
 ## Convention
 

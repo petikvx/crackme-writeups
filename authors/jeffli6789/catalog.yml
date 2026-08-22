@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69a2911b7a778cfffbfb67ca:
+    sha256: "7526418ecada66780062b7f6ca7205c4540d6e2800fc994a4d02f75ae4b2b673"
+    path: "authors/jeffli6789/69a2911b7a778cfffbfb67ca/original/wallpaper"
+    title: "jeffli6789's Crackmes.one RE CTF 2026"
+
+by_sha256:
+  7526418ecada66780062b7f6ca7205c4540d6e2800fc994a4d02f75ae4b2b673:
+    id: 69a2911b7a778cfffbfb67ca
+    path: "authors/jeffli6789/69a2911b7a778cfffbfb67ca/original/wallpaper"
+    page: https://crackmes.one/crackme/69a2911b7a778cfffbfb67ca
