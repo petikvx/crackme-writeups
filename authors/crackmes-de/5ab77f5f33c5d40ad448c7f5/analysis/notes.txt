@@ -1,0 +1,8 @@
+FSG 1.33 — unpacked via unipacker → original/cauchy_km1.unpacked.exe (OEP 0x401000).
+
+RSA-1024 keygenme (taunt: "or maybe you factorized RSA1024?").
+e = 0x10001 from string "10001".
+Modulus / other params XOR-0xFF embedded between code (see 0x401246, 0x40139a).
+Requires 1-byte patch that is NOT a jump (per NFO) + keygen.
+Buffers 0x4043B0 / 0x404500 empty in static dump — runtime decrypt of embedded hex TBD.
+Status: pending (crypto + patch not finished).

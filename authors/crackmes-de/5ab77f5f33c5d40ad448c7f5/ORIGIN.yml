@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5f33c5d40ad448c7f5
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5f33c5d40ad448c7f5
+  download: https://crackmes.one/download/crackme/5ab77f5f33c5d40ad448c7f5
+
+title: "crackmes.de's keygenme_1 by cauchy_htb"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/cauchy_keygenme1.zip"
+  name: "cauchy_keygenme1.zip"
+  sha256: "2269c09e84cbc2e1148880fe1adc276c52a9ff1e9e630ceb34a9a9218c128163"
+  md5: "7b525e78c5c2b936c73e02b8474a2669"
+  size_bytes: 9325
+
+status: pending
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T19:05:42Z"

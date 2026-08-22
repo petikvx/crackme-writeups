@@ -1,0 +1,7 @@
+RC6-32/20 decrypt of 16-byte CT at 0x4030CF.
+Key = 16 bytes from edit (GetDlgItemText).
+TESTKEYzzzzzazazaazaz is a red herring (anti-olly / fake).
+CT: c59f1ee93bec2739c442e7d9f3a3aa8c
+Need correct key for English plaintext MessageBox body.
+"outside the box / shell / dormant" hints — key still unknown.
+Status: pending.

@@ -1,0 +1,18 @@
+Date: 	20.12.2009
+Author: sharpe
+Level:	Crackme #9
+
+Introduction:
+If you manage to find a valid Unlock Code, type it in and press the Unlock Code button. If it is correct, you should be able to find the hidden secret.
+
+
+Rules:
+- No patching
+- Find the hidden secret
+
+
+I look forward to seeing your solutions!
+
+Enjoy!
+
+sharpe

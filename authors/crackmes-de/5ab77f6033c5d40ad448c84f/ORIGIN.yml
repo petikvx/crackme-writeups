@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6033c5d40ad448c84f
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6033c5d40ad448c84f
+  download: https://crackmes.one/download/crackme/5ab77f6033c5d40ad448c84f
+
+title: "crackmes.de's epicurus by d4ph1"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/D4ph1_-_Epicurus.zip"
+  name: "D4ph1_-_Epicurus.zip"
+  sha256: "1c2852c6d2f0d937eb50f2fb3251d5d24fad44e86161821bac6556ad5935567a"
+  md5: "d622e614bba613a16580549f75109092"
+  size_bytes: 21914
+
+status: pending
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T19:05:41Z"

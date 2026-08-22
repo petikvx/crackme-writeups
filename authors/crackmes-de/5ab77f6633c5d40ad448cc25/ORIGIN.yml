@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6633c5d40ad448cc25
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6633c5d40ad448cc25
+  download: https://crackmes.one/download/crackme/5ab77f6633c5d40ad448cc25
+
+title: "crackmes.de's bugger_v.7 by shism"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/bugger_v.7.zip"
+  name: "bugger_v.7.zip"
+  sha256: "3d43979486b0f451b43082faa568fdadfe57585b51a6ad21f7fb1645b27deaff"
+  md5: "4865b639c094c96599241e3f1c18b04f"
+  size_bytes: 6809
+
+status: pending
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T19:05:35Z"

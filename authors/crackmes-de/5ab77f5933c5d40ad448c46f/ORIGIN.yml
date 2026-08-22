@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5933c5d40ad448c46f
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5933c5d40ad448c46f
+  download: https://crackmes.one/download/crackme/5ab77f5933c5d40ad448c46f
+
+title: "crackmes.de's meloquynthe_yolejedi_meat by meat"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/meloquynthe-yo-meat.zip"
+  name: "meloquynthe-yo-meat.zip"
+  sha256: "99643c8863c02b6d6d6363f285e58a35de8979b7cc9e5bddd332b85a1c4d2c1d"
+  md5: "024dd40f8b80d5566faa83d806691037"
+  size_bytes: 3596592
+
+status: pending
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T19:05:47Z"

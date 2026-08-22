@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6233c5d40ad448c9e0
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6233c5d40ad448c9e0
+  download: https://crackmes.one/download/crackme/5ab77f6233c5d40ad448c9e0
+
+title: "crackmes.de's unlockme_crackme_9_by_sharpe by sharpe"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/nine.zip"
+  name: "nine.zip"
+  sha256: "f2a15c379d7aeec22371d0c09b046f266cddc03bebb3c8258589cbea10d2190b"
+  md5: "81e26198f84733bc5522a9c649d66b27"
+  size_bytes: 36213
+
+status: pending
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T19:05:39Z"

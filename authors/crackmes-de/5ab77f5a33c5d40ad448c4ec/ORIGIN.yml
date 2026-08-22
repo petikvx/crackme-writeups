@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5a33c5d40ad448c4ec
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5a33c5d40ad448c4ec
+  download: https://crackmes.one/download/crackme/5ab77f5a33c5d40ad448c4ec
+
+title: "crackmes.de's b0rken_elgamal_keygenme by smilingwolf"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/B0rken.ElGamal.KeygenMe-SW.zip"
+  name: "B0rken.ElGamal.KeygenMe-SW.zip"
+  sha256: "917bc112bea06aaf6117861587b18417786f05b785d5df5f4330ba3a6647408a"
+  md5: "74a92f27f4437dd0c3b2537f29d1626d"
+  size_bytes: 10420
+
+status: pending
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T19:05:44Z"

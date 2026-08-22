@@ -1,0 +1,4 @@
+UPX 3.91 modified (upx -d refuses: modified/hacked/protected).
+Patch hints in ReadMe (not acceptable as solution): 004069A4 / 00401257.
+Need manual unpack then broken-ElGamal keygen.
+Status: pending.

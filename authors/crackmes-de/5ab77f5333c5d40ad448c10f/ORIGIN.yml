@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5333c5d40ad448c10f
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c10f
+  download: https://crackmes.one/download/crackme/5ab77f5333c5d40ad448c10f
+
+title: "crackmes.de's crackme_1_by_amnon by amnon"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Crackme_1.by.Amnon.HTBTeam.zip"
+  name: "Crackme_1.by.Amnon.HTBTeam.zip"
+  sha256: "a8cad907e863c3c3bf8b055f88deddb3a31d0d36edf97f6fb31050cf3ad27512"
+  md5: "8b80266662b155372f802f18739e4c71"
+  size_bytes: 46519
+
+status: pending
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T19:05:52Z"
