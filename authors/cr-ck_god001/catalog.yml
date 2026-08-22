@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6991e765853c2615340abd8c:
+    sha256: "2c14b5c5734e5ec8f77eaaa6250e471d5eeda8a1a00784f1854f7b76ad314953"
+    path: "authors/cr-ck_god001/6991e765853c2615340abd8c/original/CrackMe.001_1.exe"
+    title: "Cr@ck_God001's Crackme"
+
+by_sha256:
+  2c14b5c5734e5ec8f77eaaa6250e471d5eeda8a1a00784f1854f7b76ad314953:
+    id: 6991e765853c2615340abd8c
+    path: "authors/cr-ck_god001/6991e765853c2615340abd8c/original/CrackMe.001_1.exe"
+    page: https://crackmes.one/crackme/6991e765853c2615340abd8c

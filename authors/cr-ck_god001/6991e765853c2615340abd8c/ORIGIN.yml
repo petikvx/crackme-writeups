@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6991e765853c2615340abd8c
+
+urls:
+  page: https://crackmes.one/crackme/6991e765853c2615340abd8c
+  download: https://crackmes.one/download/crackme/6991e765853c2615340abd8c
+
+title: "Cr@ck_God001's Crackme"
+author_on_site: "Cr@ck_God001"
+author_local: "cr-ck_god001"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++ (MSVC GUI)"
+
+difficulty: 1.8
+quality: 2.9
+size: ""
+published: "2026-02-15"
+
+series_index: null
+local_slug: crackme001
+
+binary:
+  path: "original/CrackMe.001_1.exe"
+  name: "CrackMe.001_1.exe"
+  sha256: "2c14b5c5734e5ec8f77eaaa6250e471d5eeda8a1a00784f1854f7b76ad314953"
+  md5: "ddaa5c9730e62975e1826551725fe7a5"
+  size_bytes: 112640
+
+status: solved
+solution_summary: "4 edits 1024/2048/0512/8192 (pow 8^4*0.25 / 8^4*0.5 / 512 / 4^8*0.125) → Success"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-22T15:06:21Z"
