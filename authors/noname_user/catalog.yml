@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  699c06a46ca1599050950670:
+    sha256: "0617e6374673cb3cceba2406791d690141adcb71f695f40c9f163a634a3b6cda"
+    path: "authors/noname_user/699c06a46ca1599050950670/original/test.py"
+    title: "noname_User's Unbreakable Python? My Custom Obfuscation Engine"
+
+by_sha256:
+  0617e6374673cb3cceba2406791d690141adcb71f695f40c9f163a634a3b6cda:
+    id: 699c06a46ca1599050950670
+    path: "authors/noname_user/699c06a46ca1599050950670/original/test.py"
+    page: https://crackmes.one/crackme/699c06a46ca1599050950670

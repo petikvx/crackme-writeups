@@ -1,0 +1,288 @@
+  0           0 RESUME                   0
+
+  2           2 LOAD_CONST               0 (0)
+              4 LOAD_CONST               1 (None)
+              6 IMPORT_NAME              0 (sys)
+              8 STORE_NAME               0 (sys)
+             10 LOAD_CONST               0 (0)
+             12 LOAD_CONST               1 (None)
+             14 IMPORT_NAME              1 (os)
+             16 STORE_NAME               1 (os)
+
+  3          18 PUSH_NULL
+             20 LOAD_NAME                0 (sys)
+             22 LOAD_ATTR                4 (settrace)
+             42 LOAD_CONST               2 (<code object <lambda> at 0x7b7ab7a5b5d0, file "<crypto>", line 3>)
+             44 MAKE_FUNCTION            0
+             46 CALL                     1
+             54 POP_TOP
+
+  4          56 PUSH_NULL
+             58 LOAD_NAME                0 (sys)
+             60 LOAD_ATTR                6 (setprofile)
+             80 LOAD_CONST               3 (<code object <lambda> at 0x7b7ab7a5b6a0, file "<crypto>", line 4>)
+             82 MAKE_FUNCTION            0
+             84 CALL                     1
+             92 POP_TOP
+
+  5          94 BUILD_LIST               0
+             96 LOAD_CONST               4 (('http_proxy', 'https_proxy', 'all_proxy', 'HTTP_PROXY', 'HTTPS_PROXY'))
+             98 LIST_EXTEND              1
+            100 STORE_NAME               4 (_bad_proxies)
+
+  6         102 LOAD_NAME                4 (_bad_proxies)
+            104 GET_ITER
+        >>  106 FOR_ITER                30 (to 170)
+            110 STORE_NAME               5 (_p)
+
+  7         112 LOAD_NAME                5 (_p)
+            114 LOAD_NAME                1 (os)
+            116 LOAD_ATTR               12 (environ)
+            136 CONTAINS_OP              0
+            138 POP_JUMP_IF_TRUE         1 (to 142)
+            140 JUMP_BACKWARD           18 (to 106)
+        >>  142 LOAD_NAME                1 (os)
+            144 LOAD_ATTR               12 (environ)
+            164 LOAD_NAME                5 (_p)
+            166 DELETE_SUBSCR
+            168 JUMP_BACKWARD           32 (to 106)
+
+  6     >>  170 END_FOR
+
+  9         172 LOAD_CONST               0 (0)
+            174 LOAD_CONST               1 (None)
+            176 IMPORT_NAME              0 (sys)
+            178 STORE_NAME               0 (sys)
+
+ 10         180 LOAD_CONST               0 (0)
+            182 LOAD_CONST               1 (None)
+            184 IMPORT_NAME              7 (time)
+            186 STORE_NAME               7 (time)
+
+ 11         188 LOAD_CONST               0 (0)
+            190 LOAD_CONST               1 (None)
+            192 IMPORT_NAME              8 (math)
+            194 STORE_NAME               8 (math)
+
+ 12         196 LOAD_CONST               0 (0)
+            198 LOAD_CONST               1 (None)
+            200 IMPORT_NAME              1 (os)
+            202 STORE_NAME               1 (os)
+
+ 15         204 PUSH_NULL
+            206 LOAD_NAME                1 (os)
+            208 LOAD_ATTR               18 (system)
+            228 LOAD_CONST               5 ('')
+            230 CALL                     1
+            238 POP_TOP
+
+ 17         240 LOAD_CONST               6 (<code object smooth_rgb_normal_text at 0x2bfa2210, file "<crypto>", line 17>)
+            242 MAKE_FUNCTION            0
+            244 STORE_NAME              10 (smooth_rgb_normal_text)
+
+ 63         246 LOAD_NAME               11 (__name__)
+            248 LOAD_CONST               7 ('__main__')
+            250 COMPARE_OP              40 (==)
+            254 POP_JUMP_IF_FALSE       43 (to 342)
+
+ 64         256 PUSH_NULL
+            258 LOAD_NAME                1 (os)
+            260 LOAD_ATTR               18 (system)
+            280 LOAD_NAME                1 (os)
+            282 LOAD_ATTR               24 (name)
+            302 LOAD_CONST               8 ('nt')
+            304 COMPARE_OP              40 (==)
+            308 POP_JUMP_IF_FALSE        2 (to 314)
+            310 LOAD_CONST               9 ('cls')
+            312 JUMP_FORWARD             1 (to 316)
+        >>  314 LOAD_CONST              10 ('clear')
+        >>  316 CALL                     1
+            324 POP_TOP
+
+ 65         326 PUSH_NULL
+            328 LOAD_NAME               10 (smooth_rgb_normal_text)
+            330 CALL                     0
+            338 POP_TOP
+            340 RETURN_CONST             1 (None)
+
+ 63     >>  342 RETURN_CONST             1 (None)
+
+Disassembly of <code object <lambda> at 0x7b7ab7a5b5d0, file "<crypto>", line 3>:
+  3           0 RESUME                   0
+              2 RETURN_CONST             0 (None)
+
+Disassembly of <code object <lambda> at 0x7b7ab7a5b6a0, file "<crypto>", line 4>:
+  4           0 RESUME                   0
+              2 RETURN_CONST             0 (None)
+
+Disassembly of <code object smooth_rgb_normal_text at 0x2bfa2210, file "<crypto>", line 17>:
+ 17           0 RESUME                   0
+
+ 19           2 LOAD_CONST               1 ('noname')
+              4 STORE_FAST               0 (text)
+
+ 22           6 LOAD_CONST               2 (1)
+              8 STORE_FAST               1 (spacing)
+
+ 24          10 LOAD_CONST               3 (0.1)
+             12 STORE_FAST               2 (speed)
+
+ 25          14 LOAD_CONST               4 (0.5)
+             16 STORE_FAST               3 (wave_width)
+
+ 28          18 LOAD_GLOBAL              0 (sys)
+             28 LOAD_ATTR                2 (stdout)
+             48 LOAD_ATTR                5 (NULL|self + write)
+             68 LOAD_CONST               5 ('\x1b[?25l')
+             70 CALL                     1
+             78 POP_TOP
+
+ 30          80 LOAD_CONST               6 (0)
+             82 STORE_FAST               4 (t)
+
+ 31          84 NOP
+
+ 32          86 NOP
+
+ 33     >>   88 LOAD_CONST               7 ('')
+             90 STORE_FAST               5 (output)
+
+ 36          92 LOAD_GLOBAL              7 (NULL + enumerate)
+            102 LOAD_FAST                0 (text)
+            104 CALL                     1
+            112 GET_ITER
+        >>  114 FOR_ITER               161 (to 440)
+            118 UNPACK_SEQUENCE          2
+            122 STORE_FAST               6 (i)
+            124 STORE_FAST               7 (char)
+
+ 38         126 LOAD_FAST                4 (t)
+            128 LOAD_FAST                6 (i)
+            130 LOAD_FAST                3 (wave_width)
+            132 BINARY_OP                5 (*)
+            136 BINARY_OP                0 (+)
+            140 STORE_FAST               8 (freq)
+
+ 40         142 LOAD_GLOBAL              9 (NULL + int)
+            152 LOAD_GLOBAL             11 (NULL + math)
+            162 LOAD_ATTR               12 (sin)
+            182 LOAD_FAST                8 (freq)
+            184 CALL                     1
+            192 LOAD_CONST               8 (127)
+            194 BINARY_OP                5 (*)
+            198 LOAD_CONST               9 (128)
+            200 BINARY_OP                0 (+)
+            204 CALL                     1
+            212 STORE_FAST               9 (r)
+
+ 41         214 LOAD_GLOBAL              9 (NULL + int)
+            224 LOAD_GLOBAL             11 (NULL + math)
+            234 LOAD_ATTR               12 (sin)
+            254 LOAD_FAST                8 (freq)
+            256 LOAD_CONST              10 (2)
+            258 BINARY_OP                0 (+)
+            262 CALL                     1
+            270 LOAD_CONST               8 (127)
+            272 BINARY_OP                5 (*)
+            276 LOAD_CONST               9 (128)
+            278 BINARY_OP                0 (+)
+            282 CALL                     1
+            290 STORE_FAST              10 (g)
+
+ 42         292 LOAD_GLOBAL              9 (NULL + int)
+            302 LOAD_GLOBAL             11 (NULL + math)
+            312 LOAD_ATTR               12 (sin)
+            332 LOAD_FAST                8 (freq)
+            334 LOAD_CONST              11 (4)
+            336 BINARY_OP                0 (+)
+            340 CALL                     1
+            348 LOAD_CONST               8 (127)
+            350 BINARY_OP                5 (*)
+            354 LOAD_CONST               9 (128)
+            356 BINARY_OP                0 (+)
+            360 CALL                     1
+            368 STORE_FAST              11 (b)
+
+ 45         370 LOAD_FAST                5 (output)
+            372 LOAD_CONST              12 ('\x1b[38;2;')
+            374 LOAD_FAST                9 (r)
+            376 FORMAT_VALUE             0
+            378 LOAD_CONST              13 (';')
+            380 LOAD_FAST               10 (g)
+            382 FORMAT_VALUE             0
+            384 LOAD_CONST              13 (';')
+            386 LOAD_FAST               11 (b)
+            388 FORMAT_VALUE             0
+            390 LOAD_CONST              14 ('m')
+            392 LOAD_FAST                7 (char)
+            394 FORMAT_VALUE             0
+            396 BUILD_STRING             8
+            398 BINARY_OP               13 (+=)
+            402 STORE_FAST               5 (output)
+
+ 49         404 LOAD_FAST                5 (output)
+            406 LOAD_CONST              15 (' ')
+            408 LOAD_GLOBAL              9 (NULL + int)
+            418 LOAD_FAST                1 (spacing)
+            420 CALL                     1
+            428 BINARY_OP                5 (*)
+            432 BINARY_OP               13 (+=)
+            436 STORE_FAST               5 (output)
+            438 JUMP_BACKWARD          163 (to 114)
+
+ 36     >>  440 END_FOR
+
+ 52         442 LOAD_GLOBAL              0 (sys)
+            452 LOAD_ATTR                2 (stdout)
+            472 LOAD_ATTR                5 (NULL|self + write)
+            492 LOAD_CONST              16 ('\r')
+            494 LOAD_FAST                5 (output)
+            496 FORMAT_VALUE             0
+            498 LOAD_CONST              17 ('\x1b[0m   ')
+            500 BUILD_STRING             3
+            502 CALL                     1
+            510 POP_TOP
+
+ 53         512 LOAD_GLOBAL              0 (sys)
+            522 LOAD_ATTR                2 (stdout)
+            542 LOAD_ATTR               15 (NULL|self + flush)
+            562 CALL                     0
+            570 POP_TOP
+
+ 56         572 LOAD_FAST                4 (t)
+            574 LOAD_FAST                2 (speed)
+            576 BINARY_OP               13 (+=)
+            580 STORE_FAST               4 (t)
+
+ 58         582 LOAD_GLOBAL             17 (NULL + time)
+            592 LOAD_ATTR               18 (sleep)
+            612 LOAD_CONST              18 (0.016)
+            614 CALL                     1
+            622 POP_TOP
+
+ 32         624 EXTENDED_ARG             1
+            626 JUMP_BACKWARD          270 (to 88)
+        >>  628 PUSH_EXC_INFO
+
+ 60         630 LOAD_GLOBAL             20 (KeyboardInterrupt)
+            640 CHECK_EXC_MATCH
+            642 POP_JUMP_IF_FALSE       34 (to 712)
+            644 POP_TOP
+
+ 61         646 LOAD_GLOBAL              0 (sys)
+            656 LOAD_ATTR                2 (stdout)
+            676 LOAD_ATTR                5 (NULL|self + write)
+            696 LOAD_CONST              19 ('\n\x1b[?25hĐã dừng.')
+            698 CALL                     1
+            706 POP_TOP
+            708 POP_EXCEPT
+            710 RETURN_CONST             0 (None)
+
+ 60     >>  712 RERAISE                  0
+        >>  714 COPY                     3
+            716 POP_EXCEPT
+            718 RERAISE                  1
+ExceptionTable:
+  86 to 626 -> 628 [0]
+  628 to 706 -> 714 [1] lasti
+  712 to 712 -> 714 [1] lasti

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 699c06a46ca1599050950670
+
+urls:
+  page: https://crackmes.one/crackme/699c06a46ca1599050950670
+  download: https://crackmes.one/download/crackme/699c06a46ca1599050950670
+
+title: "noname_User's Unbreakable Python? My Custom Obfuscation Engine"
+author_on_site: "noname_User"
+author_local: "noname_user"
+
+platform: "Windows"
+arch: "other"
+language: "Python"
+
+difficulty: 2.0
+quality: 4.0
+size: "5.95 KB"
+published: "2026-02-23"
+
+series_index: null
+local_slug: unbreakable-python
+
+binary:
+  path: "original/test.py"
+  name: "test.py"
+  sha256: "0617e6374673cb3cceba2406791d690141adcb71f695f40c9f163a634a3b6cda"
+  md5: "26452c220689677ed49e2f1d89f519b8"
+  size_bytes: 6092
+
+status: solved
+solution_summary: "zlib+b64 → Chaos VM HWID bypass (+0.222222) → RSA-like+XOR → marshal smooth_rgb_normal_text « noname »"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-23T07:22:10Z"

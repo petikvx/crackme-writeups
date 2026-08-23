@@ -149,6 +149,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [qerr0r](authors/qerr0r/README.md) | QERR0R | 1 (crackit) | 1 / 1 |
 | [steve_maxwell](authors/steve_maxwell/README.md) | steve_maxwell | 1 (X-0-R) | 1 / 1 |
 | [popacracker](authors/popacracker/README.md) | PopaCracker | 1 (Python CrackMe) | 1 / 1 |
+| [noname_user](authors/noname_user/README.md) | noname_User | 1 (Unbreakable Python?) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -166,6 +167,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-08-23 | [Unbreakable Python?](authors/noname_user/699c06a46ca1599050950670/) | noname_User |
 | 2026-08-23 | [Python CrackMe](authors/popacracker/62bb2f0933c5d4251e723a46/) | PopaCracker |
 | 2026-08-23 | [X-0-R](authors/steve_maxwell/6976041d9bf7b8997653a6cf/) | steve_maxwell |
 | 2026-08-23 | [crackit](authors/qerr0r/69a65b6c7a778cfffbfb680e/) | QERR0R |
