@@ -5,8 +5,17 @@ by_id:
     path: "authors/noname_user/699c06a46ca1599050950670/original/test.py"
     title: "noname_User's Unbreakable Python? My Custom Obfuscation Engine"
 
+  69a138ff7a778cfffbfb6797:
+    sha256: "e959b8c3ddeedf3be5ea6f67789c438820a61d52f932c6b858459b98a1b18aca"
+    path: "authors/noname_user/69a138ff7a778cfffbfb6797/original/test_protect.py"
+    title: "noname_User's Test my obf. PLS"
+
 by_sha256:
   0617e6374673cb3cceba2406791d690141adcb71f695f40c9f163a634a3b6cda:
     id: 699c06a46ca1599050950670
     path: "authors/noname_user/699c06a46ca1599050950670/original/test.py"
     page: https://crackmes.one/crackme/699c06a46ca1599050950670
+  e959b8c3ddeedf3be5ea6f67789c438820a61d52f932c6b858459b98a1b18aca:
+    id: 69a138ff7a778cfffbfb6797
+    path: "authors/noname_user/69a138ff7a778cfffbfb6797/original/test_protect.py"
+    page: https://crackmes.one/crackme/69a138ff7a778cfffbfb6797

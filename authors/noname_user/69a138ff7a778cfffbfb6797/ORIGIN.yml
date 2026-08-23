@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69a138ff7a778cfffbfb6797
+
+urls:
+  page: https://crackmes.one/crackme/69a138ff7a778cfffbfb6797
+  download: https://crackmes.one/download/crackme/69a138ff7a778cfffbfb6797
+
+title: "noname_User's Test my obf. PLS"
+author_on_site: "noname_User"
+author_local: "noname_user"
+
+platform: "Windows"
+arch: "x86"
+language: "Python"
+
+difficulty: 3.0
+quality: 2.5
+size: ""
+published: null
+
+series_index: null
+local_slug: test-my-obf
+
+binary:
+  path: "original/test_protect.py"
+  name: "test_protect.py"
+  sha256: "e959b8c3ddeedf3be5ea6f67789c438820a61d52f932c6b858459b98a1b18aca"
+  md5: "6fc7c69bdb08f82176cc33e3281aaf4d"
+  size_bytes: 1772
+
+status: solved
+solution_summary: "b85+XOR+zlib+marshal → RGB text hello"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-23T07:31:42Z"
