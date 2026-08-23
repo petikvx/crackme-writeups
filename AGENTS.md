@@ -164,10 +164,26 @@ Exceptions seulement si la contrainte du binaire **interdit** `petik` (longueur 
 - Préférer **objdump / strings / Python** + **Wine** pour la preuve live console.
 - `.NET` : `ilspycmd` → idéalement `original/source/` ; documenter dans le write-up.
 - MessageBox Wine : parfois `hWnd` invalide → recon avec `hWnd=NULL` si besoin (cas déjà vus timotei).
+- Dumps C/asm : `decc` / `decasm` (hôte) si dispo ; sinon export IDA Hex-Rays vers `analysis/` (ex. `*-hexrays.c`).
 
 ### Analyse ELF
 
 - Native Linux : `file`, `readelf`, `objdump`, `gdb`, NASM/FASM pour recon.
+
+### Python / PyInstaller
+
+Quand `file` / DIE annonce **PyInstaller** (ou un « python frozen » PE/ELF) :
+
+1. Extraire avec l’outil partagé du dépôt :
+   ```bash
+   python3 tools/pyinstxtractor.py path/to/original/<exe>
+   # sortie typique : <exe>_extracted/ (pyc, PYZ, manifest…)
+   ```
+   Garder l’extrait sous `analysis/` (ne pas polluer `original/`).
+2. Décompiler les `.pyc` (ex. `pycdc` / `decompyle3` / `uncompyle6` selon dispo) → idéalement `original/source/` ou `analysis/source/`.
+3. Reverse / solveur comme d’habitude ; preuve live = binaire d’origine (Wine ou native).
+
+`tools/pyinstxtractor.py` = utilitaire **repo-wide** (pas un solveur de challenge). Les solveurs restent dans `authors/<slug>/<id>/tools/`.
 
 ### Ce qu’il ne faut pas faire
 
