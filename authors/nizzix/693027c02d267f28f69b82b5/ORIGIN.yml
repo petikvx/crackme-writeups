@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 693027c02d267f28f69b82b5
+
+urls:
+  page: https://crackmes.one/crackme/693027c02d267f28f69b82b5
+  download: https://crackmes.one/download/crackme/693027c02d267f28f69b82b5
+
+title: "Nizzix's Ageis crackme :3"
+author_on_site: "Nizzix"
+author_local: "nizzix"
+
+platform: "Windows"
+arch: "x86-64"
+language: "Python"
+
+difficulty: 5.0
+quality: 4.0
+size: ""
+published: null
+
+series_index: null
+local_slug: ageis
+
+binary:
+  path: "original/x.pyc"
+  name: "x.pyc"
+  sha256: "4029dd8f7b2bdea3f41fb505543a486e83cfe27c3055ba4ff2c41fb8b68129f3"
+  md5: "c54c0fc93965ce2e091dac086077c9ae"
+  size_bytes: 401502
+
+status: solved
+solution_summary: "pyc 3.13 nizzix obf → password OsBuiltinsPass"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-23T07:33:21Z"

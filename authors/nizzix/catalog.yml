@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  693027c02d267f28f69b82b5:
+    sha256: "4029dd8f7b2bdea3f41fb505543a486e83cfe27c3055ba4ff2c41fb8b68129f3"
+    path: "authors/nizzix/693027c02d267f28f69b82b5/original/x.pyc"
+    title: "Nizzix's Ageis crackme :3"
+
+by_sha256:
+  4029dd8f7b2bdea3f41fb505543a486e83cfe27c3055ba4ff2c41fb8b68129f3:
+    id: 693027c02d267f28f69b82b5
+    path: "authors/nizzix/693027c02d267f28f69b82b5/original/x.pyc"
+    page: https://crackmes.one/crackme/693027c02d267f28f69b82b5
