@@ -1,0 +1,27 @@
+# shism keygenme 0.1 — notes (solved)
+
+## UI
+- Username length 5..7 (messages) ; code compare len<=10 puis >=5
+- Serial field + GO!
+- OK: "Congratulations, now make a keygen"
+- Bad: "Nice try HAHAHA loser"
+
+## Prédicat
+```
+serial = Asc(StrReverse(username)[0]) XOR CInt(ZastitaArray(1))
+       = Asc(username[-1]) XOR key
+```
+
+Zastita (`sub_110031D0` / RC5-like + Rnd) reseed avec GetTickCount à chaque clic
+→ key non stable sur le PE stock.
+
+## Graine fixe (solveur)
+- Patch stub GetTickCount @ 0x110020F8 : `mov eax, 0x12345678; ret`
+- key observée (dump mem après FpI4) : **0x2AA192C8**
+- petik → 107 XOR key = **715231907**
+
+## Artifacts
+- original/SKeygen.exe.asm
+- analysis/SKeygen-fixedseed.exe / SKeygen-verify.exe (non nécessaires au solveur)
+- analysis/source/*.i64.c
+- analysis/verify-result.txt

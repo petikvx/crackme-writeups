@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6633c5d40ad448cc29
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6633c5d40ad448cc29
+  download: https://crackmes.one/download/crackme/5ab77f6633c5d40ad448cc29
+
+title: "crackmes.de's shisms_keygenme_0.1 by shism"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Visual Basic 6"
+
+difficulty: 1
+quality: null
+size: ""
+published: "2005-11-20"
+
+series_index: null
+local_slug: shism-keygenme-0.1
+
+binary:
+  path: "original/SKeygen.exe"
+  name: "SKeygen.exe"
+  sha256: "40a07c23675750ec9c0d313217f0c4b1b23fdd6cee5ae72c0e46a0b38974e24c"
+  md5: null
+  size_bytes: 32768
+
+status: solved
+solution_summary: "Asc(last) XOR ZastitaKey; stock reseeds GetTickCount each click; fixed seed 0x12345678 → key 0x2AA192C8, petik→715231907"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-23T07:53:36Z"

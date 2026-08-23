@@ -1,0 +1,1 @@
+KEY=0x2aa192c8 SERIAL_petik=715231907 dump_match=1 seed_GetTickCount=0x12345678

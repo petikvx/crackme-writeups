@@ -187,8 +187,8 @@ by_id:
     title: "crackmes.de's crackmenx2final.exe by arthi"
 
   5ab77f6633c5d40ad448cc29:
-    sha256: "1bf9f0e38c6796b92a32e7fd413cf66a6c93850dd7eaa1f73d58fe8f0748741e"
-    path: "authors/crackmes-de/5ab77f6633c5d40ad448cc29/original/SKeygen.zip"
+    sha256: "40a07c23675750ec9c0d313217f0c4b1b23fdd6cee5ae72c0e46a0b38974e24c"
+    path: "authors/crackmes-de/5ab77f6633c5d40ad448cc29/original/SKeygen.exe"
     title: "crackmes.de's shisms_keygenme_0.1 by shism"
 
   5ab77f6633c5d40ad448cc22:
@@ -353,6 +353,10 @@ by_sha256:
   1bf9f0e38c6796b92a32e7fd413cf66a6c93850dd7eaa1f73d58fe8f0748741e:
     id: 5ab77f6633c5d40ad448cc29
     path: "authors/crackmes-de/5ab77f6633c5d40ad448cc29/original/SKeygen.zip"
+    page: https://crackmes.one/crackme/5ab77f6633c5d40ad448cc29
+  40a07c23675750ec9c0d313217f0c4b1b23fdd6cee5ae72c0e46a0b38974e24c:
+    id: 5ab77f6633c5d40ad448cc29
+    path: "authors/crackmes-de/5ab77f6633c5d40ad448cc29/original/SKeygen.exe"
     page: https://crackmes.one/crackme/5ab77f6633c5d40ad448cc29
   ef7f30d477d55ccd90712a511804c3b94b2d7396c525f8288c5e05def2d6572e:
     id: 5ab77f6633c5d40ad448cc22

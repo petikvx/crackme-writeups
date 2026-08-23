@@ -50,6 +50,7 @@ Série **rezk2ll** (NASM) importée depuis crackmes.de.
 | 36 | [keygencrackme_1 by zyen](5ab77f6633c5d40ad448cc6a/) | zyen | Win PE32 VB6 | serial **`3610`** (19²×10) |
 
 | 37 | [crackmenx2final by arthi](5ab77f6633c5d40ad448cc2b/) | arthi | Win PE32 VB6 FSG | password **`havingfunyet`** |
+| 38 | [shisms_keygenme_0.1](5ab77f6633c5d40ad448cc29/) | shism | Win PE32 VB6 Zastita | keygen `petik`→**`715231907`** (graine fixe) |
 
 ## Mis de côté (PARKED — y revenir)
 
