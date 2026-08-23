@@ -151,6 +151,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [popacracker](authors/popacracker/README.md) | PopaCracker | 1 (Python CrackMe) | 1 / 1 |
 | [noname_user](authors/noname_user/README.md) | noname_User | 2 | 2 / 2 |
 | [nizzix](authors/nizzix/README.md) | Nizzix | 1 (Ageis) | 1 / 1 |
+| [thefakeking](authors/thefakeking/README.md) | TheFakeKing | 1 (Basic ConsoleBased) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -168,6 +169,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-08-23 | [Basic Crackme ConsoleBased](authors/thefakeking/6492036733c5d43938913a58/) | TheFakeKing |
 | 2026-08-23 | [Ageis crackme :3](authors/nizzix/693027c02d267f28f69b82b5/) | Nizzix |
 | 2026-08-23 | [Test my obf. PLS](authors/noname_user/69a138ff7a778cfffbfb6797/) | noname_User |
 | 2026-08-23 | [crackme_0x01_by_qfqe](authors/crackmes-de/5ab77f6033c5d40ad448c8a4/) | crackmes.de / qfqe |

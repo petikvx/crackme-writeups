@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6492036733c5d43938913a58
+
+urls:
+  page: https://crackmes.one/crackme/6492036733c5d43938913a58
+  download: https://crackmes.one/download/crackme/6492036733c5d43938913a58
+
+title: "TheFakeKing's Basic Crackme ConsoleBased"
+author_on_site: "TheFakeKing"
+author_local: "thefakeking"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 1.0
+quality: 2.4
+size: ""
+published: null
+
+series_index: null
+local_slug: basic-console
+
+binary:
+  path: "original/Main.exe"
+  name: "Main.exe"
+  sha256: "04bc8966c9887b53d3967fdde5da9431f5095c875945a59b042cb97ad4978c7e"
+  md5: "f38d9e70bbfbc6f11463990469cacccc"
+  size_bytes: 3276393
+
+status: solved
+solution_summary: "plaintext password ErhwHwrhrwWhrwwHwhr (GetPassword / .rdata)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-23T07:48:50Z"

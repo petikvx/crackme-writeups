@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6492036733c5d43938913a58:
+    sha256: "04bc8966c9887b53d3967fdde5da9431f5095c875945a59b042cb97ad4978c7e"
+    path: "authors/thefakeking/6492036733c5d43938913a58/original/Main.exe"
+    title: "TheFakeKing's Basic Crackme ConsoleBased"
+
+by_sha256:
+  04bc8966c9887b53d3967fdde5da9431f5095c875945a59b042cb97ad4978c7e:
+    id: 6492036733c5d43938913a58
+    path: "authors/thefakeking/6492036733c5d43938913a58/original/Main.exe"
+    page: https://crackmes.one/crackme/6492036733c5d43938913a58
