@@ -1,0 +1,2 @@
+PyInstaller / CPython 3.14 ELF64.
+Entry crackit.pyc: parts tuple joined → CTF{My_S3cr3t_Fl4g}WoWYouFoundMe

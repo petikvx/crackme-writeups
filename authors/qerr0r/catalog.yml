@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69a65b6c7a778cfffbfb680e:
+    sha256: "c17a56fe9caf1c9105212f8b4c72b9d7b998f3b862521e8a1235b532a97e5cd8"
+    path: "authors/qerr0r/69a65b6c7a778cfffbfb680e/original/crackit"
+    title: "QERR0R's crackit"
+
+by_sha256:
+  c17a56fe9caf1c9105212f8b4c72b9d7b998f3b862521e8a1235b532a97e5cd8:
+    id: 69a65b6c7a778cfffbfb680e
+    path: "authors/qerr0r/69a65b6c7a778cfffbfb680e/original/crackit"
+    page: https://crackmes.one/crackme/69a65b6c7a778cfffbfb680e

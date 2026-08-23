@@ -146,6 +146,8 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
 | [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 32 / 30+ |
 | [chaltu](authors/chaltu/README.md) | chaltu | 1 (a Treasure) | 1 / 1 |
+| [qerr0r](authors/qerr0r/README.md) | QERR0R | 1 (crackit) | 1 / 1 |
+| [steve_maxwell](authors/steve_maxwell/README.md) | steve_maxwell | 1 (X-0-R) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -163,6 +165,8 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-08-23 | [X-0-R](authors/steve_maxwell/6976041d9bf7b8997653a6cf/) | steve_maxwell |
+| 2026-08-23 | [crackit](authors/qerr0r/69a65b6c7a778cfffbfb680e/) | QERR0R |
 | 2026-08-23 | [a Treasure](authors/chaltu/6a4014135f26f108ba18ba0b/) | chaltu |
 | 2026-08-23 | [crackme_1_by_amnon](authors/crackmes-de/5ab77f5333c5d40ad448c10f/) | crackmes.de / amnon |
 | 2026-08-22 | [keygenme_1](authors/crackmes-de/5ab77f5f33c5d40ad448c7f5/) | crackmes.de / cauchy_htb |

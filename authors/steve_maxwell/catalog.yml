@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6976041d9bf7b8997653a6cf:
+    sha256: "d19b2a2b9d63fb1895e32a221259cc39ffe1196c7eccc06ba454fcf0beb29835"
+    path: "authors/steve_maxwell/6976041d9bf7b8997653a6cf/original/chall.zip"
+    title: "steve_maxwell's X"
+
+by_sha256:
+  d19b2a2b9d63fb1895e32a221259cc39ffe1196c7eccc06ba454fcf0beb29835:
+    id: 6976041d9bf7b8997653a6cf
+    path: "authors/steve_maxwell/6976041d9bf7b8997653a6cf/original/chall.zip"
+    page: https://crackmes.one/crackme/6976041d9bf7b8997653a6cf

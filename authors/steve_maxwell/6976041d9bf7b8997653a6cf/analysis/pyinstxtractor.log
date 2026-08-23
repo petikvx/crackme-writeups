@@ -1,0 +1,14 @@
+[+] Processing /home/petik/Downloads/virusshare/crackme-writeups/authors/steve_maxwell/6976041d9bf7b8997653a6cf/original/_u/challenge/chall
+[+] Pyinstaller version: 2.1+
+[+] Python version: 3.8
+[+] Length of package: 4961951 bytes
+[+] Found 26 files in CArchive
+[+] Beginning extraction...please standby
+[+] Possible entry point: pyiboot01_bootstrap.pyc
+[+] Possible entry point: chall.pyc
+[!] Warning: This script is running in a different Python version than the one used to build the executable.
+[!] Please run this script in Python 3.8 to prevent extraction errors during unmarshalling
+[!] Skipping pyz extraction
+[+] Successfully extracted pyinstaller archive: /home/petik/Downloads/virusshare/crackme-writeups/authors/steve_maxwell/6976041d9bf7b8997653a6cf/original/_u/challenge/chall
+
+You can now use a python decompiler on the pyc files within the extracted directory

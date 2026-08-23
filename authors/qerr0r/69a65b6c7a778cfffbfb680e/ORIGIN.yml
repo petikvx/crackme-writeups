@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69a65b6c7a778cfffbfb680e
+
+urls:
+  page: https://crackmes.one/crackme/69a65b6c7a778cfffbfb680e
+  download: https://crackmes.one/download/crackme/69a65b6c7a778cfffbfb680e
+
+title: "QERR0R's crackit"
+author_on_site: "QERR0R"
+author_local: "qerr0r"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "Python"
+
+difficulty: 2.5
+quality: 4.0
+size: ""
+published: null
+
+series_index: null
+local_slug: crackit
+
+binary:
+  path: "original/crackit"
+  name: "crackit"
+  sha256: "c17a56fe9caf1c9105212f8b4c72b9d7b998f3b862521e8a1235b532a97e5cd8"
+  md5: "fe1135b4c704815230f1be1afbf287a6"
+  size_bytes: 8847408
+
+status: solved
+solution_summary: "PyInstaller → join(parts) → CTF{My_S3cr3t_Fl4g}WoWYouFoundMe"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-23T07:15:07Z"

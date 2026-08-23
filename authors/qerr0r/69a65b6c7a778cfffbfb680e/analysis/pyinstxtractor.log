@@ -1,0 +1,15 @@
+[+] Processing /home/petik/Downloads/virusshare/crackme-writeups/authors/qerr0r/69a65b6c7a778cfffbfb680e/original/crackit
+[+] Pyinstaller version: 2.1+
+[+] Python version: 3.14
+[+] Length of package: 8783119 bytes
+[+] Found 54 files in CArchive
+[+] Beginning extraction...please standby
+[+] Possible entry point: pyiboot01_bootstrap.pyc
+[+] Possible entry point: pyi_rth_inspect.pyc
+[+] Possible entry point: crackit.pyc
+[!] Warning: This script is running in a different Python version than the one used to build the executable.
+[!] Please run this script in Python 3.14 to prevent extraction errors during unmarshalling
+[!] Skipping pyz extraction
+[+] Successfully extracted pyinstaller archive: /home/petik/Downloads/virusshare/crackme-writeups/authors/qerr0r/69a65b6c7a778cfffbfb680e/original/crackit
+
+You can now use a python decompiler on the pyc files within the extracted directory

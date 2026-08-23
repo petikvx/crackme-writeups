@@ -1,0 +1,3 @@
+PyInstaller / CPython 3.8 ELF64 `chall` + `flag.txt.enc`.
+Description: constant XOR. Known plaintext CTFLearn{ → key=7.
+Plain: CTFLearn{y0u_x0r3d_th3_c0d3}
