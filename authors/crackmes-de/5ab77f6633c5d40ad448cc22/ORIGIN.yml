@@ -1,0 +1,37 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6633c5d40ad448cc22
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6633c5d40ad448cc22
+  download: https://crackmes.one/download/crackme/5ab77f6633c5d40ad448cc22
+
+title: "crackmes.de's crackme by twist"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "(Visual) Basic"
+
+difficulty: 1.0
+quality: 3.0
+size: ""
+published: null
+
+series_index: null
+local_slug: twist-crackme
+
+binary:
+  path: "original/Crackme.exe"
+  name: "Crackme.exe"
+  sha256: "8073f0ba31badfae075a31a5ee64dbe7ff227304c779a67ee4113cadc6973b94"
+  md5: "2040c5f010bafcfc772cdd327c5272ca"
+  size_bytes: 512000
+
+
+status: solved
+solution_summary: "keygen petik→ Str(Asc(L)*Asc(R)/Asc(Mid3)) =  103.3103448275862"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-23T07:53:38Z"
