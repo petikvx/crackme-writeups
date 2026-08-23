@@ -1,0 +1,37 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6633c5d40ad448cc2b
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6633c5d40ad448cc2b
+  download: https://crackmes.one/download/crackme/5ab77f6633c5d40ad448cc2b
+
+title: "crackmes.de's crackmenx2final.exe by arthi"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "(Visual) Basic"
+
+difficulty: 1.0
+quality: 3.0
+size: ""
+published: null
+
+series_index: null
+local_slug: arthi-nx2
+
+binary:
+  path: "original/CrackmeNX2Final.exe"
+  name: "CrackmeNX2Final.exe"
+  sha256: "fdfb1ab3b24192d7e10df46bdff0586959eea234c7d90112c8ee5ee9c645a8df"
+  md5: "1ed2a1b57d137f6e90e2b2e227f81a8f"
+  size_bytes: 12825
+
+
+status: solved
+solution_summary: "FSG unpack; subst alphabet → password havingfunyet"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-23T07:53:34Z"
