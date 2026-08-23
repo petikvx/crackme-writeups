@@ -1,23 +1,36 @@
 RC6-32/20 decrypt of 16-byte CT at VA 0x4030CF.
 CT: c59f1ee93bec2739c442e7d9f3a3aa8c
-Key = 16 bytes from edit (GetDlgItemText id 0x3EB → buf 0x403112).
-TESTKEY / gISL79UlXonU / OLLYDBG = red herrings (anti-olly + dead strings).
+Key = GetDlgItemText id 1003 (0x3EB) → String@0x403112 (max 30); schedule always len=0x10.
 
-Key schedule (emulated): non-standard init
-  S[0]=0 (ecx after FindWindow path)
-  eax0 = 0x402099 ^ dword[0x401009]  (=0x402099^0x243f6a88)
-  then S[i]=eax0+i*0x8F3665C7 for i=1..43
-  then classic RC6 mixing (132 iters) with user key as L[]
-Decrypt matches Rivest RC6-32/20 (NESSIE zero-TV last dword 9848a41e).
+IDA Hex-Rays (analysis/bugger-hexrays.c + original/%s%s.exe.i64):
+  sub_4034B8 = key schedule; sub_403425 = decrypt (HR garbled on xchg/esp)
+  dword_401009[0] = 608135816 = 0x243F6A88
+  Q' decompiled as "v5 -= 1892260409" (= add 0x8F3665C7 as signed)
+  HR note: v4/ecx "possibly undefined" after RtlMoveMemory — matches asm
+  Flow: anti-debug → FindWindow OLLYDBG → schedule → decrypt Text → MessageBox
 
-Hints (crackme.txt): outside the box / shell / dormant / wake me up
-→ MessageBox body must be readable English; caption always "You did it!".
+Schedule (Unicorn-verified vs PE):
+  RtlMoveMemory(0x402099, 0x401051, 0x1000)
+  Intent ecx=0 (XP rep movsb); Wine leaves ecx=dest+size (would AV) — force 0
+  eax0 = 0x402099 ^ dword[0x401009] = 0x247f4a11
+  [0x402051]=eax0; S[0]=ecx=0; S[i]=eax0+i*Q' (i=1..43); mix 132 iters
+Decrypt: final B-=S[0], D-=S[1] (swapped vs Rivest wiki). Unicorn MATCH.
 
-Tried: unicorn schedule + brute len≤4 [a-z0-9], dict words (std+mod Q),
-hint phrases — no full printable English PT yet.
+Hints: outside the box / shell / dormant / wake me up
+  MessageBox caption always "You did it!"; body = decrypted CT (want English)
+  Dormant: "abcdefgh\\0"@401000; blob@401051 size 0x1000 → 402099; never CALL'd
 
-Likely remaining: correct key not in small charset; or ecx/eax0
-differ on live path; or secret is also the encrypted .text stub
-("abcdefgh"…) as dormant shellcode.
+Tried (no verified English PT yet):
+  rockyou 14M; alnum len≤6 (running); punct len≤4; ecx index 0..17; alt eax0
+  hint phrases; dorm RC6/RC4/XOR/XTEA/zlib; printable∩dorm-as-code
+False "ENG" hits exist (space but not English), e.g. c5vedc / 2/8f
 
-Status: pending (key unknown).
+alnum len<=6 DONE (~2.2e9): 18 weak hits, none real English.
+Status: BLOCKED on key / dorm wake algo. Crypto path solid.
+
+Also negative (2026-08-23):
+  - standard Rivest final (B-=S1,D-=S0) + custom S: rockyou+alnum≤5 = 0
+  - vanilla RC6 P/Q: rockyou = 0
+  - eax0 = size^P0 / src^P0: alnum≤5 strong filter = 0
+  - hint-word combos ~72k = 0
+  - tools/bugger-v7-rc6.py = verified offline decrypt helper

@@ -1,0 +1,34 @@
+Meloquynthe (YoLeJedi & ++Meat, 2006) — notes (WIP, NOT solved)
+
+Unpacked: analysis/Meloquynthe.unpacked.exe (system upx -d; keep original/_u/Meloquynthe.exe packed)
+SHA-256 unpacked: dabe88e5205f69a665cd6d9a634bedf08dfe3bb17a59daa116ca657ac893ec0d
+
+PE layout
+- ImageBase 0x400000, EP 0x7fe013 → push 0; jmp 0x406e4a (GetModuleHandle) → GUI init
+- Tiny .text = IAT thunks + winmm/gdi helpers (wave + dib)
+- Huge custom section Melo_5te @ 0x405000: code+png+strings, pervasive E9 jmp spaghetti
+- Resources: BITMAP/100 (UI skin ~417KB), ICON, RCDATA "RANGE" = window region polygon (SetWindowRgn), NOT crypto
+
+UI (Wine live OK)
+- Title: "Meloquynthe - Yolejedi & ++Meat" 376x370 shaped window
+- Custom class MBmp_Button_Class_meatkraft ids 507–511 (0x1FB–0x1FF) = frog feet (animations only)
+- Statics 500–506, 512–514 = frog parts / labels
+- NO Win32 EDIT controls — name/serial are custom bitmap-font fields
+- Typing works (click underline ~client (180,168) name / (180,198) serial) via keybd_event
+- Success path is NOT MessageBoxA (only audio-device error string at 0x83ad4f)
+
+WndProc
+- Main WndProc 0x6162be: WM_COMMAND 0x111, WM_TIMER 0x113, WM_LBUTTONDOWN, IDs 0x4CE/0x4CF/0x4D0/0x4D2 (UI)
+- Button WndProc 0x4f2e6d: only 0x201/0x202 then DefWindowProc
+- No clear WM_CHAR handler found in deobfuscated BFS
+
+Blockers for name→serial
+- Jump obfuscation defeats naive linear listing; need path-sensitive / dynamic
+- Typed text not stored as clear ASCII in image (0x400000–0x900000); likely glyph indices or off-image DIB/heap
+- Validation trigger unknown (no obvious Check button; feet are cosmetic)
+- Helpers: analysis/fill.exe, enum_child.exe, memscan*.exe, screenshots screenshot-*.png
+
+Next steps
+1. Hardware BP on paint/blit of serial field or on buffer write while typing under Olly/x64dbg/Wine+gdb with ptrace
+2. Find buffer then xref algorithm (likely still in Melo_5te behind jmp cloud)
+3. Keygen tools/meloquynthe-solve.py once predicate known
