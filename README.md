@@ -144,7 +144,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [oguzbey](authors/oguzbey/README.md) | oguzbey | 1 (Lucky Numbers) | 1 / 1 |
 | [andrewl](authors/andrewl/README.md) | andrewl | 1 (Quick Crypto) | 1 / 1 |
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
-| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 32 / 30+ |
+| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 33 / 30+ |
 | [chaltu](authors/chaltu/README.md) | chaltu | 1 (a Treasure) | 1 / 1 |
 | [qerr0r](authors/qerr0r/README.md) | QERR0R | 1 (crackit) | 1 / 1 |
 | [steve_maxwell](authors/steve_maxwell/README.md) | steve_maxwell | 1 (X-0-R) | 1 / 1 |
@@ -167,6 +167,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-08-23 | [crackme_0x01_by_qfqe](authors/crackmes-de/5ab77f6033c5d40ad448c8a4/) | crackmes.de / qfqe |
 | 2026-08-23 | [Unbreakable Python?](authors/noname_user/699c06a46ca1599050950670/) | noname_User |
 | 2026-08-23 | [Python CrackMe](authors/popacracker/62bb2f0933c5d4251e723a46/) | PopaCracker |
 | 2026-08-23 | [X-0-R](authors/steve_maxwell/6976041d9bf7b8997653a6cf/) | steve_maxwell |

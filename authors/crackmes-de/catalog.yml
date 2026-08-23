@@ -170,6 +170,12 @@ by_id:
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c10f/original/Crackme_1.by.Amnon.HTBTeam.zip"
     title: "crackmes.de's crackme_1_by_amnon by amnon"
 
+  5ab77f6033c5d40ad448c8a4:
+    sha256: "7cef11dd48439046cf2f56ade0a4e5da9cfb39c9e0814338926c54d854bec085"
+    path: "authors/crackmes-de/5ab77f6033c5d40ad448c8a4/original/crkm0x1.exe"
+    title: "crackme_0x01_by_qfqe by qfqe"
+    title: "crackmes.de's crackme_0x01_by_qfqe by qfqe"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -307,3 +313,7 @@ by_sha256:
     id: 5ab77f5333c5d40ad448c10f
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c10f/original/Crackme_1.by.Amnon.HTBTeam.zip"
     page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c10f
+  7cef11dd48439046cf2f56ade0a4e5da9cfb39c9e0814338926c54d854bec085:
+    id: 5ab77f6033c5d40ad448c8a4
+    path: "authors/crackmes-de/5ab77f6033c5d40ad448c8a4/original/crkm0x1.exe"
+    page: https://crackmes.one/crackme/5ab77f6033c5d40ad448c8a4

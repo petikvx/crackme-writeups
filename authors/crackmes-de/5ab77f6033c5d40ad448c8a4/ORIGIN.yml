@@ -1,0 +1,37 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6033c5d40ad448c8a4
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6033c5d40ad448c8a4
+  download: https://crackmes.one/download/crackme/5ab77f6033c5d40ad448c8a4
+
+title: "crackmes.de's crackme_0x01_by_qfqe by qfqe"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Python"
+
+difficulty: 2.0
+quality: 3.0
+size: ""
+published: null
+
+series_index: null
+local_slug: qfqe-0x01
+
+binary:
+  path: "original/crkm0x1.exe"
+  name: "crkm0x1.exe"
+  sha256: "7cef11dd48439046cf2f56ade0a4e5da9cfb39c9e0814338926c54d854bec085"
+  md5: "b022c65ca42834502ee44495b9d39ff3"
+  size_bytes: 2888773
+
+
+status: solved
+solution_summary: "py2exe PYTHONSCRIPT: serial XOR 0x90 → qeavG1ZX"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-23T07:28:40Z"
