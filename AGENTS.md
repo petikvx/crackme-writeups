@@ -63,10 +63,21 @@ diec original/* 2>/dev/null | head
 strings -n 6 original/* | head -80
 # PE : objdump -d -M intel, wine (console), ilspycmd si .NET
 # ELF : readelf, objdump, gdb
+# PyInstaller (PE/ELF « python ») : voir § Python / PyInstaller ci-dessous
 ```
 
 Identifier : plateforme, arch, compiler, UI (console / GUI), type de prédicat  
 (serial, maze, HWID, mini-VM, quiz…).
+
+Si besoin de **sources lisibles** du binaire (hors Python) :
+
+```bash
+# Outils hôte (si présents dans le PATH) — dumps Hex-Rays / asm
+decc   original/<binaire>   # → souvent .c  (garder sous analysis/ ou original/source/)
+decasm original/<binaire>   # → souvent .asm
+```
+
+Documenter la commande dans le write-up ; ne pas écraser `original/` patché.
 
 ### 2. Reverse jusqu’à une réponse vérifiable
 
