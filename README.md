@@ -148,6 +148,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [chaltu](authors/chaltu/README.md) | chaltu | 1 (a Treasure) | 1 / 1 |
 | [qerr0r](authors/qerr0r/README.md) | QERR0R | 1 (crackit) | 1 / 1 |
 | [steve_maxwell](authors/steve_maxwell/README.md) | steve_maxwell | 1 (X-0-R) | 1 / 1 |
+| [popacracker](authors/popacracker/README.md) | PopaCracker | 1 (Python CrackMe) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -165,6 +166,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-08-23 | [Python CrackMe](authors/popacracker/62bb2f0933c5d4251e723a46/) | PopaCracker |
 | 2026-08-23 | [X-0-R](authors/steve_maxwell/6976041d9bf7b8997653a6cf/) | steve_maxwell |
 | 2026-08-23 | [crackit](authors/qerr0r/69a65b6c7a778cfffbfb680e/) | QERR0R |
 | 2026-08-23 | [a Treasure](authors/chaltu/6a4014135f26f108ba18ba0b/) | chaltu |

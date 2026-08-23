@@ -1,0 +1,15 @@
+[+] Processing /home/petik/Downloads/virusshare/crackme-writeups/authors/popacracker/62bb2f0933c5d4251e723a46/original/CrackTool.exe
+[+] Pyinstaller version: 2.1+
+[+] Python version: 3.7
+[+] Length of package: 3091678 bytes
+[+] Found 53 files in CArchive
+[+] Beginning extraction...please standby
+[+] Possible entry point: pyiboot01_bootstrap.pyc
+[+] Possible entry point: pyi_rth_subprocess.pyc
+[+] Possible entry point: CrackTool.pyc
+[!] Warning: This script is running in a different Python version than the one used to build the executable.
+[!] Please run this script in Python 3.7 to prevent extraction errors during unmarshalling
+[!] Skipping pyz extraction
+[+] Successfully extracted pyinstaller archive: /home/petik/Downloads/virusshare/crackme-writeups/authors/popacracker/62bb2f0933c5d4251e723a46/original/CrackTool.exe
+
+You can now use a python decompiler on the pyc files within the extracted directory

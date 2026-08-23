@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 62bb2f0933c5d4251e723a46
+
+urls:
+  page: https://crackmes.one/crackme/62bb2f0933c5d4251e723a46
+  download: https://crackmes.one/download/crackme/62bb2f0933c5d4251e723a46
+
+title: "PopaCracker's Python CrackMe"
+author_on_site: "PopaCracker"
+author_local: "popacracker"
+
+platform: "Windows"
+arch: "x86"
+language: "Python"
+
+difficulty: 1.3
+quality: 3.8
+size: ""
+published: null
+
+series_index: null
+local_slug: python-crackme
+
+binary:
+  path: "original/CrackTool.exe"
+  name: "CrackTool.exe"
+  sha256: "9d24106ecf0975d2aaff99b66f897f549ddc2e75fc246062573aacdb91df9ecf"
+  md5: "c0fce93ec1b9e7c22ce99ac6d1027bbe"
+  size_bytes: 3372254
+
+status: solved
+solution_summary: "petik + password YouSuccCracked (PyInstaller Pass const)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-23T07:20:33Z"

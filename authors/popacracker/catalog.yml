@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  62bb2f0933c5d4251e723a46:
+    sha256: "9d24106ecf0975d2aaff99b66f897f549ddc2e75fc246062573aacdb91df9ecf"
+    path: "authors/popacracker/62bb2f0933c5d4251e723a46/original/CrackTool.exe"
+    title: "PopaCracker's Python CrackMe"
+
+by_sha256:
+  9d24106ecf0975d2aaff99b66f897f549ddc2e75fc246062573aacdb91df9ecf:
+    id: 62bb2f0933c5d4251e723a46
+    path: "authors/popacracker/62bb2f0933c5d4251e723a46/original/CrackTool.exe"
+    page: https://crackmes.one/crackme/62bb2f0933c5d4251e723a46

@@ -1,0 +1,3 @@
+PyInstaller / CPython 3.7 PE32 console.
+Pass = "YouSuccCracked" ; option 1 Register ; name free (petik).
+exit() used without import → NameError après le message OK/KO.
