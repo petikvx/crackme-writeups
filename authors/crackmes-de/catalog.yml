@@ -176,6 +176,31 @@ by_id:
     title: "crackme_0x01_by_qfqe by qfqe"
     title: "crackmes.de's crackme_0x01_by_qfqe by qfqe"
 
+  5ab77f6633c5d40ad448cc6a:
+    sha256: "7467374ead57a7064f5b78b4e08e041652ac0b0a8fcf2f833d57399bacfe3f39"
+    path: "authors/crackmes-de/5ab77f6633c5d40ad448cc6a/original/KgeME.zip"
+    title: "crackmes.de's keygencrackme_1 by zyen"
+
+  5ab77f6633c5d40ad448cc2b:
+    sha256: "a44993819630ff4e25ab8039d50ad46730dcf4b1ac20db916c2b83e179bf298c"
+    path: "authors/crackmes-de/5ab77f6633c5d40ad448cc2b/original/CrackmeNX2Final.exe.zip"
+    title: "crackmes.de's crackmenx2final.exe by arthi"
+
+  5ab77f6633c5d40ad448cc29:
+    sha256: "1bf9f0e38c6796b92a32e7fd413cf66a6c93850dd7eaa1f73d58fe8f0748741e"
+    path: "authors/crackmes-de/5ab77f6633c5d40ad448cc29/original/SKeygen.zip"
+    title: "crackmes.de's shisms_keygenme_0.1 by shism"
+
+  5ab77f6633c5d40ad448cc22:
+    sha256: "8073f0ba31badfae075a31a5ee64dbe7ff227304c779a67ee4113cadc6973b94"
+    path: "authors/crackmes-de/5ab77f6633c5d40ad448cc22/original/Crackme.exe"
+    title: "crackmes.de's crackme by twist"
+
+  5ab77f6633c5d40ad448cc10:
+    sha256: "a3cdf254c9dae4ae6d5eef7fcbcd873bb5b7dd8a5e5286163d46ef13d0060473"
+    path: "authors/crackmes-de/5ab77f6633c5d40ad448cc10/original/Crackme1.exe"
+    title: "crackmes.de's abu_crackme_v1 by gauri"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -317,3 +342,23 @@ by_sha256:
     id: 5ab77f6033c5d40ad448c8a4
     path: "authors/crackmes-de/5ab77f6033c5d40ad448c8a4/original/crkm0x1.exe"
     page: https://crackmes.one/crackme/5ab77f6033c5d40ad448c8a4
+  7467374ead57a7064f5b78b4e08e041652ac0b0a8fcf2f833d57399bacfe3f39:
+    id: 5ab77f6633c5d40ad448cc6a
+    path: "authors/crackmes-de/5ab77f6633c5d40ad448cc6a/original/KgeME.zip"
+    page: https://crackmes.one/crackme/5ab77f6633c5d40ad448cc6a
+  a44993819630ff4e25ab8039d50ad46730dcf4b1ac20db916c2b83e179bf298c:
+    id: 5ab77f6633c5d40ad448cc2b
+    path: "authors/crackmes-de/5ab77f6633c5d40ad448cc2b/original/CrackmeNX2Final.exe.zip"
+    page: https://crackmes.one/crackme/5ab77f6633c5d40ad448cc2b
+  1bf9f0e38c6796b92a32e7fd413cf66a6c93850dd7eaa1f73d58fe8f0748741e:
+    id: 5ab77f6633c5d40ad448cc29
+    path: "authors/crackmes-de/5ab77f6633c5d40ad448cc29/original/SKeygen.zip"
+    page: https://crackmes.one/crackme/5ab77f6633c5d40ad448cc29
+  ef7f30d477d55ccd90712a511804c3b94b2d7396c525f8288c5e05def2d6572e:
+    id: 5ab77f6633c5d40ad448cc22
+    path: "authors/crackmes-de/5ab77f6633c5d40ad448cc22/original/CrackMe.zip"
+    page: https://crackmes.one/crackme/5ab77f6633c5d40ad448cc22
+  fffe47eb69b01c3abc8db5b364fecd3ddf6b546f1fec7d8e44bce98099e0b3be:
+    id: 5ab77f6633c5d40ad448cc10
+    path: "authors/crackmes-de/5ab77f6633c5d40ad448cc10/original/Crack_mes.zip"
+    page: https://crackmes.one/crackme/5ab77f6633c5d40ad448cc10

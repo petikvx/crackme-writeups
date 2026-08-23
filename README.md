@@ -144,7 +144,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [oguzbey](authors/oguzbey/README.md) | oguzbey | 1 (Lucky Numbers) | 1 / 1 |
 | [andrewl](authors/andrewl/README.md) | andrewl | 1 (Quick Crypto) | 1 / 1 |
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
-| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 33 / 30+ |
+| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 35 / 30+ |
 | [chaltu](authors/chaltu/README.md) | chaltu | 1 (a Treasure) | 1 / 1 |
 | [qerr0r](authors/qerr0r/README.md) | QERR0R | 1 (crackit) | 1 / 1 |
 | [steve_maxwell](authors/steve_maxwell/README.md) | steve_maxwell | 1 (X-0-R) | 1 / 1 |
@@ -169,6 +169,8 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-08-23 | [crackme by twist](authors/crackmes-de/5ab77f6633c5d40ad448cc22/) | crackmes.de / twist |
+| 2026-08-23 | [abu_crackme_v1](authors/crackmes-de/5ab77f6633c5d40ad448cc10/) | crackmes.de / gauri |
 | 2026-08-23 | [Basic Crackme ConsoleBased](authors/thefakeking/6492036733c5d43938913a58/) | TheFakeKing |
 | 2026-08-23 | [Ageis crackme :3](authors/nizzix/693027c02d267f28f69b82b5/) | Nizzix |
 | 2026-08-23 | [Test my obf. PLS](authors/noname_user/69a138ff7a778cfffbfb6797/) | noname_User |

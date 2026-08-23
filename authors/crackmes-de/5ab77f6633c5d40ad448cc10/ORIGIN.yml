@@ -1,0 +1,37 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6633c5d40ad448cc10
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6633c5d40ad448cc10
+  download: https://crackmes.one/download/crackme/5ab77f6633c5d40ad448cc10
+
+title: "crackmes.de's abu_crackme_v1 by gauri"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "(Visual) Basic"
+
+difficulty: 1.0
+quality: 4.0
+size: ""
+published: null
+
+series_index: null
+local_slug: abu-crackme-v1
+
+binary:
+  path: "original/Crackme1.exe"
+  name: "Crackme1.exe"
+  sha256: "a3cdf254c9dae4ae6d5eef7fcbcd873bb5b7dd8a5e5286163d46ef13d0060473"
+  md5: "a05b1164fa00ba420c1ca95956b843a8"
+  size_bytes: 20480
+
+
+status: solved
+solution_summary: "VB6 Hex/Cos/Tan(2160) → serial FFFFE84A"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-23T07:53:40Z"

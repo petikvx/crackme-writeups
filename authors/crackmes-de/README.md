@@ -44,6 +44,9 @@ Série **rezk2ll** (NASM) importée depuis crackmes.de.
 | 32 | [crackme_1_by_amnon](5ab77f5333c5d40ad448c10f/) | amnon / HTB | Win PE32 | `Amnon^HTB Team` + serial `…BC17…` |
 | 33 | [crackme_0x01_by_qfqe](5ab77f6033c5d40ad448c8a4/) | qfqe | Win PE32 py2exe | serial XOR `0x90` → **`qeavG1ZX`** |
 
+| 34 | [abu_crackme_v1](5ab77f6633c5d40ad448cc10/) | gauri | Win PE32 VB6 | serial **`FFFFE84A`** |
+| 35 | [crackme by twist](5ab77f6633c5d40ad448cc22/) | twist | Win PE32 VB6 | keygen `petik`→` 103.310…` |
+
 ## Mis de côté (PARKED — y revenir)
 
 | Titre | ID | Blocage / reprise |
