@@ -1,0 +1,15 @@
+[+] Processing /home/petik/Downloads/virusshare/crackme-writeups/authors/chaltu/6a4014135f26f108ba18ba0b/original/treasure
+[+] Pyinstaller version: 2.1+
+[+] Python version: 3.13
+[+] Length of package: 8040432 bytes
+[+] Found 30 files in CArchive
+[+] Beginning extraction...please standby
+[+] Possible entry point: pyiboot01_bootstrap.pyc
+[+] Possible entry point: pyi_rth_inspect.pyc
+[+] Possible entry point: treasure.pyc
+[!] Warning: This script is running in a different Python version than the one used to build the executable.
+[!] Please run this script in Python 3.13 to prevent extraction errors during unmarshalling
+[!] Skipping pyz extraction
+[+] Successfully extracted pyinstaller archive: /home/petik/Downloads/virusshare/crackme-writeups/authors/chaltu/6a4014135f26f108ba18ba0b/original/treasure
+
+You can now use a python decompiler on the pyc files within the extracted directory

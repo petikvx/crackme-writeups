@@ -1,0 +1,6 @@
+PyInstaller 2.1+ / CPython 3.13 ELF64.
+Entry: treasure.pyc
+Extract: python3 tools/pyinstxtractor.py original/treasure
+(Use Python 3.13 for full PYZ unmarshal; entry pyc alone enough here.)
+Flag: bb{easy_r3v_challenge_s0lv3d} = b64decode(const)
+XOR md5(s3cr3t_k3y).hexdigest()[:8] computed in decode_message() but never printed.

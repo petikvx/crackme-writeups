@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a4014135f26f108ba18ba0b:
+    sha256: "e0e1d7fd6392d0210f0273c1bfbddb4fdb8bb92f8c2ae9d38616c044d2547223"
+    path: "authors/chaltu/6a4014135f26f108ba18ba0b/original/treasure"
+    title: "chaltu's a Treasure"
+
+by_sha256:
+  e0e1d7fd6392d0210f0273c1bfbddb4fdb8bb92f8c2ae9d38616c044d2547223:
+    id: 6a4014135f26f108ba18ba0b
+    path: "authors/chaltu/6a4014135f26f108ba18ba0b/original/treasure"
+    page: https://crackmes.one/crackme/6a4014135f26f108ba18ba0b

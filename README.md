@@ -145,6 +145,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [andrewl](authors/andrewl/README.md) | andrewl | 1 (Quick Crypto) | 1 / 1 |
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
 | [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 32 / 30+ |
+| [chaltu](authors/chaltu/README.md) | chaltu | 1 (a Treasure) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -162,6 +163,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-08-23 | [a Treasure](authors/chaltu/6a4014135f26f108ba18ba0b/) | chaltu |
 | 2026-08-23 | [crackme_1_by_amnon](authors/crackmes-de/5ab77f5333c5d40ad448c10f/) | crackmes.de / amnon |
 | 2026-08-22 | [keygenme_1](authors/crackmes-de/5ab77f5f33c5d40ad448c7f5/) | crackmes.de / cauchy_htb |
 | 2026-08-22 | [unlockme_crackme_9_by_sharpe](authors/crackmes-de/5ab77f6233c5d40ad448c9e0/) | crackmes.de / sharpe |

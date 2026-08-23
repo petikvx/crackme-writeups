@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a4014135f26f108ba18ba0b
+
+urls:
+  page: https://crackmes.one/crackme/6a4014135f26f108ba18ba0b
+  download: https://crackmes.one/download/crackme/6a4014135f26f108ba18ba0b
+
+title: "chaltu's a Treasure"
+author_on_site: "chaltu"
+author_local: "chaltu"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "Python"
+
+difficulty: 2.3
+quality: 4.0
+size: ""
+published: null
+
+series_index: null
+local_slug: a-treasure
+
+binary:
+  path: "original/treasure"
+  name: "treasure"
+  sha256: "e0e1d7fd6392d0210f0273c1bfbddb4fdb8bb92f8c2ae9d38616c044d2547223"
+  md5: "884607e1983cbb0d1d589c3343850971"
+  size_bytes: 8104720
+
+status: solved
+solution_summary: "PyInstaller → treasure.pyc ; b64decode → bb{easy_r3v_challenge_s0lv3d} (XOR md5 non affiché)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-23T07:08:54Z"
