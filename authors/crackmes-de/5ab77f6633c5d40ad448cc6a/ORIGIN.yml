@@ -1,0 +1,37 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6633c5d40ad448cc6a
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6633c5d40ad448cc6a
+  download: https://crackmes.one/download/crackme/5ab77f6633c5d40ad448cc6a
+
+title: "crackmes.de's keygencrackme_1 by zyen"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "(Visual) Basic"
+
+difficulty: 1.0
+quality: 3.0
+size: ""
+published: null
+
+series_index: null
+local_slug: zyen-kgme
+
+binary:
+  path: "original/KgME.exe"
+  name: "KgME.exe"
+  sha256: "69594c943a5425b588f2983ff5ec7ae05b44a5d545069a25718fe38dfaa8c33a"
+  md5: "051b858b8e999780bb7431a3c8d630b0"
+  size_bytes: 28672
+
+
+status: solved
+solution_summary: "FontSize 19 → serial 19*19*10 = 3610"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-23T07:53:33Z"

@@ -47,6 +47,8 @@ Série **rezk2ll** (NASM) importée depuis crackmes.de.
 | 34 | [abu_crackme_v1](5ab77f6633c5d40ad448cc10/) | gauri | Win PE32 VB6 | serial **`FFFFE84A`** |
 | 35 | [crackme by twist](5ab77f6633c5d40ad448cc22/) | twist | Win PE32 VB6 | keygen `petik`→` 103.310…` |
 
+| 36 | [keygencrackme_1 by zyen](5ab77f6633c5d40ad448cc6a/) | zyen | Win PE32 VB6 | serial **`3610`** (19²×10) |
+
 ## Mis de côté (PARKED — y revenir)
 
 | Titre | ID | Blocage / reprise |
