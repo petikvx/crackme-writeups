@@ -39,3 +39,6 @@ Série **rezk2ll** (NASM) importée depuis crackmes.de.
 | 27 | [dll_disaster](5ab77f5833c5d40ad448c3c1/) | issogoo | Win PE32 | inject_here.dll tick+0xCAFFEE |
 | 28 | [b0rken_elgamal_keygenme](5ab77f5a33c5d40ad448c4ec/) | smilingwolf | Win PE32 | petik→65796CB3…662C (reused-k) |
 | 29 | [epicurus](5ab77f6033c5d40ad448c84f/) | D4ph1 | Win PE32 | click+petik→EE0E-8AFF8715-EB04 |
+| 30 | [unlockme_crackme_9_by_sharpe](5ab77f6233c5d40ad448c9e0/) | sharpe | Win PE32 | `TP6A002v` → Secret: Sylvester! |
+| 31 | [keygenme_1](5ab77f5f33c5d40ad448c7f5/) | cauchy_htb | Win PE32 FSG | `-htbt!` + petik→CAC86F99…0CF080 |
+| 32 | [crackme_1_by_amnon](5ab77f5333c5d40ad448c10f/) | amnon / HTB | Win PE32 | `Amnon^HTB Team` + serial `…BC17…` |

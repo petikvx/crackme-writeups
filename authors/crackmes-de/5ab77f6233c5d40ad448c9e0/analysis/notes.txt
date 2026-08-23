@@ -1,0 +1,17 @@
+Unlockme #9 (sharpe)
+
+Flow:
+- Unlock code length in (8..31) from edit 0x3F1 → buf 0x403188
+- hash = fold: edi=0; for c in code: edi+=c; rol edi,c
+- XOR-decrypt [0x4011F2,0x401236) with hash, ror8 each dword
+- Enable Check (0x3EC); disable unlock/edit
+- Check installs SEH then call 0x4011F2 (decrypted secret stub)
+
+Solved:
+- Target hash 0x4DA8E6BB (known-plaintext on mov-[esi] 'Secr'/'et: ' chain)
+- Example unlock: TP6A002v (alnum MITM 4+4); many other preimages
+- Stub writes "Secret: Sylvester!" at 0x4031AC then returns (pop/jmp)
+- False lead "0fcoaacf" → 0x1D856EBE → 55 8B EC 83… only (not valid stub)
+
+Wine: SEH/int3 countdown at EP can stack-overflow; jmp 0x4010A9 to bypass.
+Status: solved

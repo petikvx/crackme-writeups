@@ -18,4 +18,11 @@ Flow sketch:
 NFO: patch ONLY 1 BYTE, NOT a jump + keygen.
 Buffers 0x4043B0 / 0x404500 filled at runtime (VirtualAlloc bigint).
 
-Status: pending (need factor N or recover d / identify 1-byte patch target).
+SOLVED:
+  Cmdline backdoor `-htbt!` (checksum on 5 bytes after `-`, only printable = htbt!)
+  unlocks XOR-decoded 216-bit N1/N2 @ 0x40100e / 0x401142.
+  N1 = 240985366002918909296416009698659 × 283147134056496125206437154455851
+  N2 = 251238060053420001643239680117243 × 264091152450441115281854810400227
+  Keygen: tools/cauchy-km1-solve.py ; petik → CAC86F99…0CF080
+  1-byte non-JMP patch: VA 0x401A0A disp 48→00 (jne checksum-fail falls into easy decode).
+  Hard 1024-bit path is a taunt ("change a jump" / "factorize RSA1024").

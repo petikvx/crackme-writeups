@@ -11,15 +11,15 @@ author_local: "crackmes-de"
 
 platform: "Windows"
 arch: "x86"
-language: ""
+language: "Assembler"
 
-difficulty: null
-quality: null
+difficulty: 3.0
+quality: 4.0
 size: ""
 published: null
 
-series_index: null
-local_slug: null
+series_index: 9
+local_slug: unlockme9
 
 binary:
   path: "original/nine.zip"
@@ -28,8 +28,8 @@ binary:
   md5: "81e26198f84733bc5522a9c649d66b27"
   size_bytes: 36213
 
-status: pending
-solution_summary: ""
+status: solved
+solution_summary: "unlock TP6A002v (hash 0x4DA8E6BB) → stub SMC → Secret: Sylvester!"
 
 download:
   zip_password: crackmes.one

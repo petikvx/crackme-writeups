@@ -1,0 +1,7 @@
+Wine note (Unlockme #9):
+The PE entry uses an SEH/int3 countdown loop (counter at 0x403175 = 0x22).
+Under Wine this often overflows the stack (virtual_setup_exception at 0x401056).
+Bypass for dynamic tests: patch EP to jmp 0x4010A9 (real WinMain), or set [0x403175]=1.
+
+Secret recovery does not require a live GUI: decrypt the stub at [0x4011F2,0x401236)
+with hash 0x4DA8E6BB (example unlock TP6A002v) → writes "Secret: Sylvester!" at 0x4031AC.

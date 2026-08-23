@@ -144,7 +144,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [oguzbey](authors/oguzbey/README.md) | oguzbey | 1 (Lucky Numbers) | 1 / 1 |
 | [andrewl](authors/andrewl/README.md) | andrewl | 1 (Quick Crypto) | 1 / 1 |
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
-| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 29+ | 29 / 29+ |
+| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 32 / 30+ |
 
 ## Historique des résolutions
 
@@ -152,6 +152,9 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-08-23 | [crackme_1_by_amnon](authors/crackmes-de/5ab77f5333c5d40ad448c10f/) | crackmes.de / amnon |
+| 2026-08-22 | [keygenme_1](authors/crackmes-de/5ab77f5f33c5d40ad448c7f5/) | crackmes.de / cauchy_htb |
+| 2026-08-22 | [unlockme_crackme_9_by_sharpe](authors/crackmes-de/5ab77f6233c5d40ad448c9e0/) | crackmes.de / sharpe |
 | 2026-08-22 | [epicurus](authors/crackmes-de/5ab77f6033c5d40ad448c84f/) | crackmes.de / D4ph1 |
 | 2026-08-22 | [b0rken_elgamal_keygenme](authors/crackmes-de/5ab77f5a33c5d40ad448c4ec/) | crackmes.de / smilingwolf |
 | 2026-08-22 | [dll_disaster](authors/crackmes-de/5ab77f5833c5d40ad448c3c1/) | crackmes.de / issogoo |

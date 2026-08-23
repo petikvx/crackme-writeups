@@ -19,7 +19,7 @@ size: ""
 published: null
 
 series_index: null
-local_slug: null
+local_slug: amnon1
 
 binary:
   path: "original/Crackme_1.by.Amnon.HTBTeam.zip"
@@ -28,8 +28,8 @@ binary:
   md5: "8b80266662b155372f802f18739e4c71"
   size_bytes: 46519
 
-status: pending
-solution_summary: ""
+status: solved
+solution_summary: "name Amnon^HTB Team (MD5 gate); serial *BC17* @16; anti-debug patch (NFO)"
 
 download:
   zip_password: crackmes.one

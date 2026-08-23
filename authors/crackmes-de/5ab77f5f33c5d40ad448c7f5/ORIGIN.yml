@@ -28,9 +28,8 @@ binary:
   md5: "7b525e78c5c2b936c73e02b8474a2669"
   size_bytes: 9325
 
-status: pending
-solution_summary: ""
-
+status: solved
+solution_summary: "FSG; backdoor -htbt! → RSA-216; petik→CAC86F99…0CF080; patch 1B jne-disp @0x401A0A"
 download:
   zip_password: crackmes.one
   fetched_at: "2026-08-22T19:05:42Z"
