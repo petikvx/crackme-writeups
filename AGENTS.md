@@ -69,20 +69,23 @@ strings -n 6 original/* | head -80
 Identifier : plateforme, arch, compiler, UI (console / GUI), type de prédicat  
 (serial, maze, HWID, mini-VM, quiz…).
 
-Si besoin de **sources lisibles** du binaire (hors Python) :
+Si besoin de **sources lisibles** du binaire (hors Python) — wrappers IDA dans `~/.bash_aliases` :
 
 ```bash
-# Outils hôte (si présents dans le PATH) — dumps Hex-Rays / asm
-decc   original/<binaire>   # → souvent .c  (garder sous analysis/ ou original/source/)
-decasm original/<binaire>   # → souvent .asm
+# Shell interactif (charge .bash_aliases) — IDA_HOME/idat
+decasm original/<binaire>   # idat -B            → listing .asm (+ .i64)
+decc   original/<binaire>   # idat -A -Sproduce_c_file.py → <idb>.c (Hex-Rays)
+# depuis un shell non-interactif (agent) :
+bash -ic 'decc original/<binaire>'
+bash -ic 'decasm original/<binaire>'
 ```
 
-Documenter la commande dans le write-up ; ne pas écraser `original/` patché.
+Sorties typiques à côté du binaire (ex. `foo.exe.i64`, `foo.exe.i64.c`) : déplacer / copier sous `analysis/` si utile ; **`*.i64` est gitignoré**, le `.c` peut aller dans le dépôt. Documenter la commande dans le write-up.
 
 ### 2. Reverse jusqu’à une réponse vérifiable
 
 - Extraire le prédicat (formule, grille, bytecode, HWID…).
-- **Vérifier** : solveur + binaire live (Wine pour PE, native pour ELF).
+- **Vérifier** : solveur + binaire live (Wine / **`xvfb-run -a wine`** sur serveur sans écran ; native pour ELF).
 - Ne pas inventer une solution non testée.
 
 ### 3. Livrables obligatoires pour un challenge « solved »
@@ -162,9 +165,15 @@ Exceptions seulement si la contrainte du binaire **interdit** `petik` (longueur 
 ### Analyse PE sous Linux
 
 - Préférer **objdump / strings / Python** + **Wine** pour la preuve live console.
+- **Serveur dédié / sans display** : Wine GUI casse souvent → wrapper **`xvfb-run`** (Xvfb) :
+  ```bash
+  xvfb-run -a wine original/<exe>
+  xvfb-run -a wineconsole original/<exe>   # si console
+  ```
+  (`scripts/install-re-tools.sh` installe `xvfb` ; check : `xvfb-run`, `Xvfb`.)
 - `.NET` : `ilspycmd` → idéalement `original/source/` ; documenter dans le write-up.
 - MessageBox Wine : parfois `hWnd` invalide → recon avec `hWnd=NULL` si besoin (cas déjà vus timotei).
-- Dumps C/asm : `decc` / `decasm` (hôte) si dispo ; sinon export IDA Hex-Rays vers `analysis/` (ex. `*-hexrays.c`).
+- Dumps C/asm : fonctions shell `decc` / `decasm` (`~/.bash_aliases` → `idat`) ; via `bash -ic 'decc …'` si le shell agent n’est pas interactif. Sinon export IDA manuel vers `analysis/`.
 
 ### Analyse ELF
 
