@@ -1,3 +1,7 @@
+*** PARKED 2026-08-23 — reprendre plus tard (pas abandonné) ***
+Reprendre : buffer name/serial (Wine/x64dbg) puis prédicat derrière Melo_5te ; keygen tools/meloquynthe-solve.py.
+Unpack : analysis/Meloquynthe.unpacked.exe (upx -d)
+
 Meloquynthe (YoLeJedi & ++Meat, 2006) — notes (WIP, NOT solved)
 
 Unpacked: analysis/Meloquynthe.unpacked.exe (system upx -d; keep original/_u/Meloquynthe.exe packed)

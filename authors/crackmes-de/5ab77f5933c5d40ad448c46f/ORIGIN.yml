@@ -29,7 +29,11 @@ binary:
   size_bytes: 3596592
 
 status: pending
-solution_summary: ""
+# PARKED 2026-08-23 — y revenir plus tard (pas abandonné)
+parked: true
+parked_at: "2026-08-23"
+parked_reason: "UPX unpacké + UI Wine/screens ; prédicat name→serial derrière jmp spaghetti Melo_5te"
+solution_summary: "PARKED — unpacked OK ; keygen TBD (voir analysis/notes.txt)"
 
 download:
   zip_password: crackmes.one

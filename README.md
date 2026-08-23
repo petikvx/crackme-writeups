@@ -146,6 +146,16 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
 | [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 32 / 30+ |
 
+## Mis de côté (PARKED — y revenir)
+
+Challenges `status: pending` volontairement suspendus (`parked: true` dans `ORIGIN.yml`) :
+
+| Crackme | Auteur | Reprendre |
+|---|---|---|
+| [bugger_v.7](authors/crackmes-de/5ab77f6633c5d40ad448cc25/) | crackmes.de / shism | clé RC6 + wake shell dormant |
+| [meloquynthe](authors/crackmes-de/5ab77f5933c5d40ad448c46f/) | crackmes.de / meat | prédicat name→serial (après UPX) |
+| [MCM 3.0 REWORK](authors/cracknotme/698fb9e9a79466462e957bec/) | CrackNotMe | mini-VM + checksum `0x762` |
+
 ## Historique des résolutions
 
 Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).

@@ -42,3 +42,10 @@ Série **rezk2ll** (NASM) importée depuis crackmes.de.
 | 30 | [unlockme_crackme_9_by_sharpe](5ab77f6233c5d40ad448c9e0/) | sharpe | Win PE32 | `TP6A002v` → Secret: Sylvester! |
 | 31 | [keygenme_1](5ab77f5f33c5d40ad448c7f5/) | cauchy_htb | Win PE32 FSG | `-htbt!` + petik→CAC86F99…0CF080 |
 | 32 | [crackme_1_by_amnon](5ab77f5333c5d40ad448c10f/) | amnon / HTB | Win PE32 | `Amnon^HTB Team` + serial `…BC17…` |
+
+## Mis de côté (PARKED — y revenir)
+
+| Titre | ID | Blocage / reprise |
+|---|---|---|
+| [bugger_v.7](5ab77f6633c5d40ad448cc25/) | [`…cc25`](https://crackmes.one/crackme/5ab77f6633c5d40ad448cc25) | RC6 OK ; **clé** + wake shell `abcdefgh` — `analysis/notes.txt` |
+| [meloquynthe](5ab77f5933c5d40ad448c46f/) | [`…c46f`](https://crackmes.one/crackme/5ab77f5933c5d40ad448c46f) | UPX OK ; **prédicat** name→serial (jmp spaghetti) — `analysis/notes.txt` |

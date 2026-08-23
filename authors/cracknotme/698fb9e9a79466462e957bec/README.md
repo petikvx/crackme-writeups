@@ -2,6 +2,9 @@
 
 > **Origine** : [`ORIGIN.yml`](ORIGIN.yml) · [crackmes.one](https://crackmes.one/crackme/698fb9e9a79466462e957bec) · id `698fb9e9a79466462e957bec`
 
+> **PARKED 2026-08-23** — mis de côté pour plus tard (pas abandonné).  
+> Reprendre : mini-VM + checksum `0x762` (honeypot `S3rg0M_Admin_2024` déjà écarté).
+
 Crackme **PE32+ console** x86-64 (MSVC), **packer XOR maison** + payload.  
 Auteur site : **CrackNotMe** · suite de [MCM 1.0](../6989ed7dfb46458f1ef6cee4/) / [MCM 2.0](../698d9ebd3eb49a23d3417763/).
 

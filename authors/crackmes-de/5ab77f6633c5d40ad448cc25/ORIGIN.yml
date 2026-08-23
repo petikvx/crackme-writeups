@@ -29,7 +29,11 @@ binary:
   size_bytes: 6809
 
 status: pending
-solution_summary: ""
+# PARKED 2026-08-23 — y revenir plus tard (pas abandonné)
+parked: true
+parked_at: "2026-08-23"
+parked_reason: "RC6 MessageBox vérifié (tools/bugger-v7-rc6.py + Hex-Rays) ; clé / wake stub dormant abcdefgh encore ouverts"
+solution_summary: "PARKED — RC6 OK ; clé + shell dormant TBD (voir analysis/notes.txt)"
 
 download:
   zip_password: crackmes.one

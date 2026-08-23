@@ -29,7 +29,11 @@ binary:
   size_bytes: 363008
 
 status: pending
-solution_summary: "packer XOR unpacké (mcm3-unpack) ; buried text S3rg0M_Admin_2024 = honeypot ; vrai gate mini-VM+checksum 0x762 non résolu"
+# PARKED 2026-08-23 — y revenir plus tard (pas abandonné)
+parked: true
+parked_at: "2026-08-23"
+parked_reason: "unpack XOR + honeypot S3rg0M_Admin_2024 OK ; vrai gate mini-VM + checksum 0x762 encore ouvert"
+solution_summary: "PARKED — unpack+honeypot OK ; VM/0x762 TBD (voir README)"
 
 download:
   zip_password: crackmes.one

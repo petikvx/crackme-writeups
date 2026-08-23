@@ -1,3 +1,7 @@
+*** PARKED 2026-08-23 — reprendre plus tard (pas abandonné) ***
+Reprendre : clé RC6 → PT anglais MessageBox ; et/ou wake stub dormant @401051→402099.
+Helper : tools/bugger-v7-rc6.py · Hex-Rays : analysis/bugger-hexrays.c
+
 RC6-32/20 decrypt of 16-byte CT at VA 0x4030CF.
 CT: c59f1ee93bec2739c442e7d9f3a3aa8c
 Key = GetDlgItemText id 1003 (0x3EB) → String@0x403112 (max 30); schedule always len=0x10.
