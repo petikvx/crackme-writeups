@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a73209208712c1a17cbac90:
+    sha256: "e65ea4b309617314a6d01168aa0711da8825351e1764dca5eb4498a4ed3fc35f"
+    path: "authors/pitou/6a73209208712c1a17cbac90/original/Evasive.exe"
+    title: "pitou's Evaisve"
+
+by_sha256:
+  e65ea4b309617314a6d01168aa0711da8825351e1764dca5eb4498a4ed3fc35f:
+    id: 6a73209208712c1a17cbac90
+    path: "authors/pitou/6a73209208712c1a17cbac90/original/Evasive.exe"
+    page: https://crackmes.one/crackme/6a73209208712c1a17cbac90

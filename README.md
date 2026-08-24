@@ -158,6 +158,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [soulreaper](authors/soulreaper/README.md) | soulreaper | 3 (Dead Terminal + XorGate + Death Trap) | 2 / 3 |
 | [toasterbirb](authors/toasterbirb/README.md) | toasterbirb | 1 (yap) | 1 / 1 |
 | [jasper676767](authors/jasper676767/README.md) | Jasper676767 | 2 (Red light + forgot password) | 2 / 2 |
+| [pitou](authors/pitou/README.md) | pitou | 1 (Evaisve) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -175,6 +176,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-08-24 | [Evaisve](authors/pitou/6a73209208712c1a17cbac90/) | pitou |
 | 2026-08-24 | [I forgot my password!!!!](authors/jasper676767/6a7590e8184836c0dbe7d6bc/) | Jasper676767 |
 | 2026-08-24 | [XorGate](authors/soulreaper/6a768ab608712c1a17cbacdd/) | soulreaper |
 | 2026-08-24 | [Red light](authors/jasper676767/6a76df14184836c0dbe7d6de/) | Jasper676767 |

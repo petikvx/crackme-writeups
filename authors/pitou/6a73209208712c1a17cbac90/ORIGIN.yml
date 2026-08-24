@@ -1,0 +1,36 @@
+# Origine crackmes.one
+id: 6a73209208712c1a17cbac90
+
+urls:
+  page: https://crackmes.one/crackme/6a73209208712c1a17cbac90
+  download: https://crackmes.one/download/crackme/6a73209208712c1a17cbac90
+
+title: "pitou's Evaisve"
+author_on_site: "pitou"
+author_local: "pitou"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 2.3
+quality: 5.3
+size: "45.50 KB"
+published: "2026-08-05"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Evasive.exe"
+  name: "Evasive.exe"
+  sha256: "e65ea4b309617314a6d01168aa0711da8825351e1764dca5eb4498a4ed3fc35f"
+  md5: "090f49b6d156fda5dbd290b6d83d50c4"
+  size_bytes: 46592
+
+status: solved
+solution_summary: "Fatpack LZMA PE ; XOR tab[i]^tab[38] → IEEE{S031me_T1mes_We_h1s_t0_Su111ffer}"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-24T16:52:00Z"
