@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a76df14184836c0dbe7d6de:
+    sha256: "c6dc1be3e9133cfe5625769bc516124d2283042bd7e4d0a6d90d29bd7712543c"
+    path: "authors/jasper676767/6a76df14184836c0dbe7d6de/original/redLights"
+    title: "Jasper676767's Red light"
+
+by_sha256:
+  c6dc1be3e9133cfe5625769bc516124d2283042bd7e4d0a6d90d29bd7712543c:
+    id: 6a76df14184836c0dbe7d6de
+    path: "authors/jasper676767/6a76df14184836c0dbe7d6de/original/redLights"
+    page: https://crackmes.one/crackme/6a76df14184836c0dbe7d6de

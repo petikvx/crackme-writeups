@@ -1,0 +1,36 @@
+# Origine crackmes.one
+id: 6a76df14184836c0dbe7d6de
+
+urls:
+  page: https://crackmes.one/crackme/6a76df14184836c0dbe7d6de
+  download: https://crackmes.one/download/crackme/6a76df14184836c0dbe7d6de
+
+title: "Jasper676767's Red light"
+author_on_site: "Jasper676767"
+author_local: "jasper676767"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 2.5
+quality: 4.0
+size: "14.14 KB"
+published: "2026-08-08"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/redLights"
+  name: "redLights"
+  sha256: "c6dc1be3e9133cfe5625769bc516124d2283042bd7e4d0a6d90d29bd7712543c"
+  md5: "d2c5e6252cc115fe007d45f24e64a363"
+  size_bytes: 14476
+
+status: solved
+solution_summary: "UPX; acrostiche fvDhpaDoha XOR→Base64→FLAG{I_@m_A_MaSt3R_Ra1ge_5ai7er}"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-24T16:42:00Z"
