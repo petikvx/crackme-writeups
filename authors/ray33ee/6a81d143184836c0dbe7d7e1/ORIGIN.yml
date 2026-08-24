@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a81d143184836c0dbe7d7e1
+
+urls:
+  page: https://crackmes.one/crackme/6a81d143184836c0dbe7d7e1
+  download: https://crackmes.one/download/crackme/6a81d143184836c0dbe7d7e1
+
+title: "ray33ee's x or and add"
+author_on_site: "ray33ee"
+author_local: "ray33ee"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 3.0
+quality: 4.3
+size: "88.00 KB"
+published: "2026-08-16"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/xor_crackme.exe"
+  name: "xor_crackme.exe"
+  sha256: "0bd5e02796ac81072ea2c49bb83196d702a17329a0355626880d74b4f0affa24"
+  md5: "3a00351d28fd134080c022bad4a9300c"
+  size_bytes: 90112
+
+status: solved
+solution_summary: "name hash%400 → 3-byte key ; password[i]=((Cr4ckM35D0t1[i]^k2)-k1)^k0 ; petik→Vg)vnP&(Y%i$"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-24T14:52:55Z"

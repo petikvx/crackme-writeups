@@ -153,6 +153,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [nizzix](authors/nizzix/README.md) | Nizzix | 1 (Ageis) | 1 / 1 |
 | [thefakeking](authors/thefakeking/README.md) | TheFakeKing | 1 (Basic ConsoleBased) | 1 / 1 |
 | [svz](authors/svz/README.md) | SVz | 1 (Orrery) | 1 / 1 |
+| [ray33ee](authors/ray33ee/README.md) | ray33ee | 1 (x or and add) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -170,6 +171,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-08-24 | [x or and add](authors/ray33ee/6a81d143184836c0dbe7d7e1/) | ray33ee |
 | 2026-08-24 | [Orrery](authors/svz/6a89cff9cab6678aefe9da94/) | SVz |
 | 2026-08-23 | [shisms_keygenme_0.1](authors/crackmes-de/5ab77f6633c5d40ad448cc29/) | crackmes.de / shism |
 | 2026-08-23 | [crackmenx2final by arthi](authors/crackmes-de/5ab77f6633c5d40ad448cc2b/) | crackmes.de / arthi |

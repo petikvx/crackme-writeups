@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a81d143184836c0dbe7d7e1:
+    sha256: "0bd5e02796ac81072ea2c49bb83196d702a17329a0355626880d74b4f0affa24"
+    path: "authors/ray33ee/6a81d143184836c0dbe7d7e1/original/xor_crackme.exe"
+    title: "ray33ee's x or and add"
+
+by_sha256:
+  0bd5e02796ac81072ea2c49bb83196d702a17329a0355626880d74b4f0affa24:
+    id: 6a81d143184836c0dbe7d7e1
+    path: "authors/ray33ee/6a81d143184836c0dbe7d7e1/original/xor_crackme.exe"
+    page: https://crackmes.one/crackme/6a81d143184836c0dbe7d7e1
