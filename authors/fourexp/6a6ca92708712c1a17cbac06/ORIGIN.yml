@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a6ca92708712c1a17cbac06
+
+urls:
+  page: https://crackmes.one/crackme/6a6ca92708712c1a17cbac06
+  download: https://crackmes.one/download/crackme/6a6ca92708712c1a17cbac06
+
+title: "fourexp's fourexps hard crackme"
+author_on_site: "fourexp"
+author_local: "fourexp"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/hard_crackme.zip"
+  name: "hard_crackme.zip"
+  sha256: "acf8cf0dc7d0ea0eb40a605d7107853bdc97ee0dbe5d7adda88ab3923462b2c0"
+  md5: "569eba2ab2f938bff4a775c341599144"
+  size_bytes: 22617
+
+status: solved
+solution_summary: "stack mov-BYTE blob XOR 0x5A → welldoneyoucrackedit (Wine bloqué Debug CRT)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-24T19:15:47Z"

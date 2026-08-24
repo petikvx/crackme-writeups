@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a6ca92708712c1a17cbac06:
+    sha256: "acf8cf0dc7d0ea0eb40a605d7107853bdc97ee0dbe5d7adda88ab3923462b2c0"
+    path: "authors/fourexp/6a6ca92708712c1a17cbac06/original/hard_crackme.zip"
+    title: "fourexp's fourexps hard crackme"
+
+by_sha256:
+  acf8cf0dc7d0ea0eb40a605d7107853bdc97ee0dbe5d7adda88ab3923462b2c0:
+    id: 6a6ca92708712c1a17cbac06
+    path: "authors/fourexp/6a6ca92708712c1a17cbac06/original/hard_crackme.zip"
+    page: https://crackmes.one/crackme/6a6ca92708712c1a17cbac06

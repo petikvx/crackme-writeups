@@ -1,0 +1,3 @@
+The password is XOR Obfuscated, goodluck!
+
+If you actually figure out the password tell me how in the comments I'd love to know,
