@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a89cff9cab6678aefe9da94:
+    sha256: "beef25aa6ac9ab751b8d58ab0815b86834dd71d1ad1f164606cbb71a8ef6b235"
+    path: "authors/svz/6a89cff9cab6678aefe9da94/original/orrery-1.0.zip"
+    title: "SVz's Orrery"
+
+by_sha256:
+  beef25aa6ac9ab751b8d58ab0815b86834dd71d1ad1f164606cbb71a8ef6b235:
+    id: 6a89cff9cab6678aefe9da94
+    path: "authors/svz/6a89cff9cab6678aefe9da94/original/orrery-1.0.zip"
+    page: https://crackmes.one/crackme/6a89cff9cab6678aefe9da94

@@ -1,0 +1,5 @@
+day 20689 (2026-08-24)  name='petik'
+planets: (1,1) (2,4) (4,1) (4,5) (5,4)
+MB4V-DSRS
+  verify: ORRERY_DAY=20689 wine orrery.exe petik MB4V-DSRS
+  system charted - ORRERY{4D0BD3D5}

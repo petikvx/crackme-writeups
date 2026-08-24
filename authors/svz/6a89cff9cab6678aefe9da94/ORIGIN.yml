@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a89cff9cab6678aefe9da94
+
+urls:
+  page: https://crackmes.one/crackme/6a89cff9cab6678aefe9da94
+  download: https://crackmes.one/download/crackme/6a89cff9cab6678aefe9da94
+
+title: "SVz's Orrery"
+author_on_site: "SVz"
+author_local: "svz"
+
+platform: "Multiplatform"
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 3.0
+quality: 4.0
+size: "169.54 KB"
+published: "2026-08-22"
+
+series_index: null
+local_slug: orrery
+
+binary:
+  path: "original/orrery-1.0.zip"
+  name: "orrery-1.0.zip"
+  sha256: "beef25aa6ac9ab751b8d58ab0815b86834dd71d1ad1f164606cbb71a8ef6b235"
+  md5: "556606db0317f2d66b8ce700bea8d328"
+  size_bytes: 173610
+
+status: solved
+solution_summary: "keygen Black Box 5 planètes/jour — petik→MB4V-DSRS (2026-08-24); survey table PE + Crockford+FNV"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-24T04:32:16Z"
