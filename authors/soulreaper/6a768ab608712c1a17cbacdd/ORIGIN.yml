@@ -1,0 +1,36 @@
+# Origine crackmes.one
+id: 6a768ab608712c1a17cbacdd
+
+urls:
+  page: https://crackmes.one/crackme/6a768ab608712c1a17cbacdd
+  download: https://crackmes.one/download/crackme/6a768ab608712c1a17cbacdd
+
+title: "soulreaper's XorGate"
+author_on_site: "soulreaper"
+author_local: "soulreaper"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 1.5
+quality: 4.6
+size: "15.79 KB"
+published: "2026-08-08"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/XorGate"
+  name: "XorGate"
+  sha256: "fba3829b3f141e5ecaca2197871380bb571cb72c805a7eaea0c8d22580ed7120"
+  md5: "8df4b74e731d178577826f284607e5d3"
+  size_bytes: 16168
+
+status: solved
+solution_summary: "password = hex(user^0x23)+'@password' ; petik→5346574a48@password ; FLAG{SoulReaper_XOR_Crackme}"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-24T16:49:00Z"

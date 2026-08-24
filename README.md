@@ -155,7 +155,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [svz](authors/svz/README.md) | SVz | 1 (Orrery) | 1 / 1 |
 | [ray33ee](authors/ray33ee/README.md) | ray33ee | 1 (x or and add) | 1 / 1 |
 | [muhemed](authors/muhemed/README.md) | muhemed | 1 (muhemed crackme) | 1 / 1 |
-| [soulreaper](authors/soulreaper/README.md) | soulreaper | 2 (Dead Terminal + Death Trap) | 1 / 2 |
+| [soulreaper](authors/soulreaper/README.md) | soulreaper | 3 (Dead Terminal + XorGate + Death Trap) | 2 / 3 |
 | [toasterbirb](authors/toasterbirb/README.md) | toasterbirb | 1 (yap) | 1 / 1 |
 | [jasper676767](authors/jasper676767/README.md) | Jasper676767 | 1 (Red light) | 1 / 1 |
 
@@ -175,6 +175,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-08-24 | [XorGate](authors/soulreaper/6a768ab608712c1a17cbacdd/) | soulreaper |
 | 2026-08-24 | [Red light](authors/jasper676767/6a76df14184836c0dbe7d6de/) | Jasper676767 |
 | 2026-08-24 | [yap](authors/toasterbirb/6a77541805a9e80a907242fe/) | toasterbirb |
 | 2026-08-24 | [Dead Terminal](authors/soulreaper/6a77c5d1df981859694944b8/) | soulreaper |

@@ -10,6 +10,11 @@ by_id:
     path: "authors/soulreaper/6a77c5d1df981859694944b8/original/soulreaper_shell"
     title: "soulreaper's Dead Terminal"
 
+  6a768ab608712c1a17cbacdd:
+    sha256: "fba3829b3f141e5ecaca2197871380bb571cb72c805a7eaea0c8d22580ed7120"
+    path: "authors/soulreaper/6a768ab608712c1a17cbacdd/original/XorGate"
+    title: "soulreaper's XorGate"
+
 by_sha256:
   3330d82db5f499ec0ea28fe7f037c016371a5982106e129b1333ab976313f1e5:
     id: 6a7d0ce1184836c0dbe7d77e
@@ -19,3 +24,7 @@ by_sha256:
     id: 6a77c5d1df981859694944b8
     path: "authors/soulreaper/6a77c5d1df981859694944b8/original/soulreaper_shell"
     page: https://crackmes.one/crackme/6a77c5d1df981859694944b8
+  fba3829b3f141e5ecaca2197871380bb571cb72c805a7eaea0c8d22580ed7120:
+    id: 6a768ab608712c1a17cbacdd
+    path: "authors/soulreaper/6a768ab608712c1a17cbacdd/original/XorGate"
+    page: https://crackmes.one/crackme/6a768ab608712c1a17cbacdd
