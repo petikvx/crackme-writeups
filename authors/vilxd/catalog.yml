@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a70bc1c08712c1a17cbac5a:
+    sha256: "07ae9709141687e122f94427a38d9a12848fe6278d96bad5bafd93e65ce85f51"
+    path: "authors/vilxd/6a70bc1c08712c1a17cbac5a/original/Crackme.zip"
+    title: "vilxd's Crack my points (DLL + Loader)"
+
+by_sha256:
+  07ae9709141687e122f94427a38d9a12848fe6278d96bad5bafd93e65ce85f51:
+    id: 6a70bc1c08712c1a17cbac5a
+    path: "authors/vilxd/6a70bc1c08712c1a17cbac5a/original/Crackme.zip"
+    page: https://crackmes.one/crackme/6a70bc1c08712c1a17cbac5a
