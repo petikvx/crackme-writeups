@@ -1,0 +1,36 @@
+# Origine crackmes.one
+id: 6a77c5d1df981859694944b8
+
+urls:
+  page: https://crackmes.one/crackme/6a77c5d1df981859694944b8
+  download: https://crackmes.one/download/crackme/6a77c5d1df981859694944b8
+
+title: "soulreaper's Dead Terminal"
+author_on_site: "soulreaper"
+author_local: "soulreaper"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 2.2
+quality: 4.2
+size: "14.12 KB"
+published: "2026-08-09"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/soulreaper_shell"
+  name: "soulreaper_shell"
+  sha256: "a0ca53ad836de59c992a2d3eeff7ac76ad8539eba960c9c3405b2b419e55301e"
+  md5: "81ff648e03d194ff7547c5d050641b8f"
+  size_bytes: 14464
+
+status: solved
+solution_summary: "reap key REAPER42 ; (k^0x2a)+(7+3i) vs enc LE qword"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-24T15:05:00Z"

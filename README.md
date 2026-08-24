@@ -155,6 +155,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [svz](authors/svz/README.md) | SVz | 1 (Orrery) | 1 / 1 |
 | [ray33ee](authors/ray33ee/README.md) | ray33ee | 1 (x or and add) | 1 / 1 |
 | [muhemed](authors/muhemed/README.md) | muhemed | 1 (muhemed crackme) | 1 / 1 |
+| [soulreaper](authors/soulreaper/README.md) | soulreaper | 2 (Dead Terminal + Death Trap) | 1 / 2 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -172,6 +173,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-08-24 | [Dead Terminal](authors/soulreaper/6a77c5d1df981859694944b8/) | soulreaper |
 | 2026-08-24 | [muhemed crackme](authors/muhemed/6a7b401905a9e80a90724367/) | muhemed |
 | 2026-08-24 | [x or and add](authors/ray33ee/6a81d143184836c0dbe7d7e1/) | ray33ee |
 | 2026-08-24 | [Orrery](authors/svz/6a89cff9cab6678aefe9da94/) | SVz |

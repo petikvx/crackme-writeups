@@ -1,0 +1,21 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a7d0ce1184836c0dbe7d77e:
+    sha256: "3330d82db5f499ec0ea28fe7f037c016371a5982106e129b1333ab976313f1e5"
+    path: "authors/soulreaper/6a7d0ce1184836c0dbe7d77e/original/sysupdate"
+    title: "soulreaper's Death Trap"
+
+  6a77c5d1df981859694944b8:
+    sha256: "a0ca53ad836de59c992a2d3eeff7ac76ad8539eba960c9c3405b2b419e55301e"
+    path: "authors/soulreaper/6a77c5d1df981859694944b8/original/soulreaper_shell"
+    title: "soulreaper's Dead Terminal"
+
+by_sha256:
+  3330d82db5f499ec0ea28fe7f037c016371a5982106e129b1333ab976313f1e5:
+    id: 6a7d0ce1184836c0dbe7d77e
+    path: "authors/soulreaper/6a7d0ce1184836c0dbe7d77e/original/sysupdate"
+    page: https://crackmes.one/crackme/6a7d0ce1184836c0dbe7d77e
+  a0ca53ad836de59c992a2d3eeff7ac76ad8539eba960c9c3405b2b419e55301e:
+    id: 6a77c5d1df981859694944b8
+    path: "authors/soulreaper/6a77c5d1df981859694944b8/original/soulreaper_shell"
+    page: https://crackmes.one/crackme/6a77c5d1df981859694944b8
