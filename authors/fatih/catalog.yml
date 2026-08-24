@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a71d22605a9e80a90724279:
+    sha256: "35bc745fb9f41a1fe22f0dc473534c77c1612d74142bb057f1337c0310fea3b5"
+    path: "authors/fatih/6a71d22605a9e80a90724279/original/sbox_lab.exe"
+    title: "Fatih's S"
+
+by_sha256:
+  35bc745fb9f41a1fe22f0dc473534c77c1612d74142bb057f1337c0310fea3b5:
+    id: 6a71d22605a9e80a90724279
+    path: "authors/fatih/6a71d22605a9e80a90724279/original/sbox_lab.exe"
+    page: https://crackmes.one/crackme/6a71d22605a9e80a90724279

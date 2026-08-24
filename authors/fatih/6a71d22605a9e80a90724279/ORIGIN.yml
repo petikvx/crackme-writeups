@@ -1,0 +1,36 @@
+# Origine crackmes.one
+id: 6a71d22605a9e80a90724279
+
+urls:
+  page: https://crackmes.one/crackme/6a71d22605a9e80a90724279
+  download: https://crackmes.one/download/crackme/6a71d22605a9e80a90724279
+
+title: "Fatih's S-BOX"
+author_on_site: "Fatih"
+author_local: "fatih"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 3.0
+quality: 4.0
+size: "17.00 KB"
+published: "2026-08-04"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/sbox_lab.exe"
+  name: "sbox_lab.exe"
+  sha256: "35bc745fb9f41a1fe22f0dc473534c77c1612d74142bb057f1337c0310fea3b5"
+  md5: "1577ba0bec8b40e95717834d21fd3f26"
+  size_bytes: 17408
+
+status: solved
+solution_summary: "S-Box runtime + XOR 0xA5+i ; license NOKTOSLABKEY"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-24T16:55:00Z"
