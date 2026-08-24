@@ -161,6 +161,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [pitou](authors/pitou/README.md) | pitou | 1 (Evaisve) | 1 / 1 |
 | [fatih](authors/fatih/README.md) | Fatih | 1 (S-BOX) | 1 / 1 |
 | [vilxd](authors/vilxd/README.md) | vilxd | 1 (Crack my points) | 1 / 1 |
+| [mazzotti](authors/mazzotti/README.md) | Mazzotti | 1 (Getting started patch-me) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -178,6 +179,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-08-24 | [Getting started patch-me](authors/mazzotti/6a6ef28bdf981859694943d5/) | Mazzotti |
 | 2026-08-24 | [Crack my points](authors/vilxd/6a70bc1c08712c1a17cbac5a/) | vilxd |
 | 2026-08-24 | [S-BOX](authors/fatih/6a71d22605a9e80a90724279/) | Fatih |
 | 2026-08-24 | [Evaisve](authors/pitou/6a73209208712c1a17cbac90/) | pitou |

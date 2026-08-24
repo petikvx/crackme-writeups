@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a6ef28bdf981859694943d5:
+    sha256: "75474ed0a59dd35b6e2ce5f974097c29cb464c5937c6a9702bf96439049e09f7"
+    path: "authors/mazzotti/6a6ef28bdf981859694943d5/original/getting_started_patchme"
+    title: "Mazzotti's Getting started patch"
+
+by_sha256:
+  75474ed0a59dd35b6e2ce5f974097c29cb464c5937c6a9702bf96439049e09f7:
+    id: 6a6ef28bdf981859694943d5
+    path: "authors/mazzotti/6a6ef28bdf981859694943d5/original/getting_started_patchme"
+    page: https://crackmes.one/crackme/6a6ef28bdf981859694943d5

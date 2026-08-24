@@ -1,0 +1,36 @@
+# Origine crackmes.one
+id: 6a6ef28bdf981859694943d5
+
+urls:
+  page: https://crackmes.one/crackme/6a6ef28bdf981859694943d5
+  download: https://crackmes.one/download/crackme/6a6ef28bdf981859694943d5
+
+title: "Mazzotti's Getting started patch-me"
+author_on_site: "Mazzotti"
+author_local: "mazzotti"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 1.4
+quality: 4.7
+size: "14.13 KB"
+published: "2026-08-02"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/getting_started_patchme"
+  name: "getting_started_patchme"
+  sha256: "75474ed0a59dd35b6e2ce5f974097c29cb464c5937c6a9702bf96439049e09f7"
+  md5: "7a4b16c12974bc58457822b9c26deadf"
+  size_bytes: 14472
+
+status: solved
+solution_summary: "patch eb→je @0x1154 + serial 251949 → Good job patcher"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-24T18:11:00Z"
