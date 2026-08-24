@@ -1,0 +1,36 @@
+# Origine crackmes.one
+id: 6a77541805a9e80a907242fe
+
+urls:
+  page: https://crackmes.one/crackme/6a77541805a9e80a907242fe
+  download: https://crackmes.one/download/crackme/6a77541805a9e80a907242fe
+
+title: "toasterbirb's yap"
+author_on_site: "toasterbirb"
+author_local: "toasterbirb"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 2.8
+quality: 3.7
+size: "32.50 KB"
+published: "2026-08-08"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/yap.zip"
+  name: "yap.zip"
+  sha256: "4420c47f5c1ddaf46b9add156e6badc6ff66af3b0ea38a7c714b6e0d6acf1d82"
+  md5: "2c54c4fa3352186f8a23e1863b05f767"
+  size_bytes: 33283
+
+status: solved
+solution_summary: "Markov ordre 2 ; seed «Your prize:» → flag{shaney_would_have_liked_this}"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-24T15:12:00Z"
