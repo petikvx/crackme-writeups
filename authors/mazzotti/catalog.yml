@@ -5,8 +5,17 @@ by_id:
     path: "authors/mazzotti/6a6ef28bdf981859694943d5/original/getting_started_patchme"
     title: "Mazzotti's Getting started patch"
 
+  6a6e1787184836c0dbe7d625:
+    sha256: "33d5625c4fc89888e5813540a3b5fef7a8daaf77701114f4b261618fcd9d1bda"
+    path: "authors/mazzotti/6a6e1787184836c0dbe7d625/original/crackme"
+    title: "Mazzotti's Multi"
+
 by_sha256:
   75474ed0a59dd35b6e2ce5f974097c29cb464c5937c6a9702bf96439049e09f7:
     id: 6a6ef28bdf981859694943d5
     path: "authors/mazzotti/6a6ef28bdf981859694943d5/original/getting_started_patchme"
     page: https://crackmes.one/crackme/6a6ef28bdf981859694943d5
+  33d5625c4fc89888e5813540a3b5fef7a8daaf77701114f4b261618fcd9d1bda:
+    id: 6a6e1787184836c0dbe7d625
+    path: "authors/mazzotti/6a6e1787184836c0dbe7d625/original/crackme"
+    page: https://crackmes.one/crackme/6a6e1787184836c0dbe7d625

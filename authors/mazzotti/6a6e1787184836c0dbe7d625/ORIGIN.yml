@@ -1,0 +1,36 @@
+# Origine crackmes.one
+id: 6a6e1787184836c0dbe7d625
+
+urls:
+  page: https://crackmes.one/crackme/6a6e1787184836c0dbe7d625
+  download: https://crackmes.one/download/crackme/6a6e1787184836c0dbe7d625
+
+title: "Mazzotti's Multi-layer password check"
+author_on_site: "Mazzotti"
+author_local: "mazzotti"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 1.8
+quality: 5.0
+size: "14.25 KB"
+published: "2026-08-01"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme"
+  name: "crackme"
+  sha256: "33d5625c4fc89888e5813540a3b5fef7a8daaf77701114f4b261618fcd9d1bda"
+  md5: "e400aff8cf192de5a87b247958a302c6"
+  size_bytes: 14592
+
+status: solved
+solution_summary: "6× MAZZ repeated 3,7,12,1,15,7 times"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-24T18:14:00Z"
