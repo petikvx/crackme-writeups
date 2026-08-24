@@ -1,0 +1,36 @@
+# Origine crackmes.one
+id: 6a7590e8184836c0dbe7d6bc
+
+urls:
+  page: https://crackmes.one/crackme/6a7590e8184836c0dbe7d6bc
+  download: https://crackmes.one/download/crackme/6a7590e8184836c0dbe7d6bc
+
+title: "Jasper676767's I forgot my password!!!!"
+author_on_site: "Jasper676767"
+author_local: "jasper676767"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 2.8
+quality: 4.2
+size: "46.37 KB"
+published: "2026-08-07"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/myFirstCrackme"
+  name: "myFirstCrackme"
+  sha256: "ef99339f02df965ae5eabbf14011d2c4acc09abea16e7a817c617c9a88cc608a"
+  md5: "32d0f1e184f7d3a1597aeb463de8b9b8"
+  size_bytes: 47480
+
+status: solved
+solution_summary: "activation 6968271 (=generate_reference) ; FLAG{Yeah_You_Should_Start_Forgetting_Your_Password_…}"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-24T16:50:00Z"

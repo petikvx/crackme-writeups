@@ -5,8 +5,17 @@ by_id:
     path: "authors/jasper676767/6a76df14184836c0dbe7d6de/original/redLights"
     title: "Jasper676767's Red light"
 
+  6a7590e8184836c0dbe7d6bc:
+    sha256: "ef99339f02df965ae5eabbf14011d2c4acc09abea16e7a817c617c9a88cc608a"
+    path: "authors/jasper676767/6a7590e8184836c0dbe7d6bc/original/myFirstCrackme"
+    title: "Jasper676767's I forgot my password!!!!"
+
 by_sha256:
   c6dc1be3e9133cfe5625769bc516124d2283042bd7e4d0a6d90d29bd7712543c:
     id: 6a76df14184836c0dbe7d6de
     path: "authors/jasper676767/6a76df14184836c0dbe7d6de/original/redLights"
     page: https://crackmes.one/crackme/6a76df14184836c0dbe7d6de
+  ef99339f02df965ae5eabbf14011d2c4acc09abea16e7a817c617c9a88cc608a:
+    id: 6a7590e8184836c0dbe7d6bc
+    path: "authors/jasper676767/6a7590e8184836c0dbe7d6bc/original/myFirstCrackme"
+    page: https://crackmes.one/crackme/6a7590e8184836c0dbe7d6bc
