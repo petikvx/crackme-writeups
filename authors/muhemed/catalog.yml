@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a7b401905a9e80a90724367:
+    sha256: "8ade4ef11ff499fc504854ebcc18940774a461da9024b542248c83a74c96c8c1"
+    path: "authors/muhemed/6a7b401905a9e80a90724367/original/crackme"
+    title: "muhemed's muhemed crackme"
+
+by_sha256:
+  8ade4ef11ff499fc504854ebcc18940774a461da9024b542248c83a74c96c8c1:
+    id: 6a7b401905a9e80a90724367
+    path: "authors/muhemed/6a7b401905a9e80a90724367/original/crackme"
+    page: https://crackmes.one/crackme/6a7b401905a9e80a90724367

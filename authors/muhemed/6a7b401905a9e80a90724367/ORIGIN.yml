@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a7b401905a9e80a90724367
+
+urls:
+  page: https://crackmes.one/crackme/6a7b401905a9e80a90724367
+  download: https://crackmes.one/download/crackme/6a7b401905a9e80a90724367
+
+title: "muhemed's muhemed crackme"
+author_on_site: "muhemed"
+author_local: "muhemed"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 1.0
+quality: 3.0
+size: "17.19 KB"
+published: "2026-08-11"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme"
+  name: "crackme"
+  sha256: "8ade4ef11ff499fc504854ebcc18940774a461da9024b542248c83a74c96c8c1"
+  md5: "18794872c6db84d7a0626ffab4120c63"
+  size_bytes: 17600
+
+status: solved
+solution_summary: "strcmp stack immediates → password wvohXN8X7C14jrq1F*!j"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-24T15:01:00Z"
