@@ -1,0 +1,36 @@
+# Origine crackmes.one
+id: 6a6e0d3d91dca16886160b86
+
+urls:
+  page: https://crackmes.one/crackme/6a6e0d3d91dca16886160b86
+  download: https://crackmes.one/download/crackme/6a6e0d3d91dca16886160b86
+
+title: "vilxd's CRACK ME DLL"
+author_on_site: "vilxd"
+author_local: "vilxd"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 2.5
+quality: 2.5
+size: "11.12 KB"
+published: "2026-08-01"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crack_me_dll.zip"
+  name: "crack_me_dll.zip"
+  sha256: "9ec89c1f204d3674678fe1a5d5a95560abe5522882f41f01de9fdd9e1d51978d"
+  md5: "36de69969d30237b5fb5ec2de9bc7f26"
+  size_bytes: 11382
+
+status: solved
+solution_summary: "patch MyDLL mov 0x64→0x65 ; Your hp is:101"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-24T18:17:00Z"

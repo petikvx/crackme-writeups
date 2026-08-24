@@ -5,8 +5,17 @@ by_id:
     path: "authors/vilxd/6a70bc1c08712c1a17cbac5a/original/Crackme.zip"
     title: "vilxd's Crack my points (DLL + Loader)"
 
+  6a6e0d3d91dca16886160b86:
+    sha256: "9ec89c1f204d3674678fe1a5d5a95560abe5522882f41f01de9fdd9e1d51978d"
+    path: "authors/vilxd/6a6e0d3d91dca16886160b86/original/crack_me_dll.zip"
+    title: "vilxd's CRACK ME DLL"
+
 by_sha256:
   07ae9709141687e122f94427a38d9a12848fe6278d96bad5bafd93e65ce85f51:
     id: 6a70bc1c08712c1a17cbac5a
     path: "authors/vilxd/6a70bc1c08712c1a17cbac5a/original/Crackme.zip"
     page: https://crackmes.one/crackme/6a70bc1c08712c1a17cbac5a
+  9ec89c1f204d3674678fe1a5d5a95560abe5522882f41f01de9fdd9e1d51978d:
+    id: 6a6e0d3d91dca16886160b86
+    path: "authors/vilxd/6a6e0d3d91dca16886160b86/original/crack_me_dll.zip"
+    page: https://crackmes.one/crackme/6a6e0d3d91dca16886160b86
