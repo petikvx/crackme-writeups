@@ -87,6 +87,24 @@ Sorties typiques à côté du binaire (ex. `foo.exe.i64`, `foo.exe.i64.c`) : dé
 - Extraire le prédicat (formule, grille, bytecode, HWID…).
 - **Vérifier** : solveur + binaire live (Wine / **`xvfb-run -a wine`** sur serveur sans écran ; native pour ELF).
 - Ne pas inventer une solution non testée.
+- Si le binaire est **déjà chargé / actif dans x64dbg (ou x32dbg)** via MCP : voir **§ Debug live x64dbg** — approfondir le dynamique et enrichir le write-up **en cours**, ne pas attendre la fin du reverse.
+
+---
+
+## Debug live x64dbg / x32dbg (MCP)
+
+Serveurs MCP configurés dans `~/.grok/config.toml` : `x64dbg`, `x32dbg`.  
+Dès qu’on reverse un challenge PE (ou qu’on reprend une analyse) :
+
+1. **Interroger le debugger** (`search_tool` / outils MCP) : y a-t-il un processus / module actif qui correspond au binaire du challenge (`original/…`, même nom, chemin, ou image en mémoire) ?
+2. **Si oui (actif / attaché)** — **obligatoire** d’en profiter tout de suite :
+   - Approfondir le reverse **dynamique** : EIP/RIP, registres, pile, mémoire autour du prédicat, breakpoints sur cmp/call critiques, dump de buffers (name/serial, clé, état VM…).
+   - Croiser live ↔ statique (`decc` / `objdump` / strings) : confirmer ou corriger les hypothèses.
+   - **Mettre à jour le write-up / notes `analysis/` en cours** avec ce qu’on voit (adresses, valeurs, captures si fournies) — pas un paragraphe vague « vu sous x64dbg » à la fin.
+   - Préférer x64dbg pour PE64, x32dbg pour PE32 ; si le MCP timeout (hôte debug injoignable), le noter et continuer en statique / Wine.
+3. **Si non** : workflow habituel (statique + Wine / native). Ne pas exiger que l’utilisateur lance x64dbg ; ne pas inventer un état debugger.
+
+Le debug live **complète** la preuve Wine / solveur ; il ne remplace pas un solveur reproductible.
 
 ### 3. Livrables obligatoires pour un challenge « solved »
 
@@ -208,7 +226,8 @@ Quand `file` / DIE annonce **PyInstaller** (ou un « python frozen » PE/ELF) :
 ## Checklist « challenge terminé »
 
 - [ ] Solveur dans `tools/`, smoke-test OK  
-- [ ] Preuve live (Wine / native) OK  
+- [ ] Preuve live (Wine / native) OK ; si x64dbg/x32dbg MCP actif sur le binaire → observations dynamiques dans le write-up  
+
 - [ ] Write-up lisible avec **réponse en tête** (user d’exemple = **`petik`** si applicable)  
 - [ ] `ORIGIN.yml` : `status: solved` + summary  
 - [ ] `authors/<slug>/README.md` + README racine (compteur famille) à jour  
