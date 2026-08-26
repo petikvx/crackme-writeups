@@ -163,6 +163,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [vilxd](authors/vilxd/README.md) | vilxd | 2 (points + CRACK ME DLL) | 2 / 2 |
 | [mazzotti](authors/mazzotti/README.md) | Mazzotti | 2 (patch-me + multi-layer) | 2 / 2 |
 | [fourexp](authors/fourexp/README.md) | fourexp | 1 (fourexps hard crackme) | 1 / 1 |
+| [23x41](authors/23x41/README.md) | 23x41 | 1 (Secure Vault) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -180,6 +181,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-08-26 | [23x41's Secure Vault](authors/23x41/6a59d79ba27dfa335e4c8597/) | 23x41 |
 | 2026-08-24 | [fourexps hard crackme](authors/fourexp/6a6ca92708712c1a17cbac06/) | fourexp |
 | 2026-08-24 | [CRACK ME DLL](authors/vilxd/6a6e0d3d91dca16886160b86/) | vilxd |
 | 2026-08-24 | [Multi-layer password check](authors/mazzotti/6a6e1787184836c0dbe7d625/) | Mazzotti |

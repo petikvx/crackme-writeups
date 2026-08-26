@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a59d79ba27dfa335e4c8597:
+    sha256: "a2d496d8c402ec9c54ef12cc132ba30269044109811947a138d58b075dfb0e2a"
+    path: "authors/23x41/6a59d79ba27dfa335e4c8597/original/securevault"
+    title: "23x41's Secure Vault"
+
+by_sha256:
+  a2d496d8c402ec9c54ef12cc132ba30269044109811947a138d58b075dfb0e2a:
+    id: 6a59d79ba27dfa335e4c8597
+    path: "authors/23x41/6a59d79ba27dfa335e4c8597/original/securevault"
+    page: https://crackmes.one/crackme/6a59d79ba27dfa335e4c8597

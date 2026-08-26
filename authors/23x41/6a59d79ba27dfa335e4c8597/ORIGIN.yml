@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a59d79ba27dfa335e4c8597
+
+urls:
+  page: https://crackmes.one/crackme/6a59d79ba27dfa335e4c8597
+  download: https://crackmes.one/download/crackme/6a59d79ba27dfa335e4c8597
+
+title: "23x41's Secure Vault"
+author_on_site: "23x41"
+author_local: "23x41"
+
+platform: "Unix/linux etc."
+arch: "RISC-V"
+language: "C/C++"
+
+difficulty: 2.0
+quality: 4.0
+size: "540.46 KB"
+published: "2026-07-17"
+
+series_index: null
+local_slug: securevault
+
+binary:
+  path: "original/securevault"
+  name: "securevault"
+  sha256: "a2d496d8c402ec9c54ef12cc132ba30269044109811947a138d58b075dfb0e2a"
+  md5: "c0baceff7e6010d9ae25d543bfeee1dc"
+  size_bytes: 553432
+
+status: solved
+solution_summary: "ret2win RISC-V : overflow read@vuln offset 72 → win@0x10476 → FLAG{0x8A7_RISCV_ROP_WIN}"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-26T05:53:29Z"
