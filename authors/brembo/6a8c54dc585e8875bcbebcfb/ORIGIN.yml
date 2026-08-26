@@ -29,8 +29,11 @@ binary:
   size_bytes: 1761280
 
 status: pending
+# PARKED 2026-08-26 — y revenir (préimage SHA-256)
 parked: true
-solution_summary: "PARKED — UPX+Go ; validKey=sha256(key).hex==112c2add…5a0465 (préimage absente rockyou) ; payload=29o XOR key ; anti-debug bloque Wine"
+parked_at: "2026-08-26"
+parked_reason: "préimage SHA-256 112c2add… ; reverse+x64dbg XOR OK (petik) ; rockyou×rules / L≤4 / digits L≤8 miss"
+solution_summary: "PARKED — UPX+Go1.27 ; validKey=sha256→112c2add… ; payload 29o XOR ; self-hash AAAAs skip ; x64dbg flow OK ; préimage TBD"
 
 download:
   zip_password: crackmes.one

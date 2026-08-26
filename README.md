@@ -175,7 +175,7 @@ Challenges `status: pending` volontairement suspendus (`parked: true` dans `ORIG
 | Crackme | Auteur | Reprendre |
 |---|---|---|
 | [HydraVault](authors/hydra14212/6a898e1a48cda5a2aaa3dad3/) | Hydra14212 | dump RPM Windows (pas de keygen offline) / Wine |
-| [license-cli](authors/brembo/6a8c54dc585e8875bcbebcfb/) | brembo | préimage SHA-256 `112c2add…` (+ Wine anti-debug) |
+| [license-cli](authors/brembo/6a8c54dc585e8875bcbebcfb/) | brembo | préimage SHA-256 `112c2add…` (x64dbg XOR OK ; rockyou×rules miss) |
 | [bugger_v.7](authors/crackmes-de/5ab77f6633c5d40ad448cc25/) | crackmes.de / shism | clé RC6 + wake shell dormant |
 | [meloquynthe](authors/crackmes-de/5ab77f5933c5d40ad448c46f/) | crackmes.de / meat | prédicat name→serial (après UPX) |
 | [MCM 3.0 REWORK](authors/cracknotme/698fb9e9a79466462e957bec/) | CrackNotMe | mini-VM + checksum `0x762` |
