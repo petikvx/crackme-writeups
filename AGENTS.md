@@ -61,7 +61,7 @@ Ne pas re-scaffolder un challenge `status: solved` sans demande explicite.
 file original/*
 diec original/* 2>/dev/null | head
 strings -n 6 original/* | head -80
-# PE : objdump -d -M intel, wine (console), ilspycmd si .NET
+# PE : objdump -d -M intel, wine (console), decompiledotnet / ilspycmd si .NET
 # ELF : readelf, objdump, gdb
 # PyInstaller (PE/ELF « python ») : voir § Python / PyInstaller ci-dessous
 ```
@@ -69,18 +69,21 @@ strings -n 6 original/* | head -80
 Identifier : plateforme, arch, compiler, UI (console / GUI), type de prédicat  
 (serial, maze, HWID, mini-VM, quiz…).
 
-Si besoin de **sources lisibles** du binaire (hors Python) — wrappers IDA dans `~/.bash_aliases` :
+Si besoin de **sources lisibles** du binaire (hors Python) — wrappers dans `~/.bash_aliases` :
 
 ```bash
 # Shell interactif (charge .bash_aliases) — IDA_HOME/idat
 decasm original/<binaire>   # idat -B            → listing .asm (+ .i64)
 decc   original/<binaire>   # idat -A -Sproduce_c_file.py → <idb>.c (Hex-Rays)
+# .NET : décompilation C# via ilspycmd (préférer ça plutôt que d’appeler ilspycmd à la main)
+decompiledotnet original/<assembly.exe>   # → original/<stem>-src/ (projet C#)
 # depuis un shell non-interactif (agent) :
 bash -ic 'decc original/<binaire>'
 bash -ic 'decasm original/<binaire>'
+bash -ic 'decompiledotnet original/<assembly.exe>'
 ```
 
-Sorties typiques à côté du binaire (ex. `foo.exe.i64`, `foo.exe.i64.c`) : déplacer / copier sous `analysis/` si utile ; **`*.i64` est gitignoré**, le `.c` peut aller dans le dépôt. Documenter la commande dans le write-up.
+Sorties typiques à côté du binaire (ex. `foo.exe.i64`, `foo.exe.i64.c`, `foo-src/`) : déplacer / copier sous `analysis/` ou garder en `original/source/` / `original/<stem>-src/` si utile ; **`*.i64` est gitignoré**, le `.c` / sources C# peuvent aller dans le dépôt. Documenter la commande dans le write-up.
 
 ### 2. Reverse jusqu’à une réponse vérifiable
 
@@ -161,6 +164,17 @@ git commit -m "message clair (auteur + challenge + idée de la soluce)"
 
 ## Conventions techniques
 
+### Outils : CLI d’abord
+
+Pour reverse / preuve / solveurs dans ce dépôt, **préférer les outils en ligne de commande** (agent, serveur headless, scripts reproductibles) :
+
+- OK : `file`, `diec`, `strings`, `objdump`, `readelf`, `gdb`, `Wine`/`xvfb-run`, `ilspycmd` / `decompiledotnet`, `GoReSym`, `pycdc`, `yara`/`yarac`, `tools/upx-3.96`, `tools/pyinstxtractor.py`, IDA **headless** (`decc` / `decasm`)
+- Éviter d’**exiger** des GUI (Ghidra/Cutter/IDA interactive, etc.) pour un challenge « solved » — utiles seulement si l’utilisateur les pilote (ex. x64dbg MCP déjà actif)
+
+`scripts/install-re-tools.sh` ne pose que du CLI (+ snap `glow` pour le markdown terminal).
+
+**YARA** : compilé depuis les sources (VirusTotal, même idée que `postinstall` dans `~/.bash_aliases`) → tree `~/yara` + symlinks `/usr/local/bin/yara` / `yarac`. **Pas** le paquet apt `yara`, **pas** `yara-python` pour la CLI.
+
 ### Noms
 
 | Type | Convention |
@@ -189,13 +203,41 @@ Exceptions seulement si la contrainte du binaire **interdit** `petik` (longueur 
   xvfb-run -a wineconsole original/<exe>   # si console
   ```
   (`scripts/install-re-tools.sh` installe `xvfb` ; check : `xvfb-run`, `Xvfb`.)
-- `.NET` : `ilspycmd` → idéalement `original/source/` ; documenter dans le write-up.
+- **UPX** (si `file` / DIE / sections `UPX0`/`UPX1`) : utilitaire repo-wide **`tools/upx-3.96`** — ne pas re-télécharger UPX, ne pas unpacker dans `original/` :
+  ```bash
+  ./tools/upx-3.96 -d -o analysis/<name>.unpacked.exe original/<exe>
+  # ou in-place sur une copie :
+  cp original/<exe> analysis/<name>.unpacked.exe
+  ./tools/upx-3.96 -d analysis/<name>.unpacked.exe
+  ```
+  Reverse sur l’unpacké sous `analysis/` ; preuve live = binaire d’origine (souvent encore packé).
+- `.NET` : wrapper shell **`decompiledotnet`** (`~/.bash_aliases`, s’appuie sur `ilspycmd -p`) — décompile tranquillement un crackme .NET en projet C# :
+  ```bash
+  # fichier → crée <stem>-src/ à côté, laisse l’exe en place
+  bash -ic 'decompiledotnet original/<assembly.exe>'
+  # dossier → chaque *.exe du dossier (mode historique ; déplace l’exe en .ex_ dans le sous-dossier)
+  bash -ic 'decompiledotnet analysis/some-dir/'
+  ```
+  Sortie typique : `original/<stem>-src/` (ou déplacer / renommer en `original/source/`). Documenter dans le write-up. Éviter d’appeler `ilspycmd` à la main si `decompiledotnet` est dispo.
 - MessageBox Wine : parfois `hWnd` invalide → recon avec `hWnd=NULL` si besoin (cas déjà vus timotei).
 - Dumps C/asm : fonctions shell `decc` / `decasm` (`~/.bash_aliases` → `idat`) ; via `bash -ic 'decc …'` si le shell agent n’est pas interactif. Sinon export IDA manuel vers `analysis/`.
 
 ### Analyse ELF
 
 - Native Linux : `file`, `readelf`, `objdump`, `gdb`, NASM/FASM pour recon.
+
+### Go
+
+Quand `file` / DIE annonce un binaire **Go** (souvent gros, statique, parfois stripé) :
+
+```bash
+go version -m original/<bin>     # buildinfo / modules (si non stripé)
+GoReSym original/<bin>           # pclntab / symboles / types (strip OK)
+# alias minuscule aussi installé :
+goresym original/<bin>
+```
+
+`GoReSym` + `golang-go` : via `scripts/install-re-tools.sh`.
 
 ### Python / PyInstaller
 
@@ -207,10 +249,24 @@ Quand `file` / DIE annonce **PyInstaller** (ou un « python frozen » PE/ELF) :
    # sortie typique : <exe>_extracted/ (pyc, PYZ, manifest…)
    ```
    Garder l’extrait sous `analysis/` (ne pas polluer `original/`).
-2. Décompiler les `.pyc` (ex. `pycdc` / `decompyle3` / `uncompyle6` selon dispo) → idéalement `original/source/` ou `analysis/source/`.
+2. Décompiler les `.pyc` avec **`pycdc`** (installé par `scripts/install-re-tools.sh`) :
+   ```bash
+   pycdc analysis/<exe>_extracted/<module>.pyc > analysis/source/<module>.py
+   # disasm bytecode si besoin :
+   pycdas analysis/<exe>_extracted/<module>.pyc
+   ```
+   Repli : `decompyle3` / `uncompyle6` si `pycdc` absent. Sortie idéalement `original/source/` ou `analysis/source/`.
 3. Reverse / solveur comme d’habitude ; preuve live = binaire d’origine (Wine ou native).
 
-`tools/pyinstxtractor.py` = utilitaire **repo-wide** (pas un solveur de challenge). Les solveurs restent dans `authors/<slug>/<id>/tools/`.
+Utilitaires **repo-wide** (pas des solveurs de challenge) :
+
+| Outil | Rôle |
+|---|---|
+| `tools/upx-3.96` | unpack UPX 3.96 (PE/ELF) → sortie sous `analysis/` |
+| `tools/pyinstxtractor.py` | extract PyInstaller |
+| `pycdc` / `pycdas` | décompile / disasm `.pyc` (via `install-re-tools.sh`) |
+| `GoReSym` | symboles Go / pclntab (via `install-re-tools.sh`) |
+Les solveurs restent dans `authors/<slug>/<id>/tools/`.
 
 ### Ce qu’il ne faut pas faire
 
@@ -247,5 +303,10 @@ Quand `file` / DIE annonce **PyInstaller** (ou un « python frozen » PE/ELF) :
 | HWID .NET keygen | `authors/plikan/…` |
 | Série ELF/PE + recon asm | `authors/timotei/` |
 | Ajout crackme | `scripts/add-crackme.sh`, section README racine |
+| Unpack UPX | `tools/upx-3.96` → `analysis/*.unpacked.exe` |
+| Extract PyInstaller | `tools/pyinstxtractor.py` puis `pycdc` |
+| Décompile .NET | `decompiledotnet` (`~/.bash_aliases` → `ilspycmd -p`) |
+| Go strip / pclntab | `GoReSym` / `go version -m` |
+| YARA (CLI) | build `install-re-tools.sh` / `postinstall` → `yara` `yarac` |
 
 Quand l’utilisateur dit « on continue » avec une URL `add-crackme` réussie : **enchaîner reverse → solveur → write-up → index** sans redemander la structure. **Pas** de commit/push sauf s’il le demande ensuite.
