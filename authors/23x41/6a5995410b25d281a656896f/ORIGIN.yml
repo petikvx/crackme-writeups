@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a5995410b25d281a656896f
+
+urls:
+  page: https://crackmes.one/crackme/6a5995410b25d281a656896f
+  download: https://crackmes.one/download/crackme/6a5995410b25d281a656896f
+
+title: "23x41's DPRK Loyalty Evaluation"
+author_on_site: "23x41"
+author_local: "23x41"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 1.3
+quality: 3.0
+size: "37.11 KB"
+published: "2026-07-17"
+
+series_index: null
+local_slug: juche-loyalty
+
+binary:
+  path: "original/juche_loyalty_test"
+  name: "juche_loyalty_test"
+  sha256: "f2df11e5e1b394da5a7c66a67e58970d4c89f3622f07827464114fb85813616f"
+  md5: "e9fae547884e40309cdceb368c25f517"
+  size_bytes: 38000
+
+status: solved
+solution_summary: "format-string leak %32/%33$p → 38 + Mount Paektu ; Q2 cassé (cin>>) → ret2grant@0x4011a6 → FLAG{0x8A7_JUCHE_FORMAT_STRING_MASTERY}"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-26T05:59:57Z"

@@ -9,6 +9,7 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml) (id ↔ sha256).
 | # | Titre | ID | Plateforme | Solution |
 |---|---|---|---|---|
 | 1 | [Secure Vault](6a59d79ba27dfa335e4c8597/) | [`6a59d79b…`](https://crackmes.one/crackme/6a59d79ba27dfa335e4c8597) | ELF64 RISC-V static | ret2win `win@0x10476` → `FLAG{0x8A7_RISCV_ROP_WIN}` (statique) |
+| 2 | [DPRK Loyalty Evaluation](6a5995410b25d281a656896f/) | [`6a599541…`](https://crackmes.one/crackme/6a5995410b25d281a656896f) | ELF64 x86-64 C++ | format leak + ret2grant → `FLAG{0x8A7_JUCHE_FORMAT_STRING_MASTERY}` |
 
 ## Arborescence d’un challenge
 

@@ -5,8 +5,17 @@ by_id:
     path: "authors/23x41/6a59d79ba27dfa335e4c8597/original/securevault"
     title: "23x41's Secure Vault"
 
+  6a5995410b25d281a656896f:
+    sha256: "f2df11e5e1b394da5a7c66a67e58970d4c89f3622f07827464114fb85813616f"
+    path: "authors/23x41/6a5995410b25d281a656896f/original/juche_loyalty_test"
+    title: "23x41's DPRK Loyalty Evaluation"
+
 by_sha256:
   a2d496d8c402ec9c54ef12cc132ba30269044109811947a138d58b075dfb0e2a:
     id: 6a59d79ba27dfa335e4c8597
     path: "authors/23x41/6a59d79ba27dfa335e4c8597/original/securevault"
     page: https://crackmes.one/crackme/6a59d79ba27dfa335e4c8597
+  f2df11e5e1b394da5a7c66a67e58970d4c89f3622f07827464114fb85813616f:
+    id: 6a5995410b25d281a656896f
+    path: "authors/23x41/6a5995410b25d281a656896f/original/juche_loyalty_test"
+    page: https://crackmes.one/crackme/6a5995410b25d281a656896f
