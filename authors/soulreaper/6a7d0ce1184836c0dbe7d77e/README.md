@@ -1,30 +1,31 @@
-# soulreaper's Death Trap
+# soulreaper — Death Trap *(PARKED)*
 
-| | |
+> **Origine** : [`ORIGIN.yml`](ORIGIN.yml) · [crackmes.one](https://crackmes.one/crackme/6a7d0ce1184836c0dbe7d77e) · id `6a7d0ce1184836c0dbe7d77e`
+
+ELF64 `sysupdate` (PIE, stripped, GCC 15). Prompt serial console.  
+**Status : parked** (2026-08-26) — scaffoldé seulement ; reverse / solveur / write-up **non** livrés.
+
+Dossier : `authors/soulreaper/6a7d0ce1184836c0dbe7d77e/` — [famille](../README.md) · [repo](../../../README.md).
+
+| Fichier | Rôle |
 |---|---|
-| **ID** | [`6a7d0ce1184836c0dbe7d77e`](https://crackmes.one/crackme/6a7d0ce1184836c0dbe7d77e) |
-| **Auteur (site)** | soulreaper |
-| **Auteur (local)** | soulreaper |
-| **SHA-256** | `3330d82db5f499ec0ea28fe7f037c016371a5982106e129b1333ab976313f1e5` |
+| [`sysupdate`](original/sysupdate) | binaire d’origine |
 
-## Origine
+## Bloquant / reprise
 
-- Page : https://crackmes.one/crackme/6a7d0ce1184836c0dbe7d77e
-- Download : https://crackmes.one/download/crackme/6a7d0ce1184836c0dbe7d77e
-- ZIP password : `crackmes.one`
+Piste notée (non prouvée ici) : **double-fork** + vérif type **hash MITM** (IPC parent/enfant).
 
-Voir [`ORIGIN.yml`](ORIGIN.yml).
+Strings utiles :
 
-## Contenu
-
-```
-original/   # binaire d'origine
-analysis/   # IDA, screenshots
-tools/      # solveur, recon
+```text
+Enter serial:
+Valid serial / Invalid serial
+Join us : https://t.me/+blTRfHi8oKJiN2E0
+You Soul Has Been Taken By The Souls Reaper
 ```
 
-## Status
+## Reprendre
 
-- [ ] reverse
-- [ ] write-up
-- [ ] solveur
+1. Reverse `sysupdate` (fork/waitpid, prédicat serial).
+2. Solveur + preuve native.
+3. Write-up → `status: solved` + index.

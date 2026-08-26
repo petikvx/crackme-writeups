@@ -29,7 +29,11 @@ binary:
   size_bytes: 14464
 
 status: pending
-solution_summary: ""
+# PARKED 2026-08-26 — y revenir (pas abandonné)
+parked: true
+parked_at: "2026-08-26"
+parked_reason: "scaffold only ; piste double-fork / hash MITM ; pas de solveur ni write-up"
+solution_summary: "PARKED — ELF64 sysupdate serial ; reverse TBD (fork/MITM)"
 
 download:
   zip_password: crackmes.one

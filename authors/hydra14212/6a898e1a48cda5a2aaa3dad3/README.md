@@ -23,9 +23,11 @@ Patcher le jump = hors-sujet (auteur le dit). Keygen « fidèle » ou émulation
 
 ## Pourquoi parked ici
 
-1. **Pas de formule offline `(C,T,epoch) → KEY`** : le bloc attendu dépend d’entropie timing (QPC/RDTSC) ; mêmes C/T affichés ≠ même expected block (prouvé dans le write-up skalvin).
-2. Solution pratique publiée : **`ReadProcessMemory`** sur le processus enfant `hv*.exe`, lire 16 octets à `CHALLENGE_copy + 8`.
-3. Wine sur ce serveur : pas de bannière / prompt utiles (stub + guardian / anti-debug).
+1. **Pas de formule offline `(C,T,epoch) → KEY`** : entropie timing (QPC/RDTSC).
+2. **Dump RPM live OK partiellement** (2026-08-26) : marker `CHALLENGE` → 16 o à `+8` ; le vault répond **`So close! Check the last 4 bytes...`** → **12/16 bons**, les 4 derniers faux. Variantes testées sans win : raw (A), last4-bswap (B), `AES_dec(global 0x2F1F0)` (C), graft last4 global (D).
+3. **x64dbg attach** sur `hv*` → anti-debug / mort du process. Dump **sans** debugger (`tools/hydra_dump_type.py`).
+4. Wine : pas de session utile.
+5. Inner PE extrait : `analysis/hv_inner.exe` (cipher stub 3 passes).
 
 ## Architecture (résumé)
 
@@ -49,9 +51,10 @@ Honeypots : exports / strings `VerifyLicenseKey`, `ACCESS GRANTED` en clair ≠ 
 
 ## Reprendre
 
-- Machine **Windows** admin : `analysis/skalvin-writeup/hydra_win.py` (ou réimplémenter le scan RPM).
-- Offline long : unpack inner, rejouer AES/VM sous Unicorn avec RDTSC/QPC gelés (piste skalvin).
-- Puis `status: solved` + solveur repo + preuve live.
+1. Comprendre les **4 derniers octets** (layout stack / transform / packing AES custom) — c’est le vrai reste.
+2. Windows admin, vault **neuf** `fail=0`, `HYDRA_VAULT_NO_SELFDBG=1`, dump atomique : `tools/hydra_dump_type.py`.
+3. Ne pas attacher x64dbg sur `hv*`.
+4. `status: solved` + preuve `ACCESS GRANTED` + screenshot.
 
 ## Référence
 

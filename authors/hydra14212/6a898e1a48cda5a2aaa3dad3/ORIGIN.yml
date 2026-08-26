@@ -30,7 +30,9 @@ binary:
 
 status: pending
 parked: true
-solution_summary: "PARKED — packer+dual VM+AES ; clé attendue en RAM (pas de keygen offline) ; preuve live Windows-only ; Wine sans sortie utile"
+parked_at: "2026-08-26"
+parked_reason: "RPM dump stack+8: 12/16 octets OK ('So close last 4 bytes') ; last4 TBD (bswap/AES_dec/graft miss) ; x64dbg attach tue le vault"
+solution_summary: "PARKED — dump RPM OK (12/16) ; last 4 bytes encore faux ; pas de keygen offline ; tools/hydra_dump_type.py A|B|C|D"
 
 download:
   zip_password: crackmes.one

@@ -19,16 +19,12 @@ HYDRA_VAULT_NO_SELFDBG=1 HYDRA_VAULT_DEBUG=1 xvfb-run -a wine original/HydraVaul
 
 ## Solution connue (Windows)
 
-Voir `skalvin-writeup/` :
+Voir `skalvin-writeup/` + `tools/hydra_dump_type.py`.
 
-1. Launch + env `HYDRA_VAULT_NO_SELFDBG=1`
-2. Lire CHALLENGE à l’écran
-3. `OpenProcess` sur `hv*.exe`
-4. Scan mémoire : marker = bytes(CHALLENGE)
-5. KEY = 16 octets à `addr+8`
-6. `SendInput` de la KEY hex
-
-Verdict : `pcmpeqb` expected vs transform(user) ; win magic `0x13371337`.
+**Session 2026-08-26** : dump `CHALLENGE+8` reproductible, mais le vault répond toujours
+`So close! Check the last 4 bytes...` → **12/16 octets corrects**, last4 faux
+(A raw, B bswap, C AES_dec(0x2F1F0), D graft : miss). Inner extrait : `hv_inner.exe`.
+x64dbg attach sur `hv*` = mort. Parked sur ce point.
 
 ## Crypto (d’après write-up skalvin)
 
