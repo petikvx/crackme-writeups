@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a597d7f0691b3daf2a3f2a0
+
+urls:
+  page: https://crackmes.one/crackme/6a597d7f0691b3daf2a3f2a0
+  download: https://crackmes.one/download/crackme/6a597d7f0691b3daf2a3f2a0
+
+title: "23x41's 0x8A7 - Maze"
+author_on_site: "23x41"
+author_local: "23x41"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 1.6
+quality: 2.5
+size: "19.33 KB"
+published: "2026-07-17"
+
+series_index: null
+local_slug: riddler-maze
+
+binary:
+  path: "original/riddler_maze"
+  name: "riddler_maze"
+  sha256: "2ff4a9c69fd2cb5ee7ea295c389f64f6e4e29c42369344a7d67003f09efd5afa"
+  md5: "55595b7917610824cd7e14aa0ac9eb2b"
+  size_bytes: 19792
+
+status: solved
+solution_summary: "write(64) leak canary+PIE → overflow check_password ret2 open_batcave@+0x11b9 → FLAG{0x8A7_P1E_L34K_4SLR_BYP4SS}"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-26T06:06:28Z"
