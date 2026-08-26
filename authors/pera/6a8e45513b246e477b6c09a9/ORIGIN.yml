@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a8e45513b246e477b6c09a9
+
+urls:
+  page: https://crackmes.one/crackme/6a8e45513b246e477b6c09a9
+  download: https://crackmes.one/download/crackme/6a8e45513b246e477b6c09a9
+
+title: "Pera's Simple keygenme for beginners"
+author_on_site: "Pera"
+author_local: "pera"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 1.0
+quality: 4.0
+size: "137.00 KB"
+published: "2026-08-26"
+
+series_index: null
+local_slug: simple-keygenme
+
+binary:
+  path: "original/crack.exe"
+  name: "crack.exe"
+  sha256: "4b6ee3f658260683ec2ae4cc129f7adcceafe630f36860c1908425430e4a5386"
+  md5: "74ed631afd544ca234f0e750b7e70650"
+  size_bytes: 140288
+
+status: solved
+solution_summary: "key = first * (sum_chars ^ 3) ; petik→60704 (ABC→12805)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-26T10:00:05Z"

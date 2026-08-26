@@ -164,6 +164,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [mazzotti](authors/mazzotti/README.md) | Mazzotti | 2 (patch-me + multi-layer) | 2 / 2 |
 | [fourexp](authors/fourexp/README.md) | fourexp | 1 (fourexps hard crackme) | 1 / 1 |
 | [23x41](authors/23x41/README.md) | 23x41 | 3 (Secure Vault + DPRK + Maze) | 3 / 3 |
+| [pera](authors/pera/README.md) | Pera | 1 (Simple keygenme) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -181,6 +182,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-08-26 | [Simple keygenme for beginners](authors/pera/6a8e45513b246e477b6c09a9/) | Pera |
 | 2026-08-26 | [23x41's 0x8A7 Maze](authors/23x41/6a597d7f0691b3daf2a3f2a0/) | 23x41 |
 | 2026-08-26 | [23x41's DPRK Loyalty Evaluation](authors/23x41/6a5995410b25d281a656896f/) | 23x41 |
 | 2026-08-26 | [23x41's Secure Vault](authors/23x41/6a59d79ba27dfa335e4c8597/) | 23x41 |

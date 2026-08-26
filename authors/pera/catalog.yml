@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a8e45513b246e477b6c09a9:
+    sha256: "4b6ee3f658260683ec2ae4cc129f7adcceafe630f36860c1908425430e4a5386"
+    path: "authors/pera/6a8e45513b246e477b6c09a9/original/crack.exe"
+    title: "Pera's Simple keygenme for beginners"
+
+by_sha256:
+  4b6ee3f658260683ec2ae4cc129f7adcceafe630f36860c1908425430e4a5386:
+    id: 6a8e45513b246e477b6c09a9
+    path: "authors/pera/6a8e45513b246e477b6c09a9/original/crack.exe"
+    page: https://crackmes.one/crackme/6a8e45513b246e477b6c09a9
