@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a8c54dc585e8875bcbebcfb:
+    sha256: "b4928ba2591ffd732bed5ea9ed946ab4c5c7fa2745e62bbd500c3969a366e663"
+    path: "authors/brembo/6a8c54dc585e8875bcbebcfb/original/license-cli.exe"
+    title: "brembo's license"
+
+by_sha256:
+  b4928ba2591ffd732bed5ea9ed946ab4c5c7fa2745e62bbd500c3969a366e663:
+    id: 6a8c54dc585e8875bcbebcfb
+    path: "authors/brembo/6a8c54dc585e8875bcbebcfb/original/license-cli.exe"
+    page: https://crackmes.one/crackme/6a8c54dc585e8875bcbebcfb

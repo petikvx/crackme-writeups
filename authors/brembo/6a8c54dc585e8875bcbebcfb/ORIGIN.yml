@@ -1,0 +1,37 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a8c54dc585e8875bcbebcfb
+
+urls:
+  page: https://crackmes.one/crackme/6a8c54dc585e8875bcbebcfb
+  download: https://crackmes.one/download/crackme/6a8c54dc585e8875bcbebcfb
+
+title: "brembo's license-cli"
+author_on_site: "brembo"
+author_local: "brembo"
+
+platform: "Windows"
+arch: "x86-64"
+language: "Go"
+
+difficulty: 2.5
+quality: 3.5
+size: "1.68 MB"
+published: "2026-08-24"
+
+series_index: null
+local_slug: license-cli
+
+binary:
+  path: "original/license-cli.exe"
+  name: "license-cli.exe"
+  sha256: "b4928ba2591ffd732bed5ea9ed946ab4c5c7fa2745e62bbd500c3969a366e663"
+  md5: "467e345e087a32334ea53bbee8a859be"
+  size_bytes: 1761280
+
+status: pending
+parked: true
+solution_summary: "PARKED — UPX+Go ; validKey=sha256(key).hex==112c2add…5a0465 (préimage absente rockyou) ; payload=29o XOR key ; anti-debug bloque Wine"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-26T10:04:17Z"

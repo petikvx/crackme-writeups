@@ -1,0 +1,37 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a898e1a48cda5a2aaa3dad3
+
+urls:
+  page: https://crackmes.one/crackme/6a898e1a48cda5a2aaa3dad3
+  download: https://crackmes.one/download/crackme/6a898e1a48cda5a2aaa3dad3
+
+title: "Hydra14212's HydraVault"
+author_on_site: "Hydra14212"
+author_local: "hydra14212"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 3.7
+quality: 4.0
+size: "247.50 KB"
+published: "2026-08-22"
+
+series_index: null
+local_slug: hydravault
+
+binary:
+  path: "original/HydraVault.exe"
+  name: "HydraVault.exe"
+  sha256: "c382f6656864f0d738e92af6a41dfdc7034bb63deaa5527a1be784abc29d11f5"
+  md5: "fe97cc401fcd08a8fa858d11539b63ff"
+  size_bytes: 253440
+
+status: pending
+parked: true
+solution_summary: "PARKED — packer+dual VM+AES ; clé attendue en RAM (pas de keygen offline) ; preuve live Windows-only ; Wine sans sortie utile"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-26T10:29:00Z"

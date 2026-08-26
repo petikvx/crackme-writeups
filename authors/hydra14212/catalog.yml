@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a898e1a48cda5a2aaa3dad3:
+    sha256: "c382f6656864f0d738e92af6a41dfdc7034bb63deaa5527a1be784abc29d11f5"
+    path: "authors/hydra14212/6a898e1a48cda5a2aaa3dad3/original/HydraVault.exe"
+    title: "Hydra14212's HydraVault"
+
+by_sha256:
+  c382f6656864f0d738e92af6a41dfdc7034bb63deaa5527a1be784abc29d11f5:
+    id: 6a898e1a48cda5a2aaa3dad3
+    path: "authors/hydra14212/6a898e1a48cda5a2aaa3dad3/original/HydraVault.exe"
+    page: https://crackmes.one/crackme/6a898e1a48cda5a2aaa3dad3
