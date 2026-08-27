@@ -1,0 +1,105 @@
+[sub_140003A10 (banner)]
+========================================================================
+
+
+[sub_140004470 (banner)]
+                   CrackMe For Middles - Extra #777                     
+
+
+[sub_140003B10/sub_140007850 (banner)]
+                     🎰 THE STOCHASTIC CASINO 🎰                        
+
+
+[sub_140003FB0 (banner)]
+                  [+] AI-Proof Cyber-Slot Challenge [+]                 
+
+
+[sub_140004250 (banner)]
+        [+] Inspired by: https://blog.quarkslab.com/defeating-ai-assisted-reverse-engineering-or-at-least-trying-to.html [+]
+
+
+[sub_140004570 (banner)]
+                        --> pwned.space <--                             
+
+
+[sub_140004730 (banner)]
+========================================================================
+
+
+
+[sub_1400064A0 (prompt / rules)]
+[*] Welcome to CFM #777 - The Stochastic Casino.
+
+
+[sub_140003EB0 (banner)]
+[*] Rules: 7 Reels, 77 Stochastic Cascades, 0 AI Hallucinations allowed.
+
+
+[sub_140004670 (input prompt)]
+[?] Insert VIP Pass (50 characters): 
+
+[sub_140006210 (phase)]
+[*] Reel Sensor Matrix Initializing...
+
+
+[sub_140006B90 (phase)]
+[*] Slot Phase 1: Stochastic Reel Priming (Rounds 01-11)...
+
+
+[sub_140006F50 (phase)]
+[*] Slot Phase 2: Quantum Fluctuation Mix (Rounds 12-22)...
+
+
+[sub_140007620 (phase)]
+[*] Slot Phase 3: Non-Linear Cascade Dispersion (Rounds 23-33)...
+
+
+[sub_140003BC0 (phase)]
+[*] Slot Phase 4: ARX Differential Lattice (Rounds 34-44)...
+
+
+[sub_140007310 (phase)]
+[*] Slot Phase 5: S-Box Permutation Avalanche (Rounds 45-55)...
+
+
+[sub_140004170 (phase)]
+[*] Slot Phase 6: Higher-Order Diffusion (Rounds 56-66)...
+
+
+[sub_140003CB0 (phase)]
+[*] Slot Phase 7: Stochastic Equilibrium (Rounds 67-77)...
+
+
+[sub_140006630 (success / reveal)]
+
+[*] Checking 7-7-7 Alignment across all Reels...
+
+
+
+[sub_140006960 (fail)]
+
+[-] 🎰 [LOSS] The Reels did not align. 0 Coins won.
+
+
+[sub_140006030 (fail)]
+[-] Better luck next time!
+
+
+[sub_1400040B0 (fail / abort branch)]
+Anomalous Quantum Variance Detected.
+
+
+[inline (bye / footer)]
+
+Press Enter to exit...
+
+[sub_140003D90 (bad length)]
+
+[-] Invalid VIP pass length! Exactly 50 characters required.
+
+
+[sub_140005E00 (bad length)]
+Press Enter to exit...
+
+[argc>999 honeypot (FAKE)]
+pwn{777_c4s1n0_j4ckp0t_ez_w1n}  [FAKE — honeypot, not a real win]

@@ -1,0 +1,38 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a8f5412dbb3353b753965d9
+
+urls:
+  page: https://crackmes.one/crackme/6a8f5412dbb3353b753965d9
+  download: https://crackmes.one/download/crackme/6a8f5412dbb3353b753965d9
+
+title: "CrackNotMe's CFM #777 — The Stochastic Casino"
+author_on_site: "CrackNotMe"
+author_local: "cracknotme"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 3.0
+quality: 4.0
+size: ""
+published: "2026-08-26"
+
+series_index: 777
+local_slug: "cfm777"
+
+binary:
+  path: "original/CFM777.exe"
+  name: "CFM777.exe"
+  sha256: "01522fc69cc39ab31161c8aa4500121f2fe4c92556e3bbe0cbd477679ffd5319"
+  md5: "ba6efc365e0a89e36212bc3606ef6ca5"
+  size_bytes: 498176
+
+status: pending
+# PARKED 2026-08-27 — y revenir (crypto ARX/decrypt OK ; recovery état final / VIP pass à finir)
+parked: true
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-27T16:05:03Z"
