@@ -201,6 +201,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f6633c5d40ad448cc10/original/Crackme1.exe"
     title: "crackmes.de's abu_crackme_v1 by gauri"
 
+  5ab77f6133c5d40ad448c8fa:
+    sha256: "8452c4426a174a22035e5ecc12e151fd872926db45de0fe7bb151a9e0db809a8"
+    path: "authors/crackmes-de/5ab77f6133c5d40ad448c8fa/original/Crackme#5.exe"
+    title: "crackmes.de's scarabee_crackme_5 by scarabee"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -366,3 +371,11 @@ by_sha256:
     id: 5ab77f6633c5d40ad448cc10
     path: "authors/crackmes-de/5ab77f6633c5d40ad448cc10/original/Crack_mes.zip"
     page: https://crackmes.one/crackme/5ab77f6633c5d40ad448cc10
+  8452c4426a174a22035e5ecc12e151fd872926db45de0fe7bb151a9e0db809a8:
+    id: 5ab77f6133c5d40ad448c8fa
+    path: "authors/crackmes-de/5ab77f6133c5d40ad448c8fa/original/Crackme#5.exe"
+    page: https://crackmes.one/crackme/5ab77f6133c5d40ad448c8fa
+  bfd916705df6e7adbbb8497106a9f1b28967bb228d670de080ea6d398cf11196:
+    id: 5ab77f6133c5d40ad448c8fa
+    path: "authors/crackmes-de/5ab77f6133c5d40ad448c8fa/original/crackme5_scrb.zip"
+    page: https://crackmes.one/crackme/5ab77f6133c5d40ad448c8fa

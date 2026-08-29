@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6133c5d40ad448c8fa
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6133c5d40ad448c8fa
+  download: https://crackmes.one/download/crackme/5ab77f6133c5d40ad448c8fa
+
+title: "crackmes.de's scarabee_crackme_5 by scarabee"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Delphi"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: 5
+local_slug: scarabee-crackme-5
+
+binary:
+  path: "original/Crackme#5.exe"
+  name: "Crackme#5.exe"
+  sha256: "8452c4426a174a22035e5ecc12e151fd872926db45de0fe7bb151a9e0db809a8"
+  md5: "09c95fbb4bd68c44e5f827dfce0fd834"
+  size_bytes: 156160
+
+status: solved
+solution_summary: "ASPack Delphi ; Edit1=SerialCheck ; Edit3 petik→Edit2 1723990 (XOR 0x7D3 / imul / idiv)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-29T20:31:42Z"
