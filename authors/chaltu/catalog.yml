@@ -5,8 +5,17 @@ by_id:
     path: "authors/chaltu/6a4014135f26f108ba18ba0b/original/treasure"
     title: "chaltu's a Treasure"
 
+  6a9281f948cda5a2aaa3dbf3:
+    sha256: "c9efb3849e555eb053d02dc9b2579caa69552276e363c47f8209b1463316b743"
+    path: "authors/chaltu/6a9281f948cda5a2aaa3dbf3/original/main.exe"
+    title: "chaltu's Double Door"
+
 by_sha256:
   e0e1d7fd6392d0210f0273c1bfbddb4fdb8bb92f8c2ae9d38616c044d2547223:
     id: 6a4014135f26f108ba18ba0b
     path: "authors/chaltu/6a4014135f26f108ba18ba0b/original/treasure"
     page: https://crackmes.one/crackme/6a4014135f26f108ba18ba0b
+  c9efb3849e555eb053d02dc9b2579caa69552276e363c47f8209b1463316b743:
+    id: 6a9281f948cda5a2aaa3dbf3
+    path: "authors/chaltu/6a9281f948cda5a2aaa3dbf3/original/main.exe"
+    page: https://crackmes.one/crackme/6a9281f948cda5a2aaa3dbf3

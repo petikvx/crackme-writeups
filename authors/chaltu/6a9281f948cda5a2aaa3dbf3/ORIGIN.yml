@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a9281f948cda5a2aaa3dbf3
+
+urls:
+  page: https://crackmes.one/crackme/6a9281f948cda5a2aaa3dbf3
+  download: https://crackmes.one/download/crackme/6a9281f948cda5a2aaa3dbf3
+
+title: "chaltu's Double Door"
+author_on_site: "chaltu"
+author_local: "chaltu"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C/C++ (MinGW)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: double-door
+
+binary:
+  path: "original/main.exe"
+  name: "main.exe"
+  sha256: "c9efb3849e555eb053d02dc9b2579caa69552276e363c47f8209b1463316b743"
+  md5: "9fc4772af1d12fc6f9350fdb3f16cfe0"
+  size_bytes: 138877
+
+status: solved
+solution_summary: "password crackme2024 (b64 Y3JhY2ttZTIwMjQ=) OR any input containing hack"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-29T19:36:01Z"
