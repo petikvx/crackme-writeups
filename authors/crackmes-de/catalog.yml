@@ -206,6 +206,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f6133c5d40ad448c8fa/original/Crackme#5.exe"
     title: "crackmes.de's scarabee_crackme_5 by scarabee"
 
+  5ab77f6033c5d40ad448c894:
+    sha256: "1cac6e22dc240f458820d7fff5d2977a3bc3a687e166e89fc033b5fc0e9eb991"
+    path: "authors/crackmes-de/5ab77f6033c5d40ad448c894/original/KeygenMe.exe"
+    title: "crackmes.de's keygenme_v1.8 by greedy_fly"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -379,3 +384,11 @@ by_sha256:
     id: 5ab77f6133c5d40ad448c8fa
     path: "authors/crackmes-de/5ab77f6133c5d40ad448c8fa/original/crackme5_scrb.zip"
     page: https://crackmes.one/crackme/5ab77f6133c5d40ad448c8fa
+  1cac6e22dc240f458820d7fff5d2977a3bc3a687e166e89fc033b5fc0e9eb991:
+    id: 5ab77f6033c5d40ad448c894
+    path: "authors/crackmes-de/5ab77f6033c5d40ad448c894/original/KeygenMe.exe"
+    page: https://crackmes.one/crackme/5ab77f6033c5d40ad448c894
+  759665369fa8218f83967ebf8ce7b83a2323a0da1b0648530457ce64b1769dac:
+    id: 5ab77f6033c5d40ad448c894
+    path: "authors/crackmes-de/5ab77f6033c5d40ad448c894/original/KeygenMe.zip"
+    page: https://crackmes.one/crackme/5ab77f6033c5d40ad448c894

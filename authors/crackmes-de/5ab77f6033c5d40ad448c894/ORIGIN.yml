@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6033c5d40ad448c894
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6033c5d40ad448c894
+  download: https://crackmes.one/download/crackme/5ab77f6033c5d40ad448c894
+
+title: "crackmes.de's keygenme_v1.8 by greedy_fly"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "MASM32"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: keygenme-v1.8
+
+binary:
+  path: "original/KeygenMe.exe"
+  name: "KeygenMe.exe"
+  sha256: "1cac6e22dc240f458820d7fff5d2977a3bc3a687e166e89fc033b5fc0e9eb991"
+  md5: "f686d3536514e5e1ab90f08322b78773"
+  size_bytes: 59392
+
+status: solved
+solution_summary: "ASPack MASM32 ; name 6..12 Adler/CRC → serial XX-XXXXXX ; petikk→17-00ABF0"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-29T20:48:00Z"

@@ -144,7 +144,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [oguzbey](authors/oguzbey/README.md) | oguzbey | 1 (Lucky Numbers) | 1 / 1 |
 | [andrewl](authors/andrewl/README.md) | andrewl | 1 (Quick Crypto) | 1 / 1 |
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
-| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 39 / 30+ |
+| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 40 / 30+ |
 | [chaltu](authors/chaltu/README.md) | chaltu | 2 (a Treasure + Double Door) | 2 / 2 |
 | [qerr0r](authors/qerr0r/README.md) | QERR0R | 1 (crackit) | 1 / 1 |
 | [steve_maxwell](authors/steve_maxwell/README.md) | steve_maxwell | 1 (X-0-R) | 1 / 1 |
@@ -187,6 +187,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-08-29 | [keygenme_v1.8](authors/crackmes-de/5ab77f6033c5d40ad448c894/) | crackmes.de / greedy_fly |
 | 2026-08-29 | [scarabee_crackme_5](authors/crackmes-de/5ab77f6133c5d40ad448c8fa/) | crackmes.de / scarabee |
 | 2026-08-29 | [chaltu's Double Door](authors/chaltu/6a9281f948cda5a2aaa3dbf3/) | chaltu |
 | 2026-08-26 | [Simple keygenme for beginners](authors/pera/6a8e45513b246e477b6c09a9/) | Pera |
