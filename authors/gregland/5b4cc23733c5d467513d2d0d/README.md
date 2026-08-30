@@ -11,12 +11,11 @@ Dossier : `authors/gregland/5b4cc23733c5d467513d2d0d/` — [série auteur](../RE
 |---|---|
 | [`original/crackme.exe`](original/crackme.exe) | binaire d’origine (UPX) |
 | [`analysis/crackme.unpacked.exe`](analysis/crackme.unpacked.exe) | UPX `-d` |
-| [`analysis/resources/TEXT_SCRIPT_*.bin`](analysis/resources/) | ressource script VDS chiffrée |
+| [`analysis/resources/TEXT_SCRIPT_420.bin`](analysis/resources/TEXT_SCRIPT_420.bin) | ressource script VDS (chiffrée) |
 | [`analysis/script-decrypted.txt`](analysis/script-decrypted.txt) | script reconstruit (clair) |
 | [`analysis/live-check-ok.txt`](analysis/live-check-ok.txt) | preuve Wine → *Password Ok* |
 | [`tools/gregland-solve.py`](tools/gregland-solve.py) | password |
 | [`tools/live-try.au3`](tools/live-try.au3) | automation Wine (TVDSEdit / TVDSButton) |
-| [`README.md`](README.md) | ce write-up |
 
 ## Réponse
 
