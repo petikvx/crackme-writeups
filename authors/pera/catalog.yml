@@ -5,8 +5,17 @@ by_id:
     path: "authors/pera/6a8e45513b246e477b6c09a9/original/crack.exe"
     title: "Pera's Simple keygenme for beginners"
 
+  6a937f87cab6678aefe9dbc2:
+    sha256: "701aa77abd2ae09857183b49d099f4c1ff707923dec9dbe2f04031684e9a181f"
+    path: "authors/pera/6a937f87cab6678aefe9dbc2/original/thisismebtw"
+    title: "Pera's Tiktok comment crackme"
+
 by_sha256:
   4b6ee3f658260683ec2ae4cc129f7adcceafe630f36860c1908425430e4a5386:
     id: 6a8e45513b246e477b6c09a9
     path: "authors/pera/6a8e45513b246e477b6c09a9/original/crack.exe"
     page: https://crackmes.one/crackme/6a8e45513b246e477b6c09a9
+  701aa77abd2ae09857183b49d099f4c1ff707923dec9dbe2f04031684e9a181f:
+    id: 6a937f87cab6678aefe9dbc2
+    path: "authors/pera/6a937f87cab6678aefe9dbc2/original/thisismebtw"
+    page: https://crackmes.one/crackme/6a937f87cab6678aefe9dbc2

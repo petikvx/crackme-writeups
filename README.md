@@ -164,7 +164,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [mazzotti](authors/mazzotti/README.md) | Mazzotti | 2 (patch-me + multi-layer) | 2 / 2 |
 | [fourexp](authors/fourexp/README.md) | fourexp | 1 (fourexps hard crackme) | 1 / 1 |
 | [23x41](authors/23x41/README.md) | 23x41 | 3 (Secure Vault + DPRK + Maze) | 3 / 3 |
-| [pera](authors/pera/README.md) | Pera | 1 (Simple keygenme) | 1 / 1 |
+| [pera](authors/pera/README.md) | Pera | 2 (Simple keygenme + Tiktok comment) | 2 / 2 |
 | [brembo](authors/brembo/README.md) | brembo | 1 (license-cli) | 0 / 1 *(parked)* |
 | [hydra14212](authors/hydra14212/README.md) | Hydra14212 | 1 (HydraVault) | 0 / 1 *(parked)* |
 
@@ -187,6 +187,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-08-30 | [Pera's Tiktok comment crackme](authors/pera/6a937f87cab6678aefe9dbc2/) | Pera |
 | 2026-08-29 | [keygenme_v1.8](authors/crackmes-de/5ab77f6033c5d40ad448c894/) | crackmes.de / greedy_fly |
 | 2026-08-29 | [scarabee_crackme_5](authors/crackmes-de/5ab77f6133c5d40ad448c8fa/) | crackmes.de / scarabee |
 | 2026-08-29 | [chaltu's Double Door](authors/chaltu/6a9281f948cda5a2aaa3dbf3/) | chaltu |
