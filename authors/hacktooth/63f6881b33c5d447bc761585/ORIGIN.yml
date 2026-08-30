@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 63f6881b33c5d447bc761585
+
+urls:
+  page: https://crackmes.one/crackme/63f6881b33c5d447bc761585
+  download: https://crackmes.one/download/crackme/63f6881b33c5d447bc761585
+
+title: "hacktooth's Simple Crack/Keygenme"
+author_on_site: "hacktooth"
+author_local: "hacktooth"
+
+platform: "Windows"
+arch: "x86"
+language: "AutoIt"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme.exe"
+  name: "crackme.exe"
+  sha256: "18a79ce74a044c1f61b987435efa8a8d4ba93f6e30018d7235197cb1e054ecce"
+  md5: "15420a7707bf302cec547151b8163073"
+  size_bytes: 965120
+
+status: solved
+solution_summary: "AutoIt EA06 ; serial = map(ord(c)-len(@UserName), +7 si 95) ; petik→k`odf (Wine Correct serial!)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-30T19:31:15Z"

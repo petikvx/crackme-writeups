@@ -1,0 +1,8 @@
+start user=petik serial=k`odf
+window found
+edit=k`odf
+OK
+
+OK
+Correct serial!
+

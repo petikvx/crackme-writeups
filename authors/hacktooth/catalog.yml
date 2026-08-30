@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  63f6881b33c5d447bc761585:
+    sha256: "18a79ce74a044c1f61b987435efa8a8d4ba93f6e30018d7235197cb1e054ecce"
+    path: "authors/hacktooth/63f6881b33c5d447bc761585/original/crackme.exe"
+    title: "hacktooth's Simple Crack/Keygenme"
+
+by_sha256:
+  18a79ce74a044c1f61b987435efa8a8d4ba93f6e30018d7235197cb1e054ecce:
+    id: 63f6881b33c5d447bc761585
+    path: "authors/hacktooth/63f6881b33c5d447bc761585/original/crackme.exe"
+    page: https://crackmes.one/crackme/63f6881b33c5d447bc761585
