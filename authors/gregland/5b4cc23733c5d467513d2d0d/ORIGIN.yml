@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5b4cc23733c5d467513d2d0d
+
+urls:
+  page: https://crackmes.one/crackme/5b4cc23733c5d467513d2d0d
+  download: https://crackmes.one/download/crackme/5b4cc23733c5d467513d2d0d
+
+title: "gregland's CrackMe"
+author_on_site: "gregland"
+author_local: "gregland"
+
+platform: "Windows"
+arch: "x86"
+language: "Visual DialogScript"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme.exe"
+  name: "crackme.exe"
+  sha256: "d3a9f89604a12f5f4895d0c31f45a27281ee90af354e6a4e926ac41da2b007f0"
+  md5: "ccdb0c73db07097ad4b33f92de48c730"
+  size_bytes: 360960
+
+status: solved
+solution_summary: "VDS/UPX ; script TEXT/SCRIPT → password 9456145 (Wine Password Ok)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-30T19:43:36Z"

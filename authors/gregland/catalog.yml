@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5b4cc23733c5d467513d2d0d:
+    sha256: "d3a9f89604a12f5f4895d0c31f45a27281ee90af354e6a4e926ac41da2b007f0"
+    path: "authors/gregland/5b4cc23733c5d467513d2d0d/original/crackme.exe"
+    title: "gregland's CrackMe"
+
+by_sha256:
+  d3a9f89604a12f5f4895d0c31f45a27281ee90af354e6a4e926ac41da2b007f0:
+    id: 5b4cc23733c5d467513d2d0d
+    path: "authors/gregland/5b4cc23733c5d467513d2d0d/original/crackme.exe"
+    page: https://crackmes.one/crackme/5b4cc23733c5d467513d2d0d
