@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5b4df56233c5d46d830c3f3a
+
+urls:
+  page: https://crackmes.one/crackme/5b4df56233c5d46d830c3f3a
+  download: https://crackmes.one/download/crackme/5b4df56233c5d46d830c3f3a
+
+title: "gregland's CrackMe 2"
+author_on_site: "gregland"
+author_local: "gregland"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: 2
+local_slug: crackme2
+
+binary:
+  path: "original/crackme2.exe"
+  name: "crackme2.exe"
+  sha256: "6345a8e4610731a21930d138850f763f4314d0b8b4641194662bfcb701b59343"
+  md5: "e0e6db27456a12fca774b6828b1fb522"
+  size_bytes: 954368
+
+status: solved
+solution_summary: "VDS protect ; @_¤=@UPPER → SDFG45ERZdqf + bouton OK 6 (Wine/x32dbg Password Ok)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-31T04:56:44Z"

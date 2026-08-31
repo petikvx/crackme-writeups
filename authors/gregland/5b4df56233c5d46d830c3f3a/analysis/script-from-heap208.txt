@@ -1,0 +1,40 @@
+; Visual DialogScript - reconstruit depuis analysis/cm2_heap208.bin (dump x32dbg live)
+; Header digits (heap): 06008743708320508453133275740000
+; RandSeed: 87437083 + 20508453 + 13327574 = 121273110
+; Token @_\xa4 (0xA4) = @UPPER -> password SDFG45ERZdqf ; bouton OK 6
+; Live Wine + x32dbg : Password Ok
+; Bouton reel : name=ok caption=OK 6 -> :okbutton
+; Decoys OK 1..5,7,8
+
+  2044  _6 ADD,BUTTON,ok,108,80,64,20,OK 6
+  4728  _C @_O()
+ 10980  :button2button
+ 11008  :button3button
+ 11036  :button4button
+ 11064  :button5button
+ 11092  :button6button
+ 11120  :button7button
+ 11148  _c Password NOK
+ 11472  __ CrackMe 2  by Gregland
+ 11512  _6 CREATE,CrackMe 2 by Gregland,-1,0,288,141
+ 11572  _6 ADD,EDIT,EDIT1,60,12,268,20,,,PASSWORD
+ 11628  _6 ADD,TEXT,TEXT1,8,12,268,36,Write the good password and validate it with the good button ;-)
+ 11736  _6 ADD,BUTTON,BUTTON1,84,80,64,20,OK 2
+ 11788  _6 ADD,BUTTON,BUTTON2,84,148,64,20,OK 3
+ 11840  _6 ADD,BUTTON,BUTTON3,84,216,64,20,OK 4
+ 11892  _6 ADD,BUTTON,BUTTON4,108,148,64,20,OK 7
+ 11948  _6 ADD,BUTTON,BUTTON5,108,12,64,20,OK 5
+ 12000  _6 ADD,BUTTON,BUTTON6,108,216,64,20,OK 8
+ 12056  _6 ADD,BUTTON,BUTTON7,84,12,64,20,OK 1
+ 12108  _6 SHOW
+ 12128  :EVLOOP
+ 12148  _b event
+ 12172  :okbutton
+ 12196  _G @_L(@_I(EDIT1),@_\xa4(sdfg)45@_\xa4(erz)dqf,EXACT)
+ 12256  _c Password Ok
+ 12300  _c Password NOK
+ 12344  _C EVLOOP
+ 12368  :button1button
+ 12396  _C evloop
+ 12420  :close
+ 12456  : @0

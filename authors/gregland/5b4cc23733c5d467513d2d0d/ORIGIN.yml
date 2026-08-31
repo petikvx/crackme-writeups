@@ -18,8 +18,8 @@ quality: null
 size: ""
 published: null
 
-series_index: null
-local_slug: null
+series_index: 1
+local_slug: crackme
 
 binary:
   path: "original/crackme.exe"

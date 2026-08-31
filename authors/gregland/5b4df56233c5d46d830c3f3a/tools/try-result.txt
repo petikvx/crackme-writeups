@@ -1,0 +1,18 @@
+classlist=TVDSButton|TVDSButton|TVDSButton|TVDSButton|TVDSButton|TVDSButton|TVDSButton|TVDSButton|TVDSEdit|
+btn1=[OK 1]
+btn2=[OK 8]
+btn3=[OK 5]
+btn4=[OK 7]
+btn5=[OK 4]
+btn6=[OK 3]
+btn7=[OK 2]
+btn8=[OK 6]
+btn9=[]
+btn10=[]
+btn11=[]
+btn12=[]
+clicked instance 8
+SDFG45ERZdqf => [CrackMe 2  by Gregland] 
+OK
+Password Ok
+

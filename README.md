@@ -166,7 +166,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [23x41](authors/23x41/README.md) | 23x41 | 3 (Secure Vault + DPRK + Maze) | 3 / 3 |
 | [pera](authors/pera/README.md) | Pera | 2 (Simple keygenme + Tiktok comment) | 2 / 2 |
 | [hacktooth](authors/hacktooth/README.md) | hacktooth | 1 (Simple Crack/Keygenme AutoIt) | 1 / 1 |
-| [gregland](authors/gregland/README.md) | gregland | 1 (CrackMe VDS/UPX) | 1 / 1 |
+| [gregland](authors/gregland/README.md) | gregland | 2 (CrackMe + CrackMe 2) | 2 / 2 |
 | [brembo](authors/brembo/README.md) | brembo | 1 (license-cli) | 0 / 1 *(parked)* |
 | [hydra14212](authors/hydra14212/README.md) | Hydra14212 | 1 (HydraVault) | 0 / 1 *(parked)* |
 
@@ -189,6 +189,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-08-31 | [gregland's CrackMe 2](authors/gregland/5b4df56233c5d46d830c3f3a/) | gregland |
 | 2026-08-30 | [gregland's CrackMe](authors/gregland/5b4cc23733c5d467513d2d0d/) | gregland |
 | 2026-08-30 | [hacktooth's Simple Crack/Keygenme](authors/hacktooth/63f6881b33c5d447bc761585/) | hacktooth |
 | 2026-08-30 | [Pera's Tiktok comment crackme](authors/pera/6a937f87cab6678aefe9dbc2/) | Pera |
