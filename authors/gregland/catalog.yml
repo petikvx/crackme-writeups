@@ -15,6 +15,11 @@ by_id:
     path: "authors/gregland/5b4f76f233c5d41c0b8ae506/original/crackme3.exe"
     title: "gregland's CrackMe 3"
 
+  5b502da833c5d41c0b8ae514:
+    sha256: "5979d37ed9d7b63fb0781f147b4b4d466a44572b3f966add4ae8b71ec7a57354"
+    path: "authors/gregland/5b502da833c5d41c0b8ae514/original/crackme4.exe"
+    title: "gregland's CrackMe 4"
+
 by_sha256:
   d3a9f89604a12f5f4895d0c31f45a27281ee90af354e6a4e926ac41da2b007f0:
     id: 5b4cc23733c5d467513d2d0d
@@ -28,3 +33,7 @@ by_sha256:
     id: 5b4f76f233c5d41c0b8ae506
     path: "authors/gregland/5b4f76f233c5d41c0b8ae506/original/crackme3.exe"
     page: https://crackmes.one/crackme/5b4f76f233c5d41c0b8ae506
+  5979d37ed9d7b63fb0781f147b4b4d466a44572b3f966add4ae8b71ec7a57354:
+    id: 5b502da833c5d41c0b8ae514
+    path: "authors/gregland/5b502da833c5d41c0b8ae514/original/crackme4.exe"
+    page: https://crackmes.one/crackme/5b502da833c5d41c0b8ae514

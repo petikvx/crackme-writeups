@@ -1,0 +1,18 @@
+# Preuve live — gregland CrackMe 4
+# Date: 2026-08-31
+
+## Windows / x32dbg
+Name   : petik
+Mail   : petik@x.test
+Serial : D532-7E11-D9A2-D2AF
+Anti-debug : IsDebuggerPresent patched (31 C0 C3), PEB.BeingDebugged=0, 0EEDFADE ignored
+Résultat MessageBox : REGISTERED !!!
+Screenshot : analysis/screenshot-registered.png
+
+## Contrôle algo
+HN1 / hackpower1@mail.ru → F5B5-6FE3-7208-7F00 (commentaire crackmes.one 2019)
+python3 tools/crackme4-solve.py --check D532-7E11-D9A2-D2AF → OK
+
+## Wine
+Même serial (et HN1) → PROBLEM WITH THE LICENCE ! malgré edits correctement remplis.
+Preuve retenue = Windows/x32dbg ci-dessus.

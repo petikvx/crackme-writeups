@@ -1,0 +1,209 @@
+06008743708320508453125163470000
+__ CrackMe 4 by Gregland
+
+
+
+
+
+_6 CREATE,CrackMe 4 by Gregland,-1,0,311,146
+
+_6 ADD,TEXT,TEXT1,4,12,176,20,Register the app ;-)
+_6 ADD,EDIT,nom,24,48,256,20
+_6 ADD,EDIT,mail,52,48,256,20
+_6 ADD,EDIT,serial,80,48,256,20
+_6 ADD,BUTTON,ok,112,164,64,24,ok
+_6 ADD,TEXT,TEXT2,28,8,32,16,Name
+_6 ADD,TEXT,TEXT3,52,12,24,16,Mail
+_6 ADD,TEXT,TEXT4,88,8,28,16,Serial
+_6 SHOW
+
+:EVLOOP
+_b event
+_C @_O()
+
+
+
+:okbutton
+% = @FUME(DISASSEMBLER)
+% = @FUME(DEBUGGER)
+
+_G @_L(%,1)
+_H "DEBUGGER ;-("
+_\
+_:
+_G @_L(%,1)
+_H "DEBUGGER ;-("
+_\
+_:
+
+% = @_I(mail)
+% = @_I(nom)
+% = 7806
+_G @_L(@_I(serial),@VDSReg(Keygen,%,%,%))
+_H REGISTERED !!!
+_8
+_H PROBLEM WITH THE LICENCE !
+_:
+_C EVLOOP
+
+:button1button
+_c Password NOK
+_C evloop
+
+:close
+_<
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:VDSReg
+_G @_L(%1,Keygen)
+_[
+_C keygen
+_9 @_L(%1,ChkReg)
+_[
+_C ChkReg
+_9 @_L(Ver)
+_< "Version 1.0.0.0"
+_8
+_; 14
+_:
+_\
+
+:Keygen
+
+_G @_L(%1,CPU)
+%1 = @_©(C,Z)
+_:
+
+
+%4 = @_J(%2,%3)
+%A = @_(@_(@_J(@_(%1,@_G(@_q(%1),2),@_J(%4,215)),md5),7,22),1,4)
+%B = @_(@_(@_J(@_(%1,@_G(@_q(%1),2),@_J(%4,215)),md5),7,22),5,8)
+%C = @_(@_(@_J(@_(%1,@_G(@_q(%1),2),@_J(%4,215)),md5),7,22),9,12)
+%D = @_(@_(@_J(@_(%1,@_G(@_q(%1),2),@_J(%4,215)),md5),7,22),13,16)
+_< @_¤(%A-%B-%C-%D)
+
+
+:ChkReg
+
+_G @_L(%1,CPU)
+%1 = @_©(C,Z)
+_:
+
+
+
+%5 = @_J(%2,%3)
+%A = @_(@_(@_J(@_(%1,@_G(@_q(%1),2),@_J(%5,215)),md5),7,22),1,4)
+%B = @_(@_(@_J(@_(%1,@_G(@_q(%1),2),@_J(%5,215)),md5),7,22),5,8)
+%C = @_(@_(@_J(@_(%1,@_G(@_q(%1),2),@_J(%5,215)),md5),7,22),9,12)
+%D = @_(@_(@_J(@_(%1,@_G(@_q(%1),2),@_J(%5,215)),md5),7,22),13,16)
+_G @_L(%4,%A-%B-%C-%D)
+_< 1
+_:
+_<
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:FUME
+_G @_(%1)
+_<
+_:
+_C FUME_%1
+
+:FUME_DEBUGGER
+_M KERNEL32.DLL
+%A = @_t(KERNEL32,IsDebuggerPresent,INT:,)
+_A KERNEL32.DLL
+_< %A
+
+:FUME_FILEMONREGMON
+_G @_¯(#18467-41)
+_f CLOSE,#18467-41
+%A = 1
+_8
+%A = 0
+_:
+_< %A
+
+
+:FUME_ICEINSTALLED
+%A = 0
+%B = @_(LOCAL,Software\Microsoft\Windows\CurrentVersion\Uninstall\SoftICE,UninstallString)
+%C = @_(LOCAL,Software\NuMega\SoftICE,InstallDir)
+%D = @_(LOCAL,Software\Microsoft\Windows\CurrentVersion\App Paths\,Loader32.Exe)
+_G @_(@_(%B))
+%A = 1
+_:
+_G @_(@_(%C))
+%A = 1
+_:
+_G @_(@_(%D))
+%A = 1
+_:
+_< %A
+
+:FUME_DISASSEMBLER
+%A = 0
+_G @_¯(#OWL_Window)
+%A = 1
+_:
+_G @_¯(#TIdaWindow)
+%A = 1
+_:
+_< %A
+
+
+: @5

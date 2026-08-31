@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5b502da833c5d41c0b8ae514
+
+urls:
+  page: https://crackmes.one/crackme/5b502da833c5d41c0b8ae514
+  download: https://crackmes.one/download/crackme/5b502da833c5d41c0b8ae514
+
+title: "gregland's CrackMe 4"
+author_on_site: "gregland"
+author_local: "gregland"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: 4
+local_slug: crackme4
+
+binary:
+  path: "original/crackme4.exe"
+  name: "crackme4.exe"
+  sha256: "5979d37ed9d7b63fb0781f147b4b4d466a44572b3f966add4ae8b71ec7a57354"
+  md5: "03c569f9eb501207f5b0c5bfb9f69fbc"
+  size_bytes: 956416
+
+status: solved
+solution_summary: "VDS keygen ; @_J(nom,7806)+@_J(.,215) STRINS mail + MD5 mid → petik/petik@x.test = D532-7E11-D9A2-D2AF (x32dbg REGISTERED) ; Wine NOK"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-31T18:28:20Z"

@@ -11,6 +11,7 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml) (id ↔ sha256).
 | 1 | [CrackMe](5b4cc23733c5d467513d2d0d/) | [`5b4cc237…`](https://crackmes.one/crackme/5b4cc23733c5d467513d2d0d) | Windows PE32 VDS/UPX | password `9456145` (Wine OK) |
 | 2 | [CrackMe 2](5b4df56233c5d46d830c3f3a/) | [`5b4df562…`](https://crackmes.one/crackme/5b4df56233c5d46d830c3f3a) | Windows PE32 VDS | `SDFG45ERZdqf` + bouton OK 6 (Wine OK) |
 | 3 | [CrackMe 3](5b4f76f233c5d41c0b8ae506/) | [`5b4f76f2…`](https://crackmes.one/crackme/5b4f76f233c5d41c0b8ae506) | Windows PE32 VDS/UPX | `bbe6e2be…` (`@_J`, Wine OK) + anti-debug |
+| 4 | [CrackMe 4](5b502da833c5d41c0b8ae514/) | [`5b502da8…`](https://crackmes.one/crackme/5b502da833c5d41c0b8ae514) | Windows PE32 VDS | keygen `petik`→`D532-7E11-D9A2-D2AF` (x32dbg OK ; Wine NOK) |
 
 ## Arborescence d’un challenge
 
