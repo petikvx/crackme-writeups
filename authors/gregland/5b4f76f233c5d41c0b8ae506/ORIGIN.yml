@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5b4f76f233c5d41c0b8ae506
+
+urls:
+  page: https://crackmes.one/crackme/5b4f76f233c5d41c0b8ae506
+  download: https://crackmes.one/download/crackme/5b4f76f233c5d41c0b8ae506
+
+title: "gregland's CrackMe 3"
+author_on_site: "gregland"
+author_local: "gregland"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: 3
+local_slug: crackme3
+
+binary:
+  path: "original/crackme3.exe"
+  name: "crackme3.exe"
+  sha256: "8050ccce74045b0ca99eeaff58d901885c16e6ae22cf04c3ce5057596674164b"
+  md5: "15f3b15123e4cdaf21bc4d2ba45f87df"
+  size_bytes: 361984
+
+status: solved
+solution_summary: "VDS/UPX ; @_J(cerqsqQSD,1456) → bbe6e2be9991a19bd2 (Wine Password Ok) ; anti-debug IsDebuggerPresent"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-31T16:49:45Z"

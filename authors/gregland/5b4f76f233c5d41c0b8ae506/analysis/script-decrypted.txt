@@ -1,0 +1,112 @@
+06008743708320508453166092300000
+__ CrackMe 3 by Gregland
+
+
+_6 CREATE,CrackMe 3 by Gregland,-1,0,336,60
+
+_6 ADD,EDIT,EDIT1,32,8,268,20
+_6 ADD,BUTTON,ok,32,280,48,20,OK
+_6 ADD,TEXT,TEXT1,8,12,268,20,Find the good password ;-)
+_6 SHOW
+
+:EVLOOP
+_b event,"0"%"1"
+_C @_O()
+
+:TIMER
+% = @FUME(DISASSEMBLER)
+% = @FUME(DEBUGGER)
+_G @_L(%,1)
+_6 set,edit1,"debugger found ;-("
+_:
+
+_G @_L(%,1)
+_6 set,edit1,"debugger found ;-("
+_:
+_C EVLOOP
+
+:okbutton
+_G @_L(@_I(EDIT1),@_J(cerqsqQSD,1456),EXACT)
+_c Password Ok
+_8
+_c Password NOK
+_:
+_C EVLOOP
+
+:button1button
+_c Password NOK
+_C evloop
+
+:close
+_<
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:FUME
+_G @_(%1)
+_<
+_:
+_C FUME_%1
+
+:FUME_DEBUGGER
+_M KERNEL32.DLL
+%A = @_t(KERNEL32,IsDebuggerPresent,INT:,)
+_A KERNEL32.DLL
+_< %A
+
+:FUME_FILEMONREGMON
+_G @_¯(#18467-41)
+_f CLOSE,#18467-41
+%A = 1
+_8
+%A = 0
+_:
+_< %A
+
+
+:FUME_ICEINSTALLED
+%A = 0
+%B = @_(LOCAL,Software\Microsoft\Windows\CurrentVersion\Uninstall\SoftICE,UninstallString)
+%C = @_(LOCAL,Software\NuMega\SoftICE,InstallDir)
+%D = @_(LOCAL,Software\Microsoft\Windows\CurrentVersion\App Paths\,Loader32.Exe)
+_G @_(@_(%B))
+%A = 1
+_:
+_G @_(@_(%C))
+%A = 1
+_:
+_G @_(@_(%D))
+%A = 1
+_:
+_< %A
+
+:FUME_DISASSEMBLER
+%A = 0
+_G @_¯(#OWL_Window)
+%A = 1
+_:
+_G @_¯(#TIdaWindow)
+%A = 1
+_:
+_< %A
+
+
+: @3
