@@ -29,11 +29,14 @@ binary:
   size_bytes: 363008
 
 status: pending
-# PARKED 2026-08-23 — y revenir plus tard (pas abandonné)
+# PARKED — reprise 2026-09-01 (x64dbg) ; pas abandonné
 parked: true
-parked_at: "2026-08-23"
-parked_reason: "unpack XOR + honeypot S3rg0M_Admin_2024 OK ; vrai gate mini-VM + checksum 0x762 encore ouvert"
-solution_summary: "PARKED — unpack+honeypot OK ; VM/0x762 TBD (voir README)"
+parked_at: "2026-09-01"
+parked_reason: >
+  parent/child --3a1f9b + DEBUG ; honeypots S3rg0M_Admin_2024 + _HEAP_TRACE_FLAGS ;
+  seed FNV stub 0x412DF8B0 ; matrice LCG MCM2 ; blob VM 16o ; checksum 0x762=auto si VM=1 ;
+  manque mask XOR parent (r13/r10) — voir analysis/NOTES-x64dbg-2026-09-01.md
+solution_summary: "PARKED — parent/VM/matrice documentés ; password TBD (mask injection)"
 
 download:
   zip_password: crackmes.one
