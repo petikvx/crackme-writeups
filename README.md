@@ -181,7 +181,7 @@ Challenges `status: pending` volontairement suspendus (`parked: true` dans `ORIG
 | [Death Trap](authors/soulreaper/6a7d0ce1184836c0dbe7d77e/) | soulreaper | double-fork / hash MITM ; scaffold only |
 | [bugger_v.7](authors/crackmes-de/5ab77f6633c5d40ad448cc25/) | crackmes.de / shism | clé RC6 + wake shell dormant |
 | [meloquynthe](authors/crackmes-de/5ab77f5933c5d40ad448c46f/) | crackmes.de / meat | prédicat name→serial (après UPX) |
-| [MCM 3.0 REWORK](authors/cracknotme/698fb9e9a79466462e957bec/) | CrackNotMe | mini-VM + checksum `0x762` |
+| [MCM 3.0 REWORK](authors/cracknotme/698fb9e9a79466462e957bec/) | CrackNotMe | parent/`--3a1f9b` + VM ; mask XOR TBD (notes 2026-09-01) |
 
 ## Historique des résolutions
 
