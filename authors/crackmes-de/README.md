@@ -57,7 +57,8 @@ Série **rezk2ll** (NASM) importée depuis crackmes.de.
 | 42 | [buggers_v.5](5ab77f6633c5d40ad448cc2a/) | shism | Win PE32 ASM | anti-Olly ; NOP TerminateProcess @4011CB |
 | 43 | [deobfuscate_1](5ab77f6633c5d40ad448cc26/) | shism | Win PE32 ASM | deob `eb` chain ; ret@401000 last |
 | 44 | [the_xor_algorithm](5ab77f6533c5d40ad448cbc5/) | ksydfius | Win PE32 MASM | KEY **`Tv8(@*a;FHBADIvhadyfgpar12Af5t[a`** → `science_m00nlight` |
-| 44 | [tropes_safe_cracker_1](5ab77f6533c5d40ad448cb87/) | trope | Win PE32 MASM | combo **`435513`** → *Good Job.* |
+| 45 | [tropes_safe_cracker_1](5ab77f6533c5d40ad448cb87/) | trope | Win PE32 MASM | combo **`435513`** → *Good Job.* |
+| 46 | [znycuks_1_crackme](5ab77f6633c5d40ad448cbd2/) | znycuk | Win PE32 MASM | keygen `petik`/`PTK-LAB` seed `Ab12`→**`98BE-5573-73B5-4385`** |
 
 ## Mis de côté (PARKED — y revenir)
 

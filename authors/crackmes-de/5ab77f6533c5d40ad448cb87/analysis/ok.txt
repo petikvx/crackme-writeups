@@ -1,0 +1,4 @@
+Wine live (prédicat d’origine @4010d3) :
+  analysis/safe-autofill.exe écrit la combo puis appelle le check.
+  succès → ExitProcess(0x42) (=66) ; échec → ExitProcess(0xEE) (=238).
+  combo 435513 → 66 ; 111111 → 238.

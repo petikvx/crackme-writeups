@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6533c5d40ad448cb87
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6533c5d40ad448cb87
+  download: https://crackmes.one/download/crackme/5ab77f6533c5d40ad448cb87
+
+title: "crackmes.de's tropes_safe_cracker_1 by trope"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler (MASM32)"
+
+difficulty: 1
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: tropes-safe-cracker-1
+
+binary:
+  path: "original/safe.zip"
+  name: "safe.zip"
+  sha256: "bc55f9713d5b8dafbbe64c22063cad08b806748056c21e2bd65b0b39cc73ee55"
+  md5: "e7211574f67a69e9de9cebe43478b93a"
+  size_bytes: 1172
+
+status: solved
+solution_summary: "combo 435513 (boutons 1-5 + Open) → Good Job./Yup ; ref 1234567890 @4030FF"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-02T19:35:35Z"
