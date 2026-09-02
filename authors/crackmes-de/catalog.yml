@@ -241,6 +241,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f6633c5d40ad448cbd2/original/ZNKKeygenme#1.zip"
     title: "crackmes.de's znycuks_1_crackme by znycuk"
 
+  5ab77f6533c5d40ad448cb6b:
+    sha256: "ce58f2ed78e27cc3eaa8011bff2cd96a8184da15fdd229923c2f54057d9e17e9"
+    path: "authors/crackmes-de/5ab77f6533c5d40ad448cb6b/original/Slayer_Crackme1.zip"
+    title: "crackmes.de's slayers_crackme_1 by savage"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -446,3 +451,7 @@ by_sha256:
     id: 5ab77f6633c5d40ad448cbd2
     path: "authors/crackmes-de/5ab77f6633c5d40ad448cbd2/original/ZNKKeygenme#1.zip"
     page: https://crackmes.one/crackme/5ab77f6633c5d40ad448cbd2
+  ce58f2ed78e27cc3eaa8011bff2cd96a8184da15fdd229923c2f54057d9e17e9:
+    id: 5ab77f6533c5d40ad448cb6b
+    path: "authors/crackmes-de/5ab77f6533c5d40ad448cb6b/original/Slayer_Crackme1.zip"
+    page: https://crackmes.one/crackme/5ab77f6533c5d40ad448cb6b

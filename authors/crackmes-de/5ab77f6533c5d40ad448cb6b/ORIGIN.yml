@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6533c5d40ad448cb6b
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6533c5d40ad448cb6b
+  download: https://crackmes.one/download/crackme/5ab77f6533c5d40ad448cb6b
+
+title: "crackmes.de's slayers_crackme_1 by savage"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 1.0
+quality: 4.0
+size: ""
+published: null
+
+series_index: null
+local_slug: slayer-keyme1
+
+binary:
+  path: "original/Slayer_Crackme1.zip"
+  name: "Slayer_Crackme1.zip"
+  sha256: "ce58f2ed78e27cc3eaa8011bff2cd96a8184da15fdd229923c2f54057d9e17e9"
+  md5: "af3d98f4bb20b9af58bad48debf61e72"
+  size_bytes: 6795
+
+status: solved
+solution_summary: "clipboard=ComputerName; reg.key d0^d1==sum(name+NUL); PTK-LAB→0x1EB"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-02T19:48:50Z"
