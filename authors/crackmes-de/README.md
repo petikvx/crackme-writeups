@@ -54,6 +54,7 @@ Série **rezk2ll** (NASM) importée depuis crackmes.de.
 | 39 | [scarabee_crackme_5](5ab77f6133c5d40ad448c8fa/) | scarabee | Win PE32 Delphi ASPack | unlock `SerialCheck` ; `petik`→**`1723990`** |
 | 40 | [keygenme_v1.8](5ab77f6033c5d40ad448c894/) | greedy_fly | Win PE32 MASM ASPack | `petikk`→**`17-00ABF0`** (Adler+CRC) |
 | 41 | [sorting_server_ctf](5ab77f5e33c5d40ad448c79a/) | warsaw | Python2 HTTP | oracle pivot/LCG → seed uint32 (CRT) |
+| 42 | [buggers_v.5](5ab77f6633c5d40ad448cc2a/) | shism | Win PE32 ASM | anti-Olly ; NOP TerminateProcess @4011CB |
 
 ## Mis de côté (PARKED — y revenir)
 

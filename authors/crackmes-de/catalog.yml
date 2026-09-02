@@ -216,6 +216,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5e33c5d40ad448c79a/original/sortingserver.zip"
     title: "crackmes.de's sorting_server_ctf by warsaw"
 
+  5ab77f6633c5d40ad448cc2a:
+    sha256: "76dbae0e35990ba225994740dd4d7792857f81bce8ab49f37f8e1ea9be89bc65"
+    path: "authors/crackmes-de/5ab77f6633c5d40ad448cc2a/original/buggers.zip"
+    title: "crackmes.de's buggers_v.5 by shism"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -401,3 +406,7 @@ by_sha256:
     id: 5ab77f5e33c5d40ad448c79a
     path: "authors/crackmes-de/5ab77f5e33c5d40ad448c79a/original/sortingserver.zip"
     page: https://crackmes.one/crackme/5ab77f5e33c5d40ad448c79a
+  76dbae0e35990ba225994740dd4d7792857f81bce8ab49f37f8e1ea9be89bc65:
+    id: 5ab77f6633c5d40ad448cc2a
+    path: "authors/crackmes-de/5ab77f6633c5d40ad448cc2a/original/buggers.zip"
+    page: https://crackmes.one/crackme/5ab77f6633c5d40ad448cc2a
