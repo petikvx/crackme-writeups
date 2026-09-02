@@ -251,6 +251,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f6533c5d40ad448cb5b/original/clone.zip"
     title: "crackmes.de's clone by haggar"
 
+  5ab77f6433c5d40ad448cb0f:
+    sha256: "9971c7d2c38afff1909576b058cee30d5491e136ca7cfddc2f9b6eae8cdc7e54"
+    path: "authors/crackmes-de/5ab77f6433c5d40ad448cb0f/original/CM2.zip"
+    title: "crackmes.de's crack_me by hexic"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -464,3 +469,7 @@ by_sha256:
     id: 5ab77f6533c5d40ad448cb5b
     path: "authors/crackmes-de/5ab77f6533c5d40ad448cb5b/original/clone.zip"
     page: https://crackmes.one/crackme/5ab77f6533c5d40ad448cb5b
+  9971c7d2c38afff1909576b058cee30d5491e136ca7cfddc2f9b6eae8cdc7e54:
+    id: 5ab77f6433c5d40ad448cb0f
+    path: "authors/crackmes-de/5ab77f6433c5d40ad448cb0f/original/CM2.zip"
+    page: https://crackmes.one/crackme/5ab77f6433c5d40ad448cb0f

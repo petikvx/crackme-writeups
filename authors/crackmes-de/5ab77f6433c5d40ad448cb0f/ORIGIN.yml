@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6433c5d40ad448cb0f
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6433c5d40ad448cb0f
+  download: https://crackmes.one/download/crackme/5ab77f6433c5d40ad448cb0f
+
+title: "crackmes.de's crack_me by hexic"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 1.0
+quality: 4.0
+size: ""
+published: null
+
+series_index: null
+local_slug: crack-me-hexic
+
+binary:
+  path: "original/CM2.zip"
+  name: "CM2.zip"
+  sha256: "9971c7d2c38afff1909576b058cee30d5491e136ca7cfddc2f9b6eae8cdc7e54"
+  md5: "3b9731e02ad3c9adba13964110a08113"
+  size_bytes: 9780
+
+status: solved
+solution_summary: "petik→13-0000021D-Z7 (CHARMAP 1AG4T3CX8ZF7R95Q)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-02T19:55:05Z"

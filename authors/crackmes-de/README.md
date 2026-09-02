@@ -61,6 +61,7 @@ Série **rezk2ll** (NASM) importée depuis crackmes.de.
 | 46 | [znycuks_1_crackme](5ab77f6633c5d40ad448cbd2/) | znycuk | Win PE32 MASM | keygen `petik`/`PTK-LAB` seed `Ab12`→**`98BE-5573-73B5-4385`** |
 | 47 | [slayers_crackme_1](5ab77f6533c5d40ad448cb6b/) | savage / Slayer | Win PE32 | clipboard+reg.key ; PTK-LAB→`0x1EB` |
 | 48 | [clone](5ab77f6533c5d40ad448cb5b/) | haggar | Win PE32 | petik→**`AC1C7A6F`** |
+| 49 | [crack_me](5ab77f6433c5d40ad448cb0f/) | hexic / cLoNeTrOnE | Win PE32 | petik→**`13-0000021D-Z7`** |
 
 ## Mis de côté (PARKED — y revenir)
 

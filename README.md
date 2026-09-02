@@ -145,7 +145,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [oguzbey](authors/oguzbey/README.md) | oguzbey | 1 (Lucky Numbers) | 1 / 1 |
 | [andrewl](authors/andrewl/README.md) | andrewl | 1 (Quick Crypto) | 1 / 1 |
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
-| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 48 / 30+ |
+| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 49 / 30+ |
 | [chaltu](authors/chaltu/README.md) | chaltu | 2 (a Treasure + Double Door) | 2 / 2 |
 | [qerr0r](authors/qerr0r/README.md) | QERR0R | 1 (crackit) | 1 / 1 |
 | [steve_maxwell](authors/steve_maxwell/README.md) | steve_maxwell | 1 (X-0-R) | 1 / 1 |
@@ -191,6 +191,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-02 | [crack_me](authors/crackmes-de/5ab77f6433c5d40ad448cb0f/) | crackmes.de / hexic |
 | 2026-09-02 | [clone](authors/crackmes-de/5ab77f6533c5d40ad448cb5b/) | crackmes.de / haggar |
 | 2026-09-02 | [znycuks_1_crackme](authors/crackmes-de/5ab77f6633c5d40ad448cbd2/) | crackmes.de / znycuk |
 | 2026-09-02 | [slayers_crackme_1](authors/crackmes-de/5ab77f6533c5d40ad448cb6b/) | crackmes.de / savage |
