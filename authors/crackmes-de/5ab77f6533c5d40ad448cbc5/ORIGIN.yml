@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6533c5d40ad448cbc5
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6533c5d40ad448cbc5
+  download: https://crackmes.one/download/crackme/5ab77f6533c5d40ad448cbc5
+
+title: "crackmes.de's the_xor_algorithm by ksydfius"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 1
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: the_xor_algorithm
+
+binary:
+  path: "original/ksydfius2.zip"
+  name: "ksydfius2.zip"
+  sha256: "dcbc01527764653052bdb490e1a014aa0c380649b2ba5ed91c951001acc1558e"
+  md5: "03114f03b806b7e140fefbce1029a48f"
+  size_bytes: 1932
+
+status: solved
+solution_summary: "KEY 32o Tv8(@*a;FHBADIvhadyfgpar12Af5t[a (KP Hawking); msg→science_m00nlight"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-02T19:35:36Z"

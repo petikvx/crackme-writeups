@@ -55,6 +55,9 @@ Série **rezk2ll** (NASM) importée depuis crackmes.de.
 | 40 | [keygenme_v1.8](5ab77f6033c5d40ad448c894/) | greedy_fly | Win PE32 MASM ASPack | `petikk`→**`17-00ABF0`** (Adler+CRC) |
 | 41 | [sorting_server_ctf](5ab77f5e33c5d40ad448c79a/) | warsaw | Python2 HTTP | oracle pivot/LCG → seed uint32 (CRT) |
 | 42 | [buggers_v.5](5ab77f6633c5d40ad448cc2a/) | shism | Win PE32 ASM | anti-Olly ; NOP TerminateProcess @4011CB |
+| 43 | [deobfuscate_1](5ab77f6633c5d40ad448cc26/) | shism | Win PE32 ASM | deob `eb` chain ; ret@401000 last |
+| 44 | [the_xor_algorithm](5ab77f6533c5d40ad448cbc5/) | ksydfius | Win PE32 MASM | KEY **`Tv8(@*a;FHBADIvhadyfgpar12Af5t[a`** → `science_m00nlight` |
+| 44 | [tropes_safe_cracker_1](5ab77f6533c5d40ad448cb87/) | trope | Win PE32 MASM | combo **`435513`** → *Good Job.* |
 
 ## Mis de côté (PARKED — y revenir)
 

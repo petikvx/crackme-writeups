@@ -226,6 +226,21 @@ by_id:
     path: "authors/crackmes-de/5ab77f6633c5d40ad448cc26/original/Deobfuscate1.zip"
     title: "crackmes.de's deobfuscate_1 by shism"
 
+  5ab77f6533c5d40ad448cb87:
+    sha256: "bc55f9713d5b8dafbbe64c22063cad08b806748056c21e2bd65b0b39cc73ee55"
+    path: "authors/crackmes-de/5ab77f6533c5d40ad448cb87/original/safe.zip"
+    title: "crackmes.de's tropes_safe_cracker_1 by trope"
+
+  5ab77f6533c5d40ad448cbc5:
+    sha256: "dcbc01527764653052bdb490e1a014aa0c380649b2ba5ed91c951001acc1558e"
+    path: "authors/crackmes-de/5ab77f6533c5d40ad448cbc5/original/ksydfius2.zip"
+    title: "crackmes.de's the_xor_algorithm by ksydfius"
+
+  5ab77f6633c5d40ad448cbd2:
+    sha256: "e4ced8e586ed0f7e6f54d602fc00f3975764f8de776a1b5963a0794411a38f4f"
+    path: "authors/crackmes-de/5ab77f6633c5d40ad448cbd2/original/ZNKKeygenme#1.zip"
+    title: "crackmes.de's znycuks_1_crackme by znycuk"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -419,3 +434,15 @@ by_sha256:
     id: 5ab77f6633c5d40ad448cc26
     path: "authors/crackmes-de/5ab77f6633c5d40ad448cc26/original/Deobfuscate1.zip"
     page: https://crackmes.one/crackme/5ab77f6633c5d40ad448cc26
+  bc55f9713d5b8dafbbe64c22063cad08b806748056c21e2bd65b0b39cc73ee55:
+    id: 5ab77f6533c5d40ad448cb87
+    path: "authors/crackmes-de/5ab77f6533c5d40ad448cb87/original/safe.zip"
+    page: https://crackmes.one/crackme/5ab77f6533c5d40ad448cb87
+  dcbc01527764653052bdb490e1a014aa0c380649b2ba5ed91c951001acc1558e:
+    id: 5ab77f6533c5d40ad448cbc5
+    path: "authors/crackmes-de/5ab77f6533c5d40ad448cbc5/original/ksydfius2.zip"
+    page: https://crackmes.one/crackme/5ab77f6533c5d40ad448cbc5
+  e4ced8e586ed0f7e6f54d602fc00f3975764f8de776a1b5963a0794411a38f4f:
+    id: 5ab77f6633c5d40ad448cbd2
+    path: "authors/crackmes-de/5ab77f6633c5d40ad448cbd2/original/ZNKKeygenme#1.zip"
+    page: https://crackmes.one/crackme/5ab77f6633c5d40ad448cbd2
