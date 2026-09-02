@@ -246,6 +246,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f6533c5d40ad448cb6b/original/Slayer_Crackme1.zip"
     title: "crackmes.de's slayers_crackme_1 by savage"
 
+  5ab77f6533c5d40ad448cb5b:
+    sha256: "9a42695d0266119666ab9841f5230a4566156f5705d1d0b2742199c7ae51e867"
+    path: "authors/crackmes-de/5ab77f6533c5d40ad448cb5b/original/clone.zip"
+    title: "crackmes.de's clone by haggar"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -455,3 +460,7 @@ by_sha256:
     id: 5ab77f6533c5d40ad448cb6b
     path: "authors/crackmes-de/5ab77f6533c5d40ad448cb6b/original/Slayer_Crackme1.zip"
     page: https://crackmes.one/crackme/5ab77f6533c5d40ad448cb6b
+  9a42695d0266119666ab9841f5230a4566156f5705d1d0b2742199c7ae51e867:
+    id: 5ab77f6533c5d40ad448cb5b
+    path: "authors/crackmes-de/5ab77f6533c5d40ad448cb5b/original/clone.zip"
+    page: https://crackmes.one/crackme/5ab77f6533c5d40ad448cb5b
