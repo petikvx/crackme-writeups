@@ -191,9 +191,9 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-02 | [clone](authors/crackmes-de/5ab77f6533c5d40ad448cb5b/) | crackmes.de / haggar |
 | 2026-09-02 | [znycuks_1_crackme](authors/crackmes-de/5ab77f6633c5d40ad448cbd2/) | crackmes.de / znycuk |
 | 2026-09-02 | [slayers_crackme_1](authors/crackmes-de/5ab77f6533c5d40ad448cb6b/) | crackmes.de / savage |
-| 2026-09-02 | [clone](authors/crackmes-de/5ab77f6533c5d40ad448cb5b/) | crackmes.de / haggar |
 | 2026-09-02 | [tropes_safe_cracker_1](authors/crackmes-de/5ab77f6533c5d40ad448cb87/) | crackmes.de / trope |
 | 2026-09-02 | [the_xor_algorithm](authors/crackmes-de/5ab77f6533c5d40ad448cbc5/) | crackmes.de / ksydfius |
 | 2026-09-02 | [deobfuscate_1](authors/crackmes-de/5ab77f6633c5d40ad448cc26/) | crackmes.de / shism |
