@@ -41,12 +41,13 @@ def main() -> int:
         cmd = ["wine", str(EXE), *ARGV_PAD]
         p = subprocess.run(
             cmd,
-            input=PASSWORD + "\n",
-            text=True,
+            input=(PASSWORD + "\n").encode(),
             capture_output=True,
-            env={**dict(**{k: v for k, v in __import__("os").environ.items()}), "WINEDEBUG": "-all"},
+            env={**dict(__import__("os").environ), "WINEDEBUG": "-all"},
         )
-        out = (p.stdout or "") + (p.stderr or "")
+        out = (p.stdout or b"").decode("latin1", "replace") + (
+            p.stderr or b""
+        ).decode("latin1", "replace")
         print(out)
         if "GOOD JOB" not in out or "NOT A GOOD" in out:
             print("RUN FAIL", file=sys.stderr)
