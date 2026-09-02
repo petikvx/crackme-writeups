@@ -211,6 +211,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f6033c5d40ad448c894/original/KeygenMe.exe"
     title: "crackmes.de's keygenme_v1.8 by greedy_fly"
 
+  5ab77f5e33c5d40ad448c79a:
+    sha256: "86260967056c5a5f8258531152bc03abdf0728e6db29cde35bdc6c97047d009c"
+    path: "authors/crackmes-de/5ab77f5e33c5d40ad448c79a/original/sortingserver.zip"
+    title: "crackmes.de's sorting_server_ctf by warsaw"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -392,3 +397,7 @@ by_sha256:
     id: 5ab77f6033c5d40ad448c894
     path: "authors/crackmes-de/5ab77f6033c5d40ad448c894/original/KeygenMe.zip"
     page: https://crackmes.one/crackme/5ab77f6033c5d40ad448c894
+  86260967056c5a5f8258531152bc03abdf0728e6db29cde35bdc6c97047d009c:
+    id: 5ab77f5e33c5d40ad448c79a
+    path: "authors/crackmes-de/5ab77f5e33c5d40ad448c79a/original/sortingserver.zip"
+    page: https://crackmes.one/crackme/5ab77f5e33c5d40ad448c79a

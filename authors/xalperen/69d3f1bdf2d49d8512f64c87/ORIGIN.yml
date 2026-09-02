@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69d3f1bdf2d49d8512f64c87
+
+urls:
+  page: https://crackmes.one/crackme/69d3f1bdf2d49d8512f64c87
+  download: https://crackmes.one/download/crackme/69d3f1bdf2d49d8512f64c87
+
+title: "xalperen's Python OBF Custom VM with self-modifying code + stack encryption"
+author_on_site: "xalperen"
+author_local: "xalperen"
+
+platform: "Multiplatform"
+arch: "x86-64"
+language: "Python"
+
+difficulty: 4.0
+quality: 4.0
+size: "1.38 MB"
+published: "2026-04-06"
+
+series_index: null
+local_slug: kryptonvm
+
+binary:
+  path: "original/crackmefinal.py"
+  name: "crackmefinal.py"
+  sha256: "3841c5ed3281af3f61b126f83aa03d3ad6dca754ee193ee36f56f9cd297c8db6"
+  md5: "948d21f758c0626d842424d01c9fb79b"
+  size_bytes: 1446990
+
+status: solved
+solution_summary: "password u$u$u$u$u$ (xor66→7f7f7f7f7f) ; flag KCTF{5up3r_s3cr3t_krypt0n} ; stock compare bug vs krypton2024"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-02T19:16:29Z"

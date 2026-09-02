@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5e33c5d40ad448c79a
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5e33c5d40ad448c79a
+  download: https://crackmes.one/download/crackme/5ab77f5e33c5d40ad448c79a
+
+title: "crackmes.de's sorting_server_ctf by warsaw"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Multiplatform"
+arch: ""
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/sortingserver.zip"
+  name: "sortingserver.zip"
+  sha256: "86260967056c5a5f8258531152bc03abdf0728e6db29cde35bdc6c97047d009c"
+  md5: "d177756caa3c4aa3be053c1fa8f77c40"
+  size_bytes: 1681
+
+status: pending
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-02T19:16:31Z"

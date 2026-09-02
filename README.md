@@ -170,6 +170,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [gregland](authors/gregland/README.md) | gregland | 4 (CrackMe #1–#4) | 4 / 4 |
 | [brembo](authors/brembo/README.md) | brembo | 1 (license-cli) | 0 / 1 *(parked)* |
 | [hydra14212](authors/hydra14212/README.md) | Hydra14212 | 1 (HydraVault) | 0 / 1 *(parked)* |
+| [xalperen](authors/xalperen/README.md) | xalperen | 1 (KryptonVM) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -190,6 +191,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-02 | [Python OBF Custom VM (KryptonVM)](authors/xalperen/69d3f1bdf2d49d8512f64c87/) | xalperen |
 | 2026-09-02 | [python - decryptme](authors/alessiosca/6147267033c5d4649c52bb50/) | alessiosca |
 | 2026-08-31 | [gregland's CrackMe 4](authors/gregland/5b502da833c5d41c0b8ae514/) | gregland |
 | 2026-08-31 | [gregland's CrackMe 3](authors/gregland/5b4f76f233c5d41c0b8ae506/) | gregland |

@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69d3f1bdf2d49d8512f64c87:
+    sha256: "3841c5ed3281af3f61b126f83aa03d3ad6dca754ee193ee36f56f9cd297c8db6"
+    path: "authors/xalperen/69d3f1bdf2d49d8512f64c87/original/crackmefinal.py"
+    title: "xalperen's Python OBF Custom VM with self-modifying code + stack encryption"
+
+by_sha256:
+  3841c5ed3281af3f61b126f83aa03d3ad6dca754ee193ee36f56f9cd297c8db6:
+    id: 69d3f1bdf2d49d8512f64c87
+    path: "authors/xalperen/69d3f1bdf2d49d8512f64c87/original/crackmefinal.py"
+    page: https://crackmes.one/crackme/69d3f1bdf2d49d8512f64c87

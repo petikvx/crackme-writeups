@@ -1,0 +1,18 @@
+KryptonVM (xalperen) — notes
+
+Unpack outer (AST-exec data+funcs, skip final exec):
+  10012× b85 chunks → XOR key per chunk → join 800924 bytes
+  3 layers reversed: optional flip, byte-=shift, blake2b stream XOR (salt)
+  zlib → sha256 eecd6ed7… → marshal code <kryptonobf> (~2.8 MiB)
+
+Runtime: Python 3.13 + pycryptodomex (Cryptodome.Cipher.AES).
+3.12/3.14: often segfault on exec of payload.
+
+check_password (live dis after bootstrap):
+  len==10
+  encoded = xor each char with 66
+  stores target='7f7f7f7f7f' but compares encoded == 'krypton2024'  ← BUG
+Intended: encoded == '7f7f7f7f7f' → password u$u$u$u$u$
+Flag hardcoded in main: KCTF{5up3r_s3cr3t_krypt0n}
+
+Proof: tools/kryptonvm-solve.py --run-patched
