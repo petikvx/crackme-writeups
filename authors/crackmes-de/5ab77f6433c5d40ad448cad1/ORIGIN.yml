@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6433c5d40ad448cad1
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6433c5d40ad448cad1
+  download: https://crackmes.one/download/crackme/5ab77f6433c5d40ad448cad1
+
+title: "crackmes.de's 4n006135_level_4 by borismilner"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 1.0
+quality: 4.0
+size: ""
+published: null
+
+series_index: null
+local_slug: 4n006135-level4
+
+binary:
+  path: "original/level-4.zip"
+  name: "level-4.zip"
+  sha256: "8a3e7371a5981bba343317ff08cc6574fa65f3928b82b1315ae2f78544376bfb"
+  md5: "1915d95028884a122bdae2c5d1e7f136"
+  size_bytes: 21628
+
+status: solved
+solution_summary: "THISWORLDISCRUEL + argc=7 (6 dummy args); Mario trap"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-02T19:57:51Z"

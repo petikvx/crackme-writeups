@@ -256,6 +256,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f6433c5d40ad448cb0f/original/CM2.zip"
     title: "crackmes.de's crack_me by hexic"
 
+  5ab77f6433c5d40ad448cad1:
+    sha256: "8a3e7371a5981bba343317ff08cc6574fa65f3928b82b1315ae2f78544376bfb"
+    path: "authors/crackmes-de/5ab77f6433c5d40ad448cad1/original/level-4.zip"
+    title: "crackmes.de's 4n006135_level_4 by borismilner"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -473,3 +478,7 @@ by_sha256:
     id: 5ab77f6433c5d40ad448cb0f
     path: "authors/crackmes-de/5ab77f6433c5d40ad448cb0f/original/CM2.zip"
     page: https://crackmes.one/crackme/5ab77f6433c5d40ad448cb0f
+  8a3e7371a5981bba343317ff08cc6574fa65f3928b82b1315ae2f78544376bfb:
+    id: 5ab77f6433c5d40ad448cad1
+    path: "authors/crackmes-de/5ab77f6433c5d40ad448cad1/original/level-4.zip"
+    page: https://crackmes.one/crackme/5ab77f6433c5d40ad448cad1
