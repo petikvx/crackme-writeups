@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6433c5d40ad448cad0
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6433c5d40ad448cad0
+  download: https://crackmes.one/download/crackme/5ab77f6433c5d40ad448cad0
+
+title: "crackmes.de's 4n006135 by borismilner"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 1.0
+quality: 4.0
+size: ""
+published: null
+
+series_index: null
+local_slug: "4n006135_forn00bies"
+
+binary:
+  path: "original/forn00bies.zip"
+  name: "forn00bies.zip"
+  sha256: "9eb17360a56c45fd832d083032929a30a00696e422c1e0e7639d3c87abd55f1e"
+  md5: "0761c3b5e72cd44742583a8abdafac8f"
+  size_bytes: 408525
+
+status: solved
+solution_summary: "L0 Easy; L1 petik→541; L2 rdtsc keygen (* /O + base26); L3 EFLAGS guess -1879046653"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-02T20:00:47Z"

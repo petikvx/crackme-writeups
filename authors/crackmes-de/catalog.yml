@@ -261,6 +261,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f6433c5d40ad448cad1/original/level-4.zip"
     title: "crackmes.de's 4n006135_level_4 by borismilner"
 
+  5ab77f6433c5d40ad448cad0:
+    sha256: "9eb17360a56c45fd832d083032929a30a00696e422c1e0e7639d3c87abd55f1e"
+    path: "authors/crackmes-de/5ab77f6433c5d40ad448cad0/original/forn00bies.zip"
+    title: "crackmes.de's 4n006135 by borismilner"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -482,3 +487,7 @@ by_sha256:
     id: 5ab77f6433c5d40ad448cad1
     path: "authors/crackmes-de/5ab77f6433c5d40ad448cad1/original/level-4.zip"
     page: https://crackmes.one/crackme/5ab77f6433c5d40ad448cad1
+  9eb17360a56c45fd832d083032929a30a00696e422c1e0e7639d3c87abd55f1e:
+    id: 5ab77f6433c5d40ad448cad0
+    path: "authors/crackmes-de/5ab77f6433c5d40ad448cad0/original/forn00bies.zip"
+    page: https://crackmes.one/crackme/5ab77f6433c5d40ad448cad0
