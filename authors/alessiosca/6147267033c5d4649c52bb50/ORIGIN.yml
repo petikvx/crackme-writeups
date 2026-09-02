@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6147267033c5d4649c52bb50
+
+urls:
+  page: https://crackmes.one/crackme/6147267033c5d4649c52bb50
+  download: https://crackmes.one/download/crackme/6147267033c5d4649c52bb50
+
+title: "alessiosca's python - decryptme"
+author_on_site: "alessiosca"
+author_local: "alessiosca"
+
+platform: "Multiplatform"
+arch: "other"
+language: "Python"
+
+difficulty: 1.7
+quality: 4.8
+size: "356.62 KB"
+published: "2021-09-19"
+
+series_index: null
+local_slug: python-decryptme
+
+binary:
+  path: "original/helloworld_encrypted.py"
+  name: "helloworld_encrypted.py"
+  sha256: "779c984618dd4c81143820ca62f76aa4903285dbbbeebf90313fef63725915ac"
+  md5: "b1020bd7a0e14d62d473f3790c8760a9"
+  size_bytes: 365184
+
+status: solved
+solution_summary: "4× peel b16→b32→b64 (pyencrypt) ; flag comment `# I'm the flag. Hello!`"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-02T19:12:52Z"

@@ -137,6 +137,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [neoncarrot](authors/neoncarrot/README.md) | neoncarrot | 1 (Find the correct key!) | 1 / 1 |
 | [cosmosss](authors/cosmosss/README.md) | CosmoSSS | 1 (Password Very Easy) | 1 / 1 |
 | [abolhb](authors/abolhb/README.md) | ABOLHB | 1 (MasonCrackmeV2) | 1 / 1 |
+| [alessiosca](authors/alessiosca/README.md) | alessiosca | 1 (python - decryptme) | 1 / 1 |
 | [ockotajny](authors/ockotajny/README.md) | OckoTajny | 1 (netCrack) | 1 / 1 |
 | [teknikclel69](authors/teknikclel69/README.md) | Teknikclel69 | 1 (silly) | 1 / 1 |
 | [xeeven](authors/xeeven/README.md) | Xeeven | 1 (FindThePassword1) | 1 / 1 |
@@ -189,6 +190,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-02 | [python - decryptme](authors/alessiosca/6147267033c5d4649c52bb50/) | alessiosca |
 | 2026-08-31 | [gregland's CrackMe 4](authors/gregland/5b502da833c5d41c0b8ae514/) | gregland |
 | 2026-08-31 | [gregland's CrackMe 3](authors/gregland/5b4f76f233c5d41c0b8ae506/) | gregland |
 | 2026-08-31 | [gregland's CrackMe 2](authors/gregland/5b4df56233c5d46d830c3f3a/) | gregland |

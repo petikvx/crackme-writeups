@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6147267033c5d4649c52bb50:
+    sha256: "779c984618dd4c81143820ca62f76aa4903285dbbbeebf90313fef63725915ac"
+    path: "authors/alessiosca/6147267033c5d4649c52bb50/original/helloworld_encrypted.py"
+    title: "alessiosca's python - decryptme"
+
+by_sha256:
+  779c984618dd4c81143820ca62f76aa4903285dbbbeebf90313fef63725915ac:
+    id: 6147267033c5d4649c52bb50
+    path: "authors/alessiosca/6147267033c5d4649c52bb50/original/helloworld_encrypted.py"
+    page: https://crackmes.one/crackme/6147267033c5d4649c52bb50
