@@ -10,16 +10,16 @@ author_on_site: "crackmes.de"
 author_local: "crackmes-de"
 
 platform: "Multiplatform"
-arch: ""
-language: ""
+arch: "other"
+language: "Python"
 
-difficulty: null
-quality: null
-size: ""
-published: null
+difficulty: 4.0
+quality: 4.0
+size: "1.64 KB"
+published: "2018-03-25"
 
 series_index: null
-local_slug: null
+local_slug: sorting-server-ctf
 
 binary:
   path: "original/sortingserver.zip"
@@ -28,8 +28,8 @@ binary:
   md5: "d177756caa3c4aa3be053c1fa8f77c40"
   size_bytes: 1681
 
-status: pending
-solution_summary: ""
+status: solved
+solution_summary: "oracle quicksort pivot==max → CRT first LCG 30-bit → lift seed uint32 ; --serve-check OK"
 
 download:
   zip_password: crackmes.one
