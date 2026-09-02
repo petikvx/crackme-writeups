@@ -221,6 +221,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f6633c5d40ad448cc2a/original/buggers.zip"
     title: "crackmes.de's buggers_v.5 by shism"
 
+  5ab77f6633c5d40ad448cc26:
+    sha256: "38e0609a4cb70b055fc0ca2a48d55c3068d357e21523e5ae068a7edc3c273451"
+    path: "authors/crackmes-de/5ab77f6633c5d40ad448cc26/original/Deobfuscate1.zip"
+    title: "crackmes.de's deobfuscate_1 by shism"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -410,3 +415,7 @@ by_sha256:
     id: 5ab77f6633c5d40ad448cc2a
     path: "authors/crackmes-de/5ab77f6633c5d40ad448cc2a/original/buggers.zip"
     page: https://crackmes.one/crackme/5ab77f6633c5d40ad448cc2a
+  38e0609a4cb70b055fc0ca2a48d55c3068d357e21523e5ae068a7edc3c273451:
+    id: 5ab77f6633c5d40ad448cc26
+    path: "authors/crackmes-de/5ab77f6633c5d40ad448cc26/original/Deobfuscate1.zip"
+    page: https://crackmes.one/crackme/5ab77f6633c5d40ad448cc26
