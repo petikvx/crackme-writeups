@@ -64,6 +64,11 @@ Série **rezk2ll** (NASM) importée depuis crackmes.de.
 | 49 | [crack_me](5ab77f6433c5d40ad448cb0f/) | hexic / cLoNeTrOnE | Win PE32 | petik→**`13-0000021D-Z7`** |
 | 50 | [4n006135_level_4](5ab77f6433c5d40ad448cad1/) | borismilner | Win PE32 console | `THISWORLDISCRUEL` + argc=7 |
 | 51 | [4n006135_forn00bies](5ab77f6433c5d40ad448cad0/) | borismilner | Win PE32 console ×4 | L0 `Easy` ; L1 petik→541 ; L2 rdtsc keygen ; L3 `-1879046653` |
+| 52 | [fishing_with_dila_v0.5](5ab77f6433c5d40ad448cab4/) | dila | Win PE32 GUI | code **`3210123`** |
+| 53 | [fishing_with_dila_v0.4](5ab77f6433c5d40ad448cab3/) | dila | Win PE32 GUI | code **`1337`** |
+| 54 | [fishing_with_dila_v0.3](5ab77f6433c5d40ad448cab1/) | dila | Win PE32 GUI | code **`111`** |
+| 55 | [fishing_with_dila_v0.2](5ab77f6433c5d40ad448cab2/) | dila | Win PE32 GUI | code **`921`** |
+| 56 | [fishing_with_dila_v0.1](5ab77f6433c5d40ad448cab0/) | dila | Win PE32 GUI | code **`666`** |
 
 ## Mis de côté (PARKED — y revenir)
 

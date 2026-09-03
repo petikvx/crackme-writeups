@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6433c5d40ad448cab4
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6433c5d40ad448cab4
+  download: https://crackmes.one/download/crackme/5ab77f6433c5d40ad448cab4
+
+title: "crackmes.de's fishing_with_dila_v0.5 by dila"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: "fishing_with_dila_v0.5"
+
+binary:
+  path: "original/fwdv5.zip"
+  name: "fwdv5.zip"
+  sha256: "40b6dead1e307e442e20f04208d9282a07af8f4b0d027f9d8594248e1bb8b937"
+  md5: "a32d0f354375701ccbe202982f0d0243"
+  size_bytes: 3898
+
+status: solved
+solution_summary: "dialog code 3210123 (gadget add ah/neg + xor 0xDEAF + rol16)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-03T03:23:22Z"
