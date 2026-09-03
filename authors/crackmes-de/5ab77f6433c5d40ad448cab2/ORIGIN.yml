@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6433c5d40ad448cab2
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6433c5d40ad448cab2
+  download: https://crackmes.one/download/crackme/5ab77f6433c5d40ad448cab2
+
+title: "crackmes.de's fishing_with_dila_v0.2 by dila"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: "fishing_with_dila_v0.2"
+
+binary:
+  path: "original/fwdv2.zip"
+  name: "fwdv2.zip"
+  sha256: "d5bdb7ed445d01597c3f12caf45702474fa6aca42e1e04672c4596d6f3c2d63b"
+  md5: "70abf95b1a3b90c44c25996b8d8c449f"
+  size_bytes: 3898
+
+status: solved
+solution_summary: "dialog code 921 (0x39A-1)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-03T03:23:25Z"
