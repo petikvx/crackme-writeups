@@ -77,6 +77,7 @@ Série **rezk2ll** (NASM) importée depuis crackmes.de.
 | 63 | [crackme_3_by_sharpe](5ab77f6233c5d40ad448c9e1/) | sharpe | Win PE32 GUI | AAAAAAAA→**`$$$$$$$$mbc`afgd`** (GetVersion) |
 | 64 | [connrs_crackme](5ab77f6233c5d40ad448c9aa/) | connr | DOS MZ UPX | code **`2813`** |
 | 65 | [mars1](5ab77f6233c5d40ad448c967/) | mars | Win PE32 GUI | petik→**`\\x12S4i`** (jump→yes) |
+| 66 | [leevions_first_crackme_with_assemby](5ab77f6233c5d40ad448c963/) | leevion | Win PE32 FASM | patch → **`Crackme cracked!!`** |
 | 56 | [fishing_with_dila_v0.1](5ab77f6433c5d40ad448cab0/) | dila | Win PE32 GUI | code **`666`** |
 
 ## Mis de côté (PARKED — y revenir)

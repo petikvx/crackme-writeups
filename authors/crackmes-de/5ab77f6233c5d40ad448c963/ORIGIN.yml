@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6233c5d40ad448c963
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6233c5d40ad448c963
+  download: https://crackmes.one/download/crackme/5ab77f6233c5d40ad448c963
+
+title: "crackmes.de's leevions_first_crackme_with_assemby by leevion"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: leevions_first_crackme_with_assemby
+
+binary:
+  path: "original/LeeviON__sCrackme.zip"
+  name: "LeeviON__sCrackme.zip"
+  sha256: "d500c34980407ad685c1396c20a112f8e5e0893a4cbb3afecc053002eaeae33d"
+  md5: "568b29cf5a280fb2711e47bfd431e956"
+  size_bytes: 951
+
+status: solved
+solution_summary: "patchme FASM: jmp over ExitProcess → Crackme cracked!!"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-03T04:15:18Z"

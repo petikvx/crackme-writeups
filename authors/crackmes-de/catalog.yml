@@ -336,6 +336,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f6233c5d40ad448c967/original/mars1.zip"
     title: "crackmes.de's mars1 by mars"
 
+  5ab77f6233c5d40ad448c963:
+    sha256: "d500c34980407ad685c1396c20a112f8e5e0893a4cbb3afecc053002eaeae33d"
+    path: "authors/crackmes-de/5ab77f6233c5d40ad448c963/original/LeeviON__sCrackme.zip"
+    title: "crackmes.de's leevions_first_crackme_with_assemby by leevion"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -617,3 +622,7 @@ by_sha256:
     id: 5ab77f6233c5d40ad448c967
     path: "authors/crackmes-de/5ab77f6233c5d40ad448c967/original/mars1.zip"
     page: https://crackmes.one/crackme/5ab77f6233c5d40ad448c967
+  d500c34980407ad685c1396c20a112f8e5e0893a4cbb3afecc053002eaeae33d:
+    id: 5ab77f6233c5d40ad448c963
+    path: "authors/crackmes-de/5ab77f6233c5d40ad448c963/original/LeeviON__sCrackme.zip"
+    page: https://crackmes.one/crackme/5ab77f6233c5d40ad448c963
