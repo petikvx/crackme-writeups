@@ -81,6 +81,7 @@ Série **rezk2ll** (NASM) importée depuis crackmes.de.
 | 67 | [patchme_1](5ab77f6133c5d40ad448c93f/) | oxygen | Win PE32 MASM | nag + **`Good Boy [petik]`** |
 | 68 | [nonzenzes_keygenme1](5ab77f6133c5d40ad448c933/) | nonzenze | Win PE32 MASM | petik→**`E4000156`** |
 | 69 | [protreebrains_crackme_1](5ab77f6133c5d40ad448c915/) | protreebrain | Win PE32 MASM | serial **`20062007`** |
+| 70 | [stigger](5ab77f6133c5d40ad448c8f5/) | stigger | Win PE32 MASM | petik→**`AAAAAYKKUN`** |
 | 56 | [fishing_with_dila_v0.1](5ab77f6433c5d40ad448cab0/) | dila | Win PE32 GUI | code **`666`** |
 
 ## Mis de côté (PARKED — y revenir)

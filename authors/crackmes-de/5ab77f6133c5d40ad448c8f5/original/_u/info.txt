@@ -1,0 +1,20 @@
+==============================stigger's=crackme=#1==============================
+hi there!this is my first crack me.
+info:
+
+lang:        masm32
+difficulty:  2/10(you don't think so?write me!)
+source size: 6kb
+
+task:
+
+1)kill nags by patching(loader avail too)
+2)find valid serial for your name
+3)write keygen
+4)send solution to me =)
+wbr, stigger
+
+icq:   74000656
+email: stigger@truelife.ru
+fido:  2:5011/133
+================================================================================

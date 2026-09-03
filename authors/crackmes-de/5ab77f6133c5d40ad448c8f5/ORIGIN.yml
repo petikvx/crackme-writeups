@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6133c5d40ad448c8f5
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6133c5d40ad448c8f5
+  download: https://crackmes.one/download/crackme/5ab77f6133c5d40ad448c8f5
+
+title: "crackmes.de's stigger by stigger"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: stigger
+
+binary:
+  path: "original/stgcrme1.zip"
+  name: "stgcrme1.zip"
+  sha256: "11b776adda84c110ace69456d7293a7a767974b944b25e6fd08cc575bfedc704"
+  md5: "038e5230423113084a6eeb3378f18dc6"
+  size_bytes: 1821
+
+status: solved
+solution_summary: "petik→AAAAAYKKUN (post self-patch keygen)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-03T04:23:42Z"
