@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6433c5d40ad448cab0
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6433c5d40ad448cab0
+  download: https://crackmes.one/download/crackme/5ab77f6433c5d40ad448cab0
+
+title: "crackmes.de's fishing_with_dila_v0.1 by dila"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: "fishing_with_dila_v0.1"
+
+binary:
+  path: "original/fwdv1.zip"
+  name: "fwdv1.zip"
+  sha256: "b132d29827504dd1036e202fdeeb792170f3e120470df396f34806bcedc77bb8"
+  md5: "12640fe39a88fbe135362152715ab744"
+  size_bytes: 3898
+
+status: solved
+solution_summary: "dialog code 666 (cmp 0x29A)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-03T03:23:28Z"
