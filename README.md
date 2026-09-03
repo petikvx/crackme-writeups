@@ -145,7 +145,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [oguzbey](authors/oguzbey/README.md) | oguzbey | 1 (Lucky Numbers) | 1 / 1 |
 | [andrewl](authors/andrewl/README.md) | andrewl | 1 (Quick Crypto) | 1 / 1 |
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
-| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 60 / 30+ |
+| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 62 / 30+ |
 | [chaltu](authors/chaltu/README.md) | chaltu | 2 (a Treasure + Double Door) | 2 / 2 |
 | [qerr0r](authors/qerr0r/README.md) | QERR0R | 1 (crackit) | 1 / 1 |
 | [steve_maxwell](authors/steve_maxwell/README.md) | steve_maxwell | 1 (X-0-R) | 1 / 1 |
@@ -191,6 +191,8 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-03 | [injectme_2](authors/crackmes-de/5ab77f6233c5d40ad448c9ee/) | crackmes.de / xylitol |
+| 2026-09-03 | [injectme_1](authors/crackmes-de/5ab77f6233c5d40ad448c9ed/) | crackmes.de / xylitol |
 | 2026-09-03 | [crackme_1_by_sharpe](authors/crackmes-de/5ab77f6233c5d40ad448c9df/) | crackmes.de / sharpe |
 | 2026-09-03 | [vazonezs_keygenme_1](authors/crackmes-de/5ab77f6333c5d40ad448c9ff/) | crackmes.de / vazonez |
 | 2026-09-03 | [smple_unpackme_v0.1](authors/crackmes-de/5ab77f6333c5d40ad448ca2e/) | crackmes.de / simple_re |
