@@ -68,6 +68,7 @@ Série **rezk2ll** (NASM) importée depuis crackmes.de.
 | 53 | [fishing_with_dila_v0.4](5ab77f6433c5d40ad448cab3/) | dila | Win PE32 GUI | code **`1337`** |
 | 54 | [fishing_with_dila_v0.3](5ab77f6433c5d40ad448cab1/) | dila | Win PE32 GUI | code **`111`** |
 | 55 | [fishing_with_dila_v0.2](5ab77f6433c5d40ad448cab2/) | dila | Win PE32 GUI | code **`921`** |
+| 57 | [databus_keygenme1](5ab77f6333c5d40ad448ca70/) | databus | Win PE32 GUI | petikk→**`DDCCBE47-BB997C8E`** |
 | 56 | [fishing_with_dila_v0.1](5ab77f6433c5d40ad448cab0/) | dila | Win PE32 GUI | code **`666`** |
 
 ## Mis de côté (PARKED — y revenir)

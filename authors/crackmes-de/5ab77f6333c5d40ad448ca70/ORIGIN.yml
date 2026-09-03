@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6333c5d40ad448ca70
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6333c5d40ad448ca70
+  download: https://crackmes.one/download/crackme/5ab77f6333c5d40ad448ca70
+
+title: "crackmes.de's databus_keygenme1 by databus"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: "databus_keygenme1"
+
+binary:
+  path: "original/keygenme.zip"
+  name: "keygenme.zip"
+  sha256: "873bd17dd5b153e991dc40bd56718f6b8c3b05b23e4e99e804b49c226ba53c57"
+  md5: "5e7f86e0ef4eb53a0ad6db2b79b3124b"
+  size_bytes: 1330
+
+status: solved
+solution_summary: "petikk→DDCCBE47-BB997C8E (even len; K=0xDDCCBBAA)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-03T03:33:46Z"

@@ -291,6 +291,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f6433c5d40ad448cab0/original/fwdv1.zip"
     title: "crackmes.de's fishing_with_dila_v0.1 by dila"
 
+  5ab77f6333c5d40ad448ca70:
+    sha256: "873bd17dd5b153e991dc40bd56718f6b8c3b05b23e4e99e804b49c226ba53c57"
+    path: "authors/crackmes-de/5ab77f6333c5d40ad448ca70/original/keygenme.zip"
+    title: "crackmes.de's databus_keygenme1 by databus"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -536,3 +541,7 @@ by_sha256:
     id: 5ab77f6433c5d40ad448cab0
     path: "authors/crackmes-de/5ab77f6433c5d40ad448cab0/original/fwdv1.zip"
     page: https://crackmes.one/crackme/5ab77f6433c5d40ad448cab0
+  873bd17dd5b153e991dc40bd56718f6b8c3b05b23e4e99e804b49c226ba53c57:
+    id: 5ab77f6333c5d40ad448ca70
+    path: "authors/crackmes-de/5ab77f6333c5d40ad448ca70/original/keygenme.zip"
+    page: https://crackmes.one/crackme/5ab77f6333c5d40ad448ca70
