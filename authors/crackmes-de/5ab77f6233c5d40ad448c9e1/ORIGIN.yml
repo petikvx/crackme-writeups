@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6233c5d40ad448c9e1
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6233c5d40ad448c9e1
+  download: https://crackmes.one/download/crackme/5ab77f6233c5d40ad448c9e1
+
+title: "crackmes.de's crackme_3_by_sharpe by sharpe"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 3.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: "crackme_3_by_sharpe"
+
+binary:
+  path: "original/three.zip"
+  name: "three.zip"
+  sha256: "0255b5e8394320ff58fe565b06cc2eff3d95662bd788c111db082899e0572e1e"
+  md5: "404f092229269beb0b500f9f99ad5287"
+  size_bytes: 2329
+
+status: solved
+solution_summary: "XOR-decrypt 0xCF0EB0A1 blob; AAAAAAAA→$$$$$$$$mbc`afgd (GetVersion-dependent)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-03T03:42:21Z"
