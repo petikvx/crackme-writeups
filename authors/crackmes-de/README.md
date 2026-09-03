@@ -70,6 +70,7 @@ Série **rezk2ll** (NASM) importée depuis crackmes.de.
 | 55 | [fishing_with_dila_v0.2](5ab77f6433c5d40ad448cab2/) | dila | Win PE32 GUI | code **`921`** |
 | 57 | [databus_keygenme1](5ab77f6333c5d40ad448ca70/) | databus | Win PE32 GUI | petikk→**`DDCCBE47-BB997C8E`** |
 | 58 | [smple_unpackme_v0.1](5ab77f6333c5d40ad448ca2e/) | simple_re | Win PE32 GUI | restore IAT thunks → `UnpackMe.restored.exe` |
+| 59 | [vazonezs_keygenme_1](5ab77f6333c5d40ad448c9ff/) | vazonez | Win PE32 GUI | petik→**`I[WcE[[Pb^jLbb`** |
 | 56 | [fishing_with_dila_v0.1](5ab77f6433c5d40ad448cab0/) | dila | Win PE32 GUI | code **`666`** |
 
 ## Mis de côté (PARKED — y revenir)
