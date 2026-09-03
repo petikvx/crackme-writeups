@@ -331,6 +331,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f6233c5d40ad448c9aa/original/Crackme.zip"
     title: "crackmes.de's connrs_crackme by connr"
 
+  5ab77f6233c5d40ad448c967:
+    sha256: "0e50c639e9430cea00afd25ac255a36591c2e3a884f8a00555a25e18ed78539f"
+    path: "authors/crackmes-de/5ab77f6233c5d40ad448c967/original/mars1.zip"
+    title: "crackmes.de's mars1 by mars"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -608,3 +613,7 @@ by_sha256:
     id: 5ab77f6233c5d40ad448c9aa
     path: "authors/crackmes-de/5ab77f6233c5d40ad448c9aa/original/Crackme.zip"
     page: https://crackmes.one/crackme/5ab77f6233c5d40ad448c9aa
+  0e50c639e9430cea00afd25ac255a36591c2e3a884f8a00555a25e18ed78539f:
+    id: 5ab77f6233c5d40ad448c967
+    path: "authors/crackmes-de/5ab77f6233c5d40ad448c967/original/mars1.zip"
+    page: https://crackmes.one/crackme/5ab77f6233c5d40ad448c967

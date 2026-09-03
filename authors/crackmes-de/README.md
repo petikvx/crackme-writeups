@@ -76,6 +76,7 @@ Série **rezk2ll** (NASM) importée depuis crackmes.de.
 | 62 | [injectme_2](5ab77f6233c5d40ad448c9ee/) | xylitol | Win PE32 GUI | export-walk MessageBoxA |
 | 63 | [crackme_3_by_sharpe](5ab77f6233c5d40ad448c9e1/) | sharpe | Win PE32 GUI | AAAAAAAA→**`$$$$$$$$mbc`afgd`** (GetVersion) |
 | 64 | [connrs_crackme](5ab77f6233c5d40ad448c9aa/) | connr | DOS MZ UPX | code **`2813`** |
+| 65 | [mars1](5ab77f6233c5d40ad448c967/) | mars | Win PE32 GUI | petik→**`\\x12S4i`** (jump→yes) |
 | 56 | [fishing_with_dila_v0.1](5ab77f6433c5d40ad448cab0/) | dila | Win PE32 GUI | code **`666`** |
 
 ## Mis de côté (PARKED — y revenir)

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6233c5d40ad448c967
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6233c5d40ad448c967
+  download: https://crackmes.one/download/crackme/5ab77f6233c5d40ad448c967
+
+title: "crackmes.de's mars1 by mars"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: mars1
+
+binary:
+  path: "original/mars1.zip"
+  name: "mars1.zip"
+  sha256: "0e50c639e9430cea00afd25ac255a36591c2e3a884f8a00555a25e18ed78539f"
+  md5: "36210efed8891cefd449a60b936171a2"
+  size_bytes: 6140
+
+status: solved
+solution_summary: "petik→\\x12S4i ; jump 0x40125E XOR NO!→yes"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-03T04:10:18Z"
