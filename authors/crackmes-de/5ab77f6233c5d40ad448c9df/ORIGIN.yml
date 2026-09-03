@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6233c5d40ad448c9df
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6233c5d40ad448c9df
+  download: https://crackmes.one/download/crackme/5ab77f6233c5d40ad448c9df
+
+title: "crackmes.de's crackme_1_by_sharpe by sharpe"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: "crackme_1_by_sharpe"
+
+binary:
+  path: "original/two.zip"
+  name: "two.zip"
+  sha256: "2002aa6d8a0e2073b2a9ee562ec6f36b3b1c9942e66a0c308c6a454dadc6c661"
+  md5: "4659234d11e51ba84bcd407bdf008686"
+  size_bytes: 3362
+
+status: solved
+solution_summary: "petik→@tAvw,+*)('&%$#\" (16 bytes; junk in transform discarded)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-03T03:42:23Z"
