@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6433c5d40ad448cab1
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6433c5d40ad448cab1
+  download: https://crackmes.one/download/crackme/5ab77f6433c5d40ad448cab1
+
+title: "crackmes.de's fishing_with_dila_v0.3 by dila"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: "fishing_with_dila_v0.3"
+
+binary:
+  path: "original/fwdv3.zip"
+  name: "fwdv3.zip"
+  sha256: "0fc18d649f30966c0d7113f4ce7c1ccf7e34ee12c70d1098b495b1b1bf7743a5"
+  md5: "65979b5646593d091c3895dbb708e1b9"
+  size_bytes: 3898
+
+status: solved
+solution_summary: "dialog code 111 (movsx 'o')"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-03T03:23:27Z"
