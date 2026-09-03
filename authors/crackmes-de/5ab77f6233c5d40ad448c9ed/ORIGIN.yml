@@ -11,15 +11,15 @@ author_local: "crackmes-de"
 
 platform: "Windows"
 arch: "x86"
-language: ""
+language: "Assembler"
 
-difficulty: null
+difficulty: 1.0
 quality: null
 size: ""
 published: null
 
 series_index: null
-local_slug: null
+local_slug: "injectme_1"
 
 binary:
   path: "original/InjectMe1.zip"
@@ -28,8 +28,8 @@ binary:
   md5: "0b111c636a01556c66c4602975d7af79"
   size_bytes: 85523
 
-status: pending
-solution_summary: ""
+status: solved
+solution_summary: "EP cave → MessageBoxA Injected by petik"
 
 download:
   zip_password: crackmes.one

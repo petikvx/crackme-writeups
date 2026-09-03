@@ -11,15 +11,15 @@ author_local: "crackmes-de"
 
 platform: "Windows"
 arch: "x86"
-language: ""
+language: "Assembler"
 
-difficulty: null
+difficulty: 1.0
 quality: null
 size: ""
 published: null
 
 series_index: null
-local_slug: null
+local_slug: "injectme_2"
 
 binary:
   path: "original/InjectMe_#2.zip"
@@ -28,8 +28,8 @@ binary:
   md5: "0067627e3fbd6b3ab3f303e1f68bc481"
   size_bytes: 107373
 
-status: pending
-solution_summary: ""
+status: solved
+solution_summary: ".inj section export-walk MessageBoxA Injected by petik"
 
 download:
   zip_password: crackmes.one
