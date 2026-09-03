@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6133c5d40ad448c93f
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6133c5d40ad448c93f
+  download: https://crackmes.one/download/crackme/5ab77f6133c5d40ad448c93f
+
+title: "crackmes.de's patchme_1 by oxygen"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: patchme_1
+
+binary:
+  path: "original/PatchMe.zip"
+  name: "PatchMe.zip"
+  sha256: "2a1fd85877b0c01a65ce1eb12d28d623bfb9762ee17a84349d5aa9071d9d2c4c"
+  md5: "749031867a23c9942bd90c7ff22d2e06"
+  size_bytes: 898
+
+status: solved
+solution_summary: "nag + Good Boy [petik] MessageBox patch"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-03T04:18:09Z"

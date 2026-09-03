@@ -341,6 +341,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f6233c5d40ad448c963/original/LeeviON__sCrackme.zip"
     title: "crackmes.de's leevions_first_crackme_with_assemby by leevion"
 
+  5ab77f6133c5d40ad448c93f:
+    sha256: "2a1fd85877b0c01a65ce1eb12d28d623bfb9762ee17a84349d5aa9071d9d2c4c"
+    path: "authors/crackmes-de/5ab77f6133c5d40ad448c93f/original/PatchMe.zip"
+    title: "crackmes.de's patchme_1 by oxygen"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -626,3 +631,7 @@ by_sha256:
     id: 5ab77f6233c5d40ad448c963
     path: "authors/crackmes-de/5ab77f6233c5d40ad448c963/original/LeeviON__sCrackme.zip"
     page: https://crackmes.one/crackme/5ab77f6233c5d40ad448c963
+  2a1fd85877b0c01a65ce1eb12d28d623bfb9762ee17a84349d5aa9071d9d2c4c:
+    id: 5ab77f6133c5d40ad448c93f
+    path: "authors/crackmes-de/5ab77f6133c5d40ad448c93f/original/PatchMe.zip"
+    page: https://crackmes.one/crackme/5ab77f6133c5d40ad448c93f
