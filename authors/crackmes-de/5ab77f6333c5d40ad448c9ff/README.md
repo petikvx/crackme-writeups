@@ -1,30 +1,26 @@
-# crackmes.de's vazonezs_keygenme_1 by vazonez
+# vazonezs_keygenme_1 (vazonez)
 
-| | |
+> **Origine** : [`ORIGIN.yml`](ORIGIN.yml) · [crackmes.one](https://crackmes.one/crackme/5ab77f6333c5d40ad448c9ff) · id `5ab77f6333c5d40ad448c9ff`  
+> Import crackmes.de — auteur **vazonez**.
+
+| Fichier | Rôle |
 |---|---|
-| **ID** | [`5ab77f6333c5d40ad448c9ff`](https://crackmes.one/crackme/5ab77f6333c5d40ad448c9ff) |
-| **Auteur (site)** | crackmes.de |
-| **Auteur (local)** | crackmes-de |
-| **SHA-256** | `278e907080da1a6612c4a125a3146fa8871297fce4a02ed06a209005e6a78191` |
+| [`original/_u/crackme1.exe`](original/_u/crackme1.exe) | PE32 GUI MASM32 |
+| [`tools/vazonez-solve.py`](tools/vazonez-solve.py) | keygen + `--check` |
 
-## Origine
+## Réponse
 
-- Page : https://crackmes.one/crackme/5ab77f6333c5d40ad448c9ff
-- Download : https://crackmes.one/download/crackme/5ab77f6333c5d40ad448c9ff
-- ZIP password : `crackmes.one`
+| Champ | Valeur |
+|---|---|
+| User (GetUserNameA) | **`petik`** |
+| Code | **`I[WcE[[Pb^jLbb`** |
 
-Voir [`ORIGIN.yml`](ORIGIN.yml).
-
-## Contenu
-
-```
-original/   # binaire d'origine
-analysis/   # IDA, screenshots
-tools/      # solveur, recon
+```bash
+python3 tools/vazonez-solve.py -q --user petik
+python3 tools/vazonez-solve.py --check
 ```
 
-## Status
+## Prédicat
 
-- [ ] reverse
-- [ ] write-up
-- [ ] solveur
+Seed `VaZoNeZ`×2 (14 octets). Pour i∈[0,14) à `0x4031A4` :
+`out[i]=(((seed[i]+user[0])^5)+((0x4031A4+i)&0xFF)-0x1E)&0xFF`.

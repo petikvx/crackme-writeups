@@ -11,15 +11,15 @@ author_local: "crackmes-de"
 
 platform: "Windows"
 arch: "x86"
-language: ""
+language: "Assembler"
 
-difficulty: null
+difficulty: 1.0
 quality: null
 size: ""
 published: null
 
 series_index: null
-local_slug: null
+local_slug: "vazonezs_keygenme_1"
 
 binary:
   path: "original/CrackMe1.zip"
@@ -28,8 +28,8 @@ binary:
   md5: "3a6df2580a5bd35da68e7d10f73ae4f4"
   size_bytes: 3405
 
-status: pending
-solution_summary: ""
+status: solved
+solution_summary: "petik→I[WcE[[Pb^jLbb (GetUserNameA[0]+VaZoNeZ×2)"
 
 download:
   zip_password: crackmes.one
