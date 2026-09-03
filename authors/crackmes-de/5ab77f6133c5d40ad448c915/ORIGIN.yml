@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6133c5d40ad448c915
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6133c5d40ad448c915
+  download: https://crackmes.one/download/crackme/5ab77f6133c5d40ad448c915
+
+title: "crackmes.de's protreebrains_crackme_1 by protreebrain"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: protreebrains_crackme_1
+
+binary:
+  path: "original/crackme_1.zip"
+  name: "crackme_1.zip"
+  sha256: "cae2e2296fb2e12dc4b8c668192f1c915df76ce1f69d123c2cd698a320ecc6fc"
+  md5: "8b7c377a41cc557e5c765e2e05b4da3e"
+  size_bytes: 1421
+
+status: solved
+solution_summary: "serial 20062007 (GetDlgItemInt)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-03T04:21:30Z"

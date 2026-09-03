@@ -351,6 +351,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f6133c5d40ad448c933/original/keygenme#1.zip"
     title: "crackmes.de's nonzenzes_keygenme1 by nonzenze"
 
+  5ab77f6133c5d40ad448c915:
+    sha256: "cae2e2296fb2e12dc4b8c668192f1c915df76ce1f69d123c2cd698a320ecc6fc"
+    path: "authors/crackmes-de/5ab77f6133c5d40ad448c915/original/crackme_1.zip"
+    title: "crackmes.de's protreebrains_crackme_1 by protreebrain"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -644,3 +649,7 @@ by_sha256:
     id: 5ab77f6133c5d40ad448c933
     path: "authors/crackmes-de/5ab77f6133c5d40ad448c933/original/keygenme#1.zip"
     page: https://crackmes.one/crackme/5ab77f6133c5d40ad448c933
+  cae2e2296fb2e12dc4b8c668192f1c915df76ce1f69d123c2cd698a320ecc6fc:
+    id: 5ab77f6133c5d40ad448c915
+    path: "authors/crackmes-de/5ab77f6133c5d40ad448c915/original/crackme_1.zip"
+    page: https://crackmes.one/crackme/5ab77f6133c5d40ad448c915
