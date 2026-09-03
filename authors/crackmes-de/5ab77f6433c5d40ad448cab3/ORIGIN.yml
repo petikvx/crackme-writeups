@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6433c5d40ad448cab3
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6433c5d40ad448cab3
+  download: https://crackmes.one/download/crackme/5ab77f6433c5d40ad448cab3
+
+title: "crackmes.de's fishing_with_dila_v0.4 by dila"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: "fishing_with_dila_v0.4"
+
+binary:
+  path: "original/fwdv4.zip"
+  name: "fwdv4.zip"
+  sha256: "f13e2dd65c180f4ec07c3ee2ae2f9c24c1928fef0d6d1235069c052f4ddd048c"
+  md5: "bf8e18d1c26e5f1e1289d3a4de61f050"
+  size_bytes: 3898
+
+status: solved
+solution_summary: "dialog code 1337 (0x29C*2+1)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-03T03:23:24Z"
