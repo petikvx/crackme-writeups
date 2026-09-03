@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6133c5d40ad448c933
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6133c5d40ad448c933
+  download: https://crackmes.one/download/crackme/5ab77f6133c5d40ad448c933
+
+title: "crackmes.de's nonzenzes_keygenme1 by nonzenze"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: nonzenzes_keygenme1
+
+binary:
+  path: "original/keygenme#1.zip"
+  name: "keygenme#1.zip"
+  sha256: "077e75e2a718a9f6a178ba85084ece3557a2d0235015d5a0ec0af5ac3ac2d407"
+  md5: "a15133f71bbab1568451d13e4b6ce88e"
+  size_bytes: 2353
+
+status: solved
+solution_summary: "petik→E4000156 (bswap+add hex)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-03T04:19:48Z"

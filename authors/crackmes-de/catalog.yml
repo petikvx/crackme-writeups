@@ -346,6 +346,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f6133c5d40ad448c93f/original/PatchMe.zip"
     title: "crackmes.de's patchme_1 by oxygen"
 
+  5ab77f6133c5d40ad448c933:
+    sha256: "077e75e2a718a9f6a178ba85084ece3557a2d0235015d5a0ec0af5ac3ac2d407"
+    path: "authors/crackmes-de/5ab77f6133c5d40ad448c933/original/keygenme#1.zip"
+    title: "crackmes.de's nonzenzes_keygenme1 by nonzenze"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -635,3 +640,7 @@ by_sha256:
     id: 5ab77f6133c5d40ad448c93f
     path: "authors/crackmes-de/5ab77f6133c5d40ad448c93f/original/PatchMe.zip"
     page: https://crackmes.one/crackme/5ab77f6133c5d40ad448c93f
+  077e75e2a718a9f6a178ba85084ece3557a2d0235015d5a0ec0af5ac3ac2d407:
+    id: 5ab77f6133c5d40ad448c933
+    path: "authors/crackmes-de/5ab77f6133c5d40ad448c933/original/keygenme#1.zip"
+    page: https://crackmes.one/crackme/5ab77f6133c5d40ad448c933
