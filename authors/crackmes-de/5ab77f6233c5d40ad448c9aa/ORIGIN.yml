@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6233c5d40ad448c9aa
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6233c5d40ad448c9aa
+  download: https://crackmes.one/download/crackme/5ab77f6233c5d40ad448c9aa
+
+title: "crackmes.de's connrs_crackme by connr"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "DOS"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: connrs_crackme
+
+binary:
+  path: "original/Crackme.zip"
+  name: "Crackme.zip"
+  sha256: "5c4327eb85ff35f1f5c357ba6f8ff50a7f0321af536d6d73698a5f09270c2aba"
+  md5: "e22ebc2ec27a6009a1ce8bb308d680c9"
+  size_bytes: 636
+
+status: solved
+solution_summary: "UPX dos/exe ; code 2813 (stack LIFO cmp 3/1/8/2)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-03T04:07:08Z"
