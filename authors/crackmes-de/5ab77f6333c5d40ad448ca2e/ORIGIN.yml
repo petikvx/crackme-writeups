@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6333c5d40ad448ca2e
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6333c5d40ad448ca2e
+  download: https://crackmes.one/download/crackme/5ab77f6333c5d40ad448ca2e
+
+title: "crackmes.de's smple_unpackme_v0.1 by simple_re"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: "smple_unpackme_v0.1"
+
+binary:
+  path: "original/UnpackMe.zip"
+  name: "UnpackMe.zip"
+  sha256: "7641bc2580ee73105887557969140ccdc46b50c58e1711f20b2342b9ef544b44"
+  md5: "df858fdc8eb9bb85274e2490a0b618d6"
+  size_bytes: 5991
+
+status: solved
+solution_summary: "restore scrambled jmp[iat] thunks → analysis/UnpackMe.restored.exe"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-03T03:37:01Z"
