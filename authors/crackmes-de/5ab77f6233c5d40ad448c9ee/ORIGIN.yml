@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6233c5d40ad448c9ee
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6233c5d40ad448c9ee
+  download: https://crackmes.one/download/crackme/5ab77f6233c5d40ad448c9ee
+
+title: "crackmes.de's injectme_2 by xylitol"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/InjectMe_#2.zip"
+  name: "InjectMe_#2.zip"
+  sha256: "0572baaff11df6d56823d9709f442656bd17051f356465302716c49982d30915"
+  md5: "0067627e3fbd6b3ab3f303e1f68bc481"
+  size_bytes: 107373
+
+status: pending
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-03T03:42:17Z"
