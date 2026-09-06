@@ -54,6 +54,59 @@ Chemin succès (extrait) :
    - si compteur ≠ 2 → force `NO\r\n`
    - sinon laisse le dword (ex. `0xdeadc4df ^ 0xd4a08f90` = **`OK\r\n`**)
 
+## Debug GDB (pas à pas)
+
+ELF32 tiny, **pas de section headers**. Entry observée sous `starti` : **`0x804823f`**. Le contrôle de flux s’appuie sur **`SIGTRAP`** (handler qui pose la clé et incrémente un compteur) — GDB doit **laisser passer** le signal au programme, sinon le prédicat OK ne se construit pas.
+
+```bash
+gdb -nx -q ./original/888/888
+(gdb) set debuginfod enabled off
+(gdb) handle SIGTRAP nostop noprint pass
+(gdb) handle SIGFPE  nostop noprint pass
+(gdb) starti
+(gdb) x/20i $eip
+```
+
+| Adresse / symbole | Rôle |
+|---|---|
+| `0x804823f` | entry / premier trampoline |
+| `0x804829f` | handler-ish : `mov dword [0x8048384], 0xd4a08f90` |
+| `0x804837c` | compteur SIGTRAP (doit valoir **2** pour OK) |
+| `0x8048384` | clé XOR du dword affiché |
+| `0x804832d` | fin de chemin : XOR `[esp]` avec la clé puis `write` |
+
+Sur kernels récents le 2ᵉ `sigreturn` casse souvent le flux natif (`NO`). Pour **prouver** le prédicat sans patcher `original/` (comme le solveur `--check`) :
+
+```text
+(gdb) break *0x804823f
+(gdb) run x y key
+(gdb) set {int}0x804837c = 2
+(gdb) set {int}0x8048384 = 0xd4a08f90
+(gdb) set $esp = $esp - 4
+(gdb) set {int}$esp = 0xdeadc4df
+(gdb) set $pc = 0x804832d
+(gdb) continue
+# → OK
+```
+
+```bash
+# équivalent batch (déjà encapsulé dans tools/888-solve.py --check)
+gdb -nx -batch \
+  -ex 'set debuginfod enabled off' \
+  -ex 'handle SIGTRAP nostop noprint pass' \
+  -ex 'break *0x804823f' \
+  -ex 'run x y key' \
+  -ex 'set {int}0x804837c = 2' \
+  -ex 'set {int}0x8048384 = 0xd4a08f90' \
+  -ex 'set $esp = $esp - 4' \
+  -ex 'set {int}$esp = 0xdeadc4df' \
+  -ex 'set $pc = 0x804832d' \
+  -ex 'continue' \
+  --args ./original/888/888 x y key
+```
+
+**Piège** : laisser GDB stopper sur `SIGTRAP` (défaut) empêche le handler du crackme de tourner ; `info signals SIGTRAP` doit montrer `pass` vers le programme.
+
 ## Vérification
 
 Sur **kernel moderne**, le 2ᵉ `sigreturn` échoue souvent (`ESRCH`) et le binaire affiche `NO` même avec les bons argv — comportement d’époque (2005) cassé.

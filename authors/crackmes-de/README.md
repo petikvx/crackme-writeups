@@ -8,6 +8,8 @@ Série **rezk2ll** (NASM) importée depuis crackmes.de.
 
 Sections **Debug GDB (pas à pas)** : rezk2ll (`CrackMe_ASM`, `BeatMe`, `KeygenmeNasm`, `f1nd_my_k3y5`) et josamont (`j333`…`j666`, PTY/`read` fd1).
 
+Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r), `fr0g_kgm1`, `basic_logic`, `staple`, `yyyyyyy1`, `easy_linux_crackme` / `easy_crackme_2` (lord), `crackme.03.32` (geyslan, ELF invalide → wrap gdbelf).
+
 ## Progression
 
 | # | Titre | ID | Plateforme | Solution |

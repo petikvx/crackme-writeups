@@ -32,6 +32,45 @@ python3 tools/basic-logic-solve.py --check
 4. Lecture caractère par caractère sur **fd 1** (stdout) → **PTY obligatoire** (pipe classique échoue).
 5. `ptrace(TRACEME)` anti-debug (GDB ⇒ échec anticipé + `unlink` argv0).
 
+## Debug GDB (pas à pas)
+
+ELF32 NASM strippé, entry **`0x8048080`**. Password = `str(pid)+str(time)` ; lecture **caractère par caractère sur fd1** (PTY).
+
+```bash
+gdb -nx -q ./original/logic/logic
+(gdb) set debuginfod enabled off
+(gdb) starti
+(gdb) x/40i $eip
+```
+
+| Adresse | Rôle |
+|---|---|
+| `0x8048080` | sauve argv0 ; prompt `enter password:` |
+| `0x804809d` | `sys_getpid` (`eax=0x14`) → digits `@0x80494fa` |
+| `0x80480cd` | `ptrace(TRACEME)` (`eax=0x1a`) — sous GDB ⇒ branche fail `@0x8048277` |
+| `0x80480e6` | `sys_time` (`eax=0xd`) → digits `@0x8049504` |
+| `0x8048154`…`0x8048168` | `read(fd=1, 1 octet)` boucle → buf `@0x80492f0` |
+| `0x80481ae`…`0x80481d1` | concat pid\|time → `@0x80493d4` |
+| `0x80481f8` | `cmp al, bl` — prédicat octet à octet |
+| `0x8048201` | succès → `password is correct!` |
+
+```text
+(gdb) break *0x80480dd
+(gdb) break *0x80481f8
+(gdb) run
+(gdb) print/x $eax           # après ptrace : <0 sous GDB
+# Pour inspecter le cmp sans anti-debug : patcher le test @0x80480df
+#   (gdb) set *(unsigned char*)0x80480df = 0xeb  # jmp short, saute le fail
+# puis PTY : saisir str(pid)+str(time) — ou laisser tools/basic-logic-solve.py --check
+```
+
+Sous debugger « naïf », le `ptrace` fait échouer le run (et peut `unlink` argv0). Preuve scriptée = solveur PTY hors GDB.
+
+```bash
+gdb -nx -batch -ex 'set debuginfod enabled off' -ex 'file ./original/logic/logic' \
+  -ex 'starti' -ex 'x/i 0x80480cd' -ex 'x/i 0x8048154' -ex 'x/i 0x80481f8'
+```
+
 ## Notes
 
 - ioctl `TCGETS`/`TCSETS` pour masquer l’écho.

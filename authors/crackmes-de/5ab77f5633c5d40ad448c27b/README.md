@@ -110,6 +110,48 @@ Pour du **printable ASCII**, la longueur minimale est **22**
 (`32 * sum(w[:22]) ≤ 75238 ≤ 126 * sum(w[:22])`). Le solveur fait un DP
 sur `a..z` et livre une solution canonique.
 
+## Debug GDB (pas à pas)
+
+ELF64 **static / stripped**, pas de PIE. Entry **`0x4000b0`** = boucle VM ; bytecode `@0x6008e8`, handlers `@0x6004e0`.
+
+```bash
+printf '%s\n' uoiaefdcgkbhqrywsvtxpz > /tmp/husky.in
+gdb -nx -q ./original/crackme
+(gdb) set debuginfod enabled off
+(gdb) starti
+(gdb) x/20i $pc
+```
+
+| Adresse | Rôle |
+|---|---|
+| `0x4000b0` | entry : `r14 = 0x1f0/4`, fetch insn |
+| `0x4000c0` | charge dword bytecode `0x6008e8(,%ecx,4)` |
+| `0x4000fc` | `jmp [0x6004e0+rbx*8]` — dispatch opcode |
+| `0x40010a` | `exit` syscall (`eax=0x3c`) |
+| `0x400116`… | helper affichage décimal (peu utile au prédicat) |
+
+```text
+(gdb) break *0x4000fc
+(gdb) ignore 1 400          # laisser tourner la VM
+(gdb) break *0x40010a       # juste avant exit(0)
+(gdb) run < /tmp/husky.in
+(gdb) x/4wx 0x6008e8        # début bytecode
+(gdb) info registers rcx    # PC VM ≈ compteur d’insns
+(gdb) continue
+# Please enter a password: Correct! =)
+```
+
+Le checksum vit **dans** le bytecode (handlers `in` / `mul` / `add`) : plus lisible via l’émulateur Python que via stepi sur chaque dword. GDB sert surtout à cartographier entry / dispatch / I/O.
+
+```bash
+gdb -nx -batch \
+  -ex 'set debuginfod enabled off' \
+  -ex 'starti' -ex 'x/12i $pc' \
+  -ex 'break *0x40010a' \
+  -ex 'run < /tmp/husky.in' \
+  --args ./original/crackme
+```
+
 ## Vérification
 
 ```bash

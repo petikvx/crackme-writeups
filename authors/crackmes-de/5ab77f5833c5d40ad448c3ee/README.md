@@ -56,6 +56,56 @@ ok ⇔ (ebx ^ 0x80483ba) == 0xc0ffee
 
 Les 8 octets en `0x80483ba` sont le password (résolu via Z3 / force du checksum).
 
+## Debug GDB (pas à pas)
+
+ELF32 static **non stripé**. `e_entry` fichier = **`0x8048883`** (SIGSEGV). Vrai `_start` / `main` / `__main` = **`0x80488bb`**. Pour GDB : copie temporaire avec entry patchée (comme le solveur).
+
+```bash
+python3 - <<'PY'
+from pathlib import Path
+import struct, os
+raw = bytearray(Path('original/naive-crk').read_bytes())
+struct.pack_into('<I', raw, 0x18, 0x080488BB)
+Path('/tmp/naive-crk.fix').write_bytes(raw)
+os.chmod('/tmp/naive-crk.fix', 0o755)
+PY
+gdb -nx -q /tmp/naive-crk.fix
+(gdb) set debuginfod enabled off
+(gdb) starti
+(gdb) x/5i $eip
+# 0x80488bb <__main>: jmp 0x8048291 <f_prog>
+```
+
+| Symbole / adresse | Rôle |
+|---|---|
+| `0x80488bb` `_start` | vrai entry |
+| `0x8048291` `f_prog` | enchaîne checks |
+| `0x804829c` `_check_pt` | `ptrace` — sous GDB → `ptraced !!` |
+| `0x80482ca` `f_process` | décode invite / lit password |
+| `0x80483ba` `pass` | 8 octets password (+ checksum LOAD) |
+| `0x8048127` `stgraal` | message succès (XOR `0x1977`) |
+
+```text
+(gdb) break *_check_pt
+(gdb) break *0x80482ca
+(gdb) break *pass
+(gdb) run
+# si déjà tracé : message ptraced — patcher le retour comme pour CrackmeLinux
+# ou lancer hors parent traceur
+(gdb) x/8cb &pass
+# 'V' '7' 'l' '$' 'j' '^' 'F' ';'
+```
+
+**I/O croisés** : `write` fd **0**, `read` fd **1** — `run < …` ne nourrit pas le password. Utiliser le harness `tools/naive-solve.py --check` (pipes inversés + entry fix) ; GDB sur la copie pour symbols / checksum.
+
+```bash
+gdb -nx -batch \
+  -ex 'set debuginfod enabled off' \
+  -ex 'starti' -ex 'info functions' \
+  -ex 'x/10i 0x80488bb' \
+  --args /tmp/naive-crk.fix
+```
+
 ## Vérification
 
 ```bash

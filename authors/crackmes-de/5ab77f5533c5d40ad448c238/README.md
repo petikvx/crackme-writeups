@@ -62,6 +62,48 @@ for (i = 0; name[i]; i++)
 
 Exemple `petik` : `(p+e)+(e+t)+(t+i)+(i+k)+(k+0)` = `970`.
 
+## Debug GDB (pas à pas)
+
+ELF32 dynamique, **non stripé**. Entry `_start` `0x80484b0`, logique dans `main` `@0x8048564`. Pas de PIE.
+
+```bash
+printf 'petik\n970\n' > /tmp/crackme1.in
+gdb -nx -q ./original/crackme1
+(gdb) set debuginfod enabled off
+(gdb) starti
+(gdb) break *0x08048694          # cmp c / serial
+(gdb) break *0x080486b0          # branche succès (puts)
+(gdb) run < /tmp/crackme1.in
+```
+
+| Adresse | Rôle |
+|---|---|
+| `0x80485b7` | `fgets` nom → `@0x804a080` |
+| `0x8048612` | `fscanf("%d")` serial → `@0x804a060` |
+| `0x804862b`…`0x8048670` | boucle somme `name[i]+name[i+1]` → `@0x804a480` |
+| `0x8048694` | `cmp` accumulateur vs serial |
+| `0x80486b0` | succès → `"Vous avez craque…"` |
+
+```text
+(gdb) printf "c=%d serial=%d\n", *(int*)0x804a480, *(int*)0x804a060
+# c=970 serial=970
+(gdb) x/s 0x804a080
+# "petik"
+(gdb) continue
+# Vous avez craque le no de serie
+```
+
+Batch équivalent :
+
+```bash
+gdb -nx -batch \
+  -ex 'set debuginfod enabled off' \
+  -ex 'break *0x08048694' \
+  -ex 'run < /tmp/crackme1.in' \
+  -ex 'printf "c=%d serial=%d\n", *(int*)0x804a480, *(int*)0x804a060' \
+  --args ./original/crackme1
+```
+
 ## Vérification
 
 ```bash
