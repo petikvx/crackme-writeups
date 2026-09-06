@@ -1,0 +1,27 @@
+//Returns 0 if the memory buffers are equal, something else otherwise
+//uint64_t memequal(uint64_t *a, uint64_t *b, uint64_t count)
+label memequal
+	pushall
+	
+	ldi $rv, 0
+label memequal_loop
+	//if (count == 0) return;
+	jz $a2, memequal_end
+	
+	//rv |= *a ^ *b
+	load $a0, 0 > $tmp
+	load $a1, 0 > $a3
+	xor $tmp, $tmp, $a3
+	or $rv, $rv, $tmp
+	
+	//a++; b++; count--
+	addi $a0, $a0, 1
+	addi $a1, $a1, 1
+	addi $a2, $a2, -1
+	
+	j memequal_loop
+	
+label memequal_end
+	popall
+	jr $lr
+	

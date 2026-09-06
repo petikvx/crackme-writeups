@@ -1,0 +1,208 @@
+//FLAG{wh4t_1s_a_pr0gr4m_c0unt3r?_jit_eng1n3s_ar3_4wes0m3}
+
+//Verifies the characters of the given string using
+//self-modifying code. Returns 1 on success, 0 on failure.
+//uint64_t selfmod_verify(uint64_t *str)
+label selfmod_verify
+	pushall
+	
+	//tmp: str pointer
+	//rv: Result
+	//lr: Abuse to store pointer to current selfmod_data entry
+	addi $tmp, $a0, 0
+	ldi $rv, 1
+	ldi $lr, selfmod_data
+	
+label selfmod_verify_loop
+	
+	//Load the selfmod_data entry
+	vmcall VC_LOAD_CONST: $a0, $lr, $lr
+	vmcall VC_PCINC: $lr, $lr, $lr
+	
+	//Offset zero = null terminator
+	jz $a0, selfmod_verify_end
+	
+	vmcall VC_LOAD_CONST: $a1, $lr, $lr
+	vmcall VC_PCINC: $lr, $lr, $lr
+	vmcall VC_LOAD_CONST: $a2, $lr, $lr
+	vmcall VC_PCINC: $lr, $lr, $lr
+	vmcall VC_LOAD_CONST: $a3, $lr, $lr
+	vmcall VC_PCINC: $lr, $lr, $lr
+	
+	//a0: offset
+	//a1: arg1
+	//a2: arg2
+	//a3: result
+	
+	push $lr
+	push $rv
+	
+	//Load the character to check, increase the string pointer
+	load $tmp, 0 > $rv
+	addi $tmp, $tmp, 1
+	
+	push $tmp
+	
+	//Subtract the offset from the character and store the result (the opcode) in a0
+	sub $a0, $rv, $a0
+	
+	//Verify that one char
+	call selfmod_verify_one_char
+	
+	//Move the result of that check out of the way (a0 is not needed anymore)
+	addi $a0, $rv, 0
+	
+	pop $tmp
+	pop $rv
+	pop $lr
+	
+	//The verification only succeeds if all characters are correct
+	and $rv, $rv, $a0
+	
+	//Next character
+	j selfmod_verify_loop
+	
+	
+label selfmod_verify_end
+	popall
+	jr $lr
+
+
+//a0: opcode
+//a1: arg1
+//a2: arg2
+//a3: expectedResult
+//rv: 1 on success, 0 on failure
+label selfmod_verify_one_char
+	pushall
+	
+	//Valid opcodes: 3(ADD) to 9(XOR)
+	//Return 0 if the opcode is out of range
+	sgeti $rv, $a0, 3
+	jz $rv, selfmod_verify_one_char_fail
+	sleti $rv, $a0, 9
+	jz $rv, selfmod_verify_one_char_fail
+	
+	//Build the instruction (op $tmp, $a1, $a2)
+	ori $a0, $a0, 0x02010500
+	
+	//Store the instruction in code memory, then execute it
+	ldi $tmp, selfmod_verify_one_char_insn
+	vmcall VC_STORECMEM: $tmp, $tmp, $a0
+label selfmod_verify_one_char_insn
+	invalid_op
+	
+	//Check the result, return 1 if it's ok, 0 otherwise
+	seq $rv, $tmp, $a3
+	
+label selfmod_verify_one_char_fail
+	popall
+	jr $lr
+
+label selfmod_data
+	//offset, arg1, arg2, result
+	
+	//w -> SUB
+	data 115, 841, 395, 446
+	//h -> NEG
+	data 98, 799, 912, -799
+	//4 -> ADD
+	data 49, 336, 769, 1105
+	//t -> MUL
+	data 111, 554, 478, 264812
+	//_ -> NEG
+	data 89, 365, 514, -365
+	//1 -> SUB
+	data 45, 917, 636, 281
+	//s -> XOR
+	data 106, 142, 607, 721
+	//_ -> MUL
+	data 90, 243, 138, 33534
+	//a -> AND
+	data 90, 157, 401, 145
+	//_ -> XOR
+	data 86, 109, 999, 906
+	//p -> SUB
+	data 108, 513, 840, -327
+	//r -> XOR
+	data 105, 297, 638, 855
+	//0 -> XOR
+	data 39, 494, 973, 547
+	//g -> ADD
+	data 100, 772, 527, 1299
+	//r -> ADD
+	data 111, 401, 892, 1293
+	//4 -> NEG
+	data 46, 353, 808, -353
+	//m -> ADD
+	data 106, 70, 950, 1020
+	//_ -> SUB
+	data 91, 87, 193, -106
+	//c -> ADD
+	data 96, 891, 349, 1240
+	//0 -> AND
+	data 41, 21, 458, 0
+	//u -> OR
+	data 109, 239, 971, 1007
+	//n -> AND
+	data 103, 851, 267, 259
+	//t -> NEG
+	data 110, 376, 761, -376
+	//3 -> ADD
+	data 48, 668, 532, 1200
+	//r -> ADD
+	data 111, 438, 932, 1370
+	//? -> ADD
+	data 60, 721, 285, 1006
+	//_ -> AND
+	data 88, 640, 355, 0
+	//j -> OR
+	data 98, 166, 441, 447
+	//i -> MUL
+	data 100, 830, 331, 274730
+	//t -> ADD
+	data 113, 894, 351, 1245
+	//_ -> OR
+	data 87, 957, 589, 1021
+	//e -> XOR
+	data 92, 859, 440, 739
+	//n -> XOR
+	data 101, 399, 815, 672
+	//g -> ADD
+	data 100, 911, 483, 1394
+	//1 -> NEG
+	data 43, 951, 921, -951
+	//n -> ADD
+	data 107, 882, 642, 1524
+	//3 -> OR
+	data 43, 620, 282, 894
+	//s -> AND
+	data 108, 308, 448, 256
+	//_ -> MUL
+	data 90, 188, 277, 52076
+	//a -> SUB
+	data 93, 417, 170, 247
+	//r -> NEG
+	data 108, 104, 127, -104
+	//3 -> NEG
+	data 45, 761, 985, -761
+	//_ -> OR
+	data 87, 685, 384, 941
+	//4 -> AND
+	data 45, 369, 295, 289
+	//w -> XOR
+	data 110, 585, 245, 700
+	//e -> MUL
+	data 96, 733, 126, 92358
+	//s -> AND
+	data 108, 165, 746, 160
+	//0 -> ADD
+	data 45, 951, 53, 1004
+	//m -> MUL
+	data 104, 177, 241, 42657
+	//3 -> OR
+	data 43, 733, 657, 733
+	data 0
+	
+	
+	

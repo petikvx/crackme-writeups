@@ -1,0 +1,78 @@
+
+//FLAG{wh4t_1s_a_pr0gr4m_c0unt3r?_jit_eng1n3s_ar3_4wes0m3}
+#define FLAG_LENGTH 56
+#define FLAG_LAST_CHAR_INDEX 55
+
+//Checks if the given input is valid.
+//Returns 1 if it's valid, 0 if not.
+//uint64_t verify_input(uint64_t *str)
+label verify_input
+	pushall
+	
+	call clearjitcode
+	
+	//if (strlen(str) != FLAG_LENGTH) return 0;
+	call strlen
+	seqi $rv, $rv, FLAG_LENGTH
+	jz $rv, verify_input_end
+	
+	call clearjitcode
+	
+	//Get the input string out of the way (into a1)
+	addi $a1, $a0, 0
+	
+	//uint64_t *flag_start_str = strdup_from_cmem(flag_start)
+	ldi $a0, flag_start
+	call strdup_from_cmem
+	
+	call clearjitcode
+	
+	//if (!flag_start_str) return 0;
+	jz $rv, verify_input_end
+	
+	//a0 = flag_start_str
+	addi $a0, $rv, 0
+	
+	//a2 = strlen(flag_start_str)
+	call strlen
+	addi $a2, $rv, 0
+	
+	call clearjitcode
+	
+	//if (memequal(flag_start_str, str, strlen(flag_start_str))) return 0;
+	//also free the string once we're done with it
+	call memequal
+	vmcall VC_FREE: $a0, $a0, $a0
+	seqi $rv, $rv, 0
+	call clearjitcode
+	jz $rv, verify_input_end
+	
+	//if (str[FLAG_LAST_CHAR_INDEX] != '}') return 0;
+	load $a1, FLAG_LAST_CHAR_INDEX > $rv
+	seqi $rv, $rv, '}
+	jz $rv, verify_input_end
+	
+	//a1 = str
+	//a2 = strlen(flag_start_str)
+	
+	//Remove "FLAG{" and "}" from the input string
+	ldi $tmp, 0
+	store $a1, FLAG_LAST_CHAR_INDEX < $tmp
+	add $a0, $a1, $a2
+	
+	call clearjitcode
+	
+	//a0 = flag_string
+	
+	//Self-modifying flag verification routine
+	call selfmod_verify
+
+label verify_input_end
+	call clearjitcode
+	popall
+	jr $lr
+
+
+label flag_start
+	string FLAG{
+	

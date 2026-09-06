@@ -1,0 +1,17 @@
+//uint64_t strlen_cmem(uint64_t *str)
+label strlen_cmem
+	push $a0
+	
+	ldi $rv, 0
+label strlen_cmem_loop
+	//load $a0, 0 > $tmp
+	vmcall VC_LOAD_CONST: $tmp, $a0, $a0
+	jz $tmp, strlen_cmem_end
+	addi $rv, $rv, 1
+	//addi $a0, $a0, 1
+	vmcall VC_PCINC: $a0, $a0, $a0
+	j strlen_cmem_loop
+	
+label strlen_cmem_end
+	pop $a0
+	jr $lr

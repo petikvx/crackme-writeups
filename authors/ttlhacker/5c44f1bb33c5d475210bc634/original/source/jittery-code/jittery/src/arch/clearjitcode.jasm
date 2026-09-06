@@ -1,0 +1,28 @@
+//Clears all jitted instructions. This function does not clobber any registers.
+//void clearjitcode(void)
+label clearjitcode
+	push $tmp
+	push $rv
+	
+	ldi $tmp, 1
+label clearjitcode_loop
+	
+	//Don't overwrite the store instruction itself
+	seqi $rv, $tmp, clearjitcode_store
+	jnz $rv, clearjitcode_no_clear
+	
+	//To clear the jitted code, load the instruction and overwrite it with itself
+	vmcall VC_LOADCMEM: $rv, $tmp, $tmp
+label clearjitcode_store
+	vmcall VC_STORECMEM: $rv, $tmp, $rv
+	
+label clearjitcode_no_clear
+	
+	//Advance pointer, quit if we wrap around to 1
+	vmcall VC_PCINC: $tmp, $tmp, $tmp
+	seqi $rv, $tmp, 1
+	jz $rv, clearjitcode_loop
+	
+	pop $rv
+	pop $tmp
+	jr $lr

@@ -1,0 +1,2395 @@
+This is a crackme with several layers to unravel. The summary, though, is that before the
+program is run, the machine code that will verify your password doesn't exist; it is instead
+compiled on the fly (and in pieces) during program execution. To understand what is going 
+on, we will have to figure out (a) how the pieces are compiled, and (b) in what order they 
+are compiled. Once we've done that, we'll be able to compile all pieces at once, and fit
+them together.
+
+Normally, that would be the end of the story, but two things become apparent when analyzing
+the compiled code: first, it is emulating machine code for a (virtual) stack-based
+architecture, and second, the password you supply actually modifies the machine code itself
+(though, luckily, only slightly). Both of these will have to be figured out in order crack 
+this crackme. We will proceed layer by layer.
+
+
+
+
+
+                                  ======================
+                                    Layer 1: The setup
+                                  ======================
+
+
+When the program starts, the first thing it does is create and initialize a memory map which
+will eventually hold all the compiled code. We will need to understand the structure of this
+mapping, since it's where all the interesting program execution will take place.
+
+The main function for jittery does nothing of interest --- it simply passes execution to a
+different function which actually does the setting up and starts execution.
+
+    === main ===
+    0xd10:   sub    rsp,0x8
+    0xd14:   mov    ecx,0x2
+    0xd19:   lea    rdx,[rip+0x206300]        # 0x207020
+    0xd20:   mov    esi,0x400
+    0xd25:   lea    rdi,[rip+0x2042f4]        # 0x205020
+    0xd2c:   call   0x3460                    # call setup function and then run!
+    0xd31:   test   rax,rax                   # check if there were unexpected errors
+    (the rest of main is omitted)
+
+It is worthwhile to point out the parameters that main passes to the setup function. These
+are as follows:
+
+    Parameter 1: a buffer consisting of 0x400 quadwords located at 0x205020
+    Parameter 2: the length (0x400) of parameter 1
+    Parameter 3: a buffer consisting of two doublewords located at 0x207020
+    Parameter 4: the length (2) of parameter 3
+
+While it's not obvious what these parameters are yet, we will see that parameter 1 contains
+all the data which will be used to produce machine code for our program. It is therefore
+incredibly important --- enough that we will save it off to a separate file (which we will 
+call data_buffer) for later use.
+
+    > gdb jittery
+    (gdb) dump binary memory data_buffer 0x205020 0x207020
+
+The second parameter is the integer array {10, 7}. It will not change throughout the course
+of the program. Believe it or not, this parameter tells the program the order in which to
+do its on-the-fly compilations. We will definitely revisit it later.
+
+The setup function (address 0x3460) has three parts of interest to us. First, it creates a
+new memory mapping with a call to:
+
+    mmap(NULL, 64*0x400, PROT_EXEC|PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, ...)
+
+Notice the length of the mapping is 64 times the length of our data_buffer. As we will see,
+each entry in our data_buffer is going to correspond to a 64-byte block in the mapping. In
+fact, the next interesting part of the setup function is where the mapping is intitialized.
+Each 64-byte block is initialized separately, in a loop:
+
+    === the initialization loop ===
+    0x34d0:   mov    rdx,QWORD PTR [r14]  # r14 iterates through data_buffer
+    0x34d3:   mov    rdi,rbx              # rbx iterates through 64-byte blocks of the mmap
+    0x34d6:   add    rbx,0x40
+    0x34da:   add    r14,0x8
+    0x34de:   mov    QWORD PTR [rbx-0x8],rdx    # load the last 8 bytes of mmap block with 
+                                                # data from data_buffer
+    0x34e2:   call   0x33b0      # this function initializes the first 56 bytes of the 
+                                 # current block
+    0x34e7:   cmp    rbx,rbp              # check if we've reached the end of the mmap
+    0x34ea:   jne    0x34d0               # if not, do another iteration
+
+
+At the end of the loop, all 64-byte blocks of the mmap have been initialized. The ith block
+of mmap now looks as follows (bytes written in hex):
+
+    48 b8 (address of function 0x3210) ff d0 (cc cc ... cc cc) (data_buffer[i])
+          |-------- 8 bytes ---------|       |-- 44 bytes ---| |-- 8 bytes ---|
+
+While this may look random, recall that the memory map is meant to be executed (it was 
+created with the PROT_EXEC flag, after all). With that in mind, we should be viewing this
+block as machine code to be disassembled. When we disassemble it, we get the following:
+
+    === block[i] ===
+    movabs   rax, (address of function 0x3210)
+    call     rax
+    int3            
+    ...                    # 44 breakpoints
+    int3
+    (data_buffer[i])       # not actually code
+
+
+This completes the initialization of our memory mapping. The only thing remaining to
+consider in this function is the code which actually starts the *real* program.
+
+    === the kickoff code ===
+    0x34f1:   lea    rsi,[r12+0x40]                 # rsi = address of mmap block[1]
+    0x34f6:   lea    rdi,[rsp+0x10]                 # rdi = address of a struct
+    0x34fb:   mov    QWORD PTR [rsp+0x10],r12       # struct[0] = address of mmap
+    0x3500:   mov    QWORD PTR [rsp+0x18],r15       # struct[1] = address of array {10,7}
+    0x3505:   mov    QWORD PTR [rsp+0x20],rax       # struct[2] = length (2) of array {10,7}
+    0x350a:   call   0x3390                         # start the real program!
+
+The function 0x3390 takes in two arguments: a struct containing all the information needed
+to run the program, and the address of the first block to run. Notice, the first block that
+will be run is block[1], not block[0]. This definitely seems weird, but it will make more
+sense later.
+
+
+
+
+
+
+                            ===================================
+                              Layer 2: On-the-fly compilation
+                            ===================================
+
+
+The function 0x3390 really does not do much: essentially it just calls rsi, which holds the
+address of block[1]:
+
+    === function 0x3390 ===
+    0x3390:   push   rbx
+    0x3391:   call   0x3230
+    0x3396:   mov    rbx,rdi
+    0x3399:   call   rsi                # call block[1]
+    0x339b:   call   0x3250
+    0x33a0:   mov    rax,rbx
+    0x33a3:   pop    rbx
+    0x33a4:   ret    
+
+Here's where the fun starts. Recall that block[1] (and in fact all the blocks) start with:
+
+    movabs   rax, (address of function 0x3210)
+    call     rax
+
+Thus we immediately jump to function 0x3210, which itself is very simple:
+
+    === function 0x3210 ===
+    0x3210:   mov    rdi,rbx   # rdi and rbx point to the struct from before
+    0x3213:   pop    rsi       # rsi is now the address of the first "cc" byte in the block
+    0x3214:   call   0x3230    # not important
+    0x3219:   call   0x32c0    # THIS IS IT! RIGHT HERE, LADIES AND GENTLEMAN!
+    0x321e:   call   0x3250    # not important
+    0x3223:   jmp    rax       # ??? (We'll come back to this later)
+
+As you can tell, I'm very excited about this function 0x32c0. Why is that? BECAUSE IT'S THE
+MOST IMPORTANT FUNCTION IN THE WHOLE PROGRAM. This function takes your current mmap block,
+and completely rewrites it. It rewrites it with real code. In other words, this function
+"compiles" your block, filling it with legitimate machine instructions. For this reason, I
+will call this function compile_block().
+
+We must now dive into compile_block(). First, we will address the following question: how
+does compile_block() even know what to do with a given block? After all, each of the blocks
+are identical except for in the final 8 bytes. To answer this, consider the following lines 
+of code:
+
+    === compile_block ===
+    ...                                      
+    0x32d8:   movzx  eax,BYTE PTR [rsi+0x2c]  # grab the first byte of data_buffer[i]
+    0x32dc:   cmp    al,0x28
+    0x32de:   ja     0x330e                   # if it's bigger than 0x28=40, error!
+    ...
+    0x32e4:   lea    r8,[rip+0x201955]        # 0x204c40 <-- a function table
+    ...
+    0x3306:   call   QWORD PTR [r8+rax*8]     
+
+
+This is pretty clear: compile_block looks at the first byte of data_buffer[i] (which, as we
+discussed earlier, appears as the last 8 bytes of block[i], making it easy to get!) and uses
+it as an index into a function table. This function table consists of 41 functions, each of
+which will compile the code block in a different manner.
+
+    CONCLUSION: The first byte of data_buffer[i] determines how block[i] will be compiled.
+
+I certainly won't reverse engineer all 41 of the functions here. But as an example, the 
+function given by function_table[3] always produces assembly insructions of the form
+
+    mov   rax, R2
+    add   rax, R3
+    mov   R1, rax
+
+where here, R1, R2, and R3 can be any general purpose registers. Exactly what R1, R2, and R3
+are depends on the bytes of data_buffer[i]. In fact, for each of the functions in the
+function table, the bytes of data_buffer[i] give the following information:
+
+    First byte: index into function table.
+    Second byte: specifies R1.
+    Third byte: specifies R2.
+    Fourth byte: specifies R3.
+    Bytes 5-8: used as immediate integer data.
+
+In the case of the registers, the bytes give an index into a fixed register list:
+
+    register_list = { r8,  r9, r10, r11, r12, r13, r14, r15,
+                     rax, rcx, rdx, rbx, rsp, rbp, rsi, rdi }
+
+Thus, for example, if data_buffer[i] consisted of the eight bytes 03 07 0b 04 00 00 00 00,
+then compile_block() would produce the following code:
+
+    mov   rax,rbx
+    add   rax,r12
+    mov   r15,rax
+
+So now we should have a pretty clear strategy: reverse engineer all 41 of the functions from
+the function_table, and then we should be able to compile all the blocks simply by parsing 
+the entries of data_buffer. We are not quite ready to do this, however, because we have not
+finished going through the compile_block() function. There is still an important step to be
+done: linking the blocks together.
+
+After returning from whichever function_table function was called, compile_block() carries
+out the following instructions:
+
+    === compile_block, continued ===
+    ...
+    0x3338:   mov    esi,r12d                   # esi = index of current block within mmap
+    0x333b:   mov    rdi,rbp                    # rdi = pointer to the struct from before
+    0x333e:   call   0x3270                     # returns index of the "next" block
+    0x3343:   mov    ecx,0xffffb848             -----
+    0x3348:   mov    rdx,QWORD PTR [rsp]          |
+    0x334c:   mov    esi,0xffffe0ff               |
+    0x3351:   mov    eax,eax                      |  This code computes the address
+    0x3353:   mov    WORD PTR [rsp+0xe],cx        |  of the "next" block and appends
+    0x3358:   shl    rax,0x6                      |  two more machine code instructions
+    0x335c:   add    rax,QWORD PTR [rbp+0x0]      |  to the current block:
+    0x3360:   mov    QWORD PTR [rsp+0x10],rax     |  
+    0x3365:   mov    rax,QWORD PTR [rsp+0xe]      |  movabs   rax, (address of "next" block)
+    0x336a:   mov    QWORD PTR [rdx],rax          |  jmp      rax
+    0x336d:   movzx  eax,WORD PTR [rsp+0x16]      |  
+    0x3372:   mov    WORD PTR [rdx+0x8],ax        |
+    0x3376:   mov    rax,QWORD PTR [rsp]          |
+    0x337a:   mov    WORD PTR [rax+0xa],si      -----
+    ...         
+
+We will have to say something about the function 0x3270 which computes the index of the 
+"next" block. But before we do, let's just summarize in a picture what compile_block() does
+to any given mmap block: 
+
+    === block[i] (before compile_block) ===
+    movabs   rax, (address of function 0x3210)
+    call     rax
+    int3            
+    ...                    # 44 breakpoints
+    int3
+    (data_buffer[i])       # not actually code
+
+
+    === block[i] (after compile_block) ===
+    new instruction        ---
+    ...                     |  These came from some function in the function_table
+    new instruction        ---
+    movabs   rax, (address of "next" block)
+    jmp      rax
+    int3
+    ...                    # any breakpoints that weren't overwritten
+    int3
+    (data_buffer[i])       # not actually code
+
+
+Of course, compile_block() just overwrites a block; the new code still hasn't been executed.
+When does it get executed? Pretty quickly, actually: compile_block() returns the address of
+block[i] in the register rax. After it returns, we're back in function 0x3210:
+
+    === function 0x3210 ===
+    0x3210:   mov    rdi,rbx   # rdi and rbx point to the struct from before
+    0x3213:   pop    rsi       # rsi is now the address of the first "cc" byte in the block
+    0x3214:   call   0x3230    # not important
+    0x3219:   call   0x32c0    # compile_block() <--- writes the new code
+    0x321e:   call   0x3250    # not important
+    0x3223:   jmp    rax       # <--- executes the new code
+
+
+The only thing left to understand in this layer is the function 0x3270, which computes the
+index of the "next" block. In a less challenging crackme, the block following block[i] would
+be block[i+1]. But that's not the case here. 
+
+    === function 0x3270 ===
+    0x3270:   mov    rcx,QWORD PTR [rdi+0x10]       # length of the array {10, 7}
+    0x3274:   xor    eax,eax
+    0x3276:   test   rcx,rcx
+    0x3279:   je     0x32bf
+    0x327b:   mov    r8,QWORD PTR [rdi+0x8]         # address of the array {10, 7}
+    0x327f:   xor    edi,edi
+    0x3281:   mov    rdx,r8
+    0x3284:   lea    rax,[r8+rcx*4]
+    0x3288:   nop    DWORD PTR [rax+rax*1+0x0]
+(loop start)
+    0x3290:   mov    ecx,DWORD PTR [rdx]            # rdx iterates through {10, 7}
+    0x3292:   mov    r9d,esi                        # esi = the current block index
+    0x3295:   add    rdx,0x4
+    0x3299:   sub    ecx,0x1
+    0x329c:   shr    r9d,cl
+    0x329f:   mov    ecx,r9d
+    0x32a2:   and    ecx,0x1                        # grabs the jth bit of esi, j in {10, 7}
+    0x32a5:   xor    edi,ecx                        # was the jth bit of esi set?
+    0x32a7:   cmp    rax,rdx
+    0x32aa:   jne    0x3290 
+(loop end)
+    0x32ac:   mov    ecx,DWORD PTR [r8]
+    0x32af:   mov    eax,0x1
+    0x32b4:   add    esi,esi                        # shift current index to the left 1 bit
+    0x32b6:   or     edi,esi                        # possibly twiddle the low bit
+    0x32b8:   shl    eax,cl
+    0x32ba:   sub    eax,0x1
+    0x32bd:   and    eax,edi                        # truncate to 10 bits
+    0x32bf:   ret    
+
+If you've seen this kind of thing before, you'll recognize what's going on immediately: this
+function implements a 10 bit Fibonacci LFSR (wikipedia: linear feedback shift register). The
+array {10, 7} is telling the program where the taps are in the register. A very simple 
+python version of this function is as follows:
+
+    def step_register(index):
+        mask = 0b1001000000                 # bits 10 and 7 are set
+        res = (index << 1) & 0x3ff
+        if index & mask in [0, mask]:
+            return res
+        else:
+            return res + 1
+
+The choice {10, 7} was not arbitrary. With these taps, if you start at index 1 and keep 
+stepping the register, you will see all the indices (except 0) before cycling back to 1. 
+The index 0 is special, since step_register(0) is equal to 0. For this reason, if you were
+ever to execute block[0], you would get caught in a loop where you just keep executing
+block[0] over and over. This is why ttlhacker has us execute block[1] first.
+
+
+
+
+
+
+                              ================================
+                                Layer 3: The virtual machine
+                              ================================
+
+
+We now have all the ingredients we need to compile all the block ourselves (well, assuming
+that you can reverse engineer each of the 41 functions in the function_table --- this was
+the most difficult and time-consuming part for me). I wrote a simple disassembler in python 
+that takes in the data_buffer (which we saved to a file earlier) and prints out the machine 
+code for all the mmap blocks, in the proper order. The code (disassembler.py) is included at
+the end of this file, along with its output (disassembler_output.txt). 
+
+While you can easily just read through the assembly (it's only ~1000 lines long), if you
+start doing that, you'll see something looks awfully fishy about it. It doesn't look like
+assembly you'd get by compiling C code or something. No, it looks like someone compiled down
+bytecode for some (stack-based) virtual machine. The very first thing the code does is 
+allocate memory for this stack; throughout the code, the register r14 acts as the stack
+pointer. But then you start to see code segments that get repeated a lot (a lot!), like:
+
+    mov      r14, r14                                   mov      r14, r14
+    movsxd   rax, 0x1                                   movsxd   rax, -0x1
+    add      r14, rax                                   add      r14, rax
+    movsxd   rax, -0x1                      OR          movsxd   rax, 0x0
+    add      rax, r14                                   add      rax, r14
+    mov      rcx, r15                                   mov      rax, QWORD PTR [rax*8]
+    mov      QWORD PTR [rax*8], rcx                     mov      r15, rax
+
+These code blocks, respectively, implement the instructions  "push r15" and "pop r15" for 
+the (virtual) stack.
+
+If you stare at the disassembler output a little longer, you might notice some other
+repeated patterns. For example, consider the following code which happens near the start:
+
+    block 0x008: movzxd   r15, 0x020
+    block 0x010: jmp      block 0x102
+    block 0x020: movsxd   rdi, 0x3
+                 ....
+
+Notice that r15 is loaded with the index (0x020) of the block immediately after the jmp.
+This feels a lot like a "call" instruction: r15 is loaded with the "return address", and
+then execution jumps to a function at block 0x102. This pattern happens repeatedly. And, 
+even cooler, at the end of a function, you see the code blocks like the following:
+
+    block 0x12a: jmp      block $r15
+
+In other words, jump back to the return address, which was stored in r15.
+
+Anyway, if this hasn't convinced you that we're looking at the inner workings of a vitural
+machine, then keep looking. Here is a summary of some of the rules adhered to by the
+machine:
+
+    1) It uses the registers r8, r9, r10, r11, r12, r13, r14, and r15.
+    2) r14 is the stack pointer.
+    3) r15 always holds the return address when a function is called.
+    4) Return values are stored in r12.
+    5) When a function is called, it is the caller's responsibility to load r15 with
+       the return address
+    6) When a function is called, it is the callee's responsibility that save any register
+       values on the stack (if necessary). 
+    7) Parameters are usually passed in the registers r8, r9, r10, r11
+
+You don't actually have to know these rules to proceed with the crackme, but it's just
+really cool....
+
+One thing that should be mentioned, however, are the code blocks which look kind of like:
+
+    block 0x020: movsxd   rdi, 0x3
+                 mov      rsi, r14
+                 mov      rdx, r14
+                 mov      rax, [rel address of function 0x2170]
+                 call     rax
+                 mov      r13, rax
+
+
+This function 0x2170 is not part of our mmap code blocks, it's back in the actual program. 
+Pseudocode for function 0x2170 would look something like the following:
+
+    long function_2170(long code, long param1, long param2)
+    {
+        switch(code) {
+            case 0:
+                putchar(param1);
+                return 0;
+            case 1:
+                return getchar();
+            case 2:
+                return malloc(param1*8);    // it's a tiny bit more complicated than this
+            case 3:
+                free(param1);
+                return 0;
+            case 4:
+                return the last 4 bytes of data_buffer[param1];
+            case 5:
+                return step_register(param1);  // the Fibonacci LFSR previously discussed
+            case 6:
+                printf("%ld\n", param1);
+            case 7:
+                return all 8 bytes of data_buffer[param1];
+            case 8:
+                reset block[param1] to its pre-compiled form, but with 
+                      data_buffer[param1] = param2;
+                return 0;
+            default:
+                return 0;
+        };
+    }
+
+
+In the context of our virtual machine, I think of calls to function 0x2170 as being kind of
+like syscalls. The value of rdi when making a syscall determines which of these 9 system
+capabilities gets executed.
+
+Below I've taken the output of the disassembler and rewritten it in an x64-like assembly,
+but for the virtual machine.
+
+
+
+
+
+//////////////////////////////////////////// VM code
+
+
+
+_start:
+    mov     r13, 0x400
+    mov     r14, SYSCALL(2, r13)        # allocate the stack
+    test    r14, r14
+    je      (bad alloc)
+    call    block 0x102                 # call the main function 
+    mov     r13, SYSCALL(3, r14)        # free the stack
+    mov     rbx, 0x0                    # rbx is the return value when leaving the mmap
+    ret
+(bad alloc)
+    mov     rbx, 0xa                    # error code for bad malloc
+    ret
+
+
+
+##############################################
+#
+#  block 0x102 ---
+#     This function is like a main function.
+#     It drives the execution.
+#
+##############################################
+
+block 0x102:
+    push    r15, r8, r9, r10, r11
+    call    block 0x264                 # prints the welcome message
+    call    block 0x2c2                 # get user's password; r12 = buffer holding it
+    test    r12, r12
+    je      (bad alloc)
+    mov     r8, r12
+    call    block 0x06e                 # HERE IT IS! The password verification function
+    mov     r9, r8
+    mov     r8, 0x3cf                   # index of 'Correct! Well done!'
+    test    r12, r12                    # we want password verification to return r12 != 0
+    jne     block 0x24d
+    mov     r8, 0x28                    # index of 'WRONG!'
+block 0x24d:
+    call    block 0x05a                 # print a message to the screen (right or wrong)
+    mov     r9, SYSCALL(3, r9)          # free the user's password
+block 0x268:
+    ret
+(bad alloc)
+    mov     r8, 0x143                   # index of 'This is a bug in the crackme...'
+    call    block 0x05a                 # print error message (allocation error)
+    jmp     block 0x268
+
+
+
+#################################################
+#
+#  block 0x05a ---
+#     This is basically puts(). It prints a
+#     string to the screen by finding characters
+#     in the data_buffer sections of blocks. 
+#
+#     One parameter (r8) is the first block
+#     index where there is a character.
+#
+#################################################
+
+block 0x05a:
+    push    r8
+(loop start)
+    mov     r13, SYSCALL(4, r8)         # get last 4 bytes of data_buffer[r8]
+    test    r13, r13
+    je      (loop end)
+    mov     r13, SYSCALL(0, r13)        # putchar(r13)
+    mov     r8, SYSCALL(5, r8)          # r8 = step_register(r8)
+    jmp     (loop start)
+(loop end)
+    pop     r8
+    ret
+
+
+
+#################################################
+#
+#  block 0x28f ---
+#     This is another version of puts(). The
+#     difference is that this one reads from a
+#     buffer (passed in parameter r8) instead
+#     of from the data_buffer sections of blocks.
+#
+#################################################
+
+block 0x28f:
+    push    r8
+(loop start)
+    mov     r13, QWORD PTR [r8]
+    test    r13, r13
+    je      (loop end)
+    mov     r13, SYSCALL(0, r13)        # putchar(r13)
+    inc     r8
+    jmp     (loop start)
+(loop end)
+    pop     r8
+    ret
+
+
+
+#################################################
+#
+#  block 0x2f2 ---
+#     This function gets a string from stdin.
+#     It takes two parameters: a buffer (r8) 
+#     where it writes, and the length r9 of the
+#     buffer. 
+#
+#################################################
+
+block 0x2f2:
+    push    r8, r9
+    test    r9, r9
+    je      block 0x013
+(loop start)
+    dec     r9
+    test    r9, r9
+    jmp     (loop end)
+    mov     r13, SYSCALL(1)             # getchar()
+    mov     QWORD PTR [r8], r13
+    cmp     r13, '\n'
+    je      (loop end)
+    inc     r8
+    jmp     (loop start)
+(loop end)
+    mov     r13, 0x0
+    mov     QWORD PTR [r8], r13
+    pop     r9, r8
+    ret
+
+
+
+#################################################
+#
+#  block 0x264 ---
+#     This function simply prints the welcome
+#     message. That's it.
+#
+#################################################
+
+block 0x264:
+    push    r15, r8
+    mov     r8, 0x11b                   # index of welcome string
+    call    block 0x05a                 # puts()
+    pop     r8, r15
+    ret
+
+
+
+#################################################
+#
+#  block 0x2c2 ---
+#     This function allocates a buffer and fills
+#     it with the user's password. Return value
+#     (in r12) is the base of the buffer.
+#
+#################################################
+
+block 0x2c2:
+    push    r15, r8, r9
+    mov     r9, 0x80                    # max length of stringg
+    mov     r8, SYSCALL(2, r9)          # malloc(8*r9)
+    mov     r12, 0x0
+    test    r8, r8
+    je      (bad alloc)
+    call    block 0x2f2                 # gets a string from stdin; stored in r8
+    mov     r12, r8
+(bad alloc)
+    pop     r9, r8, r15
+    ret
+
+
+
+#################################################
+#
+#  block 0x24f ---
+#     This function is strlen(). Base of string
+#     is passed in register r8. Length is 
+#     returned in r12.
+#
+#################################################
+
+block 0x24f:
+    push    r8
+    mov     r12, 0x0                    # start the count at 0
+(loop start)
+    mov     r13, QWORD PTR [r8]         # get the next password character
+    test    r13, r13                    # if it's null, quit
+    je      (loop end)
+    inc     r12                         # increment the count
+    inc     r8                          # increment the password iterator
+    jmp     (loop start)
+(loop end)
+    pop     r8
+    ret
+
+
+
+#################################################
+#
+#  block 0x06e ---
+#     This function drives the password
+#     verification. Password buffer is passed in
+#     register r8. Returns r12=0 if invalid,
+#     r12=1 if valid.
+#
+#################################################
+
+block 0x06e:
+    push    r15, r8, r9, r10, r11
+    call    block 0x33b                     # code obfuscation, irrelevant for us
+    call    block 0x24f                     # strlen() -- gets length of password in r12
+    cmp     r12, 0x38
+    sete    r12
+    test    r12, r12
+    je      (bad password)                  # password must have length 0x38 = 56
+    call    block 0x33b                     # code obfuscation, irrelevant for us
+    mov     r9, r8
+    mov     r8, 0x296                       # index of string 'FLAG{'
+    call    block 0x166                     # r12 = strdup('FLAG{')
+    call    block 0x33b                     # code obfuscation, irrelevant for us
+    test    r12, r12
+    je      (bad password)                     
+    mov     r8, r12
+    call    block 0x24f                     # r12 = strlen('FLAG{')
+    mov     r10, r12
+    call    block 0x33b                     # code obfuscation, irrelevant for us
+    call    block 0x076                     # r12 = strncmp(password, 'FLAG{', 5)
+    mov     r8, SYSCALL(3, r8)              # free(r8)
+    cmp     r12, 0x0
+    sete    r12
+    test    r12, r12
+    call    block 0x33b                     # ugh, still irrelevant
+    je      (bad password)
+    mov     r12, QWORD PTR [r9 + 0x37]      # last character of password
+    cmp     r12, '}'
+    sete    r12
+    test    r12, r12
+    je      (bad password)                  # password must end with '}'
+    mov     r13, 0
+    mov     QWORD PTR [r9 + 0x37], r13      # replace '}' with null terminator
+    mov     r8, r9 + r10                    # r8 = password+5 (just past 'FLAG{')
+    call    block 0x33b                     # not again....
+    call    block 0x33a                     # Checks the password between 'FLAG{' and '}'
+(bad password)
+    call    block 0x33b                     # grrrrr....
+    pop     r11, r10, r9, r8, r15
+    ret
+    
+
+
+#################################################
+#
+#  block 0x1a2 ---
+#     This function is another strlen(). The
+#     difference is this one computes the length
+#     of a string that is passed in by an index,
+#     instead of as a buffer.
+#
+#################################################
+
+block 0x1a2:
+    push    r8
+    mov     r12, 0x0
+(loop start)
+    mov     r13, SYSCALL(4, r8)             # get last 4 bytes of data_buffer[r8]
+    test    r13, r13
+    je      (loop end)
+    inc     r12
+    mov     r8, SYSCALL(5, r8)              # r8 = step_register(r8)
+    jmp     (loop start)
+(loop end)
+    pop     r8
+    ret
+    
+    
+
+#################################################
+#
+#  block 0x166 ---
+#     This function is strdup(). Takes in an
+#     index (in r8) of a string, allocates a
+#     buffer, and loads the buffer with a copy
+#     of the string. Base of buffer returned in
+#     r12.
+#
+#################################################
+
+block 0x166:
+    push    r15, r8, r9
+    call    block 0x1a2                     # r12 = strlen(string with index r8)
+    inc     r12
+    mov     r12, SYSCALL(2, r12)            # alloc(8*r12)
+    test    r12, r12
+    je      (loop end)
+    mov     r9, r12
+(loop start)
+    mov     r13, SYSCALL(4, r8)             # get last 4 bytes of data_buffer[r8]
+    mov     QWORD PTR [r9], r13
+    test    r13, r13
+    je      (loop end)
+    mov     r8, SYSCALL(5, r8)              # r8 = step_register(r8)
+    inc     r9
+    jmp     (loop start)
+(loop end)
+    pop     r9, r8, r15
+    ret
+
+
+
+#################################################
+#
+#  block 0x076 ---
+#     This function is strncmp(). Takes in two
+#     strings in buffers (r8 and r9) and a length
+#     in r10. Returns r12=0 if the strings are
+#     equal in the first r10 characters, r12 !=0
+#     otherwise.
+#
+#################################################
+
+block 0x076:
+    push    r15, r8, r9, r10, r11
+    mov     r12, 0x0
+(loop start)
+    test    r10, r10
+    je      (loop end)
+    mov     r13, QWORD PTR [r8]
+    mov     r11, QWORD PTR [r9]
+    xor     r13, r11
+    or      r12, r13
+    inc     r8
+    inc     r9
+    dec     r10
+    jmp     (loop start)
+(loop end)
+    pop     r11, r10, r9, r8, r15
+    ret
+
+
+
+#################################################
+#
+#  block 0x33b ---
+#     This function resets (nearly) all of the
+#     blocks back to their pre-compiled form.
+#     If we were analyzing this program 
+#     dynamically, this function might be very
+#     annoying, because it keeps erasing all the
+#     interesting code. But we've got all the
+#     code written down, so it doesn't make a
+#     difference to us. 
+#
+#     "You can delete the code from memory, but
+#     you'll never delete it... from my heart."
+#                           - 4aca7f6c  <3 <3 <3
+#
+#################################################
+
+block 0x33b:
+    push    r13, r12
+    mov     r13, 0x001
+(loop start)
+    cmp     r13, 0x3b9                          # index of (overwrite) block
+    sete    r12
+    test    r12, r12
+    jne     (move to next block)
+    mov     r12, SYSCALL(7, r13)                # get data_buffer[r13]
+(overwrite)
+    mov     r12, SYSCALL(8, r13, r12)           # reset block r13 to pre-compiled form
+(move to next block)
+    mov     r13, SYSCALL(5, r13)                # r13 = step_register(r13)
+    cmp     r13, 0x001
+    sete    r12
+    test    r12, r12
+    je      (loop start)
+(loop end)
+    pop     r12, r13
+    ret
+
+
+
+#################################################
+#
+#  block 0x33a ---
+#     This function checks the 50 password
+#     characters between FLAG{ and }. They are
+#     in a buffer passed in r8. Return value is
+#     r12=1 if the password is good, or r12=0
+#     if it's bad.
+#
+#################################################
+
+block 0x33a:
+    push    r15, r8, r9, r10, r11
+    mov     r13, r8
+    mov     r12, 0x1
+    mov     r15, 0x3f3
+(loop start)
+    mov     r8, SYSCALL(4, r15)                 # r8 = last 4 bytes of data_buffer[r15]
+    mov     r15, SYSCALL(5, r15)                # r15 = step_register(r15)
+    test    r8, r8
+    je      (loop end)
+    mov     r9, SYSCALL(4, r15)                 # r9 = last 4 bytes of data_buffer[r15]
+    mov     r15, SYSCALL(5, r15)                # r15 = step_register(r15)
+    mov     r10, SYSCALL(4, r15)                # r10 = last 4 bytes of data_buffer[r15]
+    mov     r15, SYSCALL(5, r15)                # r15 = step_register(r15)
+    mov     r11, SYSCALL(4, r15)                # r11 = last 4 bytes of data_buffer[r15]
+    mov     r15, SYSCALL(5, r15)                # r15 = step_register(r15)
+    push    r15, r12
+    mov     r12, QWORD PTR [r13]                # r12 = current password character
+    push    r13
+    mov     r8, r12-r8
+    call    block 0x1f2                         # check the character
+    mov     r8, r12                             # r12 = if character is good, 0 if not
+    pop     r13, r12, r15
+    and     r12, r8
+    jmp     (loop start)
+(loop end)
+    pop     r11, r10, r9, r8, r15
+    ret
+    
+
+
+#################################################
+#
+#  block 0x1f2 ---
+#     This function checks individual password
+#     characters. We will discuss it in more
+#     detail later.
+#
+#################################################
+
+block 0x1f2:
+    push    r15, r8, r9, r10, r11
+    cmp     r8, 0x3
+    setge   r12
+    test    r12, r12
+    je      (function exit)                     # the difference r8 must be >= 3
+    cmp     r8, 0x9
+    setle   r12
+    test    r12, r12
+    je      (function exit)                     # the difference r8 must be <= 9
+    or      r8, 0x2010500                       # Woah. Woah. Woah.
+    mov     r13, 0x32a
+    mov     r13, SYSCALL(8, r13, r8)            # reset block[r13] to precompiled form
+                                                # and modify data_buffer[r13] = r8
+
+    [Invalid block 0x32a here!!!]               # WOAH! WOAH! WOAH!
+
+
+    cmp     r13, r11
+    sete    r12
+(function exit)
+    pop     r11, r10, r9, r8, r15
+    ret
+
+    
+
+//////////////////////////////////////////////// end VM code
+
+
+
+
+
+
+
+
+                      ===============================================
+                        Layer 4: A choose-your-own-adventure ending
+                      ===============================================
+
+
+Most of the VM code is very simple to get through, and the password verification routine
+starts off simple: the password must be 56 characters long, must start with 'FLAG{', and 
+must end in '}'. This leaves 50 characters between 'FLAG{' and '}', which are checked in 
+the functions at blocks 0x33a and 0x1f2. How?
+
+Block 0x33a has a big loop, which will iterate 50 times (once per character). In each loop
+iteration, it reads 4 entries of data_buffer, as well as the next password character. Let's
+give these names:
+
+    d1 = the first data block
+    d2 = the second data block
+    d3 = the third data block
+    d4 = the fourth data block
+     c = the password character
+
+It then calls block 0x1f2 with four parameters:
+
+    Param1 (in  r8) = c - d1
+    Param2 (in  r9) = d2
+    Param2 (in r10) = d3
+    Param4 (in r11) = d4
+
+Notice that the assembly given above for the function 0x1f2 is conspicuously has an invalid
+code block. Ordinarily, this would cause a problem, except that immediately before we get to
+the invalid code, we change it with a SYSCALL(8). Moreover, Param1 determines *how* the code
+block will be changed. 
+
+Let that sink in for a second: the actual code block itself will change depending on the 
+character c. You don't just change program flow... you change the program itself. And you 
+get choose... what code would you like to put there?
+
+How does this work? The third parameter in the SYSCALL(8) is the new data_buffer entry for
+that block, and this parameter is always 0x2010500 | Param1. Since Param1 must be between 3
+and 9, the new data_buffer entry will be between 0x2010503 and 0x2010509. Going back to 
+layer 2, we know how all the bytes of a data_buffer entry are used to create code. For
+example,
+
+    0x2010503 ==>       03 - index into function_table
+                        05 - register R1 is r13
+                        01 - register R2 is r9
+                        02 - register R3 is r10
+
+The only thing you can change is what the index into the function_table is. You are allowed
+to choose, 3 through 9. What do those code blocks look like?
+
+    3: mov  r13, r9 + r10
+    4: mov  r13, r9 - r10
+    5: mov  r13, r9 * r10
+    6: mov  r13, -r9
+    7: mov  r13, r9 & r10
+    8: mov  r13, r9 | r10
+    9: mov  r13, r9 ^ r10
+
+They allow you to set r13 as some combination of r9 and r10. Which combination is your
+choice. To decide, we should know what is our goal. Immediately following this mutable code
+block is the following check:
+
+    cmp     r13, r11
+    sete    r12
+
+We want r13 to be equal to r11! Thus for each position in our password, we have to figure 
+out (a) which function_table index will make r13 equal to r11, and (b), which character do 
+we need in order to choose that function_table index? And that's it! We've reached the end
+of this particular rabbit hole!
+
+
+###### FILE: keygen.py
+
+import struct
+
+def step_register(index):
+    mask = 0b1001000000
+    res = (index << 1) & 0x3ff
+    if index & mask in [0, mask]:
+        return res 
+    else:
+        return res + 1
+
+with open('data_buffer', 'rb') as f:
+    data = f.read()
+
+def data_block(index):
+    return struct.unpack('<i', data[8*index+4 : 8*index+8])[0]
+
+index = 0x3f3   ## This comes from the code for function 0x33a
+password = ''
+for i in range(50):
+    cd = []     
+    for j in range(4):
+        cd.append(data_block(index))
+        index = step_register(index)
+    if cd[1] + cd[2] == cd[3]:
+        password += chr(3 + cd[0])
+    elif cd[1] - cd[2] == cd[3]:
+        password += chr(4 + cd[0])
+    elif cd[1]*cd[2] == cd[3]:
+        password += chr(5 + cd[0])
+    elif cd[1] == -cd[3]:
+        password += chr(6 + cd[0])
+    elif cd[1] & cd[2] == cd[3]:
+        password += chr(7 + cd[0])
+    elif cd[1] | cd[2] == cd[3]:
+        password += chr(8 + cd[0])
+    else:
+        password += chr(9 + cd[0])
+
+print('FLAG{' + password + '}')
+
+###### end keygen.py
+
+
+Running this keygen gives the password:
+
+    > python3 keygen.py
+    FLAG{wh4t_1s_a_pr0gr4m_c0unt3r?_jit_eng1n3s_ar3_4wes0m3}
+
+    > ./jittery
+    [jittery crackme] Good luck!
+    
+    
+    STRANGE PROCESSORS, INC. CENTRAL VAULT SYSTEM
+    =============================================
+    
+    "We exist to make the world a weirder place." (tm)
+    
+    To access the confidential information stored in this vault,
+    please provide the company's main password, which hasn't
+    been changed since 1984.
+    
+    Password:FLAG{wh4t_1s_a_pr0gr4m_c0unt3r?_jit_eng1n3s_ar3_4wes0m3}
+    Correct! Well done!
+
+
+====================================================================
+SOLUTION: FLAG{wh4t_1s_a_pr0gr4m_c0unt3r?_jit_eng1n3s_ar3_4wes0m3}
+====================================================================
+
+
+
+
+
+
+As promised, below is the code for my disassembler, followed by the output obtained by
+running the disassembler.
+
+
+
+
+
+
+###### FILE: disassembler.py
+
+import struct
+
+## Takes in a block index, returns the index of the "next" block
+def step_register(index):
+    mask = 0b1001000000
+    res = (index << 1) & 0x3ff
+    if index & mask in [0, mask]:
+        return res
+    else:
+        return res + 1
+
+## The list of registers, in the proper order
+register_list = [ 'r8',  'r9', 'r10', 'r11', 'r12', 'r13', 'r14', 'r15',
+                 'rax', 'rcx', 'rdx', 'rbx', 'rsp', 'rbp', 'rsi', 'rdi' ]
+
+## load in the data_buffer, previously saved to a file
+with open('data_buffer', 'rb') as f:
+    data_buffer = f.read()
+
+## We will use these to keep track of any invalid code blocks we find
+invalid_block_index = None
+number_of_invalid_blocks = 0
+
+## For error messages
+invalid_string_1 = '\n[The remaining {:d} blocks starting at index 0x{:03x} are invalid]\n'
+invalid_string_2 = '\n[The subsequent {:d} blocks starting at index 0x{:03x} are invalid]\n'
+
+## prefixes
+prefix_1 = 'block 0x{:03x}: '
+prefix_2 = '             '
+
+## Start disassembling!
+index = 1
+while True:
+    ## get the data_buffer value corresponding to the current block and parse it!
+    data = data_buffer[8*index : 8*(index + 1)]
+    (ft_index, i1, i2, i3, C) = struct.unpack('<BBBBi', data)
+    R1 = register_list[i1]
+    R2 = register_list[i2]
+    R3 = register_list[i3]
+    
+    ## If the function table_index is invalid, make a note of this and handle it
+    if ft_index < 0 or ft_index >= 40:
+        if number_of_invalid_blocks == 0:
+            invalid_block_index = index
+        number_of_invalid_blocks += 1
+        index = step_register(index)
+        if index == 1:      ## We've looped back around, so quit disassembling
+            print(invalid_string_1.format(number_of_invalid_blocks, invalid_block_index))
+            break
+        else:
+            continue
+
+    ## Otherwise, we have a valid function_table index, so we can disassemble it
+    if invalid_block_index != None:
+        print(invalid_string_2.format(number_of_invalid_blocks, invalid_block_index))
+        invalid_block_index = None
+        number_of_invalid_blocks = 0
+    
+    ## The function table
+    if ft_index == 0:                                                           # 0x2190
+        print(prefix_1.format(index) + 'nop')
+    elif ft_index == 1:                                                         # 0x21a0
+        print(prefix_1.format(index) + 'movsxd   rdi, {:s}'.format(hex(C)))
+        print(prefix_2               + 'mov      rsi, {:s}'.format(R2))
+        print(prefix_2               + 'mov      rdx, {:s}'.format(R3))
+        print(prefix_2               + 'mov      rax, [rel address of function 0x2170]')
+        print(prefix_2               + 'call     rax')
+        print(prefix_2               + 'mov      {:s}, rax'.format(R1))
+    elif ft_index == 2:                                                         # 0x2300
+        print(prefix_1.format(index) + 'movsxd   rbx, {:s}'.format(hex(C)))
+        print(prefix_2               + 'ret')
+    elif ft_index == 3:                                                         # 0xe50
+        print(prefix_1.format(index) + 'mov      {:s}, {:s}+{:s}'.format(R1, R2, R3))
+    elif ft_index == 4:                                                         # 0xf40
+        print(prefix_1.format(index) + 'mov      {:s}, {:s}-{:s}'.format(R1, R2, R3))
+    elif ft_index == 5:                                                         # 0x1030
+        print(prefix_1.format(index) + 'mov      {:s}, {:s}*{:s}'.format(R1, R2, R3))
+    elif ft_index == 6:                                                         # 0x1110
+        print(prefix_1.format(index) + 'mov      {:s}, -{:s}'.format(R1, R2))
+    elif ft_index == 7:                                                         # 0x11e0
+        print(prefix_1.format(index) + 'mov      {:s}, {:s}&{:s}'.format(R1, R2, R3))
+    elif ft_index == 8:                                                         # 0x12d0
+        print(prefix_1.format(index) + 'mov      {:s}, {:s}|{:s}'.format(R1, R2, R3))
+    elif ft_index == 9:                                                         # 0x13c0
+        print(prefix_1.format(index) + 'mov      {:s}, {:s}^{:s}'.format(R1, R2, R3))
+    elif ft_index == 10:                                                        # 0x14b0
+        print(prefix_1.format(index) + 'cmp      {:s}, {:s}'.format(R2, R3))
+        print(prefix_2               + 'sete     al')
+        print(prefix_2               + 'movzx    {:s}, al'.format(R1))
+    elif ft_index == 11:                                                        # 0x15c0
+        print(prefix_1.format(index) + 'cmp      {:s}, {:s}'.format(R2, R3))
+        print(prefix_2               + 'setne    al')
+        print(prefix_2               + 'movzx    {:s}, al'.format(R1))
+    elif ft_index == 12:                                                        # 0x16d0
+        print(prefix_1.format(index) + 'cmp      {:s}, {:s}'.format(R2, R3))
+        print(prefix_2               + 'setl     al')
+        print(prefix_2               + 'movzx    {:s}, al'.format(R1))
+    elif ft_index == 13:                                                        # 0x17e0
+        print(prefix_1.format(index) + 'cmp      {:s}, {:s}'.format(R2, R3))
+        print(prefix_2               + 'setle    al')
+        print(prefix_2               + 'movzx    {:s}, al'.format(R1))
+    elif ft_index == 14:                                                        # 0x18f0
+        print(prefix_1.format(index) + 'cmp      {:s}, {:s}'.format(R2, R3))
+        print(prefix_2               + 'setb     al')
+        print(prefix_2               + 'movzx    {:s}, al'.format(R1))
+    elif ft_index == 15:                                                        # 0x1a00
+        print(prefix_1.format(index) + 'cmp      {:s}, {:s}'.format(R2, R3))
+        print(prefix_2               + 'setbe    al')
+        print(prefix_2               + 'movzx    {:s}, al'.format(R1))
+    elif ft_index == 16:                                                        # 0x1b10
+        print(prefix_1.format(index) + 'movsxd   rax, {:s}'.format(hex(C)))
+        print(prefix_2               + 'cmp      {:s}, rax'.format(R2))
+        print(prefix_2               + 'sete     al')
+        print(prefix_2               + 'movzx    {:s}, al'.format(R1))
+    elif ft_index == 17:                                                        # 0x1c20
+        print(prefix_1.format(index) + 'movsxd   rax, {:s}'.format(hex(C)))
+        print(prefix_2               + 'cmp      {:s}, rax'.format(R2))
+        print(prefix_2               + 'setne    al')
+        print(prefix_2               + 'movzx    {:s}, al'.format(R1))
+    elif ft_index == 18:                                                        # 0x1d30
+        print(prefix_1.format(index) + 'movsxd   rax, {:s}'.format(hex(C)))
+        print(prefix_2               + 'cmp      {:s}, rax'.format(R2))
+        print(prefix_2               + 'setl     al')
+        print(prefix_2               + 'movzx    {:s}, al'.format(R1))
+    elif ft_index == 19:                                                        # 0x1e40
+        print(prefix_1.format(index) + 'movsxd   rax, {:s}'.format(hex(C)))
+        print(prefix_2               + 'cmp      {:s}, rax'.format(R2))
+        print(prefix_2               + 'setle    al')
+        print(prefix_2               + 'movzx    {:s}, al'.format(R1))
+    elif ft_index == 20:                                                        # 0x1f50
+        print(prefix_1.format(index) + 'movsxd   rax, {:s}'.format(hex(C)))
+        print(prefix_2               + 'cmp      {:s}, rax'.format(R2))
+        print(prefix_2               + 'setg     al')
+        print(prefix_2               + 'movzx    {:s}, al'.format(R1))
+    elif ft_index == 21:                                                        # 0x2060
+        print(prefix_1.format(index) + 'movsxd   rax, {:s}'.format(hex(C)))
+        print(prefix_2               + 'cmp      {:s}, rax'.format(R2))
+        print(prefix_2               + 'setge    al')
+        print(prefix_2               + 'movzx    {:s}, al'.format(R1))
+    elif ft_index == 22:                                                        # 0x3020
+        print(prefix_1.format(index) + 'movsxd   rax, {:s}'.format(hex(C)))
+        print(prefix_2               + 'add      rax, {:s}'.format(R2))
+        print(prefix_2               + 'mov      rcx, {:s}'.format(R3))
+        print(prefix_2               + 'mov      QWORD PTR [rax*8], rcx')
+    elif ft_index == 23:                                                        # 0x3110
+        print(prefix_1.format(index) + 'movsxd   rax, {:s}'.format(hex(C)))
+        print(prefix_2               + 'add      rax, {:s}'.format(R2))
+        print(prefix_2               + 'mov      rax, QWORD PTR [rax*8]')
+        print(prefix_2               + 'mov      {:s}, rax'.format(R1))
+    elif ft_index == 24:                                                        # 0x2c60
+        print(prefix_1.format(index) + 'jmp      block 0x{:03x}'.format(C))
+    elif ft_index == 25:                                                        # 0x2ce0
+        print(prefix_1.format(index) + 'jmp      block ${:s}'.format(R2))
+    elif ft_index == 26:                                                        # 0x2e00
+        print(prefix_1.format(index) + 'test     {:s}, {:s}'.format(R2, R2))
+        print(prefix_2               + 'je       block 0x{:03x}'.format(C))
+    elif ft_index == 27:                                                        # 0x2ec0
+        print(prefix_1.format(index) + 'test     {:s}, {:s}'.format(R2, R2))
+        print(prefix_2               + 'jne      block 0x{:03x}'.format(C))
+    elif ft_index == 28:                                                        # 0x2f80
+        temp = step_register(step_register(index))
+        print(prefix_1.format(index) + 'movzxd   {:s}, 0x{:03x}'.format(R1, temp))
+    elif ft_index == 29:                                                        # 0x2380
+        print(prefix_1.format(index) + 'movsxd   {:s}, {:s}'.format(R1, hex(C)))
+    elif ft_index == 30:                                                        # 0x2400
+        print(prefix_1.format(index) + 'movzxd   {:s}, {:s}'.format(R1, hex(C)))
+    elif ft_index == 31:                                                        # 0x2470
+        print(prefix_1.format(index) + 'movsxd   rax, {:s}'.format(hex(C)))
+        print(prefix_2               + 'mov      {:s}, rax<<0x20'.format(R1))
+    elif ft_index == 32:                                                        # 0x24f0
+        print(prefix_1.format(index) + 'mov      {:s}, {:s}'.format(R1, R2))
+        print(prefix_2               + 'movsxd   rax, {:s}'.format(hex(C)))
+        print(prefix_2               + 'add      {:s}, rax'.format(R1))
+    elif ft_index == 33:                                                        # 0x25f0
+        print(prefix_1.format(index) + 'mov      {:s}, {:s}'.format(R1, R2))
+        print(prefix_2               + 'movsxd   rax, {:s}'.format(hex(C)))
+        print(prefix_2               + 'imul     {:s}, rax'.format(R1))
+    elif ft_index == 34:                                                        # 0x26f0
+        print(prefix_1.format(index) + 'mov      {:s}, {:s}'.format(R1, R2))
+        print(prefix_2               + 'movsxd   rax, {:s}'.format(hex(C)))
+        print(prefix_2               + 'or       {:s}, rax'.format(R1))
+    elif ft_index == 35:                                                        # 0x27f0
+        print(prefix_1.format(index) + 'mov      {:s}, {:s}'.format(R1, R2))
+        print(prefix_2               + 'movsxd   rax, {:s}'.format(hex(C)))
+        print(prefix_2               + 'and      {:s}, rax'.format(R1))
+    elif ft_index == 36:                                                        # 0x28f0
+        print(prefix_1.format(index) + 'mov      {:s}, {:s}'.format(R1, R2))
+        print(prefix_2               + 'movsxd   rax, {:s}'.format(hex(C)))
+        print(prefix_2               + 'xor      {:s}, rax'.format(R1))
+    elif ft_index == 37:                                                        # 0x29f0
+        print(prefix_1.format(index) + 'mov      rax, {:s}'.format(R2))
+        print(prefix_2               + 'shl      rax, 0x{:x}'.format(C & 0xff))
+        print(prefix_2               + 'mov      {:s}, rax'.format(R1))
+    elif ft_index == 38:                                                        # 0x2ac0
+        print(prefix_1.format(index) + 'mov      rax, {:s}'.format(R2))
+        print(prefix_2               + 'sar      rax, 0x{:x}'.format(C & 0xff))
+        print(prefix_2               + 'mov      {:s}, rax'.format(R1))
+    else:                                                                       # 0x2b90
+        print(prefix_1.format(index) + 'mov      rax, {:s}'.format(R2))
+        print(prefix_2               + 'shr      rax, 0x{:x}'.format(C & 0xff))
+        print(prefix_2               + 'mov      {:s}, rax'.format(R1))
+
+    ## step the register, and quit if we've come back to the starting block
+    index = step_register(index)
+    if index == 1:
+        break
+
+
+###### end disassembler.py
+
+
+
+
+
+
+
+
+###### FILE: disassembler_output.txt
+
+
+block 0x001: movsxd   r13, 0x400
+block 0x002: movsxd   rdi, 0x2
+             mov      rsi, r13
+             mov      rdx, r13
+             mov      rax, [rel address of function 0x2170]
+             call     rax
+             mov      r14, rax
+block 0x004: test     r14, r14
+             je       block 0x081
+block 0x008: movzxd   r15, 0x020
+block 0x010: jmp      block 0x102
+block 0x020: movsxd   rdi, 0x3
+             mov      rsi, r14
+             mov      rdx, r14
+             mov      rax, [rel address of function 0x2170]
+             call     rax
+             mov      r13, rax
+block 0x040: movsxd   rbx, 0x0
+             ret
+block 0x081: movsxd   rbx, 0xa
+             ret
+block 0x102: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x204: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r15
+             mov      QWORD PTR [rax*8], rcx
+block 0x009: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x012: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r8
+             mov      QWORD PTR [rax*8], rcx
+block 0x024: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x048: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r9
+             mov      QWORD PTR [rax*8], rcx
+block 0x091: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x122: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r10
+             mov      QWORD PTR [rax*8], rcx
+block 0x244: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x088: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r11
+             mov      QWORD PTR [rax*8], rcx
+block 0x110: movzxd   r15, 0x041
+block 0x220: jmp      block 0x264
+block 0x041: movzxd   r15, 0x106
+block 0x083: jmp      block 0x2c2
+block 0x106: test     r12, r12
+             je       block 0x254
+block 0x20c: mov      r8, r12
+             movsxd   rax, 0x0
+             add      r8, rax
+block 0x019: movzxd   r15, 0x064
+block 0x032: jmp      block 0x06e
+block 0x064: mov      r9, r8
+             movsxd   rax, 0x0
+             add      r9, rax
+block 0x0c9: movsxd   r8, 0x3cf
+block 0x193: test     r12, r12
+             jne      block 0x24d
+block 0x326: movsxd   r8, 0x28
+block 0x24d: movzxd   r15, 0x134
+block 0x09a: jmp      block 0x05a
+block 0x134: movsxd   rdi, 0x3
+             mov      rsi, r9
+             mov      rdx, r9
+             mov      rax, [rel address of function 0x2170]
+             call     rax
+             mov      r9, rax
+block 0x268: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x0d0: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r11, rax
+block 0x1a1: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x342: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r10, rax
+block 0x284: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x109: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r9, rax
+block 0x212: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x025: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r8, rax
+block 0x04a: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x095: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r15, rax
+block 0x12a: jmp      block $r15
+block 0x254: movsxd   r8, 0x143
+block 0x0a8: movzxd   r15, 0x2a1
+block 0x150: jmp      block 0x05a
+block 0x2a1: jmp      block 0x268
+
+[The subsequent 117 blocks starting at index 0x143 are invalid]
+
+block 0x05a: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x0b5: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r8
+             mov      QWORD PTR [rax*8], rcx
+block 0x16a: movsxd   rdi, 0x4
+             mov      rsi, r8
+             mov      rdx, r8
+             mov      rax, [rel address of function 0x2170]
+             call     rax
+             mov      r13, rax
+block 0x2d5: test     r13, r13
+             je       block 0x151
+block 0x1aa: movsxd   rdi, 0x0
+             mov      rsi, r13
+             mov      rdx, r13
+             mov      rax, [rel address of function 0x2170]
+             call     rax
+             mov      r13, rax
+block 0x354: movsxd   rdi, 0x5
+             mov      rsi, r8
+             mov      rdx, r8
+             mov      rax, [rel address of function 0x2170]
+             call     rax
+             mov      r8, rax
+block 0x2a8: jmp      block 0x16a
+block 0x151: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x2a3: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r8, rax
+block 0x147: jmp      block $r15
+block 0x28f: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x11f: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r8
+             mov      QWORD PTR [rax*8], rcx
+block 0x23e: movsxd   rax, 0x0
+             add      rax, r8
+             mov      rax, QWORD PTR [rax*8]
+             mov      r13, rax
+block 0x07d: test     r13, r13
+             je       block 0x3de
+block 0x0fb: movsxd   rdi, 0x0
+             mov      rsi, r13
+             mov      rdx, r13
+             mov      rax, [rel address of function 0x2170]
+             call     rax
+             mov      r13, rax
+block 0x1f7: mov      r8, r8
+             movsxd   rax, 0x1
+             add      r8, rax
+block 0x3ef: jmp      block 0x23e
+block 0x3de: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x3bc: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r8, rax
+block 0x379: jmp      block $r15
+block 0x2f2: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x1e4: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r8
+             mov      QWORD PTR [rax*8], rcx
+block 0x3c9: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x392: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r9
+             mov      QWORD PTR [rax*8], rcx
+block 0x325: test     r9, r9
+             je       block 0x013
+block 0x24b: mov      r9, r9
+             movsxd   rax, -0x1
+             add      r9, rax
+block 0x096: test     r9, r9
+             je       block 0x304
+block 0x12c: movsxd   rdi, 0x1
+             mov      rsi, r13
+             mov      rdx, r13
+             mov      rax, [rel address of function 0x2170]
+             call     rax
+             mov      r13, rax
+block 0x258: movsxd   rax, 0x0
+             add      rax, r8
+             mov      rcx, r13
+             mov      QWORD PTR [rax*8], rcx
+block 0x0b0: movsxd   rax, 0xa
+             cmp      r13, rax
+             sete     al
+             movzx    r13, al
+block 0x160: test     r13, r13
+             jne      block 0x304
+block 0x2c1: mov      r8, r8
+             movsxd   rax, 0x1
+             add      r8, rax
+block 0x182: jmp      block 0x24b
+block 0x304: movsxd   r13, 0x0
+block 0x209: movsxd   rax, 0x0
+             add      rax, r8
+             mov      rcx, r13
+             mov      QWORD PTR [rax*8], rcx
+block 0x013: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x026: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r9, rax
+block 0x04c: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x099: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r8, rax
+block 0x132: jmp      block $r15
+block 0x264: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x0c8: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r15
+             mov      QWORD PTR [rax*8], rcx
+block 0x191: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x322: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r8
+             mov      QWORD PTR [rax*8], rcx
+block 0x245: movsxd   r8, 0x11b
+block 0x08a: movzxd   r15, 0x228
+block 0x114: jmp      block 0x05a
+block 0x228: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x051: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r8, rax
+block 0x0a3: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x146: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r15, rax
+block 0x28d: jmp      block $r15
+
+[The subsequent 330 blocks starting at index 0x11b are invalid]
+
+block 0x2c2: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x184: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r15
+             mov      QWORD PTR [rax*8], rcx
+block 0x308: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x211: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r8
+             mov      QWORD PTR [rax*8], rcx
+block 0x023: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x046: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r9
+             mov      QWORD PTR [rax*8], rcx
+block 0x08d: movsxd   r9, 0x80
+block 0x11a: movsxd   rdi, 0x2
+             mov      rsi, r9
+             mov      rdx, r9
+             mov      rax, [rel address of function 0x2170]
+             call     rax
+             mov      r8, rax
+block 0x234: movsxd   r12, 0x0
+block 0x069: test     r8, r8
+             je       block 0x29c
+block 0x0d3: movzxd   r15, 0x34e
+block 0x1a7: jmp      block 0x2f2
+block 0x34e: mov      r12, r8
+             movsxd   rax, 0x0
+             add      r12, rax
+block 0x29c: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x139: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r9, rax
+block 0x272: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x0e4: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r8, rax
+block 0x1c9: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x393: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r15, rax
+block 0x327: jmp      block $r15
+block 0x24f: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x09e: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r8
+             mov      QWORD PTR [rax*8], rcx
+block 0x13c: movsxd   r12, 0x0
+block 0x278: movsxd   rax, 0x0
+             add      rax, r8
+             mov      rax, QWORD PTR [rax*8]
+             mov      r13, rax
+block 0x0f0: test     r13, r13
+             je       block 0x30d
+block 0x1e1: mov      r12, r12
+             movsxd   rax, 0x1
+             add      r12, rax
+block 0x3c3: mov      r8, r8
+             movsxd   rax, 0x1
+             add      r8, rax
+block 0x386: jmp      block 0x278
+block 0x30d: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x21b: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r8, rax
+block 0x037: jmp      block $r15
+block 0x06e: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x0dd: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r15
+             mov      QWORD PTR [rax*8], rcx
+block 0x1bb: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x376: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r8
+             mov      QWORD PTR [rax*8], rcx
+block 0x2ec: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x1d8: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r9
+             mov      QWORD PTR [rax*8], rcx
+block 0x3b1: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x363: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r10
+             mov      QWORD PTR [rax*8], rcx
+block 0x2c6: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x18c: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r11
+             mov      QWORD PTR [rax*8], rcx
+block 0x318: movzxd   r15, 0x063
+block 0x231: jmp      block 0x33b
+block 0x063: movzxd   r15, 0x18f
+block 0x0c7: jmp      block 0x24f
+block 0x18f: movsxd   rax, 0x38
+             cmp      r12, rax
+             sete     al
+             movzx    r12, al
+block 0x31e: test     r12, r12
+             je       block 0x119
+block 0x23d: movzxd   r15, 0x0f7
+block 0x07b: jmp      block 0x33b
+block 0x0f7: mov      r9, r8
+             movsxd   rax, 0x0
+             add      r9, rax
+block 0x1ef: movsxd   r8, 0x296
+block 0x3df: movzxd   r15, 0x37d
+block 0x3be: jmp      block 0x166
+block 0x37d: movzxd   r15, 0x1f4
+block 0x2fa: jmp      block 0x33b
+block 0x1f4: test     r12, r12
+             je       block 0x119
+block 0x3e9: mov      r8, r12
+             movsxd   rax, 0x0
+             add      r8, rax
+block 0x3d2: movzxd   r15, 0x349
+block 0x3a4: jmp      block 0x24f
+block 0x349: mov      r10, r12
+             movsxd   rax, 0x0
+             add      r10, rax
+block 0x292: movzxd   r15, 0x24a
+block 0x125: jmp      block 0x33b
+block 0x24a: movzxd   r15, 0x128
+block 0x094: jmp      block 0x076
+block 0x128: movsxd   rdi, 0x3
+             mov      rsi, r8
+             mov      rdx, r8
+             mov      rax, [rel address of function 0x2170]
+             call     rax
+             mov      r8, rax
+block 0x250: movsxd   rax, 0x0
+             cmp      r12, rax
+             sete     al
+             movzx    r12, al
+block 0x0a0: movzxd   r15, 0x281
+block 0x140: jmp      block 0x33b
+block 0x281: test     r12, r12
+             je       block 0x119
+block 0x103: movsxd   rax, 0x37
+             add      rax, r9
+             mov      rax, QWORD PTR [rax*8]
+             mov      r12, rax
+block 0x206: movsxd   rax, 0x7d
+             cmp      r12, rax
+             sete     al
+             movzx    r12, al
+block 0x00d: test     r12, r12
+             je       block 0x119
+block 0x01a: movsxd   r13, 0x0
+block 0x034: movsxd   rax, 0x37
+             add      rax, r9
+             mov      rcx, r13
+             mov      QWORD PTR [rax*8], rcx
+block 0x068: mov      r8, r9+r10
+block 0x0d1: movzxd   r15, 0x346
+block 0x1a3: jmp      block 0x33b
+block 0x346: movzxd   r15, 0x119
+block 0x28c: jmp      block 0x33a
+block 0x119: movzxd   r15, 0x065
+block 0x232: jmp      block 0x33b
+block 0x065: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x0cb: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r11, rax
+block 0x197: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x32e: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r10, rax
+block 0x25d: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x0ba: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r9, rax
+block 0x174: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x2e9: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r8, rax
+block 0x1d2: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x3a5: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r15, rax
+block 0x34b: jmp      block $r15
+
+[The subsequent 6 blocks starting at index 0x296 are invalid]
+
+block 0x1a2: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x344: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r8
+             mov      QWORD PTR [rax*8], rcx
+block 0x288: movsxd   r12, 0x0
+block 0x111: movsxd   rdi, 0x4
+             mov      rsi, r8
+             mov      rdx, r8
+             mov      rax, [rel address of function 0x2170]
+             call     rax
+             mov      r13, rax
+block 0x222: test     r13, r13
+             je       block 0x22c
+block 0x045: mov      r12, r12
+             movsxd   rax, 0x1
+             add      r12, rax
+block 0x08b: movsxd   rdi, 0x5
+             mov      rsi, r8
+             mov      rdx, r8
+             mov      rax, [rel address of function 0x2170]
+             call     rax
+             mov      r8, rax
+block 0x116: jmp      block 0x111
+block 0x22c: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x059: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r8, rax
+block 0x0b3: jmp      block $r15
+block 0x166: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x2cd: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r15
+             mov      QWORD PTR [rax*8], rcx
+block 0x19a: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x334: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r8
+             mov      QWORD PTR [rax*8], rcx
+block 0x269: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x0d2: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r9
+             mov      QWORD PTR [rax*8], rcx
+block 0x1a5: movzxd   r15, 0x294
+block 0x34a: jmp      block 0x1a2
+block 0x294: mov      r12, r12
+             movsxd   rax, 0x1
+             add      r12, rax
+block 0x129: movsxd   rdi, 0x2
+             mov      rsi, r12
+             mov      rdx, r12
+             mov      rax, [rel address of function 0x2170]
+             call     rax
+             mov      r12, rax
+block 0x252: test     r12, r12
+             je       block 0x230
+block 0x0a4: mov      r9, r12
+             movsxd   rax, 0x0
+             add      r9, rax
+block 0x148: movsxd   rdi, 0x4
+             mov      rsi, r8
+             mov      rdx, r8
+             mov      rax, [rel address of function 0x2170]
+             call     rax
+             mov      r13, rax
+block 0x291: movsxd   rax, 0x0
+             add      rax, r9
+             mov      rcx, r13
+             mov      QWORD PTR [rax*8], rcx
+block 0x123: test     r13, r13
+             je       block 0x230
+block 0x246: movsxd   rdi, 0x5
+             mov      rsi, r8
+             mov      rdx, r8
+             mov      rax, [rel address of function 0x2170]
+             call     rax
+             mov      r8, rax
+block 0x08c: mov      r9, r9
+             movsxd   rax, 0x1
+             add      r9, rax
+block 0x118: jmp      block 0x148
+block 0x230: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x061: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r9, rax
+block 0x0c3: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x187: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r8, rax
+block 0x30e: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x21d: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r15, rax
+block 0x03b: jmp      block $r15
+block 0x076: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x0ed: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r15
+             mov      QWORD PTR [rax*8], rcx
+block 0x1db: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x3b7: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r8
+             mov      QWORD PTR [rax*8], rcx
+block 0x36f: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x2de: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r9
+             mov      QWORD PTR [rax*8], rcx
+block 0x1bc: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x378: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r10
+             mov      QWORD PTR [rax*8], rcx
+block 0x2f0: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x1e0: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r11
+             mov      QWORD PTR [rax*8], rcx
+block 0x3c1: movsxd   r12, 0x0
+block 0x382: test     r10, r10
+             je       block 0x1ca
+block 0x305: movsxd   rax, 0x0
+             add      rax, r8
+             mov      rax, QWORD PTR [rax*8]
+             mov      r13, rax
+block 0x20b: movsxd   rax, 0x0
+             add      rax, r9
+             mov      rax, QWORD PTR [rax*8]
+             mov      r11, rax
+block 0x017: mov      r13, r13^r11
+block 0x02e: mov      r12, r12|r13
+block 0x05c: mov      r8, r8
+             movsxd   rax, 0x1
+             add      r8, rax
+block 0x0b9: mov      r9, r9
+             movsxd   rax, 0x1
+             add      r9, rax
+block 0x172: mov      r10, r10
+             movsxd   rax, -0x1
+             add      r10, rax
+block 0x2e5: jmp      block 0x382
+block 0x1ca: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x395: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r11, rax
+block 0x32b: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x257: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r10, rax
+block 0x0ae: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x15c: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r9, rax
+block 0x2b9: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x173: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r8, rax
+block 0x2e7: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x1ce: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r15, rax
+block 0x39d: jmp      block $r15
+block 0x33b: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x277: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r13
+             mov      QWORD PTR [rax*8], rcx
+block 0x0ee: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x1dd: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r12
+             mov      QWORD PTR [rax*8], rcx
+block 0x3bb: movsxd   r13, 0x1
+block 0x377: movsxd   rax, 0x3b9
+             cmp      r13, rax
+             sete     al
+             movzx    r12, al
+block 0x2ee: test     r12, r12
+             jne      block 0x373
+block 0x1dc: movsxd   rdi, 0x7
+             mov      rsi, r13
+             mov      rdx, r13
+             mov      rax, [rel address of function 0x2170]
+             call     rax
+             mov      r12, rax
+block 0x3b9: movsxd   rdi, 0x8
+             mov      rsi, r13
+             mov      rdx, r12
+             mov      rax, [rel address of function 0x2170]
+             call     rax
+             mov      r12, rax
+block 0x373: movsxd   rdi, 0x5
+             mov      rsi, r13
+             mov      rdx, r13
+             mov      rax, [rel address of function 0x2170]
+             call     rax
+             mov      r13, rax
+block 0x2e6: movsxd   rax, 0x1
+             cmp      r13, rax
+             sete     al
+             movzx    r12, al
+block 0x1cc: test     r12, r12
+             je       block 0x377
+block 0x399: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x333: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r12, rax
+block 0x267: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x0ce: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r13, rax
+block 0x19d: jmp      block $r15
+block 0x33a: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x275: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r15
+             mov      QWORD PTR [rax*8], rcx
+block 0x0ea: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x1d5: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r8
+             mov      QWORD PTR [rax*8], rcx
+block 0x3ab: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x357: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r9
+             mov      QWORD PTR [rax*8], rcx
+block 0x2ae: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x15d: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r10
+             mov      QWORD PTR [rax*8], rcx
+block 0x2bb: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x177: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r11
+             mov      QWORD PTR [rax*8], rcx
+block 0x2ef: mov      r13, r8
+             movsxd   rax, 0x0
+             add      r13, rax
+block 0x1de: movsxd   r12, 0x1
+block 0x3bd: movsxd   r15, 0x3f3
+block 0x37b: movsxd   rdi, 0x4
+             mov      rsi, r15
+             mov      rdx, r15
+             mov      rax, [rel address of function 0x2170]
+             call     rax
+             mov      r8, rax
+block 0x2f6: movsxd   rdi, 0x5
+             mov      rsi, r15
+             mov      rdx, r15
+             mov      rax, [rel address of function 0x2170]
+             call     rax
+             mov      r15, rax
+block 0x1ec: test     r8, r8
+             je       block 0x21c
+block 0x3d9: movsxd   rdi, 0x4
+             mov      rsi, r15
+             mov      rdx, r15
+             mov      rax, [rel address of function 0x2170]
+             call     rax
+             mov      r9, rax
+block 0x3b2: movsxd   rdi, 0x5
+             mov      rsi, r15
+             mov      rdx, r15
+             mov      rax, [rel address of function 0x2170]
+             call     rax
+             mov      r15, rax
+block 0x365: movsxd   rdi, 0x4
+             mov      rsi, r15
+             mov      rdx, r15
+             mov      rax, [rel address of function 0x2170]
+             call     rax
+             mov      r10, rax
+block 0x2ca: movsxd   rdi, 0x5
+             mov      rsi, r15
+             mov      rdx, r15
+             mov      rax, [rel address of function 0x2170]
+             call     rax
+             mov      r15, rax
+block 0x194: movsxd   rdi, 0x4
+             mov      rsi, r15
+             mov      rdx, r15
+             mov      rax, [rel address of function 0x2170]
+             call     rax
+             mov      r11, rax
+block 0x328: movsxd   rdi, 0x5
+             mov      rsi, r15
+             mov      rdx, r15
+             mov      rax, [rel address of function 0x2170]
+             call     rax
+             mov      r15, rax
+block 0x251: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x0a2: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r15
+             mov      QWORD PTR [rax*8], rcx
+block 0x144: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x289: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r12
+             mov      QWORD PTR [rax*8], rcx
+block 0x113: movsxd   rax, 0x0
+             add      rax, r13
+             mov      rax, QWORD PTR [rax*8]
+             mov      r12, rax
+block 0x226: mov      r13, r13
+             movsxd   rax, 0x1
+             add      r13, rax
+block 0x04d: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x09b: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r13
+             mov      QWORD PTR [rax*8], rcx
+block 0x136: mov      r8, r12-r8
+block 0x26c: movzxd   r15, 0x1b1
+block 0x0d8: jmp      block 0x1f2
+block 0x1b1: mov      r8, r12
+             movsxd   rax, 0x0
+             add      r8, rax
+block 0x362: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x2c4: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r13, rax
+block 0x188: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x310: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r12, rax
+block 0x221: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x043: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r15, rax
+block 0x087: mov      r12, r12&r8
+block 0x10e: jmp      block 0x37b
+block 0x21c: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x039: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r11, rax
+block 0x072: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x0e5: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r10, rax
+block 0x1cb: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x397: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r9, rax
+block 0x32f: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x25f: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r8, rax
+block 0x0be: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x17c: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r15, rax
+block 0x2f9: jmp      block $r15
+block 0x1f2: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x3e5: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r15
+             mov      QWORD PTR [rax*8], rcx
+block 0x3ca: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x394: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r8
+             mov      QWORD PTR [rax*8], rcx
+block 0x329: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x253: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r9
+             mov      QWORD PTR [rax*8], rcx
+block 0x0a6: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x14c: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r10
+             mov      QWORD PTR [rax*8], rcx
+block 0x299: mov      r14, r14
+             movsxd   rax, 0x1
+             add      r14, rax
+block 0x133: movsxd   rax, -0x1
+             add      rax, r14
+             mov      rcx, r11
+             mov      QWORD PTR [rax*8], rcx
+block 0x266: movsxd   rax, 0x3
+             cmp      r8, rax
+             setge    al
+             movzx    r12, al
+block 0x0cc: test     r12, r12
+             je       block 0x0aa
+block 0x199: movsxd   rax, 0x9
+             cmp      r8, rax
+             setle    al
+             movzx    r12, al
+block 0x332: test     r12, r12
+             je       block 0x0aa
+block 0x265: mov      r8, r8
+             movsxd   rax, 0x2010500
+             or       r8, rax
+block 0x0ca: movsxd   r13, 0x32a
+block 0x195: movsxd   rdi, 0x8
+             mov      rsi, r13
+             mov      rdx, r8
+             mov      rax, [rel address of function 0x2170]
+             call     rax
+             mov      r13, rax
+
+[The subsequent 1 blocks starting at index 0x32a are invalid]
+
+block 0x255: cmp      r13, r11
+             sete     al
+             movzx    r12, al
+block 0x0aa: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x154: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r11, rax
+block 0x2a9: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x153: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r10, rax
+block 0x2a7: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x14f: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r9, rax
+block 0x29f: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x13f: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r8, rax
+block 0x27e: mov      r14, r14
+             movsxd   rax, -0x1
+             add      r14, rax
+block 0x0fc: movsxd   rax, 0x0
+             add      rax, r14
+             mov      rax, QWORD PTR [rax*8]
+             mov      r15, rax
+block 0x1f9: jmp      block $r15
+
+[The subsequent 201 blocks starting at index 0x3f3 are invalid]
+
+block 0x249: nop
+block 0x092: nop
+block 0x124: nop
+block 0x248: nop
+block 0x090: nop
+block 0x120: nop
+block 0x240: nop
+block 0x080: nop
+block 0x100: nop
+block 0x200: nop
+
+
+###### end disassembler.txt

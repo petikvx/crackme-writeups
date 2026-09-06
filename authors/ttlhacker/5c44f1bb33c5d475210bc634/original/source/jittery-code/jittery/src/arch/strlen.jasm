@@ -1,0 +1,15 @@
+//uint64_t strlen(uint64_t *str)
+label strlen
+	push $a0
+	
+	ldi $rv, 0
+label strlen_loop
+	load $a0, 0 > $tmp
+	jz $tmp, strlen_end
+	addi $rv, $rv, 1
+	addi $a0, $a0, 1
+	j strlen_loop
+	
+label strlen_end
+	pop $a0
+	jr $lr

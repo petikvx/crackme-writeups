@@ -1,0 +1,40 @@
+//void gets(uint64_t* dest, uint64_t dest_size)
+label gets
+	push $a0
+	push $a1
+	
+	//if (dest_size == 0) return;
+	jz $a1, gets_end
+	
+label gets_loop
+	//dest_size--;
+	addi $a1, $a1, -1
+	
+	//if (dest_size == 0) goto gets_write_zero_terminator;
+	jz $a1, gets_write_zero_terminator
+	
+	//tmp = getchar();
+	vmcall VC_GETCHAR: $tmp, $tmp, $tmp
+	
+	//*dest_ram_adr = tmp;
+	store $a0, 0 < $tmp
+	
+	//if (tmp == '\n') goto gets_write_zero_terminator;
+	seqi $tmp, $tmp, 10
+	jnz $tmp, gets_write_zero_terminator
+	
+	//dest_ram_adr++;
+	addi $a0, $a0, 1
+	
+	j gets_loop
+	
+	
+label gets_write_zero_terminator
+	ldi $tmp, 0
+	store $a0, 0 < $tmp
+	
+label gets_end
+	pop $a1
+	pop $a0
+	jr $lr
+	

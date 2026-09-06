@@ -1,0 +1,31 @@
+OVERVIEW
+========
+
+"jittery" contains the main program's source code, as well as the crackme's input and verification routines in the "arch" subdirectory. Generated headers get placed in "hdrgen". "script/runjasm.sh" runs the jittery assembler and generates the necessary header files from the jittery assembler code in "arch".
+
+"jitter-assembler" is an assembler for jittery's custom CPU architecture, written in Java. It outputs C header files which get included in jitter'y main program.
+
+"jittery-verifier" verifies the correct operation of the crackme binary - it's basically a tiny fuzzer. By trying all possible single-byte modifications to the correct solution, it can verify that the verification routine is correct and the crackme only accepts the intended solution. (It would be quite bad if the crackme accepted multiple solutions due to a bug.)
+
+
+This archive contains all tools needed to create other programs running in the jittery VM, so feel free to play around with it. The code needs to be built with gcc 8. Additionally, jittery assembler source files are preprocessed with gpp.
+
+
+FUNCTIONAL DESCRIPTION
+======================
+
+Jittery is a crackme implementing its own CPU architecture and a JIT code translator from the "jittery CPU instruction set" to x86_64 code. It only translates instructions on demand, when they are about to be executed. The jittery VM's register file consists of registers R8 to R15 of the host x86_64 CPU.
+
+Jittery works by creating a large array of rwx memory, then writing its program code into that memory as data. The code is not x86_64 code, so the CPU isn't able to directly execute it. Instead, jittery reserves a large region of empty space in between of its code words, which it fills with calls to a jit routine. Then jittery jumps into that code. As soon as it hits an instruction that has not been JITted yet, the dummy call instruction that has been placed there will call the jit routine, which will then overwrite the dummy call with the x86_64 equivalent of the jittery instruction stored there. Once the instruction has been JITted, execution is restarted.
+
+To further obfuscate program flow, the program counter of the jittery VM is not an actual counter, but rather a linear-feedback shift register (LFSR), which are often used as pseudo-random number generators. Because certain n-bit LFSRs iterate through the entire range from 1 to 2^n-1, they are suitable as a replacement for counters. This has actually been done in a few commercial low-cost microcontrollers. Jittery's program counter is a 10-bit primitive LFSR - with exponents taken from Wikipedia. A jump is generated after every JITted instruction to jump to the next instruction according to the LFSR program counter. It was barely noticeable during development that jittery's program counter is so weird because jittery-assembler abstracts it away almost perfectly. The only influence it had on developing the assembler program is that there is a special instruction for incrementing code-memory addresses.
+
+Additionally, the program in the jittery VM can overwrite its own code, causing the VM to clear the JITted code of the overwritten instruction and run the jit routine again once the overwritten instruction gets executed. This is used in the actual verification routine of the crackme, where each character of the input string causes the program to select a different instruction to generate and execute - one of ADD, SUB, MUL, NEG, AND, OR, XOR, in this order. It then verifies that the result of executing this instruction matches what is stored in a static array. The arguments for executing the instruction are also stored in that same array. This function of the jittery VM is also used to clear the entire JITted code every once in a while, deleting the x86_64 version of jittery's program code from memory to make it harder for someone to grab its code in "easily understandable" x86_64 form.
+
+Furthermore, there is an instruction for calling native routines in the virtual machine implementation, VMCALL, that is used to perform I/O and memory allocation from inside the VM. It also handles code-memory loads and stores.
+
+
+
+I hope you had fun analyzing this incredible mess of a program!
+
+- ttlhacker

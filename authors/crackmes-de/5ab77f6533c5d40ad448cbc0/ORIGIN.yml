@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6533c5d40ad448cbc0
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6533c5d40ad448cbc0
+  download: https://crackmes.one/download/crackme/5ab77f6533c5d40ad448cbc0
+
+title: "crackmes.de's crackme.03.32 by geyslan"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: "Assembler"
+
+difficulty: 4.0
+quality: 4.0
+size: ""
+published: null
+
+series_index: 3
+local_slug: crackme.03.32
+
+binary:
+  path: "original/crackme.03.32.tar.gz"
+  name: "crackme.03.32.tar.gz"
+  sha256: "d37e639ac1e82f3f35b027b59df1be6817f9d714a9cfe32b931088ecac863d15"
+  md5: "442b8300888b275f61c5539c6ccc1158"
+  size_bytes: 481
+
+status: solved
+solution_summary: "patchme ELF32: jnz→jz @0x84 + fix csum ; print Omedetou"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T14:49:54Z"

@@ -1,0 +1,23 @@
+//void puts_cmem(uint64_t *string_cmem)
+label puts_cmem
+	push $a0
+	
+label puts_cmem_loop
+	//tmp = cmem[a0];
+	vmcall VC_LOAD_CONST: $tmp, $a0, $a0
+	
+	//if (!tmp) return;
+	jz $tmp, puts_cmem_end
+	
+	//putchar(tmp);
+	vmcall VC_PUTCHAR: $tmp, $tmp, $tmp
+	
+	//a0++;
+	vmcall VC_PCINC: $a0, $a0, $a0
+	
+	j puts_cmem_loop
+	
+	
+label puts_cmem_end
+	pop $a0
+	jr $lr

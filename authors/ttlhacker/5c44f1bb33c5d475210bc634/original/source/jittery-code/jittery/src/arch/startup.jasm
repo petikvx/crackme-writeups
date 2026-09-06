@@ -1,0 +1,15 @@
+label entry
+	//Allocate stack
+	ldi $tmp, STACK_SIZE
+	vmcall VC_MALLOC: $sp, $tmp, $tmp
+	jz $sp, startup_failed
+	
+	//Run main function
+	call main
+	
+	//Free stack
+	vmcall VC_FREE: $tmp, $sp, $sp
+	vmquit 0
+	
+label startup_failed
+	vmquit 10

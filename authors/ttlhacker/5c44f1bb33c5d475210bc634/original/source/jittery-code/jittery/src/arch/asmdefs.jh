@@ -1,0 +1,44 @@
+#ifndef __ASMDEFS_JH__
+#define __ASMDEFS_JH__
+
+//PRESERVED REGISTERS (argument registers)
+#define a0 0
+#define a1 1
+#define a2 2
+#define a3 3
+
+//TEMPORARY REGISTERS (return value register (rv) + temp register (tmp))
+#define rv 4
+#define tmp 5
+
+//STACK POINTER
+#define sp 6
+
+//LINK REGISTER
+#define lr 7
+
+#define call retadr $lr\
+	j
+
+#define push addi $sp, $sp, 1\
+	store $sp, -1 <
+	
+#define pop addi $sp, $sp, -1\
+	load $sp, 0 >
+
+#define pushall \
+	push $lr\
+	push $a0\
+	push $a1\
+	push $a2\
+	push $a3
+
+#define popall \
+	pop $a3\
+	pop $a2\
+	pop $a1\
+	pop $a0\
+	pop $lr
+
+
+#endif

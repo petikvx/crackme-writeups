@@ -1,0 +1,15 @@
+//void puts(uint64_t *str)
+label puts
+	push $a0
+	
+label puts_loop
+	load $a0, 0 > $tmp
+	jz $tmp, puts_end
+	vmcall VC_PUTCHAR: $tmp, $tmp, $tmp
+	addi $a0, $a0, 1
+	j puts_loop
+	
+label puts_end
+	pop $a0
+	jr $lr
+	

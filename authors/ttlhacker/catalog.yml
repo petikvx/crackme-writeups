@@ -1,0 +1,21 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5c44f1bb33c5d475210bc634:
+    sha256: "57aa4a74af67ad9a6f33ae92f26deff3877ae648b4688c87df20c9ce53d2a723"
+    path: "authors/ttlhacker/5c44f1bb33c5d475210bc634/original/jittery"
+    title: "ttlhacker's jittery"
+
+  5bc0fe0033c5d4110a29b296:
+    sha256: "134b53b78fe74d477bf381ebfd965f92d270f8314886518d451ec3aca29156fa"
+    path: "authors/ttlhacker/5bc0fe0033c5d4110a29b296/original/hell86"
+    title: "ttlhacker's hell86"
+
+by_sha256:
+  57aa4a74af67ad9a6f33ae92f26deff3877ae648b4688c87df20c9ce53d2a723:
+    id: 5c44f1bb33c5d475210bc634
+    path: "authors/ttlhacker/5c44f1bb33c5d475210bc634/original/jittery"
+    page: https://crackmes.one/crackme/5c44f1bb33c5d475210bc634
+  134b53b78fe74d477bf381ebfd965f92d270f8314886518d451ec3aca29156fa:
+    id: 5bc0fe0033c5d4110a29b296
+    path: "authors/ttlhacker/5bc0fe0033c5d4110a29b296/original/hell86"
+    page: https://crackmes.one/crackme/5bc0fe0033c5d4110a29b296

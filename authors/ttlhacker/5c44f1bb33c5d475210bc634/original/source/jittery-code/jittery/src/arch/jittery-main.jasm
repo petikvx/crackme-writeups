@@ -1,0 +1,65 @@
+#include "asmdefs.jh"
+#include "vmcallnums.jh"
+#define STACK_SIZE 1024
+#include "startup.jasm"
+
+label main
+	pushall
+	
+	//Print the startup banner.
+	call print_banner
+	
+	//Read the password from the console. Exit if that fails.
+	call read_password
+	jz $rv, main_print_error
+	
+	//Verify
+	addi $a0, $rv, 0
+	call verify_input
+	
+	//Move the pointer to the password buffer somewhere safe
+	addi $a1, $a0, 0
+	
+	//Print result
+	ldi $a0, main_correct_string
+	jnz $rv, main_correct
+	ldi $a0, main_wrong_string
+label main_correct
+	call puts_cmem
+	
+	//Free the password buffer
+	vmcall VC_FREE: $a1, $a1, $a1
+	
+label main_end
+	popall
+	jr $lr
+
+//Print the error message and exit.
+label main_print_error
+	ldi $a0, main_error_string
+	call puts_cmem
+	j main_end
+
+label main_error_string
+	string \\n\\nThis is a bug in the crackme, sorry.\\nPlease let ttlhacker know about this.\\n\\nExiting.\\n
+
+label main_correct_string
+	string Correct! Well done!\\n
+	
+label main_wrong_string
+	string WRONG!\\n
+
+
+//Function definitions
+#include "puts_cmem.jasm"
+#include "puts.jasm"
+#include "gets.jasm"
+#include "print_banner.jasm"
+#include "read_password.jasm"
+#include "strlen.jasm"
+#include "verify_input.jasm"
+#include "strlen_cmem.jasm"
+#include "strdup_from_cmem.jasm"
+#include "memequal.jasm"
+#include "clearjitcode.jasm"
+#include "selfmod_verify.jasm"

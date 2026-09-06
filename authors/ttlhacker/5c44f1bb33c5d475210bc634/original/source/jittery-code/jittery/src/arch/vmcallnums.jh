@@ -1,0 +1,31 @@
+#ifndef __VMCALLNUMS_JH__
+#define __VMCALLNUMS_JH__
+
+//putchar(src1); dst = 0
+#define VC_PUTCHAR 0
+
+//dst = getchar()
+#define VC_GETCHAR 1
+
+//dst = malloc_uint64_ts(src1)
+#define VC_MALLOC 2
+
+//free(src1); dst = 0
+#define VC_FREE 3
+
+//dst = cmem[src1].imm
+#define VC_LOAD_CONST 4
+
+//dst = src1 + 1 (LFSR)
+#define VC_PCINC 5
+
+//print(src1); dst = 0
+#define VC_PRINTNUM 6
+
+//dst = cmem[src1]
+#define VC_LOADCMEM 7
+
+//cmem[src1] = src2; dst = 0
+#define VC_STORECMEM 8
+
+#endif

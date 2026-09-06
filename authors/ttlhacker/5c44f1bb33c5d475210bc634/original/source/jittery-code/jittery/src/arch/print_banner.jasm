@@ -1,0 +1,15 @@
+//void print_banner(void)
+label print_banner
+	push $lr
+	push $a0
+	
+	ldi $a0, banner_text
+	call puts_cmem
+	
+	pop $a0
+	pop $lr
+	jr $lr
+
+label banner_text
+	string [jittery crackme] Good luck!\\n\\n\\nSTRANGE PROCESSORS, INC. CENTRAL VAULT SYSTEM\\n=============================================\\n\\n"We exist to make the world a weirder place." (tm)\\n\\nTo access the confidential information stored in this vault,\\nplease provide the company's main password, which hasn't\\nbeen changed since 1984.\\n\\nPassword:
+

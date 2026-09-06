@@ -1,0 +1,42 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5bc0fe0033c5d4110a29b296
+
+urls:
+  page: https://crackmes.one/crackme/5bc0fe0033c5d4110a29b296
+  download: https://crackmes.one/download/crackme/5bc0fe0033c5d4110a29b296
+
+title: "ttlhacker's hell86"
+author_on_site: "ttlhacker"
+author_local: "ttlhacker"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "Assembler / C++"
+
+difficulty: 3.0
+quality: 4.0
+size: "45.84 KB"
+published: "2018-10-12"
+
+series_index: null
+local_slug: hell86
+
+binary:
+  path: "original/hell86"
+  name: "hell86"
+  sha256: "134b53b78fe74d477bf381ebfd965f92d270f8314886518d451ec3aca29156fa"
+  md5: "31b76b7d54be1b9c574e6b166b184c63"
+  size_bytes: 16624
+
+# Archive sources (mdp = flag) fournie après upload initial
+source_archive:
+  path: "original/hell86_source.7z"
+  sha256: "77233e7392412db6e60843aae56cbd3be61a23f9e0eddcd6bcd7f855198ce51b"
+  password_hint: "flag that validates the crackme"
+
+status: solved
+solution_summary: "SIGILL UD2-VM ; charset→indices, a[0]=22, ((Δ)^k)³ vs .rodata ; FLAG{x86-1s-s0-fund4m3nt4lly-br0k3n}"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T14:49:52Z"

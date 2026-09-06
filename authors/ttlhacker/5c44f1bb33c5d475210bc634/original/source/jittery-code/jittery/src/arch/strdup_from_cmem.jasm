@@ -1,0 +1,33 @@
+//uint64_t * strdup_from_cmem(uint64_t *str_cmem)
+label strdup_from_cmem
+	push $lr
+	push $a0
+	push $a1
+	
+	//Allocate a buffer big enough to hold the string
+	call strlen_cmem
+	addi $rv, $rv, 1
+	vmcall VC_MALLOC: $rv, $rv, $rv
+	jz $rv, strdup_from_cmem_end
+	
+	//a1: Destination pointer. Keep rv intact during the copy.
+	addi $a1, $rv, 0
+	
+label strdup_from_cmem_loop
+	//Copy
+	vmcall VC_LOAD_CONST: $tmp, $a0, $a0
+	store $a1, 0 < $tmp
+	jz $tmp, strdup_from_cmem_end
+	
+	//Increment pointers
+	vmcall VC_PCINC: $a0, $a0, $a0
+	addi $a1, $a1, 1
+	
+	j strdup_from_cmem_loop
+	
+label strdup_from_cmem_end
+	pop $a1
+	pop $a0
+	pop $lr
+	jr $lr
+

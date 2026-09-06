@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5c44f1bb33c5d475210bc634
+
+urls:
+  page: https://crackmes.one/crackme/5c44f1bb33c5d475210bc634
+  download: https://crackmes.one/download/crackme/5c44f1bb33c5d475210bc634
+
+title: "ttlhacker's jittery"
+author_on_site: "ttlhacker"
+author_local: "ttlhacker"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "Assembler"
+
+difficulty: 5.0
+quality: 4.0
+size: "50.52 KB"
+published: "2019-01-20"
+
+series_index: null
+local_slug: jittery
+
+binary:
+  path: "original/jittery"
+  name: "jittery"
+  sha256: "57aa4a74af67ad9a6f33ae92f26deff3877ae648b4688c87df20c9ce53d2a723"
+  md5: "1b0d689f1a0b63087575e4c1dc8cf16f"
+  size_bytes: 30800
+
+status: solved
+solution_summary: "FLAG{wh4t_1s_a_pr0gr4m_c0unt3r?_jit_eng1n3s_ar3_4wes0m3} — JIT self-mod VM; keygen from data_buffer ALU ops"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T14:49:50Z"
