@@ -61,6 +61,40 @@ Puis `ecx -= 0x40` ; succès ssi `ecx == 0x3da` **et** le dernier transform `== 
 
 Somme des transforms = **`0x41a`** (1050). Beaucoup de clés valides — le solveur en génère une.
 
+## Debug GDB (pas à pas)
+
+ELF32 **statique**, **strippé**, entry `0x8048080`. Chaîne de gadgets (ban + add + xor) puis check somme.
+
+```bash
+gdb -nx -q ./original/f1nd_My_k3y5
+(gdb) set debuginfod enabled off
+(gdb) starti
+(gdb) x/40i 0x8048104
+```
+
+| Adresse | Rôle |
+|---|---|
+| `0x8048104` | `read(0, key@0x8049490, 0xe)` |
+| `0x8048117` | rejet si `eax < 8` |
+| `0x804812c`…`0x8048185` | 13× `call` gadget ; `ecx +=` transform |
+| `0x8048214` | ex. gadget i=4 : ban `'f'`, `+6 ^ 5` |
+| `0x804836d` / `0x804825b` | dernier char : ban `'S'`, `+7 ^ 3` (⇒ `'!'` → `0x2b`) |
+| `0x8048187` | `ecx -= 0x40` |
+| `0x80481a5` | `cmp ecx, 0x3da` (succès si somme transforms = `0x41a`) |
+| `0x80481d7` | message `Yep , you Are correct !` |
+| `0x80481ef` | boucle `read(1)` jusqu’à `\n` |
+
+```text
+(gdb) break *0x80481a5
+(gdb) run < <(printf 'AAAAAAAAAoy~!\n\n')
+(gdb) print/x $ecx           # 0x3da si clé valide
+(gdb) x/s 0x8049490          # clé saisie
+(gdb) continue               # → Yep , you Are correct !
+# puis le binaire attend encore un \n (d’où le 2ᵉ dans le printf)
+```
+
+Break sur un gadget (`*0x8048214`) pour voir `al` avant/après add/xor et le buffer out `@0x80494a0`.
+
 ## Notes
 
 - Obfuscation : calling convention « pop return / leave password on stack », patches `'O'`/`'0'` et soustractions/shl sur un buffer **non utilisés** pour le prédicat final.

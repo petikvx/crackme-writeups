@@ -63,6 +63,26 @@ mov    QWORD [rbp-0xd0], 0x6a212a46 ; "F*!j"
 
 ---
 
+
+## Debug GDB (pas à pas)
+
+ELF64 **PIE**, debug_info, non strippé. `main` file `0x1169` → live `@0x555555555174` (base `0x555555554000`). Password construit sur la stack puis `strcmp`.
+
+```bash
+export DEBUGINFOD_URLS=
+printf 'wvohXN8X7C14jrq1F*!j\n' > /tmp/muhemed.in
+gdb -nx -q ./original/crackme
+(gdb) set debuginfod enabled off
+(gdb) start < /tmp/muhemed.in
+# main @ base+0x1169
+(gdb) disassemble main
+# movabs … 0x58384e58686f7677 ("wvohXN8X") etc.
+```
+
+Immediates LE → `wvohXN8X7C14jrq1F*!j`. Éviter un `break strcmp` trop tôt (hits du dynamic linker) : BP dans `main` juste avant l’appel, ou filtrer sur la plage du binaire.
+
+`solution_summary` : strcmp stack immediates → `wvohXN8X7C14jrq1F*!j`.
+
 ## 4. Vérification
 
 ```bash

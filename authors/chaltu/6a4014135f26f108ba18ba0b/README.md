@@ -86,6 +86,30 @@ Le flag attendu est donc **`data`** (étape 3), pas le résultat du XOR.
 
 ---
 
+
+## Debug GDB (pas à pas)
+
+ELF64 **PyInstaller** (bootloader), EXEC strippé. Entry `0x401cc0` (live confirmé). Le prédicat utile est dans le **`.pyc`**, pas dans le code natif du bootloader — GDB sur l’ELF ne montre guère que le runtime Python.
+
+```bash
+export DEBUGINFOD_URLS=
+gdb -nx -batch -ex 'set debuginfod enabled off' -ex 'starti' \
+  -ex 'break *0x401cc0' -ex 'continue' -ex 'x/10i $pc' -ex 'quit' \
+  ./original/treasure
+# entry=0x401cc0  (xor ebp / setup argc+argv → PyInstaller)
+```
+
+Chemin utile (hors GDB) :
+
+```bash
+python3 tools/pyinstxtractor.py original/treasure
+# → analysis/…/treasure.pyc  (aussi original/source/treasure.py)
+pycdc analysis/treasure.pyc   # ou lire original/source/treasure.py
+# b64decode → bb{easy_r3v_challenge_s0lv3d}
+```
+
+`solution_summary` : PyInstaller → `treasure.pyc` ; `bb{easy_r3v_challenge_s0lv3d}`.
+
 ## 4. Vérification
 
 ```bash

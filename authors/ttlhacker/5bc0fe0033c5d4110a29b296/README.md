@@ -103,6 +103,52 @@ UD2 | imm64 | opcode | dst | src1 | src2
 
 Opcode `9` avec `dst=RIP` = jump ; `0x28` = call (push RIP+14) ; registres = `gregs[]` Linux (RDI=8, RSI=9, …).
 
+## Debug GDB (pas à pas)
+
+ELF64 **PIE**, **strippé**. Sous ASLR typique la base est `0x555555400000` (offsets file = VA − base). **Obligatoire** : laisser passer `SIGILL` au handler du crackme, sinon GDB mange les `UD2` de la VM.
+
+```bash
+gdb -q ./original/hell86
+(gdb) set debuginfod enabled off
+(gdb) handle SIGILL nostop noprint pass
+(gdb) starti
+# base ≈ 0x555555400000 (info proc mappings → mapping r-xp du binaire)
+(gdb) break *0x555555400fc0      # main
+(gdb) break *0x555555400fed      # call VM (sub_1190)
+(gdb) break puts
+(gdb) run 'FLAG{x86-1s-s0-fund4m3nt4lly-br0k3n}'
+```
+
+| Offset file | Rôle |
+|---|---|
+| `0xfc0` | `main` — `sigaltstack` / `sigaction(SIGILL→0x1946)` puis `call 0x1190` |
+| `0xfed` | juste avant l’entrée bytecode ; `argc` dans `rdi`, `argv` dans `rsi` |
+| `0x1190` | premier `ud2` (14 o / insn) |
+| `0x1946` | handler `sa_sigaction` (switch opcodes) |
+| `.rodata+0x20a0` | charset ; `+0x1fa0` = `good_differences` |
+
+Au break `0xfed` (base `0x5555…`) :
+
+```text
+(gdb) printf "argc=%d\n", (int)$rdi
+(gdb) x/s *(char**)($rsi+8)
+# "FLAG{x86-1s-s0-fund4m3nt4lly-br0k3n}"
+(gdb) continue
+# puts → "OK!"
+```
+
+Premier `UD2` (si on stoppe le signal une fois) :
+
+```text
+(gdb) handle SIGILL stop print nopass
+(gdb) continue
+# Program received signal SIGILL … pc = base+0x1190 → ud2
+(gdb) handle SIGILL nostop noprint pass
+(gdb) continue
+```
+
+Sans `handle … pass`, la VM ne tourne pas. Hors GDB : `./original/hell86 'FLAG{…}'` → `OK!`.
+
 ## Vérification
 
 ```bash

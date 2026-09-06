@@ -62,6 +62,28 @@ python3 tools/pyinstxtractor.py original/crackit
 
 ---
 
+
+## Debug GDB (pas à pas)
+
+ELF64 **PyInstaller**. Entry `0x401cc0` (live). GDB sur l’ELF = stub natif ; le flag est dans le bytecode Python.
+
+```bash
+export DEBUGINFOD_URLS=
+gdb -nx -batch -ex 'set debuginfod enabled off' -ex 'starti' \
+  -ex 'break *0x401cc0' -ex 'continue' -ex 'printf "entry=%p\n",$pc' -ex 'quit' \
+  ./original/crackit
+```
+
+Chemin utile :
+
+```bash
+python3 tools/pyinstxtractor.py original/crackit
+# entry crackit.pyc — tuple parts → CTF{My_S3cr3t_Fl4g}WoWYouFoundMe
+# aussi original/source/crackit.py
+```
+
+`solution_summary` : PyInstaller → join(parts) → `CTF{My_S3cr3t_Fl4g}WoWYouFoundMe`.
+
 ## 4. Vérification
 
 ```bash

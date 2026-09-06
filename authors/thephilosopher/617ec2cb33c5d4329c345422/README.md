@@ -77,6 +77,48 @@ Une solution : `EEEEEEcgox` avec le key1 ci-dessus.
 
 ---
 
+## Debug GDB (pas à pas)
+
+ELF64 **statique**, **non-PIE**, symbole `_start` @ `0x40118a` (pas de `main`). I/O = syscalls (`read` @ `0x4010a4`, `write` @ `0x401000` / `0x4010b7`). Comparaison credentials maison @ `0x401021` (score `2` par chaîne OK → total `4`).
+
+```bash
+gdb -q ./original/thematrix
+(gdb) set debuginfod enabled off
+(gdb) info file          # Entry point: 0x40118a
+(gdb) disassemble _start
+(gdb) x/s 0x4022df       # "admin"
+(gdb) x/s 0x4022e5       # "password"
+```
+
+| VA | Rôle |
+|---|---|
+| `0x401249` | `cmp rax, 4` — score credentials (user+pass) |
+| `0x4012e7` | `cmp rbx, 0x46d` — somme Opening (buf `@0x402bd4`) |
+| `0x4013c1` | `cmp r13, 0x3d8` — somme Middlegame (key2 `@0x402c38`) |
+| `0x401472` | `cmp r15, 3` — 3 racines Endgame OK |
+
+**Piège stdin** : un `run < answers.txt` d’un bloc échoue souvent (score `rax=2`). Espacer les lignes (FIFO / solveur `--check`) :
+
+```bash
+FIFO=$(mktemp -u); mkfifo "$FIFO"
+( sleep 0.2; printf 'admin\n'; sleep 0.15; printf 'password\n'
+  sleep 0.15; printf '}}}}}}}iQH\n'; sleep 0.15; printf 'EEEEEEcgox\n'
+  sleep 0.15; printf '2022\n'; sleep 0.15; printf '2021\n'
+  sleep 0.15; printf '2020\n' ) > "$FIFO" &
+gdb -q ./original/thematrix
+(gdb) break *0x401249
+(gdb) break *0x4012e7
+(gdb) break *0x4013c1
+(gdb) break *0x401472
+(gdb) run < $FIFO
+# 0x401249 → rax=4  ; 0x4012e7 → rbx=0x46d ; 0x4013c1 → r13=0x3d8
+# 0x401472 → r15=3  → "Congradulations, you managed to beat the Matrix!"
+```
+
+Hors GDB : `python3 tools/the-matrix-solve.py --check`.
+
+---
+
 ## 4. Vérification
 
 Comme pour le keygen dev0 : **ne pas** tout pousser d’un coup dans le pipe — chaque `read` attend sa ligne. Le solveur espace les écritures.

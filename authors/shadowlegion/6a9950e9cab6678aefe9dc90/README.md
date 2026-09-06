@@ -133,6 +133,25 @@ else fail;
 
 ---
 
+
+## Debug GDB (pas à pas)
+
+ELF64 **PIE** Qt6 strippé. Entry file `0x5bd0`. Live : base `0x555555554000`, r-xp `@0x555555559000`. Check somme : `cmp eax,0xb28` (`2856`) @ file `0x609b` / aussi `0x62f0`.
+
+```bash
+export DEBUGINFOD_URLS=
+gdb -nx -q ./original/TermBreaker
+(gdb) set debuginfod enabled off
+(gdb) starti
+(gdb) info proc mappings
+(gdb) break *(0x555555554000+0x609b)   # ajuster BASE ASLR
+# GUI Qt : éventuellement xvfb-run -a gdb …
+(gdb) continue
+# Σ(i+1)*ord(code[i]) == 2856 ; ex. TERMATUR
+```
+
+`solution_summary` : system code 8×[A-Z0-9], Σ(i+1)*ord == 2856 ; ex. `TERMATUR`.
+
 ## 4. Vérification
 
 ```bash

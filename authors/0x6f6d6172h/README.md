@@ -9,3 +9,5 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml).
 | # | Titre | ID | Plateforme | Solution |
 |---|---|---|---|---|
 | 1 | [crackme1](6516c8018b6aa566ae723220/) | [`6516c801…`](https://crackmes.one/crackme/6516c8018b6aa566ae723220) | Linux ELF64 | `flag{not_that_kind_of_elf}` |
+
+Section **Debug GDB** : ajoutée dans [`crackme1`](6516c8018b6aa566ae723220/README.md).

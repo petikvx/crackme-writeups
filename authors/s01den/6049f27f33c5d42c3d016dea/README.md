@@ -72,6 +72,27 @@ sum == 0xaf75 ⊕ 0xacab == 0x3de == 990
 
 ---
 
+
+## Debug GDB (pas à pas)
+
+ELF64 EXEC non strippé. Entry `0x401040`, `main` `@0x401126`. **PT_LOAD RWE** caché `@0xc003ef8` (shellcode). Anti-`ptrace` : sous GDB, `main` peut se contenter d’un `puts` + `ret` (chemin « tracer détecté ») — le shellcode utile ne s’exécute pas comme en natif.
+
+```bash
+export DEBUGINFOD_URLS=
+gdb -nx -q ./original/0verney
+(gdb) set debuginfod enabled off
+(gdb) break main
+(gdb) run
+(gdb) disassemble main
+# sous trace : puts @0x402004 puis return 0 — pas le check Σord
+(gdb) info proc mappings
+# chercher mapping …0xc003000 rwx (segment caché)
+```
+
+Hors GDB (ou avec contournement anti-debug) : Σ`ord == 990` (ex. `petikpppq`) → `G00d`.
+
+`solution_summary` : hidden PT_LOAD shellcode ; Σord==990 (`petikpppq`) → G00d ; anti-ptrace.
+
 ## 4. Vérification
 
 ```bash

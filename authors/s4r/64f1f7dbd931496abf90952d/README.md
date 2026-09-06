@@ -78,6 +78,25 @@ Premier bloc (hex) : `4ebd8e7627d66f7562ed5c13782c9333`.
 
 ---
 
+
+## Debug GDB (pas à pas)
+
+ELF64 **statique** strippé, un LOAD **RWE**. Entry live `0x400078` (`starti` → PC=`0x400078`) : `read` syscall puis couches AES-NI (`aesdec`).
+
+```bash
+export DEBUGINFOD_URLS=
+gdb -nx -q ./original/encrypted_box
+(gdb) set debuginfod enabled off
+(gdb) starti
+(gdb) x/20i $pc
+# 0x400078: xor rdi,rdi ; mov rsi,rsp ; mov rdx,0x10 ; xor rax,rax ; syscall  (=read 16)
+(gdb) catch syscall read
+```
+
+Inverser live : BP après chaque round / lire `xmm*` ; password final `BRB{as_deep_as_OceanGate}`.
+
+`solution_summary` : `BRB{as_deep_as_OceanGate}` ; multi-stage AES-NI.
+
 ## 4. Vérification
 
 ```bash

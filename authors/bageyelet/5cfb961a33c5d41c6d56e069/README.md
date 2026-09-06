@@ -60,6 +60,29 @@ input[i] ^ V[i] == V[i+6]   for i in 0..5
 
 (Les nombres de *Lost* — clin d’œil probable.)
 
+
+## Debug GDB (pas à pas)
+
+ELF32 **PIE** strippé. Entry file `0x11e0`. Sous GDB (`starti`) base typique `0x56555000` r-xp (ASLR).
+
+Les 6 checks ROP font `cmp edi,esi` aux offsets fichier `0x102b`, `0x1040`, `0x1055`, `0x106a`, `0x107f`, `0x1094` (= base+offset).
+
+```bash
+export DEBUGINFOD_URLS=
+gdb -nx -q ./original/rop-obf
+(gdb) set debuginfod enabled off
+(gdb) starti
+(gdb) info proc mappings   # noter BASE (ex. 0x56555000)
+(gdb) break *(0x56555000+0x102b)   # ajuster BASE ASLR
+(gdb) run <<< '4 8 15 16 23 42'
+(gdb) printf "edi=%#x esi=%#x\n", $edi, $esi
+# input^V[i] doit égaler V[i+6] → print 1
+```
+
+Sans symbole `main` : rester sur les gadgets / `cmp` ci-dessus. Anti-tamper stack depth documenté dans le prédicat.
+
+`solution_summary` : password `4 8 15 16 23 42` — ROP VM.
+
 ## Vérification
 
 ```bash

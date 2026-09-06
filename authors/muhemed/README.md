@@ -10,6 +10,8 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml) (id ↔ sha256).
 |---|---|---|---|---|
 | 1 | [muhemed crackme](6a7b401905a9e80a90724367/) | [`6a7b4019…`](https://crackmes.one/crackme/6a7b401905a9e80a90724367) | Linux x86-64 | password `wvohXN8X7C14jrq1F*!j` |
 
+
+Section **Debug GDB** : ajoutée dans [`crackme`](6a7b401905a9e80a90724367/README.md).
 ## Arborescence d’un challenge
 
 ```

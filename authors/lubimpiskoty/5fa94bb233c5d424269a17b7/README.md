@@ -67,6 +67,27 @@ Exemple : `ABAB` (262) + `DDDE` (273), répété → `ABABDDDEABABDDDE`.
 
 ---
 
+
+## Debug GDB (pas à pas)
+
+ELF64 **statique** non strippé, pas de PIE. Entry `_start` `@0x401000`, password bss `@0x402038`, `_verify` `@0x4010ab`, `_correct` `@0x4010cd`.
+
+```bash
+export DEBUGINFOD_URLS=
+gdb -nx -q ./original/safe
+(gdb) set debuginfod enabled off
+(gdb) break *_verify
+(gdb) run < <(printf 'ABABDDDEABABDDDE')
+# verify=0x4010ab
+(gdb) x/20i $pc
+# boucle 4 octets → somme partielle ; total 16 o → r13 == 0x42e
+(gdb) break *_correct
+(gdb) continue
+# Access granted
+```
+
+`solution_summary` : `ABABDDDEABABDDDE` → Access granted (sums A=262 B=273 mirrored).
+
 ## 4. Vérification
 
 ```bash

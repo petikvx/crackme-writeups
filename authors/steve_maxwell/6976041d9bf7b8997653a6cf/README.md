@@ -69,6 +69,27 @@ plain = bytes(b ^ 7 for b in open("flag.txt.enc","rb").read().rstrip(b"\r\n"))
 
 ---
 
+
+## Debug GDB (pas à pas)
+
+ELF64 **PyInstaller** (strings bootloader). Entry `0x401cc0`. Le flag n’est pas dans le prédicat natif du frozen : il est dans `flag.txt.enc` (XOR 7). GDB sur `chall` sert surtout à confirmer l’entry du stub.
+
+```bash
+export DEBUGINFOD_URLS=
+gdb -nx -batch -ex 'set debuginfod enabled off' -ex 'starti' \
+  -ex 'break *0x401cc0' -ex 'continue' -ex 'printf "entry=%p\n",$pc' -ex 'quit' \
+  ./original/chall
+```
+
+Chemin utile :
+
+```bash
+# original/flag.txt.enc → XOR 7 → CTFLearn{y0u_x0r3d_th3_c0d3}
+python3 -c 'print(bytes(b^7 for b in open("original/flag.txt.enc","rb").read()).decode())'
+```
+
+`solution_summary` : XOR 7 on `flag.txt.enc` → `CTFLearn{y0u_x0r3d_th3_c0d3}`.
+
 ## 4. Vérification
 
 ```bash

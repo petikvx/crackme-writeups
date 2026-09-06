@@ -183,6 +183,27 @@ python3 tools/use-your-brain-solve.py --lift
 
 ---
 
+
+## Debug GDB (pas à pas)
+
+ELF64 **PIE**, debug_info, non strippé. `main` file `0x1199` → live `@0x5555555551a4` (énorme : jusqu’à `~0x282d8`). Tape BF `memset(..., 0x7530)`.
+
+```bash
+export DEBUGINFOD_URLS=
+gdb -nx -q ./original/a.out
+(gdb) set debuginfod enabled off
+(gdb) start
+# main @ base+0x1199
+(gdb) info proc mappings
+(gdb) break getchar
+(gdb) run < <(printf 'bruh wtf')
+# 8× (getchar + N×dec) ; message "you made it hero"
+```
+
+Ne pas tenter de `disassemble main` en entier. S’appuyer sur le lift Brainfuck (`analysis/lifted.bf`).
+
+`solution_summary` : password `bruh wtf` — brainfuck→C.
+
 ## 3. Vérification
 
 ```bash

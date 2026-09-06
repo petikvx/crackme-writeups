@@ -112,6 +112,43 @@ python3 tools/jittery-solve.py -q
 
 ---
 
+## Debug GDB (pas à pas)
+
+ELF64 **PIE**, **strippé**. Base typique `0x555555400000`. `main` @ offset `0xd10` ne fait qu’appeler le runtime JIT `sub_3460`.
+
+```bash
+gdb -q ./original/jittery
+(gdb) set debuginfod enabled off
+(gdb) starti
+(gdb) break *0x555555400d10      # main
+(gdb) break *0x555555400d2c      # call sub_3460
+(gdb) run < <(printf '%s\n' 'FLAG{wh4t_1s_a_pr0gr4m_c0unt3r?_jit_eng1n3s_ar3_4wes0m3}')
+```
+
+Au break `0xd2c` (arguments System V) :
+
+| Registre | Valeur observée | Rôle |
+|---|---|---|
+| `rdi` | `base+0x205020` | `data_buffer` (1024 qwords) |
+| `rsi` | `0x400` | 1024 entrées |
+| `rdx` | `base+0x207020` | kickoff `{10, 7}` |
+| `rcx` | `2` | longueur du tableau kickoff |
+
+```text
+(gdb) x/4gx $rdi
+# … qwords du buffer (stubs / immédats)
+(gdb) x/2gx $rdx
+# 0x000000070000000a  …  (= 10, 7 en u32)
+(gdb) continue
+# bannière → Password: → Correct! Well done!
+```
+
+`data_buffer` live = même contenu que le dump [`analysis/data_buffer`](analysis/data_buffer) (file off `0x5020`). Le code exécuté après compilation est dans des pages **mmap** RWX (blocs 64 B) — breakpoints utiles ensuite : `mmap`, ou le stub JIT @ `0x3210` (offset file) une fois la base connue.
+
+Hors GDB : `python3 tools/jittery-solve.py --check`.
+
+---
+
 ## 4. Vérification
 
 ```bash

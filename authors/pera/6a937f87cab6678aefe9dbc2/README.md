@@ -124,6 +124,26 @@ Version propre (noms / prédicats) : [`analysis/thisismebtw-clean.c`](analysis/t
 
 ---
 
+
+## Debug GDB (pas à pas)
+
+ELF64 **PIE** + SDL, non strippé. Entry file `0x1150`, `main` `0x1249`. Live : base typique `0x555555554000` → `main` `@0x555555555249`.
+
+```bash
+export DEBUGINFOD_URLS=
+gdb -nx -q ./original/thisismebtw
+(gdb) set debuginfod enabled off
+(gdb) break main
+(gdb) run
+(gdb) info proc mappings
+# part1 : hash (h^0x7FADBEEF)%0x26F5 == 42 → ach6
+# part2 : accum XOR username petik → aadp0
+```
+
+SDL / fenêtres : preuve UI hors GDB avec `xvfb-run -a` ; sous GDB, BP dans `main` après les checks texte.
+
+`solution_summary` : part1 `ach6` ; part2 `petik`→`aadp0`.
+
 ## 4. Vérification
 
 | Commande | v11 (haute) | v12 (basse) |

@@ -10,6 +10,8 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml) (id ↔ sha256).
 |---|---|---|---|---|
 | 1 | [TermBreaker](6a9950e9cab6678aefe9dc90/) | [`6a9950e9…`](https://crackmes.one/crackme/6a9950e9cab6678aefe9dc90) | Linux ELF64 Qt6 | code `TERMATUR` (Σ(i+1)·ord = 2856) |
 
+
+Section **Debug GDB** : ajoutée dans [`TermBreaker`](6a9950e9cab6678aefe9dc90/README.md).
 ## Arborescence d’un challenge
 
 ```

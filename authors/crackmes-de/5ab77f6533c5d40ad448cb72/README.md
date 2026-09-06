@@ -34,6 +34,46 @@ python3 tools/beatme-solve.py --check --user petik
 
 Keygen : `pwd[2+i] = user[i] + (L//2) + 1`.
 
+## Debug GDB (pas à pas)
+
+ELF32 **statique**, **strippé**, entry `0x8048080`. Deux `read` séparés + anti-debug `rdtsc`.
+
+```bash
+gdb -nx -q ./original/BeatMe
+(gdb) set debuginfod enabled off
+(gdb) starti
+(gdb) x/30i $eip
+```
+
+| Adresse | Rôle |
+|---|---|
+| `0x80480a5` | `read` username → `@0x80493ec` (max `0x14`) |
+| `0x80480b8` / `0x80480c1` | longueur ∈ (3, 10) ; `L = eax-1` `@0x804941e` |
+| `0x80480f9` | `read` password → `@0x804940a` |
+| `0x804812d` | `call` check `@0x80481e4` |
+| `0x80481f3` | `pwd[0]-'0' == L` |
+| `0x80481fc`…`0x8048224` | `rdtsc` ×2 ; écart > `0x3500` → `div 0` / `int3` |
+| `0x8048237` | `pwd[1] == username[2]` (`@0x80493ee`) |
+| `0x804823d` | decode ROT−1 sur `pwd[2:]` |
+| `0x804826c` | `repz cmpsb` vs username |
+| `0x804827e` | succès → bannière `CORRECT , YOU WIN` |
+
+```text
+(gdb) break *0x80481e4
+(gdb) break *0x804826c
+(gdb) run
+# 1ʳᵉ invite : petik
+# 2ᵉ invite : 5tshwln   (deux saisies distinctes — pas un seul pipe)
+(gdb) x/s 0x80493ec          # "petik"
+(gdb) x/s 0x804940a          # "5tshwln"
+(gdb) print/d *(unsigned char*)0x804941e   # L == 5
+(gdb) continue               # passe rdtsc si pas trop lent
+(gdb) # au cmpsb : ESI = pwd décodé, EDI = username
+(gdb) continue               # → CORRECT , YOU WIN
+```
+
+Sous GDB lent, le seuil `0x3500` peut fausser : rejouer, ou avancer au-delà de `0x8048224` après le 1ᵉʳ `rdtsc`.
+
 ## Notes
 
 - Bannières ASCII art décodées à la volée (`dec` sur chaque octet).

@@ -64,6 +64,36 @@ Les `C_i` sont des **constantes immédiates** (schedule clé+sum précalculé), 
 Pas de clé runtime : l’entrée utilisateur **est** le ciphertext.  
 Pour keygen : partir de `CSAW`/`HAHA` et **inverser** chaque half-round (`+=` au lieu de `-=`, ordre inverse) — c’est ce que fait le solveur en relisant les XOR via `objdump`.
 
+
+## Debug GDB (pas à pas)
+
+ELF32 **statique**, non strippé, pas de PIE. Entry / `_start` `@0x8048080`. Mapping : `0x08048000` r-xp.
+
+Symboles utiles : `decipher` `@0x8048214`, branche succès `_start.pass` `@0x8048103`, échec `@0x804810f`.
+
+```bash
+export DEBUGINFOD_URLS=
+gdb -nx -q ./original/chall
+(gdb) set debuginfod enabled off
+(gdb) break decipher
+(gdb) run 9B916917-B6117336
+# decipher @ 0x8048219
+(gdb) finish
+(gdb) break *0x8048103
+(gdb) continue
+# clé TEA-like OK → plaintext CSAWHAHA
+```
+
+Batch :
+
+```bash
+gdb -nx -batch -ex 'set debuginfod enabled off' \
+  -ex 'break *0x8048103' -ex 'run 9B916917-B6117336' \
+  -ex 'printf "pass=%p\n",$pc' -ex 'quit' ./original/chall
+```
+
+`solution_summary` : key `9B916917-B6117336` — TEA-like unrolled → `CSAWHAHA`.
+
 ## Vérification
 
 ```bash

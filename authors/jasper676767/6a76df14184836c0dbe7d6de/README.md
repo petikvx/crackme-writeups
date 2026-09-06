@@ -90,6 +90,28 @@ RkxBR3tJX0BtX0FfTWFTdDNSX1JhMWdlXzVhaTdlcn0=
 
 ---
 
+
+## Debug GDB (pas à pas)
+
+ELF d’origine **UPX** (pas de section headers) — préférer l’unpacké `analysis/redLights-unpacked` pour GDB.
+
+Unpacké : PIE, `main` file `0x2521` → live `@0x555555556531` (base `0x555555554000`, r-xp `@0x555555556000`), `curfew` file `0x2410`, `checkPass` `0x2349`.
+
+```bash
+export DEBUGINFOD_URLS=
+gdb -nx -q ./analysis/redLights-unpacked
+(gdb) set debuginfod enabled off
+(gdb) break main
+(gdb) break curfew
+(gdb) run
+# main = base+0x2521
+# curfew : OK si x == 0xceb433cd3bd85 (= 3636373736373637)
+```
+
+Sur le binaire packé : `starti` tombe dans le stub UPX (`entry 0x9e90`) — peu utile pour le prédicat.
+
+`solution_summary` : UPX ; acrostiche XOR→Base64→`FLAG{I_@m_A_MaSt3R_Ra1ge_5ai7er}`.
+
 ## 4. Vérification
 
 ```bash

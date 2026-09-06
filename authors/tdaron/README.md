@@ -10,6 +10,8 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml) (id ↔ sha256).
 |---|---|---|---|---|
 | 1 | [Use your brain](69d8fe40471059af19ad08ca/) | [`69d8fe40…`](https://crackmes.one/crackme/69d8fe40471059af19ad08ca) | Linux ELF64 | password `bruh wtf` (brainfuck→C) |
 
+
+Section **Debug GDB** : ajoutée dans [`a.out`](69d8fe40471059af19ad08ca/README.md).
 ## Arborescence d’un challenge
 
 ```

@@ -75,6 +75,29 @@ password = dottie80 ⊕ k1  ‖  dottie80 ⊕ k2
 
 ---
 
+
+## Debug GDB (pas à pas)
+
+ELF64 **statique** strippé, pas de PIE. Entry `0x401000` (`starti` → PC=`0x401000`). **Attention** : `read`/`write` fds sont swapés — un `run` interactif peut sembler bloqué ; préférer `starti` + examen statique ou redirections soigneuses.
+
+```bash
+export DEBUGINFOD_URLS=
+gdb -nx -batch -ex 'set debuginfod enabled off' -ex 'starti' \
+  -ex 'printf "PC=%p\n",$pc' -ex 'x/25i 0x401000' -ex 'quit' \
+  ./original/fl04t
+```
+
+Repères :
+
+| Adresse | Rôle |
+|---|---|
+| `0x401000` | entry / call setup |
+| `0x401005` / `0x40100f` | clés XOR 10+10 octets |
+| `0x401066` | `cmp byte [0x402000],0x14` (len) |
+| `0x4010c2` | check flag byte |
+
+`solution_summary` : `fr0m_fl04ts_1mp0rt_*` — dottie80 XOR keys ; fds swapped.
+
 ## 4. Vérification
 
 ```bash

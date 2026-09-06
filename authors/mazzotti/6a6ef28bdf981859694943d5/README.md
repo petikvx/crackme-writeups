@@ -72,6 +72,29 @@ Patch minimal : **`eb` → `74`** (`je` fail si `al==0`).
 
 ---
 
+
+## Debug GDB (pas à pas)
+
+ELF64 **PIE** strippé. Entry file `0x11b0`. Patch critique file **`0x1154`** : `eb 32` (jmp inconditionnel) → doit devenir **`74 32`** (`je`) après `test al,al` `@0x1152`.
+
+```bash
+export DEBUGINFOD_URLS=
+# sur une copie patchée (ne pas toucher original/) :
+cp original/getting_started_patchme /tmp/patchme
+python3 -c 'from pathlib import Path; p=Path("/tmp/patchme"); d=bytearray(p.read_bytes()); d[0x1154]=0x74; p.write_bytes(d)'
+gdb -nx -q /tmp/patchme
+(gdb) set debuginfod enabled off
+(gdb) starti
+(gdb) info proc mappings
+(gdb) break *(BASE+0x1154)   # BASE = début r-xp
+(gdb) run
+# serial 251949 → Good job patcher
+```
+
+Sur l’original non patché : BP `@BASE+0x1154` montre le `jmp` qui saute le message succès.
+
+`solution_summary` : patch `eb`→`je` `@0x1154` + serial `251949`.
+
 ## 4. Vérification
 
 ```bash

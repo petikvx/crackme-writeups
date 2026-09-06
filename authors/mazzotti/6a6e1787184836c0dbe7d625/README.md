@@ -62,6 +62,26 @@ passwords = ["MAZZ" * n for n in reps]
 
 ---
 
+
+## Debug GDB (pas à pas)
+
+ELF64 **PIE** strippé. Entry file `0x1510`. Live : r-xp `0x555555555000`, entry runtime `0x555555555510`.
+
+```bash
+export DEBUGINFOD_URLS=
+gdb -nx -q ./original/crackme
+(gdb) set debuginfod enabled off
+(gdb) starti
+(gdb) info proc mappings
+(gdb) break *0x555555555510    # BASE+0x1510 (ajuster ASLR)
+(gdb) continue
+# 6 prompts : MAZZ × {3,7,12,1,15,7}
+```
+
+Sans symboles : poser des BP sur les `cmp` / checks de longueur après chaque lecture.
+
+`solution_summary` : 6× `MAZZ` répété 3,7,12,1,15,7 fois.
+
 ## 4. Vérification
 
 ```bash

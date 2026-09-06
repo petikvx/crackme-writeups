@@ -67,6 +67,27 @@ Littéral de départ dans `.rodata` : `Awp2AmL3`.
 
 ---
 
+
+## Debug GDB (pas à pas)
+
+ELF64 **PIE** C++, non strippé. Entry file `0x34c0`, `main` `0x33f0`, `generate_reference` `0x39e0`, `verify_number` `0x3e90`.
+
+```bash
+export DEBUGINFOD_URLS=
+gdb -nx -q ./original/myFirstCrackme
+(gdb) set debuginfod enabled off
+(gdb) break generate_reference
+(gdb) run
+(gdb) finish
+(gdb) print $rax
+# → 6968271 (0x6a53cf)
+(gdb) break verify_number
+```
+
+Offsets PIE : ajouter la base (`info proc mappings`, zone r-xp du binaire).
+
+`solution_summary` : activation `6968271` (=generate_reference) ; FLAG forgetting/password….
+
 ## 4. Vérification
 
 ```bash

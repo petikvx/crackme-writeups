@@ -97,6 +97,36 @@ Les 16 positions sont indépendantes → keygen = tirer 16 fois dans `{2,5,7,D,F
 
 ---
 
+
+## Debug GDB (pas à pas)
+
+ELF64 **statique** strippé, pas de PIE. Entry `0x4001c4`. Mapping : `0x400000` r-xp / `0x600000` rw.
+
+Points durs (objdump + live) :
+
+| Adresse | Rôle |
+|---|---|
+| `0x4001c4` | entry / dispatch |
+| `0x400169` | `test al,1` (nibble pair/impair) |
+| `0x400180` / `0x400197` | `cmp eax,0x1998` |
+| `0x400226` | call vérif nibble (live BP OK) |
+
+```bash
+export DEBUGINFOD_URLS=
+gdb -nx -q ./original/small-crackme/little-crackme
+(gdb) set debuginfod enabled off
+(gdb) break *0x400226
+(gdb) run <<< 2222222222222222
+# PC=0x400226
+(gdb) stepi
+(gdb) break *0x400180
+(gdb) continue
+```
+
+Charset live : nibbles ∈ `{2,5,7,D,F}` ; ex. tout `2` passe.
+
+`solution_summary` : serial 16 hex ∈ `{2,5,7,D,F}` (ex. `2222222222222222`).
+
 ## 4. Vérification
 
 ```bash

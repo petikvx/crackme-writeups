@@ -62,6 +62,28 @@ LL BB - HHHHHHHHHHHHHHHH   (sans espaces ; LL/BB hex majuscules)
 
 ---
 
+
+## Debug GDB (pas à pas)
+
+ELF64 **PIE**, non strippé. Entry file `0x1240`. Live : base `0x555555554000`, `main` → `0x555555555130`, `vmstart` → `0x5555555557f0`, `goodboy` file `0x17e0`.
+
+```bash
+export DEBUGINFOD_URLS=
+gdb -nx -q ./original/virtual.1
+(gdb) set debuginfod enabled off
+(gdb) break main
+(gdb) break vmstart
+(gdb) break goodboy
+(gdb) run < <(printf '1\npetik\n0514-1628AED2A7B93BA1\n0\n')
+# PC main = base+0x1130 ; puis vmstart = base+0x17f0
+(gdb) info proc mappings
+(gdb) disassemble vmstart
+```
+
+Offsets fichier : `main 0x1130`, `vmstart 0x17f0`, `goodboy 0x17e0`, bytecode mentionné `@0x4108` dans le write-up.
+
+`solution_summary` : `petik`→`0514-1628AED2A7B93BA1` (VM len+popcount+rol/xor).
+
 ## 4. Vérification
 
 ```bash

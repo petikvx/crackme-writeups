@@ -14,3 +14,23 @@ ELF64 PIE, `strcmp` en clair. Question : pejuang kemerdekaan Sarawak → **Renta
 printf '3108{r3nt4p}\n' | ./original/perwira
 # That is correct!
 ```
+
+## Debug GDB (pas à pas)
+
+ELF64 **PIE**, non strippé. `main` file `0x119d` → live `@0x5555555551a5`, `getPass` `@0x555555555169` (base `0x555555554000`).
+
+```bash
+export DEBUGINFOD_URLS=
+printf '3108{r3nt4p}\n' > /tmp/ximxn.in
+gdb -nx -q ./original/perwira
+(gdb) set debuginfod enabled off
+(gdb) start < /tmp/ximxn.in
+# main @ base+0x119d
+(gdb) disassemble main
+(gdb) break getPass
+(gdb) continue
+# strcmp attendu 3108{r3nt4p} → "That is correct!"
+```
+
+`solution_summary` : `3108{r3nt4p}` (Rentap).
+

@@ -6,6 +6,8 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml).
 
 Série **rezk2ll** (NASM) importée depuis crackmes.de.
 
+Sections **Debug GDB (pas à pas)** : rezk2ll (`CrackMe_ASM`, `BeatMe`, `KeygenmeNasm`, `f1nd_my_k3y5`) et josamont (`j333`…`j666`, PTY/`read` fd1).
+
 ## Progression
 
 | # | Titre | ID | Plateforme | Solution |
