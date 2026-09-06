@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 68692679aadb6eeafb398fdf
+
+urls:
+  page: https://crackmes.one/crackme/68692679aadb6eeafb398fdf
+  download: https://crackmes.one/download/crackme/68692679aadb6eeafb398fdf
+
+title: "toasterbirb's branchless branching"
+author_on_site: "toasterbirb"
+author_local: "toasterbirb"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "Assembler (NASM)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: branchless-branching
+
+binary:
+  path: "original/branchless"
+  name: "branchless"
+  sha256: "bb95b3b12705e0a36b6500a1be2a2dda6f5c9b77ffea26678259a36c6a211069"
+  md5: "aff5dc1459fdc3a44eb0f182fd74c45a"
+  size_bytes: 8664
+
+status: solved
+solution_summary: "petik→rn%5ielsrArvz\"\"\" (S-box, pass=out+1)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T13:52:07Z"
