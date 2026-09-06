@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6883d23c8fac2855fe6fb09e
+
+urls:
+  page: https://crackmes.one/crackme/6883d23c8fac2855fe6fb09e
+  download: https://crackmes.one/download/crackme/6883d23c8fac2855fe6fb09e
+
+title: "Sallos's EscapeFromMatrix"
+author_on_site: "Sallos"
+author_local: "sallos"
+
+platform: "Windows"
+arch: "x86"
+language: "MASM32"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: escape-from-matrix
+
+binary:
+  path: "original/escapematrix.exe"
+  name: "escapematrix.exe"
+  sha256: "faa6a550b98dd15b81cd0bfe5bf9b9e545ac6a2c791f07bba97ba7c7b4d87425"
+  md5: "721963c3a5c01f3433ea1c0f6ccc0e33"
+  size_bytes: 5120
+
+status: solved
+solution_summary: "password « Your mind makes it real » (23) — 5×DWORD XOR 0x13228F73 + len==23 → MessageBox Welcome to the real world (decoy easy/truth si ≠0)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T15:22:37Z"

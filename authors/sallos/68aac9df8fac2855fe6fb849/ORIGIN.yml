@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 68aac9df8fac2855fe6fb849
+
+urls:
+  page: https://crackmes.one/crackme/68aac9df8fac2855fe6fb849
+  download: https://crackmes.one/download/crackme/68aac9df8fac2855fe6fb849
+
+title: "Sallos's Key License"
+author_on_site: "Sallos"
+author_local: "sallos"
+
+platform: "Windows"
+arch: "x86"
+language: "MASM32"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: key-license
+
+binary:
+  path: "original/keylicense.exe"
+  name: "keylicense.exe"
+  sha256: "379d360896d7130b957676ba84971249001bcfc1169a0e7819c33df6faf401d5"
+  md5: "3e8098f694e0e69f9e87852f8d61f3d3"
+  size_bytes: 5632
+
+status: solved
+solution_summary: "dialog=SAM user (petik) + key.license 19B prefix%2,3,5,8 (0020-0000-0000-0000); Success!"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T15:22:35Z"

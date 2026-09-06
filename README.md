@@ -190,6 +190,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [weissi1994](authors/weissi1994/README.md) | weissi1994 | 1 (crackme-not) | 1 / 1 |
 | [2bitsin](authors/2bitsin/README.md) | 2bitsin | 1 (Secret message from a traveller) | 1 / 1 |
 | [fentcat](authors/fentcat/README.md) | FentCat | 1 (Assembler Crackme) | 1 / 1 |
+| [sallos](authors/sallos/README.md) | Sallos | 2 (Key License + EscapeFromMatrix) | 2 / 2 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -210,6 +211,8 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-06 | [EscapeFromMatrix](authors/sallos/6883d23c8fac2855fe6fb09e/) | Sallos |
+| 2026-09-06 | [Sallos's Key License](authors/sallos/68aac9df8fac2855fe6fb849/) | sallos |
 | 2026-09-06 | [Assembler Crackme](authors/fentcat/68fce1922d267f28f69b783a/) | fentcat |
 | 2026-09-06 | [Secret message from a traveller](authors/2bitsin/650c14b528b5870bef26308d/) | 2bitsin |
 | 2026-09-06 | [cropta_1](authors/crackmes-de/5ab77f5f33c5d40ad448c7e1/) | crackmes.de / cropta |

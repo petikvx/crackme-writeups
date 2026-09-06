@@ -1,0 +1,21 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  68aac9df8fac2855fe6fb849:
+    sha256: "379d360896d7130b957676ba84971249001bcfc1169a0e7819c33df6faf401d5"
+    path: "authors/sallos/68aac9df8fac2855fe6fb849/original/keylicense.exe"
+    title: "Sallos's Key License"
+
+  6883d23c8fac2855fe6fb09e:
+    sha256: "faa6a550b98dd15b81cd0bfe5bf9b9e545ac6a2c791f07bba97ba7c7b4d87425"
+    path: "authors/sallos/6883d23c8fac2855fe6fb09e/original/escapematrix.exe"
+    title: "Sallos's EscapeFromMatrix"
+
+by_sha256:
+  379d360896d7130b957676ba84971249001bcfc1169a0e7819c33df6faf401d5:
+    id: 68aac9df8fac2855fe6fb849
+    path: "authors/sallos/68aac9df8fac2855fe6fb849/original/keylicense.exe"
+    page: https://crackmes.one/crackme/68aac9df8fac2855fe6fb849
+  faa6a550b98dd15b81cd0bfe5bf9b9e545ac6a2c791f07bba97ba7c7b4d87425:
+    id: 6883d23c8fac2855fe6fb09e
+    path: "authors/sallos/6883d23c8fac2855fe6fb09e/original/escapematrix.exe"
+    page: https://crackmes.one/crackme/6883d23c8fac2855fe6fb09e
