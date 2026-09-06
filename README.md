@@ -157,7 +157,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [ray33ee](authors/ray33ee/README.md) | ray33ee | 1 (x or and add) | 1 / 1 |
 | [muhemed](authors/muhemed/README.md) | muhemed | 1 (muhemed crackme) | 1 / 1 |
 | [soulreaper](authors/soulreaper/README.md) | soulreaper | 3 (Dead Terminal + XorGate + Death Trap) | 2 / 3 *(1 parked)* |
-| [toasterbirb](authors/toasterbirb/README.md) | toasterbirb | 1 (yap) | 1 / 1 |
+| [toasterbirb](authors/toasterbirb/README.md) | toasterbirb | 2 (yap + flags) | 2 / 2 |
 | [jasper676767](authors/jasper676767/README.md) | Jasper676767 | 2 (Red light + forgot password) | 2 / 2 |
 | [pitou](authors/pitou/README.md) | pitou | 1 (Evaisve) | 1 / 1 |
 | [fatih](authors/fatih/README.md) | Fatih | 1 (S-BOX) | 1 / 1 |
@@ -192,6 +192,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-06 | [flags](authors/toasterbirb/686918c6aadb6eeafb398fbd/) | toasterbirb |
 | 2026-09-06 | [TermBreaker](authors/shadowlegion/6a9950e9cab6678aefe9dc90/) | ShadowLegion |
 | 2026-09-03 | [stigger](authors/crackmes-de/5ab77f6133c5d40ad448c8f5/) | crackmes.de / stigger |
 | 2026-09-03 | [protreebrains_crackme_1](authors/crackmes-de/5ab77f6133c5d40ad448c915/) | crackmes.de / protreebrain |

@@ -5,8 +5,17 @@ by_id:
     path: "authors/toasterbirb/6a77541805a9e80a907242fe/original/yap.zip"
     title: "toasterbirb's yap"
 
+  686918c6aadb6eeafb398fbd:
+    sha256: "97d2b331ad925cdf8f55e6b1720c91ab4d3a6187adc55bd94c88dd4c0d890274"
+    path: "authors/toasterbirb/686918c6aadb6eeafb398fbd/original/flags"
+    title: "toasterbirb's flags"
+
 by_sha256:
   4420c47f5c1ddaf46b9add156e6badc6ff66af3b0ea38a7c714b6e0d6acf1d82:
     id: 6a77541805a9e80a907242fe
     path: "authors/toasterbirb/6a77541805a9e80a907242fe/original/yap.zip"
     page: https://crackmes.one/crackme/6a77541805a9e80a907242fe
+  97d2b331ad925cdf8f55e6b1720c91ab4d3a6187adc55bd94c88dd4c0d890274:
+    id: 686918c6aadb6eeafb398fbd
+    path: "authors/toasterbirb/686918c6aadb6eeafb398fbd/original/flags"
+    page: https://crackmes.one/crackme/686918c6aadb6eeafb398fbd

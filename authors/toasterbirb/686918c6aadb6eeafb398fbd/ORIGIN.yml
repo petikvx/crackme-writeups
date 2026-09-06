@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 686918c6aadb6eeafb398fbd
+
+urls:
+  page: https://crackmes.one/crackme/686918c6aadb6eeafb398fbd
+  download: https://crackmes.one/download/crackme/686918c6aadb6eeafb398fbd
+
+title: "toasterbirb's flags"
+author_on_site: "toasterbirb"
+author_local: "toasterbirb"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "Assembler (NASM)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: flags
+
+binary:
+  path: "original/flags"
+  name: "flags"
+  sha256: "97d2b331ad925cdf8f55e6b1720c91ab4d3a6187adc55bd94c88dd4c0d890274"
+  md5: "7d70bb597d1edef379b5f916e03f26aa"
+  size_bytes: 8688
+
+status: solved
+solution_summary: "5 bytes with bits 1..5 set ; ex. 24800 (ZF stay set)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T13:42:38Z"
