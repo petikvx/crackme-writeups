@@ -366,6 +366,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f6533c5d40ad448cbc0/original/crackme.03.32.tar.gz"
     title: "crackmes.de's crackme.03.32 by geyslan"
 
+  5ab77f5633c5d40ad448c27b:
+    sha256: "51050a6accc32ea6595105d00847df3092292313e427900571ffdf9d3221399f"
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c27b/original/crackme.gz"
+    title: "crackmes.de's crackme_1_by_huskyhusky by huskyhusky"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -671,3 +676,7 @@ by_sha256:
     id: 5ab77f6533c5d40ad448cbc0
     path: "authors/crackmes-de/5ab77f6533c5d40ad448cbc0/original/crackme.03.32.tar.gz"
     page: https://crackmes.one/crackme/5ab77f6533c5d40ad448cbc0
+  51050a6accc32ea6595105d00847df3092292313e427900571ffdf9d3221399f:
+    id: 5ab77f5633c5d40ad448c27b
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c27b/original/crackme.gz"
+    page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c27b

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c27b
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c27b
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c27b
+
+title: "crackmes.de's crackme_1_by_huskyhusky by huskyhusky"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme.gz"
+  name: "crackme.gz"
+  sha256: "51050a6accc32ea6595105d00847df3092292313e427900571ffdf9d3221399f"
+  md5: "7ccd68ed3baa4a748c0daf769c6b8b9c"
+  size_bytes: 1256
+
+status: solved
+solution_summary: "mini-VM ; password 22 chars sum(c_i*w_i)==75238 (w=buggy almost-primes) → uoiaefdcgkbhqrywsvtxpz"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T14:58:34Z"

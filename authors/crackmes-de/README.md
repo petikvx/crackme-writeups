@@ -85,6 +85,7 @@ Série **rezk2ll** (NASM) importée depuis crackmes.de.
 | 56 | [fishing_with_dila_v0.1](5ab77f6433c5d40ad448cab0/) | dila | Win PE32 GUI | code **`666`** |
 
 | 71 | [crackme.03.32](5ab77f6533c5d40ad448cbc0/) | geyslan | Linux ELF32 tiny | patch → **`Omedetou`** |
+| 72 | [crackme_1_by_huskyhusky](5ab77f5633c5d40ad448c27b/) | huskyhusky | Linux ELF64 VM | password **`uoiaefdcgkbhqrywsvtxpz`** |
 
 ## Mis de côté (PARKED — y revenir)
 

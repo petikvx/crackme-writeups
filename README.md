@@ -145,7 +145,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [oguzbey](authors/oguzbey/README.md) | oguzbey | 1 (Lucky Numbers) | 1 / 1 |
 | [andrewl](authors/andrewl/README.md) | andrewl | 1 (Quick Crypto) | 1 / 1 |
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
-| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 64 / 73 |
+| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 65 / 73 |
 | [chaltu](authors/chaltu/README.md) | chaltu | 2 (a Treasure + Double Door) | 2 / 2 |
 | [qerr0r](authors/qerr0r/README.md) | QERR0R | 1 (crackit) | 1 / 1 |
 | [steve_maxwell](authors/steve_maxwell/README.md) | steve_maxwell | 1 (X-0-R) | 1 / 1 |
@@ -208,6 +208,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-06 | [crackme_1_by_huskyhusky](authors/crackmes-de/5ab77f5633c5d40ad448c27b/) | crackmes.de / huskyhusky |
 | 2026-09-06 | [hell86](authors/ttlhacker/5bc0fe0033c5d4110a29b296/) | ttlhacker |
 | 2026-09-06 | [jittery](authors/ttlhacker/5c44f1bb33c5d475210bc634/) | ttlhacker |
 | 2026-09-06 | [crackme.03.32](authors/crackmes-de/5ab77f6533c5d40ad448cbc0/) | crackmes.de / geyslan |
