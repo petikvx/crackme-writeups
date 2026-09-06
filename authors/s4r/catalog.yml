@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  64f1f7dbd931496abf90952d:
+    sha256: "f17318419da1c0815cf4bf3e4c2b94be99eacdd079b5035ef76c4495f666aed3"
+    path: "authors/s4r/64f1f7dbd931496abf90952d/original/encrypted_box"
+    title: "s4r's encrypted_box"
+
+by_sha256:
+  f17318419da1c0815cf4bf3e4c2b94be99eacdd079b5035ef76c4495f666aed3:
+    id: 64f1f7dbd931496abf90952d
+    path: "authors/s4r/64f1f7dbd931496abf90952d/original/encrypted_box"
+    page: https://crackmes.one/crackme/64f1f7dbd931496abf90952d

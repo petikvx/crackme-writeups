@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 64f1f7dbd931496abf90952d
+
+urls:
+  page: https://crackmes.one/crackme/64f1f7dbd931496abf90952d
+  download: https://crackmes.one/download/crackme/64f1f7dbd931496abf90952d
+
+title: "s4r's encrypted_box"
+author_on_site: "s4r"
+author_local: "s4r"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "Assembler (AES-NI)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: encrypted-box
+
+binary:
+  path: "original/encrypted_box"
+  name: "encrypted_box"
+  sha256: "f17318419da1c0815cf4bf3e4c2b94be99eacdd079b5035ef76c4495f666aed3"
+  md5: "3691486f3ccb5e3e673ff2901432221f"
+  size_bytes: 421480
+
+status: solved
+solution_summary: "BRB{as_deep_as_OceanGate} ; multi-stage AES-NI password blob"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T14:08:18Z"
