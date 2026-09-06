@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 65a81968eef082e477ff5d10
+
+urls:
+  page: https://crackmes.one/crackme/65a81968eef082e477ff5d10
+  download: https://crackmes.one/download/crackme/65a81968eef082e477ff5d10
+
+title: "5iriu5's SSE Login"
+author_on_site: "5iriu5"
+author_local: "5iriu5"
+
+platform: "Linux"
+arch: "x86-64"
+language: "Assembler (NASM + SSE2)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: sse-login
+
+binary:
+  path: "original/ssepwd.zip"
+  name: "ssepwd.zip"
+  sha256: "1051ebc131c963f5774f028d36bd50b8c68c5bbfc64490ca0ef05273b0d3b17f"
+  md5: "f4a539a070c9112022f5cb056be20990"
+  size_bytes: 2849
+
+status: solved
+solution_summary: "plague / god (SSE paddb unwrap)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T14:04:26Z"

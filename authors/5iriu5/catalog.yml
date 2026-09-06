@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  65a81968eef082e477ff5d10:
+    sha256: "1051ebc131c963f5774f028d36bd50b8c68c5bbfc64490ca0ef05273b0d3b17f"
+    path: "authors/5iriu5/65a81968eef082e477ff5d10/original/ssepwd.zip"
+    title: "5iriu5's SSE Login"
+
+by_sha256:
+  1051ebc131c963f5774f028d36bd50b8c68c5bbfc64490ca0ef05273b0d3b17f:
+    id: 65a81968eef082e477ff5d10
+    path: "authors/5iriu5/65a81968eef082e477ff5d10/original/ssepwd.zip"
+    page: https://crackmes.one/crackme/65a81968eef082e477ff5d10
