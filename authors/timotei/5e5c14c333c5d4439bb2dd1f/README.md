@@ -376,6 +376,75 @@ Donc `+HCU` n’est pas « un » mot de passe parmi d’autres : c’est le seul
 
 ---
 
+## Debug GDB (pas à pas)
+
+Binaire **non strippé** → les labels (`_start`, `go_on`, `nextbyte`, `goodway`, `out`) sont utilisables directement. Pas de PIE.
+
+### Lancer
+
+```bash
+gdb -q ./original/timotei-crackme-01
+(gdb) info functions
+(gdb) break _start
+(gdb) run
+# ou, pour un run non interactif :
+(gdb) run < <(printf '777\n+HCU\n')
+```
+
+Astuce pipe : le 1er `write` n’a **pas** de `\n`. Envoyer PIN et `+HCU` en **deux lignes** (`printf '777\n+HCU\n'`), sinon le 1er `read(10)` avale les deux d’un coup.
+
+### Check PIN (jusqu’à `go_on`)
+
+| Adresse / label | Rôle |
+|---|---|
+| `0x40105d` | strlen sur `buffer` `@0x4020e8` |
+| `0x40108a` | boucle `acc += buf[i]` (seed `0x539`) |
+| `0x4010a1` | `div ecx` (`ecx=17`) → reste dans `dl` |
+| `0x4010ab` | `test dl, dl` après `sub dl, al` |
+| `go_on` (`0x4010b4`) | PIN OK → 2ᵉ prompt |
+
+```text
+(gdb) break *0x4010ab
+(gdb) run < <(printf '777\n+HCU\n')
+(gdb) print/x $rax & 0xff     # 1er char PIN ('7')
+(gdb) print/x $rdx & 0xff     # doit être 0 si OK
+(gdb) x/4cb 0x4020e8          # '7''7''7''\n'
+(gdb) break go_on
+(gdb) continue
+```
+
+Avec un mauvais PIN, `test dl` échoue → `jmp out` (`0x401158`) : **exit 0 silencieux** (pas de message d’erreur).
+
+### Check FNV-1 (`+HCU`)
+
+| Adresse / label | Rôle |
+|---|---|
+| `nextbyte` (`0x40112c`) | `mul` prime + `xor` octet |
+| `0x401139` | `cmp eax, 0x86CFDCF8` |
+| `goodway` (`0x401147`) | write du succès |
+
+```text
+(gdb) break *0x401139
+(gdb) continue
+(gdb) print/x $eax            # 0x86cfdcf8 si +HCU
+(gdb) break goodway
+(gdb) continue
+(gdb) x/s 0x4020b9            # ".:Good, that's all…"
+```
+
+Pour **retrouver** `+HCU` sans le spoiler : breaker sur `0x401139`, tester des candidats 4 chars, lire `$eax` jusqu’au match cible.
+
+### Symbols utiles
+
+```text
+(gdb) break go_on
+(gdb) break goodway
+(gdb) break out
+(gdb) disassemble nextbyte
+```
+
+---
+
 ## 5. Vérification sur le binaire
 
 ```

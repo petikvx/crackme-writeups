@@ -82,7 +82,70 @@ Le reste des octets (et le `\n`) est libre tant que `read` fournit au moins 4 by
 
 ---
 
-## 4. Vérification
+## 4. Debug GDB (pas à pas)
+
+Static / stripped, entry `0x40100e`. La pile est **rebâtir** dans `.text` : GDB reste utilisable, mais `bt` / frames classiques sont trompeurs — raisonner en `x/i $rip` + `x/gx $rsp`.
+
+### 4.1 Entrée : RSP factice
+
+```bash
+gdb -q ./original/jump
+(gdb) starti
+(gdb) x/5i $rip
+# movabs rsp, 0x401365
+# jmp  …
+(gdb) stepi
+(gdb) print/x $rsp    # 0x401365
+(gdb) x/8gx $rsp      # « stack » = table de ret-addr / gadgets
+```
+
+### 4.2 Laisser dérouler jusqu’au `read`, puis jusqu’au jump
+
+```text
+(gdb) break *0x40114c      # add rax, 0x40114c ; jmp rax
+(gdb) run < <(printf 'just\n')
+(gdb) print/x $rax         # 0x74  (== 't') après la chaîne and/shr
+(gdb) stepi                # add rax, 0x40114c → rax = 0x4011c0
+(gdb) print/x $rax
+(gdb) stepi                # jmp *rax
+(gdb) print/x $rip         # 0x4011c0 = succès
+```
+
+Si tu mets un autre 4ᵉ caractère, ex. `jusa` (`'a'=0x61`) :
+
+```text
+(gdb) run < <(printf 'jusa\n')
+(gdb) print/x $rax         # 0x61
+(gdb) stepi ; stepi
+(gdb) print/x $rip         # 0x40114c+0x61 = dans le champ d’ud2
+# → SIGILL (ud2) ou comportement pourri
+```
+
+### 4.3 Remonter la gadget chain (optionnel)
+
+Avant `0x40114c`, les `ret` successifs font :
+
+| Étape (idée) | Effet sur `rax` |
+|---|---|
+| load `[buf]` | 8 premiers octets LE |
+| `and rax, 0xff000000` | isole `input[3]` en bits 24..31 |
+| `shr rax, 24` puis `and 0xff` | `rax = input[3]` |
+| `add rax, 0x40114c ; jmp rax` | atterrissage |
+
+Tu peux `break` sur chaque gadget listé dans le flow (`0x40133c`, `0x401007`, …) et `print/x $rax` entre chaque `ret`.
+
+### 4.4 Minefield
+
+```text
+(gdb) x/20i 0x401154
+# ud2 ud2 ud2 …
+(gdb) x/5i 0x4011c0
+# chemin messages de victoire
+```
+
+---
+
+## 5. Vérification
 
 ```bash
 printf 'just\n' | ./original/jump
@@ -91,7 +154,7 @@ printf 'just\n' | ./original/jump
 
 ---
 
-## 5. Notes
+## 6. Notes
 
 - Pile dans le binaire + gadgets `and`/`shr` : joli gadget chain pédagogique.
 - Suite toasterbirb asm : `branchless-fixed`.

@@ -244,6 +244,68 @@ Décoder le `.text` à partir de chaque offset possible (ndisasm) ne sort aucun 
 
 ---
 
+## Debug GDB (pas à pas)
+
+Strippé, static, pas de PIE. Input = **`argv[1]`** uniquement (pas de `read`).
+
+### Lancer et voir le pack ROL8
+
+```bash
+gdb -q ./original/timotei-crackme-02
+(gdb) starti 31337!!P
+(gdb) x/20i $rip
+```
+
+| Adresse | Rôle |
+|---|---|
+| `0x401000` | `cmp byte [rsp], 2` — sinon `exit` silencieux |
+| `0x401028` | boucle `mov bl / rol rbx, 8` |
+| `0x401035` | `add rbx, 0xAFDC` |
+| `0x40103f` | `movabs rax, 0x40103F` (ancre) |
+| `0x40104c` | `jmp rax` |
+| `0x40104e` | `goodway` — write succès |
+
+```text
+(gdb) break *0x401035
+(gdb) run 31337!!P
+(gdb) print/x $rbx            # après pack, avant +0xAFDC : …5033
+(gdb) stepi                   # add rbx, 0xAFDC
+(gdb) print/x $rbx
+(gdb) print/x $rdi & 0xffff   # di doit être 0x0F pour le succès
+```
+
+### Le jump calculé
+
+```text
+(gdb) break *0x40104c
+(gdb) run 31337!!P
+(gdb) print/x $rdi            # 0xf
+(gdb) print/x $rax            # 0x40103f + 0xf = 0x40104e
+(gdb) stepi
+(gdb) print/x $rip            # 0x40104e → goodway
+```
+
+Contre-exemple (SIGSEGV) :
+
+```text
+(gdb) run 1337
+(gdb) # au jmp : rax hors page RX → SIGSEGV
+(gdb) info registers rax rdi
+```
+
+### Dériver la contrainte sous GDB
+
+1. Breaker en `0x401035`, essayer des passwords len≥8.
+2. Noter `bx` après le pack : il faut `(pack + 0xAFDC) & 0xFFFF == 0x000F` ⇒ `pack & 0xFFFF == 0x5033`.
+3. Observer que l’octet bas est `s[-8]` et l’octet suivant `s[-1]` → `'3'` et `'P'`.
+
+```text
+(gdb) run 3AAAAAAP
+(gdb) # même atterrissage 0x40104e
+```
+
+---
+
 ## 5. Vérification sur le binaire
 
 ```

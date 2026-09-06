@@ -220,6 +220,65 @@ Le cadre clignotant est uniquement cosmétique. Les `write` `int 0x80` de 4 / 7 
 
 ---
 
+## Debug GDB (pas à pas)
+
+Strippé, static. Mix `int 0x80` (UI ANSI) + `syscall` x64 (`read` / gros `write`). GDB gère les deux sans souci.
+
+### Passer l’UI jusqu’au `read`
+
+```bash
+printf 'Defeat COVID!\n' > /tmp/t3.in
+gdb -q ./original/timotei-crackme-03
+(gdb) break *0x40111a          # syscall read
+(gdb) run < /tmp/t3.in
+(gdb) stepi                    # après le read
+(gdb) x/s 0x4020EC             # buffer BSS
+```
+
+Sans `\n` dans l’input, la boucle `add` ne s’arrête pas → **hang** (ce n’est pas un anti-debug).
+
+### Extraire la clé `buf[12]`
+
+| Adresse | Rôle |
+|---|---|
+| `0x401123` | `mov dl, [ecx+0xC]` |
+| `0x401127` | `sub dl, 0x30` → clé |
+| `0x40112a` | boucle `add [ecx], dl` jusqu’au `\n` |
+| `0x401148` | `repz cmpsb` vs `secret` `@0x402026` |
+| `0x40114a` | `test ecx, ecx` / `jne out` |
+| `0x40114e` | succès |
+
+```text
+(gdb) break *0x401123
+(gdb) run < /tmp/t3.in
+(gdb) print/x *(unsigned char*)(0x4020EC + 0xc)   # '!' = 0x21
+(gdb) stepi ; stepi
+(gdb) print/d (signed char)$dl                    # clé = -15
+```
+
+### Voir le buffer transformé puis le `cmpsb`
+
+```text
+(gdb) break *0x401139          # début compare
+(gdb) continue
+(gdb) x/14xb 0x4020EC          # doit matcher secret
+(gdb) x/14xb 0x402026
+(gdb) break *0x40114a
+(gdb) continue
+(gdb) print $ecx               # 0 → succès (même si mismatch inoffensif sur le 14e)
+```
+
+Astuce hint mort : `x/s 0x402019` → `"Defeat COVID"` (sans `!`). Le check impose `buf[12]=='!'` pour que la clé marche.
+
+### Contre-exemple
+
+```text
+(gdb) run < <(printf 'Defeat COVID\n')
+# au break 0x401123 : buf[12]=='\n' → clé pourrie → cmpsb fail → exit silencieux
+```
+
+---
+
 ## 5. Vérification sur le binaire
 
 ```

@@ -23,6 +23,8 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml) (id ↔ sha256).
 | 11 | [timotei crackme#11 1K-Edition :-)](64d93015b25df8732eebc87c/) | [`64d93015…`](https://crackmes.one/crackme/64d93015b25df8732eebc87c) | Windows | argv t62O3668101526 → MessageBox Good Work |
 | 12 | [timotei crackme#12](64e275ead931496abf908ff7/) | [`64e275ea…`](https://crackmes.one/crackme/64e275ead931496abf908ff7) | Windows | serial amiable n1-n2 (ex. 220-284) |
 
+Les ELF **#01–#04** ont une section **Debug GDB (pas à pas)** dans leur `README.md` (breakpoints, registres, pièges). Les #05–#12 sont Windows (Wine / x64dbg plutôt que GDB).
+
 ## Arborescence d’un challenge
 
 ```

@@ -183,6 +183,61 @@ Même inversion que le #01 : on énumère 3 octets imprimables, on calcule le 4�
 
 ---
 
+## Debug GDB (pas à pas)
+
+Strippé, static. **Sans GDB (ou patch), le check ne tourne jamais** : l’EP est un `push out / ret`.
+
+### Contourner le leurre
+
+```bash
+gdb -q ./original/timotei-crackme-04
+(gdb) break *0x401000
+(gdb) run +ORC
+(gdb) x/5i $rip
+# nop ; push 0x401069 ; ret
+(gdb) set $pc = 0x401007      # vrai start
+(gdb) x/10i $pc               # cmp byte [rsp], 2 …
+```
+
+Équivalents hors GDB (copie, pas `original/`) : patch `e_entry` → `0x401007`, ou NOP des 7 octets `90 68 69 10 40 00 C3` (voir solveur §6).
+
+### Suivre le FNV-1
+
+| Adresse | Rôle |
+|---|---|
+| `0x401007` | `real_start` — `argc == 2` |
+| `0x40101f` | longueur exacte 4 |
+| `0x40103a` | boucle FNV-1 (`mul` + `xor`) |
+| `0x401047` | `cmp eax, 0x6FCD79A2` |
+| `0x40104e` | write `_.:solved:._` |
+| `0x401069` | `out` / `exit(0)` |
+
+```text
+(gdb) break *0x401047
+(gdb) continue                 # depuis $pc=0x401007, argv déjà OK
+(gdb) print/x $eax             # 0x6fcd79a2 pour +ORC
+(gdb) stepi                    # cmp
+(gdb) break *0x40104e
+(gdb) continue
+(gdb) x/s 0x402019
+```
+
+### Session minimale « spoiler-free »
+
+```text
+(gdb) break *0x401000
+(gdb) run AAAA
+(gdb) set $pc=0x401007
+(gdb) break *0x401047
+(gdb) continue
+(gdb) print/x $eax             # hash de "AAAA"
+# itérer des candidats 4 chars (ou le solveur) jusqu’à 0x6fcd79a2
+```
+
+Sans le `set $pc`, `run +ORC` seul → hit EP puis `exit` immédiat : **même symptôme** qu’un mauvais hash.
+
+---
+
 ## 5. Vérification sur le binaire
 
 Sans patch :

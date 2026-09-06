@@ -69,7 +69,69 @@ Fib ∩ premiers (à partir de 2) : 2, 3, 5, 13, 89, …
 
 ---
 
-## 4. Vérification
+## 4. Debug GDB (pas à pas)
+
+Même contrainte d’en-tête ELF que le sibling : GDB refuse souvent `original/branchless` tant que `e_shoff` / `e_shstrndx` sont incohérents avec `e_shnum=0`.
+
+### 4.1 Copie patchée pour GDB
+
+```bash
+cp original/branchless /tmp/branchless-fixed.gdb
+python3 - <<'PY'
+from pathlib import Path
+import struct
+b = bytearray(Path('/tmp/branchless-fixed.gdb').read_bytes())
+struct.pack_into('<Q', b, 0x28, 0)
+struct.pack_into('<H', b, 0x3a, 0)
+struct.pack_into('<H', b, 0x3c, 0)
+struct.pack_into('<H', b, 0x3e, 0)
+Path('/tmp/branchless-fixed.gdb').write_bytes(b)
+PY
+gdb -q /tmp/branchless-fixed.gdb
+```
+
+Preuve live toujours sur **`./original/branchless`**.
+
+### 4.2 Diff live : `idiv rcx` vs `idiv rax`
+
+```text
+(gdb) starti 5$
+(gdb) break *0x40123c
+(gdb) continue
+(gdb) x/6i 0x401237
+```
+
+```text
+mov  eax, edi
+xor  rdx, rdx
+idiv rcx          ; ← FIXED (diviseur dans rcx)
+mov  rax, rdx     ; reste
+…
+```
+
+Comparer avec le sibling buggy (`idiv rax` au même offset fichier). Sous GDB ici :
+
+```text
+(gdb) print $rdi   # n testé
+(gdb) print $rcx   # diviseur courant de la boucle is_prime
+(gdb) stepi        # idiv rcx
+(gdb) print $rdx   # vrai n % div
+```
+
+Si tu rejoues le **buggy** au même BP, `$rdx` tombe à `0` dès que le diviseur vaut `n`.
+
+### 4.3 Reste du debug
+
+Identique au write-up [branchless](../68692748aadb6eeafb398fe3/) §4 : select `argc==2` via `sete`/`imul`/`jmp rax`, puis fib + flags + primality. Password de smoke-test : **`5$`**.
+
+```text
+(gdb) run 5$
+# correct! you really know your numbers …
+```
+
+---
+
+## 5. Vérification
 
 ```bash
 ./original/branchless '5$'
@@ -80,7 +142,7 @@ Les 26 paires ASCII imprimables avec L=2 et S=89 (`$5`, `4%`, `9 `, …) passent
 
 ---
 
-## 5. Notes
+## 6. Notes
 
 - Write-up détaillé du prédicat / CFG : voir le sibling **branchless**.
 - Fin de la série toasterbirb asm listée (flags → … → branchless-fixed).

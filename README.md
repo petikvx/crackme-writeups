@@ -213,6 +213,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-06 | [hell](authors/teknikclel69/67630a1d60fa67152406bbde/) | Teknikclel69 |
 | 2026-09-06 | [Lord Winderton](authors/tempesta/67a71e75e36dd9b0e79b2a00/) | Tempesta |
 | 2026-09-06 | [PatchPad](authors/crudd/6835bf1b6297cca3ff7d7d25/) | crudd |
 | 2026-09-06 | [EscapeFromMatrix](authors/sallos/6883d23c8fac2855fe6fb09e/) | Sallos |
