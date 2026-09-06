@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6835bf1b6297cca3ff7d7d25:
+    sha256: "3c86688973d25af5f349043a806c25b454de0c5b907ebcd384deefe185329d46"
+    path: "authors/crudd/6835bf1b6297cca3ff7d7d25/original/patchpad.zip"
+    title: "crudd's PatchPad"
+
+by_sha256:
+  3c86688973d25af5f349043a806c25b454de0c5b907ebcd384deefe185329d46:
+    id: 6835bf1b6297cca3ff7d7d25
+    path: "authors/crudd/6835bf1b6297cca3ff7d7d25/original/patchpad.zip"
+    page: https://crackmes.one/crackme/6835bf1b6297cca3ff7d7d25

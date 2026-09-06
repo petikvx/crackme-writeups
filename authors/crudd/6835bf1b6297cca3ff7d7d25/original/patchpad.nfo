@@ -1,0 +1,8 @@
+This is a challenge to patch the binary to accept any serial number for any name. The goal is not to find a valid serial number or create a keygen.
+
+Sometimes serial algorithm are very complex and complicated to reverse, or they dont work correctly. In these cases it makes sense to just patch the file to accept any serial, this is one of those challenges.
+
+Bonus points: Fix the serial algo to actually work.
+
+Enjoy!
+crudd

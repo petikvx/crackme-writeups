@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 67a71e75e36dd9b0e79b2a00
+
+urls:
+  page: https://crackmes.one/crackme/67a71e75e36dd9b0e79b2a00
+  download: https://crackmes.one/download/crackme/67a71e75e36dd9b0e79b2a00
+
+title: "Tempesta's Lord Winderton"
+author_on_site: "Tempesta"
+author_local: "tempesta"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 1.7
+quality: 4.5
+size: "3.00 KB"
+published: "2025-02-08"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/LordWinderton.exe"
+  name: "LordWinderton.exe"
+  sha256: "02b83aef1f96ebd6f475585558d255166401c9b5bfd468f2d402b4e4e5012476"
+  md5: "37627f0cfdca39730d5364c1abba07ec"
+  size_bytes: 3072
+
+status: solved
+solution_summary: "serial hex 16 chars charset 257df (ex. ffffffffffffffff) ; nibble 0 = NUL early OK"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T15:36:17Z"

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6835bf1b6297cca3ff7d7d25
+
+urls:
+  page: https://crackmes.one/crackme/6835bf1b6297cca3ff7d7d25
+  download: https://crackmes.one/download/crackme/6835bf1b6297cca3ff7d7d25
+
+title: "crudd's PatchPad"
+author_on_site: "crudd"
+author_local: "crudd"
+
+platform: "Windows"
+arch: "x86-64"
+language: "FASM"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: patchpad
+
+binary:
+  path: "original/patchpad.zip"
+  name: "patchpad.zip"
+  sha256: "3c86688973d25af5f349043a806c25b454de0c5b907ebcd384deefe185329d46"
+  md5: "356a261159138c6028149fa9b1b028dc"
+  size_bytes: 3950
+
+status: solved
+solution_summary: "patch je→jmp @401ac3 + SMC imm eb58 + checksum; petik/any!! → Good job (Wine)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T15:36:15Z"

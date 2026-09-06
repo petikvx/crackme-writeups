@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  67a71e75e36dd9b0e79b2a00:
+    sha256: "02b83aef1f96ebd6f475585558d255166401c9b5bfd468f2d402b4e4e5012476"
+    path: "authors/tempesta/67a71e75e36dd9b0e79b2a00/original/LordWinderton.exe"
+    title: "Tempesta's Lord Winderton"
+
+by_sha256:
+  02b83aef1f96ebd6f475585558d255166401c9b5bfd468f2d402b4e4e5012476:
+    id: 67a71e75e36dd9b0e79b2a00
+    path: "authors/tempesta/67a71e75e36dd9b0e79b2a00/original/LordWinderton.exe"
+    page: https://crackmes.one/crackme/67a71e75e36dd9b0e79b2a00

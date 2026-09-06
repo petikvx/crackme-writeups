@@ -127,6 +127,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 |---|---|---|---|
 | [timotei](authors/timotei/README.md) | timotei (`tim0tei`, `timotei_`) | 12 (4 ELF64 + 8 PE32) | 12 / 12 |
 | [cracknotme](authors/cracknotme/README.md) | CrackNotMe | 16+ (CFB… + Wonka + Turbine + MCM1–3) | 15 / 16 |
+| [crudd](authors/crudd/README.md) | crudd | 1 (PatchPad) | 1 / 1 |
 | [plikan](authors/plikan/README.md) | plikan | 1 (Easy Keygen .NET) | 1 / 1 |
 | [cyberpenguin](authors/cyberpenguin/README.md) | Cyberpenguin | 1 (What password???) | 1 / 1 |
 | [simbahdd](authors/simbahdd/README.md) | SimbaHDD | 1 (CRACKME) | 1 / 1 |
@@ -191,6 +192,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [2bitsin](authors/2bitsin/README.md) | 2bitsin | 1 (Secret message from a traveller) | 1 / 1 |
 | [fentcat](authors/fentcat/README.md) | FentCat | 1 (Assembler Crackme) | 1 / 1 |
 | [sallos](authors/sallos/README.md) | Sallos | 2 (Key License + EscapeFromMatrix) | 2 / 2 |
+| [tempesta](authors/tempesta/README.md) | Tempesta | 1 (Lord Winderton) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -211,6 +213,8 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-06 | [Lord Winderton](authors/tempesta/67a71e75e36dd9b0e79b2a00/) | Tempesta |
+| 2026-09-06 | [PatchPad](authors/crudd/6835bf1b6297cca3ff7d7d25/) | crudd |
 | 2026-09-06 | [EscapeFromMatrix](authors/sallos/6883d23c8fac2855fe6fb09e/) | Sallos |
 | 2026-09-06 | [Sallos's Key License](authors/sallos/68aac9df8fac2855fe6fb849/) | sallos |
 | 2026-09-06 | [Assembler Crackme](authors/fentcat/68fce1922d267f28f69b783a/) | fentcat |
