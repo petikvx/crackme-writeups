@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 61c8b23a33c5d413767ca0de
+
+urls:
+  page: https://crackmes.one/crackme/61c8b23a33c5d413767ca0de
+  download: https://crackmes.one/download/crackme/61c8b23a33c5d413767ca0de
+
+title: "dev0's x64_crackme_keygen"
+author_on_site: "dev0"
+author_local: "dev0"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crack"
+  name: "crack"
+  sha256: "d188bf3a2b64faf7d30bee73ff83d3b57d9661250161b0cbc680fa4a2fb0a440"
+  md5: "362bfd680ab1e0741cfba1fba5f3f4d3"
+  size_bytes: 8880
+
+status: solved
+solution_summary: "maps XOR key 0x185; petik→1952 (timed stdin); Correct!"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T14:20:42Z"

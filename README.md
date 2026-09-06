@@ -178,7 +178,9 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [s4r](authors/s4r/README.md) | s4r | 1 (encrypted_box) | 1 / 1 |
 | [ximxn](authors/ximxn/README.md) | Ximxn | 1 (perwira) | 1 / 1 |
 | [breadleaf](authors/breadleaf/README.md) | breadleaf | 1 (Password and Username) | 1 / 1 |
-| [thephilosopher](authors/thephilosopher/README.md) | ThePhilosopher | 1 (Bruteverse) | 1 / 1 |
+| [thephilosopher](authors/thephilosopher/README.md) | ThePhilosopher | 2 (Bruteverse + The Matrix) | 2 / 2 |
+| [x3ero0](authors/x3ero0/README.md) | X3eRo0 | 1 (Eat Sleep Trace Repeat) | 1 / 1 |
+| [dev0](authors/dev0/README.md) | dev0 | 1 (x64_crackme_keygen) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -199,6 +201,9 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-06 | [Eat Sleep Trace Repeat](authors/x3ero0/61efb6a633c5d413767ca678/) | X3eRo0 |
+| 2026-09-06 | [x64_crackme_keygen](authors/dev0/61c8b23a33c5d413767ca0de/) | dev0 |
+| 2026-09-06 | [The Matrix](authors/thephilosopher/617ec2cb33c5d4329c345422/) | ThePhilosopher |
 | 2026-09-06 | [perwira](authors/ximxn/64eb62e2d931496abf9092e7/) | Ximxn |
 | 2026-09-06 | [Password and Username guess](authors/breadleaf/647eeb9b33c5d439389136a8/) | breadleaf |
 | 2026-09-06 | [Bruteverse](authors/thephilosopher/634bdec633c5d4425e2cd8ee/) | ThePhilosopher |

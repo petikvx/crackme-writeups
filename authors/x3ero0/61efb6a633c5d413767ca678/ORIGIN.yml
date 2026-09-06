@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 61efb6a633c5d413767ca678
+
+urls:
+  page: https://crackmes.one/crackme/61efb6a633c5d413767ca678
+  download: https://crackmes.one/download/crackme/61efb6a633c5d413767ca678
+
+title: "X3eRo0's Eat Sleep Trace Repeat"
+author_on_site: "X3eRo0"
+author_local: "x3ero0"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/trace.txt"
+  name: "trace.txt"
+  sha256: "c081e1188e01ff7d82fea708c78a96dd96d965f41ed63b0272350e3f9ef4339e"
+  md5: "ad86a94441764579d80969ec711e49e9"
+  size_bytes: 4736284
+
+status: solved
+solution_summary: "trace-only xorshift64* table + LookupFromInput loop counts → zh3r0{d1d_y0u_enjoyed_r3v3rs1ng_w1th0ut_b1n4ry_?}"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T14:20:41Z"

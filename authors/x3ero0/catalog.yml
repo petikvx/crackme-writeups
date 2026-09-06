@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  61efb6a633c5d413767ca678:
+    sha256: "c081e1188e01ff7d82fea708c78a96dd96d965f41ed63b0272350e3f9ef4339e"
+    path: "authors/x3ero0/61efb6a633c5d413767ca678/original/trace.txt"
+    title: "X3eRo0's Eat Sleep Trace Repeat"
+
+by_sha256:
+  c081e1188e01ff7d82fea708c78a96dd96d965f41ed63b0272350e3f9ef4339e:
+    id: 61efb6a633c5d413767ca678
+    path: "authors/x3ero0/61efb6a633c5d413767ca678/original/trace.txt"
+    page: https://crackmes.one/crackme/61efb6a633c5d413767ca678

@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  61c8b23a33c5d413767ca0de:
+    sha256: "d188bf3a2b64faf7d30bee73ff83d3b57d9661250161b0cbc680fa4a2fb0a440"
+    path: "authors/dev0/61c8b23a33c5d413767ca0de/original/crack"
+    title: "dev0's x64_crackme_keygen"
+
+by_sha256:
+  d188bf3a2b64faf7d30bee73ff83d3b57d9661250161b0cbc680fa4a2fb0a440:
+    id: 61c8b23a33c5d413767ca0de
+    path: "authors/dev0/61c8b23a33c5d413767ca0de/original/crack"
+    page: https://crackmes.one/crackme/61c8b23a33c5d413767ca0de

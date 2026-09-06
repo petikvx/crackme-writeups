@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 617ec2cb33c5d4329c345422
+
+urls:
+  page: https://crackmes.one/crackme/617ec2cb33c5d4329c345422
+  download: https://crackmes.one/download/crackme/617ec2cb33c5d4329c345422
+
+title: "ThePhilosopher's The Matrix"
+author_on_site: "ThePhilosopher"
+author_local: "thephilosopher"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/thematrix"
+  name: "thematrix"
+  sha256: "da1608766ea0cf6fec508ade0dd85f72f18bee506695659cf9d8bde52f84ed9f"
+  md5: "d2346196382de679b3b511da65767f53"
+  size_bytes: 10432
+
+status: solved
+solution_summary: "admin/password → }}}}}}}iQH → EEEEEEcgox → 2022/2021/2020 (Congradulations)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T14:20:44Z"

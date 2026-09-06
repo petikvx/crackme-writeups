@@ -5,8 +5,17 @@ by_id:
     path: "authors/thephilosopher/634bdec633c5d4425e2cd8ee/original/crackme"
     title: "ThePhilosopher's Bruteverse"
 
+  617ec2cb33c5d4329c345422:
+    sha256: "da1608766ea0cf6fec508ade0dd85f72f18bee506695659cf9d8bde52f84ed9f"
+    path: "authors/thephilosopher/617ec2cb33c5d4329c345422/original/thematrix"
+    title: "ThePhilosopher's The Matrix"
+
 by_sha256:
   0a1fb4054cceb271e71c06f2b3073c66633fd8b54790d47b4ab415b2b6095762:
     id: 634bdec633c5d4425e2cd8ee
     path: "authors/thephilosopher/634bdec633c5d4425e2cd8ee/original/crackme"
     page: https://crackmes.one/crackme/634bdec633c5d4425e2cd8ee
+  da1608766ea0cf6fec508ade0dd85f72f18bee506695659cf9d8bde52f84ed9f:
+    id: 617ec2cb33c5d4329c345422
+    path: "authors/thephilosopher/617ec2cb33c5d4329c345422/original/thematrix"
+    page: https://crackmes.one/crackme/617ec2cb33c5d4329c345422
