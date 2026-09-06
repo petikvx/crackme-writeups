@@ -28,3 +28,10 @@ Thumbs.db
 
 # local wine patches
 *-winehwnd0.exe
+
+# Accidental / heavy local artifacts
+**/bochs.img
+**/original/_u/
+*.qt610
+**/tb-live-preload.so
+aqtinstall.log
