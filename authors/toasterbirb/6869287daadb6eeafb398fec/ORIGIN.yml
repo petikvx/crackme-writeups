@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6869287daadb6eeafb398fec
+
+urls:
+  page: https://crackmes.one/crackme/6869287daadb6eeafb398fec
+  download: https://crackmes.one/download/crackme/6869287daadb6eeafb398fec
+
+title: "toasterbirb's jump"
+author_on_site: "toasterbirb"
+author_local: "toasterbirb"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "Assembler (NASM)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: jump
+
+binary:
+  path: "original/jump"
+  name: "jump"
+  sha256: "3ff79033b75ff19555ae42511385e077b7f949dc057677711ba096ccd32d8c42"
+  md5: "994cc1fb6caee71d003952d5db84a04c"
+  size_bytes: 5320
+
+status: solved
+solution_summary: "word[3]==\"t\" (jmp +0x74) ; ex. just / test"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T13:57:20Z"
