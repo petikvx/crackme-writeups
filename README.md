@@ -183,6 +183,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [dev0](authors/dev0/README.md) | dev0 | 1 (x64_crackme_keygen) | 1 / 1 |
 | [s01den](authors/s01den/README.md) | S01den | 1 (0verney) | 1 / 1 |
 | [lubimpiskoty](authors/lubimpiskoty/README.md) | LubimPiskoty | 1 (Personal Safe) | 1 / 1 |
+| [bagolymadar](authors/bagolymadar/README.md) | bagolymadar | 1 (virtual.1) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -203,6 +204,9 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-06 | [virtual.1 (Linux)](authors/bagolymadar/5f3a64df33c5d42a7c667d45/) | bagolymadar |
+| 2026-09-06 | [x86](authors/jeffli6789/5f01df5633c5d4285070948b/) | jeffli6789 |
+| 2026-09-06 | [Maze](authors/jeffli6789/5f009fa233c5d42850709479/) | jeffli6789 |
 | 2026-09-06 | [fl04t](authors/x3ero0/6079170e33c5d45ca94895fa/) | X3eRo0 |
 | 2026-09-06 | [0verney](authors/s01den/6049f27f33c5d42c3d016dea/) | S01den |
 | 2026-09-06 | [Personal Safe](authors/lubimpiskoty/5fa94bb233c5d424269a17b7/) | LubimPiskoty |
