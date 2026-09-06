@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5c53840a33c5d475210bc6e9
+
+urls:
+  page: https://crackmes.one/crackme/5c53840a33c5d475210bc6e9
+  download: https://crackmes.one/download/crackme/5c53840a33c5d475210bc6e9
+
+title: "weissi1994's crackme-not"
+author_on_site: "weissi1994"
+author_local: "weissi1994"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "Assembler"
+
+difficulty: 1.5
+quality: 4.0
+size: "9.35 KB"
+published: "2019-01-31"
+
+series_index: null
+local_slug: "crackme-not"
+
+binary:
+  path: "original/hello"
+  name: "hello"
+  sha256: "2bef049184a934a16ae3e11630f17e46f05e4bbd0ef0d3a49ce4919a59ce3b7d"
+  md5: "2b83ab41d6fa24febac5708a1fd54397"
+  size_bytes: 9576
+
+status: solved
+solution_summary: "petik→ujynp ; password[i]=name[i]+5 (asm hello-world)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T14:46:01Z"

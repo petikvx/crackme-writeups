@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5e83f7f433c5d4439bb2e059
+
+urls:
+  page: https://crackmes.one/crackme/5e83f7f433c5d4439bb2e059
+  download: https://crackmes.one/download/crackme/5e83f7f433c5d4439bb2e059
+
+title: "BinaryNewbie's Small Keygenme"
+author_on_site: "BinaryNewbie"
+author_local: "binarynewbie"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/easy-one.tgz"
+  name: "easy-one.tgz"
+  sha256: "0c3cd28a4aa9baf1af602872ad94da2050d98e5bba6eb5cd57ad056dbf97d69e"
+  md5: "a6c62103de3204d8030e12d088cfddc5"
+  size_bytes: 1152
+
+status: solved
+solution_summary: "serial 16 hex digits ∈ {2,5,7,D,F} (nibble even→2, odd→5/7/D/F); ex. 2222222222222222"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T14:45:59Z"

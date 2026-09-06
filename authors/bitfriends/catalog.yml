@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5ea48a1433c5d47611746436:
+    sha256: "4872e271d6f4a012fd317804b783512abbeb233c0b5efbeb847435acc72eb5a5"
+    path: "authors/bitfriends/5ea48a1433c5d47611746436/original/nasm_crack"
+    title: "BitFriends's nasm crack"
+
+by_sha256:
+  4872e271d6f4a012fd317804b783512abbeb233c0b5efbeb847435acc72eb5a5:
+    id: 5ea48a1433c5d47611746436
+    path: "authors/bitfriends/5ea48a1433c5d47611746436/original/nasm_crack"
+    page: https://crackmes.one/crackme/5ea48a1433c5d47611746436

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ea48a1433c5d47611746436
+
+urls:
+  page: https://crackmes.one/crackme/5ea48a1433c5d47611746436
+  download: https://crackmes.one/download/crackme/5ea48a1433c5d47611746436
+
+title: "BitFriends's nasm crack"
+author_on_site: "BitFriends"
+author_local: "bitfriends"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/nasm_crack"
+  name: "nasm_crack"
+  sha256: "4872e271d6f4a012fd317804b783512abbeb233c0b5efbeb847435acc72eb5a5"
+  md5: "5f121c045274149314615d4490914a56"
+  size_bytes: 9176
+
+status: solved
+solution_summary: "password plaintext supersecret (repz cmpsb ×11 vs .data passwd)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T14:45:58Z"

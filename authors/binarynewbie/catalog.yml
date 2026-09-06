@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5e83f7f433c5d4439bb2e059:
+    sha256: "0c3cd28a4aa9baf1af602872ad94da2050d98e5bba6eb5cd57ad056dbf97d69e"
+    path: "authors/binarynewbie/5e83f7f433c5d4439bb2e059/original/easy-one.tgz"
+    title: "BinaryNewbie's Small Keygenme"
+
+by_sha256:
+  0c3cd28a4aa9baf1af602872ad94da2050d98e5bba6eb5cd57ad056dbf97d69e:
+    id: 5e83f7f433c5d4439bb2e059
+    path: "authors/binarynewbie/5e83f7f433c5d4439bb2e059/original/easy-one.tgz"
+    page: https://crackmes.one/crackme/5e83f7f433c5d4439bb2e059

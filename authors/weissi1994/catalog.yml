@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5c53840a33c5d475210bc6e9:
+    sha256: "2bef049184a934a16ae3e11630f17e46f05e4bbd0ef0d3a49ce4919a59ce3b7d"
+    path: "authors/weissi1994/5c53840a33c5d475210bc6e9/original/hello"
+    title: "weissi1994's crackme"
+
+by_sha256:
+  2bef049184a934a16ae3e11630f17e46f05e4bbd0ef0d3a49ce4919a59ce3b7d:
+    id: 5c53840a33c5d475210bc6e9
+    path: "authors/weissi1994/5c53840a33c5d475210bc6e9/original/hello"
+    page: https://crackmes.one/crackme/5c53840a33c5d475210bc6e9
