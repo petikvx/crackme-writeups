@@ -70,6 +70,60 @@ Astuce asm (sans branche) : reste `%2` / `%3`, décalages, puis `6 / f(…)` × 
 
 ---
 
+## Debug GDB (pas à pas)
+
+ELF64 **statique / stripped**, pas de PIE. Entry `0x401000`.
+
+```bash
+gdb -q ./original/main
+(gdb) starti
+(gdb) x/40i $rip
+```
+
+| Adresse | Rôle |
+|---|---|
+| `0x4010b2` | `read(0, 0x402010, 0x14)` — **20 octets** à chaque invite |
+| `0x4010e9` | `atoi` maison (stop au `\n`) |
+| `0x402000` / `0x402008` | stockage `num1` / `num2` |
+| `0x40111d` | `check(num1)` → résultat dans `rdi` |
+| `0x40105b` | `cmp rdi, [num2]` → CORRECT / WRONG |
+
+### Piège pipe sous GDB
+
+```text
+(gdb) run < <(printf '12\n6\n')
+# 1er read avale les 20 premiers octets du pipe → n2 lu pourri → WRONG
+```
+
+Comme le solveur : padder la 1ʳᵉ ligne à 20 bytes :
+
+```bash
+python3 -c "import sys; sys.stdout.buffer.write(b'12\n'+b'X'*17+b'6\n')" | ./original/main
+# CORRECT
+```
+
+### Suivre `check` (branchless)
+
+```text
+(gdb) break *0x40111d
+(gdb) # input padé n1=12
+(gdb) continue
+(gdb) print *(long*)0x402000      # 12
+(gdb) stepi                       # div 2 → rdx = n1%2
+(gdb) # … div 3 → reste
+(gdb) break *0x40117f
+(gdb) continue
+(gdb) print $rdi                  # attendu 6 pour n1=12
+(gdb) break *0x40105b
+(gdb) continue
+(gdb) print $rdi
+(gdb) x/gx 0x402008               # num2 saisi
+```
+
+Contre-exemples utiles : `n1=4` → `$rdi=2` ; `n1=5` → `$rdi=0`.
+
+---
+
 ## 4. Vérification
 
 ```bash
@@ -83,4 +137,4 @@ python3 tools/math-crackme-solve.py --check --n1 5
 ## 5. Notes
 
 - L’auteur livre déjà `solution.txt` dans le ZIP — le défi est surtout le `check` branchless.
-- Suite Jenya : [linux_asm_jenya](https://crackmes.one/crackme/655b43750f4238b24302bc42).
+- Suite Jenya : [linux_asm_jenya](../655b43750f4238b24302bc42/).
