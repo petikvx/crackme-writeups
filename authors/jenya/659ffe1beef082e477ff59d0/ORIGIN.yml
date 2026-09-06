@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 659ffe1beef082e477ff59d0
+
+urls:
+  page: https://crackmes.one/crackme/659ffe1beef082e477ff59d0
+  download: https://crackmes.one/download/crackme/659ffe1beef082e477ff59d0
+
+title: "Jenya's math_crackme"
+author_on_site: "Jenya"
+author_local: "jenya"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "Assembler (NASM)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: math-crackme
+
+binary:
+  path: "original/math_crackme.zip"
+  name: "math_crackme.zip"
+  sha256: "f9d4695c882d8125fdf82c7652aab2446856585875476e5b76fe6377f765c8bd"
+  md5: "a2a5b6014e1bd643ef08e4c8df3c5ee7"
+  size_bytes: 2092
+
+status: solved
+solution_summary: "n2=6/2/0 from n1 mod 6/2 ; ex. 12→6"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T14:06:15Z"

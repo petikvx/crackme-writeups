@@ -1,0 +1,8 @@
+in this crackme the first number can by any number
+but the second number must be 2 or 6 or 0
+if the first number divisibly by 6 the second number need to be 6
+if the first number divisibly by 2 and not divisibly by 6 the second number need 
+to be 2
+if the first number not divisibly by 2 or 6 the second number need to be zero
+for the checking function i used math and bitwise no loop no conditional statements
+hope you like it

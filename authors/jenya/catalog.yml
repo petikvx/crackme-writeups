@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  659ffe1beef082e477ff59d0:
+    sha256: "f9d4695c882d8125fdf82c7652aab2446856585875476e5b76fe6377f765c8bd"
+    path: "authors/jenya/659ffe1beef082e477ff59d0/original/math_crackme.zip"
+    title: "Jenya's math_crackme"
+
+by_sha256:
+  f9d4695c882d8125fdf82c7652aab2446856585875476e5b76fe6377f765c8bd:
+    id: 659ffe1beef082e477ff59d0
+    path: "authors/jenya/659ffe1beef082e477ff59d0/original/math_crackme.zip"
+    page: https://crackmes.one/crackme/659ffe1beef082e477ff59d0
