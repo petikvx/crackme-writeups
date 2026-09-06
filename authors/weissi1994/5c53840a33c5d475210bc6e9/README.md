@@ -100,6 +100,39 @@ Exemple `petik` :
 
 ---
 
+---
+
+## Debug GDB (pas à pas)
+
+ELF64 **statique**, non stripé (`_start.l1`, `_start.wrong`).
+
+```bash
+gdb -q ./original/hello
+(gdb) break *_start+52          # après read name
+# attention pipe : name puis password séparés (voir solveur)
+(gdb) break _start.l1
+```
+
+| Symbole | Rôle |
+|---|---|
+| `_start` | prompts + reads dans `buf` `@0x402074` |
+| `_start.l1` | `password[i] == name[i]+5` |
+| `_start.wrong` / succès | messages |
+
+```text
+(gdb) # après les deux reads, avant la boucle :
+(gdb) x/s 0x40209a              # name copié (max 8)
+(gdb) break *_start.l1+16       # cmp al, password
+(gdb) commands
+> silent
+> printf "expect name+5=0x%02x vs pw=0x%02x\n", $al & 0xff, *(unsigned char*)(0x402073+$r15)
+> continue
+> end
+(gdb) # petik → ujynp
+```
+
+Preuve : `python3 tools/crackme-not-solve.py --check` (timed stdin).
+
 ## 4. Vérification
 
 `read()` sur un pipe peut avaler name+password d’un coup : le solveur écrit le name, attend un peu, puis le password.

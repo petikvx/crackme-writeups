@@ -10,6 +10,8 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml) (id ↔ sha256).
 |---|---|---|---|---|
 | 1 | [What password???](6a83e2f205a9e80a90724421/) | [`6a83e2f2…`](https://crackmes.one/crackme/6a83e2f205a9e80a90724421) | Linux ELF64 NASM | password `kr@meri$dab3st` (XOR `0x27` + addend `2+2i`) |
 
+Section **Debug GDB** : `loop_1` XOR `0x27` + addend.
+
 ## Arborescence d’un challenge
 
 ```

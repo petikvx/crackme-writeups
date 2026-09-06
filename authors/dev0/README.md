@@ -5,3 +5,5 @@ Auteur : [dev0](https://crackmes.one/user/dev0).
 | # | Titre | Solution |
 |---|---|---|
 | 1 | [x64_crackme_keygen](61c8b23a33c5d413767ca0de/) | `petik` → `1952` |
+
+Section **Debug GDB** : maps XOR `0x185`, keygen `petik→1952`.

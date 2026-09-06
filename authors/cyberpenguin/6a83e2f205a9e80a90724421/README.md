@@ -112,6 +112,39 @@ python3 tools/what-password-solve.py --decode
 
 ---
 
+---
+
+## Debug GDB (pas à pas)
+
+ELF64, **non strippé** (`main`, `loop_1`, `right` / `wrong`). I/O en syscalls.
+
+```bash
+gdb -q ./original/what_password
+(gdb) break main
+(gdb) run < <(printf 'kr@meri$dab3st\n')
+(gdb) disassemble loop_1
+```
+
+| Symbole | Rôle |
+|---|---|
+| `main` `0x401150` | `read` → buf `@0x40406c` |
+| `loop_1` | `table[i] ^ 0x27 + (2+2*i)` vs input[i] |
+| `right` / `wrong` | messages succès / échec |
+| table `pw` | `@0x404028` |
+
+```text
+(gdb) break *loop_1+27          # cmp r12b, r13b
+(gdb) commands
+> silent
+> printf "i=%d expect=0x%02x got=0x%02x\n", (int)$r14, $r12 & 0xff, $r13 & 0xff
+> continue
+> end
+(gdb) continue
+# jusqu’au \n → right
+```
+
+Décoder hors GDB : `python3 tools/what-password-solve.py --decode`.
+
 ## 4. Vérification
 
 ```bash

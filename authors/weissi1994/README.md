@@ -9,3 +9,5 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml) (id ↔ sha256).
 | # | Titre | ID | Plateforme | Solution |
 |---|---|---|---|---|
 | 1 | [crackme-not](5c53840a33c5d475210bc6e9/) | [`5c53840a…`](https://crackmes.one/crackme/5c53840a33c5d475210bc6e9) | Linux ELF64 (asm) | `petik` → `ujynp` (`name[i]+5`) |
+
+Section **Debug GDB** : boucle `name[i]+5`.

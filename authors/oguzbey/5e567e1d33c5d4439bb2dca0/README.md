@@ -30,3 +30,34 @@ printf '88' | ./original/lucky_numbers 2<&0
 
 Lit 2 octets, `sub` ASCII → digits, `adc al, bl` puis **`daa`**, exige `AL == 0x16` et second digit **`'8'`**.  
 `8+8=16` → après DAA `0x16`. Difficulty **1.5**.
+
+---
+
+## Debug GDB (pas à pas)
+
+ELF32 **statique / stripped**. Entry `0x804903a`. **`sys_read` sur fd 2** → sous GDB/TTY : `run 2<&0` ou `2<&0` dans le shell.
+
+```bash
+gdb -q ./original/lucky_numbers
+(gdb) starti
+(gdb) x/25i $eip
+```
+
+| Adresse | Rôle |
+|---|---|
+| `0x8049050` | `read` : `ebx=2`, buf `@0x804a024`, len 2 |
+| `0x8049066` | digits ASCII → binaires |
+| `0x8049076` | `adc` + `daa` |
+| `0x804907c` | `cmp al, 0x16` |
+| `0x8049080` | `cmp bl, '8'` (`0x38`) |
+
+```text
+(gdb) break *0x804907c
+(gdb) run 2<&0
+# saisir 88
+(gdb) print/x $al               # 0x16 si OK
+(gdb) print/c $bl               # '8'
+```
+
+Lucky number **`88`** : somme BCD via ADC/DAA == `0x16` et 2ᵉ chiffre `'8'`.
+

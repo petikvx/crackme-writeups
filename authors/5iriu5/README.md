@@ -10,6 +10,8 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml) (id ↔ sha256).
 |---|---|---|---|---|
 | 1 | [SSE Login](65a81968eef082e477ff5d10/) | [`65a81968…`](https://crackmes.one/crackme/65a81968eef082e477ff5d10) | Linux ELF64 SSE | `plague` / `god` |
 
+Section **Debug GDB** : SSE `paddb` / `pcmpeqb` (easy).
+
 ## Ajouter un crackme
 
 ```bash

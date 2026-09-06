@@ -88,6 +88,30 @@ Aucun hash, XOR, ni keygen : le password est littéralement dans le binaire (`st
 
 ---
 
+---
+
+## Debug GDB (pas à pas)
+
+ELF64 **statique**, non stripé.
+
+```bash
+gdb -q ./original/nasm_crack
+(gdb) x/s 0x402026
+# supersecret
+(gdb) break *_start+79          # repz cmpsb
+(gdb) run < <(printf 'supersecret\n')
+(gdb) x/11cb $rdi               # passwd
+(gdb) x/11cb $rsi               # input
+(gdb) stepi
+# je correct_func
+```
+
+| Adresse | Rôle |
+|---|---|
+| `0x40105c` | `read` → `@0x402031` |
+| `0x401077` | `repz cmpsb` ecx=11 |
+| `correct_func` `0x401000` | `"Correct!"` |
+
 ## 4. Vérification
 
 ```bash

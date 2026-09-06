@@ -76,6 +76,31 @@ Astuce / bypass : un name qui commence par `\\0` donne serial `0` (boucle sur lo
 
 ---
 
+## Debug GDB (pas à pas)
+
+ELF64 **statique**, symbole `crack`. Keygen via `/proc/self/maps` → XOR **`0x185`**.
+
+```bash
+gdb -q ./original/crack
+(gdb) break *crack+284          # syscall open sur /proc/.../maps
+(gdb) run
+# saisir petik (Entrée), attendre le 2e prompt, puis 1952
+```
+
+Piège stdin : ne pas coller name+serial d’un coup — le solveur temporise.
+
+```text
+(gdb) # après open/read maps : la clé dérivée des digits d’adresse vaut 0x185
+(gdb) # (sum ASCII de "401000") ; puis name[i] XOR clé → serial
+```
+
+Session simple hors stepper :
+
+```bash
+python3 tools/x64-keygen-solve.py --user petik --check
+# Correct! / OK
+```
+
 ## 4. Vérification
 
 **Attention stdin** : un seul `printf 'petik\\n1952\\n' | ./crack` peut faire manger name+serial dans le **premier** `read` → `Incorrect!`.  

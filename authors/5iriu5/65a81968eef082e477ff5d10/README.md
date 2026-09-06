@@ -71,6 +71,37 @@ userpass[i] = (secret[i] - key[i]) mod 256
 
 ---
 
+---
+
+## Debug GDB (pas à pas)
+
+ELF64 **statique**, labels `_start` / `won`. Variante `easy` (user+pass SSE).
+
+```bash
+gdb -q ./original/easy
+(gdb) break *_start+120         # movdqu username/password
+(gdb) run < <(printf 'plague\ngod\nXXXXXXX')
+# padder si besoin (read 8)
+```
+
+| Adresse | Rôle |
+|---|---|
+| `0x40102c` / `0x401068` | `read` user `@0x402058` / pass `@0x402060` |
+| `0x401078` | `movdqu` + `paddb` unwrap |
+| `0x401097` | `pcmpeqb` vs cible |
+| `0x4010af` | `je won` si tous octets match |
+
+```text
+(gdb) break *0x4010ab
+(gdb) continue
+(gdb) print/x $rdi              # 0xffffffffffffffff si OK
+(gdb) break won
+(gdb) continue
+# "hack the planet!"
+```
+
+`harder` : même idée SSE, stripped — breakpoints sur offsets similaires après `starti` / `x/i`.
+
 ## 4. Vérification
 
 ```bash
