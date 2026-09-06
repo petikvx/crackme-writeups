@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5f3a64df33c5d42a7c667d45:
+    sha256: "11d27395c11bc12595e219116746fbaf89a2cc825321f4db99fea82f17273c09"
+    path: "authors/bagolymadar/5f3a64df33c5d42a7c667d45/original/virtual.1"
+    title: "bagolymadar's virtual.1 (Linux)"
+
+by_sha256:
+  11d27395c11bc12595e219116746fbaf89a2cc825321f4db99fea82f17273c09:
+    id: 5f3a64df33c5d42a7c667d45
+    path: "authors/bagolymadar/5f3a64df33c5d42a7c667d45/original/virtual.1"
+    page: https://crackmes.one/crackme/5f3a64df33c5d42a7c667d45

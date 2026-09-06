@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5f01df5633c5d4285070948b
+
+urls:
+  page: https://crackmes.one/crackme/5f01df5633c5d4285070948b
+  download: https://crackmes.one/download/crackme/5f01df5633c5d4285070948b
+
+title: "jeffli6789's x86"
+author_on_site: "jeffli6789"
+author_local: "jeffli6789"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/x86"
+  name: "x86"
+  sha256: "21fce10a973e8e82d756305520c87a01b473eeb0aa4cae7dc3812aa1fc2f14ab"
+  md5: "b5f715e780c4e4b6806d04c3dee67e57"
+  size_bytes: 6384
+
+status: solved
+solution_summary: "int 374274518 (0x164ef9d6) patches add/sub shellcode → Well done!"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T14:35:51Z"

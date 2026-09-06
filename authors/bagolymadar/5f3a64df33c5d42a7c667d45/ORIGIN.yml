@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5f3a64df33c5d42a7c667d45
+
+urls:
+  page: https://crackmes.one/crackme/5f3a64df33c5d42a7c667d45
+  download: https://crackmes.one/download/crackme/5f3a64df33c5d42a7c667d45
+
+title: "bagolymadar's virtual.1 (Linux)"
+author_on_site: "bagolymadar"
+author_local: "bagolymadar"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/virtual.1"
+  name: "virtual.1"
+  sha256: "11d27395c11bc12595e219116746fbaf89a2cc825321f4db99fea82f17273c09"
+  md5: "037f3db331b417fd8794325a0feccafa"
+  size_bytes: 17544
+
+status: solved
+solution_summary: "petik→0514-1628AED2A7B93BA1 (VM: len+popcount+rol/xor hash)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T14:35:49Z"

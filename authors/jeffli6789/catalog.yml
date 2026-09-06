@@ -5,8 +5,26 @@ by_id:
     path: "authors/jeffli6789/69a2911b7a778cfffbfb67ca/original/wallpaper"
     title: "jeffli6789's Crackmes.one RE CTF 2026"
 
+  5f01df5633c5d4285070948b:
+    sha256: "21fce10a973e8e82d756305520c87a01b473eeb0aa4cae7dc3812aa1fc2f14ab"
+    path: "authors/jeffli6789/5f01df5633c5d4285070948b/original/x86"
+    title: "jeffli6789's x86"
+
+  5f009fa233c5d42850709479:
+    sha256: "30040775a6b836f28fb025a1677d14a8afc243f70259065b64ebd7f71337fa43"
+    path: "authors/jeffli6789/5f009fa233c5d42850709479/original/maze"
+    title: "jeffli6789's Maze"
+
 by_sha256:
   7526418ecada66780062b7f6ca7205c4540d6e2800fc994a4d02f75ae4b2b673:
     id: 69a2911b7a778cfffbfb67ca
     path: "authors/jeffli6789/69a2911b7a778cfffbfb67ca/original/wallpaper"
     page: https://crackmes.one/crackme/69a2911b7a778cfffbfb67ca
+  21fce10a973e8e82d756305520c87a01b473eeb0aa4cae7dc3812aa1fc2f14ab:
+    id: 5f01df5633c5d4285070948b
+    path: "authors/jeffli6789/5f01df5633c5d4285070948b/original/x86"
+    page: https://crackmes.one/crackme/5f01df5633c5d4285070948b
+  30040775a6b836f28fb025a1677d14a8afc243f70259065b64ebd7f71337fa43:
+    id: 5f009fa233c5d42850709479
+    path: "authors/jeffli6789/5f009fa233c5d42850709479/original/maze"
+    page: https://crackmes.one/crackme/5f009fa233c5d42850709479

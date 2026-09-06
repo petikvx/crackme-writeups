@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5f009fa233c5d42850709479
+
+urls:
+  page: https://crackmes.one/crackme/5f009fa233c5d42850709479
+  download: https://crackmes.one/download/crackme/5f009fa233c5d42850709479
+
+title: "jeffli6789's Maze"
+author_on_site: "jeffli6789"
+author_local: "jeffli6789"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/maze"
+  name: "maze"
+  sha256: "30040775a6b836f28fb025a1677d14a8afc243f70259065b64ebd7f71337fa43"
+  md5: "720a2fc9843c970bed61265adfb47745"
+  size_bytes: 1082040
+
+status: solved
+solution_summary: "BFS path len 1252 (digits 1-4) on code-grid maze; read fd=2"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T14:35:52Z"

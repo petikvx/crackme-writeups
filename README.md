@@ -132,7 +132,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [simbahdd](authors/simbahdd/README.md) | SimbaHDD | 1 (CRACKME) | 1 / 1 |
 | [tdaron](authors/tdaron/README.md) | tdaron | 1 (Use your brain) | 1 / 1 |
 | [pipedown](authors/pipedown/README.md) | pipedown | 1 (I need to be honest) | 1 / 1 |
-| [jeffli6789](authors/jeffli6789/README.md) | jeffli6789 | 1 (RE CTF 2026 wallpaper) | 1 / 1 |
+| [jeffli6789](authors/jeffli6789/README.md) | jeffli6789 | 3 (wallpaper + x86 + Maze) | 3 / 3 |
 | [cr-ck_god001](authors/cr-ck_god001/README.md) | Cr@ck_God001 | 1 (Crackme GUI) | 1 / 1 |
 | [neoncarrot](authors/neoncarrot/README.md) | neoncarrot | 1 (Find the correct key!) | 1 / 1 |
 | [cosmosss](authors/cosmosss/README.md) | CosmoSSS | 1 (Password Very Easy) | 1 / 1 |
