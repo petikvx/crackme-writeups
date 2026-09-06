@@ -63,6 +63,54 @@ enc[i] == ((key[i] ^ 0x2a) + d) & 0xff
 
 ---
 
+## Debug GDB (pas à pas)
+
+ELF64 **PIE**, stripped. Anti-debug : lit `TracerPid` dans `/proc/self/status` + `fork` — sous GDB tu peux voir le warning / branche, le shell enfant reste utilisable.
+
+```bash
+gdb -q ./original/soulreaper_shell
+(gdb) set follow-fork-mode child
+(gdb) set detach-on-fork off
+(gdb) catch syscall fork
+(gdb) run < <(printf 'reap REAPER42\nexit\n')
+```
+
+### Trouver le check `reap`
+
+Constante LE `0x34378e828a78797f` (fichier ~`0x1566`) = `enc[8]`.
+
+```text
+(gdb) starti
+(gdb) # info proc mappings → base
+(gdb) find 0x555555556000, +0x3000, 0x7f, 0x79, 0x78, 0x8a
+# ou break après strtok / strcmp "reap"
+```
+
+Prédicat (une fois dans la boucle i=0..7) :
+
+```text
+(gdb) # après chargement key[i] :
+(gdb) print/x ($al ^ 0x2a) + (7 + 3*$i)   # doit matcher enc[i]
+```
+
+Inversion live :
+
+```text
+key[i] = ((enc[i] - (7+3*i)) & 0xff) ^ 0x2a
+→ REAPER42
+```
+
+### Succès
+
+```text
+(gdb) # après check OK
+(gdb) # "Access granted" + lien t.me
+```
+
+Hors GDB : `python3 tools/dead-terminal-solve.py --check`.
+
+---
+
 ## 4. Vérification
 
 ```bash
@@ -74,5 +122,5 @@ python3 tools/dead-terminal-solve.py --check REAPER42
 
 ## 5. Notes
 
-- Même auteur que Death Trap (laissé pending : double-fork + MITM lent).
-- Anti-debug inoffensif hors gdb.
+- Même auteur : [XorGate](../6a768ab608712c1a17cbacdd/), [Death Trap](../6a7d0ce1184836c0dbe7d77e/) (solved : double-fork + MITM).
+- Anti-debug inoffensif hors gdb (et gênant surtout pour le follow-fork).

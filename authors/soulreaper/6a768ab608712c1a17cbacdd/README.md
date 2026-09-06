@@ -62,6 +62,50 @@ password = "".join(f"{ord(c) ^ 0x23:02x}" for c in username) + "@password"
 
 ---
 
+## Debug GDB (pas à pas)
+
+ELF64 **PIE**, **non strippé** → `break main` OK. Clé XOR en local : `movb $0x23, …`.
+
+```bash
+gdb -q ./original/XorGate
+(gdb) break main
+(gdb) run < <(printf 'petik\n5346574a48@password\n')
+(gdb) # après 1er scanf :
+(gdb) x/s $rbp-0x410          # username
+```
+
+### Boucle XOR → hex
+
+| Offset `main` | Rôle |
+|---|---|
+| `+30` | `movb $0x23, [rbp-0x456]` — clé |
+| `+198` | charge `user[i]`, `xor` avec `0x23` |
+| `+287` | `snprintf("%02x")` dans le buffer attendu |
+| `+324` | empile littéral `@password` (`movabs …617040`) |
+| compare | password saisi vs buffer dérivé |
+
+```text
+(gdb) break *main+218          # xor al
+(gdb) commands
+> silent
+> printf "c='%c' ^0x23 → %02x\n", $rax & 0xff, ($rax & 0xff) ^ 0x23
+> continue
+> end
+(gdb) continue
+# p→53, e→46, t→57, i→4a, k→48
+```
+
+### Succès
+
+```text
+(gdb) break puts
+(gdb) continue
+# [+] Access granted! / FLAG{SoulReaper_XOR_Crackme}
+(gdb) find 0x555555556000, +0x2000, 'F','L','A','G'   # flag aussi en .rodata
+```
+
+---
+
 ## 4. Vérification
 
 ```bash
@@ -74,4 +118,4 @@ python3 tools/xorgate-solve.py --check 5346574a48@password --user petik
 ## 5. Notes
 
 - Le FLAG est aussi en clair dans le binaire ; le challenge reste le keygen XOR.  
-- Même auteur : Dead Terminal (solved), Death Trap (pending).
+- Même auteur : [Dead Terminal](../6a77c5d1df981859694944b8/), [Death Trap](../6a7d0ce1184836c0dbe7d77e/).

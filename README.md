@@ -157,7 +157,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [svz](authors/svz/README.md) | SVz | 1 (Orrery) | 1 / 1 |
 | [ray33ee](authors/ray33ee/README.md) | ray33ee | 1 (x or and add) | 1 / 1 |
 | [muhemed](authors/muhemed/README.md) | muhemed | 1 (muhemed crackme) | 1 / 1 |
-| [soulreaper](authors/soulreaper/README.md) | soulreaper | 3 (Dead Terminal + XorGate + Death Trap) | 2 / 3 *(1 parked)* |
+| [soulreaper](authors/soulreaper/README.md) | soulreaper | 3 (Dead Terminal + XorGate + Death Trap) | 3 / 3 |
 | [toasterbirb](authors/toasterbirb/README.md) | toasterbirb | 7 (yap + série asm flags…branchless-fixed) | 7 / 7 |
 | [ttlhacker](authors/ttlhacker/README.md) | ttlhacker | 2 (hell86 + jittery) | 2 / 2 |
 | [jasper676767](authors/jasper676767/README.md) | Jasper676767 | 2 (Red light + forgot password) | 2 / 2 |
@@ -202,7 +202,6 @@ Challenges `status: pending` volontairement suspendus (`parked: true` dans `ORIG
 |---|---|---|
 | [HydraVault](authors/hydra14212/6a898e1a48cda5a2aaa3dad3/) | Hydra14212 | RPM 12/16 OK (« last 4 bytes ») ; last4 TBD ; pas x64dbg sur hv* |
 | [license-cli](authors/brembo/6a8c54dc585e8875bcbebcfb/) | brembo | préimage SHA-256 `112c2add…` (x64dbg XOR OK ; rockyou×rules miss) |
-| [Death Trap](authors/soulreaper/6a7d0ce1184836c0dbe7d77e/) | soulreaper | double-fork / hash MITM ; scaffold only |
 | [bugger_v.7](authors/crackmes-de/5ab77f6633c5d40ad448cc25/) | crackmes.de / shism | clé RC6 + wake shell dormant |
 | [meloquynthe](authors/crackmes-de/5ab77f5933c5d40ad448c46f/) | crackmes.de / meat | prédicat name→serial (après UPX) |
 | [MCM 3.0 REWORK](authors/cracknotme/698fb9e9a79466462e957bec/) | CrackNotMe | parent/`--3a1f9b` + VM ; mask XOR TBD (notes 2026-09-01) |
@@ -213,6 +212,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-06 | [Death Trap](authors/soulreaper/6a7d0ce1184836c0dbe7d77e/) | soulreaper |
 | 2026-09-06 | [hell](authors/teknikclel69/67630a1d60fa67152406bbde/) | Teknikclel69 |
 | 2026-09-06 | [Lord Winderton](authors/tempesta/67a71e75e36dd9b0e79b2a00/) | Tempesta |
 | 2026-09-06 | [PatchPad](authors/crudd/6835bf1b6297cca3ff7d7d25/) | crudd |

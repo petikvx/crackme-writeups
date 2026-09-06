@@ -11,7 +11,7 @@ author_local: "soulreaper"
 
 platform: "Unix/linux etc."
 arch: "x86-64"
-language: ""
+language: "C/C++"
 
 difficulty: null
 quality: null
@@ -19,7 +19,7 @@ size: ""
 published: null
 
 series_index: null
-local_slug: null
+local_slug: death-trap
 
 binary:
   path: "original/sysupdate"
@@ -28,12 +28,8 @@ binary:
   md5: "260cd99c6bbdf0cc8e4b92e7a6649552"
   size_bytes: 14464
 
-status: pending
-# PARKED 2026-08-26 — y revenir (pas abandonné)
-parked: true
-parked_at: "2026-08-26"
-parked_reason: "scaffold only ; piste double-fork / hash MITM ; pas de solveur ni write-up"
-solution_summary: "PARKED — ELF64 sysupdate serial ; reverse TBD (fork/MITM)"
+status: solved
+solution_summary: "serial 16c mLE1AAHrQU3xAhAV — java hash s[0:8]==0x67c91e15 + ROL hash s[8:16]==0x0c5b6c81 (double-fork)"
 
 download:
   zip_password: crackmes.one
