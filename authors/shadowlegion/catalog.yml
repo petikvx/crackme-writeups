@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a9950e9cab6678aefe9dc90:
+    sha256: "d4054e820a667ab52e62b0a2b315f76c789185e26d409e983fbfcb0d70eaf806"
+    path: "authors/shadowlegion/6a9950e9cab6678aefe9dc90/original/TermBreaker"
+    title: "ShadowLegion's TermBreaker"
+
+by_sha256:
+  d4054e820a667ab52e62b0a2b315f76c789185e26d409e983fbfcb0d70eaf806:
+    id: 6a9950e9cab6678aefe9dc90
+    path: "authors/shadowlegion/6a9950e9cab6678aefe9dc90/original/TermBreaker"
+    page: https://crackmes.one/crackme/6a9950e9cab6678aefe9dc90

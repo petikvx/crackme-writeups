@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a9950e9cab6678aefe9dc90
+
+urls:
+  page: https://crackmes.one/crackme/6a9950e9cab6678aefe9dc90
+  download: https://crackmes.one/download/crackme/6a9950e9cab6678aefe9dc90
+
+title: "ShadowLegion's TermBreaker"
+author_on_site: "ShadowLegion"
+author_local: "shadowlegion"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C++ / Qt6"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: termbreaker
+
+binary:
+  path: "original/TermBreaker"
+  name: "TermBreaker"
+  sha256: "d4054e820a667ab52e62b0a2b315f76c789185e26d409e983fbfcb0d70eaf806"
+  md5: "9eb97dae12901b5a7d6a2b413d1ccc90"
+  size_bytes: 48512
+
+status: solved
+solution_summary: "system code 8×[A-Z0-9], Σ(i+1)*ord == 2856 ; ex. TERMATUR"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T13:25:28Z"

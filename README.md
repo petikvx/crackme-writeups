@@ -171,6 +171,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [brembo](authors/brembo/README.md) | brembo | 1 (license-cli) | 0 / 1 *(parked)* |
 | [hydra14212](authors/hydra14212/README.md) | Hydra14212 | 1 (HydraVault) | 0 / 1 *(parked)* |
 | [xalperen](authors/xalperen/README.md) | xalperen | 1 (KryptonVM) | 1 / 1 |
+| [shadowlegion](authors/shadowlegion/README.md) | ShadowLegion | 1 (TermBreaker) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -191,6 +192,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-06 | [TermBreaker](authors/shadowlegion/6a9950e9cab6678aefe9dc90/) | ShadowLegion |
 | 2026-09-03 | [stigger](authors/crackmes-de/5ab77f6133c5d40ad448c8f5/) | crackmes.de / stigger |
 | 2026-09-03 | [protreebrains_crackme_1](authors/crackmes-de/5ab77f6133c5d40ad448c915/) | crackmes.de / protreebrain |
 | 2026-09-03 | [nonzenzes_keygenme1](authors/crackmes-de/5ab77f6133c5d40ad448c933/) | crackmes.de / nonzenze |
