@@ -91,6 +91,25 @@ Sorties typiques à côté du binaire (ex. `foo.exe.i64`, `foo.exe.i64.c`, `foo-
 - **Vérifier** : solveur + binaire live (Wine / **`xvfb-run -a wine`** sur serveur sans écran ; native pour ELF).
 - Ne pas inventer une solution non testée.
 - Si le binaire est **déjà chargé / actif dans x64dbg (ou x32dbg)** via MCP : voir **§ Debug live x64dbg** — approfondir le dynamique et enrichir le write-up **en cours**, ne pas attendre la fin du reverse.
+- Si **GDB** (ou `gdb-multiarch` / qemu+gdbstub) est utilisé pour reverse / confirmer le prédicat : voir **§ Debug GDB** — section obligatoire dans le `README.md`.
+
+---
+
+## Debug GDB (ELF / natif)
+
+Dès que l’agent s’appuie sur **GDB** pour résoudre ou valider un challenge (breakpoints, registres, follow-fork, leak, stepi sur le prédicat, …) — **obligatoire** :
+
+1. Documenter dans le **`README.md` du challenge** une section **`## Debug GDB (pas à pas)`** (FR), **pendant** le reverse / au moment du write-up — pas un vague « vu sous gdb » en notes.
+2. Contenu attendu (concret, reproductible) :
+   - commandes de lancement (`gdb -q ./original/…`, `starti`, `run`, redirections / args) ;
+   - adresses ou symboles utiles (entry, `main`, cmp/call critiques) — offsets si PIE ;
+   - breakpoints et ce qu’on observe (registres, buffers, flags, codes de sortie) ;
+   - pièges (PIE, `follow-fork`, fd inhabituel, en-tête ELF cassé, arch non-native → qemu + `gdb-multiarch`, …).
+3. S’inspirer des sections déjà en place : toasterbirb, timotei #1–#4, 23x41, jeffli6789, soulreaper.
+4. La section GDB **complète** le prédicat / la preuve native ; elle ne remplace pas le solveur ni `--check`.
+
+Si le reverse est **100 % statique** (pas de session GDB) : ne pas inventer de walkthrough GDB.  
+Si GDB a servi ne serait-ce que pour confirmer un `cmp` / un leak : **écrire la section**.
 
 ---
 
@@ -137,8 +156,9 @@ Structure type :
 4. Premier regard (`file`, banner, hashes)  
 5. Flow  
 6. Prédicat (tables, asm, pseudo-code)  
-7. Vérification (screenshots + commandes)  
-8. Notes (pièges, ce que ce n’est *pas*)
+7. **Debug GDB (pas à pas)** — **si GDB a été utilisé** (voir § Debug GDB) ; idem observations x64dbg/x32dbg si MCP actif  
+8. Vérification (screenshots + commandes)  
+9. Notes (pièges, ce que ce n’est *pas*)
 
 Langue : **français** (comme le reste du dépôt), termes techniques en anglais OK.
 
@@ -225,6 +245,7 @@ Exceptions seulement si la contrainte du binaire **interdit** `petik` (longueur 
 ### Analyse ELF
 
 - Native Linux : `file`, `readelf`, `objdump`, `gdb`, NASM/FASM pour recon.
+- **GDB utilisé pour le reverse** → section **Debug GDB (pas à pas)** obligatoire dans le write-up (voir § Debug GDB plus haut).
 
 ### Go
 
@@ -283,6 +304,7 @@ Les solveurs restent dans `authors/<slug>/<id>/tools/`.
 
 - [ ] Solveur dans `tools/`, smoke-test OK  
 - [ ] Preuve live (Wine / native) OK ; si x64dbg/x32dbg MCP actif sur le binaire → observations dynamiques dans le write-up  
+- [ ] Si **GDB** a servi au reverse / à la vérif → section **Debug GDB (pas à pas)** dans le `README.md`  
 
 - [ ] Write-up lisible avec **réponse en tête** (user d’exemple = **`petik`** si applicable)  
 - [ ] `ORIGIN.yml` : `status: solved` + summary  
@@ -302,6 +324,7 @@ Les solveurs restent dans `authors/<slug>/<id>/tools/`.
 | Mini-VM bytecode | CFB #3 (`pwn_vm_3`, underscores) |
 | HWID .NET keygen | `authors/plikan/…` |
 | Série ELF/PE + recon asm | `authors/timotei/` |
+| Section Debug GDB (modèles) | toasterbirb, timotei #1–4, 23x41, jeffli6789, soulreaper |
 | Ajout crackme | `scripts/add-crackme.sh`, section README racine |
 | Unpack UPX | `tools/upx-3.96` → `analysis/*.unpacked.exe` |
 | Extract PyInstaller | `tools/pyinstxtractor.py` puis `pycdc` |
