@@ -93,6 +93,57 @@ Les plaintexts sont **aussi** stockés juste à côté (`flagN_plaintext`) — i
 
 ---
 
+## Debug GDB (pas à pas)
+
+ELF64 **statique**, **non strippé** — idéal pour GDB (`break password_verify_loop`, etc.).
+
+```bash
+gdb -q ./original/ineedtobehonest
+(gdb) info variables actual_password password_checksum flag1_
+(gdb) x/s &actual_password
+# SecurePass_2k26_X64_Reverse
+(gdb) x/hx &password_checksum
+# 0x09be
+```
+
+| Symbole / VA | Rôle |
+|---|---|
+| `_start` `0x4000b0` | banner + `read` → `input_buffer` `@0x4012c8` |
+| `password_verify_loop` | cmp octet / accumule somme dans `r8` |
+| `verify_checksum` | `r8 == 0x9be` |
+| `xor_decrypt` | flags avec clés `0x47` / `0x5a` / `0x6c` |
+
+### Vérifier le password sous GDB
+
+```text
+(gdb) break password_verify_loop
+(gdb) run < <(printf 'SecurePass_2k26_X64_Reverse\n')
+(gdb) # à chaque tour : print/c $al  vs  expected
+(gdb) break verify_checksum
+(gdb) continue
+(gdb) print/x $r8               # 0x9be si password exact
+```
+
+Mauvais password → branche fail (flags non décryptés sur le chemin d’échec).
+
+### XOR flags (chemin honnête)
+
+```text
+(gdb) break xor_decrypt
+(gdb) commands
+> silent
+> printf "xor key=0x%02x len=%d\n", $eax & 0xff, (int)$rcx
+> continue
+> end
+(gdb) continue
+# trois hits : 0x47, 0x5a, 0x6c
+(gdb) x/s &decrypted_flag1
+```
+
+Comparer avec `x/s &flag1_plaintext` — mêmes strings, d’où le titre.
+
+---
+
 ## 4. Vérification
 
 ```bash

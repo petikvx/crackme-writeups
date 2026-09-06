@@ -10,6 +10,8 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml) (id ↔ sha256).
 |---|---|---|---|---|
 | 1 | [I need to be honest](69cd43df49fa49a2a2602312/) | [`69cd43df…`](https://crackmes.one/crackme/69cd43df49fa49a2a2602312) | Linux ELF64 asm | `SecurePass_2k26_X64_Reverse` + 3 flags XOR |
 
+Section **Debug GDB (pas à pas)** dans le write-up (password loop + XOR flags).
+
 ## Arborescence d’un challenge
 
 ```

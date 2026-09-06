@@ -9,3 +9,5 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml).
 | # | Titre | ID | Plateforme | Solution |
 |---|---|---|---|---|
 | 1 | [netCrack](693017b52d267f28f69b82ae/) | [`693017b5…`](https://crackmes.one/crackme/693017b52d267f28f69b82ae) | Linux ELF64 | IP → :3125 HTTP ends with `Platon` |
+
+Section **Debug GDB (pas à pas)** dans le write-up (`getInput` / `checkResponse` / `Platon`).
