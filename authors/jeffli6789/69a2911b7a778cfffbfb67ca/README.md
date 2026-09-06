@@ -98,6 +98,75 @@ python3 tools/wallpaper-solve.py --check "$PW"
 
 ---
 
+## Debug GDB (pas à pas)
+
+ELF64 **statique / stripped**, 912 octets, pas de PIE. Entry `0x400078`. Tout le check tient dans `.text` — idéal pour stepper.
+
+### 4.1 Entrée : prompt + charset
+
+```bash
+gdb -q ./original/wallpaper
+(gdb) starti
+(gdb) x/30i $rip
+```
+
+| Adresse | Rôle |
+|---|---|
+| `0x400095` | `write` `"enter password"` |
+| `0x4000ac` | `read(0, buf@0x400297, 0x26)` |
+| `0x4000c7` | `bt` charset `0xf000000000400` — seuls `0..3` |
+| `0x4000dd` | seed `rax = 0xb6fd071e9c8a3425` |
+| `0x4000f4` | boucle 37 pas (`bt rdi, 0x2000000000`) |
+| `0x400137` | `WALL = 0x3bb97ffd7ffd6eec` + `bt` |
+| `0x4001d9` | xors finaux + `test rax, rax` |
+| `0x400205` / `0x400226` | succès / `"wrong password"` |
+
+### 4.2 Valider le charset
+
+```text
+(gdb) break *0x4000d5
+(gdb) run < <(printf '9\n')
+# jae → wrong (bit test fail)
+(gdb) run < <(printf '0\n')
+# continue vers la boucle d’état (puis échoue sur longueur / WALL)
+```
+
+### 4.3 Observer un pas d’état
+
+```text
+(gdb) break *0x4000fe          # charge digit
+(gdb) run < <(printf '1001223210123010301233322110103321001\n')
+(gdb) print/x $rax             # état courant
+(gdb) print/d $rdi             # index 0..36
+(gdb) print/c $dl              # digit
+(gdb) break *0x40014f          # après bt WALL
+(gdb) continue
+(gdb) # jae = mur (bit 0) → fail ; sinon transform selon d
+```
+
+Pour comprendre « wallpaper » : à chaque pas, GDB montre `rcx` (ligne = nibble nul) et `d` (colonne) avant le `bt` sur `WALL`.
+
+### 4.4 Check final
+
+```text
+(gdb) break *0x400200
+(gdb) continue
+(gdb) print/x $rax             # 0 si password OK
+(gdb) stepi
+# ZF → good job / sinon wrong
+```
+
+Session complète hors step-by-step :
+
+```bash
+printf '1001223210123010301233322110103321001\n' | ./original/wallpaper
+# good job, validate with CMO{your_input}
+```
+
+Le MITM du solveur évite de DFS sous GDB (branchement 2–3× / pas).
+
+---
+
 ## 4. Vérification
 
 ```bash

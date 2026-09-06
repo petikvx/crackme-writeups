@@ -12,6 +12,8 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml) (id ↔ sha256).
 | 2 | [x86](5f01df5633c5d4285070948b/) | [`5f01df56…`](https://crackmes.one/crackme/5f01df5633c5d4285070948b) | Linux ELF64 | `374274518` |
 | 3 | [Maze](5f009fa233c5d42850709479/) | [`5f009fa2…`](https://crackmes.one/crackme/5f009fa233c5d42850709479) | Linux ELF64 | path 1252×`1..4` |
 
+Les trois challenges ont une section **Debug GDB (pas à pas)** dans leur `README.md` (maze : piège `read` fd=2 ; x86 : patch shellcode + `mprotect` ; wallpaper : état / WALL).
+
 ## Arborescence d’un challenge
 
 ```
