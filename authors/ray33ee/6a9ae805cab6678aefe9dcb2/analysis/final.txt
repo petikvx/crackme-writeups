@@ -1,0 +1,76 @@
+PRINT base=0 ln=16 'Enter username: '
+PRINT base=16 ln=1 '
+'
+PRINT base=117 ln=16 'Enter password: '
+PRINT base=133 ln=1 '
+'
+RET121[0]=24366
+RET121[1]=47048
+RET121[2]=31660
+RET121[3]=4563
+RET121[4]=37933
+RET121[5]=15871
+RET121[6]=22419
+RET121[7]=3679
+RET121[8]=49352
+JZ cond=1 ->125079 pc=122893
+JZ cond=1 ->339890 pc=124665
+JZ cond=0 ->128602 pc=124673
+JZ cond=0 ->121143 pc=339786
+JZ cond=1 ->125079 pc=122893
+JZ cond=1 ->339890 pc=124665
+JZ cond=0 ->128602 pc=124673
+JZ cond=0 ->121143 pc=339786
+JZ cond=1 ->125079 pc=122893
+JZ cond=1 ->339890 pc=124665
+JZ cond=0 ->128602 pc=124673
+JZ cond=0 ->121143 pc=339786
+JZ cond=1 ->125079 pc=122893
+JZ cond=1 ->339890 pc=124665
+JZ cond=0 ->128602 pc=124673
+JZ cond=0 ->121143 pc=339786
+JZ cond=1 ->125079 pc=122893
+JZ cond=1 ->339890 pc=124665
+JZ cond=0 ->128602 pc=124673
+JZ cond=0 ->121143 pc=339786
+JZ cond=1 ->125079 pc=122893
+JZ cond=1 ->339890 pc=124665
+JZ cond=0 ->128602 pc=124673
+JZ cond=0 ->121143 pc=339786
+JZ cond=1 ->125079 pc=122893
+JZ cond=1 ->339890 pc=124665
+JZ cond=0 ->128602 pc=124673
+JZ cond=0 ->121143 pc=339786
+JZ cond=1 ->125079 pc=122893
+JZ cond=1 ->339890 pc=124665
+JZ cond=0 ->128602 pc=124673
+JZ cond=0 ->121143 pc=339786
+JZ cond=1 ->125079 pc=122893
+JZ cond=1 ->339890 pc=124665
+JZ cond=0 ->128602 pc=124673
+JZ cond=0 ->121143 pc=339786
+JZ cond=1 ->125079 pc=122893
+JZ cond=1 ->339890 pc=124665
+JZ cond=0 ->128602 pc=124673
+JZ cond=0 ->121143 pc=339786
+JZ cond=1 ->125079 pc=122893
+JZ cond=0 ->339890 pc=124665
+RET121[9]=30882
+HLOAD addr=248 val=251 pc=943119 stack_top_below=30882
+STORE fp+24=0 pc=946692
+JZ cond=0 ->933833 pc=947596
+JZ cond=1 ->937827 pc=935583
+JZ cond=0 ->947861 pc=937355
+STORE fp+27=4 pc=952245
+STORE fp+26=275 pc=952246
+STORE fp+29=3 pc=955748
+STORE fp+28=279 pc=955749
+JZ cond=0 ->965361 pc=963416
+PRINT base=279 ln=3 'no
+'
+PRINT base=282 ln=1 '
+'
+JZ cond=0 ->967119 pc=372851
+JZ cond=0 ->982425 pc=968864
+JZ cond=0 ->1023321 pc=984170
+JZ cond=0 ->1031504 pc=1023328

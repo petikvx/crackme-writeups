@@ -5,8 +5,31 @@ by_id:
     path: "authors/ray33ee/6a81d143184836c0dbe7d7e1/original/xor_crackme.exe"
     title: "ray33ee's x or and add"
 
+  6a9ae805cab6678aefe9dcb2:
+    sha256: "4184e52d81b37b63e060d2ccd0e52188ca778593b272f9a0ef280e688bb55412"
+    path: "authors/ray33ee/6a9ae805cab6678aefe9dcb2/original/crackus.exe"
+    title: "ray33ee's obscurio - 3"
+
+  6a88726c3b246e477b6c094d:
+    sha256: "95c3b83c1b6f58e65c88074381bce1471a0e2158afcd14a5cf3025a60f23c964"
+    path: "authors/ray33ee/6a88726c3b246e477b6c094d/original/obscurio1.zip"
+    title: "ray33ee's obscurio"
+
 by_sha256:
   0bd5e02796ac81072ea2c49bb83196d702a17329a0355626880d74b4f0affa24:
     id: 6a81d143184836c0dbe7d7e1
     path: "authors/ray33ee/6a81d143184836c0dbe7d7e1/original/xor_crackme.exe"
     page: https://crackmes.one/crackme/6a81d143184836c0dbe7d7e1
+  4184e52d81b37b63e060d2ccd0e52188ca778593b272f9a0ef280e688bb55412:
+    id: 6a9ae805cab6678aefe9dcb2
+    path: "authors/ray33ee/6a9ae805cab6678aefe9dcb2/original/crackus.exe"
+    page: https://crackmes.one/crackme/6a9ae805cab6678aefe9dcb2
+  91ef1791113b38f96fef3797efe93a992731945eb7e156bb1b302482b4ce52c3:
+    id: 6a9ae805cab6678aefe9dcb2
+    path: "authors/ray33ee/6a9ae805cab6678aefe9dcb2/original/obscurio3.zip"
+    page: https://crackmes.one/crackme/6a9ae805cab6678aefe9dcb2
+    note: "site zip (nested); primary binary is crackus.exe"
+  95c3b83c1b6f58e65c88074381bce1471a0e2158afcd14a5cf3025a60f23c964:
+    id: 6a88726c3b246e477b6c094d
+    path: "authors/ray33ee/6a88726c3b246e477b6c094d/original/obscurio1.zip"
+    page: https://crackmes.one/crackme/6a88726c3b246e477b6c094d

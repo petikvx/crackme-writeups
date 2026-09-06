@@ -1,0 +1,41 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a9ae805cab6678aefe9dcb2
+
+urls:
+  page: https://crackmes.one/crackme/6a9ae805cab6678aefe9dcb2
+  download: https://crackmes.one/download/crackme/6a9ae805cab6678aefe9dcb2
+
+title: "ray33ee's obscurio"
+author_on_site: "ray33ee"
+author_local: "ray33ee"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C/C++ + custom VM bytecode"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: 3
+local_slug: obscurio-3
+
+binary:
+  path: "original/crackus.exe"
+  name: "crackus.exe"
+  sha256: "4184e52d81b37b63e060d2ccd0e52188ca778593b272f9a0ef280e688bb55412"
+  md5: "4acbae47cbae48833c9735ec28f5fcc9"
+  size_bytes: 51712
+  companion:
+    - path: "original/program.bin"
+      sha256: "cf6ab02b715bfe781ba7c3fe399518ad938479324136441b6d6298526993f3ad"
+    - path: "original/obscurio3.zip"
+      sha256: "91ef1791113b38f96fef3797efe93a992731945eb7e156bb1b302482b4ce52c3"
+
+status: solved
+solution_summary: "VM stack + poly GF(65521) + fillers '-'; petik→E768-16D7-B4E9-DE3D-C4F3-CCA7-7998-7985-771D-F87D (49)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T19:08:05Z"

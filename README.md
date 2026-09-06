@@ -155,7 +155,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [nizzix](authors/nizzix/README.md) | Nizzix | 1 (Ageis) | 1 / 1 |
 | [thefakeking](authors/thefakeking/README.md) | TheFakeKing | 1 (Basic ConsoleBased) | 1 / 1 |
 | [svz](authors/svz/README.md) | SVz | 1 (Orrery) | 1 / 1 |
-| [ray33ee](authors/ray33ee/README.md) | ray33ee | 1 (x or and add) | 1 / 1 |
+| [ray33ee](authors/ray33ee/README.md) | ray33ee | 3 (x or and add + obscurio - 3 ; obscurio - 1 pending) | 2 / 3 |
 | [muhemed](authors/muhemed/README.md) | muhemed | 1 (muhemed crackme) | 1 / 1 |
 | [soulreaper](authors/soulreaper/README.md) | soulreaper | 3 (Dead Terminal + XorGate + Death Trap) | 3 / 3 |
 | [toasterbirb](authors/toasterbirb/README.md) | toasterbirb | 7 (yap + série asm flags…branchless-fixed) | 7 / 7 |
@@ -212,6 +212,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-06 | [obscurio - 3](authors/ray33ee/6a9ae805cab6678aefe9dcb2/) | ray33ee |
 | 2026-09-06 | [Death Trap](authors/soulreaper/6a7d0ce1184836c0dbe7d77e/) | soulreaper |
 | 2026-09-06 | [hell](authors/teknikclel69/67630a1d60fa67152406bbde/) | Teknikclel69 |
 | 2026-09-06 | [Lord Winderton](authors/tempesta/67a71e75e36dd9b0e79b2a00/) | Tempesta |
