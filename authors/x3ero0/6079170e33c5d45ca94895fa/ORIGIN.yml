@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6079170e33c5d45ca94895fa
+
+urls:
+  page: https://crackmes.one/crackme/6079170e33c5d45ca94895fa
+  download: https://crackmes.one/download/crackme/6079170e33c5d45ca94895fa
+
+title: "X3eRo0's fl04t"
+author_on_site: "X3eRo0"
+author_local: "x3ero0"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/fl04t"
+  name: "fl04t"
+  sha256: "c5d23382b4fe9ed760a09d8346311d3bbbbbaf48311906912bb52fc77d903786"
+  md5: "c773aba5c29ca5753bbb04cf693fbc00"
+  size_bytes: 8480
+
+status: solved
+solution_summary: "fr0m_fl04ts_1mp0rt_* — dottie80 XOR keys; read/write fds swapped"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T14:27:20Z"

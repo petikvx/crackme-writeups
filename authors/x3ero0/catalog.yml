@@ -5,8 +5,17 @@ by_id:
     path: "authors/x3ero0/61efb6a633c5d413767ca678/original/trace.txt"
     title: "X3eRo0's Eat Sleep Trace Repeat"
 
+  6079170e33c5d45ca94895fa:
+    sha256: "c5d23382b4fe9ed760a09d8346311d3bbbbbaf48311906912bb52fc77d903786"
+    path: "authors/x3ero0/6079170e33c5d45ca94895fa/original/fl04t"
+    title: "X3eRo0's fl04t"
+
 by_sha256:
   c081e1188e01ff7d82fea708c78a96dd96d965f41ed63b0272350e3f9ef4339e:
     id: 61efb6a633c5d413767ca678
     path: "authors/x3ero0/61efb6a633c5d413767ca678/original/trace.txt"
     page: https://crackmes.one/crackme/61efb6a633c5d413767ca678
+  c5d23382b4fe9ed760a09d8346311d3bbbbbaf48311906912bb52fc77d903786:
+    id: 6079170e33c5d45ca94895fa
+    path: "authors/x3ero0/6079170e33c5d45ca94895fa/original/fl04t"
+    page: https://crackmes.one/crackme/6079170e33c5d45ca94895fa

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6049f27f33c5d42c3d016dea
+
+urls:
+  page: https://crackmes.one/crackme/6049f27f33c5d42c3d016dea
+  download: https://crackmes.one/download/crackme/6049f27f33c5d42c3d016dea
+
+title: "S01den's 0verney"
+author_on_site: "S01den"
+author_local: "s01den"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/0verney"
+  name: "0verney"
+  sha256: "7d28b351023d1cca44d6c901c45a5041391d8234e396beb1e9d2d39650ab0c01"
+  md5: "e1697c3986060f858bfeaa62ec367865"
+  size_bytes: 17071
+
+status: solved
+solution_summary: "hidden PT_LOAD shellcode; Σord==990 (petikpppq) → G00d; anti-ptrace"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T14:27:22Z"

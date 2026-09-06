@@ -179,8 +179,10 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [ximxn](authors/ximxn/README.md) | Ximxn | 1 (perwira) | 1 / 1 |
 | [breadleaf](authors/breadleaf/README.md) | breadleaf | 1 (Password and Username) | 1 / 1 |
 | [thephilosopher](authors/thephilosopher/README.md) | ThePhilosopher | 2 (Bruteverse + The Matrix) | 2 / 2 |
-| [x3ero0](authors/x3ero0/README.md) | X3eRo0 | 1 (Eat Sleep Trace Repeat) | 1 / 1 |
+| [x3ero0](authors/x3ero0/README.md) | X3eRo0 | 2 (Trace + fl04t) | 2 / 2 |
 | [dev0](authors/dev0/README.md) | dev0 | 1 (x64_crackme_keygen) | 1 / 1 |
+| [s01den](authors/s01den/README.md) | S01den | 1 (0verney) | 1 / 1 |
+| [lubimpiskoty](authors/lubimpiskoty/README.md) | LubimPiskoty | 1 (Personal Safe) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -201,6 +203,9 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-06 | [fl04t](authors/x3ero0/6079170e33c5d45ca94895fa/) | X3eRo0 |
+| 2026-09-06 | [0verney](authors/s01den/6049f27f33c5d42c3d016dea/) | S01den |
+| 2026-09-06 | [Personal Safe](authors/lubimpiskoty/5fa94bb233c5d424269a17b7/) | LubimPiskoty |
 | 2026-09-06 | [Eat Sleep Trace Repeat](authors/x3ero0/61efb6a633c5d413767ca678/) | X3eRo0 |
 | 2026-09-06 | [x64_crackme_keygen](authors/dev0/61c8b23a33c5d413767ca0de/) | dev0 |
 | 2026-09-06 | [The Matrix](authors/thephilosopher/617ec2cb33c5d4329c345422/) | ThePhilosopher |

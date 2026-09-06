@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5fa94bb233c5d424269a17b7:
+    sha256: "fe53cab82350ec8b8e2007efb3b280da4bc8f4d78189a927de4bea18f7e37a37"
+    path: "authors/lubimpiskoty/5fa94bb233c5d424269a17b7/original/safe"
+    title: "LubimPiskoty's Personal Safe"
+
+by_sha256:
+  fe53cab82350ec8b8e2007efb3b280da4bc8f4d78189a927de4bea18f7e37a37:
+    id: 5fa94bb233c5d424269a17b7
+    path: "authors/lubimpiskoty/5fa94bb233c5d424269a17b7/original/safe"
+    page: https://crackmes.one/crackme/5fa94bb233c5d424269a17b7

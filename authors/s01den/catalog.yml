@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6049f27f33c5d42c3d016dea:
+    sha256: "7d28b351023d1cca44d6c901c45a5041391d8234e396beb1e9d2d39650ab0c01"
+    path: "authors/s01den/6049f27f33c5d42c3d016dea/original/0verney"
+    title: "S01den's 0verney"
+
+by_sha256:
+  7d28b351023d1cca44d6c901c45a5041391d8234e396beb1e9d2d39650ab0c01:
+    id: 6049f27f33c5d42c3d016dea
+    path: "authors/s01den/6049f27f33c5d42c3d016dea/original/0verney"
+    page: https://crackmes.one/crackme/6049f27f33c5d42c3d016dea

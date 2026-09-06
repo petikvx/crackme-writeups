@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5fa94bb233c5d424269a17b7
+
+urls:
+  page: https://crackmes.one/crackme/5fa94bb233c5d424269a17b7
+  download: https://crackmes.one/download/crackme/5fa94bb233c5d424269a17b7
+
+title: "LubimPiskoty's Personal Safe"
+author_on_site: "LubimPiskoty"
+author_local: "lubimpiskoty"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/safe"
+  name: "safe"
+  sha256: "fe53cab82350ec8b8e2007efb3b280da4bc8f4d78189a927de4bea18f7e37a37"
+  md5: "803341a478b925b2576cc6772331fe00"
+  size_bytes: 9312
+
+status: solved
+solution_summary: "16B sums A=262 B=273 mirrored; ABABDDDEABABDDDE → Access granted"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T14:29:35Z"
