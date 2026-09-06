@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 67630a1d60fa67152406bbde
+
+urls:
+  page: https://crackmes.one/crackme/67630a1d60fa67152406bbde
+  download: https://crackmes.one/download/crackme/67630a1d60fa67152406bbde
+
+title: "Teknikclel69's hell"
+author_on_site: "Teknikclel69"
+author_local: "teknikclel69"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/hell.exe"
+  name: "hell.exe"
+  sha256: "caf7a3c83eb5aa11f8602688a07808cd9ee881c173c8030a467f0b80c9e928b8"
+  md5: "3dbdf19da7ff629c7474493b1b4e5da4"
+  size_bytes: 61457
+
+status: solved
+solution_summary: "hell.exe c + 15 lignes licrftsd/ebavfqr → You did the thing (x64dbg)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T15:36:19Z"

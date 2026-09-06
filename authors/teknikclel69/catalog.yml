@@ -5,8 +5,17 @@ by_id:
     path: "authors/teknikclel69/65afe04ceef082e477ff6026/original/main"
     title: "Teknikclel69's silly"
 
+  67630a1d60fa67152406bbde:
+    sha256: "caf7a3c83eb5aa11f8602688a07808cd9ee881c173c8030a467f0b80c9e928b8"
+    path: "authors/teknikclel69/67630a1d60fa67152406bbde/original/hell.exe"
+    title: "Teknikclel69's hell"
+
 by_sha256:
   3bc20f8b6f99edb24c567d4a762d0ec256c55d08d80bb4606d76ff2e9f1819bb:
     id: 65afe04ceef082e477ff6026
     path: "authors/teknikclel69/65afe04ceef082e477ff6026/original/main"
     page: https://crackmes.one/crackme/65afe04ceef082e477ff6026
+  caf7a3c83eb5aa11f8602688a07808cd9ee881c173c8030a467f0b80c9e928b8:
+    id: 67630a1d60fa67152406bbde
+    path: "authors/teknikclel69/67630a1d60fa67152406bbde/original/hell.exe"
+    page: https://crackmes.one/crackme/67630a1d60fa67152406bbde

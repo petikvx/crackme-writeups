@@ -140,7 +140,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [abolhb](authors/abolhb/README.md) | ABOLHB | 1 (MasonCrackmeV2) | 1 / 1 |
 | [alessiosca](authors/alessiosca/README.md) | alessiosca | 1 (python - decryptme) | 1 / 1 |
 | [ockotajny](authors/ockotajny/README.md) | OckoTajny | 1 (netCrack) | 1 / 1 |
-| [teknikclel69](authors/teknikclel69/README.md) | Teknikclel69 | 1 (silly) | 1 / 1 |
+| [teknikclel69](authors/teknikclel69/README.md) | Teknikclel69 | 2 (silly + hell) | 2 / 2 |
 | [xeeven](authors/xeeven/README.md) | Xeeven | 1 (FindThePassword1) | 1 / 1 |
 | [r3tr0bs](authors/r3tr0bs/README.md) | R3tr0BS | 1 (EZ crackme) | 1 / 1 |
 | [oguzbey](authors/oguzbey/README.md) | oguzbey | 1 (Lucky Numbers) | 1 / 1 |
