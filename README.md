@@ -189,6 +189,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [binarynewbie](authors/binarynewbie/README.md) | BinaryNewbie | 1 (Small Keygenme) | 1 / 1 |
 | [weissi1994](authors/weissi1994/README.md) | weissi1994 | 1 (crackme-not) | 1 / 1 |
 | [2bitsin](authors/2bitsin/README.md) | 2bitsin | 1 (Secret message from a traveller) | 1 / 1 |
+| [fentcat](authors/fentcat/README.md) | FentCat | 1 (Assembler Crackme) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -209,6 +210,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-06 | [Assembler Crackme](authors/fentcat/68fce1922d267f28f69b783a/) | fentcat |
 | 2026-09-06 | [Secret message from a traveller](authors/2bitsin/650c14b528b5870bef26308d/) | 2bitsin |
 | 2026-09-06 | [cropta_1](authors/crackmes-de/5ab77f5f33c5d40ad448c7e1/) | crackmes.de / cropta |
 | 2026-09-06 | [crackme_1_by_huskyhusky](authors/crackmes-de/5ab77f5633c5d40ad448c27b/) | crackmes.de / huskyhusky |

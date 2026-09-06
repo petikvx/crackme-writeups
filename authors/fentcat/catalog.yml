@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  68fce1922d267f28f69b783a:
+    sha256: "104f850cf4e7d3f6bc09d286fcbe651795c632a79ebbc2242ea8be08cd8b8e41"
+    path: "authors/fentcat/68fce1922d267f28f69b783a/original/crackme.exe"
+    title: "FentCat's Assembler Crackme"
+
+by_sha256:
+  104f850cf4e7d3f6bc09d286fcbe651795c632a79ebbc2242ea8be08cd8b8e41:
+    id: 68fce1922d267f28f69b783a
+    path: "authors/fentcat/68fce1922d267f28f69b783a/original/crackme.exe"
+    page: https://crackmes.one/crackme/68fce1922d267f28f69b783a

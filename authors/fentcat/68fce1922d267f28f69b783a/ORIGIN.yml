@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 68fce1922d267f28f69b783a
+
+urls:
+  page: https://crackmes.one/crackme/68fce1922d267f28f69b783a
+  download: https://crackmes.one/download/crackme/68fce1922d267f28f69b783a
+
+title: "FentCat's Assembler Crackme"
+author_on_site: "FentCat"
+author_local: "fentcat"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: assembler-crackme
+
+binary:
+  path: "original/crackme.exe"
+  name: "crackme.exe"
+  sha256: "104f850cf4e7d3f6bc09d286fcbe651795c632a79ebbc2242ea8be08cd8b8e41"
+  md5: "d984f4a4bbb82a815f0c16f55335db9a"
+  size_bytes: 8900
+
+status: solved
+solution_summary: "password @CBEDGFI (8 octets vs encoded_data @ 0x4021db ; anti-debug/XOR leurres)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T15:22:34Z"
