@@ -173,7 +173,8 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [xalperen](authors/xalperen/README.md) | xalperen | 1 (KryptonVM) | 1 / 1 |
 | [shadowlegion](authors/shadowlegion/README.md) | ShadowLegion | 1 (TermBreaker) | 1 / 1 |
 | [5iriu5](authors/5iriu5/README.md) | 5iriu5 | 1 (SSE Login) | 1 / 1 |
-| [jenya](authors/jenya/README.md) | Jenya | 1 (math_crackme) | 1 / 1 |
+| [jenya](authors/jenya/README.md) | Jenya | 2 (math_crackme + linux_asm_jenya) | 2 / 2 |
+| [0x6f6d6172h](authors/0x6f6d6172h/README.md) | 0x6f6D6172h | 1 (crackme1) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -194,6 +195,8 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-06 | [linux_asm_jenya](authors/jenya/655b43750f4238b24302bc42/) | Jenya |
+| 2026-09-06 | [crackme1](authors/0x6f6d6172h/6516c8018b6aa566ae723220/) | 0x6f6D6172h |
 | 2026-09-06 | [math_crackme](authors/jenya/659ffe1beef082e477ff59d0/) | Jenya |
 | 2026-09-06 | [SSE Login](authors/5iriu5/65a81968eef082e477ff5d10/) | 5iriu5 |
 | 2026-09-06 | [branchless-fixed](authors/toasterbirb/68c1f30a224c0ec5dcedbeda/) | toasterbirb |

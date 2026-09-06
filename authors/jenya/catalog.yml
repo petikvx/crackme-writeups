@@ -5,8 +5,17 @@ by_id:
     path: "authors/jenya/659ffe1beef082e477ff59d0/original/math_crackme.zip"
     title: "Jenya's math_crackme"
 
+  655b43750f4238b24302bc42:
+    sha256: "6e65529ec75a504e2af02c974c50ab4c755133a30c262dae6d601d774ab0b494"
+    path: "authors/jenya/655b43750f4238b24302bc42/original/jenya_asm_linux.zip"
+    title: "Jenya's linux_asm_jenya"
+
 by_sha256:
   f9d4695c882d8125fdf82c7652aab2446856585875476e5b76fe6377f765c8bd:
     id: 659ffe1beef082e477ff59d0
     path: "authors/jenya/659ffe1beef082e477ff59d0/original/math_crackme.zip"
     page: https://crackmes.one/crackme/659ffe1beef082e477ff59d0
+  6e65529ec75a504e2af02c974c50ab4c755133a30c262dae6d601d774ab0b494:
+    id: 655b43750f4238b24302bc42
+    path: "authors/jenya/655b43750f4238b24302bc42/original/jenya_asm_linux.zip"
+    page: https://crackmes.one/crackme/655b43750f4238b24302bc42

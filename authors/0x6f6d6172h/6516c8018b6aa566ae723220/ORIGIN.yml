@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6516c8018b6aa566ae723220
+
+urls:
+  page: https://crackmes.one/crackme/6516c8018b6aa566ae723220
+  download: https://crackmes.one/download/crackme/6516c8018b6aa566ae723220
+
+title: "0x6f6D6172h's crackme1"
+author_on_site: "0x6f6D6172h"
+author_local: "0x6f6d6172h"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C (GCC) / tagged Assembler on site"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: crackme1
+
+binary:
+  path: "original/crackme1"
+  name: "crackme1"
+  sha256: "3cb55490975cd2f2878af795b931599337e1a75a40b5670ba41059ec77f389f8"
+  md5: "058f218fc4796705afbc845b63e1b5ea"
+  size_bytes: 7192
+
+status: solved
+solution_summary: "flag{not_that_kind_of_elf} (puts en clair)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T14:08:15Z"

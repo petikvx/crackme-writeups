@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 655b43750f4238b24302bc42
+
+urls:
+  page: https://crackmes.one/crackme/655b43750f4238b24302bc42
+  download: https://crackmes.one/download/crackme/655b43750f4238b24302bc42
+
+title: "Jenya's linux_asm_jenya"
+author_on_site: "Jenya"
+author_local: "jenya"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "Assembler (NASM)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: linux-asm-jenya
+
+binary:
+  path: "original/jenya_asm_linux.zip"
+  name: "jenya_asm_linux.zip"
+  sha256: "6e65529ec75a504e2af02c974c50ab4c755133a30c262dae6d601d774ab0b494"
+  md5: "726565820b46e952ea46e1b799d51d98"
+  size_bytes: 1551
+
+status: solved
+solution_summary: "palindrome len>=3 ; ex. aba"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T14:08:13Z"
