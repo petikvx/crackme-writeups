@@ -30,6 +30,11 @@ by_id:
     path: "authors/toasterbirb/6869287daadb6eeafb398fec/original/jump"
     title: "toasterbirb's jump"
 
+  68c1f30a224c0ec5dcedbeda:
+    sha256: "38506bba3d1bf8b145bdb7176db43d13806d38ea53d870e14ac29d3111963022"
+    path: "authors/toasterbirb/68c1f30a224c0ec5dcedbeda/original/branchless"
+    title: "toasterbirb's branchless"
+
 by_sha256:
   4420c47f5c1ddaf46b9add156e6badc6ff66af3b0ea38a7c714b6e0d6acf1d82:
     id: 6a77541805a9e80a907242fe
@@ -55,3 +60,7 @@ by_sha256:
     id: 6869287daadb6eeafb398fec
     path: "authors/toasterbirb/6869287daadb6eeafb398fec/original/jump"
     page: https://crackmes.one/crackme/6869287daadb6eeafb398fec
+  38506bba3d1bf8b145bdb7176db43d13806d38ea53d870e14ac29d3111963022:
+    id: 68c1f30a224c0ec5dcedbeda
+    path: "authors/toasterbirb/68c1f30a224c0ec5dcedbeda/original/branchless"
+    page: https://crackmes.one/crackme/68c1f30a224c0ec5dcedbeda

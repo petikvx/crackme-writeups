@@ -14,6 +14,7 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml) (id ↔ sha256).
 | 4 | [branchless branching](68692679aadb6eeafb398fdf/) | [`68692679…`](https://crackmes.one/crackme/68692679aadb6eeafb398fdf) | Linux ELF64 NASM | `petik→rn%5ielsrArvz"""` |
 | 5 | [branchless](68692748aadb6eeafb398fe3/) | [`68692748…`](https://crackmes.one/crackme/68692748aadb6eeafb398fe3) | Linux ELF64 NASM | `5$` (len/sum fib∩prime) |
 | 6 | [jump](6869287daadb6eeafb398fec/) | [`6869287d…`](https://crackmes.one/crackme/6869287daadb6eeafb398fec) | Linux ELF64 NASM | `just` / `test` (byte[3]=`t`) |
+| 7 | [branchless-fixed](68c1f30a224c0ec5dcedbeda/) | [`68c1f30a…`](https://crackmes.one/crackme/68c1f30a224c0ec5dcedbeda) | Linux ELF64 NASM | `5$` (DLC fix `idiv rcx`) |
 
 ## Ajouter un crackme
 

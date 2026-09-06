@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 68c1f30a224c0ec5dcedbeda
+
+urls:
+  page: https://crackmes.one/crackme/68c1f30a224c0ec5dcedbeda
+  download: https://crackmes.one/download/crackme/68c1f30a224c0ec5dcedbeda
+
+title: "toasterbirb's branchless-fixed"
+author_on_site: "toasterbirb"
+author_local: "toasterbirb"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "Assembler (NASM)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: branchless-fixed
+
+binary:
+  path: "original/branchless"
+  name: "branchless"
+  sha256: "38506bba3d1bf8b145bdb7176db43d13806d38ea53d870e14ac29d3111963022"
+  md5: "c4761b7097eccad40cae2f609c8339c6"
+  size_bytes: 8608
+
+status: solved
+solution_summary: "same as branchless: 5$ (len/sum fib∩prime) ; fix idiv rcx"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T14:01:05Z"
