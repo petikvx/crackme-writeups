@@ -113,7 +113,7 @@ def main() -> int:
     ap.add_argument("--payload", action="store_true", help="payload overflow brut (stdin du binaire)")
     ap.add_argument("--payload-hex", action="store_true")
     ap.add_argument("--check", action="store_true", help="live overflow → flag (stdbuf -o0)")
-    ap.add_argument("--leak", action="store_true", help="démo format-string %32$p.%33$p")
+    ap.add_argument("--leak", action="store_true", help="démo format-string %%32$p.%%33$p")
     args = ap.parse_args()
 
     if args.check:

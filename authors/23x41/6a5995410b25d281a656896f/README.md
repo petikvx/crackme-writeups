@@ -133,6 +133,99 @@ Pas de PIE → adresse fixe. `system("/bin/sh")` plante ensuite (stack déjà co
 
 ---
 
+## Debug GDB (pas à pas)
+
+ELF64 **non-PIE**, C++, **non strippé**. GDB déclenche le `ptrace` cosmétique → message Ministry…, le quiz **continue**.
+
+### 4.1 Symboles
+
+```bash
+gdb -q ./original/juche_loyalty_test
+(gdb) info address grant_party_membership    # 0x4011a6
+(gdb) info address self_criticism_mode       # 0x401239
+(gdb) info address take_loyalty_test
+(gdb) disassemble self_criticism_mode
+```
+
+Dans `self_criticism_mode` :
+
+| VA | Rôle |
+|---|---|
+| `0x4012c1` | `getline(cin, buf, 0xc8)` — buf `@ rbp-0x80` |
+| `0x4012d2` | `printf(buf)` — **format string** |
+| `0x4012e2` | `leave ; ret` — `ra` à écraser (`offset 0x88`) |
+
+### 4.2 Voir les réponses sur la stack (avant fail)
+
+```text
+(gdb) break take_loyalty_test
+(gdb) run
+(gdb) # juste après les mov qui posent "38" / "Mount Paektu" :
+(gdb) x/s $rbp-0x3                 # "38" (selon frame)
+(gdb) x/s $rbp-0x10                # "Mount Paektu"
+```
+
+Ou laisser échouer Q1 et leak via `printf` :
+
+```text
+(gdb) break self_criticism_mode
+(gdb) run
+# Q1 : nope
+(gdb) continue
+# critique : %32$p.%33$p
+# stdout → 0x615020746e756f4d.0x38330075746b65  (= Mount Pa / ektu+38)
+```
+
+Même démo hors GDB : `python3 tools/juche-solve.py --leak`.
+
+### 4.3 Cheese GDB sur `strcmp` (hors sujet pédagogique)
+
+```text
+(gdb) break strcmp
+(gdb) run
+# Q1 : n'importe quoi
+(gdb) set $eax = 0                 # ou return 0 selon ABI / finish
+(gdb) continue
+# Q2 : idem — grant_party_membership
+```
+
+Le write-up privilégie leak + ret2grant ; le patch `strcmp` est mentionné sur crackmes.one.
+
+### 4.4 Overflow → `grant_party_membership`
+
+```text
+(gdb) break grant_party_membership
+(gdb) run
+# Q1 faux → self_criticism
+# payload : 0x88 × 'A' + p64(0x4011a6)
+(gdb) # hit grant → FLAG flushé (system("/bin/sh") peut ensuite se planter)
+```
+
+Session automatisée :
+
+```bash
+python3 tools/juche-solve.py --check
+# FLAG{0x8A7_JUCHE_FORMAT_STRING_MASTERY}
+```
+
+Sous GDB, pour inspecter le `ret` corrompu :
+
+```text
+(gdb) break *0x4012e2            # leave de self_criticism
+(gdb) # après getline du payload
+(gdb) x/gx $rbp+0x8              # doit être 0x4011a6
+(gdb) stepi ; stepi              # leave ; ret → grant
+```
+
+### 4.5 Piège Q2
+
+```text
+(gdb) # saisir "Mount Paektu" via cin >> → seule "Mount" est lue → fail
+(gdb) break self_criticism_mode  # confirmé
+```
+
+---
+
 ## 4. Vérification
 
 ```bash

