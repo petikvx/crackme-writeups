@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 68692100aadb6eeafb398fd3
+
+urls:
+  page: https://crackmes.one/crackme/68692100aadb6eeafb398fd3
+  download: https://crackmes.one/download/crackme/68692100aadb6eeafb398fd3
+
+title: "toasterbirb's off_by_one"
+author_on_site: "toasterbirb"
+author_local: "toasterbirb"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "Assembler (NASM)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: off-by-one
+
+binary:
+  path: "original/off-by-one"
+  name: "off-by-one"
+  sha256: "f6ce1665a3ae011f0cad79cb7cc73a3ab6c38795c74a16c777c601f1f87b04dd"
+  md5: "c32bbe3de75d6c2715de76859520c4c8"
+  size_bytes: 4816
+
+status: solved
+solution_summary: "passphrase DXUPWYfU = (\"The give\"[i]%64)+0x30"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T13:46:09Z"

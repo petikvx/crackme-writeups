@@ -10,6 +10,11 @@ by_id:
     path: "authors/toasterbirb/686918c6aadb6eeafb398fbd/original/flags"
     title: "toasterbirb's flags"
 
+  68692100aadb6eeafb398fd3:
+    sha256: "f6ce1665a3ae011f0cad79cb7cc73a3ab6c38795c74a16c777c601f1f87b04dd"
+    path: "authors/toasterbirb/68692100aadb6eeafb398fd3/original/off-by-one"
+    title: "toasterbirb's off_by_one"
+
 by_sha256:
   4420c47f5c1ddaf46b9add156e6badc6ff66af3b0ea38a7c714b6e0d6acf1d82:
     id: 6a77541805a9e80a907242fe
@@ -19,3 +24,7 @@ by_sha256:
     id: 686918c6aadb6eeafb398fbd
     path: "authors/toasterbirb/686918c6aadb6eeafb398fbd/original/flags"
     page: https://crackmes.one/crackme/686918c6aadb6eeafb398fbd
+  f6ce1665a3ae011f0cad79cb7cc73a3ab6c38795c74a16c777c601f1f87b04dd:
+    id: 68692100aadb6eeafb398fd3
+    path: "authors/toasterbirb/68692100aadb6eeafb398fd3/original/off-by-one"
+    page: https://crackmes.one/crackme/68692100aadb6eeafb398fd3
