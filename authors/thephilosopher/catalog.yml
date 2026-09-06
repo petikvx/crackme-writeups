@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  634bdec633c5d4425e2cd8ee:
+    sha256: "0a1fb4054cceb271e71c06f2b3073c66633fd8b54790d47b4ab415b2b6095762"
+    path: "authors/thephilosopher/634bdec633c5d4425e2cd8ee/original/crackme"
+    title: "ThePhilosopher's Bruteverse"
+
+by_sha256:
+  0a1fb4054cceb271e71c06f2b3073c66633fd8b54790d47b4ab415b2b6095762:
+    id: 634bdec633c5d4425e2cd8ee
+    path: "authors/thephilosopher/634bdec633c5d4425e2cd8ee/original/crackme"
+    page: https://crackmes.one/crackme/634bdec633c5d4425e2cd8ee

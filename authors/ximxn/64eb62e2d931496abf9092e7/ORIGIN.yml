@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 64eb62e2d931496abf9092e7
+
+urls:
+  page: https://crackmes.one/crackme/64eb62e2d931496abf9092e7
+  download: https://crackmes.one/download/crackme/64eb62e2d931496abf9092e7
+
+title: "Ximxn's perwira"
+author_on_site: "Ximxn"
+author_local: "ximxn"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: perwira
+
+binary:
+  path: "original/perwira"
+  name: "perwira"
+  sha256: "44d3b46a90709ac63995d43d5d2a380f49533155ceca017051c6a417954490ba"
+  md5: "ae18ad79beabb633d0d68884c534ea2b"
+  size_bytes: 16144
+
+status: solved
+solution_summary: "3108{r3nt4p} (Rentap)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T14:17:16Z"

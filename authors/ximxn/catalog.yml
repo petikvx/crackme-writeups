@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  64eb62e2d931496abf9092e7:
+    sha256: "44d3b46a90709ac63995d43d5d2a380f49533155ceca017051c6a417954490ba"
+    path: "authors/ximxn/64eb62e2d931496abf9092e7/original/perwira"
+    title: "Ximxn's perwira"
+
+by_sha256:
+  44d3b46a90709ac63995d43d5d2a380f49533155ceca017051c6a417954490ba:
+    id: 64eb62e2d931496abf9092e7
+    path: "authors/ximxn/64eb62e2d931496abf9092e7/original/perwira"
+    page: https://crackmes.one/crackme/64eb62e2d931496abf9092e7

@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  647eeb9b33c5d439389136a8:
+    sha256: "5376a6ce8a57051f9e24f47f72b5f9585d724265188f9e2e9525e89f134a74fb"
+    path: "authors/breadleaf/647eeb9b33c5d439389136a8/original/crackMe"
+    title: "breadleaf's Password and Username guess"
+
+by_sha256:
+  5376a6ce8a57051f9e24f47f72b5f9585d724265188f9e2e9525e89f134a74fb:
+    id: 647eeb9b33c5d439389136a8
+    path: "authors/breadleaf/647eeb9b33c5d439389136a8/original/crackMe"
+    page: https://crackmes.one/crackme/647eeb9b33c5d439389136a8

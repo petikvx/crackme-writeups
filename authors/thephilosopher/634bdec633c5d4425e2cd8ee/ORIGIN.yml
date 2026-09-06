@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 634bdec633c5d4425e2cd8ee
+
+urls:
+  page: https://crackmes.one/crackme/634bdec633c5d4425e2cd8ee
+  download: https://crackmes.one/download/crackme/634bdec633c5d4425e2cd8ee
+
+title: "ThePhilosopher's Bruteverse"
+author_on_site: "ThePhilosopher"
+author_local: "thephilosopher"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "Assembler (NASM)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: bruteverse
+
+binary:
+  path: "original/crackme"
+  name: "crackme"
+  sha256: "0a1fb4054cceb271e71c06f2b3073c66633fd8b54790d47b4ab415b2b6095762"
+  md5: "b201c41e128cc98281a1ea9a8592e131"
+  size_bytes: 9056
+
+status: solved
+solution_summary: "R2V2R5IN5_4S_R42LL7_F2N (.data xor 0xf3)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T14:17:19Z"

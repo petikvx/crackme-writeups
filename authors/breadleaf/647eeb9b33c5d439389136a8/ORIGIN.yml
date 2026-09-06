@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 647eeb9b33c5d439389136a8
+
+urls:
+  page: https://crackmes.one/crackme/647eeb9b33c5d439389136a8
+  download: https://crackmes.one/download/crackme/647eeb9b33c5d439389136a8
+
+title: "breadleaf's Password and Username guess"
+author_on_site: "breadleaf"
+author_local: "breadleaf"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C++"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: password-username
+
+binary:
+  path: "original/crackMe"
+  name: "crackMe"
+  sha256: "5376a6ce8a57051f9e24f47f72b5f9585d724265188f9e2e9525e89f134a74fb"
+  md5: "04a6f435b34ceebc8534c4cb91ae825e"
+  size_bytes: 17336
+
+status: solved
+solution_summary: "petik + any password len=541 (=Σord)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T14:17:17Z"

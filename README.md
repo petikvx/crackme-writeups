@@ -176,6 +176,9 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [jenya](authors/jenya/README.md) | Jenya | 2 (math_crackme + linux_asm_jenya) | 2 / 2 |
 | [0x6f6d6172h](authors/0x6f6d6172h/README.md) | 0x6f6D6172h | 1 (crackme1) | 1 / 1 |
 | [s4r](authors/s4r/README.md) | s4r | 1 (encrypted_box) | 1 / 1 |
+| [ximxn](authors/ximxn/README.md) | Ximxn | 1 (perwira) | 1 / 1 |
+| [breadleaf](authors/breadleaf/README.md) | breadleaf | 1 (Password and Username) | 1 / 1 |
+| [thephilosopher](authors/thephilosopher/README.md) | ThePhilosopher | 1 (Bruteverse) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -196,6 +199,9 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-06 | [perwira](authors/ximxn/64eb62e2d931496abf9092e7/) | Ximxn |
+| 2026-09-06 | [Password and Username guess](authors/breadleaf/647eeb9b33c5d439389136a8/) | breadleaf |
+| 2026-09-06 | [Bruteverse](authors/thephilosopher/634bdec633c5d4425e2cd8ee/) | ThePhilosopher |
 | 2026-09-06 | [encrypted_box](authors/s4r/64f1f7dbd931496abf90952d/) | s4r |
 | 2026-09-06 | [linux_asm_jenya](authors/jenya/655b43750f4238b24302bc42/) | Jenya |
 | 2026-09-06 | [crackme1](authors/0x6f6d6172h/6516c8018b6aa566ae723220/) | 0x6f6D6172h |
