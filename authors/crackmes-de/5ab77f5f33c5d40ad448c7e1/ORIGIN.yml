@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5f33c5d40ad448c7e1
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5f33c5d40ad448c7e1
+  download: https://crackmes.one/download/crackme/5ab77f5f33c5d40ad448c7e1
+
+title: "crackmes.de's cropta_1 by cropta"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Multiplatform"
+arch: "x86"
+language: "Assembly"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: 1
+local_slug: cropta_1
+
+binary:
+  path: "original/crackme.zip"
+  name: "crackme.zip"
+  sha256: "38bb24df1c28cc7117deab5231fff13ad53ccd1ea1056f7714e082b58ce95f25"
+  md5: "2d0ccebd6cb3690ce1f99a1b44cb73e3"
+  size_bytes: 12372
+
+status: solved
+solution_summary: "MBR Bochs : XOR 0x77 @0x650 puis (c+3)^0x4A → password replicants"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T15:10:36Z"

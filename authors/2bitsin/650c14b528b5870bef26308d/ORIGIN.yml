@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 650c14b528b5870bef26308d
+
+urls:
+  page: https://crackmes.one/crackme/650c14b528b5870bef26308d
+  download: https://crackmes.one/download/crackme/650c14b528b5870bef26308d
+
+title: "2bitsin's Secret message from a traveller"
+author_on_site: "2bitsin"
+author_local: "2bitsin"
+
+platform: "Multiplatform"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 3.0
+quality: 4.5
+size: "1.41 MB"
+published: "2023-09-21"
+
+series_index: null
+local_slug: secret-message-from-a-traveller
+
+binary:
+  path: "original/floppy.img"
+  name: "floppy.img"
+  sha256: "6a40801cea09a0936cac64e76c3cab0a4c6139afaaed080774c75e95b19479ff"
+  md5: "3f2f062490bb5e7fbc2202ca457c5d56"
+  size_bytes: 1474560
+
+status: solved
+solution_summary: "XTEA key from IBM PS/1 ROM P/N 92F9674 @ 0xE4040 → flag teso{john_titor_was_here}"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-06T15:10:38Z"

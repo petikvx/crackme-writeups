@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  650c14b528b5870bef26308d:
+    sha256: "6a40801cea09a0936cac64e76c3cab0a4c6139afaaed080774c75e95b19479ff"
+    path: "authors/2bitsin/650c14b528b5870bef26308d/original/floppy.img"
+    title: "2bitsin's Secret message from a traveller"
+
+by_sha256:
+  6a40801cea09a0936cac64e76c3cab0a4c6139afaaed080774c75e95b19479ff:
+    id: 650c14b528b5870bef26308d
+    path: "authors/2bitsin/650c14b528b5870bef26308d/original/floppy.img"
+    page: https://crackmes.one/crackme/650c14b528b5870bef26308d

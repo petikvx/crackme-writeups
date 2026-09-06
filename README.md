@@ -145,7 +145,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [oguzbey](authors/oguzbey/README.md) | oguzbey | 1 (Lucky Numbers) | 1 / 1 |
 | [andrewl](authors/andrewl/README.md) | andrewl | 1 (Quick Crypto) | 1 / 1 |
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
-| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 65 / 73 |
+| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 66 / 75 |
 | [chaltu](authors/chaltu/README.md) | chaltu | 2 (a Treasure + Double Door) | 2 / 2 |
 | [qerr0r](authors/qerr0r/README.md) | QERR0R | 1 (crackit) | 1 / 1 |
 | [steve_maxwell](authors/steve_maxwell/README.md) | steve_maxwell | 1 (X-0-R) | 1 / 1 |
@@ -188,6 +188,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [bitfriends](authors/bitfriends/README.md) | BitFriends | 1 (nasm crack) | 1 / 1 |
 | [binarynewbie](authors/binarynewbie/README.md) | BinaryNewbie | 1 (Small Keygenme) | 1 / 1 |
 | [weissi1994](authors/weissi1994/README.md) | weissi1994 | 1 (crackme-not) | 1 / 1 |
+| [2bitsin](authors/2bitsin/README.md) | 2bitsin | 1 (Secret message from a traveller) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -208,6 +209,8 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-06 | [Secret message from a traveller](authors/2bitsin/650c14b528b5870bef26308d/) | 2bitsin |
+| 2026-09-06 | [cropta_1](authors/crackmes-de/5ab77f5f33c5d40ad448c7e1/) | crackmes.de / cropta |
 | 2026-09-06 | [crackme_1_by_huskyhusky](authors/crackmes-de/5ab77f5633c5d40ad448c27b/) | crackmes.de / huskyhusky |
 | 2026-09-06 | [hell86](authors/ttlhacker/5bc0fe0033c5d4110a29b296/) | ttlhacker |
 | 2026-09-06 | [jittery](authors/ttlhacker/5c44f1bb33c5d475210bc634/) | ttlhacker |
