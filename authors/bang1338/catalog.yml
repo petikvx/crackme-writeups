@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a9e9ac9cab6678aefe9dcfe:
+    sha256: "5150466f97438652caf8d82f491086974c1ab982377f27b1de63d22ef6e7a534"
+    path: "authors/bang1338/6a9e9ac9cab6678aefe9dcfe/original/Oops_All_sarr_-_bang1338.zip"
+    title: "bang1338's Oops! All sarr"
+
+by_sha256:
+  5150466f97438652caf8d82f491086974c1ab982377f27b1de63d22ef6e7a534:
+    id: 6a9e9ac9cab6678aefe9dcfe
+    path: "authors/bang1338/6a9e9ac9cab6678aefe9dcfe/original/Oops_All_sarr_-_bang1338.zip"
+    page: https://crackmes.one/crackme/6a9e9ac9cab6678aefe9dcfe

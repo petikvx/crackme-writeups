@@ -1,0 +1,39 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a9e9ac9cab6678aefe9dcfe
+
+urls:
+  page: https://crackmes.one/crackme/6a9e9ac9cab6678aefe9dcfe
+  download: https://crackmes.one/download/crackme/6a9e9ac9cab6678aefe9dcfe
+
+title: "bang1338's Oops! All sarr"
+author_on_site: "bang1338"
+author_local: "bang1338"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/sar.exe"
+  name: "sar.exe"
+  sha256: "12f7dbb5be9386b23767d4d31fb924187b820c2297ac46d3239c3492836896cd"
+  md5: ""
+  size_bytes: 372736
+  companion:
+    - path: "original/Oops_All_sarr_-_bang1338.zip"
+      sha256: "5150466f97438652caf8d82f491086974c1ab982377f27b1de63d22ef6e7a534"
+
+status: pending
+solution_summary: "WIP: GUI OopsAllSARsClass; decrypt RVA 0x50EB0 size 0x7110 (seed sarr + xorshift); titres Welcome to India, bhai! / sarr what are you saying?; dump live post-Flush TBD"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-07T19:43:27Z"
