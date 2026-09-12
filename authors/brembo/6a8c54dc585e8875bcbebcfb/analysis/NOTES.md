@@ -61,12 +61,17 @@ validKey(input) ?
 
 ## Tentatives préimage
 
-- rockyou (~14.3M) : miss  
-- rockyou top 500k × rules simples : miss  
-- L=1..4 (clé compatible XOR printable) : miss  
-- digits L=6..8 : miss  
-- dict `/usr/share/dict` + utf-16 : miss  
-- spoilers crackmes.one : pas la clé  
+Session 2026-08-26 :
+- rockyou (~14.3M) ; rockyou×rules ; L≤4 printable XOR ; digits L≤8 ; dict ; spoilers : miss  
+
+Session 2026-09-12 (H100 / hashcat 6.2.6, ~12 GH/s) :
+- rockyou + best64 : miss  
+- alnum `?l?d?u` L=5..7 : miss (L=8 ETA ~5 h, stoppé)  
+- lowercase L=8..9 : miss  
+- printable `?a` L=5..6 : miss  
+- rockyou + `\n` (hex-wordlist) : miss (`TrimSpace` confirmé après `ReadString`)  
+- L=4 printable-contraint XOR (23M) : miss  
+- `validKey` confirmé : `Sum256` → hex → `memequal` vs `112c2add…`  
 
 ## Wine
 

@@ -155,7 +155,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [nizzix](authors/nizzix/README.md) | Nizzix | 1 (Ageis) | 1 / 1 |
 | [thefakeking](authors/thefakeking/README.md) | TheFakeKing | 1 (Basic ConsoleBased) | 1 / 1 |
 | [svz](authors/svz/README.md) | SVz | 1 (Orrery) | 1 / 1 |
-| [ray33ee](authors/ray33ee/README.md) | ray33ee | 3 (x or and add + obscurio - 3 ; obscurio - 1 pending) | 2 / 3 |
+| [ray33ee](authors/ray33ee/README.md) | ray33ee | 3 (x or and add + obscurio-1 + obscurio-3) | 3 / 3 |
 | [muhemed](authors/muhemed/README.md) | muhemed | 1 (muhemed crackme) | 1 / 1 |
 | [soulreaper](authors/soulreaper/README.md) | soulreaper | 3 (Dead Terminal + XorGate + Death Trap) | 3 / 3 |
 | [toasterbirb](authors/toasterbirb/README.md) | toasterbirb | 7 (yap + série asm flags…branchless-fixed) | 7 / 7 |
@@ -217,6 +217,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-12 | [obscurio - 1](authors/ray33ee/6a88726c3b246e477b6c094d/) | ray33ee |
 | 2026-09-12 | [HydraVault](authors/hydra14212/6a898e1a48cda5a2aaa3dad3/) | Hydra14212 |
 | 2026-09-12 | [Oops! All sarr](authors/bang1338/6a9e9ac9cab6678aefe9dcfe/) | bang1338 |
 | 2026-09-12 | [Tenzo Crack ME Beta](authors/tenzo_aoki/6aa09754dbb3353b753967e4/) | tenzo_aoki |

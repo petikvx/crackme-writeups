@@ -5,31 +5,36 @@ urls:
   page: https://crackmes.one/crackme/6a88726c3b246e477b6c094d
   download: https://crackmes.one/download/crackme/6a88726c3b246e477b6c094d
 
-title: "ray33ee's obscurio"
+title: "ray33ee's obscurio - 1"
 author_on_site: "ray33ee"
 author_local: "ray33ee"
 
 platform: "Windows"
 arch: "x86-64"
-language: ""
+language: "C/C++"
 
-difficulty: null
-quality: null
-size: ""
-published: null
+difficulty: 4.2
+quality: 6.0
+size: "48.32 KB"
+published: "2026-08-21"
 
-series_index: null
-local_slug: null
+series_index: 1
+local_slug: obscurio-1
 
 binary:
-  path: "original/obscurio1.zip"
-  name: "obscurio1.zip"
-  sha256: "95c3b83c1b6f58e65c88074381bce1471a0e2158afcd14a5cf3025a60f23c964"
-  md5: "d8c722bc035cdc7e3033b0bb809e6cfd"
-  size_bytes: 49476
+  path: "original/crackus.exe"
+  name: "crackus.exe"
+  sha256: "78e57601954380985d539ef126b973b4e32f7c64a05be86a9f4f57f4448175d6"
+  md5: ""
+  size_bytes: 51200
+  companion:
+    - path: "original/program.bin"
+      sha256: "e5699551367488e9ccf9cc66bfeadc4fb3bb79a6218a2ae4cc8815f0a0fe82fc"
+    - path: "original/obscurio1.zip"
+      sha256: "95c3b83c1b6f58e65c88074381bce1471a0e2158afcd14a5cf3025a60f23c964"
 
-status: pending
-solution_summary: ""
+status: solved
+solution_summary: "password fixe r4y_0b5Curi0_I729 → well done! (VM program.bin) ; Wine OK"
 
 download:
   zip_password: crackmes.one
