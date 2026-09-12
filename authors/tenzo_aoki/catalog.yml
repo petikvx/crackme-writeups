@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6aa09754dbb3353b753967e4:
+    sha256: "70f450e4a51b9d26d6f1d4031c3ed484ffa74b02263392ab2e6cff7b51caf2c2"
+    path: "authors/tenzo_aoki/6aa09754dbb3353b753967e4/original/Crackme_Tenzo.exe"
+    title: "tenzo_aoki's Tenzo Crack ME Beta"
+
+by_sha256:
+  70f450e4a51b9d26d6f1d4031c3ed484ffa74b02263392ab2e6cff7b51caf2c2:
+    id: 6aa09754dbb3353b753967e4
+    path: "authors/tenzo_aoki/6aa09754dbb3353b753967e4/original/Crackme_Tenzo.exe"
+    page: https://crackmes.one/crackme/6aa09754dbb3353b753967e4

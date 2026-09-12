@@ -193,6 +193,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [fentcat](authors/fentcat/README.md) | FentCat | 1 (Assembler Crackme) | 1 / 1 |
 | [sallos](authors/sallos/README.md) | Sallos | 2 (Key License + EscapeFromMatrix) | 2 / 2 |
 | [tempesta](authors/tempesta/README.md) | Tempesta | 1 (Lord Winderton) | 1 / 1 |
+| [tenzo_aoki](authors/tenzo_aoki/README.md) | tenzo_aoki | 1 (Tenzo Crack ME Beta) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -212,6 +213,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-12 | [Tenzo Crack ME Beta](authors/tenzo_aoki/6aa09754dbb3353b753967e4/) | tenzo_aoki |
 | 2026-09-06 | [obscurio - 3](authors/ray33ee/6a9ae805cab6678aefe9dcb2/) | ray33ee |
 | 2026-09-06 | [Death Trap](authors/soulreaper/6a7d0ce1184836c0dbe7d77e/) | soulreaper |
 | 2026-09-06 | [hell](authors/teknikclel69/67630a1d60fa67152406bbde/) | Teknikclel69 |

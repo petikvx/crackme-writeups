@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6aa09754dbb3353b753967e4
+
+urls:
+  page: https://crackmes.one/crackme/6aa09754dbb3353b753967e4
+  download: https://crackmes.one/download/crackme/6aa09754dbb3353b753967e4
+
+title: "tenzo_aoki's Tenzo Crack ME Beta"
+author_on_site: "tenzo_aoki"
+author_local: "tenzo_aoki"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 3.0
+quality: 3.5
+size: "552.00 KB"
+published: "2026-09-08"
+
+series_index: null
+local_slug: tenzo-crackme-beta
+
+binary:
+  path: "original/Crackme_Tenzo.exe"
+  name: "Crackme_Tenzo.exe"
+  sha256: "70f450e4a51b9d26d6f1d4031c3ed484ffa74b02263392ab2e6cff7b51caf2c2"
+  md5: "355276b07bb62f29ed351725105e1f81"
+  size_bytes: 565248
+
+status: solved
+solution_summary: "license T3nz0-VM-2026-V1rtu4l-Unl0ck3d!! (CFF/obfuscator maison ; Wine Access Granted)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-12T15:53:51Z"
