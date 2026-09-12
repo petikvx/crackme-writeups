@@ -8,7 +8,7 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml) (id ↔ sha256).
 
 | # | Titre | ID | Plateforme | Solution |
 |---|---|---|---|---|
-| 1 | [HydraVault](6a898e1a48cda5a2aaa3dad3/) | [`6a898e1a…`](https://crackmes.one/crackme/6a898e1a48cda5a2aaa3dad3) | Windows PE64 packer+VM | **PARKED** — KEY en RAM, keygen Windows |
+| 1 | [HydraVault](6a898e1a48cda5a2aaa3dad3/) | [`6a898e1a…`](https://crackmes.one/crackme/6a898e1a48cda5a2aaa3dad3) | Windows PE64 packer+VM | **solved** — RPM `CHALLENGE+8` → KEY (live) |
 
 ## Ajouter un crackme
 

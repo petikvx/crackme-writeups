@@ -28,11 +28,8 @@ binary:
   md5: "fe97cc401fcd08a8fa858d11539b63ff"
   size_bytes: 253440
 
-status: pending
-parked: true
-parked_at: "2026-08-26"
-parked_reason: "RPM dump stack+8: 12/16 octets OK ('So close last 4 bytes') ; last4 TBD (bswap/AES_dec/graft miss) ; x64dbg attach tue le vault"
-solution_summary: "PARKED — dump RPM OK (12/16) ; last 4 bytes encore faux ; pas de keygen offline ; tools/hydra_dump_type.py A|B|C|D"
+status: solved
+solution_summary: "KEY live = RPM(CHALLENGE_copy+8,16) ; variante A (pas B/bswap) ; tools/hydra-vault-solve.py ; pas de formule offline"
 
 download:
   zip_password: crackmes.one

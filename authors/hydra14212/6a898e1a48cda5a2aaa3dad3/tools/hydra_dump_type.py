@@ -329,7 +329,9 @@ def main():
         print(f"{k}: {v.hex().upper()}  ({note})")
     print("=" * 50)
 
-    which = "B"
+    # A = stack+8 raw — méthode skalvin (ACCESS GRANTED). B = last4-bswap
+    # donnait le message vault « So close! Check the last 4 bytes... ».
+    which = "A"
     if len(sys.argv) >= 3 and sys.argv[2].upper() in variants:
         which = sys.argv[2].upper()
     key = variants[which].hex().upper()
@@ -340,8 +342,8 @@ def main():
     time.sleep(0.05)
     send_enter()
     print("[*] sent - check for ACCESS GRANTED")
-    print("DENIED? taskkill + relaunch FRESH, then try another letter:")
-    print("  py -3 hydra_dump_type.py <CHALLENGE> A|B|C|D")
+    print("DENIED? taskkill + relaunch FRESH (fail=0), retry:")
+    print("  py -3 hydra_dump_type.py <CHALLENGE> A")
     return 0
 
 

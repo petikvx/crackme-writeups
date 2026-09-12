@@ -171,7 +171,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [hacktooth](authors/hacktooth/README.md) | hacktooth | 1 (Simple Crack/Keygenme AutoIt) | 1 / 1 |
 | [gregland](authors/gregland/README.md) | gregland | 4 (CrackMe #1–#4) | 4 / 4 |
 | [brembo](authors/brembo/README.md) | brembo | 1 (license-cli) | 0 / 1 *(parked)* |
-| [hydra14212](authors/hydra14212/README.md) | Hydra14212 | 1 (HydraVault) | 0 / 1 *(parked)* |
+| [hydra14212](authors/hydra14212/README.md) | Hydra14212 | 1 (HydraVault) | 1 / 1 |
 | [xalperen](authors/xalperen/README.md) | xalperen | 1 (KryptonVM) | 1 / 1 |
 | [shadowlegion](authors/shadowlegion/README.md) | ShadowLegion | 1 (TermBreaker) | 1 / 1 |
 | [5iriu5](authors/5iriu5/README.md) | 5iriu5 | 1 (SSE Login) | 1 / 1 |
@@ -206,7 +206,6 @@ Challenges `status: pending` volontairement suspendus (`parked: true` dans `ORIG
 |---|---|---|
 | [Froggate II: Croackpocallypse](authors/victormeloasm/6aa471e83b246e477b6c0be7/) | victormeloasm | `transform(serial)==mask` prouvé GDB ; inv. transform (~407 mixers) TBD |
 | [custom vmp crackme](authors/alpjs/6aa4b6d3585e8875bcbebf80/) | alpjs | crypto OK ; brute H100 (`analysis/H100.md`) ; a-z len5 ~68 % ; flag bloc0 `Doğru! F` |
-| [HydraVault](authors/hydra14212/6a898e1a48cda5a2aaa3dad3/) | Hydra14212 | RPM 12/16 OK (« last 4 bytes ») ; last4 TBD ; pas x64dbg sur hv* |
 | [license-cli](authors/brembo/6a8c54dc585e8875bcbebcfb/) | brembo | préimage SHA-256 `112c2add…` (x64dbg XOR OK ; rockyou×rules miss) |
 | [bugger_v.7](authors/crackmes-de/5ab77f6633c5d40ad448cc25/) | crackmes.de / shism | clé RC6 + wake shell dormant |
 | [meloquynthe](authors/crackmes-de/5ab77f5933c5d40ad448c46f/) | crackmes.de / meat | prédicat name→serial (après UPX) |
@@ -218,6 +217,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-12 | [HydraVault](authors/hydra14212/6a898e1a48cda5a2aaa3dad3/) | Hydra14212 |
 | 2026-09-12 | [Oops! All sarr](authors/bang1338/6a9e9ac9cab6678aefe9dcfe/) | bang1338 |
 | 2026-09-12 | [Tenzo Crack ME Beta](authors/tenzo_aoki/6aa09754dbb3353b753967e4/) | tenzo_aoki |
 | 2026-09-06 | [obscurio - 3](authors/ray33ee/6a9ae805cab6678aefe9dcb2/) | ray33ee |
