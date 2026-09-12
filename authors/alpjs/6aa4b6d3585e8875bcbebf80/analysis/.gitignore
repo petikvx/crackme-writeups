@@ -1,0 +1,7 @@
+# logs / grosses wordlists locales (pas dans le dépôt)
+*.err
+*.out
+top100k.txt
+seclists_tr.txt
+rate.err
+bench.err

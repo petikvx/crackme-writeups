@@ -1,0 +1,37 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6aa4b6d3585e8875bcbebf80
+
+urls:
+  page: https://crackmes.one/crackme/6aa4b6d3585e8875bcbebf80
+  download: https://crackmes.one/download/crackme/6aa4b6d3585e8875bcbebf80
+
+title: "alpjs's custom vmp crackme"
+author_on_site: "alpjs"
+author_local: "alpjs"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 2.0
+quality: 4.0
+size: "49.50 KB"
+published: "2026-09-12"
+
+series_index: null
+local_slug: custom-vmp
+
+binary:
+  path: "original/crackme.exe"
+  name: "crackme.exe"
+  sha256: "3d271299dcf18418b3e2be1006845a3dc8f5199bcf6ebbf2b49e44d1197075e9"
+  md5: "6fbd2151e5e862a5a5d1ed1c40fe8fb1"
+  size_bytes: 50688
+
+status: pending
+parked: true
+solution_summary: "crypto sponge/VM validé (tag e6a0ef22… ; flag bloc0 Doğru! F) ; password TBD — reprise brute H100/CUDA (analysis/H100.md), a-z len5 ~68% fait"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-12T14:58:47Z"

@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6aa4b6d3585e8875bcbebf80:
+    sha256: "3d271299dcf18418b3e2be1006845a3dc8f5199bcf6ebbf2b49e44d1197075e9"
+    path: "authors/alpjs/6aa4b6d3585e8875bcbebf80/original/crackme.exe"
+    title: "alpjs's custom vmp crackme"
+
+by_sha256:
+  3d271299dcf18418b3e2be1006845a3dc8f5199bcf6ebbf2b49e44d1197075e9:
+    id: 6aa4b6d3585e8875bcbebf80
+    path: "authors/alpjs/6aa4b6d3585e8875bcbebf80/original/crackme.exe"
+    page: https://crackmes.one/crackme/6aa4b6d3585e8875bcbebf80
