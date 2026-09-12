@@ -11,15 +11,15 @@ author_local: "bang1338"
 
 platform: "Windows"
 arch: "x86-64"
-language: ""
+language: "C/C++"
 
-difficulty: null
-quality: null
-size: ""
-published: null
+difficulty: 4.0
+quality: 4.5
+size: "142.75 KB"
+published: "2026-09-07"
 
 series_index: null
-local_slug: null
+local_slug: oops-all-sarr
 
 binary:
   path: "original/sar.exe"
@@ -31,8 +31,8 @@ binary:
     - path: "original/Oops_All_sarr_-_bang1338.zip"
       sha256: "5150466f97438652caf8d82f491086974c1ab982377f27b1de63d22ef6e7a534"
 
-status: pending
-solution_summary: "WIP: GUI OopsAllSARsClass; decrypt RVA 0x50EB0 size 0x7110 (seed sarr + xorshift); titres Welcome to India, bhai! / sarr what are you saying?; dump live post-Flush TBD"
+status: solved
+solution_summary: "code sarr_pls_obfuscate_saarrr_123 → FLAG{sarr_this_thing_is_2_insane_} ; decrypt RVA 0x50EB0 seed sarr + SAR32(edx,3)+(<<5)^edx^0x9D"
 
 download:
   zip_password: crackmes.one

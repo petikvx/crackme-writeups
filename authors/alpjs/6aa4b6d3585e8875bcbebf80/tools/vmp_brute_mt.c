@@ -319,8 +319,7 @@ static int brute_wordlist(const char *path) {
 }
 
 int main(int argc, char **argv) {
-  const char *exe =
-      "/home/petik/Documents/crackme-writeups/authors/alpjs/6aa4b6d3585e8875bcbebf80/original/crackme.exe";
+  const char *exe = "original/crackme.exe";
   const char *alph = "abcdefghijklmnopqrstuvwxyz";
   const char *wordlist = NULL;
   int len_min = 1, len_max = 5;

@@ -49,16 +49,23 @@ Détail algo + constantes : [`H100.md`](H100.md) · sources [`../tools/vmp_brute
 | digits (partiel) | rien |
 | top 10k / top 100k | rien |
 | wordlist turque maison (~900) | rien |
-| lowercase **len 5** | stoppé à **~68.4 %** (`8126464/11881376`), ~10.5k/s × 8 threads, **pas de FOUND** |
+| lowercase **len 5** | **épuisé** (reprise `8126464` → fin sur EPYC 24 thr ~64k/s), **pas de FOUND** |
+| a-z **len 6** | partiel : stoppé à index **`10485760`** / `308915776` (~3.4 %) — reprendre `-s 10485760` |
+| rockyou (~14.3M, len≤39) | **épuisé**, rien |
+| a-z **len 6** | **épuisé GPU** (~2.2M/s H100), rien |
+| alnum len5 / a-z len7 / alnum len6 | chaîne GPU en cours (`/tmp/vmp_gpu_chain.log`) |
+| spoiler site `hello world!` | checker → **NO** (MAC validé live ; ce n’est pas le pwd) |
 
-Machine de test : i7-1185G7 8 threads, `tools/vmp_brute_mt` OpenMP.
+Machines : i7-1185G7 (session précédente) ; **EPYC 9334 24c + H100** (reprise).
 
-**Reprise len5** (éviter de refaire 0–68 %) :
+**GPU** (toolkit userland `~/cuda-13.0.1`) :
 
 ```bash
-# index 0..26^5-1, ordre little-endian sur alphabet a-z
-# (voir index_to_pw dans vmp_brute_mt.c)
-./tools/vmp_brute_mt -l 5 -L 5 -s 8126464
+export PATH=$HOME/cuda-13.0.1/bin:$PATH
+export LD_LIBRARY_PATH=$HOME/cuda-13.0.1/lib64:$LD_LIBRARY_PATH
+nvcc -O3 -arch=sm_90 -o tools/vmp_brute_cuda tools/vmp_brute.cu
+./tools/vmp_brute_cuda -l 7 -L 7
+./tools/vmp_brute_cuda -a 'abcdefghijklmnopqrstuvwxyz0123456789' -l 5 -L 6
 ```
 
 ---
@@ -97,3 +104,21 @@ gcc -O3 -march=native -fopenmp -o tools/vmp_brute_mt tools/vmp_brute_mt.c
 | `tools/vmp_brute_mt.c` | référence CPU + brute OpenMP |
 | `analysis/H100.md` | guide port GPU |
 | `analysis/wordlist_tr.txt` | petites cibles TR |
+
+
+## Stop session (H100)
+
+Jobs stoppés sur demande. Derniers points :
+
+| Job | Index / total | Note |
+|---|---|---|
+| a-z len7 GPU | ~**872415232** / 8031810176 (~10.9 %) | ~2.2M/s H100 |
+| printable ≤4 CPU | ~**24117248** / 81450625 (~29.6 %) | ~64k/s |
+
+CUDA userland : `~/cuda-13.0.1` · binaire `tools/vmp_brute_cuda`
+
+```bash
+export PATH=$HOME/cuda-13.0.1/bin:$PATH
+export LD_LIBRARY_PATH=$HOME/cuda-13.0.1/lib64:$LD_LIBRARY_PATH
+./tools/vmp_brute_cuda -l 7 -L 7 -s 872415232
+```

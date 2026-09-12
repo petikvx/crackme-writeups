@@ -1,3 +1,4 @@
 vmp_brute_mt
+vmp_brute_cuda
 vmp_check
 *.o

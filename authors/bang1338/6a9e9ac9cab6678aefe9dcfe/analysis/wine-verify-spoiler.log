@@ -1,0 +1,8 @@
+00d4:Call KERNEL32.GetProcAddress(6ffffda40000,7ffffe2ffe80 "DrawTextW") ret=14004260b
+00d4:Call KERNEL32.MultiByteToWideChar(0000fde9,00000000,7ffffe2ffc40 "OopsAllSARsClass",ffffffff,7ffffe2ffd90,27f0000003f) ret=14001ff36
+00d4:Call ntdll.strlen(7ffffe2ffc40 "OopsAllSARsClass") ret=6fffff4a58b9
+00d4:Call user32.CreateWindowExW(00000000,7ffffe2ffd90 L"OopsAllSARsClass",7ffffe2ffc40 L"SAAAR DO NOT REDEEM WHY DID YOU REDEEM IT",00ca0000,7fff00000050,27f00000050,00000280,000001b8,00000000,00000000,140000000,00000000) ret=140026850
+00d4:Call KERNEL32.MultiByteToWideChar(0000fde9,00000000,14005f170 "FLAG{sarr_this_thing_is_2_insane_}",ffffffff,7ffffe2ff590,7fff0000007f) ret=140012d52
+00d4:Call ntdll.strlen(14005f170 "FLAG{sarr_this_thing_is_2_insane_}") ret=6fffff4a58b9
+00d4:Call user32.DrawTextW(0b010051,7ffffe2ff590 L"FLAG{sarr_this_thing_is_2_insane_}",ffffffff,7ffffe2ff510,7fff00000025) ret=14000cd8a
+00d4:Ret  user32.DrawTextW() retval=000000d3 ret=14000cd8a

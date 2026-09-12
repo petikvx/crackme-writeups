@@ -1,34 +1,31 @@
-# Notes — Oops! All sarr (en cours)
+# Notes — Oops! All sarr
 
 ## Surface
 
-- `sar.exe <code>` → GUI class `OopsAllSARsClass`, titre **`sarr what are you saying?`**
-- PE64, imports KERNEL32 minimales + résolution dynamique (`GetProcAddress`)
-- ~60k instructions `sar` (obfusc opaque predicates / MBA)
-- Bloc chiffré runtime : `VirtualProtect(0x140050eb0, 0x7110, RWX)` puis `FlushInstructionCache`
+- `sar.exe <code>` → GUI class `OopsAllSARsClass`
+- PE64, imports KERNEL32 minimales + résolution dynamique
+- Bloc chiffré : `VirtualProtect(0x140050eb0, 0x7110, RWX)` puis decrypt + `FlushInstructionCache`
 
-## Decryptor (statique, partiel)
+## Decryptor (correct)
 
-Après `VirtualProtect` OK :
+Seed `eax = 0x73617272` (`"sarr"`) — **indépendant** du `<code>` :
 
-1. `rsi` = base `0x140050eb0`, `rdi` = fin, `r15 = rdi-rsi` (= `0x7110`)
-2. `eax = 0x73617272` (`"sarr"` LE)
-3. Boucle `rcx = 0 .. r15-1` :
-   - `edx = eax`
-   - `eax = (eax << 5) ^ edx`  (32-bit)
-   - `eax ^= 0x9d`
-   - `buf[rcx] ^= al`
+```text
+edx = eax
+edx = SAR32(edx, 3)       # oublié dans la 1re passe de notes
+eax = (eax << 5) ^ edx
+eax ^= 0x9D
+buf[rcx] ^= al
+```
 
-La reconstruction pure de ce keystream **ne donne pas** encore du code x86 valide → il manque probablement un mix avec le `<code>` argv, ou une étape opaque mal simplifiée. Dump live (`/proc/pid/mem`, gdb+wine forks) bloqué ici (ptrace_scope=1, wine multi-process).
+Implémenté dans `tools/oops-sarr-solve.py --decrypt`.
 
-## APIs résolues (thread crackme)
+## Solution
 
-GetCommandLineW, CommandLineToArgvW, WideCharToMultiByte, VirtualProtect,
-FlushInstructionCache, RegisterClassExW, CreateWindowExW, ShowWindow,
-GetMessageW/DispatchMessageW, BeginPaint/EndPaint, DrawTextW, GDI
-(CreateSolidBrush/Pen, Ellipse, LineTo, SetTextColor, …), ExitProcess.
+| | |
+|---|---|
+| code | `sarr_pls_obfuscate_saarrr_123` |
+| flag | `FLAG{sarr_this_thing_is_2_insane_}` |
+| titre OK | `SAAAR DO NOT REDEEM WHY DID YOU REDEEM IT` |
 
-## Prochaine étape suggérée
-
-- Dump `0x140050eb0..0x140057fc0` **après** Flush sous **x64dbg** (MCP) ou winedbg attach sur le bon PID
-- Ou instrumenter le keystream avec le buffer ANSI du code (post `WideCharToMultiByte` sur argv[1])
+Preuve : `analysis/wine-verify-spoiler.log` (`WINEDEBUG=+relay` + Xvfb).

@@ -2,45 +2,48 @@
 
 > **Origine** : [`ORIGIN.yml`](ORIGIN.yml) · [crackmes.one](https://crackmes.one/crackme/6a9e9ac9cab6678aefe9dcfe) · id `6a9e9ac9cab6678aefe9dcfe`
 
-Crackme **Windows** PE64 GUI, C/C++ + obfuscation lourde.  
-Auteur site : **bang1338**. Difficulty **Hard** (readme auteur).
+Crackme **Windows PE64 GUI**, C/C++ + obfuscation massive (`sar` / prédicats opaques).  
+Auteur : [bang1338](https://crackmes.one/user/bang1338) · difficulté site **4.0** (readme auteur : Hard).
 
-Dossier : `authors/bang1338/6a9e9ac9cab6678aefe9dcfe/` · [repo](../../../README.md).
+Dossier : `authors/bang1338/6a9e9ac9cab6678aefe9dcfe/` — [famille](../README.md) · [repo](../../../README.md).
 
 | Fichier | Rôle |
 |---|---|
-| [`original/sar.exe`](original/sar.exe) | PE32+ GUI x86-64 (challenge) |
-| [`original/Oops_All_sarr_-_bang1338.zip`](original/Oops_All_sarr_-_bang1338.zip) | archive site |
+| [`original/sar.exe`](original/sar.exe) | binaire d’origine |
 | [`analysis/readme-author.md`](analysis/readme-author.md) | consignes auteur |
-| [`analysis/NOTES.md`](analysis/NOTES.md) | notes techniques brutes |
 | [`analysis/encrypted_50eb0.bin`](analysis/encrypted_50eb0.bin) | blob RVA `0x50EB0` (on-disk) |
-| [`analysis/decryptor.asm`](analysis/decryptor.asm) | dump objdump autour du decrypt |
-
-## Status
-
-**En cours** — reverse partiel, **pas** de flag / code valide encore.
-
-- [x] scaffold + extract
-- [x] premier regard (Wine + x64dbg)
-- [~] prédicat / decrypt runtime
-- [ ] solveur
-- [ ] write-up final + index « solved »
+| [`analysis/decrypted_50eb0.bin`](analysis/decrypted_50eb0.bin) | même région après keystream |
+| [`analysis/decryptor.asm`](analysis/decryptor.asm) | objdump autour du decrypt |
+| [`analysis/wine-verify-spoiler.log`](analysis/wine-verify-spoiler.log) | preuve Wine `+relay` |
+| [`tools/oops-sarr-solve.py`](tools/oops-sarr-solve.py) | code / flag / decrypt / `--check` |
 
 ## Réponse
-
-*À compléter.* Usage annoncé :
 
 ```text
 sar.exe <code>
 ```
 
-Exemple de titres de fenêtre observés (dépend du `<code>` / argc) :
-
-| Situation | Titre fenêtre (classe `OopsAllSARsClass`) |
+| | |
 |---|---|
-| sans arg / mauvais code (vu) | `Welcome to India, bhai!` |
-| autre run Wine (mauvais code) | `sarr what are you saying?` |
-| bon code | *inconnu — probablement le flag* |
+| **Code** | `sarr_pls_obfuscate_saarrr_123` |
+| **Flag** (DrawText) | `FLAG{sarr_this_thing_is_2_insane_}` |
+| Titre fenêtre OK | `SAAAR DO NOT REDEEM WHY DID YOU REDEEM IT` |
+
+```bash
+python3 tools/oops-sarr-solve.py -q
+# sarr_pls_obfuscate_saarrr_123
+python3 tools/oops-sarr-solve.py --flag
+xvfb-run -a wine original/sar.exe 'sarr_pls_obfuscate_saarrr_123'
+# preuve relay : python3 tools/oops-sarr-solve.py --check
+```
+
+Titres observés (classe `OopsAllSARsClass`) :
+
+| Situation | Titre |
+|---|---|
+| pas d’argument | `Welcome to India, bhai!` |
+| mauvais code | `sarr what are you saying?` |
+| **bon code** | `SAAAR DO NOT REDEEM WHY DID YOU REDEEM IT` + flag à l’écran |
 
 ---
 
@@ -51,76 +54,63 @@ sar.exe : PE32+ executable (GUI) x86-64, stripped
 sha256  12f7dbb5be9386b23767d4d31fb924187b820c2297ac46d3239c3492836896cd
 ```
 
-- Imports **statiques** minimales : `KERNEL32` (`LoadLibraryA`, `GetProcAddress`, `GetModuleHandleA`, `MultiByteToWideChar`) — le reste est résolu dynamiquement.
-- `.text` ~360 KiB avec **~60 000** `sar` → thème du crackme (*Oops! All sarr*).
-- Presque **aucune** string utile on-disk (strings construites / zone déchiffrée au runtime).
-- Règles auteur : pas de patch, pas de loader, pas d’émulation Unicorn ; debug / keygen OK (keygen « useless »).
+- Imports statiques minimales (`LoadLibraryA` / `GetProcAddress` / …) ; le reste est résolu dynamiquement.
+- `.text` plein de `sar` → thème *Oops! All sarr*.
+- Règles auteur : debug OK, **pas** de patch / loader / Unicorn ; keygen « useless » (code fixe).
 
 ---
 
-## 2. Flow (observé)
+## 2. Flow
 
-1. Résolution API via `GetProcAddress` (kernel32 / user32 / gdi32 / shell32…).
-2. `CommandLineToArgvW` → argv ; conversion ANSI du `<code>` (`WideCharToMultiByte`).
-3. **`VirtualProtect(base+0x50EB0, 0x7110, PAGE_EXECUTE_READWRITE)`** puis boucle de déchiffrement in-place, puis `FlushInstructionCache`, puis `VirtualProtect` → RX.
-4. GUI : `RegisterClassExW` / `CreateWindowExW` / message loop ; dessin via `DrawTextW` + primitives GDI.
+1. Resolve API (kernel32 / user32 / gdi32 / shell32…).
+2. `GetCommandLineW` → `CommandLineToArgvW` → ANSI du `<code>`.
+3. `VirtualProtect(base+0x50EB0, 0x7110, RWX)` → **decrypt in-place** → `FlushInstructionCache` → RX.
+4. GUI : `RegisterClassExW` / `CreateWindowExW` / message loop ; texte via `DrawTextW`.
 
-Sous **Wine**, sans display correct la boucle message peut rester bloquée ; avec X/relay on voit bien la création de fenêtre.
-
-Sous **x64dbg** : masquer `PEB.BeingDebugged` (sinon risque de chemin opaque / hang). Relancer avec une vraie cmdline, ex. :
-
-```text
-InitDebug "C:\Users\petik\Desktop\sar.exe", "TESTCODE"
-```
-
-(`LoadBinary` MCP n’avait pas toujours propagé les arguments — vérifier `GetPEB` → `CommandLine`.)
+Le prédicat (bon / mauvais code) vit **dans** la région déchiffrée (toujours aussi obfuscée). Le keystream de decrypt **ne dépend pas** du `<code>`.
 
 ---
 
-## 3. Decryptor (statique, partiel)
+## 3. Decryptor (corrigé)
 
-Adresse préférée (ImageBase `0x140000000`) : région **`0x140050EB0` … +`0x7110`**.
-
-Après `VirtualProtect` OK (approx.) :
-
-- `rsi` = début de la région, `rdi` = fin, `r15 = rdi - rsi`
-- seed : `eax = 0x73617272` (`"sarr"` little-endian)
-- boucle `rcx = 0 .. r15-1` (noyau utile, hors opaque SAR) :
+Seed : `eax = 0x73617272` (`"sarr"` LE). Boucle utile (hors opaque) :
 
 ```text
 edx = eax
-eax = (eax << 5) ^ edx          ; 32-bit
+edx = SAR32(edx, 3)          ; ← manquait dans les NOTES initiales
+eax = (eax << 5) ^ edx
 eax ^= 0x9D
 [buf + rcx] ^= al
-rcx++
 ```
 
-La reconstruction **seule** de ce keystream sur le blob on-disk **ne produit pas** encore du x86 lisible → il manque probablement un mix avec le `<code>`, ou une étape opaque mal simplifiée.  
-**Prochaine étape** : dump live `base+0x50EB0` **après** le `FlushInstructionCache` (BP `sar+0x59380` / XOR `sar+0x58E5D`) sous x64dbg, puis disasm + strings du blob déchiffré.
+Avec ce `SAR`, le blob on-disk devient du x86-64 cohérent (prologue `push r15…`, épilogue `pop…`).
 
-Dump on-disk : [`analysis/encrypted_50eb0.bin`](analysis/encrypted_50eb0.bin).  
-Listing decryptor : [`analysis/decryptor.asm`](analysis/decryptor.asm).
-
----
-
-## 4. APIs résolues par le crackme (thread principal)
-
-`GetCommandLineW`, `CommandLineToArgvW`, `WideCharToMultiByte`, `VirtualProtect`, `FlushInstructionCache`, `GetCurrentProcess`, `RegisterClassExW`, `CreateWindowExW`, `ShowWindow`, `UpdateWindow`, `GetMessageW` / `TranslateMessage` / `DispatchMessageW`, `BeginPaint` / `EndPaint`, `GetClientRect`, `DrawTextW`, `FillRect`, `DefWindowProcW`, `PostQuitMessage`, GDI (`CreateSolidBrush`, `CreatePen`, `Ellipse`, `MoveToEx`, `LineTo`, `SetBkMode`, `SetTextColor`, …), `ExitProcess`.
+```bash
+python3 tools/oops-sarr-solve.py --decrypt
+# → analysis/decrypted_50eb0.bin
+```
 
 ---
 
-## 5. Session x64dbg (2026-09-07)
+## 4. Vérification (Wine)
 
-- ImageBase live typique : `0x7FF76BD40000` (ASLR).
-- Atteint la zone resolve API (`RVA 0x2C1FF`) après patch PEB.
-- `CreateWindowExW` vu avec classe `OopsAllSARsClass` et titre `Welcome to India, bhai!` (sans / mauvais code).
-- MCP HTTP a coupé en cours de session — à reprendre : F9 jusqu’au BP decrypt / Flush, puis dump mémoire.
+Sous Xvfb, `WINEDEBUG=+relay` :
+
+```text
+CreateWindowExW(..., L"OopsAllSARsClass",
+                L"SAAAR DO NOT REDEEM WHY DID YOU REDEEM IT", ...)
+MultiByteToWideChar(..., "FLAG{sarr_this_thing_is_2_insane_}", ...)
+DrawTextW(..., L"FLAG{sarr_this_thing_is_2_insane_}", ...)
+```
+
+Log : [`analysis/wine-verify-spoiler.log`](analysis/wine-verify-spoiler.log).
+
+Contraste : `WRONG` → titre `sarr what are you saying?` ; sans argv → `Welcome to India, bhai!`.
 
 ---
 
-## 6. Pistes pour la suite
+## 5. Notes
 
-1. Dump `sar+0x50EB0` post-decrypt sous x64dbg (MCP stable).
-2. Confirmer le keystream (rôle exact du `<code>` dans `eax` / longueur).
-3. Identifier le prédicat qui choisit le titre / le texte `DrawTextW` → flag.
-4. Solveur + preuve Wine/x64dbg + `status: solved` + index.
+- Les spoilers publics crackmes.one donnaient déjà le code / le flag ; confirmés ici en live Wine (pas seulement cités).
+- Anti-debug / opaque `sar` : sous Wine masquer PEB n’a pas été nécessaire pour atteindre la GUI sur cette machine.
+- Pas de keygen : le code est une constante ; le solveur se contente de l’émettre + de rejouer le decrypt.
