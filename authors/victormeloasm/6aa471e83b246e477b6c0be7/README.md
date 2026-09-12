@@ -16,7 +16,19 @@ Dossier : `authors/victormeloasm/6aa471e83b246e477b6c0be7/` — [famille](../REA
 
 ## Status
 
-**Pending / parked** — prédicat **compris et prouvé sous GDB** ; keygen = **inverse de `transform`** (stage + ~407 mixers) **pas encore fait**.
+**Pending / parked** — prédicat **compris et prouvé sous GDB** ; **pas de keygen complet** encore.
+
+| Couche | État |
+|---|---|
+| Prédicat `transform(s)==mask` | OK (GDB) |
+| Stage1 ARX (16×u64) | forward + **inverse** Python (`tools/froggate2-solve.py`) |
+| Mixers post-stage1 (~400) | TBD (diffusion totale) |
+| Serial 256 hex | **inconnu** |
+
+```bash
+python3 tools/froggate2-solve.py --mask
+python3 tools/froggate2-solve.py --check <256hex>   # gdb oracle
+```
 
 ## Réponse
 

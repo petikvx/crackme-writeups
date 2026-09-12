@@ -47,14 +47,18 @@ Masque live : `analysis/verify_mask_live.bin` (ne pas utiliser le dump fichier b
 
 `T(T(x)) ≠ x` (pas une involution).
 
-## Keygen (TODO)
+## Keygen (WIP)
 
-`serial = inv_transform(mask_live)` puis hex-encode.
+`serial = inv_transform(mask_live)` puis hex-encode (256 hex).
+
+`tools/froggate2-solve.py` :
+- dump mask, `--stage1` / `--stage1-inv` (Python ≡ gdb), `--oracle` / `--check` (gdb forward)
+- **pas encore** de serial : mixers post-stage1 non inversés
 
 Prochaines étapes :
 
-1. Lever / documenter stage 1 (inversible)  
-2. Classifier les 407 mixers (formes répétées ?) et inverser  
-3. Ou lever en IR (LLVM/Unicorn *hors* règles auteur pour le keygen final) puis invert  
+1. ~~Stage1 inversible~~ (fait, round-trip OK)  
+2. Classifier / inverser la chaîne de mixers (`mov rdi,rbx ; call …`, diffusion totale)  
+3. Brancher `stage1_inv ∘ mixers_inv(mask)` dans le solveur → `-q`
 
-Auteur : victormeloasm (ECCFrog / crypto custom) — diff site **6.0 Insane**.
+Auteur : victormeloasm — diff site **6.0 Insane**. Règles : pas de patch / hook / Unicorn pour la soluce.
