@@ -1,0 +1,16 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6aa471e83b246e477b6c0be7:
+    sha256: "4c80cb260356765d019042951ecc1dbf54ab38dae2459bbea8455cfd45ca3793"
+    path: "authors/victormeloasm/6aa471e83b246e477b6c0be7/original/croackpocalypse"
+    title: "victormeloasm's Froggate II: Croackpocallypse"
+
+by_sha256:
+  4c80cb260356765d019042951ecc1dbf54ab38dae2459bbea8455cfd45ca3793:
+    id: 6aa471e83b246e477b6c0be7
+    path: "authors/victormeloasm/6aa471e83b246e477b6c0be7/original/croackpocalypse"
+    page: https://crackmes.one/crackme/6aa471e83b246e477b6c0be7
+  1181e6b1988542677cebcab812992031178d7262c45e8dda990d51ed46825ca8:
+    id: 6aa471e83b246e477b6c0be7
+    path: "authors/victormeloasm/6aa471e83b246e477b6c0be7/original/Froggate_Croackpocallypse.zip"
+    page: https://crackmes.one/crackme/6aa471e83b246e477b6c0be7

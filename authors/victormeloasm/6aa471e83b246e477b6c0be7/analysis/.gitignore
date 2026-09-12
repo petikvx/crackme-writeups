@@ -1,0 +1,7 @@
+verify.bin
+transform.bin
+verify.asm
+transform.asm
+verify_mask.bin
+*.bin
+!verify_mask_live.bin

@@ -196,6 +196,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [tenzo_aoki](authors/tenzo_aoki/README.md) | tenzo_aoki | 1 (Tenzo Crack ME Beta) | 1 / 1 |
 | [alpjs](authors/alpjs/README.md) | alpjs | 1 (custom vmp) | 0 / 1 |
 | [bang1338](authors/bang1338/README.md) | bang1338 | 1 (Oops! All sarr) | 1 / 1 |
+| [victormeloasm](authors/victormeloasm/README.md) | victormeloasm | 1 (Froggate II) | 0 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -203,6 +204,7 @@ Challenges `status: pending` volontairement suspendus (`parked: true` dans `ORIG
 
 | Crackme | Auteur | Reprendre |
 |---|---|---|
+| [Froggate II: Croackpocallypse](authors/victormeloasm/6aa471e83b246e477b6c0be7/) | victormeloasm | `transform(serial)==mask` prouvé GDB ; inv. transform (~407 mixers) TBD |
 | [custom vmp crackme](authors/alpjs/6aa4b6d3585e8875bcbebf80/) | alpjs | crypto OK ; brute H100 (`analysis/H100.md`) ; a-z len5 ~68 % ; flag bloc0 `Doğru! F` |
 | [HydraVault](authors/hydra14212/6a898e1a48cda5a2aaa3dad3/) | Hydra14212 | RPM 12/16 OK (« last 4 bytes ») ; last4 TBD ; pas x64dbg sur hv* |
 | [license-cli](authors/brembo/6a8c54dc585e8875bcbebcfb/) | brembo | préimage SHA-256 `112c2add…` (x64dbg XOR OK ; rockyou×rules miss) |

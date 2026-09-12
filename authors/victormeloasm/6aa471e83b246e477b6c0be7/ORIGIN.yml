@@ -1,0 +1,41 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6aa471e83b246e477b6c0be7
+
+urls:
+  page: https://crackmes.one/crackme/6aa471e83b246e477b6c0be7
+  download: https://crackmes.one/download/crackme/6aa471e83b246e477b6c0be7
+
+title: "victormeloasm's Froggate II: Croackpocallypse"
+author_on_site: "victormeloasm"
+author_local: "victormeloasm"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 6.0
+quality: 6.0
+size: "1.96 MB"
+published: "2026-09-11"
+
+series_index: null
+local_slug: froggate-ii-croackpocallypse
+
+binary:
+  path: "original/croackpocalypse"
+  name: "croackpocalypse"
+  sha256: "4c80cb260356765d019042951ecc1dbf54ab38dae2459bbea8455cfd45ca3793"
+  md5: ""
+  size_bytes: 4630760
+  companion:
+    - path: "original/Froggate_Croackpocallypse.zip"
+      sha256: "1181e6b1988542677cebcab812992031178d7262c45e8dda990d51ed46825ca8"
+    - path: "original/README.txt"
+
+status: pending
+parked: true
+solution_summary: "prédicat OK: transform(serial128)==mask@0x4690 live ; hash combiner no-op (feuilles jumelles) ; keygen = inverser transform (~407 mixers) — TBD"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-12T17:55:00Z"
