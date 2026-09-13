@@ -34,7 +34,7 @@ binary:
       sha256: "95c3b83c1b6f58e65c88074381bce1471a0e2158afcd14a5cf3025a60f23c964"
 
 status: solved
-solution_summary: "password fixe r4y_0b5Curi0_I729 → well done! (VM program.bin) ; Wine OK"
+solution_summary: "password fixe r4y_0b5Curi0_I729 via oracle steps VM (len=17, +4644/char) ; Wine OK"
 
 download:
   zip_password: crackmes.one
