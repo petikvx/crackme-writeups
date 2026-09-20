@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Solveur — vetementsvmnts's Tricky challenge or is it ?
 
-Password XOR 0x55 sur le stack (anti-debug ptrace).
+Password supersecret123 :
+  2× movabs stack (14 octets enc) puis XOR 0x55 ; ptrace anti-debug.
 
 Usage:
   python3 tools/tricky-challenge-solve.py -q

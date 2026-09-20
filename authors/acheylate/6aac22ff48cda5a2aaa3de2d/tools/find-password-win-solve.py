@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Solveur — acheylate's Find the password Windows ver
 
-Même password que la version Linux : HVUHADN.
+Même prédicat que le twin Linux : HVUHADN
+  len==7 ; [0:4]^0x48555648 ; [3:7]^0x4E444148 (u32 LE).
 
 Usage:
   python3 tools/find-password-win-solve.py -q
