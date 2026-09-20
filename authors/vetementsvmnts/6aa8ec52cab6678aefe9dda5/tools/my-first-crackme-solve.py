@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Solveur — vetementsvmnts's My First crackme
 
-Password en clair dans .rodata (strcmp).
+Password my_first_crackme : C-string .rodata, strcmp dans main.
 
 Usage:
   python3 tools/my-first-crackme-solve.py -q
