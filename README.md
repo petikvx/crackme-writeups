@@ -196,7 +196,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [tenzo_aoki](authors/tenzo_aoki/README.md) | tenzo_aoki | 1 (Tenzo Crack ME Beta) | 1 / 1 |
 | [alpjs](authors/alpjs/README.md) | alpjs | 1 (custom vmp) | 0 / 1 |
 | [bang1338](authors/bang1338/README.md) | bang1338 | 1 (Oops! All sarr) | 1 / 1 |
-| [victormeloasm](authors/victormeloasm/README.md) | victormeloasm | 1 (Froggate II) | 0 / 1 |
+| [victormeloasm](authors/victormeloasm/README.md) | victormeloasm | 2 (Froggate II + Simple Frog) | 1 / 2 |
 | [nillya](authors/nillya/README.md) | Nillya | 1 (Nillya's Pass CrackMe) | 0 / 1 |
 | [leotrungkien](authors/leotrungkien/README.md) | Leotrungkien | 1 (Fugs) | 1 / 1 |
 
@@ -219,6 +219,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-20 | [Simple Frog](authors/victormeloasm/6aae098bcab6678aefe9de31/) | victormeloasm |
 | 2026-09-20 | [Leotrungkien's Fugs](authors/leotrungkien/6aaebbc1585e8875bcbec053/) | Leotrungkien |
 | 2026-09-12 | [obscurio - 1](authors/ray33ee/6a88726c3b246e477b6c094d/) | ray33ee |
 | 2026-09-12 | [HydraVault](authors/hydra14212/6a898e1a48cda5a2aaa3dad3/) | Hydra14212 |

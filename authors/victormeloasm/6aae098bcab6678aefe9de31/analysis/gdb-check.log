@@ -1,0 +1,11 @@
+Reading symbols from /home/petik/Documents/crackme-writeups/authors/victormeloasm/6aae098bcab6678aefe9de31/original/simplefrog...
+(No debugging symbols found in /home/petik/Documents/crackme-writeups/authors/victormeloasm/6aae098bcab6678aefe9de31/original/simplefrog)
+Breakpoint 1 at 0x201f8b
+Breakpoint 2 at 0x201f90
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/x86_64-linux-gnu/libthread_db.so.1".
+Simple Frog
+Name: SERIAL_HEX f16715f613d9f9980c540aa0f19088e376853d68307cd0ca1ec2bfa8e85dc955
+Serial: Croak! Correct serial.
+[Inferior 1 (process 415019) exited normally]
+OK

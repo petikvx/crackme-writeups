@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6aae098bcab6678aefe9de31
+
+urls:
+  page: https://crackmes.one/crackme/6aae098bcab6678aefe9de31
+  download: https://crackmes.one/download/crackme/6aae098bcab6678aefe9de31
+
+title: "victormeloasm's Simple Frog"
+author_on_site: "victormeloasm"
+author_local: "victormeloasm"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 3.0
+quality: 6.0
+size: "6.86 KB"
+published: "2026-09-19"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/simplefrog"
+  name: "simplefrog"
+  sha256: "95bae4727a528ac6583694b968ee29ca675d17891c0965c632750c41de26362e"
+  md5: "c18af9229a2b511207da1ef1da062a68"
+  size_bytes: 7027
+
+status: solved
+solution_summary: "HWID keygen petik→SHA256(name+\\0+mouse/time/monitor blob); --check via GDB oracle"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-20T15:24:03Z"

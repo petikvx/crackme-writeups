@@ -5,6 +5,11 @@ by_id:
     path: "authors/victormeloasm/6aa471e83b246e477b6c0be7/original/croackpocalypse"
     title: "victormeloasm's Froggate II: Croackpocallypse"
 
+  6aae098bcab6678aefe9de31:
+    sha256: "95bae4727a528ac6583694b968ee29ca675d17891c0965c632750c41de26362e"
+    path: "authors/victormeloasm/6aae098bcab6678aefe9de31/original/simplefrog"
+    title: "victormeloasm's Simple Frog"
+
 by_sha256:
   4c80cb260356765d019042951ecc1dbf54ab38dae2459bbea8455cfd45ca3793:
     id: 6aa471e83b246e477b6c0be7
@@ -14,3 +19,7 @@ by_sha256:
     id: 6aa471e83b246e477b6c0be7
     path: "authors/victormeloasm/6aa471e83b246e477b6c0be7/original/Froggate_Croackpocallypse.zip"
     page: https://crackmes.one/crackme/6aa471e83b246e477b6c0be7
+  95bae4727a528ac6583694b968ee29ca675d17891c0965c632750c41de26362e:
+    id: 6aae098bcab6678aefe9de31
+    path: "authors/victormeloasm/6aae098bcab6678aefe9de31/original/simplefrog"
+    page: https://crackmes.one/crackme/6aae098bcab6678aefe9de31
