@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6aac1a0c585e8875bcbec009:
+    sha256: "67b49753e7e578cc2ac5c4a564e99cebe5a76535c323963c3422cc2f9e0455e4"
+    path: "authors/acheylate/6aac1a0c585e8875bcbec009/original/crackme-01"
+    title: "acheylate's Find the password"
+
+by_sha256:
+  67b49753e7e578cc2ac5c4a564e99cebe5a76535c323963c3422cc2f9e0455e4:
+    id: 6aac1a0c585e8875bcbec009
+    path: "authors/acheylate/6aac1a0c585e8875bcbec009/original/crackme-01"
+    page: https://crackmes.one/crackme/6aac1a0c585e8875bcbec009

@@ -202,6 +202,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [fon37](authors/fon37/README.md) | fon37 | 1 (Secret Menu) | 1 / 1 |
 | [memetic0](authors/memetic0/README.md) | memetic0 | 1 (Tropical) | 1 / 1 |
 | [vetementsvmnts](authors/vetementsvmnts/README.md) | vetementsvmnts | 3 | 3 / 3 |
+| [acheylate](authors/acheylate/README.md) | acheylate | 1 (Find the password) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -222,6 +223,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-20 | [Find the password](authors/acheylate/6aac1a0c585e8875bcbec009/) | acheylate |
 | 2026-09-20 | [KeygenMe](authors/vetementsvmnts/6aa94afadbb3353b7539687a/) | vetementsvmnts |
 | 2026-09-20 | [Tricky challenge or is it ?](authors/vetementsvmnts/6aac1a61dbb3353b753968c0/) | vetementsvmnts |
 | 2026-09-20 | [My First crackme](authors/vetementsvmnts/6aa8ec52cab6678aefe9dda5/) | vetementsvmnts |
