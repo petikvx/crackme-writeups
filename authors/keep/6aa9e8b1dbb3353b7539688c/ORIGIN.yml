@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6aa9e8b1dbb3353b7539688c
+
+urls:
+  page: https://crackmes.one/crackme/6aa9e8b1dbb3353b7539688c
+  download: https://crackmes.one/download/crackme/6aa9e8b1dbb3353b7539688c
+
+title: "Keep's sygil.fun"
+author_on_site: "Keep"
+author_local: "keep"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/sygil"
+  name: "sygil"
+  sha256: "ad49b0eefabd9a040e2af848b62495b5433d62437d11542895ae2c9014206e4b"
+  md5: "956f80486e1cc984cb55cfe485779188"
+  size_bytes: 14560
+
+status: solved
+solution_summary: "petik→syg-8fbf90b6-0f02-8fecc6f3 (FNV-1a)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-20T16:56:33Z"
