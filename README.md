@@ -221,6 +221,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-20 | [Tropical](authors/memetic0/6aadc96d585e8875bcbec043/) | memetic0 |
 | 2026-09-20 | [Secret Menu](authors/fon37/6aadf84e48cda5a2aaa3de61/) | fon37 |
 | 2026-09-20 | [Simple Frog](authors/victormeloasm/6aae098bcab6678aefe9de31/) | victormeloasm |
 | 2026-09-20 | [Leotrungkien's Fugs](authors/leotrungkien/6aaebbc1585e8875bcbec053/) | Leotrungkien |
