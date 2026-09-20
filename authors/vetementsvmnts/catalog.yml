@@ -15,6 +15,11 @@ by_id:
     path: "authors/vetementsvmnts/6aa94afadbb3353b7539687a/original/keygen_crackme"
     title: "vetementsvmnts's KeygenMe"
 
+  6aaad62d48cda5a2aaa3de08:
+    sha256: "f3df05a4efd4ee17f0c3e2b70ff13e82dc841dfe3c4aae287ef33b7b24f58685"
+    path: "authors/vetementsvmnts/6aaad62d48cda5a2aaa3de08/original/hard_crackme"
+    title: "vetementsvmnts's a bit of a challenge"
+
 by_sha256:
   236b6cae6332d78fe8b85ccbfef7f7ba3ddb722c1b0393dd94af8d633cfd7f6d:
     id: 6aa8ec52cab6678aefe9dda5
@@ -28,3 +33,7 @@ by_sha256:
     id: 6aa94afadbb3353b7539687a
     path: "authors/vetementsvmnts/6aa94afadbb3353b7539687a/original/keygen_crackme"
     page: https://crackmes.one/crackme/6aa94afadbb3353b7539687a
+  f3df05a4efd4ee17f0c3e2b70ff13e82dc841dfe3c4aae287ef33b7b24f58685:
+    id: 6aaad62d48cda5a2aaa3de08
+    path: "authors/vetementsvmnts/6aaad62d48cda5a2aaa3de08/original/hard_crackme"
+    page: https://crackmes.one/crackme/6aaad62d48cda5a2aaa3de08

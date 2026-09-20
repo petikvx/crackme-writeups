@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6aaad62d48cda5a2aaa3de08
+
+urls:
+  page: https://crackmes.one/crackme/6aaad62d48cda5a2aaa3de08
+  download: https://crackmes.one/download/crackme/6aaad62d48cda5a2aaa3de08
+
+title: "vetementsvmnts's a bit of a challenge"
+author_on_site: "vetementsvmnts"
+author_local: "vetementsvmnts"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/hard_crackme"
+  name: "hard_crackme"
+  sha256: "f3df05a4efd4ee17f0c3e2b70ff13e82dc841dfe3c4aae287ef33b7b24f58685"
+  md5: "933e2c93d82e10951f2b7de809f23338"
+  size_bytes: 14520
+
+status: solved
+solution_summary: "petik→dcff517e5eec15be2746a614 (FNV+ROL mix → 24 hex)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-20T16:57:19Z"
