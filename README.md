@@ -202,7 +202,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [fon37](authors/fon37/README.md) | fon37 | 1 (Secret Menu) | 1 / 1 |
 | [memetic0](authors/memetic0/README.md) | memetic0 | 1 (Tropical) | 1 / 1 |
 | [vetementsvmnts](authors/vetementsvmnts/README.md) | vetementsvmnts | 3 | 3 / 3 |
-| [acheylate](authors/acheylate/README.md) | acheylate | 1 (Find the password) | 1 / 1 |
+| [acheylate](authors/acheylate/README.md) | acheylate | 2 (Find password L+W) | 2 / 2 |
 | [keep](authors/keep/README.md) | Keep | 2 (sygil gui + console) | 2 / 2 |
 
 ## Mis de côté (PARKED — y revenir)
@@ -224,6 +224,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-20 | [Find the password Windows ver](authors/acheylate/6aac22ff48cda5a2aaa3de2d/) | acheylate |
 | 2026-09-20 | [sygil.fun](authors/keep/6aa9e8b1dbb3353b7539688c/) | Keep |
 | 2026-09-20 | [sygil (gui)](authors/keep/6aaa8922585e8875bcbebfde/) | Keep |
 | 2026-09-20 | [Find the password](authors/acheylate/6aac1a0c585e8875bcbec009/) | acheylate |

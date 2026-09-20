@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6aac22ff48cda5a2aaa3de2d
+
+urls:
+  page: https://crackmes.one/crackme/6aac22ff48cda5a2aaa3de2d
+  download: https://crackmes.one/download/crackme/6aac22ff48cda5a2aaa3de2d
+
+title: "acheylate's Find the password Windows ver"
+author_on_site: "acheylate"
+author_local: "acheylate"
+
+platform: "Windows"
+arch: "x86-64"
+language: "Rust"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme-01.exe"
+  name: "crackme-01.exe"
+  sha256: "1f8c86a39b5c881e9f3a781d39970b4f10fd9bdd5eec9b2425d866fe20c16c97"
+  md5: "88d8b69cfa1f629d3efcdd8408d54f38"
+  size_bytes: 266240
+
+status: solved
+solution_summary: "password HVUHADN (PE twin of Linux)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-20T16:57:37Z"

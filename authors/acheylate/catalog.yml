@@ -5,8 +5,17 @@ by_id:
     path: "authors/acheylate/6aac1a0c585e8875bcbec009/original/crackme-01"
     title: "acheylate's Find the password"
 
+  6aac22ff48cda5a2aaa3de2d:
+    sha256: "1f8c86a39b5c881e9f3a781d39970b4f10fd9bdd5eec9b2425d866fe20c16c97"
+    path: "authors/acheylate/6aac22ff48cda5a2aaa3de2d/original/crackme-01.exe"
+    title: "acheylate's Find the password Windows ver"
+
 by_sha256:
   67b49753e7e578cc2ac5c4a564e99cebe5a76535c323963c3422cc2f9e0455e4:
     id: 6aac1a0c585e8875bcbec009
     path: "authors/acheylate/6aac1a0c585e8875bcbec009/original/crackme-01"
     page: https://crackmes.one/crackme/6aac1a0c585e8875bcbec009
+  1f8c86a39b5c881e9f3a781d39970b4f10fd9bdd5eec9b2425d866fe20c16c97:
+    id: 6aac22ff48cda5a2aaa3de2d
+    path: "authors/acheylate/6aac22ff48cda5a2aaa3de2d/original/crackme-01.exe"
+    page: https://crackmes.one/crackme/6aac22ff48cda5a2aaa3de2d
