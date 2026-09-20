@@ -5,8 +5,17 @@ by_id:
     path: "authors/vetementsvmnts/6aa8ec52cab6678aefe9dda5/original/my_crackme"
     title: "vetementsvmnts's My First crackme"
 
+  6aac1a61dbb3353b753968c0:
+    sha256: "200b94ef46a2f18d92e772995cb43b706bd09b3af778889e09024be93b1c3ca4"
+    path: "authors/vetementsvmnts/6aac1a61dbb3353b753968c0/original/hard_crackme"
+    title: "vetementsvmnts's Tricky challenge or is it ?"
+
 by_sha256:
   236b6cae6332d78fe8b85ccbfef7f7ba3ddb722c1b0393dd94af8d633cfd7f6d:
     id: 6aa8ec52cab6678aefe9dda5
     path: "authors/vetementsvmnts/6aa8ec52cab6678aefe9dda5/original/my_crackme"
     page: https://crackmes.one/crackme/6aa8ec52cab6678aefe9dda5
+  200b94ef46a2f18d92e772995cb43b706bd09b3af778889e09024be93b1c3ca4:
+    id: 6aac1a61dbb3353b753968c0
+    path: "authors/vetementsvmnts/6aac1a61dbb3353b753968c0/original/hard_crackme"
+    page: https://crackmes.one/crackme/6aac1a61dbb3353b753968c0

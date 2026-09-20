@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6aac1a61dbb3353b753968c0
+
+urls:
+  page: https://crackmes.one/crackme/6aac1a61dbb3353b753968c0
+  download: https://crackmes.one/download/crackme/6aac1a61dbb3353b753968c0
+
+title: "vetementsvmnts's Tricky challenge or is it ?"
+author_on_site: "vetementsvmnts"
+author_local: "vetementsvmnts"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/hard_crackme"
+  name: "hard_crackme"
+  sha256: "200b94ef46a2f18d92e772995cb43b706bd09b3af778889e09024be93b1c3ca4"
+  md5: "47a5e8757cd1cf732505df5cb277891d"
+  size_bytes: 14504
+
+status: solved
+solution_summary: "password supersecret123 (XOR 0x55 + ptrace)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-20T16:52:09Z"

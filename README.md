@@ -201,7 +201,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [leotrungkien](authors/leotrungkien/README.md) | Leotrungkien | 1 (Fugs) | 1 / 1 |
 | [fon37](authors/fon37/README.md) | fon37 | 1 (Secret Menu) | 1 / 1 |
 | [memetic0](authors/memetic0/README.md) | memetic0 | 1 (Tropical) | 1 / 1 |
-| [vetementsvmnts](authors/vetementsvmnts/README.md) | vetementsvmnts | 1 (My First crackme) | 1 / 1 |
+| [vetementsvmnts](authors/vetementsvmnts/README.md) | vetementsvmnts | 2 (My First + Tricky) | 2 / 2 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -222,6 +222,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-20 | [Tricky challenge or is it ?](authors/vetementsvmnts/6aac1a61dbb3353b753968c0/) | vetementsvmnts |
 | 2026-09-20 | [My First crackme](authors/vetementsvmnts/6aa8ec52cab6678aefe9dda5/) | vetementsvmnts |
 | 2026-09-20 | [Tropical](authors/memetic0/6aadc96d585e8875bcbec043/) | memetic0 |
 | 2026-09-20 | [Secret Menu](authors/fon37/6aadf84e48cda5a2aaa3de61/) | fon37 |
