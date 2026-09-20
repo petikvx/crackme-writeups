@@ -203,6 +203,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [memetic0](authors/memetic0/README.md) | memetic0 | 1 (Tropical) | 1 / 1 |
 | [vetementsvmnts](authors/vetementsvmnts/README.md) | vetementsvmnts | 3 | 3 / 3 |
 | [acheylate](authors/acheylate/README.md) | acheylate | 1 (Find the password) | 1 / 1 |
+| [keep](authors/keep/README.md) | Keep | 1 (sygil gui) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -223,6 +224,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-20 | [sygil (gui)](authors/keep/6aaa8922585e8875bcbebfde/) | Keep |
 | 2026-09-20 | [Find the password](authors/acheylate/6aac1a0c585e8875bcbec009/) | acheylate |
 | 2026-09-20 | [KeygenMe](authors/vetementsvmnts/6aa94afadbb3353b7539687a/) | vetementsvmnts |
 | 2026-09-20 | [Tricky challenge or is it ?](authors/vetementsvmnts/6aac1a61dbb3353b753968c0/) | vetementsvmnts |

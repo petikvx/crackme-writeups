@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6aaa8922585e8875bcbebfde:
+    sha256: "56247d55d56cbe79a61f2099f07e0085b295ef41883b13e8526da28d428205fd"
+    path: "authors/keep/6aaa8922585e8875bcbebfde/original/sygil.fun"
+    title: "Keep's sygil (gui version for linux)"
+
+by_sha256:
+  56247d55d56cbe79a61f2099f07e0085b295ef41883b13e8526da28d428205fd:
+    id: 6aaa8922585e8875bcbebfde
+    path: "authors/keep/6aaa8922585e8875bcbebfde/original/sygil.fun"
+    page: https://crackmes.one/crackme/6aaa8922585e8875bcbebfde
