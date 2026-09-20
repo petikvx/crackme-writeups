@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6aadc96d585e8875bcbec043
+
+urls:
+  page: https://crackmes.one/crackme/6aadc96d585e8875bcbec043
+  download: https://crackmes.one/download/crackme/6aadc96d585e8875bcbec043
+
+title: "memetic0's Tropical"
+author_on_site: "memetic0"
+author_local: "memetic0"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 5.0
+quality: 4.0
+size: "21.65 KB"
+published: "2026-09-18"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/tropical"
+  name: "tropical"
+  sha256: "2132f2a38c7f9e37203909b65b4b826b3beace5791b26b56ffcc9c66248dd27c"
+  md5: "5324f4e0b41a5cce6225ffcf6e15145c"
+  size_bytes: 51600
+
+status: solved
+solution_summary: "serial 5242b75304439277 — tropical λ=3, x=(0,2,5,1,4,3)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-20T15:35:32Z"

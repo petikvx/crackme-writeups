@@ -200,6 +200,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [nillya](authors/nillya/README.md) | Nillya | 1 (Nillya's Pass CrackMe) | 0 / 1 |
 | [leotrungkien](authors/leotrungkien/README.md) | Leotrungkien | 1 (Fugs) | 1 / 1 |
 | [fon37](authors/fon37/README.md) | fon37 | 1 (Secret Menu) | 1 / 1 |
+| [memetic0](authors/memetic0/README.md) | memetic0 | 1 (Tropical) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
