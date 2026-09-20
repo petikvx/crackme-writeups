@@ -10,6 +10,11 @@ by_id:
     path: "authors/vetementsvmnts/6aac1a61dbb3353b753968c0/original/hard_crackme"
     title: "vetementsvmnts's Tricky challenge or is it ?"
 
+  6aa94afadbb3353b7539687a:
+    sha256: "b8bf4521ee2faf1d7c9552cc905f5d16e1c3c0d4882e00727ca48f1da21b0690"
+    path: "authors/vetementsvmnts/6aa94afadbb3353b7539687a/original/keygen_crackme"
+    title: "vetementsvmnts's KeygenMe"
+
 by_sha256:
   236b6cae6332d78fe8b85ccbfef7f7ba3ddb722c1b0393dd94af8d633cfd7f6d:
     id: 6aa8ec52cab6678aefe9dda5
@@ -19,3 +24,7 @@ by_sha256:
     id: 6aac1a61dbb3353b753968c0
     path: "authors/vetementsvmnts/6aac1a61dbb3353b753968c0/original/hard_crackme"
     page: https://crackmes.one/crackme/6aac1a61dbb3353b753968c0
+  b8bf4521ee2faf1d7c9552cc905f5d16e1c3c0d4882e00727ca48f1da21b0690:
+    id: 6aa94afadbb3353b7539687a
+    path: "authors/vetementsvmnts/6aa94afadbb3353b7539687a/original/keygen_crackme"
+    page: https://crackmes.one/crackme/6aa94afadbb3353b7539687a
