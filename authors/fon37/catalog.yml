@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6aadf84e48cda5a2aaa3de61:
+    sha256: "7cb1206c8ca80c8e3fb23269d45255ef75579f52eb7f34314ad9e494cd484b8c"
+    path: "authors/fon37/6aadf84e48cda5a2aaa3de61/original/chall"
+    title: "fon37's Secret Menu"
+
+by_sha256:
+  7cb1206c8ca80c8e3fb23269d45255ef75579f52eb7f34314ad9e494cd484b8c:
+    id: 6aadf84e48cda5a2aaa3de61
+    path: "authors/fon37/6aadf84e48cda5a2aaa3de61/original/chall"
+    page: https://crackmes.one/crackme/6aadf84e48cda5a2aaa3de61

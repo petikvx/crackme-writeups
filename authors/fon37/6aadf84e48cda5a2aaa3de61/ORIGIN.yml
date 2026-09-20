@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6aadf84e48cda5a2aaa3de61
+
+urls:
+  page: https://crackmes.one/crackme/6aadf84e48cda5a2aaa3de61
+  download: https://crackmes.one/download/crackme/6aadf84e48cda5a2aaa3de61
+
+title: "fon37's Secret Menu"
+author_on_site: "fon37"
+author_local: "fon37"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "Python"
+
+difficulty: 2.0
+quality: 4.0
+size: "7.82 MB"
+published: "2026-09-19"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/chall"
+  name: "chall"
+  sha256: "7cb1206c8ca80c8e3fb23269d45255ef75579f52eb7f34314ad9e494cd484b8c"
+  md5: "c3ef32e788a580a616ec5e9b545bd096"
+  size_bytes: 8195784
+
+status: solved
+solution_summary: "secret menu justasimplexor (XOR 171 on p[]) → Congratulations, you win!"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-20T15:31:21Z"

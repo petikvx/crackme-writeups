@@ -199,6 +199,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [victormeloasm](authors/victormeloasm/README.md) | victormeloasm | 2 (Froggate II + Simple Frog) | 1 / 2 |
 | [nillya](authors/nillya/README.md) | Nillya | 1 (Nillya's Pass CrackMe) | 0 / 1 |
 | [leotrungkien](authors/leotrungkien/README.md) | Leotrungkien | 1 (Fugs) | 1 / 1 |
+| [fon37](authors/fon37/README.md) | fon37 | 1 (Secret Menu) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -219,6 +220,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-20 | [Secret Menu](authors/fon37/6aadf84e48cda5a2aaa3de61/) | fon37 |
 | 2026-09-20 | [Simple Frog](authors/victormeloasm/6aae098bcab6678aefe9de31/) | victormeloasm |
 | 2026-09-20 | [Leotrungkien's Fugs](authors/leotrungkien/6aaebbc1585e8875bcbec053/) | Leotrungkien |
 | 2026-09-12 | [obscurio - 1](authors/ray33ee/6a88726c3b246e477b6c094d/) | ray33ee |
