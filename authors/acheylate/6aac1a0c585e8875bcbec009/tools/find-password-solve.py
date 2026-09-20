@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Solveur — acheylate's Find the password (Rust Linux)
 
-Password = concat de 2 immediates u32 LE chevauchants : HVUH + ADN.
+Password HVUHADN : len==7, puis 2× XOR u32 LE chevauchants
+  password[0:4] ^ 0x48555648 == 0  ("HVUH")
+  password[3:7] ^ 0x4E444148 == 0  ("HADN")
 
 Usage:
   python3 tools/find-password-solve.py -q

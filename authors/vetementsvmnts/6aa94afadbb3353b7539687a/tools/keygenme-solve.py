@@ -2,6 +2,7 @@
 """Solveur — vetementsvmnts's KeygenMe
 
 serial = sum(ord(c) for c in name) * 7 + 0x7b
+(*7 dans le binaire = (sum<<3) - sum, puis +0x7b)
 
 Usage:
   python3 tools/keygenme-solve.py -q
