@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6aa8483c48cda5a2aaa3ddc1
+
+urls:
+  page: https://crackmes.one/crackme/6aa8483c48cda5a2aaa3ddc1
+  download: https://crackmes.one/download/crackme/6aa8483c48cda5a2aaa3ddc1
+
+title: "MAS's zW0rM"
+author_on_site: "MAS"
+author_local: "mas"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 3.0
+quality: 4.0
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Zworm_game.exe"
+  name: "Zworm_game.exe"
+  sha256: "975ea2949fb15747394c0bc88fd214d3054aa3cb46bfeff59e5ed18d1f7fe2e2"
+  md5: "1d511ba676e1459258fa59ba7a2e43ba"
+  size_bytes: 1152000
+
+status: solved
+solution_summary: "flag Z+{SOm3_T1Mes_Y0u_N33dToEn_joyTheGameT0Crack_it} (score=5)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-20T17:52:21Z"

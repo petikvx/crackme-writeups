@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6aa8483c48cda5a2aaa3ddc1:
+    sha256: "975ea2949fb15747394c0bc88fd214d3054aa3cb46bfeff59e5ed18d1f7fe2e2"
+    path: "authors/mas/6aa8483c48cda5a2aaa3ddc1/original/Zworm_game.exe"
+    title: "MAS's zW0rM"
+
+by_sha256:
+  975ea2949fb15747394c0bc88fd214d3054aa3cb46bfeff59e5ed18d1f7fe2e2:
+    id: 6aa8483c48cda5a2aaa3ddc1
+    path: "authors/mas/6aa8483c48cda5a2aaa3ddc1/original/Zworm_game.exe"
+    page: https://crackmes.one/crackme/6aa8483c48cda5a2aaa3ddc1
