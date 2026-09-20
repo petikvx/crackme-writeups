@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6aa8ec52cab6678aefe9dda5
+
+urls:
+  page: https://crackmes.one/crackme/6aa8ec52cab6678aefe9dda5
+  download: https://crackmes.one/download/crackme/6aa8ec52cab6678aefe9dda5
+
+title: "vetementsvmnts's My First crackme"
+author_on_site: "vetementsvmnts"
+author_local: "vetementsvmnts"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/my_crackme"
+  name: "my_crackme"
+  sha256: "236b6cae6332d78fe8b85ccbfef7f7ba3ddb722c1b0393dd94af8d633cfd7f6d"
+  md5: "852c6c867ab0f2d08c35ba325fae59b8"
+  size_bytes: 16120
+
+status: solved
+solution_summary: "password my_first_crackme (strcmp .rodata)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-20T16:51:35Z"

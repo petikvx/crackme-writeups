@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6aa8ec52cab6678aefe9dda5:
+    sha256: "236b6cae6332d78fe8b85ccbfef7f7ba3ddb722c1b0393dd94af8d633cfd7f6d"
+    path: "authors/vetementsvmnts/6aa8ec52cab6678aefe9dda5/original/my_crackme"
+    title: "vetementsvmnts's My First crackme"
+
+by_sha256:
+  236b6cae6332d78fe8b85ccbfef7f7ba3ddb722c1b0393dd94af8d633cfd7f6d:
+    id: 6aa8ec52cab6678aefe9dda5
+    path: "authors/vetementsvmnts/6aa8ec52cab6678aefe9dda5/original/my_crackme"
+    page: https://crackmes.one/crackme/6aa8ec52cab6678aefe9dda5
