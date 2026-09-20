@@ -1,0 +1,556 @@
+238           0 RESUME                   0
+              2 LOAD_GLOBAL              1 (NULL + 恼鯶風禯雭蠓炼實)
+             12 LOAD_FAST                0 (韍跂瞄釁甄樄熉獨)
+             14 CALL                     1
+             22 POP_JUMP_IF_TRUE         1 (to 26)
+             24 RETURN_CONST             1 (False)
+        >>   26 PUSH_NULL
+             28 LOAD_CONST               2 (<code object <lambda> at 0x7da71e2c5610, file "<x>", line 240>)
+             30 MAKE_FUNCTION            0
+             32 LOAD_GLOBAL              2 (峗穜嬔鏠鈰姇厥厝)
+             42 LOAD_FAST                0 (韍跂瞄釁甄樄熉獨)
+             44 BUILD_TUPLE              1
+             46 BUILD_MAP                0
+             48 CALL                     3
+             56 LOAD_GLOBAL              4 (漛蚟鞌桷軖謫蛹甒)
+             66 COMPARE_OP              55 (!=)
+             70 POP_JUMP_IF_FALSE        1 (to 74)
+             72 RETURN_CONST             1 (False)
+        >>   74 PUSH_NULL
+             76 LOAD_CONST               3 (0)
+             78 LOAD_CONST               3 (0)
+             80 COMPARE_OP              40 (==)
+             84 POP_JUMP_IF_FALSE        6 (to 98)
+             86 LOAD_GLOBAL              6 (_R1HmUul7IT)
+             96 JUMP_FORWARD             5 (to 108)
+        >>   98 LOAD_GLOBAL              6 (_R1HmUul7IT)
+
+245     >>  108 LOAD_FAST                0 (韍跂瞄釁甄樄熉獨)
+            110 CALL                     1
+
+223         118 LOAD_CONST               4 (2114394975)
+            120 COMPARE_OP              55 (!=)
+            124 POP_JUMP_IF_FALSE        1 (to 128)
+            126 RETURN_CONST             1 (False)
+        >>  128 LOAD_GLOBAL              9 (NULL + id)
+            138 LOAD_GLOBAL             11 (NULL + object)
+            148 CALL                     0
+            156 CALL                     1
+            164 LOAD_CONST               3 (0)
+            166 COMPARE_OP              92 (>=)
+            170 POP_JUMP_IF_FALSE        2 (to 176)
+            172 LOAD_CONST               3 (0)
+            174 STORE_FAST               1 (诜漴臤啽鐖魠煪癨泤焱)
+        >>  176 RETURN_CONST             5 (True)
+            178 JUMP_FORWARD            46 (to 272)
+            180 LOAD_CONST               0 (None)
+            182 COMPARE_OP               2 (<)
+            186 NOP
+            188 NOP
+            190 LOAD_CONST               0 (None)
+            192 POP_TOP
+            194 LOAD_CONST               0 (None)
+            196 COMPARE_OP               2 (<)
+            200 NOP
+            202 NOP
+            204 NOP
+            206 NOP
+            208 LOAD_CONST               0 (None)
+            210 POP_TOP
+            212 LOAD_CONST               0 (None)
+            214 COMPARE_OP               2 (<)
+            218 NOP
+            220 NOP
+            222 NOP
+            224 NOP
+            226 LOAD_CONST               0 (None)
+            228 POP_TOP
+            230 LOAD_CONST               0 (None)
+            232 COMPARE_OP               2 (<)
+            236 NOP
+            238 NOP
+            240 NOP
+            242 NOP
+            244 NOP
+            246 LOAD_CONST               0 (None)
+            248 POP_TOP
+            250 JUMP_FORWARD             2 (to 256)
+            252 NOP
+            254 EXTENDED_ARG             0
+        >>  256 JUMP_FORWARD             2 (to 262)
+            258 NOP
+            260 EXTENDED_ARG             2
+        >>  262 JUMP_FORWARD           514 (to 1292)
+            264 NOP
+            266 EXTENDED_ARG             1
+            268 JUMP_FORWARD           258 (to 786)
+            270 NOP
+        >>  272 JUMP_FORWARD            57 (to 388)
+            274 LOAD_CONST               0 (None)
+            276 COMPARE_OP               2 (<)
+            280 NOP
+            282 NOP
+            284 NOP
+            286 NOP
+            288 LOAD_CONST               0 (None)
+            290 POP_TOP
+            292 LOAD_CONST               0 (None)
+            294 COMPARE_OP               2 (<)
+            298 NOP
+            300 NOP
+            302 NOP
+            304 NOP
+            306 NOP
+            308 LOAD_CONST               0 (None)
+            310 POP_TOP
+            312 LOAD_CONST               0 (None)
+            314 COMPARE_OP               2 (<)
+            318 NOP
+            320 NOP
+            322 LOAD_CONST               0 (None)
+            324 POP_TOP
+            326 LOAD_CONST               0 (None)
+            328 COMPARE_OP               2 (<)
+            332 NOP
+            334 NOP
+            336 NOP
+            338 LOAD_CONST               0 (None)
+            340 POP_TOP
+            342 LOAD_CONST               0 (None)
+            344 COMPARE_OP               2 (<)
+            348 NOP
+            350 NOP
+            352 NOP
+            354 NOP
+            356 NOP
+            358 LOAD_CONST               0 (None)
+            360 POP_TOP
+            362 LOAD_CONST               0 (None)
+            364 COMPARE_OP               2 (<)
+            368 NOP
+            370 NOP
+            372 NOP
+            374 NOP
+            376 LOAD_CONST               0 (None)
+            378 POP_TOP
+            380 JUMP_FORWARD             2 (to 386)
+            382 NOP
+            384 JUMP_FORWARD             2 (to 390)
+        >>  386 NOP
+        >>  388 JUMP_FORWARD            34 (to 458)
+        >>  390 LOAD_CONST               0 (None)
+            392 COMPARE_OP               2 (<)
+            396 NOP
+            398 NOP
+            400 NOP
+            402 NOP
+            404 NOP
+            406 LOAD_CONST               0 (None)
+            408 POP_TOP
+            410 LOAD_CONST               0 (None)
+            412 COMPARE_OP               2 (<)
+            416 NOP
+            418 NOP
+            420 NOP
+            422 LOAD_CONST               0 (None)
+            424 POP_TOP
+            426 LOAD_CONST               0 (None)
+            428 COMPARE_OP               2 (<)
+            432 NOP
+            434 NOP
+            436 LOAD_CONST               0 (None)
+            438 POP_TOP
+            440 EXTENDED_ARG             1
+            442 JUMP_FORWARD           258 (to 960)
+            444 NOP
+            446 JUMP_FORWARD             2 (to 452)
+            448 NOP
+            450 JUMP_FORWARD             2 (to 456)
+        >>  452 NOP
+            454 JUMP_FORWARD             2 (to 460)
+        >>  456 NOP
+        >>  458 JUMP_FORWARD            60 (to 580)
+        >>  460 LOAD_CONST               0 (None)
+            462 COMPARE_OP               2 (<)
+            466 NOP
+            468 NOP
+            470 NOP
+            472 NOP
+            474 NOP
+            476 LOAD_CONST               0 (None)
+            478 POP_TOP
+            480 LOAD_CONST               0 (None)
+            482 COMPARE_OP               2 (<)
+            486 NOP
+            488 NOP
+            490 NOP
+            492 LOAD_CONST               0 (None)
+            494 POP_TOP
+            496 LOAD_CONST               0 (None)
+            498 COMPARE_OP               2 (<)
+            502 NOP
+            504 NOP
+            506 NOP
+            508 NOP
+            510 NOP
+            512 LOAD_CONST               0 (None)
+            514 POP_TOP
+            516 LOAD_CONST               0 (None)
+            518 COMPARE_OP               2 (<)
+            522 NOP
+            524 NOP
+            526 NOP
+            528 LOAD_CONST               0 (None)
+            530 POP_TOP
+            532 LOAD_CONST               0 (None)
+            534 COMPARE_OP               2 (<)
+            538 NOP
+            540 NOP
+            542 LOAD_CONST               0 (None)
+            544 POP_TOP
+            546 LOAD_CONST               0 (None)
+            548 COMPARE_OP               2 (<)
+            552 NOP
+            554 NOP
+            556 NOP
+            558 NOP
+            560 LOAD_CONST               0 (None)
+            562 POP_TOP
+            564 JUMP_FORWARD             2 (to 570)
+            566 NOP
+            568 JUMP_FORWARD             2 (to 574)
+        >>  570 NOP
+            572 JUMP_FORWARD             2 (to 578)
+        >>  574 NOP
+            576 JUMP_FORWARD             2 (to 582)
+        >>  578 NOP
+        >>  580 JUMP_FORWARD             9 (to 600)
+        >>  582 NOP
+            584 NOP
+            586 NOP
+            588 NOP
+            590 NOP
+            592 NOP
+            594 NOP
+            596 NOP
+            598 NOP
+        >>  600 JUMP_FORWARD            13 (to 628)
+            602 JUMP_FORWARD             4 (to 612)
+            604 NOP
+            606 NOP
+            608 LOAD_CONST               0 (None)
+            610 POP_TOP
+        >>  612 LOAD_CONST               0 (None)
+            614 POP_TOP
+            616 NOP
+            618 LOAD_CONST               0 (None)
+            620 POP_TOP
+            622 JUMP_FORWARD             4 (to 632)
+            624 NOP
+            626 NOP
+        >>  628 JUMP_FORWARD             7 (to 644)
+            630 NOP
+        >>  632 NOP
+            634 NOP
+            636 NOP
+            638 NOP
+            640 NOP
+            642 NOP
+        >>  644 JUMP_FORWARD            19 (to 684)
+            646 BEFORE_WITH
+            648 LOAD_CONST               0 (None)
+            650 NOP
+            652 NOP
+            654 NOP
+            656 NOP
+            658 WITH_EXCEPT_START
+            660 NOP
+            662 POP_TOP
+            664 BEFORE_WITH
+            666 NOP
+            668 BEFORE_WITH
+            670 NOP
+            672 BEFORE_WITH
+            674 NOP
+            676 BEFORE_WITH
+            678 NOP
+            680 BEFORE_WITH
+            682 NOP
+        >>  684 JUMP_FORWARD            29 (to 744)
+            686 BEFORE_WITH
+            688 LOAD_CONST               0 (None)
+            690 NOP
+            692 NOP
+            694 NOP
+            696 NOP
+            698 BEFORE_WITH
+            700 LOAD_CONST               0 (None)
+            702 NOP
+            704 NOP
+            706 BEFORE_WITH
+            708 NOP
+            710 BEFORE_ASYNC_WITH
+            712 NOP
+            714 NOP
+            716 WITH_EXCEPT_START
+            718 NOP
+            720 BEFORE_WITH
+            722 NOP
+            724 BEFORE_WITH
+            726 NOP
+            728 BEFORE_WITH
+            730 NOP
+            732 BEFORE_WITH
+            734 NOP
+            736 BEFORE_WITH
+            738 NOP
+            740 BEFORE_WITH
+            742 NOP
+        >>  744 JUMP_FORWARD            20 (to 786)
+            746 BEFORE_WITH
+            748 LOAD_CONST               0 (None)
+            750 NOP
+            752 NOP
+            754 NOP
+            756 NOP
+            758 BEFORE_WITH
+            760 LOAD_CONST               0 (None)
+            762 NOP
+            764 NOP
+            766 BEFORE_WITH
+            768 NOP
+            770 BEFORE_WITH
+            772 NOP
+            774 BEFORE_WITH
+            776 NOP
+            778 BEFORE_WITH
+            780 NOP
+            782 BEFORE_WITH
+            784 NOP
+        >>  786 JUMP_FORWARD            88 (to 964)
+            788 JUMP_FORWARD             6 (to 802)
+            790 NOP
+            792 NOP
+            794 NOP
+            796 LOAD_CONST               0 (None)
+            798 CACHE
+            800 POP_JUMP_IF_NOT_NONE     2 (to 806)
+        >>  802 NOP
+            804 JUMP_FORWARD             4 (to 814)
+        >>  806 NOP
+            808 CACHE
+            810 LOAD_CONST               0 (None)
+            812 CACHE
+        >>  814 POP_JUMP_IF_NOT_NONE     2 (to 820)
+            816 NOP
+            818 JUMP_FORWARD             6 (to 832)
+        >>  820 CACHE
+            822 CACHE
+            824 NOP
+            826 LOAD_CONST               0 (None)
+            828 CACHE
+            830 POP_JUMP_IF_NOT_NONE     2 (to 836)
+        >>  832 NOP
+            834 RETURN_CONST             0 (None)
+        >>  836 CACHE
+            838 NOP
+            840 LOAD_CONST               0 (None)
+            842 POP_TOP
+            844 RETURN_VALUE
+            846 NOP
+            848 LOAD_CONST               0 (None)
+            850 POP_TOP
+            852 RAISE_VARARGS            2
+            854 NOP
+            856 NOP
+            858 LOAD_CONST               0 (None)
+            860 POP_TOP
+            862 NOP
+            864 CACHE
+            866 PUSH_NULL
+            868 LOAD_CONST               0 (None)
+            870 CACHE
+            872 CALL                     1
+            880 CACHE
+            882 POP_TOP
+            884 PUSH_NULL
+            886 LOAD_CONST               0 (None)
+            888 CACHE
+            890 CALL                     2
+            898 CACHE
+            900 POP_TOP
+            902 BEFORE_WITH
+            904 LOAD_CONST               0 (None)
+            906 CACHE
+            908 CACHE
+            910 WITH_EXCEPT_START
+            912 CACHE
+            914 POP_TOP
+            916 PUSH_EXC_INFO
+            918 LOAD_CONST               0 (None)
+            920 CACHE
+            922 CHECK_EXC_MATCH
+            924 CACHE
+            926 POP_JUMP_IF_FALSE        4 (to 936)
+            928 NOP
+            930 NOP
+            932 RERAISE                  0
+            934 NOP
+        >>  936 RAISE_VARARGS            0
+            938 NOP
+            940 POP_TOP
+            942 GET_YIELD_FROM_ITER
+            944 CACHE
+            946 SEND                     0 (to 950)
+        >>  950 END_SEND
+            952 YIELD_VALUE              0
+            954 CACHE
+            956 BEFORE_WITH
+            958 CACHE
+        >>  960 BEFORE_WITH
+            962 CACHE
+        >>  964 JUMP_FORWARD            81 (to 1128)
+            966 PUSH_EXC_INFO
+            968 LOAD_CONST               0 (None)
+            970 CACHE
+            972 CHECK_EXC_MATCH
+            974 CACHE
+            976 POP_JUMP_IF_FALSE        4 (to 986)
+            978 NOP
+            980 NOP
+            982 RERAISE                  0
+            984 NOP
+        >>  986 RAISE_VARARGS            0
+            988 NOP
+            990 POP_TOP
+            992 PUSH_NULL
+            994 LOAD_CONST               0 (None)
+            996 CACHE
+            998 CALL                     0
+           1006 CACHE
+           1008 POP_TOP
+           1010 PUSH_NULL
+           1012 LOAD_CONST               0 (None)
+           1014 CACHE
+           1016 CALL                     3
+           1024 CACHE
+           1026 POP_TOP
+           1028 PUSH_NULL
+           1030 LOAD_CONST               0 (None)
+           1032 CACHE
+           1034 CALL                     1
+           1042 CACHE
+           1044 POP_TOP
+           1046 LOAD_CONST               0 (None)
+           1048 CACHE
+           1050 GET_ITER
+           1052 CACHE
+           1054 FOR_ITER                 4 (to 1066)
+           1058 CACHE
+           1060 POP_TOP
+           1062 NOP
+        >> 1064 END_FOR
+        >> 1066 POP_TOP
+           1068 JUMP_BACKWARD            3 (to 1064)
+           1070 NOP
+           1072 NOP
+           1074 GET_YIELD_FROM_ITER
+           1076 CACHE
+           1078 SEND                     0 (to 1082)
+        >> 1082 END_SEND
+           1084 YIELD_VALUE              0
+           1086 CACHE
+           1088 BEFORE_WITH
+           1090 LOAD_CONST               0 (None)
+           1092 CACHE
+           1094 CACHE
+           1096 WITH_EXCEPT_START
+           1098 CACHE
+           1100 POP_TOP
+           1102 BEFORE_ASYNC_WITH
+           1104 GET_AITER
+           1106 CACHE
+           1108 CACHE
+           1110 END_ASYNC_FOR
+           1112 NOP
+           1114 CACHE
+           1116 BEFORE_WITH
+           1118 CACHE
+           1120 BEFORE_WITH
+           1122 CACHE
+           1124 BEFORE_WITH
+           1126 CACHE
+        >> 1128 JUMP_FORWARD            73 (to 1276)
+           1130 BEFORE_WITH
+           1132 LOAD_CONST               0 (None)
+           1134 CACHE
+           1136 CACHE
+           1138 WITH_EXCEPT_START
+           1140 CACHE
+           1142 POP_TOP
+           1144 PUSH_NULL
+           1146 LOAD_CONST               0 (None)
+           1148 CACHE
+           1150 CALL                     1
+           1158 CACHE
+           1160 POP_TOP
+           1162 PUSH_NULL
+           1164 LOAD_CONST               0 (None)
+           1166 CACHE
+           1168 CALL                     2
+           1176 CACHE
+           1178 POP_TOP
+           1180 PUSH_NULL
+           1182 LOAD_CONST               0 (None)
+           1184 CACHE
+           1186 CALL                     1
+           1194 CACHE
+           1196 POP_TOP
+           1198 LOAD_CONST               0 (None)
+           1200 CACHE
+           1202 LOAD_CONST               0 (None)
+           1204 CACHE
+           1206 COMPARE_OP               2 (<)
+           1210 NOP
+           1212 NOP
+           1214 POP_JUMP_IF_TRUE         2 (to 1220)
+           1216 NOP
+           1218 POP_TOP
+        >> 1220 LOAD_CONST               0 (None)
+           1222 POP_TOP
+           1224 PUSH_EXC_INFO
+           1226 LOAD_CONST               0 (None)
+           1228 CACHE
+           1230 CHECK_EXC_MATCH
+           1232 CACHE
+           1234 POP_JUMP_IF_FALSE        4 (to 1244)
+           1236 NOP
+           1238 NOP
+           1240 RERAISE                  0
+           1242 NOP
+        >> 1244 RAISE_VARARGS            0
+           1246 NOP
+           1248 POP_TOP
+           1250 NOP
+           1252 CACHE
+           1254 GET_YIELD_FROM_ITER
+           1256 CACHE
+           1258 SEND                     0 (to 1262)
+        >> 1262 END_SEND
+           1264 YIELD_VALUE              0
+           1266 CACHE
+           1268 NOP
+           1270 CACHE
+           1272 BEFORE_WITH
+           1274 CACHE
+
+Disassembly of <code object <lambda> at 0x7da71e2c5610, file "<x>", line 240>:
+240           0 RESUME                   0
+              2 PUSH_NULL
+              4 LOAD_FAST                0 (__f)
+              6 LOAD_FAST                1 (__a)
+              8 BUILD_MAP                0
+             10 LOAD_FAST                2 (__k)
+             12 DICT_MERGE               1
+             14 CALL_FUNCTION_EX         1
+             16 RETURN_VALUE

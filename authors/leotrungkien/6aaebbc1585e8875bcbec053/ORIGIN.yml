@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6aaebbc1585e8875bcbec053
+
+urls:
+  page: https://crackmes.one/crackme/6aaebbc1585e8875bcbec053
+  download: https://crackmes.one/download/crackme/6aaebbc1585e8875bcbec053
+
+title: "Leotrungkien's Fugs"
+author_on_site: "Leotrungkien"
+author_local: "leotrungkien"
+
+platform: "Multiplatform"
+arch: ""
+language: "Python"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/does_not_exist.py"
+  name: "does_not_exist.py"
+  sha256: "f98eb04ba26edf4d01ae1fd0fff2bd5aa98ad95d7a1160c8d4b5d2cb715a41d3"
+  md5: "d655c62cdae8aa1c843af3b2741e2e33"
+  size_bytes: 127656
+
+status: solved
+solution_summary: "KEY UTF-8 95 B (Fugs packer + affine GF(2)): My friend is really crazy haha_000XXX1101010999999998888999999__FUCKYOU____LOVEYOU_😁😁😁"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-20T15:07:27Z"

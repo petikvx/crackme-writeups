@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6aaebbc1585e8875bcbec053:
+    sha256: "f98eb04ba26edf4d01ae1fd0fff2bd5aa98ad95d7a1160c8d4b5d2cb715a41d3"
+    path: "authors/leotrungkien/6aaebbc1585e8875bcbec053/original/does_not_exist.py"
+    title: "Leotrungkien's Fugs"
+
+by_sha256:
+  f98eb04ba26edf4d01ae1fd0fff2bd5aa98ad95d7a1160c8d4b5d2cb715a41d3:
+    id: 6aaebbc1585e8875bcbec053
+    path: "authors/leotrungkien/6aaebbc1585e8875bcbec053/original/does_not_exist.py"
+    page: https://crackmes.one/crackme/6aaebbc1585e8875bcbec053
