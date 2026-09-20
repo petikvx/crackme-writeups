@@ -145,20 +145,37 @@ Date = jour du commit write-up / soluce (ou jour de la résolution locale si pas
 
 ### 4. Write-up (`README.md` du challenge)
 
-S’inspirer des challenges déjà solved (CFB #1/#2/#3, plikan, timotei).
+**Préférer un write-up détaillé** : pas seulement la réponse + une formule en une ligne. Le lecteur doit pouvoir **refaire le reverse** (ou au moins comprendre *comment* on est arrivé au prédicat).
+
+S’inspirer des challenges déjà solved bien documentés :
+- chemin de découverte clair : [acheylate Find the password](authors/acheylate/6aac1a0c585e8875bcbec009/) (`HVUHADN`, immediates u32 LE) ;
+- formule + asm compilateur : [vetementsvmnts KeygenMe](authors/vetementsvmnts/6aa94afadbb3353b7539687a/) (`sum*7+0x7b`, `shl`/`sub`) ;
+- aussi CFB #1/#2/#3, plikan, timotei, et les sections GDB (toasterbirb, etc.).
 
 Structure type :
 
 1. En-tête : titre, lien ORIGIN + crackmes.one, auteur, plateforme  
 2. Table des fichiers du dossier  
 3. **Réponse** (serial / path / password) en évidence + commande solveur — si user/login : exemple **`petik`**  
-
-4. Premier regard (`file`, banner, hashes)  
+4. Premier regard (`file`, banner, hashes, strings utiles / trompeurs)  
 5. Flow  
-6. Prédicat (tables, asm, pseudo-code)  
-7. **Debug GDB (pas à pas)** — **si GDB a été utilisé** (voir § Debug GDB) ; idem observations x64dbg/x32dbg si MCP actif  
-8. Vérification (screenshots + commandes)  
-9. Notes (pièges, ce que ce n’est *pas*)
+6. **Comment on trouve** le prédicat / la réponse (obligatoire pour un « solved ») — voir ci-dessous  
+7. Prédicat consolidé (tables, asm, pseudo-code) si pas déjà tout dit au §6  
+8. **Debug GDB (pas à pas)** — **si GDB a été utilisé** (voir § Debug GDB) ; idem observations x64dbg/x32dbg si MCP actif  
+9. Vérification (screenshots + commandes, cas OK **et** au moins un KO / edge utile)  
+10. Notes (pièges, ce que ce n’est *pas*)
+
+#### Contenu attendu de « Comment on trouve… »
+
+Reproductible, concret, pas un spoiler plat :
+
+- **Ancrage** : commande (`objdump`, `strings`, `decc`, extract PyInstaller, …) et endroit du check (symbole / VMA / offset fichier).
+- **Lecture du binaire** : extraits asm ou pseudo-code **commentés** (pas un dump monstre non expliqué).
+- **Décodage** : immediates LE↔ASCII, XOR, réduction de force (`x*7 = (x<<3)-x`), tables, etc.
+- **Assemblage** de la réponse (chevauchements, concat, exemple `petik→…` étape par étape).
+- **Pièges** rencontrés (`strings` qui colle opcode+immediate, fausse C-string, anti-debug, …).
+
+Un README du type « password = `FOO` ; formule `sum*7+0x7b` » **sans** chemin de découverte est **trop court** — le compléter avant de marquer solved / avant commit.
 
 Langue : **français** (comme le reste du dépôt), termes techniques en anglais OK.
 
@@ -305,8 +322,8 @@ Les solveurs restent dans `authors/<slug>/<id>/tools/`.
 - [ ] Solveur dans `tools/`, smoke-test OK  
 - [ ] Preuve live (Wine / native) OK ; si x64dbg/x32dbg MCP actif sur le binaire → observations dynamiques dans le write-up  
 - [ ] Si **GDB** a servi au reverse / à la vérif → section **Debug GDB (pas à pas)** dans le `README.md`  
-
-- [ ] Write-up lisible avec **réponse en tête** (user d’exemple = **`petik`** si applicable)  
+- [ ] Write-up **détaillé** : réponse en tête **+** section « comment on trouve » (ancrage, asm/pseudo, pièges) — pas une formule seule  
+- [ ] User d’exemple = **`petik`** si applicable  
 - [ ] `ORIGIN.yml` : `status: solved` + summary  
 - [ ] `authors/<slug>/README.md` + README racine (compteur famille) à jour  
 - [ ] Historique README racine : **nouvelle ligne en haut** (`Date | Crackme | Auteur`)  
@@ -319,6 +336,7 @@ Les solveurs restent dans `authors/<slug>/<id>/tools/`.
 
 | Sujet | Exemple |
 |---|---|
+| Write-up détaillé (chemin de découverte) | acheylate `6aac1a0c…` ; vetementsvmnts KeygenMe `6aa94afa…` |
 | Serial hex par caractère | `authors/cracknotme/…/CFB1` |
 | Maze WASD | CFB #2 |
 | Mini-VM bytecode | CFB #3 (`pwn_vm_3`, underscores) |
