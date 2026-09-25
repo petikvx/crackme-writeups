@@ -133,7 +133,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [simbahdd](authors/simbahdd/README.md) | SimbaHDD | 1 (CRACKME) | 1 / 1 |
 | [tdaron](authors/tdaron/README.md) | tdaron | 1 (Use your brain) | 1 / 1 |
 | [pipedown](authors/pipedown/README.md) | pipedown | 1 (I need to be honest) | 1 / 1 |
-| [jeffli6789](authors/jeffli6789/README.md) | jeffli6789 | 3 (wallpaper + x86 + Maze) | 3 / 3 |
+| [jeffli6789](authors/jeffli6789/README.md) | jeffli6789 | 4 (wallpaper + x86 + Maze + Orbit Fold) | 4 / 4 |
 | [cr-ck_god001](authors/cr-ck_god001/README.md) | Cr@ck_God001 | 1 (Crackme GUI) | 1 / 1 |
 | [neoncarrot](authors/neoncarrot/README.md) | neoncarrot | 1 (Find the correct key!) | 1 / 1 |
 | [cosmosss](authors/cosmosss/README.md) | CosmoSSS | 1 (Password Very Easy) | 1 / 1 |
@@ -226,6 +226,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-25 | [Orbit Fold](authors/jeffli6789/6ab1e2bf5c861323b6300702/) | jeffli6789 |
 | 2026-09-25 | [trust me this is really easy :)](authors/vetementsvmnts/6ab2c094c2d73ca6ae44d7f6/) | vetementsvmnts |
 | 2026-09-25 | [Wheredakey](authors/glitch_baby/6ab4ce5195b976f8f1300b54/) | Glitch_Baby |
 | 2026-09-20 | [a bit of a challenge](authors/vetementsvmnts/6aaad62d48cda5a2aaa3de08/) | vetementsvmnts |

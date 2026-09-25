@@ -15,6 +15,11 @@ by_id:
     path: "authors/jeffli6789/5f009fa233c5d42850709479/original/maze"
     title: "jeffli6789's Maze"
 
+  6ab1e2bf5c861323b6300702:
+    sha256: "ae42024b9b30d25ad37a81675d0363efbad9da74f99952e5080d7c979ccd214f"
+    path: "authors/jeffli6789/6ab1e2bf5c861323b6300702/original/orbit_fold_linux_x86_64"
+    title: "jeffli6789's Orbit Fold"
+
 by_sha256:
   7526418ecada66780062b7f6ca7205c4540d6e2800fc994a4d02f75ae4b2b673:
     id: 69a2911b7a778cfffbfb67ca
@@ -28,3 +33,7 @@ by_sha256:
     id: 5f009fa233c5d42850709479
     path: "authors/jeffli6789/5f009fa233c5d42850709479/original/maze"
     page: https://crackmes.one/crackme/5f009fa233c5d42850709479
+  ae42024b9b30d25ad37a81675d0363efbad9da74f99952e5080d7c979ccd214f:
+    id: 6ab1e2bf5c861323b6300702
+    path: "authors/jeffli6789/6ab1e2bf5c861323b6300702/original/orbit_fold_linux_x86_64"
+    page: https://crackmes.one/crackme/6ab1e2bf5c861323b6300702
