@@ -1,0 +1,17 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6ab4ce5195b976f8f1300b54:
+    sha256: "e6900a12db890a69850d532edaae3acc0df5a010b27c7645c2812009bc17021f"
+    path: "authors/glitch_baby/6ab4ce5195b976f8f1300b54/original/wheredakey"
+    title: "Glitch_Baby's Wheredakey"
+
+by_sha256:
+  e6900a12db890a69850d532edaae3acc0df5a010b27c7645c2812009bc17021f:
+    id: 6ab4ce5195b976f8f1300b54
+    path: "authors/glitch_baby/6ab4ce5195b976f8f1300b54/original/wheredakey"
+    page: https://crackmes.one/crackme/6ab4ce5195b976f8f1300b54
+  956cd48aea398f1691d9dc42762cf4c7918a6c13d544524ac14c28a7c88c4def:
+    id: 6ab4ce5195b976f8f1300b54
+    path: "authors/glitch_baby/6ab4ce5195b976f8f1300b54/original/Wheredakey.zip"
+    page: https://crackmes.one/crackme/6ab4ce5195b976f8f1300b54
+    note: "site zip (nested); primary binary is wheredakey"

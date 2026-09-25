@@ -1,0 +1,41 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6ab4ce5195b976f8f1300b54
+
+urls:
+  page: https://crackmes.one/crackme/6ab4ce5195b976f8f1300b54
+  download: https://crackmes.one/download/crackme/6ab4ce5195b976f8f1300b54
+
+title: "Glitch_Baby's Wheredakey"
+author_on_site: "Glitch_Baby"
+author_local: "glitch_baby"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/wheredakey"
+  name: "wheredakey"
+  sha256: "e6900a12db890a69850d532edaae3acc0df5a010b27c7645c2812009bc17021f"
+  md5: "7e12b6d35783e8f7018c1e3e5d72c1b5"
+  size_bytes: 16232
+  companion:
+    - path: "original/Wheredakey.zip"
+      sha256: "956cd48aea398f1691d9dc42762cf4c7918a6c13d544524ac14c28a7c88c4def"
+    - path: "original/README.md"
+      note: "mot de l'auteur, extrait du zip imbriqué"
+
+status: solved
+solution_summary: "strcat Bash+Qc3fZ1+6AjD701x0O (immediates LE qui se chevauchent) → BashQc3fZ16AjD701x0O"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-25T18:52:22Z"
