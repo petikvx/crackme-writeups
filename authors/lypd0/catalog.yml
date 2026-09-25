@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6ab0eeeb48cda5a2aaa3de9c:
+    sha256: "7820d39cb87d0d709eb7188f0ad048b5425fe130fc8f26749e036f81d9bab79f"
+    path: "authors/lypd0/6ab0eeeb48cda5a2aaa3de9c/original/lantern01.exe"
+    title: "lypd0's Lantern01"
+
+by_sha256:
+  7820d39cb87d0d709eb7188f0ad048b5425fe130fc8f26749e036f81d9bab79f:
+    id: 6ab0eeeb48cda5a2aaa3de9c
+    path: "authors/lypd0/6ab0eeeb48cda5a2aaa3de9c/original/lantern01.exe"
+    page: https://crackmes.one/crackme/6ab0eeeb48cda5a2aaa3de9c

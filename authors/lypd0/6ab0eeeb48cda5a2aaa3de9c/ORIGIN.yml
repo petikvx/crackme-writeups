@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6ab0eeeb48cda5a2aaa3de9c
+
+urls:
+  page: https://crackmes.one/crackme/6ab0eeeb48cda5a2aaa3de9c
+  download: https://crackmes.one/download/crackme/6ab0eeeb48cda5a2aaa3de9c
+
+title: "lypd0's Lantern01"
+author_on_site: "lypd0"
+author_local: "lypd0"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/lantern01.exe"
+  name: "lantern01.exe"
+  sha256: "7820d39cb87d0d709eb7188f0ad048b5425fe130fc8f26749e036f81d9bab79f"
+  md5: "2996278ab8472f1b567e175a076d3ac5"
+  size_bytes: 148992
+
+status: solved
+solution_summary: "password copper-owl-42 (s[i]^0x37 == table, len 13) → FLAG{first_steps_1ab4f81e16df4d5c} (enc^0x5a)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-25T19:17:02Z"
