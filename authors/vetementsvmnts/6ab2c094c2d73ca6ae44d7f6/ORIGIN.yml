@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6ab2c094c2d73ca6ae44d7f6
+
+urls:
+  page: https://crackmes.one/crackme/6ab2c094c2d73ca6ae44d7f6
+  download: https://crackmes.one/download/crackme/6ab2c094c2d73ca6ae44d7f6
+
+title: "vetementsvmnts's trust me this is really easy :)"
+author_on_site: "vetementsvmnts"
+author_local: "vetementsvmnts"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C++"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme"
+  name: "crackme"
+  sha256: "f48044268a44d4543b70fb15ba869b991642c294245b666669211657f80eadbf"
+  md5: "2388eb7d0290a0e9147a770173be11cf"
+  size_bytes: 23528
+
+status: solved
+solution_summary: "password ilovecrackmes ; (c+i)^0x5a == target[13] ; OK CMO{ilovecrackmes} ; ptrace TRACEME"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-25T18:58:33Z"

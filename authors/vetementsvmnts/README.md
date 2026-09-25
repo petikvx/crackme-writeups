@@ -12,6 +12,7 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml).
 | 2 | [Tricky challenge or is it ?](6aac1a61dbb3353b753968c0/) | [`6aac1a61…`](https://crackmes.one/crackme/6aac1a61dbb3353b753968c0) | Linux ELF64 | **solved** — `supersecret123` |
 | 3 | [KeygenMe](6aa94afadbb3353b7539687a/) | [`6aa94afa…`](https://crackmes.one/crackme/6aa94afadbb3353b7539687a) | Linux ELF64 | **solved** — petik→3910 |
 | 4 | [a bit of a challenge](6aaad62d48cda5a2aaa3de08/) | [`6aaad62d…`](https://crackmes.one/crackme/6aaad62d48cda5a2aaa3de08) | Linux ELF64 | **solved** — petik→`dcff517e5eec15be2746a614` |
+| 5 | [trust me this is really easy :)](6ab2c094c2d73ca6ae44d7f6/) | [`6ab2c094…`](https://crackmes.one/crackme/6ab2c094c2d73ca6ae44d7f6) | Linux ELF64 | **solved** — `ilovecrackmes` → `CMO{ilovecrackmes}` |
 
 ## Ajouter un crackme
 

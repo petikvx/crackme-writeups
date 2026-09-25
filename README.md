@@ -201,7 +201,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [leotrungkien](authors/leotrungkien/README.md) | Leotrungkien | 1 (Fugs) | 1 / 1 |
 | [fon37](authors/fon37/README.md) | fon37 | 1 (Secret Menu) | 1 / 1 |
 | [memetic0](authors/memetic0/README.md) | memetic0 | 1 (Tropical) | 1 / 1 |
-| [vetementsvmnts](authors/vetementsvmnts/README.md) | vetementsvmnts | 4 | 4 / 4 |
+| [vetementsvmnts](authors/vetementsvmnts/README.md) | vetementsvmnts | 5 | 5 / 5 |
 | [acheylate](authors/acheylate/README.md) | acheylate | 2 (Find password L+W) | 2 / 2 |
 | [keep](authors/keep/README.md) | Keep | 2 (sygil gui + console) | 2 / 2 |
 | [mas](authors/mas/README.md) | MAS | 1 (zW0rM) | 1 / 1 |
@@ -226,6 +226,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-25 | [trust me this is really easy :)](authors/vetementsvmnts/6ab2c094c2d73ca6ae44d7f6/) | vetementsvmnts |
 | 2026-09-25 | [Wheredakey](authors/glitch_baby/6ab4ce5195b976f8f1300b54/) | Glitch_Baby |
 | 2026-09-20 | [a bit of a challenge](authors/vetementsvmnts/6aaad62d48cda5a2aaa3de08/) | vetementsvmnts |
 | 2026-09-20 | [zW0rM](authors/mas/6aa8483c48cda5a2aaa3ddc1/) | MAS |

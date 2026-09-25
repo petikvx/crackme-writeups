@@ -20,6 +20,11 @@ by_id:
     path: "authors/vetementsvmnts/6aaad62d48cda5a2aaa3de08/original/hard_crackme"
     title: "vetementsvmnts's a bit of a challenge"
 
+  6ab2c094c2d73ca6ae44d7f6:
+    sha256: "f48044268a44d4543b70fb15ba869b991642c294245b666669211657f80eadbf"
+    path: "authors/vetementsvmnts/6ab2c094c2d73ca6ae44d7f6/original/crackme"
+    title: "vetementsvmnts's trust me this is really easy :)"
+
 by_sha256:
   236b6cae6332d78fe8b85ccbfef7f7ba3ddb722c1b0393dd94af8d633cfd7f6d:
     id: 6aa8ec52cab6678aefe9dda5
@@ -37,3 +42,7 @@ by_sha256:
     id: 6aaad62d48cda5a2aaa3de08
     path: "authors/vetementsvmnts/6aaad62d48cda5a2aaa3de08/original/hard_crackme"
     page: https://crackmes.one/crackme/6aaad62d48cda5a2aaa3de08
+  f48044268a44d4543b70fb15ba869b991642c294245b666669211657f80eadbf:
+    id: 6ab2c094c2d73ca6ae44d7f6
+    path: "authors/vetementsvmnts/6ab2c094c2d73ca6ae44d7f6/original/crackme"
+    page: https://crackmes.one/crackme/6ab2c094c2d73ca6ae44d7f6
