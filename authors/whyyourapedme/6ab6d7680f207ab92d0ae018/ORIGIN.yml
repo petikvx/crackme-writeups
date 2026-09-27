@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6ab6d7680f207ab92d0ae018
+
+urls:
+  page: https://crackmes.one/crackme/6ab6d7680f207ab92d0ae018
+  download: https://crackmes.one/download/crackme/6ab6d7680f207ab92d0ae018
+
+title: "whyyourapedme's study get PASSWORD"
+author_on_site: "whyyourapedme"
+author_local: "whyyourapedme"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/find_me.exe"
+  name: "find_me.exe"
+  sha256: "c811f6b8d13183cae12ff19ed0e3a8c2c85b3a8d3906e6bdd924e9bcfb4e9150"
+  md5: "eb549fce629167f17542593964b71acb"
+  size_bytes: 8192
+
+status: solved
+solution_summary: "password rtasz (VM 16 octets, 21×21 tours add/rol/xor, cible K si pas de debugger)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-27T16:06:16Z"

@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6ab6d7680f207ab92d0ae018:
+    sha256: "c811f6b8d13183cae12ff19ed0e3a8c2c85b3a8d3906e6bdd924e9bcfb4e9150"
+    path: "authors/whyyourapedme/6ab6d7680f207ab92d0ae018/original/find_me.exe"
+    title: "whyyourapedme's study get PASSWORD"
+
+by_sha256:
+  c811f6b8d13183cae12ff19ed0e3a8c2c85b3a8d3906e6bdd924e9bcfb4e9150:
+    id: 6ab6d7680f207ab92d0ae018
+    path: "authors/whyyourapedme/6ab6d7680f207ab92d0ae018/original/find_me.exe"
+    page: https://crackmes.one/crackme/6ab6d7680f207ab92d0ae018

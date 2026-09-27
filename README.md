@@ -207,6 +207,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [mas](authors/mas/README.md) | MAS | 1 (zW0rM) | 1 / 1 |
 | [glitch_baby](authors/glitch_baby/README.md) | Glitch_Baby | 1 (Wheredakey) | 1 / 1 |
 | [lypd0](authors/lypd0/README.md) | lypd0 | 1 (Lantern01) | 1 / 1 |
+| [whyyourapedme](authors/whyyourapedme/README.md) | whyyourapedme | 1 (study get PASSWORD) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -227,6 +228,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-27 | [study get PASSWORD](authors/whyyourapedme/6ab6d7680f207ab92d0ae018/) | whyyourapedme |
 | 2026-09-25 | [Lantern01](authors/lypd0/6ab0eeeb48cda5a2aaa3de9c/) | lypd0 |
 | 2026-09-25 | [Orbit Fold](authors/jeffli6789/6ab1e2bf5c861323b6300702/) | jeffli6789 |
 | 2026-09-25 | [trust me this is really easy :)](authors/vetementsvmnts/6ab2c094c2d73ca6ae44d7f6/) | vetementsvmnts |
