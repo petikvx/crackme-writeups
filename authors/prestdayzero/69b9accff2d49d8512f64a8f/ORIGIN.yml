@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69b9accff2d49d8512f64a8f
+
+urls:
+  page: https://crackmes.one/crackme/69b9accff2d49d8512f64a8f
+  download: https://crackmes.one/download/crackme/69b9accff2d49d8512f64a8f
+
+title: "prestdayzero's Bobs gambling"
+author_on_site: "prestdayzero"
+author_local: "prestdayzero"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme_bobgambling.exe"
+  name: "crackme_bobgambling.exe"
+  sha256: "a713410fa1a7be24fa6c16ec36cdb4919ffa96e6eda65309e95cf3c247f35d56"
+  md5: "813fd900dda011d293f5e44e234c2ac3"
+  size_bytes: 13312
+
+status: solved
+solution_summary: "menu 255 (octet bas 0xFF) puis admin 1 → dzctf(bob_is_free_1337)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-27T17:39:37Z"

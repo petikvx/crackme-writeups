@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69b9accff2d49d8512f64a8f:
+    sha256: "a713410fa1a7be24fa6c16ec36cdb4919ffa96e6eda65309e95cf3c247f35d56"
+    path: "authors/prestdayzero/69b9accff2d49d8512f64a8f/original/crackme_bobgambling.exe"
+    title: "prestdayzero's Bobs gambling"
+
+by_sha256:
+  a713410fa1a7be24fa6c16ec36cdb4919ffa96e6eda65309e95cf3c247f35d56:
+    id: 69b9accff2d49d8512f64a8f
+    path: "authors/prestdayzero/69b9accff2d49d8512f64a8f/original/crackme_bobgambling.exe"
+    page: https://crackmes.one/crackme/69b9accff2d49d8512f64a8f

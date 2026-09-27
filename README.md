@@ -209,6 +209,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [lypd0](authors/lypd0/README.md) | lypd0 | 1 (Lantern01) | 1 / 1 |
 | [whyyourapedme](authors/whyyourapedme/README.md) | whyyourapedme | 1 (study get PASSWORD) | 1 / 1 |
 | [michaelsrtsrt](authors/michaelsrtsrt/README.md) | michaelsrtsrt | 1 (AHardcodedKeyGoneWrong) | 0 / 1 *(parked)* |
+| [prestdayzero](authors/prestdayzero/README.md) | prestdayzero | 1 (Bobs gambling) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -230,6 +231,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-27 | [Bobs gambling](authors/prestdayzero/69b9accff2d49d8512f64a8f/) | prestdayzero |
 | 2026-09-27 | [study get PASSWORD](authors/whyyourapedme/6ab6d7680f207ab92d0ae018/) | whyyourapedme |
 | 2026-09-25 | [Lantern01](authors/lypd0/6ab0eeeb48cda5a2aaa3de9c/) | lypd0 |
 | 2026-09-25 | [Orbit Fold](authors/jeffli6789/6ab1e2bf5c861323b6300702/) | jeffli6789 |
