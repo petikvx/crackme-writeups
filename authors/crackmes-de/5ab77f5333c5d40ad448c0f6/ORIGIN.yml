@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5333c5d40ad448c0f6
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c0f6
+  download: https://crackmes.one/download/crackme/5ab77f5333c5d40ad448c0f6
+
+title: "crackmes.de's timemachine by qnix"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/qvm32.gz"
+  name: "qvm32.gz"
+  sha256: "ed37faafe1ff196731a4adc6fd3811724ec54d8ea85bfe13867b3bd392eec2b4"
+  md5: "7d194660c0fcb0642971523d9fe88e60"
+  size_bytes: 7339
+
+status: solved
+solution_summary: "VM MBA qnix : password iWasteMyTime (read 12 octets, WIN)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-27T18:59:00Z"

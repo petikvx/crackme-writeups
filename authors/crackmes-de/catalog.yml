@@ -376,6 +376,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5f33c5d40ad448c7e1/original/crackme.zip"
     title: "crackmes.de's cropta_1 by cropta"
 
+  5ab77f5333c5d40ad448c0f6:
+    sha256: "ed37faafe1ff196731a4adc6fd3811724ec54d8ea85bfe13867b3bd392eec2b4"
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c0f6/original/qvm32.gz"
+    title: "crackmes.de's timemachine by qnix"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -689,3 +694,7 @@ by_sha256:
     id: 5ab77f5f33c5d40ad448c7e1
     path: "authors/crackmes-de/5ab77f5f33c5d40ad448c7e1/original/crackme.zip"
     page: https://crackmes.one/crackme/5ab77f5f33c5d40ad448c7e1
+  ed37faafe1ff196731a4adc6fd3811724ec54d8ea85bfe13867b3bd392eec2b4:
+    id: 5ab77f5333c5d40ad448c0f6
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c0f6/original/qvm32.gz"
+    page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c0f6
