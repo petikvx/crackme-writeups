@@ -85,11 +85,14 @@ bash -ic 'decompiledotnet original/<assembly.exe>'
 
 Sorties typiques à côté du binaire (ex. `foo.exe.i64`, `foo.exe.i64.c`, `foo-src/`) : déplacer / copier sous `analysis/` ou garder en `original/source/` / `original/<stem>-src/` si utile ; **`*.i64` est gitignoré**, le `.c` / sources C# peuvent aller dans le dépôt. Documenter la commande dans le write-up.
 
+Pour interroger **une fonction**, des **xrefs** ou le pseudo Hex-Rays sans relancer un `idat` complet : préférer le **MCP `ida`** (voir § IDA via MCP). `decc` / `decasm` restent le dump C / listing entier.
+
 ### 2. Reverse jusqu’à une réponse vérifiable
 
 - Extraire le prédicat (formule, grille, bytecode, HWID…).
 - **Vérifier** : solveur + binaire live (Wine / **`xvfb-run -a wine`** sur serveur sans écran ; native pour ELF).
 - Ne pas inventer une solution non testée.
+- Si `objdump` / `strings` ne suffisent pas (ELF ou PE natif) : **MCP `ida`** (voir § IDA via MCP) pour pseudo Hex-Rays, xrefs, strings — avant de lancer un `decc` entier.
 - Si le binaire est **déjà chargé / actif dans x64dbg (ou x32dbg)** via MCP : voir **§ Debug live x64dbg** — approfondir le dynamique et enrichir le write-up **en cours**, ne pas attendre la fin du reverse.
 - Si **GDB** (ou `gdb-multiarch` / qemu+gdbstub) est utilisé pour reverse / confirmer le prédicat : voir **§ Debug GDB** — section obligatoire dans le `README.md`.
 
@@ -110,6 +113,29 @@ Dès que l’agent s’appuie sur **GDB** pour résoudre ou valider un challenge
 
 Si le reverse est **100 % statique** (pas de session GDB) : ne pas inventer de walkthrough GDB.  
 Si GDB a servi ne serait-ce que pour confirmer un `cmp` / un leak : **écrire la section**.
+
+---
+
+## IDA via MCP (`ida`)
+
+Serveur MCP **stdio** dans `~/.grok/config.toml`, entrée `ida` :  
+`uvx --exclude-newer=1s ida-mcp stdio --agent=grok` (démarrage jusqu’à 120 s).  
+Backend **headless idalib** (IDA Pro + Hex-Rays déjà installés sur la machine). L’interface graphique n’est pas nécessaire.
+
+S’en servir dès qu’un ELF ou un PE **natif** résiste à `objdump` / `strings` (strip, CFG touffu, prédicat enfoui, xrefs, types). **Pas** pour le .NET (`decompiledotnet`) ni PyInstaller (`pyinstxtractor` + `pycdc`).
+
+1. Découvrir les outils avec `search_tool` (serveur `ida`) **avant** `use_tool`. Ne pas inventer les paramètres.
+2. `list_databases` : une base est-elle déjà ouverte sur ce binaire ?
+3. Sinon `open_database` sur `original/<binaire>`, ou sur la copie unpackée sous `analysis/` (UPX). L’auto-analyse a lieu avant les requêtes. Si le fichier est déjà ouvert dans l’interface IDA, le même appel s’y attache ; sinon le worker headless suffit. Ne pas demander à l’utilisateur d’ouvrir IDA. Le plugin GUI (`uvx ida-hcli plugin install …`) n’est **pas** requis pour le headless.
+4. Avant `execute_python`, appeler `reference` (décompile, xrefs, strings, types, renames). Ne pas deviner l’API `ida_domain`.
+5. En tirer le prédicat : pseudo Hex-Rays **d’une fonction**, désassemblage ciblé, xrefs, strings, imports. Dans le write-up : adresses ou noms + extraits **commentés**, pas un dump entier.
+6. `close_database` une fois le binaire traité. `save_database` seulement si des renames ou commentaires doivent survivre. Les `*.i64` restent **gitignorés** ; si une base apparaît à côté de `original/`, la déplacer sous `analysis/`.
+7. Ne pas écrire de patch d’octets dans le fichier sous `original/`.
+
+Handshake en échec ou serveur absent : le noter, puis `decc` / `decasm` (`bash -ic '…'`) ou `objdump`.  
+`decc` = dump C complet ; le MCP = questions ciblées sans relancer `idat -A`.
+
+Le pseudo IDA aide à **trouver** le prédicat. Il ne remplace pas le solveur ni la preuve Wine / native.
 
 ---
 
@@ -161,7 +187,7 @@ Structure type :
 5. Flow  
 6. **Comment on trouve** le prédicat / la réponse (obligatoire pour un « solved ») — voir ci-dessous  
 7. Prédicat consolidé (tables, asm, pseudo-code) si pas déjà tout dit au §6  
-8. **Debug GDB (pas à pas)** — **si GDB a été utilisé** (voir § Debug GDB) ; idem observations x64dbg/x32dbg si MCP actif  
+8. **Debug GDB (pas à pas)** — **si GDB a été utilisé** (voir § Debug GDB) ; idem observations x64dbg/x32dbg si MCP actif ; si le MCP `ida` a servi, ancrer le « comment on trouve » sur la fonction / les adresses vues (extraits commentés)
 9. Vérification (screenshots + commandes, cas OK **et** au moins un KO / edge utile)  
 10. Notes (pièges, ce que ce n’est *pas*)
 
@@ -169,7 +195,7 @@ Structure type :
 
 Reproductible, concret, pas un spoiler plat :
 
-- **Ancrage** : commande (`objdump`, `strings`, `decc`, extract PyInstaller, …) et endroit du check (symbole / VMA / offset fichier).
+- **Ancrage** : commande (`objdump`, `strings`, `decc`, MCP `ida`, extract PyInstaller, …) et endroit du check (symbole / VMA / offset fichier).
 - **Lecture du binaire** : extraits asm ou pseudo-code **commentés** (pas un dump monstre non expliqué).
 - **Décodage** : immediates LE↔ASCII, XOR, réduction de force (`x*7 = (x<<3)-x`), tables, etc.
 - **Assemblage** de la réponse (chevauchements, concat, exemple `petik→…` étape par étape).
@@ -205,8 +231,8 @@ git commit -m "message clair (auteur + challenge + idée de la soluce)"
 
 Pour reverse / preuve / solveurs dans ce dépôt, **préférer les outils en ligne de commande** (agent, serveur headless, scripts reproductibles) :
 
-- OK : `file`, `diec`, `strings`, `objdump`, `readelf`, `gdb`, `Wine`/`xvfb-run`, `ilspycmd` / `decompiledotnet`, `GoReSym`, `pycdc`, `yara`/`yarac`, `tools/upx-3.96`, `tools/pyinstxtractor.py`, IDA **headless** (`decc` / `decasm`)
-- Éviter d’**exiger** des GUI (Ghidra/Cutter/IDA interactive, etc.) pour un challenge « solved » — utiles seulement si l’utilisateur les pilote (ex. x64dbg MCP déjà actif)
+- OK : `file`, `diec`, `strings`, `objdump`, `readelf`, `gdb`, `Wine`/`xvfb-run`, `ilspycmd` / `decompiledotnet`, `GoReSym`, `pycdc`, `yara`/`yarac`, `tools/upx-3.96`, `tools/pyinstxtractor.py`, IDA **headless** (`decc` / `decasm` **ou** MCP `ida`, voir § IDA via MCP)
+- Éviter d’**exiger** des GUI (Ghidra/Cutter/IDA interactive, etc.) pour un challenge « solved » — utiles seulement si l’utilisateur les pilote (ex. x64dbg MCP déjà actif, ou IDA GUI déjà ouvert et vu par `list_databases`)
 
 `scripts/install-re-tools.sh` ne pose que du CLI (+ snap `glow` pour le markdown terminal).
 
@@ -257,11 +283,11 @@ Exceptions seulement si la contrainte du binaire **interdit** `petik` (longueur 
   ```
   Sortie typique : `original/<stem>-src/` (ou déplacer / renommer en `original/source/`). Documenter dans le write-up. Éviter d’appeler `ilspycmd` à la main si `decompiledotnet` est dispo.
 - MessageBox Wine : parfois `hWnd` invalide → recon avec `hWnd=NULL` si besoin (cas déjà vus timotei).
-- Dumps C/asm : fonctions shell `decc` / `decasm` (`~/.bash_aliases` → `idat`) ; via `bash -ic 'decc …'` si le shell agent n’est pas interactif. Sinon export IDA manuel vers `analysis/`.
+- Dumps C/asm complets : fonctions shell `decc` / `decasm` (`~/.bash_aliases` → `idat`) ; via `bash -ic 'decc …'` si le shell agent n’est pas interactif. Pour une fonction ou des xrefs, préférer le MCP `ida`. Sinon export IDA manuel vers `analysis/`.
 
 ### Analyse ELF
 
-- Native Linux : `file`, `readelf`, `objdump`, `gdb`, NASM/FASM pour recon.
+- Native Linux : `file`, `readelf`, `objdump`, `gdb`, NASM/FASM pour recon. Pseudo / xrefs : MCP `ida` (§ IDA via MCP).
 - **GDB utilisé pour le reverse** → section **Debug GDB (pas à pas)** obligatoire dans le write-up (voir § Debug GDB plus haut).
 
 ### Go
@@ -321,6 +347,7 @@ Les solveurs restent dans `authors/<slug>/<id>/tools/`.
 
 - [ ] Solveur dans `tools/`, smoke-test OK  
 - [ ] Preuve live (Wine / native) OK ; si x64dbg/x32dbg MCP actif sur le binaire → observations dynamiques dans le write-up  
+- [ ] Si le prédicat a été lu via le MCP `ida` → ancrage (fonction, adresses, extraits commentés) dans « comment on trouve » ; bases `*.i64` sous `analysis/`, non commitées
 - [ ] Si **GDB** a servi au reverse / à la vérif → section **Debug GDB (pas à pas)** dans le `README.md`  
 - [ ] Write-up **détaillé** : réponse en tête **+** section « comment on trouve » (ancrage, asm/pseudo, pièges) — pas une formule seule  
 - [ ] User d’exemple = **`petik`** si applicable  
@@ -346,6 +373,7 @@ Les solveurs restent dans `authors/<slug>/<id>/tools/`.
 | Ajout crackme | `scripts/add-crackme.sh`, section README racine |
 | Unpack UPX | `tools/upx-3.96` → `analysis/*.unpacked.exe` |
 | Extract PyInstaller | `tools/pyinstxtractor.py` puis `pycdc` |
+| IDA ciblé (pseudo, xrefs) | MCP `ida` (`uvx ida-mcp stdio`) — § IDA via MCP |
 | Décompile .NET | `decompiledotnet` (`~/.bash_aliases` → `ilspycmd -p`) |
 | Go strip / pclntab | `GoReSym` / `go version -m` |
 | YARA (CLI) | build `install-re-tools.sh` / `postinstall` → `yara` `yarac` |
