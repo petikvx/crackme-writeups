@@ -210,6 +210,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [whyyourapedme](authors/whyyourapedme/README.md) | whyyourapedme | 1 (study get PASSWORD) | 1 / 1 |
 | [michaelsrtsrt](authors/michaelsrtsrt/README.md) | michaelsrtsrt | 1 (AHardcodedKeyGoneWrong) | 0 / 1 *(parked)* |
 | [prestdayzero](authors/prestdayzero/README.md) | prestdayzero | 1 (Bobs gambling) | 1 / 1 |
+| [5](authors/5/README.md) | 5 | 1 (Quintessence) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -231,6 +232,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-27 | [5's Quintessence](authors/5/6ab04161cab6678aefe9de58/) | 5 |
 | 2026-09-27 | [Bobs gambling](authors/prestdayzero/69b9accff2d49d8512f64a8f/) | prestdayzero |
 | 2026-09-27 | [study get PASSWORD](authors/whyyourapedme/6ab6d7680f207ab92d0ae018/) | whyyourapedme |
 | 2026-09-25 | [Lantern01](authors/lypd0/6ab0eeeb48cda5a2aaa3de9c/) | lypd0 |

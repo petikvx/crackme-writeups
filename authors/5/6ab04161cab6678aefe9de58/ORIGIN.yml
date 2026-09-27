@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6ab04161cab6678aefe9de58
+
+urls:
+  page: https://crackmes.one/crackme/6ab04161cab6678aefe9de58
+  download: https://crackmes.one/download/crackme/6ab04161cab6678aefe9de58
+
+title: "5's Quintessence"
+author_on_site: "5"
+author_local: "5"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/quintessence.zip"
+  name: "quintessence.zip"
+  sha256: "3c225964d481f6ebfed6c3bdcb25523204365bdce83cd937031f2034729ab63f"
+  md5: "ebd7807f01a72a0fc78ec4572aa0c6d8"
+  size_bytes: 351765
+
+status: solved
+solution_summary: "VM linéaire : reg1(name)==reg3(serial). petik→585A-57BB-F245-6B39 token 9C289046554D6A74"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-27T18:03:31Z"

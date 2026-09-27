@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6ab04161cab6678aefe9de58:
+    sha256: "3c225964d481f6ebfed6c3bdcb25523204365bdce83cd937031f2034729ab63f"
+    path: "authors/5/6ab04161cab6678aefe9de58/original/quintessence.zip"
+    title: "5's Quintessence"
+
+by_sha256:
+  3c225964d481f6ebfed6c3bdcb25523204365bdce83cd937031f2034729ab63f:
+    id: 6ab04161cab6678aefe9de58
+    path: "authors/5/6ab04161cab6678aefe9de58/original/quintessence.zip"
+    page: https://crackmes.one/crackme/6ab04161cab6678aefe9de58
