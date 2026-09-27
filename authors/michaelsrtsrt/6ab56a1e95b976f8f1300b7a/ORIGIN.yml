@@ -1,0 +1,37 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6ab56a1e95b976f8f1300b7a
+
+urls:
+  page: https://crackmes.one/crackme/6ab56a1e95b976f8f1300b7a
+  download: https://crackmes.one/download/crackme/6ab56a1e95b976f8f1300b7a
+
+title: "michaelsrtsrt's Basics::AHardcodedKeyGoneWrong"
+author_on_site: "michaelsrtsrt"
+author_local: "michaelsrtsrt"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/keycheck.exe"
+  name: "keycheck.exe"
+  sha256: "d9330a7d06ba9acffc4819e36be4e95aad9cd6d21ad4389512e17bd74a6fcf01"
+  md5: "2010f7184359c48f425797073020f52a"
+  size_bytes: 184320
+
+status: pending
+parked: true
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-27T16:24:50Z"

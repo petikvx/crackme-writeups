@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6ab56a1e95b976f8f1300b7a:
+    sha256: "d9330a7d06ba9acffc4819e36be4e95aad9cd6d21ad4389512e17bd74a6fcf01"
+    path: "authors/michaelsrtsrt/6ab56a1e95b976f8f1300b7a/original/keycheck.exe"
+    title: "michaelsrtsrt's Basics::AHardcodedKeyGoneWrong"
+
+by_sha256:
+  d9330a7d06ba9acffc4819e36be4e95aad9cd6d21ad4389512e17bd74a6fcf01:
+    id: 6ab56a1e95b976f8f1300b7a
+    path: "authors/michaelsrtsrt/6ab56a1e95b976f8f1300b7a/original/keycheck.exe"
+    page: https://crackmes.one/crackme/6ab56a1e95b976f8f1300b7a

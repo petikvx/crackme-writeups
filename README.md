@@ -208,6 +208,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [glitch_baby](authors/glitch_baby/README.md) | Glitch_Baby | 1 (Wheredakey) | 1 / 1 |
 | [lypd0](authors/lypd0/README.md) | lypd0 | 1 (Lantern01) | 1 / 1 |
 | [whyyourapedme](authors/whyyourapedme/README.md) | whyyourapedme | 1 (study get PASSWORD) | 1 / 1 |
+| [michaelsrtsrt](authors/michaelsrtsrt/README.md) | michaelsrtsrt | 1 (AHardcodedKeyGoneWrong) | 0 / 1 *(parked)* |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -221,6 +222,7 @@ Challenges `status: pending` volontairement suspendus (`parked: true` dans `ORIG
 | [bugger_v.7](authors/crackmes-de/5ab77f6633c5d40ad448cc25/) | crackmes.de / shism | clé RC6 + wake shell dormant |
 | [meloquynthe](authors/crackmes-de/5ab77f5933c5d40ad448c46f/) | crackmes.de / meat | boutons `0x532..0x536` vs wave (`sub_40507f`) ; pas de saisie clavier |
 | [MCM 3.0 REWORK](authors/cracknotme/698fb9e9a79466462e957bec/) | CrackNotMe | parent/`--3a1f9b` + VM ; mask XOR TBD (notes 2026-09-01) |
+| [Basics::AHardcodedKeyGoneWrong](authors/michaelsrtsrt/6ab56a1e95b976f8f1300b7a/) | michaelsrtsrt | coffres `0x280608` (5 fiches) + `0x28760` (614) ouverts ; `009DA0` sans texte ; notes `analysis/NOTES.md` |
 
 ## Historique des résolutions
 
