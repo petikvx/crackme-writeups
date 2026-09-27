@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c38f
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c38f
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c38f
+
+title: "crackmes.de's ada_crackme_1_elf by darkphoenix_"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/ADAcrkme.tar.gz"
+  name: "ADAcrkme.tar.gz"
+  sha256: "845f0c762645af285780bc0707d02f719ce39c5db03f963b8def46a716fb106d"
+  md5: "ec1506aecdf0137d02ec33ec62a19748"
+  size_bytes: 12293
+
+status: solved
+solution_summary: "hash série XOR __gnat_install_handler mod 0x7FFFFFFF == 0xABCDEF. petik → >^f=`u^Roru`Qm^i`o&mds6^f0`u8`"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-27T19:11:20Z"
