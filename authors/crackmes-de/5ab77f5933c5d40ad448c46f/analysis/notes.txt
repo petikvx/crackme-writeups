@@ -1,6 +1,20 @@
-*** PARKED 2026-08-23 — reprendre plus tard (pas abandonné) ***
-Reprendre : buffer name/serial (Wine/x64dbg) puis prédicat derrière Melo_5te ; keygen tools/meloquynthe-solve.py.
+*** PARKED 2026-09-23 — reprise, pas un name→serial clavier ***
+Reprendre : lifter sub_40507f (pair-only) + flag [0x783bdd] ; la « clé » est la séquence des 5 boutons vs la wave, pas un buffer ASCII.
 Unpack : analysis/Meloquynthe.unpacked.exe (upx -d)
+
+Session 2026-09-23 (pause demandée)
+- Déobfuscation qui marche : insn réelle puis E9 vers la suivante. Les branches vivantes sont des paires complémentaires adjacentes (je/jne, jl/jge, …). Le fallthrough après la paire est du junk (greetz, faux STM_SETIMAGE, faux crypto). « Être la cible d’un E9 » ne prouve pas que c’est vivant : le junk est aussi chaîné par des jmp.
+- Racines vivantes : EP 0x7fe013 ; WndProc principale 0x6162be (pushad ; esi=hwnd, eax=msg, edi=wParam, ebp=lParam) ; WndProc bouton 0x4f2e6d (msg dans esi : 0x201 / 0x202).
+- Aucun cmp WM_CHAR (0x102) ni WM_KEYDOWN (0x100) dans la section code. Le clic client de la fenêtre principale est converti en WM_NCLBUTTONDOWN / HTCAPTION (drag). Les screens « typed » sont l’animation LCD, pas une saisie clavier.
+- LCD : STM_SETIMAGE (push 0x172) sur des STATIC SS_BITMAP, IDs 0x1f4… créés par sub_4f2ce6. Compteur [0x838db0], tables 0x408461 et 0x75b9a7.
+- Boutons custom 0x1fb…0x1ff → eax = 0x536, 0x535, 0x534, 0x533, 0x532 puis call 0x7fcb19.
+  0x7fcb19 appelle 0x40507f ; si eax ≠ 0, 0x7ff339 fait mov byte [0x783bdd], 1.
+  0x6e5294 : scan de 5 dwords à 0x5bff5b, retourne 0x532+index ou 0.
+  0x40507f : waveOutGetPosition, moyenne de 0x14 samples, compare à l’argument bouton. Tables wave 0x7fe173 / 0x5302e8. Pas encore lifter en keygen.
+- Seul MessageBoxA vivant : caption « Erreur ! » (0x7fe2ce), texte device audio (0x83ad4f), MB_ICONERROR.
+- Strings réellement poussées : RANGE, « Meloquynthe », titre fenêtre, STATIC, MBmp_Button_Class_meatkraft, « Erreur ! ».
+- .text après les thunks IAT = helper BMP/DIB, pas le prédicat.
+- Prochaine session : pair-only sur 0x40507f uniquement, puis la lecture de [0x783bdd] dans le thread 0x5bfe14. Ne pas rechercher un EDIT / WM_CHAR.
 
 Meloquynthe (YoLeJedi & ++Meat, 2006) — notes (WIP, NOT solved)
 

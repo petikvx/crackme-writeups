@@ -1,0 +1,37 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6aaf39c048cda5a2aaa3de75
+
+urls:
+  page: https://crackmes.one/crackme/6aaf39c048cda5a2aaa3de75
+  download: https://crackmes.one/download/crackme/6aaf39c048cda5a2aaa3de75
+
+title: "Nillya's Pass CrackMe"
+author_on_site: "Nillya"
+author_local: "nillya"
+
+platform: "Windows"
+arch: "x86-64"
+language: ".NET"
+
+difficulty: 3.0
+quality: 4.0
+size: "630.79 KB"
+published: "2026-09-20"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme.exe"
+  name: "crackme.exe"
+  sha256: "b14dda928150e7f16145dd56f3c99cf3db6283d2afc4a6b4214cda2f34ba5a82"
+  md5: "0a8a11e9bec41f8b33891197496ca032"
+  size_bytes: 645928
+
+status: pending
+solution_summary: ""
+# parked: true  # ArmDot : strings AES + 20 VM AES-GCM OK ; prédicat password encore dans la VM (U_AZ = fausse piste)
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-20T13:19:16Z"

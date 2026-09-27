@@ -97,4 +97,4 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | Titre | ID | Blocage / reprise |
 |---|---|---|
 | [bugger_v.7](5ab77f6633c5d40ad448cc25/) | [`…cc25`](https://crackmes.one/crackme/5ab77f6633c5d40ad448cc25) | RC6 OK ; **clé** + wake shell `abcdefgh` — `analysis/notes.txt` |
-| [meloquynthe](5ab77f5933c5d40ad448c46f/) | [`…c46f`](https://crackmes.one/crackme/5ab77f5933c5d40ad448c46f) | UPX OK ; **prédicat** name→serial (jmp spaghetti) — `analysis/notes.txt` |
+| [meloquynthe](5ab77f5933c5d40ad448c46f/) | [`…c46f`](https://crackmes.one/crackme/5ab77f5933c5d40ad448c46f) | GUI déobfusquée ; **séquence boutons vs wave** (`sub_40507f`) — `analysis/notes.txt` |

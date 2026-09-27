@@ -5,8 +5,17 @@ by_id:
     path: "authors/alpjs/6aa4b6d3585e8875bcbebf80/original/crackme.exe"
     title: "alpjs's custom vmp crackme"
 
+  6aa6c7ff3b246e477b6c0c25:
+    sha256: "57ca627695c131aeb01c265004b8627cf80bcd54b12811b4262ebe1da5e362b4"
+    path: "authors/alpjs/6aa6c7ff3b246e477b6c0c25/original/crackme.exe"
+    title: "alpjs's alpmira"
+
 by_sha256:
   3d271299dcf18418b3e2be1006845a3dc8f5199bcf6ebbf2b49e44d1197075e9:
     id: 6aa4b6d3585e8875bcbebf80
     path: "authors/alpjs/6aa4b6d3585e8875bcbebf80/original/crackme.exe"
     page: https://crackmes.one/crackme/6aa4b6d3585e8875bcbebf80
+  57ca627695c131aeb01c265004b8627cf80bcd54b12811b4262ebe1da5e362b4:
+    id: 6aa6c7ff3b246e477b6c0c25
+    path: "authors/alpjs/6aa6c7ff3b246e477b6c0c25/original/crackme.exe"
+    page: https://crackmes.one/crackme/6aa6c7ff3b246e477b6c0c25

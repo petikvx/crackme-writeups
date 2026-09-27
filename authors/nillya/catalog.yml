@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6aaf39c048cda5a2aaa3de75:
+    sha256: "b14dda928150e7f16145dd56f3c99cf3db6283d2afc4a6b4214cda2f34ba5a82"
+    path: "authors/nillya/6aaf39c048cda5a2aaa3de75/original/crackme.exe"
+    title: "Nillya's Pass CrackMe"
+
+by_sha256:
+  b14dda928150e7f16145dd56f3c99cf3db6283d2afc4a6b4214cda2f34ba5a82:
+    id: 6aaf39c048cda5a2aaa3de75
+    path: "authors/nillya/6aaf39c048cda5a2aaa3de75/original/crackme.exe"
+    page: https://crackmes.one/crackme/6aaf39c048cda5a2aaa3de75

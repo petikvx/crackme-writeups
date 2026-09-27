@@ -32,8 +32,8 @@ status: pending
 # PARKED 2026-08-23 — y revenir plus tard (pas abandonné)
 parked: true
 parked_at: "2026-08-23"
-parked_reason: "UPX unpacké + UI Wine/screens ; prédicat name→serial derrière jmp spaghetti Melo_5te"
-solution_summary: "PARKED — unpacked OK ; keygen TBD (voir analysis/notes.txt)"
+parked_reason: "GUI Meat déobfusquée (paires je/jne) ; pas de WM_CHAR ; check = boutons 1fb..1ff vs wave (sub_40507f) — séquence TBD"
+solution_summary: "PARKED — pas un serial clavier ; boutons 0x532..0x536 vs wave, flag [0x783bdd] (analysis/notes.txt)"
 
 download:
   zip_password: crackmes.one
