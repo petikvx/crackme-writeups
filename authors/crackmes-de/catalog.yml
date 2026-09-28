@@ -386,6 +386,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c38f/original/ADAcrkme.tar.gz"
     title: "crackmes.de's ada_crackme_1_elf by darkphoenix_"
 
+  5ab77f5833c5d40ad448c399:
+    sha256: "816352ce1da5ec5c055905f3dd779e1f58bacc36a20589341ce1bb88710ad2d6"
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c399/original/collide.tgz"
+    title: "crackmes.de's collide by crp"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -707,3 +712,7 @@ by_sha256:
     id: 5ab77f5733c5d40ad448c38f
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c38f/original/ADAcrkme.tar.gz"
     page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c38f
+  816352ce1da5ec5c055905f3dd779e1f58bacc36a20589341ce1bb88710ad2d6:
+    id: 5ab77f5833c5d40ad448c399
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c399/original/collide.tgz"
+    page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c399

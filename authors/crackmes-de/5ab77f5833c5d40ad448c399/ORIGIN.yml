@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c399
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c399
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c399
+
+title: "crackmes.de's collide by crp"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: "C"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/collide.tgz"
+  name: "collide.tgz"
+  sha256: "816352ce1da5ec5c055905f3dd779e1f58bacc36a20589341ce1bb88710ad2d6"
+  md5: "3a40c7862ce697c096a9c2e907dd8fb8"
+  size_bytes: 4020
+
+status: solved
+solution_summary: "keyfile .key mode 0400 : collision MD5 (A || TEA(B)). petik uid/gid 1000 → custom 0x1ffa4ba4"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-28T03:38:25Z"

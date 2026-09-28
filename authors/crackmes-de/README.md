@@ -93,6 +93,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 73 | [cropta_1](5ab77f5f33c5d40ad448c7e1/) | cropta | Bochs MBR | password **`replicants`** |
 | 74 | [timemachine](5ab77f5333c5d40ad448c0f6/) | qnix | Linux ELF32 VM | **`iWasteMyTime`** |
 | 75 | [ada_crackme_1](5ab77f5733c5d40ad448c38f/) | darkphoenix_ | Linux ELF32 Ada UPX | petik → serial 30 octets, hash `0xABCDEF` |
+| 76 | [collide](5ab77f5833c5d40ad448c399/) | crp | Linux ELF32 | `.key` mode `0400` ; MD5 `A\|\|TEA(B)` ; petik → custom `0x1ffa4ba4` |
 
 ## Mis de côté (PARKED — y revenir)
 
