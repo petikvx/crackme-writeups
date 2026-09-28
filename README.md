@@ -194,7 +194,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [sallos](authors/sallos/README.md) | Sallos | 2 (Key License + EscapeFromMatrix) | 2 / 2 |
 | [tempesta](authors/tempesta/README.md) | Tempesta | 1 (Lord Winderton) | 1 / 1 |
 | [tenzo_aoki](authors/tenzo_aoki/README.md) | tenzo_aoki | 1 (Tenzo Crack ME Beta) | 1 / 1 |
-| [towel](authors/towel/README.md) | Towel | 1 (Mars Analytica) | 1 / 1 |
+| [towel](authors/towel/README.md) | Towel | 2 (Mars Analytica + QR Scanner) | 2 / 2 |
 | [alpjs](authors/alpjs/README.md) | alpjs | 1 (custom vmp) | 0 / 1 |
 | [bang1338](authors/bang1338/README.md) | bang1338 | 1 (Oops! All sarr) | 1 / 1 |
 | [victormeloasm](authors/victormeloasm/README.md) | victormeloasm | 2 (Froggate II + Simple Frog) | 1 / 2 |
@@ -233,6 +233,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-28 | [QR Scanner](authors/towel/5ec1b82133c5d449d91ae539/) | Towel |
 | 2026-09-28 | [hard_software](authors/ttlhacker/5cf2866533c5d41c6d56dfed/) | ttlhacker |
 | 2026-09-28 | [bitflip](authors/s4r/5c5d89ce33c5d43fd9a9387f/) | s4r |
 | 2026-09-28 | [fuckalight2](authors/s4r/5b58ebc433c5d46b771434a7/) | s4r |

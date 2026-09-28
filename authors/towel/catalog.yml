@@ -5,8 +5,17 @@ by_id:
     path: "authors/towel/5b06f97533c5d406c0abccf0/original/MarsAnalytica"
     title: "Towel's Mars Analytica"
 
+  5ec1b82133c5d449d91ae539:
+    sha256: "10793403297706c89cfa649175a20846e6e99a68bd83be602ca1f2675c73d415"
+    path: "authors/towel/5ec1b82133c5d449d91ae539/original/QR_Scanner.7z"
+    title: "Towel's QR Scanner"
+
 by_sha256:
   8bb5b9ce99c6ea8cb41ad21d6fe5e54d12d24cf7be7cbccc2ff63f3427444176:
     id: 5b06f97533c5d406c0abccf0
     path: "authors/towel/5b06f97533c5d406c0abccf0/original/MarsAnalytica"
     page: https://crackmes.one/crackme/5b06f97533c5d406c0abccf0
+  10793403297706c89cfa649175a20846e6e99a68bd83be602ca1f2675c73d415:
+    id: 5ec1b82133c5d449d91ae539
+    path: "authors/towel/5ec1b82133c5d449d91ae539/original/QR_Scanner.7z"
+    page: https://crackmes.one/crackme/5ec1b82133c5d449d91ae539

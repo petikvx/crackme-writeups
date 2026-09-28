@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ec1b82133c5d449d91ae539
+
+urls:
+  page: https://crackmes.one/crackme/5ec1b82133c5d449d91ae539
+  download: https://crackmes.one/download/crackme/5ec1b82133c5d449d91ae539
+
+title: "Towel's QR Scanner"
+author_on_site: "Towel"
+author_local: "towel"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/QR_Scanner.7z"
+  name: "QR_Scanner.7z"
+  sha256: "10793403297706c89cfa649175a20846e6e99a68bd83be602ca1f2675c73d415"
+  md5: "c6f55adf2515501cc83372b857ac5d44"
+  size_bytes: 1041919
+
+status: solved
+solution_summary: "chaîne q/r de 64 ; FLAG-72ebf68f0d1f7be90bc52e36cb4a47f9 (MD5) ; 278 DFA"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-28T08:21:56Z"
