@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ee1f28c33c5d449d91ae7c0
+
+urls:
+  page: https://crackmes.one/crackme/5ee1f28c33c5d449d91ae7c0
+  download: https://crackmes.one/download/crackme/5ee1f28c33c5d449d91ae7c0
+
+title: "Ustin_LVO's Keygenme 9411"
+author_on_site: "Ustin_LVO"
+author_local: "ustin_lvo"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/keygenme.7z"
+  name: "keygenme.7z"
+  sha256: "f8da5f0ce1008e5c735e3fdc6df59368e3ffbdfa6fdb02496f026d7e94ca78f6"
+  md5: "ad5e1ecf181f14c1eb2a281234ad575d"
+  size_bytes: 321553
+
+status: pending
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-28T11:09:04Z"

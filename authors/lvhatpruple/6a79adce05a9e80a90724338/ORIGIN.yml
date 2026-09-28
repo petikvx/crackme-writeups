@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a79adce05a9e80a90724338
+
+urls:
+  page: https://crackmes.one/crackme/6a79adce05a9e80a90724338
+  download: https://crackmes.one/download/crackme/6a79adce05a9e80a90724338
+
+title: "LvHatpruple's Maze by LvHa"
+author_on_site: "LvHatpruple"
+author_local: "lvhatpruple"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/LvHaMaze.exe"
+  name: "LvHaMaze.exe"
+  sha256: "f5ea238e54ba0c20872ded53669b07d7983aa8c64fbc21ed11937bbcc66dc82b"
+  md5: "30b1a86c4e1962b350d50a2495e07057"
+  size_bytes: 341504
+
+status: pending
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-24T15:08:04Z"

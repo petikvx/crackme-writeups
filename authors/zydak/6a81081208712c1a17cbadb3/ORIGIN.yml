@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a81081208712c1a17cbadb3
+
+urls:
+  page: https://crackmes.one/crackme/6a81081208712c1a17cbadb3
+  download: https://crackmes.one/download/crackme/6a81081208712c1a17cbadb3
+
+title: "Zydak's Very simple but obfuscated crackme"
+author_on_site: "Zydak"
+author_local: "zydak"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/CrackmeLin64"
+  name: "CrackmeLin64"
+  sha256: "0b32dac9d741bb5dbd4070614a4ad233f37cc2807def6692f3dffa1d742e4a7d"
+  md5: "03316c852acad8934c33b778ddef17e9"
+  size_bytes: 1549648
+
+status: pending
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-24T14:56:54Z"

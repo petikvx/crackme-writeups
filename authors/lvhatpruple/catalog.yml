@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a79adce05a9e80a90724338:
+    sha256: "f5ea238e54ba0c20872ded53669b07d7983aa8c64fbc21ed11937bbcc66dc82b"
+    path: "authors/lvhatpruple/6a79adce05a9e80a90724338/original/LvHaMaze.exe"
+    title: "LvHatpruple's Maze by LvHa"
+
+by_sha256:
+  f5ea238e54ba0c20872ded53669b07d7983aa8c64fbc21ed11937bbcc66dc82b:
+    id: 6a79adce05a9e80a90724338
+    path: "authors/lvhatpruple/6a79adce05a9e80a90724338/original/LvHaMaze.exe"
+    page: https://crackmes.one/crackme/6a79adce05a9e80a90724338

@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a8900cd585e8875bcbebcbb:
+    sha256: "ba013a89e0b10e80c38d4e0d0fd65a0c29716542d772e5ee5b944cda4c3552fb"
+    path: "authors/hwenzy/6a8900cd585e8875bcbebcbb/original/crackme.exe"
+    title: "hwenzy's c++ CrackMe 4/10"
+
+by_sha256:
+  ba013a89e0b10e80c38d4e0d0fd65a0c29716542d772e5ee5b944cda4c3552fb:
+    id: 6a8900cd585e8875bcbebcbb
+    path: "authors/hwenzy/6a8900cd585e8875bcbebcbb/original/crackme.exe"
+    page: https://crackmes.one/crackme/6a8900cd585e8875bcbebcbb

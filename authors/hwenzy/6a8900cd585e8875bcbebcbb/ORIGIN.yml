@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a8900cd585e8875bcbebcbb
+
+urls:
+  page: https://crackmes.one/crackme/6a8900cd585e8875bcbebcbb
+  download: https://crackmes.one/download/crackme/6a8900cd585e8875bcbebcbb
+
+title: "hwenzy's c++ CrackMe 4/10"
+author_on_site: "hwenzy"
+author_local: "hwenzy"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme.exe"
+  name: "crackme.exe"
+  sha256: "ba013a89e0b10e80c38d4e0d0fd65a0c29716542d772e5ee5b944cda4c3552fb"
+  md5: "52795cecc0a561ee01cc7480553ce9b9"
+  size_bytes: 648192
+
+status: pending
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-08-24T14:42:29Z"

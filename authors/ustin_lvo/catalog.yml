@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5ee1f28c33c5d449d91ae7c0:
+    sha256: "f8da5f0ce1008e5c735e3fdc6df59368e3ffbdfa6fdb02496f026d7e94ca78f6"
+    path: "authors/ustin_lvo/5ee1f28c33c5d449d91ae7c0/original/keygenme.7z"
+    title: "Ustin_LVO's Keygenme 9411"
+
+by_sha256:
+  f8da5f0ce1008e5c735e3fdc6df59368e3ffbdfa6fdb02496f026d7e94ca78f6:
+    id: 5ee1f28c33c5d449d91ae7c0
+    path: "authors/ustin_lvo/5ee1f28c33c5d449d91ae7c0/original/keygenme.7z"
+    page: https://crackmes.one/crackme/5ee1f28c33c5d449d91ae7c0
