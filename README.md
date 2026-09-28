@@ -146,7 +146,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [oguzbey](authors/oguzbey/README.md) | oguzbey | 1 (Lucky Numbers) | 1 / 1 |
 | [andrewl](authors/andrewl/README.md) | andrewl | 1 (Quick Crypto) | 1 / 1 |
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
-| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 69 / 78 |
+| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 69 / 79 |
 | [chaltu](authors/chaltu/README.md) | chaltu | 2 (a Treasure + Double Door) | 2 / 2 |
 | [qerr0r](authors/qerr0r/README.md) | QERR0R | 1 (crackit) | 1 / 1 |
 | [steve_maxwell](authors/steve_maxwell/README.md) | steve_maxwell | 1 (X-0-R) | 1 / 1 |
@@ -225,6 +225,7 @@ Challenges `status: pending` volontairement suspendus (`parked: true` dans `ORIG
 | [meloquynthe](authors/crackmes-de/5ab77f5933c5d40ad448c46f/) | crackmes.de / meat | boutons `0x532..0x536` vs wave (`sub_40507f`) ; pas de saisie clavier |
 | [MCM 3.0 REWORK](authors/cracknotme/698fb9e9a79466462e957bec/) | CrackNotMe | parent/`--3a1f9b` + VM ; mask XOR TBD (notes 2026-09-01) |
 | [Basics::AHardcodedKeyGoneWrong](authors/michaelsrtsrt/6ab56a1e95b976f8f1300b7a/) | michaelsrtsrt | coffres `0x280608` (5 fiches) + `0x28760` (614) ouverts ; `009DA0` sans texte ; notes `analysis/NOTES.md` |
+| [rascal999 encrypt](authors/crackmes-de/5ab77f6033c5d40ad448c8b3/) | crackmes.de / rascal999 | MT19937, deux entiers ; préfixe `Congratulations` pas dans ±8e6 — `analysis/NOTES.md` |
 
 ## Historique des résolutions
 

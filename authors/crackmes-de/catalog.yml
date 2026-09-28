@@ -391,6 +391,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c399/original/collide.tgz"
     title: "crackmes.de's collide by crp"
 
+  5ab77f6033c5d40ad448c8b3:
+    sha256: "d3e24c2e3c9cc468f4286526e131ae76a12693eacebdb16276aaa8fee1c3156b"
+    path: "authors/crackmes-de/5ab77f6033c5d40ad448c8b3/original/encrypt.tar.gz"
+    title: "crackmes.de's rascal999s_crackme_challenge_cryptography by rascal999"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -716,3 +721,7 @@ by_sha256:
     id: 5ab77f5833c5d40ad448c399
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c399/original/collide.tgz"
     page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c399
+  d3e24c2e3c9cc468f4286526e131ae76a12693eacebdb16276aaa8fee1c3156b:
+    id: 5ab77f6033c5d40ad448c8b3
+    path: "authors/crackmes-de/5ab77f6033c5d40ad448c8b3/original/encrypt.tar.gz"
+    page: https://crackmes.one/crackme/5ab77f6033c5d40ad448c8b3

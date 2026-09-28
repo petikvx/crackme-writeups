@@ -1,0 +1,37 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f6033c5d40ad448c8b3
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f6033c5d40ad448c8b3
+  download: https://crackmes.one/download/crackme/5ab77f6033c5d40ad448c8b3
+
+title: "crackmes.de's rascal999s_crackme_challenge_cryptography by rascal999"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: "FreeBASIC"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/encrypt.tar.gz"
+  name: "encrypt.tar.gz"
+  sha256: "d3e24c2e3c9cc468f4286526e131ae76a12693eacebdb16276aaa8fee1c3156b"
+  md5: "f18f0ee785e70cb3dbe39760bf5a2bba"
+  size_bytes: 19644
+
+status: pending
+parked: true
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-28T04:09:45Z"
