@@ -94,6 +94,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 74 | [timemachine](5ab77f5333c5d40ad448c0f6/) | qnix | Linux ELF32 VM | **`iWasteMyTime`** |
 | 75 | [ada_crackme_1](5ab77f5733c5d40ad448c38f/) | darkphoenix_ | Linux ELF32 Ada UPX | petik → serial 30 octets, hash `0xABCDEF` |
 | 76 | [collide](5ab77f5833c5d40ad448c399/) | crp | Linux ELF32 | `.key` mode `0400` ; MD5 `A\|\|TEA(B)` ; petik → custom `0x1ffa4ba4` |
+| 77 | [encrypt](5ab77f6033c5d40ad448c8b3/) | rascal999 | Linux ELF32 FreeBASIC | pass1 **`756384985`**, pass2 **`999345234`** |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -101,4 +102,3 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 |---|---|---|
 | [bugger_v.7](5ab77f6633c5d40ad448cc25/) | [`…cc25`](https://crackmes.one/crackme/5ab77f6633c5d40ad448cc25) | RC6 OK ; **clé** + wake shell `abcdefgh` — `analysis/notes.txt` |
 | [meloquynthe](5ab77f5933c5d40ad448c46f/) | [`…c46f`](https://crackmes.one/crackme/5ab77f5933c5d40ad448c46f) | GUI déobfusquée ; **séquence boutons vs wave** (`sub_40507f`) — `analysis/notes.txt` |
-| [encrypt (rascal999)](5ab77f6033c5d40ad448c8b3/) | [`…c8b3`](https://crackmes.one/crackme/5ab77f6033c5d40ad448c8b3) | MT19937 FB, ±10 par octet ; deux entiers inconnus — `analysis/NOTES.md` |

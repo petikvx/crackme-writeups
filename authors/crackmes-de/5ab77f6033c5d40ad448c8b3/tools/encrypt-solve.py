@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Déchiffrement rascal999 (parked).
+"""Déchiffrement rascal999 (FreeBASIC, MT19937).
 
-Les deux entiers ne sont pas connus. ``-q`` sort 2.
-``--p1 N --p2 M`` applique le MT19937 FreeBASIC au fichier ``original/crackme``
-et écrit le clair sur stdout.
+Mots de passe par défaut : 756384985 et 999345234.
+``-q`` n'écrit que les deux entiers. ``--check`` re-chiffre le clair et
+compare au fichier ``original/crackme``.
 """
 
 from __future__ import annotations
@@ -80,17 +80,35 @@ def decrypt(data: bytes, p1: int, p2: int) -> bytes:
     return bytes(fist_sub(b, r1.next_u32()) & 0xFF for b in mid)
 
 
+P1 = 756384985
+P2 = 999345234
+
+
+def encrypt(data: bytes, p1: int, p2: int) -> bytes:
+    r1 = FBRnd(p1)
+    mid = bytes(fist_add(b, r1.next_u32()) & 0xFF for b in data)
+    r2 = FBRnd(p2)
+    return bytes(fist_sub(b, r2.next_u32()) & 0xFF for b in mid)
+
+
 def main() -> None:
-    ap = argparse.ArgumentParser(description="rascal999 encrypt (mots de passe inconnus)")
-    ap.add_argument("--p1", type=int)
-    ap.add_argument("--p2", type=int)
-    ap.add_argument("-q", action="store_true")
+    ap = argparse.ArgumentParser(description="rascal999 encrypt")
+    ap.add_argument("--p1", type=int, default=P1)
+    ap.add_argument("--p2", type=int, default=P2)
+    ap.add_argument("-q", action="store_true", help="n'afficher que les deux entiers")
+    ap.add_argument("--check", action="store_true", help="re-chiffrer et comparer au fichier")
     args = ap.parse_args()
-    if args.p1 is None or args.p2 is None:
-        print("mots de passe inconnus", file=sys.stderr)
-        sys.exit(2)
     blob = (Path(__file__).resolve().parent.parent / "original" / "crackme").read_bytes()
     out = decrypt(blob, args.p1, args.p2)
+    if args.check:
+        if encrypt(out, args.p1, args.p2) != blob or not out.startswith(b"Congratulations"):
+            print("echec", file=sys.stderr)
+            sys.exit(1)
+        print("ok")
+        return
+    if args.q:
+        print(args.p1, args.p2)
+        return
     sys.stdout.buffer.write(out + b"\n")
 
 

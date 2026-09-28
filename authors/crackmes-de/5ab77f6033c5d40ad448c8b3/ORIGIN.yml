@@ -28,9 +28,9 @@ binary:
   md5: "f18f0ee785e70cb3dbe39760bf5a2bba"
   size_bytes: 19644
 
-status: pending
-parked: true
-solution_summary: ""
+status: solved
+parked: false
+solution_summary: "pass1 756384985, pass2 999345234 ; MT19937 FreeBASIC, ±10 par octet ; clair « Congratulations on cracking… »"
 
 download:
   zip_password: crackmes.one
