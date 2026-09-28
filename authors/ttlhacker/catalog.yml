@@ -10,6 +10,11 @@ by_id:
     path: "authors/ttlhacker/5bc0fe0033c5d4110a29b296/original/hell86"
     title: "ttlhacker's hell86"
 
+  5cf2866533c5d41c6d56dfed:
+    sha256: "b13cf660e08ce9ecfab09cae3b4ac34ea65d04f15a18b643f568b848dd0d2750"
+    path: "authors/ttlhacker/5cf2866533c5d41c6d56dfed/original/hard_software_release.zip"
+    title: "ttlhacker's hard_software"
+
 by_sha256:
   57aa4a74af67ad9a6f33ae92f26deff3877ae648b4688c87df20c9ce53d2a723:
     id: 5c44f1bb33c5d475210bc634
@@ -19,3 +24,7 @@ by_sha256:
     id: 5bc0fe0033c5d4110a29b296
     path: "authors/ttlhacker/5bc0fe0033c5d4110a29b296/original/hell86"
     page: https://crackmes.one/crackme/5bc0fe0033c5d4110a29b296
+  b13cf660e08ce9ecfab09cae3b4ac34ea65d04f15a18b643f568b848dd0d2750:
+    id: 5cf2866533c5d41c6d56dfed
+    path: "authors/ttlhacker/5cf2866533c5d41c6d56dfed/original/hard_software_release.zip"
+    page: https://crackmes.one/crackme/5cf2866533c5d41c6d56dfed

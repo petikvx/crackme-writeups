@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5b58ebc433c5d46b771434a7
+
+urls:
+  page: https://crackmes.one/crackme/5b58ebc433c5d46b771434a7
+  download: https://crackmes.one/download/crackme/5b58ebc433c5d46b771434a7
+
+title: "s4r's fuckalight2"
+author_on_site: "s4r"
+author_local: "s4r"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/fuckalight2.bin"
+  name: "fuckalight2.bin"
+  sha256: "46a5a4c56739aef3839b79ed811fba7b636b0c08c7b7254d87897cdccfae4190"
+  md5: "d2646e3da9735550a53ec14e08da0a73"
+  size_bytes: 3101956
+
+status: solved
+solution_summary: "Brainfuck ; Callisto U8JZnpU5nD, Titan REbtr3L65GEK, Ganymede m173aDjELq"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-28T06:36:04Z"

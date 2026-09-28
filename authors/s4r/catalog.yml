@@ -5,8 +5,26 @@ by_id:
     path: "authors/s4r/64f1f7dbd931496abf90952d/original/encrypted_box"
     title: "s4r's encrypted_box"
 
+  5b58ebc433c5d46b771434a7:
+    sha256: "46a5a4c56739aef3839b79ed811fba7b636b0c08c7b7254d87897cdccfae4190"
+    path: "authors/s4r/5b58ebc433c5d46b771434a7/original/fuckalight2.bin"
+    title: "s4r's fuckalight2"
+
+  5c5d89ce33c5d43fd9a9387f:
+    sha256: "c10dd3294e2e5c93ba420fd7b651cceb4695bc9fbac4031ac662bae1db0ff031"
+    path: "authors/s4r/5c5d89ce33c5d43fd9a9387f/original/bitflip"
+    title: "s4r's bitflip"
+
 by_sha256:
   f17318419da1c0815cf4bf3e4c2b94be99eacdd079b5035ef76c4495f666aed3:
     id: 64f1f7dbd931496abf90952d
     path: "authors/s4r/64f1f7dbd931496abf90952d/original/encrypted_box"
     page: https://crackmes.one/crackme/64f1f7dbd931496abf90952d
+  46a5a4c56739aef3839b79ed811fba7b636b0c08c7b7254d87897cdccfae4190:
+    id: 5b58ebc433c5d46b771434a7
+    path: "authors/s4r/5b58ebc433c5d46b771434a7/original/fuckalight2.bin"
+    page: https://crackmes.one/crackme/5b58ebc433c5d46b771434a7
+  c10dd3294e2e5c93ba420fd7b651cceb4695bc9fbac4031ac662bae1db0ff031:
+    id: 5c5d89ce33c5d43fd9a9387f
+    path: "authors/s4r/5c5d89ce33c5d43fd9a9387f/original/bitflip"
+    page: https://crackmes.one/crackme/5c5d89ce33c5d43fd9a9387f

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5c5d89ce33c5d43fd9a9387f
+
+urls:
+  page: https://crackmes.one/crackme/5c5d89ce33c5d43fd9a9387f
+  download: https://crackmes.one/download/crackme/5c5d89ce33c5d43fd9a9387f
+
+title: "s4r's bitflip"
+author_on_site: "s4r"
+author_local: "s4r"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/bitflip"
+  name: "bitflip"
+  sha256: "c10dd3294e2e5c93ba420fd7b651cceb4695bc9fbac4031ac662bae1db0ff031"
+  md5: "441d532fba5bf30316b821b21ce4241f"
+  size_bytes: 745460
+
+status: solved
+solution_summary: "64 octets It_w4s_h4rD_But_Obviously_you_kn0w_h0w_we1rd_M4ch1n3_R_DESIGNED! ; flip-bit VM"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-28T08:07:34Z"

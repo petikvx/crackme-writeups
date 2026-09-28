@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5cf2866533c5d41c6d56dfed
+
+urls:
+  page: https://crackmes.one/crackme/5cf2866533c5d41c6d56dfed
+  download: https://crackmes.one/download/crackme/5cf2866533c5d41c6d56dfed
+
+title: "ttlhacker's hard_software"
+author_on_site: "ttlhacker"
+author_local: "ttlhacker"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/hard_software_release.zip"
+  name: "hard_software_release.zip"
+  sha256: "b13cf660e08ce9ecfab09cae3b4ac34ea65d04f15a18b643f568b848dd0d2750"
+  md5: "258522877de53d5d7f5e4a382116482e"
+  size_bytes: 53369
+
+status: solved
+solution_summary: "r1ppl3_c4rRy_aDD3rs_4rE_s0_sl0W! ; CPU en portes, LFSR 12 bits, longueur 32"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-28T08:15:02Z"

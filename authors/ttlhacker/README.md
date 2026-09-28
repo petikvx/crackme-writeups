@@ -10,6 +10,7 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml) (id ↔ sha256).
 |---|---|---|---|---|
 | 1 | [hell86](5bc0fe0033c5d4110a29b296/) | [`5bc0fe00…`](https://crackmes.one/crackme/5bc0fe0033c5d4110a29b296) | Linux ELF64 (SIGILL VM) | `FLAG{x86-1s-s0-fund4m3nt4lly-br0k3n}` |
 | 2 | [jittery](5c44f1bb33c5d475210bc634/) | [`5c44f1bb…`](https://crackmes.one/crackme/5c44f1bb33c5d475210bc634) | Linux ELF64 (JIT VM) | `FLAG{wh4t_1s_a_pr0gr4m_c0unt3r?_jit_eng1n3s_ar3_4wes0m3}` |
+| 3 | [hard_software](5cf2866533c5d41c6d56dfed/) | [`5cf28665…`](https://crackmes.one/crackme/5cf2866533c5d41c6d56dfed) | Linux ELF64 (CPU en portes) | `r1ppl3_c4rRy_aDD3rs_4rE_s0_sl0W!` |
 
 Section **Debug GDB** : hell86 `handle SIGILL pass` + `UD2` @ `0x1190` ; jittery `main`/`sub_3460` + `data_buffer` @ `0x205020`.
 

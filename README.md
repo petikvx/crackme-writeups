@@ -159,7 +159,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [muhemed](authors/muhemed/README.md) | muhemed | 1 (muhemed crackme) | 1 / 1 |
 | [soulreaper](authors/soulreaper/README.md) | soulreaper | 3 (Dead Terminal + XorGate + Death Trap) | 3 / 3 |
 | [toasterbirb](authors/toasterbirb/README.md) | toasterbirb | 7 (yap + série asm flags…branchless-fixed) | 7 / 7 |
-| [ttlhacker](authors/ttlhacker/README.md) | ttlhacker | 2 (hell86 + jittery) | 2 / 2 |
+| [ttlhacker](authors/ttlhacker/README.md) | ttlhacker | 3 (hell86 + jittery + hard_software) | 3 / 3 |
 | [jasper676767](authors/jasper676767/README.md) | Jasper676767 | 2 (Red light + forgot password) | 2 / 2 |
 | [pitou](authors/pitou/README.md) | pitou | 1 (Evaisve) | 1 / 1 |
 | [fatih](authors/fatih/README.md) | Fatih | 1 (S-BOX) | 1 / 1 |
@@ -177,7 +177,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [5iriu5](authors/5iriu5/README.md) | 5iriu5 | 1 (SSE Login) | 1 / 1 |
 | [jenya](authors/jenya/README.md) | Jenya | 2 (math_crackme + linux_asm_jenya) | 2 / 2 |
 | [0x6f6d6172h](authors/0x6f6d6172h/README.md) | 0x6f6D6172h | 1 (crackme1) | 1 / 1 |
-| [s4r](authors/s4r/README.md) | s4r | 1 (encrypted_box) | 1 / 1 |
+| [s4r](authors/s4r/README.md) | s4r | 3 (encrypted_box + fuckalight2 + bitflip) | 3 / 3 |
 | [ximxn](authors/ximxn/README.md) | Ximxn | 1 (perwira) | 1 / 1 |
 | [breadleaf](authors/breadleaf/README.md) | breadleaf | 1 (Password and Username) | 1 / 1 |
 | [thephilosopher](authors/thephilosopher/README.md) | ThePhilosopher | 2 (Bruteverse + The Matrix) | 2 / 2 |
@@ -233,6 +233,9 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-28 | [hard_software](authors/ttlhacker/5cf2866533c5d41c6d56dfed/) | ttlhacker |
+| 2026-09-28 | [bitflip](authors/s4r/5c5d89ce33c5d43fd9a9387f/) | s4r |
+| 2026-09-28 | [fuckalight2](authors/s4r/5b58ebc433c5d46b771434a7/) | s4r |
 | 2026-09-28 | [Mars Analytica](authors/towel/5b06f97533c5d406c0abccf0/) | Towel |
 | 2026-09-28 | [encrypt (rascal999)](authors/crackmes-de/5ab77f6033c5d40ad448c8b3/) | crackmes.de / rascal999 |
 | 2026-09-28 | [collide](authors/crackmes-de/5ab77f5833c5d40ad448c399/) | crackmes.de / crp |
