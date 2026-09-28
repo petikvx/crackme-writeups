@@ -194,6 +194,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [sallos](authors/sallos/README.md) | Sallos | 2 (Key License + EscapeFromMatrix) | 2 / 2 |
 | [tempesta](authors/tempesta/README.md) | Tempesta | 1 (Lord Winderton) | 1 / 1 |
 | [tenzo_aoki](authors/tenzo_aoki/README.md) | tenzo_aoki | 1 (Tenzo Crack ME Beta) | 1 / 1 |
+| [towel](authors/towel/README.md) | Towel | 1 (Mars Analytica) | 1 / 1 |
 | [alpjs](authors/alpjs/README.md) | alpjs | 1 (custom vmp) | 0 / 1 |
 | [bang1338](authors/bang1338/README.md) | bang1338 | 1 (Oops! All sarr) | 1 / 1 |
 | [victormeloasm](authors/victormeloasm/README.md) | victormeloasm | 2 (Froggate II + Simple Frog) | 1 / 2 |
@@ -232,6 +233,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-28 | [Mars Analytica](authors/towel/5b06f97533c5d406c0abccf0/) | Towel |
 | 2026-09-28 | [encrypt (rascal999)](authors/crackmes-de/5ab77f6033c5d40ad448c8b3/) | crackmes.de / rascal999 |
 | 2026-09-28 | [collide](authors/crackmes-de/5ab77f5833c5d40ad448c399/) | crackmes.de / crp |
 | 2026-09-27 | [ada_crackme_1](authors/crackmes-de/5ab77f5733c5d40ad448c38f/) | crackmes.de / darkphoenix_ |

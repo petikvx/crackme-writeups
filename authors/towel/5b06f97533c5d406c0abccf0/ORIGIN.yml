@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5b06f97533c5d406c0abccf0
+
+urls:
+  page: https://crackmes.one/crackme/5b06f97533c5d406c0abccf0
+  download: https://crackmes.one/download/crackme/5b06f97533c5d406c0abccf0
+
+title: "Towel's Mars Analytica"
+author_on_site: "Towel"
+author_local: "towel"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/MarsAnalytica"
+  name: "MarsAnalytica"
+  sha256: "8bb5b9ce99c6ea8cb41ad21d6fe5e54d12d24cf7be7cbccc2ff63f3427444176"
+  md5: "701ccf01c71379f90b3a6657640447af"
+  size_bytes: 4157648
+
+status: solved
+solution_summary: "citizen ID q4Eo-eyMq-1dd0-leKx ; FLAG-l0rdoFb1Nq4EoeyMq1dd0leKx ; VM aplatie, 17 égalités sur 19 octets"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-28T05:14:48Z"

@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5b06f97533c5d406c0abccf0:
+    sha256: "8bb5b9ce99c6ea8cb41ad21d6fe5e54d12d24cf7be7cbccc2ff63f3427444176"
+    path: "authors/towel/5b06f97533c5d406c0abccf0/original/MarsAnalytica"
+    title: "Towel's Mars Analytica"
+
+by_sha256:
+  8bb5b9ce99c6ea8cb41ad21d6fe5e54d12d24cf7be7cbccc2ff63f3427444176:
+    id: 5b06f97533c5d406c0abccf0
+    path: "authors/towel/5b06f97533c5d406c0abccf0/original/MarsAnalytica"
+    page: https://crackmes.one/crackme/5b06f97533c5d406c0abccf0
