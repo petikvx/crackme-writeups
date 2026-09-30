@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré manuellement (Windows, pas de bash/add-crackme.sh)
+id: 6abcdab66349e4b2540c6df4
+
+urls:
+  page: https://crackmes.one/crackme/6abcdab66349e4b2540c6df4
+  download: https://crackmes.one/download/crackme/6abcdab66349e4b2540c6df4
+
+title: "KAban's custom protector"
+author_on_site: "KAban"
+author_local: "kaban"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 4.0
+quality: 4.0
+size: "263.00 KB"
+published: "2026-09-30"
+
+series_index: null
+local_slug: custom-protector
+
+binary:
+  path: "original/0LLRi9C10LHQuCDQvNC10L3Rjw.exe"
+  name: "0LLRi9C10LHQuCDQvNC10L3Rjw.exe"
+  sha256: "269f66eb409a8076e60f9cf7402b6d5dba94a33331d19bd2cd49da220a769e53"
+  md5: "63809c874f7ca1de998cecf519a5fe95"
+  size_bytes: 269312
+
+status: solved
+solution_summary: "message stdout « Reverse this shit, find where this message is printed. » (pas d’input ; VM+OLLVM autour d’un check déterministe)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-30T19:12:33Z"

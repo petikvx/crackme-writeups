@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6abcdab66349e4b2540c6df4:
+    sha256: "269f66eb409a8076e60f9cf7402b6d5dba94a33331d19bd2cd49da220a769e53"
+    path: "authors/kaban/6abcdab66349e4b2540c6df4/original/0LLRi9C10LHQuCDQvNC10L3Rjw.exe"
+    title: "KAban's custom protector"
+
+by_sha256:
+  269f66eb409a8076e60f9cf7402b6d5dba94a33331d19bd2cd49da220a769e53:
+    id: 6abcdab66349e4b2540c6df4
+    path: "authors/kaban/6abcdab66349e4b2540c6df4/original/0LLRi9C10LHQuCDQvNC10L3Rjw.exe"
+    page: https://crackmes.one/crackme/6abcdab66349e4b2540c6df4

@@ -212,6 +212,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [michaelsrtsrt](authors/michaelsrtsrt/README.md) | michaelsrtsrt | 1 (AHardcodedKeyGoneWrong) | 0 / 1 *(parked)* |
 | [prestdayzero](authors/prestdayzero/README.md) | prestdayzero | 1 (Bobs gambling) | 1 / 1 |
 | [5](authors/5/README.md) | 5 | 1 (Quintessence) | 1 / 1 |
+| [kaban](authors/kaban/README.md) | KAban | 1 (custom protector) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -233,6 +234,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-30 | [custom protector](authors/kaban/6abcdab66349e4b2540c6df4/) | KAban |
 | 2026-09-28 | [QR Scanner](authors/towel/5ec1b82133c5d449d91ae539/) | Towel |
 | 2026-09-28 | [hard_software](authors/ttlhacker/5cf2866533c5d41c6d56dfed/) | ttlhacker |
 | 2026-09-28 | [bitflip](authors/s4r/5c5d89ce33c5d43fd9a9387f/) | s4r |
