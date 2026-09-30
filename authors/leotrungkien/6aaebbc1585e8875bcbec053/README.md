@@ -59,7 +59,8 @@ size    127656
 Unpack utile (déjà sous `analysis/`) :
 
 ```bash
-# couches capturées via hook d’exec → analysis/exec_*.marshal, real.marshal
+# couches capturées via hook d’exec → analysis/exec_{1..5}_module.marshal, real.marshal
+# (noms sans < > : le dump Python utilisait <module>, illégal sous Windows)
 python3.12 -c 'import marshal; marshal.loads(open("analysis/real.marshal","rb").read())'
 ```
 
