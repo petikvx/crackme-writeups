@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6abbc4dd0885f990699dc050:
+    sha256: "82266599d4ef083a42f3c0e5064a5fb0973a9599c09acb7125ab9e48026098da"
+    path: "authors/va7d1n3/6abbc4dd0885f990699dc050/original/Automata Simulation v3.0.exe"
+    title: "Va7D1n3's Automata Simulation"
+
+by_sha256:
+  82266599d4ef083a42f3c0e5064a5fb0973a9599c09acb7125ab9e48026098da:
+    id: 6abbc4dd0885f990699dc050
+    path: "authors/va7d1n3/6abbc4dd0885f990699dc050/original/Automata Simulation v3.0.exe"
+    page: https://crackmes.one/crackme/6abbc4dd0885f990699dc050

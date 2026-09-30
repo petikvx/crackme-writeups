@@ -1,0 +1,40 @@
+======================================================================
+CHALLENGE: NieR: Automata Matrix Simulation v3.0
+DEVELOPER SOLUTION / VERIFICATION FILE
+======================================================================
+
+This challenge can be solved using two primary reverse-engineering methodologies:
+
+METHOD 1: THE INTENDED KEYBOARD SEQUENCE (REVERSING THE HASH)
+----------------------------------------------------------------------
+The application intercepts keyboard inputs via the Win32 `WM_CHAR` 
+message handler. It performs a basic mathematical hashing operation by 
+multiplying each character's ASCII value by 13, checking the result 
+against a hardcoded validation matrix:
+
+* Step 1: Checks for hash 1014 or 1430 -> 1014 / 13 = 78 ('N'), 1430 / 13 = 110 ('n')
+* Step 2: Checks for hash 949 or 1365  -> 949 / 13 = 73 ('I'), 1365 / 13 = 105 ('i')
+* Step 3: Checks for hash 897 or 1313  -> 897 / 13 = 69 ('E'), 1313 / 13 = 101 ('e')
+* Step 4: Checks for hash 1066 or 1482 -> 1066 / 13 = 82 ('R'), 1482 / 13 = 114 ('r')
+
+VALIDATION FLAG: 
+Focus the window and type the word "nier" (or "NIER"). 
+The UI will update to: "LINK MATRIX: [ BYPASS UNLOCKED ]"
+
+
+METHOD 2: ASSEMBLY PATCHING (BYPASSING THE SUPERVISOR BLOCK)
+----------------------------------------------------------------------
+Once the key is unlocked, clicking the tactical button triggers the 
+`SummonBots` function. This function contains an intentional anti-cheat/
+supervisor block that halts execution:
+
+    volatile int antiCheatCheck = 999;
+    if (antiCheatCheck == 999) { ... Abort ... }
+
+To solve this via static/dynamic binary modification:
+1. Load the binary into a disassembler/debugger (e.g., Ghidra, x64dbg).
+2. Locate the text string: "Warning: Access denied. Pod recovery protocol..."
+3. Find the conditional jump instruction right above this branch (e.g., `JZ` / `JNZ` check comparing the local variable to 0x3E7 / 999).
+4. Patch the conditional jump instruction to `NOP` (No Operation) or force the jump path to completely skip the inner conditional abort block.
+5. Save the patched executable. Clicking the button will now successfully deploy the orbital assist pods and trigger the dynamic win routine once all memory targets are automated out.
+======================================================================
