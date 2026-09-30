@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6abb16d30885f990699dc03a:
+    sha256: "d112c3a4aa74d316d1656e0cd6a02754c7ab16ec4694da53d63bb1cf9445b79d"
+    path: "authors/confining0367/6abb16d30885f990699dc03a/original/Key.exe"
+    title: "confining0367's Key"
+
+by_sha256:
+  d112c3a4aa74d316d1656e0cd6a02754c7ab16ec4694da53d63bb1cf9445b79d:
+    id: 6abb16d30885f990699dc03a
+    path: "authors/confining0367/6abb16d30885f990699dc03a/original/Key.exe"
+    page: https://crackmes.one/crackme/6abb16d30885f990699dc03a

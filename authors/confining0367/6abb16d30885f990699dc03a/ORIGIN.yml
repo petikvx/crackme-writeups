@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6abb16d30885f990699dc03a
+
+urls:
+  page: https://crackmes.one/crackme/6abb16d30885f990699dc03a
+  download: https://crackmes.one/download/crackme/6abb16d30885f990699dc03a
+
+title: "confining0367's Key"
+author_on_site: "confining0367"
+author_local: "confining0367"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++"
+
+difficulty: 2.0
+quality: 4.0
+size: "772.00 KB"
+published: "2026-09-29"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Key.exe"
+  name: "Key.exe"
+  sha256: "d112c3a4aa74d316d1656e0cd6a02754c7ab16ec4694da53d63bb1cf9445b79d"
+  md5: "21114c8f0f04c0992c05d93380419f0a"
+  size_bytes: 790528
+
+status: solved
+solution_summary: "petik → AgZ->_:-1 (len 4–16, PART1 sum (i+1)*c, PART2 XOR 0x36 = >_:, PART3 starts with 1, state 6^0x2D^0xF6^0xD2 == 15)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-09-30T19:24:52Z"

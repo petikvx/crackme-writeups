@@ -214,6 +214,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [5](authors/5/README.md) | 5 | 1 (Quintessence) | 1 / 1 |
 | [kaban](authors/kaban/README.md) | KAban | 1 (custom protector) | 1 / 1 |
 | [va7d1n3](authors/va7d1n3/README.md) | Va7D1n3 | 1 (Automata Simulation) | 1 / 1 |
+| [confining0367](authors/confining0367/README.md) | confining0367 | 1 (Key) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -235,6 +236,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-09-30 | [Key](authors/confining0367/6abb16d30885f990699dc03a/) | confining0367 |
 | 2026-09-30 | [Automata Simulation](authors/va7d1n3/6abbc4dd0885f990699dc050/) | Va7D1n3 |
 | 2026-09-30 | [custom protector](authors/kaban/6abcdab66349e4b2540c6df4/) | KAban |
 | 2026-09-28 | [QR Scanner](authors/towel/5ec1b82133c5d449d91ae539/) | Towel |
