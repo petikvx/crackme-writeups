@@ -219,6 +219,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [nake](authors/nake/README.md) | nake | 1 (SP network cipher) | 1 / 1 |
 | [kamil123](authors/kamil123/README.md) | kamil123 | 1 (Mini LLM Sentinel) | 1 / 1 |
 | [joejoejoe](authors/joejoejoe/README.md) | JoeJoeJoe | 1 (thefirsttest) | 1 / 1 |
+| [vmlinuz719](authors/vmlinuz719/README.md) | vmlinuz719 | 1 (Product Activation) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -240,6 +241,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-03 | [Product Activation](authors/vmlinuz719/670fd1469b533b4c22bd1537/) | vmlinuz719 |
 | 2026-10-03 | [thefirsttest](authors/joejoejoe/6abc48c1ace07d1c3fbc4816/) | JoeJoeJoe |
 | 2026-10-03 | [Mini LLM Sentinel](authors/kamil123/6abd98190885f990699dc084/) | kamil123 |
 | 2026-10-03 | [SP network cipher](authors/nake/6abd4b07cdee6e086a173522/) | nake |

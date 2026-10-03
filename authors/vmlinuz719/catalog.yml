@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  670fd1469b533b4c22bd1537:
+    sha256: "3585dd41563fc2d52cd9863f245527f36920b4cd6b16dfa2cb5d4c0105261f4d"
+    path: "authors/vmlinuz719/670fd1469b533b4c22bd1537/original/challenge2.zip"
+    title: "vmlinuz719's Product Activation"
+
+by_sha256:
+  3585dd41563fc2d52cd9863f245527f36920b4cd6b16dfa2cb5d4c0105261f4d:
+    id: 670fd1469b533b4c22bd1537
+    path: "authors/vmlinuz719/670fd1469b533b4c22bd1537/original/challenge2.zip"
+    page: https://crackmes.one/crackme/670fd1469b533b4c22bd1537

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 670fd1469b533b4c22bd1537
+
+urls:
+  page: https://crackmes.one/crackme/670fd1469b533b4c22bd1537
+  download: https://crackmes.one/download/crackme/670fd1469b533b4c22bd1537
+
+title: "vmlinuz719's Product Activation"
+author_on_site: "vmlinuz719"
+author_local: "vmlinuz719"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/challenge2.zip"
+  name: "challenge2.zip"
+  sha256: "3585dd41563fc2d52cd9863f245527f36920b4cd6b16dfa2cb5d4c0105261f4d"
+  md5: "00dfdfc1469f9eb61aa82766e94e9791"
+  size_bytes: 17697
+
+status: solved
+solution_summary: "clé 289F95CF-47FA06D3 (mélangeur 16 bits, graine 0xC1A5, table ROM 0x204)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-03T13:02:15Z"

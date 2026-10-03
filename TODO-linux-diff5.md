@@ -4,16 +4,15 @@ Recherche [crackmes.one](https://crackmes.one/search?name=&author=&difficulty-mi
 
 Filtre : plateforme Unix/linux, difficulté 5.0–6.0, tri date croissante. La page annonce **31** résultats, tous sur une seule page.
 
-Déjà `status: solved` dans le dépôt (13) : timemachine, ada_crackme_1, collide, oxfoo1me, encrypt (rascal999), Mars Analytica, fuckalight2, jittery, bitflip, hard_software, QR Scanner, Tropical, Quintessence.
+Déjà `status: solved` dans le dépôt (14) : timemachine, ada_crackme_1, collide, oxfoo1me, encrypt (rascal999), Mars Analytica, fuckalight2, jittery, bitflip, hard_software, QR Scanner, Tropical, Quintessence, Product Activation.
 
-Les 18 suivants ne sont pas résolus. L’ordre est celui du site (plus ancien en haut). Froggate II est déjà scaffoldé (`status: pending`) ; les autres ne sont pas dans le dépôt.
+Les 17 suivants ne sont pas résolus. L’ordre est celui du site (plus ancien en haut). Froggate II est déjà scaffoldé (`status: pending`) ; les autres ne sont pas dans le dépôt.
 
 | # | Date | Crackme | Auteur | Difficulté | Arch | Taille | URL |
 |---|---|---|---|---|---|---|---|
 | 1 | 2020-06-11 | Keygenme 9411 | Ustin_LVO | 5.0 | x86 | 314 KB | https://crackmes.one/crackme/5ee1f28c33c5d449d91ae7c0 |
 | 2 | 2021-03-19 | KataVM — Level 1 | Towel | 5.0 | x86-64 | 16 KB | https://crackmes.one/crackme/605443e333c5d42c3d016f59 |
 | 3 | 2024-03-31 | crackme-puzzle | 0x78102 | 5.0 | x86-64 | 9 KB | https://crackmes.one/crackme/6609e458cddae72ae250bf40 |
-| 4 | 2024-10-16 | Product Activation | vmlinuz719 | 5.0 | x86-64 | 17 KB | https://crackmes.one/crackme/670fd1469b533b4c22bd1537 |
 | 5 | 2025-04-12 | WeeperVM — Level 1 | Ben_Lolo | 5.0 | x86-64 | 14 KB | https://crackmes.one/crackme/67f9bdc38f555589f3530a85 |
 | 6 | 2025-04-22 | WeeperVM — Level 2 | Ben_Lolo | 5.6 | x86-64 | 133 KB | https://crackmes.one/crackme/6807f6ab8f555589f3530e64 |
 | 7 | 2025-11-27 | Evolving SBox | 0xJam3z | 5.0 | x86-64 | 3 KB | https://crackmes.one/crackme/6927c8d12d267f28f69b8131 |
