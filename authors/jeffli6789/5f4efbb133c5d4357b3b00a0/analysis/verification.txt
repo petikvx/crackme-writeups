@@ -1,0 +1,23 @@
+# 2026-10-03T17:55:29+02:00 TZ=CEST
+$ echo 10/03/1898 | ./original/date_of_birth
+Welcome to Discard App -- a new way to get screwed up
+We need to verify your age before you can usage the app
+Please type you date of birth here: 
+Congrats! Now you can use Discard app!
+Unfortunately this app has absolutely no functionality
+[rc=0]
+
+$ echo 10/04/1898 | ./original/date_of_birth
+Welcome to Discard App -- a new way to get screwed up
+We need to verify your age before you can usage the app
+Please type you date of birth here: 
+Congrats! Now you can use Discard app!
+Tognsuto`udmx!uihr!`qq!i`r!`crnmtudmx!on!gtobuhno`mhux
+[rc=0]
+
+$ echo 10/02/1898 | ./original/date_of_birth
+[rc=139]
+
+$ echo 01/01/2000 | ./original/date_of_birth
+[rc=139]
+

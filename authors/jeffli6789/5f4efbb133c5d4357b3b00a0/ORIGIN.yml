@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5f4efbb133c5d4357b3b00a0
+
+urls:
+  page: https://crackmes.one/crackme/5f4efbb133c5d4357b3b00a0
+  download: https://crackmes.one/download/crackme/5f4efbb133c5d4357b3b00a0
+
+title: "jeffli6789's Date of Birth"
+author_on_site: "jeffli6789"
+author_local: "jeffli6789"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/date_of_birth"
+  name: "date_of_birth"
+  sha256: "dc6c1fde7304aa4997f4c9871fb5891d78869202b4e2f2fad6ce33a4f5d1ea9a"
+  md5: "f8d37b51cd5df217eadcef37f84afe17"
+  size_bytes: 10216
+
+status: solved
+solution_summary: "DOB = jour J - ~128 ans (10/03/1898 le 2026-10-03) : now-dob -> localtime = 31/12/2097 (Y=127 overflow int8, M=11, D=31), clé XOR 127^11^31=107 -> Unfortunately this app has absolutely no functionality ; solveur date-dépendant"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-03T15:53:17Z"

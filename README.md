@@ -133,7 +133,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [simbahdd](authors/simbahdd/README.md) | SimbaHDD | 1 (CRACKME) | 1 / 1 |
 | [tdaron](authors/tdaron/README.md) | tdaron | 1 (Use your brain) | 1 / 1 |
 | [pipedown](authors/pipedown/README.md) | pipedown | 1 (I need to be honest) | 1 / 1 |
-| [jeffli6789](authors/jeffli6789/README.md) | jeffli6789 | 4 (wallpaper + x86 + Maze + Orbit Fold) | 4 / 4 |
+| [jeffli6789](authors/jeffli6789/README.md) | jeffli6789 | 5 (wallpaper + x86 + Maze + Orbit Fold + Date of Birth) | 5 / 5 |
 | [cr-ck_god001](authors/cr-ck_god001/README.md) | Cr@ck_God001 | 1 (Crackme GUI) | 1 / 1 |
 | [neoncarrot](authors/neoncarrot/README.md) | neoncarrot | 1 (Find the correct key!) | 1 / 1 |
 | [cosmosss](authors/cosmosss/README.md) | CosmoSSS | 1 (Password Very Easy) | 1 / 1 |
@@ -241,6 +241,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-03 | [Date of Birth](authors/jeffli6789/5f4efbb133c5d4357b3b00a0/) | jeffli6789 |
 | 2026-10-03 | [Product Activation](authors/vmlinuz719/670fd1469b533b4c22bd1537/) | vmlinuz719 |
 | 2026-10-03 | [thefirsttest](authors/joejoejoe/6abc48c1ace07d1c3fbc4816/) | JoeJoeJoe |
 | 2026-10-03 | [Mini LLM Sentinel](authors/kamil123/6abd98190885f990699dc084/) | kamil123 |
