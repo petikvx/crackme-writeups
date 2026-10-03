@@ -1,0 +1,36 @@
+# Origine crackmes.one — scaffold manuel (Windows / pas de bash add-crackme)
+id: 6abd98190885f990699dc084
+
+urls:
+  page: https://crackmes.one/crackme/6abd98190885f990699dc084
+  download: https://crackmes.one/download/crackme/6abd98190885f990699dc084
+
+title: "kamil123's Mini LLM Sentinel"
+author_on_site: "kamil123"
+author_local: "kamil123"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 6.0
+quality: 5.0
+size: "467.50 KB"
+published: "2026-09-30"
+
+series_index: 3
+local_slug: "mini-llm-sentinel"
+
+binary:
+  path: "original/crackme03.exe"
+  name: "crackme03.exe"
+  sha256: "bd758259be76d9fa3eddde7ae4cd56f417d076fc84496090e3dfe701fd68aaef"
+  md5: "c359a6b2bdd5da89121e2746ca56bf8e"
+  size_bytes: 478720
+
+status: solved
+solution_summary: "AI-petik0005999! (16 chars AI-…! ; MLP 6→8→1 sur checksum Σ≡101 et classes alnum)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-03T07:00:00Z"
