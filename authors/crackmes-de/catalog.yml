@@ -401,6 +401,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c109/original/CrackMe2.zip"
     title: "crackmes.de's crackme_2.0_find_the_secret_text by devoney"
 
+  5ab77f5333c5d40ad448c10c:
+    sha256: "a1237b572ae7788fe07f6dbace38f173098542a114fd1871d9931cd73e65eec0"
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c10c/original/KeygenMe.exe"
+    title: "crackmes.de's recoded_keygenme_1 by recoded"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -734,3 +739,7 @@ by_sha256:
     id: 5ab77f5333c5d40ad448c109
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c109/original/CrackMe2.zip"
     page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c109
+  a1237b572ae7788fe07f6dbace38f173098542a114fd1871d9931cd73e65eec0:
+    id: 5ab77f5333c5d40ad448c10c
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c10c/original/KeygenMe.exe"
+    page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c10c

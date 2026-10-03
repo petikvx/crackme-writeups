@@ -1,0 +1,36 @@
+# Origine crackmes.one — scaffold manuel (Windows / pas de bash add-crackme)
+id: 5ab77f5333c5d40ad448c10c
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c10c
+  download: https://crackmes.one/download/crackme/5ab77f5333c5d40ad448c10c
+
+title: "crackmes.de's recoded_keygenme_1 by recoded"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 2.0
+quality: 4.0
+size: "1.80 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: "recoded_keygenme_1"
+
+binary:
+  path: "original/KeygenMe.exe"
+  name: "KeygenMe.exe"
+  sha256: "a1237b572ae7788fe07f6dbace38f173098542a114fd1871d9931cd73e65eec0"
+  md5: "ddfffa91418747b2e3482e3c6c9f3703"
+  size_bytes: 3584
+
+status: solved
+solution_summary: "petik→0C1D98B6-7D4A3072-07D08290-E41E90EA (ROR32(mul*c,19), seed 0x401284)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-03T22:00:00Z"
