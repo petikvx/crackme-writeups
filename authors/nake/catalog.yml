@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6abd4b07cdee6e086a173522:
+    sha256: "8ddb682a47bc287e9b29a8f467c7dfdfe7ca0a1cfa7328e720b0d319cc736953"
+    path: "authors/nake/6abd4b07cdee6e086a173522/original/xorNT.exe"
+    title: "nake's SP network cipher"
+
+by_sha256:
+  8ddb682a47bc287e9b29a8f467c7dfdfe7ca0a1cfa7328e720b0d319cc736953:
+    id: 6abd4b07cdee6e086a173522
+    path: "authors/nake/6abd4b07cdee6e086a173522/original/xorNT.exe"
+    page: https://crackmes.one/crackme/6abd4b07cdee6e086a173522

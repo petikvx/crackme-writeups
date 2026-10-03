@@ -216,6 +216,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [va7d1n3](authors/va7d1n3/README.md) | Va7D1n3 | 1 (Automata Simulation) | 1 / 1 |
 | [confining0367](authors/confining0367/README.md) | confining0367 | 1 (Key) | 1 / 1 |
 | [rodrigoteixeira](authors/rodrigoteixeira/README.md) | RodrigoTeixeira | 1 (Loggin) | 1 / 1 |
+| [nake](authors/nake/README.md) | nake | 1 (SP network cipher) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -237,6 +238,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-03 | [SP network cipher](authors/nake/6abd4b07cdee6e086a173522/) | nake |
 | 2026-10-03 | [Loggin](authors/rodrigoteixeira/6abfc1a30885f990699dc0c2/) | RodrigoTeixeira |
 | 2026-09-30 | [Key](authors/confining0367/6abb16d30885f990699dc03a/) | confining0367 |
 | 2026-09-30 | [Automata Simulation](authors/va7d1n3/6abbc4dd0885f990699dc050/) | Va7D1n3 |

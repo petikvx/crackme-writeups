@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6abd4b07cdee6e086a173522
+
+urls:
+  page: https://crackmes.one/crackme/6abd4b07cdee6e086a173522
+  download: https://crackmes.one/download/crackme/6abd4b07cdee6e086a173522
+
+title: "nake's SP network cipher"
+author_on_site: "nake"
+author_local: "nake"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 3.0
+quality: 4.0
+size: "120.00 KB"
+published: "2026-09-30"
+
+series_index: null
+local_slug: "sp-network-cipher"
+
+binary:
+  path: "original/xorNT.exe"
+  name: "xorNT.exe"
+  sha256: "8ddb682a47bc287e9b29a8f467c7dfdfe7ca0a1cfa7328e720b0d319cc736953"
+  md5: "a01e0b2f0549581b79597ef814efd1d2"
+  size_bytes: 122880
+
+status: solved
+solution_summary: "key 43444956 → command Adrtl03333 (permute splitmix 4 swaps, subst lo→hi^0x5A, XOR compteur base-4 ; T=eeb3909781dbdfafc2c5)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-03T12:30:00Z"
