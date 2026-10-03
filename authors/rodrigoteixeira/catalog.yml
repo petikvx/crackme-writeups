@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6abfc1a30885f990699dc0c2:
+    sha256: "707d4e4bf7944e07af1b42eaeaae8e77a5afdce7de473f85fa530cca04e3dcfc"
+    path: "authors/rodrigoteixeira/6abfc1a30885f990699dc0c2/original/main.exe"
+    title: "RodrigoTeixeira's Loggin"
+
+by_sha256:
+  707d4e4bf7944e07af1b42eaeaae8e77a5afdce7de473f85fa530cca04e3dcfc:
+    id: 6abfc1a30885f990699dc0c2
+    path: "authors/rodrigoteixeira/6abfc1a30885f990699dc0c2/original/main.exe"
+    page: https://crackmes.one/crackme/6abfc1a30885f990699dc0c2

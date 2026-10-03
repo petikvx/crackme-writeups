@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6abfc1a30885f990699dc0c2
+
+urls:
+  page: https://crackmes.one/crackme/6abfc1a30885f990699dc0c2
+  download: https://crackmes.one/download/crackme/6abfc1a30885f990699dc0c2
+
+title: "RodrigoTeixeira's Loggin"
+author_on_site: "RodrigoTeixeira"
+author_local: "rodrigoteixeira"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++"
+
+difficulty: 3.0
+quality: 4.0
+size: "31.19 KB"
+published: "2026-10-02"
+
+series_index: null
+local_slug: "loggin"
+
+binary:
+  path: "original/main.exe"
+  name: "main.exe"
+  sha256: "707d4e4bf7944e07af1b42eaeaae8e77a5afdce7de473f85fa530cca04e3dcfc"
+  md5: "2c32e080676f1c07878ce868406f1d37"
+  size_bytes: 31939
+
+status: solved
+solution_summary: "xorshift32(hash31(user))==0x713FD2A6 ⇒ hash(user)==0xCF1B4D38 (petik impossible) ; vefxne / mrqbixn (hash(pass||user)==0x439CF161)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-03T12:00:00Z"
