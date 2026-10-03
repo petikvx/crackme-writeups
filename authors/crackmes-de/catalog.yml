@@ -396,6 +396,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f6033c5d40ad448c8b3/original/encrypt.tar.gz"
     title: "crackmes.de's rascal999s_crackme_challenge_cryptography by rascal999"
 
+  5ab77f5333c5d40ad448c109:
+    sha256: "38ba5d2d75b6e244c99cdf7de2609e5f79edc0a3c849a0b0bdbf712e11aa2386"
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c109/original/CrackMe2.zip"
+    title: "crackmes.de's crackme_2.0_find_the_secret_text by devoney"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -725,3 +730,7 @@ by_sha256:
     id: 5ab77f6033c5d40ad448c8b3
     path: "authors/crackmes-de/5ab77f6033c5d40ad448c8b3/original/encrypt.tar.gz"
     page: https://crackmes.one/crackme/5ab77f6033c5d40ad448c8b3
+  38ba5d2d75b6e244c99cdf7de2609e5f79edc0a3c849a0b0bdbf712e11aa2386:
+    id: 5ab77f5333c5d40ad448c109
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c109/original/CrackMe2.zip"
+    page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c109

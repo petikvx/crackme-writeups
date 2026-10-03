@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5333c5d40ad448c109
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c109
+  download: https://crackmes.one/download/crackme/5ab77f5333c5d40ad448c109
+
+title: "crackmes.de's crackme_2.0_find_the_secret_text by devoney"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/CrackMe2.zip"
+  name: "CrackMe2.zip"
+  sha256: "38ba5d2d75b6e244c99cdf7de2609e5f79edc0a3c849a0b0bdbf712e11aa2386"
+  md5: "2d3243904749d44c0153d5798b93c2c9"
+  size_bytes: 1336
+
+status: solved
+solution_summary: "password [_Crack_]; self-modifying PE writes transformed input to 0x401351 and runs it as a MessageBoxA stub -> secret text: greed"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-03T19:47:55Z"

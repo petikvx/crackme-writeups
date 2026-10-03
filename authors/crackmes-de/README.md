@@ -95,6 +95,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 75 | [ada_crackme_1](5ab77f5733c5d40ad448c38f/) | darkphoenix_ | Linux ELF32 Ada UPX | petik → serial 30 octets, hash `0xABCDEF` |
 | 76 | [collide](5ab77f5833c5d40ad448c399/) | crp | Linux ELF32 | `.key` mode `0400` ; MD5 `A\|\|TEA(B)` ; petik → custom `0x1ffa4ba4` |
 | 77 | [encrypt](5ab77f6033c5d40ad448c8b3/) | rascal999 | Linux ELF32 FreeBASIC | pass1 **`756384985`**, pass2 **`999345234`** |
+| 78 | [crackme_2.0_find_the_secret_text](5ab77f5333c5d40ad448c109/) | devoney | Win PE32 GUI auto-modifiant | password **`[_Crack_]`** → secret **`greed`** (input→shellcode MessageBoxA) |
 
 ## Mis de côté (PARKED — y revenir)
 
