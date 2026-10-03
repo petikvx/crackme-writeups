@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6abc48c1ace07d1c3fbc4816
+
+urls:
+  page: https://crackmes.one/crackme/6abc48c1ace07d1c3fbc4816
+  download: https://crackmes.one/download/crackme/6abc48c1ace07d1c3fbc4816
+
+title: "JoeJoeJoe's thefirsttest"
+author_on_site: "JoeJoeJoe"
+author_local: "joejoejoe"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 1.0
+quality: 4.0
+size: "12.34 KB"
+published: "2026-09-29"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/thefirsttest"
+  name: "thefirsttest"
+  sha256: "870ec5912a7c2c168a842b13f528a9901b130537e2d1deb83ed26f0280b4e6cf"
+  md5: "fa6682bc72357fb519283c8b025ceef5"
+  size_bytes: 12632
+
+status: solved
+solution_summary: "password 1923855305 (scanf %d, cmp eax, 0x72abb3c9)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-03T08:50:39Z"

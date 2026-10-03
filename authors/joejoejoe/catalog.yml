@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6abc48c1ace07d1c3fbc4816:
+    sha256: "870ec5912a7c2c168a842b13f528a9901b130537e2d1deb83ed26f0280b4e6cf"
+    path: "authors/joejoejoe/6abc48c1ace07d1c3fbc4816/original/thefirsttest"
+    title: "JoeJoeJoe's thefirsttest"
+
+by_sha256:
+  870ec5912a7c2c168a842b13f528a9901b130537e2d1deb83ed26f0280b4e6cf:
+    id: 6abc48c1ace07d1c3fbc4816
+    path: "authors/joejoejoe/6abc48c1ace07d1c3fbc4816/original/thefirsttest"
+    page: https://crackmes.one/crackme/6abc48c1ace07d1c3fbc4816
