@@ -1,0 +1,35 @@
+# Origine crackmes.one — scaffold manuel (Windows / pas de bash add-crackme)
+id: 66685b79e7b35c09bb266b96
+
+urls:
+  page: https://crackmes.one/crackme/66685b79e7b35c09bb266b96
+  download: https://crackmes.one/download/crackme/66685b79e7b35c09bb266b96
+
+title: "Pwned.cpp's ImGUI-CrackME"
+author_on_site: "Pwned.cpp"
+author_local: "pwned.cpp"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++"
+
+difficulty: 2.0
+quality: 3.7
+size: "226.50 KB"
+published: "2024-06-11"
+
+local_slug: "imgui-crackme"
+
+binary:
+  path: "original/CrackME.exe"
+  name: "CrackME.exe"
+  sha256: "8c86544a525f4c5015b7d1e9ac83b70b424a34f527886c185f50b4369d090be3"
+  md5: "32c921ea06f6a611612c3a88c7e18dba"
+  size_bytes: 231936
+
+status: solved
+solution_summary: "cqt+r?9_)*lv0)+ex4rn2fpbh*?w0*50x?b1u?j*bjqv8bem564 (XOR i+0x31, 51 octets)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-03T12:00:00Z"

@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  66685b79e7b35c09bb266b96:
+    sha256: "8c86544a525f4c5015b7d1e9ac83b70b424a34f527886c185f50b4369d090be3"
+    path: "authors/pwned.cpp/66685b79e7b35c09bb266b96/original/CrackME.exe"
+    title: "Pwned.cpp's ImGUI-CrackME"
+
+by_sha256:
+  8c86544a525f4c5015b7d1e9ac83b70b424a34f527886c185f50b4369d090be3:
+    id: 66685b79e7b35c09bb266b96
+    path: "authors/pwned.cpp/66685b79e7b35c09bb266b96/original/CrackME.exe"
+    page: https://crackmes.one/crackme/66685b79e7b35c09bb266b96

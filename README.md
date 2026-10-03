@@ -220,6 +220,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [kamil123](authors/kamil123/README.md) | kamil123 | 1 (Mini LLM Sentinel) | 1 / 1 |
 | [joejoejoe](authors/joejoejoe/README.md) | JoeJoeJoe | 1 (thefirsttest) | 1 / 1 |
 | [vmlinuz719](authors/vmlinuz719/README.md) | vmlinuz719 | 1 (Product Activation) | 1 / 1 |
+| [pwned.cpp](authors/pwned.cpp/README.md) | Pwned.cpp | 1 (ImGUI-CrackME) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -241,6 +242,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-03 | [ImGUI-CrackME](authors/pwned.cpp/66685b79e7b35c09bb266b96/) | Pwned.cpp |
 | 2026-10-03 | [Date of Birth](authors/jeffli6789/5f4efbb133c5d4357b3b00a0/) | jeffli6789 |
 | 2026-10-03 | [Product Activation](authors/vmlinuz719/670fd1469b533b4c22bd1537/) | vmlinuz719 |
 | 2026-10-03 | [thefirsttest](authors/joejoejoe/6abc48c1ace07d1c3fbc4816/) | JoeJoeJoe |
