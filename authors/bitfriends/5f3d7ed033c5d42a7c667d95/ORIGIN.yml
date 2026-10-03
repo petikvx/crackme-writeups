@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5f3d7ed033c5d42a7c667d95
+
+urls:
+  page: https://crackmes.one/crackme/5f3d7ed033c5d42a7c667d95
+  download: https://crackmes.one/download/crackme/5f3d7ed033c5d42a7c667d95
+
+title: "BitFriends's rop"
+author_on_site: "BitFriends"
+author_local: "bitfriends"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/rop"
+  name: "rop"
+  sha256: "e8c92c0169816faf71095740a1b6c65dd5eaef89ccfbb84bf7d734ed417eb729"
+  md5: "88349dd8e0fb6416831c21e3df3993f0"
+  size_bytes: 8312
+
+status: pending
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-03T17:27:05Z"

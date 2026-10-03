@@ -5,8 +5,17 @@ by_id:
     path: "authors/bitfriends/5ea48a1433c5d47611746436/original/nasm_crack"
     title: "BitFriends's nasm crack"
 
+  5f3d7ed033c5d42a7c667d95:
+    sha256: "e8c92c0169816faf71095740a1b6c65dd5eaef89ccfbb84bf7d734ed417eb729"
+    path: "authors/bitfriends/5f3d7ed033c5d42a7c667d95/original/rop"
+    title: "BitFriends's rop"
+
 by_sha256:
   4872e271d6f4a012fd317804b783512abbeb233c0b5efbeb847435acc72eb5a5:
     id: 5ea48a1433c5d47611746436
     path: "authors/bitfriends/5ea48a1433c5d47611746436/original/nasm_crack"
     page: https://crackmes.one/crackme/5ea48a1433c5d47611746436
+  e8c92c0169816faf71095740a1b6c65dd5eaef89ccfbb84bf7d734ed417eb729:
+    id: 5f3d7ed033c5d42a7c667d95
+    path: "authors/bitfriends/5f3d7ed033c5d42a7c667d95/original/rop"
+    page: https://crackmes.one/crackme/5f3d7ed033c5d42a7c667d95
