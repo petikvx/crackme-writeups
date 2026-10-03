@@ -97,6 +97,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 77 | [encrypt](5ab77f6033c5d40ad448c8b3/) | rascal999 | Linux ELF32 FreeBASIC | pass1 **`756384985`**, pass2 **`999345234`** |
 | 78 | [crackme_2.0_find_the_secret_text](5ab77f5333c5d40ad448c109/) | devoney | Win PE32 GUI auto-modifiant | password **`[_Crack_]`** → secret **`greed`** (input→shellcode MessageBoxA) |
 | 79 | [recoded_keygenme_1](5ab77f5333c5d40ad448c10c/) | recoded | Win PE32 GUI MASM | petik→**`0C1D98B6-7D4A3072-07D08290-E41E90EA`** (ROR19 + seed `0x401284`) |
+| 80 | [crackme2](5ab77f5333c5d40ad448c114/) | immortal_one | Win PE32 GUI ASM packé | petik→**`372E`** (ES_UPPERCASE + mix16 `*25`) |
 
 ## Mis de côté (PARKED — y revenir)
 

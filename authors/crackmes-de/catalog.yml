@@ -406,6 +406,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c10c/original/KeygenMe.exe"
     title: "crackmes.de's recoded_keygenme_1 by recoded"
 
+  5ab77f5333c5d40ad448c114:
+    sha256: "4b5442b079cbe54bd167c710aa359fee5ca21fd0ab459d40e3e0bf7e9af89fee"
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c114/original/Crackme2.exe"
+    title: "crackmes.de's crackme2 by immortal_one"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -743,3 +748,7 @@ by_sha256:
     id: 5ab77f5333c5d40ad448c10c
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c10c/original/KeygenMe.exe"
     page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c10c
+  4b5442b079cbe54bd167c710aa359fee5ca21fd0ab459d40e3e0bf7e9af89fee:
+    id: 5ab77f5333c5d40ad448c114
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c114/original/Crackme2.exe"
+    page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c114
