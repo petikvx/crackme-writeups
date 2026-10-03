@@ -28,8 +28,8 @@ binary:
   md5: "88349dd8e0fb6416831c21e3df3993f0"
   size_bytes: 8312
 
-status: pending
-solution_summary: ""
+status: solved
+solution_summary: "ret2csu leak (write@GOT) + ret2libc system(/bin/sh); overflow offset 72, NX/no-canary/non-PIE"
 
 download:
   zip_password: crackmes.one

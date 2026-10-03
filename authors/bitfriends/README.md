@@ -9,6 +9,7 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml) (id ↔ sha256).
 | # | Titre | ID | Plateforme | Solution |
 |---|---|---|---|---|
 | 1 | [nasm crack](5ea48a1433c5d47611746436/) | [`5ea48a1433c5d47611746436`](https://crackmes.one/crackme/5ea48a1433c5d47611746436) | Linux ELF64 NASM | password `supersecret` (live) |
+| 2 | [rop](5f3d7ed033c5d42a7c667d95/) | [`5f3d7ed033c5d42a7c667d95`](https://crackmes.one/crackme/5f3d7ed033c5d42a7c667d95) | Linux ELF64 | ret2csu leak + ret2libc `system("/bin/sh")` |
 
 Section **Debug GDB** : `repz cmpsb` vs `supersecret`.
 

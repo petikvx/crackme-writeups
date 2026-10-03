@@ -25,6 +25,11 @@ tools/      # solveur, recon
 
 ## Status
 
-- [ ] reverse
-- [ ] write-up
-- [ ] solveur
+- [x] reverse
+- [x] write-up — [`analysis/writeup.md`](analysis/writeup.md)
+- [x] solveur — [`tools/rop-solve.py`](tools/rop-solve.py)
+
+**Solution :** stack overflow (offset 72), NX/pas de canary/non-PIE. Pas de
+`system`/`/bin/sh`/`pop rdi` dans le binaire → **ret2csu** pour leak la libc via
+`write(1, write@GOT, 8)`, retour dans `main`, puis **ret2libc** `system("/bin/sh")`
+(gadget `pop rdi; ret` pris dans la libc leakée, `ret` d'alignement `0x400416`).
