@@ -221,6 +221,8 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [joejoejoe](authors/joejoejoe/README.md) | JoeJoeJoe | 1 (thefirsttest) | 1 / 1 |
 | [vmlinuz719](authors/vmlinuz719/README.md) | vmlinuz719 | 1 (Product Activation) | 1 / 1 |
 | [pwned.cpp](authors/pwned.cpp/README.md) | Pwned.cpp | 1 (ImGUI-CrackME) | 1 / 1 |
+| [trynatobe6for6def](authors/trynatobe6for6def/README.md) | TrynaToBe6for6Def | 1 (My First Crackme) | 1 / 1 |
+| [orbitz](authors/orbitz/README.md) | ORBITZ | 1 (BabyDotNet) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -242,6 +244,8 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-07 | [BabyDotNet](authors/orbitz/6ac44fe1cdee6e086a1735ef/) | ORBITZ |
+| 2026-10-07 | [My First Crackme (Very Easy)](authors/trynatobe6for6def/6ac65258cdee6e086a17364d/) | TrynaToBe6for6Def |
 | 2026-10-03 | [crackme2](authors/crackmes-de/5ab77f5333c5d40ad448c114/) | crackmes.de / immortal_one |
 | 2026-10-03 | [recoded_keygenme_1](authors/crackmes-de/5ab77f5333c5d40ad448c10c/) | crackmes.de / recoded |
 | 2026-10-03 | [ImGUI-CrackME](authors/pwned.cpp/66685b79e7b35c09bb266b96/) | Pwned.cpp |

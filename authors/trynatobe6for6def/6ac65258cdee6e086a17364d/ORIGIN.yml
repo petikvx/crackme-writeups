@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6ac65258cdee6e086a17364d
+
+urls:
+  page: https://crackmes.one/crackme/6ac65258cdee6e086a17364d
+  download: https://crackmes.one/download/crackme/6ac65258cdee6e086a17364d
+
+title: "TrynaToBe6for6Def's My First Crackme (Very Easy)"
+author_on_site: "TrynaToBe6for6Def"
+author_local: "trynatobe6for6def"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 1.0
+quality: 4.0
+size: "13.50 KB"
+published: "2026-10-07"
+
+series_index: null
+local_slug: my-first-crackme
+
+binary:
+  path: "original/My_First_Crackme.exe"
+  name: "My_First_Crackme.exe"
+  sha256: "cac10be10cac29dcb86967dc634ae006b9029b0d85c44037e48407cdbb40e0d9"
+  md5: "14529dd5c1d984d5fe6d92286b1d583d"
+  size_bytes: 13824
+
+status: solved
+solution_summary: "password H3llo_Crackme (13 octets .rdata XOR 0x2A) ; flag CMO{H3llo_Crackme}"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-07T00:00:00Z"

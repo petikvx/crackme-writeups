@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6ac44fe1cdee6e086a1735ef
+
+urls:
+  page: https://crackmes.one/crackme/6ac44fe1cdee6e086a1735ef
+  download: https://crackmes.one/download/crackme/6ac44fe1cdee6e086a1735ef
+
+title: "ORBITZ's BabyDotNet"
+author_on_site: "ORBITZ"
+author_local: "orbitz"
+
+platform: "Windows"
+arch: "x86-64"
+language: ".NET"
+
+difficulty: 1.0
+quality: 3.5
+size: "73.22 KB"
+published: "2026-10-06"
+
+series_index: null
+local_slug: babydotnet
+
+binary:
+  path: "original/BabyDotNet.exe"
+  name: "BabyDotNet.exe"
+  sha256: "f4cdefd1965dcd929d0eef9cd93d6dfbd1f1f4ab05f2243a4754343d504d2dec"
+  md5: "d1cc0cca871aea29080cee0ede231d89"
+  size_bytes: 162304
+
+status: solved
+solution_summary: "username $K1LL (Base64 JEsxTEw=) ; password 1SSU3 (\"@@F \" XOR 0x13) ; flag CMO{$K1LL_1SSU3}"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-07T00:00:00Z"

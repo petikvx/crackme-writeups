@@ -1,0 +1,16 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6ac44fe1cdee6e086a1735ef:
+    sha256: "f4cdefd1965dcd929d0eef9cd93d6dfbd1f1f4ab05f2243a4754343d504d2dec"
+    path: "authors/orbitz/6ac44fe1cdee6e086a1735ef/original/BabyDotNet.exe"
+    title: "ORBITZ's BabyDotNet"
+
+by_sha256:
+  f4cdefd1965dcd929d0eef9cd93d6dfbd1f1f4ab05f2243a4754343d504d2dec:
+    id: 6ac44fe1cdee6e086a1735ef
+    path: "authors/orbitz/6ac44fe1cdee6e086a1735ef/original/BabyDotNet.exe"
+    page: https://crackmes.one/crackme/6ac44fe1cdee6e086a1735ef
+  592a21a95a24b9af5deb3d0c239b21d062a2633e745dc1ef85df525a6180b4a8:
+    id: 6ac44fe1cdee6e086a1735ef
+    path: "authors/orbitz/6ac44fe1cdee6e086a1735ef/original/BabyDotNet.dll"
+    page: https://crackmes.one/crackme/6ac44fe1cdee6e086a1735ef
