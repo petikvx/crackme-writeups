@@ -223,6 +223,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [pwned.cpp](authors/pwned.cpp/README.md) | Pwned.cpp | 1 (ImGUI-CrackME) | 1 / 1 |
 | [trynatobe6for6def](authors/trynatobe6for6def/README.md) | TrynaToBe6for6Def | 1 (My First Crackme) | 1 / 1 |
 | [orbitz](authors/orbitz/README.md) | ORBITZ | 1 (BabyDotNet) | 1 / 1 |
+| [radoncoding](authors/radoncoding/README.md) | RadonCoding | 1 (binsafe) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -244,6 +245,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-08 | [binsafe](authors/radoncoding/6ac3c6176349e4b2540c6ea2/) | RadonCoding |
 | 2026-10-08 | [Password Check With State Machine](authors/acheylate/6ac400c80885f990699dc134/) | acheylate |
 | 2026-10-07 | [BabyDotNet](authors/orbitz/6ac44fe1cdee6e086a1735ef/) | ORBITZ |
 | 2026-10-07 | [My First Crackme (Very Easy)](authors/trynatobe6for6def/6ac65258cdee6e086a17364d/) | TrynaToBe6for6Def |

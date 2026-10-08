@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6ac3c6176349e4b2540c6ea2
+
+urls:
+  page: https://crackmes.one/crackme/6ac3c6176349e4b2540c6ea2
+  download: https://crackmes.one/download/crackme/6ac3c6176349e4b2540c6ea2
+
+title: "RadonCoding's binsafe"
+author_on_site: "RadonCoding"
+author_local: "radoncoding"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: null
+quality: 4.0
+size: "210.12 KB"
+published: "2026-10-05"
+
+series_index: null
+local_slug: binsafe
+
+binary:
+  path: "original/crack-me.protected.exe"
+  name: "crack-me.protected.exe"
+  sha256: "5915033807c7405d129fdbb5e96f769d636a95e09845b77bc621e86cafe9a901"
+  md5: "db8c8f3c5c8b38a47673d5c93860c91b"
+  size_bytes: 215161
+
+status: solved
+solution_summary: "serial 0xP4553D17501P455 → CMO{0xP4553D17501P455} (create() key, 32 templates validate<> Add/Xor)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-08T04:27:10Z"

@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6ac3c6176349e4b2540c6ea2:
+    sha256: "5915033807c7405d129fdbb5e96f769d636a95e09845b77bc621e86cafe9a901"
+    path: "authors/radoncoding/6ac3c6176349e4b2540c6ea2/original/crack-me.protected.exe"
+    title: "RadonCoding's binsafe"
+
+by_sha256:
+  5915033807c7405d129fdbb5e96f769d636a95e09845b77bc621e86cafe9a901:
+    id: 6ac3c6176349e4b2540c6ea2
+    path: "authors/radoncoding/6ac3c6176349e4b2540c6ea2/original/crack-me.protected.exe"
+    page: https://crackmes.one/crackme/6ac3c6176349e4b2540c6ea2
