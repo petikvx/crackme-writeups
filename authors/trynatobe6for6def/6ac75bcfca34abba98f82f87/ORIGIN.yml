@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6ac75bcfca34abba98f82f87
+
+urls:
+  page: https://crackmes.one/crackme/6ac75bcfca34abba98f82f87
+  download: https://crackmes.one/download/crackme/6ac75bcfca34abba98f82f87
+
+title: "TrynaToBe6for6Def's My Second Crackme (Easy + Flag)"
+author_on_site: "TrynaToBe6for6Def"
+author_local: "trynatobe6for6def"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: null
+quality: 4.0
+size: "14.00 KB"
+published: "2026-10-08"
+
+series_index: 2
+local_slug: my-second-crackme
+
+binary:
+  path: "original/My_Second_Crackme.exe"
+  name: "My_Second_Crackme.exe"
+  sha256: "054660ab159328d64e821ccd4988aedfc4545f973519b04debb161abdbfab87f"
+  md5: "d3a9fb5836aedc3ad158c417856d18d7"
+  size_bytes: 14336
+
+status: solved
+solution_summary: "password Xor_N0t_3nough (len 14, seed 0x1337 MBA+SSE XOR) ; flag CMO{Xor_N0t_3nough}"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-08T17:23:49Z"

@@ -5,8 +5,17 @@ by_id:
     path: "authors/trynatobe6for6def/6ac65258cdee6e086a17364d/original/My_First_Crackme.exe"
     title: "TrynaToBe6for6Def's My First Crackme (Very Easy)"
 
+  6ac75bcfca34abba98f82f87:
+    sha256: "054660ab159328d64e821ccd4988aedfc4545f973519b04debb161abdbfab87f"
+    path: "authors/trynatobe6for6def/6ac75bcfca34abba98f82f87/original/My_Second_Crackme.exe"
+    title: "TrynaToBe6for6Def's My Second Crackme (Easy + Flag)"
+
 by_sha256:
   cac10be10cac29dcb86967dc634ae006b9029b0d85c44037e48407cdbb40e0d9:
     id: 6ac65258cdee6e086a17364d
     path: "authors/trynatobe6for6def/6ac65258cdee6e086a17364d/original/My_First_Crackme.exe"
     page: https://crackmes.one/crackme/6ac65258cdee6e086a17364d
+  054660ab159328d64e821ccd4988aedfc4545f973519b04debb161abdbfab87f:
+    id: 6ac75bcfca34abba98f82f87
+    path: "authors/trynatobe6for6def/6ac75bcfca34abba98f82f87/original/My_Second_Crackme.exe"
+    page: https://crackmes.one/crackme/6ac75bcfca34abba98f82f87

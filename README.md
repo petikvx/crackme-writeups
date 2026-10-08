@@ -221,7 +221,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [joejoejoe](authors/joejoejoe/README.md) | JoeJoeJoe | 1 (thefirsttest) | 1 / 1 |
 | [vmlinuz719](authors/vmlinuz719/README.md) | vmlinuz719 | 1 (Product Activation) | 1 / 1 |
 | [pwned.cpp](authors/pwned.cpp/README.md) | Pwned.cpp | 1 (ImGUI-CrackME) | 1 / 1 |
-| [trynatobe6for6def](authors/trynatobe6for6def/README.md) | TrynaToBe6for6Def | 1 (My First Crackme) | 1 / 1 |
+| [trynatobe6for6def](authors/trynatobe6for6def/README.md) | TrynaToBe6for6Def | 2 (My First / My Second Crackme) | 2 / 2 |
 | [orbitz](authors/orbitz/README.md) | ORBITZ | 1 (BabyDotNet) | 1 / 1 |
 | [radoncoding](authors/radoncoding/README.md) | RadonCoding | 1 (binsafe) | 1 / 1 |
 
@@ -245,6 +245,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-08 | [My Second Crackme (Easy + Flag)](authors/trynatobe6for6def/6ac75bcfca34abba98f82f87/) | TrynaToBe6for6Def |
 | 2026-10-08 | [binsafe](authors/radoncoding/6ac3c6176349e4b2540c6ea2/) | RadonCoding |
 | 2026-10-08 | [Password Check With State Machine](authors/acheylate/6ac400c80885f990699dc134/) | acheylate |
 | 2026-10-07 | [BabyDotNet](authors/orbitz/6ac44fe1cdee6e086a1735ef/) | ORBITZ |
