@@ -1,0 +1,36 @@
+# Origine crackmes.one
+id: 6ac6ee38ace07d1c3fbc499e
+
+urls:
+  page: https://crackmes.one/crackme/6ac6ee38ace07d1c3fbc499e
+  download: https://crackmes.one/download/crackme/6ac6ee38ace07d1c3fbc499e
+
+title: "NimaNikjoo's nightmare CrackMe"
+author_on_site: "NimaNikjoo"
+author_local: "nimanikjoo"
+
+platform: "Windows"
+arch: "x86-64"
+language: "Go"
+
+difficulty: 5.0
+quality: 4.0
+size: "4.66 MB"
+published: "2026-10-08"
+
+series_index: null
+local_slug: nightmare
+
+binary:
+  path: "original/nightmare.exe"
+  name: "nightmare.exe"
+  sha256: "8b964f769eb1c2bb3c54d9bb0fdf52dec7062b6f4edba392cfe2ae5eb69270c5"
+  md5: "67c7c81de77e4c00c63b1fc3ce484bcd"
+  size_bytes: 4888064
+
+status: solved
+solution_summary: "garble + mini-VM SHA-256 ; password G0_VM_15_H4RD_4S_H3LL_2026! ; flag CTF{G0_VM_15_H4RD_4S_H3LL_2026!}"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-08T00:00:00Z"

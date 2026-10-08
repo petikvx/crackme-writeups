@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6ac6ee38ace07d1c3fbc499e:
+    sha256: "8b964f769eb1c2bb3c54d9bb0fdf52dec7062b6f4edba392cfe2ae5eb69270c5"
+    path: "authors/nimanikjoo/6ac6ee38ace07d1c3fbc499e/original/nightmare.exe"
+    title: "NimaNikjoo's nightmare CrackMe"
+
+by_sha256:
+  8b964f769eb1c2bb3c54d9bb0fdf52dec7062b6f4edba392cfe2ae5eb69270c5:
+    id: 6ac6ee38ace07d1c3fbc499e
+    path: "authors/nimanikjoo/6ac6ee38ace07d1c3fbc499e/original/nightmare.exe"
+    page: https://crackmes.one/crackme/6ac6ee38ace07d1c3fbc499e
