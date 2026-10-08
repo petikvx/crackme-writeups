@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6ac400c80885f990699dc134
+
+urls:
+  page: https://crackmes.one/crackme/6ac400c80885f990699dc134
+  download: https://crackmes.one/download/crackme/6ac400c80885f990699dc134
+
+title: "acheylate's Password Check With State Machine"
+author_on_site: "acheylate"
+author_local: "acheylate"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "Rust"
+
+difficulty: 3.0
+quality: 4.0
+size: "438.07 KB"
+published: "2026-10-05"
+
+series_index: null
+local_slug: password-check-state-machine
+
+binary:
+  path: "original/crackme-state"
+  name: "crackme-state"
+  sha256: "fcc728aa9afbe8d05cf58cf45aa52d3cf0583f6a46b432160bf81a8df19d78f4"
+  md5: "ef3de440b6a04371c6a1cc43d5848d01"
+  size_bytes: 448584
+
+status: solved
+solution_summary: "password S7HVH. (packed LE 0x2e4856483753, state machine 0..6 via argv[1])"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-08T04:20:57Z"

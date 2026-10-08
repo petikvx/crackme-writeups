@@ -203,7 +203,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [fon37](authors/fon37/README.md) | fon37 | 1 (Secret Menu) | 1 / 1 |
 | [memetic0](authors/memetic0/README.md) | memetic0 | 1 (Tropical) | 1 / 1 |
 | [vetementsvmnts](authors/vetementsvmnts/README.md) | vetementsvmnts | 5 | 5 / 5 |
-| [acheylate](authors/acheylate/README.md) | acheylate | 2 (Find password L+W) | 2 / 2 |
+| [acheylate](authors/acheylate/README.md) | acheylate | 3 (Find password L+W, State Machine) | 3 / 3 |
 | [keep](authors/keep/README.md) | Keep | 2 (sygil gui + console) | 2 / 2 |
 | [mas](authors/mas/README.md) | MAS | 1 (zW0rM) | 1 / 1 |
 | [glitch_baby](authors/glitch_baby/README.md) | Glitch_Baby | 1 (Wheredakey) | 1 / 1 |
@@ -244,6 +244,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-08 | [Password Check With State Machine](authors/acheylate/6ac400c80885f990699dc134/) | acheylate |
 | 2026-10-07 | [BabyDotNet](authors/orbitz/6ac44fe1cdee6e086a1735ef/) | ORBITZ |
 | 2026-10-07 | [My First Crackme (Very Easy)](authors/trynatobe6for6def/6ac65258cdee6e086a17364d/) | TrynaToBe6for6Def |
 | 2026-10-03 | [crackme2](authors/crackmes-de/5ab77f5333c5d40ad448c114/) | crackmes.de / immortal_one |

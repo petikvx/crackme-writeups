@@ -1,0 +1,24 @@
+// Hex-Rays (IDA MCP) — crackme_state::process_bytes  VMA 0x13ef0
+// a1/a2 = itérateur Bytes (begin/end de argv[1])
+// a3    = &state (u8, init 0)
+
+void process_bytes(_BYTE *a1, _BYTE *a2, char *a3)
+{
+  char v3; // état courant au début de l'appel
+  if ( a1 == a2 )
+    return;
+  v3 = *a3;
+  if ( (unsigned __int8)*a3 >= 6u ) { *a3 = 7; return; }
+
+  // packed = 0x2E4856483753  →  'S','7','H','V','H','.'
+  // LLVM unroll jusqu'à 6 octets ; arrêt si (~new_state & 6) == 0  (state 6 ou 7)
+
+  char v4 = 7;
+  if ( *a1 == (unsigned __int8)(0x2E4856483753uLL >> (8 * v3)) )
+    v4 = v3 + 1;
+  *a3 = v4;
+  // … idem pour a1[1]..a1[4] avec offsets v3+1 … v3+5 …
+
+  // 6e octet (seulement si l'appel a commencé à state==0) :
+  // *a3 = (*v10 == 46) ^ 7;   // '.' → 6 (OK)  sinon 7 (KO)
+}
