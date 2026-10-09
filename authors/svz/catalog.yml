@@ -4,9 +4,17 @@ by_id:
     sha256: "beef25aa6ac9ab751b8d58ab0815b86834dd71d1ad1f164606cbb71a8ef6b235"
     path: "authors/svz/6a89cff9cab6678aefe9da94/original/orrery-1.0.zip"
     title: "SVz's Orrery"
+  6ac2301aca34abba98f82e95:
+    sha256: "c50028c0706285c7afc54ffa358fb903bd166759bb64405fa44b1eb856fd07e0"
+    path: "authors/svz/6ac2301aca34abba98f82e95/original/orrery2-2.0.zip"
+    title: "SVz's Orrery 2"
 
 by_sha256:
   beef25aa6ac9ab751b8d58ab0815b86834dd71d1ad1f164606cbb71a8ef6b235:
     id: 6a89cff9cab6678aefe9da94
     path: "authors/svz/6a89cff9cab6678aefe9da94/original/orrery-1.0.zip"
     page: https://crackmes.one/crackme/6a89cff9cab6678aefe9da94
+  c50028c0706285c7afc54ffa358fb903bd166759bb64405fa44b1eb856fd07e0:
+    id: 6ac2301aca34abba98f82e95
+    path: "authors/svz/6ac2301aca34abba98f82e95/original/orrery2-2.0.zip"
+    page: https://crackmes.one/crackme/6ac2301aca34abba98f82e95

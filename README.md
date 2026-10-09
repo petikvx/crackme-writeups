@@ -154,7 +154,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [noname_user](authors/noname_user/README.md) | noname_User | 2 | 2 / 2 |
 | [nizzix](authors/nizzix/README.md) | Nizzix | 1 (Ageis) | 1 / 1 |
 | [thefakeking](authors/thefakeking/README.md) | TheFakeKing | 1 (Basic ConsoleBased) | 1 / 1 |
-| [svz](authors/svz/README.md) | SVz | 1 (Orrery) | 1 / 1 |
+| [svz](authors/svz/README.md) | SVz | 2 (Orrery + Orrery 2) | 2 / 2 |
 | [ray33ee](authors/ray33ee/README.md) | ray33ee | 3 (x or and add + obscurio-1 + obscurio-3) | 3 / 3 |
 | [muhemed](authors/muhemed/README.md) | muhemed | 1 (muhemed crackme) | 1 / 1 |
 | [soulreaper](authors/soulreaper/README.md) | soulreaper | 3 (Dead Terminal + XorGate + Death Trap) | 3 / 3 |
@@ -246,6 +246,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-08 | [SVz's Orrery 2](authors/svz/6ac2301aca34abba98f82e95/) | SVz |
 | 2026-10-08 | [nightmare CrackMe](authors/nimanikjoo/6ac6ee38ace07d1c3fbc499e/) | NimaNikjoo |
 | 2026-10-08 | [My Second Crackme (Easy + Flag)](authors/trynatobe6for6def/6ac75bcfca34abba98f82f87/) | TrynaToBe6for6Def |
 | 2026-10-08 | [binsafe](authors/radoncoding/6ac3c6176349e4b2540c6ea2/) | RadonCoding |

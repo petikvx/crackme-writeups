@@ -1,0 +1,36 @@
+# Origine crackmes.one
+id: 6ac2301aca34abba98f82e95
+
+urls:
+  page: https://crackmes.one/crackme/6ac2301aca34abba98f82e95
+  download: https://crackmes.one/download/crackme/6ac2301aca34abba98f82e95
+
+title: "SVz's Orrery 2"
+author_on_site: "SVz"
+author_local: "svz"
+
+platform: "Multiplatform"
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 5.0
+quality: 4.0
+size: "2.10 MB"
+published: "2026-10-04"
+
+series_index: 2
+local_slug: orrery2
+
+binary:
+  path: "original/orrery2-2.0.zip"
+  name: "orrery2-2.0.zip"
+  sha256: "c50028c0706285c7afc54ffa358fb903bd166759bb64405fa44b1eb856fd07e0"
+  md5: "2cf142bde9101f10b6c09e615b3567a7"
+  size_bytes: 2204162
+
+status: solved
+solution_summary: "Keygen journalier : VM quotidienne (perm opcodes + stream murmur) = orbit + Black Box 14x14 ; ciel de 11 planetes retrouve par z3 depuis les 56 echos, puis combinadic C(144,11) + Feistel-27 keyed au nom + Crockford. petik jour 20734 -> 09HMY-36RP0-HVGG0 (ORRERY2{4E946723}) ; jour 20730 -> 6177B-59ZFG-PR50N"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-08T00:00:00Z"
