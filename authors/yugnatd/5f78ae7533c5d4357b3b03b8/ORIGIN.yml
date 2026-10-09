@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5f78ae7533c5d4357b3b03b8
+
+urls:
+  page: https://crackmes.one/crackme/5f78ae7533c5d4357b3b03b8
+  download: https://crackmes.one/download/crackme/5f78ae7533c5d4357b3b03b8
+
+title: "YugnatD's WarGames"
+author_on_site: "YugnatD"
+author_local: "yugnatd"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 2.8
+quality: 4.4
+size: "852.17 KB"
+published: "2020-10-03"
+
+series_index: null
+local_slug: wargames
+
+binary:
+  path: "original/WarGames"
+  name: "WarGames"
+  sha256: "e5260ec02b1da62ce9efb017937536356d42e22a91d3cb2b0fa9a941d459f889"
+  md5: "eebd9ef5813f4c3fc30a23c3e2bb8c9b"
+  size_bytes: 872624
+
+status: solved
+solution_summary: "dont play (srandom(1983) + blob gssw#tpcz − (rand()%5)+1) → CMO{dont play}"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-09T17:26:01Z"

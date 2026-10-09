@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5f78ae7533c5d4357b3b03b8:
+    sha256: "e5260ec02b1da62ce9efb017937536356d42e22a91d3cb2b0fa9a941d459f889"
+    path: "authors/yugnatd/5f78ae7533c5d4357b3b03b8/original/WarGames"
+    title: "YugnatD's WarGames"
+
+by_sha256:
+  e5260ec02b1da62ce9efb017937536356d42e22a91d3cb2b0fa9a941d459f889:
+    id: 5f78ae7533c5d4357b3b03b8
+    path: "authors/yugnatd/5f78ae7533c5d4357b3b03b8/original/WarGames"
+    page: https://crackmes.one/crackme/5f78ae7533c5d4357b3b03b8

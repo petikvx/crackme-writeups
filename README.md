@@ -225,6 +225,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [orbitz](authors/orbitz/README.md) | ORBITZ | 1 (BabyDotNet) | 1 / 1 |
 | [radoncoding](authors/radoncoding/README.md) | RadonCoding | 1 (binsafe) | 1 / 1 |
 | [nimanikjoo](authors/nimanikjoo/README.md) | NimaNikjoo | 1 (nightmare CrackMe) | 1 / 1 |
+| [yugnatd](authors/yugnatd/README.md) | YugnatD | 1 (WarGames) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -246,6 +247,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-09 | [YugnatD's WarGames](authors/yugnatd/5f78ae7533c5d4357b3b03b8/) | YugnatD |
 | 2026-10-08 | [SVz's Orrery 2](authors/svz/6ac2301aca34abba98f82e95/) | SVz |
 | 2026-10-08 | [nightmare CrackMe](authors/nimanikjoo/6ac6ee38ace07d1c3fbc499e/) | NimaNikjoo |
 | 2026-10-08 | [My Second Crackme (Easy + Flag)](authors/trynatobe6for6def/6ac75bcfca34abba98f82f87/) | TrynaToBe6for6Def |
