@@ -205,7 +205,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [vetementsvmnts](authors/vetementsvmnts/README.md) | vetementsvmnts | 5 | 5 / 5 |
 | [acheylate](authors/acheylate/README.md) | acheylate | 3 (Find password L+W, State Machine) | 3 / 3 |
 | [keep](authors/keep/README.md) | Keep | 2 (sygil gui + console) | 2 / 2 |
-| [mas](authors/mas/README.md) | MAS | 1 (zW0rM) | 1 / 1 |
+| [mas](authors/mas/README.md) | MAS | 2 (zW0rM + Type Punning) | 2 / 2 |
 | [glitch_baby](authors/glitch_baby/README.md) | Glitch_Baby | 1 (Wheredakey) | 1 / 1 |
 | [lypd0](authors/lypd0/README.md) | lypd0 | 1 (Lantern01) | 1 / 1 |
 | [whyyourapedme](authors/whyyourapedme/README.md) | whyyourapedme | 1 (study get PASSWORD) | 1 / 1 |
@@ -247,6 +247,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-09 | [Type Punning](authors/mas/69926c19f752dd83da8782b0/) | MAS |
 | 2026-10-09 | [YugnatD's WarGames](authors/yugnatd/5f78ae7533c5d4357b3b03b8/) | YugnatD |
 | 2026-10-08 | [SVz's Orrery 2](authors/svz/6ac2301aca34abba98f82e95/) | SVz |
 | 2026-10-08 | [nightmare CrackMe](authors/nimanikjoo/6ac6ee38ace07d1c3fbc499e/) | NimaNikjoo |

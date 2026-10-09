@@ -1,0 +1,43 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69926c19f752dd83da8782b0
+
+urls:
+  page: https://crackmes.one/crackme/69926c19f752dd83da8782b0
+  download: https://crackmes.one/download/crackme/69926c19f752dd83da8782b0
+
+title: "MAS's Type Punning"
+author_on_site: "MAS"
+author_local: "mas"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 2.7
+quality: 2.7
+size: "5.43 KB"
+published: "2026-02-16"
+
+series_index: null
+local_slug: type-punning
+
+binary:
+  path: "original/challenge"
+  name: "challenge"
+  sha256: "7f032c0e65509d4307137b521b4a03094a80c8a37a4ceb1f0b79b145e0185d03"
+  md5: "73fa1fce80bf62015987dc941b82e6e3"
+  size_bytes: 24408
+  companion:
+    - path: "original/type_punning.zip"
+      sha256: "1cd18989070f25bb00b38a121ac6762bba9772f577963388a9e45a80b7eb0596"
+      note: "ZIP imbriqué du site (challenge + encoded_flag.txt)"
+    - path: "original/encoded_flag.txt"
+      sha256: "4f897e6e2ff07ba1469241751ca401b8e9f689c8753b03a29c542779ecce14ff"
+      note: "blob 17×u32 LE 0x100XX, produit par l'encodeur"
+
+status: solved
+solution_summary: "srand(1771201800) Amman 2026-02-16 03:30, type pun 0x10000 XOR rand()%10+1 → z+{7yp3_Punn1n9}"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-09T17:41:00Z"

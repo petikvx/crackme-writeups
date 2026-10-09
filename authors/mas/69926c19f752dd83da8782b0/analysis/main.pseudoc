@@ -1,0 +1,52 @@
+int __fastcall main(int argc, const char **argv, const char **envp)
+{
+  unsigned int v3; // eax
+  int v5; // ebx
+  _QWORD *v6; // rax
+  char v8; // [rsp+7h] [rbp-479h] BYREF
+  char *i; // [rsp+8h] [rbp-478h]
+  char *v10; // [rsp+10h] [rbp-470h]
+  char *v11; // [rsp+18h] [rbp-468h]
+  _BYTE v12[32]; // [rsp+20h] [rbp-460h] BYREF
+  _BYTE v13[32]; // [rsp+40h] [rbp-440h] BYREF
+  _BYTE v14[512]; // [rsp+60h] [rbp-420h] BYREF
+  _BYTE v15[520]; // [rsp+260h] [rbp-220h] BYREF
+  unsigned __int64 v16; // [rsp+468h] [rbp-18h]
+
+  v16 = __readfsqword(0x28u);
+  v3 = time(timer: nullptr);
+  srand(seed: v3);
+  v10 = &v8;
+  std::string::basic_string<std::allocator<char>>(a1: v12, a2: "flag.txt", a3: &v8);
+  std::__new_allocator<char>::~__new_allocator(a1: &v8);
+  v11 = &v8;
+  std::string::basic_string<std::allocator<char>>(a1: v13, a2: "encoded_flag.txt", a3: &v8);
+  std::__new_allocator<char>::~__new_allocator(a1: &v8);
+  std::ifstream::basic_ifstream(a1: v15, a2: v12, a3: 8);
+  std::ofstream::basic_ofstream(a1: v14, a2: v13, a3: 4);
+  if ( (unsigned __int8)std::ifstream::is_open(a1: v15) != 1 || (unsigned __int8)std::ofstream::is_open(a1: v14) != 1 )
+  {
+    v5 = 1;
+  }
+  else
+  {
+    for ( i = (char *)operator new(a1: 4u); ; std::ostream::write(this: (std::ostream *)v14, a2: i, a3: 4) )
+    {
+      v6 = (_QWORD *)std::istream::get(this: (std::istream *)v15, a2: &v8);
+      if ( (unsigned __int8)std::ios::operator bool(a1: (char *)v6 + *(_QWORD *)(*v6 - 24LL)) == 0 )
+        break;
+      *(_DWORD *)i = 0x10000;
+      *i = v8 ^ (rand() % 10 + 1);
+    }
+    std::ifstream::close(a1: v15);
+    std::ofstream::close(a1: v14);
+    if ( i != nullptr )
+      operator delete(a1: i, a2: 4u);
+    v5 = 0;
+  }
+  std::ofstream::~ofstream(a1: v14);
+  std::ifstream::~ifstream(a1: v15);
+  std::string::~string(a1: v13);
+  std::string::~string(a1: v12);
+  return v5;
+}

@@ -5,8 +5,17 @@ by_id:
     path: "authors/mas/6aa8483c48cda5a2aaa3ddc1/original/Zworm_game.exe"
     title: "MAS's zW0rM"
 
+  69926c19f752dd83da8782b0:
+    sha256: "7f032c0e65509d4307137b521b4a03094a80c8a37a4ceb1f0b79b145e0185d03"
+    path: "authors/mas/69926c19f752dd83da8782b0/original/challenge"
+    title: "MAS's Type Punning"
+
 by_sha256:
   975ea2949fb15747394c0bc88fd214d3054aa3cb46bfeff59e5ed18d1f7fe2e2:
     id: 6aa8483c48cda5a2aaa3ddc1
     path: "authors/mas/6aa8483c48cda5a2aaa3ddc1/original/Zworm_game.exe"
     page: https://crackmes.one/crackme/6aa8483c48cda5a2aaa3ddc1
+  7f032c0e65509d4307137b521b4a03094a80c8a37a4ceb1f0b79b145e0185d03:
+    id: 69926c19f752dd83da8782b0
+    path: "authors/mas/69926c19f752dd83da8782b0/original/challenge"
+    page: https://crackmes.one/crackme/69926c19f752dd83da8782b0
