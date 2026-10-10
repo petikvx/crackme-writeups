@@ -1,0 +1,72 @@
+
+/tmp/k1/SalazanKeygenMe0001.exe:     file format pei-i386
+
+
+Disassembly of section CODE:
+
+00456178 <CODE+0x55178>:
+  456178:	55                   	push   ebp
+  456179:	8b ec                	mov    ebp,esp
+  45617b:	6a 00                	push   0x0
+  45617d:	6a 00                	push   0x0
+  45617f:	6a 00                	push   0x0
+  456181:	53                   	push   ebx
+  456182:	8b d8                	mov    ebx,eax
+  456184:	33 c0                	xor    eax,eax
+  456186:	55                   	push   ebp
+  456187:	68 42 62 45 00       	push   0x456242
+  45618c:	64 ff 30             	push   DWORD PTR fs:[eax]
+  45618f:	64 89 20             	mov    DWORD PTR fs:[eax],esp
+  456192:	8d 55 fc             	lea    edx,[ebp-0x4]
+  456195:	8b 83 f8 02 00 00    	mov    eax,DWORD PTR [ebx+0x2f8]
+  45619b:	e8 90 cd fd ff       	call   0x432f30
+  4561a0:	8b 45 fc             	mov    eax,DWORD PTR [ebp-0x4]
+  4561a3:	e8 58 e3 fa ff       	call   0x404500
+  4561a8:	83 f8 03             	cmp    eax,0x3
+  4561ab:	7c 1b                	jl     0x4561c8
+  4561ad:	8d 55 f8             	lea    edx,[ebp-0x8]
+  4561b0:	8b 83 fc 02 00 00    	mov    eax,DWORD PTR [ebx+0x2fc]
+  4561b6:	e8 75 cd fd ff       	call   0x432f30
+  4561bb:	8b 45 f8             	mov    eax,DWORD PTR [ebp-0x8]
+  4561be:	e8 3d e3 fa ff       	call   0x404500
+  4561c3:	83 f8 03             	cmp    eax,0x3
+  4561c6:	7d 0c                	jge    0x4561d4
+  4561c8:	b8 58 62 45 00       	mov    eax,0x456258
+  4561cd:	e8 3e 6b fd ff       	call   0x42cd10
+  4561d2:	eb 53                	jmp    0x456227
+  4561d4:	8d 55 f4             	lea    edx,[ebp-0xc]
+  4561d7:	8b 83 fc 02 00 00    	mov    eax,DWORD PTR [ebx+0x2fc]
+  4561dd:	e8 4e cd fd ff       	call   0x432f30
+  4561e2:	8b 45 f4             	mov    eax,DWORD PTR [ebp-0xc]
+  4561e5:	e8 2e fb ff ff       	call   0x455d18
+  4561ea:	84 c0                	test   al,al
+  4561ec:	74 1f                	je     0x45620d
+  4561ee:	8b 83 00 03 00 00    	mov    eax,DWORD PTR [ebx+0x300]
+  4561f4:	8b 80 08 02 00 00    	mov    eax,DWORD PTR [eax+0x208]
+  4561fa:	33 d2                	xor    edx,edx
+  4561fc:	e8 73 ed ff ff       	call   0x454f74
+  456201:	ba 7c 62 45 00       	mov    edx,0x45627c
+  456206:	e8 c5 ec ff ff       	call   0x454ed0
+  45620b:	eb 1a                	jmp    0x456227
+  45620d:	8b 83 00 03 00 00    	mov    eax,DWORD PTR [ebx+0x300]
+  456213:	8b 80 08 02 00 00    	mov    eax,DWORD PTR [eax+0x208]
+  456219:	33 d2                	xor    edx,edx
+  45621b:	e8 54 ed ff ff       	call   0x454f74
+  456220:	33 d2                	xor    edx,edx
+  456222:	e8 a9 ec ff ff       	call   0x454ed0
+  456227:	33 c0                	xor    eax,eax
+  456229:	5a                   	pop    edx
+  45622a:	59                   	pop    ecx
+  45622b:	59                   	pop    ecx
+  45622c:	64 89 10             	mov    DWORD PTR fs:[eax],edx
+  45622f:	68 49 62 45 00       	push   0x456249
+  456234:	8d 45 f4             	lea    eax,[ebp-0xc]
+  456237:	ba 03 00 00 00       	mov    edx,0x3
+  45623c:	e8 2b e0 fa ff       	call   0x40426c
+  456241:	c3                   	ret
+  456242:	e9 29 da fa ff       	jmp    0x403c70
+  456247:	eb eb                	jmp    0x456234
+  456249:	5b                   	pop    ebx
+  45624a:	8b e5                	mov    esp,ebp
+  45624c:	5d                   	pop    ebp
+  45624d:	c3                   	ret

@@ -1,0 +1,163 @@
+
+/tmp/k1/SalazanKeygenMe0001.exe:     file format pei-i386
+
+
+Disassembly of section CODE:
+
+00455d18 <CODE+0x54d18>:
+  455d18:	55                   	push   ebp
+  455d19:	8b ec                	mov    ebp,esp
+  455d1b:	b9 04 00 00 00       	mov    ecx,0x4
+  455d20:	6a 00                	push   0x0
+  455d22:	6a 00                	push   0x0
+  455d24:	49                   	dec    ecx
+  455d25:	75 f9                	jne    0x455d20
+  455d27:	51                   	push   ecx
+  455d28:	53                   	push   ebx
+  455d29:	89 45 fc             	mov    DWORD PTR [ebp-0x4],eax
+  455d2c:	8b 45 fc             	mov    eax,DWORD PTR [ebp-0x4]
+  455d2f:	e8 b4 e9 fa ff       	call   0x4046e8
+  455d34:	33 c0                	xor    eax,eax
+  455d36:	55                   	push   ebp
+  455d37:	68 e0 5e 45 00       	push   0x455ee0
+  455d3c:	64 ff 30             	push   DWORD PTR fs:[eax]
+  455d3f:	64 89 20             	mov    DWORD PTR fs:[eax],esp
+  455d42:	c6 45 fb 00          	mov    BYTE PTR [ebp-0x5],0x0
+  455d46:	33 db                	xor    ebx,ebx
+  455d48:	8b 45 fc             	mov    eax,DWORD PTR [ebp-0x4]
+  455d4b:	e8 b0 e7 fa ff       	call   0x404500
+  455d50:	83 f8 1d             	cmp    eax,0x1d
+  455d53:	0f 85 64 01 00 00    	jne    0x455ebd
+  455d59:	8d 45 f4             	lea    eax,[ebp-0xc]
+  455d5c:	50                   	push   eax
+  455d5d:	b9 05 00 00 00       	mov    ecx,0x5
+  455d62:	33 d2                	xor    edx,edx
+  455d64:	8b 45 fc             	mov    eax,DWORD PTR [ebp-0x4]
+  455d67:	e8 ec e9 fa ff       	call   0x404758
+  455d6c:	8d 45 f0             	lea    eax,[ebp-0x10]
+  455d6f:	50                   	push   eax
+  455d70:	b9 05 00 00 00       	mov    ecx,0x5
+  455d75:	ba 07 00 00 00       	mov    edx,0x7
+  455d7a:	8b 45 fc             	mov    eax,DWORD PTR [ebp-0x4]
+  455d7d:	e8 d6 e9 fa ff       	call   0x404758
+  455d82:	8d 45 ec             	lea    eax,[ebp-0x14]
+  455d85:	50                   	push   eax
+  455d86:	b9 05 00 00 00       	mov    ecx,0x5
+  455d8b:	ba 0d 00 00 00       	mov    edx,0xd
+  455d90:	8b 45 fc             	mov    eax,DWORD PTR [ebp-0x4]
+  455d93:	e8 c0 e9 fa ff       	call   0x404758
+  455d98:	8d 45 e8             	lea    eax,[ebp-0x18]
+  455d9b:	50                   	push   eax
+  455d9c:	b9 05 00 00 00       	mov    ecx,0x5
+  455da1:	ba 13 00 00 00       	mov    edx,0x13
+  455da6:	8b 45 fc             	mov    eax,DWORD PTR [ebp-0x4]
+  455da9:	e8 aa e9 fa ff       	call   0x404758
+  455dae:	8d 45 e4             	lea    eax,[ebp-0x1c]
+  455db1:	50                   	push   eax
+  455db2:	b9 05 00 00 00       	mov    ecx,0x5
+  455db7:	ba 19 00 00 00       	mov    edx,0x19
+  455dbc:	8b 45 fc             	mov    eax,DWORD PTR [ebp-0x4]
+  455dbf:	e8 94 e9 fa ff       	call   0x404758
+  455dc4:	8b 45 f4             	mov    eax,DWORD PTR [ebp-0xc]
+  455dc7:	e8 34 e7 fa ff       	call   0x404500
+  455dcc:	85 c0                	test   eax,eax
+  455dce:	7c 11                	jl     0x455de1
+  455dd0:	40                   	inc    eax
+  455dd1:	33 d2                	xor    edx,edx
+  455dd3:	8b 4d f4             	mov    ecx,DWORD PTR [ebp-0xc]
+  455dd6:	0f b6 4c 11 ff       	movzx  ecx,BYTE PTR [ecx+edx*1-0x1]
+  455ddb:	03 d9                	add    ebx,ecx
+  455ddd:	42                   	inc    edx
+  455dde:	48                   	dec    eax
+  455ddf:	75 f2                	jne    0x455dd3
+  455de1:	81 fb 8d 01 00 00    	cmp    ebx,0x18d
+  455de7:	75 04                	jne    0x455ded
+  455de9:	c6 45 e3 01          	mov    BYTE PTR [ebp-0x1d],0x1
+  455ded:	33 db                	xor    ebx,ebx
+  455def:	8b 45 f0             	mov    eax,DWORD PTR [ebp-0x10]
+  455df2:	e8 09 e7 fa ff       	call   0x404500
+  455df7:	85 c0                	test   eax,eax
+  455df9:	7c 11                	jl     0x455e0c
+  455dfb:	40                   	inc    eax
+  455dfc:	33 d2                	xor    edx,edx
+  455dfe:	8b 4d f0             	mov    ecx,DWORD PTR [ebp-0x10]
+  455e01:	0f b6 4c 11 ff       	movzx  ecx,BYTE PTR [ecx+edx*1-0x1]
+  455e06:	03 d9                	add    ebx,ecx
+  455e08:	42                   	inc    edx
+  455e09:	48                   	dec    eax
+  455e0a:	75 f2                	jne    0x455dfe
+  455e0c:	81 fb 8c 01 00 00    	cmp    ebx,0x18c
+  455e12:	75 04                	jne    0x455e18
+  455e14:	c6 45 e2 01          	mov    BYTE PTR [ebp-0x1e],0x1
+  455e18:	33 db                	xor    ebx,ebx
+  455e1a:	8b 45 ec             	mov    eax,DWORD PTR [ebp-0x14]
+  455e1d:	e8 de e6 fa ff       	call   0x404500
+  455e22:	85 c0                	test   eax,eax
+  455e24:	7c 11                	jl     0x455e37
+  455e26:	40                   	inc    eax
+  455e27:	33 d2                	xor    edx,edx
+  455e29:	8b 4d ec             	mov    ecx,DWORD PTR [ebp-0x14]
+  455e2c:	0f b6 4c 11 ff       	movzx  ecx,BYTE PTR [ecx+edx*1-0x1]
+  455e31:	03 d9                	add    ebx,ecx
+  455e33:	42                   	inc    edx
+  455e34:	48                   	dec    eax
+  455e35:	75 f2                	jne    0x455e29
+  455e37:	81 fb 90 01 00 00    	cmp    ebx,0x190
+  455e3d:	75 04                	jne    0x455e43
+  455e3f:	c6 45 e1 01          	mov    BYTE PTR [ebp-0x1f],0x1
+  455e43:	33 db                	xor    ebx,ebx
+  455e45:	8b 45 e8             	mov    eax,DWORD PTR [ebp-0x18]
+  455e48:	e8 b3 e6 fa ff       	call   0x404500
+  455e4d:	85 c0                	test   eax,eax
+  455e4f:	7c 11                	jl     0x455e62
+  455e51:	40                   	inc    eax
+  455e52:	33 d2                	xor    edx,edx
+  455e54:	8b 4d e8             	mov    ecx,DWORD PTR [ebp-0x18]
+  455e57:	0f b6 4c 11 ff       	movzx  ecx,BYTE PTR [ecx+edx*1-0x1]
+  455e5c:	03 d9                	add    ebx,ecx
+  455e5e:	42                   	inc    edx
+  455e5f:	48                   	dec    eax
+  455e60:	75 f2                	jne    0x455e54
+  455e62:	81 fb 88 01 00 00    	cmp    ebx,0x188
+  455e68:	75 04                	jne    0x455e6e
+  455e6a:	c6 45 e0 01          	mov    BYTE PTR [ebp-0x20],0x1
+  455e6e:	33 db                	xor    ebx,ebx
+  455e70:	8b 45 e4             	mov    eax,DWORD PTR [ebp-0x1c]
+  455e73:	e8 88 e6 fa ff       	call   0x404500
+  455e78:	85 c0                	test   eax,eax
+  455e7a:	7c 11                	jl     0x455e8d
+  455e7c:	40                   	inc    eax
+  455e7d:	33 d2                	xor    edx,edx
+  455e7f:	8b 4d e4             	mov    ecx,DWORD PTR [ebp-0x1c]
+  455e82:	0f b6 4c 11 ff       	movzx  ecx,BYTE PTR [ecx+edx*1-0x1]
+  455e87:	03 d9                	add    ebx,ecx
+  455e89:	42                   	inc    edx
+  455e8a:	48                   	dec    eax
+  455e8b:	75 f2                	jne    0x455e7f
+  455e8d:	81 fb 86 01 00 00    	cmp    ebx,0x186
+  455e93:	75 04                	jne    0x455e99
+  455e95:	c6 45 df 01          	mov    BYTE PTR [ebp-0x21],0x1
+  455e99:	8a 45 e3             	mov    al,BYTE PTR [ebp-0x1d]
+  455e9c:	22 45 e2             	and    al,BYTE PTR [ebp-0x1e]
+  455e9f:	74 18                	je     0x455eb9
+  455ea1:	80 7d e1 00          	cmp    BYTE PTR [ebp-0x1f],0x0
+  455ea5:	74 12                	je     0x455eb9
+  455ea7:	80 7d e0 00          	cmp    BYTE PTR [ebp-0x20],0x0
+  455eab:	74 0c                	je     0x455eb9
+  455ead:	80 7d df 00          	cmp    BYTE PTR [ebp-0x21],0x0
+  455eb1:	74 06                	je     0x455eb9
+  455eb3:	c6 45 fb 01          	mov    BYTE PTR [ebp-0x5],0x1
+  455eb7:	eb 04                	jmp    0x455ebd
+  455eb9:	c6 45 fb 00          	mov    BYTE PTR [ebp-0x5],0x0
+  455ebd:	33 c0                	xor    eax,eax
+  455ebf:	5a                   	pop    edx
+  455ec0:	59                   	pop    ecx
+  455ec1:	59                   	pop    ecx
+  455ec2:	64 89 10             	mov    DWORD PTR fs:[eax],edx
+  455ec5:	68 e7 5e 45 00       	push   0x455ee7
+  455eca:	8d 45 e4             	lea    eax,[ebp-0x1c]
+  455ecd:	ba 05 00 00 00       	mov    edx,0x5
+  455ed2:	e8 95 e3 fa ff       	call   0x40426c
+  455ed7:	8d 45 fc             	lea    eax,[ebp-0x4]
+  455eda:	e8 69 e3 fa ff       	call   0x404248
+  455edf:	c3                   	ret

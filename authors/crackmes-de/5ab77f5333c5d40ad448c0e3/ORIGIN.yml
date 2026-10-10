@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5333c5d40ad448c0e3
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c0e3
+  download: https://crackmes.one/download/crackme/5ab77f5333c5d40ad448c0e3
+
+title: "salazans_keygenme_0001 by salazan"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Borland Delphi"
+
+difficulty: 2.0
+quality: null
+size: ""
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/SalazanKeygenMe0001.zip"
+  name: "SalazanKeygenMe0001.zip"
+  sha256: "a6e1ba3d001c4634cb787a834d2b1367cb0039b0a1ee42e9c808006986aeeca4"
+  md5: "6221f0fe8f51ef2e574a06089c9cef1a"
+  size_bytes: 227094
+
+status: solved
+solution_summary: "nom ignoré (>=3 car.) ; serial 29 car. = 5 blocs de 5 aux sommes ASCII 397/396/400/392/390 ; ex. OOOOQ-OOOOP-OOOOT-OOOOL-OOOOJ"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-10T11:58:19Z"
