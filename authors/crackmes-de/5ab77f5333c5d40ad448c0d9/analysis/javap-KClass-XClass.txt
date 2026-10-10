@@ -1,0 +1,268 @@
+Compiled from "KClass.java"
+public class eu.sknine.skcrackme1.KClass implements java.awt.event.ActionListener {
+  private eu.sknine.skcrackme1.UClass unknown;
+
+  private int var;
+
+  public eu.sknine.skcrackme1.KClass();
+    Code:
+       0: aload_0
+       1: invokespecial #14                 // Method java/lang/Object."<init>":()V
+       4: return
+
+  public static void main(java.lang.String[]);
+    Code:
+       0: invokestatic  #22                 // Method javax/swing/UIManager.getSystemLookAndFeelClassName:()Ljava/lang/String;
+       3: invokestatic  #28                 // Method javax/swing/UIManager.setLookAndFeel:(Ljava/lang/String;)V
+       6: ldc           #32                 // String Label.font
+       8: new           #34                 // class java/awt/Font
+      11: dup
+      12: ldc           #36                 // String Verdana
+      14: iconst_0
+      15: bipush        10
+      17: invokespecial #38                 // Method java/awt/Font."<init>":(Ljava/lang/String;II)V
+      20: invokestatic  #41                 // Method javax/swing/UIManager.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      23: pop
+      24: ldc           #45                 // String TextField.font
+      26: new           #34                 // class java/awt/Font
+      29: dup
+      30: ldc           #36                 // String Verdana
+      32: iconst_0
+      33: bipush        10
+      35: invokespecial #38                 // Method java/awt/Font."<init>":(Ljava/lang/String;II)V
+      38: invokestatic  #41                 // Method javax/swing/UIManager.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      41: pop
+      42: ldc           #47                 // String Button.font
+      44: new           #34                 // class java/awt/Font
+      47: dup
+      48: ldc           #36                 // String Verdana
+      50: iconst_0
+      51: bipush        10
+      53: invokespecial #38                 // Method java/awt/Font."<init>":(Ljava/lang/String;II)V
+      56: invokestatic  #41                 // Method javax/swing/UIManager.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      59: pop
+      60: goto          64
+      63: astore_1
+      64: new           #1                  // class eu/sknine/skcrackme1/KClass
+      67: dup
+      68: invokespecial #49                 // Method "<init>":()V
+      71: invokespecial #50                 // Method aa:()V
+      74: return
+    Exception table:
+       from    to  target type
+           0    60    63   Class java/lang/Exception
+
+  private void aa();
+    Code:
+       0: aload_0
+       1: new           #58                 // class eu/sknine/skcrackme1/UClass
+       4: dup
+       5: invokespecial #60                 // Method eu/sknine/skcrackme1/UClass."<init>":()V
+       8: putfield      #61                 // Field unknown:Leu/sknine/skcrackme1/UClass;
+      11: aload_0
+      12: getfield      #61                 // Field unknown:Leu/sknine/skcrackme1/UClass;
+      15: invokevirtual #63                 // Method eu/sknine/skcrackme1/UClass.a:()Ljavax/swing/JButton;
+      18: aload_0
+      19: invokevirtual #67                 // Method javax/swing/JButton.addActionListener:(Ljava/awt/event/ActionListener;)V
+      22: return
+
+  public void actionPerformed(java.awt.event.ActionEvent);
+    Code:
+       0: aload_1
+       1: invokevirtual #75                 // Method java/awt/event/ActionEvent.getSource:()Ljava/lang/Object;
+       4: aload_0
+       5: getfield      #61                 // Field unknown:Leu/sknine/skcrackme1/UClass;
+       8: invokevirtual #63                 // Method eu/sknine/skcrackme1/UClass.a:()Ljavax/swing/JButton;
+      11: if_acmpne     25
+      14: aload_0
+      15: sipush        1337
+      18: putfield      #81                 // Field var:I
+      21: aload_0
+      22: invokespecial #83                 // Method a:()V
+      25: return
+
+  private void a();
+    Code:
+       0: bipush        16
+       2: istore_1
+       3: aload_0
+       4: getfield      #61                 // Field unknown:Leu/sknine/skcrackme1/UClass;
+       7: invokevirtual #87                 // Method eu/sknine/skcrackme1/UClass.e:()Ljavax/swing/JTextField;
+      10: invokevirtual #91                 // Method javax/swing/JTextField.getText:()Ljava/lang/String;
+      13: astore_2
+      14: aload_2
+      15: invokevirtual #96                 // Method java/lang/String.length:()I
+      18: bipush        15
+      20: if_icmple     38
+      23: aload_0
+      24: getfield      #61                 // Field unknown:Leu/sknine/skcrackme1/UClass;
+      27: ldc           #102                // String Name is longer than 15 character
+      29: ldc           #104                // String Invalid Name
+      31: iconst_0
+      32: invokestatic  #106                // Method javax/swing/JOptionPane.showMessageDialog:(Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;I)V
+      35: goto          262
+      38: aload_0
+      39: getfield      #61                 // Field unknown:Leu/sknine/skcrackme1/UClass;
+      42: invokevirtual #112                // Method eu/sknine/skcrackme1/UClass.d:()Ljavax/swing/JTextField;
+      45: invokevirtual #91                 // Method javax/swing/JTextField.getText:()Ljava/lang/String;
+      48: ldc           #115                // String
+      50: invokevirtual #117                // Method java/lang/String.split:(Ljava/lang/String;)[Ljava/lang/String;
+      53: astore_3
+      54: aload_3
+      55: arraylength
+      56: newarray       byte
+      58: astore        4
+      60: bipush        32
+      62: istore        5
+      64: bipush        16
+      66: istore        6
+      68: iconst_0
+      69: istore        7
+      71: goto          104
+      74: aload         4
+      76: iload         7
+      78: aload_3
+      79: iload         7
+      81: aaload
+      82: invokestatic  #121                // Method java/lang/Integer.parseInt:(Ljava/lang/String;)I
+      85: i2b
+      86: aload_0
+      87: getfield      #81                 // Field var:I
+      90: iload         5
+      92: imul
+      93: iload_1
+      94: iload         6
+      96: imul
+      97: idiv
+      98: isub
+      99: i2b
+     100: bastore
+     101: iinc          7, 1
+     104: iload         7
+     106: aload_3
+     107: arraylength
+     108: if_icmplt     74
+     111: new           #127                // class javax/crypto/spec/SecretKeySpec
+     114: dup
+     115: ldc           #129                // String 13248657
+     117: invokevirtual #131                // Method java/lang/String.getBytes:()[B
+     120: ldc           #135                // String DES
+     122: invokespecial #137                // Method javax/crypto/spec/SecretKeySpec."<init>":([BLjava/lang/String;)V
+     125: astore        7
+     127: ldc           #135                // String DES
+     129: invokestatic  #140                // Method javax/crypto/Cipher.getInstance:(Ljava/lang/String;)Ljavax/crypto/Cipher;
+     132: astore        8
+     134: aload         8
+     136: iconst_2
+     137: aload         7
+     139: invokevirtual #146                // Method javax/crypto/Cipher.init:(ILjava/security/Key;)V
+     142: aload         8
+     144: aload         4
+     146: invokevirtual #150                // Method javax/crypto/Cipher.doFinal:([B)[B
+     149: astore        9
+     151: new           #154                // class eu/sknine/skcrackme1/XClass
+     154: dup
+     155: aload         9
+     157: invokespecial #156                // Method eu/sknine/skcrackme1/XClass."<init>":([B)V
+     160: invokevirtual #159                // Method eu/sknine/skcrackme1/XClass.xmpio:()[B
+     163: astore        10
+     165: new           #162                // class java/lang/StringBuilder
+     168: dup
+     169: invokespecial #164                // Method java/lang/StringBuilder."<init>":()V
+     172: astore        11
+     174: iconst_0
+     175: istore        12
+     177: goto          195
+     180: aload         11
+     182: aload         10
+     184: iload         12
+     186: baload
+     187: i2c
+     188: invokevirtual #165                // Method java/lang/StringBuilder.append:(C)Ljava/lang/StringBuilder;
+     191: pop
+     192: iinc          12, 1
+     195: iload         12
+     197: aload         10
+     199: arraylength
+     200: if_icmplt     180
+     203: aload_2
+     204: aload         11
+     206: invokevirtual #169                // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+     209: invokevirtual #172                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+     212: ifeq          230
+     215: aload_0
+     216: getfield      #61                 // Field unknown:Leu/sknine/skcrackme1/UClass;
+     219: ldc           #176                // String Valid key
+     221: ldc           #178                // String Congratulations
+     223: iconst_1
+     224: invokestatic  #106                // Method javax/swing/JOptionPane.showMessageDialog:(Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;I)V
+     227: goto          262
+     230: aload_0
+     231: getfield      #61                 // Field unknown:Leu/sknine/skcrackme1/UClass;
+     234: ldc           #180                // String Invalid Key, try again
+     236: ldc           #182                // String :P
+     238: iconst_1
+     239: invokestatic  #106                // Method javax/swing/JOptionPane.showMessageDialog:(Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;I)V
+     242: goto          262
+     245: astore_1
+     246: aload_0
+     247: getfield      #61                 // Field unknown:Leu/sknine/skcrackme1/UClass;
+     250: ldc           #180                // String Invalid Key, try again
+     252: ldc           #182                // String :P
+     254: iconst_1
+     255: invokestatic  #106                // Method javax/swing/JOptionPane.showMessageDialog:(Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;I)V
+     258: aload_1
+     259: invokevirtual #184                // Method java/lang/Exception.printStackTrace:()V
+     262: return
+    Exception table:
+       from    to  target type
+           0   242   245   Class java/lang/Exception
+}
+Compiled from "XClass.java"
+public class eu.sknine.skcrackme1.XClass {
+  private byte[] arr;
+
+  public eu.sknine.skcrackme1.XClass(byte[]);
+    Code:
+       0: aload_0
+       1: invokespecial #10                 // Method java/lang/Object."<init>":()V
+       4: aload_0
+       5: aload_1
+       6: putfield      #13                 // Field arr:[B
+       9: aload_0
+      10: invokevirtual #15                 // Method xmpio:()[B
+      13: pop
+      14: return
+
+  public byte[] xmpio();
+    Code:
+       0: aconst_null
+       1: checkcast     #23                 // class "[B"
+       4: astore_1
+       5: new           #24                 // class javax/crypto/spec/SecretKeySpec
+       8: dup
+       9: ldc           #26                 // String 13377331
+      11: invokevirtual #28                 // Method java/lang/String.getBytes:()[B
+      14: ldc           #33                 // String DES
+      16: invokespecial #35                 // Method javax/crypto/spec/SecretKeySpec."<init>":([BLjava/lang/String;)V
+      19: astore_2
+      20: ldc           #33                 // String DES
+      22: invokestatic  #38                 // Method javax/crypto/Cipher.getInstance:(Ljava/lang/String;)Ljavax/crypto/Cipher;
+      25: astore_3
+      26: aload_3
+      27: iconst_2
+      28: aload_2
+      29: invokevirtual #44                 // Method javax/crypto/Cipher.init:(ILjava/security/Key;)V
+      32: aload_3
+      33: aload_0
+      34: getfield      #13                 // Field arr:[B
+      37: invokevirtual #48                 // Method javax/crypto/Cipher.doFinal:([B)[B
+      40: astore_1
+      41: goto          45
+      44: astore_2
+      45: aload_1
+      46: areturn
+    Exception table:
+       from    to  target type
+           5    41    44   Class java/lang/Exception
+}

@@ -100,6 +100,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 80 | [crackme2](5ab77f5333c5d40ad448c114/) | immortal_one | Win PE32 GUI ASM packé | petik→**`372E`** (ES_UPPERCASE + mix16 `*25`) |
 | 81 | [keygenme_2_by_nicohogtag](5ab77f5333c5d40ad448c0d5/) | nicohogtag | Win PE32 console MinGW | petikpetik→**`608202596`** (somme/cumul 10 octets, nom 9–10 car.) |
 | 82 | [k1](5ab77f5333c5d40ad448c0d8/) | xtfusion | Win PE32 console MinGW | petik→**`15476a`** (cumul `c*80`, `%x`, compare préfixe) |
+| 83 | [skcrackme_1](5ab77f5333c5d40ad448c0d9/) | sknine9 | Java Swing (JAR) | petik→**`232 61 158 … 236 251`** (double DES ECB, octets +167) |
 
 ## Mis de côté (PARKED — y revenir)
 

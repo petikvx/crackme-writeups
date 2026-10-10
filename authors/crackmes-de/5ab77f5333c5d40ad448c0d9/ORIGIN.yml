@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5333c5d40ad448c0d9
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c0d9
+  download: https://crackmes.one/download/crackme/5ab77f5333c5d40ad448c0d9
+
+title: "skcrackme_1 by sknine9"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Multiplatform"
+arch: "JVM"
+language: "Java"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/SKCrackMe.zip"
+  name: "SKCrackMe.zip"
+  sha256: "9a9c10d212283f69aaaf212969ad2c0b028dffd3c4b5c3a351d336c9009082e8"
+  md5: "16bc43035b5e65b56f0b411baf83ce32"
+  size_bytes: 4731
+
+status: solved
+solution_summary: "keygen : serial = DES_13248657(DES_13377331(nom)) octet signé +167, séparés par espaces ; petik → 232 61 158 220 87 92 183 65 140 155 77 47 42 68 236 251"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-10T09:58:33Z"
