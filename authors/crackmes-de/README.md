@@ -107,6 +107,8 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 87 | [salazans_keygenme_0003](5ab77f5333c5d40ad448c0e2/) | salazan | Win PE32 GUI Delphi 6 | petik→**`CCCABA0BC21A10-OOOOP-OOOOO-OOOOS-OOOOK-OOOOI`** (MD5 hex filtré 0-3/A-C + 5 blocs à somme ASCII fixe) |
 | 88 | [salazans_keygenme_0001](5ab77f5333c5d40ad448c0e3/) | salazan | Win PE32 GUI Delphi 6 | serial **`OOOOQ-OOOOP-OOOOT-OOOOL-OOOOJ`** (nom ignoré, 5 blocs à somme ASCII fixe) |
 
+| 89 | [qcrk_3](5ab77f5333c5d40ad448c0f3/) | qnix | Linux ELF32 | **`KEY=petik`** (getenv non-NULL) |
+
 ## Mis de côté (PARKED — y revenir)
 
 | Titre | ID | Blocage / reprise |

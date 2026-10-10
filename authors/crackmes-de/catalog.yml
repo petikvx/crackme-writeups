@@ -451,6 +451,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c0e3/original/SalazanKeygenMe0001.zip"
     title: "crackmes.de's salazans_keygenme_0001 by salazan"
 
+  5ab77f5333c5d40ad448c0f3:
+    sha256: "f229ce358aa49f15b4ad5ef5cf6d1e66f83d5d3f593242ab2ab78c826c738f4e"
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c0f3/original/qcrk3.tgz"
+    title: "qcrk_3 by qnix"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -824,3 +829,7 @@ by_sha256:
     id: 5ab77f5333c5d40ad448c0e3
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c0e3/original/SalazanKeygenMe0001.zip"
     page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c0e3
+  f229ce358aa49f15b4ad5ef5cf6d1e66f83d5d3f593242ab2ab78c826c738f4e:
+    id: 5ab77f5333c5d40ad448c0f3
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c0f3/original/qcrk3.tgz"
+    page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c0f3

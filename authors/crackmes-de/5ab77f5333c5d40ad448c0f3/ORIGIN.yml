@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5333c5d40ad448c0f3
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c0f3
+  download: https://crackmes.one/download/crackme/5ab77f5333c5d40ad448c0f3
+
+title: "qcrk_3 by qnix"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: "C/C++"
+
+difficulty: 2.0
+quality: 4.0
+size: "1.75 KB"
+published: "2018-03-25 10:52"
+
+series_index: null
+local_slug: "qcrk_3"
+
+binary:
+  path: "original/qcrk3.tgz"
+  name: "qcrk3.tgz"
+  sha256: "f229ce358aa49f15b4ad5ef5cf6d1e66f83d5d3f593242ab2ab78c826c738f4e"
+  md5: "221074725966861a0d1121487892f04e"
+  size_bytes: 1796
+
+status: solved
+solution_summary: "KEY env quelconque (getenv non-NULL) ; anti-debug ptrace ; ex. KEY=petik"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-10T12:52:18Z"
