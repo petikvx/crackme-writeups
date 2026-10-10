@@ -521,6 +521,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c111/original/rith_crackme1.zip"
     title: "crackmes.de's crackme_1 by rith"
 
+  5ab77f5333c5d40ad448c115:
+    sha256: "b5ac5afd34f9dde20abd44182f0b52941cb2c7951d3a0b15282d9123b9ceab49"
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c115/original/hg-cme.zip"
+    title: "crackmes.de's crackme by honestgamer"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -950,3 +955,7 @@ by_sha256:
     id: 5ab77f5333c5d40ad448c111
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c111/original/rith_crackme1.zip"
     page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c111
+  b5ac5afd34f9dde20abd44182f0b52941cb2c7951d3a0b15282d9123b9ceab49:
+    id: 5ab77f5333c5d40ad448c115
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c115/original/hg-cme.zip"
+    page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c115

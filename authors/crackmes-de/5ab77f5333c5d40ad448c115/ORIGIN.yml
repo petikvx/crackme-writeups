@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5333c5d40ad448c115
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c115
+  download: https://crackmes.one/download/crackme/5ab77f5333c5d40ad448c115
+
+title: "crackme by honestgamer"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ".NET (C#)"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/hg-cme.zip"
+  name: "hg-cme.zip"
+  sha256: "b5ac5afd34f9dde20abd44182f0b52941cb2c7951d3a0b15282d9123b9ceab49"
+  md5: "14ec51da11c87272c14ea383190aac2b"
+  size_bytes: 2759
+
+status: solved
+solution_summary: "keygen numerique : Code = (ID*786*17) div 12 + 1991 ; ID 1234 -> 1376050"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-10T18:00:56Z"
