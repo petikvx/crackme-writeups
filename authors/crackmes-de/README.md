@@ -129,6 +129,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 101 | [crackme_1](5ab77f5333c5d40ad448c111/) | rith | Windows PE32 GUI (MFC 4.2) | keygen `2·(nom[i] mod "3141592653…"[i])` + ajustements ; petik→`n\|jt€` (`6e7c6a7480`) |
 | 102 | [crackme](5ab77f5333c5d40ad448c115/) | honestgamer | Windows .NET console | keygen `Code = ID·786·17 div 12 + 1991` ; ID 1234→`1376050` |
 | 103 | [keygen_rivendel](5ab77f5333c5d40ad448c117/) | tryger | Linux ELF32 (GCC) | faux `main` (entry = 0x80487b6) ; keygen 3 passes `(c+0xF)`, `(0x12−c)`, `(c−0x4C)·2` ^ user ; petik→`7feb8ef468c42b931697081dd67d09` (hex) |
+| 104 | [crackme_1_easy_timers](5ab77f5333c5d40ad448c118/) | anarchy2k3 | Windows PE32 GUI (Delphi 2009) | `Thom Collins` / `5694-5378` puis **Clear** avant Timer1 (2 s) |
 
 ## Mis de côté (PARKED — y revenir)
 

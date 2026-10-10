@@ -531,6 +531,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c117/original/rivendel.zip"
     title: "crackmes.de's keygen_rivendel by tryger"
 
+  5ab77f5333c5d40ad448c118:
+    sha256: "d064df4d148033e3043d34aa6024aea2e764ca1e3f28d950b1dc7171043d13b0"
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c118/original/CrackMe_#1_-_Easy_Timers_-_Anarchy2k3.zip"
+    title: "crackmes.de's crackme_1_easy_timers_by_anarchy2k3 by anarchy2k3"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -968,3 +973,7 @@ by_sha256:
     id: 5ab77f5333c5d40ad448c117
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c117/original/rivendel.zip"
     page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c117
+  d064df4d148033e3043d34aa6024aea2e764ca1e3f28d950b1dc7171043d13b0:
+    id: 5ab77f5333c5d40ad448c118
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c118/original/CrackMe_#1_-_Easy_Timers_-_Anarchy2k3.zip"
+    page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c118
