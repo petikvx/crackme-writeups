@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5333c5d40ad448c10b
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c10b
+  download: https://crackmes.one/download/crackme/5ab77f5333c5d40ad448c10b
+
+title: "hidewindow by devoney"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++"
+
+difficulty: 2.0
+quality: 4.0
+size: "161.88 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/CrackMe_#4.zip"
+  name: "CrackMe_#4.zip"
+  sha256: "8a51e2ada18239dce4803c2307b8a5b8df5a5ca1bf3c0315618725223f697139"
+  md5: "ae581ef9bb199fddfc719d2546135556"
+  size_bytes: 165766
+
+status: solved
+solution_summary: "historique EN_CHANGE (dernier car.) = 55484560 et GetDlgItemInt = 5560 : taper 5,5,4 puis remplacer le dernier chiffre par 8,4,5,6 puis taper 0"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-10T17:56:27Z"

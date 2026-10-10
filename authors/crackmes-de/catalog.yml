@@ -511,6 +511,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c108/original/LXDs_KeygenMe_N°1.zip"
     title: "crackmes.de's keygenme_n1 by xxlxdxx"
 
+  5ab77f5333c5d40ad448c10b:
+    sha256: "8a51e2ada18239dce4803c2307b8a5b8df5a5ca1bf3c0315618725223f697139"
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c10b/original/CrackMe_#4.zip"
+    title: "crackmes.de's hidewindow by devoney"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -932,3 +937,7 @@ by_sha256:
     id: 5ab77f5333c5d40ad448c108
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c108/original/LXDs_KeygenMe_N°1.zip"
     page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c108
+  8a51e2ada18239dce4803c2307b8a5b8df5a5ca1bf3c0315618725223f697139:
+    id: 5ab77f5333c5d40ad448c10b
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c10b/original/CrackMe_#4.zip"
+    page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c10b
