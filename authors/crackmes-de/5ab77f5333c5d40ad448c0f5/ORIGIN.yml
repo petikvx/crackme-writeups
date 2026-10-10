@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5333c5d40ad448c0f5
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c0f5
+  download: https://crackmes.one/download/crackme/5ab77f5333c5d40ad448c0f5
+
+title: "qcrk_2 by qnix"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: "C/C++"
+
+difficulty: 1.5
+quality: 4.7
+size: "3.17 KB"
+published: "2018-03-25 10:52"
+
+series_index: null
+local_slug: "qcrk_2"
+
+binary:
+  path: "original/qcrk-2.tgz"
+  name: "qcrk-2.tgz"
+  sha256: "1c753d5c215ffe62bc81f203eb16e67447b7cb2a7f7a5aa91961d469a4f35d28"
+  md5: "cdec80698ae4c3fd2877d53e35733222"
+  size_bytes: 3244
+
+status: solved
+solution_summary: "pas de clé — stack overflow via argv[2] (2060 + &crap 0x08048686) pour appeler la fonction morte crap() qui affiche CRACKED"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-10T13:53:57Z"

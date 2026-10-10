@@ -461,6 +461,16 @@ by_id:
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c0f4/original/qcrk5.tgz"
     title: "qcrk5 by qnix"
 
+  5ab77f5333c5d40ad448c0f5:
+    sha256: "1c753d5c215ffe62bc81f203eb16e67447b7cb2a7f7a5aa91961d469a4f35d28"
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c0f5/original/qcrk-2.tgz"
+    title: "qcrk_2 by qnix"
+
+  5ab77f5333c5d40ad448c0f5:
+    sha256: "1c753d5c215ffe62bc81f203eb16e67447b7cb2a7f7a5aa91961d469a4f35d28"
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c0f5/original/qcrk-2.tgz"
+    title: "crackmes.de's qcrk_2 by qnix"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -842,3 +852,11 @@ by_sha256:
     id: 5ab77f5333c5d40ad448c0f4
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c0f4/original/qcrk5.tgz"
     page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c0f4
+  1c753d5c215ffe62bc81f203eb16e67447b7cb2a7f7a5aa91961d469a4f35d28:
+    id: 5ab77f5333c5d40ad448c0f5
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c0f5/original/qcrk-2.tgz"
+    page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c0f5
+  1c753d5c215ffe62bc81f203eb16e67447b7cb2a7f7a5aa91961d469a4f35d28:
+    id: 5ab77f5333c5d40ad448c0f5
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c0f5/original/qcrk-2.tgz"
+    page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c0f5

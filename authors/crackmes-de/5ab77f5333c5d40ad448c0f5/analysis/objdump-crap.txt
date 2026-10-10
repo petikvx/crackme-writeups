@@ -1,0 +1,12 @@
+08048686 <crap>:
+ 8048686:	55                   	push   ebp
+ 8048687:	89 e5                	mov    ebp,esp
+ 8048689:	83 ec 08             	sub    esp,0x8
+ 804868c:	83 ec 08             	sub    esp,0x8
+ 804868f:	68 e0 88 04 08       	push   0x80488e0
+ 8048694:	ff 35 84 9a 04 08    	push   DWORD PTR ds:0x8049a84
+ 804869a:	e8 dd fc ff ff       	call   804837c <fprintf@plt>
+ 804869f:	83 c4 10             	add    esp,0x10
+ 80486a2:	b8 00 00 00 00       	mov    eax,0x0
+ 80486a7:	c9                   	leave
+ 80486a8:	c3                   	ret
