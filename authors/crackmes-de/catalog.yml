@@ -416,6 +416,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c0d5/original/Keygenme_#2_by_Nicohogtag.zip"
     title: "crackmes.de's keygenme_2_by_nicohogtag by nicohogtag"
 
+  5ab77f5333c5d40ad448c0d8:
+    sha256: "6725ddd6897b0884fcfb82f0e27cdf1e269c697f36232201698689a144588124"
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c0d8/original/k1.zip"
+    title: "crackmes.de's k1 by xtfusion"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -761,3 +766,7 @@ by_sha256:
     id: 5ab77f5333c5d40ad448c0d5
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c0d5/original/Keygenme_#2_by_Nicohogtag.zip"
     page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c0d5
+  6725ddd6897b0884fcfb82f0e27cdf1e269c697f36232201698689a144588124:
+    id: 5ab77f5333c5d40ad448c0d8
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c0d8/original/k1.zip"
+    page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c0d8

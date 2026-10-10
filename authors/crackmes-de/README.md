@@ -99,6 +99,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 79 | [recoded_keygenme_1](5ab77f5333c5d40ad448c10c/) | recoded | Win PE32 GUI MASM | petik→**`0C1D98B6-7D4A3072-07D08290-E41E90EA`** (ROR19 + seed `0x401284`) |
 | 80 | [crackme2](5ab77f5333c5d40ad448c114/) | immortal_one | Win PE32 GUI ASM packé | petik→**`372E`** (ES_UPPERCASE + mix16 `*25`) |
 | 81 | [keygenme_2_by_nicohogtag](5ab77f5333c5d40ad448c0d5/) | nicohogtag | Win PE32 console MinGW | petikpetik→**`608202596`** (somme/cumul 10 octets, nom 9–10 car.) |
+| 82 | [k1](5ab77f5333c5d40ad448c0d8/) | xtfusion | Win PE32 console MinGW | petik→**`15476a`** (cumul `c*80`, `%x`, compare préfixe) |
 
 ## Mis de côté (PARKED — y revenir)
 

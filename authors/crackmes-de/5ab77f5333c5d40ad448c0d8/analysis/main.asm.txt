@@ -1,0 +1,111 @@
+00401290 <_main>:
+  401290:	55                   	push   ebp
+  401291:	89 e5                	mov    ebp,esp
+  401293:	81 ec a8 00 00 00    	sub    esp,0xa8
+  401299:	83 e4 f0             	and    esp,0xfffffff0
+  40129c:	b8 00 00 00 00       	mov    eax,0x0
+  4012a1:	83 c0 0f             	add    eax,0xf
+  4012a4:	83 c0 0f             	add    eax,0xf
+  4012a7:	c1 e8 04             	shr    eax,0x4
+  4012aa:	c1 e0 04             	shl    eax,0x4
+  4012ad:	89 85 74 ff ff ff    	mov    DWORD PTR [ebp-0x8c],eax
+  4012b3:	8b 85 74 ff ff ff    	mov    eax,DWORD PTR [ebp-0x8c]
+  4012b9:	e8 92 05 00 00       	call   401850 <___chkstk>
+  4012be:	e8 2d 02 00 00       	call   4014f0 <___main>
+  4012c3:	c7 04 24 00 20 40 00 	mov    DWORD PTR [esp],0x402000
+  4012ca:	e8 91 06 00 00       	call   401960 <_printf>
+  4012cf:	c7 04 24 00 30 40 00 	mov    DWORD PTR [esp],0x403000
+  4012d6:	e8 85 06 00 00       	call   401960 <_printf>
+  4012db:	8d 45 98             	lea    eax,[ebp-0x68]
+  4012de:	89 04 24             	mov    DWORD PTR [esp],eax
+  4012e1:	e8 6a 06 00 00       	call   401950 <_gets>
+  4012e6:	c7 04 24 07 30 40 00 	mov    DWORD PTR [esp],0x403007
+  4012ed:	e8 6e 06 00 00       	call   401960 <_printf>
+  4012f2:	8d 85 78 ff ff ff    	lea    eax,[ebp-0x88]
+  4012f8:	89 04 24             	mov    DWORD PTR [esp],eax
+  4012fb:	e8 50 06 00 00       	call   401950 <_gets>
+  401300:	c7 45 f4 00 00 00 00 	mov    DWORD PTR [ebp-0xc],0x0
+  401307:	8d 45 98             	lea    eax,[ebp-0x68]
+  40130a:	89 04 24             	mov    DWORD PTR [esp],eax
+  40130d:	e8 2e 06 00 00       	call   401940 <_strlen>
+  401312:	39 45 f4             	cmp    DWORD PTR [ebp-0xc],eax
+  401315:	73 4b                	jae    401362 <_main+0xd2>
+  401317:	8d 45 f8             	lea    eax,[ebp-0x8]
+  40131a:	03 45 f4             	add    eax,DWORD PTR [ebp-0xc]
+  40131d:	83 e8 60             	sub    eax,0x60
+  401320:	0f be 10             	movsx  edx,BYTE PTR [eax]
+  401323:	89 d0                	mov    eax,edx
+  401325:	c1 e0 02             	shl    eax,0x2
+  401328:	01 d0                	add    eax,edx
+  40132a:	89 c2                	mov    edx,eax
+  40132c:	c1 e2 04             	shl    edx,0x4
+  40132f:	8d 45 ec             	lea    eax,[ebp-0x14]
+  401332:	01 10                	add    DWORD PTR [eax],edx
+  401334:	8b 45 ec             	mov    eax,DWORD PTR [ebp-0x14]
+  401337:	03 45 e8             	add    eax,DWORD PTR [ebp-0x18]
+  40133a:	83 f0 32             	xor    eax,0x32
+  40133d:	89 45 e8             	mov    DWORD PTR [ebp-0x18],eax
+  401340:	8b 45 e8             	mov    eax,DWORD PTR [ebp-0x18]
+  401343:	8d 14 85 00 00 00 00 	lea    edx,[eax*4+0x0]
+  40134a:	8d 45 e4             	lea    eax,[ebp-0x1c]
+  40134d:	01 10                	add    DWORD PTR [eax],edx
+  40134f:	8b 45 e8             	mov    eax,DWORD PTR [ebp-0x18]
+  401352:	03 45 e4             	add    eax,DWORD PTR [ebp-0x1c]
+  401355:	03 45 ec             	add    eax,DWORD PTR [ebp-0x14]
+  401358:	89 45 e0             	mov    DWORD PTR [ebp-0x20],eax
+  40135b:	8d 45 f4             	lea    eax,[ebp-0xc]
+  40135e:	ff 00                	inc    DWORD PTR [eax]
+  401360:	eb a5                	jmp    401307 <_main+0x77>
+  401362:	8b 45 e0             	mov    eax,DWORD PTR [ebp-0x20]
+  401365:	89 44 24 08          	mov    DWORD PTR [esp+0x8],eax
+  401369:	c7 44 24 04 10 30 40 	mov    DWORD PTR [esp+0x4],0x403010
+  401370:	00 
+  401371:	8d 45 b8             	lea    eax,[ebp-0x48]
+  401374:	89 04 24             	mov    DWORD PTR [esp],eax
+  401377:	e8 44 06 00 00       	call   4019c0 <_wsprintfA>
+  40137c:	c7 45 f0 00 00 00 00 	mov    DWORD PTR [ebp-0x10],0x0
+  401383:	80 bd 78 ff ff ff 00 	cmp    BYTE PTR [ebp-0x88],0x0
+  40138a:	75 0e                	jne    40139a <_main+0x10a>
+  40138c:	c7 04 24 13 30 40 00 	mov    DWORD PTR [esp],0x403013
+  401393:	e8 c8 05 00 00       	call   401960 <_printf>
+  401398:	eb 57                	jmp    4013f1 <_main+0x161>
+  40139a:	80 7d 98 00          	cmp    BYTE PTR [ebp-0x68],0x0
+  40139e:	75 0e                	jne    4013ae <_main+0x11e>
+  4013a0:	c7 04 24 23 30 40 00 	mov    DWORD PTR [esp],0x403023
+  4013a7:	e8 b4 05 00 00       	call   401960 <_printf>
+  4013ac:	eb 43                	jmp    4013f1 <_main+0x161>
+  4013ae:	c7 45 f4 00 00 00 00 	mov    DWORD PTR [ebp-0xc],0x0
+  4013b5:	8d 85 78 ff ff ff    	lea    eax,[ebp-0x88]
+  4013bb:	89 04 24             	mov    DWORD PTR [esp],eax
+  4013be:	e8 7d 05 00 00       	call   401940 <_strlen>
+  4013c3:	39 45 f4             	cmp    DWORD PTR [ebp-0xc],eax
+  4013c6:	73 29                	jae    4013f1 <_main+0x161>
+  4013c8:	8d 45 f8             	lea    eax,[ebp-0x8]
+  4013cb:	03 45 f4             	add    eax,DWORD PTR [ebp-0xc]
+  4013ce:	8d 48 c0             	lea    ecx,[eax-0x40]
+  4013d1:	8d 45 f8             	lea    eax,[ebp-0x8]
+  4013d4:	03 45 f4             	add    eax,DWORD PTR [ebp-0xc]
+  4013d7:	8d 50 80             	lea    edx,[eax-0x80]
+  4013da:	0f b6 01             	movzx  eax,BYTE PTR [ecx]
+  4013dd:	3a 02                	cmp    al,BYTE PTR [edx]
+  4013df:	75 02                	jne    4013e3 <_main+0x153>
+  4013e1:	eb 07                	jmp    4013ea <_main+0x15a>
+  4013e3:	c7 45 f0 01 00 00 00 	mov    DWORD PTR [ebp-0x10],0x1
+  4013ea:	8d 45 f4             	lea    eax,[ebp-0xc]
+  4013ed:	ff 00                	inc    DWORD PTR [eax]
+  4013ef:	eb c4                	jmp    4013b5 <_main+0x125>
+  4013f1:	83 7d f0 01          	cmp    DWORD PTR [ebp-0x10],0x1
+  4013f5:	75 02                	jne    4013f9 <_main+0x169>
+  4013f7:	eb 0c                	jmp    401405 <_main+0x175>
+  4013f9:	c7 04 24 31 30 40 00 	mov    DWORD PTR [esp],0x403031
+  401400:	e8 5b 05 00 00       	call   401960 <_printf>
+  401405:	b8 00 00 00 00       	mov    eax,0x0
+  40140a:	c9                   	leave
+  40140b:	c3                   	ret
+  40140c:	90                   	nop
+  40140d:	90                   	nop
+  40140e:	90                   	nop
+  40140f:	90                   	nop
+
+00401410 <__pei386_runtime_relocator>:
+  401410:	55                   	push   ebp

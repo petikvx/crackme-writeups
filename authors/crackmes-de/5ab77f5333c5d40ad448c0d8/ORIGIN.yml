@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5333c5d40ad448c0d8
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c0d8
+  download: https://crackmes.one/download/crackme/5ab77f5333c5d40ad448c0d8
+
+title: "k1 by xtfusion"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++ (MinGW)"
+
+difficulty: 1.5
+quality: null
+size: ""
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/k1.zip"
+  name: "k1.zip"
+  sha256: "6725ddd6897b0884fcfb82f0e27cdf1e269c697f36232201698689a144588124"
+  md5: "ed5b3b694937e22a30b44976266d1943"
+  size_bytes: 6268
+
+status: solved
+solution_summary: "keygen %x sur cumul nom*80 ; petik → 15476a (comparaison préfixe)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-10T08:53:30Z"

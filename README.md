@@ -146,7 +146,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [oguzbey](authors/oguzbey/README.md) | oguzbey | 1 (Lucky Numbers) | 1 / 1 |
 | [andrewl](authors/andrewl/README.md) | andrewl | 1 (Quick Crypto) | 1 / 1 |
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
-| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 81 / 83 |
+| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 82 / 84 |
 | [chaltu](authors/chaltu/README.md) | chaltu | 2 (a Treasure + Double Door) | 2 / 2 |
 | [qerr0r](authors/qerr0r/README.md) | QERR0R | 1 (crackit) | 1 / 1 |
 | [steve_maxwell](authors/steve_maxwell/README.md) | steve_maxwell | 1 (X-0-R) | 1 / 1 |
@@ -247,6 +247,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-10 | [k1](authors/crackmes-de/5ab77f5333c5d40ad448c0d8/) | crackmes.de / xtfusion |
 | 2026-10-10 | [keygenme_2_by_nicohogtag](authors/crackmes-de/5ab77f5333c5d40ad448c0d5/) | crackmes.de / nicohogtag |
 | 2026-10-10 | [matrice](authors/s4r/5aa9b47f33c5d40a63746b1f/) | s4r |
 | 2026-10-10 | [prime](authors/s4r/5aa9b4a633c5d40a63746b20/) | s4r |
