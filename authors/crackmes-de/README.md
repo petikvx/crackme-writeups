@@ -131,6 +131,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 103 | [keygen_rivendel](5ab77f5333c5d40ad448c117/) | tryger | Linux ELF32 (GCC) | faux `main` (entry = 0x80487b6) ; keygen 3 passes `(c+0xF)`, `(0x12−c)`, `(c−0x4C)·2` ^ user ; petik→`7feb8ef468c42b931697081dd67d09` (hex) |
 | 104 | [crackme_1_easy_timers](5ab77f5333c5d40ad448c118/) | anarchy2k3 | Windows PE32 GUI (Delphi 2009) | `Thom Collins` / `5694-5378` puis **Clear** avant Timer1 (2 s) |
 | 105 | [learn_the_first_few_tricks_1](5ab77f5333c5d40ad448c11a/) | deibiz_xxl | Windows PE32 console (MinGW) | pass **`[DEIBIZ]`** = `ZCDHAHY\` (.data) + 1 par octet |
+| 106 | [feo_crackme_12](5ab77f5333c5d40ad448c11b/) | shoulck | Windows PE32 GUI (MSVC) | file mapping nommé `Datos`=`"Crackme 12 "` ; Serial = reverse(Nombre) ; petikpetik→`kitepkitep` + 2e instance |
 
 ## Mis de côté (PARKED — y revenir)
 

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5333c5d40ad448c11b
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c11b
+  download: https://crackmes.one/download/crackme/5ab77f5333c5d40ad448c11b
+
+title: "feo_crackme_12 by shoulck"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++ (MSVC)"
+
+difficulty: 1.5
+quality: 4.0
+size: "9.62 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Crackme12.zip"
+  name: "Crackme12.zip"
+  sha256: "8261685ae17898f112b8e94deca5a34f6c7b5093f4bebe35c0998c1f95d495eb"
+  md5: "a70b214367110ca2030e6eb4b0f25d5b"
+  size_bytes: 9853
+
+status: solved
+solution_summary: "Datos='Crackme 12 ' (nom du file mapping = titre tronque), Serial=reverse(Nombre) >= 9 car., Guardar puis relancer une 2e instance"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-10T19:59:55Z"
