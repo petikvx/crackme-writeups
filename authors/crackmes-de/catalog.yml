@@ -486,6 +486,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c102/original/cm2.zip"
     title: "serialkeygen_me by br0ken"
 
+  5ab77f5333c5d40ad448c103:
+    sha256: "588fb4ee1081294dd26e9da5f8302ede9b371f2f6f29217130ce6288d1373436"
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c103/original/cme6.zip"
+    title: "what_is_my_password by br0ken"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -887,3 +892,7 @@ by_sha256:
     id: 5ab77f5333c5d40ad448c102
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c102/original/cm2.zip"
     page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c102
+  588fb4ee1081294dd26e9da5f8302ede9b371f2f6f29217130ce6288d1373436:
+    id: 5ab77f5333c5d40ad448c103
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c103/original/cme6.zip"
+    page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c103

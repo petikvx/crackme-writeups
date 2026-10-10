@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5333c5d40ad448c103
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c103
+  download: https://crackmes.one/download/crackme/5ab77f5333c5d40ad448c103
+
+title: "what_is_my_password by br0ken"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++"
+
+difficulty: 2.0
+quality: null
+size: ""
+published: "2018-03-25 10:52"
+
+series_index: null
+local_slug: "what_is_my_password"
+
+binary:
+  path: "original/cme6.zip"
+  name: "cme6.zip"
+  sha256: "588fb4ee1081294dd26e9da5f8302ede9b371f2f6f29217130ce6288d1373436"
+  md5: "57b4d089e286b88076912b5935aa31c2"
+  size_bytes: 14312
+
+status: solved
+solution_summary: "pass 95718t00w : systeme lineaire 5x5 sur b0..b4 + contraintes simples b5..b8, confirme par le MD5 affiche"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-10T14:51:35Z"

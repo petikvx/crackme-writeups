@@ -1,0 +1,107 @@
+
+/tmp/c103/cme6.exe:     file format pei-i386
+
+
+Disassembly of section .text:
+
+00401064 <.text+0x64>:
+  401064:	68 1c 71 40 00       	push   0x40711c
+  401069:	e8 ac 01 00 00       	call   0x40121a
+  40106e:	8d 44 24 38          	lea    eax,[esp+0x38]
+  401072:	50                   	push   eax
+  401073:	e8 58 01 00 00       	call   0x4011d0
+  401078:	8d 7c 24 3c          	lea    edi,[esp+0x3c]
+  40107c:	83 c9 ff             	or     ecx,0xffffffff
+  40107f:	33 c0                	xor    eax,eax
+  401081:	83 c4 2c             	add    esp,0x2c
+  401084:	f2 ae                	repnz scas al,BYTE PTR es:[edi]
+  401086:	f7 d1                	not    ecx
+  401088:	83 c1 08             	add    ecx,0x8
+  40108b:	83 f9 12             	cmp    ecx,0x12
+  40108e:	74 05                	je     0x401095
+  401090:	e8 1b 01 00 00       	call   0x4011b0
+  401095:	0f be 44 24 14       	movsx  eax,BYTE PTR [esp+0x14]
+  40109a:	0f be 5c 24 10       	movsx  ebx,BYTE PTR [esp+0x10]
+  40109f:	0f be 54 24 12       	movsx  edx,BYTE PTR [esp+0x12]
+  4010a4:	0f be 74 24 11       	movsx  esi,BYTE PTR [esp+0x11]
+  4010a9:	0f be 4c 24 13       	movsx  ecx,BYTE PTR [esp+0x13]
+  4010ae:	8d 3c 03             	lea    edi,[ebx+eax*1]
+  4010b1:	8d 3c 7f             	lea    edi,[edi+edi*2]
+  4010b4:	8d 3c 57             	lea    edi,[edi+edx*2]
+  4010b7:	2b fe                	sub    edi,esi
+  4010b9:	2b f9                	sub    edi,ecx
+  4010bb:	81 ff 5b 01 00 00    	cmp    edi,0x15b
+  4010c1:	75 68                	jne    0x40112b
+  4010c3:	8d 3c 46             	lea    edi,[esi+eax*2]
+  4010c6:	d1 e7                	shl    edi,1
+  4010c8:	8b ef                	mov    ebp,edi
+  4010ca:	8d 3c 59             	lea    edi,[ecx+ebx*2]
+  4010cd:	8d 3c 7f             	lea    edi,[edi+edi*2]
+  4010d0:	2b fd                	sub    edi,ebp
+  4010d2:	2b fa                	sub    edi,edx
+  4010d4:	83 ff 68             	cmp    edi,0x68
+  4010d7:	75 52                	jne    0x40112b
+  4010d9:	8b fe                	mov    edi,esi
+  4010db:	8d 2c cd 00 00 00 00 	lea    ebp,[ecx*8+0x0]
+  4010e2:	2b fa                	sub    edi,edx
+  4010e4:	2b e9                	sub    ebp,ecx
+  4010e6:	03 df                	add    ebx,edi
+  4010e8:	8d 3c 7b             	lea    edi,[ebx+edi*2]
+  4010eb:	03 ef                	add    ebp,edi
+  4010ed:	03 e8                	add    ebp,eax
+  4010ef:	81 fd c2 01 00 00    	cmp    ebp,0x1c2
+  4010f5:	75 34                	jne    0x40112b
+  4010f7:	8d 3c 11             	lea    edi,[ecx+edx*1]
+  4010fa:	8d 3c 7f             	lea    edi,[edi+edi*2]
+  4010fd:	8b ef                	mov    ebp,edi
+  4010ff:	8d 3c c5 00 00 00 00 	lea    edi,[eax*8+0x0]
+  401106:	2b f8                	sub    edi,eax
+  401108:	2b ef                	sub    ebp,edi
+  40110a:	0f be 7c 24 10       	movsx  edi,BYTE PTR [esp+0x10]
+  40110f:	8d 1c 3f             	lea    ebx,[edi+edi*1]
+  401112:	03 eb                	add    ebp,ebx
+  401114:	03 ee                	add    ebp,esi
+  401116:	83 fd 57             	cmp    ebp,0x57
+  401119:	75 10                	jne    0x40112b
+  40111b:	03 f1                	add    esi,ecx
+  40111d:	03 f2                	add    esi,edx
+  40111f:	03 f7                	add    esi,edi
+  401121:	03 f0                	add    esi,eax
+  401123:	81 fe 0e 01 00 00    	cmp    esi,0x10e
+  401129:	74 05                	je     0x401130
+  40112b:	e8 80 00 00 00       	call   0x4011b0
+  401130:	8a 4c 24 16          	mov    cl,BYTE PTR [esp+0x16]
+  401134:	5f                   	pop    edi
+  401135:	80 f1 6f             	xor    cl,0x6f
+  401138:	5e                   	pop    esi
+  401139:	5d                   	pop    ebp
+  40113a:	80 f9 5f             	cmp    cl,0x5f
+  40113d:	5b                   	pop    ebx
+  40113e:	74 05                	je     0x401145
+  401140:	e8 6b 00 00 00       	call   0x4011b0
+  401145:	8a 54 24 07          	mov    dl,BYTE PTR [esp+0x7]
+  401149:	8a 44 24 06          	mov    al,BYTE PTR [esp+0x6]
+  40114d:	32 d0                	xor    dl,al
+  40114f:	74 05                	je     0x401156
+  401151:	e8 5a 00 00 00       	call   0x4011b0
+  401156:	0f be 4c 24 08       	movsx  ecx,BYTE PTR [esp+0x8]
+  40115b:	0f be 44 24 05       	movsx  eax,BYTE PTR [esp+0x5]
+  401160:	8b d1                	mov    edx,ecx
+  401162:	2b d0                	sub    edx,eax
+  401164:	83 fa 03             	cmp    edx,0x3
+  401167:	75 0a                	jne    0x401173
+  401169:	03 c8                	add    ecx,eax
+  40116b:	81 f9 eb 00 00 00    	cmp    ecx,0xeb
+  401171:	74 05                	je     0x401178
+  401173:	e8 38 00 00 00       	call   0x4011b0
+  401178:	68 f4 70 40 00       	push   0x4070f4
+  40117d:	e8 98 00 00 00       	call   0x40121a
+  401182:	68 a8 70 40 00       	push   0x4070a8
+  401187:	e8 8e 00 00 00       	call   0x40121a
+  40118c:	68 60 70 40 00       	push   0x407060
+  401191:	e8 84 00 00 00       	call   0x40121a
+  401196:	68 30 70 40 00       	push   0x407030
+  40119b:	e8 7a 00 00 00       	call   0x40121a
+  4011a0:	e8 71 3e 00 00       	call   0x405016
+  4011a5:	81 c4 f8 03 00 00    	add    esp,0x3f8
+  4011ab:	c3                   	ret
