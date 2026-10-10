@@ -1,0 +1,48 @@
+
+CrackMe.exe:     file format pei-i386
+
+
+Disassembly of section .text:
+
+00401840 <.text+0x840>:
+  401840:	00 8b 35 04 20 40    	add    BYTE PTR [ebx+0x40200435],cl
+  401846:	00 81 e6 ff 7f ff    	add    BYTE PTR [ecx-0x80001a],al
+  40184c:	ff 89 c3 c1 e3 1f    	dec    DWORD PTR [ecx+0x1fe3c1c3]
+  401852:	c1 fb 1f             	sar    ebx,0x1f
+  401855:	c1 e3 0f             	shl    ebx,0xf
+  401858:	81 e3 00 80 00 00    	and    ebx,0x8000
+  40185e:	09 de                	or     esi,ebx
+  401860:	89 35 04 20 40 00    	mov    DWORD PTR ds:0x402004,esi
+  401866:	8b 45 f4             	mov    eax,DWORD PTR [ebp-0xc]
+  401869:	8b 00                	mov    eax,DWORD PTR [eax]
+  40186b:	a3 d0 30 40 00       	mov    ds:0x4030d0,eax
+  401870:	68 66 06 00 00       	push   0x666
+  401875:	e8 ac fb ff ff       	call   0x401426
+  40187a:	89 c7                	mov    edi,eax
+  40187c:	6a 00                	push   0x0
+  40187e:	ff 35 d0 30 40 00    	push   DWORD PTR ds:0x4030d0
+  401884:	df 2c 24             	fild   QWORD PTR [esp]
+  401887:	83 c4 08             	add    esp,0x8
+  40188a:	83 ec 04             	sub    esp,0x4
+  40188d:	d9 1c 24             	fstp   DWORD PTR [esp]
+  401890:	e8 56 fb ff ff       	call   0x4013eb
+  401895:	57                   	push   edi
+  401896:	e8 8b fb ff ff       	call   0x401426
+  40189b:	89 c7                	mov    edi,eax
+  40189d:	68 9c 30 40 00       	push   0x40309c
+  4018a2:	e8 6d 01 00 00       	call   0x401a14
+  4018a7:	89 45 f8             	mov    DWORD PTR [ebp-0x8],eax
+  4018aa:	ff 35 d0 30 40 00    	push   DWORD PTR ds:0x4030d0
+  4018b0:	e8 71 fb ff ff       	call   0x401426
+  4018b5:	83 c4 44             	add    esp,0x44
+  4018b8:	89 c7                	mov    edi,eax
+  4018ba:	8b 45 f8             	mov    eax,DWORD PTR [ebp-0x8]
+  4018bd:	33 05 d0 30 40 00    	xor    eax,DWORD PTR ds:0x4030d0
+  4018c3:	29 f8                	sub    eax,edi
+  4018c5:	5f                   	pop    edi
+  4018c6:	5e                   	pop    esi
+  4018c7:	5b                   	pop    ebx
+  4018c8:	c9                   	leave
+  4018c9:	c3                   	ret
+  4018ca:	00 00                	add    BYTE PTR [eax],al
+  4018cc:	dd 44 24 04          	fld    QWORD PTR [esp+0x4]

@@ -501,6 +501,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c0fd/original/crackme.zip"
     title: "crackmes.de's keygenme_by_d0min4ted by d0min4ted"
 
+  5ab77f5333c5d40ad448c106:
+    sha256: "372a5b217df9c030522b8307fe609dad86382b331e5d1345f59936b7355038ec"
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c106/original/crackme_junkcode.zip"
+    title: "crackmes.de's crackme_july_8th_2002_release by junkcode"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -914,3 +919,7 @@ by_sha256:
     id: 5ab77f5333c5d40ad448c0fd
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c0fd/original/crackme.zip"
     page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c0fd
+  372a5b217df9c030522b8307fe609dad86382b331e5d1345f59936b7355038ec:
+    id: 5ab77f5333c5d40ad448c106
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c106/original/crackme_junkcode.zip"
+    page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c106

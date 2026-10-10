@@ -1,0 +1,53 @@
+
+CrackMe.exe:     file format pei-i386
+
+
+Disassembly of section .text:
+
+00401426 <.text+0x426>:
+  401426:	55                   	push   ebp
+  401427:	89 e5                	mov    ebp,esp
+  401429:	51                   	push   ecx
+  40142a:	50                   	push   eax
+  40142b:	53                   	push   ebx
+  40142c:	56                   	push   esi
+  40142d:	8b 5d 08             	mov    ebx,DWORD PTR [ebp+0x8]
+  401430:	8a 05 38 30 40 00    	mov    al,BYTE PTR ds:0x403038
+  401436:	f6 c3 01             	test   bl,0x1
+  401439:	74 10                	je     0x40144b
+  40143b:	81 fb 10 27 00 00    	cmp    ebx,0x2710
+  401441:	72 08                	jb     0x40144b
+  401443:	81 fb 20 4e 00 00    	cmp    ebx,0x4e20
+  401449:	76 04                	jbe    0x40144f
+  40144b:	31 c0                	xor    eax,eax
+  40144d:	eb 3b                	jmp    0x40148a
+  40144f:	be 03 00 00 00       	mov    esi,0x3
+  401454:	eb 11                	jmp    0x401467
+  401456:	89 d8                	mov    eax,ebx
+  401458:	31 d2                	xor    edx,edx
+  40145a:	f7 f6                	div    esi
+  40145c:	09 d2                	or     edx,edx
+  40145e:	75 04                	jne    0x401464
+  401460:	31 c0                	xor    eax,eax
+  401462:	eb 26                	jmp    0x40148a
+  401464:	83 c6 02             	add    esi,0x2
+  401467:	6a 00                	push   0x0
+  401469:	53                   	push   ebx
+  40146a:	df 2c 24             	fild   QWORD PTR [esp]
+  40146d:	83 c4 08             	add    esp,0x8
+  401470:	d9 fa                	fsqrt
+  401472:	dd 5d f8             	fstp   QWORD PTR [ebp-0x8]
+  401475:	6a 00                	push   0x0
+  401477:	56                   	push   esi
+  401478:	df 2c 24             	fild   QWORD PTR [esp]
+  40147b:	83 c4 08             	add    esp,0x8
+  40147e:	dd 45 f8             	fld    QWORD PTR [ebp-0x8]
+  401481:	df e9                	fucomip st,st(1)
+  401483:	dd d8                	fstp   st(0)
+  401485:	77 cf                	ja     0x401456
+  401487:	31 c0                	xor    eax,eax
+  401489:	40                   	inc    eax
+  40148a:	5e                   	pop    esi
+  40148b:	5b                   	pop    ebx
+  40148c:	c9                   	leave
+  40148d:	c3                   	ret

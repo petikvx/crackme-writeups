@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5333c5d40ad448c106
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c106
+  download: https://crackmes.one/download/crackme/5ab77f5333c5d40ad448c106
+
+title: "crackme_july_8th_2002_release by junkcode"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Unspecified/other"
+
+difficulty: 2.0
+quality: null
+size: ""
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme_junkcode.zip"
+  name: "crackme_junkcode.zip"
+  sha256: "372a5b217df9c030522b8307fe609dad86382b331e5d1345f59936b7355038ec"
+  md5: "caeaed495a216d155dbad57349512e32"
+  size_bytes: 4628
+
+status: solved
+solution_summary: "key = premier impair dans [10000,20000], cases = memes bits (bit 0 en premier) ; ex. 19991"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-10T16:53:44Z"
