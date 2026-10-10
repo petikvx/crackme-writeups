@@ -506,6 +506,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c106/original/crackme_junkcode.zip"
     title: "crackmes.de's crackme_july_8th_2002_release by junkcode"
 
+  5ab77f5333c5d40ad448c108:
+    sha256: "e65622b09e081d57e8eecabeb4f0f6bf8b55a9c81c46938aea1e517e11e7aa75"
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c108/original/LXDs_KeygenMe_N°1.zip"
+    title: "crackmes.de's keygenme_n1 by xxlxdxx"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -923,3 +928,7 @@ by_sha256:
     id: 5ab77f5333c5d40ad448c106
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c106/original/crackme_junkcode.zip"
     page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c106
+  e65622b09e081d57e8eecabeb4f0f6bf8b55a9c81c46938aea1e517e11e7aa75:
+    id: 5ab77f5333c5d40ad448c108
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c108/original/LXDs_KeygenMe_N°1.zip"
+    page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c108

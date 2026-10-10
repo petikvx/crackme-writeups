@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5333c5d40ad448c108
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c108
+  download: https://crackmes.one/download/crackme/5ab77f5333c5d40ad448c108
+
+title: "keygenme_n1 by xxlxdxx"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++"
+
+difficulty: 2.5
+quality: null
+size: ""
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/LXDs_KeygenMe_N°1.zip"
+  name: "LXDs_KeygenMe_N°1.zip"
+  sha256: "e65622b09e081d57e8eecabeb4f0f6bf8b55a9c81c46938aea1e517e11e7aa75"
+  md5: "140a5456831be7af478c1ccd48986d6b"
+  size_bytes: 78432
+
+status: solved
+solution_summary: "keygen : md5(nom) en HEX majuscule ^ octet cpuid ^ md5(''), 1er chiffre de |v|, 3 blocs de 10 permutés ; petik/0x34 -> 7671121155-6177616665-1569176451"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-10T16:55:09Z"

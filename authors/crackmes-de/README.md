@@ -124,6 +124,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 96 | [crackme_3](5ab77f5333c5d40ad448c105/) | br0ken | Windows PE32 console | keygen `br0-A-BC-ken` (table `@^*R$FVT%@`) ; petik→`br0-341111-293352267-ken` |
 | 97 | [keygenme_by_d0min4ted](5ab77f5333c5d40ad448c0fd/) | d0min4ted | Windows .NET GUI | keygen `int(rev(hex(nom))[:9])*len^3` ; PETI→`6045145920` |
 | 98 | [crackme_july_8th_2002_release](5ab77f5333c5d40ad448c106/) | junkcode | Windows PE32 GUI | key = premier ∈ [10000,20000] = cases (bit 0 en premier) ; ex. `19991` |
+| 99 | [keygenme_n1](5ab77f5333c5d40ad448c108/) | xxlxdxx (LXD) | Windows PE32 GUI (MSVC) | keygen MD5(nom) HEX ^ octet `cpuid` ^ md5('') → 1er chiffre, 3 blocs permutés ; petik/0x34→`7671121155-6177616665-1569176451` |
 
 ## Mis de côté (PARKED — y revenir)
 
