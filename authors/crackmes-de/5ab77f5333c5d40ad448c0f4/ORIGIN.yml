@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5333c5d40ad448c0f4
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c0f4
+  download: https://crackmes.one/download/crackme/5ab77f5333c5d40ad448c0f4
+
+title: "qcrk5 by qnix"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: "C/C++"
+
+difficulty: 1.3
+quality: 4.0
+size: "195.81 KB"
+published: "2018-03-25 10:52"
+
+series_index: null
+local_slug: "qcrk5"
+
+binary:
+  path: "original/qcrk5.tgz"
+  name: "qcrk5.tgz"
+  sha256: "81ba4b410efd8d27c9cd44e363e556e1777a28c37cdf8f55b10ff7a2d4bad22f"
+  md5: "536d4666a836fb76fd6d9731a57879fa"
+  size_bytes: 200511
+
+status: solved
+solution_summary: "password 91867153 — ((atoi+0x65)*255*0x909090)==0x4b7f3da0"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-10T12:57:27Z"

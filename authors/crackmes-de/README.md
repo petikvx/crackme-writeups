@@ -109,6 +109,8 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 
 | 89 | [qcrk_3](5ab77f5333c5d40ad448c0f3/) | qnix | Linux ELF32 | **`KEY=petik`** (getenv non-NULL) |
 
+| 90 | [qcrk5](5ab77f5333c5d40ad448c0f4/) | qnix | Linux ELF32 static | password **`91867153`** |
+
 ## Mis de côté (PARKED — y revenir)
 
 | Titre | ID | Blocage / reprise |
