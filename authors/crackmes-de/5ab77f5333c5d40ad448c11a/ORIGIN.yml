@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5333c5d40ad448c11a
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c11a
+  download: https://crackmes.one/download/crackme/5ab77f5333c5d40ad448c11a
+
+title: "learn_the_first_few_tricks_1 by deibiz_xxl"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++ (MinGW)"
+
+difficulty: 2.5
+quality: 4.5
+size: "5.58 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/LTFFT_1.zip"
+  name: "LTFFT_1.zip"
+  sha256: "b63e5fc851ee69e4cdccc8f85196e4728d3bc21e6bbc38d9c25cce52ec39118c"
+  md5: "7632fee65cafe6357eae54da2cb01bee"
+  size_bytes: 5715
+
+status: solved
+solution_summary: "pass [DEIBIZ] = octets ZCDHAHY\\ de .data +1, compare par strcmp"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-10T19:59:03Z"

@@ -536,6 +536,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c118/original/CrackMe_#1_-_Easy_Timers_-_Anarchy2k3.zip"
     title: "crackmes.de's crackme_1_easy_timers_by_anarchy2k3 by anarchy2k3"
 
+  5ab77f5333c5d40ad448c11a:
+    sha256: "b63e5fc851ee69e4cdccc8f85196e4728d3bc21e6bbc38d9c25cce52ec39118c"
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c11a/original/LTFFT_1.zip"
+    title: "crackmes.de's learn_the_first_few_tricks_1 by deibiz_xxl"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -977,3 +982,7 @@ by_sha256:
     id: 5ab77f5333c5d40ad448c118
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c118/original/CrackMe_#1_-_Easy_Timers_-_Anarchy2k3.zip"
     page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c118
+  b63e5fc851ee69e4cdccc8f85196e4728d3bc21e6bbc38d9c25cce52ec39118c:
+    id: 5ab77f5333c5d40ad448c11a
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c11a/original/LTFFT_1.zip"
+    page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c11a
