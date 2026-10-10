@@ -157,6 +157,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [svz](authors/svz/README.md) | SVz | 2 (Orrery + Orrery 2) | 2 / 2 |
 | [ray33ee](authors/ray33ee/README.md) | ray33ee | 3 (x or and add + obscurio-1 + obscurio-3) | 3 / 3 |
 | [muhemed](authors/muhemed/README.md) | muhemed | 1 (muhemed crackme) | 1 / 1 |
+| [muffin](authors/muffin/README.md) | muffin | 1 (The Goat) | 1 / 1 |
 | [soulreaper](authors/soulreaper/README.md) | soulreaper | 3 (Dead Terminal + XorGate + Death Trap) | 3 / 3 |
 | [toasterbirb](authors/toasterbirb/README.md) | toasterbirb | 7 (yap + série asm flags…branchless-fixed) | 7 / 7 |
 | [ttlhacker](authors/ttlhacker/README.md) | ttlhacker | 3 (hell86 + jittery + hard_software) | 3 / 3 |
@@ -249,6 +250,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-10 | [The Goat](authors/muffin/6ac9fe51cdee6e086a173728/) | muffin |
 | 2026-10-10 | [keygenme_n1](authors/crackmes-de/5ab77f5333c5d40ad448c108/) | crackmes.de / xxlxdxx |
 | 2026-10-10 | [crackme_july_8th_2002_release](authors/crackmes-de/5ab77f5333c5d40ad448c106/) | crackmes.de / junkcode |
 | 2026-10-10 | [keygenme_by_d0min4ted](authors/crackmes-de/5ab77f5333c5d40ad448c0fd/) | crackmes.de / d0min4ted |

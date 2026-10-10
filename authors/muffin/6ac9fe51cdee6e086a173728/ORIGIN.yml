@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré manuellement (Windows, pas de bash add-crackme.sh)
+id: 6ac9fe51cdee6e086a173728
+
+urls:
+  page: https://crackmes.one/crackme/6ac9fe51cdee6e086a173728
+  download: https://crackmes.one/download/crackme/6ac9fe51cdee6e086a173728
+
+title: "muffin's The Goat"
+author_on_site: "muffin"
+author_local: "muffin"
+
+platform: "Windows"
+arch: "x86-64"
+language: "Unspecified/other"
+
+difficulty: 3.0
+quality: 4.0
+size: "213.50 KB"
+published: "2026-10-10"
+
+series_index: null
+local_slug: the-goat
+
+binary:
+  path: "original/crackme.exe"
+  name: "crackme.exe"
+  sha256: "64cf4b1fb49905206b0845e4a0d35df8fb05f7175e9330e29630ea9da1a45713"
+  md5: "3fec080a56a1da3e49685cf7cefd57de"
+  size_bytes: 218624
+
+status: solved
+solution_summary: "réponse ye (FNV-1a 0x08ed4f07b58a0243, MBA clean) → flag{yeah you got it} (HMAC-SHA256 + ChaCha20 IETF). Live Hyper-V / anti-debug XOR GOLDEN."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-10T00:00:00Z"

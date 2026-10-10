@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6ac9fe51cdee6e086a173728:
+    sha256: "64cf4b1fb49905206b0845e4a0d35df8fb05f7175e9330e29630ea9da1a45713"
+    path: "authors/muffin/6ac9fe51cdee6e086a173728/original/crackme.exe"
+    title: "muffin's The Goat"
+
+by_sha256:
+  64cf4b1fb49905206b0845e4a0d35df8fb05f7175e9330e29630ea9da1a45713:
+    id: 6ac9fe51cdee6e086a173728
+    path: "authors/muffin/6ac9fe51cdee6e086a173728/original/crackme.exe"
+    page: https://crackmes.one/crackme/6ac9fe51cdee6e086a173728

@@ -1,0 +1,11 @@
+=== ye  exit 1
+Who is the greatest artist alive? (the GOAT)
+answer > That is not it.
+
+=== kanye  exit 1
+Who is the greatest artist alive? (the GOAT)
+answer > That is not it.
+
+=== nobody  exit 1
+Who is the greatest artist alive? (the GOAT)
+answer > Denied.
