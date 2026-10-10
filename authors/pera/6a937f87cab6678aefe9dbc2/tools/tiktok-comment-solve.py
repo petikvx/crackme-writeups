@@ -1,26 +1,26 @@
 #!/usr/bin/env python3
-"""Solveur — Pera's Tiktok comment crackme (double crackme SDL)
+"""Solver — Pera's Tiktok comment crackme (double crackme SDL)
 
-ELF64 GUI : ./thisismebtw [text] [passwrd]
+ELF64 GUI: ./thisismebtw [text] [passwrd]
 
-Deux barres indépendantes (vert = OK, rouge = KO) :
+Two independent bars (green = OK, red = KO):
 
-  Partie 1 (barre haute) — hash custom sur text, len > 3 :
+  Part 1 (top bar) — custom hash over text, len > 3:
     h = 5381
     for c in text: h = len + ((33*h) ^ c)   # uint32
-    OK si (h ^ 0x7FADBEEF) % 0x26F5 == 42
+    OK if (h ^ 0x7FADBEEF) % 0x26F5 == 42
 
-  Partie 2 (barre basse) — seulement si partie 1 échoue,
-  len(text)==len(pass)>3 :
+  Part 2 (bottom bar) — only when part 1 fails,
+  len(text)==len(pass)>3:
     a=b=0
     for t,p: a = ((t^p)+a) ^ 0x55
              s = t+p+b ; b = (s & ~0xFF) | ((s & 0xFF) ^ 0xAA)
-    OK si (b ^ a) % 0x539 == 42
+    OK if (b ^ a) % 0x539 == 42
 
-Les deux verts en même temps sont impossibles (partie 2 exige !partie1).
+Both bars green at once is impossible (part 2 requires !part1).
 
 Usage:
-  python3 tiktok-comment-solve.py              # exemples petik + part1
+  python3 tiktok-comment-solve.py              # petik example + part1
   python3 tiktok-comment-solve.py -q
   python3 tiktok-comment-solve.py --part 1
   python3 tiktok-comment-solve.py --part 2 --text petik
@@ -94,10 +94,10 @@ def find_part1(max_len: int = 6, limit: int = 1) -> list[bytes]:
 def find_part2(text: bytes, limit: int = 1) -> list[bytes]:
     if check_part1(text):
         raise ValueError(
-            f"{text!r} valide déjà la partie 1 — choisir un text qui échoue"
+            f"{text!r} already satisfies part 1 — pick a text that fails it"
         )
     if len(text) <= 3:
-        raise ValueError("text doit avoir len > 3")
+        raise ValueError("text must have len > 3")
     found: list[bytes] = []
     for prod in itertools.product(ALPHABET, repeat=len(text)):
         pwd = bytes(prod)
@@ -109,7 +109,7 @@ def find_part2(text: bytes, limit: int = 1) -> list[bytes]:
 
 
 def _gdb_env() -> dict[str, str]:
-    """Préfixe un SDL2_image local (/tmp/…) s’il existe (dev sans paquet système)."""
+    """Prepend a local SDL2_image (/tmp/…) when present (dev box without the system package)."""
     env = dict(os.environ)
     extra = Path("/tmp/sdl2img/usr/lib/x86_64-linux-gnu")
     if extra.is_dir():
@@ -119,7 +119,7 @@ def _gdb_env() -> dict[str, str]:
 
 
 def gdb_flags(text: str, password: str) -> tuple[int, int] | None:
-    """Lit v11/v12 juste après le store (main+0x420) via gdb."""
+    """Read v11/v12 right after the store (main+0x420) via gdb."""
     if not BIN.is_file():
         return None
     try:
@@ -158,11 +158,11 @@ def gdb_flags(text: str, password: str) -> tuple[int, int] | None:
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--text", "--user", default=DEFAULT_TEXT, help="text pour partie 2 (défaut: petik)")
-    ap.add_argument("--part", type=int, choices=(1, 2), help="ne résoudre qu'une partie")
-    ap.add_argument("-q", action="store_true", help="sortie minimale")
-    ap.add_argument("--check", action="store_true", help="vérifie les flags via gdb")
-    ap.add_argument("--limit", type=int, default=1, help="nombre de solutions à afficher")
+    ap.add_argument("--text", "--user", default=DEFAULT_TEXT, help="text for part 2 (default: petik)")
+    ap.add_argument("--part", type=int, choices=(1, 2), help="solve only one part")
+    ap.add_argument("-q", action="store_true", help="minimal output")
+    ap.add_argument("--check", action="store_true", help="check the flags via gdb")
+    ap.add_argument("--limit", type=int, default=1, help="how many solutions to print")
     args = ap.parse_args()
 
     text_b = args.text.encode()
@@ -203,13 +203,13 @@ def main() -> int:
     if do1:
         sols = find_part1(limit=args.limit)
         if not sols:
-            print("aucune solution partie 1", file=sys.stderr)
+            print("no part 1 solution", file=sys.stderr)
             return 1
         for s in sols:
             if args.q:
                 print(s.decode())
             else:
-                print(f"part1 text={s.decode()!r}  (passwrd quelconque, ex. xxxx)")
+                print(f"part1 text={s.decode()!r}  (passwrd can be anything, e.g. xxxx)")
 
     if do2:
         try:
@@ -218,7 +218,7 @@ def main() -> int:
             print(e, file=sys.stderr)
             return 1
         if not sols:
-            print("aucune solution partie 2", file=sys.stderr)
+            print("no part 2 solution", file=sys.stderr)
             return 1
         for p in sols:
             if args.q:
