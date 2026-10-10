@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5333c5d40ad448c0d5
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c0d5
+  download: https://crackmes.one/download/crackme/5ab77f5333c5d40ad448c0d5
+
+title: "keygenme_2_by_nicohogtag by nicohogtag"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++ (MinGW)"
+
+difficulty: 1.5
+quality: null
+size: ""
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Keygenme_#2_by_Nicohogtag.zip"
+  name: "Keygenme_#2_by_Nicohogtag.zip"
+  sha256: "767e2541ce49a21ecef912c6df416a9fabb93bbc11baae31cbf68431381d011f"
+  md5: "0159b2f1460059cbf27ab90c6b510f46"
+  size_bytes: 153110
+
+status: solved
+solution_summary: "keygen somme/cumul sur 10 octets ; petikpetik → 608202596"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-10T08:51:40Z"
