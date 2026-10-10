@@ -5,8 +5,17 @@ by_id:
     path: "authors/zydak/6a81081208712c1a17cbadb3/original/CrackmeLin64"
     title: "Zydak's Very simple but obfuscated crackme"
 
+  6ac989246349e4b2540c6fe9:
+    sha256: "b507cbce9f98e2ef5015682ee738e7fb83c93069d6d7253f47b3d69b47f5e336"
+    path: "authors/zydak/6ac989246349e4b2540c6fe9/original/Crackme"
+    title: "Zydak's Tetris DRM"
+
 by_sha256:
   0b32dac9d741bb5dbd4070614a4ad233f37cc2807def6692f3dffa1d742e4a7d:
     id: 6a81081208712c1a17cbadb3
     path: "authors/zydak/6a81081208712c1a17cbadb3/original/CrackmeLin64"
     page: https://crackmes.one/crackme/6a81081208712c1a17cbadb3
+  b507cbce9f98e2ef5015682ee738e7fb83c93069d6d7253f47b3d69b47f5e336:
+    id: 6ac989246349e4b2540c6fe9
+    path: "authors/zydak/6ac989246349e4b2540c6fe9/original/Crackme"
+    page: https://crackmes.one/crackme/6ac989246349e4b2540c6fe9

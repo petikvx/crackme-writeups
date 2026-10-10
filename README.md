@@ -226,6 +226,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [radoncoding](authors/radoncoding/README.md) | RadonCoding | 1 (binsafe) | 1 / 1 |
 | [nimanikjoo](authors/nimanikjoo/README.md) | NimaNikjoo | 1 (nightmare CrackMe) | 1 / 1 |
 | [yugnatd](authors/yugnatd/README.md) | YugnatD | 1 (WarGames) | 1 / 1 |
+| [zydak](authors/zydak/README.md) | zydak | 2 (simple obfuscated + Tetris DRM) | 0 / 2 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -233,6 +234,7 @@ Challenges `status: pending` volontairement suspendus (`parked: true` dans `ORIG
 
 | Crackme | Auteur | Reprendre |
 |---|---|---|
+| [Tetris DRM](authors/zydak/6ac989246349e4b2540c6fe9/) | zydak | prologue `main` @ `0x124a00` ; `EB FF`/`jmp rax` ; suite `0xF6968` ; `SIGILL` sous strace ; notes `analysis/NOTES.md` |
 | [Froggate II: Croackpocallypse](authors/victormeloasm/6aa471e83b246e477b6c0be7/) | victormeloasm | `transform(serial)==mask` prouvé GDB ; inv. transform (~407 mixers) TBD |
 | [custom vmp crackme](authors/alpjs/6aa4b6d3585e8875bcbebf80/) | alpjs | crypto OK ; brute H100 (`analysis/H100.md`) ; a-z len5 ~68 % ; flag bloc0 `Doğru! F` |
 | [license-cli](authors/brembo/6a8c54dc585e8875bcbebcfb/) | brembo | préimage SHA-256 `112c2add…` (x64dbg XOR OK ; rockyou×rules miss) |

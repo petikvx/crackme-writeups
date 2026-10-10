@@ -1,0 +1,52 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6ac989246349e4b2540c6fe9
+
+urls:
+  page: https://crackmes.one/crackme/6ac989246349e4b2540c6fe9
+  download: https://crackmes.one/download/crackme/6ac989246349e4b2540c6fe9
+
+title: "Zydak's Tetris DRM"
+author_on_site: "Zydak"
+author_local: "zydak"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+# Le ZIP crackmes.one ne contient que original/README.md (leurre, 84 o).
+# L’archive réelle est le 7z Google Drive (tetris-drm.7z), sans mot de passe.
+binary:
+  path: "original/Crackme"
+  name: "Crackme"
+  sha256: "b507cbce9f98e2ef5015682ee738e7fb83c93069d6d7253f47b3d69b47f5e336"
+  size_bytes: 2649064
+
+companions:
+  - path: "original/CXXD4"
+    role: "jeu (miniaudio / socket)"
+    sha256: "1d86a62bc49ab8ebeb0e044d4f2c0d1c8203a8d4de2abaa5d0c6b920b46c5d13"
+    size_bytes: 8723968
+  - path: "original/tetris-drm.7z"
+    role: "archive Google Drive"
+    sha256: "4e9ca5681cce70d4863563fdac7c2bcbdf30a2b0d9dff0d4b80138877c265292"
+    size_bytes: 12046903
+  - path: "original/README.md"
+    role: "leurre du ZIP crackmes.one"
+    sha256: "e106e8d753ad8260297863e2ea3fb1cc55f74435cbc87b4d625e6d97c02bc8c6"
+    size_bytes: 84
+
+status: pending
+parked: true
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-10T11:46:45Z"
