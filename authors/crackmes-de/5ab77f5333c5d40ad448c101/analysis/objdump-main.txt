@@ -1,0 +1,75 @@
+
+/tmp/c101/cm4.exe:     file format pei-i386
+
+
+Disassembly of section .text:
+
+004013b2 <_main+0x122>:
+  4013b2:	8d 85 28 ff ff ff    	lea    eax,[ebp-0xd8]
+  4013b8:	89 44 24 04          	mov    DWORD PTR [esp+0x4],eax
+  4013bc:	c7 04 24 4b 32 40 00 	mov    DWORD PTR [esp],0x40324b
+  4013c3:	e8 a8 06 00 00       	call   401a70 <_scanf>
+  4013c8:	8d 85 28 ff ff ff    	lea    eax,[ebp-0xd8]
+  4013ce:	89 04 24             	mov    DWORD PTR [esp],eax
+  4013d1:	e8 8a 06 00 00       	call   401a60 <_strlen>
+  4013d6:	89 85 78 fd ff ff    	mov    DWORD PTR [ebp-0x288],eax
+  4013dc:	8d 85 28 ff ff ff    	lea    eax,[ebp-0xd8]
+  4013e2:	89 04 24             	mov    DWORD PTR [esp],eax
+  4013e5:	e8 76 06 00 00       	call   401a60 <_strlen>
+  4013ea:	83 f8 06             	cmp    eax,0x6
+  4013ed:	0f 85 be 00 00 00    	jne    4014b1 <_main+0x221>
+  4013f3:	0f b6 85 28 ff ff ff 	movzx  eax,BYTE PTR [ebp-0xd8]
+  4013fa:	34 34                	xor    al,0x34
+  4013fc:	0f be c0             	movsx  eax,al
+  4013ff:	89 85 74 fd ff ff    	mov    DWORD PTR [ebp-0x28c],eax
+  401405:	0f b6 85 29 ff ff ff 	movzx  eax,BYTE PTR [ebp-0xd7]
+  40140c:	34 78                	xor    al,0x78
+  40140e:	0f be c0             	movsx  eax,al
+  401411:	89 85 70 fd ff ff    	mov    DWORD PTR [ebp-0x290],eax
+  401417:	0f b6 85 2a ff ff ff 	movzx  eax,BYTE PTR [ebp-0xd6]
+  40141e:	34 12                	xor    al,0x12
+  401420:	0f be c0             	movsx  eax,al
+  401423:	89 85 6c fd ff ff    	mov    DWORD PTR [ebp-0x294],eax
+  401429:	0f be 85 2b ff ff ff 	movsx  eax,BYTE PTR [ebp-0xd5]
+  401430:	35 fe 00 00 00       	xor    eax,0xfe
+  401435:	89 85 68 fd ff ff    	mov    DWORD PTR [ebp-0x298],eax
+  40143b:	0f be 85 2c ff ff ff 	movsx  eax,BYTE PTR [ebp-0xd4]
+  401442:	35 db 00 00 00       	xor    eax,0xdb
+  401447:	89 85 64 fd ff ff    	mov    DWORD PTR [ebp-0x29c],eax
+  40144d:	0f b6 85 2d ff ff ff 	movzx  eax,BYTE PTR [ebp-0xd3]
+  401454:	34 78                	xor    al,0x78
+  401456:	0f be c0             	movsx  eax,al
+  401459:	89 85 60 fd ff ff    	mov    DWORD PTR [ebp-0x2a0],eax
+  40145f:	8b 85 60 fd ff ff    	mov    eax,DWORD PTR [ebp-0x2a0]
+  401465:	89 44 24 1c          	mov    DWORD PTR [esp+0x1c],eax
+  401469:	8b 85 64 fd ff ff    	mov    eax,DWORD PTR [ebp-0x29c]
+  40146f:	89 44 24 18          	mov    DWORD PTR [esp+0x18],eax
+  401473:	8b 85 68 fd ff ff    	mov    eax,DWORD PTR [ebp-0x298]
+  401479:	89 44 24 14          	mov    DWORD PTR [esp+0x14],eax
+  40147d:	8b 85 6c fd ff ff    	mov    eax,DWORD PTR [ebp-0x294]
+  401483:	89 44 24 10          	mov    DWORD PTR [esp+0x10],eax
+  401487:	8b 85 70 fd ff ff    	mov    eax,DWORD PTR [ebp-0x290]
+  40148d:	89 44 24 0c          	mov    DWORD PTR [esp+0xc],eax
+  401491:	8b 85 74 fd ff ff    	mov    eax,DWORD PTR [ebp-0x28c]
+  401497:	89 44 24 08          	mov    DWORD PTR [esp+0x8],eax
+  40149b:	c7 44 24 04 4e 32 40 	mov    DWORD PTR [esp+0x4],0x40324e
+  4014a2:	00 
+  4014a3:	8d 85 58 fe ff ff    	lea    eax,[ebp-0x1a8]
+  4014a9:	89 04 24             	mov    DWORD PTR [esp],eax
+  4014ac:	e8 2f 06 00 00       	call   401ae0 <_wsprintfA>
+  4014b1:	8d 85 88 fd ff ff    	lea    eax,[ebp-0x278]
+  4014b7:	8d 95 58 fe ff ff    	lea    edx,[ebp-0x1a8]
+  4014bd:	89 44 24 04          	mov    DWORD PTR [esp+0x4],eax
+  4014c1:	89 14 24             	mov    DWORD PTR [esp],edx
+  4014c4:	e8 87 05 00 00       	call   401a50 <_strcmp>
+  4014c9:	85 c0                	test   eax,eax
+  4014cb:	75 0e                	jne    4014db <_main+0x24b>
+  4014cd:	c7 04 24 5c 32 40 00 	mov    DWORD PTR [esp],0x40325c
+  4014d4:	e8 a7 05 00 00       	call   401a80 <_printf>
+  4014d9:	eb 0c                	jmp    4014e7 <_main+0x257>
+  4014db:	c7 04 24 87 32 40 00 	mov    DWORD PTR [esp],0x403287
+  4014e2:	e8 99 05 00 00       	call   401a80 <_printf>
+  4014e7:	e8 d4 04 00 00       	call   4019c0 <_getch>
+  4014ec:	b8 00 00 00 00       	mov    eax,0x0
+  4014f1:	c9                   	leave
+  4014f2:	c3                   	ret

@@ -115,6 +115,8 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 
 | 92 | [CrackMe#1](5ab77f5333c5d40ad448c100/) | br0ken | Windows PE32 console | pass **`PaSSw0rD`** ; keygen `Σord−len−1` (petik→535) |
 
+| 93 | [crackme_4](5ab77f5333c5d40ad448c101/) | br0ken | Windows PE32 console | pass **`yippee`** (XOR par char + `%X` vs `4D11628EBE1D`) |
+
 ## Mis de côté (PARKED — y revenir)
 
 | Titre | ID | Blocage / reprise |
