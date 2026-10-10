@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5333c5d40ad448c102
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c102
+  download: https://crackmes.one/download/crackme/5ab77f5333c5d40ad448c102
+
+title: "serialkeygen_me by br0ken"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++"
+
+difficulty: 2.5
+quality: null
+size: ""
+published: "2018-03-25 10:52"
+
+series_index: null
+local_slug: "serialkeygen_me"
+
+binary:
+  path: "original/cm2.zip"
+  name: "cm2.zip"
+  sha256: "c4829e6f967baf5f69b83c0bfb468a8e3467774cd04d7de5de6fbd7a48f3071f"
+  md5: "3998bca0dc26d271762f7e7d4b7b35b8"
+  size_bytes: 5464
+
+status: solved
+solution_summary: "len 7 (racine de n^3-5n^2-6n-56) et somme (3c-40)*c des 6 premiers chars multiple de 10 (petik -> petiki!)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-10T14:50:43Z"

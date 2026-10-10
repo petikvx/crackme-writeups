@@ -117,6 +117,8 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 
 | 93 | [crackme_4](5ab77f5333c5d40ad448c101/) | br0ken | Windows PE32 console | pass **`yippee`** (XOR par char + `%X` vs `4D11628EBE1D`) |
 
+| 94 | [serialkeygen_me](5ab77f5333c5d40ad448c102/) | br0ken | Windows PE32 console | keygen : len 7, `Σ(3c−40)·c` (6 premiers) ≡ 0 mod 10 (petik→`petiki!`) |
+
 ## Mis de côté (PARKED — y revenir)
 
 | Titre | ID | Blocage / reprise |

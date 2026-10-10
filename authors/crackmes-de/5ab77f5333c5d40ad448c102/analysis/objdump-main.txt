@@ -1,0 +1,84 @@
+
+/tmp/c102/cm2.exe:     file format pei-i386
+
+
+Disassembly of section .text:
+
+00401342 <_main+0xb2>:
+  401342:	8d 85 e8 fe ff ff    	lea    eax,[ebp-0x118]
+  401348:	89 44 24 04          	mov    DWORD PTR [esp+0x4],eax
+  40134c:	c7 04 24 75 31 40 00 	mov    DWORD PTR [esp],0x403175
+  401353:	e8 48 06 00 00       	call   4019a0 <_scanf>
+  401358:	8d 85 e8 fe ff ff    	lea    eax,[ebp-0x118]
+  40135e:	89 04 24             	mov    DWORD PTR [esp],eax
+  401361:	e8 2a 06 00 00       	call   401990 <_strlen>
+  401366:	89 45 f4             	mov    DWORD PTR [ebp-0xc],eax
+  401369:	8b 45 f4             	mov    eax,DWORD PTR [ebp-0xc]
+  40136c:	0f af 45 f4          	imul   eax,DWORD PTR [ebp-0xc]
+  401370:	89 c1                	mov    ecx,eax
+  401372:	0f af 4d f4          	imul   ecx,DWORD PTR [ebp-0xc]
+  401376:	8b 45 f4             	mov    eax,DWORD PTR [ebp-0xc]
+  401379:	89 c2                	mov    edx,eax
+  40137b:	0f af 55 f4          	imul   edx,DWORD PTR [ebp-0xc]
+  40137f:	89 d0                	mov    eax,edx
+  401381:	c1 e0 02             	shl    eax,0x2
+  401384:	01 d0                	add    eax,edx
+  401386:	29 c1                	sub    ecx,eax
+  401388:	8b 55 f4             	mov    edx,DWORD PTR [ebp-0xc]
+  40138b:	89 d0                	mov    eax,edx
+  40138d:	01 c0                	add    eax,eax
+  40138f:	01 d0                	add    eax,edx
+  401391:	01 c0                	add    eax,eax
+  401393:	29 c1                	sub    ecx,eax
+  401395:	89 c8                	mov    eax,ecx
+  401397:	83 e8 38             	sub    eax,0x38
+  40139a:	89 45 f4             	mov    DWORD PTR [ebp-0xc],eax
+  40139d:	83 7d f4 00          	cmp    DWORD PTR [ebp-0xc],0x0
+  4013a1:	0f 85 88 00 00 00    	jne    40142f <_main+0x19f>
+  4013a7:	c7 85 e4 fe ff ff 00 	mov    DWORD PTR [ebp-0x11c],0x0
+  4013ae:	00 00 00 
+  4013b1:	83 bd e4 fe ff ff 05 	cmp    DWORD PTR [ebp-0x11c],0x5
+  4013b8:	7f 3d                	jg     4013f7 <_main+0x167>
+  4013ba:	8d 45 f8             	lea    eax,[ebp-0x8]
+  4013bd:	03 85 e4 fe ff ff    	add    eax,DWORD PTR [ebp-0x11c]
+  4013c3:	2d 10 01 00 00       	sub    eax,0x110
+  4013c8:	0f be 10             	movsx  edx,BYTE PTR [eax]
+  4013cb:	89 d0                	mov    eax,edx
+  4013cd:	01 c0                	add    eax,eax
+  4013cf:	01 d0                	add    eax,edx
+  4013d1:	8d 50 d8             	lea    edx,[eax-0x28]
+  4013d4:	8d 45 f8             	lea    eax,[ebp-0x8]
+  4013d7:	03 85 e4 fe ff ff    	add    eax,DWORD PTR [ebp-0x11c]
+  4013dd:	2d 10 01 00 00       	sub    eax,0x110
+  4013e2:	0f be 00             	movsx  eax,BYTE PTR [eax]
+  4013e5:	0f af d0             	imul   edx,eax
+  4013e8:	8d 45 ec             	lea    eax,[ebp-0x14]
+  4013eb:	01 10                	add    DWORD PTR [eax],edx
+  4013ed:	8d 85 e4 fe ff ff    	lea    eax,[ebp-0x11c]
+  4013f3:	ff 00                	inc    DWORD PTR [eax]
+  4013f5:	eb ba                	jmp    4013b1 <_main+0x121>
+  4013f7:	8b 4d ec             	mov    ecx,DWORD PTR [ebp-0x14]
+  4013fa:	b8 67 66 66 66       	mov    eax,0x66666667
+  4013ff:	f7 e9                	imul   ecx
+  401401:	c1 fa 02             	sar    edx,0x2
+  401404:	89 c8                	mov    eax,ecx
+  401406:	c1 f8 1f             	sar    eax,0x1f
+  401409:	29 c2                	sub    edx,eax
+  40140b:	89 d0                	mov    eax,edx
+  40140d:	c1 e0 02             	shl    eax,0x2
+  401410:	01 d0                	add    eax,edx
+  401412:	01 c0                	add    eax,eax
+  401414:	29 c1                	sub    ecx,eax
+  401416:	89 c8                	mov    eax,ecx
+  401418:	89 45 f0             	mov    DWORD PTR [ebp-0x10],eax
+  40141b:	83 7d f0 00          	cmp    DWORD PTR [ebp-0x10],0x0
+  40141f:	75 0e                	jne    40142f <_main+0x19f>
+  401421:	c7 04 24 78 31 40 00 	mov    DWORD PTR [esp],0x403178
+  401428:	e8 83 05 00 00       	call   4019b0 <_printf>
+  40142d:	eb 0c                	jmp    40143b <_main+0x1ab>
+  40142f:	c7 04 24 a4 31 40 00 	mov    DWORD PTR [esp],0x4031a4
+  401436:	e8 75 05 00 00       	call   4019b0 <_printf>
+  40143b:	e8 d0 04 00 00       	call   401910 <_getch>
+  401440:	b8 00 00 00 00       	mov    eax,0x0
+  401445:	c9                   	leave
+  401446:	c3                   	ret
