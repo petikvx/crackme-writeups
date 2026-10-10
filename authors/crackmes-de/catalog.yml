@@ -516,6 +516,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c10b/original/CrackMe_#4.zip"
     title: "crackmes.de's hidewindow by devoney"
 
+  5ab77f5333c5d40ad448c111:
+    sha256: "225665598c407b7fcfa0fa61aaf0f9563bb083dff607de1e568aeeca2e993066"
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c111/original/rith_crackme1.zip"
+    title: "crackmes.de's crackme_1 by rith"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -941,3 +946,7 @@ by_sha256:
     id: 5ab77f5333c5d40ad448c10b
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c10b/original/CrackMe_#4.zip"
     page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c10b
+  225665598c407b7fcfa0fa61aaf0f9563bb083dff607de1e568aeeca2e993066:
+    id: 5ab77f5333c5d40ad448c111
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c111/original/rith_crackme1.zip"
+    page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c111

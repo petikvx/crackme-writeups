@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5333c5d40ad448c111
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c111
+  download: https://crackmes.one/download/crackme/5ab77f5333c5d40ad448c111
+
+title: "crackme_1 by rith"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: ""
+arch: "x86"
+language: "C/C++ (MFC)"
+
+difficulty: 2.0
+quality: null
+size: ""
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/rith_crackme1.zip"
+  name: "rith_crackme1.zip"
+  sha256: "225665598c407b7fcfa0fa61aaf0f9563bb083dff607de1e568aeeca2e993066"
+  md5: "fc16b55e96e83a8fcc054d0ef39c6eb3"
+  size_bytes: 4431
+
+status: solved
+solution_summary: "keygen : len(serial)=len(nom) in [5,20], e=2*(nom[i] mod pi[i]) puis ajustements -0x1a / 0x82-e / %10+0x30 ; petik -> n|jt\\x80"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-10T17:58:12Z"
