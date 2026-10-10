@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5333c5d40ad448c11f
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c11f
+  download: https://crackmes.one/download/crackme/5ab77f5333c5d40ad448c11f
+
+title: "cesd_dvl_assessment_5 by zero"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/Linux etc."
+arch: "x86"
+language: "C (GCC)"
+
+difficulty: 2.0
+quality: 4.0
+size: ""
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/CESD_Assessment05.zip"
+  name: "CESD_Assessment05.zip"
+  sha256: "7c366b30afb2462620523053b541a332cc7047e2490941e49bc8a653955daad3"
+  md5: "ddc3af0179f7b15f27c2563bfc8e1b74"
+  size_bytes: 678319
+
+status: solved
+solution_summary: "buffer overflow gets(buf[0x138]) via stdin ; offset 316 → contrôle EIP (A*316+BBBB → eip=0x42424242)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-10T21:03:52Z"

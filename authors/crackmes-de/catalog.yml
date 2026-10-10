@@ -556,6 +556,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c11e/original/CESD_Assessment02.zip"
     title: "crackmes.de's cesd_dvl_assessment_2 by zero"
 
+  5ab77f5333c5d40ad448c11f:
+    sha256: "7c366b30afb2462620523053b541a332cc7047e2490941e49bc8a653955daad3"
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c11f/original/CESD_Assessment05.zip"
+    title: "crackmes.de's cesd_dvl_assessment_5 by zero"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1013,3 +1018,7 @@ by_sha256:
     id: 5ab77f5333c5d40ad448c11e
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c11e/original/CESD_Assessment02.zip"
     page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c11e
+  7c366b30afb2462620523053b541a332cc7047e2490941e49bc8a653955daad3:
+    id: 5ab77f5333c5d40ad448c11f
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c11f/original/CESD_Assessment05.zip"
+    page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c11f
