@@ -1,0 +1,53 @@
+
+/tmp/k3/Salazan_keygenme_0003.exe:     file format pei-i386
+
+
+Disassembly of section CODE:
+
+00461088 <CODE+0x60088>:
+  461088:	55                   	push   ebp
+  461089:	8b ec                	mov    ebp,esp
+  46108b:	b9 1f 00 00 00       	mov    ecx,0x1f
+  461090:	6a 00                	push   0x0
+  461092:	6a 00                	push   0x0
+  461094:	49                   	dec    ecx
+  461095:	75 f9                	jne    0x461090
+  461097:	53                   	push   ebx
+  461098:	56                   	push   esi
+  461099:	8b d8                	mov    ebx,eax
+  46109b:	33 c0                	xor    eax,eax
+  46109d:	55                   	push   ebp
+  46109e:	68 2b 15 46 00       	push   0x46152b
+  4610a3:	64 ff 30             	push   DWORD PTR fs:[eax]
+  4610a6:	64 89 20             	mov    DWORD PTR fs:[eax],esp
+  4610a9:	8d 45 fc             	lea    eax,[ebp-0x4]
+  4610ac:	50                   	push   eax
+  4610ad:	6a 04                	push   0x4
+  4610af:	6a 0d                	push   0xd
+  4610b1:	8b 83 f0 02 00 00    	mov    eax,DWORD PTR [ebx+0x2f0]
+  4610b7:	e8 3c 8d fd ff       	call   0x439df8
+  4610bc:	50                   	push   eax
+  4610bd:	e8 52 5f fa ff       	call   0x407014
+  4610c2:	8d 45 f8             	lea    eax,[ebp-0x8]
+  4610c5:	50                   	push   eax
+  4610c6:	6a 04                	push   0x4
+  4610c8:	6a 0d                	push   0xd
+  4610ca:	8b 83 f4 02 00 00    	mov    eax,DWORD PTR [ebx+0x2f4]
+  4610d0:	e8 23 8d fd ff       	call   0x439df8
+  4610d5:	50                   	push   eax
+  4610d6:	e8 39 5f fa ff       	call   0x407014
+  4610db:	8b 45 f8             	mov    eax,DWORD PTR [ebp-0x8]
+  4610de:	31 45 fc             	xor    DWORD PTR [ebp-0x4],eax
+  4610e1:	8d 55 f4             	lea    edx,[ebp-0xc]
+  4610e4:	8b 83 f0 02 00 00    	mov    eax,DWORD PTR [ebx+0x2f0]
+  4610ea:	e8 95 26 fd ff       	call   0x433784
+  4610ef:	8b 45 f4             	mov    eax,DWORD PTR [ebp-0xc]
+  4610f2:	50                   	push   eax
+  4610f3:	8d 55 f0             	lea    edx,[ebp-0x10]
+  4610f6:	8b 83 f4 02 00 00    	mov    eax,DWORD PTR [ebx+0x2f4]
+  4610fc:	e8 83 26 fd ff       	call   0x433784
+  461101:	8b 45 f0             	mov    eax,DWORD PTR [ebp-0x10]
+  461104:	5a                   	pop    edx
+  461105:	e8 ba 65 ff ff       	call   0x4576c4
+  46110a:	84 c0                	test   al,al
+  46110c:	0f 84 bd 03 00 00    	je     0x4614cf

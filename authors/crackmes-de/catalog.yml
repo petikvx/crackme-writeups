@@ -441,6 +441,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c0e1/original/light.zip"
     title: "light_keygenme by salazan"
 
+  5ab77f5333c5d40ad448c0e2:
+    sha256: "900faedc368ff9eeda8b99e7b549c02512c8e9eeb01e90c9c9a7ee9ef90fd845"
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c0e2/original/salazan_keygenme_0003.zip"
+    title: "crackmes.de's salazans_keygenme_0003 by salazan"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -806,3 +811,7 @@ by_sha256:
     id: 5ab77f5333c5d40ad448c0e1
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c0e1/original/light.zip"
     page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c0e1
+  900faedc368ff9eeda8b99e7b549c02512c8e9eeb01e90c9c9a7ee9ef90fd845:
+    id: 5ab77f5333c5d40ad448c0e2
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c0e2/original/salazan_keygenme_0003.zip"
+    page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c0e2

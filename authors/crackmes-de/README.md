@@ -104,6 +104,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 84 | [dailycracking_by_flipflop](5ab77f5333c5d40ad448c0e0/) | flipflop | Win PE32 console MinGW | **`Crack`+jour** (ex. `Crack10`, strftime `%d`) |
 | 85 | [crackme2](5ab77f5333c5d40ad448c0df/) | midi | Win PE32 console MinGW + MessageBox | petik→**`03277`** (`(c+0x1e)%(2i+2)`, −i tant que >9) |
 | 86 | [light_keygenme](5ab77f5333c5d40ad448c0e1/) | salazan | Win PE32 GUI Delphi 6 | petik→**`24`** (MD5(nom+serial) hex : 8 premiers = chiffres, StrToInt) |
+| 87 | [salazans_keygenme_0003](5ab77f5333c5d40ad448c0e2/) | salazan | Win PE32 GUI Delphi 6 | petik→**`CCCABA0BC21A10-OOOOP-OOOOO-OOOOS-OOOOK-OOOOI`** (MD5 hex filtré 0-3/A-C + 5 blocs à somme ASCII fixe) |
 
 ## Mis de côté (PARKED — y revenir)
 
