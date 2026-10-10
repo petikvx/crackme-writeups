@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5333c5d40ad448c117
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c117
+  download: https://crackmes.one/download/crackme/5ab77f5333c5d40ad448c117
+
+title: "keygen_rivendel by tryger"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: "C/C++"
+
+difficulty: 2.0
+quality: null
+size: ""
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/rivendel.zip"
+  name: "rivendel.zip"
+  sha256: "da537b2882f7921eac03ebf9f819d18054ab13647b331c2df2cf1714207388e0"
+  md5: "d01b18579c5808cdcd580b12ebd6fdbe"
+  size_bytes: 4155
+
+status: solved
+solution_summary: "keygen 3 passes chainees (c+0xF, 0x12-c, (c-0x4C)*2) ^ user[i%n] ; petik -> 7feb8ef468c42b931697081dd67d09 (hex)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-10T18:56:44Z"

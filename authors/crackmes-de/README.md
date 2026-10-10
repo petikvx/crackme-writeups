@@ -128,6 +128,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 100 | [hidewindow](5ab77f5333c5d40ad448c10b/) | devoney | Windows PE32 GUI (Dev-C++) | `GetDlgItemInt`=5560 **et** historique des derniers car. tapés = `55484560` (5,5,4,→8,→4,→5,→6,0) |
 | 101 | [crackme_1](5ab77f5333c5d40ad448c111/) | rith | Windows PE32 GUI (MFC 4.2) | keygen `2·(nom[i] mod "3141592653…"[i])` + ajustements ; petik→`n\|jt€` (`6e7c6a7480`) |
 | 102 | [crackme](5ab77f5333c5d40ad448c115/) | honestgamer | Windows .NET console | keygen `Code = ID·786·17 div 12 + 1991` ; ID 1234→`1376050` |
+| 103 | [keygen_rivendel](5ab77f5333c5d40ad448c117/) | tryger | Linux ELF32 (GCC) | faux `main` (entry = 0x80487b6) ; keygen 3 passes `(c+0xF)`, `(0x12−c)`, `(c−0x4C)·2` ^ user ; petik→`7feb8ef468c42b931697081dd67d09` (hex) |
 
 ## Mis de côté (PARKED — y revenir)
 

@@ -526,6 +526,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c115/original/hg-cme.zip"
     title: "crackmes.de's crackme by honestgamer"
 
+  5ab77f5333c5d40ad448c117:
+    sha256: "da537b2882f7921eac03ebf9f819d18054ab13647b331c2df2cf1714207388e0"
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c117/original/rivendel.zip"
+    title: "crackmes.de's keygen_rivendel by tryger"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -959,3 +964,7 @@ by_sha256:
     id: 5ab77f5333c5d40ad448c115
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c115/original/hg-cme.zip"
     page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c115
+  da537b2882f7921eac03ebf9f819d18054ab13647b331c2df2cf1714207388e0:
+    id: 5ab77f5333c5d40ad448c117
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c117/original/rivendel.zip"
+    page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c117
