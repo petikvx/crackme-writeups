@@ -177,7 +177,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [5iriu5](authors/5iriu5/README.md) | 5iriu5 | 1 (SSE Login) | 1 / 1 |
 | [jenya](authors/jenya/README.md) | Jenya | 2 (math_crackme + linux_asm_jenya) | 2 / 2 |
 | [0x6f6d6172h](authors/0x6f6d6172h/README.md) | 0x6f6D6172h | 1 (crackme1) | 1 / 1 |
-| [s4r](authors/s4r/README.md) | s4r | 3 (encrypted_box + fuckalight2 + bitflip) | 3 / 3 |
+| [s4r](authors/s4r/README.md) | s4r | 4 (encrypted_box + fuckalight2 + bitflip + prime) | 4 / 4 |
 | [ximxn](authors/ximxn/README.md) | Ximxn | 1 (perwira) | 1 / 1 |
 | [breadleaf](authors/breadleaf/README.md) | breadleaf | 1 (Password and Username) | 1 / 1 |
 | [thephilosopher](authors/thephilosopher/README.md) | ThePhilosopher | 2 (Bruteverse + The Matrix) | 2 / 2 |
@@ -247,6 +247,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-10 | [prime](authors/s4r/5aa9b4a633c5d40a63746b20/) | s4r |
 | 2026-10-09 | [Type Punning](authors/mas/69926c19f752dd83da8782b0/) | MAS |
 | 2026-10-09 | [YugnatD's WarGames](authors/yugnatd/5f78ae7533c5d4357b3b03b8/) | YugnatD |
 | 2026-10-08 | [SVz's Orrery 2](authors/svz/6ac2301aca34abba98f82e95/) | SVz |

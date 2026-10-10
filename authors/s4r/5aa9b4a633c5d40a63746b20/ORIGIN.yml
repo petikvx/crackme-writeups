@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5aa9b4a633c5d40a63746b20
+
+urls:
+  page: https://crackmes.one/crackme/5aa9b4a633c5d40a63746b20
+  download: https://crackmes.one/download/crackme/5aa9b4a633c5d40a63746b20
+
+title: "prime"
+author_on_site: "s4r"
+author_local: "s4r"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++"
+
+difficulty: 2.2
+quality: 4.0
+size: "13.50 KB"
+published: "2018-03-16"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/prime.exe"
+  name: "prime.exe"
+  sha256: "ca42dbc61eab6c5b591489b8251a8e405983be7a86726165f1984cb30bb5c4f0"
+  md5: "dbcbe3f48e4851f0f90a90258b997d82"
+  size_bytes: 13824
+
+status: solved
+solution_summary: "Pr1me_Numb3r5_4r3_s0_P0w3rFull — 0x81^c mod 0xfb XOR \"Th4t's a P455W0rD\", hex vs constante"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-10T07:52:37Z"

@@ -15,6 +15,11 @@ by_id:
     path: "authors/s4r/5c5d89ce33c5d43fd9a9387f/original/bitflip"
     title: "s4r's bitflip"
 
+  5aa9b4a633c5d40a63746b20:
+    sha256: "ca42dbc61eab6c5b591489b8251a8e405983be7a86726165f1984cb30bb5c4f0"
+    path: "authors/s4r/5aa9b4a633c5d40a63746b20/original/prime.exe"
+    title: "s4r's prime"
+
 by_sha256:
   f17318419da1c0815cf4bf3e4c2b94be99eacdd079b5035ef76c4495f666aed3:
     id: 64f1f7dbd931496abf90952d
@@ -28,3 +33,7 @@ by_sha256:
     id: 5c5d89ce33c5d43fd9a9387f
     path: "authors/s4r/5c5d89ce33c5d43fd9a9387f/original/bitflip"
     page: https://crackmes.one/crackme/5c5d89ce33c5d43fd9a9387f
+  ca42dbc61eab6c5b591489b8251a8e405983be7a86726165f1984cb30bb5c4f0:
+    id: 5aa9b4a633c5d40a63746b20
+    path: "authors/s4r/5aa9b4a633c5d40a63746b20/original/prime.exe"
+    page: https://crackmes.one/crackme/5aa9b4a633c5d40a63746b20
