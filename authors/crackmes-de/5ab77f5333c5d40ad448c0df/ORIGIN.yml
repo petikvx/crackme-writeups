@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5333c5d40ad448c0df
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c0df
+  download: https://crackmes.one/download/crackme/5ab77f5333c5d40ad448c0df
+
+title: "crackme2 by midi"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: ""
+arch: "x86"
+language: "Unspecified/other"
+
+difficulty: 2.0
+quality: null
+size: ""
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/midicrkme2.zip"
+  name: "midicrkme2.zip"
+  sha256: "b32502846ed4fab20af073cfe152b9943ade527084e75bb6280944257fdb358a"
+  md5: "07c5ac13578943dda2bf07242f8453f5"
+  size_bytes: 2344
+
+status: solved
+solution_summary: "keygen : chiffre i = (nom[i]+0x1e) mod (2i+2), puis -i tant que > 9 ; petik → 03277"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-10T11:02:15Z"
