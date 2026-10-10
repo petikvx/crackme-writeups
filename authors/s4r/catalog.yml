@@ -20,6 +20,11 @@ by_id:
     path: "authors/s4r/5aa9b4a633c5d40a63746b20/original/prime.exe"
     title: "s4r's prime"
 
+  5aa9b47f33c5d40a63746b1f:
+    sha256: "629ed38d1d02f72424868614504deddd7ddc2f34e876d4aa481c5a93534e8f42"
+    path: "authors/s4r/5aa9b47f33c5d40a63746b1f/original/matrice.exe"
+    title: "s4r's matrice"
+
 by_sha256:
   f17318419da1c0815cf4bf3e4c2b94be99eacdd079b5035ef76c4495f666aed3:
     id: 64f1f7dbd931496abf90952d
@@ -37,3 +42,7 @@ by_sha256:
     id: 5aa9b4a633c5d40a63746b20
     path: "authors/s4r/5aa9b4a633c5d40a63746b20/original/prime.exe"
     page: https://crackmes.one/crackme/5aa9b4a633c5d40a63746b20
+  629ed38d1d02f72424868614504deddd7ddc2f34e876d4aa481c5a93534e8f42:
+    id: 5aa9b47f33c5d40a63746b1f
+    path: "authors/s4r/5aa9b47f33c5d40a63746b1f/original/matrice.exe"
+    page: https://crackmes.one/crackme/5aa9b47f33c5d40a63746b1f

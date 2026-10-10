@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5aa9b47f33c5d40a63746b1f
+
+urls:
+  page: https://crackmes.one/crackme/5aa9b47f33c5d40a63746b1f
+  download: https://crackmes.one/download/crackme/5aa9b47f33c5d40a63746b1f
+
+title: "matrice"
+author_on_site: "s4r"
+author_local: "s4r"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 2.2
+quality: 3.8
+size: "525.50 KB"
+published: "2018-03-16"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/matrice.exe"
+  name: "matrice.exe"
+  sha256: "629ed38d1d02f72424868614504deddd7ddc2f34e876d4aa481c5a93534e8f42"
+  md5: "247504b02f16b43a4f0f27790cc75b5b"
+  size_bytes: 538112
+
+status: solved
+solution_summary: "/!?\\I_hope_you_liked_win32_Dis4$sembly/*$\\ — in[i]*in[i+1] == W[i] (41 WORD), dialog caché derrière MessageBox==0x11144574"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-10T07:53:54Z"
