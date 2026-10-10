@@ -29,7 +29,7 @@ binary:
   size_bytes: 4431
 
 status: solved
-solution_summary: "keygen : len(serial)=len(nom) in [5,20], e=2*(nom[i] mod pi[i]) puis ajustements -0x1a / 0x82-e / %10+0x30 ; petik -> n|jt\\x80"
+solution_summary: "keygen : len(serial)=len(nom) in [5,20], e=2*(nom[i] mod pi[i]) puis ajustements -0x1a / 0x82-e / %10+0x30 ; petik -> 6e7c6a7480 (n|jt€ en cp1252)"
 
 download:
   zip_password: crackmes.one
