@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5333c5d40ad448c0e0
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c0e0
+  download: https://crackmes.one/download/crackme/5ab77f5333c5d40ad448c0e0
+
+title: "dailycracking_by_flipflop by flipflop"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++"
+
+difficulty: 1.1
+quality: null
+size: ""
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/dailycracking.zip"
+  name: "dailycracking.zip"
+  sha256: "6a0cfd6f1dcf3876197ceaf5e7cd8b1b257aeabe2e6806773470c98792e46f81"
+  md5: "cf756871431ee79b13b87af38e211a08"
+  size_bytes: 5203
+
+status: solved
+solution_summary: "mot de passe = \"Crack\" + jour du mois sur 2 chiffres (strftime %d), ex. Crack10 le 10 du mois"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-10T10:57:40Z"

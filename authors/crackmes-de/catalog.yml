@@ -426,6 +426,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c0d9/original/SKCrackMe.zip"
     title: "crackmes.de's skcrackme_1 by sknine9"
 
+  5ab77f5333c5d40ad448c0e0:
+    sha256: "6a0cfd6f1dcf3876197ceaf5e7cd8b1b257aeabe2e6806773470c98792e46f81"
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c0e0/original/dailycracking.zip"
+    title: "crackmes.de's dailycracking_by_flipflop by flipflop"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -779,3 +784,7 @@ by_sha256:
     id: 5ab77f5333c5d40ad448c0d9
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c0d9/original/SKCrackMe.zip"
     page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c0d9
+  6a0cfd6f1dcf3876197ceaf5e7cd8b1b257aeabe2e6806773470c98792e46f81:
+    id: 5ab77f5333c5d40ad448c0e0
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c0e0/original/dailycracking.zip"
+    page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c0e0
