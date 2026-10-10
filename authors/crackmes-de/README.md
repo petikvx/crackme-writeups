@@ -113,6 +113,8 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 
 | 91 | [qcrk_2](5ab77f5333c5d40ad448c0f5/) | qnix | Linux ELF32 | **stack overflow** → `crap()` (`argv[2]`=2060+&crap) |
 
+| 92 | [CrackMe#1](5ab77f5333c5d40ad448c100/) | br0ken | Windows PE32 console | pass **`PaSSw0rD`** ; keygen `Σord−len−1` (petik→535) |
+
 ## Mis de côté (PARKED — y revenir)
 
 | Titre | ID | Blocage / reprise |

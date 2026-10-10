@@ -471,6 +471,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c0f5/original/qcrk-2.tgz"
     title: "crackmes.de's qcrk_2 by qnix"
 
+  5ab77f5333c5d40ad448c100:
+    sha256: "a64b0a1e3a8d1816d6eeebf843e4a70301cc821cbb7df3705a475935f7fccbdd"
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c100/original/CrackMe1.zip"
+    title: "crackme1 by br0ken"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -856,6 +861,10 @@ by_sha256:
     id: 5ab77f5333c5d40ad448c0f5
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c0f5/original/qcrk-2.tgz"
     page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c0f5
+  a64b0a1e3a8d1816d6eeebf843e4a70301cc821cbb7df3705a475935f7fccbdd:
+    id: 5ab77f5333c5d40ad448c100
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c100/original/CrackMe1.zip"
+    page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c100
   1c753d5c215ffe62bc81f203eb16e67447b7cb2a7f7a5aa91961d469a4f35d28:
     id: 5ab77f5333c5d40ad448c0f5
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c0f5/original/qcrk-2.tgz"
