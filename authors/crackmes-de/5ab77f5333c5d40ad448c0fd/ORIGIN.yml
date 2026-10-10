@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5333c5d40ad448c0fd
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c0fd
+  download: https://crackmes.one/download/crackme/5ab77f5333c5d40ad448c0fd
+
+title: "keygenme_by_d0min4ted by d0min4ted"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ".NET"
+
+difficulty: 1.5
+quality: null
+size: ""
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme.zip"
+  name: "crackme.zip"
+  sha256: "ff6267758494653ababcfc297ab99e26668cb9f3715677dbe89572ade6a0483d"
+  md5: "142968807b8d6364be77a9949afb5712"
+  size_bytes: 6485
+
+status: solved
+solution_summary: "keygen int(reverse(hex(nom))[:9]) * len^3 ; PETI -> 6045145920 (petik plante: hex non decimal)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-10T15:56:08Z"
