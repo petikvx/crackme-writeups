@@ -491,6 +491,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c103/original/cme6.zip"
     title: "what_is_my_password by br0ken"
 
+  5ab77f5333c5d40ad448c105:
+    sha256: "8d0f81adfcac8358f9d4249017301c46354770bda528ce42bd258363d05492c8"
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c105/original/cm3v.zip"
+    title: "crackme_3 by br0ken"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -896,3 +901,7 @@ by_sha256:
     id: 5ab77f5333c5d40ad448c103
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c103/original/cme6.zip"
     page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c103
+  8d0f81adfcac8358f9d4249017301c46354770bda528ce42bd258363d05492c8:
+    id: 5ab77f5333c5d40ad448c105
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c105/original/cm3v.zip"
+    page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c105

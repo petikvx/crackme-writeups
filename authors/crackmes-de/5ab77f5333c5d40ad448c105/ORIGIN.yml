@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5333c5d40ad448c105
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c105
+  download: https://crackmes.one/download/crackme/5ab77f5333c5d40ad448c105
+
+title: "crackme_3 by br0ken"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++"
+
+difficulty: 2.0
+quality: null
+size: ""
+published: "2018-03-25 10:52"
+
+series_index: null
+local_slug: "crackme_3"
+
+binary:
+  path: "original/cm3v.zip"
+  name: "cm3v.zip"
+  sha256: "8d0f81adfcac8358f9d4249017301c46354770bda528ce42bd258363d05492c8"
+  md5: "6b5f69adde10b4392c379565b7b7c78c"
+  size_bytes: 5846
+
+status: solved
+solution_summary: "keygen br0-A-BC-ken (A=somme c*T[i]+0xEFEF, B=somme c^T[c%10], C=last^2+A-B, T=@^*R$FVT%@) ; petik -> br0-341111-293352267-ken"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-10T14:52:46Z"

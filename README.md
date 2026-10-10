@@ -249,6 +249,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-10 | [crackme_3](authors/crackmes-de/5ab77f5333c5d40ad448c105/) | crackmes.de / br0ken |
 | 2026-10-10 | [what_is_my_password](authors/crackmes-de/5ab77f5333c5d40ad448c103/) | crackmes.de / br0ken |
 | 2026-10-10 | [serialkeygen_me](authors/crackmes-de/5ab77f5333c5d40ad448c102/) | crackmes.de / br0ken |
 | 2026-10-10 | [crackme_4](authors/crackmes-de/5ab77f5333c5d40ad448c101/) | crackmes.de / br0ken |
