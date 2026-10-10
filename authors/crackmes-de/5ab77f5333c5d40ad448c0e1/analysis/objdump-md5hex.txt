@@ -1,0 +1,85 @@
+  451a7c:	55                   	push   ebp
+  451a7d:	8b ec                	mov    ebp,esp
+  451a7f:	83 c4 ec             	add    esp,0xffffffec
+  451a82:	53                   	push   ebx
+  451a83:	8b da                	mov    ebx,edx
+  451a85:	89 45 fc             	mov    DWORD PTR [ebp-0x4],eax
+  451a88:	8b 45 fc             	mov    eax,DWORD PTR [ebp-0x4]
+  451a8b:	e8 74 2c fb ff       	call   0x404704
+  451a90:	33 c0                	xor    eax,eax
+  451a92:	55                   	push   ebp
+  451a93:	68 c9 1a 45 00       	push   0x451ac9
+  451a98:	64 ff 30             	push   DWORD PTR fs:[eax]
+  451a9b:	64 89 20             	mov    DWORD PTR fs:[eax],esp
+  451a9e:	8d 55 ec             	lea    edx,[ebp-0x14]
+  451aa1:	8b 45 fc             	mov    eax,DWORD PTR [ebp-0x4]
+  451aa4:	e8 d3 0a 00 00       	call   0x45257c
+  451aa9:	8d 45 ec             	lea    eax,[ebp-0x14]
+  451aac:	8b d3                	mov    edx,ebx
+  451aae:	e8 55 0a 00 00       	call   0x452508
+  451ab3:	33 c0                	xor    eax,eax
+  451ab5:	5a                   	pop    edx
+  451ab6:	59                   	pop    ecx
+  451ab7:	59                   	pop    ecx
+  451ab8:	64 89 10             	mov    DWORD PTR fs:[eax],edx
+  451abb:	68 d0 1a 45 00       	push   0x451ad0
+  451ac0:	8d 45 fc             	lea    eax,[ebp-0x4]
+  451ac3:	e8 9c 27 fb ff       	call   0x404264
+  451ac8:	c3                   	ret
+  451ac9:	e9 be 21 fb ff       	jmp    0x403c8c
+  451ace:	eb f0                	jmp    0x451ac0
+  451ad0:	5b                   	pop    ebx
+  451ad1:	8b e5                	mov    esp,ebp
+  451ad3:	5d                   	pop    ebp
+  451ad4:	c3                   	ret
+  451ad5:	8d 40 00             	lea    eax,[eax+0x0]
+  452508:	55                   	push   ebp
+  452509:	8b ec                	mov    ebp,esp
+  45250b:	83 c4 f8             	add    esp,0xfffffff8
+  45250e:	53                   	push   ebx
+  45250f:	56                   	push   esi
+  452510:	57                   	push   edi
+  452511:	33 c9                	xor    ecx,ecx
+  452513:	89 4d f8             	mov    DWORD PTR [ebp-0x8],ecx
+  452516:	8b fa                	mov    edi,edx
+  452518:	89 45 fc             	mov    DWORD PTR [ebp-0x4],eax
+  45251b:	33 c0                	xor    eax,eax
+  45251d:	55                   	push   ebp
+  45251e:	68 6d 25 45 00       	push   0x45256d
+  452523:	64 ff 30             	push   DWORD PTR fs:[eax]
+  452526:	64 89 20             	mov    DWORD PTR fs:[eax],esp
+  452529:	8b c7                	mov    eax,edi
+  45252b:	e8 34 1d fb ff       	call   0x404264
+  452530:	be 10 00 00 00       	mov    esi,0x10
+  452535:	8b 5d fc             	mov    ebx,DWORD PTR [ebp-0x4]
+  452538:	8d 4d f8             	lea    ecx,[ebp-0x8]
+  45253b:	33 c0                	xor    eax,eax
+  45253d:	8a 03                	mov    al,BYTE PTR [ebx]
+  45253f:	ba 02 00 00 00       	mov    edx,0x2
+  452544:	e8 e3 5e fb ff       	call   0x40842c
+  452549:	8b 55 f8             	mov    edx,DWORD PTR [ebp-0x8]
+  45254c:	8b c7                	mov    eax,edi
+  45254e:	e8 d1 1f fb ff       	call   0x404524
+  452553:	43                   	inc    ebx
+  452554:	4e                   	dec    esi
+  452555:	75 e1                	jne    0x452538
+  452557:	33 c0                	xor    eax,eax
+  452559:	5a                   	pop    edx
+  45255a:	59                   	pop    ecx
+  45255b:	59                   	pop    ecx
+  45255c:	64 89 10             	mov    DWORD PTR fs:[eax],edx
+  45255f:	68 74 25 45 00       	push   0x452574
+  452564:	8d 45 f8             	lea    eax,[ebp-0x8]
+  452567:	e8 f8 1c fb ff       	call   0x404264
+  45256c:	c3                   	ret
+  45256d:	e9 1a 17 fb ff       	jmp    0x403c8c
+  452572:	eb f0                	jmp    0x452564
+  452574:	5f                   	pop    edi
+  452575:	5e                   	pop    esi
+  452576:	5b                   	pop    ebx
+  452577:	59                   	pop    ecx
+  452578:	59                   	pop    ecx
+  452579:	5d                   	pop    ebp
+  45257a:	c3                   	ret
+  45257b:	90                   	nop
+  45257c:	53                   	push   ebx

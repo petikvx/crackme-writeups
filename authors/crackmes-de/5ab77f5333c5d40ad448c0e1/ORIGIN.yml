@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5333c5d40ad448c0e1
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c0e1
+  download: https://crackmes.one/download/crackme/5ab77f5333c5d40ad448c0e1
+
+title: "light_keygenme by salazan"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows 2000/XP only"
+arch: "x86"
+language: "Borland Delphi"
+
+difficulty: 2.0
+quality: null
+size: ""
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/light.zip"
+  name: "light.zip"
+  sha256: "6cd55f362fbb3303461e3cbe3a442ca5a6e20b3f533b5c0053961ef23cb6a675"
+  md5: "7aa9b1bc531778ae726a720a9d139c20"
+  size_bytes: 224418
+
+status: solved
+solution_summary: "serial tel que MD5(nom+serial) en hex commence par 8 chiffres décimaux (StrToInt) ; petik → 24"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-10T11:53:23Z"
