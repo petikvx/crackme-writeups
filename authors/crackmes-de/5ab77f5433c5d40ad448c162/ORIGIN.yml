@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c162
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c162
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c162
+
+title: "nts_crackme10 by cyclops"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++"
+
+difficulty: 2.0
+quality: 4.0
+size: ""
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/NTS-Crackme10.zip"
+  name: "NTS-Crackme10.zip"
+  sha256: "aea71afb416260ec499d920d3024afcde6ec4139146c9213000bc29c2281490a"
+  md5: "10ef06eb763576485755c6abf38ed554"
+  size_bytes: 22035
+
+status: solved
+solution_summary: "keygen %08X(hash nom, key anti-debug=0) ; petik! -> 85CDB0E3 (vérifié Unicorn)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T11:54:57Z"

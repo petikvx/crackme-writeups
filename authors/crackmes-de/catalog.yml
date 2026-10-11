@@ -661,6 +661,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c161/original/NTS-Crackme6.zip"
     title: "crackmes.de's nts_crackme6 by cyclops"
 
+  5ab77f5433c5d40ad448c162:
+    sha256: "aea71afb416260ec499d920d3024afcde6ec4139146c9213000bc29c2281490a"
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c162/original/NTS-Crackme10.zip"
+    title: "crackmes.de's nts_crackme10 by cyclops"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1202,3 +1207,7 @@ by_sha256:
     id: 5ab77f5433c5d40ad448c161
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c161/original/NTS-Crackme6.zip"
     page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c161
+  aea71afb416260ec499d920d3024afcde6ec4139146c9213000bc29c2281490a:
+    id: 5ab77f5433c5d40ad448c162
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c162/original/NTS-Crackme10.zip"
+    page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c162
