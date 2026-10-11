@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c17f
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c17f
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c17f
+
+title: "crackme_15 by fireworx"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: ""
+arch: "x86"
+language: "Delphi/Object Pascal"
+
+difficulty: 1.0
+quality: null
+size: "132.88 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme15.zip"
+  name: "crackme15.zip"
+  sha256: "28dc95885c69300dd9ed309ad03fc99617f3a3cfdd287191d1bd8deeb3f630b0"
+  md5: "fb8137718196644663e8d593192af8bf"
+  size_bytes: 136072
+
+status: solved
+solution_summary: "serial = \"MU\" + IntToStr(v(k)) + \" \" (espace final), k∈[2,len(nom)]; petik -> \"MU1373807 \""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T14:51:15Z"

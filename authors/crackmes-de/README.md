@@ -161,6 +161,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 133 | [consoleinfinity](5ab77f5433c5d40ad448c176/) | promix17 | Win32 console (MSVC, 81 stubs `Packer`) | `Password!`+5+`Hacker!`+9+`Infinity!`+3+`!`, hash %0xFFFFFF = `0x209DD8` (brute) ; ex. `Password!WErUPHacker!I35mP5pygInfinity!LoL!` (vérifié Wine + Unicorn) |
 | 134 | [crackme_13](5ab77f5433c5d40ad448c17c/) | FireWorx | Win32 GUI (Delphi + ASPack) | serial = `IntToStr(f(ebx))`, `ebx∈[2,len]` ; ex. `1774248000` (ebx=4) ; nom ignoré (vérifié sur dump Image2Click) |
 | 135 | [crackme_12](5ab77f5433c5d40ad448c17e/) | FireWorx | Win32 GUI (Delphi + ASPack) | serial = `IntToStr(((123k div len(nom+société))<<5 + 0x5B1D54) xor 0x12)`, `k∈[1,len(serial)]` ; ex. `petik`/`petik` → `5971654` (vérifié Unicorn sur le vrai code dumpé) |
+| 136 | [crackme_15](5ab77f5433c5d40ad448c17f/) | FireWorx | Win32 GUI (Delphi + ASPack) | serial = `"MU" + IntToStr(v(k)) + " "`, `k∈[2,len(nom)]` (seule la longueur du nom compte) ; ex. `petik` → `MU1373807 ` (vérifié Unicorn sur le vrai code dumpé) |
 
 ## Mis de côté (PARKED — y revenir)
 
