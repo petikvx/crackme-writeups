@@ -135,6 +135,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 107 | [cesd_dvl_assessment_1](5ab77f5333c5d40ad448c11c/) | zero | Linux ELF32 (DVL) | **buffer overflow** `strcpy(buf[0x108],argv[1])` ; offset **268** → EIP (`A*268+BBBB`→eip=`0x42424242`) |
 | 108 | [cesd_dvl_assessment_2](5ab77f5333c5d40ad448c11e/) | zero | Linux ELF32 (DVL) | **buffer overflow** `strcat(buf[0x88],argv[1])` ; préfixe 27 o ; offset **113** → EIP (`A*113+BBBB`→eip=`0x42424242`) |
 | 109 | [cesd_dvl_assessment_5](5ab77f5333c5d40ad448c11f/) | zero | Linux ELF32 (DVL) | **buffer overflow** `gets(buf[0x138])` via stdin ; offset **316** → EIP (`A*316+BBBB`→eip=`0x42424242`) |
+| 110 | [cesd_dvl_assessment_3](5ab77f5333c5d40ad448c120/) | zero | Linux ELF32 (DVL) | **buffer overflow** `strcpy(buf[0x108],argv[1])` sans préfixe ; offset **268** → EIP (`A*268+BBBB`→eip=`0x42424242`) |
 
 ## Mis de côté (PARKED — y revenir)
 
