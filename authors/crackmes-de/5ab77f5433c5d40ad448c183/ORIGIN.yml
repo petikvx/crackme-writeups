@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c183
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c183
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c183
+
+title: "crackme_5 by fireworx"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Delphi/Object Pascal"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/fire_cm5.zip"
+  name: "fire_cm5.zip"
+  sha256: "f7e1da85edfa7e6f02f2fdc0c92ef5e369ecb8d6f86c5946f4c272a5c610e0f7"
+  md5: "aa007a81c96337d6ba9c2e933565df78"
+  size_bytes: 164732
+
+status: solved
+solution_summary: "code fixe Regcode (Edit1 == Label1.Caption, testé par un timer)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T15:57:09Z"
