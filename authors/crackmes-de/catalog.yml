@@ -796,6 +796,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c1aa/original/ftsii_meat.zip"
     title: "crackmes.de's rif_crackme_5 by korbut"
 
+  5ab77f5433c5d40ad448c1ab:
+    sha256: "70a17e693fec600baf1c5c834631a1349bcc7e101e25aa8342932c8db93e7674"
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c1ab/original/keyf1_skor.zip"
+    title: "crackmes.de's korbut_keyfile_1 by korbut"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1445,3 +1450,7 @@ by_sha256:
     id: 5ab77f5433c5d40ad448c1aa
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c1aa/original/ftsii_meat.zip"
     page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c1aa
+  70a17e693fec600baf1c5c834631a1349bcc7e101e25aa8342932c8db93e7674:
+    id: 5ab77f5433c5d40ad448c1ab
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c1ab/original/keyf1_skor.zip"
+    page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c1ab
