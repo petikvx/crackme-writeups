@@ -651,6 +651,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c15e/original/NTS-Crackme3.zip"
     title: "nts_crackme3 by cyclops"
 
+  5ab77f5433c5d40ad448c15f:
+    sha256: "28599c0a5670249fbc1412e5ae759a543657acac65ea33782bcb9fac080d8f57"
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c15f/original/spear.zip"
+    title: "spear by cyclops"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1184,3 +1189,7 @@ by_sha256:
     id: 5ab77f5433c5d40ad448c15e
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c15e/original/NTS-Crackme3.zip"
     page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c15e
+  28599c0a5670249fbc1412e5ae759a543657acac65ea33782bcb9fac080d8f57:
+    id: 5ab77f5433c5d40ad448c15f
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c15f/original/spear.zip"
+    page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c15f

@@ -153,6 +153,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 125 | [nts_crackme7](5ab77f5433c5d40ad448c15c/) | cyclops | Win32 GUI (MSVC 6 / MFC) | keygen double CRC32 via registre `HKCU\Software\Cyclops\Crackme7` ; `petik` → `0EAFB851-0DE144F8` (vérifié par émulation Unicorn) |
 | 126 | [nts_crackme2](5ab77f5433c5d40ad448c15d/) | cyclops | Win32 GUI (MASM32) | serial en clair `Serial` (`lstrcmpA`) ; vérifié par émulation Unicorn de la DialogProc |
 | 127 | [nts_crackme3](5ab77f5433c5d40ad448c15e/) | cyclops | Win32 GUI (MSVC 6 / MFC) | serial 8 car. testés un par un : `2:).+-M` + 1 car. libre (ex. `2:).+-MX`) ; vérifié par émulation Unicorn |
+| 128 | [spear](5ab77f5433c5d40ad448c15f/) | cyclops | Win32 GUI (MSVC 6 / MFC) | keygen **Shamir mod 251** : 5 parts dont Lagrange en 0 donne `CyClOpS` ; anti-debug IsDebuggerPresent + rdtsc ; vérifié par émulation Unicorn |
 
 ## Mis de côté (PARKED — y revenir)
 

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c15f
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c15f
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c15f
+
+title: "spear by cyclops"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++ (MSVC 6, MFC statique)"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/spear.zip"
+  name: "spear.zip"
+  sha256: "28599c0a5670249fbc1412e5ae759a543657acac65ea33782bcb9fac080d8f57"
+  md5: "f462eaed204ad1235a2c71fbe0ee871f"
+  size_bytes: 53081
+
+status: solved
+solution_summary: "keygen Shamir mod 251 : 5 parts (x=1..5) dont l'interpolation de Lagrange en 0 donne CyClOpS"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T10:00:56Z"
