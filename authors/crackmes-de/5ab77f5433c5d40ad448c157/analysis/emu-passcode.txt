@@ -1,0 +1,1 @@
+[(b'Cracked\nSend me solution to cyclops@hackersclub.net', b'Cracked')]

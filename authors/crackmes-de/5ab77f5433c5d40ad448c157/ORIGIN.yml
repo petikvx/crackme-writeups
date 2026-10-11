@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c157
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c157
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c157
+
+title: "cyclops_crackme_5.0 by cyclops"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++ (MSVC 6 / MFC 4.2 debug)"
+
+difficulty: 2.0
+quality: null
+size: "40.91 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme5.zip"
+  name: "crackme5.zip"
+  sha256: "dcae434e41704828ba6b8eecbc5c23030a47857e7e8041cb60be1d6a98b3fe47"
+  md5: "b2c8219058e3a48f063a886914f8ab86"
+  size_bytes: 41890
+
+status: solved
+solution_summary: "passcode CrAcKiNg Is CoOl tapé dans la fenêtre (OnChar + strstr), dérivé de 6 chaînes du .rdata par opérations bit à bit ; vérifié par émulation unicorn"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T07:56:31Z"
