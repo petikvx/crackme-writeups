@@ -586,6 +586,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c12e/original/crackme1.zip"
     title: "crackmes.de's 4f.crackme1 by ximus"
 
+  5ab77f5333c5d40ad448c12f:
+    sha256: "8653fb91648a728436e291bfc19b4bf2e57f2772aaf8ee8cfae0b6a50d809373"
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c12f/original/lincrkme_01.zip"
+    title: "crackmes.de's lincrkme_01 by digitalbyte"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1067,3 +1072,7 @@ by_sha256:
     id: 5ab77f5333c5d40ad448c12e
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c12e/original/crackme1.zip"
     page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c12e
+  8653fb91648a728436e291bfc19b4bf2e57f2772aaf8ee8cfae0b6a50d809373:
+    id: 5ab77f5333c5d40ad448c12f
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c12f/original/lincrkme_01.zip"
+    page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c12f

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5333c5d40ad448c12f
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c12f
+  download: https://crackmes.one/download/crackme/5ab77f5333c5d40ad448c12f
+
+title: "lincrkme_01 by digitalbyte"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: "C/C++"
+
+difficulty: 2.0
+quality: 4.0
+size: "3.62 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/lincrkme_01.zip"
+  name: "lincrkme_01.zip"
+  sha256: "8653fb91648a728436e291bfc19b4bf2e57f2772aaf8ee8cfae0b6a50d809373"
+  md5: "dbd5ad7101b8226b13d801de01404452"
+  size_bytes: 3705
+
+status: solved
+solution_summary: "keygen : serial = username inversé (sans le \n de fgets), username >= 6 car. ; anti-debug ptrace(TRACEME) avant main ; petikvx -> xvkitep"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T04:50:55Z"
