@@ -1,0 +1,36 @@
+# Origine crackmes.one
+id: 5ab77f5433c5d40ad448c1aa
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c1aa
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c1aa
+
+title: "rif_crackme_5 by korbut"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/ftsii_meat.zip"
+  name: "ftsii_meat.zip"
+  sha256: "e7437420df0bd22b44535b900a3cc17cd73f089be2884e644dbf5080ea27ba25"
+  md5: "8a8bfd90326db09a7784930218ca1039"
+  size_bytes: 13419
+
+status: solved
+solution_summary: "sum ((c+1)^i)*i avec i=index+1 ; petik → 1631"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T23:56:00Z"

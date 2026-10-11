@@ -1,0 +1,52 @@
+; check @ 0x4013b8
+004013B8  55                push ebp
+004013B9  8BEC              mov ebp,esp
+004013BB  60                pusha
+004013BC  6A32              push byte +0x32
+004013BE  6884304000        push dword 0x403084
+004013C3  68D0070000        push dword 0x7d0
+004013C8  FF7508            push dword [ebp+0x8]
+004013CB  E826010000        call 0x4014f6
+004013D0  0BC0              or eax,eax
+004013D2  7527              jnz 0x4013fb
+004013D4  EB0F              jmp short 0x4013e5
+004013D6  50                push eax
+004013D7  61                popa
+004013D8  7320              jnc 0x4013fa
+004013DA  6465206E6F        and [gs:esi+0x6f],ch
+004013DF  6D                insd
+004013E0  2021              and [ecx],ah
+004013E2  2121              and [ecx],esp
+004013E4  006A10            add [edx+0x10],ch
+004013E7  6A00              push byte +0x0
+; loop body @ 0x401463 (via jmp over strings)
+00401463  33C1              xor eax,ecx
+00401465  F7E9              imul ecx
+00401467  03D8              add ebx,eax
+00401469  EB94              jmp short 0x4013ff
+; after loop
+0040146B  6A00              push byte +0x0
+0040146D  6A00              push byte +0x0
+0040146F  68D1070000        push dword 0x7d1
+00401474  FF7508            push dword [ebp+0x8]
+00401477  E874000000        call 0x4014f0
+0040147C  0BC0              or eax,eax
+0040147E  7516              jnz 0x401496
+00401480  6A10              push byte +0x10
+00401482  6A00              push byte +0x0
+00401484  680E144000        push dword 0x40140e
+00401489  FF7508            push dword [ebp+0x8]
+0040148C  E889000000        call 0x40151a
+00401491  61                popa
+00401492  C9                leave
+00401493  C20400            ret 0x4
+00401496  2BC3              sub eax,ebx
+00401498  0BC0              or eax,eax
+0040149A  7519              jnz 0x4014b5
+0040149C  6A00              push byte +0x0
+0040149E  6838144000        push dword 0x401438
+004014A3  6820144000        push dword 0x401420
+004014A8  FF7508            push dword [ebp+0x8]
+004014AB  E86A000000        call 0x40151a
+004014B0  61                popa
+004014B1  C9                leave
