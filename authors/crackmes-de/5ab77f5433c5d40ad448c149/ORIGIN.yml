@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c149
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c149
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c149
+
+title: "cyclops by cyclops"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++ (MSVC 6 / MFC 4.2)"
+
+difficulty: 1.0
+quality: null
+size: "4.14 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/cyclops.zip"
+  name: "cyclops.zip"
+  sha256: "cbb53eb7a73170f60989745cc6160ef3531c9769b0f7cc98395d6173412976e2"
+  md5: "5102ada8e4b2dc75c99749b19cebe6fb"
+  size_bytes: 4240
+
+status: solved
+solution_summary: "serial en dur <BrD-SoB> (GetDlgItemTextA + lstrcmpA) — preuve statique, MFC42 absent sous wine"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T05:51:49Z"
