@@ -786,6 +786,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c1a8/original/crackmeorkeygenme-game.zip"
     title: "crackmes.de's crack_me_or_keygen_me by dragonpxx"
 
+  5ab77f5433c5d40ad448c1a9:
+    sha256: "18ce2f2a37d3f5b99b1ee1b613947178e055b5e03fc988cfc725e958681a323f"
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c1a9/original/KeyGenMe.zip"
+    title: "crackmes.de's yowmo_keygenme1 by yowmo"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1427,3 +1432,7 @@ by_sha256:
     id: 5ab77f5433c5d40ad448c1a8
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c1a8/original/crackmeorkeygenme-game.zip"
     page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c1a8
+  18ce2f2a37d3f5b99b1ee1b613947178e055b5e03fc988cfc725e958681a323f:
+    id: 5ab77f5433c5d40ad448c1a9
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c1a9/original/KeyGenMe.zip"
+    page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c1a9
