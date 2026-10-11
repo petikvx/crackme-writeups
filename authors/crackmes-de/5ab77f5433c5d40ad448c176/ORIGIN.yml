@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c176
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c176
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c176
+
+title: "consoleinfinity by promix17"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++"
+
+difficulty: 2.0
+quality: null
+size: "47.43 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Console_Infinity_by_Promix17.zip"
+  name: "Console_Infinity_by_Promix17.zip"
+  sha256: "83c79eb680fe1e9caa957b1c8e306d4e582bad7db62bd16ece1edc138596985b"
+  md5: "27be16b74ef3103b31eaf481990ad4f6"
+  size_bytes: 48568
+
+status: solved
+solution_summary: "Password! + 5 libres + Hacker! + 9 libres + Infinity! + 3 libres + !, hash %0xFFFFFF == 0x209DD8 ; ex. Password!WErUPHacker!I35mP5pygInfinity!LoL!"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T14:00:28Z"

@@ -158,6 +158,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 130 | [nts_crackme10](5ab77f5433c5d40ad448c162/) | cyclops | Win32 GUI (MSVC 6 / MFC) | keygen `%08X` du hash du nom (anti-debug NtGlobalFlag/rdtsc → key 0) ; `petik!` → `85CDB0E3` (vérifié Unicorn) |
 | 131 | [crackme0x1](5ab77f5433c5d40ad448c16d/) | pickled | Win32 console (MSVC 2005) | clé fixe `pickled` = `secret[i] ^ i` sur `` phahh`b `` (vérifié live Wine) |
 | 132 | [TinyAsm](5ab77f5433c5d40ad448c170/) | promix17 | Win32 GUI (MASM) | mot de passe fixe `Nrsisj{` = `((enc[i]+1)^0x2F)^0x1A`, checksum anti-patch du code (vérifié Unicorn) |
+| 133 | [consoleinfinity](5ab77f5433c5d40ad448c176/) | promix17 | Win32 console (MSVC, 81 stubs `Packer`) | `Password!`+5+`Hacker!`+9+`Infinity!`+3+`!`, hash %0xFFFFFF = `0x209DD8` (brute) ; ex. `Password!WErUPHacker!I35mP5pygInfinity!LoL!` (vérifié Wine + Unicorn) |
 
 ## Mis de côté (PARKED — y revenir)
 

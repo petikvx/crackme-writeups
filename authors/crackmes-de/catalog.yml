@@ -676,6 +676,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c170/original/TinyAsm.zip"
     title: "crackmes.de's tinyasm_by_promix17 by promix17"
 
+  5ab77f5433c5d40ad448c176:
+    sha256: "83c79eb680fe1e9caa957b1c8e306d4e582bad7db62bd16ece1edc138596985b"
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c176/original/Console_Infinity_by_Promix17.zip"
+    title: "crackmes.de's consoleinfinity by promix17"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1229,3 +1234,7 @@ by_sha256:
     id: 5ab77f5433c5d40ad448c170
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c170/original/TinyAsm.zip"
     page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c170
+  83c79eb680fe1e9caa957b1c8e306d4e582bad7db62bd16ece1edc138596985b:
+    id: 5ab77f5433c5d40ad448c176
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c176/original/Console_Infinity_by_Promix17.zip"
+    page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c176
