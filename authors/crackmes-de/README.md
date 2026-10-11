@@ -154,6 +154,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 126 | [nts_crackme2](5ab77f5433c5d40ad448c15d/) | cyclops | Win32 GUI (MASM32) | serial en clair `Serial` (`lstrcmpA`) ; vérifié par émulation Unicorn de la DialogProc |
 | 127 | [nts_crackme3](5ab77f5433c5d40ad448c15e/) | cyclops | Win32 GUI (MSVC 6 / MFC) | serial 8 car. testés un par un : `2:).+-M` + 1 car. libre (ex. `2:).+-MX`) ; vérifié par émulation Unicorn |
 | 128 | [spear](5ab77f5433c5d40ad448c15f/) | cyclops | Win32 GUI (MSVC 6 / MFC) | keygen **Shamir mod 251** : 5 parts dont Lagrange en 0 donne `CyClOpS` ; anti-debug IsDebuggerPresent + rdtsc ; vérifié par émulation Unicorn |
+| 129 | [nts_crackme6](5ab77f5433c5d40ad448c161/) | cyclops | Win32 GUI (MSVC 6 / MFC) | keyfile `Key.cyc` : nom + base64(nom répété sur 30 octets) ; `petik` → `cGV0aWtwZXRpa3BldGlrcGV0aWtwZXRpa3BldGlr` (vérifié live Wine) |
 
 ## Mis de côté (PARKED — y revenir)
 

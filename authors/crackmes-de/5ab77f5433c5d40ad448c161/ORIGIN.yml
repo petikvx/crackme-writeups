@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c161
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c161
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c161
+
+title: "nts_crackme6 by cyclops"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++ (MSVC 6, MFC 4.2)"
+
+difficulty: 2.0
+quality: null
+size: "7.68 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/NTS-Crackme6.zip"
+  name: "NTS-Crackme6.zip"
+  sha256: "56b4672903536879634a9591ab248d1e1fc90b195e64f63bb1a43c2c065b4b88"
+  md5: "eb35ac9468afe6cfd55ee2e7ece1bffe"
+  size_bytes: 7862
+
+status: solved
+solution_summary: "keyfile Key.cyc : ligne 1 = nom (5..28) ; ligne 2 = base64(nom répété sur 30 octets) ; petik → cGV0aWtwZXRpa3BldGlrcGV0aWtwZXRpa3BldGlr (vérifié live Wine)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T11:10:03Z"
