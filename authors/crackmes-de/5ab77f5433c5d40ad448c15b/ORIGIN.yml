@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c15b
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c15b
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c15b
+
+title: "crackme2 by cyclops"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "DOS"
+arch: "x86"
+language: "Borland C++ (annoncé Borland Delphi)"
+
+difficulty: 1.0
+quality: 4.0
+size: "9.70 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme2.zip"
+  name: "crackme2.zip"
+  sha256: "1b59e291303fcb5a661959cc08010eca607d888265bfcaaa958b9ebaa109fc43"
+  md5: "52d11742f598b2ba4dc85feef680d18c"
+  size_bytes: 9937
+
+status: solved
+solution_summary: "keygen : serial = Σ 0x8E·(tolower(c)&0x7F + bonus(i, parité len)) ; petik → 83496"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T08:57:27Z"

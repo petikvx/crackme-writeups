@@ -149,6 +149,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 121 | [cyclops_crackme_5.0](5ab77f5433c5d40ad448c157/) | cyclops | Windows PE32 GUI (MSVC 6 / MFC42D) | passcode tapé dans la fenêtre (OnChar + strstr), dérivé de 6 chaînes par `(A^~B^(C&D))|~E^F` ; **`CrAcKiNg Is CoOl`** (émulation unicorn) |
 | 122 | [nts_crackme9](5ab77f5433c5d40ad448c158/) | cyclops | Windows PE32 GUI (MSVC 6 / MFC 4.2) | keygen P(8)+MD5_even(P+"Cyclops / REAL") (octets pairs) ; petik/petik000→**`petik00083A0BD58A9631228`** (émulation unicorn) |
 | 123 | [nts_crackme1](5ab77f5433c5d40ad448c15a/) | cyclops | Windows PE32 GUI (MASM32) | patch 1 octet `0x40100d` jne→je (file `0x40d`) ; flag `.data`=0 → **Registered!!!** (émulation unicorn) |
+| 124 | [crackme2](5ab77f5433c5d40ad448c15b/) | cyclops | DOS 16 bits (Borland C++) | keygen Σ 0x8E·(tolower(c)&0x7F + bonus) ; `petik` → `83496` (vérifié DOSBox) |
 
 ## Mis de côté (PARKED — y revenir)
 
