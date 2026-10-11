@@ -125,6 +125,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 
 | Famille | Auteur | Épreuves | Résolues |
 |---|---|---|---|
+| 2026-10-11 | [nts_crackme2](authors/crackmes-de/5ab77f5433c5d40ad448c15d/) | crackmes.de / cyclops |
 | [timotei](authors/timotei/README.md) | timotei (`tim0tei`, `timotei_`) | 12 (4 ELF64 + 8 PE32) | 12 / 12 |
 | [cracknotme](authors/cracknotme/README.md) | CrackNotMe | 16+ (CFB… + Wonka + Turbine + MCM1–3) | 15 / 16 |
 | [crudd](authors/crudd/README.md) | crudd | 1 (PatchPad) | 1 / 1 |
@@ -146,7 +147,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [oguzbey](authors/oguzbey/README.md) | oguzbey | 1 (Lucky Numbers) | 1 / 1 |
 | [andrewl](authors/andrewl/README.md) | andrewl | 1 (Quick Crypto) | 1 / 1 |
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
-| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 117 / 117 |
+| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 118 / 118 |
 | [chaltu](authors/chaltu/README.md) | chaltu | 2 (a Treasure + Double Door) | 2 / 2 |
 | [qerr0r](authors/qerr0r/README.md) | QERR0R | 1 (crackit) | 1 / 1 |
 | [steve_maxwell](authors/steve_maxwell/README.md) | steve_maxwell | 1 (X-0-R) | 1 / 1 |

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c15d
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c15d
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c15d
+
+title: "nts_crackme2 by cyclops"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler (MASM32)"
+
+difficulty: 1.0
+quality: 4.0
+size: ""
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/NTS-Crackme2.zip"
+  name: "NTS-Crackme2.zip"
+  sha256: "d0bbb4a7dd6eac43d6b680c81caf3459aadccd4ea2ffbf2472ffb92cb1130582"
+  md5: "57287ca4a301ad64964ac61f85e628fa"
+  size_bytes: 2393
+
+status: solved
+solution_summary: "serial en clair : Serial (lstrcmpA avec .data:0x403000)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T09:59:17Z"
