@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c1a5
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c1a5
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c1a5
+
+title: "breakers_crackme_4 by brk12345"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ".NET"
+
+difficulty: 2.0
+quality: null
+size: ""
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Breaker__s_Crackme_#4.zip"
+  name: "Breaker__s_Crackme_#4.zip"
+  sha256: "2ea8dc8439e611ebf652d999c1740bdaf3d38597e9471cf81133fcdf4f5abe2c"
+  md5: "2ce6e9fc94893a4068b8e320df2fa90b"
+  size_bytes: 9286
+
+status: solved
+solution_summary: "keygen MD5/base64 UTF-16LE imbriqués; petik -> IMygpr5vfL+16/UYAcRTIg==IMygpr5vfL+16/UYAcRTIg==IMygpr5vfL+16/UYAcRTIg=="
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T22:50:45Z"
