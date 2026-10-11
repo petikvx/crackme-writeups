@@ -1,0 +1,28 @@
+// Hex-Rays (IDA MCP) — extraits commentés
+// crate game[6168806178d44bfd]  (Cs8mv6bOVvuTp_4game)
+
+// VA 0x722e0  file 0x712e0
+bool game::is_win(unsigned int score)
+{
+  return score >= 0x64;   // 100, unsigned → wrapping 0xffffffff gagne
+}
+
+// VA 0x722f0  file 0x712f0
+bool game::is_dead(float elapsed)
+{
+  return elapsed >= 10.0;
+}
+
+// VA 0x72c50  Game::update — layout
+// +0,+4  f32 x,y  (restart 350, 200)
+// +8     u32 score
+// +0xC   f32 elapsed   (is_dead)
+// +0x10  f32 score_acc ( += dt ; tant que >= 1.0 : acc -= 1, score++ )
+// +0x14  u8  state  0 playing / 1 dead / 2 win
+
+// tick score (VA 0x72e14 : inc edi)
+if (score_acc >= 1.0) {
+  do { score_acc -= 1.0; ++score; } while (score_acc >= 1.0);
+}
+if (is_win(score)) state = 2;
+else if (is_dead(elapsed)) state = 1;

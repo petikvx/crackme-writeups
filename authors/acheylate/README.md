@@ -11,6 +11,7 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml).
 | 1 | [Find the password](6aac1a0c585e8875bcbec009/) | [`6aac1a0c…`](https://crackmes.one/crackme/6aac1a0c585e8875bcbec009) | Linux ELF64 Rust | **solved** — `HVUHADN` |
 | 2 | [Find the password Windows ver](6aac22ff48cda5a2aaa3de2d/) | [`6aac22ff…`](https://crackmes.one/crackme/6aac22ff48cda5a2aaa3de2d) | Windows PE64 Rust | **solved** — `HVUHADN` |
 | 3 | [Password Check With State Machine](6ac400c80885f990699dc134/) | [`6ac400c8…`](https://crackmes.one/crackme/6ac400c80885f990699dc134) | Linux ELF64 Rust | **solved** — `S7HVH.` |
+| 4 | [Beat The Game](6aca57316349e4b2540c7018/) | [`6aca5731…`](https://crackmes.one/crackme/6aca57316349e4b2540c7018) | Linux ELF64 Rust / macroquad | **solved** — patch `is_win` `0x64→0` / wrap `inc→dec` |
 
 ## Ajouter un crackme
 

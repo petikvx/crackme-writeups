@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré manuellement (Windows, pas de bash add-crackme.sh)
+id: 6aca57316349e4b2540c7018
+
+urls:
+  page: https://crackmes.one/crackme/6aca57316349e4b2540c7018
+  download: https://crackmes.one/download/crackme/6aca57316349e4b2540c7018
+
+title: "acheylate's Beat The Game"
+author_on_site: "acheylate"
+author_local: "acheylate"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "Rust"
+
+difficulty: 4.0
+quality: 4.0
+size: "1.47 MB"
+published: "2026-10-10"
+
+series_index: null
+local_slug: beat-the-game
+
+binary:
+  path: "original/game"
+  name: "game"
+  sha256: "ec2b7da945bc097547b34fe0d61a89871fa045faefc5229feafd7162786f9e96"
+  md5: "c68d00ea799162ae760d4cd32100a4dd"
+  size_bytes: 1539712
+
+status: solved
+solution_summary: "macroquad : is_win(score u32 >= 100) / is_dead(t >= 10s). Patch 0x64→0 (always-win) ou inc→dec (wrap 0xffffffff)."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T00:00:00Z"

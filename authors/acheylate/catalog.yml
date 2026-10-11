@@ -15,6 +15,11 @@ by_id:
     path: "authors/acheylate/6ac400c80885f990699dc134/original/crackme-state"
     title: "acheylate's Password Check With State Machine"
 
+  6aca57316349e4b2540c7018:
+    sha256: "ec2b7da945bc097547b34fe0d61a89871fa045faefc5229feafd7162786f9e96"
+    path: "authors/acheylate/6aca57316349e4b2540c7018/original/game"
+    title: "acheylate's Beat The Game"
+
 by_sha256:
   67b49753e7e578cc2ac5c4a564e99cebe5a76535c323963c3422cc2f9e0455e4:
     id: 6aac1a0c585e8875bcbec009
@@ -28,3 +33,7 @@ by_sha256:
     id: 6ac400c80885f990699dc134
     path: "authors/acheylate/6ac400c80885f990699dc134/original/crackme-state"
     page: https://crackmes.one/crackme/6ac400c80885f990699dc134
+  ec2b7da945bc097547b34fe0d61a89871fa045faefc5229feafd7162786f9e96:
+    id: 6aca57316349e4b2540c7018
+    path: "authors/acheylate/6aca57316349e4b2540c7018/original/game"
+    page: https://crackmes.one/crackme/6aca57316349e4b2540c7018
