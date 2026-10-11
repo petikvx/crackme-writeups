@@ -141,7 +141,8 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 113 | [4f.crackme_2](5ab77f5333c5d40ad448c12d/) | ximus | Windows PE32 GUI (MSVC, PELock + DLL) | `crackme.dll!Check` : len 15, `s[7]='-'`, `Σ(paires)^4+^3+^2+c` = `0x2722DCB0` / `0x3308239F` → **`020p99L-100J68z`** |
 | 114 | [4f.crackme1](5ab77f5333c5d40ad448c12e/) | ximus | Windows PE32 GUI (MSVC) | keygen `ABCDE-HHHHH` : `C,D,E=name[0..2]%10`, `B=CDE%10`, `A=(B+C+D)%10`, `HHHHH=%X(Σname·0xFEAD & 0xFFFFF)` ; petik→**`52216-A3399`** |
 | 115 | [lincrkme_01](5ab77f5333c5d40ad448c12f/) | digitalbyte | Linux ELF32 (gcc) | keygen : serial = **username inversé** (sans `\n`), len ≥ 6 ; anti-debug `ptrace(TRACEME)` avant `main` → faux « too short » ; petikvx→**`xvkitep`** |
-| 116 | [cyclops](5ab77f5433c5d40ad448c149/) | cyclops | Windows PE32 GUI (MSVC 6 / MFC 4.2) | serial en dur **`<BrD-SoB>`** (`lstrcmpA` vs `.data:0x403020`) — preuve statique (MFC42 absent sous wine) |
+| 116 | [cyclops](5ab77f5433c5d40ad448c149/) | cyclops | Windows PE32 GUI (MSVC 6 / MFC 4.2) | serial en dur **`<BrD-SoB>`** (`lstrcmpA` vs `.data:0x403020`) — vérifié live wine (+ winetricks mfc42) |
+| 117 | [nts_crackme5](5ab77f5433c5d40ad448c14b/) | cyclops | Windows PE32 GUI (MSVC 6 / MFC 4.2) | keygen : `f1(nom)+f2(nom)` (2× `%08X-%08X`, accumulateurs xor/or/mod 7/5/11), nom ≥ 7 ; petikvx→**`8E15AE20-27A3073C+D2E8AF0E-7A9D4D14`** (live wine) |
 
 ## Mis de côté (PARKED — y revenir)
 
