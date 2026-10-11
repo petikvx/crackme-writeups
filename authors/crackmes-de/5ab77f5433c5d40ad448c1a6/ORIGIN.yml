@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c1a6
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c1a6
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c1a6
+
+title: "crackmekeygen_breaker by brk12345"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ".NET"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Crackme(KeyGenme)-Breaker.zip"
+  name: "Crackme(KeyGenme)-Breaker.zip"
+  sha256: "49bd55a9a592d7ed661aa831328366b565ef45835177e03983fc8094a54ec5a1"
+  md5: "e6a270f0e8d2a64bc719918d20c06cbb"
+  size_bytes: 7030
+
+status: solved
+solution_summary: "keygen 81*len(nom)+19350; petik -> 19755"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T22:51:41Z"

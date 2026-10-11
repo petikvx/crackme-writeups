@@ -776,6 +776,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c1a5/original/Breaker__s_Crackme_#4.zip"
     title: "crackmes.de's breakers_crackme_4 by brk12345"
 
+  5ab77f5433c5d40ad448c1a6:
+    sha256: "49bd55a9a592d7ed661aa831328366b565ef45835177e03983fc8094a54ec5a1"
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c1a6/original/Crackme(KeyGenme)-Breaker.zip"
+    title: "crackmes.de's crackmekeygen_breaker by brk12345"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1409,3 +1414,7 @@ by_sha256:
     id: 5ab77f5433c5d40ad448c1a5
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c1a5/original/Breaker__s_Crackme_#4.zip"
     page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c1a5
+  49bd55a9a592d7ed661aa831328366b565ef45835177e03983fc8094a54ec5a1:
+    id: 5ab77f5433c5d40ad448c1a6
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c1a6/original/Crackme(KeyGenme)-Breaker.zip"
+    page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c1a6
