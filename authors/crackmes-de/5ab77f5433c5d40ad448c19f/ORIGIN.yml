@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c19f
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c19f
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c19f
+
+title: "crackme_9 by tcn30"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ".NET"
+
+difficulty: 2.0
+quality: null
+size: ""
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/3.zip"
+  name: "3.zip"
+  sha256: "2180eeb77b66e4ff51a35b97e6f790cf9488a17ca87c8db4bb03a821c1d004da"
+  md5: "c5e386b4d9a15759b9634fac60997524"
+  size_bytes: 3046
+
+status: solved
+solution_summary: "password Leteminman (Rijndael-256 CBC, PasswordDeriveBytes MD5x1024)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T21:57:37Z"

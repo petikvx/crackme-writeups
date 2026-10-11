@@ -761,6 +761,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c19d/original/PasswordApp.zip"
     title: "crackmes.de's password_app by tcn30"
 
+  5ab77f5433c5d40ad448c19f:
+    sha256: "2180eeb77b66e4ff51a35b97e6f790cf9488a17ca87c8db4bb03a821c1d004da"
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c19f/original/3.zip"
+    title: "crackmes.de's crackme_9 by tcn30"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1382,3 +1387,7 @@ by_sha256:
     id: 5ab77f5433c5d40ad448c19d
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c19d/original/PasswordApp.zip"
     page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c19d
+  2180eeb77b66e4ff51a35b97e6f790cf9488a17ca87c8db4bb03a821c1d004da:
+    id: 5ab77f5433c5d40ad448c19f
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c19f/original/3.zip"
+    page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c19f
