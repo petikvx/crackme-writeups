@@ -147,6 +147,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 119 | [cyclops_crackme_4.0](5ab77f5433c5d40ad448c152/) | cyclops | Windows PE32 GUI (MSVC 6 / MFC42D, UPX maquillé CYC) | keygen RC4(clé=nom) sur l'e-mail étendu à 32 octets, octets en décimal (1er = 0, bug) ; petik/petik@crackmes.one→**`0524521618623215216116723179118871202182331161383711910413093177491854185010817282`** (émulation unicorn) |
 | 120 | [nts_crackme8](5ab77f5433c5d40ad448c156/) | cyclops | Windows PE32 GUI (MSVC 6 / MFC 4.2) | keygen SHA-256(nom), serial `%08X%08X` des sommes des mots impairs/pairs ; petikpetik→**`4565D7C272B88E40`** (émulation unicorn) |
 | 121 | [cyclops_crackme_5.0](5ab77f5433c5d40ad448c157/) | cyclops | Windows PE32 GUI (MSVC 6 / MFC42D) | passcode tapé dans la fenêtre (OnChar + strstr), dérivé de 6 chaînes par `(A^~B^(C&D))|~E^F` ; **`CrAcKiNg Is CoOl`** (émulation unicorn) |
+| 122 | [nts_crackme9](5ab77f5433c5d40ad448c158/) | cyclops | Windows PE32 GUI (MSVC 6 / MFC 4.2) | keygen P(8)+MD5_even(P+"Cyclops / REAL") (octets pairs) ; petik/petik000→**`petik00083A0BD58A9631228`** (émulation unicorn) |
 
 ## Mis de côté (PARKED — y revenir)
 
