@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c17e
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c17e
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c17e
+
+title: "crackme_12 by fireworx"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: ""
+arch: "x86"
+language: "Delphi/Object Pascal"
+
+difficulty: 1.0
+quality: null
+size: "251.06 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme12.zip"
+  name: "crackme12.zip"
+  sha256: "45e3117d504b6301fbf050073c959fddabfa40b94d0c3d2a8c98160f12e8278a"
+  md5: "caf27e6f8586270ba856470b08c994af"
+  size_bytes: 257085
+
+status: solved
+solution_summary: "serial = IntToStr(((123k div len(nom+société))<<5 + 0x5B1D54) xor 0x12), k∈[1,len(serial)]; petik/petik -> 5971654"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T14:49:27Z"
