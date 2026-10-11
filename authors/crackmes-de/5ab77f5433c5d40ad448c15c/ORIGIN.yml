@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c15c
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c15c
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c15c
+
+title: "nts_crackme7 by cyclops"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++ (MSVC 6, MFC 4.2)"
+
+difficulty: 1.0
+quality: 4.0
+size: "21.99 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/NTS-Crackme7.zip"
+  name: "NTS-Crackme7.zip"
+  sha256: "7bbadb9d1cc520d23d105856a6093be6f1b19bfeadb7596744403fd9b2da650b"
+  md5: "d0533220575d0e5f5a1a39f02dd7d72e"
+  size_bytes: 22516
+
+status: solved
+solution_summary: "keygen : serial = A-B, A = %08X(CRC32(name)), B = %08X(CRC32(A)) ; petik → 0EAFB851-0DE144F8"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T09:57:04Z"
