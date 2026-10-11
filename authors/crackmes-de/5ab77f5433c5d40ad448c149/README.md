@@ -57,10 +57,13 @@ Le prédicat est donc une simple égalité avec la constante `<BrD-SoB>` (9 cara
 
 ## Vérification
 
-Pas de vérification live : le binaire dépend de `MFC42.DLL`, absent du préfixe wine de la box,
-et le crackme est GUI. **Preuve statique** : la seule comparaison est `lstrcmpA` contre la constante
-de `0x403020`, et la branche `test eax,eax / jne` mène au message de succès quand elles sont égales.
-Le solveur relit cette constante dans le PE d’origine (assert).
+Live sous wine (après `winetricks -q mfc42`, MFC42.DLL n’étant pas fourni par wine) :
+
+```bash
+xvfb-run -a wine original/cyclops.exe   # (extrait du zip)  → saisir <BrD-SoB> → Check
+```
+
+![Correct way to go!!](analysis/live-wine-correct.png)
 
 ## Résumé
 

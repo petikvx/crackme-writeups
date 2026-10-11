@@ -29,7 +29,7 @@ binary:
   size_bytes: 4240
 
 status: solved
-solution_summary: "serial en dur <BrD-SoB> (GetDlgItemTextA + lstrcmpA) — preuve statique, MFC42 absent sous wine"
+solution_summary: "serial en dur <BrD-SoB> (GetDlgItemTextA + lstrcmpA) — vérifié live sous wine + mfc42"
 
 download:
   zip_password: crackmes.one
