@@ -681,6 +681,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c176/original/Console_Infinity_by_Promix17.zip"
     title: "crackmes.de's consoleinfinity by promix17"
 
+  5ab77f5433c5d40ad448c17c:
+    sha256: "14ace16c18d2d7a1842abe1ae0fb5f752fe872c427668b735a80131cdf525221"
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c17c/original/fire_cm13.zip"
+    title: "crackmes.de's crackme_13 by fireworx"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1238,3 +1243,7 @@ by_sha256:
     id: 5ab77f5433c5d40ad448c176
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c176/original/Console_Infinity_by_Promix17.zip"
     page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c176
+  14ace16c18d2d7a1842abe1ae0fb5f752fe872c427668b735a80131cdf525221:
+    id: 5ab77f5433c5d40ad448c17c
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c17c/original/fire_cm13.zip"
+    page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c17c

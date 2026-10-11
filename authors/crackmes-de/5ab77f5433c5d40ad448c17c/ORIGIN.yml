@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c17c
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c17c
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c17c
+
+title: "crackme_13 by fireworx"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: ""
+arch: "x86"
+language: "Delphi/Object Pascal"
+
+difficulty: 1.0
+quality: null
+size: "210.46 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/fire_cm13.zip"
+  name: "fire_cm13.zip"
+  sha256: "14ace16c18d2d7a1842abe1ae0fb5f752fe872c427668b735a80131cdf525221"
+  md5: "730dcd0104e4ad9add060118fe7cd7fb"
+  size_bytes: 215506
+
+status: solved
+solution_summary: "serial = IntToStr(f(ebx)), ebx∈[2,len]; ex. 1774248000 (ebx=4); nom ignoré"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T14:07:59Z"

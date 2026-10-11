@@ -159,6 +159,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 131 | [crackme0x1](5ab77f5433c5d40ad448c16d/) | pickled | Win32 console (MSVC 2005) | clé fixe `pickled` = `secret[i] ^ i` sur `` phahh`b `` (vérifié live Wine) |
 | 132 | [TinyAsm](5ab77f5433c5d40ad448c170/) | promix17 | Win32 GUI (MASM) | mot de passe fixe `Nrsisj{` = `((enc[i]+1)^0x2F)^0x1A`, checksum anti-patch du code (vérifié Unicorn) |
 | 133 | [consoleinfinity](5ab77f5433c5d40ad448c176/) | promix17 | Win32 console (MSVC, 81 stubs `Packer`) | `Password!`+5+`Hacker!`+9+`Infinity!`+3+`!`, hash %0xFFFFFF = `0x209DD8` (brute) ; ex. `Password!WErUPHacker!I35mP5pygInfinity!LoL!` (vérifié Wine + Unicorn) |
+| 134 | [crackme_13](5ab77f5433c5d40ad448c17c/) | FireWorx | Win32 GUI (Delphi + ASPack) | serial = `IntToStr(f(ebx))`, `ebx∈[2,len]` ; ex. `1774248000` (ebx=4) ; nom ignoré (vérifié sur dump Image2Click) |
 
 ## Mis de côté (PARKED — y revenir)
 
