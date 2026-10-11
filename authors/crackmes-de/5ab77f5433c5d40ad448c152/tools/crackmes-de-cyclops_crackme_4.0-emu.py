@@ -1,6 +1,7 @@
+# usage : emu.py NOM EMAIL SERIAL 40177b [u.exe = crackme4.exe dépacké : CYC->UPX puis upx -d]
 import sys,struct
 from unicorn import *; from unicorn.x86_const import *
-d=open('/tmp/c4/u.exe','rb').read()
+d=open(sys.argv[5] if len(sys.argv)>5 else 'u.exe','rb').read()
 u=Uc(UC_ARCH_X86,UC_MODE_32)
 u.mem_map(0x400000,0x10000); 
 for off,va,sz in [(0x1000,0x401000,0x4000),(0x5000,0x405000,0x1000),(0x6000,0x406000,0x1000),(0x7000,0x407000,0x1000)]:
