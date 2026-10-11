@@ -726,6 +726,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c18c/original/upxed.zip"
     title: "crackmes.de's upxed by blueowl"
 
+  5ab77f5433c5d40ad448c190:
+    sha256: "46bdb34caca77be06644e8d414a74b07bf91ec9d0b1997a5e7cf0cdff917f446"
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c190/original/firoxcrackme1.zip"
+    title: "crackmes.de's firox_crackme_1 by firox"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1319,3 +1324,7 @@ by_sha256:
     id: 5ab77f5433c5d40ad448c18c
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c18c/original/upxed.zip"
     page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c18c
+  46bdb34caca77be06644e8d414a74b07bf91ec9d0b1997a5e7cf0cdff917f446:
+    id: 5ab77f5433c5d40ad448c190
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c190/original/firoxcrackme1.zip"
+    page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c190

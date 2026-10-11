@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c190
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c190
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c190
+
+title: "firox_crackme_1 by firox"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: ""
+arch: "x86"
+language: "Visual Basic 6"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/firoxcrackme1.zip"
+  name: "firoxcrackme1.zip"
+  sha256: "46bdb34caca77be06644e8d414a74b07bf91ec9d0b1997a5e7cf0cdff917f446"
+  md5: "6d77e4afaca274bf2fd581947887cf8a"
+  size_bytes: 5690
+
+status: solved
+solution_summary: "serial en dur DFT1-9CKS-BWD0-2VRF (__vbaStrCmp, VB6 natif)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T19:01:23Z"
