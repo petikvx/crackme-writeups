@@ -671,6 +671,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c16d/original/crackme0x1.zip"
     title: "crackmes.de's crackme0x1 by pickled"
 
+  5ab77f5433c5d40ad448c170:
+    sha256: "2b0261b93c118df1be0502fb1abd2b3ae5815d444b12675c86b97570d76ea902"
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c170/original/TinyAsm.zip"
+    title: "crackmes.de's tinyasm_by_promix17 by promix17"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1220,3 +1225,7 @@ by_sha256:
     id: 5ab77f5433c5d40ad448c16d
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c16d/original/crackme0x1.zip"
     page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c16d
+  2b0261b93c118df1be0502fb1abd2b3ae5815d444b12675c86b97570d76ea902:
+    id: 5ab77f5433c5d40ad448c170
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c170/original/TinyAsm.zip"
+    page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c170

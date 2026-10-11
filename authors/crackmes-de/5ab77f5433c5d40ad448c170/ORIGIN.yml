@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c170
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c170
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c170
+
+title: "tinyasm_by_promix17 by promix17"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/TinyAsm.zip"
+  name: "TinyAsm.zip"
+  sha256: "2b0261b93c118df1be0502fb1abd2b3ae5815d444b12675c86b97570d76ea902"
+  md5: "3ff4d719c84c19de1620ee769c4f545c"
+  size_bytes: 1939
+
+status: solved
+solution_summary: "mot de passe fixe Nrsisj{ ((enc+1)^0x2F^0x1A)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T12:55:30Z"
