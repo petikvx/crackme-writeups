@@ -164,6 +164,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 136 | [crackme_15](5ab77f5433c5d40ad448c17f/) | FireWorx | Win32 GUI (Delphi + ASPack) | serial = `"MU" + IntToStr(v(k)) + " "`, `k∈[2,len(nom)]` (seule la longueur du nom compte) ; ex. `petik` → `MU1373807 ` (vérifié Unicorn sur le vrai code dumpé) |
 | 137 | [crackme_2](5ab77f5433c5d40ad448c182/) | FireWorx | Win32 GUI (Delphi 4, non packé) | serial = `nom + nom + "625g72"` ; ex. `petik` → `petikpetik625g72` (vérifié live Wine) |
 | 138 | [crackme_5](5ab77f5433c5d40ad448c183/) | FireWorx | Win32 GUI (Delphi 4, non packé) | code fixe `Regcode` = caption de `Label1`, comparé à `Edit1` par un `TTimer` (1 ms), pas de bouton (vérifié live Wine) |
+| 139 | [crackme_9](5ab77f5433c5d40ad448c186/) | FireWorx | Win32 GUI (Delphi 4, non packé) | keygen : serial = ((((n/1932)*921)<<17)>>>9)/12 sur le nombre affiché dans `Edit2` (vérifié par émulation Unicorn du vrai code) |
 
 ## Mis de côté (PARKED — y revenir)
 

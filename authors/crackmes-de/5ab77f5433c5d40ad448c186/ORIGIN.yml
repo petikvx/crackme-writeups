@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c186
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c186
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c186
+
+title: "crackme_9 by fireworx"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Delphi/Object Pascal"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/fire_cm9.zip"
+  name: "fire_cm9.zip"
+  sha256: "c5b352e9e60a48d9ad48a6300a63ee97059449b1a6be9e0197e1a29116f15b2c"
+  md5: "4f2c13a677f0736a4424bd4feaa6e2c6"
+  size_bytes: 166156
+
+status: solved
+solution_summary: "keygen : serial = ((((n/1932)*921)<<17)>>>9)/12 ; n=654321 -> 349568"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T16:53:52Z"
