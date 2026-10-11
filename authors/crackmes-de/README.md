@@ -174,6 +174,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 146 | [libertyordeaths_asm_keygenme1](5ab77f5433c5d40ad448c195/) | LibertyorDeath | Win32 GUI MASM (code XOR 0x25) | keygen **`LOD-%lu-%lX`** : `esi += c+1+10·i!`, `edi = 10·n!·esi` ; petik→`LOD-886-103920` (émulé Unicorn) |
 | 147 | [libertyordeaths_linux_keygenme_1](5ab77f5433c5d40ad448c196/) | LibertyorDeath | Linux ELF32 (GCC) | keygen numérique : `50·(2·nom[-1]·(len-1))²` (int32) ; petik→`36636800` (vérifié en natif) |
 | 148 | [crackme4 by tcn30](5ab77f5433c5d40ad448c19c/) | tcn30 | Windows Delphi 2006 (GUI) | login `TURRICAN` / pass `NEWYEAR` déchiffrés (variante XTEA, émulation Unicorn de `0x455E98`) + UpperCase |
+| 149 | [password_app by tcn30](5ab77f5433c5d40ad448c19d/) | tcn30 | Windows Delphi (GUI) | pass `Letmein97531` : Decrypt Delphi (clé 12345, C1 `0xCE6D`, C2 `0x58BF`) ; vérifié live wine |
 
 ## Mis de côté (PARKED — y revenir)
 

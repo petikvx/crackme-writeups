@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c19d
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c19d
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c19d
+
+title: "password_app by tcn30"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Borland Delphi"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/PasswordApp.zip"
+  name: "PasswordApp.zip"
+  sha256: "691cd2a634d2eabc59a15ee49dd82cd96c10908addb5baf498518ecf58dbd7bd"
+  md5: "fff111d7cae2c315e4d23636745b97fe"
+  size_bytes: 219444
+
+status: solved
+solution_summary: "password Letmein97531 (Decrypt Delphi C1=0xCE6D C2=0x58BF clé 12345)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T21:54:48Z"
