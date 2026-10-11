@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5333c5d40ad448c12a
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c12a
+  download: https://crackmes.one/download/crackme/5ab77f5333c5d40ad448c12a
+
+title: "sennin1 by sennin"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/seNNin#1.zip"
+  name: "seNNin#1.zip"
+  sha256: "77df897e56723ec75b7da6dd0493c4105a9ec5d28ba2beab5f7bdb82558b365e"
+  md5: "03d70aaf3378bc067337307720cac222"
+  size_bytes: 16533
+
+status: solved
+solution_summary: "serial 10 car. : d0 point fixe (bswap/add/xor/shr) = YES_, d1 masque rol/sar & 0x45F == 0x40E (ex. G200), puis '!!' -> YES_G200!!"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T03:56:09Z"
