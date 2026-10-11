@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c1a8
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c1a8
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c1a8
+
+title: "crack_me_or_keygen_me by dragonpxx"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ".NET"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackmeorkeygenme-game.zip"
+  name: "crackmeorkeygenme-game.zip"
+  sha256: "81d7c2f93a91641198f43fb5fcebaa229a21dd88a7db294eb8dc5cc1a5cf896e"
+  md5: "baf08af0044d774fa2dfd6c6e38e7d59"
+  size_bytes: 241107
+
+status: solved
+solution_summary: "serial constant 4EC25C03-73D4-484C-AE78-20B3DC0A8457 (AES-ECB, clé MD5)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T22:52:11Z"

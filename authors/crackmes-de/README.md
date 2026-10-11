@@ -179,6 +179,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 151 | [crackmekeygenme1_breaker by brk12345](5ab77f5433c5d40ad448c1a4/) | brk12345 | Windows .NET 2.0 (VB.NET WinForms) | keygen `85·len-rev(nom[1:4])ata-(100+80·len)` ; petik→`425-iteata-500` (vrai code de vérif rejoué en dotnet) |
 | 152 | [breakers_crackme_4 by brk12345](5ab77f5433c5d40ad448c1a5/) | brk12345 | Windows .NET 2.0 (VB.NET WinForms, obfusqué) | keygen MD5→base64 (UTF-16LE) imbriqué, ×3 ; petik→`IMygpr5v…RTIg==`×3 (vrai code de vérif rejoué en dotnet) |
 | 153 | [crackmekeygen_breaker by brk12345](5ab77f5433c5d40ad448c1a6/) | brk12345 | Windows .NET 2.0 (VB.NET WinForms) | keygen `81·len+19350` ; petik→`19755` (vrai code de vérif rejoué en dotnet) |
+| 154 | [crack_me_or_keygen_me by dragonpxx](5ab77f5433c5d40ad448c1a8/) | dragonpxx | Windows .NET 3.5 (C# WinForms + 3 DLL) | serial constant `4EC25C03-73D4-484C-AE78-20B3DC0A8457` (AES-ECB, clé MD5 ; `Check` leurre) ; vrai Crypto.dll appelé en dotnet |
 
 ## Mis de côté (PARKED — y revenir)
 
