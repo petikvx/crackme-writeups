@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c189
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c189
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c189
+
+title: "crackme_3 by fireworx"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Delphi 4"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/fire_cm3.zip"
+  name: "fire_cm3.zip"
+  sha256: "620c72c08c995978c1a46c46a852868baba75db6fd86357360a762ded1beba15"
+  md5: "374028179958f2f6f28e2028e3a904be"
+  size_bytes: 176986
+
+status: solved
+solution_summary: "mot de passe fixe du TAHMPasswordDlg : RIDERSINTHENIGHT (casse libre)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T17:54:04Z"
