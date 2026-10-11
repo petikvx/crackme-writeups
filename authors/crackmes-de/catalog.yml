@@ -791,6 +791,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c1a9/original/KeyGenMe.zip"
     title: "crackmes.de's yowmo_keygenme1 by yowmo"
 
+  5ab77f5433c5d40ad448c1aa:
+    sha256: "e7437420df0bd22b44535b900a3cc17cd73f089be2884e644dbf5080ea27ba25"
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c1aa/original/ftsii_meat.zip"
+    title: "crackmes.de's rif_crackme_5 by korbut"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1436,3 +1441,7 @@ by_sha256:
     id: 5ab77f5433c5d40ad448c1a9
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c1a9/original/KeyGenMe.zip"
     page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c1a9
+  e7437420df0bd22b44535b900a3cc17cd73f089be2884e644dbf5080ea27ba25:
+    id: 5ab77f5433c5d40ad448c1aa
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c1aa/original/ftsii_meat.zip"
+    page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c1aa

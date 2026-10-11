@@ -181,6 +181,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 153 | [crackmekeygen_breaker by brk12345](5ab77f5433c5d40ad448c1a6/) | brk12345 | Windows .NET 2.0 (VB.NET WinForms) | keygen `81·len+19350` ; petik→`19755` (vrai code de vérif rejoué en dotnet) |
 | 154 | [crack_me_or_keygen_me by dragonpxx](5ab77f5433c5d40ad448c1a8/) | dragonpxx | Windows .NET 3.5 (C# WinForms + 3 DLL) | serial constant `4EC25C03-73D4-484C-AE78-20B3DC0A8457` (AES-ECB, clé MD5 ; `Check` leurre) ; vrai Crypto.dll appelé en dotnet |
 | 155 | [yowmo_keygenme1 by yowmo](5ab77f5433c5d40ad448c1a9/) | yowmo | Windows PE32 GUI (asm) | Level I : XOR glissant `DEADBEEF` → `%X` ; petik→`DCDBC68E` (Unicorn) |
+| 156 | [rif_crackme_5 by korbut](5ab77f5433c5d40ad448c1aa/) | korbut | Windows PE32 GUI (MASM) | sum `((c+1)^i)*i` (i=index+1) ; petik→`1631` (Unicorn) |
 
 ## Mis de côté (PARKED — y revenir)
 
