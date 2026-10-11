@@ -746,6 +746,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c195/original/LoD_ASM_KEYGENME#1.zip"
     title: "crackmes.de's libertyordeaths_asm_keygenme1 by libertyordeath"
 
+  5ab77f5433c5d40ad448c196:
+    sha256: "67bd28d0107d2bdb49a18e527a7a3c5afddd4479488f25b197711420738b5e7f"
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c196/original/keygenme1.tar.gz"
+    title: "crackmes.de's libertyordeaths_linux_keygenme_1 by libertyordeath"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1355,3 +1360,7 @@ by_sha256:
     id: 5ab77f5433c5d40ad448c195
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c195/original/LoD_ASM_KEYGENME#1.zip"
     page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c195
+  67bd28d0107d2bdb49a18e527a7a3c5afddd4479488f25b197711420738b5e7f:
+    id: 5ab77f5433c5d40ad448c196
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c196/original/keygenme1.tar.gz"
+    page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c196

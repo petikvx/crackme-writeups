@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c196
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c196
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c196
+
+title: "libertyordeaths_linux_keygenme_1 by libertyordeath"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: "C/C++"
+
+difficulty: 1.5
+quality: null
+size: ""
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/keygenme1.tar.gz"
+  name: "keygenme1.tar.gz"
+  sha256: "67bd28d0107d2bdb49a18e527a7a3c5afddd4479488f25b197711420738b5e7f"
+  md5: "d0c9b85204b1f5e4ff1e625be573379f"
+  size_bytes: 2555
+
+status: solved
+solution_summary: "keygen : serial = 50·(2·dernier_car·(len-1))² en int32 ; petik → 36636800"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T19:57:37Z"
