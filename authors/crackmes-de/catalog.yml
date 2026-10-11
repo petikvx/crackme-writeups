@@ -576,6 +576,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c12a/original/seNNin#1.zip"
     title: "crackmes.de's sennin1 by sennin"
 
+  5ab77f5333c5d40ad448c12d:
+    sha256: "65a41c3d0c723c967325a99c3b0719a98a2a345716abe89816acf5f68fe2d985"
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c12d/original/crackme2.zip"
+    title: "crackmes.de's 4f.crackme_2 by ximus"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1049,3 +1054,7 @@ by_sha256:
     id: 5ab77f5333c5d40ad448c12a
     path: "authors/crackmes-de/5ab77f5333c5d40ad448c12a/original/seNNin#1.zip"
     page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c12a
+  65a41c3d0c723c967325a99c3b0719a98a2a345716abe89816acf5f68fe2d985:
+    id: 5ab77f5333c5d40ad448c12d
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c12d/original/crackme2.zip"
+    page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c12d

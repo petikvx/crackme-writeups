@@ -138,6 +138,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 110 | [cesd_dvl_assessment_3](5ab77f5333c5d40ad448c120/) | zero | Linux ELF32 (DVL) | **buffer overflow** `strcpy(buf[0x108],argv[1])` sans préfixe ; offset **268** → EIP (`A*268+BBBB`→eip=`0x42424242`) |
 | 111 | [cesd_dvl_assessment_4](5ab77f5333c5d40ad448c121/) | zero | Linux ELF32 (DVL) | **buffer overflow** `gets(buf[0x208])` via stdin dans `crackme()` ; offset **524** → EIP (`A*524+BBBB`→eip=`0x42424242`) |
 | 112 | [sennin1](5ab77f5333c5d40ad448c12a/) | sennin | Windows PE32 GUI (MASM32) | serial 10 car. : `d0` point fixe `bswap/+0x6c6f7665/^0x111/>>2/+…/^…` = **`YES_`** ; `d1` `rol4/sar3 & 0x45F = 0x40E` ; fin `!!` → **`YES_G200!!`** |
+| 113 | [4f.crackme_2](5ab77f5333c5d40ad448c12d/) | ximus | Windows PE32 GUI (MSVC, PELock + DLL) | `crackme.dll!Check` : len 15, `s[7]='-'`, `Σ(paires)^4+^3+^2+c` = `0x2722DCB0` / `0x3308239F` → **`020p99L-100J68z`** |
 
 ## Mis de côté (PARKED — y revenir)
 

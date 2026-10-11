@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5333c5d40ad448c12d
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c12d
+  download: https://crackmes.one/download/crackme/5ab77f5333c5d40ad448c12d
+
+title: "4f.crackme_2 by ximus"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme2.zip"
+  name: "crackme2.zip"
+  sha256: "65a41c3d0c723c967325a99c3b0719a98a2a345716abe89816acf5f68fe2d985"
+  md5: "82c96c17e4376acd8d3ce56e495bb82c"
+  size_bytes: 633745
+
+status: solved
+solution_summary: "crackme.dll!Check : len 15, s[7]='-', (s0+s3)^4+(s1+s4)^3+(s2+s5)^2+s6=0x2722DCB0 et (s8+s14)^4+(s9+s13)^3+(s10+s12)^2+s11=0x3308239F -> 020p99L-100J68z"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T03:59:09Z"
