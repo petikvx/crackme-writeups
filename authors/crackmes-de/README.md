@@ -173,6 +173,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 145 | [libertyordeaths_linux_keygenme_2](5ab77f5433c5d40ad448c194/) | LibertyorDeath | Linux ELF32 (GCC) | keygen nom + **hostname** : `(0x13+Σhost)-((nom[-1]+len(host))*(len(host)+len(nom)))-nom[:2]host[:2]` ; petik→`1606-3328-pegr` sur la box (statique, vérifié en natif) |
 | 146 | [libertyordeaths_asm_keygenme1](5ab77f5433c5d40ad448c195/) | LibertyorDeath | Win32 GUI MASM (code XOR 0x25) | keygen **`LOD-%lu-%lX`** : `esi += c+1+10·i!`, `edi = 10·n!·esi` ; petik→`LOD-886-103920` (émulé Unicorn) |
 | 147 | [libertyordeaths_linux_keygenme_1](5ab77f5433c5d40ad448c196/) | LibertyorDeath | Linux ELF32 (GCC) | keygen numérique : `50·(2·nom[-1]·(len-1))²` (int32) ; petik→`36636800` (vérifié en natif) |
+| 148 | [crackme4 by tcn30](5ab77f5433c5d40ad448c19c/) | tcn30 | Windows Delphi 2006 (GUI) | login `TURRICAN` / pass `NEWYEAR` déchiffrés (variante XTEA, émulation Unicorn de `0x455E98`) + UpperCase |
 
 ## Mis de côté (PARKED — y revenir)
 

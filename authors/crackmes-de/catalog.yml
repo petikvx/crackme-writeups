@@ -751,6 +751,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c196/original/keygenme1.tar.gz"
     title: "crackmes.de's libertyordeaths_linux_keygenme_1 by libertyordeath"
 
+  5ab77f5433c5d40ad448c19c:
+    sha256: "567e1ecb65fc2bb5ed685cae3efb67dd8214667cd5f8b141c237e289db71c0e2"
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c19c/original/PasswordApp2.zip"
+    title: "crackmes.de's crackme4 by tcn30"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1364,3 +1369,7 @@ by_sha256:
     id: 5ab77f5433c5d40ad448c196
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c196/original/keygenme1.tar.gz"
     page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c196
+  567e1ecb65fc2bb5ed685cae3efb67dd8214667cd5f8b141c237e289db71c0e2:
+    id: 5ab77f5433c5d40ad448c19c
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c19c/original/PasswordApp2.zip"
+    page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c19c
