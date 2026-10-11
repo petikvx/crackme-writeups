@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c194
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c194
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c194
+
+title: "libertyordeaths_linux_keygenme_2 by libertyordeath"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: "C/C++"
+
+difficulty: 2.0
+quality: 4.0
+size: ""
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/keygenme2.tar.gz"
+  name: "keygenme2.tar.gz"
+  sha256: "b2adac5ba69f7c733329488692396713cd98b0e44fa3159b4a0bafdced18a052"
+  md5: "deb16ce9dc49d1b77b3cc27c83f3e7cf"
+  size_bytes: 3083
+
+status: solved
+solution_summary: "keygen hostname+nom : (0x13+Σhost)-((nom[-1]+len(host))*(len(host)+len(nom)))-nom[:2]host[:2] ; petik sur grok-bot-vm-411329652 → 1606-3328-pegr"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T19:54:46Z"

@@ -170,6 +170,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 142 | [upxed](5ab77f5433c5d40ad448c18c/) | BlueOwl | Win32 PE FASM + UPX bidouillé | mot de passe **`DREAMING_ABOUT_PACKING`** (−imm sur zone nulle à l'OEP ; émulé Unicorn, ouvre `finish.zip`) |
 | 143 | [firox_crackme_1](5ab77f5433c5d40ad448c190/) | firox | Win32 GUI VB6 natif | serial en dur **`DFT1-9CKS-BWD0-2VRF`** (`__vbaStrCmp`, vérifié sous wine) |
 | 144 | [libertyordeaths_keygenme_3](5ab77f5433c5d40ad448c193/) | LibertyorDeath | Linux ELF32 (GCC) | keygen nom + **hostname** : `str(A+B)-host[0::2]` ; petik→`9200-go-o-m41262` sur la box (chaînes +5, anti-`ptrace`, GDB) |
+| 145 | [libertyordeaths_linux_keygenme_2](5ab77f5433c5d40ad448c194/) | LibertyorDeath | Linux ELF32 (GCC) | keygen nom + **hostname** : `(0x13+Σhost)-((nom[-1]+len(host))*(len(host)+len(nom)))-nom[:2]host[:2]` ; petik→`1606-3328-pegr` sur la box (statique, vérifié en natif) |
 
 ## Mis de côté (PARKED — y revenir)
 
