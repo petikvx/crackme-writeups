@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5333c5d40ad448c12e
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c12e
+  download: https://crackmes.one/download/crackme/5ab77f5333c5d40ad448c12e
+
+title: "4f.crackme1 by ximus"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme1.zip"
+  name: "crackme1.zip"
+  sha256: "7999c6beb819b930fd5bc56a7d016401e2f429a886ebaab258c7ba24d2802afc"
+  md5: "962ae8cc7620f2167435378bfdd971e2"
+  size_bytes: 13741
+
+status: solved
+solution_summary: "keygen name/serial ABCDE-HHHHH : C,D,E = name[0..2]%10, B=(C*D*E)%10, A=(B+C+D)%10, HHHHH = %X((sum(name)*0xFEAD)&0xFFFFF) ; petik -> 52216-A3399"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T04:01:34Z"
