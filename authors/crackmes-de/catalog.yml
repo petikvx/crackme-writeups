@@ -731,6 +731,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c190/original/firoxcrackme1.zip"
     title: "crackmes.de's firox_crackme_1 by firox"
 
+  5ab77f5433c5d40ad448c193:
+    sha256: "8e3adb5c1c724ff8c92057de8e58fc60f7e79d1ae39c018b392e036d2e0d7754"
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c193/original/Keygenme_v3.tar.gz"
+    title: "crackmes.de's libertyordeaths_keygenme_3 by libertyordeath"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1328,3 +1333,7 @@ by_sha256:
     id: 5ab77f5433c5d40ad448c190
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c190/original/firoxcrackme1.zip"
     page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c190
+  8e3adb5c1c724ff8c92057de8e58fc60f7e79d1ae39c018b392e036d2e0d7754:
+    id: 5ab77f5433c5d40ad448c193
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c193/original/Keygenme_v3.tar.gz"
+    page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c193
