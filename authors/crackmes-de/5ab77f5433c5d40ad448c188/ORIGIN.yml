@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c188
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c188
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c188
+
+title: "crackme_6 by fireworx"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Delphi 4"
+
+difficulty: 1.0
+quality: 4.0
+size: "161.48 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/fire_cm6.zip"
+  name: "fire_cm6.zip"
+  sha256: "8e03ae85bee51938b5c20679e450ef08b215413e95fc963348feda8ba88c6d33"
+  md5: "ae650567f41de54103d3ccc6b59e8581"
+  size_bytes: 165359
+
+status: solved
+solution_summary: "keygen nom → %.4x-%.4x-%.4x-%.4x (xor/sar) ; petik → c941-0283-63fb-3b70"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T17:52:29Z"
