@@ -226,6 +226,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [orbitz](authors/orbitz/README.md) | ORBITZ | 1 (BabyDotNet) | 1 / 1 |
 | [radoncoding](authors/radoncoding/README.md) | RadonCoding | 1 (binsafe) | 1 / 1 |
 | [nimanikjoo](authors/nimanikjoo/README.md) | NimaNikjoo | 1 (nightmare CrackMe) | 1 / 1 |
+| [vsec](authors/vsec/README.md) | vsec | 1 (Challenger No.1) | 1 / 1 |
 | [yugnatd](authors/yugnatd/README.md) | YugnatD | 1 (WarGames) | 1 / 1 |
 | [zydak](authors/zydak/README.md) | zydak | 2 (simple obfuscated + Tetris DRM) | 0 / 2 |
 
@@ -250,6 +251,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-11 | [VSEC Challenger No.1](authors/vsec/6acace8cca34abba98f8305a/) | vsec |
 | 2026-10-11 | [nts_crackme1](authors/crackmes-de/5ab77f5433c5d40ad448c15a/) | crackmes.de / cyclops |
 | 2026-10-11 | [nts_crackme9](authors/crackmes-de/5ab77f5433c5d40ad448c158/) | crackmes.de / cyclops |
 | 2026-10-11 | [cyclops_crackme_5.0](authors/crackmes-de/5ab77f5433c5d40ad448c157/) | crackmes.de / cyclops |

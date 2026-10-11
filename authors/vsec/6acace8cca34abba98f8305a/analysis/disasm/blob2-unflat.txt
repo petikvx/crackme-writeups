@@ -1,0 +1,13 @@
+# blob2 : table DISPATCH décodée = [154, 184, 10, 214, 244]
+@0:
+  goto @10    (state 2)
+@10:
+     10: CALLN 16
+     19: STORE 0
+     49: LOAD 0
+     58: CALLN 17
+     88: STORE 2
+     97: LOAD 2
+    127: CALLN 18
+    136: STORE 1
+    145: RET 0

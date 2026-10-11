@@ -1,0 +1,65 @@
+# Verification live (binaire d origine, Windows 10 natif) - genere avec tools/vsec1-solve.py
+
+## (aucun arg)
+$ VSEC_Challenger_No.1.exe
+exit=1
+Usage: ./nightmare <username> <serial>
+
+## petik seul
+$ VSEC_Challenger_No.1.exe petik
+exit=1
+Usage: ./nightmare <username> <serial>
+
+## petik + serial correct
+$ VSEC_Challenger_No.1.exe petik 96e401d44c51...
+exit=0
+[+] Serial accepted
+[+] Flag: <54 octets binaires dependant de user/serial>
+
+## petik + dernier nibble modifie
+$ VSEC_Challenger_No.1.exe petik 96e401d44c51...
+exit=1
+[-] Invalid serial
+
+## petik + serial en MAJUSCULES
+$ VSEC_Challenger_No.1.exe petik 96E401D44C51...
+exit=1
+[-] Invalid serial
+
+## petik + serial tronque (62)
+$ VSEC_Challenger_No.1.exe petik 96e401d44c51...
+exit=1
+[-] Invalid serial
+
+## petik + serial de alice
+$ VSEC_Challenger_No.1.exe petik a4030eb223d2...
+exit=1
+[-] Invalid serial
+
+## alice + serial alice
+$ VSEC_Challenger_No.1.exe alice a4030eb223d2...
+exit=0
+[+] Serial accepted
+[+] Flag: <54 octets binaires dependant de user/serial>
+
+## abc (3 car.) + son serial
+$ VSEC_Challenger_No.1.exe abc 19f877f3eccc...
+exit=1
+[-] Invalid serial
+
+## abcd (4 car.) + son serial
+$ VSEC_Challenger_No.1.exe abcd 8ea0108abd7f...
+exit=0
+[+] Serial accepted
+[+] Flag: <54 octets binaires dependant de user/serial>
+
+## 32 x a + son serial
+$ VSEC_Challenger_No.1.exe aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa dd91d963c3a8...
+exit=0
+[+] Serial accepted
+[+] Flag: <54 octets binaires dependant de user/serial>
+
+## 33 x a + son serial
+$ VSEC_Challenger_No.1.exe aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa ae7eed8b0417...
+exit=1
+[-] Invalid serial

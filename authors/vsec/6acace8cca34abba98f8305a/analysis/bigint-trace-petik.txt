@@ -1,0 +1,112 @@
+# reflect.Value.MethodByName(...) sur math/big, user=petik serial=0123456789abcdef0123456789abcdef
+# genere par tools/vsec1-trace.py (BIG(reg)=valeur lue en memoire)
+#715 SetBytes   
+#727 Mul        rsi.1=0x1337c0de  rsi.3=0x1
+#728 Mod        rbx=0x1337c0de  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#729 Add        rsi.3=0x1337c0de
+#730 Mod        rbx=0x1337c0de  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#731 Mul        rbx=0x1  rsi.3=0x908747d2dc32b18b2e014b8b3f996cba5d573bac582249e35e6b191d2ff98971
+#732 Mod        rbx=0x908747d2dc32b18b2e014b8b3f996cba5d573bac582249e35e6b191d2ff98971  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#735 Mul        rsi.1=0xdeadbeef  rsi.3=0x908747d2dc32b18b2e014b8b3f996cba5d573bac582249e35e6b191d2ff98971
+#736 Mod        rbx=0x7db7677fba0d5181e00c4377b787e72c55d18cf6aa9fea8ed561697feaf3ecacdd562e7f  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#737 Add        rbx=0x1337c0de  rsi.3=0xba0d5181e00c4377b787e72c55d18cf6aa9fea8ed561698068ab560ba6482a2e
+#738 Mod        rbx=0xba0d5181e00c4377b787e72c55d18cf6aa9fea8ed561698068ab560bb97feb0c  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#739 Mul        rbx=0x908747d2dc32b18b2e014b8b3f996cba5d573bac582249e35e6b191d2ff98971
+#740 Mod        rbx=0x5198784a0c43e905f399a1679302cf7f676defca138fb84cb26e1cb0287f66756c76f875192a6defb7546b00b4765881674914fd070842a084d4c94e259c23e1  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#743 Mul        rsi.1=0xcafebabe  rsi.3=0xdf9df413dbf05f0df7a836c8299e2d853568ef7e60f4bc05f52826c61ab9ddb7
+#744 Mod        rbx=0xb151246e91d1780936bd266e521631a816c85cc339c8e16d079accf9e99de3cf429b83d2  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#745 Add        rbx=0xba0d5181e00c4377b787e72c55d18cf6aa9fea8ed561698068ab560bb97feb0c  rsi.3=0x91d1780936bd266e521631a816c85cc339c8e16d079accfa9aef0ae1f9478ba0
+#746 Mod        rbx=0x14bdec98b16c969e6099e18d46c99e9b9e468cbfbdcfc367b039a60edb2c776ac  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#747 Mul        rbx=0xdf9df413dbf05f0df7a836c8299e2d853568ef7e60f4bc05f52826c61ab9ddb7  rsi.3=0x908747d2dc32b18b2e014b8b3f996cba5d573bac582249e35e6b191d2ff98971
+#748 Mod        rbx=0x7e3f0453e0cbf13496cf5d9ce75cdb2f57eb78fd1fa7f2f03e8e1e14e194b36ef1e10cd69341dde64ff34e3dd2d6d8513e2121016fbdf26ad4433cf783b0ccc7  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#751 Mul        rsi.1=0x8badf00d  rsi.3=0xa12c82281464c536c4b46d3c2422d0fce771d1f77e42375ef077c62e3ab847ab
+#752 Mod        rbx=0x57f0ace1a170ae5584d2416e9cd540ef0644eabebb6df6bf74ff5ace870024d8061af3af  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#753 Add        rbx=0x4bdec98b16c969e6099e18d46c99e9b9e468cbfbdcfc367b039a60eeb2c77a7d  rsi.3=0xa170ae5584d2416e9cd540ef0644eabebb6df6bf74ff5acedef0d308a39eba60
+#754 Mod        rbx=0xed4f77e09b9bab54a67359c372ded4789fd6c2bb51fb9149e28b33f7566634dd  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#755 Mul        rbx=0xa12c82281464c536c4b46d3c2422d0fce771d1f77e42375ef077c62e3ab847ab  rsi.3=0x908747d2dc32b18b2e014b8b3f996cba5d573bac582249e35e6b191d2ff98971
+#756 Mod        rbx=0x5afe34e747d97ceebf5cf73895507ec74e6863fa577fdb3a8d1fedc0833dac52bcbd8dff38986db35da66537b82ed86880e2be311db59d6ae204fb99a405257b  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#759 Mul        rsi.1=0xfeedface  rsi.3=0x48bef1972cfb301444c262f0decb130514c827d399c935a0571b3b3ec690e020
+#760 Mod        rbx=0x487113bea929e7d31e110195bf1696453e4f1933016fb2effa256514d1e68cec811399c0  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#761 Add        rbx=0xed4f77e09b9bab54a67359c372ded4789fd6c2bb51fb9149e28b33f7566634dd  rsi.3=0xa929e7d31e110195bf1696453e4f1933016fb2effa2565151a57a1bef89ff1de
+#762 Mod        rbx=0x196795fb3b9acacea6589f008b12dedaba14675ab4c20f65efce2d5b64f0626bb  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#763 Mul        rbx=0x48bef1972cfb301444c262f0decb130514c827d399c935a0571b3b3ec690e020  rsi.3=0x908747d2dc32b18b2e014b8b3f996cba5d573bac582249e35e6b191d2ff98971
+#764 Mod        rbx=0x2911d8ff503b9e5afdb8b10b811ea60ef93240ca5fa6afa579d23db32120979d204e08c8bde15ea2f0a80a2ba15a56fb473f0c21a61b187b3de9fea90d040e20  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#767 Mul        rsi.1=0xdead10cc  rsi.3=0x2da6cd84ef2168f0bfa25d22608456eaafaf001e2b11acb47379e920378628a9
+#768 Mod        rbx=0x27b582f0f7f8a775560ef94f9b225a3b6fd6695c2d3269719ef6a8901ea3a610a9a7f6ac  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#769 Add        rbx=0x96795fb3b9acacea6589f008b12dedaba14675ab4c20f65efce2d5b74f062a8c  rsi.3=0xf7f8a775560ef94f9b225a3b6fd6695c2d3269719ef6a890465929983560ac9c
+#770 Mod        rbx=0x18e7207290fbba63a00ac4a4421045707ce78df1ceb179eef433bff4f8466d728  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#771 Mul        rbx=0x2da6cd84ef2168f0bfa25d22608456eaafaf001e2b11acb47379e920378628a9  rsi.3=0x908747d2dc32b18b2e014b8b3f996cba5d573bac582249e35e6b191d2ff98971
+#772 Mod        rbx=0x19c5f36004b5bddfb7995cec66738c7e368e85038633f40447270d73882f30c0fcf346984c46ab39a1fb8defcfaec32289233647d25fc5c251e7e408e15b6399  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#776 SetBytes   
+#780 Add        rbx=0x2d6af10873be19c5  rsi.3=0x87f
+#781 Mod        rbx=0x2d6af10873be2244  rsi.3=0xfffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364141
+#783 Exp        rsi.1=0x8e7207290fbba63a00ac4a4421045707ce78df1ceb179eef433bff508466daf9  rsi.3=0x2d6af10873be2244  rsi.5=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#787 SetBytes   
+#788 Mod        rbx=0x4e872bd9610fa35c706574696b  rsi.3=0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffed
+#790 ModInverse rsi.1=0x4e872bd9610fa35c706574696b  rsi.3=0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffed
+#794 Mul        rsi.1=0xc64288d9e2e82a1ea6f79ec8a99d1ae689975526427100a088b62febf75638e4  rsi.3=0x24f532157f57da3f2bb845835ac092584b0310f2cda0a0261d4fdd24998683b6
+#795 Mod        rbx=0x1c9f3fb5413da1d3c27873b7ec670f52e60b1db72ba5eb7862978fec8a569c26b3b7b9450e45a16ae98e3fa135fd6d2db3a02e8f181385b121faa48501c11e18  rsi.3=0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffed
+#798 SetBytes   
+#800 Xor        rbx=0xe85b91442d6af108  rsi.3=0x5a5a5a5a5a5a5a5a
+#802 Exp        rsi.1=0x735b2e2cbd6ba6d9c76f6cee4d49b37bd94697bf92b4798fc47a01a18a9c4c67  rsi.3=0xb201cb1e7730ab52  rsi.5=0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffed
+#805 Mul        rsi.1=0x39c39202daf80984b4a5ecb2d55e2216cfc14463319497ffefeb45ec4807a77f  rsi.3=0x133713371337
+#806 Mod        rbx=0x455f130860df5b6edc7792125641439f854d2ac0ce8b6cb62fd56bc37a39bec0378745c6949  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#809 SetBytes   
+#810 Xor        rbx=0xf5b6edc7792125641439f854d2ac0ce8b6cb62fd56bc3bf98d2d1582ee8c00e6  rsi.3=0x9a3f7c12e85b91442d6af10873be19c5
+#811 Mod        rbx=0xf5b6edc7792125641439f854d2ac0ce82cf41eefbee7aabda047e48a9d321923  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#1058 SetBytes   
+#1070 Mul        rsi.1=0x1337c0de  rsi.3=0x1
+#1071 Mod        rbx=0x1337c0de  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#1072 Add        rsi.3=0x1337c0de
+#1073 Mod        rbx=0x1337c0de  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#1074 Mul        rbx=0x1  rsi.3=0x908747d2dc32b18b2e014b8b3f996cba5d573bac582249e35e6b191d2ff98971
+#1075 Mod        rbx=0x908747d2dc32b18b2e014b8b3f996cba5d573bac582249e35e6b191d2ff98971  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#1078 Mul        rsi.1=0xdeadbeef  rsi.3=0x908747d2dc32b18b2e014b8b3f996cba5d573bac582249e35e6b191d2ff98971
+#1079 Mod        rbx=0x7db7677fba0d5181e00c4377b787e72c55d18cf6aa9fea8ed561697feaf3ecacdd562e7f  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#1080 Add        rbx=0x1337c0de  rsi.3=0xba0d5181e00c4377b787e72c55d18cf6aa9fea8ed561698068ab560ba6482a2e
+#1081 Mod        rbx=0xba0d5181e00c4377b787e72c55d18cf6aa9fea8ed561698068ab560bb97feb0c  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#1082 Mul        rbx=0x908747d2dc32b18b2e014b8b3f996cba5d573bac582249e35e6b191d2ff98971
+#1083 Mod        rbx=0x5198784a0c43e905f399a1679302cf7f676defca138fb84cb26e1cb0287f66756c76f875192a6defb7546b00b4765881674914fd070842a084d4c94e259c23e1  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#1086 Mul        rsi.1=0xcafebabe  rsi.3=0xdf9df413dbf05f0df7a836c8299e2d853568ef7e60f4bc05f52826c61ab9ddb7
+#1087 Mod        rbx=0xb151246e91d1780936bd266e521631a816c85cc339c8e16d079accf9e99de3cf429b83d2  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#1088 Add        rbx=0xba0d5181e00c4377b787e72c55d18cf6aa9fea8ed561698068ab560bb97feb0c  rsi.3=0x91d1780936bd266e521631a816c85cc339c8e16d079accfa9aef0ae1f9478ba0
+#1089 Mod        rbx=0x14bdec98b16c969e6099e18d46c99e9b9e468cbfbdcfc367b039a60edb2c776ac  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#1090 Mul        rbx=0xdf9df413dbf05f0df7a836c8299e2d853568ef7e60f4bc05f52826c61ab9ddb7  rsi.3=0x908747d2dc32b18b2e014b8b3f996cba5d573bac582249e35e6b191d2ff98971
+#1091 Mod        rbx=0x7e3f0453e0cbf13496cf5d9ce75cdb2f57eb78fd1fa7f2f03e8e1e14e194b36ef1e10cd69341dde64ff34e3dd2d6d8513e2121016fbdf26ad4433cf783b0ccc7  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#1094 Mul        rsi.1=0x8badf00d  rsi.3=0xa12c82281464c536c4b46d3c2422d0fce771d1f77e42375ef077c62e3ab847ab
+#1095 Mod        rbx=0x57f0ace1a170ae5584d2416e9cd540ef0644eabebb6df6bf74ff5ace870024d8061af3af  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#1096 Add        rbx=0x4bdec98b16c969e6099e18d46c99e9b9e468cbfbdcfc367b039a60eeb2c77a7d  rsi.3=0xa170ae5584d2416e9cd540ef0644eabebb6df6bf74ff5acedef0d308a39eba60
+#1097 Mod        rbx=0xed4f77e09b9bab54a67359c372ded4789fd6c2bb51fb9149e28b33f7566634dd  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#1098 Mul        rbx=0xa12c82281464c536c4b46d3c2422d0fce771d1f77e42375ef077c62e3ab847ab  rsi.3=0x908747d2dc32b18b2e014b8b3f996cba5d573bac582249e35e6b191d2ff98971
+#1099 Mod        rbx=0x5afe34e747d97ceebf5cf73895507ec74e6863fa577fdb3a8d1fedc0833dac52bcbd8dff38986db35da66537b82ed86880e2be311db59d6ae204fb99a405257b  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#1102 Mul        rsi.1=0xfeedface  rsi.3=0x48bef1972cfb301444c262f0decb130514c827d399c935a0571b3b3ec690e020
+#1103 Mod        rbx=0x487113bea929e7d31e110195bf1696453e4f1933016fb2effa256514d1e68cec811399c0  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#1104 Add        rbx=0xed4f77e09b9bab54a67359c372ded4789fd6c2bb51fb9149e28b33f7566634dd  rsi.3=0xa929e7d31e110195bf1696453e4f1933016fb2effa2565151a57a1bef89ff1de
+#1105 Mod        rbx=0x196795fb3b9acacea6589f008b12dedaba14675ab4c20f65efce2d5b64f0626bb  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#1106 Mul        rbx=0x48bef1972cfb301444c262f0decb130514c827d399c935a0571b3b3ec690e020  rsi.3=0x908747d2dc32b18b2e014b8b3f996cba5d573bac582249e35e6b191d2ff98971
+#1107 Mod        rbx=0x2911d8ff503b9e5afdb8b10b811ea60ef93240ca5fa6afa579d23db32120979d204e08c8bde15ea2f0a80a2ba15a56fb473f0c21a61b187b3de9fea90d040e20  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#1110 Mul        rsi.1=0xdead10cc  rsi.3=0x2da6cd84ef2168f0bfa25d22608456eaafaf001e2b11acb47379e920378628a9
+#1111 Mod        rbx=0x27b582f0f7f8a775560ef94f9b225a3b6fd6695c2d3269719ef6a8901ea3a610a9a7f6ac  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#1112 Add        rbx=0x96795fb3b9acacea6589f008b12dedaba14675ab4c20f65efce2d5b74f062a8c  rsi.3=0xf7f8a775560ef94f9b225a3b6fd6695c2d3269719ef6a890465929983560ac9c
+#1113 Mod        rbx=0x18e7207290fbba63a00ac4a4421045707ce78df1ceb179eef433bff4f8466d728  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#1114 Mul        rbx=0x2da6cd84ef2168f0bfa25d22608456eaafaf001e2b11acb47379e920378628a9  rsi.3=0x908747d2dc32b18b2e014b8b3f996cba5d573bac582249e35e6b191d2ff98971
+#1115 Mod        rbx=0x19c5f36004b5bddfb7995cec66738c7e368e85038633f40447270d73882f30c0fcf346984c46ab39a1fb8defcfaec32289233647d25fc5c251e7e408e15b6399  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#1119 SetBytes   
+#1123 Add        rbx=0x2d6af10873be19c5  rsi.3=0x87f
+#1124 Mod        rbx=0x2d6af10873be2244  rsi.3=0xfffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364141
+#1126 Exp        rsi.1=0x8e7207290fbba63a00ac4a4421045707ce78df1ceb179eef433bff508466daf9  rsi.3=0x2d6af10873be2244  rsi.5=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#1130 SetBytes   
+#1131 Mod        rbx=0x4e872bd9610fa35c706574696b  rsi.3=0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffed
+#1133 ModInverse rsi.1=0x4e872bd9610fa35c706574696b  rsi.3=0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffed
+#1137 Mul        rsi.1=0xc64288d9e2e82a1ea6f79ec8a99d1ae689975526427100a088b62febf75638e4  rsi.3=0x24f532157f57da3f2bb845835ac092584b0310f2cda0a0261d4fdd24998683b6
+#1138 Mod        rbx=0x1c9f3fb5413da1d3c27873b7ec670f52e60b1db72ba5eb7862978fec8a569c26b3b7b9450e45a16ae98e3fa135fd6d2db3a02e8f181385b121faa48501c11e18  rsi.3=0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffed
+#1141 SetBytes   
+#1143 Xor        rbx=0xe85b91442d6af108  rsi.3=0x5a5a5a5a5a5a5a5a
+#1145 Exp        rsi.1=0x735b2e2cbd6ba6d9c76f6cee4d49b37bd94697bf92b4798fc47a01a18a9c4c67  rsi.3=0xb201cb1e7730ab52  rsi.5=0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffed
+#1148 Mul        rsi.1=0x39c39202daf80984b4a5ecb2d55e2216cfc14463319497ffefeb45ec4807a77f  rsi.3=0x133713371337
+#1149 Mod        rbx=0x455f130860df5b6edc7792125641439f854d2ac0ce8b6cb62fd56bc37a39bec0378745c6949  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#1152 SetBytes   
+#1153 Xor        rbx=0xf5b6edc7792125641439f854d2ac0ce8b6cb62fd56bc3bf98d2d1582ee8c00e6  rsi.3=0x9a3f7c12e85b91442d6af10873be19c5
+#1154 Mod        rbx=0xf5b6edc7792125641439f854d2ac0ce82cf41eefbee7aabda047e48a9d321923  rsi.3=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+#1155 Bytes      rbx=0xf5b6edc7792125641439f854d2ac0ce82cf41eefbee7aabda047e48a9d321923
+#1551 run        

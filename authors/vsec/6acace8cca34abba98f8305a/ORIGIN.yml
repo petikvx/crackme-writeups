@@ -1,0 +1,38 @@
+# Origine crackmes.one
+id: 6acace8cca34abba98f8305a
+
+urls:
+  page: https://crackmes.one/crackme/6acace8cca34abba98f8305a
+  download: https://crackmes.one/download/crackme/6acace8cca34abba98f8305a
+
+title: "VSEC Challenger No.1"
+author_on_site: "vsec"
+author_local: "vsec"
+
+platform: "Windows"
+arch: "x86-64"
+language: "Go"
+
+difficulty: null
+quality: null
+size: "6.47 MB"
+published: "2026-10-10"
+
+series_index: 1
+local_slug: vsec1
+
+binary:
+  path: "original/VSEC_Challenger_No.1.exe"
+  name: "VSEC_Challenger_No.1.exe"
+  sha256: "6bd1a18428b2a2439368f6b152b9dcb18863ddc97870f8e83988ce5ef39e5242"
+  md5: "bc24e89bb384f1414103f4ee9832fa4b"
+  size_bytes: 6789632
+
+status: solved
+parked: false
+solution_summary: "flag CMO{UsrN4m3_S3r14l_N1ghtm4r3_0nly_3l1t3_R3s_w1ll_p4ss} avec username elite + serial d756c82bcaf7662ecc6b043b51ec3baf5ff2a029e7cd02d309b5d08f7ef6da90 ; serial = hex(R) avec 8 premiers octets xor SHA256(user||NIGHTMARE), R = arithmetique math/big (secp256k1/2^255-19) ; petik->96e401d4...1923 (tools/vsec1-solve.py)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T00:00:00Z"
+  zip_sha256: "a5447b22322d2aa0a7cdd78b7124d3d7668e0a32e2bef417e4a2324753e52f7f"

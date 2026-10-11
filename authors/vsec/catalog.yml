@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6acace8cca34abba98f8305a:
+    sha256: "6bd1a18428b2a2439368f6b152b9dcb18863ddc97870f8e83988ce5ef39e5242"
+    path: "authors/vsec/6acace8cca34abba98f8305a/original/VSEC_Challenger_No.1.exe"
+    title: "VSEC Challenger No.1"
+
+by_sha256:
+  6bd1a18428b2a2439368f6b152b9dcb18863ddc97870f8e83988ce5ef39e5242:
+    id: 6acace8cca34abba98f8305a
+    path: "authors/vsec/6acace8cca34abba98f8305a/original/VSEC_Challenger_No.1.exe"
+    page: https://crackmes.one/crackme/6acace8cca34abba98f8305a

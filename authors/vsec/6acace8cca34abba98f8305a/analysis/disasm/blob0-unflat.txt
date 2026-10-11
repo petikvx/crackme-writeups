@@ -1,0 +1,261 @@
+# blob0 : table DISPATCH décodée = [2781, 3322, 4374, 2309, 4623, 662, 3229, 10, 3978, 999, 4653, 3465, 563, 2417, 921, 4545, 385, 1077, 248, 1484, 2221, 4452, 3793, 4683, 1265, 1733, 4056, 1992, 346, 3151, 2561, 4713, 4186, 3906, 2495, 1878, 3544, 2903]
+@0:
+  goto @662    (state 5)
+@662:
+    662: LOAD 0
+    671: CALLN 0
+    710: STORE 5
+    719: STORE 6
+    785: LOAD 5
+    824: JZ 911
+  goto @999    (state 9)
+@911:
+  goto @1077    (state 17)
+@999:
+  goto @346    (state 28)
+@1077:
+   1077: LOAD 0
+   1086: CALLN 1
+   1095: STORE 2
+   1104: STORE 19
+   1149: LOAD 2
+   1158: CONST 3652454992448674087
+   1167: POP 0
+   1168: JZ 1255
+  goto @921    (state 14)
+@346:
+    346: LOAD 6
+    376: RET 1
+@1255:
+  goto @1265    (state 24)
+@921:
+  goto @1878    (state 35)
+@1265:
+   1265: LOAD 0
+   1274: CALLN 3
+   1283: STORE 34
+   1292: STORE 41
+   1339: LOAD 34
+   1369: STORE 34
+   1378: LOAD 34
+   1387: JZ 1474
+  goto @2417    (state 13)
+@1878:
+   1878: LOAD 19
+   1908: STORE 27
+   1937: LOAD 27
+   1946: CONST -7876954636388214626
+   1955: POP 0
+   1956: CALLN 2
+   1965: STORE 16
+   1974: LOAD 16
+   1983: RET 1
+@1474:
+  goto @3544    (state 36)
+@2417:
+  goto @2781    (state 0)
+@3544:
+   3544: LOAD 0
+   3553: CALLN 4
+   3592: STORE 31
+   3601: STORE 11
+   3667: LOAD 31
+   3696: JZ 3783
+  goto @563    (state 12)
+@2781:
+   2781: LOAD 41
+   2790: CONV 1073743872
+   2799: STORE 25
+   2808: LOAD 25
+   2817: CALLN 2
+   2826: CONST 4406122951612989086
+   2835: POP 0
+   2836: STORE 37
+   2875: LOAD 37
+   2884: CONST -1714638574387901429
+   2893: POP 0
+   2894: RET 1
+@3783:
+  goto @1992    (state 27)
+@563:
+  goto @4452    (state 21)
+@1992:
+   1992: LOAD 0
+   2022: CALLN 5
+   2031: STORE 15
+   2070: STORE 1
+   2115: LOAD 15
+   2124: JZ 2211
+  goto @2309    (state 3)
+@4452:
+   4452: LOAD 11
+   4461: CONV 1073745920
+   4470: STORE 7
+   4479: LOAD 7
+   4488: CALLN 2
+   4497: STORE 26
+   4527: LOAD 26
+   4536: RET 1
+@2211:
+  goto @1484    (state 19)
+@2309:
+  goto @3793    (state 22)
+@1484:
+   1484: LOAD 0
+   1493: CALLN 6
+   1502: STORE 30
+   1532: STORE 33
+   1559: LOAD 30
+   1588: STORE 30
+   1597: CONST -8979946772278950554
+   1606: POP 0
+   1607: LOAD 30
+   1636: JZ 1723
+  goto @4374    (state 2)
+@3793:
+   3793: LOAD 1
+   3802: CONV 1073750016
+   3811: STORE 18
+   3820: LOAD 18
+   3829: CALLN 2
+   3838: STORE 9
+   3867: LOAD 9
+   3897: RET 1
+@1723:
+  goto @385    (state 16)
+@4374:
+  goto @2495    (state 34)
+@385:
+    385: LOAD 0
+    394: CALLN 7
+    403: STORE 22
+    412: STORE 12
+    457: LOAD 22
+    466: JZ 553
+  goto @2221    (state 20)
+@2495:
+   2495: LOAD 33
+   2525: CALLN 2
+   2534: STORE 29
+   2543: LOAD 29
+   2552: RET 1
+@553:
+  goto @10    (state 7)
+@2221:
+   2221: CONST 475364116762587283
+   2230: POP 0
+  goto @4056    (state 26)
+@10:
+     10: LOAD 0
+     49: CALLN 10
+     58: STORE 14
+     67: STORE 8
+     76: LOAD 8
+    115: STORE 8
+    142: LOAD 14
+    151: JZ 238
+  goto @4545    (state 15)
+@4056:
+   4056: CALLN 8
+   4065: STORE 43
+   4074: LOAD 12
+   4083: STORE 35
+   4092: CONST 9002881571393896914
+   4101: POP 0
+   4102: LOAD 43
+   4111: LOAD 35
+   4120: CALLN 9
+   4129: STORE 28
+   4158: LOAD 28
+   4167: CONST -109075619721861709
+   4176: POP 0
+   4177: RET 1
+@238:
+  goto @2903    (state 37)
+@4545:
+  goto @3229    (state 6)
+@2903:
+   2903: LOAD 0
+   2912: CALLN 11
+   2921: STORE 4
+   2960: STORE 21
+   2969: CONST -3443370285290116888
+   2978: POP 0
+   2979: LOAD 21
+   3018: STORE 21
+   3045: LOAD 4
+   3054: JZ 3141
+  goto @3978    (state 8)
+@3229:
+   3229: LOAD 8
+   3238: CONV 1073743873
+   3247: STORE 10
+   3277: LOAD 10
+   3286: CALLN 2
+   3295: STORE 23
+   3304: LOAD 23
+   3313: RET 1
+@3141:
+  goto @4186    (state 32)
+@3978:
+  goto @3906    (state 33)
+@4186:
+   4186: LOAD 0
+   4195: CALLN 12
+   4204: STORE 32
+   4213: STORE 3
+   4222: CONST 8962352014235706589
+   4231: POP 0
+   4268: LOAD 32
+   4277: JZ 4364
+  goto @248    (state 18)
+@3906:
+   3906: LOAD 21
+   3915: CONV 1073745921
+   3924: STORE 17
+   3933: LOAD 17
+   3942: CALLN 2
+   3951: STORE 39
+   3960: LOAD 39
+   3969: RET 1
+@4364:
+  goto @2561    (state 30)
+@248:
+  goto @3322    (state 1)
+@2561:
+   2561: LOAD 0
+   2570: CALLN 13
+   2579: STORE 36
+   2588: STORE 38
+   2654: LOAD 36
+   2684: JZ 2771
+  goto @3151    (state 29)
+@3322:
+   3322: LOAD 3
+   3352: CONV 1073750017
+   3361: STORE 20
+   3400: LOAD 20
+   3409: CALLN 2
+   3438: STORE 42
+   3447: LOAD 42
+   3456: RET 1
+@2771:
+  goto @3465    (state 11)
+@3151:
+  goto @1733    (state 25)
+@3465:
+   3465: NESTED 0
+   3496: STORE 24
+   3505: LOAD 24
+   3535: RET 1
+@1733:
+   1733: CALLN 8
+   1742: CONST -5646497916996765526
+   1751: POP 0
+   1752: STORE 40
+   1782: LOAD 40
+   1812: LOAD 38
+   1842: CALLN 9
+   1851: STORE 13
+   1860: LOAD 13
+   1869: RET 1
