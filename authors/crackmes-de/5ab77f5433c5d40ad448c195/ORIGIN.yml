@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c195
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c195
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c195
+
+title: "libertyordeaths_asm_keygenme1 by libertyordeath"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 2.0
+quality: null
+size: ""
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/LoD_ASM_KEYGENME#1.zip"
+  name: "LoD_ASM_KEYGENME#1.zip"
+  sha256: "c66723c538e80179b278c1e624e26036e4483530eb27eea30cef78b66bbf17fd"
+  md5: "e8f6077d82b682a8c4180243ee82baa8"
+  size_bytes: 4082
+
+status: solved
+solution_summary: "keygen : LOD-%lu-%lX (somme name[i]+1+10*i!, puis 10*n!*somme) ; petik → LOD-886-103920"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T19:56:35Z"
