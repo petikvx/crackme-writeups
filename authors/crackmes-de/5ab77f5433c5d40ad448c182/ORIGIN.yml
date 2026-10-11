@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c182
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c182
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c182
+
+title: "crackme_2 by fireworx"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Delphi/Object Pascal"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/fire_cm2.zip"
+  name: "fire_cm2.zip"
+  sha256: "2a7b390fbaa97a0e618d0ff556b8f68faddde113bf96bca7795814996265fd1a"
+  md5: "25558025481a2aa2325c00b3235c201a"
+  size_bytes: 165174
+
+status: solved
+solution_summary: "serial = nom + nom + \"625g72\" ; petik -> petikpetik625g72"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T15:54:20Z"
