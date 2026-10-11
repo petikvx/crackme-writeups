@@ -156,6 +156,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 128 | [spear](5ab77f5433c5d40ad448c15f/) | cyclops | Win32 GUI (MSVC 6 / MFC) | keygen **Shamir mod 251** : 5 parts dont Lagrange en 0 donne `CyClOpS` ; anti-debug IsDebuggerPresent + rdtsc ; vérifié par émulation Unicorn |
 | 129 | [nts_crackme6](5ab77f5433c5d40ad448c161/) | cyclops | Win32 GUI (MSVC 6 / MFC) | keyfile `Key.cyc` : nom + base64(nom répété sur 30 octets) ; `petik` → `cGV0aWtwZXRpa3BldGlrcGV0aWtwZXRpa3BldGlr` (vérifié live Wine) |
 | 130 | [nts_crackme10](5ab77f5433c5d40ad448c162/) | cyclops | Win32 GUI (MSVC 6 / MFC) | keygen `%08X` du hash du nom (anti-debug NtGlobalFlag/rdtsc → key 0) ; `petik!` → `85CDB0E3` (vérifié Unicorn) |
+| 131 | [crackme0x1](5ab77f5433c5d40ad448c16d/) | pickled | Win32 console (MSVC 2005) | clé fixe `pickled` = `secret[i] ^ i` sur `` phahh`b `` (vérifié live Wine) |
 
 ## Mis de côté (PARKED — y revenir)
 

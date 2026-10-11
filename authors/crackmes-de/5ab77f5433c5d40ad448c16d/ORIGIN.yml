@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c16d
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c16d
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c16d
+
+title: "crackme0x1 by pickled"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++"
+
+difficulty: 1.5
+quality: 4.0
+size: "4.79 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme0x1.zip"
+  name: "crackme0x1.zip"
+  sha256: "7303bfb90801437083712a3ad5d81fd2a9de5ae839201d28d98dfd72e2b4178e"
+  md5: "e21603a00db7a633ad04569d0792fd6a"
+  size_bytes: 4910
+
+status: solved
+solution_summary: "clé fixe pickled = secret[i]^i (phahh`b)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T12:53:46Z"
