@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c15e
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c15e
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c15e
+
+title: "nts_crackme3 by cyclops"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++ (MSVC 6, MFC 4.2)"
+
+difficulty: 1.0
+quality: 4.0
+size: ""
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/NTS-Crackme3.zip"
+  name: "NTS-Crackme3.zip"
+  sha256: "e6e251e25021ec12da65bbc99c15e4a14ef5083199c2ebed706e9e034e8bf7be"
+  md5: "f55ab6c0bc9a82fb5e49701f55eebcc3"
+  size_bytes: 7609
+
+status: solved
+solution_summary: "serial 8 car. contraints un par un : 2:).+-M + 1 car. quelconque (ex. 2:).+-MX)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T10:00:04Z"

@@ -152,6 +152,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 124 | [crackme2](5ab77f5433c5d40ad448c15b/) | cyclops | DOS 16 bits (Borland C++) | keygen Σ 0x8E·(tolower(c)&0x7F + bonus) ; `petik` → `83496` (vérifié DOSBox) |
 | 125 | [nts_crackme7](5ab77f5433c5d40ad448c15c/) | cyclops | Win32 GUI (MSVC 6 / MFC) | keygen double CRC32 via registre `HKCU\Software\Cyclops\Crackme7` ; `petik` → `0EAFB851-0DE144F8` (vérifié par émulation Unicorn) |
 | 126 | [nts_crackme2](5ab77f5433c5d40ad448c15d/) | cyclops | Win32 GUI (MASM32) | serial en clair `Serial` (`lstrcmpA`) ; vérifié par émulation Unicorn de la DialogProc |
+| 127 | [nts_crackme3](5ab77f5433c5d40ad448c15e/) | cyclops | Win32 GUI (MSVC 6 / MFC) | serial 8 car. testés un par un : `2:).+-M` + 1 car. libre (ex. `2:).+-MX`) ; vérifié par émulation Unicorn |
 
 ## Mis de côté (PARKED — y revenir)
 
