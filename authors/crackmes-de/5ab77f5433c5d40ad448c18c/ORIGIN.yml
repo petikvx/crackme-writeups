@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c18c
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c18c
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c18c
+
+title: "upxed by blueowl"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 2.0
+quality: 4.0
+size: "28.21 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/upxed.zip"
+  name: "upxed.zip"
+  sha256: "fa1dcd666a84650c73fe37d51b6112e1aac1a11e47e11c4a8819a3a5fb56c831"
+  md5: "87029e801a52684cf2cb749325b295e0"
+  size_bytes: 28889
+
+status: solved
+solution_summary: "mot de passe DREAMING_ABOUT_PACKING (sub dword [0x401040+4k],imm sur zone nulle ; UPX bidouillé, anti-debug PEB, anti-dump pile)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T18:58:48Z"

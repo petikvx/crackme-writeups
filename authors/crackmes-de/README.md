@@ -167,6 +167,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 139 | [crackme_9](5ab77f5433c5d40ad448c186/) | FireWorx | Win32 GUI (Delphi 4, non packé) | keygen : serial = ((((n/1932)*921)<<17)>>>9)/12 sur le nombre affiché dans `Edit2` (vérifié par émulation Unicorn du vrai code) |
 | 140 | [crackme_6](5ab77f5433c5d40ad448c188/) | FireWorx | Win32 GUI (Delphi 4, non packé) | keygen : hash xor/sar du nom (graines `0x49390305`/`0x48631220`) formaté `%.4x-%.4x-%.4x-%.4x` (vérifié par émulation Unicorn du vrai code) |
 | 141 | [crackme_3](5ab77f5433c5d40ad448c189/) | FireWorx | Win32 GUI (Delphi 4, non packé) | mot de passe fixe `RIDERSINTHENIGHT` dans le DFM du `TAHMPasswordDlg` (vérifié sous wine) |
+| 142 | [upxed](5ab77f5433c5d40ad448c18c/) | BlueOwl | Win32 PE FASM + UPX bidouillé | mot de passe **`DREAMING_ABOUT_PACKING`** (−imm sur zone nulle à l'OEP ; émulé Unicorn, ouvre `finish.zip`) |
 
 ## Mis de côté (PARKED — y revenir)
 
