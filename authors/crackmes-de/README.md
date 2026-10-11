@@ -143,6 +143,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 115 | [lincrkme_01](5ab77f5333c5d40ad448c12f/) | digitalbyte | Linux ELF32 (gcc) | keygen : serial = **username inversé** (sans `\n`), len ≥ 6 ; anti-debug `ptrace(TRACEME)` avant `main` → faux « too short » ; petikvx→**`xvkitep`** |
 | 116 | [cyclops](5ab77f5433c5d40ad448c149/) | cyclops | Windows PE32 GUI (MSVC 6 / MFC 4.2) | serial en dur **`<BrD-SoB>`** (`lstrcmpA` vs `.data:0x403020`) — vérifié live wine (+ winetricks mfc42) |
 | 117 | [nts_crackme5](5ab77f5433c5d40ad448c14b/) | cyclops | Windows PE32 GUI (MSVC 6 / MFC 4.2) | keygen : `f1(nom)+f2(nom)` (2× `%08X-%08X`, accumulateurs xor/or/mod 7/5/11), nom ≥ 7 ; petikvx→**`8E15AE20-27A3073C+D2E8AF0E-7A9D4D14`** (live wine) |
+| 118 | [nts_crackme4](5ab77f5433c5d40ad448c14d/) | cyclops | Windows PE32 GUI (MSVC 6 / MFC 4.2) | brute force : 3 hachages du serial → `0CEAC848-A1F55297-18B3DD62` ; serial **`ycc`** (live wine) |
 
 ## Mis de côté (PARKED — y revenir)
 

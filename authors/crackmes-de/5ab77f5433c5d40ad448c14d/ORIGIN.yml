@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c14d
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c14d
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c14d
+
+title: "nts_crackme4 by cyclops"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++ (MSVC 6 / MFC 4.2)"
+
+difficulty: 1.0
+quality: null
+size: "7.55 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/NTS-Crackme4.zip"
+  name: "NTS-Crackme4.zip"
+  sha256: "236a9405856977785d91474416ced35bcf08e31da9d27588a2e31dd2861bc41c"
+  md5: "4d11f1960fa76112068f145bcff802da"
+  size_bytes: 7729
+
+status: solved
+solution_summary: "brute force des 3 hachages (f1,f3,f2 -> 0CEAC848-A1F55297-18B3DD62) : serial ycc (vérifié live wine)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T05:56:32Z"
