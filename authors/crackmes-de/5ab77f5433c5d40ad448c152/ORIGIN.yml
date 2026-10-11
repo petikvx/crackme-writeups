@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c152
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c152
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c152
+
+title: "cyclops_crackme_4.0 by cyclops"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++ (MSVC 6 / MFC 4.2 debug)"
+
+difficulty: 2.0
+quality: null
+size: "5.77 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crack#4.zip"
+  name: "crack#4.zip"
+  sha256: "3bff1bdc4b919aa8a4f6ac2e42f51618f604ecb7078703569b074e7112dc225b"
+  md5: "245899b3122909c98427f8de5844cd71"
+  size_bytes: 5905
+
+status: solved
+solution_summary: "keygen RC4(clé=nom) sur l'e-mail étendu à 32 octets, octets en décimal (1er forcé à 0) ; vérifié par émulation unicorn du code réel (MFC42D.dll absente)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T06:51:10Z"

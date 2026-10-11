@@ -144,6 +144,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 116 | [cyclops](5ab77f5433c5d40ad448c149/) | cyclops | Windows PE32 GUI (MSVC 6 / MFC 4.2) | serial en dur **`<BrD-SoB>`** (`lstrcmpA` vs `.data:0x403020`) — vérifié live wine (+ winetricks mfc42) |
 | 117 | [nts_crackme5](5ab77f5433c5d40ad448c14b/) | cyclops | Windows PE32 GUI (MSVC 6 / MFC 4.2) | keygen : `f1(nom)+f2(nom)` (2× `%08X-%08X`, accumulateurs xor/or/mod 7/5/11), nom ≥ 7 ; petikvx→**`8E15AE20-27A3073C+D2E8AF0E-7A9D4D14`** (live wine) |
 | 118 | [nts_crackme4](5ab77f5433c5d40ad448c14d/) | cyclops | Windows PE32 GUI (MSVC 6 / MFC 4.2) | brute force : 3 hachages du serial → `0CEAC848-A1F55297-18B3DD62` ; serial **`ycc`** (live wine) |
+| 119 | [cyclops_crackme_4.0](5ab77f5433c5d40ad448c152/) | cyclops | Windows PE32 GUI (MSVC 6 / MFC42D, UPX maquillé CYC) | keygen RC4(clé=nom) sur l'e-mail étendu à 32 octets, octets en décimal (1er = 0, bug) ; petik/petik@crackmes.one→**`0524521618623215216116723179118871202182331161383711910413093177491854185010817282`** (émulation unicorn) |
 
 ## Mis de côté (PARKED — y revenir)
 
