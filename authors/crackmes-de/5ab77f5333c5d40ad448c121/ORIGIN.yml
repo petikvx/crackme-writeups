@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5333c5d40ad448c121
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c121
+  download: https://crackmes.one/download/crackme/5ab77f5333c5d40ad448c121
+
+title: "cesd_dvl_assessment_4 by zero"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: "C"
+
+difficulty: 2.0
+quality: 4.0
+size: ""
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/CESD_Assessment04.zip"
+  name: "CESD_Assessment04.zip"
+  sha256: "1f39748d4902a71c22a24d7a989c2af9afc159658b53ce23ddc680c777b0d1f1"
+  md5: "ce8d7007ee83e3f7d083d44089b3207c"
+  size_bytes: 678294
+
+status: solved
+solution_summary: "BOF gets(buf[ebp-0x208]) via stdin dans crackme(), offset 524 -> EIP (CESD DVL assessment 04)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T02:52:20Z"
