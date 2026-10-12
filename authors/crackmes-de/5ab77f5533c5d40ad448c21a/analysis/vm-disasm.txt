@@ -1,0 +1,69 @@
+0040121d  vcall 0x401456
+00401224  and eax, 0x0
+0040122c  cmp eax, esp
+00401231  jne 0x4012fa
+00401238  nop (op 2d, len 45)
+00401265  nop (op 2d, len 45)
+00401292  nop (op 37, len 74)
+004012dc  nop (op 76, len 32)
+004012fa  push 0x0
+004012fc  nop (op 07, len 0)
+00401301  ncall 0x4014e8  ; ExitProcess
+00401308  nop (op 0a, len 67)
+0040134b  nop (op 66, len 114)
+0040138a  push 0xfffffff5
+00401391  ncall 0x4014ee  ; GetStdHandle
+00401398  mov ebx, eax
+0040139d  mov edi, esi
+004013a2  add edi, ecx
+004013a7  push 0x0
+004013ae  push 0x403400
+004013b5  push 0x1
+004013bc  push esi
+004013bd  je 0x1004ae59
+004013c0  push ebx
+004013c1  je 0x7ffe8
+004013c4  ncall 0x401500  ; WriteFile
+004013cb  add esi, 0x1
+004013d1  nop (op 00, len 246)
+004013d3  cmp esi, edi
+004013d8  jne 0x4013a7
+004013df  ret
+004013e2  push 0xfffffff6
+004013e9  ncall 0x4014ee  ; GetStdHandle
+004013f0  push 0x0
+004013f7  push 0x403400
+004013fe  push 0x400
+00401405  push 0x403000
+0040140c  push eax
+00401410  ncall 0x4014f4  ; ReadFile
+00401417  ret
+0040141a  mov esi, 0x403000
+00401422  mov eax, 0x1337c0de
+0040142a  load ebx, [esi]
+0040142f  add eax, ebx
+00401434  add esi, 0x1
+0040143c  and ebx, 0xff
+00401444  cmp ebx, 0xa
+0040144c  jne 0x40142a
+00401453  ret
+00401456  mov ecx, 0xc2
+0040145e  mov esi, 0x401238  ; '----------------------------------------'
+00401466  vcall 0x40138a
+0040146d  vcall 0x4013e2
+00401474  mov ecx, 0x2
+0040147c  mov esi, 0x401308  ; '\n\nCongratulation, you successfully solve'
+00401484  vcall 0x40138a
+0040148b  vcall 0x40141a
+00401492  cmp eax, 0xa4f4cab
+0040149a  jne 0x4014bf
+004014a1  mov ecx, 0x52
+004014a9  mov esi, 0x40130a  ; 'Congratulation, you successfully solved '
+004014b1  vcall 0x40138a
+004014b8  jmp 0x4014d6
+004014bf  mov ecx, 0x20
+004014c7  mov esi, 0x40135c  ; 'Too bad ! No pizza for dinner :Oh\x1d\x12@'
+004014cf  vcall 0x40138a
+004014d6  push 0x1388
+004014dd  ncall 0x4014fa  ; Sleep
+004014e4  ret

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c21a
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c21a
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c21a
+
+title: "crackme_nop_vm by opcode0x90"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 1.0
+quality: null
+size: "1.23 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: nopvm
+
+binary:
+  path: "original/crackme_nop_vm.zip"
+  name: "crackme_nop_vm.zip"
+  sha256: "58f50fee8dccadc33ec4bf10862bdbe991362486e8f1fda55159aa819b4e79b9"
+  md5: "bfd53ca9fa98b0083fb496d9300b6481"
+  size_bytes: 1258
+
+status: solved
+solution_summary: "mini-VM (interpreteur 0x401000, 12 opcodes [op][mode AE/FF][len]) ; hash = 0x1337C0DE + somme des dwords glissants de l'entree jusqu'au \\n == 0x0A4F4CAB ; poids 1/0x101/0x10101/0x01010101 => b2=espace force ; Et petikfZ (console CRLF) / Et petikal (LF) (wine: Congratulation)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T18:14:31Z"
