@@ -216,6 +216,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 188 | [drpepur_6 by drpepur](5ab77f5533c5d40ad448c1fa/) | drpepur | Windows PE32 MASM32 GUI | keygen fsin ; `AA7NE3JT7Q` |
 | 189 | [keygenme_drpepur_2 by drpepur](5ab77f5533c5d40ad448c1fb/) | drpepur | Windows PE32 MASM32 GUI | keygen CRC32 forge + nom PC + nom ; `petik` → `vtAgIIxM-8A8E9386-4873003B` |
 | 190 | [drpepur_5 by drpepur](5ab77f5533c5d40ad448c1fc/) | drpepur | Windows PE32 MASM32 GUI | keyfile INI, Σ s[i]·3^(i+2) 64 bits ; `IIHIIGGGGIGHIGHHHGIHHHIHHHI820` (licence 15) |
+| 191 | [enforcer039s_keygenme_1__arteam_cra by enforcer](5ab77f5533c5d40ad448c1fd/) | enforcer | Windows PE32 MASM32 GUI | keygen rol32(edx+c,i) + leurre anti-debug/CRC ; `petik` → `47730` |
 
 ## Mis de côté (PARKED — y revenir)
 

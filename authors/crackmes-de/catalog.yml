@@ -966,6 +966,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c1fc/original/DrPepUr5.zip"
     title: "crackmes.de's drpepur_5 by drpepur"
 
+  5ab77f5533c5d40ad448c1fd:
+    sha256: "d7be68a33574de69419ce9b1bc5ab6302b2e82788e940141c5a6394cb753d23d"
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c1fd/original/keygenme_1.zip"
+    title: "crackmes.de's enforcer039s_keygenme_1__arteam_cra by enforcer"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1751,3 +1756,7 @@ by_sha256:
     id: 5ab77f5533c5d40ad448c1fc
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c1fc/original/DrPepUr5.zip"
     page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c1fc
+  d7be68a33574de69419ce9b1bc5ab6302b2e82788e940141c5a6394cb753d23d:
+    id: 5ab77f5533c5d40ad448c1fd
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c1fd/original/keygenme_1.zip"
+    page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c1fd
