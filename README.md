@@ -251,6 +251,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-12 | [damos_crackme_1_for_win32 by damo2k](authors/crackmes-de/5ab77f5533c5d40ad448c1e8/) | crackmes.de / damo2k |
 | 2026-10-12 | [damos_crackme_1_for_solaris by damo2k](authors/crackmes-de/5ab77f5533c5d40ad448c1e7/) | crackmes.de / damo2k |
 | 2026-10-12 | [damos_crackme_1_for_linux by damo2k](authors/crackmes-de/5ab77f5533c5d40ad448c1e6/) | crackmes.de / damo2k |
 | 2026-10-12 | [crackme_2 by thefox](authors/crackmes-de/5ab77f5533c5d40ad448c1e0/) | crackmes.de / thefox |

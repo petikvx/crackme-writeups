@@ -921,6 +921,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c1e7/original/crkme1-solaris.tar.gz"
     title: "crackmes.de's damos_crackme_1_for_solaris by damo2k"
 
+  5ab77f5533c5d40ad448c1e8:
+    sha256: "feae08ba5914f98ce4a7010e34bfef47e9288967f7123f7343219d7e8c552f87"
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c1e8/original/crkme1-win32.zip"
+    title: "crackmes.de's damos_crackme_1_for_win32 by damo2k"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1670,3 +1675,7 @@ by_sha256:
     id: 5ab77f5533c5d40ad448c1e7
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c1e7/original/crkme1-solaris.tar.gz"
     page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c1e7
+  feae08ba5914f98ce4a7010e34bfef47e9288967f7123f7343219d7e8c552f87:
+    id: 5ab77f5533c5d40ad448c1e8
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c1e8/original/crkme1-win32.zip"
+    page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c1e8

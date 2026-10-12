@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c1e8
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c1e8
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c1e8
+
+title: "damos_crackme_1_for_win32 by damo2k"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++"
+
+difficulty: 2.0
+quality: 4.0
+size: "12.06 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: damo-crackme1-win32
+
+binary:
+  path: "original/crkme1-win32.zip"
+  name: "crkme1-win32.zip"
+  sha256: "feae08ba5914f98ce4a7010e34bfef47e9288967f7123f7343219d7e8c552f87"
+  md5: "1cc960981432575d74f1e53bd3fc0280"
+  size_bytes: 12352
+
+status: solved
+solution_summary: "jumeau Win32 (MSVC) du crackme Linux ; serial 10 car upcasé ; s0=s9-3, s1=s8+14, s2=s7-20, s3=s6+6, s0=(s4+s5)/2 ; POFKPPEZAS"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T10:56:27Z"
