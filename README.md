@@ -251,6 +251,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-12 | [crackme_1.0_by_c0de0f by c0de0f](authors/crackmes-de/5ab77f5533c5d40ad448c200/) | crackmes.de / c0de0f |
 | 2026-10-12 | [crackme_2.0_by_c0de0f by c0de0f](authors/crackmes-de/5ab77f5533c5d40ad448c1ff/) | crackmes.de / c0de0f |
 | 2026-10-12 | [enforcer039s_keygenme_1__arteam_cra by enforcer](authors/crackmes-de/5ab77f5533c5d40ad448c1fd/) | crackmes.de / enforcer |
 | 2026-10-12 | [drpepur_5 by drpepur](authors/crackmes-de/5ab77f5533c5d40ad448c1fc/) | crackmes.de / drpepur |
