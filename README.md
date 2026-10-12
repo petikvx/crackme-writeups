@@ -251,6 +251,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-12 | [asm_keygen_me_2 by kkr_we_rule](authors/crackmes-de/5ab77f5533c5d40ad448c223/) | crackmes.de / kkr_we_rule |
 | 2026-10-12 | [asm_keygen_me_1 by kkr_we_rule](authors/crackmes-de/5ab77f5533c5d40ad448c222/) | crackmes.de / kkr_we_rule |
 | 2026-10-12 | [shortcut by kkr_we_rule](authors/crackmes-de/5ab77f5533c5d40ad448c220/) | crackmes.de / kkr_we_rule |
 | 2026-10-12 | [fatmikes_crackme1 by fatmike](authors/crackmes-de/5ab77f5533c5d40ad448c21f/) | crackmes.de / fatmike |

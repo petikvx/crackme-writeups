@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c223
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c223
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c223
+
+title: "crackmes.de's asm_keygen_me_2 by kkr_we_rule"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 2.0
+quality: null
+size: "1.78 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/KeygenMe2.zip"
+  name: "KeygenMe2.zip"
+  sha256: "4d758878580af4fb81575eaf22f47ffa67a872372a69b7ff5b86d5ad5f3c9499"
+  md5: "307142d7939b00ab990b5fd2c6d5790c"
+  size_bytes: 1823
+
+status: solved
+solution_summary: "Win32 ASM ; serial A-B ; K = (((g1^g2)&g2)+g2) avec g = h³-h sur deux hashs 16 bits du nom ; A+B == K et pgcd_x86(3,A) == pgcd_x86(3,B) == 1 (idiv signé, -1 refusé) ; petik -> 2--2, crackmes -> 2-2727326 (wine : Congratz!!)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T21:02:28Z"

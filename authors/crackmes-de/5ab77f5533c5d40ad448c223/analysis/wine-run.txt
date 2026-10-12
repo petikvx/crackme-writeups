@@ -1,0 +1,24 @@
+== petik 2--2
+  boite : Congratz!!
+    [OK]
+    [Well Done. Now write a KeyGen.]
+== petik 1--1
+  boite : Not even close!
+    [OK]
+    [Nah.. Go look some more !]
+== crackmes 2-2727326
+  boite : Congratz!!
+    [OK]
+    [Well Done. Now write a KeyGen.]
+== crackmes 1-2727327
+  boite : Not even close!
+    [OK]
+    [Nah.. Go look some more !]
+== kkr_we_rule 1-71743
+  boite : Congratz!!
+    [OK]
+    [Well Done. Now write a KeyGen.]
+== kkr_we_rule 1-71742
+  boite : Not even close!
+    [OK]
+    [Nah.. Go look some more !]
