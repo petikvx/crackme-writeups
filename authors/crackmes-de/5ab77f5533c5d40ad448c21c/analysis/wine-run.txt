@@ -1,0 +1,15 @@
+avant : Check(0x3e8)=1 Name=1 Serial=1 Fonction(0x3ea)=1
+apres : Check(0x3e8)=0 Name=0 Serial=0 Fonction(0x3ea)=1
+  fenetre : Information
+    [OK]
+    [..::[FaTmiKE 2oo5]::...
+
+Congratulations, you did it! :-)
+I hope u had fun with this crackme!
+Now it's time to relax...enjoy the sound provided by
+www.eha-music.com
+
+If you want, write a tutorial and post it at
+www.cip.myz.info
+
+Fatmike]

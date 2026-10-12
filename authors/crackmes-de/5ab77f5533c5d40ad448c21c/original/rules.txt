@@ -1,0 +1,12 @@
+..::[FaTmiKE 2oo5]::..
+
+This is my second crackme. It's a little easier than my first one,
+here are the rules:
+
+1. The goal is to enable the deactivated funtion.
+
+2. Everything is allowed. This means you may patch the crackme,
+   or find a valid serial. It's always the best to write a
+   keygen, of course :-)
+
+Have fun!!!

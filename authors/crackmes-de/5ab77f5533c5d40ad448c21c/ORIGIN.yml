@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c21c
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c21c
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c21c
+
+title: "fatmikes_crackme_2 by fatmike"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++"
+
+difficulty: 2.0
+quality: 4.0
+size: "184.58 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: fatmike-crackme2
+
+binary:
+  path: "original/Crackme2.zip"
+  name: "Crackme2.zip"
+  sha256: "fe9fd46a85c3a62c565bf8197f92b423d0e86ac593a591aa1657b4da35e1efe9"
+  md5: "88f8053f50be12882e84f83f3dee0fb4"
+  size_bytes: 189008
+
+status: solved
+solution_summary: "UPX 1.24 ; h = Σ(signed nom) * 0xDEADBEEF, wsprintf %X -> serial[1,2,6,7,11,12,16,17] (tirets 4/9/14) ; étape 2 : serial[0,3,5,8]=KEWL, [10,13,15,18]=SHIT = clés XOR du code chiffré 0x409148 ; petik -> K95E-W2CL-S7FH-I13T (wine : Congratulations, you did it!)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T19:02:07Z"
