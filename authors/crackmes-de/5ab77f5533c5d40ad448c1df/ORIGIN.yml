@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c1df
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c1df
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c1df
+
+title: "crackme1 by adamziaja"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux"
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 1.0
+quality: 3.5
+size: "14.63 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: crackme1
+
+binary:
+  path: "original/crackme1.tar.gz"
+  name: "crackme1.tar.gz"
+  sha256: "d38f70f6228ab63ad317e60c614f7bf9f110804454f1a59b31c5132209f92224"
+  md5: "3afac964ddf86272d4688ef374e2cdee"
+  size_bytes: 14976
+
+status: solved
+solution_summary: "username 8..12 ; stream ASCII (even tolower/odd toupper) ; serial=int(stream[(len-8)*2:][:8]) ; petikpet → 11269116"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T08:55:31Z"

@@ -896,6 +896,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c1de/original/PushPushMe.zip"
     title: "crackmes.de's pushpushme by synfo"
 
+  5ab77f5533c5d40ad448c1df:
+    sha256: "d38f70f6228ab63ad317e60c614f7bf9f110804454f1a59b31c5132209f92224"
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c1df/original/crackme1.tar.gz"
+    title: "crackmes.de's crackme1 by adamziaja"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1625,3 +1630,7 @@ by_sha256:
     id: 5ab77f5533c5d40ad448c1de
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c1de/original/PushPushMe.zip"
     page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c1de
+  d38f70f6228ab63ad317e60c614f7bf9f110804454f1a59b31c5132209f92224:
+    id: 5ab77f5533c5d40ad448c1df
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c1df/original/crackme1.tar.gz"
+    page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c1df

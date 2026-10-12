@@ -202,6 +202,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 174 | [keygenning4newbies_crackme_3 by analyst](5ab77f5533c5d40ad448c1dc/) | analyst | Windows PE32 GUI (MSVC) | keygen hash+stream A-Z xor EXPECTED ; `petik` → `A9OE24A8<7ªE;H27=?` (Unicorn hash) |
 | 175 | [keygenning4newbies_crackme_5 by analyst](5ab77f5533c5d40ad448c1dd/) | analyst | Windows PE32 GUI (MSVC) keyfile | key.dat plain `K4N <label>` ; shellcode@405030 ; `petik` → hex `167000624d2236542c` → « Registered to: petik » |
 | 176 | [pushpushme by synfo](5ab77f5533c5d40ad448c1de/) | synfo | Windows PE32 ASM tiny | patchme jmp esp → MessageBoxA « Well d0ne! » (`analysis/PushPushMe.patched.exe`) |
+| 177 | [crackme1 by adamziaja](5ab77f5533c5d40ad448c1df/) | adamziaja | Linux ELF64 C++ | keygen ASCII stream ; `petikpet` → `11269116` |
 
 ## Mis de côté (PARKED — y revenir)
 
