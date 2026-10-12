@@ -228,6 +228,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 200 | [super_funky_0.82 by bswap](5ab77f5533c5d40ad448c210/) | bswap | Windows PE32 MASM | keyfile glissé-déposé `Bswap.2003` (60 o : `Cool?Dude` + 8 octets de code + masques + checksum auto-référent) ; `petik`/`Paris` → « Registered!, Unlock code: AABSWAZPP » |
 | 201 | [keygenme_0.51 by bswap](5ab77f5533c5d40ad448c211/) | bswap | Windows PE32 MASM, FSG 1.0 | moulinette du buffer nom (restes `iTisgrEattoby…` compris, émulée Unicorn) → 12 bits `0xc1<b<0xf0` ; clé = 1 car. + `'1'`/`'a'` ; `petik` → `xaa11111aa11a` |
 | 202 | [little_man_1.45 by bswap](5ab77f5533c5d40ad448c213/) | bswap | Windows PE32 MASM | clic Register leurre (`or al,1`) ; test dans `WM_TIMER` : `key[5]=='-'` et (`key[6]=='8'` ou `key[7]=='S'`) ; `petik` → `petik-8S` |
+| 203 | [assassination by bswap](5ab77f5533c5d40ad448c215/) | bswap | Windows PE32 MASM, packé (stub type FSG) | `serial[1..]-=4` puis même hash 30 tours que le nom avec `dword0−4` ⇒ `serial = le32(n0+4)‖name[4:]`, +4 sur les octets 1.. ; `petik` → `tixmo` |
 
 ## Mis de côté (PARKED — y revenir)
 

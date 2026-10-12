@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c215
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c215
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c215
+
+title: "assassination by bswap"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler (MASM)"
+
+difficulty: 2.0
+quality: null
+size: "39.56 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: assassination
+
+binary:
+  path: "original/assassination.zip"
+  name: "assassination.zip"
+  sha256: "4543dac354261d27ddfc7c51ff0b6883151fae47bf3201e346b649a2ae657b0e"
+  md5: "a36d97556dea44060d2c241180730243"
+  size_bytes: 40508
+
+status: solved
+solution_summary: "stub packé type FSG (unpack Unicorn) ; serial[1..]-=4 puis meme hash 30 tours que le nom mais dword0-4 => serial = le32(n0+4)||name[4:], +4 sur les octets 1.. ; petik -> tixmo, Assassination -> Ewwewwmrexmsr (= mot de passe des sources) (wine: -- REGISTERED! --)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T17:17:25Z"
