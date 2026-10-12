@@ -241,6 +241,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 213 | [asm_keygen_me_2 by kkr_we_rule](5ab77f5533c5d40ad448c223/) | kkr_we_rule | Windows PE32 ASM GUI | serial `A-B` ; `A+B == K(nom)` (`g = h³-h` sur deux hashs 16 bits) et ni `A` ni `B` multiple de 3 (PGCD `idiv` signé) ; `petik` -> `2--2` (wine) |
 | 214 | [red_crew_kgm1_by_kkr by kkr_we_rule](5ab77f5533c5d40ad448c22b/) | kkr_we_rule | Windows PE32 Delphi 2009 GUI | serial `A+B` (19 + 20 chiffres 1-9) ; `H(B)² mod H(nom) == H(A) mod H(nom)`, `H` = hash 64 bits par PGCD soustractifs (dernier car. ignoré) ; `petik` -> `7377844815588622487+47137769329314998558` (wine) |
 | 215 | [kgm1 by kkr_we_rule](5ab77f5533c5d40ad448c22d/) | kkr_we_rule | Windows PE32 MASM32 GUI | serial hexa `w0-w1-w2` ; système linéaire 3×3 mod 499 sur `s1 = Σc`, `s2 = Σ(c·i)^i`, `s3 = s1+s2` ; `petik` -> `5-1DD-1BD` (wine) |
+| 216 | [cyclone by double_zer0](5ab77f5533c5d40ad448c22e/) | double_zer0 | Windows PE32 ASM console | anti-debug callback TLS `0x401070` (`CloseHandle(0x3039)` sous SEH) ; `scanf("%d")` puis `ror(v,17) == 0x554F0000` → `v = rol(0x554F0000,17)` ; `43678` (wine) |
 
 ## Mis de côté (PARKED — y revenir)
 

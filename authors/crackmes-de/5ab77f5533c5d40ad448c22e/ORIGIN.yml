@@ -1,0 +1,38 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c22e
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c22e
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c22e
+
+title: "crackmes.de's cyclone by double_zer0"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 2.0
+quality: null
+size: ""
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  exe: "original/crackme.exe"
+  exe_sha256: "1b7e06c4a671a48b31751620456ae4d535d20c38ed8f5e13860c72f52449b389"
+  path: "original/cyclone.zip"
+  name: "cyclone.zip"
+  sha256: "18b80dfbbdb6ae0f2a15ba4582b45e468467fdb377afe4257ed35730a6dabc83"
+  md5: "2d45c60b66326610d475e48aaae5c4a4"
+  size_bytes: 1067
+
+status: solved
+solution_summary: "PE32 console ASM ; anti-debug par callback TLS 0x401070 (CloseHandle(0x3039) sous SEH) qui saute ensuite dans main ; scanf(\"%d\") puis ror(v,17) == 0x554F0000 ; v = rol(0x554F0000,17) = 0xAA9E -> 43678 (wine : Congratulation!!)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T23:53:55Z"

@@ -1,0 +1,11 @@
+$ tools/verify-wine.sh 43678
+
+  fenetre : Message:
+    [OK]
+    [Congratulation!!]
+
+$ tools/verify-wine.sh 12345
+
+  fenetre : Error!
+    [OK]
+    [Oops Wrong Password!!]

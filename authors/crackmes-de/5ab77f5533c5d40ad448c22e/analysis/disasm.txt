@@ -1,0 +1,57 @@
+
+original/crackme.exe:     file format pei-i386
+
+
+Disassembly of section .text:
+
+00401000 <.text>:
+  401000:	68 00 30 40 00       	push   0x403000
+  401005:	ff 15 10 20 40 00    	call   DWORD PTR ds:0x402010
+  40100b:	83 c4 04             	add    esp,0x4
+  40100e:	68 6f 30 40 00       	push   0x40306f
+  401013:	ff 15 10 20 40 00    	call   DWORD PTR ds:0x402010
+  401019:	83 c4 04             	add    esp,0x4
+  40101c:	68 bc 30 40 00       	push   0x4030bc
+  401021:	68 89 30 40 00       	push   0x403089
+  401026:	ff 15 0c 20 40 00    	call   DWORD PTR ds:0x40200c
+  40102c:	83 c4 08             	add    esp,0x8
+  40102f:	a1 bc 30 40 00       	mov    eax,ds:0x4030bc
+  401034:	c1 c8 11             	ror    eax,0x11
+  401037:	bb 00 00 4f 55       	mov    ebx,0x554f0000
+  40103c:	3b c3                	cmp    eax,ebx
+  40103e:	75 15                	jne    0x401055
+  401040:	6a 00                	push   0x0
+  401042:	68 38 30 40 00       	push   0x403038
+  401047:	68 41 30 40 00       	push   0x403041
+  40104c:	6a 00                	push   0x0
+  40104e:	e8 6b 00 00 00       	call   0x4010be
+  401053:	eb 13                	jmp    0x401068
+  401055:	6a 00                	push   0x0
+  401057:	68 52 30 40 00       	push   0x403052
+  40105c:	68 59 30 40 00       	push   0x403059
+  401061:	6a 00                	push   0x0
+  401063:	e8 56 00 00 00       	call   0x4010be
+  401068:	6a 00                	push   0x0
+  40106a:	e8 5b 00 00 00       	call   0x4010ca
+  40106f:	c3                   	ret
+  401070:	80 3d c0 30 40 00 01 	cmp    BYTE PTR ds:0x4030c0,0x1
+  401077:	74 3c                	je     0x4010b5
+  401079:	c6 05 c0 30 40 00 01 	mov    BYTE PTR ds:0x4030c0,0x1
+  401080:	68 a2 10 40 00       	push   0x4010a2
+  401085:	64 ff 35 00 00 00 00 	push   DWORD PTR fs:0x0
+  40108c:	64 89 25 00 00 00 00 	mov    DWORD PTR fs:0x0,esp
+  401093:	68 39 30 00 00       	push   0x3039
+  401098:	e8 27 00 00 00       	call   0x4010c4
+  40109d:	e9 5e ff ff ff       	jmp    0x401000
+  4010a2:	6a 30                	push   0x30
+  4010a4:	68 17 30 40 00       	push   0x403017
+  4010a9:	68 28 30 40 00       	push   0x403028
+  4010ae:	6a 00                	push   0x0
+  4010b0:	e8 09 00 00 00       	call   0x4010be
+  4010b5:	6a 00                	push   0x0
+  4010b7:	e8 0e 00 00 00       	call   0x4010ca
+  4010bc:	c3                   	ret
+  4010bd:	cc                   	int3
+  4010be:	ff 25 18 20 40 00    	jmp    DWORD PTR ds:0x402018
+  4010c4:	ff 25 04 20 40 00    	jmp    DWORD PTR ds:0x402004
+  4010ca:	ff 25 00 20 40 00    	jmp    DWORD PTR ds:0x402000

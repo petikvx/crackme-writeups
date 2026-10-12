@@ -1091,6 +1091,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c22d/original/Kgm#1.zip"
     title: "crackmes.de's kgm1 by kkr_we_rule"
 
+  5ab77f5533c5d40ad448c22e:
+    sha256: "18b80dfbbdb6ae0f2a15ba4582b45e468467fdb377afe4257ed35730a6dabc83"
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c22e/original/cyclone.zip"
+    title: "crackmes.de's cyclone by double_zer0"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1976,3 +1981,7 @@ by_sha256:
     id: 5ab77f5533c5d40ad448c22d
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c22d/original/Kgm#1.zip"
     page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c22d
+  18b80dfbbdb6ae0f2a15ba4582b45e468467fdb377afe4257ed35730a6dabc83:
+    id: 5ab77f5533c5d40ad448c22e
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c22e/original/cyclone.zip"
+    page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c22e
