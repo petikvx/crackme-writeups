@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c210
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c210
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c210
+
+title: "super_funky_0.82 by bswap"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler (MASM)"
+
+difficulty: 2.0
+quality: null
+size: "17.45 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: superfunky082
+
+binary:
+  path: "original/superfunky082.zip"
+  name: "superfunky082.zip"
+  sha256: "ee516dce8300b710f937df22a1c7adba9d7ec26087a5bfccf575ea6dea884893"
+  md5: "c3c3e9686ff5efb5d4278de4a7857e63"
+  size_bytes: 17864
+
+status: solved
+solution_summary: "keyfile glissé-déposé *Bswap.2003* (60 o : Cool?Dude + 8 octets de code + nom/ville + masques + checksum auto-référent) ; petik/Paris -> Registered!, Unlock code: AABSWAZPP (wine + WM_DROPFILES)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T17:06:19Z"
