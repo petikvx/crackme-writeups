@@ -251,6 +251,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-12 | [xyz_keygenme20110405 by xiayuanzhong](authors/crackmes-de/5ab77f5533c5d40ad448c1f1/) | crackmes.de / xiayuanzhong |
 | 2026-10-12 | [xyz_keygenme20110505 by xiayuanzhong](authors/crackmes-de/5ab77f5533c5d40ad448c1f0/) | crackmes.de / xiayuanzhong |
 | 2026-10-12 | [crackmehardestshell20110404 by xiayuanzhong](authors/crackmes-de/5ab77f5533c5d40ad448c1ef/) | crackmes.de / xiayuanzhong |
 | 2026-10-12 | [damos_crackme_1_for_win32 by damo2k](authors/crackmes-de/5ab77f5533c5d40ad448c1e8/) | crackmes.de / damo2k |

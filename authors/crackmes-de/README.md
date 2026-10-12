@@ -210,6 +210,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 182 | [damos_crackme_1_for_win32 by damo2k](5ab77f5533c5d40ad448c1e8/) | damo2k | Windows PE32 C (MSVC) | jumeau Linux ; serial **`POFKPPEZAS`** (wine) |
 | 183 | [crackmehardestshell20110404 by xiayuanzhong](5ab77f5533c5d40ad448c1ef/) | xiayuanzhong | Windows PE32 C++ (MinGW) | déjà dépaqueté ; `reverse(name)+"_xyz"` ; `petik` → `kitep_xyz` |
 | 184 | [xyz_keygenme20110505 by xiayuanzhong](5ab77f5533c5d40ad448c1f0/) | xiayuanzhong | Windows PE32 C++ (MinGW) | keygen `X3_` + `name[i%L]±i`, longueur Fibonacci ; `petik_` → `X3_pfvlo` |
+| 185 | [xyz_keygenme20110405 by xiayuanzhong](5ab77f5533c5d40ad448c1f1/) | xiayuanzhong | Windows PE32 C++ (MinGW) | keygen caps@j·reps + non-maj + cycle xyz ; `Petik` → `Petikxyzxyzxyzx` |
 
 ## Mis de côté (PARKED — y revenir)
 

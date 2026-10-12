@@ -936,6 +936,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c1f0/original/XYZ_KeygenMe20110505.zip"
     title: "crackmes.de's xyz_keygenme20110505 by xiayuanzhong"
 
+  5ab77f5533c5d40ad448c1f1:
+    sha256: "fbc10e8a6a31742aa09c35e3ce32d62c151283a83bbbf9162ae81ee0ecc89ce7"
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c1f1/original/XYZ_KeygenMe20110405.zip"
+    title: "crackmes.de's xyz_keygenme20110405 by xiayuanzhong"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1697,3 +1702,7 @@ by_sha256:
     id: 5ab77f5533c5d40ad448c1f0
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c1f0/original/XYZ_KeygenMe20110505.zip"
     page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c1f0
+  fbc10e8a6a31742aa09c35e3ce32d62c151283a83bbbf9162ae81ee0ecc89ce7:
+    id: 5ab77f5533c5d40ad448c1f1
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c1f1/original/XYZ_KeygenMe20110405.zip"
+    page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c1f1

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c1f1
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c1f1
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c1f1
+
+title: "xyz_keygenme20110405 by xiayuanzhong"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++"
+
+difficulty: 2.0
+quality: 4.5
+size: "130.92 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: xyz-keygenme0405
+
+binary:
+  path: "original/XYZ_KeygenMe20110405.zip"
+  name: "XYZ_KeygenMe20110405.zip"
+  sha256: "fbc10e8a6a31742aa09c35e3ce32d62c151283a83bbbf9162ae81ee0ecc89ce7"
+  md5: "3f523a6d1d8827a138338dde26c132fc"
+  size_bytes: 134067
+
+status: solved
+solution_summary: "Dev-C++ (MinGW) ; len=2L+3 (+2/+3 si maj tête/queue) ; password = caps aux i=j*reps + non-maj du nom + cycle xyz ; Petik -> Petikxyzxyzxyzx"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T11:51:39Z"
