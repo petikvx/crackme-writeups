@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c1cc
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c1cc
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c1cc
+
+title: "c_crackme_1 by ultrasound"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++"
+
+difficulty: 2.0
+quality: 4.0
+size: "13.67 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: c-crackme-1
+
+binary:
+  path: "original/CPP_Crackme1.zip"
+  name: "CPP_Crackme1.zip"
+  sha256: "dcc4571ef2148d7b2a5b8d6993daa588c8bbb39ff9b5968a97b58d5fa79626ff"
+  md5: "fe6c01710dbc5fd1ec972e70dea86977"
+  size_bytes: 14002
+
+status: solved
+solution_summary: "keygen ULT-<15 chiffres>-0141 : b[i]=nom[i]^(i+1) (padding table), swab + ror 1, d=(s^t)+s*t, d[i]+=d[i+15], chiffre=(d&0xff)%9 ; le suffixe 2413 généré est un leurre ; petik -> ULT-824815863156375-0141"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T06:53:15Z"

@@ -846,6 +846,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c1c0/original/revme-crackme-szi.zip"
     title: "crackmes.de's szi_keygenme by revme"
 
+  5ab77f5433c5d40ad448c1cc:
+    sha256: "dcc4571ef2148d7b2a5b8d6993daa588c8bbb39ff9b5968a97b58d5fa79626ff"
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c1cc/original/CPP_Crackme1.zip"
+    title: "crackmes.de's c_crackme_1 by ultrasound"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1535,3 +1540,7 @@ by_sha256:
     id: 5ab77f5433c5d40ad448c1c0
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c1c0/original/revme-crackme-szi.zip"
     page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c1c0
+  dcc4571ef2148d7b2a5b8d6993daa588c8bbb39ff9b5968a97b58d5fa79626ff:
+    id: 5ab77f5433c5d40ad448c1cc
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c1cc/original/CPP_Crackme1.zip"
+    page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c1cc
