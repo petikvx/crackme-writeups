@@ -876,6 +876,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c1da/original/k4n.zip"
     title: "crackmes.de's keygenning4newbies_crackme_1 by analyst"
 
+  5ab77f5533c5d40ad448c1db:
+    sha256: "f955a7ad073e267c61ba12544aa9e7b8563a1340f07d5871d222535059a60139"
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c1db/original/k4n2.zip"
+    title: "crackmes.de's keygenning4newbies_crackme_2 by analyst"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1589,3 +1594,7 @@ by_sha256:
     id: 5ab77f5533c5d40ad448c1da
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c1da/original/k4n.zip"
     page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c1da
+  f955a7ad073e267c61ba12544aa9e7b8563a1340f07d5871d222535059a60139:
+    id: 5ab77f5533c5d40ad448c1db
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c1db/original/k4n2.zip"
+    page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c1db

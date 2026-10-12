@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c1db
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c1db
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c1db
+
+title: "keygenning4newbies_crackme_2 by analyst"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unspecified/other"
+arch: "x86"
+language: "Unspecified/other"
+
+difficulty: 1.0
+quality: 4.0
+size: "30.53 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: k4n2
+
+binary:
+  path: "original/k4n2.zip"
+  name: "k4n2.zip"
+  sha256: "f955a7ad073e267c61ba12544aa9e7b8563a1340f07d5871d222535059a60139"
+  md5: "dedccf5979f90a0beca614c51c1fe5c0"
+  size_bytes: 31265
+
+status: solved
+solution_summary: "sprintf 8 champs (nom + frame ebp-0x474, EBP=0x108000) ; petik -> 1E29E126845-10107B90-42544815431080209-A3172A4"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T08:01:37Z"
