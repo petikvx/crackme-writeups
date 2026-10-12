@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c21d
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c21d
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c21d
+
+title: "fatmikes_crackme1___fixed_version by fatmike"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++"
+
+difficulty: 2.0
+quality: 4.0
+size: "52.27 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: fatmike-crackme1-fixed
+
+binary:
+  path: "original/Crackme1.zip"
+  name: "Crackme1.zip"
+  sha256: "95c24ef527308280b14ac84450cf01fa9fb5807b14cbf007984da8981f20d66c"
+  md5: "e5b7650a1faeec7cf297f7396ed55159"
+  size_bytes: 53521
+
+status: solved
+solution_summary: "UPX 1.24 ; serial 13 car. = clé XOR de 48 octets (0x40802C) écrits par WriteProcessMemory sur les NOP de 0x40141F ; crib = appel MessageBoxA('Well done!') ; hash ELF % 0x16049 == 0xFE65 ne couvre que dec[0..5] ; cip-kicks-ass (wine : Well done!)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T19:06:17Z"

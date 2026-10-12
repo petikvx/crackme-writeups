@@ -1,0 +1,3 @@
+  fenetre : Information
+    [OK]
+    [Well done!]

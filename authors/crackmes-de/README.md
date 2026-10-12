@@ -234,6 +234,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 206 | [crackme_nop_vm by opcode0x90](5ab77f5533c5d40ad448c21a/) | opcode0x90 | Windows PE32 asm, mini-VM | VM 12 opcodes (nops sinon) ; `0x1337C0DE + Σ le32(buf[i..])` jusqu'au `\n` == `0x0A4F4CAB` ; poids `1/0x101/0x10101/0x01010101` ⇒ 3e octet = espace ; `Et petikfZ` (CRLF) |
 | 207 | [crackme_nop by opcode0x90](5ab77f5533c5d40ad448c21b/) | opcode0x90 | Windows PE32 asm, stub copié + XOR | `XOR_{i=1..15} le32(buf[i..])` == `0x4D3E5732` ⇒ `XOR(b1..b15)=0x32`, `b16=b1^0x65`, `b17=b2^0x69`, `b18=b3^0x73` ; `XPPApetikAAAAAa0592` (vérif Unicorn, wine refuse le PE) |
 | 208 | [fatmikes_crackme_2 by fatmike](5ab77f5533c5d40ad448c21c/) | fatmike | Windows PE32 MSVC6 GUI, UPX | `%X` de `Σ(nom)*0xDEADBEEF` → `serial[1,2,6,7,11,12,16,17]` ; 8 car. libres = `KEWL`+`SHIT`, clés XOR du code caché `0x409148` ; `petik` → `K95E-W2CL-S7FH-I13T` (wine) |
+| 209 | [fatmikes_crackme1___fixed_version by fatmike](5ab77f5533c5d40ad448c21d/) | fatmike | Windows PE32 MSVC6 GUI, UPX, auto-modifiant | serial 13 car. = clé XOR de 48 octets écrits par `WriteProcessMemory` sur les NOP de `0x40141F` ; crib `MessageBoxA("Well done!")` ; hash ELF ne couvre que `dec[0..5]` ; `cip-kicks-ass` (wine) |
 
 ## Mis de côté (PARKED — y revenir)
 

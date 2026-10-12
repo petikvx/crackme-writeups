@@ -1,0 +1,29 @@
+..::[FaTmiKE 2oo5]::..
+
+Have fun with my first crackme! I think its a little hard, so heres some information for you:
+
+1. The goal is to find the valid serial. A window will pop up to let you know you found it :-)
+   There is only one valid serial
+
+2. You may also patch the crackme. But then the crackme must behave the same way as if you had entered the valid serial.
+
+3. It is not allowed to patch push "well done" instead of push "try again" or other similar lame patches :-)
+
+4. Code injection is not allowed.
+
+Known bugs:
+
+Seems like the crackme doesnt run on Windows 2000 SP4 machines, it works fine on Windows XP SP1 for example
+
+Have fun!!!
+
+
+
+
+Edit:
+
+i changed
+0040141Ch: ADD ESP, 8 
+
+to: 
+0040141Ch: ADD ESP, 4 
