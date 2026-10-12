@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c20c
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c20c
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c20c
+
+title: "crackme_0.68 by bswap"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: ""
+arch: "x86"
+language: "Assembler (MASM)"
+
+difficulty: 2.0
+quality: null
+size: "5.06 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: keygenme068
+
+binary:
+  path: "original/keygenme068.zip"
+  name: "keygenme068.zip"
+  sha256: "8f91bb084cc1da93375037f87d2c84057e12020c93150e60a5acf46c0d646984"
+  md5: "7091584b247cbe5ffa40b16e8aaca8cf"
+  size_bytes: 5178
+
+status: solved
+solution_summary: "code entree c0=c11,c2=c9,c0!=c9 ; key[3]=r ; key lavee (T constant), repne cmpsw -> name[12:14]=Tl ; petik -> petikabcdtep / petik_petik_Tl / petr (wine: smiley bitmap 501)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T16:23:03Z"

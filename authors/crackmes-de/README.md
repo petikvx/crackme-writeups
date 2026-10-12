@@ -224,6 +224,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 196 | [keygenme_0.72 by bswap](5ab77f5533c5d40ad448c203/) | bswap | Windows PE32 MASM, FSG 1.33 | keyfile registre : `Key 2 = f(Key 1)` (xadd/shrd) ; `petik` → `0x69746570` / `0xC8639391` (unpack Unicorn ; GOLD inatteignable) |
 | 197 | [morgana_1.49 by bswap](5ab77f5533c5d40ad448c204/) | bswap | Windows PE32 MASM | serial 10 car. `AQ?6509???` (table XOR constante + `sub/bswap/sub`) ; `petik` → `AQp6509eti` |
 | 198 | [ribbere_1.4 by bswap](5ab77f5533c5d40ad448c205/) | bswap | Windows PE32 MASM | clé auto-validante : `g(n[i],16-i) == g(n[i+4],12-i)` (i=1..4, `g = c+k`, bornes 0x21/0x7B) ; `petik` → `petiki7mo` |
+| 199 | [crackme_0.68 by bswap](5ab77f5533c5d40ad448c20c/) | bswap | Windows PE32 MASM, FSG 1.31 | code d’entrée `c0=c11,c2=c9` ; key[3]=`r` ; key lavée → T constant, `repne cmpsw` : name[12:14]=`Tl` ; `petik` → `petikabcdtep` / `petik_petik_Tl` / `petr` |
 
 ## Mis de côté (PARKED — y revenir)
 
