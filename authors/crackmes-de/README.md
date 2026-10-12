@@ -197,6 +197,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 169 | [6_levels by typhoon](5ab77f5433c5d40ad448c1d7/) | typhoon | Windows PE32 console (MSVC 2013, PDB) | binary bomb 7 niveaux + secret (`9 guava` → `flame`, NOP-sleds en `.data`) (wine live) |
 | 170 | [keygenning4newbies_crackme_6 by analyst](5ab77f5433c5d40ad448c1d8/) | analyst | Windows PE32 GUI (Delphi 5) | keygen nom+société : table `0x4459df`, produit + xor/ror/sar/`not ax` → entier, `petik/petik` → `156663586` (Unicorn) |
 | 171 | [keygenning4newbies_crackme_7 by analyst](5ab77f5533c5d40ad448c1d9/) | analyst | Windows PE32 GUI (MSVC+UPX) | keygen MD5(name)+1 round TEA-like sur `keygenme` → hex16, `petik` → `8038CA6D3774F53D` (Unicorn) |
+| 172 | [keygenning4newbies_crackme_1 by analyst](5ab77f5533c5d40ad448c1da/) | analyst | Windows PE32 GUI (Borland C++) | keygen Σ(name[i]^(i+1))<<7 + (last^len)*6 → hex, `petik` → `11794` (Unicorn) |
 
 ## Mis de côté (PARKED — y revenir)
 
