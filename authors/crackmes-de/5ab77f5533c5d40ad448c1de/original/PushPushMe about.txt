@@ -1,0 +1,15 @@
+Difficulty:	1
+Platform:	Windows32
+Language:	ASM
+Author:		sYnfo
+Release Date:	28/4/08
+-------------------------
+
+Your task is to modify this CrackMe, so that the MessageBox shows the "Well d0ne!" string located within the CrackMe...
+
+Hope you enjoy it at least a bit...
+
+It´s my first crackme, so ANY suggestions warmly welcomed... :)
+
+
+-------------------------

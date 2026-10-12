@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c1de
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c1de
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c1de
+
+title: "pushpushme by synfo"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 1.0
+quality: 3.0
+size: "0.91 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: pushpushme
+
+binary:
+  path: "original/PushPushMe.zip"
+  name: "PushPushMe.zip"
+  sha256: "9b7054f243d67fa9af3f748af5b5e3720eeca4889d5aa670261276a062ae7000"
+  md5: "ed1431ff49f28491c2881f6f40dcb366"
+  size_bytes: 932
+
+status: solved
+solution_summary: "patchme jmp esp : réordonner pushes → MessageBoxA(0,\"Well d0ne!\",NULL,0) ; analysis/PushPushMe.patched.exe"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T08:52:56Z"
