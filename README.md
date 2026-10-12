@@ -251,6 +251,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-12 | [keygenning4newbies_crackme_7 by analyst](authors/crackmes-de/5ab77f5533c5d40ad448c1d9/) | crackmes.de / analyst |
 | 2026-10-12 | [keygenning4newbies_crackme_6 by analyst](authors/crackmes-de/5ab77f5433c5d40ad448c1d8/) | crackmes.de / analyst |
 | 2026-10-12 | [6_levels by typhoon](authors/crackmes-de/5ab77f5433c5d40ad448c1d7/) | crackmes.de / typhoon |
 | 2026-10-12 | [rdg_simple_crackme_.net by rdgmax](authors/crackmes-de/5ab77f5433c5d40ad448c1d0/) | crackmes.de / rdgmax |

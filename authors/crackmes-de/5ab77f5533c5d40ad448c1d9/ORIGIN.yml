@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c1d9
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c1d9
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c1d9
+
+title: "keygenning4newbies_crackme_7 by analyst"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unspecified/other"
+arch: "x86"
+language: "Unspecified/other"
+
+difficulty: 1.0
+quality: 4.0
+size: "39.13 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: k4n7
+
+binary:
+  path: "original/k4n7.zip"
+  name: "k4n7.zip"
+  sha256: "221c32a976011983bff730176a079c0117000809578fa15e9df64fb21b359e83"
+  md5: "0319074caaa756b529ad48c531addc7d"
+  size_bytes: 40068
+
+status: solved
+solution_summary: "MD5(name) → 1 round TEA-like encrypt of keygenme ; petik -> 8038CA6D3774F53D"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T07:56:57Z"
