@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c22f
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c22f
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c22f
+
+title: "crackmes.de's flatlines_crackme_1 by flatline"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Borland Delphi"
+
+difficulty: 2.0
+quality: null
+size: ""
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Flatline-CrackMe-1.zip"
+  name: "Flatline-CrackMe-1.zip"
+  sha256: "0e3cafa8acd9d0c2ff358523311df457d66003e631530e6cf41ae78a8480fb40"
+  md5: "cffbe797ab8bdd599189869eb7f4b638"
+  size_bytes: 404562
+
+status: solved
+solution_summary: "Delphi 2010 GUI ; Check = TForm1.Label3Load -> 0x4B63D4 ; h = sha1_hex(nom) puis StringReplace(h, c, '', [rfReplaceAll, rfIgnoreCase]) pour chaque car. du nom ; Trim(serial) == AnsiUpperCase(h) ; petik -> CA5DF7F105D63588C60ABB69A52014FCF927C95 (wine : Serial Valid. Well Done!)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T23:56:01Z"

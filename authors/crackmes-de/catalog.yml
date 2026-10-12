@@ -1096,6 +1096,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c22e/original/cyclone.zip"
     title: "crackmes.de's cyclone by double_zer0"
 
+  5ab77f5533c5d40ad448c22f:
+    sha256: "0e3cafa8acd9d0c2ff358523311df457d66003e631530e6cf41ae78a8480fb40"
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c22f/original/Flatline-CrackMe-1.zip"
+    title: "crackmes.de's flatlines_crackme_1 by flatline"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1985,3 +1990,7 @@ by_sha256:
     id: 5ab77f5533c5d40ad448c22e
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c22e/original/cyclone.zip"
     page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c22e
+  0e3cafa8acd9d0c2ff358523311df457d66003e631530e6cf41ae78a8480fb40:
+    id: 5ab77f5533c5d40ad448c22f
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c22f/original/Flatline-CrackMe-1.zip"
+    page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c22f

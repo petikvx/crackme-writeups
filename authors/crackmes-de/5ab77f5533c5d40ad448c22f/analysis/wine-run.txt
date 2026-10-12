@@ -1,0 +1,11 @@
+$ SHOT=analysis/wine-ok.png tools/verify-wine.sh petik CA5DF7F105D63588C60ABB69A52014FCF927C95
+  fenetre (TMessageForm) : c
+    [OK]
+
+$ SHOT=analysis/wine-ko.png tools/verify-wine.sh petik CA5DF7F10E5D63588C60ABB69A52014FCF927C95   # SHA-1 brut, sans retrait
+  fenetre (TMessageForm) : c
+    [OK]
+
+# Le texte du ShowMessage est un TLabel (non fenêtré) : lu sur les captures Xvfb
+# analysis/wine-ok.png : « Serial Valid. Well Done! »
+# analysis/wine-ko.png : « Serial Invalid. Try Again »
