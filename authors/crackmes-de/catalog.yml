@@ -811,6 +811,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c1ad/original/rif_crackme1.zip"
     title: "crackmes.de's rif_crackme_1 by korbut"
 
+  5ab77f5433c5d40ad448c1ae:
+    sha256: "ab3977c217c34ad6f7cec0e31f4c88160ed6299fd974931e9c2ca7e656c35b55"
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c1ae/original/yfc.zip"
+    title: "crackmes.de's your_first_crack by korbut"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1472,3 +1477,7 @@ by_sha256:
     id: 5ab77f5433c5d40ad448c1ad
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c1ad/original/rif_crackme1.zip"
     page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c1ad
+  ab3977c217c34ad6f7cec0e31f4c88160ed6299fd974931e9c2ca7e656c35b55:
+    id: 5ab77f5433c5d40ad448c1ae
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c1ae/original/yfc.zip"
+    page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c1ae

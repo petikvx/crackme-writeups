@@ -1,0 +1,33 @@
+  40131e:	55                   	push   ebp
+  40131f:	8b ec                	mov    ebp,esp
+  401321:	60                   	pusha
+  401322:	6a 3c                	push   0x3c
+  401324:	68 f0 32 40 00       	push   0x4032f0
+  401329:	68 d0 07 00 00       	push   0x7d0
+  40132e:	ff 75 08             	push   DWORD PTR [ebp+0x8]
+  401331:	e8 ea 00 00 00       	call   0x401420
+  401336:	83 f8 00             	cmp    eax,0x0
+  401339:	0f 84 8a 00 00 00    	je     0x4013c9
+  40133f:	6a 00                	push   0x0
+  401341:	68 e6 32 40 00       	push   0x4032e6
+  401346:	68 d1 07 00 00       	push   0x7d1
+  40134b:	ff 75 08             	push   DWORD PTR [ebp+0x8]
+  40134e:	e8 c7 00 00 00       	call   0x40141a
+  401353:	80 3d e6 32 40 00 00 	cmp    BYTE PTR ds:0x4032e6,0x0
+  40135a:	74 58                	je     0x4013b4
+  40135c:	50                   	push   eax
+  40135d:	33 f6                	xor    esi,esi
+  40135f:	a0 f0 32 40 00       	mov    al,ds:0x4032f0
+  401364:	84 c0                	test   al,al
+  401366:	74 11                	je     0x401379
+  401368:	fe c0                	inc    al
+  40136a:	34 17                	xor    al,0x17
+  40136c:	0f be c0             	movsx  eax,al
+  40136f:	03 f0                	add    esi,eax
+  401371:	fe 05 f0 32 40 00    	inc    BYTE PTR ds:0x4032f0
+  401377:	eb e6                	jmp    0x40135f
+  401379:	5b                   	pop    ebx
+  40137a:	3b f3                	cmp    esi,ebx
+  40137c:	74 15                	je     0x401393
+  40137e:	6a 10                	push   0x10
+  401380:	6a 00                	push   0x0
