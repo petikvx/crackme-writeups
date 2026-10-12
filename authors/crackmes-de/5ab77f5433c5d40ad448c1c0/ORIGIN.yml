@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c1c0
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c1c0
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c1c0
+
+title: "szi_keygenme by revme"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++"
+
+difficulty: 1.0
+quality: 4.0
+size: "32.70 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: szi-keygenme
+
+binary:
+  path: "original/revme-crackme-szi.zip"
+  name: "revme-crackme-szi.zip"
+  sha256: "ee5bf6d1eb4a4a214e8ae1436ca81727d48dd48f65351d2f87cda75c91e65954"
+  md5: "b651b77b78573353d9bf90ed61422bde"
+  size_bytes: 33480
+
+status: solved
+solution_summary: "keygen XXX-XXX-XXX : charset=interleave(ibet…,1234567890) ; k[0]=f(k[1]+0x1337), k[2]=f(k[4]-0x1337), k[5]=f(4919*k[6]), k[8]=f(k[9]) ; petik→spc-eyt-2ik"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T04:54:59Z"

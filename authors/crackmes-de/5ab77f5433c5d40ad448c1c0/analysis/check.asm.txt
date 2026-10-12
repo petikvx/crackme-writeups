@@ -1,0 +1,82 @@
+
+/workspace/crackme-writeups/authors/crackmes-de/5ab77f5433c5d40ad448c1c0/original/Crackme.exe:     file format pei-i386
+
+
+Disassembly of section .text:
+
+004019f8 <.text+0x9f8>:
+  4019f8:	8b 45 08             	mov    eax,DWORD PTR [ebp+0x8]
+  4019fb:	89 04 24             	mov    DWORD PTR [esp],eax
+  4019fe:	c7 45 b8 ff ff ff ff 	mov    DWORD PTR [ebp-0x48],0xffffffff
+  401a05:	e8 4a 7e 00 00       	call   0x409854
+  401a0a:	8b 55 08             	mov    edx,DWORD PTR [ebp+0x8]
+  401a0d:	8b 02                	mov    eax,DWORD PTR [edx]
+  401a0f:	8a 00                	mov    al,BYTE PTR [eax]
+  401a11:	88 45 b0             	mov    BYTE PTR [ebp-0x50],al
+  401a14:	89 14 24             	mov    DWORD PTR [esp],edx
+  401a17:	e8 38 7e 00 00       	call   0x409854
+  401a1c:	c7 44 24 04 38 e0 40 	mov    DWORD PTR [esp+0x4],0x40e038
+  401a23:	00 
+  401a24:	8b 4d 08             	mov    ecx,DWORD PTR [ebp+0x8]
+  401a27:	8b 01                	mov    eax,DWORD PTR [ecx]
+  401a29:	0f be 40 01          	movsx  eax,BYTE PTR [eax+0x1]
+  401a2d:	05 37 13 00 00       	add    eax,0x1337
+  401a32:	89 04 24             	mov    DWORD PTR [esp],eax
+  401a35:	e8 12 fb ff ff       	call   0x40154c
+  401a3a:	38 45 b0             	cmp    BYTE PTR [ebp-0x50],al
+  401a3d:	0f 85 cb fd ff ff    	jne    0x40180e
+  401a43:	8b 5d 08             	mov    ebx,DWORD PTR [ebp+0x8]
+  401a46:	89 1c 24             	mov    DWORD PTR [esp],ebx
+  401a49:	e8 06 7e 00 00       	call   0x409854
+  401a4e:	8b 03                	mov    eax,DWORD PTR [ebx]
+  401a50:	8a 40 02             	mov    al,BYTE PTR [eax+0x2]
+  401a53:	88 45 b0             	mov    BYTE PTR [ebp-0x50],al
+  401a56:	89 1c 24             	mov    DWORD PTR [esp],ebx
+  401a59:	e8 f6 7d 00 00       	call   0x409854
+  401a5e:	c7 44 24 04 38 e0 40 	mov    DWORD PTR [esp+0x4],0x40e038
+  401a65:	00 
+  401a66:	8b 03                	mov    eax,DWORD PTR [ebx]
+  401a68:	0f be 40 04          	movsx  eax,BYTE PTR [eax+0x4]
+  401a6c:	2d 37 13 00 00       	sub    eax,0x1337
+  401a71:	89 04 24             	mov    DWORD PTR [esp],eax
+  401a74:	e8 d3 fa ff ff       	call   0x40154c
+  401a79:	38 45 b0             	cmp    BYTE PTR [ebp-0x50],al
+  401a7c:	0f 85 8c fd ff ff    	jne    0x40180e
+  401a82:	89 1c 24             	mov    DWORD PTR [esp],ebx
+  401a85:	e8 ca 7d 00 00       	call   0x409854
+  401a8a:	8b 03                	mov    eax,DWORD PTR [ebx]
+  401a8c:	8a 40 05             	mov    al,BYTE PTR [eax+0x5]
+  401a8f:	88 45 b0             	mov    BYTE PTR [ebp-0x50],al
+  401a92:	89 1c 24             	mov    DWORD PTR [esp],ebx
+  401a95:	e8 ba 7d 00 00       	call   0x409854
+  401a9a:	c7 44 24 04 38 e0 40 	mov    DWORD PTR [esp+0x4],0x40e038
+  401aa1:	00 
+  401aa2:	8b 03                	mov    eax,DWORD PTR [ebx]
+  401aa4:	0f be 40 06          	movsx  eax,BYTE PTR [eax+0x6]
+  401aa8:	8d 14 80             	lea    edx,[eax+eax*4]
+  401aab:	8d 0c d0             	lea    ecx,[eax+edx*8]
+  401aae:	89 ca                	mov    edx,ecx
+  401ab0:	c1 e2 04             	shl    edx,0x4
+  401ab3:	29 ca                	sub    edx,ecx
+  401ab5:	c1 e2 03             	shl    edx,0x3
+  401ab8:	29 c2                	sub    edx,eax
+  401aba:	89 14 24             	mov    DWORD PTR [esp],edx
+  401abd:	e8 8a fa ff ff       	call   0x40154c
+  401ac2:	38 45 b0             	cmp    BYTE PTR [ebp-0x50],al
+  401ac5:	0f 85 43 fd ff ff    	jne    0x40180e
+  401acb:	89 1c 24             	mov    DWORD PTR [esp],ebx
+  401ace:	e8 81 7d 00 00       	call   0x409854
+  401ad3:	8b 03                	mov    eax,DWORD PTR [ebx]
+  401ad5:	8a 40 08             	mov    al,BYTE PTR [eax+0x8]
+  401ad8:	88 45 b0             	mov    BYTE PTR [ebp-0x50],al
+  401adb:	89 1c 24             	mov    DWORD PTR [esp],ebx
+  401ade:	e8 71 7d 00 00       	call   0x409854
+  401ae3:	c7 44 24 04 38 e0 40 	mov    DWORD PTR [esp+0x4],0x40e038
+  401aea:	00 
+  401aeb:	8b 03                	mov    eax,DWORD PTR [ebx]
+  401aed:	0f be 40 09          	movsx  eax,BYTE PTR [eax+0x9]
+  401af1:	89 04 24             	mov    DWORD PTR [esp],eax
+  401af4:	e8 53 fa ff ff       	call   0x40154c
+  401af9:	38 45 b0             	cmp    BYTE PTR [ebp-0x50],al
+  401afc:	0f 94 45 b0          	sete   BYTE PTR [ebp-0x50]
+  401b00:	e9 0d fd ff ff       	jmp    0x401812
