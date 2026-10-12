@@ -199,6 +199,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 171 | [keygenning4newbies_crackme_7 by analyst](5ab77f5533c5d40ad448c1d9/) | analyst | Windows PE32 GUI (MSVC+UPX) | keygen MD5(name)+1 round TEA-like sur `keygenme` → hex16, `petik` → `8038CA6D3774F53D` (Unicorn) |
 | 172 | [keygenning4newbies_crackme_1 by analyst](5ab77f5533c5d40ad448c1da/) | analyst | Windows PE32 GUI (Borland C++) | keygen Σ(name[i]^(i+1))<<7 + (last^len)*6 → hex, `petik` → `11794` (Unicorn) |
 | 173 | [keygenning4newbies_crackme_2 by analyst](5ab77f5533c5d40ad448c1db/) | analyst | Windows PE32 GUI (Borland C++) | keygen sprintf 8 champs (nom+frame), `petik` → `1E29E126845-10107B90-42544815431080209-A3172A4` (Unicorn EBP=0x108000) |
+| 174 | [keygenning4newbies_crackme_3 by analyst](5ab77f5533c5d40ad448c1dc/) | analyst | Windows PE32 GUI (MSVC) | keygen hash+stream A-Z xor EXPECTED ; `petik` → `A9OE24A8<7ªE;H27=?` (Unicorn hash) |
 
 ## Mis de côté (PARKED — y revenir)
 

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c1dc
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c1dc
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c1dc
+
+title: "keygenning4newbies_crackme_3 by analyst"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unspecified/other"
+arch: "x86"
+language: "Unspecified/other"
+
+difficulty: 1.0
+quality: 4.0
+size: "10.10 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: k4n3
+
+binary:
+  path: "original/k4n3.zip"
+  name: "k4n3.zip"
+  sha256: "a0013c51ec228a67811817b39d9e8913ee8aba23e66d4130e82dd265e80202a3"
+  md5: "36955b17412bef75b081a674ec6ef671"
+  size_bytes: 10343
+
+status: solved
+solution_summary: "name+\" is a whore.\" hash TABLE+rol7 → stream A-Z ; serial[j]=(stream^j^KEYGENNING4NEWBIES)+0x30 ; petik -> A9OE24A8<7ªE;H27=?"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T08:03:37Z"
