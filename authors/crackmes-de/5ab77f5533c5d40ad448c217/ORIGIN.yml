@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c217
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c217
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c217
+
+title: "sacredcrackme_5.0 by sacredlamat"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows (Win16 NE)"
+arch: "x86"
+language: "Turbo Pascal for Windows (WinCrt)"
+
+difficulty: 1.0
+quality: null
+size: "6.69 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: sacredcrackme5
+
+binary:
+  path: "original/SacredCrackme_5.0.zip"
+  name: "SacredCrackme_5.0.zip"
+  sha256: "1eec1f3ed05b179517eda9b34c98bdb345b4946cceee1edd9039f46ff89a9130"
+  md5: "0b747d86653df3fe98a9bd6cdb02f120"
+  size_bytes: 6847
+
+status: solved
+solution_summary: "Win16 TPW/WinCrt ; s = nom + 'Sorry, wrong!' (sel cache) ; serial = 0x15D + somme(UpCase(c)+0x381) lu en Integer ; petik -> 17797 (wine Win16 : Correct!)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T18:11:07Z"

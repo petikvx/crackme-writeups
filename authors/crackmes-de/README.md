@@ -230,6 +230,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 202 | [little_man_1.45 by bswap](5ab77f5533c5d40ad448c213/) | bswap | Windows PE32 MASM | clic Register leurre (`or al,1`) ; test dans `WM_TIMER` : `key[5]=='-'` et (`key[6]=='8'` ou `key[7]=='S'`) ; `petik` → `petik-8S` |
 | 203 | [assassination by bswap](5ab77f5533c5d40ad448c215/) | bswap | Windows PE32 MASM, packé (stub type FSG) | `serial[1..]-=4` puis même hash 30 tours que le nom avec `dword0−4` ⇒ `serial = le32(n0+4)‖name[4:]`, +4 sur les octets 1.. ; `petik` → `tixmo` |
 | 204 | [a_small_crackme by bswap](5ab77f5533c5d40ad448c216/) | bswap | Windows PE32 MASM, FSG | nom = `GetUserNameA` ; `R = u0²+u1−u0` (FPU, dwords signés du nom) ; code 8 hex MAJ = `[L1, L0^4, L3, L2^4]` (L = 4 octets bas de R) ; `petik` → `2BFF8C39` |
+| 205 | [sacredcrackme_5.0 by sacredlamat](5ab77f5533c5d40ad448c217/) | sacredlamat | Windows Win16 NE, Turbo Pascal (WinCrt) | `s = nom + 'Sorry, wrong!'` (sel caché) ; `serial = 0x15D + Σ(UpCase(c)+0x381)` en Integer ; `petik` → `17797` |
 
 ## Mis de côté (PARKED — y revenir)
 

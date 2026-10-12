@@ -1036,6 +1036,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c216/original/small.zip"
     title: "crackmes.de's a_small_crackme by bswap"
 
+  5ab77f5533c5d40ad448c217:
+    sha256: "1eec1f3ed05b179517eda9b34c98bdb345b4946cceee1edd9039f46ff89a9130"
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c217/original/SacredCrackme_5.0.zip"
+    title: "crackmes.de's sacredcrackme_5.0 by sacredlamat"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1877,3 +1882,7 @@ by_sha256:
     id: 5ab77f5533c5d40ad448c216
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c216/original/small.zip"
     page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c216
+  1eec1f3ed05b179517eda9b34c98bdb345b4946cceee1edd9039f46ff89a9130:
+    id: 5ab77f5533c5d40ad448c217
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c217/original/SacredCrackme_5.0.zip"
+    page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c217
