@@ -239,6 +239,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 211 | [shortcut by kkr_we_rule](5ab77f5533c5d40ad448c220/) | kkr_we_rule | Windows PE32 Delphi 7 GUI, LockBox MD5/SHA-1 | serial `A-B` en base32 ; chaque moitié déchiffrée avec une clé tirée de `hex(nom)` doit valoir `H(SHA1(nom))` / `H(MD5(nom))` ; keygen par inversion octet par octet ; `petik` -> `5LZOX3PT535P6-7XWP36HM6P7PQ` (wine) |
 | 212 | [asm_keygen_me_1 by kkr_we_rule](5ab77f5533c5d40ad448c222/) | kkr_we_rule | Windows PE32 ASM GUI (dump dépacké) | 4 champs décimaux ; `s1²+s2²+s3²+s4²` doit valoir `T = f(nom)` sur 10 bits (Lagrange) ; `petik` -> `0 0 0 0`, `am` -> `30 10 2 2` (wine) |
 | 213 | [asm_keygen_me_2 by kkr_we_rule](5ab77f5533c5d40ad448c223/) | kkr_we_rule | Windows PE32 ASM GUI | serial `A-B` ; `A+B == K(nom)` (`g = h³-h` sur deux hashs 16 bits) et ni `A` ni `B` multiple de 3 (PGCD `idiv` signé) ; `petik` -> `2--2` (wine) |
+| 214 | [red_crew_kgm1_by_kkr by kkr_we_rule](5ab77f5533c5d40ad448c22b/) | kkr_we_rule | Windows PE32 Delphi 2009 GUI | serial `A+B` (19 + 20 chiffres 1-9) ; `H(B)² mod H(nom) == H(A) mod H(nom)`, `H` = hash 64 bits par PGCD soustractifs (dernier car. ignoré) ; `petik` -> `7377844815588622487+47137769329314998558` (wine) |
 
 ## Mis de côté (PARKED — y revenir)
 

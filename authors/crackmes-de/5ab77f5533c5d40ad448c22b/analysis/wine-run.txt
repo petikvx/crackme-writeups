@@ -1,0 +1,18 @@
+  fenetre : Information
+    [OK]
+  fenetre : 
+  fenetre : Information
+    [OK]
+  fenetre : 
+  fenetre : Information
+    [OK]
+  fenetre : 
+  fenetre : Error
+    [OK]
+  fenetre : 
+  fenetre : Information
+    [OK]
+  fenetre : 
+  fenetre : Error
+    [OK]
+  fenetre : 

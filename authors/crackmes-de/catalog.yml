@@ -1081,6 +1081,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c223/original/KeygenMe2.zip"
     title: "crackmes.de's asm_keygen_me_2 by kkr_we_rule"
 
+  5ab77f5533c5d40ad448c22b:
+    sha256: "cf12fe2c8d10cc57ccf316152747fb7136496f3db0ff8ef7592b64f5065cb4bd"
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c22b/original/KKR_RED_KGM_#1.zip"
+    title: "crackmes.de's red_crew_kgm1_by_kkr by kkr_we_rule"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1958,3 +1963,7 @@ by_sha256:
     id: 5ab77f5533c5d40ad448c223
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c223/original/KeygenMe2.zip"
     page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c223
+  cf12fe2c8d10cc57ccf316152747fb7136496f3db0ff8ef7592b64f5065cb4bd:
+    id: 5ab77f5533c5d40ad448c22b
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c22b/original/KKR_RED_KGM_#1.zip"
+    page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c22b

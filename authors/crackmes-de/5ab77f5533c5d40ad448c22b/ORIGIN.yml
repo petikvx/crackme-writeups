@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c22b
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c22b
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c22b
+
+title: "crackmes.de's red_crew_kgm1_by_kkr by kkr_we_rule"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/KKR_RED_KGM_#1.zip"
+  name: "KKR_RED_KGM_#1.zip"
+  sha256: "cf12fe2c8d10cc57ccf316152747fb7136496f3db0ff8ef7592b64f5065cb4bd"
+  md5: "928e2295e9dc3e25a4f2a28182d87074"
+  size_bytes: 397137
+
+status: solved
+solution_summary: "Delphi 2009 ; serial A+B (19 + 20 chiffres 1-9, '+' en 20e position) ; H(B)^2 mod H(nom) == H(A) mod H(nom), H = hash 64 bits par PGCD soustractifs (dernier car. jamais lu, valeurs ~100) ; petik -> 7377844815588622487+47137769329314998558 (wine : Registration Successful!)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T21:58:52Z"
