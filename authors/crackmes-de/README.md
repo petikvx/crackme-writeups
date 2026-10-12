@@ -183,6 +183,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 155 | [yowmo_keygenme1 by yowmo](5ab77f5433c5d40ad448c1a9/) | yowmo | Windows PE32 GUI (asm) | Level I : XOR glissant `DEADBEEF` → `%X` ; petik→`DCDBC68E` (Unicorn) |
 | 156 | [rif_crackme_5 by korbut](5ab77f5433c5d40ad448c1aa/) | korbut | Windows PE32 GUI (MASM) | sum `((c+1)^i)*i` (i=index+1) ; petik→`1631` (Unicorn) |
 | 157 | [korbut_keyfile_1 by korbut](5ab77f5433c5d40ad448c1ab/) | korbut | Windows PE32 (keyfile MASM) | `skor.reg` = `[ R I F 2 k 2 ] ` (Unicorn) |
+| 158 | [korbut_keyfile_3 by korbut](5ab77f5433c5d40ad448c1ac/) | korbut | Windows PE32 (keyfile #2 MASM) | `$KF2` = ComputerName ; GOOD CRACKER (Unicorn) |
 
 ## Mis de côté (PARKED — y revenir)
 

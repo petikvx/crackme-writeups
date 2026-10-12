@@ -801,6 +801,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c1ab/original/keyf1_skor.zip"
     title: "crackmes.de's korbut_keyfile_1 by korbut"
 
+  5ab77f5433c5d40ad448c1ac:
+    sha256: "cedb7c7e7f503a6fa0867fe4bc7621ef6f075544cb6cca6106c7b551e80e0178"
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c1ac/original/keyf2_skor.zip"
+    title: "crackmes.de's korbut_keyfile_3 by korbut"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1454,3 +1459,7 @@ by_sha256:
     id: 5ab77f5433c5d40ad448c1ab
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c1ab/original/keyf1_skor.zip"
     page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c1ab
+  cedb7c7e7f503a6fa0867fe4bc7621ef6f075544cb6cca6106c7b551e80e0178:
+    id: 5ab77f5433c5d40ad448c1ac
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c1ac/original/keyf2_skor.zip"
+    page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c1ac

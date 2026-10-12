@@ -1,0 +1,36 @@
+# Origine crackmes.one
+id: 5ab77f5433c5d40ad448c1ac
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c1ac
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c1ac
+
+title: "korbut_keyfile_3 by korbut"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/keyf2_skor.zip"
+  name: "keyf2_skor.zip"
+  sha256: "cedb7c7e7f503a6fa0867fe4bc7621ef6f075544cb6cca6106c7b551e80e0178"
+  md5: "1479363812131f75ee7efa006961b6c5"
+  size_bytes: 3833
+
+status: solved
+solution_summary: "keyfile $KF2 = ComputerName (registre) ; GOOD CRACKER"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-11T23:59:00Z"
