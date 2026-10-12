@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c205
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c205
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c205
+
+title: "ribbere_1.4 by bswap"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler (MASM)"
+
+difficulty: 2.0
+quality: null
+size: "79.60 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: ribbere14
+
+binary:
+  path: "original/Ribbere_1.4.zip"
+  name: "Ribbere_1.4.zip"
+  sha256: "b9e4bc74d4fff78f0085d3f1be2561a398f39b1017ced743a24332faf8cbe665"
+  md5: "c98ebb56b1b1ab82a2b03768359c09a0"
+  size_bytes: 81508
+
+status: solved
+solution_summary: "cle auto-validante g(n[i],16-i)==g(n[i+4],12-i) pour i=1..4 (g=c+k, +0x21 si <0x21, >>1 si >0x7B) ; petik -> petiki7mo (wine: Ribbere 1.4 (Registered))"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T16:17:07Z"

@@ -223,6 +223,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 195 | [sams_keygenme by samfisher9000](5ab77f5533c5d40ad448c202/) | samfisher9000 | Windows PE32 VB6 natif | keygen : `P` produit/carré des car. ajustés, `Q = Int(5v)·P/15`, fenêtres de 3 chiffres ; `petik` → `968-682-826-11-380-808-084-11` |
 | 196 | [keygenme_0.72 by bswap](5ab77f5533c5d40ad448c203/) | bswap | Windows PE32 MASM, FSG 1.33 | keyfile registre : `Key 2 = f(Key 1)` (xadd/shrd) ; `petik` → `0x69746570` / `0xC8639391` (unpack Unicorn ; GOLD inatteignable) |
 | 197 | [morgana_1.49 by bswap](5ab77f5533c5d40ad448c204/) | bswap | Windows PE32 MASM | serial 10 car. `AQ?6509???` (table XOR constante + `sub/bswap/sub`) ; `petik` → `AQp6509eti` |
+| 198 | [ribbere_1.4 by bswap](5ab77f5533c5d40ad448c205/) | bswap | Windows PE32 MASM | clé auto-validante : `g(n[i],16-i) == g(n[i+4],12-i)` (i=1..4, `g = c+k`, bornes 0x21/0x7B) ; `petik` → `petiki7mo` |
 
 ## Mis de côté (PARKED — y revenir)
 

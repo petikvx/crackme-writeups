@@ -1,0 +1,18 @@
+Ribbere 1.4,  (difficulty 2)
+
+The Program is 100% written in ASM ,Not packed or really protected in any way.
+
+Goal : Try to make a key generator.
+
+(it is not that difficult, when you understand it…… you will love it).
+
+This was just for private fun and training.
+In fact this is a really easy key to unsolved. 
+
+And the usual disclaimer:
+Whatever happens when you running this program, I
+am not responsible for anything.  
+  
+If you have any comment or questions leave a comment on www.crackmes.de
+
+Bye and good luck  - Bswap - Holland
