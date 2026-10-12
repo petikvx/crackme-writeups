@@ -189,6 +189,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 161 | [korbut_misc._crackme_1 by korbut](5ab77f5433c5d40ad448c1b2/) | korbut | Windows PE32 (MASM32) | fichier `_KESKYA` + presse-papiers `²)='/+,:` + ComputerName `[ RIF 2k3 ]` (Unicorn) |
 | 162 | [rif_crackme_2 by korbut](5ab77f5433c5d40ad448c1b4/) | korbut | Windows PE32 (MASM, Dr. rED mEAT) | keygen : `(t1+t2+t3+t4)^0x90==0x14F` sur octets 0/2/4, `petik` → `0XcXy` (wine live) |
 | 163 | [keygenme_2 by korbut](5ab77f5433c5d40ad448c1b6/) | korbut | Windows PE32 (MASM, anti-SoftIce int 68h) | keygen : `ebx+=sx(c); bl+=0x30`, `petik` → `525` (Unicorn) |
+| 164 | [keygenme_1 by korbut](5ab77f5433c5d40ad448c1b7/) | korbut | Windows PE32 (MASM, Dr. rED mEAT) | keygen : `serial[i] = nom[i]+1`, `petik` → `qfujl` (wine live) |
 
 ## Mis de côté (PARKED — y revenir)
 

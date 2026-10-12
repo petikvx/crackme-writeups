@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c1b7
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c1b7
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c1b7
+
+title: "keygenme_1 by korbut"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 1.0
+quality: 4.0
+size: "9.83 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/keyme1.zip"
+  name: "keyme1.zip"
+  sha256: "7ff354701dcd9ef4fb67909b90fd673a42ced209c7e3b242e8c7bc5b92fcd728"
+  md5: "c2dde11afb68d23f4c35f07ba634e6a6"
+  size_bytes: 10067
+
+status: solved
+solution_summary: "keygen : serial[i] = nom[i] + 1 ; petik -> qfujl"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T02:53:37Z"

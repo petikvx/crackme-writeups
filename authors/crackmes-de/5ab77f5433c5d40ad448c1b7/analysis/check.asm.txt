@@ -1,0 +1,60 @@
+
+/tmp/k1/keyme1.exe:     file format pei-i386
+
+
+Disassembly of section .text:
+
+00401056 <.text+0x56>:
+  401056:	55                   	push   ebp
+  401057:	8b ec                	mov    ebp,esp
+  401059:	6a 32                	push   0x32
+  40105b:	68 de 30 40 00       	push   0x4030de
+  401060:	68 c9 00 00 00       	push   0xc9
+  401065:	ff 75 08             	push   DWORD PTR [ebp+0x8]
+  401068:	e8 93 00 00 00       	call   0x401100
+  40106d:	83 f8 00             	cmp    eax,0x0
+  401070:	74 6a                	je     0x4010dc
+  401072:	6a 32                	push   0x32
+  401074:	68 ac 30 40 00       	push   0x4030ac
+  401079:	68 c8 00 00 00       	push   0xc8
+  40107e:	ff 75 08             	push   DWORD PTR [ebp+0x8]
+  401081:	e8 7a 00 00 00       	call   0x401100
+  401086:	83 f8 00             	cmp    eax,0x0
+  401089:	74 51                	je     0x4010dc
+  40108b:	60                   	pusha
+  40108c:	33 c9                	xor    ecx,ecx
+  40108e:	33 db                	xor    ebx,ebx
+  401090:	33 c9                	xor    ecx,ecx
+  401092:	33 d2                	xor    edx,edx
+  401094:	8a 99 ac 30 40 00    	mov    bl,BYTE PTR [ecx+0x4030ac]
+  40109a:	8a 91 de 30 40 00    	mov    dl,BYTE PTR [ecx+0x4030de]
+  4010a0:	fe c3                	inc    bl
+  4010a2:	38 da                	cmp    dl,bl
+  4010a4:	75 1e                	jne    0x4010c4
+  4010a6:	48                   	dec    eax
+  4010a7:	74 03                	je     0x4010ac
+  4010a9:	41                   	inc    ecx
+  4010aa:	eb e8                	jmp    0x401094
+  4010ac:	6a 00                	push   0x0
+  4010ae:	68 00 30 40 00       	push   0x403000
+  4010b3:	68 14 30 40 00       	push   0x403014
+  4010b8:	6a 00                	push   0x0
+  4010ba:	e8 47 00 00 00       	call   0x401106
+  4010bf:	61                   	popa
+  4010c0:	c9                   	leave
+  4010c1:	c2 04 00             	ret    0x4
+  4010c4:	6a 10                	push   0x10
+  4010c6:	68 35 30 40 00       	push   0x403035
+  4010cb:	68 3d 30 40 00       	push   0x40303d
+  4010d0:	6a 00                	push   0x0
+  4010d2:	e8 2f 00 00 00       	call   0x401106
+  4010d7:	61                   	popa
+  4010d8:	c9                   	leave
+  4010d9:	c2 04 00             	ret    0x4
+  4010dc:	6a 10                	push   0x10
+  4010de:	68 65 30 40 00       	push   0x403065
+  4010e3:	68 7e 30 40 00       	push   0x40307e
+  4010e8:	6a 00                	push   0x0
+  4010ea:	e8 17 00 00 00       	call   0x401106
+  4010ef:	c9                   	leave
+  4010f0:	c2 04 00             	ret    0x4
