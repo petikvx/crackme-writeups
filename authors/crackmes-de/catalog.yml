@@ -971,6 +971,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c1fd/original/keygenme_1.zip"
     title: "crackmes.de's enforcer039s_keygenme_1__arteam_cra by enforcer"
 
+  5ab77f5533c5d40ad448c1ff:
+    sha256: "89992c7dfc52e5f927ac452275944bd19f588043c1d2057f7ef2e7e94ae2eaac"
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c1ff/original/c0de0f_crackme_2.zip"
+    title: "crackmes.de's crackme_2.0_by_c0de0f by c0de0f"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1760,3 +1765,7 @@ by_sha256:
     id: 5ab77f5533c5d40ad448c1fd
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c1fd/original/keygenme_1.zip"
     page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c1fd
+  89992c7dfc52e5f927ac452275944bd19f588043c1d2057f7ef2e7e94ae2eaac:
+    id: 5ab77f5533c5d40ad448c1ff
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c1ff/original/c0de0f_crackme_2.zip"
+    page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c1ff
