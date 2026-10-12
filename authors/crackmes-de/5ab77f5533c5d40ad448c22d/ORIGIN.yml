@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c22d
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c22d
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c22d
+
+title: "crackmes.de's kgm1 by kkr_we_rule"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Kgm#1.zip"
+  name: "Kgm#1.zip"
+  sha256: "d72ed511b3c639b9e4d7c494d6e0cff428bc02294b3dc2763cd897fc63c9b533"
+  md5: "5a1852b5f5bd0dec2d93ca5891dd9169"
+  size_bytes: 24075
+
+status: solved
+solution_summary: "MASM32 ; s1 = somme(c), s2 = somme((c*i)^i), s3 = s1+s2 sur le nom ; serial hexa majuscule w0-w1-w2 (mots 16 bits) solution du système [[15,18,21],[14,17,20],[16,18,19]]·w = (s1,s2,s3) mod 499 ; petik -> 5-1DD-1BD (wine : Excellent Work!)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T22:04:11Z"

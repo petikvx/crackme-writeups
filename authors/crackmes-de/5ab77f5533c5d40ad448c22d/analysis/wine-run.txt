@@ -1,0 +1,20 @@
+== petik 5-1DD-1BD
+  fenetre : Excellent Work!
+    [OK]
+    [Serial is accepted!]
+== crackmes 132-1DB-F6
+  fenetre : Excellent Work!
+    [OK]
+    [Serial is accepted!]
+== petik 5-1DD-1BE
+  fenetre : Wrong!
+    [OK]
+    [Invalid Serial. Try Again!]
+== petik 5-1dd-1bd
+  fenetre : Wrong!
+    [OK]
+    [Invalid Serial. Try Again!]
+== crackmes 5-1DD-1BD
+  fenetre : Wrong!
+    [OK]
+    [Invalid Serial. Try Again!]
