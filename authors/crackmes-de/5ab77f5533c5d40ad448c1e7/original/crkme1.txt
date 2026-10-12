@@ -1,0 +1,18 @@
+CrackME 1.0 - Damo
+Coded in C. 
+
+Executables for Win32, Linux, Solaris are using the same code.
+
+The idea is to find a valid serial. 
+Run from command line and pass in a serial as an argument.
+
+No Patching!!! 
+Executable is not packed or encrypted.
+
+This is my first crackme, so go easy on me!
+
+p.s. a keygen would be nice :-)
+
+
+
+damohere@gmail.com

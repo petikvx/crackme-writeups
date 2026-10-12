@@ -206,6 +206,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 178 | [codz_1 by codz30](5ab77f5533c5d40ad448c1e1/) | codz30 | Windows PE32 VB.NET | serial **`11223`** |
 | 179 | [crackme_2 by thefox](5ab77f5533c5d40ad448c1e0/) | thefox | Windows PE32 MASM GUI | keygen stubs auto-modifiants ; `petik` → `C4CP-Z3DP` (Unicorn) |
 | 180 | [damos_crackme_1_for_linux by damo2k](5ab77f5533c5d40ad448c1e6/) | damo2k | Linux ELF32 C | contraintes linéaires ; serial **`POFKPPEZAS`** |
+| 181 | [damos_crackme_1_for_solaris by damo2k](5ab77f5533c5d40ad448c1e7/) | damo2k | Solaris ELF32 SPARC C | jumeau Linux ; serial **`POFKPPEZAS`** (Unicorn SPARC) |
 
 ## Mis de côté (PARKED — y revenir)
 

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c1e7
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c1e7
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c1e7
+
+title: "damos_crackme_1_for_solaris by damo2k"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc. (Solaris SPARC)"
+arch: "sparc"
+language: "C/C++"
+
+difficulty: 2.0
+quality: 4.0
+size: "3.30 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: damo-crackme1-sparc
+
+binary:
+  path: "original/crkme1-solaris.tar.gz"
+  name: "crkme1-solaris.tar.gz"
+  sha256: "778911060d68cc92ade152b7e00adbb90f3ba93abbec1be645e9d972661f7e46"
+  md5: "7dac5efd064df75cf7f977c2f22364d7"
+  size_bytes: 3376
+
+status: solved
+solution_summary: "même code que la version Linux : serial 10 car upcasé ; s0=s9-3, s1=s8+14, s2=s7-20, s3=s6+6, s0=(s4+s5)/2 ; POFKPPEZAS (Unicorn SPARC)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T09:58:34Z"
