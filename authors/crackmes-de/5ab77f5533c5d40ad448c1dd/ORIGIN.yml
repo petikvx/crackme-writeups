@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c1dd
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c1dd
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c1dd
+
+title: "keygenning4newbies_crackme_5 by analyst"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unspecified/other"
+arch: "x86"
+language: "Unspecified/other"
+
+difficulty: 1.0
+quality: 4.0
+size: "30.23 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: k4n5
+
+binary:
+  path: "original/k4n5.zip"
+  name: "k4n5.zip"
+  sha256: "1a635551fe0c56906c28312c6dd78de7f71cdc722a7aaca8fcc5767c2323c583"
+  md5: "d686743b3b8678ef8e35509cfdd5b134"
+  size_bytes: 30959
+
+status: solved
+solution_summary: "keyfile key.dat: plain 'K4N <label>' ; XOR size+TMG+triplets → déchiffre shellcode @0x405030 (clé K4N) ; produit 0x55*0x8B*0xEC==0x2A8BF4 ; UI « Registered to: <label> » ; petik → hex 167000624d2236542c"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T08:49:44Z"
