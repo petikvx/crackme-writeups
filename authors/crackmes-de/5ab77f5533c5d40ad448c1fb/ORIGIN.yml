@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c1fb
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c1fb
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c1fb
+
+title: "keygenme_drpepur_2 by drpepur"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 1.0
+quality: 4.0
+size: "3.92 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: drpepur-2
+
+binary:
+  path: "original/DrPepUr_#2.zip"
+  name: "DrPepUr_#2.zip"
+  sha256: "cca39055d5c44355bf61435f813bb2c3db2f7fc68164244ffb9cc71055138ba7"
+  md5: "2cbbedfae5cb4e28f28e57d93cc1e764"
+  size_bytes: 4019
+
+status: solved
+solution_summary: "keygen CRC32-forge + nom PC + nom ; petik -> vtAgIIxM-8A8E9386-4873003B (PC GROK-BOT-VM-411)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T14:14:56Z"

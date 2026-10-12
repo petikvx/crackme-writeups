@@ -214,6 +214,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 186 | [babylon_keygenme by haiklr](5ab77f5533c5d40ad448c260/) | haiklr | Windows PE32 C (MinGW) | keygen spaced⊕(key+1)+rev ; `petik` → `1^66/` |
 | 187 | [just_a_little_crackme by bratalarm](5ab77f5533c5d40ad448c251/) | bratalarm | Windows PE32 MASM32 GUI | complex keygen ; `petik` → `0000496D-…-01D0C35A` |
 | 188 | [drpepur_6 by drpepur](5ab77f5533c5d40ad448c1fa/) | drpepur | Windows PE32 MASM32 GUI | keygen fsin ; `AA7NE3JT7Q` |
+| 189 | [keygenme_drpepur_2 by drpepur](5ab77f5533c5d40ad448c1fb/) | drpepur | Windows PE32 MASM32 GUI | keygen CRC32 forge + nom PC + nom ; `petik` → `vtAgIIxM-8A8E9386-4873003B` |
 
 ## Mis de côté (PARKED — y revenir)
 
