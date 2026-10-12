@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c1d8
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c1d8
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c1d8
+
+title: "keygenning4newbies_crackme_6 by analyst"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unspecified/other"
+arch: "x86"
+language: "Unspecified/other"
+
+difficulty: 1.0
+quality: 4.0
+size: "168.17 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: k4n6
+
+binary:
+  path: "original/k4n6.zip"
+  name: "k4n6.zip"
+  sha256: "ec9b69876dd394633bf295569e9b48b663f2ecfa56026ed8a2a1379506ce15f7"
+  md5: "15672d15f074934af419d98ca0f52c15"
+  size_bytes: 172210
+
+status: solved
+solution_summary: "keygen nom(>=4)+société(>=3) : T=table@0x4459df ; v8=T[n3]*T[c2], v=T[n0]*T[n2]*T[c-2]*T[c-1]+v8, puis xor/add/ror/sar/not ax ; petik/petik -> 156663586"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T07:06:11Z"

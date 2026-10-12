@@ -146,7 +146,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [oguzbey](authors/oguzbey/README.md) | oguzbey | 1 (Lucky Numbers) | 1 / 1 |
 | [andrewl](authors/andrewl/README.md) | andrewl | 1 (Quick Crypto) | 1 / 1 |
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
-| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 169 / 169 |
+| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 170 / 170 |
 | [chaltu](authors/chaltu/README.md) | chaltu | 2 (a Treasure + Double Door) | 2 / 2 |
 | [qerr0r](authors/qerr0r/README.md) | QERR0R | 1 (crackit) | 1 / 1 |
 | [steve_maxwell](authors/steve_maxwell/README.md) | steve_maxwell | 1 (X-0-R) | 1 / 1 |
@@ -251,6 +251,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-12 | [keygenning4newbies_crackme_6 by analyst](authors/crackmes-de/5ab77f5433c5d40ad448c1d8/) | crackmes.de / analyst |
 | 2026-10-12 | [6_levels by typhoon](authors/crackmes-de/5ab77f5433c5d40ad448c1d7/) | crackmes.de / typhoon |
 | 2026-10-12 | [rdg_simple_crackme_.net by rdgmax](authors/crackmes-de/5ab77f5433c5d40ad448c1d0/) | crackmes.de / rdgmax |
 | 2026-10-12 | [c_crackme_1 by ultrasound](authors/crackmes-de/5ab77f5433c5d40ad448c1cc/) | crackmes.de / ultrasound |

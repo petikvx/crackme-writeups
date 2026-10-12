@@ -195,6 +195,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 167 | [c_crackme_1 by ultrasound](5ab77f5433c5d40ad448c1cc/) | ultrasound | Windows PE32 GUI (MSVC6 C++) | keygen `ULT-<15 chiffres>-0141` (swab + ror, `(s^t)+s*t`, `%9` ; suffixe `2413` leurre), `petik` → `ULT-824815863156375-0141` (Unicorn) |
 | 168 | [rdg_simple_crackme_.net by rdgmax](5ab77f5433c5d40ad448c1d0/) | rdgmax | Windows PE32 (VB.NET, bourrage) | keygen `hex(Base64(DES(nom)))`, clé `SHA1("5167449")[:8]`, `petik` → `38396666356E424C31576F3D` (couple démo auteur) |
 | 169 | [6_levels by typhoon](5ab77f5433c5d40ad448c1d7/) | typhoon | Windows PE32 console (MSVC 2013, PDB) | binary bomb 7 niveaux + secret (`9 guava` → `flame`, NOP-sleds en `.data`) (wine live) |
+| 170 | [keygenning4newbies_crackme_6 by analyst](5ab77f5433c5d40ad448c1d8/) | analyst | Windows PE32 GUI (Delphi 5) | keygen nom+société : table `0x4459df`, produit + xor/ror/sar/`not ax` → entier, `petik/petik` → `156663586` (Unicorn) |
 
 ## Mis de côté (PARKED — y revenir)
 

@@ -1,0 +1,142 @@
+
+original/k4n6.exe:     file format pei-i386
+
+
+Disassembly of section CODE:
+
+0044435c <CODE+0x4335c>:
+  44435c:	55                   	push   ebp
+  44435d:	8b ec                	mov    ebp,esp
+  44435f:	33 c9                	xor    ecx,ecx
+  444361:	51                   	push   ecx
+  444362:	51                   	push   ecx
+  444363:	51                   	push   ecx
+  444364:	51                   	push   ecx
+  444365:	51                   	push   ecx
+  444366:	51                   	push   ecx
+  444367:	51                   	push   ecx
+  444368:	51                   	push   ecx
+  444369:	53                   	push   ebx
+  44436a:	56                   	push   esi
+  44436b:	57                   	push   edi
+  44436c:	8b d8                	mov    ebx,eax
+  44436e:	33 c0                	xor    eax,eax
+  444370:	55                   	push   ebp
+  444371:	68 0d 45 44 00       	push   0x44450d
+  444376:	64 ff 30             	push   DWORD PTR fs:[eax]
+  444379:	64 89 20             	mov    DWORD PTR fs:[eax],esp
+  44437c:	8d 55 e4             	lea    edx,[ebp-0x1c]
+  44437f:	8b 83 d8 02 00 00    	mov    eax,DWORD PTR [ebx+0x2d8]
+  444385:	e8 92 f9 fd ff       	call   0x423d1c
+  44438a:	8b 45 e4             	mov    eax,DWORD PTR [ebp-0x1c]
+  44438d:	e8 ce f7 fb ff       	call   0x403b60
+  444392:	48                   	dec    eax
+  444393:	0f 8c 4c 01 00 00    	jl     0x4444e5
+  444399:	8d 55 e8             	lea    edx,[ebp-0x18]
+  44439c:	8b 83 d8 02 00 00    	mov    eax,DWORD PTR [ebx+0x2d8]
+  4443a2:	e8 75 f9 fd ff       	call   0x423d1c
+  4443a7:	8d 55 f0             	lea    edx,[ebp-0x10]
+  4443aa:	8b 83 d0 02 00 00    	mov    eax,DWORD PTR [ebx+0x2d0]
+  4443b0:	e8 67 f9 fd ff       	call   0x423d1c
+  4443b5:	8d 55 ec             	lea    edx,[ebp-0x14]
+  4443b8:	8b 83 d4 02 00 00    	mov    eax,DWORD PTR [ebx+0x2d4]
+  4443be:	e8 59 f9 fd ff       	call   0x423d1c
+  4443c3:	8b 45 f0             	mov    eax,DWORD PTR [ebp-0x10]
+  4443c6:	e8 95 f7 fb ff       	call   0x403b60
+  4443cb:	83 f8 04             	cmp    eax,0x4
+  4443ce:	0f 8c 11 01 00 00    	jl     0x4444e5
+  4443d4:	8b 45 ec             	mov    eax,DWORD PTR [ebp-0x14]
+  4443d7:	e8 84 f7 fb ff       	call   0x403b60
+  4443dc:	83 f8 03             	cmp    eax,0x3
+  4443df:	0f 8c 00 01 00 00    	jl     0x4444e5
+  4443e5:	8b 45 f0             	mov    eax,DWORD PTR [ebp-0x10]
+  4443e8:	0f b6 00             	movzx  eax,BYTE PTR [eax]
+  4443eb:	0f b6 80 df 59 44 00 	movzx  eax,BYTE PTR [eax+0x4459df]
+  4443f2:	89 45 f4             	mov    DWORD PTR [ebp-0xc],eax
+  4443f5:	8b 45 f0             	mov    eax,DWORD PTR [ebp-0x10]
+  4443f8:	0f b6 40 02          	movzx  eax,BYTE PTR [eax+0x2]
+  4443fc:	0f b6 b0 df 59 44 00 	movzx  esi,BYTE PTR [eax+0x4459df]
+  444403:	8b 45 ec             	mov    eax,DWORD PTR [ebp-0x14]
+  444406:	e8 55 f7 fb ff       	call   0x403b60
+  44440b:	8b 55 ec             	mov    edx,DWORD PTR [ebp-0x14]
+  44440e:	0f b6 44 02 fe       	movzx  eax,BYTE PTR [edx+eax*1-0x2]
+  444413:	0f b6 b8 df 59 44 00 	movzx  edi,BYTE PTR [eax+0x4459df]
+  44441a:	8b 45 ec             	mov    eax,DWORD PTR [ebp-0x14]
+  44441d:	e8 3e f7 fb ff       	call   0x403b60
+  444422:	8b 55 ec             	mov    edx,DWORD PTR [ebp-0x14]
+  444425:	0f b6 44 02 ff       	movzx  eax,BYTE PTR [edx+eax*1-0x1]
+  44442a:	0f b6 80 df 59 44 00 	movzx  eax,BYTE PTR [eax+0x4459df]
+  444431:	8b 55 f0             	mov    edx,DWORD PTR [ebp-0x10]
+  444434:	0f b6 52 03          	movzx  edx,BYTE PTR [edx+0x3]
+  444438:	0f b6 92 df 59 44 00 	movzx  edx,BYTE PTR [edx+0x4459df]
+  44443f:	8b 4d ec             	mov    ecx,DWORD PTR [ebp-0x14]
+  444442:	0f b6 49 02          	movzx  ecx,BYTE PTR [ecx+0x2]
+  444446:	0f b6 89 df 59 44 00 	movzx  ecx,BYTE PTR [ecx+0x4459df]
+  44444d:	0f af d1             	imul   edx,ecx
+  444450:	89 55 f8             	mov    DWORD PTR [ebp-0x8],edx
+  444453:	8b 55 f4             	mov    edx,DWORD PTR [ebp-0xc]
+  444456:	0f af d6             	imul   edx,esi
+  444459:	0f af d7             	imul   edx,edi
+  44445c:	0f af d0             	imul   edx,eax
+  44445f:	03 55 f8             	add    edx,DWORD PTR [ebp-0x8]
+  444462:	89 55 fc             	mov    DWORD PTR [ebp-0x4],edx
+  444465:	8b 45 fc             	mov    eax,DWORD PTR [ebp-0x4]
+  444468:	35 d8 28 00 00       	xor    eax,0x28d8
+  44446d:	05 7d 4a 8d 28       	add    eax,0x288d4a7d
+  444472:	89 45 fc             	mov    DWORD PTR [ebp-0x4],eax
+  444475:	8b 45 fc             	mov    eax,DWORD PTR [ebp-0x4]
+  444478:	b9 39 30 00 00       	mov    ecx,0x3039
+  44447d:	c1 c1 06             	rol    ecx,0x6
+  444480:	35 14 97 00 00       	xor    eax,0x9714
+  444485:	c1 c8 02             	ror    eax,0x2
+  444488:	c1 f8 03             	sar    eax,0x3
+  44448b:	01 c8                	add    eax,ecx
+  44448d:	03 45 f8             	add    eax,DWORD PTR [ebp-0x8]
+  444490:	40                   	inc    eax
+  444491:	66 f7 d0             	not    ax
+  444494:	09 c1                	or     ecx,eax
+  444496:	05 9a 02 00 00       	add    eax,0x29a
+  44449b:	89 45 fc             	mov    DWORD PTR [ebp-0x4],eax
+  44449e:	33 c0                	xor    eax,eax
+  4444a0:	55                   	push   ebp
+  4444a1:	68 db 44 44 00       	push   0x4444db
+  4444a6:	64 ff 30             	push   DWORD PTR fs:[eax]
+  4444a9:	64 89 20             	mov    DWORD PTR fs:[eax],esp
+  4444ac:	8d 55 e0             	lea    edx,[ebp-0x20]
+  4444af:	8b 83 d8 02 00 00    	mov    eax,DWORD PTR [ebx+0x2d8]
+  4444b5:	e8 62 f8 fd ff       	call   0x423d1c
+  4444ba:	8b 45 e0             	mov    eax,DWORD PTR [ebp-0x20]
+  4444bd:	e8 4e 36 fc ff       	call   0x407b10
+  4444c2:	3b 45 fc             	cmp    eax,DWORD PTR [ebp-0x4]
+  4444c5:	75 0a                	jne    0x4444d1
+  4444c7:	b8 24 45 44 00       	mov    eax,0x444524
+  4444cc:	e8 a3 fa ff ff       	call   0x443f74
+  4444d1:	33 c0                	xor    eax,eax
+  4444d3:	5a                   	pop    edx
+  4444d4:	59                   	pop    ecx
+  4444d5:	59                   	pop    ecx
+  4444d6:	64 89 10             	mov    DWORD PTR fs:[eax],edx
+  4444d9:	eb 0a                	jmp    0x4444e5
+  4444db:	e9 e4 eb fb ff       	jmp    0x4030c4
+  4444e0:	e8 3b ef fb ff       	call   0x403420
+  4444e5:	33 c0                	xor    eax,eax
+  4444e7:	5a                   	pop    edx
+  4444e8:	59                   	pop    ecx
+  4444e9:	59                   	pop    ecx
+  4444ea:	64 89 10             	mov    DWORD PTR fs:[eax],edx
+  4444ed:	68 14 45 44 00       	push   0x444514
+  4444f2:	8d 45 e0             	lea    eax,[ebp-0x20]
+  4444f5:	ba 02 00 00 00       	mov    edx,0x2
+  4444fa:	e8 05 f4 fb ff       	call   0x403904
+  4444ff:	8d 45 e8             	lea    eax,[ebp-0x18]
+  444502:	ba 03 00 00 00       	mov    edx,0x3
+  444507:	e8 f8 f3 fb ff       	call   0x403904
+  44450c:	c3                   	ret
+  44450d:	e9 66 ee fb ff       	jmp    0x403378
+  444512:	eb de                	jmp    0x4444f2
+  444514:	5f                   	pop    edi
+  444515:	5e                   	pop    esi
+  444516:	5b                   	pop    ebx
+  444517:	8b e5                	mov    esp,ebp
+  444519:	5d                   	pop    ebp
+  44451a:	c3                   	ret

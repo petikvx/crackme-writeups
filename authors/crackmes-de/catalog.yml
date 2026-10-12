@@ -861,6 +861,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c1d7/original/bomb.zip"
     title: "crackmes.de's 6_levels by typhoon"
 
+  5ab77f5433c5d40ad448c1d8:
+    sha256: "ec9b69876dd394633bf295569e9b48b663f2ecfa56026ed8a2a1379506ce15f7"
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c1d8/original/k4n6.zip"
+    title: "crackmes.de's keygenning4newbies_crackme_6 by analyst"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1562,3 +1567,7 @@ by_sha256:
     id: 5ab77f5433c5d40ad448c1d7
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c1d7/original/bomb.zip"
     page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c1d7
+  ec9b69876dd394633bf295569e9b48b663f2ecfa56026ed8a2a1379506ce15f7:
+    id: 5ab77f5433c5d40ad448c1d8
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c1d8/original/k4n6.zip"
+    page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c1d8
