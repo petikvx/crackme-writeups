@@ -1,0 +1,26 @@
+CrackMe 0.51 notes,
+
+This is a simple asm Keygenme.
+The Program is 100% written in Masm 7.0 (I think
+the best asm program there is!).
+Try to make a keymaker (it is not difficult).
+it is Packed with fsg to reduce the file size 
+(5 bitmaps and 2 icons in 5.8 Kb not bad uhh).
+
+This was just for private fun and training,
+
+And the usual disclaimer:
+Whatever happens when you running this program, I
+am not responsible for anything. 
+The has no dirty tricks, i hope you can learn something from it.
+ 
+ 
+							BSWAP	2002
+
+If you have any comment or questions please mail,
+
+goodwill80@hotmail.com
+
+I want to greet everyone who knows me, But this time especially,
+Cybult!
+

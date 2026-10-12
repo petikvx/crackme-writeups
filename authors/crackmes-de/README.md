@@ -226,6 +226,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 198 | [ribbere_1.4 by bswap](5ab77f5533c5d40ad448c205/) | bswap | Windows PE32 MASM | clé auto-validante : `g(n[i],16-i) == g(n[i+4],12-i)` (i=1..4, `g = c+k`, bornes 0x21/0x7B) ; `petik` → `petiki7mo` |
 | 199 | [crackme_0.68 by bswap](5ab77f5533c5d40ad448c20c/) | bswap | Windows PE32 MASM, FSG 1.31 | code d’entrée `c0=c11,c2=c9` ; key[3]=`r` ; key lavée → T constant, `repne cmpsw` : name[12:14]=`Tl` ; `petik` → `petikabcdtep` / `petik_petik_Tl` / `petr` |
 | 200 | [super_funky_0.82 by bswap](5ab77f5533c5d40ad448c210/) | bswap | Windows PE32 MASM | keyfile glissé-déposé `Bswap.2003` (60 o : `Cool?Dude` + 8 octets de code + masques + checksum auto-référent) ; `petik`/`Paris` → « Registered!, Unlock code: AABSWAZPP » |
+| 201 | [keygenme_0.51 by bswap](5ab77f5533c5d40ad448c211/) | bswap | Windows PE32 MASM, FSG 1.0 | moulinette du buffer nom (restes `iTisgrEattoby…` compris, émulée Unicorn) → 12 bits `0xc1<b<0xf0` ; clé = 1 car. + `'1'`/`'a'` ; `petik` → `xaa11111aa11a` |
 
 ## Mis de côté (PARKED — y revenir)
 

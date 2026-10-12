@@ -1016,6 +1016,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c210/original/superfunky082.zip"
     title: "crackmes.de's super_funky_0.82 by bswap"
 
+  5ab77f5533c5d40ad448c211:
+    sha256: "93736de3b1ec83e4fbcbcef0c95e34ea8e3d97a6b27780dac64c8808b2d0287b"
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c211/original/keygenme051.zip"
+    title: "crackmes.de's keygenme_0.51 by bswap"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1841,3 +1846,7 @@ by_sha256:
     id: 5ab77f5533c5d40ad448c210
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c210/original/superfunky082.zip"
     page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c210
+  93736de3b1ec83e4fbcbcef0c95e34ea8e3d97a6b27780dac64c8808b2d0287b:
+    id: 5ab77f5533c5d40ad448c211
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c211/original/keygenme051.zip"
+    page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c211

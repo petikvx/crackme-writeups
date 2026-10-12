@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c211
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c211
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c211
+
+title: "keygenme_0.51 by bswap"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler (MASM)"
+
+difficulty: 1.0
+quality: null
+size: "4.93 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: keygenme051
+
+binary:
+  path: "original/keygenme051.zip"
+  name: "keygenme051.zip"
+  sha256: "93736de3b1ec83e4fbcbcef0c95e34ea8e3d97a6b27780dac64c8808b2d0287b"
+  md5: "303b7782cbbcf4ba83149c8fe274e0f4"
+  size_bytes: 5044
+
+status: solved
+solution_summary: "FSG 1.0 unpack Unicorn ; moulinette du buffer nom (restes iTisgrEattoby… compris) -> 12 octets classés 0xc1<b<0xf0 ; clé = 1 car. + 12 car. '1'/'a' ((c^0x30)<0x50) ; petik -> xaa11111aa11a (wine: You are Registered !!!)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T17:10:09Z"
