@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c1f0
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c1f0
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c1f0
+
+title: "xyz_keygenme20110505 by xiayuanzhong"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++"
+
+difficulty: 1.0
+quality: 4.0
+size: "129.34 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: xyz-keygenme0505
+
+binary:
+  path: "original/XYZ_KeygenMe20110505.zip"
+  name: "XYZ_KeygenMe20110505.zip"
+  sha256: "5c73639a324d8797bcc2dc4d234c7ebed202a086801c7b4cec52d4e4db9a8fa2"
+  md5: "6fce342addebb6c305521c5eb652584c"
+  size_bytes: 132448
+
+status: solved
+solution_summary: "Dev-C++ (MinGW), symboles ; serial = \"X3_\" + name[i%L]±i, longueur Fibonacci_like(L) (x2 si L<=8, /2 si L>=11) ; petik_ -> X3_pfvlo"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T11:03:17Z"
