@@ -1,0 +1,16 @@
+== petik 0 0 0 0
+  boite : Bravo!
+    [OK]
+    [Well Done! Now Code a KeyGen.]
+== petik 1 0 0 0
+  boite : Try Harder ..
+    [OK]
+    [Wrong Serial !]
+== am 30 10 2 2
+  boite : Bravo!
+    [OK]
+    [Well Done! Now Code a KeyGen.]
+== am 30 10 2 3
+  boite : Try Harder ..
+    [OK]
+    [Wrong Serial !]

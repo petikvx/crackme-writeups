@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c222
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c222
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c222
+
+title: "crackmes.de's asm_keygen_me_1 by kkr_we_rule"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 2.0
+quality: null
+size: "3.38 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/ASM_KeygenMe1.zip"
+  name: "ASM_KeygenMe1.zip"
+  sha256: "dcba9e1409b4c0f9dc661d5cf152cc50cd3bd8be547dfbc69626a27efe8a7553"
+  md5: "c17e247bd6227f67f744ba508c47cf81"
+  size_bytes: 3459
+
+status: solved
+solution_summary: "Win32 ASM, dump déjà dépacké (sections UPX0/UPX1) ; H = hash16(nom), T = ((X - q + r) >> 22) avec X = (H² & (H^H²)) << 2 et q,r = X / len ; 4 champs décimaux avec s1²+s2²+s3²+s4² == T (Lagrange) ; petik -> 0 0 0 0, am -> 30 10 2 2 (wine : Bravo! Well Done!)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T20:59:10Z"
