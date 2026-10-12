@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c202
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c202
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c202
+
+title: "sams_keygenme by samfisher9000"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "(Visual) Basic"
+
+difficulty: 2.0
+quality: 4.0
+size: "4.62 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: sams-keygenme
+
+binary:
+  path: "original/crackme3.zip"
+  name: "crackme3.zip"
+  sha256: "be9b366fc32fad1f199c4ead2c517369e7267283bf1f0e7659c6bb37e56b3902"
+  md5: "7f6edf85ee7c3feb8605bd56952c4944"
+  size_bytes: 4726
+
+status: solved
+solution_summary: "keygen : P = produit/carre sur les car. ajustes, Q = Int(5v)*P/15, fenetres de 3 chiffres + longueurs ; petik -> 968-682-826-11-380-808-084-11"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T15:33:57Z"
