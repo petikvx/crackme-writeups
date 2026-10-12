@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c1e6
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c1e6
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c1e6
+
+title: "damos_crackme_1_for_linux by damo2k"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux"
+arch: "x86"
+language: "C/C++"
+
+difficulty: 2.0
+quality: 4.5
+size: "5.02 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: damo-crackme1
+
+binary:
+  path: "original/crkme1-linux32.gz"
+  name: "crkme1-linux32.gz"
+  sha256: "211f921980b6b89a781d39766bc20f64912ce3a1872768bcaa6782baee65bfcd"
+  md5: "d422ca1fe6302c9a2de59b8610332075"
+  size_bytes: 5143
+
+status: solved
+solution_summary: "serial 10 car upcasé ; s0=s9-3, s1=s8+14, s2=s7-20, s3=s6+6, s0=(s4+s5)/2 ; POFKPPEZAS"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T09:57:09Z"
