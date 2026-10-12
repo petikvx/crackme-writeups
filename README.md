@@ -251,6 +251,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-12 | [just_a_little_crackme by bratalarm](authors/crackmes-de/5ab77f5533c5d40ad448c251/) | crackmes.de / bratalarm |
 | 2026-10-12 | [babylon_keygenme by haiklr](authors/crackmes-de/5ab77f5533c5d40ad448c260/) | crackmes.de / haiklr |
 | 2026-10-12 | [xyz_keygenme20110405 by xiayuanzhong](authors/crackmes-de/5ab77f5533c5d40ad448c1f1/) | crackmes.de / xiayuanzhong |
 | 2026-10-12 | [xyz_keygenme20110505 by xiayuanzhong](authors/crackmes-de/5ab77f5533c5d40ad448c1f0/) | crackmes.de / xiayuanzhong |

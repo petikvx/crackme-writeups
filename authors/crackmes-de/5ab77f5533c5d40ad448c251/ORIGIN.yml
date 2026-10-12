@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c251
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c251
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c251
+
+title: "just_a_little_crackme by bratalarm"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 2.0
+quality: 4.0
+size: "1.68 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: just-a-little
+
+binary:
+  path: "original/crackme.zip"
+  name: "crackme.zip"
+  sha256: "76ac1aee17c061a038f2b8095b983108081f66945336f548015f31caab6346ae"
+  md5: "db0b22a2a4ad8092e7e3c6eeee88081a"
+  size_bytes: 1723
+
+status: solved
+solution_summary: "complex poly identity ; (A,B)=(S,T)+(R,Q) (C,D)=(S,T)*(R,Q) ; petik -> 0000496D-00000CB6-006E4FE8-01D0C35A"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T12:00:29Z"
