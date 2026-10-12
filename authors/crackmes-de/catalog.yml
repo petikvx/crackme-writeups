@@ -1046,6 +1046,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c21a/original/crackme_nop_vm.zip"
     title: "crackmes.de's crackme_nop_vm by opcode0x90"
 
+  5ab77f5533c5d40ad448c21b:
+    sha256: "e1eb82f64dbc8198e67794faaf434e6cb41796cfa8f9d19b7761b6154df97ebc"
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c21b/original/crackme_nop.zip"
+    title: "crackmes.de's crackme_nop by opcode0x90"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1895,3 +1900,7 @@ by_sha256:
     id: 5ab77f5533c5d40ad448c21a
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c21a/original/crackme_nop_vm.zip"
     page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c21a
+  e1eb82f64dbc8198e67794faaf434e6cb41796cfa8f9d19b7761b6154df97ebc:
+    id: 5ab77f5533c5d40ad448c21b
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c21b/original/crackme_nop.zip"
+    page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c21b

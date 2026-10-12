@@ -251,6 +251,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-12 | [crackme_nop by opcode0x90](authors/crackmes-de/5ab77f5533c5d40ad448c21b/) | crackmes.de / opcode0x90 |
 | 2026-10-12 | [crackme_nop_vm by opcode0x90](authors/crackmes-de/5ab77f5533c5d40ad448c21a/) | crackmes.de / opcode0x90 |
 | 2026-10-12 | [sacredcrackme_5.0 by sacredlamat](authors/crackmes-de/5ab77f5533c5d40ad448c217/) | crackmes.de / sacredlamat |
 | 2026-10-12 | [a_small_crackme by bswap](authors/crackmes-de/5ab77f5533c5d40ad448c216/) | crackmes.de / bswap |

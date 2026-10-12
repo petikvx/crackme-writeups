@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c21b
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c21b
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c21b
+
+title: "crackme_nop by opcode0x90"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Unspecified/other (asm)"
+
+difficulty: 2.0
+quality: null
+size: "1.09 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: nop
+
+binary:
+  path: "original/crackme_nop.zip"
+  name: "crackme_nop.zip"
+  sha256: "e1eb82f64dbc8198e67794faaf434e6cb41796cfa8f9d19b7761b6154df97ebc"
+  md5: "330d7cc009b55c1c9fb090cc8171435d"
+  size_bytes: 1118
+
+status: solved
+solution_summary: "stub copie en VirtualAlloc puis 2 dwords dechiffres (XOR) ; edx = XOR des dwords glissants buf[1..15] == 0x4D3E5732 => XOR(b1..b15)=0x32, b16=b1^0x65, b17=b2^0x69, b18=b3^0x73 ; XPPApetikAAAAAa0592 (wine refuse le PE : verif Unicorn du vrai code : You solved it!)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T18:18:28Z"
