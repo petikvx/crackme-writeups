@@ -251,6 +251,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-12 | [keygenme_0.72 by bswap](authors/crackmes-de/5ab77f5533c5d40ad448c203/) | crackmes.de / bswap |
 | 2026-10-12 | [sams_keygenme by samfisher9000](authors/crackmes-de/5ab77f5533c5d40ad448c202/) | crackmes.de / samfisher9000 |
 | 2026-10-12 | [sams_crackme2 by samfisher9000](authors/crackmes-de/5ab77f5533c5d40ad448c201/) | crackmes.de / samfisher9000 |
 | 2026-10-12 | [crackme_1.0_by_c0de0f by c0de0f](authors/crackmes-de/5ab77f5533c5d40ad448c200/) | crackmes.de / c0de0f |

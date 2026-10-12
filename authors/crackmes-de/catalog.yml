@@ -991,6 +991,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c202/original/crackme3.zip"
     title: "crackmes.de's sams_keygenme by samfisher9000"
 
+  5ab77f5533c5d40ad448c203:
+    sha256: "3644de1165c3ff8d2f3cc7a3f870a912ff6d717f5fb0e964350e82ee5db9faec"
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c203/original/keygenme072.zip"
+    title: "crackmes.de's keygenme_0.72 by bswap"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1796,3 +1801,7 @@ by_sha256:
     id: 5ab77f5533c5d40ad448c202
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c202/original/crackme3.zip"
     page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c202
+  3644de1165c3ff8d2f3cc7a3f870a912ff6d717f5fb0e964350e82ee5db9faec:
+    id: 5ab77f5533c5d40ad448c203
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c203/original/keygenme072.zip"
+    page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c203

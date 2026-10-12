@@ -221,6 +221,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 193 | [crackme_1.0_by_c0de0f by c0de0f](5ab77f5533c5d40ad448c200/) | c0de0f | Windows PE32 VB6 natif | keygen : `Decrypt(serial) == nom`, serial = 3 clés + `Chr(Asc(c)+clé)` + clé ; `petik` → `@@@°¥´©«@` |
 | 194 | [sams_crackme2 by samfisher9000](5ab77f5533c5d40ad448c201/) | samfisher9000 | Windows PE32 GUI (Delphi 7) | keygen : somme cumulée ajustée autour de `0x6E`, codes ASCII décimaux, fenêtres de 4 ; `petik` → `2013-4957-9575-5750-7505` |
 | 195 | [sams_keygenme by samfisher9000](5ab77f5533c5d40ad448c202/) | samfisher9000 | Windows PE32 VB6 natif | keygen : `P` produit/carré des car. ajustés, `Q = Int(5v)·P/15`, fenêtres de 3 chiffres ; `petik` → `968-682-826-11-380-808-084-11` |
+| 196 | [keygenme_0.72 by bswap](5ab77f5533c5d40ad448c203/) | bswap | Windows PE32 MASM, FSG 1.33 | keyfile registre : `Key 2 = f(Key 1)` (xadd/shrd) ; `petik` → `0x69746570` / `0xC8639391` (unpack Unicorn ; GOLD inatteignable) |
 
 ## Mis de côté (PARKED — y revenir)
 
