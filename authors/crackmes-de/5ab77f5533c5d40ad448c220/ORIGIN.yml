@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c220
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c220
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c220
+
+title: "crackmes.de's shortcut by kkr_we_rule"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: kkr-shortcut
+
+binary:
+  path: "original/ShortCut.zip"
+  name: "ShortCut.zip"
+  sha256: "edf049b2e432c7cdd64887a78e386ac1a6df38ad4681ff74c3f5bd3b34380db3"
+  md5: "6e0d627a07a62821006337fb71d1cbb0"
+  size_bytes: 260209
+
+status: solved
+solution_summary: "Delphi 7 + LockBox ; serial A-B, base32 ; F(base32dec(A), hex(nom)) == H(SHA1hex(nom)) et F(base32dec(B), hex(nom)) == H(MD5hex(nom)) ; F = XOR/soustraction octet par octet avec clé tirée de hex(nom), inversible ; petik -> 5LZOX3PT535P6-7XWP36HM6P7PQ (wine : The Key Is Valid!)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T20:01:02Z"

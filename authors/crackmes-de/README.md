@@ -236,6 +236,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 208 | [fatmikes_crackme_2 by fatmike](5ab77f5533c5d40ad448c21c/) | fatmike | Windows PE32 MSVC6 GUI, UPX | `%X` de `Σ(nom)*0xDEADBEEF` → `serial[1,2,6,7,11,12,16,17]` ; 8 car. libres = `KEWL`+`SHIT`, clés XOR du code caché `0x409148` ; `petik` → `K95E-W2CL-S7FH-I13T` (wine) |
 | 209 | [fatmikes_crackme1___fixed_version by fatmike](5ab77f5533c5d40ad448c21d/) | fatmike | Windows PE32 MSVC6 GUI, UPX, auto-modifiant | serial 13 car. = clé XOR de 48 octets écrits par `WriteProcessMemory` sur les NOP de `0x40141F` ; crib `MessageBoxA("Well done!")` ; hash ELF ne couvre que `dec[0..5]` ; `cip-kicks-ass` (wine) |
 | 210 | [fatmikes_crackme1 by fatmike](5ab77f5533c5d40ad448c21f/) | fatmike | Windows PE32 MSVC6 GUI, UPX, auto-modifiant | version originale de la fixed version (seul `add esp,8` en `0x40141C` diffère) ; serial = clé XOR des 48 octets écrits sur les NOP de `0x40141F` ; `cip-kicks-ass` (wine) |
+| 211 | [shortcut by kkr_we_rule](5ab77f5533c5d40ad448c220/) | kkr_we_rule | Windows PE32 Delphi 7 GUI, LockBox MD5/SHA-1 | serial `A-B` en base32 ; chaque moitié déchiffrée avec une clé tirée de `hex(nom)` doit valoir `H(SHA1(nom))` / `H(MD5(nom))` ; keygen par inversion octet par octet ; `petik` -> `5LZOX3PT535P6-7XWP36HM6P7PQ` (wine) |
 
 ## Mis de côté (PARKED — y revenir)
 

@@ -1,0 +1,8 @@
+$ tools/verify-wine.sh petik 5LZOX3PT535P6-7XWP36HM6P7PQ
+  fenetre : Information        (MessageDlg mtInformation « The Key Is Valid! », texte dans un TLabel non fenêtré)
+    [OK]
+$ tools/verify-wine.sh petik 5LZOX3PT535P6-7XWP36HM6P7PA
+  (aucune boîte : seule la fiche principale)
+$ tools/verify-wine.sh crackmes.one U2QZPFNBUGQ2G-SSIKNG5DUCKJU
+  fenetre : Information
+    [OK]
