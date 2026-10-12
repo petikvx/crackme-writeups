@@ -187,6 +187,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 159 | [rif_crackme_1 by korbut](5ab77f5433c5d40ad448c1ad/) | korbut | Windows PE32 (MASM, Dr. rED mEAT) | serial fixe `2F13` = `%lX` de `(6*0x6FD)^0x6FD` (Unicorn) |
 | 160 | [your_first_crack by korbut](5ab77f5433c5d40ad448c1ae/) | korbut | Windows PE32 (MASM, Dr. rED mEAT) | keygen : somme signée `(b+1)^0x17` du 1er char à 255, `petik` → `4294960616` (Unicorn) |
 | 161 | [korbut_misc._crackme_1 by korbut](5ab77f5433c5d40ad448c1b2/) | korbut | Windows PE32 (MASM32) | fichier `_KESKYA` + presse-papiers `²)='/+,:` + ComputerName `[ RIF 2k3 ]` (Unicorn) |
+| 162 | [rif_crackme_2 by korbut](5ab77f5433c5d40ad448c1b4/) | korbut | Windows PE32 (MASM, Dr. rED mEAT) | keygen : `(t1+t2+t3+t4)^0x90==0x14F` sur octets 0/2/4, `petik` → `0XcXy` (wine live) |
 
 ## Mis de côté (PARKED — y revenir)
 

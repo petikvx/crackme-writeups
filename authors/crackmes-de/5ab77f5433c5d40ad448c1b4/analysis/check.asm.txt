@@ -1,0 +1,72 @@
+
+/tmp/r2/crackme2.exe:     file format pei-i386
+
+
+Disassembly of section .text:
+
+0040148d <.text+0x48d>:
+  40148d:	55                   	push   ebp
+  40148e:	8b ec                	mov    ebp,esp
+  401490:	60                   	pusha
+  401491:	6a 3c                	push   0x3c
+  401493:	68 10 32 40 00       	push   0x403210
+  401498:	68 d0 07 00 00       	push   0x7d0
+  40149d:	ff 75 08             	push   DWORD PTR [ebp+0x8]
+  4014a0:	e8 dd 00 00 00       	call   0x401582
+  4014a5:	83 f8 05             	cmp    eax,0x5
+  4014a8:	73 05                	jae    0x4014af
+  4014aa:	61                   	popa
+  4014ab:	c9                   	leave
+  4014ac:	c2 04 00             	ret    0x4
+  4014af:	6a 3c                	push   0x3c
+  4014b1:	68 88 32 40 00       	push   0x403288
+  4014b6:	68 d1 07 00 00       	push   0x7d1
+  4014bb:	ff 75 08             	push   DWORD PTR [ebp+0x8]
+  4014be:	e8 bf 00 00 00       	call   0x401582
+  4014c3:	83 f8 05             	cmp    eax,0x5
+  4014c6:	73 05                	jae    0x4014cd
+  4014c8:	61                   	popa
+  4014c9:	c9                   	leave
+  4014ca:	c2 04 00             	ret    0x4
+  4014cd:	33 ff                	xor    edi,edi
+  4014cf:	a0 10 32 40 00       	mov    al,ds:0x403210
+  4014d4:	34 3c                	xor    al,0x3c
+  4014d6:	34 09                	xor    al,0x9
+  4014d8:	50                   	push   eax
+  4014d9:	0f be c0             	movsx  eax,al
+  4014dc:	03 f8                	add    edi,eax
+  4014de:	a0 88 32 40 00       	mov    al,ds:0x403288
+  4014e3:	34 09                	xor    al,0x9
+  4014e5:	5b                   	pop    ebx
+  4014e6:	32 c3                	xor    al,bl
+  4014e8:	0f be c0             	movsx  eax,al
+  4014eb:	03 f8                	add    edi,eax
+  4014ed:	a0 12 32 40 00       	mov    al,ds:0x403212
+  4014f2:	8a 1d 8a 32 40 00    	mov    bl,BYTE PTR ds:0x40328a
+  4014f8:	02 c3                	add    al,bl
+  4014fa:	0f be c0             	movsx  eax,al
+  4014fd:	0f be db             	movsx  ebx,bl
+  401500:	03 c3                	add    eax,ebx
+  401502:	03 f8                	add    edi,eax
+  401504:	a0 8c 32 40 00       	mov    al,ds:0x40328c
+  401509:	8a 1d 14 32 40 00    	mov    bl,BYTE PTR ds:0x403214
+  40150f:	0f be c0             	movsx  eax,al
+  401512:	0f be db             	movsx  ebx,bl
+  401515:	03 c3                	add    eax,ebx
+  401517:	03 f8                	add    edi,eax
+  401519:	81 f7 90 00 00 00    	xor    edi,0x90
+  40151f:	81 ff 4f 01 00 00    	cmp    edi,0x14f
+  401525:	74 05                	je     0x40152c
+  401527:	61                   	popa
+  401528:	c9                   	leave
+  401529:	c2 04 00             	ret    0x4
+  40152c:	6a 00                	push   0x0
+  40152e:	6a 00                	push   0x0
+  401530:	e8 17 00 00 00       	call   0x40154c
+  401535:	68 eb 31 40 00       	push   0x4031eb
+  40153a:	68 d1 07 00 00       	push   0x7d1
+  40153f:	ff 75 08             	push   DWORD PTR [ebp+0x8]
+  401542:	e8 77 00 00 00       	call   0x4015be
+  401547:	61                   	popa
+  401548:	c9                   	leave
+  401549:	c2 04 00             	ret    0x4
