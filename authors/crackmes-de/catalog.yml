@@ -941,6 +941,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c1f1/original/XYZ_KeygenMe20110405.zip"
     title: "crackmes.de's xyz_keygenme20110405 by xiayuanzhong"
 
+  5ab77f5533c5d40ad448c260:
+    sha256: "3bfc32d7d7a0d6f6c26f3db73e2c31623fa7d583b659e5ba5772309dfada50b9"
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c260/original/babylon-kgme.zip"
+    title: "crackmes.de's babylon_keygenme by haiklr"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1706,3 +1711,7 @@ by_sha256:
     id: 5ab77f5533c5d40ad448c1f1
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c1f1/original/XYZ_KeygenMe20110405.zip"
     page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c1f1
+  3bfc32d7d7a0d6f6c26f3db73e2c31623fa7d583b659e5ba5772309dfada50b9:
+    id: 5ab77f5533c5d40ad448c260
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c260/original/babylon-kgme.zip"
+    page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c260
