@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c1ad
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c1ad
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c1ad
+
+title: "rif_crackme_1 by korbut"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 1.0
+quality: 4.0
+size: "8.53 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/rif_crackme1.zip"
+  name: "rif_crackme1.zip"
+  sha256: "bed469c9616c0630b0ee631be4d26df33e26adda74511d41ee246b3e3ee8887b"
+  md5: "b28739c5ab09a95f4ef460f3da35e994"
+  size_bytes: 8733
+
+status: solved
+solution_summary: "serial fixe 2F13 = hex((6*0x6FD) xor 0x6FD), lstrcmpiA"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T00:53:47Z"
