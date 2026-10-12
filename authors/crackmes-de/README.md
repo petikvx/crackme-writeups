@@ -204,6 +204,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 176 | [pushpushme by synfo](5ab77f5533c5d40ad448c1de/) | synfo | Windows PE32 ASM tiny | patchme jmp esp → MessageBoxA « Well d0ne! » (`analysis/PushPushMe.patched.exe`) |
 | 177 | [crackme1 by adamziaja](5ab77f5533c5d40ad448c1df/) | adamziaja | Linux ELF64 C++ | keygen ASCII stream ; `petikpet` → `11269116` |
 | 178 | [codz_1 by codz30](5ab77f5533c5d40ad448c1e1/) | codz30 | Windows PE32 VB.NET | serial **`11223`** |
+| 179 | [crackme_2 by thefox](5ab77f5533c5d40ad448c1e0/) | thefox | Windows PE32 MASM GUI | keygen stubs auto-modifiants ; `petik` → `C4CP-Z3DP` (Unicorn) |
 
 ## Mis de côté (PARKED — y revenir)
 

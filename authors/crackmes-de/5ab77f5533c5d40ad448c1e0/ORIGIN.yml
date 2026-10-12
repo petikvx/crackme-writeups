@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c1e0
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c1e0
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c1e0
+
+title: "crackme_2 by thefox"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler (MASM)"
+
+difficulty: 1.0
+quality: 4.0
+size: "8.62 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: crackme2-thefox
+
+binary:
+  path: "original/crackme2.zip"
+  name: "crackme2.zip"
+  sha256: "0665a9fb311009f626963d60544a7e3f8c26b9f835269023b83b71008b655352"
+  md5: "3febf47bb8606abeb4b1b347a8a4b816"
+  size_bytes: 8828
+
+status: solved
+solution_summary: "keygen nom -> 2 DWORD (imul 0x24/xor) ; 8 octets via 6 stubs auto-modifiants (xor imm, rol cl 7) ; table[al%40]+0x55 ; serial 9 car XXXX-XXXX ; petik -> C4CP-Z3DP"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T09:54:24Z"
