@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c1d0
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c1d0
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c1d0
+
+title: "rdg_simple_crackme_.net by rdgmax"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ".NET"
+
+difficulty: 2.0
+quality: 4.0
+size: "132.18 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: rdg-simple-crackme-net
+
+binary:
+  path: "original/RDG_Simple_Crackme_.NET.zip"
+  name: "RDG_Simple_Crackme_.NET.zip"
+  sha256: "f516ea994055d5a5b3251d4138b170f1c07f0aa9f257f8097bf93db27a6d7543"
+  md5: "b8bfa77cb213ff00be20bcdcc37cbea2"
+  size_bytes: 135356
+
+status: solved
+solution_summary: "serial = hex(Base64(DES-CBC(nom))) ; clé = SHA1(\"5167449\" sur 8 octets)[:8], IV 12 44 16 EE 88 15 DD 41 ; RDGMax -> 456D455A6866384A304E343D, petik -> 38396666356E424C31576F3D"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T06:56:17Z"

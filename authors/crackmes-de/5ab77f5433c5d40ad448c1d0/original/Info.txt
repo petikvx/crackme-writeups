@@ -1,0 +1,2 @@
+Obtiene el Serial Correcto para tu Nombre de Usuario
+Get the correct serial for your username 

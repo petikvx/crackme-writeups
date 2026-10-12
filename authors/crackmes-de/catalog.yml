@@ -851,6 +851,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c1cc/original/CPP_Crackme1.zip"
     title: "crackmes.de's c_crackme_1 by ultrasound"
 
+  5ab77f5433c5d40ad448c1d0:
+    sha256: "f516ea994055d5a5b3251d4138b170f1c07f0aa9f257f8097bf93db27a6d7543"
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c1d0/original/RDG_Simple_Crackme_.NET.zip"
+    title: "crackmes.de's rdg_simple_crackme_.net by rdgmax"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1544,3 +1549,7 @@ by_sha256:
     id: 5ab77f5433c5d40ad448c1cc
     path: "authors/crackmes-de/5ab77f5433c5d40ad448c1cc/original/CPP_Crackme1.zip"
     page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c1cc
+  f516ea994055d5a5b3251d4138b170f1c07f0aa9f257f8097bf93db27a6d7543:
+    id: 5ab77f5433c5d40ad448c1d0
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c1d0/original/RDG_Simple_Crackme_.NET.zip"
+    page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c1d0

@@ -1,0 +1,101 @@
+// Extraits ilspycmd (lignes de bourrage 'num = <const>L;' retirées)
+// Form1.En()
+	private void En()
+	{
+		clsx clsx2 = new clsx();
+		clsx2.K = Conversions.ToString(checked(xa() + xb() - xb() + xa() + xa() - xb() - 100 + 52 + xb() - xa() + xb() + xb() - xa() + xa() - xa() - xa() + xb()));
+		Module1.GB = Sth(clsx2.Se(t1.Text));
+// Form1.Label3_TextChanged (vrai test)
+		if (Strings.Len(Label3.Text) > 6)
+		{
+			if (Operators.CompareString(Module1.GB, Module1.GB2, false) == 0)
+			{
+				Module1.A278(Module1.GB70);
+			}
+			else
+			{
+				Module1.A278(Module1.GB94);
+			}
+		}
+// Form1.xb()
+3075:	private long xb()
+	{
+		checked
+		{
+			long num = (long)Math.Round(92.5925925925926 + (double)(Conversion.Int(20) * 521 * 85) + 632.0 + 124.0 - 8552.0 + 1213.0 - 65541.0 + 1215.0);
+			num = (long)Math.Round(92.5925925925926 + (double)(Conversion.Int(270) * 531 * 85) + 637.0 + 154.0 - 8552.0 + 1213.0 - 65551.0 + 1215.0);
+			num = (long)Math.Round(90.9090909090909 + (double)(Conversion.Int(260) * 521 * 85) + 632.0 + 124.0 - 8552.0 + 1213.0 - 64551.0 + 1215.0);
+			num = (long)Math.Round(96.29629629629629 + (double)(Conversion.Int(20) * 521 * 85) + 632.0 + 124.0 - 8552.0 + 613.0 - 65551.0 + 1215.0);
+			num = (long)Math.Round(92.5925925925926 + (double)(Conversion.Int(250) * 5435 * 85) + 652.0 + 124.0 - 8552.0 + 1213.0 - 65551.0 + 1215.0);
+			num = (long)Math.Round(92.5925925925926 + (double)(Conversion.Int(240) * 521 * 85) + 632.0 + 124.0 - 8552.0 + 1213.0 - 655451.0 + 1215.0);
+			num = (long)Math.Round(67.56756756756756 + (double)(Conversion.Int(50) * 421 * 85) + 632.0 + 124.0 - 8552.0 + 1213.0 - 61451.0 + 1215.0);
+			return num + 0;
+		}
+	}
+// clsx (clé / IV / Se)
+		get
+		{
+			return mKey;
+		}
+		set
+		{
+			byte[] array = new byte[8];
+			ASCIIEncoding aSCIIEncoding = new ASCIIEncoding();
+			int num = 0;
+			try
+			{
+				mKey = value;
+				aSCIIEncoding.GetBytes(value, num, value.Length, array, num);
+			}
+			catch (Exception ex)
+			{
+				ProjectData.SetProjectError(ex);
+				Exception ex2 = ex;
+				ProjectData.ClearProjectError();
+			}
+			try
+			{
+				SHA1CryptoServiceProvider sHA1CryptoServiceProvider = new SHA1CryptoServiceProvider();
+				byte[] array2 = sHA1CryptoServiceProvider.ComputeHash(array);
+				num = 0;
+				do
+				{
+					TheKey[num] = array2[num];
+					num = checked(num + 1);
+				}
+				while (num <= 7);
+			}
+			catch (Exception ex3)
+			{
+				ProjectData.SetProjectError(ex3);
+				Exception ex4 = ex3;
+				ProjectData.ClearProjectError();
+			}
+		}
+	}
+
+	public clsx()
+	{
+		Vector = new byte[8] { 18, 68, 22, 238, 136, 21, 221, 65 };
+		TheKey = new byte[8];
+		objDES = new DESCryptoServiceProvider();
+	}
+
+	public object FolderEncrypt(string InitialPath, bool Recursion, bool DeleteSourceFile)
+	{
+		if (Recursion)
+	public string Se(string strSource)
+	{
+		MemoryStream memoryStream = new MemoryStream();
+		string result = default(string);
+		try
+		{
+			byte[] bytes = Encoding.UTF8.GetBytes(strSource);
+			CryptoStream cryptoStream = new CryptoStream(memoryStream, objDES.CreateEncryptor(TheKey, Vector), CryptoStreamMode.Write);
+			cryptoStream.Write(bytes, 0, bytes.Length);
+			cryptoStream.FlushFinalBlock();
+			result = Convert.ToBase64String(memoryStream.ToArray());
+			return result;
+		}
+		catch (Exception ex)
+		{

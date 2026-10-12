@@ -193,6 +193,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 165 | [korbut_keygen_me_1 by korbut](5ab77f5433c5d40ad448c1b8/) | korbut | Windows PE32 (MASM32, RIF 2k3) | keygen nom + ComputerName : `ror(bswap(ror(dw(nom)+sx(comp[2len-1]),5)^0x20),11)` → `.(%lu).` (wine live) |
 | 166 | [szi_keygenme by revme](5ab77f5433c5d40ad448c1c0/) | revme | Windows PE32 (MinGW C++) | keygen `XXX-XXX-XXX` : `f(n)=charset[n%34]`, `petik` → `spc-eyt-2ik` (prédicat+exemple auteur) |
 | 167 | [c_crackme_1 by ultrasound](5ab77f5433c5d40ad448c1cc/) | ultrasound | Windows PE32 GUI (MSVC6 C++) | keygen `ULT-<15 chiffres>-0141` (swab + ror, `(s^t)+s*t`, `%9` ; suffixe `2413` leurre), `petik` → `ULT-824815863156375-0141` (Unicorn) |
+| 168 | [rdg_simple_crackme_.net by rdgmax](5ab77f5433c5d40ad448c1d0/) | rdgmax | Windows PE32 (VB.NET, bourrage) | keygen `hex(Base64(DES(nom)))`, clé `SHA1("5167449")[:8]`, `petik` → `38396666356E424C31576F3D` (couple démo auteur) |
 
 ## Mis de côté (PARKED — y revenir)
 
