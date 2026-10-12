@@ -981,6 +981,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c200/original/c0de0f_crackme_1.zip"
     title: "crackmes.de's crackme_1.0_by_c0de0f by c0de0f"
 
+  5ab77f5533c5d40ad448c201:
+    sha256: "38a9df07aed23700b0cfaa52e7bfc55f97abbed8d26a13a93ab4146ec7f6b163"
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c201/original/samcrackme2.zip"
+    title: "crackmes.de's sams_crackme2 by samfisher9000"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1778,3 +1783,7 @@ by_sha256:
     id: 5ab77f5533c5d40ad448c200
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c200/original/c0de0f_crackme_1.zip"
     page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c200
+  38a9df07aed23700b0cfaa52e7bfc55f97abbed8d26a13a93ab4146ec7f6b163:
+    id: 5ab77f5533c5d40ad448c201
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c201/original/samcrackme2.zip"
+    page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c201

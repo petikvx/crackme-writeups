@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c201
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c201
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c201
+
+title: "sams_crackme2 by samfisher9000"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Borland Delphi"
+
+difficulty: 2.0
+quality: 4.0
+size: "206.16 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: sams-crackme2
+
+binary:
+  path: "original/samcrackme2.zip"
+  name: "samcrackme2.zip"
+  sha256: "38a9df07aed23700b0cfaa52e7bfc55f97abbed8d26a13a93ab4146ec7f6b163"
+  md5: "d593a04980cc58e21a07ef13e1c2f0c7"
+  size_bytes: 211110
+
+status: solved
+solution_summary: "keygen : somme cumulee des car. ajustes (0x6e), codes ASCII decimaux, morceaux de 4 ; petik -> 2013-4957-9575-5750-7505"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T15:27:12Z"

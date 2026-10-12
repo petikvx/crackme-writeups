@@ -1,0 +1,1 @@
+yay, crackme#2 is out. keygen this and write a solution. of course, no patching. above all, have fun!

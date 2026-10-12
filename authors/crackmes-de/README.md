@@ -219,6 +219,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 191 | [enforcer039s_keygenme_1__arteam_cra by enforcer](5ab77f5533c5d40ad448c1fd/) | enforcer | Windows PE32 MASM32 GUI | keygen rol32(edx+c,i) + leurre anti-debug/CRC ; `petik` → `47730` |
 | 192 | [crackme_2.0_by_c0de0f by c0de0f](5ab77f5533c5d40ad448c1ff/) | c0de0f | Windows PE32 VB6 natif | serial date `jj×mm×1440+aaaa` ; 2026-10-12 → `174826` |
 | 193 | [crackme_1.0_by_c0de0f by c0de0f](5ab77f5533c5d40ad448c200/) | c0de0f | Windows PE32 VB6 natif | keygen : `Decrypt(serial) == nom`, serial = 3 clés + `Chr(Asc(c)+clé)` + clé ; `petik` → `@@@°¥´©«@` |
+| 194 | [sams_crackme2 by samfisher9000](5ab77f5533c5d40ad448c201/) | samfisher9000 | Windows PE32 GUI (Delphi 7) | keygen : somme cumulée ajustée autour de `0x6E`, codes ASCII décimaux, fenêtres de 4 ; `petik` → `2013-4957-9575-5750-7505` |
 
 ## Mis de côté (PARKED — y revenir)
 
