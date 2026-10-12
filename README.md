@@ -251,6 +251,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-12 | [a_small_crackme by bswap](authors/crackmes-de/5ab77f5533c5d40ad448c216/) | crackmes.de / bswap |
 | 2026-10-12 | [assassination by bswap](authors/crackmes-de/5ab77f5533c5d40ad448c215/) | crackmes.de / bswap |
 | 2026-10-12 | [little_man_1.45 by bswap](authors/crackmes-de/5ab77f5533c5d40ad448c213/) | crackmes.de / bswap |
 | 2026-10-12 | [keygenme_0.51 by bswap](authors/crackmes-de/5ab77f5533c5d40ad448c211/) | crackmes.de / bswap |

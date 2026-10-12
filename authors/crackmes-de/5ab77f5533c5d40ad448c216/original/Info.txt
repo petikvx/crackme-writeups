@@ -1,0 +1,25 @@
+A small Crackme  
+
+-------------------------------------------------------------------------------------------
+Program:	A small Crackme. 
+Aim:		Make a keygenator . 
+Author:		Bswap.
+-------------------------------------------------------------------------------------------
+ 
+Hello People,
+
+Here is a little keygen-me I wrote. You have to keygen it, nothing else.
+Reading the source you will see why a validate serial just won’t work!
+   
+The usual disclaimer:
+Whatever happens when you running this program, 
+I'm not responsible for anything.  
+
+If you have any comment, questions or wane have the source please mail,
+goodwill80@hotmail.com
+
+I want to greet everyone who knows me.   
+
+Bswap - Holland - 2003 
+
+Powered by masm32

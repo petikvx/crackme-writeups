@@ -1031,6 +1031,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c215/original/assassination.zip"
     title: "crackmes.de's assassination by bswap"
 
+  5ab77f5533c5d40ad448c216:
+    sha256: "85bad000042ce2f24584413ba74f5f62afac8520dabaaa125f7f5c5a45efcae1"
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c216/original/small.zip"
+    title: "crackmes.de's a_small_crackme by bswap"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1868,3 +1873,7 @@ by_sha256:
     id: 5ab77f5533c5d40ad448c215
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c215/original/assassination.zip"
     page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c215
+  85bad000042ce2f24584413ba74f5f62afac8520dabaaa125f7f5c5a45efcae1:
+    id: 5ab77f5533c5d40ad448c216
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c216/original/small.zip"
+    page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c216

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c216
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c216
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c216
+
+title: "a_small_crackme by bswap"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unspecified/other (Windows PE32)"
+arch: "x86"
+language: "Assembler (MASM32)"
+
+difficulty: 2.0
+quality: null
+size: "1.92 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: small
+
+binary:
+  path: "original/small.zip"
+  name: "small.zip"
+  sha256: "85bad000042ce2f24584413ba74f5f62afac8520dabaaa125f7f5c5a45efcae1"
+  md5: "04bd49ef74d16c30229029e30f09737a"
+  size_bytes: 1968
+
+status: solved
+solution_summary: "FSG (unpack Unicorn) ; nom = GetUserNameA ; R = u0*u0+u1-u0 (FPU, dwords signes du nom) ; serial = 8 hex MAJ dont les octets swappes/xor 4 egalent les 4 octets bas de R ; petik -> 2BFF8C39 (wine via loader int68h + USER=petik: -- Registered --)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T18:04:05Z"
