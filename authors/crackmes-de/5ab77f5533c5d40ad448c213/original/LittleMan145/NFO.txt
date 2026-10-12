@@ -1,0 +1,18 @@
+Little Man 1.45,  (difficulty 1)
+
+The Program is 100% written in ASM , Try to oversee it.
+
+Goal : Make a key generator, it is so easy.
+ 
+
+This was just for private fun and training.
+In fact this is good to unsolved this one. 
+
+And the usual disclaimer:
+Whatever happens when you running this program, I
+am not responsible for anything.  
+  
+If you have any comment or questions leave a comment 
+on www.crackmes.de
+
+Bye and good luck  - Bswap - Holland

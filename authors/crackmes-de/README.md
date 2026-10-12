@@ -227,6 +227,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 199 | [crackme_0.68 by bswap](5ab77f5533c5d40ad448c20c/) | bswap | Windows PE32 MASM, FSG 1.31 | code d’entrée `c0=c11,c2=c9` ; key[3]=`r` ; key lavée → T constant, `repne cmpsw` : name[12:14]=`Tl` ; `petik` → `petikabcdtep` / `petik_petik_Tl` / `petr` |
 | 200 | [super_funky_0.82 by bswap](5ab77f5533c5d40ad448c210/) | bswap | Windows PE32 MASM | keyfile glissé-déposé `Bswap.2003` (60 o : `Cool?Dude` + 8 octets de code + masques + checksum auto-référent) ; `petik`/`Paris` → « Registered!, Unlock code: AABSWAZPP » |
 | 201 | [keygenme_0.51 by bswap](5ab77f5533c5d40ad448c211/) | bswap | Windows PE32 MASM, FSG 1.0 | moulinette du buffer nom (restes `iTisgrEattoby…` compris, émulée Unicorn) → 12 bits `0xc1<b<0xf0` ; clé = 1 car. + `'1'`/`'a'` ; `petik` → `xaa11111aa11a` |
+| 202 | [little_man_1.45 by bswap](5ab77f5533c5d40ad448c213/) | bswap | Windows PE32 MASM | clic Register leurre (`or al,1`) ; test dans `WM_TIMER` : `key[5]=='-'` et (`key[6]=='8'` ou `key[7]=='S'`) ; `petik` → `petik-8S` |
 
 ## Mis de côté (PARKED — y revenir)
 

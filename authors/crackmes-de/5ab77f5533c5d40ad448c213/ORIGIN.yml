@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c213
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c213
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c213
+
+title: "little_man_1.45 by bswap"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler (MASM)"
+
+difficulty: 1.0
+quality: null
+size: "5.20 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: littleman145
+
+binary:
+  path: "original/LittleMan145.zip"
+  name: "LittleMan145.zip"
+  sha256: "374bab8ecb621ab5a78cee78488e1b6b160120e61672b52bc5804ec927d937e4"
+  md5: "fb2f5491134a713ca92cf004390c5530"
+  size_bytes: 5320
+
+status: solved
+solution_summary: "clic Register jamais valide (or al,1) ; handler WM_TIMER teste key[5]=='-' et (key[6]=='8' ou key[7]=='S') ; petik -> petik-8S (wine: Little Man 1.45 (Registered))"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T17:14:53Z"
