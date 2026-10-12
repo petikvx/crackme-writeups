@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c1e1
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c1e1
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c1e1
+
+title: "codz_1 by codz30"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ".NET"
+
+difficulty: 1.0
+quality: 2.5
+size: "7.19 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: codz1
+
+binary:
+  path: "original/Codz_#1.zip"
+  name: "Codz_#1.zip"
+  sha256: "6a0a011c0444252e9d6eb3d57e9b92c60d06e4b8b2ecf475ea7cfdbeb06b3c1b"
+  md5: "c808564d6d7a9d36b8118dbf88ab7c16"
+  size_bytes: 7363
+
+status: solved
+solution_summary: "VB.NET Serial Checker ; TextBox MaxLength 5 ; serial == 11223 → Congrats You Did It!!"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T08:57:22Z"
