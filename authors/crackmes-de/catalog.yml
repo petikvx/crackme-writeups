@@ -996,6 +996,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c203/original/keygenme072.zip"
     title: "crackmes.de's keygenme_0.72 by bswap"
 
+  5ab77f5533c5d40ad448c204:
+    sha256: "b0eeb39022f886a6b4593b2980e7f69d406d8a0c2c196e15a8d37ef1a5f0d51e"
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c204/original/Morgana.zip"
+    title: "crackmes.de's morgana_1.49 by bswap"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1805,3 +1810,7 @@ by_sha256:
     id: 5ab77f5533c5d40ad448c203
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c203/original/keygenme072.zip"
     page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c203
+  b0eeb39022f886a6b4593b2980e7f69d406d8a0c2c196e15a8d37ef1a5f0d51e:
+    id: 5ab77f5533c5d40ad448c204
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c204/original/Morgana.zip"
+    page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c204

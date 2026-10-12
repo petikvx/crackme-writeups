@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c204
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c204
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c204
+
+title: "morgana_1.49 by bswap"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler (MASM)"
+
+difficulty: 2.0
+quality: null
+size: "32.06 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: morgana149
+
+binary:
+  path: "original/Morgana.zip"
+  name: "Morgana.zip"
+  sha256: "b0eeb39022f886a6b4593b2980e7f69d406d8a0c2c196e15a8d37ef1a5f0d51e"
+  md5: "c4c3b23b6eae2f973af3b9b85b4e1551"
+  size_bytes: 32834
+
+status: solved
+solution_summary: "serial AQ?6509??? (positions 2,7,8,9 libres) ; petik -> AQp6509eti (wine: Morgana 1.49 (Registered))"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T16:12:58Z"

@@ -1,0 +1,23 @@
+ 
+Morgana 1.49,  (difficulty 2)
+
+ 
+
+Goal : Make a key generator.
+
+Extra info:  At the beginning you will get some info at the end you have to find your own way.
+There are lot of possibilities, believe me. 
+
+This was just for private fun and training.
+In fact this is good to unsolved this one. 
+
+And the usual disclaimer:
+Whatever happens when you running this program, I
+am not responsible for anything.  
+  
+If you have any comment or questions leave a comment 
+on www.crackmes.de
+
+The Program is 100% written in ASM , Try to oversee it.
+
+Bye and good luck  - Bswap – Holland
