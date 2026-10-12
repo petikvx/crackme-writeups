@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c1d7
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c1d7
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c1d7
+
+title: "6_levels by typhoon"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++"
+
+difficulty: 2.0
+quality: 4.0
+size: "138.69 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: 6-levels
+
+binary:
+  path: "original/bomb.zip"
+  name: "bomb.zip"
+  sha256: "b9f0d871444801d0ce19973f8d8a725fe98ff0d38a475f018dc587f25d05ba4c"
+  md5: "b47335ab385c8659c83a27fa68efa7a9"
+  size_bytes: 142023
+
+status: solved
+solution_summary: "binary bomb 7 niveaux + secret : Peace Sells... / HHH7HAHM / 1 2 6 24 120 720 / 1 W 501 / 9 guava / bpdhklblbc / 1 2 1 4 5 4 / flame"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T06:59:46Z"
