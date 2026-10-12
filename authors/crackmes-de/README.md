@@ -208,6 +208,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 180 | [damos_crackme_1_for_linux by damo2k](5ab77f5533c5d40ad448c1e6/) | damo2k | Linux ELF32 C | contraintes linéaires ; serial **`POFKPPEZAS`** |
 | 181 | [damos_crackme_1_for_solaris by damo2k](5ab77f5533c5d40ad448c1e7/) | damo2k | Solaris ELF32 SPARC C | jumeau Linux ; serial **`POFKPPEZAS`** (Unicorn SPARC) |
 | 182 | [damos_crackme_1_for_win32 by damo2k](5ab77f5533c5d40ad448c1e8/) | damo2k | Windows PE32 C (MSVC) | jumeau Linux ; serial **`POFKPPEZAS`** (wine) |
+| 183 | [crackmehardestshell20110404 by xiayuanzhong](5ab77f5533c5d40ad448c1ef/) | xiayuanzhong | Windows PE32 C++ (MinGW) | déjà dépaqueté ; `reverse(name)+"_xyz"` ; `petik` → `kitep_xyz` |
 
 ## Mis de côté (PARKED — y revenir)
 

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c1ef
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c1ef
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c1ef
+
+title: "crackmehardestshell20110404 by xiayuanzhong"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++"
+
+difficulty: 1.0
+quality: 4.0
+size: "128.53 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: xyz-hardestshell
+
+binary:
+  path: "original/CrackMe20110403.zip"
+  name: "CrackMe20110403.zip"
+  sha256: "ccac9f727409b61320ffa141c59f2fdd433319d15fb5d994fe94b24585abc43d"
+  md5: "4c2e28c3ec1ee27cffd768525e7eaa5f"
+  size_bytes: 131612
+
+status: solved
+solution_summary: "Dev-C++ (MinGW) déjà dépaqueté, symboles C++ ; password = reverse(name) + \"_xyz\" ; petik -> kitep_xyz"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-12T10:59:24Z"

@@ -926,6 +926,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c1e8/original/crkme1-win32.zip"
     title: "crackmes.de's damos_crackme_1_for_win32 by damo2k"
 
+  5ab77f5533c5d40ad448c1ef:
+    sha256: "ccac9f727409b61320ffa141c59f2fdd433319d15fb5d994fe94b24585abc43d"
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c1ef/original/CrackMe20110403.zip"
+    title: "crackmes.de's crackmehardestshell20110404 by xiayuanzhong"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -1679,3 +1684,7 @@ by_sha256:
     id: 5ab77f5533c5d40ad448c1e8
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c1e8/original/crkme1-win32.zip"
     page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c1e8
+  ccac9f727409b61320ffa141c59f2fdd433319d15fb5d994fe94b24585abc43d:
+    id: 5ab77f5533c5d40ad448c1ef
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c1ef/original/CrackMe20110403.zip"
+    page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c1ef
