@@ -251,6 +251,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-12 | [fatmikes_crackme1 by fatmike](authors/crackmes-de/5ab77f5533c5d40ad448c21f/) | crackmes.de / fatmike |
 | 2026-10-12 | [crackme_nop by opcode0x90](authors/crackmes-de/5ab77f5533c5d40ad448c21b/) | crackmes.de / opcode0x90 |
 | 2026-10-12 | [fatmikes_crackme_2 by fatmike](authors/crackmes-de/5ab77f5533c5d40ad448c21c/) | crackmes.de / fatmike |
 | 2026-10-12 | [fatmikes_crackme1___fixed_version by fatmike](authors/crackmes-de/5ab77f5533c5d40ad448c21d/) | crackmes.de / fatmike |

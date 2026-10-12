@@ -1,0 +1,8 @@
+  fenetre : Information
+    [OK]
+    [Well done!]
+---
+---
+  fenetre : Information
+    [OK]
+    [Try again!]
