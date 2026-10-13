@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c248
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c248
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c248
+
+title: "crackmes.de's crackme_2 by fr1c"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Visual Basic 5 (natif)"
+
+difficulty: 1.0
+quality: null
+size: "4.82 KB"
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme2.zip"
+  name: "crackme2.zip"
+  sha256: "b68ba26ae1e7e1bb51a07ae8681705eb40a8ae7fef7aebeaeb0deb7a45fc1444"
+  md5: "09dcf401c961c089ffcfe8a60b28e27c"
+  size_bytes: 4938
+
+status: solved
+solution_summary: "VB5 natif ; Form_Load : m_serial = \"988535\" ; Command1_Click : __vbaStrCmp(Text2.Text, m_serial), nom ignoré ; petik -> 988535 (wine : Good work! You cracked this!)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-13T03:53:26Z"

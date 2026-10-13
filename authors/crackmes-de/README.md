@@ -248,6 +248,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 220 | [crackme_and_eatme_1 by mghty_kng](5ab77f5533c5d40ad448c235/) | mghty_kng | Windows PE32 AutoIt v3 (EA06) | script via `autoit-ripper` ; serial = `Σc & "-" & UPPER(nom[:3]) & -Σc & "-" & 1/Πc` (double `%.15g` MSVC, exposant 3 chiffres) ; `petik` → `541-PET-541-6.78312058319816e-011` (wine) |
 | 221 | [knights_crackme1 by knight](5ab77f5533c5d40ad448c245/) | knight | Windows PE32 MSVC 6 GUI (UPX 1.25) | serial `HHHH-HHHH-HHHH`, `A > B > C >= 0x1000` ; `h = Σ ((c^0xAA)*(c>>4)²) << 4*(i&1)` ; récursion `0x401022` : `h` atteignable par multiples de `{A,B}` et `{B,C}` (B diviseur de h suffit) ; `petik` → `FFFF-32CB-1000` (wine) |
 | 222 | [crackme_7 by fr1c](5ab77f5533c5d40ad448c247/) | fr1c | Windows PE32 Delphi GUI (UPX 0.94) | nag + Register grisé (réactivation tolérée) ; pour chaque c : `chr((c*99^6)+s1+s3)` + `chr(c+4n+s1+s2+s3-4)`, puis `chr((s2^n)+3+GetForegroundWindow())` ; `petik` → `24C2D7B7A8C66BBB35BD` + `0x74+hwnd` (keygen live, wine) |
+| 223 | [crackme_2 by fr1c](5ab77f5533c5d40ad448c248/) | fr1c | Windows PE32 VB5 natif GUI | `Form_Load` : `m_serial = "988535"` ; `Command1_Click` : `__vbaStrCmp(Text2.Text, m_serial)`, nom ignoré ; `petik` → `988535` (wine) |
 
 ## Mis de côté (PARKED — y revenir)
 
