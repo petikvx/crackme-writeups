@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c249
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c249
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c249
+
+title: "crackmes.de's crackme_5 by fr1c"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Visual Basic 5 (natif)"
+
+difficulty: 1.0
+quality: null
+size: "5.03 KB"
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme5_1.zip"
+  name: "crackme5_1.zip"
+  sha256: "952adf02dd12e8d5c3286a137c628f808950498f4e6b7356bef9f82a39d053a4"
+  md5: "2edd0dfd8d2e575cd41028707db12a90"
+  size_bytes: 5149
+
+status: solved
+solution_summary: "VB5 natif, 10 CheckBox ; Command1_Click : ET de 10 tests Value==1/0 (piège xor eax,eax avant Check5) ; cocher 3 4 7 8 10, laisser 1 2 5 6 9 (pas de nom ; wine : REGISTERED + Good, now send tutorial)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-13T03:56:54Z"
