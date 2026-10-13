@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c27f
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c27f
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c27f
+
+title: "crackmes.de's hypercrackme by thehyper"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Win32 ASM (MASM)"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/hypercrack_me.zip"
+  name: "hypercrack_me.zip"
+  sha256: "42bfc0e69ba1b05506cc6ee6cd5a4933c88311517b2dbee8c14cee8fd92d9d1d"
+  md5: "97af3d0ddc57fcf2f9e005af76da5a17"
+  size_bytes: 3704
+
+status: solved
+solution_summary: "serial unique 1348781387 = 23*29*31*37*41*43 (6 premiers de [20,44]) et somme des chiffres 50 = ID du menu Register ; UPX modifié dépacké par émulation ; vérifié en émulant le WndProc (Good job)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-13T20:49:31Z"

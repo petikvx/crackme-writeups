@@ -1261,6 +1261,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c27e/original/Rosy.zip"
     title: "crackmes.de's rosy by klaria"
 
+  5ab77f5633c5d40ad448c27f:
+    sha256: "42bfc0e69ba1b05506cc6ee6cd5a4933c88311517b2dbee8c14cee8fd92d9d1d"
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c27f/original/hypercrack_me.zip"
+    title: "crackmes.de's hypercrackme by thehyper"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2282,3 +2287,7 @@ by_sha256:
     id: 5ab77f5633c5d40ad448c27e
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c27e/original/Rosy.zip"
     page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c27e
+  42bfc0e69ba1b05506cc6ee6cd5a4933c88311517b2dbee8c14cee8fd92d9d1d:
+    id: 5ab77f5633c5d40ad448c27f
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c27f/original/hypercrack_me.zip"
+    page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c27f

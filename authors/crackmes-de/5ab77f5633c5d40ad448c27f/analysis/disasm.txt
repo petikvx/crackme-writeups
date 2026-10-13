@@ -1,0 +1,464 @@
+401000: push 0
+401002: call 0x4014f6
+401007: mov dword ptr [0x4031c0], eax
+40100c: call 0x4014f0
+401011: mov dword ptr [0x4031c4], eax
+401016: push 0xa
+401018: push dword ptr [0x4031c4]
+40101e: push 0
+401020: push dword ptr [0x4031c0]
+401026: call 0x401031
+40102b: push eax
+40102c: call 0x4014ea
+401031: push ebp
+401032: mov ebp, esp
+401034: add esp, -0x50
+401037: mov dword ptr [ebp - 0x30], 0x30
+40103e: mov dword ptr [ebp - 0x2c], 3
+401045: mov dword ptr [ebp - 0x28], 0x401126
+40104c: mov dword ptr [ebp - 0x24], 0
+401053: mov dword ptr [ebp - 0x20], 0
+40105a: push dword ptr [ebp + 8]
+40105d: pop dword ptr [ebp - 0x1c]
+401060: mov dword ptr [ebp - 0x10], 0x10
+401067: mov dword ptr [ebp - 0xc], 0x40300f
+40106e: mov dword ptr [ebp - 8], 0x403000
+401075: push 0x1f4
+40107a: push dword ptr [ebp + 8]
+40107d: call 0x4014ae
+401082: mov dword ptr [ebp - 0x18], eax
+401085: mov dword ptr [ebp - 4], eax
+401088: push 0x7f00
+40108d: push 0
+40108f: call 0x4014a8
+401094: mov dword ptr [ebp - 0x14], eax
+401097: lea eax, [ebp - 0x30]
+40109a: push eax
+40109b: call 0x4014c0
+4010a0: push 0
+4010a2: push dword ptr [ebp + 8]
+4010a5: push 0
+4010a7: push 0
+4010a9: push 0xaa
+4010ae: push 0x12c
+4010b3: push 0x80000000
+4010b8: push 0x80000000
+4010bd: push 0xca0000
+4010c2: push 0x40303a
+4010c7: push 0x403000
+4010cc: push 0x200
+4010d1: call 0x401472
+4010d6: mov dword ptr [ebp - 0x50], eax
+4010d9: push 1
+4010db: push dword ptr [ebp - 0x50]
+4010de: call 0x4014d8
+4010e3: push dword ptr [ebp - 0x50]
+4010e6: call 0x4014e4
+4010eb: push dword ptr [ebp - 0x50]
+4010ee: call 0x401490
+4010f3: mov dword ptr [0x4033d0], eax
+4010f8: push 0
+4010fa: push 0
+4010fc: push 0
+4010fe: lea eax, [ebp - 0x4c]
+401101: push eax
+401102: call 0x401496
+401107: or eax, eax
+401109: je 0x40111f
+40110b: lea eax, [ebp - 0x4c]
+40110e: push eax
+40110f: call 0x4014de
+401114: lea eax, [ebp - 0x4c]
+401117: push eax
+401118: call 0x401484
+40111d: jmp 0x4010f8
+40111f: mov eax, dword ptr [ebp - 0x44]
+401122: leave 
+401123: ret 0x10
+401126: push ebp
+401127: mov ebp, esp
+401129: cmp dword ptr [ebp + 0xc], 1
+40112d: jne 0x4011e8
+401133: mov dword ptr [0x403189], 0x2c
+40113d: mov dword ptr [0x40318d], 0x3f
+401147: push 0
+401149: push dword ptr [0x4031c0]
+40114f: push 2
+401151: push dword ptr [ebp + 8]
+401154: push 0x19
+401156: push 0xc8
+40115b: push 0x23
+40115d: push 0x37
+40115f: push 0x50800080
+401164: push 0
+401166: push 0x403026
+40116b: push 0x200
+401170: call 0x401472
+401175: mov dword ptr [0x4031cc], eax
+40117a: push 0
+40117c: push dword ptr [0x4031c0]
+401182: push 2
+401184: push dword ptr [ebp + 8]
+401187: push 0x14
+401189: push 0x32
+40118b: push 0x28
+40118d: push 5
+40118f: push 0x50000080
+401194: push 0x403032
+401199: push 0x40302b
+40119e: push 0
+4011a0: call 0x401472
+4011a5: push dword ptr [0x4031cc]
+4011ab: call 0x4014cc
+4011b0: push 0
+4011b2: push dword ptr [0x4031c0]
+4011b8: push 1
+4011ba: push dword ptr [ebp + 8]
+4011bd: push 0x19
+4011bf: push 0x8c
+4011c4: push 0x46
+4011c6: push 0x4b
+4011c8: push 0x50000001
+4011cd: push 0x403020
+4011d2: push 0x403019
+4011d7: push 0
+4011d9: call 0x401472
+4011de: mov dword ptr [0x4031c8], eax
+4011e3: jmp 0x40140b
+4011e8: cmp dword ptr [ebp + 0xc], 2
+4011ec: jne 0x4011fa
+4011ee: push 0
+4011f0: call 0x4014ba
+4011f5: jmp 0x40140b
+4011fa: cmp dword ptr [ebp + 0xc], 0x111
+401201: jne 0x4013f6
+401207: mov eax, dword ptr [ebp + 0x10]
+40120a: cmp dword ptr [ebp + 0x14], 0
+40120e: jne 0x4013d2
+401214: cmp ax, 0x7d00
+401218: jne 0x4012fc
+40121e: mov dword ptr [0x40317d], 0
+401228: push 0x1e
+40122a: push 0x4031d0
+40122f: push dword ptr [0x4031cc]
+401235: call 0x40149c
+40123a: or eax, eax
+40123c: jne 0x401257
+40123e: push 0x10
+401240: push 0x40303a
+401245: push 0x40305a
+40124a: push dword ptr [ebp + 8]
+40124d: call 0x4014b4
+401252: jmp 0x40140b
+401257: push 0x4031d0
+40125c: call 0x4014fc
+401261: or eax, eax
+401263: je 0x4012f7
+401269: mov dword ptr [0x403181], eax
+40126e: push eax
+40126f: call 0x401411
+401274: xor edx, edx
+401276: mov ebx, 0x14
+40127b: jmp 0x40129a
+40127d: mov eax, dword ptr [0x403181]
+401282: cdq 
+401283: idiv ebx
+401285: or edx, edx
+401287: jne 0x401299
+401289: push ebx
+40128a: call 0x40144b
+40128f: or eax, eax
+401291: je 0x401299
+401293: inc dword ptr [0x40317d]
+401299: inc ebx
+40129a: cmp ebx, 0x2d
+40129d: jge 0x4012a8
+40129f: cmp dword ptr [0x40317d], 6
+4012a6: jne 0x40127d
+4012a8: cmp dword ptr [0x40317d], 6
+4012af: jne 0x4012f7
+4012b1: mov ecx, dword ptr [0x403185]
+4012b7: mov dword ptr [0x403191], 0
+4012c1: mov dword ptr [0x403199], ecx
+4012c7: mov dword ptr [0x40319d], 0
+4012d1: mov eax, 0x403046
+4012d6: mov dword ptr [0x4031ad], eax
+4012db: push 0x403189
+4012e0: push 1
+4012e2: push 1
+4012e4: push dword ptr [0x4033d0]
+4012ea: call 0x4014a2
+4012ef: push dword ptr [ebp + 8]
+4012f2: call 0x40148a
+4012f7: jmp 0x40140b
+4012fc: cmp ax, 0x7d01
+401300: jne 0x401314
+401302: push 0
+401304: push dword ptr [0x4031cc]
+40130a: call 0x4014d2
+40130f: jmp 0x40140b
+401314: cmp ax, 0x7d05
+401318: jne 0x401340
+40131a: push 0
+40131c: push 0x40303a
+401321: push 0x403087
+401326: push dword ptr [ebp + 8]
+401329: call 0x4014b4
+40132e: push 0x40304f
+401333: push dword ptr [ebp + 8]
+401336: call 0x4014d2
+40133b: jmp 0x40140b
+401340: cmp ax, 0x7d02
+401344: jne 0x4013ac
+401346: push 0
+401348: push 0x40303a
+40134d: push 0x4030bc
+401352: push dword ptr [ebp + 8]
+401355: call 0x4014b4
+40135a: push 0
+40135c: push 0x40303a
+401361: push 0x4030d2
+401366: push dword ptr [ebp + 8]
+401369: call 0x4014b4
+40136e: push 0
+401370: push 0x40303a
+401375: push 0x4030ef
+40137a: push dword ptr [ebp + 8]
+40137d: call 0x4014b4
+401382: push 0
+401384: push 0x40303a
+401389: push 0x403126
+40138e: push dword ptr [ebp + 8]
+401391: call 0x4014b4
+401396: push 0
+401398: push 0x40303a
+40139d: push 0x403153
+4013a2: push dword ptr [ebp + 8]
+4013a5: call 0x4014b4
+4013aa: jmp 0x40140b
+4013ac: cmp ax, 0x32
+4013b0: jne 0x4013c8
+4013b2: push 0
+4013b4: push 0x7d05
+4013b9: push 0x111
+4013be: push dword ptr [ebp + 8]
+4013c1: call 0x4014c6
+4013c6: jmp 0x40140b
+4013c8: push dword ptr [ebp + 8]
+4013cb: call 0x40147e
+4013d0: jmp 0x40140b
+4013d2: cmp ax, 1
+4013d6: jne 0x4013f4
+4013d8: shr eax, 0x10
+4013db: or ax, ax
+4013de: jne 0x4013f4
+4013e0: push 0
+4013e2: push 0x7d00
+4013e7: push 0x111
+4013ec: push dword ptr [ebp + 8]
+4013ef: call 0x4014c6
+4013f4: jmp 0x40140b
+4013f6: push dword ptr [ebp + 0x14]
+4013f9: push dword ptr [ebp + 0x10]
+4013fc: push dword ptr [ebp + 0xc]
+4013ff: push dword ptr [ebp + 8]
+401402: call 0x401478
+401407: leave 
+401408: ret 0x10
+40140b: xor eax, eax
+40140d: leave 
+40140e: ret 0x10
+401411: push ebp
+401412: mov ebp, esp
+401414: mov dword ptr [0x403185], 0
+40141e: mov ebx, dword ptr [ebp + 8]
+401421: test ebx, ebx
+401423: je 0x401447
+401425: mov eax, ebx
+401427: mov ecx, 0xa
+40142c: cdq 
+40142d: idiv ecx
+40142f: mov eax, edx
+401431: add dword ptr [0x403185], eax
+401437: mov ecx, 0xa
+40143c: mov eax, ebx
+40143e: cdq 
+40143f: idiv ecx
+401441: mov ebx, eax
+401443: test ebx, ebx
+401445: jne 0x401425
+401447: leave 
+401448: ret 4
+40144b: push ebp
+40144c: mov ebp, esp
+40144e: mov ebx, dword ptr [ebp + 8]
+401451: mov eax, 1
+401456: mov ecx, 2
+40145b: jmp 0x401465
+40145d: mov eax, ebx
+40145f: cdq 
+401460: idiv ecx
+401462: mov eax, edx
+401464: inc ecx
+401465: cmp ebx, ecx
+401467: jle 0x40146d
+401469: test eax, eax
+40146b: jne 0x40145d
+40146d: leave 
+40146e: ret 4
+401471: int3 
+401472: jmp dword ptr [0x402058]   ; CreateWindowExA
+401478: jmp dword ptr [0x40202c]   ; DefWindowProcA
+40147e: jmp dword ptr [0x402050]   ; DestroyWindow
+401484: jmp dword ptr [0x402030]   ; DispatchMessageA
+40148a: jmp dword ptr [0x402018]   ; DrawMenuBar
+401490: jmp dword ptr [0x402010]   ; GetMenu
+401496: jmp dword ptr [0x402014]   ; GetMessageA
+40149c: jmp dword ptr [0x40201c]   ; GetWindowTextA
+4014a2: jmp dword ptr [0x402020]   ; InsertMenuItemA
+4014a8: jmp dword ptr [0x402024]   ; LoadCursorA
+4014ae: jmp dword ptr [0x402028]   ; LoadIconA
+4014b4: jmp dword ptr [0x402054]   ; MessageBoxA
+4014ba: jmp dword ptr [0x40205c]   ; PostQuitMessage
+4014c0: jmp dword ptr [0x402034]   ; RegisterClassExA
+4014c6: jmp dword ptr [0x402038]   ; SendMessageA
+4014cc: jmp dword ptr [0x40203c]   ; SetFocus
+4014d2: jmp dword ptr [0x402040]   ; SetWindowTextA
+4014d8: jmp dword ptr [0x402044]   ; ShowWindow
+4014de: jmp dword ptr [0x402048]   ; TranslateMessage
+4014e4: jmp dword ptr [0x40204c]   ; UpdateWindow
+4014ea: jmp dword ptr [0x402008]   ; ExitProcess
+4014f0: jmp dword ptr [0x402004]   ; GetCommandLineA
+4014f6: jmp dword ptr [0x402000]   ; GetModuleHandleA
+4014fc: push ebp
+4014fd: mov ebp, esp
+4014ff: push esi
+401500: push edi
+401501: xor eax, eax
+401503: mov esi, dword ptr [ebp + 8]
+401506: xor ecx, ecx
+401508: xor edx, edx
+40150a: mov al, byte ptr [esi]
+40150c: inc esi
+40150d: cmp al, 2
+40150f: jne 0x401523
+401511: mov al, byte ptr [esi]
+401513: not edx
+401515: inc esi
+401516: jmp 0x401523
+401518: sub al, 0x30
+40151a: lea ecx, [ecx + ecx*4]
+40151d: lea ecx, [eax + ecx*2]
+401520: mov al, byte ptr [esi]
+401522: inc esi
+401523: or al, al
+401525: jne 0x401518
+401527: lea eax, [ecx + edx]
+40152a: xor eax, edx
+40152c: pop edi
+40152d: pop esi
+40152e: leave 
+40152f: ret 4
+401532: add byte ptr [eax], al
+401534: add byte ptr [eax], al
+401536: add byte ptr [eax], al
+401538: add byte ptr [eax], al
+40153a: add byte ptr [eax], al
+40153c: add byte ptr [eax], al
+40153e: add byte ptr [eax], al
+401540: add byte ptr [eax], al
+401542: add byte ptr [eax], al
+401544: add byte ptr [eax], al
+401546: add byte ptr [eax], al
+401548: add byte ptr [eax], al
+40154a: add byte ptr [eax], al
+40154c: add byte ptr [eax], al
+40154e: add byte ptr [eax], al
+401550: add byte ptr [eax], al
+401552: add byte ptr [eax], al
+401554: add byte ptr [eax], al
+401556: add byte ptr [eax], al
+401558: add byte ptr [eax], al
+40155a: add byte ptr [eax], al
+40155c: add byte ptr [eax], al
+40155e: add byte ptr [eax], al
+401560: add byte ptr [eax], al
+401562: add byte ptr [eax], al
+401564: add byte ptr [eax], al
+401566: add byte ptr [eax], al
+401568: add byte ptr [eax], al
+40156a: add byte ptr [eax], al
+40156c: add byte ptr [eax], al
+40156e: add byte ptr [eax], al
+401570: add byte ptr [eax], al
+401572: add byte ptr [eax], al
+401574: add byte ptr [eax], al
+401576: add byte ptr [eax], al
+401578: add byte ptr [eax], al
+40157a: add byte ptr [eax], al
+40157c: add byte ptr [eax], al
+40157e: add byte ptr [eax], al
+401580: add byte ptr [eax], al
+401582: add byte ptr [eax], al
+401584: add byte ptr [eax], al
+401586: add byte ptr [eax], al
+401588: add byte ptr [eax], al
+40158a: add byte ptr [eax], al
+40158c: add byte ptr [eax], al
+40158e: add byte ptr [eax], al
+401590: add byte ptr [eax], al
+401592: add byte ptr [eax], al
+401594: add byte ptr [eax], al
+401596: add byte ptr [eax], al
+401598: add byte ptr [eax], al
+40159a: add byte ptr [eax], al
+40159c: add byte ptr [eax], al
+40159e: add byte ptr [eax], al
+4015a0: add byte ptr [eax], al
+4015a2: add byte ptr [eax], al
+4015a4: add byte ptr [eax], al
+4015a6: add byte ptr [eax], al
+4015a8: add byte ptr [eax], al
+4015aa: add byte ptr [eax], al
+4015ac: add byte ptr [eax], al
+4015ae: add byte ptr [eax], al
+4015b0: add byte ptr [eax], al
+4015b2: add byte ptr [eax], al
+4015b4: add byte ptr [eax], al
+4015b6: add byte ptr [eax], al
+4015b8: add byte ptr [eax], al
+4015ba: add byte ptr [eax], al
+4015bc: add byte ptr [eax], al
+4015be: add byte ptr [eax], al
+4015c0: add byte ptr [eax], al
+4015c2: add byte ptr [eax], al
+4015c4: add byte ptr [eax], al
+4015c6: add byte ptr [eax], al
+4015c8: add byte ptr [eax], al
+4015ca: add byte ptr [eax], al
+4015cc: add byte ptr [eax], al
+4015ce: add byte ptr [eax], al
+4015d0: add byte ptr [eax], al
+4015d2: add byte ptr [eax], al
+4015d4: add byte ptr [eax], al
+4015d6: add byte ptr [eax], al
+4015d8: add byte ptr [eax], al
+4015da: add byte ptr [eax], al
+4015dc: add byte ptr [eax], al
+4015de: add byte ptr [eax], al
+4015e0: add byte ptr [eax], al
+4015e2: add byte ptr [eax], al
+4015e4: add byte ptr [eax], al
+4015e6: add byte ptr [eax], al
+4015e8: add byte ptr [eax], al
+4015ea: add byte ptr [eax], al
+4015ec: add byte ptr [eax], al
+4015ee: add byte ptr [eax], al
+4015f0: add byte ptr [eax], al
+4015f2: add byte ptr [eax], al
+4015f4: add byte ptr [eax], al
+4015f6: add byte ptr [eax], al
+4015f8: add byte ptr [eax], al
+4015fa: add byte ptr [eax], al
+4015fc: add byte ptr [eax], al
+4015fe: add byte ptr [eax], al

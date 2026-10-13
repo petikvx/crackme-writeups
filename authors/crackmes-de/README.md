@@ -279,6 +279,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 245 | [mishka_tribute by zart](5ab77f5633c5d40ad448c277/) | zart | Windows PE32 MSVC6 console (+musique XM) | `petik` / `3649375339` : nom = Σ append(i, c) (`ettiiikkkk`), hash a=a·m+c, m·=0x6E6FA (m0=0x43BA) mod 2^32, serial décimal (wine: Serial checked out) |
 | 246 | [zi___crakme by zionz](5ab77f5633c5d40ad448c278/) | zionz | Windows PE32 Blitz3D GUI | serial `AX943` : constante `__bbStrConst` + `__bbStrCompare` dans le code Blitz en `.rsrc` (wine: WELL DONE!) |
 | 247 | [zi___crakme_v2 by zionz](5ab77f5633c5d40ad448c279/) | zionz | Windows PE32 Blitz3D GUI | keygen 5 chars : `((((a+b+d)*c)+e)+a+e)*e+d` ; **petik→3982003** (wine: SERIAL CORRECT!) |
+| 248 | [hypercrackme by thehyper](5ab77f5633c5d40ad448c27f/) | thehyper | Windows PE32 Win32ASM GUI (UPX modifié) | serial unique **1348781387** = 23·29·31·37·41·43, somme des chiffres 50 = ID du menu « Register » |
 
 ## Mis de côté (PARKED — y revenir)
 
