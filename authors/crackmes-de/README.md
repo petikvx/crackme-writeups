@@ -283,6 +283,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 249 | [hypercrackme6 by thehyper](5ab77f5633c5d40ad448c281/) | thehyper | Windows PE32 VC++6 (code chiffré en couches, SEH, checksums) | serial lu dans le presse-papiers ; keygen srand/rand MSVC → `G......c` + hash 0xd780 ; ex. **PETI-KPET-IKPE-eQpY-RDVV** |
 | 250 | [hypercrackme2 by thehyper](5ab77f5633c5d40ad448c285/) | thehyper | Windows PE32 Win32ASM GUI (UPX, routine XOR 0xFF) | boutons 0..9 ; exactement 3 diviseurs Armstrong dans [300,1000] (370/371/407) → serial **1509970** = lcm ; menu « Register » ID 50 |
 | 251 | [hypercrackme3 by thehyper](5ab77f5633c5d40ad448c286/) | thehyper | Windows PE32 Borland C++ (ASPack, dump mémoire wine) | keygen : serial = code ASCII décimal de chaque car. du nom (maj.), lu par paires ; **petik→8069847375** |
+| 252 | [crackme_2 by cobrasniper555](5ab77f5633c5d40ad448c288/) | cobrasniper555 | Windows PE32 MinGW C++ GUI (registre HKCU\Software\Cobra) | keygen `REG-%X-%X-KEY` de (A, A+C), mix(t)=((t^0x12c)*5)&0xf0f0f0f0 ; **petik→REG-D0-190-KEY** |
 
 ## Mis de côté (PARKED — y revenir)
 

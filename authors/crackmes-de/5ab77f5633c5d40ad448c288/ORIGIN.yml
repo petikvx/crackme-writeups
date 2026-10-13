@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c288
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c288
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c288
+
+title: "crackmes.de's crackme_2 by cobrasniper555"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C++ (MinGW GCC)"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Test.zip"
+  name: "Test.zip"
+  sha256: "879e8a052134f32c29c15bd181721ee3e82803e18acc5cb6735895e0ce8d7a74"
+  md5: "2e82a39735e6c9cb8b73fff72c7dea9d"
+  size_bytes: 11181
+
+status: solved
+solution_summary: "keygen : serial = REG-%X-%X-KEY de (A, A+C) ; A = mix(name[n-1]+name[n-2]), C = mix(name[1]+name[2]), mix(t) = ((t^0x12c)*5) & 0xf0f0f0f0 ; petik -> REG-D0-190-KEY ; vérifié live sous wine (driver menu 0x69)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-13T23:53:29Z"
