@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c289
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c289
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c289
+
+title: "crackmes.de's keygenme_1 by cobrasniper555"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C++ (MinGW / Dev-C++)"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Keygenme.zip"
+  name: "Keygenme.zip"
+  sha256: "0824725d18469be91a4b60822183bb04b4a2bd6e46570e343fec0909124f4145"
+  md5: "85add2c650f16fbe38317194d2b007a5"
+  size_bytes: 15079
+
+status: solved
+solution_summary: "keygen : serial = name[0]-%X(A)-%X(B), A = 0x87654321 - sum(c*66*(c^5)), B = A*((name[0]*650)^0xc) ; nom 5..30 car. en minuscules (ES_LOWERCASE) ; petik -> p-8729D38D-6C55AB7C ; binaire ne compare que le 1er octet ; mot de passe Source.zip = 43 ; vérifié live wine + source auteur"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-13T23:53:30Z"

@@ -1,0 +1,67 @@
+  40174f:	8b 45 10             	mov    eax,DWORD PTR [ebp+0x10]
+  401752:	89 85 00 ff ff ff    	mov    DWORD PTR [ebp-0x100],eax
+  401758:	83 bd 00 ff ff ff 66 	cmp    DWORD PTR [ebp-0x100],0x66
+  40175f:	74 12                	je     401773 <__Z15WindowProcedureP6HWND__jjl@16+0x23d>
+  401761:	83 bd 00 ff ff ff 67 	cmp    DWORD PTR [ebp-0x100],0x67
+  401768:	0f 84 e2 00 00 00    	je     401850 <__Z15WindowProcedureP6HWND__jjl@16+0x31a>
+  40176e:	e9 ec 00 00 00       	jmp    40185f <__Z15WindowProcedureP6HWND__jjl@16+0x329>
+  401773:	c7 44 24 0c 1e 00 00 	mov    DWORD PTR [esp+0xc],0x1e
+  40177a:	00 
+  40177b:	8d 45 c8             	lea    eax,[ebp-0x38]
+  40177e:	89 44 24 08          	mov    DWORD PTR [esp+0x8],eax
+  401782:	c7 44 24 04 64 00 00 	mov    DWORD PTR [esp+0x4],0x64
+  401789:	00 
+  40178a:	8b 45 08             	mov    eax,DWORD PTR [ebp+0x8]
+  40178d:	89 04 24             	mov    DWORD PTR [esp],eax
+  401790:	e8 cb 08 00 00       	call   402060 <_GetDlgItemTextA@16>
+  401795:	83 ec 10             	sub    esp,0x10
+  401798:	8d 45 98             	lea    eax,[ebp-0x68]
+  40179b:	89 44 24 04          	mov    DWORD PTR [esp+0x4],eax
+  40179f:	8d 45 c8             	lea    eax,[ebp-0x38]
+  4017a2:	89 04 24             	mov    DWORD PTR [esp],eax
+  4017a5:	e8 e6 fa ff ff       	call   401290 <__Z12createSerialPcS_>
+  4017aa:	c7 44 24 0c 28 00 00 	mov    DWORD PTR [esp+0xc],0x28
+  4017b1:	00 
+  4017b2:	8d 85 68 ff ff ff    	lea    eax,[ebp-0x98]
+  4017b8:	89 44 24 08          	mov    DWORD PTR [esp+0x8],eax
+  4017bc:	c7 44 24 04 65 00 00 	mov    DWORD PTR [esp+0x4],0x65
+  4017c3:	00 
+  4017c4:	8b 45 08             	mov    eax,DWORD PTR [ebp+0x8]
+  4017c7:	89 04 24             	mov    DWORD PTR [esp],eax
+  4017ca:	e8 91 08 00 00       	call   402060 <_GetDlgItemTextA@16>
+  4017cf:	83 ec 10             	sub    esp,0x10
+  4017d2:	0f b6 45 98          	movzx  eax,BYTE PTR [ebp-0x68]
+  4017d6:	3a 85 68 ff ff ff    	cmp    al,BYTE PTR [ebp-0x98]
+  4017dc:	75 4a                	jne    401828 <__Z15WindowProcedureP6HWND__jjl@16+0x2f2>
+  4017de:	8d 85 08 ff ff ff    	lea    eax,[ebp-0xf8]
+  4017e4:	89 44 24 08          	mov    DWORD PTR [esp+0x8],eax
+  4017e8:	c7 44 24 04 94 40 40 	mov    DWORD PTR [esp+0x4],0x404094
+  4017ef:	00 
+  4017f0:	8d 85 18 ff ff ff    	lea    eax,[ebp-0xe8]
+  4017f6:	89 04 24             	mov    DWORD PTR [esp],eax
+  4017f9:	e8 92 08 00 00       	call   402090 <_wsprintfA>
+  4017fe:	c7 44 24 0c 40 00 00 	mov    DWORD PTR [esp+0xc],0x40
+  401805:	00 
+  401806:	c7 44 24 08 d9 40 40 	mov    DWORD PTR [esp+0x8],0x4040d9
+  40180d:	00 
+  40180e:	8d 85 18 ff ff ff    	lea    eax,[ebp-0xe8]
+  401814:	89 44 24 04          	mov    DWORD PTR [esp+0x4],eax
+  401818:	8b 45 08             	mov    eax,DWORD PTR [ebp+0x8]
+  40181b:	89 04 24             	mov    DWORD PTR [esp],eax
+  40181e:	e8 ad 07 00 00       	call   401fd0 <_MessageBoxA@16>
+  401823:	83 ec 10             	sub    esp,0x10
+  401826:	eb 37                	jmp    40185f <__Z15WindowProcedureP6HWND__jjl@16+0x329>
+  401828:	c7 44 24 0c 30 00 00 	mov    DWORD PTR [esp+0xc],0x30
+  40182f:	00 
+  401830:	c7 44 24 08 e3 40 40 	mov    DWORD PTR [esp+0x8],0x4040e3
+  401837:	00 
+  401838:	c7 44 24 04 ec 40 40 	mov    DWORD PTR [esp+0x4],0x4040ec
+  40183f:	00 
+  401840:	8b 45 08             	mov    eax,DWORD PTR [ebp+0x8]
+  401843:	89 04 24             	mov    DWORD PTR [esp],eax
+  401846:	e8 85 07 00 00       	call   401fd0 <_MessageBoxA@16>
+  40184b:	83 ec 10             	sub    esp,0x10
+  40184e:	eb 0f                	jmp    40185f <__Z15WindowProcedureP6HWND__jjl@16+0x329>
+  401850:	c7 04 24 00 00 00 00 	mov    DWORD PTR [esp],0x0
+  401857:	e8 14 08 00 00       	call   402070 <_PostQuitMessage@4>
+  40185c:	83 ec 04             	sub    esp,0x4

@@ -1,0 +1,86 @@
+00401290 <__Z12createSerialPcS_>:
+  401290:	55                   	push   ebp
+  401291:	89 e5                	mov    ebp,esp
+  401293:	81 ec 88 00 00 00    	sub    esp,0x88
+  401299:	8b 45 08             	mov    eax,DWORD PTR [ebp+0x8]
+  40129c:	89 04 24             	mov    DWORD PTR [esp],eax
+  40129f:	e8 bc 0c 00 00       	call   401f60 <_strlen>
+  4012a4:	89 45 f4             	mov    DWORD PTR [ebp-0xc],eax
+  4012a7:	b8 21 43 65 87       	mov    eax,0x87654321
+  4012ac:	89 45 9c             	mov    DWORD PTR [ebp-0x64],eax
+  4012af:	83 7d f4 04          	cmp    DWORD PTR [ebp-0xc],0x4
+  4012b3:	7e 08                	jle    4012bd <__Z12createSerialPcS_+0x2d>
+  4012b5:	83 7d f4 1e          	cmp    DWORD PTR [ebp-0xc],0x1e
+  4012b9:	7f 02                	jg     4012bd <__Z12createSerialPcS_+0x2d>
+  4012bb:	eb 2c                	jmp    4012e9 <__Z12createSerialPcS_+0x59>
+  4012bd:	c7 44 24 0c 30 00 00 	mov    DWORD PTR [esp+0xc],0x30
+  4012c4:	00 
+  4012c5:	c7 44 24 08 00 40 40 	mov    DWORD PTR [esp+0x8],0x404000
+  4012cc:	00 
+  4012cd:	c7 44 24 04 08 40 40 	mov    DWORD PTR [esp+0x4],0x404008
+  4012d4:	00 
+  4012d5:	c7 04 24 00 00 00 00 	mov    DWORD PTR [esp],0x0
+  4012dc:	e8 ef 0c 00 00       	call   401fd0 <_MessageBoxA@16>
+  4012e1:	83 ec 10             	sub    esp,0x10
+  4012e4:	e9 c1 00 00 00       	jmp    4013aa <__Z12createSerialPcS_+0x11a>
+  4012e9:	c7 45 98 00 00 00 00 	mov    DWORD PTR [ebp-0x68],0x0
+  4012f0:	8b 45 98             	mov    eax,DWORD PTR [ebp-0x68]
+  4012f3:	3b 45 f4             	cmp    eax,DWORD PTR [ebp-0xc]
+  4012f6:	7d 39                	jge    401331 <__Z12createSerialPcS_+0xa1>
+  4012f8:	8b 45 08             	mov    eax,DWORD PTR [ebp+0x8]
+  4012fb:	03 45 98             	add    eax,DWORD PTR [ebp-0x68]
+  4012fe:	0f be 00             	movsx  eax,BYTE PTR [eax]
+  401301:	89 45 a0             	mov    DWORD PTR [ebp-0x60],eax
+  401304:	8b 55 a0             	mov    edx,DWORD PTR [ebp-0x60]
+  401307:	89 d0                	mov    eax,edx
+  401309:	c1 e0 05             	shl    eax,0x5
+  40130c:	01 d0                	add    eax,edx
+  40130e:	01 c0                	add    eax,eax
+  401310:	89 45 a4             	mov    DWORD PTR [ebp-0x5c],eax
+  401313:	8b 55 a0             	mov    edx,DWORD PTR [ebp-0x60]
+  401316:	83 f2 05             	xor    edx,0x5
+  401319:	8b 45 a4             	mov    eax,DWORD PTR [ebp-0x5c]
+  40131c:	0f af c2             	imul   eax,edx
+  40131f:	89 45 a4             	mov    DWORD PTR [ebp-0x5c],eax
+  401322:	8b 55 a4             	mov    edx,DWORD PTR [ebp-0x5c]
+  401325:	8d 45 9c             	lea    eax,[ebp-0x64]
+  401328:	29 10                	sub    DWORD PTR [eax],edx
+  40132a:	8d 45 98             	lea    eax,[ebp-0x68]
+  40132d:	ff 00                	inc    DWORD PTR [eax]
+  40132f:	eb bf                	jmp    4012f0 <__Z12createSerialPcS_+0x60>
+  401331:	8b 45 9c             	mov    eax,DWORD PTR [ebp-0x64]
+  401334:	89 44 24 08          	mov    DWORD PTR [esp+0x8],eax
+  401338:	c7 44 24 04 5a 40 40 	mov    DWORD PTR [esp+0x4],0x40405a
+  40133f:	00 
+  401340:	8d 45 c8             	lea    eax,[ebp-0x38]
+  401343:	89 04 24             	mov    DWORD PTR [esp],eax
+  401346:	e8 45 0d 00 00       	call   402090 <_wsprintfA>
+  40134b:	8b 45 08             	mov    eax,DWORD PTR [ebp+0x8]
+  40134e:	0f be 00             	movsx  eax,BYTE PTR [eax]
+  401351:	69 c0 8a 02 00 00    	imul   eax,eax,0x28a
+  401357:	89 c2                	mov    edx,eax
+  401359:	83 f2 0c             	xor    edx,0xc
+  40135c:	8b 45 9c             	mov    eax,DWORD PTR [ebp-0x64]
+  40135f:	0f af c2             	imul   eax,edx
+  401362:	89 45 9c             	mov    DWORD PTR [ebp-0x64],eax
+  401365:	8b 45 9c             	mov    eax,DWORD PTR [ebp-0x64]
+  401368:	89 44 24 08          	mov    DWORD PTR [esp+0x8],eax
+  40136c:	c7 44 24 04 5e 40 40 	mov    DWORD PTR [esp+0x4],0x40405e
+  401373:	00 
+  401374:	8d 45 a8             	lea    eax,[ebp-0x58]
+  401377:	89 04 24             	mov    DWORD PTR [esp],eax
+  40137a:	e8 11 0d 00 00       	call   402090 <_wsprintfA>
+  40137f:	8d 45 a8             	lea    eax,[ebp-0x58]
+  401382:	89 44 24 10          	mov    DWORD PTR [esp+0x10],eax
+  401386:	8d 45 c8             	lea    eax,[ebp-0x38]
+  401389:	89 44 24 0c          	mov    DWORD PTR [esp+0xc],eax
+  40138d:	8b 45 08             	mov    eax,DWORD PTR [ebp+0x8]
+  401390:	0f be 00             	movsx  eax,BYTE PTR [eax]
+  401393:	89 44 24 08          	mov    DWORD PTR [esp+0x8],eax
+  401397:	c7 44 24 04 62 40 40 	mov    DWORD PTR [esp+0x4],0x404062
+  40139e:	00 
+  40139f:	8b 45 0c             	mov    eax,DWORD PTR [ebp+0xc]
+  4013a2:	89 04 24             	mov    DWORD PTR [esp],eax
+  4013a5:	e8 e6 0c 00 00       	call   402090 <_wsprintfA>
+  4013aa:	c9                   	leave
+  4013ab:	c3                   	ret
