@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c262
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c262
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c262
+
+title: "crackmes.de's baby_crackme_1 by haiklr"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Baby_Crackme_#1.zip"
+  name: "Baby_Crackme_#1.zip"
+  sha256: "999093a3e0f246d112d539fdc18a6777d18607a19693fd3e9ab76be0cfe75734"
+  md5: "f432a2bc8d9a7068c159ad98f681b649"
+  size_bytes: 94489
+
+status: solved
+solution_summary: "serial 29 car. 123490798638;1061110611203486 (N3=7·N1, N4=d4·N1, N5=d7·N1, N6=N5+10·N3+1000·N4)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-13T13:02:21Z"

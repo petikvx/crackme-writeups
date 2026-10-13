@@ -1206,6 +1206,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c261/original/Baby_Crackme_#2.zip"
     title: "crackmes.de's baby_crackme_2 by haiklr"
 
+  5ab77f5533c5d40ad448c262:
+    sha256: "999093a3e0f246d112d539fdc18a6777d18607a19693fd3e9ab76be0cfe75734"
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c262/original/Baby_Crackme_#1.zip"
+    title: "crackmes.de's baby_crackme_1 by haiklr"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2183,3 +2188,7 @@ by_sha256:
     id: 5ab77f5533c5d40ad448c261
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c261/original/Baby_Crackme_#2.zip"
     page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c261
+  999093a3e0f246d112d539fdc18a6777d18607a19693fd3e9ab76be0cfe75734:
+    id: 5ab77f5533c5d40ad448c262
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c262/original/Baby_Crackme_#1.zip"
+    page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c262

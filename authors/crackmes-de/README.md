@@ -266,6 +266,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 
 | 236 | [hysteria_crackme by haiklr](5ab77f5533c5d40ad448c25e/) | haiklr | Windows PE32 MASM32 GUI | keyfile `hex((CRC32&~0xFF)|name[0])` + A/B/C vs P=(CRC%99,(CRC%99)^0x2007) ; **petik→eafb870** (wine: Congratz) |
 | 237 | [baby_crackme_2 by haiklr](5ab77f5533c5d40ad448c261/) | haiklr | Windows PE32 MASM32 GUI | keyfile `BC#2` : `0a..0e` (10²+11²+12²=13²+14²) + `CD` + `#S` (carré parfait FPU) (wine: Winneur !) |
+| 238 | [baby_crackme_1 by haiklr](5ab77f5533c5d40ad448c262/) | haiklr | Windows PE32 MASM32 GUI | serial 29 car. `123490798638;1061110611203486` (N3=7·N1, N4=d4·N1, N5=d7·N1, N6=N5+10·N3+1000·N4) (wine: Winneur !) |
 
 ## Mis de côté (PARKED — y revenir)
 
