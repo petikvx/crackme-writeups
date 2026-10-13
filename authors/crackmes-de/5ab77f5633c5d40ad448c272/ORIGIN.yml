@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c272
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c272
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c272
+
+title: "crackmes.de's mayhems_crackme_3 by mayhem"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ".NET"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/CrackMe3.zip"
+  name: "CrackMe3.zip"
+  sha256: "4bcb973ffa3031ddf2a6955fc8a7e478f37dc25c2cf93a356400cbda0bcd8fce"
+  md5: "054c22a6d8c9f74e36e48d449b6af0c4"
+  size_bytes: 5598
+
+status: solved
+solution_summary: "petik / 107108637445 : ord(name[-1]) + (9*len+63) + \"63\" + Σ ASCII de SHA512(name) hex MAJ (wine: Good boy!)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-13T17:09:10Z"

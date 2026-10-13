@@ -1231,6 +1231,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c26f/original/hades_keygenme.zip"
     title: "crackmes.de's hades by j"
 
+  5ab77f5633c5d40ad448c272:
+    sha256: "4bcb973ffa3031ddf2a6955fc8a7e478f37dc25c2cf93a356400cbda0bcd8fce"
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c272/original/CrackMe3.zip"
+    title: "crackmes.de's mayhems_crackme_3 by mayhem"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2228,3 +2233,7 @@ by_sha256:
     id: 5ab77f5533c5d40ad448c26f
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c26f/original/hades_keygenme.zip"
     page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c26f
+  4bcb973ffa3031ddf2a6955fc8a7e478f37dc25c2cf93a356400cbda0bcd8fce:
+    id: 5ab77f5633c5d40ad448c272
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c272/original/CrackMe3.zip"
+    page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c272
