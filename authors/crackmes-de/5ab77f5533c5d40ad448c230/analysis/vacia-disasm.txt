@@ -1,0 +1,32 @@
+08048484 <vacia>:
+ 8048484:	push   ebp
+ 8048485:	mov    ebp,esp
+ 8048487:	sub    esp,0xc
+ 804848a:	mov    eax,DWORD PTR [ebp+0x8]
+ 804848d:	cmp    eax,DWORD PTR [ebp+0xc]
+ 8048490:	jle    804849e <vacia+0x1a>
+ 8048492:	mov    edx,DWORD PTR [ebp+0xc]
+ 8048495:	mov    eax,DWORD PTR [ebp+0x8]
+ 8048498:	sub    eax,edx
+ 804849a:	dec    eax
+ 804849b:	mov    DWORD PTR [ebp+0x8],eax
+ 804849e:	mov    eax,DWORD PTR [ebp+0x8]
+ 80484a1:	add    eax,0x8049b20
+ 80484a6:	cmp    BYTE PTR [eax],0x30
+ 80484a9:	jne    80484b3 <vacia+0x2f>
+ 80484ab:	mov    eax,DWORD PTR [ebp+0x8]
+ 80484ae:	mov    DWORD PTR [ebp-0x4],eax
+ 80484b1:	jmp    80484cf <vacia+0x4b>
+ 80484b3:	mov    eax,DWORD PTR [ebp+0xc]
+ 80484b6:	mov    DWORD PTR [esp+0x4],eax
+ 80484ba:	mov    eax,DWORD PTR [ebp+0x8]
+ 80484bd:	inc    eax
+ 80484be:	mov    DWORD PTR [esp],eax
+ 80484c1:	call   8048484 <vacia>
+ 80484c6:	mov    DWORD PTR [ebp+0x8],eax
+ 80484c9:	mov    eax,DWORD PTR [ebp+0x8]
+ 80484cc:	mov    DWORD PTR [ebp-0x4],eax
+ 80484cf:	mov    eax,DWORD PTR [ebp-0x4]
+ 80484d2:	leave
+ 80484d3:	ret
+

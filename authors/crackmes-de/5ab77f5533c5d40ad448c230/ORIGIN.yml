@@ -1,0 +1,38 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c230
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c230
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c230
+
+title: "crackmes.de's ncn by eslimasec"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: "C/C++"
+
+difficulty: 2.0
+quality: 4.0
+size: "3.71 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  exe: "original/ncn"
+  exe_sha256: "145d5604adc9bed14980858408a65cdf62fd6cfc8ebcd4e03cdfa8f774e10d00"
+  path: "original/ncn.zip"
+  name: "ncn.zip"
+  sha256: "7d5e7d428f9eafa8900a2cf9260ba8f645db0bc274606f48154c7f3e56321d3f"
+  md5: "c0e25e370ed43e7d1a20cfb29ae781b4"
+  size_bytes: 3794
+
+status: solved
+solution_summary: "ELF32 gcc 3.4 non strippé ; chiffreur à positions : SEMILLA = rand()%62 stocké en clair dans cifred[1], chaque car. va dans la 1re case libre à partir de newpos+3 (vacia, retour circulaire) avec min[(SEMILLA + idx(c) + 5k) % 62] ; ciphertext du Readme -> \"Esto no es una contrasena cifrada cualquiera, sino una especial\" (seed 45, vérifié sur le binaire avec rand() figé)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-13T01:05:32Z"

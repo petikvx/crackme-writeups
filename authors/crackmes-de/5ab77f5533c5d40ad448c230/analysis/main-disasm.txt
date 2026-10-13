@@ -1,0 +1,175 @@
+080484d4 <main>:
+ 80484d4:	push   ebp
+ 80484d5:	mov    ebp,esp
+ 80484d7:	push   ebx
+ 80484d8:	sub    esp,0x14
+ 80484db:	and    esp,0xfffffff0
+ 80484de:	mov    eax,0x0
+ 80484e3:	sub    esp,eax
+ 80484e5:	mov    DWORD PTR [ebp-0x8],0x8049a40
+ 80484ec:	mov    DWORD PTR ds:0x8049aa8,0x2
+ 80484f6:	mov    DWORD PTR ds:0x8049ab4,0x3
+ 8048500:	mov    DWORD PTR ds:0x8049aa0,0x1
+ 804850a:	mov    DWORD PTR ds:0x8049b74,0x0
+ 8048514:	mov    DWORD PTR [esp],0x0
+ 804851b:	call   8048348 <time@plt>
+ 8048520:	mov    DWORD PTR [esp],eax
+ 8048523:	call   8048388 <srand@plt>
+ 8048528:	mov    DWORD PTR ds:0x8049b70,0x5
+ 8048532:	call   80483a8 <rand@plt>
+ 8048537:	mov    ecx,eax
+ 8048539:	mov    eax,0x84210843
+ 804853e:	imul   ecx
+ 8048540:	lea    eax,[edx+ecx*1]
+ 8048543:	mov    edx,eax
+ 8048545:	sar    edx,0x5
+ 8048548:	mov    eax,ecx
+ 804854a:	sar    eax,0x1f
+ 804854d:	sub    edx,eax
+ 804854f:	mov    eax,edx
+ 8048551:	mov    ds:0x8049aa8,eax
+ 8048556:	mov    edx,DWORD PTR ds:0x8049aa8
+ 804855c:	mov    eax,edx
+ 804855e:	shl    eax,0x5
+ 8048561:	sub    eax,edx
+ 8048563:	add    eax,eax
+ 8048565:	sub    ecx,eax
+ 8048567:	mov    eax,ecx
+ 8048569:	mov    ds:0x8049aa8,eax
+ 804856e:	cmp    DWORD PTR [ebp+0x8],0x2
+ 8048572:	je     804858e <main+0xba>
+ 8048574:	mov    eax,DWORD PTR [ebp+0xc]
+ 8048577:	mov    eax,DWORD PTR [eax]
+ 8048579:	mov    DWORD PTR [esp+0x4],eax
+ 804857d:	mov    DWORD PTR [esp],0x80488a0
+ 8048584:	call   8048378 <printf@plt>
+ 8048589:	jmp    80487a6 <main+0x2d2>
+ 804858e:	mov    DWORD PTR [esp],0x80488c9
+ 8048595:	call   8048378 <printf@plt>
+ 804859a:	mov    eax,DWORD PTR [ebp+0xc]
+ 804859d:	add    eax,0x4
+ 80485a0:	mov    eax,DWORD PTR [eax]
+ 80485a2:	mov    DWORD PTR [esp],eax
+ 80485a5:	call   8048358 <strlen@plt>
+ 80485aa:	cmp    eax,0x3
+ 80485ad:	ja     80485c8 <main+0xf4>
+ 80485af:	mov    DWORD PTR [esp+0x4],0x4
+ 80485b7:	mov    DWORD PTR [esp],0x80488d6
+ 80485be:	call   8048378 <printf@plt>
+ 80485c3:	jmp    804879d <main+0x2c9>
+ 80485c8:	mov    eax,DWORD PTR [ebp+0xc]
+ 80485cb:	add    eax,0x4
+ 80485ce:	mov    eax,DWORD PTR [eax]
+ 80485d0:	mov    DWORD PTR [esp],eax
+ 80485d3:	call   8048358 <strlen@plt>
+ 80485d8:	cmp    eax,0x4f
+ 80485db:	jbe    8048609 <main+0x135>
+ 80485dd:	mov    DWORD PTR ds:0x8049aac,0x50
+ 80485e7:	mov    DWORD PTR [esp+0x8],0x50
+ 80485ef:	mov    eax,DWORD PTR [ebp+0xc]
+ 80485f2:	add    eax,0x4
+ 80485f5:	mov    eax,DWORD PTR [eax]
+ 80485f7:	mov    DWORD PTR [esp+0x4],eax
+ 80485fb:	mov    DWORD PTR [esp],0x8049ac0
+ 8048602:	call   8048398 <strncpy@plt>
+ 8048607:	jmp    804863e <main+0x16a>
+ 8048609:	mov    eax,DWORD PTR [ebp+0xc]
+ 804860c:	add    eax,0x4
+ 804860f:	mov    eax,DWORD PTR [eax]
+ 8048611:	mov    DWORD PTR [esp],eax
+ 8048614:	call   8048358 <strlen@plt>
+ 8048619:	mov    ds:0x8049aac,eax
+ 804861e:	mov    DWORD PTR [esp+0x8],0x50
+ 8048626:	mov    eax,DWORD PTR [ebp+0xc]
+ 8048629:	add    eax,0x4
+ 804862c:	mov    eax,DWORD PTR [eax]
+ 804862e:	mov    DWORD PTR [esp+0x4],eax
+ 8048632:	mov    DWORD PTR [esp],0x8049ac0
+ 8048639:	call   8048398 <strncpy@plt>
+ 804863e:	mov    DWORD PTR ds:0x8049b10,0x0
+ 8048648:	mov    eax,ds:0x8049b10
+ 804864d:	cmp    eax,DWORD PTR ds:0x8049aac
+ 8048653:	jle    8048657 <main+0x183>
+ 8048655:	jmp    804866c <main+0x198>
+ 8048657:	mov    eax,ds:0x8049b10
+ 804865c:	add    eax,0x8049b20
+ 8048661:	mov    BYTE PTR [eax],0x30
+ 8048664:	inc    DWORD PTR ds:0x8049b10
+ 804866a:	jmp    8048648 <main+0x174>
+ 804866c:	mov    eax,ds:0x8049aac
+ 8048671:	add    eax,0x8049b21
+ 8048676:	mov    BYTE PTR [eax],0x0
+ 8048679:	mov    DWORD PTR ds:0x8049b10,0x0
+ 8048683:	mov    eax,ds:0x8049aa8
+ 8048688:	add    eax,0x8049a40
+ 804868d:	movzx  eax,BYTE PTR [eax]
+ 8048690:	mov    ds:0x8049b21,al
+ 8048695:	mov    DWORD PTR ds:0x8049b10,0x0
+ 804869f:	mov    eax,ds:0x8049b10
+ 80486a4:	cmp    eax,DWORD PTR ds:0x8049aac
+ 80486aa:	jl     80486b1 <main+0x1dd>
+ 80486ac:	jmp    804877c <main+0x2a8>
+ 80486b1:	mov    eax,ds:0x8049aac
+ 80486b6:	mov    DWORD PTR [esp+0x4],eax
+ 80486ba:	mov    eax,ds:0x8049ab4
+ 80486bf:	add    eax,DWORD PTR ds:0x8049aa0
+ 80486c5:	mov    DWORD PTR [esp],eax
+ 80486c8:	call   8048484 <vacia>
+ 80486cd:	mov    ds:0x8049aa0,eax
+ 80486d2:	mov    DWORD PTR ds:0x8049aa4,0x0
+ 80486dc:	mov    DWORD PTR [esp],0x8049a40
+ 80486e3:	call   8048358 <strlen@plt>
+ 80486e8:	cmp    DWORD PTR ds:0x8049aa4,eax
+ 80486ee:	jb     80486f2 <main+0x21e>
+ 80486f0:	jmp    8048719 <main+0x245>
+ 80486f2:	mov    eax,ds:0x8049aa4
+ 80486f7:	add    eax,0x8049a40
+ 80486fc:	mov    edx,DWORD PTR ds:0x8049b74
+ 8048702:	add    edx,0x8049ac0
+ 8048708:	movzx  eax,BYTE PTR [eax]
+ 804870b:	cmp    al,BYTE PTR [edx]
+ 804870d:	jne    8048711 <main+0x23d>
+ 804870f:	jmp    8048719 <main+0x245>
+ 8048711:	inc    DWORD PTR ds:0x8049aa4
+ 8048717:	jmp    80486dc <main+0x208>
+ 8048719:	mov    ebx,DWORD PTR ds:0x8049aa0
+ 804871f:	add    ebx,0x8049b20
+ 8048725:	mov    eax,ds:0x8049aa8
+ 804872a:	add    eax,DWORD PTR ds:0x8049aa4
+ 8048730:	mov    ecx,eax
+ 8048732:	add    ecx,DWORD PTR ds:0x8049b70
+ 8048738:	mov    eax,0x84210843
+ 804873d:	imul   ecx
+ 804873f:	lea    eax,[edx+ecx*1]
+ 8048742:	mov    edx,eax
+ 8048744:	sar    edx,0x5
+ 8048747:	mov    eax,ecx
+ 8048749:	sar    eax,0x1f
+ 804874c:	sub    edx,eax
+ 804874e:	mov    eax,edx
+ 8048750:	shl    eax,0x5
+ 8048753:	sub    eax,edx
+ 8048755:	add    eax,eax
+ 8048757:	sub    ecx,eax
+ 8048759:	mov    eax,ecx
+ 804875b:	movzx  eax,BYTE PTR [eax+0x8049a40]
+ 8048762:	mov    BYTE PTR [ebx],al
+ 8048764:	inc    DWORD PTR ds:0x8049b74
+ 804876a:	add    DWORD PTR ds:0x8049b70,0x5
+ 8048771:	inc    DWORD PTR ds:0x8049b10
+ 8048777:	jmp    804869f <main+0x1cb>
+ 804877c:	mov    eax,ds:0x8049aac
+ 8048781:	add    eax,0x8049b21
+ 8048786:	mov    BYTE PTR [eax],0x0
+ 8048789:	mov    DWORD PTR [esp+0x4],0x8049b20
+ 8048791:	mov    DWORD PTR [esp],0x80488ee
+ 8048798:	call   8048378 <printf@plt>
+ 804879d:	mov    DWORD PTR [ebp-0xc],0x0
+ 80487a4:	jmp    80487a6 <main+0x2d2>
+ 80487a6:	mov    eax,DWORD PTR [ebp-0xc]
+ 80487a9:	mov    ebx,DWORD PTR [ebp-0x4]
+ 80487ac:	leave
+ 80487ad:	ret
+ 80487ae:	nop
+ 80487af:	nop
+
