@@ -255,6 +255,9 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 227 | [crackme_1_1 by fr1c](5ab77f5533c5d40ad448c24c/) | fr1c | Windows PE32 C++ Builder GUI | serial constant `LStrCmp(Edit1.Text, "F988f91")` ; nom non demandé ; **petik (ignoré) → F988f91** (wine : Very good!) |
 | 228 | [crackme_3 by fr1c](5ab77f5533c5d40ad448c24d/) | fr1c | Windows PE32 VB5 natif GUI | `Open "crackme3.key"` + `Input #1` + `__vbaVarTstEq` vs `98765432112345` ; **fichier → REGISTERED** (wine) |
 
+| 229 | [fjlj_crackme_2 by fjlj](5ab77f5533c5d40ad448c252/) | fjlj | Windows PE32 MinGW console, SMC | SMC @ `0x43F200+sum8(name)` ; `checksum(serial)+0x4D6 == SMC` ; **petik→UM** (wine) |
+| 230 | [fjlj_crackme_3 by fjlj](5ab77f5533c5d40ad448c253/) | fjlj | Windows PE32 MinGW console | serial = weird_hex(`0x401404+Σname`) ‖ alphabet_index ; **petik→1612BDBE** (wine) |
+
 ## Mis de côté (PARKED — y revenir)
 
 | Titre | ID | Blocage / reprise |

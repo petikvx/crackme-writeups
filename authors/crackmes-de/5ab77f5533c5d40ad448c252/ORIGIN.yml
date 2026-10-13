@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c252
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c252
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c252
+
+title: "crackmes.de's fjlj_crackme_2 by fjlj"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler (MinGW NOP sled / Olly)"
+
+difficulty: 2.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/FJLJ_CrackMe#2.zip"
+  name: "FJLJ_CrackMe#2.zip"
+  sha256: "ebdd4c2fa5da2b1984dd2f174660927a86fb27a593a14a3894dd2569388fdaef"
+  md5: "4bc1e6b205c5c58473b9eed2158ca573"
+  size_bytes: 130356
+
+status: solved
+solution_summary: "SMC @ 0x43F200+sum8(name) ; checksum(serial)+0x4D6 == SMC ; petik→UM"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-13T06:51:08Z"
