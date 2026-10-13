@@ -1,0 +1,24 @@
+== petik / ska5413360
+  ctl ThunderRT6TextBox [] y=77 x=115
+  ctl ThunderRT6TextBox [] y=45 x=99
+  ctl ThunderRT6CommandButton [Registrer] y=109 x=115
+  fenetre (#32770) : CrackMe
+    [OK]
+    [Cancel]
+    [Good, this version is registrered !]
+== petik / ska5413361
+  ctl ThunderRT6TextBox [] y=77 x=115
+  ctl ThunderRT6TextBox [] y=45 x=99
+  ctl ThunderRT6CommandButton [Registrer] y=109 x=115
+  fenetre (#32770) : CrackMe
+    [OK]
+    [Cancel]
+    [Sorry, password Incorrect]
+== crackmesone / ska841297575
+  ctl ThunderRT6TextBox [] y=77 x=115
+  ctl ThunderRT6TextBox [] y=45 x=99
+  ctl ThunderRT6CommandButton [Registrer] y=109 x=115
+  fenetre (#32770) : CrackMe
+    [OK]
+    [Cancel]
+    [Good, this version is registrered !]

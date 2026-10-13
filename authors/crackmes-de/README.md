@@ -244,6 +244,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 216 | [cyclone by double_zer0](5ab77f5533c5d40ad448c22e/) | double_zer0 | Windows PE32 ASM console | anti-debug callback TLS `0x401070` (`CloseHandle(0x3039)` sous SEH) ; `scanf("%d")` puis `ror(v,17) == 0x554F0000` → `v = rol(0x554F0000,17)` ; `43678` (wine) |
 | 217 | [flatlines_crackme_1 by flatline](5ab77f5533c5d40ad448c22f/) | flatline | Windows PE32 Delphi 2010 GUI | `h = sha1_hex(nom)` privé de chaque car. du nom (`StringReplace`, `rfIgnoreCase`) ; `Trim(serial) == AnsiUpperCase(h)` ; `petik` -> `CA5DF7F105D63588C60ABB69A52014FCF927C95` (wine) |
 | 218 | [ncn by eslimasec](5ab77f5533c5d40ad448c230/) | eslimasec | Linux ELF32 C (GCC 3.4) | chiffreur : `SEMILLA = rand()%62` en clair dans `cifred[1]`, case suivante = 1re libre à `newpos+3` (circulaire), `min[(SEMILLA+idx(c)+5k)%62]` ; Readme -> `Esto no es una contrasena cifrada cualquiera, sino una especial` (binaire, `rand()` figé) |
+| 219 | [renascense_crackme by skapunky](5ab77f5533c5d40ad448c233/) | skapunky | Windows PE32 VB6 natif GUI | `On Error Resume Next` ; `a(i)=Asc(Mid(ID,i+1,1))` i=0..7 (manquants = 0) ; password = `"ska" & Σa(i) & a(0)*3 & a(7)*5` ; `petik` → `ska5413360` (wine) |
 
 ## Mis de côté (PARKED — y revenir)
 

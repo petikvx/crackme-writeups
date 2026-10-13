@@ -1,0 +1,1215 @@
+  409701:	50                   	push   eax
+  409702:	64 89 25 00 00 00 00 	mov    DWORD PTR fs:0x0,esp
+  409709:	b8 04 02 00 00       	mov    eax,0x204
+  40970e:	e8 6d 7a ff ff       	call   0x401180
+  409713:	53                   	push   ebx
+  409714:	56                   	push   esi
+  409715:	57                   	push   edi
+  409716:	89 65 e8             	mov    DWORD PTR [ebp-0x18],esp
+  409719:	c7 45 ec e0 10 40 00 	mov    DWORD PTR [ebp-0x14],0x4010e0
+  409720:	8b 45 08             	mov    eax,DWORD PTR [ebp+0x8]
+  409723:	83 e0 01             	and    eax,0x1
+  409726:	89 45 f0             	mov    DWORD PTR [ebp-0x10],eax
+  409729:	8b 4d 08             	mov    ecx,DWORD PTR [ebp+0x8]
+  40972c:	83 e1 fe             	and    ecx,0xfffffffe
+  40972f:	89 4d 08             	mov    DWORD PTR [ebp+0x8],ecx
+  409732:	c7 45 f4 00 00 00 00 	mov    DWORD PTR [ebp-0xc],0x0
+  409739:	8b 55 08             	mov    edx,DWORD PTR [ebp+0x8]
+  40973c:	8b 02                	mov    eax,DWORD PTR [edx]
+  40973e:	8b 4d 08             	mov    ecx,DWORD PTR [ebp+0x8]
+  409741:	51                   	push   ecx
+  409742:	ff 50 04             	call   DWORD PTR [eax+0x4]
+  409745:	c7 45 fc 01 00 00 00 	mov    DWORD PTR [ebp-0x4],0x1
+  40974c:	6a 08                	push   0x8
+  40974e:	68 c8 8f 40 00       	push   0x408fc8
+  409753:	8d 55 c0             	lea    edx,[ebp-0x40]
+  409756:	52                   	push   edx
+  409757:	ff 15 6c 10 40 00    	call   DWORD PTR ds:0x40106c   ; __vbaAryConstruct2
+  40975d:	6a 0c                	push   0xc
+  40975f:	68 e4 8f 40 00       	push   0x408fe4
+  409764:	8d 45 90             	lea    eax,[ebp-0x70]
+  409767:	50                   	push   eax
+  409768:	ff 15 6c 10 40 00    	call   DWORD PTR ds:0x40106c   ; __vbaAryConstruct2
+  40976e:	c7 45 fc 02 00 00 00 	mov    DWORD PTR [ebp-0x4],0x2
+  409775:	8b 4d 08             	mov    ecx,DWORD PTR [ebp+0x8]
+  409778:	8b 11                	mov    edx,DWORD PTR [ecx]
+  40977a:	8b 45 08             	mov    eax,DWORD PTR [ebp+0x8]
+  40977d:	50                   	push   eax
+  40977e:	ff 92 00 03 00 00    	call   DWORD PTR [edx+0x300]
+  409784:	50                   	push   eax
+  409785:	8d 8d 60 ff ff ff    	lea    ecx,[ebp-0xa0]
+  40978b:	51                   	push   ecx
+  40978c:	ff 15 40 10 40 00    	call   DWORD PTR ds:0x401040   ; __vbaObjSet
+  409792:	89 85 a4 fe ff ff    	mov    DWORD PTR [ebp-0x15c],eax
+  409798:	8d 95 70 ff ff ff    	lea    edx,[ebp-0x90]
+  40979e:	52                   	push   edx
+  40979f:	8b 85 a4 fe ff ff    	mov    eax,DWORD PTR [ebp-0x15c]
+  4097a5:	8b 08                	mov    ecx,DWORD PTR [eax]
+  4097a7:	8b 95 a4 fe ff ff    	mov    edx,DWORD PTR [ebp-0x15c]
+  4097ad:	52                   	push   edx
+  4097ae:	ff 91 a0 00 00 00    	call   DWORD PTR [ecx+0xa0]
+  4097b4:	db e2                	fnclex
+  4097b6:	89 85 a0 fe ff ff    	mov    DWORD PTR [ebp-0x160],eax
+  4097bc:	83 bd a0 fe ff ff 00 	cmp    DWORD PTR [ebp-0x160],0x0
+  4097c3:	7d 26                	jge    0x4097eb
+  4097c5:	68 a0 00 00 00       	push   0xa0
+  4097ca:	68 10 8f 40 00       	push   0x408f10
+  4097cf:	8b 85 a4 fe ff ff    	mov    eax,DWORD PTR [ebp-0x15c]
+  4097d5:	50                   	push   eax
+  4097d6:	8b 8d a0 fe ff ff    	mov    ecx,DWORD PTR [ebp-0x160]
+  4097dc:	51                   	push   ecx
+  4097dd:	ff 15 34 10 40 00    	call   DWORD PTR ds:0x401034   ; __vbaHresultCheckObj
+  4097e3:	89 85 68 fe ff ff    	mov    DWORD PTR [ebp-0x198],eax
+  4097e9:	eb 0a                	jmp    0x4097f5
+  4097eb:	c7 85 68 fe ff ff 00 	mov    DWORD PTR [ebp-0x198],0x0
+  4097f2:	00 00 00 
+  4097f5:	8b 95 70 ff ff ff    	mov    edx,DWORD PTR [ebp-0x90]
+  4097fb:	89 95 70 fe ff ff    	mov    DWORD PTR [ebp-0x190],edx
+  409801:	c7 85 70 ff ff ff 00 	mov    DWORD PTR [ebp-0x90],0x0
+  409808:	00 00 00 
+  40980b:	8b 85 70 fe ff ff    	mov    eax,DWORD PTR [ebp-0x190]
+  409811:	89 85 58 ff ff ff    	mov    DWORD PTR [ebp-0xa8],eax
+  409817:	c7 85 50 ff ff ff 08 	mov    DWORD PTR [ebp-0xb0],0x8
+  40981e:	00 00 00 
+  409821:	8d 95 50 ff ff ff    	lea    edx,[ebp-0xb0]
+  409827:	8d 8d 74 ff ff ff    	lea    ecx,[ebp-0x8c]
+  40982d:	ff 15 0c 10 40 00    	call   DWORD PTR ds:0x40100c   ; __vbaVarMove
+  409833:	8d 8d 60 ff ff ff    	lea    ecx,[ebp-0xa0]
+  409839:	ff 15 d4 10 40 00    	call   DWORD PTR ds:0x4010d4   ; __vbaFreeObj
+  40983f:	c7 45 fc 03 00 00 00 	mov    DWORD PTR [ebp-0x4],0x3
+  409846:	8b 4d 08             	mov    ecx,DWORD PTR [ebp+0x8]
+  409849:	8b 11                	mov    edx,DWORD PTR [ecx]
+  40984b:	8b 45 08             	mov    eax,DWORD PTR [ebp+0x8]
+  40984e:	50                   	push   eax
+  40984f:	ff 92 fc 02 00 00    	call   DWORD PTR [edx+0x2fc]
+  409855:	50                   	push   eax
+  409856:	8d 8d 60 ff ff ff    	lea    ecx,[ebp-0xa0]
+  40985c:	51                   	push   ecx
+  40985d:	ff 15 40 10 40 00    	call   DWORD PTR ds:0x401040   ; __vbaObjSet
+  409863:	89 85 a4 fe ff ff    	mov    DWORD PTR [ebp-0x15c],eax
+  409869:	8d 95 70 ff ff ff    	lea    edx,[ebp-0x90]
+  40986f:	52                   	push   edx
+  409870:	8b 85 a4 fe ff ff    	mov    eax,DWORD PTR [ebp-0x15c]
+  409876:	8b 08                	mov    ecx,DWORD PTR [eax]
+  409878:	8b 95 a4 fe ff ff    	mov    edx,DWORD PTR [ebp-0x15c]
+  40987e:	52                   	push   edx
+  40987f:	ff 91 a0 00 00 00    	call   DWORD PTR [ecx+0xa0]
+  409885:	db e2                	fnclex
+  409887:	89 85 a0 fe ff ff    	mov    DWORD PTR [ebp-0x160],eax
+  40988d:	83 bd a0 fe ff ff 00 	cmp    DWORD PTR [ebp-0x160],0x0
+  409894:	7d 26                	jge    0x4098bc
+  409896:	68 a0 00 00 00       	push   0xa0
+  40989b:	68 10 8f 40 00       	push   0x408f10
+  4098a0:	8b 85 a4 fe ff ff    	mov    eax,DWORD PTR [ebp-0x15c]
+  4098a6:	50                   	push   eax
+  4098a7:	8b 8d a0 fe ff ff    	mov    ecx,DWORD PTR [ebp-0x160]
+  4098ad:	51                   	push   ecx
+  4098ae:	ff 15 34 10 40 00    	call   DWORD PTR ds:0x401034   ; __vbaHresultCheckObj
+  4098b4:	89 85 64 fe ff ff    	mov    DWORD PTR [ebp-0x19c],eax
+  4098ba:	eb 0a                	jmp    0x4098c6
+  4098bc:	c7 85 64 fe ff ff 00 	mov    DWORD PTR [ebp-0x19c],0x0
+  4098c3:	00 00 00 
+  4098c6:	8b 95 70 ff ff ff    	mov    edx,DWORD PTR [ebp-0x90]
+  4098cc:	89 95 6c fe ff ff    	mov    DWORD PTR [ebp-0x194],edx
+  4098d2:	c7 85 70 ff ff ff 00 	mov    DWORD PTR [ebp-0x90],0x0
+  4098d9:	00 00 00 
+  4098dc:	8b 95 6c fe ff ff    	mov    edx,DWORD PTR [ebp-0x194]
+  4098e2:	8d 4d 84             	lea    ecx,[ebp-0x7c]
+  4098e5:	ff 15 c4 10 40 00    	call   DWORD PTR ds:0x4010c4   ; __vbaStrMove
+  4098eb:	8d 8d 60 ff ff ff    	lea    ecx,[ebp-0xa0]
+  4098f1:	ff 15 d4 10 40 00    	call   DWORD PTR ds:0x4010d4   ; __vbaFreeObj
+  4098f7:	c7 45 fc 04 00 00 00 	mov    DWORD PTR [ebp-0x4],0x4
+  4098fe:	6a ff                	push   0xffffffff
+  409900:	ff 15 44 10 40 00    	call   DWORD PTR ds:0x401044   ; __vbaOnError
+  409906:	c7 45 fc 05 00 00 00 	mov    DWORD PTR [ebp-0x4],0x5
+  40990d:	c7 85 58 ff ff ff 01 	mov    DWORD PTR [ebp-0xa8],0x1
+  409914:	00 00 00 
+  409917:	c7 85 50 ff ff ff 02 	mov    DWORD PTR [ebp-0xb0],0x2
+  40991e:	00 00 00 
+  409921:	8d 85 50 ff ff ff    	lea    eax,[ebp-0xb0]
+  409927:	50                   	push   eax
+  409928:	6a 01                	push   0x1
+  40992a:	8d 8d 74 ff ff ff    	lea    ecx,[ebp-0x8c]
+  409930:	51                   	push   ecx
+  409931:	8d 95 40 ff ff ff    	lea    edx,[ebp-0xc0]
+  409937:	52                   	push   edx
+  409938:	ff 15 58 10 40 00    	call   DWORD PTR ds:0x401058   ; ord632
+  40993e:	c7 85 a4 fe ff ff 00 	mov    DWORD PTR [ebp-0x15c],0x0
+  409945:	00 00 00 
+  409948:	83 bd a4 fe ff ff 08 	cmp    DWORD PTR [ebp-0x15c],0x8
+  40994f:	73 0c                	jae    0x40995d
+  409951:	c7 85 60 fe ff ff 00 	mov    DWORD PTR [ebp-0x1a0],0x0
+  409958:	00 00 00 
+  40995b:	eb 0c                	jmp    0x409969
+  40995d:	ff 15 64 10 40 00    	call   DWORD PTR ds:0x401064   ; __vbaGenerateBoundsError
+  409963:	89 85 60 fe ff ff    	mov    DWORD PTR [ebp-0x1a0],eax
+  409969:	8d 85 40 ff ff ff    	lea    eax,[ebp-0xc0]
+  40996f:	50                   	push   eax
+  409970:	ff 15 18 10 40 00    	call   DWORD PTR ds:0x401018   ; __vbaStrVarMove
+  409976:	8b d0                	mov    edx,eax
+  409978:	8d 8d 70 ff ff ff    	lea    ecx,[ebp-0x90]
+  40997e:	ff 15 c4 10 40 00    	call   DWORD PTR ds:0x4010c4   ; __vbaStrMove
+  409984:	8b d0                	mov    edx,eax
+  409986:	8b 8d a4 fe ff ff    	mov    ecx,DWORD PTR [ebp-0x15c]
+  40998c:	8b 45 cc             	mov    eax,DWORD PTR [ebp-0x34]
+  40998f:	8d 0c 88             	lea    ecx,[eax+ecx*4]
+  409992:	ff 15 a4 10 40 00    	call   DWORD PTR ds:0x4010a4   ; __vbaStrCopy
+  409998:	8d 8d 70 ff ff ff    	lea    ecx,[ebp-0x90]
+  40999e:	ff 15 d8 10 40 00    	call   DWORD PTR ds:0x4010d8   ; __vbaFreeStr
+  4099a4:	8d 8d 40 ff ff ff    	lea    ecx,[ebp-0xc0]
+  4099aa:	51                   	push   ecx
+  4099ab:	8d 95 50 ff ff ff    	lea    edx,[ebp-0xb0]
+  4099b1:	52                   	push   edx
+  4099b2:	6a 02                	push   0x2
+  4099b4:	ff 15 1c 10 40 00    	call   DWORD PTR ds:0x40101c   ; __vbaFreeVarList
+  4099ba:	83 c4 0c             	add    esp,0xc
+  4099bd:	c7 45 fc 06 00 00 00 	mov    DWORD PTR [ebp-0x4],0x6
+  4099c4:	c7 85 58 ff ff ff 01 	mov    DWORD PTR [ebp-0xa8],0x1
+  4099cb:	00 00 00 
+  4099ce:	c7 85 50 ff ff ff 02 	mov    DWORD PTR [ebp-0xb0],0x2
+  4099d5:	00 00 00 
+  4099d8:	8d 85 50 ff ff ff    	lea    eax,[ebp-0xb0]
+  4099de:	50                   	push   eax
+  4099df:	6a 02                	push   0x2
+  4099e1:	8d 8d 74 ff ff ff    	lea    ecx,[ebp-0x8c]
+  4099e7:	51                   	push   ecx
+  4099e8:	8d 95 40 ff ff ff    	lea    edx,[ebp-0xc0]
+  4099ee:	52                   	push   edx
+  4099ef:	ff 15 58 10 40 00    	call   DWORD PTR ds:0x401058   ; ord632
+  4099f5:	c7 85 a4 fe ff ff 01 	mov    DWORD PTR [ebp-0x15c],0x1
+  4099fc:	00 00 00 
+  4099ff:	83 bd a4 fe ff ff 08 	cmp    DWORD PTR [ebp-0x15c],0x8
+  409a06:	73 0c                	jae    0x409a14
+  409a08:	c7 85 5c fe ff ff 00 	mov    DWORD PTR [ebp-0x1a4],0x0
+  409a0f:	00 00 00 
+  409a12:	eb 0c                	jmp    0x409a20
+  409a14:	ff 15 64 10 40 00    	call   DWORD PTR ds:0x401064   ; __vbaGenerateBoundsError
+  409a1a:	89 85 5c fe ff ff    	mov    DWORD PTR [ebp-0x1a4],eax
+  409a20:	8d 85 40 ff ff ff    	lea    eax,[ebp-0xc0]
+  409a26:	50                   	push   eax
+  409a27:	ff 15 18 10 40 00    	call   DWORD PTR ds:0x401018   ; __vbaStrVarMove
+  409a2d:	8b d0                	mov    edx,eax
+  409a2f:	8d 8d 70 ff ff ff    	lea    ecx,[ebp-0x90]
+  409a35:	ff 15 c4 10 40 00    	call   DWORD PTR ds:0x4010c4   ; __vbaStrMove
+  409a3b:	8b d0                	mov    edx,eax
+  409a3d:	8b 8d a4 fe ff ff    	mov    ecx,DWORD PTR [ebp-0x15c]
+  409a43:	8b 45 cc             	mov    eax,DWORD PTR [ebp-0x34]
+  409a46:	8d 0c 88             	lea    ecx,[eax+ecx*4]
+  409a49:	ff 15 a4 10 40 00    	call   DWORD PTR ds:0x4010a4   ; __vbaStrCopy
+  409a4f:	8d 8d 70 ff ff ff    	lea    ecx,[ebp-0x90]
+  409a55:	ff 15 d8 10 40 00    	call   DWORD PTR ds:0x4010d8   ; __vbaFreeStr
+  409a5b:	8d 8d 40 ff ff ff    	lea    ecx,[ebp-0xc0]
+  409a61:	51                   	push   ecx
+  409a62:	8d 95 50 ff ff ff    	lea    edx,[ebp-0xb0]
+  409a68:	52                   	push   edx
+  409a69:	6a 02                	push   0x2
+  409a6b:	ff 15 1c 10 40 00    	call   DWORD PTR ds:0x40101c   ; __vbaFreeVarList
+  409a71:	83 c4 0c             	add    esp,0xc
+  409a74:	c7 45 fc 07 00 00 00 	mov    DWORD PTR [ebp-0x4],0x7
+  409a7b:	c7 85 58 ff ff ff 01 	mov    DWORD PTR [ebp-0xa8],0x1
+  409a82:	00 00 00 
+  409a85:	c7 85 50 ff ff ff 02 	mov    DWORD PTR [ebp-0xb0],0x2
+  409a8c:	00 00 00 
+  409a8f:	8d 85 50 ff ff ff    	lea    eax,[ebp-0xb0]
+  409a95:	50                   	push   eax
+  409a96:	6a 03                	push   0x3
+  409a98:	8d 8d 74 ff ff ff    	lea    ecx,[ebp-0x8c]
+  409a9e:	51                   	push   ecx
+  409a9f:	8d 95 40 ff ff ff    	lea    edx,[ebp-0xc0]
+  409aa5:	52                   	push   edx
+  409aa6:	ff 15 58 10 40 00    	call   DWORD PTR ds:0x401058   ; ord632
+  409aac:	c7 85 a4 fe ff ff 02 	mov    DWORD PTR [ebp-0x15c],0x2
+  409ab3:	00 00 00 
+  409ab6:	83 bd a4 fe ff ff 08 	cmp    DWORD PTR [ebp-0x15c],0x8
+  409abd:	73 0c                	jae    0x409acb
+  409abf:	c7 85 58 fe ff ff 00 	mov    DWORD PTR [ebp-0x1a8],0x0
+  409ac6:	00 00 00 
+  409ac9:	eb 0c                	jmp    0x409ad7
+  409acb:	ff 15 64 10 40 00    	call   DWORD PTR ds:0x401064   ; __vbaGenerateBoundsError
+  409ad1:	89 85 58 fe ff ff    	mov    DWORD PTR [ebp-0x1a8],eax
+  409ad7:	8d 85 40 ff ff ff    	lea    eax,[ebp-0xc0]
+  409add:	50                   	push   eax
+  409ade:	ff 15 18 10 40 00    	call   DWORD PTR ds:0x401018   ; __vbaStrVarMove
+  409ae4:	8b d0                	mov    edx,eax
+  409ae6:	8d 8d 70 ff ff ff    	lea    ecx,[ebp-0x90]
+  409aec:	ff 15 c4 10 40 00    	call   DWORD PTR ds:0x4010c4   ; __vbaStrMove
+  409af2:	8b d0                	mov    edx,eax
+  409af4:	8b 8d a4 fe ff ff    	mov    ecx,DWORD PTR [ebp-0x15c]
+  409afa:	8b 45 cc             	mov    eax,DWORD PTR [ebp-0x34]
+  409afd:	8d 0c 88             	lea    ecx,[eax+ecx*4]
+  409b00:	ff 15 a4 10 40 00    	call   DWORD PTR ds:0x4010a4   ; __vbaStrCopy
+  409b06:	8d 8d 70 ff ff ff    	lea    ecx,[ebp-0x90]
+  409b0c:	ff 15 d8 10 40 00    	call   DWORD PTR ds:0x4010d8   ; __vbaFreeStr
+  409b12:	8d 8d 40 ff ff ff    	lea    ecx,[ebp-0xc0]
+  409b18:	51                   	push   ecx
+  409b19:	8d 95 50 ff ff ff    	lea    edx,[ebp-0xb0]
+  409b1f:	52                   	push   edx
+  409b20:	6a 02                	push   0x2
+  409b22:	ff 15 1c 10 40 00    	call   DWORD PTR ds:0x40101c   ; __vbaFreeVarList
+  409b28:	83 c4 0c             	add    esp,0xc
+  409b2b:	c7 45 fc 08 00 00 00 	mov    DWORD PTR [ebp-0x4],0x8
+  409b32:	c7 85 58 ff ff ff 01 	mov    DWORD PTR [ebp-0xa8],0x1
+  409b39:	00 00 00 
+  409b3c:	c7 85 50 ff ff ff 02 	mov    DWORD PTR [ebp-0xb0],0x2
+  409b43:	00 00 00 
+  409b46:	8d 85 50 ff ff ff    	lea    eax,[ebp-0xb0]
+  409b4c:	50                   	push   eax
+  409b4d:	6a 04                	push   0x4
+  409b4f:	8d 8d 74 ff ff ff    	lea    ecx,[ebp-0x8c]
+  409b55:	51                   	push   ecx
+  409b56:	8d 95 40 ff ff ff    	lea    edx,[ebp-0xc0]
+  409b5c:	52                   	push   edx
+  409b5d:	ff 15 58 10 40 00    	call   DWORD PTR ds:0x401058   ; ord632
+  409b63:	c7 85 a4 fe ff ff 03 	mov    DWORD PTR [ebp-0x15c],0x3
+  409b6a:	00 00 00 
+  409b6d:	83 bd a4 fe ff ff 08 	cmp    DWORD PTR [ebp-0x15c],0x8
+  409b74:	73 0c                	jae    0x409b82
+  409b76:	c7 85 54 fe ff ff 00 	mov    DWORD PTR [ebp-0x1ac],0x0
+  409b7d:	00 00 00 
+  409b80:	eb 0c                	jmp    0x409b8e
+  409b82:	ff 15 64 10 40 00    	call   DWORD PTR ds:0x401064   ; __vbaGenerateBoundsError
+  409b88:	89 85 54 fe ff ff    	mov    DWORD PTR [ebp-0x1ac],eax
+  409b8e:	8d 85 40 ff ff ff    	lea    eax,[ebp-0xc0]
+  409b94:	50                   	push   eax
+  409b95:	ff 15 18 10 40 00    	call   DWORD PTR ds:0x401018   ; __vbaStrVarMove
+  409b9b:	8b d0                	mov    edx,eax
+  409b9d:	8d 8d 70 ff ff ff    	lea    ecx,[ebp-0x90]
+  409ba3:	ff 15 c4 10 40 00    	call   DWORD PTR ds:0x4010c4   ; __vbaStrMove
+  409ba9:	8b d0                	mov    edx,eax
+  409bab:	8b 8d a4 fe ff ff    	mov    ecx,DWORD PTR [ebp-0x15c]
+  409bb1:	8b 45 cc             	mov    eax,DWORD PTR [ebp-0x34]
+  409bb4:	8d 0c 88             	lea    ecx,[eax+ecx*4]
+  409bb7:	ff 15 a4 10 40 00    	call   DWORD PTR ds:0x4010a4   ; __vbaStrCopy
+  409bbd:	8d 8d 70 ff ff ff    	lea    ecx,[ebp-0x90]
+  409bc3:	ff 15 d8 10 40 00    	call   DWORD PTR ds:0x4010d8   ; __vbaFreeStr
+  409bc9:	8d 8d 40 ff ff ff    	lea    ecx,[ebp-0xc0]
+  409bcf:	51                   	push   ecx
+  409bd0:	8d 95 50 ff ff ff    	lea    edx,[ebp-0xb0]
+  409bd6:	52                   	push   edx
+  409bd7:	6a 02                	push   0x2
+  409bd9:	ff 15 1c 10 40 00    	call   DWORD PTR ds:0x40101c   ; __vbaFreeVarList
+  409bdf:	83 c4 0c             	add    esp,0xc
+  409be2:	c7 45 fc 09 00 00 00 	mov    DWORD PTR [ebp-0x4],0x9
+  409be9:	c7 85 58 ff ff ff 01 	mov    DWORD PTR [ebp-0xa8],0x1
+  409bf0:	00 00 00 
+  409bf3:	c7 85 50 ff ff ff 02 	mov    DWORD PTR [ebp-0xb0],0x2
+  409bfa:	00 00 00 
+  409bfd:	8d 85 50 ff ff ff    	lea    eax,[ebp-0xb0]
+  409c03:	50                   	push   eax
+  409c04:	6a 05                	push   0x5
+  409c06:	8d 8d 74 ff ff ff    	lea    ecx,[ebp-0x8c]
+  409c0c:	51                   	push   ecx
+  409c0d:	8d 95 40 ff ff ff    	lea    edx,[ebp-0xc0]
+  409c13:	52                   	push   edx
+  409c14:	ff 15 58 10 40 00    	call   DWORD PTR ds:0x401058   ; ord632
+  409c1a:	c7 85 a4 fe ff ff 04 	mov    DWORD PTR [ebp-0x15c],0x4
+  409c21:	00 00 00 
+  409c24:	83 bd a4 fe ff ff 08 	cmp    DWORD PTR [ebp-0x15c],0x8
+  409c2b:	73 0c                	jae    0x409c39
+  409c2d:	c7 85 50 fe ff ff 00 	mov    DWORD PTR [ebp-0x1b0],0x0
+  409c34:	00 00 00 
+  409c37:	eb 0c                	jmp    0x409c45
+  409c39:	ff 15 64 10 40 00    	call   DWORD PTR ds:0x401064   ; __vbaGenerateBoundsError
+  409c3f:	89 85 50 fe ff ff    	mov    DWORD PTR [ebp-0x1b0],eax
+  409c45:	8d 85 40 ff ff ff    	lea    eax,[ebp-0xc0]
+  409c4b:	50                   	push   eax
+  409c4c:	ff 15 18 10 40 00    	call   DWORD PTR ds:0x401018   ; __vbaStrVarMove
+  409c52:	8b d0                	mov    edx,eax
+  409c54:	8d 8d 70 ff ff ff    	lea    ecx,[ebp-0x90]
+  409c5a:	ff 15 c4 10 40 00    	call   DWORD PTR ds:0x4010c4   ; __vbaStrMove
+  409c60:	8b d0                	mov    edx,eax
+  409c62:	8b 8d a4 fe ff ff    	mov    ecx,DWORD PTR [ebp-0x15c]
+  409c68:	8b 45 cc             	mov    eax,DWORD PTR [ebp-0x34]
+  409c6b:	8d 0c 88             	lea    ecx,[eax+ecx*4]
+  409c6e:	ff 15 a4 10 40 00    	call   DWORD PTR ds:0x4010a4   ; __vbaStrCopy
+  409c74:	8d 8d 70 ff ff ff    	lea    ecx,[ebp-0x90]
+  409c7a:	ff 15 d8 10 40 00    	call   DWORD PTR ds:0x4010d8   ; __vbaFreeStr
+  409c80:	8d 8d 40 ff ff ff    	lea    ecx,[ebp-0xc0]
+  409c86:	51                   	push   ecx
+  409c87:	8d 95 50 ff ff ff    	lea    edx,[ebp-0xb0]
+  409c8d:	52                   	push   edx
+  409c8e:	6a 02                	push   0x2
+  409c90:	ff 15 1c 10 40 00    	call   DWORD PTR ds:0x40101c   ; __vbaFreeVarList
+  409c96:	83 c4 0c             	add    esp,0xc
+  409c99:	c7 45 fc 0a 00 00 00 	mov    DWORD PTR [ebp-0x4],0xa
+  409ca0:	c7 85 58 ff ff ff 01 	mov    DWORD PTR [ebp-0xa8],0x1
+  409ca7:	00 00 00 
+  409caa:	c7 85 50 ff ff ff 02 	mov    DWORD PTR [ebp-0xb0],0x2
+  409cb1:	00 00 00 
+  409cb4:	8d 85 50 ff ff ff    	lea    eax,[ebp-0xb0]
+  409cba:	50                   	push   eax
+  409cbb:	6a 06                	push   0x6
+  409cbd:	8d 8d 74 ff ff ff    	lea    ecx,[ebp-0x8c]
+  409cc3:	51                   	push   ecx
+  409cc4:	8d 95 40 ff ff ff    	lea    edx,[ebp-0xc0]
+  409cca:	52                   	push   edx
+  409ccb:	ff 15 58 10 40 00    	call   DWORD PTR ds:0x401058   ; ord632
+  409cd1:	c7 85 a4 fe ff ff 05 	mov    DWORD PTR [ebp-0x15c],0x5
+  409cd8:	00 00 00 
+  409cdb:	83 bd a4 fe ff ff 08 	cmp    DWORD PTR [ebp-0x15c],0x8
+  409ce2:	73 0c                	jae    0x409cf0
+  409ce4:	c7 85 4c fe ff ff 00 	mov    DWORD PTR [ebp-0x1b4],0x0
+  409ceb:	00 00 00 
+  409cee:	eb 0c                	jmp    0x409cfc
+  409cf0:	ff 15 64 10 40 00    	call   DWORD PTR ds:0x401064   ; __vbaGenerateBoundsError
+  409cf6:	89 85 4c fe ff ff    	mov    DWORD PTR [ebp-0x1b4],eax
+  409cfc:	8d 85 40 ff ff ff    	lea    eax,[ebp-0xc0]
+  409d02:	50                   	push   eax
+  409d03:	ff 15 18 10 40 00    	call   DWORD PTR ds:0x401018   ; __vbaStrVarMove
+  409d09:	8b d0                	mov    edx,eax
+  409d0b:	8d 8d 70 ff ff ff    	lea    ecx,[ebp-0x90]
+  409d11:	ff 15 c4 10 40 00    	call   DWORD PTR ds:0x4010c4   ; __vbaStrMove
+  409d17:	8b d0                	mov    edx,eax
+  409d19:	8b 8d a4 fe ff ff    	mov    ecx,DWORD PTR [ebp-0x15c]
+  409d1f:	8b 45 cc             	mov    eax,DWORD PTR [ebp-0x34]
+  409d22:	8d 0c 88             	lea    ecx,[eax+ecx*4]
+  409d25:	ff 15 a4 10 40 00    	call   DWORD PTR ds:0x4010a4   ; __vbaStrCopy
+  409d2b:	8d 8d 70 ff ff ff    	lea    ecx,[ebp-0x90]
+  409d31:	ff 15 d8 10 40 00    	call   DWORD PTR ds:0x4010d8   ; __vbaFreeStr
+  409d37:	8d 8d 40 ff ff ff    	lea    ecx,[ebp-0xc0]
+  409d3d:	51                   	push   ecx
+  409d3e:	8d 95 50 ff ff ff    	lea    edx,[ebp-0xb0]
+  409d44:	52                   	push   edx
+  409d45:	6a 02                	push   0x2
+  409d47:	ff 15 1c 10 40 00    	call   DWORD PTR ds:0x40101c   ; __vbaFreeVarList
+  409d4d:	83 c4 0c             	add    esp,0xc
+  409d50:	c7 45 fc 0b 00 00 00 	mov    DWORD PTR [ebp-0x4],0xb
+  409d57:	c7 85 58 ff ff ff 01 	mov    DWORD PTR [ebp-0xa8],0x1
+  409d5e:	00 00 00 
+  409d61:	c7 85 50 ff ff ff 02 	mov    DWORD PTR [ebp-0xb0],0x2
+  409d68:	00 00 00 
+  409d6b:	8d 85 50 ff ff ff    	lea    eax,[ebp-0xb0]
+  409d71:	50                   	push   eax
+  409d72:	6a 07                	push   0x7
+  409d74:	8d 8d 74 ff ff ff    	lea    ecx,[ebp-0x8c]
+  409d7a:	51                   	push   ecx
+  409d7b:	8d 95 40 ff ff ff    	lea    edx,[ebp-0xc0]
+  409d81:	52                   	push   edx
+  409d82:	ff 15 58 10 40 00    	call   DWORD PTR ds:0x401058   ; ord632
+  409d88:	c7 85 a4 fe ff ff 06 	mov    DWORD PTR [ebp-0x15c],0x6
+  409d8f:	00 00 00 
+  409d92:	83 bd a4 fe ff ff 08 	cmp    DWORD PTR [ebp-0x15c],0x8
+  409d99:	73 0c                	jae    0x409da7
+  409d9b:	c7 85 48 fe ff ff 00 	mov    DWORD PTR [ebp-0x1b8],0x0
+  409da2:	00 00 00 
+  409da5:	eb 0c                	jmp    0x409db3
+  409da7:	ff 15 64 10 40 00    	call   DWORD PTR ds:0x401064   ; __vbaGenerateBoundsError
+  409dad:	89 85 48 fe ff ff    	mov    DWORD PTR [ebp-0x1b8],eax
+  409db3:	8d 85 40 ff ff ff    	lea    eax,[ebp-0xc0]
+  409db9:	50                   	push   eax
+  409dba:	ff 15 18 10 40 00    	call   DWORD PTR ds:0x401018   ; __vbaStrVarMove
+  409dc0:	8b d0                	mov    edx,eax
+  409dc2:	8d 8d 70 ff ff ff    	lea    ecx,[ebp-0x90]
+  409dc8:	ff 15 c4 10 40 00    	call   DWORD PTR ds:0x4010c4   ; __vbaStrMove
+  409dce:	8b d0                	mov    edx,eax
+  409dd0:	8b 8d a4 fe ff ff    	mov    ecx,DWORD PTR [ebp-0x15c]
+  409dd6:	8b 45 cc             	mov    eax,DWORD PTR [ebp-0x34]
+  409dd9:	8d 0c 88             	lea    ecx,[eax+ecx*4]
+  409ddc:	ff 15 a4 10 40 00    	call   DWORD PTR ds:0x4010a4   ; __vbaStrCopy
+  409de2:	8d 8d 70 ff ff ff    	lea    ecx,[ebp-0x90]
+  409de8:	ff 15 d8 10 40 00    	call   DWORD PTR ds:0x4010d8   ; __vbaFreeStr
+  409dee:	8d 8d 40 ff ff ff    	lea    ecx,[ebp-0xc0]
+  409df4:	51                   	push   ecx
+  409df5:	8d 95 50 ff ff ff    	lea    edx,[ebp-0xb0]
+  409dfb:	52                   	push   edx
+  409dfc:	6a 02                	push   0x2
+  409dfe:	ff 15 1c 10 40 00    	call   DWORD PTR ds:0x40101c   ; __vbaFreeVarList
+  409e04:	83 c4 0c             	add    esp,0xc
+  409e07:	c7 45 fc 0c 00 00 00 	mov    DWORD PTR [ebp-0x4],0xc
+  409e0e:	c7 85 58 ff ff ff 01 	mov    DWORD PTR [ebp-0xa8],0x1
+  409e15:	00 00 00 
+  409e18:	c7 85 50 ff ff ff 02 	mov    DWORD PTR [ebp-0xb0],0x2
+  409e1f:	00 00 00 
+  409e22:	8d 85 50 ff ff ff    	lea    eax,[ebp-0xb0]
+  409e28:	50                   	push   eax
+  409e29:	6a 08                	push   0x8
+  409e2b:	8d 8d 74 ff ff ff    	lea    ecx,[ebp-0x8c]
+  409e31:	51                   	push   ecx
+  409e32:	8d 95 40 ff ff ff    	lea    edx,[ebp-0xc0]
+  409e38:	52                   	push   edx
+  409e39:	ff 15 58 10 40 00    	call   DWORD PTR ds:0x401058   ; ord632
+  409e3f:	c7 85 a4 fe ff ff 07 	mov    DWORD PTR [ebp-0x15c],0x7
+  409e46:	00 00 00 
+  409e49:	83 bd a4 fe ff ff 08 	cmp    DWORD PTR [ebp-0x15c],0x8
+  409e50:	73 0c                	jae    0x409e5e
+  409e52:	c7 85 44 fe ff ff 00 	mov    DWORD PTR [ebp-0x1bc],0x0
+  409e59:	00 00 00 
+  409e5c:	eb 0c                	jmp    0x409e6a
+  409e5e:	ff 15 64 10 40 00    	call   DWORD PTR ds:0x401064   ; __vbaGenerateBoundsError
+  409e64:	89 85 44 fe ff ff    	mov    DWORD PTR [ebp-0x1bc],eax
+  409e6a:	8d 85 40 ff ff ff    	lea    eax,[ebp-0xc0]
+  409e70:	50                   	push   eax
+  409e71:	ff 15 18 10 40 00    	call   DWORD PTR ds:0x401018   ; __vbaStrVarMove
+  409e77:	8b d0                	mov    edx,eax
+  409e79:	8d 8d 70 ff ff ff    	lea    ecx,[ebp-0x90]
+  409e7f:	ff 15 c4 10 40 00    	call   DWORD PTR ds:0x4010c4   ; __vbaStrMove
+  409e85:	8b d0                	mov    edx,eax
+  409e87:	8b 8d a4 fe ff ff    	mov    ecx,DWORD PTR [ebp-0x15c]
+  409e8d:	8b 45 cc             	mov    eax,DWORD PTR [ebp-0x34]
+  409e90:	8d 0c 88             	lea    ecx,[eax+ecx*4]
+  409e93:	ff 15 a4 10 40 00    	call   DWORD PTR ds:0x4010a4   ; __vbaStrCopy
+  409e99:	8d 8d 70 ff ff ff    	lea    ecx,[ebp-0x90]
+  409e9f:	ff 15 d8 10 40 00    	call   DWORD PTR ds:0x4010d8   ; __vbaFreeStr
+  409ea5:	8d 8d 40 ff ff ff    	lea    ecx,[ebp-0xc0]
+  409eab:	51                   	push   ecx
+  409eac:	8d 95 50 ff ff ff    	lea    edx,[ebp-0xb0]
+  409eb2:	52                   	push   edx
+  409eb3:	6a 02                	push   0x2
+  409eb5:	ff 15 1c 10 40 00    	call   DWORD PTR ds:0x40101c   ; __vbaFreeVarList
+  409ebb:	83 c4 0c             	add    esp,0xc
+  409ebe:	c7 45 fc 0d 00 00 00 	mov    DWORD PTR [ebp-0x4],0xd
+  409ec5:	c7 85 a0 fe ff ff 00 	mov    DWORD PTR [ebp-0x160],0x0
+  409ecc:	00 00 00 
+  409ecf:	83 bd a0 fe ff ff 08 	cmp    DWORD PTR [ebp-0x160],0x8
+  409ed6:	73 0c                	jae    0x409ee4
+  409ed8:	c7 85 40 fe ff ff 00 	mov    DWORD PTR [ebp-0x1c0],0x0
+  409edf:	00 00 00 
+  409ee2:	eb 0c                	jmp    0x409ef0
+  409ee4:	ff 15 64 10 40 00    	call   DWORD PTR ds:0x401064   ; __vbaGenerateBoundsError
+  409eea:	89 85 40 fe ff ff    	mov    DWORD PTR [ebp-0x1c0],eax
+  409ef0:	8b 85 a0 fe ff ff    	mov    eax,DWORD PTR [ebp-0x160]
+  409ef6:	8b 4d cc             	mov    ecx,DWORD PTR [ebp-0x34]
+  409ef9:	8b 14 81             	mov    edx,DWORD PTR [ecx+eax*4]
+  409efc:	52                   	push   edx
+  409efd:	ff 15 24 10 40 00    	call   DWORD PTR ds:0x401024   ; ord516
+  409f03:	66 89 85 e8 fe ff ff 	mov    WORD PTR [ebp-0x118],ax
+  409f0a:	c7 85 e0 fe ff ff 02 	mov    DWORD PTR [ebp-0x120],0x2
+  409f11:	00 00 00 
+  409f14:	c7 85 a4 fe ff ff 00 	mov    DWORD PTR [ebp-0x15c],0x0
+  409f1b:	00 00 00 
+  409f1e:	83 bd a4 fe ff ff 08 	cmp    DWORD PTR [ebp-0x15c],0x8
+  409f25:	73 0c                	jae    0x409f33
+  409f27:	c7 85 3c fe ff ff 00 	mov    DWORD PTR [ebp-0x1c4],0x0
+  409f2e:	00 00 00 
+  409f31:	eb 0c                	jmp    0x409f3f
+  409f33:	ff 15 64 10 40 00    	call   DWORD PTR ds:0x401064   ; __vbaGenerateBoundsError
+  409f39:	89 85 3c fe ff ff    	mov    DWORD PTR [ebp-0x1c4],eax
+  409f3f:	8d 95 e0 fe ff ff    	lea    edx,[ebp-0x120]
+  409f45:	8b 85 a4 fe ff ff    	mov    eax,DWORD PTR [ebp-0x15c]
+  409f4b:	c1 e0 04             	shl    eax,0x4
+  409f4e:	8b 4d 9c             	mov    ecx,DWORD PTR [ebp-0x64]
+  409f51:	03 c8                	add    ecx,eax
+  409f53:	ff 15 0c 10 40 00    	call   DWORD PTR ds:0x40100c   ; __vbaVarMove
+  409f59:	c7 45 fc 0e 00 00 00 	mov    DWORD PTR [ebp-0x4],0xe
+  409f60:	c7 85 a0 fe ff ff 01 	mov    DWORD PTR [ebp-0x160],0x1
+  409f67:	00 00 00 
+  409f6a:	83 bd a0 fe ff ff 08 	cmp    DWORD PTR [ebp-0x160],0x8
+  409f71:	73 0c                	jae    0x409f7f
+  409f73:	c7 85 38 fe ff ff 00 	mov    DWORD PTR [ebp-0x1c8],0x0
+  409f7a:	00 00 00 
+  409f7d:	eb 0c                	jmp    0x409f8b
+  409f7f:	ff 15 64 10 40 00    	call   DWORD PTR ds:0x401064   ; __vbaGenerateBoundsError
+  409f85:	89 85 38 fe ff ff    	mov    DWORD PTR [ebp-0x1c8],eax
+  409f8b:	8b 8d a0 fe ff ff    	mov    ecx,DWORD PTR [ebp-0x160]
+  409f91:	8b 55 cc             	mov    edx,DWORD PTR [ebp-0x34]
+  409f94:	8b 04 8a             	mov    eax,DWORD PTR [edx+ecx*4]
+  409f97:	50                   	push   eax
+  409f98:	ff 15 24 10 40 00    	call   DWORD PTR ds:0x401024   ; ord516
+  409f9e:	66 89 85 e8 fe ff ff 	mov    WORD PTR [ebp-0x118],ax
+  409fa5:	c7 85 e0 fe ff ff 02 	mov    DWORD PTR [ebp-0x120],0x2
+  409fac:	00 00 00 
+  409faf:	c7 85 a4 fe ff ff 01 	mov    DWORD PTR [ebp-0x15c],0x1
+  409fb6:	00 00 00 
+  409fb9:	83 bd a4 fe ff ff 08 	cmp    DWORD PTR [ebp-0x15c],0x8
+  409fc0:	73 0c                	jae    0x409fce
+  409fc2:	c7 85 34 fe ff ff 00 	mov    DWORD PTR [ebp-0x1cc],0x0
+  409fc9:	00 00 00 
+  409fcc:	eb 0c                	jmp    0x409fda
+  409fce:	ff 15 64 10 40 00    	call   DWORD PTR ds:0x401064   ; __vbaGenerateBoundsError
+  409fd4:	89 85 34 fe ff ff    	mov    DWORD PTR [ebp-0x1cc],eax
+  409fda:	8d 95 e0 fe ff ff    	lea    edx,[ebp-0x120]
+  409fe0:	8b 8d a4 fe ff ff    	mov    ecx,DWORD PTR [ebp-0x15c]
+  409fe6:	c1 e1 04             	shl    ecx,0x4
+  409fe9:	8b 45 9c             	mov    eax,DWORD PTR [ebp-0x64]
+  409fec:	03 c8                	add    ecx,eax
+  409fee:	ff 15 0c 10 40 00    	call   DWORD PTR ds:0x40100c   ; __vbaVarMove
+  409ff4:	c7 45 fc 0f 00 00 00 	mov    DWORD PTR [ebp-0x4],0xf
+  409ffb:	c7 85 a0 fe ff ff 02 	mov    DWORD PTR [ebp-0x160],0x2
+  40a002:	00 00 00 
+  40a005:	83 bd a0 fe ff ff 08 	cmp    DWORD PTR [ebp-0x160],0x8
+  40a00c:	73 0c                	jae    0x40a01a
+  40a00e:	c7 85 30 fe ff ff 00 	mov    DWORD PTR [ebp-0x1d0],0x0
+  40a015:	00 00 00 
+  40a018:	eb 0c                	jmp    0x40a026
+  40a01a:	ff 15 64 10 40 00    	call   DWORD PTR ds:0x401064   ; __vbaGenerateBoundsError
+  40a020:	89 85 30 fe ff ff    	mov    DWORD PTR [ebp-0x1d0],eax
+  40a026:	8b 8d a0 fe ff ff    	mov    ecx,DWORD PTR [ebp-0x160]
+  40a02c:	8b 55 cc             	mov    edx,DWORD PTR [ebp-0x34]
+  40a02f:	8b 04 8a             	mov    eax,DWORD PTR [edx+ecx*4]
+  40a032:	50                   	push   eax
+  40a033:	ff 15 24 10 40 00    	call   DWORD PTR ds:0x401024   ; ord516
+  40a039:	66 89 85 e8 fe ff ff 	mov    WORD PTR [ebp-0x118],ax
+  40a040:	c7 85 e0 fe ff ff 02 	mov    DWORD PTR [ebp-0x120],0x2
+  40a047:	00 00 00 
+  40a04a:	c7 85 a4 fe ff ff 02 	mov    DWORD PTR [ebp-0x15c],0x2
+  40a051:	00 00 00 
+  40a054:	83 bd a4 fe ff ff 08 	cmp    DWORD PTR [ebp-0x15c],0x8
+  40a05b:	73 0c                	jae    0x40a069
+  40a05d:	c7 85 2c fe ff ff 00 	mov    DWORD PTR [ebp-0x1d4],0x0
+  40a064:	00 00 00 
+  40a067:	eb 0c                	jmp    0x40a075
+  40a069:	ff 15 64 10 40 00    	call   DWORD PTR ds:0x401064   ; __vbaGenerateBoundsError
+  40a06f:	89 85 2c fe ff ff    	mov    DWORD PTR [ebp-0x1d4],eax
+  40a075:	8d 95 e0 fe ff ff    	lea    edx,[ebp-0x120]
+  40a07b:	8b 8d a4 fe ff ff    	mov    ecx,DWORD PTR [ebp-0x15c]
+  40a081:	c1 e1 04             	shl    ecx,0x4
+  40a084:	8b 45 9c             	mov    eax,DWORD PTR [ebp-0x64]
+  40a087:	03 c8                	add    ecx,eax
+  40a089:	ff 15 0c 10 40 00    	call   DWORD PTR ds:0x40100c   ; __vbaVarMove
+  40a08f:	c7 45 fc 10 00 00 00 	mov    DWORD PTR [ebp-0x4],0x10
+  40a096:	c7 85 a0 fe ff ff 03 	mov    DWORD PTR [ebp-0x160],0x3
+  40a09d:	00 00 00 
+  40a0a0:	83 bd a0 fe ff ff 08 	cmp    DWORD PTR [ebp-0x160],0x8
+  40a0a7:	73 0c                	jae    0x40a0b5
+  40a0a9:	c7 85 28 fe ff ff 00 	mov    DWORD PTR [ebp-0x1d8],0x0
+  40a0b0:	00 00 00 
+  40a0b3:	eb 0c                	jmp    0x40a0c1
+  40a0b5:	ff 15 64 10 40 00    	call   DWORD PTR ds:0x401064   ; __vbaGenerateBoundsError
+  40a0bb:	89 85 28 fe ff ff    	mov    DWORD PTR [ebp-0x1d8],eax
+  40a0c1:	8b 8d a0 fe ff ff    	mov    ecx,DWORD PTR [ebp-0x160]
+  40a0c7:	8b 55 cc             	mov    edx,DWORD PTR [ebp-0x34]
+  40a0ca:	8b 04 8a             	mov    eax,DWORD PTR [edx+ecx*4]
+  40a0cd:	50                   	push   eax
+  40a0ce:	ff 15 24 10 40 00    	call   DWORD PTR ds:0x401024   ; ord516
+  40a0d4:	66 89 85 e8 fe ff ff 	mov    WORD PTR [ebp-0x118],ax
+  40a0db:	c7 85 e0 fe ff ff 02 	mov    DWORD PTR [ebp-0x120],0x2
+  40a0e2:	00 00 00 
+  40a0e5:	c7 85 a4 fe ff ff 03 	mov    DWORD PTR [ebp-0x15c],0x3
+  40a0ec:	00 00 00 
+  40a0ef:	83 bd a4 fe ff ff 08 	cmp    DWORD PTR [ebp-0x15c],0x8
+  40a0f6:	73 0c                	jae    0x40a104
+  40a0f8:	c7 85 24 fe ff ff 00 	mov    DWORD PTR [ebp-0x1dc],0x0
+  40a0ff:	00 00 00 
+  40a102:	eb 0c                	jmp    0x40a110
+  40a104:	ff 15 64 10 40 00    	call   DWORD PTR ds:0x401064   ; __vbaGenerateBoundsError
+  40a10a:	89 85 24 fe ff ff    	mov    DWORD PTR [ebp-0x1dc],eax
+  40a110:	8d 95 e0 fe ff ff    	lea    edx,[ebp-0x120]
+  40a116:	8b 8d a4 fe ff ff    	mov    ecx,DWORD PTR [ebp-0x15c]
+  40a11c:	c1 e1 04             	shl    ecx,0x4
+  40a11f:	8b 45 9c             	mov    eax,DWORD PTR [ebp-0x64]
+  40a122:	03 c8                	add    ecx,eax
+  40a124:	ff 15 0c 10 40 00    	call   DWORD PTR ds:0x40100c   ; __vbaVarMove
+  40a12a:	c7 45 fc 11 00 00 00 	mov    DWORD PTR [ebp-0x4],0x11
+  40a131:	c7 85 a0 fe ff ff 04 	mov    DWORD PTR [ebp-0x160],0x4
+  40a138:	00 00 00 
+  40a13b:	83 bd a0 fe ff ff 08 	cmp    DWORD PTR [ebp-0x160],0x8
+  40a142:	73 0c                	jae    0x40a150
+  40a144:	c7 85 20 fe ff ff 00 	mov    DWORD PTR [ebp-0x1e0],0x0
+  40a14b:	00 00 00 
+  40a14e:	eb 0c                	jmp    0x40a15c
+  40a150:	ff 15 64 10 40 00    	call   DWORD PTR ds:0x401064   ; __vbaGenerateBoundsError
+  40a156:	89 85 20 fe ff ff    	mov    DWORD PTR [ebp-0x1e0],eax
+  40a15c:	8b 8d a0 fe ff ff    	mov    ecx,DWORD PTR [ebp-0x160]
+  40a162:	8b 55 cc             	mov    edx,DWORD PTR [ebp-0x34]
+  40a165:	8b 04 8a             	mov    eax,DWORD PTR [edx+ecx*4]
+  40a168:	50                   	push   eax
+  40a169:	ff 15 24 10 40 00    	call   DWORD PTR ds:0x401024   ; ord516
+  40a16f:	66 89 85 e8 fe ff ff 	mov    WORD PTR [ebp-0x118],ax
+  40a176:	c7 85 e0 fe ff ff 02 	mov    DWORD PTR [ebp-0x120],0x2
+  40a17d:	00 00 00 
+  40a180:	c7 85 a4 fe ff ff 04 	mov    DWORD PTR [ebp-0x15c],0x4
+  40a187:	00 00 00 
+  40a18a:	83 bd a4 fe ff ff 08 	cmp    DWORD PTR [ebp-0x15c],0x8
+  40a191:	73 0c                	jae    0x40a19f
+  40a193:	c7 85 1c fe ff ff 00 	mov    DWORD PTR [ebp-0x1e4],0x0
+  40a19a:	00 00 00 
+  40a19d:	eb 0c                	jmp    0x40a1ab
+  40a19f:	ff 15 64 10 40 00    	call   DWORD PTR ds:0x401064   ; __vbaGenerateBoundsError
+  40a1a5:	89 85 1c fe ff ff    	mov    DWORD PTR [ebp-0x1e4],eax
+  40a1ab:	8d 95 e0 fe ff ff    	lea    edx,[ebp-0x120]
+  40a1b1:	8b 8d a4 fe ff ff    	mov    ecx,DWORD PTR [ebp-0x15c]
+  40a1b7:	c1 e1 04             	shl    ecx,0x4
+  40a1ba:	8b 45 9c             	mov    eax,DWORD PTR [ebp-0x64]
+  40a1bd:	03 c8                	add    ecx,eax
+  40a1bf:	ff 15 0c 10 40 00    	call   DWORD PTR ds:0x40100c   ; __vbaVarMove
+  40a1c5:	c7 45 fc 12 00 00 00 	mov    DWORD PTR [ebp-0x4],0x12
+  40a1cc:	c7 85 a0 fe ff ff 05 	mov    DWORD PTR [ebp-0x160],0x5
+  40a1d3:	00 00 00 
+  40a1d6:	83 bd a0 fe ff ff 08 	cmp    DWORD PTR [ebp-0x160],0x8
+  40a1dd:	73 0c                	jae    0x40a1eb
+  40a1df:	c7 85 18 fe ff ff 00 	mov    DWORD PTR [ebp-0x1e8],0x0
+  40a1e6:	00 00 00 
+  40a1e9:	eb 0c                	jmp    0x40a1f7
+  40a1eb:	ff 15 64 10 40 00    	call   DWORD PTR ds:0x401064   ; __vbaGenerateBoundsError
+  40a1f1:	89 85 18 fe ff ff    	mov    DWORD PTR [ebp-0x1e8],eax
+  40a1f7:	8b 8d a0 fe ff ff    	mov    ecx,DWORD PTR [ebp-0x160]
+  40a1fd:	8b 55 cc             	mov    edx,DWORD PTR [ebp-0x34]
+  40a200:	8b 04 8a             	mov    eax,DWORD PTR [edx+ecx*4]
+  40a203:	50                   	push   eax
+  40a204:	ff 15 24 10 40 00    	call   DWORD PTR ds:0x401024   ; ord516
+  40a20a:	66 89 85 e8 fe ff ff 	mov    WORD PTR [ebp-0x118],ax
+  40a211:	c7 85 e0 fe ff ff 02 	mov    DWORD PTR [ebp-0x120],0x2
+  40a218:	00 00 00 
+  40a21b:	c7 85 a4 fe ff ff 05 	mov    DWORD PTR [ebp-0x15c],0x5
+  40a222:	00 00 00 
+  40a225:	83 bd a4 fe ff ff 08 	cmp    DWORD PTR [ebp-0x15c],0x8
+  40a22c:	73 0c                	jae    0x40a23a
+  40a22e:	c7 85 14 fe ff ff 00 	mov    DWORD PTR [ebp-0x1ec],0x0
+  40a235:	00 00 00 
+  40a238:	eb 0c                	jmp    0x40a246
+  40a23a:	ff 15 64 10 40 00    	call   DWORD PTR ds:0x401064   ; __vbaGenerateBoundsError
+  40a240:	89 85 14 fe ff ff    	mov    DWORD PTR [ebp-0x1ec],eax
+  40a246:	8d 95 e0 fe ff ff    	lea    edx,[ebp-0x120]
+  40a24c:	8b 8d a4 fe ff ff    	mov    ecx,DWORD PTR [ebp-0x15c]
+  40a252:	c1 e1 04             	shl    ecx,0x4
+  40a255:	8b 45 9c             	mov    eax,DWORD PTR [ebp-0x64]
+  40a258:	03 c8                	add    ecx,eax
+  40a25a:	ff 15 0c 10 40 00    	call   DWORD PTR ds:0x40100c   ; __vbaVarMove
+  40a260:	c7 45 fc 13 00 00 00 	mov    DWORD PTR [ebp-0x4],0x13
+  40a267:	c7 85 a0 fe ff ff 06 	mov    DWORD PTR [ebp-0x160],0x6
+  40a26e:	00 00 00 
+  40a271:	83 bd a0 fe ff ff 08 	cmp    DWORD PTR [ebp-0x160],0x8
+  40a278:	73 0c                	jae    0x40a286
+  40a27a:	c7 85 10 fe ff ff 00 	mov    DWORD PTR [ebp-0x1f0],0x0
+  40a281:	00 00 00 
+  40a284:	eb 0c                	jmp    0x40a292
+  40a286:	ff 15 64 10 40 00    	call   DWORD PTR ds:0x401064   ; __vbaGenerateBoundsError
+  40a28c:	89 85 10 fe ff ff    	mov    DWORD PTR [ebp-0x1f0],eax
+  40a292:	8b 8d a0 fe ff ff    	mov    ecx,DWORD PTR [ebp-0x160]
+  40a298:	8b 55 cc             	mov    edx,DWORD PTR [ebp-0x34]
+  40a29b:	8b 04 8a             	mov    eax,DWORD PTR [edx+ecx*4]
+  40a29e:	50                   	push   eax
+  40a29f:	ff 15 24 10 40 00    	call   DWORD PTR ds:0x401024   ; ord516
+  40a2a5:	66 89 85 e8 fe ff ff 	mov    WORD PTR [ebp-0x118],ax
+  40a2ac:	c7 85 e0 fe ff ff 02 	mov    DWORD PTR [ebp-0x120],0x2
+  40a2b3:	00 00 00 
+  40a2b6:	c7 85 a4 fe ff ff 06 	mov    DWORD PTR [ebp-0x15c],0x6
+  40a2bd:	00 00 00 
+  40a2c0:	83 bd a4 fe ff ff 08 	cmp    DWORD PTR [ebp-0x15c],0x8
+  40a2c7:	73 0c                	jae    0x40a2d5
+  40a2c9:	c7 85 0c fe ff ff 00 	mov    DWORD PTR [ebp-0x1f4],0x0
+  40a2d0:	00 00 00 
+  40a2d3:	eb 0c                	jmp    0x40a2e1
+  40a2d5:	ff 15 64 10 40 00    	call   DWORD PTR ds:0x401064   ; __vbaGenerateBoundsError
+  40a2db:	89 85 0c fe ff ff    	mov    DWORD PTR [ebp-0x1f4],eax
+  40a2e1:	8d 95 e0 fe ff ff    	lea    edx,[ebp-0x120]
+  40a2e7:	8b 8d a4 fe ff ff    	mov    ecx,DWORD PTR [ebp-0x15c]
+  40a2ed:	c1 e1 04             	shl    ecx,0x4
+  40a2f0:	8b 45 9c             	mov    eax,DWORD PTR [ebp-0x64]
+  40a2f3:	03 c8                	add    ecx,eax
+  40a2f5:	ff 15 0c 10 40 00    	call   DWORD PTR ds:0x40100c   ; __vbaVarMove
+  40a2fb:	c7 45 fc 14 00 00 00 	mov    DWORD PTR [ebp-0x4],0x14
+  40a302:	c7 85 a0 fe ff ff 07 	mov    DWORD PTR [ebp-0x160],0x7
+  40a309:	00 00 00 
+  40a30c:	83 bd a0 fe ff ff 08 	cmp    DWORD PTR [ebp-0x160],0x8
+  40a313:	73 0c                	jae    0x40a321
+  40a315:	c7 85 08 fe ff ff 00 	mov    DWORD PTR [ebp-0x1f8],0x0
+  40a31c:	00 00 00 
+  40a31f:	eb 0c                	jmp    0x40a32d
+  40a321:	ff 15 64 10 40 00    	call   DWORD PTR ds:0x401064   ; __vbaGenerateBoundsError
+  40a327:	89 85 08 fe ff ff    	mov    DWORD PTR [ebp-0x1f8],eax
+  40a32d:	8b 8d a0 fe ff ff    	mov    ecx,DWORD PTR [ebp-0x160]
+  40a333:	8b 55 cc             	mov    edx,DWORD PTR [ebp-0x34]
+  40a336:	8b 04 8a             	mov    eax,DWORD PTR [edx+ecx*4]
+  40a339:	50                   	push   eax
+  40a33a:	ff 15 24 10 40 00    	call   DWORD PTR ds:0x401024   ; ord516
+  40a340:	66 89 85 e8 fe ff ff 	mov    WORD PTR [ebp-0x118],ax
+  40a347:	c7 85 e0 fe ff ff 02 	mov    DWORD PTR [ebp-0x120],0x2
+  40a34e:	00 00 00 
+  40a351:	c7 85 a4 fe ff ff 07 	mov    DWORD PTR [ebp-0x15c],0x7
+  40a358:	00 00 00 
+  40a35b:	83 bd a4 fe ff ff 08 	cmp    DWORD PTR [ebp-0x15c],0x8
+  40a362:	73 0c                	jae    0x40a370
+  40a364:	c7 85 04 fe ff ff 00 	mov    DWORD PTR [ebp-0x1fc],0x0
+  40a36b:	00 00 00 
+  40a36e:	eb 0c                	jmp    0x40a37c
+  40a370:	ff 15 64 10 40 00    	call   DWORD PTR ds:0x401064   ; __vbaGenerateBoundsError
+  40a376:	89 85 04 fe ff ff    	mov    DWORD PTR [ebp-0x1fc],eax
+  40a37c:	8d 95 e0 fe ff ff    	lea    edx,[ebp-0x120]
+  40a382:	8b 8d a4 fe ff ff    	mov    ecx,DWORD PTR [ebp-0x15c]
+  40a388:	c1 e1 04             	shl    ecx,0x4
+  40a38b:	8b 45 9c             	mov    eax,DWORD PTR [ebp-0x64]
+  40a38e:	03 c8                	add    ecx,eax
+  40a390:	ff 15 0c 10 40 00    	call   DWORD PTR ds:0x40100c   ; __vbaVarMove
+  40a396:	c7 45 fc 15 00 00 00 	mov    DWORD PTR [ebp-0x4],0x15
+  40a39d:	c7 85 a4 fe ff ff 00 	mov    DWORD PTR [ebp-0x15c],0x0
+  40a3a4:	00 00 00 
+  40a3a7:	83 bd a4 fe ff ff 08 	cmp    DWORD PTR [ebp-0x15c],0x8
+  40a3ae:	73 0c                	jae    0x40a3bc
+  40a3b0:	c7 85 00 fe ff ff 00 	mov    DWORD PTR [ebp-0x200],0x0
+  40a3b7:	00 00 00 
+  40a3ba:	eb 0c                	jmp    0x40a3c8
+  40a3bc:	ff 15 64 10 40 00    	call   DWORD PTR ds:0x401064   ; __vbaGenerateBoundsError
+  40a3c2:	89 85 00 fe ff ff    	mov    DWORD PTR [ebp-0x200],eax
+  40a3c8:	c7 85 a0 fe ff ff 01 	mov    DWORD PTR [ebp-0x160],0x1
+  40a3cf:	00 00 00 
+  40a3d2:	83 bd a0 fe ff ff 08 	cmp    DWORD PTR [ebp-0x160],0x8
+  40a3d9:	73 0c                	jae    0x40a3e7
+  40a3db:	c7 85 fc fd ff ff 00 	mov    DWORD PTR [ebp-0x204],0x0
+  40a3e2:	00 00 00 
+  40a3e5:	eb 0c                	jmp    0x40a3f3
+  40a3e7:	ff 15 64 10 40 00    	call   DWORD PTR ds:0x401064   ; __vbaGenerateBoundsError
+  40a3ed:	89 85 fc fd ff ff    	mov    DWORD PTR [ebp-0x204],eax
+  40a3f3:	c7 85 9c fe ff ff 02 	mov    DWORD PTR [ebp-0x164],0x2
+  40a3fa:	00 00 00 
+  40a3fd:	83 bd 9c fe ff ff 08 	cmp    DWORD PTR [ebp-0x164],0x8
+  40a404:	73 0c                	jae    0x40a412
+  40a406:	c7 85 f8 fd ff ff 00 	mov    DWORD PTR [ebp-0x208],0x0
+  40a40d:	00 00 00 
+  40a410:	eb 0c                	jmp    0x40a41e
+  40a412:	ff 15 64 10 40 00    	call   DWORD PTR ds:0x401064   ; __vbaGenerateBoundsError
+  40a418:	89 85 f8 fd ff ff    	mov    DWORD PTR [ebp-0x208],eax
+  40a41e:	c7 85 98 fe ff ff 03 	mov    DWORD PTR [ebp-0x168],0x3
+  40a425:	00 00 00 
+  40a428:	83 bd 98 fe ff ff 08 	cmp    DWORD PTR [ebp-0x168],0x8
+  40a42f:	73 0c                	jae    0x40a43d
+  40a431:	c7 85 f4 fd ff ff 00 	mov    DWORD PTR [ebp-0x20c],0x0
+  40a438:	00 00 00 
+  40a43b:	eb 0c                	jmp    0x40a449
+  40a43d:	ff 15 64 10 40 00    	call   DWORD PTR ds:0x401064   ; __vbaGenerateBoundsError
+  40a443:	89 85 f4 fd ff ff    	mov    DWORD PTR [ebp-0x20c],eax
+  40a449:	c7 85 94 fe ff ff 04 	mov    DWORD PTR [ebp-0x16c],0x4
+  40a450:	00 00 00 
+  40a453:	83 bd 94 fe ff ff 08 	cmp    DWORD PTR [ebp-0x16c],0x8
+  40a45a:	73 0c                	jae    0x40a468
+  40a45c:	c7 85 f0 fd ff ff 00 	mov    DWORD PTR [ebp-0x210],0x0
+  40a463:	00 00 00 
+  40a466:	eb 0c                	jmp    0x40a474
+  40a468:	ff 15 64 10 40 00    	call   DWORD PTR ds:0x401064   ; __vbaGenerateBoundsError
+  40a46e:	89 85 f0 fd ff ff    	mov    DWORD PTR [ebp-0x210],eax
+  40a474:	c7 85 90 fe ff ff 05 	mov    DWORD PTR [ebp-0x170],0x5
+  40a47b:	00 00 00 
+  40a47e:	83 bd 90 fe ff ff 08 	cmp    DWORD PTR [ebp-0x170],0x8
+  40a485:	73 0c                	jae    0x40a493
+  40a487:	c7 85 ec fd ff ff 00 	mov    DWORD PTR [ebp-0x214],0x0
+  40a48e:	00 00 00 
+  40a491:	eb 0c                	jmp    0x40a49f
+  40a493:	ff 15 64 10 40 00    	call   DWORD PTR ds:0x401064   ; __vbaGenerateBoundsError
+  40a499:	89 85 ec fd ff ff    	mov    DWORD PTR [ebp-0x214],eax
+  40a49f:	c7 85 8c fe ff ff 06 	mov    DWORD PTR [ebp-0x174],0x6
+  40a4a6:	00 00 00 
+  40a4a9:	83 bd 8c fe ff ff 08 	cmp    DWORD PTR [ebp-0x174],0x8
+  40a4b0:	73 0c                	jae    0x40a4be
+  40a4b2:	c7 85 e8 fd ff ff 00 	mov    DWORD PTR [ebp-0x218],0x0
+  40a4b9:	00 00 00 
+  40a4bc:	eb 0c                	jmp    0x40a4ca
+  40a4be:	ff 15 64 10 40 00    	call   DWORD PTR ds:0x401064   ; __vbaGenerateBoundsError
+  40a4c4:	89 85 e8 fd ff ff    	mov    DWORD PTR [ebp-0x218],eax
+  40a4ca:	c7 85 88 fe ff ff 07 	mov    DWORD PTR [ebp-0x178],0x7
+  40a4d1:	00 00 00 
+  40a4d4:	83 bd 88 fe ff ff 08 	cmp    DWORD PTR [ebp-0x178],0x8
+  40a4db:	73 0c                	jae    0x40a4e9
+  40a4dd:	c7 85 e4 fd ff ff 00 	mov    DWORD PTR [ebp-0x21c],0x0
+  40a4e4:	00 00 00 
+  40a4e7:	eb 0c                	jmp    0x40a4f5
+  40a4e9:	ff 15 64 10 40 00    	call   DWORD PTR ds:0x401064   ; __vbaGenerateBoundsError
+  40a4ef:	89 85 e4 fd ff ff    	mov    DWORD PTR [ebp-0x21c],eax
+  40a4f5:	8b 8d a4 fe ff ff    	mov    ecx,DWORD PTR [ebp-0x15c]
+  40a4fb:	c1 e1 04             	shl    ecx,0x4
+  40a4fe:	8b 55 9c             	mov    edx,DWORD PTR [ebp-0x64]
+  40a501:	03 d1                	add    edx,ecx
+  40a503:	52                   	push   edx
+  40a504:	8b 85 a0 fe ff ff    	mov    eax,DWORD PTR [ebp-0x160]
+  40a50a:	c1 e0 04             	shl    eax,0x4
+  40a50d:	8b 4d 9c             	mov    ecx,DWORD PTR [ebp-0x64]
+  40a510:	03 c8                	add    ecx,eax
+  40a512:	51                   	push   ecx
+  40a513:	8d 95 50 ff ff ff    	lea    edx,[ebp-0xb0]
+  40a519:	52                   	push   edx
+  40a51a:	ff 15 b8 10 40 00    	call   DWORD PTR ds:0x4010b8   ; __vbaVarAdd
+  40a520:	50                   	push   eax
+  40a521:	8b 85 9c fe ff ff    	mov    eax,DWORD PTR [ebp-0x164]
+  40a527:	c1 e0 04             	shl    eax,0x4
+  40a52a:	8b 4d 9c             	mov    ecx,DWORD PTR [ebp-0x64]
+  40a52d:	03 c8                	add    ecx,eax
+  40a52f:	51                   	push   ecx
+  40a530:	8d 95 40 ff ff ff    	lea    edx,[ebp-0xc0]
+  40a536:	52                   	push   edx
+  40a537:	ff 15 b8 10 40 00    	call   DWORD PTR ds:0x4010b8   ; __vbaVarAdd
+  40a53d:	50                   	push   eax
+  40a53e:	8b 85 98 fe ff ff    	mov    eax,DWORD PTR [ebp-0x168]
+  40a544:	c1 e0 04             	shl    eax,0x4
+  40a547:	8b 4d 9c             	mov    ecx,DWORD PTR [ebp-0x64]
+  40a54a:	03 c8                	add    ecx,eax
+  40a54c:	51                   	push   ecx
+  40a54d:	8d 95 30 ff ff ff    	lea    edx,[ebp-0xd0]
+  40a553:	52                   	push   edx
+  40a554:	ff 15 b8 10 40 00    	call   DWORD PTR ds:0x4010b8   ; __vbaVarAdd
+  40a55a:	50                   	push   eax
+  40a55b:	8b 85 94 fe ff ff    	mov    eax,DWORD PTR [ebp-0x16c]
+  40a561:	c1 e0 04             	shl    eax,0x4
+  40a564:	8b 4d 9c             	mov    ecx,DWORD PTR [ebp-0x64]
+  40a567:	03 c8                	add    ecx,eax
+  40a569:	51                   	push   ecx
+  40a56a:	8d 95 20 ff ff ff    	lea    edx,[ebp-0xe0]
+  40a570:	52                   	push   edx
+  40a571:	ff 15 b8 10 40 00    	call   DWORD PTR ds:0x4010b8   ; __vbaVarAdd
+  40a577:	50                   	push   eax
+  40a578:	8b 85 90 fe ff ff    	mov    eax,DWORD PTR [ebp-0x170]
+  40a57e:	c1 e0 04             	shl    eax,0x4
+  40a581:	8b 4d 9c             	mov    ecx,DWORD PTR [ebp-0x64]
+  40a584:	03 c8                	add    ecx,eax
+  40a586:	51                   	push   ecx
+  40a587:	8d 95 10 ff ff ff    	lea    edx,[ebp-0xf0]
+  40a58d:	52                   	push   edx
+  40a58e:	ff 15 b8 10 40 00    	call   DWORD PTR ds:0x4010b8   ; __vbaVarAdd
+  40a594:	50                   	push   eax
+  40a595:	8b 85 8c fe ff ff    	mov    eax,DWORD PTR [ebp-0x174]
+  40a59b:	c1 e0 04             	shl    eax,0x4
+  40a59e:	8b 4d 9c             	mov    ecx,DWORD PTR [ebp-0x64]
+  40a5a1:	03 c8                	add    ecx,eax
+  40a5a3:	51                   	push   ecx
+  40a5a4:	8d 95 00 ff ff ff    	lea    edx,[ebp-0x100]
+  40a5aa:	52                   	push   edx
+  40a5ab:	ff 15 b8 10 40 00    	call   DWORD PTR ds:0x4010b8   ; __vbaVarAdd
+  40a5b1:	50                   	push   eax
+  40a5b2:	8b 85 88 fe ff ff    	mov    eax,DWORD PTR [ebp-0x178]
+  40a5b8:	c1 e0 04             	shl    eax,0x4
+  40a5bb:	8b 4d 9c             	mov    ecx,DWORD PTR [ebp-0x64]
+  40a5be:	03 c8                	add    ecx,eax
+  40a5c0:	51                   	push   ecx
+  40a5c1:	8d 95 f0 fe ff ff    	lea    edx,[ebp-0x110]
+  40a5c7:	52                   	push   edx
+  40a5c8:	ff 15 b8 10 40 00    	call   DWORD PTR ds:0x4010b8   ; __vbaVarAdd
+  40a5ce:	50                   	push   eax
+  40a5cf:	ff 15 18 10 40 00    	call   DWORD PTR ds:0x401018   ; __vbaStrVarMove
+  40a5d5:	8b d0                	mov    edx,eax
+  40a5d7:	8d 4d dc             	lea    ecx,[ebp-0x24]
+  40a5da:	ff 15 c4 10 40 00    	call   DWORD PTR ds:0x4010c4   ; __vbaStrMove
+  40a5e0:	8d 85 f0 fe ff ff    	lea    eax,[ebp-0x110]
+  40a5e6:	50                   	push   eax
+  40a5e7:	8d 8d 00 ff ff ff    	lea    ecx,[ebp-0x100]
+  40a5ed:	51                   	push   ecx
+  40a5ee:	8d 95 10 ff ff ff    	lea    edx,[ebp-0xf0]
+  40a5f4:	52                   	push   edx
+  40a5f5:	8d 85 20 ff ff ff    	lea    eax,[ebp-0xe0]
+  40a5fb:	50                   	push   eax
+  40a5fc:	8d 8d 30 ff ff ff    	lea    ecx,[ebp-0xd0]
+  40a602:	51                   	push   ecx
+  40a603:	8d 95 40 ff ff ff    	lea    edx,[ebp-0xc0]
+  40a609:	52                   	push   edx
+  40a60a:	8d 85 50 ff ff ff    	lea    eax,[ebp-0xb0]
+  40a610:	50                   	push   eax
+  40a611:	6a 07                	push   0x7
+  40a613:	ff 15 1c 10 40 00    	call   DWORD PTR ds:0x40101c   ; __vbaFreeVarList
+  40a619:	83 c4 20             	add    esp,0x20
+  40a61c:	c7 45 fc 16 00 00 00 	mov    DWORD PTR [ebp-0x4],0x16
+  40a623:	c7 85 a4 fe ff ff 00 	mov    DWORD PTR [ebp-0x15c],0x0
+  40a62a:	00 00 00 
+  40a62d:	83 bd a4 fe ff ff 08 	cmp    DWORD PTR [ebp-0x15c],0x8
+  40a634:	73 0c                	jae    0x40a642
+  40a636:	c7 85 e0 fd ff ff 00 	mov    DWORD PTR [ebp-0x220],0x0
+  40a63d:	00 00 00 
+  40a640:	eb 0c                	jmp    0x40a64e
+  40a642:	ff 15 64 10 40 00    	call   DWORD PTR ds:0x401064   ; __vbaGenerateBoundsError
+  40a648:	89 85 e0 fd ff ff    	mov    DWORD PTR [ebp-0x220],eax
+  40a64e:	c7 85 e8 fe ff ff 03 	mov    DWORD PTR [ebp-0x118],0x3
+  40a655:	00 00 00 
+  40a658:	c7 85 e0 fe ff ff 02 	mov    DWORD PTR [ebp-0x120],0x2
+  40a65f:	00 00 00 
+  40a662:	8b 8d a4 fe ff ff    	mov    ecx,DWORD PTR [ebp-0x15c]
+  40a668:	c1 e1 04             	shl    ecx,0x4
+  40a66b:	8b 55 9c             	mov    edx,DWORD PTR [ebp-0x64]
+  40a66e:	03 d1                	add    edx,ecx
+  40a670:	52                   	push   edx
+  40a671:	8d 85 e0 fe ff ff    	lea    eax,[ebp-0x120]
+  40a677:	50                   	push   eax
+  40a678:	8d 8d 50 ff ff ff    	lea    ecx,[ebp-0xb0]
+  40a67e:	51                   	push   ecx
+  40a67f:	ff 15 80 10 40 00    	call   DWORD PTR ds:0x401080   ; __vbaVarMul
+  40a685:	8b d0                	mov    edx,eax
+  40a687:	8d 4d a8             	lea    ecx,[ebp-0x58]
+  40a68a:	ff 15 0c 10 40 00    	call   DWORD PTR ds:0x40100c   ; __vbaVarMove
+  40a690:	c7 45 fc 17 00 00 00 	mov    DWORD PTR [ebp-0x4],0x17
+  40a697:	c7 85 a4 fe ff ff 07 	mov    DWORD PTR [ebp-0x15c],0x7
+  40a69e:	00 00 00 
+  40a6a1:	83 bd a4 fe ff ff 08 	cmp    DWORD PTR [ebp-0x15c],0x8
+  40a6a8:	73 0c                	jae    0x40a6b6
+  40a6aa:	c7 85 dc fd ff ff 00 	mov    DWORD PTR [ebp-0x224],0x0
+  40a6b1:	00 00 00 
+  40a6b4:	eb 0c                	jmp    0x40a6c2
+  40a6b6:	ff 15 64 10 40 00    	call   DWORD PTR ds:0x401064   ; __vbaGenerateBoundsError
+  40a6bc:	89 85 dc fd ff ff    	mov    DWORD PTR [ebp-0x224],eax
+  40a6c2:	c7 85 e8 fe ff ff 05 	mov    DWORD PTR [ebp-0x118],0x5
+  40a6c9:	00 00 00 
+  40a6cc:	c7 85 e0 fe ff ff 02 	mov    DWORD PTR [ebp-0x120],0x2
+  40a6d3:	00 00 00 
+  40a6d6:	8b 95 a4 fe ff ff    	mov    edx,DWORD PTR [ebp-0x15c]
+  40a6dc:	c1 e2 04             	shl    edx,0x4
+  40a6df:	8b 45 9c             	mov    eax,DWORD PTR [ebp-0x64]
+  40a6e2:	03 c2                	add    eax,edx
+  40a6e4:	50                   	push   eax
+  40a6e5:	8d 8d e0 fe ff ff    	lea    ecx,[ebp-0x120]
+  40a6eb:	51                   	push   ecx
+  40a6ec:	8d 95 50 ff ff ff    	lea    edx,[ebp-0xb0]
+  40a6f2:	52                   	push   edx
+  40a6f3:	ff 15 80 10 40 00    	call   DWORD PTR ds:0x401080   ; __vbaVarMul
+  40a6f9:	50                   	push   eax
+  40a6fa:	ff 15 94 10 40 00    	call   DWORD PTR ds:0x401094   ; __vbaI2Var
+  40a700:	66 89 45 88          	mov    WORD PTR [ebp-0x78],ax
+  40a704:	c7 45 fc 18 00 00 00 	mov    DWORD PTR [ebp-0x4],0x18
+  40a70b:	68 24 8f 40 00       	push   0x408f24
+  40a710:	8b 45 dc             	mov    eax,DWORD PTR [ebp-0x24]
+  40a713:	50                   	push   eax
+  40a714:	ff 15 30 10 40 00    	call   DWORD PTR ds:0x401030   ; __vbaStrCat
+  40a71a:	8b d0                	mov    edx,eax
+  40a71c:	8d 8d 70 ff ff ff    	lea    ecx,[ebp-0x90]
+  40a722:	ff 15 c4 10 40 00    	call   DWORD PTR ds:0x4010c4   ; __vbaStrMove
+  40a728:	50                   	push   eax
+  40a729:	8d 4d a8             	lea    ecx,[ebp-0x58]
+  40a72c:	51                   	push   ecx
+  40a72d:	ff 15 28 10 40 00    	call   DWORD PTR ds:0x401028   ; __vbaStrErrVarCopy
+  40a733:	8b d0                	mov    edx,eax
+  40a735:	8d 8d 6c ff ff ff    	lea    ecx,[ebp-0x94]
+  40a73b:	ff 15 c4 10 40 00    	call   DWORD PTR ds:0x4010c4   ; __vbaStrMove
+  40a741:	50                   	push   eax
+  40a742:	ff 15 30 10 40 00    	call   DWORD PTR ds:0x401030   ; __vbaStrCat
+  40a748:	8b d0                	mov    edx,eax
+  40a74a:	8d 8d 68 ff ff ff    	lea    ecx,[ebp-0x98]
+  40a750:	ff 15 c4 10 40 00    	call   DWORD PTR ds:0x4010c4   ; __vbaStrMove
+  40a756:	50                   	push   eax
+  40a757:	66 8b 55 88          	mov    dx,WORD PTR [ebp-0x78]
+  40a75b:	52                   	push   edx
+  40a75c:	ff 15 00 10 40 00    	call   DWORD PTR ds:0x401000   ; __vbaStrI2
+  40a762:	8b d0                	mov    edx,eax
+  40a764:	8d 8d 64 ff ff ff    	lea    ecx,[ebp-0x9c]
+  40a76a:	ff 15 c4 10 40 00    	call   DWORD PTR ds:0x4010c4   ; __vbaStrMove
+  40a770:	50                   	push   eax
+  40a771:	ff 15 30 10 40 00    	call   DWORD PTR ds:0x401030   ; __vbaStrCat
+  40a777:	8b d0                	mov    edx,eax
+  40a779:	8d 4d d8             	lea    ecx,[ebp-0x28]
+  40a77c:	ff 15 c4 10 40 00    	call   DWORD PTR ds:0x4010c4   ; __vbaStrMove
+  40a782:	8d 85 64 ff ff ff    	lea    eax,[ebp-0x9c]
+  40a788:	50                   	push   eax
+  40a789:	8d 8d 68 ff ff ff    	lea    ecx,[ebp-0x98]
+  40a78f:	51                   	push   ecx
+  40a790:	8d 95 6c ff ff ff    	lea    edx,[ebp-0x94]
+  40a796:	52                   	push   edx
+  40a797:	8d 85 70 ff ff ff    	lea    eax,[ebp-0x90]
+  40a79d:	50                   	push   eax
+  40a79e:	6a 04                	push   0x4
+  40a7a0:	ff 15 a8 10 40 00    	call   DWORD PTR ds:0x4010a8   ; __vbaFreeStrList
+  40a7a6:	83 c4 14             	add    esp,0x14
+  40a7a9:	c7 45 fc 19 00 00 00 	mov    DWORD PTR [ebp-0x4],0x19
+  40a7b0:	8b 4d d8             	mov    ecx,DWORD PTR [ebp-0x28]
+  40a7b3:	51                   	push   ecx
+  40a7b4:	8b 55 84             	mov    edx,DWORD PTR [ebp-0x7c]
+  40a7b7:	52                   	push   edx
+  40a7b8:	ff 15 68 10 40 00    	call   DWORD PTR ds:0x401068   ; __vbaStrCmp
+  40a7be:	85 c0                	test   eax,eax
+  40a7c0:	0f 85 dd 00 00 00    	jne    0x40a8a3
+  40a7c6:	c7 45 fc 1a 00 00 00 	mov    DWORD PTR [ebp-0x4],0x1a
+  40a7cd:	c7 85 28 ff ff ff 04 	mov    DWORD PTR [ebp-0xd8],0x80020004
+  40a7d4:	00 02 80 
+  40a7d7:	c7 85 20 ff ff ff 0a 	mov    DWORD PTR [ebp-0xe0],0xa
+  40a7de:	00 00 00 
+  40a7e1:	c7 85 38 ff ff ff 04 	mov    DWORD PTR [ebp-0xc8],0x80020004
+  40a7e8:	00 02 80 
+  40a7eb:	c7 85 30 ff ff ff 0a 	mov    DWORD PTR [ebp-0xd0],0xa
+  40a7f2:	00 00 00 
+  40a7f5:	c7 85 d8 fe ff ff 7c 	mov    DWORD PTR [ebp-0x128],0x408f7c
+  40a7fc:	8f 40 00 
+  40a7ff:	c7 85 d0 fe ff ff 08 	mov    DWORD PTR [ebp-0x130],0x8
+  40a806:	00 00 00 
+  40a809:	8d 95 d0 fe ff ff    	lea    edx,[ebp-0x130]
+  40a80f:	8d 8d 40 ff ff ff    	lea    ecx,[ebp-0xc0]
+  40a815:	ff 15 bc 10 40 00    	call   DWORD PTR ds:0x4010bc   ; __vbaVarDup
+  40a81b:	c7 85 e8 fe ff ff 30 	mov    DWORD PTR [ebp-0x118],0x408f30
+  40a822:	8f 40 00 
+  40a825:	c7 85 e0 fe ff ff 08 	mov    DWORD PTR [ebp-0x120],0x8
+  40a82c:	00 00 00 
+  40a82f:	8d 95 e0 fe ff ff    	lea    edx,[ebp-0x120]
+  40a835:	8d 8d 50 ff ff ff    	lea    ecx,[ebp-0xb0]
+  40a83b:	ff 15 bc 10 40 00    	call   DWORD PTR ds:0x4010bc   ; __vbaVarDup
+  40a841:	8d 85 20 ff ff ff    	lea    eax,[ebp-0xe0]
+  40a847:	50                   	push   eax
+  40a848:	8d 8d 30 ff ff ff    	lea    ecx,[ebp-0xd0]
+  40a84e:	51                   	push   ecx
+  40a84f:	8d 95 40 ff ff ff    	lea    edx,[ebp-0xc0]
+  40a855:	52                   	push   edx
+  40a856:	6a 01                	push   0x1
+  40a858:	8d 85 50 ff ff ff    	lea    eax,[ebp-0xb0]
+  40a85e:	50                   	push   eax
+  40a85f:	ff 15 48 10 40 00    	call   DWORD PTR ds:0x401048   ; ord595
+  40a865:	50                   	push   eax
+  40a866:	ff 15 10 10 40 00    	call   DWORD PTR ds:0x401010   ; __vbaStrI4
+  40a86c:	8b d0                	mov    edx,eax
+  40a86e:	8d 4d b8             	lea    ecx,[ebp-0x48]
+  40a871:	ff 15 c4 10 40 00    	call   DWORD PTR ds:0x4010c4   ; __vbaStrMove
+  40a877:	8d 8d 20 ff ff ff    	lea    ecx,[ebp-0xe0]
+  40a87d:	51                   	push   ecx
+  40a87e:	8d 95 30 ff ff ff    	lea    edx,[ebp-0xd0]
+  40a884:	52                   	push   edx
+  40a885:	8d 85 40 ff ff ff    	lea    eax,[ebp-0xc0]
+  40a88b:	50                   	push   eax
+  40a88c:	8d 8d 50 ff ff ff    	lea    ecx,[ebp-0xb0]
+  40a892:	51                   	push   ecx
+  40a893:	6a 04                	push   0x4
+  40a895:	ff 15 1c 10 40 00    	call   DWORD PTR ds:0x40101c   ; __vbaFreeVarList
+  40a89b:	83 c4 14             	add    esp,0x14
+  40a89e:	e9 d8 00 00 00       	jmp    0x40a97b
+  40a8a3:	c7 45 fc 1c 00 00 00 	mov    DWORD PTR [ebp-0x4],0x1c
+  40a8aa:	c7 85 28 ff ff ff 04 	mov    DWORD PTR [ebp-0xd8],0x80020004
+  40a8b1:	00 02 80 
+  40a8b4:	c7 85 20 ff ff ff 0a 	mov    DWORD PTR [ebp-0xe0],0xa
+  40a8bb:	00 00 00 
+  40a8be:	c7 85 38 ff ff ff 04 	mov    DWORD PTR [ebp-0xc8],0x80020004
+  40a8c5:	00 02 80 
+  40a8c8:	c7 85 30 ff ff ff 0a 	mov    DWORD PTR [ebp-0xd0],0xa
+  40a8cf:	00 00 00 
+  40a8d2:	c7 85 d8 fe ff ff 7c 	mov    DWORD PTR [ebp-0x128],0x408f7c
+  40a8d9:	8f 40 00 
+  40a8dc:	c7 85 d0 fe ff ff 08 	mov    DWORD PTR [ebp-0x130],0x8
+  40a8e3:	00 00 00 
+  40a8e6:	8d 95 d0 fe ff ff    	lea    edx,[ebp-0x130]
+  40a8ec:	8d 8d 40 ff ff ff    	lea    ecx,[ebp-0xc0]
+  40a8f2:	ff 15 bc 10 40 00    	call   DWORD PTR ds:0x4010bc   ; __vbaVarDup
+  40a8f8:	c7 85 e8 fe ff ff 90 	mov    DWORD PTR [ebp-0x118],0x408f90
+  40a8ff:	8f 40 00 
+  40a902:	c7 85 e0 fe ff ff 08 	mov    DWORD PTR [ebp-0x120],0x8
+  40a909:	00 00 00 
+  40a90c:	8d 95 e0 fe ff ff    	lea    edx,[ebp-0x120]
+  40a912:	8d 8d 50 ff ff ff    	lea    ecx,[ebp-0xb0]
+  40a918:	ff 15 bc 10 40 00    	call   DWORD PTR ds:0x4010bc   ; __vbaVarDup
+  40a91e:	8d 95 20 ff ff ff    	lea    edx,[ebp-0xe0]
+  40a924:	52                   	push   edx
+  40a925:	8d 85 30 ff ff ff    	lea    eax,[ebp-0xd0]
+  40a92b:	50                   	push   eax
+  40a92c:	8d 8d 40 ff ff ff    	lea    ecx,[ebp-0xc0]
+  40a932:	51                   	push   ecx
+  40a933:	6a 01                	push   0x1
+  40a935:	8d 95 50 ff ff ff    	lea    edx,[ebp-0xb0]
+  40a93b:	52                   	push   edx
+  40a93c:	ff 15 48 10 40 00    	call   DWORD PTR ds:0x401048   ; ord595
+  40a942:	50                   	push   eax
+  40a943:	ff 15 10 10 40 00    	call   DWORD PTR ds:0x401010   ; __vbaStrI4
+  40a949:	8b d0                	mov    edx,eax
+  40a94b:	8d 4d b8             	lea    ecx,[ebp-0x48]
+  40a94e:	ff 15 c4 10 40 00    	call   DWORD PTR ds:0x4010c4   ; __vbaStrMove
+  40a954:	8d 85 20 ff ff ff    	lea    eax,[ebp-0xe0]
+  40a95a:	50                   	push   eax
+  40a95b:	8d 8d 30 ff ff ff    	lea    ecx,[ebp-0xd0]
+  40a961:	51                   	push   ecx
+  40a962:	8d 95 40 ff ff ff    	lea    edx,[ebp-0xc0]
+  40a968:	52                   	push   edx
+  40a969:	8d 85 50 ff ff ff    	lea    eax,[ebp-0xb0]
+  40a96f:	50                   	push   eax
+  40a970:	6a 04                	push   0x4
+  40a972:	ff 15 1c 10 40 00    	call   DWORD PTR ds:0x40101c   ; __vbaFreeVarList
+  40a978:	83 c4 14             	add    esp,0x14
+  40a97b:	c7 45 f0 00 00 00 00 	mov    DWORD PTR [ebp-0x10],0x0
+  40a982:	68 63 aa 40 00       	push   0x40aa63
+  40a987:	eb 70                	jmp    0x40a9f9
+  40a989:	8d 8d 64 ff ff ff    	lea    ecx,[ebp-0x9c]
+  40a98f:	51                   	push   ecx
+  40a990:	8d 95 68 ff ff ff    	lea    edx,[ebp-0x98]
+  40a996:	52                   	push   edx
+  40a997:	8d 85 6c ff ff ff    	lea    eax,[ebp-0x94]
+  40a99d:	50                   	push   eax
+  40a99e:	8d 8d 70 ff ff ff    	lea    ecx,[ebp-0x90]
+  40a9a4:	51                   	push   ecx
+  40a9a5:	6a 04                	push   0x4
+  40a9a7:	ff 15 a8 10 40 00    	call   DWORD PTR ds:0x4010a8   ; __vbaFreeStrList
+  40a9ad:	83 c4 14             	add    esp,0x14
+  40a9b0:	8d 8d 60 ff ff ff    	lea    ecx,[ebp-0xa0]
+  40a9b6:	ff 15 d4 10 40 00    	call   DWORD PTR ds:0x4010d4   ; __vbaFreeObj
+  40a9bc:	8d 95 f0 fe ff ff    	lea    edx,[ebp-0x110]
+  40a9c2:	52                   	push   edx
+  40a9c3:	8d 85 00 ff ff ff    	lea    eax,[ebp-0x100]
+  40a9c9:	50                   	push   eax
+  40a9ca:	8d 8d 10 ff ff ff    	lea    ecx,[ebp-0xf0]
+  40a9d0:	51                   	push   ecx
+  40a9d1:	8d 95 20 ff ff ff    	lea    edx,[ebp-0xe0]
+  40a9d7:	52                   	push   edx
+  40a9d8:	8d 85 30 ff ff ff    	lea    eax,[ebp-0xd0]
+  40a9de:	50                   	push   eax
+  40a9df:	8d 8d 40 ff ff ff    	lea    ecx,[ebp-0xc0]
+  40a9e5:	51                   	push   ecx
+  40a9e6:	8d 95 50 ff ff ff    	lea    edx,[ebp-0xb0]
+  40a9ec:	52                   	push   edx
+  40a9ed:	6a 07                	push   0x7
+  40a9ef:	ff 15 1c 10 40 00    	call   DWORD PTR ds:0x40101c   ; __vbaFreeVarList
+  40a9f5:	83 c4 20             	add    esp,0x20
+  40a9f8:	c3                   	ret
+  40a9f9:	8d 4d dc             	lea    ecx,[ebp-0x24]
+  40a9fc:	ff 15 d8 10 40 00    	call   DWORD PTR ds:0x4010d8   ; __vbaFreeStr
+  40aa02:	8d 4d d8             	lea    ecx,[ebp-0x28]
+  40aa05:	ff 15 d8 10 40 00    	call   DWORD PTR ds:0x4010d8   ; __vbaFreeStr
+  40aa0b:	8d 45 c0             	lea    eax,[ebp-0x40]
+  40aa0e:	89 85 ac fe ff ff    	mov    DWORD PTR [ebp-0x154],eax
+  40aa14:	8d 8d ac fe ff ff    	lea    ecx,[ebp-0x154]
+  40aa1a:	51                   	push   ecx
+  40aa1b:	6a 00                	push   0x0
+  40aa1d:	ff 15 3c 10 40 00    	call   DWORD PTR ds:0x40103c   ; __vbaAryDestruct
+  40aa23:	8d 4d b8             	lea    ecx,[ebp-0x48]
+  40aa26:	ff 15 d8 10 40 00    	call   DWORD PTR ds:0x4010d8   ; __vbaFreeStr
+  40aa2c:	8d 4d a8             	lea    ecx,[ebp-0x58]
+  40aa2f:	ff 15 14 10 40 00    	call   DWORD PTR ds:0x401014   ; __vbaFreeVar
+  40aa35:	8d 55 90             	lea    edx,[ebp-0x70]
+  40aa38:	89 95 a8 fe ff ff    	mov    DWORD PTR [ebp-0x158],edx
+  40aa3e:	8d 85 a8 fe ff ff    	lea    eax,[ebp-0x158]
+  40aa44:	50                   	push   eax
+  40aa45:	6a 00                	push   0x0
+  40aa47:	ff 15 3c 10 40 00    	call   DWORD PTR ds:0x40103c   ; __vbaAryDestruct
+  40aa4d:	8d 4d 84             	lea    ecx,[ebp-0x7c]
+  40aa50:	ff 15 d8 10 40 00    	call   DWORD PTR ds:0x4010d8   ; __vbaFreeStr
+  40aa56:	8d 8d 74 ff ff ff    	lea    ecx,[ebp-0x8c]
+  40aa5c:	ff 15 14 10 40 00    	call   DWORD PTR ds:0x401014   ; __vbaFreeVar
+  40aa62:	c3                   	ret
+  40aa63:	8b 4d 08             	mov    ecx,DWORD PTR [ebp+0x8]
+  40aa66:	8b 11                	mov    edx,DWORD PTR [ecx]
+  40aa68:	8b 45 08             	mov    eax,DWORD PTR [ebp+0x8]
+  40aa6b:	50                   	push   eax
+  40aa6c:	ff 52 08             	call   DWORD PTR [edx+0x8]
+  40aa6f:	8b 45 f0             	mov    eax,DWORD PTR [ebp-0x10]
+  40aa72:	8b 4d e0             	mov    ecx,DWORD PTR [ebp-0x20]
+  40aa75:	64 89 0d 00 00 00 00 	mov    DWORD PTR fs:0x0,ecx
+  40aa7c:	5f                   	pop    edi
+  40aa7d:	5e                   	pop    esi
+  40aa7e:	5b                   	pop    ebx
+  40aa7f:	8b e5                	mov    esp,ebp
+  40aa81:	5d                   	pop    ebp
+  40aa82:	c2 04 00             	ret    0x4
+  40aa85:	cc                   	int3
+  40aa86:	cc                   	int3
+  40aa87:	cc                   	int3
+  40aa88:	cc                   	int3
+  40aa89:	cc                   	int3
+  40aa8a:	cc                   	int3
+  40aa8b:	cc                   	int3
+  40aa8c:	cc                   	int3
+  40aa8d:	cc                   	int3
+  40aa8e:	cc                   	int3
+  40aa8f:	cc                   	int3
+  40aa90:	9e                   	sahf
+  40aa91:	9e                   	sahf
+  40aa92:	9e                   	sahf
+  40aa93:	9e                   	sahf
+  40aa94:	bc aa 00 00 ff       	mov    esp,0xff0000aa
+  40aa99:	ff                   	(bad)
+  40aa9a:	ff                   	(bad)
+  40aa9b:	ff                   	(bad)
+  40aa9c:	ff                   	(bad)
+  40aa9d:	ff                   	(bad)
+  40aa9e:	ff                   	(bad)
+  40aa9f:	ff 9c ab 00 00 00 10 	call   FWORD PTR [ebx+ebp*4+0x10000000]
+  40aaba:	00 00                	add    BYTE PTR [eax],al
+  40aabc:	aa                   	stos   BYTE PTR es:[edi],al
+  40aabd:	ab                   	stos   DWORD PTR es:[edi],eax
+  40aabe:	00 00                	add    BYTE PTR [eax],al
+  40aac0:	b8 ab 00 00 c2       	mov    eax,0xc20000ab
+  40aac5:	ab                   	stos   DWORD PTR es:[edi],eax
+  40aac6:	00 00                	add    BYTE PTR [eax],al
+  40aac8:	d0 ab 00 00 e0 ab    	shr    BYTE PTR [ebx-0x54200000],1
+  40aace:	00 00                	add    BYTE PTR [eax],al
+  40aad0:	ee                   	out    dx,al
+  40aad1:	ab                   	stos   DWORD PTR es:[edi],eax
+  40aad2:	00 00                	add    BYTE PTR [eax],al
+  40aad4:	fe                   	(bad)
+  40aad5:	ab                   	stos   DWORD PTR es:[edi],eax
+  40aad6:	00 00                	add    BYTE PTR [eax],al
+  40aad8:	10 ac 00 00 24 ac 00 	adc    BYTE PTR [eax+eax*1+0xac2400],ch
+  40aadf:	00 04 02             	add    BYTE PTR [edx+eax*1],al
+  40aae2:	00 80 34 ac 00 00    	add    BYTE PTR [eax+0xac34],al
+  40aae8:	4a                   	dec    edx
+  40aae9:	ac                   	lods   al,BYTE PTR ds:[esi]
+  40aaea:	00 00                	add    BYTE PTR [eax],al
+  40aaec:	58                   	pop    eax
+  40aaed:	ac                   	lods   al,BYTE PTR ds:[esi]
+  40aaee:	00 00                	add    BYTE PTR [eax],al
+  40aaf0:	66 ac                	data16 lods al,BYTE PTR ds:[esi]
+  40aaf2:	00 00                	add    BYTE PTR [eax],al
+  40aaf4:	7e ac                	jle    0x40aaa2
+  40aaf6:	00 00                	add    BYTE PTR [eax],al
+  40aaf8:	8e ac 00 00 a2 ac 00 	mov    gs,WORD PTR [eax+eax*1+0xaca200]
+  40aaff:	00 b0 ac 00 00 53    	add    BYTE PTR [eax+0x530000ac],dh

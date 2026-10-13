@@ -1,0 +1,39 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c233
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c233
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c233
+
+title: "crackmes.de's renascense_crackme by skapunky"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "(Visual) Basic"
+
+difficulty: 1.0
+quality: null
+size: "13.97 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  exe: "original/renascense.exe"
+  exe_original_name: "CrackMe Renascense 1.exe"
+  exe_sha256: "16640b3c761bec4ee6b619f4a47ab8242aabaadf6457ba0f97cf0178cc2ebe34"
+  path: "original/CrackMe_Renascense_1.zip"
+  name: "CrackMe_Renascense_1.zip"
+  sha256: "ca6a75b3a7870705ac0f5b6de26e72eadfbbb1ca92b031497d0181b15d329ec0"
+  md5: "4cb22657efc329c99292e1ba328b16e5"
+  size_bytes: 14303
+
+status: solved
+solution_summary: "VB6 natif GUI (archive RAR nommée .zip) ; On Error Resume Next ; a(i)=Asc(Mid(ID,i+1,1)) pour i=0..7 (manquants = 0) ; password = \"ska\" & CStr(somme a(i)) & CStr(a(0)*3) & CStr(a(7)*5) ; petik -> ska5413360 (wine : Good, this version is registrered !)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-13T01:56:35Z"
