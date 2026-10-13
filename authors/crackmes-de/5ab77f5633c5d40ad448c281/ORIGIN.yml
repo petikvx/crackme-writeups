@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c281
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c281
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c281
+
+title: "crackmes.de's hypercrackme6 by thehyper"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++ (VC++ 6.0)"
+
+difficulty: 2.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/HyperCrackMe6.zip"
+  name: "HyperCrackMe6.zip"
+  sha256: "725ad30e8cfba3267b6e8df59860573a524491a358b1a5bdafd400c0f989981c"
+  md5: "979b89bcaa92b5a349a32b97bdd118bd"
+  size_bytes: 12668
+
+status: solved
+solution_summary: "serial lu dans le presse-papiers au lancement, XXXX-XXXX-XXXX-XXXX-XXXX ; srand(somme g0..g2 mod 0xffff /0xff), buf=rand()%26+0x20 xor g3/g4 doit donner G......c et hash(buf[1..6], K=0xb033a146)=0xd780 ; ex. PETI-KPET-IKPE-eQpY-RDVV ; code chiffré en couches + SEH + checksums, vérifié par émulation (MessageBox de réussite)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-13T20:52:05Z"

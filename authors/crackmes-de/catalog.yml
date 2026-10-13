@@ -1266,6 +1266,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c27f/original/hypercrack_me.zip"
     title: "crackmes.de's hypercrackme by thehyper"
 
+  5ab77f5633c5d40ad448c281:
+    sha256: "725ad30e8cfba3267b6e8df59860573a524491a358b1a5bdafd400c0f989981c"
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c281/original/HyperCrackMe6.zip"
+    title: "crackmes.de's hypercrackme6 by thehyper"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2291,3 +2296,7 @@ by_sha256:
     id: 5ab77f5633c5d40ad448c27f
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c27f/original/hypercrack_me.zip"
     page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c27f
+  725ad30e8cfba3267b6e8df59860573a524491a358b1a5bdafd400c0f989981c:
+    id: 5ab77f5633c5d40ad448c281
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c281/original/HyperCrackMe6.zip"
+    page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c281

@@ -1,0 +1,138 @@
+40128d: cmp dword ptr [ebp - 0xe0], 0
+401294: jne 0x401481
+40129a: mov ecx, dword ptr [ebp - 0x18]
+40129d: mov dword ptr [ebp - 0xe8], ecx
+4012a3: mov edi, dword ptr [ebp - 0xe8]
+4012a9: or ecx, 0xffffffff
+4012ac: xor eax, eax
+4012ae: repne scasb al, byte ptr es:[edi]
+4012b0: not ecx
+4012b2: add ecx, -1
+4012b5: cmp ecx, 0x18
+4012b8: jne 0x401481
+4012be: mov edx, dword ptr [ebp - 0xe8]
+4012c4: movsx eax, byte ptr [edx + 4]
+4012c8: cmp eax, 0x2d
+4012cb: jne 0x401481
+4012d1: mov ecx, dword ptr [ebp - 0xe8]
+4012d7: movsx edx, byte ptr [ecx + 9]
+4012db: cmp edx, 0x2d
+4012de: jne 0x401481
+4012e4: mov eax, dword ptr [ebp - 0xe8]
+4012ea: movsx ecx, byte ptr [eax + 0xe]
+4012ee: cmp ecx, 0x2d
+4012f1: jne 0x401481
+4012f7: mov edx, dword ptr [ebp - 0xe8]
+4012fd: movsx eax, byte ptr [edx + 0x13]
+401301: cmp eax, 0x2d
+401304: jne 0x401481
+40130a: lea esi, [ebp - 0xe8]
+401310: mov esi, dword ptr [esi]
+401312: mov eax, dword ptr [esi]
+401314: mov dword ptr [ebp - 0xf0], eax
+40131a: mov eax, dword ptr [esi + 5]
+40131d: mov dword ptr [ebp - 0xf8], eax
+401323: mov eax, dword ptr [esi + 0xa]
+401326: mov dword ptr [ebp - 0x100], eax
+40132c: mov eax, dword ptr [esi + 0xf]
+40132f: mov dword ptr [ebp - 0x104], eax
+401335: mov eax, dword ptr [esi + 0x14]
+401338: mov dword ptr [ebp - 0x108], eax
+40133e: mov eax, dword ptr [ebp - 0xf0]
+401344: xor edx, edx
+401346: mov ecx, 0xffff
+40134b: div ecx
+40134d: mov ecx, edx
+40134f: mov eax, dword ptr [ebp - 0xf8]
+401355: xor edx, edx
+401357: mov esi, 0xffff
+40135c: div esi
+40135e: add ecx, edx
+401360: mov eax, dword ptr [ebp - 0x100]
+401366: xor edx, edx
+401368: mov esi, 0xffff
+40136d: div esi
+40136f: add ecx, edx
+401371: mov eax, ecx
+401373: xor edx, edx
+401375: mov ecx, 0xffff
+40137a: div ecx
+40137c: mov dword ptr [ebp - 0xec], edx
+401382: mov edx, dword ptr [ebp - 0x24]
+401385: sub edx, 0x21524111
+40138b: mov dword ptr [ebp - 0x24], edx
+40138e: mov eax, dword ptr [ebp - 0xec]
+401394: xor edx, edx
+401396: mov ecx, 0xff
+40139b: div ecx
+40139d: mov dword ptr [ebp - 0xfc], eax
+4013a3: mov edx, dword ptr [ebp - 0xfc]
+4013a9: push edx
+4013aa: call 0x40183d
+4013af: add esp, 4
+4013b2: mov dword ptr [ebp - 0xf4], 0
+4013bc: jmp 0x4013cd
+4013be: mov eax, dword ptr [ebp - 0xf4]
+4013c4: add eax, 1
+4013c7: mov dword ptr [ebp - 0xf4], eax
+4013cd: cmp dword ptr [ebp - 0xf4], 0x27
+4013d4: jae 0x4013f5
+4013d6: call 0x401847
+4013db: cdq 
+4013dc: mov ecx, 0x1a
+4013e1: idiv ecx
+4013e3: add edx, 0x20
+4013e6: mov eax, dword ptr [ebp - 0xf4]
+4013ec: mov byte ptr [ebp + eax - 0xd8], dl
+4013f3: jmp 0x4013be
+4013f5: lea esi, [ebp - 0xd8]
+4013fb: mov eax, dword ptr [ebp - 0x104]
+401401: xor dword ptr [esi], eax
+401403: mov eax, dword ptr [ebp - 0x108]
+401409: xor dword ptr [esi + 4], eax
+40140c: mov eax, 0x2172656b
+401411: mov dword ptr [esi + 8], eax
+401414: mov eax, 0
+401419: mov dword ptr [esi + 0xc], eax
+40141c: movsx ecx, byte ptr [ebp - 0xd8]
+401423: cmp ecx, 0x47
+401426: jne 0x401481
+401428: movsx edx, byte ptr [ebp - 0xd1]
+40142f: cmp edx, 0x63
+401432: jne 0x401481
+401434: mov dword ptr [ebp - 0x10c], 1
+40143e: jmp 0x40144f
+401440: mov eax, dword ptr [ebp - 0x10c]
+401446: add eax, 1
+401449: mov dword ptr [ebp - 0x10c], eax
+40144f: cmp dword ptr [ebp - 0x10c], 7
+401456: jge 0x40147c
+401458: mov ecx, dword ptr [ebp - 0x10c]
+40145e: movsx edx, byte ptr [ebp + ecx - 0xd8]
+401466: shl edx, 6
+401469: mov eax, dword ptr [ebp - 8]
+40146c: add eax, edx
+40146e: mov dword ptr [ebp - 8], eax
+401471: mov ecx, dword ptr [ebp - 8]
+401474: xor ecx, dword ptr [ebp - 0x24]
+401477: mov dword ptr [ebp - 8], ecx
+40147a: jmp 0x401440
+40147c: jmp 0x4017dc
+401481: add ebx, 0xdeadbeef
+401487: mov eax, 0x9f9f9f9f
+40148c: pop ecx
+40148d: pop edi
+40148e: pop esi
+40148f: test ecx, ecx
+401491: je 0x401487
+401493: lea edi, [0x401239]
+401499: mov byte ptr [edi - 1], bl
+40149c: mov al, byte ptr [esi]
+40149e: ror al, 5
+4014a1: xor al, byte ptr [edi - 1]
+4014a4: mov byte ptr [esi], al
+4014a6: inc esi
+4014a7: loop 0x40149c
+4014a9: xor eax, eax
+4014ab: xor eax, eax
+4014ad: jmp 0x401834
