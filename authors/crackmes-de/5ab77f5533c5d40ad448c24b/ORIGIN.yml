@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c24b
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c24b
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c24b
+
+title: "crackmes.de's crackme_6 by fr1c"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Visual Basic 5 (natif)"
+
+difficulty: 1.0
+quality: null
+size: "6.01 KB"
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme6_1.zip"
+  name: "crackme6_1.zip"
+  sha256: "f55b292697fbcb67283b9c4e996154b827ae296aaa7af09558bcee6d80b25c54"
+  md5: "f5883c2262e3dc39a09b5ec6a298f185"
+  size_bytes: 6155
+
+status: solved
+solution_summary: "VB5 natif ; Command1_Click : clé = concat Hex(Asc(Mid$(nom,i,1))) (majuscules, var. de module non remise à zéro) ; petik -> 706574696B (wine : Very good!, bouton Check key réactivé par EnableWindow, binaire non patché)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-13T04:54:25Z"
