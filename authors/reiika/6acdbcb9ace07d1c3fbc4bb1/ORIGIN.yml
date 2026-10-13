@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6acdbcb9ace07d1c3fbc4bb1
+
+urls:
+  page: https://crackmes.one/crackme/6acdbcb9ace07d1c3fbc4bb1
+  download: https://crackmes.one/download/crackme/6acdbcb9ace07d1c3fbc4bb1
+
+title: "stckwzrd"
+author_on_site: "Reiika"
+author_local: "reiika"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 3
+quality: null
+size: ""
+published: "2026-10-13"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/stckwzrd"
+  name: "stckwzrd"
+  sha256: "3bc0c0c2fbcaf696bfbe613d3745e1d453e7601449e8d449994966868061b7ed"
+  md5: "57dc435989ee730ef75f50ce61da6b89"
+  size_bytes: 14528
+
+status: solved
+solution_summary: "St4ckW1z4rd_0x5A — VM à pile, bytecode XOR (109*i+0x3b), seed 0x5a (ptrace), inversion chaînée rol/add/xor"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-13T05:42:47Z"

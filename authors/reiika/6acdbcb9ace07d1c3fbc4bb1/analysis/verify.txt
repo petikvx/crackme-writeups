@@ -1,0 +1,12 @@
+$ echo St4ckW1z4rd_0x5A | ./stckwzrd
+  stckwzrd :: the stack wizard guards this gate
+  serial>   the stack unwinds cleanly. ACCESS GRANTED.
+(rc=0)
+$ echo St4ckW1z4rd_0x5B | ./stckwzrd
+  stckwzrd :: the stack wizard guards this gate
+  serial>   the stack overflows with doubt. denied.
+(rc=0)
+$ echo short | ./stckwzrd
+  stckwzrd :: the stack wizard guards this gate
+  serial>   the wizard scoffs. (wrong length)
+(rc=1)

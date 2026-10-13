@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6acdbcb9ace07d1c3fbc4bb1:
+    sha256: "3bc0c0c2fbcaf696bfbe613d3745e1d453e7601449e8d449994966868061b7ed"
+    path: "authors/reiika/6acdbcb9ace07d1c3fbc4bb1/original/stckwzrd"
+    title: "Reiika's stckwzrd"
+
+by_sha256:
+  3bc0c0c2fbcaf696bfbe613d3745e1d453e7601449e8d449994966868061b7ed:
+    id: 6acdbcb9ace07d1c3fbc4bb1
+    path: "authors/reiika/6acdbcb9ace07d1c3fbc4bb1/original/stckwzrd"
+    page: https://crackmes.one/crackme/6acdbcb9ace07d1c3fbc4bb1

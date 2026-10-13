@@ -229,6 +229,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [vsec](authors/vsec/README.md) | vsec | 1 (Challenger No.1) | 1 / 1 |
 | [yugnatd](authors/yugnatd/README.md) | YugnatD | 1 (WarGames) | 1 / 1 |
 | [zydak](authors/zydak/README.md) | zydak | 2 (simple obfuscated + Tetris DRM) | 0 / 2 |
+| [reiika](authors/reiika/README.md) | Reiika | 1 (stckwzrd) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -251,6 +252,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-13 | [stckwzrd](authors/reiika/6acdbcb9ace07d1c3fbc4bb1/) | Reiika |
 | 2026-10-13 | [crackme_5 by fr1c](authors/crackmes-de/5ab77f5533c5d40ad448c249/) | crackmes.de / fr1c |
 | 2026-10-13 | [crackme_8 by fr1c](authors/crackmes-de/5ab77f5533c5d40ad448c24a/) | crackmes.de / fr1c |
 | 2026-10-13 | [crackme_6 by fr1c](authors/crackmes-de/5ab77f5533c5d40ad448c24b/) | crackmes.de / fr1c |
