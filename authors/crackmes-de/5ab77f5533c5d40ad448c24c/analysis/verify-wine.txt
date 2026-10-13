@@ -1,0 +1,14 @@
+=== GOOD F988f91 ===
+form 0001009c class=TForm1 title='CrackMe by Fr1c'
+  child 000100aa class=TEdit text=''
+  child 000100a8 class=TButton text='Check'
+edit=000100aa btn=000100a8 serial=F988f91
+mb 000200ca title='CrackMe by Fr1c'
+MessageBox : Very good!
+=== BAD wrong ===
+form 0001009c class=TForm1 title='CrackMe by Fr1c'
+  child 000100aa class=TEdit text=''
+  child 000100a8 class=TButton text='Check'
+edit=000100aa btn=000100a8 serial=wrong
+mb 000200ca title='CrackMe by Fr1c'
+MessageBox : Try again!

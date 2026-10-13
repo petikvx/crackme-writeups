@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c24c
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c24c
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c24c
+
+title: "crackmes.de's crackme_1_1 by fr1c"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C++ Builder (Borland)"
+
+difficulty: 1.0
+quality: null
+size: "128 KB"
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme_1.zip"
+  name: "crackme_1.zip"
+  sha256: "5598c9eb1fdd8d4be5c9684d82e8f324da65a5affb44f26c14331fca942b7af0"
+  md5: "8169f86d9d6a91aefa9e316798386b60"
+  size_bytes: 131027
+
+status: solved
+solution_summary: "C++ Builder ; Button1Click : LStrCmp(Edit1.Text, \"F988f91\") ; serial constant (pas de nom) ; petik (ignoré) -> F988f91 (wine : Very good!)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-13T05:53:03Z"

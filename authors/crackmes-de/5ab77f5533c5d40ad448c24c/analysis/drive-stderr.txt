@@ -1,0 +1,4 @@
+top 0001009c cls=TForm1 title='CrackMe by Fr1c'
+  child 000100aa cls=TEdit txt=''
+  child 000100a8 cls=TButton txt='Check'
+edit=000100aa btn=000100a8

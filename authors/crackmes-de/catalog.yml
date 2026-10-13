@@ -1146,6 +1146,16 @@ by_id:
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c24b/original/crackme6_1.zip"
     title: "crackmes.de's crackme_6 by fr1c"
 
+  5ab77f5533c5d40ad448c24c:
+    sha256: "5598c9eb1fdd8d4be5c9684d82e8f324da65a5affb44f26c14331fca942b7af0"
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c24c/original/crackme_1.zip"
+    title: "crackmes.de's crackme_1_1 by fr1c"
+
+  5ab77f5533c5d40ad448c24d:
+    sha256: "efea8013acafb8e4a8ec26ce157e182961f564e35cfe55450d503b605795ce4c"
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c24d/original/crackme3_1.zip"
+    title: "crackmes.de's crackme_3 by fr1c"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2075,3 +2085,11 @@ by_sha256:
     id: 5ab77f5533c5d40ad448c24b
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c24b/original/crackme6_1.zip"
     page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c24b
+  5598c9eb1fdd8d4be5c9684d82e8f324da65a5affb44f26c14331fca942b7af0:
+    id: 5ab77f5533c5d40ad448c24c
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c24c/original/crackme_1.zip"
+    page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c24c
+  efea8013acafb8e4a8ec26ce157e182961f564e35cfe55450d503b605795ce4c:
+    id: 5ab77f5533c5d40ad448c24d
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c24d/original/crackme3_1.zip"
+    page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c24d

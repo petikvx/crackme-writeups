@@ -146,7 +146,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [oguzbey](authors/oguzbey/README.md) | oguzbey | 1 (Lucky Numbers) | 1 / 1 |
 | [andrewl](authors/andrewl/README.md) | andrewl | 1 (Quick Crypto) | 1 / 1 |
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
-| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 179 / 179 |
+| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 220 / 220 |
 | [chaltu](authors/chaltu/README.md) | chaltu | 2 (a Treasure + Double Door) | 2 / 2 |
 | [qerr0r](authors/qerr0r/README.md) | QERR0R | 1 (crackit) | 1 / 1 |
 | [steve_maxwell](authors/steve_maxwell/README.md) | steve_maxwell | 1 (X-0-R) | 1 / 1 |
@@ -252,6 +252,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-13 | [crackme_1_1 by fr1c](authors/crackmes-de/5ab77f5533c5d40ad448c24c/) | crackmes.de / fr1c |
 | 2026-10-13 | [stckwzrd](authors/reiika/6acdbcb9ace07d1c3fbc4bb1/) | Reiika |
 | 2026-10-13 | [crackme_5 by fr1c](authors/crackmes-de/5ab77f5533c5d40ad448c249/) | crackmes.de / fr1c |
 | 2026-10-13 | [crackme_8 by fr1c](authors/crackmes-de/5ab77f5533c5d40ad448c24a/) | crackmes.de / fr1c |
