@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c279
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c279
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c279
+
+title: "crackmes.de's zi___crakme_v2 by zionz"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "BlitzBasic (Blitz3D)"
+
+difficulty: 2.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/zi_crackme_v2.zip"
+  name: "zi_crackme_v2.zip"
+  sha256: "6301bd89602499acc5ca78d8ed1cf352e9baf499c3c1d3296efda3fa0b5361bf"
+  md5: "57090de1906cbafe97de97f5cf880bdc"
+  size_bytes: 483788
+
+status: solved
+solution_summary: "username 5 chars ; serial = str(((((a+b+d)*c)+e)+a+e)*e+d) avec a..e=Asc(user[i]) ; petik→3982003 (wine: SERIAL CORRECT!) ; AC341 leurre"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-13T19:53:55Z"

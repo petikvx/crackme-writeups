@@ -278,6 +278,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 244 | [c_crackme_2 by mayhem](5ab77f5633c5d40ad448c274/) | mayhem | Windows PE32 MSVC2010 MFC GUI | `petik` / `5h25` : hash(nom)=Σ 60·c·T[i]+0x699 mod 2^32 écrit en base 62 `a-z0-9A-Z`, poids faible en tête (wine: Valid Serial! Well Done.) |
 | 245 | [mishka_tribute by zart](5ab77f5633c5d40ad448c277/) | zart | Windows PE32 MSVC6 console (+musique XM) | `petik` / `3649375339` : nom = Σ append(i, c) (`ettiiikkkk`), hash a=a·m+c, m·=0x6E6FA (m0=0x43BA) mod 2^32, serial décimal (wine: Serial checked out) |
 | 246 | [zi___crakme by zionz](5ab77f5633c5d40ad448c278/) | zionz | Windows PE32 Blitz3D GUI | serial `AX943` : constante `__bbStrConst` + `__bbStrCompare` dans le code Blitz en `.rsrc` (wine: WELL DONE!) |
+| 247 | [zi___crakme_v2 by zionz](5ab77f5633c5d40ad448c279/) | zionz | Windows PE32 Blitz3D GUI | keygen 5 chars : `((((a+b+d)*c)+e)+a+e)*e+d` ; **petik→3982003** (wine: SERIAL CORRECT!) |
 
 ## Mis de côté (PARKED — y revenir)
 
