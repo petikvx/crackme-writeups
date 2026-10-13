@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c25e
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c25e
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c25e
+
+title: "crackmes.de's hysteria_crackme by haiklr"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 2.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/hysteria_CRKME.zip"
+  name: "hysteria_CRKME.zip"
+  sha256: "c0c667acb6ca7e1c7a98626a2843ef9efdcda18f4821d1e123a050b180f12782"
+  md5: "9d6cb6c0e2770f11a3c19beb6a866738"
+  size_bytes: 88847
+
+status: solved
+solution_summary: "keyfile hex((CRC32&~0xFF)|name[0]) ; A/B/C dwords ; P=(CRC%99,(CRC%99)^0x2007) ; petik→eafb870"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-13T12:03:59Z"

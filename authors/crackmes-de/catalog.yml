@@ -1196,6 +1196,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c25d/original/IMPosTOR__s_Crack_me_0.5.zip"
     title: "crackmes.de's impostors_crack_me_0.5 by impostor"
 
+  5ab77f5533c5d40ad448c25e:
+    sha256: "c0c667acb6ca7e1c7a98626a2843ef9efdcda18f4821d1e123a050b180f12782"
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c25e/original/hysteria_CRKME.zip"
+    title: "crackmes.de's hysteria_crackme by haiklr"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2165,3 +2170,7 @@ by_sha256:
     id: 5ab77f5533c5d40ad448c25d
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c25d/original/IMPosTOR__s_Crack_me_0.5.zip"
     page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c25d
+  c0c667acb6ca7e1c7a98626a2843ef9efdcda18f4821d1e123a050b180f12782:
+    id: 5ab77f5533c5d40ad448c25e
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c25e/original/hysteria_CRKME.zip"
+    page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c25e
