@@ -262,6 +262,8 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 233 | [crackme_delphi_1.0 by defc0n1](5ab77f5533c5d40ad448c25b/) | defc0n1 | Windows PE32 Delphi 2009 GUI | `Insert1.Text == "burninhell"` (_UStrEqual, UnicodeString) ; **burninhell** (wine: Contraseña aceptada) |
 | 234 | [crackme_delphi_2.0 by defc0n1](5ab77f5533c5d40ad448c25c/) | defc0n1 | Windows PE32 Delphi 2009 GUI | `Edit2Change` k=809, Submit k-=9 ; `"Kevin"` / `"kevin"+IntToStr(k)` ; **Kevin / kevin800** (wine: Hello Kevin) |
 
+| 235 | [impostors_crack_me_0.5 by impostor](5ab77f5533c5d40ad448c25d/) | impostor | Windows PE32 Delphi 6–7 console | patchme : `mov eax` @`0x404229` `0x40446c`→`0x404290` (Unregistered→Registered), 5 octets @fichier `0x3629` ; wine : `[*] Registered ...` |
+
 ## Mis de côté (PARKED — y revenir)
 
 | Titre | ID | Blocage / reprise |

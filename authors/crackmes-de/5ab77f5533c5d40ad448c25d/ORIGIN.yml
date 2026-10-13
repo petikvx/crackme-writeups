@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c25d
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c25d
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c25d
+
+title: "crackmes.de's impostors_crack_me_0.5 by impostor"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Borland Delphi"
+
+difficulty: 2.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/IMPosTOR__s_Crack_me_0.5.zip"
+  name: "IMPosTOR__s_Crack_me_0.5.zip"
+  sha256: "1baca5d36bff34b88e6e40cfac4c21ad33a7c3237d2b19db8eb475ccb9a076b1"
+  md5: "99ac480d330db49f5e1de001da560f04"
+  size_bytes: 14829
+
+status: solved
+solution_summary: "patchme: mov eax @0x404229 0x40446c→0x404290 (Unregistered→Registered), 5 octets @fichier 0x3629"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-13T12:00:24Z"

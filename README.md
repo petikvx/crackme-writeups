@@ -252,6 +252,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-13 | [impostors_crack_me_0.5 by impostor](authors/crackmes-de/5ab77f5533c5d40ad448c25d/) | crackmes.de / impostor |
 | 2026-10-13 | [crackme_delphi_2.0 by defc0n1](authors/crackmes-de/5ab77f5533c5d40ad448c25c/) | crackmes.de / defc0n1 |
 | 2026-10-13 | [crackme_delphi_1.0 by defc0n1](authors/crackmes-de/5ab77f5533c5d40ad448c25b/) | crackmes.de / defc0n1 |
 | 2026-10-13 | [xdstylas_crackme_1 by xdstyla](authors/crackmes-de/5ab77f5533c5d40ad448c25a/) | crackmes.de / xdstyla |
