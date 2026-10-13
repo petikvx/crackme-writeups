@@ -1221,6 +1221,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c264/original/mms-crkme_en.zip"
     title: "crackmes.de's mms_crackme by haiklr"
 
+  5ab77f5533c5d40ad448c267:
+    sha256: "d6e1b0d6af47235ed972e93fcf03746fd7e0b8138dde4f7c12c10d6bf5fa40fa"
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c267/original/Old_KeygenMe.zip"
+    title: "crackmes.de's old_keygenme_2010 by zaas"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2210,3 +2215,7 @@ by_sha256:
     id: 5ab77f5533c5d40ad448c264
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c264/original/mms-crkme_en.zip"
     page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c264
+  d6e1b0d6af47235ed972e93fcf03746fd7e0b8138dde4f7c12c10d6bf5fa40fa:
+    id: 5ab77f5533c5d40ad448c267
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c267/original/Old_KeygenMe.zip"
+    page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c267

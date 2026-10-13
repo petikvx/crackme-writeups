@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c267
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c267
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c267
+
+title: "crackmes.de's old_keygenme_2010 by zaas"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++"
+
+difficulty: 2.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Old_KeygenMe.zip"
+  name: "Old_KeygenMe.zip"
+  sha256: "d6e1b0d6af47235ed972e93fcf03746fd7e0b8138dde4f7c12c10d6bf5fa40fa"
+  md5: "ca3d779f2b2702a142590aa12a30274d"
+  size_bytes: 24267
+
+status: solved
+solution_summary: "petik / QQRR + Shift+3 ('#') : Σserial[:4] + 4n0+3n1+2n2+n3 = 0x586 (div par zéro sous SEH) ; Well done!"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-13T15:11:18Z"

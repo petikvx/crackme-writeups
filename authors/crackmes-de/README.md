@@ -272,6 +272,8 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 
 | 240 | [mms_crackme by haiklr](5ab77f5533c5d40ad448c264/) | haiklr | Windows PE32 MASM32 GUI | serial `_!Q$` → hash `0x80D1F55F` (%X) (wine: M&M's owned !) |
 
+| 241 | [old_keygenme_2010 by zaas](5ab77f5533c5d40ad448c267/) | zaas | Windows PE32 MSVC6 GUI | `petik` / `QQRR` + Shift+3 (`#`) : Σs[:4]+4n0+3n1+2n2+n3=0x586 → div/0 sous SEH (wine: Well done!) |
+
 ## Mis de côté (PARKED — y revenir)
 
 | Titre | ID | Blocage / reprise |
