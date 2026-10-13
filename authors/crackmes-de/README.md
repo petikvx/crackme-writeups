@@ -270,6 +270,8 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 
 | 239 | [gloops_crackme by haiklr](5ab77f5533c5d40ad448c263/) | haiklr | Windows PE32 MASM32 GUI | keyfile `gl00ps.nas` 12 octets `(0,34,15)(12,2,35)(6,18,25)+parfait 8128` (wine: GOOD BOY) |
 
+| 240 | [mms_crackme by haiklr](5ab77f5533c5d40ad448c264/) | haiklr | Windows PE32 MASM32 GUI | serial `_!Q$` → hash `0x80D1F55F` (%X) (wine: M&M's owned !) |
+
 ## Mis de côté (PARKED — y revenir)
 
 | Titre | ID | Blocage / reprise |

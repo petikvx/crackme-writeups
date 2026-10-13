@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c264
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c264
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c264
+
+title: "crackmes.de's mms_crackme by haiklr"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 2.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/mms-crkme_en.zip"
+  name: "mms-crkme_en.zip"
+  sha256: "81e6320910b457a8988e1505eb97cc2b9f14055386fed471751e3dc328c25c5b"
+  md5: "309d9b81fb0e25abbce3b72467ed1f87"
+  size_bytes: 105713
+
+status: solved
+solution_summary: "serial _!Q$ → hash 0x80D1F55F (%X) ; MessageBox/edit M&M's owned !"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-13T14:12:54Z"

@@ -1216,6 +1216,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c263/original/gloops-crkme.zip"
     title: "crackmes.de's gloops_crackme by haiklr"
 
+  5ab77f5533c5d40ad448c264:
+    sha256: "81e6320910b457a8988e1505eb97cc2b9f14055386fed471751e3dc328c25c5b"
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c264/original/mms-crkme_en.zip"
+    title: "crackmes.de's mms_crackme by haiklr"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2201,3 +2206,7 @@ by_sha256:
     id: 5ab77f5533c5d40ad448c263
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c263/original/gloops-crkme.zip"
     page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c263
+  81e6320910b457a8988e1505eb97cc2b9f14055386fed471751e3dc328c25c5b:
+    id: 5ab77f5533c5d40ad448c264
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c264/original/mms-crkme_en.zip"
+    page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c264
