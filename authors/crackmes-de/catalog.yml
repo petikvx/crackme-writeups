@@ -1111,6 +1111,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c233/original/CrackMe_Renascense_1.zip"
     title: "crackmes.de's renascense_crackme by skapunky"
 
+  5ab77f5533c5d40ad448c235:
+    sha256: "b7eeebf4f7803192867b617e27fb95f2e6ee53e742fa269621a31c2cf8d701da"
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c235/original/Crackme.And.Eatme.#1.By.MIGHTY.KInG.zip"
+    title: "crackmes.de's crackme_and_eatme_1 by mghty_kng"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2012,3 +2017,7 @@ by_sha256:
     id: 5ab77f5533c5d40ad448c233
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c233/original/CrackMe_Renascense_1.zip"
     page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c233
+  b7eeebf4f7803192867b617e27fb95f2e6ee53e742fa269621a31c2cf8d701da:
+    id: 5ab77f5533c5d40ad448c235
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c235/original/Crackme.And.Eatme.#1.By.MIGHTY.KInG.zip"
+    page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c235

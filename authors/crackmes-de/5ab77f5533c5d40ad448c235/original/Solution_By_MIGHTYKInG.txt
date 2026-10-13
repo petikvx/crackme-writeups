@@ -1,0 +1,12 @@
+
+
+
+
+
+
+
+                       _____________________________________
+                       |                                   |
+                       |  Set "Terminal" Font, Size 9, And |
+                       |Drag & Drop Read_iNFO.nfo File Here|
+                       |___________________________________|

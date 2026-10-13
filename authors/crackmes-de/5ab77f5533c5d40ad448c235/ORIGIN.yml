@@ -1,0 +1,39 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c235
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c235
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c235
+
+title: "crackmes.de's crackme_and_eatme_1 by mghty_kng"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "AutoIt v3"
+
+difficulty: 1.0
+quality: null
+size: "545.58 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  exe: "original/crackme_and_eatme.exe"
+  exe_original_name: "Crackme_And_Eatme.exe"
+  exe_sha256: "fbeec1082844573d73e004c5e1d55d59875d6dab5bc643d94c1475795c92a77f"
+  path: "original/Crackme.And.Eatme.#1.By.MIGHTY.KInG.zip"
+  name: "Crackme.And.Eatme.#1.By.MIGHTY.KInG.zip"
+  sha256: "b7eeebf4f7803192867b617e27fb95f2e6ee53e742fa269621a31c2cf8d701da"
+  md5: "50de180be6ec1f7e0e4f2f0254e3883f"
+  size_bytes: 558676
+
+status: solved
+solution_summary: "AutoIt v3 (AU3!EA06), script extrait avec autoit-ripper ; serial = S1 & \"-\" & UPPER(Left(nom,3)) & (-S1) & \"-\" & (1/c1/c2/.../cn), S1 = somme des Asc, double formaté %.15g MSVC (exposant 3 chiffres) ; petik -> 541-PET-541-6.78312058319816e-011 (wine : Well Done !!)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-13T02:00:54Z"
