@@ -260,6 +260,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 231 | [nev_crackme by nevyn](5ab77f5533c5d40ad448c258/) | nevyn | Windows PE32 Delphi 7 GUI | `Edit1^0x17 == C1` puis re-XOR `== "htContext"` ; **htContext** (wine: Well done!) |
 | 232 | [xdstylas_crackme_1 by xdstyla](5ab77f5533c5d40ad448c25a/) | xdstyla | Windows PE32 MSVC2008 console (pas VB) | `cin>>s ; s^0x14 == "loludiditcongratz"` ; **x{xap}p}\`w{zsfu\`n** (wine: Right) |
 | 233 | [crackme_delphi_1.0 by defc0n1](5ab77f5533c5d40ad448c25b/) | defc0n1 | Windows PE32 Delphi 2009 GUI | `Insert1.Text == "burninhell"` (_UStrEqual, UnicodeString) ; **burninhell** (wine: Contraseña aceptada) |
+| 234 | [crackme_delphi_2.0 by defc0n1](5ab77f5533c5d40ad448c25c/) | defc0n1 | Windows PE32 Delphi 2009 GUI | `Edit2Change` k=809, Submit k-=9 ; `"Kevin"` / `"kevin"+IntToStr(k)` ; **Kevin / kevin800** (wine: Hello Kevin) |
 
 ## Mis de côté (PARKED — y revenir)
 

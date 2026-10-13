@@ -1186,6 +1186,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c25b/original/Crackme_Delphi_1.0_by_Defc0n1.zip"
     title: "crackmes.de's crackme_delphi_1.0_by_defc0n1 by defc0n1"
 
+  5ab77f5533c5d40ad448c25c:
+    sha256: "78ce350b306703829795cc57a6b4c9c6da310f36c6d04741eebd33ef72320792"
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c25c/original/Crackme_Delphi_2.0_by_Defc0n1.zip"
+    title: "crackmes.de's crackme_delphi_2.0_by_defc0n1 by defc0n1"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2147,3 +2152,7 @@ by_sha256:
     id: 5ab77f5533c5d40ad448c25b
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c25b/original/Crackme_Delphi_1.0_by_Defc0n1.zip"
     page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c25b
+  78ce350b306703829795cc57a6b4c9c6da310f36c6d04741eebd33ef72320792:
+    id: 5ab77f5533c5d40ad448c25c
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c25c/original/Crackme_Delphi_2.0_by_Defc0n1.zip"
+    page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c25c

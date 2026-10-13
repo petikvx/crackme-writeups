@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c25c
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c25c
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c25c
+
+title: "crackmes.de's crackme_delphi_2.0_by_defc0n1 by defc0n1"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows (PE32 GUI VCL)"
+arch: "x86"
+language: "Embarcadero Delphi 2009"
+
+difficulty: 1.0
+quality: 4.0
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Crackme_Delphi_2.0_by_Defc0n1.zip"
+  name: "Crackme_Delphi_2.0_by_Defc0n1.zip"
+  sha256: "78ce350b306703829795cc57a6b4c9c6da310f36c6d04741eebd33ef72320792"
+  md5: "bfd3488f4e45d8f70d6cdac14ee6e78b"
+  size_bytes: 813766
+
+status: solved
+solution_summary: "Kevin / kevin800 : Edit2Change k=5*50*25+0x45+0x1F4-0x177A=809, Submit k-=9 -> \"kevin\"+IntToStr(800) ; wine: Hello Kevin (Form3)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-13T10:57:18Z"
