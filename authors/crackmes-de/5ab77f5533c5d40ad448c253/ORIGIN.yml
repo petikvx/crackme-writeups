@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c253
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c253
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c253
+
+title: "crackmes.de's fjlj_crackme_3 by fjlj"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler (MinGW NOP sled / Olly)"
+
+difficulty: 2.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/New_crackme3.zip"
+  name: "New_crackme3.zip"
+  sha256: "3ea9d52bb7899ef387af2d08579efce55e192eb47eafe79812b147f209ad9a3f"
+  md5: "b5e12c75f612755e5d46957bcec1d48d"
+  size_bytes: 129828
+
+status: solved
+solution_summary: "serial = weird_hex(0x401404+Σname) ‖ alphabet_index_hex ; petik→1612BDBE"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-13T06:51:10Z"
