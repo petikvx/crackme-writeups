@@ -1116,6 +1116,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c235/original/Crackme.And.Eatme.#1.By.MIGHTY.KInG.zip"
     title: "crackmes.de's crackme_and_eatme_1 by mghty_kng"
 
+  5ab77f5533c5d40ad448c245:
+    sha256: "9b50fa4a048e3496af42439dac5c489a7bc7e19d1204f23f91cfe0f77055ac32"
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c245/original/Knights_crackme#1.zip"
+    title: "crackmes.de's knights_crackme1 by knight"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2021,3 +2026,7 @@ by_sha256:
     id: 5ab77f5533c5d40ad448c235
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c235/original/Crackme.And.Eatme.#1.By.MIGHTY.KInG.zip"
     page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c235
+  9b50fa4a048e3496af42439dac5c489a7bc7e19d1204f23f91cfe0f77055ac32:
+    id: 5ab77f5533c5d40ad448c245
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c245/original/Knights_crackme#1.zip"
+    page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c245

@@ -1,0 +1,8 @@
+== petik / FFFF-32CB-1000
+MsgBox <Success> : [OK] [Congratulations, you did it.
+Now write keygen and tutorial.]
+== petik / FFFF-32CC-1000
+MsgBox <Haha> : [OK] [Get lost looser]
+== crackmesone / FFFF-12AA-1000
+MsgBox <Success> : [OK] [Congratulations, you did it.
+Now write keygen and tutorial.]

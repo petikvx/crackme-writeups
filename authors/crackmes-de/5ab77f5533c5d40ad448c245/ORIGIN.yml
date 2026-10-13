@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c245
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c245
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c245
+
+title: "crackmes.de's knights_crackme1 by knight"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++ (MSVC 6, UPX 1.25)"
+
+difficulty: 2.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Knights_crackme#1.zip"
+  name: "Knights_crackme#1.zip"
+  sha256: "9b50fa4a048e3496af42439dac5c489a7bc7e19d1204f23f91cfe0f77055ac32"
+  md5: "35acd09c0d9efc589662c773dc8618fe"
+  size_bytes: 13910
+
+status: solved
+solution_summary: "Dialogue MSVC 6 packé UPX ; serial HHHH-HHHH-HHHH (14 car., séparateurs s9 = swap_nibbles(~s4)), A > B > C >= 0x1000 ; h = Σ ((c^0xAA)*(c>>4)^2) << 4*(i&1) ; récursion 0x401022 : h atteignable par multiples de {A,B} et de {B,C} ; B diviseur de h suffit ; petik -> FFFF-32CB-1000 (wine : Congratulations, you did it.)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-13T03:02:56Z"

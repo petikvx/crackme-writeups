@@ -246,6 +246,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 218 | [ncn by eslimasec](5ab77f5533c5d40ad448c230/) | eslimasec | Linux ELF32 C (GCC 3.4) | chiffreur : `SEMILLA = rand()%62` en clair dans `cifred[1]`, case suivante = 1re libre à `newpos+3` (circulaire), `min[(SEMILLA+idx(c)+5k)%62]` ; Readme -> `Esto no es una contrasena cifrada cualquiera, sino una especial` (binaire, `rand()` figé) |
 | 219 | [renascense_crackme by skapunky](5ab77f5533c5d40ad448c233/) | skapunky | Windows PE32 VB6 natif GUI | `On Error Resume Next` ; `a(i)=Asc(Mid(ID,i+1,1))` i=0..7 (manquants = 0) ; password = `"ska" & Σa(i) & a(0)*3 & a(7)*5` ; `petik` → `ska5413360` (wine) |
 | 220 | [crackme_and_eatme_1 by mghty_kng](5ab77f5533c5d40ad448c235/) | mghty_kng | Windows PE32 AutoIt v3 (EA06) | script via `autoit-ripper` ; serial = `Σc & "-" & UPPER(nom[:3]) & -Σc & "-" & 1/Πc` (double `%.15g` MSVC, exposant 3 chiffres) ; `petik` → `541-PET-541-6.78312058319816e-011` (wine) |
+| 221 | [knights_crackme1 by knight](5ab77f5533c5d40ad448c245/) | knight | Windows PE32 MSVC 6 GUI (UPX 1.25) | serial `HHHH-HHHH-HHHH`, `A > B > C >= 0x1000` ; `h = Σ ((c^0xAA)*(c>>4)²) << 4*(i&1)` ; récursion `0x401022` : `h` atteignable par multiples de `{A,B}` et `{B,C}` (B diviseur de h suffit) ; `petik` → `FFFF-32CB-1000` (wine) |
 
 ## Mis de côté (PARKED — y revenir)
 
