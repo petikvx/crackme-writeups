@@ -1246,6 +1246,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c277/original/keygenme.zip"
     title: "crackmes.de's mishka_tribute by zart"
 
+  5ab77f5633c5d40ad448c278:
+    sha256: "3aabd5318385371a6ba2a172d2acebb4f21b0cc7cf489b5cc5941cd0b41ec42d"
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c278/original/Zi_crakme.zip"
+    title: "crackmes.de's zi___crakme by zionz"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2255,3 +2260,7 @@ by_sha256:
     id: 5ab77f5633c5d40ad448c277
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c277/original/keygenme.zip"
     page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c277
+  3aabd5318385371a6ba2a172d2acebb4f21b0cc7cf489b5cc5941cd0b41ec42d:
+    id: 5ab77f5633c5d40ad448c278
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c278/original/Zi_crakme.zip"
+    page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c278

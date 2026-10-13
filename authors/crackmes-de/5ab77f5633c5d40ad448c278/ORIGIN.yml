@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c278
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c278
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c278
+
+title: "crackmes.de's zi___crakme by zionz"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "BlitzBasic (Blitz3D)"
+
+difficulty: 2.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Zi_crakme.zip"
+  name: "Zi_crakme.zip"
+  sha256: "3aabd5318385371a6ba2a172d2acebb4f21b0cc7cf489b5cc5941cd0b41ec42d"
+  md5: "d89d4f71f8d3e6713c7e91f8eb0fcce8"
+  size_bytes: 483048
+
+status: solved
+solution_summary: "serial fixe AX943 (sensible à la casse) : constante __bbStrConst comparée par __bbStrCompare dans le programme Blitz3D en ressource (wine: WELL DONE!)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-13T19:15:01Z"
