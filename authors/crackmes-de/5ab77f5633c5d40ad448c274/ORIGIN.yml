@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c274
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c274
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c274
+
+title: "crackmes.de's c_crackme_2 by mayhem"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++"
+
+difficulty: 2.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/C++_CrackMe_#2.zip"
+  name: "C++_CrackMe_#2.zip"
+  sha256: "50df692da9b330f552ae9c93621001f940547bf7bc61932bd6db2c3e56c011da"
+  md5: "834f9df7d87ed1aa459657bde92a5c22"
+  size_bytes: 113884
+
+status: solved
+solution_summary: "petik / 5h25 : serial = hash(nom) en base 62 (a-z0-9A-Z, poids faible en tête), hash = Σ 60·c·T[i]+0x699 mod 2^32 (wine: Valid Serial! Well Done.)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-13T18:04:42Z"

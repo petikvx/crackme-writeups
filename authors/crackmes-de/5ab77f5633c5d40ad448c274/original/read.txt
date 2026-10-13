@@ -1,0 +1,6 @@
+This crackme involves a bit more math than my previous crackmes. That, and a few other factors, make it (hopefully) more difficult.
+
+Rules:
+1. Write a keygen. Serials are extremely easy to bruteforce and for this reason a bruteforcer is not a valid solution.
+2. No patching.
+3. Have fun!
