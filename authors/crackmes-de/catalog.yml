@@ -1181,6 +1181,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c25a/original/Crackme1.zip"
     title: "crackmes.de's xdstylas_crackme_1 by xdstyla"
 
+  5ab77f5533c5d40ad448c25b:
+    sha256: "d978d66efe9b7f06be1f120a13a7a18252c9bad40bcaacf0ea2e2392a86cb896"
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c25b/original/Crackme_Delphi_1.0_by_Defc0n1.zip"
+    title: "crackmes.de's crackme_delphi_1.0_by_defc0n1 by defc0n1"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2138,3 +2143,7 @@ by_sha256:
     id: 5ab77f5533c5d40ad448c25a
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c25a/original/Crackme1.zip"
     page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c25a
+  d978d66efe9b7f06be1f120a13a7a18252c9bad40bcaacf0ea2e2392a86cb896:
+    id: 5ab77f5533c5d40ad448c25b
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c25b/original/Crackme_Delphi_1.0_by_Defc0n1.zip"
+    page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c25b

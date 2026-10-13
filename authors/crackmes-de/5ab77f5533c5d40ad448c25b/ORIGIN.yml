@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c25b
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c25b
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c25b
+
+title: "crackmes.de's crackme_delphi_1.0_by_defc0n1 by defc0n1"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows (PE32 GUI VCL)"
+arch: "x86"
+language: "Embarcadero Delphi 2009"
+
+difficulty: 1.0
+quality: 4.0
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Crackme_Delphi_1.0_by_Defc0n1.zip"
+  name: "Crackme_Delphi_1.0_by_Defc0n1.zip"
+  sha256: "d978d66efe9b7f06be1f120a13a7a18252c9bad40bcaacf0ea2e2392a86cb896"
+  md5: "1c44ce41d47ed2c9c8aebc3c0541fb78"
+  size_bytes: 415955
+
+status: solved
+solution_summary: "mot de passe burninhell : Insert1.Text _UStrEqual littéral UnicodeString @ 0x4910E0 (Button1Click @ 0x491054) ; wine: Contraseña aceptada ;-)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-13T10:54:00Z"

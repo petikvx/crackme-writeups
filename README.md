@@ -146,7 +146,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [oguzbey](authors/oguzbey/README.md) | oguzbey | 1 (Lucky Numbers) | 1 / 1 |
 | [andrewl](authors/andrewl/README.md) | andrewl | 1 (Quick Crypto) | 1 / 1 |
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
-| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 225 / 225 |
+| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 226 / 226 |
 | [chaltu](authors/chaltu/README.md) | chaltu | 2 (a Treasure + Double Door) | 2 / 2 |
 | [qerr0r](authors/qerr0r/README.md) | QERR0R | 1 (crackit) | 1 / 1 |
 | [steve_maxwell](authors/steve_maxwell/README.md) | steve_maxwell | 1 (X-0-R) | 1 / 1 |
@@ -252,6 +252,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-13 | [crackme_delphi_1.0 by defc0n1](authors/crackmes-de/5ab77f5533c5d40ad448c25b/) | crackmes.de / defc0n1 |
 | 2026-10-13 | [xdstylas_crackme_1 by xdstyla](authors/crackmes-de/5ab77f5533c5d40ad448c25a/) | crackmes.de / xdstyla |
 | 2026-10-13 | [nev_crackme by nevyn](authors/crackmes-de/5ab77f5533c5d40ad448c258/) | crackmes.de / nevyn |
 | 2026-10-13 | [fjlj_crackme_3 by fjlj](authors/crackmes-de/5ab77f5533c5d40ad448c253/) | crackmes.de / fjlj |
