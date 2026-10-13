@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c263
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c263
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c263
+
+title: "crackmes.de's gloops_crackme by haiklr"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 2.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/gloops-crkme.zip"
+  name: "gloops-crkme.zip"
+  sha256: "3326fce5a460ed05c52e33c6af47f05645341f1a7e846e052481e8750a904c5e"
+  md5: "8c24e69dd71904a8a2955ab83e28661a"
+  size_bytes: 1927
+
+status: solved
+solution_summary: "keyfile gl00ps.nas 12 octets (triplets 0/34/15,12/2/35,6/18/25 + parfait 8128) ; MessageBox GOOD BOY"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-13T14:09:38Z"
