@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c24a
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c24a
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c24a
+
+title: "crackmes.de's crackme_8 by fr1c"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++ (MFC, VC++6, UPX 1.02)"
+
+difficulty: 1.0
+quality: null
+size: "258.45 KB"
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme8_1.zip"
+  name: "crackme8_1.zip"
+  sha256: "d3d735beaa2a76326698b756e3876bddf0962cd63ddd604fe2bec0eb389e25d2"
+  md5: "f3f03da3eb6de9228c8d49a86898bc1b"
+  size_bytes: 264649
+
+status: solved
+solution_summary: "MFC/VC++6 packé UPX 1.02 ; serial = %d de (rol32(((sum+len)^len)>>1 + 10 - 75000, 1) >> 2) - 50000000 + sum - 0x41, + \"Q_W65\" (sum = octets signés) ; petik -> 1023704942Q_W65 (wine : Nice, you done it!)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-13T04:51:49Z"
