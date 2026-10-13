@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c254
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c254
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c254
+
+title: "crackmes.de's fjlj_crackme1 by fjlj"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows (classé DOS sur le site)"
+arch: "x86"
+language: "Assembler (MinGW + code auto-modifiant)"
+
+difficulty: 2.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Crackme#1_FJLJ_attempt2.zip"
+  name: "Crackme#1_FJLJ_attempt2.zip"
+  sha256: "e2ffe6ee8116b09fa64908d5bac756638f834e2198d1b3028ad2fdabd1df4fe2"
+  md5: "f006dc2234e7240bd96d15c821cdc372"
+  size_bytes: 5807
+
+status: solved
+solution_summary: "3 passes b=((b^k)-s+0x30) (DE/7A, A2/B2, F2/8E) concaténées, terminateurs -> '-' ; petik -> dq`mk-DQ@MG-XETaW (Unicorn : Correct good job!)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-13T07:56:08Z"

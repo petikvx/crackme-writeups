@@ -1166,6 +1166,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c253/original/New_crackme3.zip"
     title: "crackmes.de's fjlj_crackme_3 by fjlj"
 
+  5ab77f5533c5d40ad448c254:
+    sha256: "e2ffe6ee8116b09fa64908d5bac756638f834e2198d1b3028ad2fdabd1df4fe2"
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c254/original/Crackme#1_FJLJ_attempt2.zip"
+    title: "crackmes.de's fjlj_crackme1 by fjlj"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2111,3 +2116,7 @@ by_sha256:
     id: 5ab77f5533c5d40ad448c253
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c253/original/New_crackme3.zip"
     page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c253
+  e2ffe6ee8116b09fa64908d5bac756638f834e2198d1b3028ad2fdabd1df4fe2:
+    id: 5ab77f5533c5d40ad448c254
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c254/original/Crackme#1_FJLJ_attempt2.zip"
+    page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c254
