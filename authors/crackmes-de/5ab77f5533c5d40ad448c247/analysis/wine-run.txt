@@ -1,0 +1,20 @@
+== petik 
+  TMessageForm visible [CrackMe 7 by Fr1c]
+nag au démarrage : 1
+Register activé au départ : 0
+form=00010094 foreground=00010094 serial(hex)=24c2d7b7a8c66bbb35bd08
+  TMessageForm visible [CrackMe 7 by Fr1c]
+après Register : boîte affichée -> Good work cracker!
+== petik faux
+  TMessageForm visible [CrackMe 7 by Fr1c]
+nag au démarrage : 1
+Register activé au départ : 0
+form=00010094 foreground=00010094 serial(hex)=24c2d7b7a8c66bbb35bd09
+après Register : aucune boîte (serial refusé)
+== crackmesone 
+  TMessageForm visible [CrackMe 7 by Fr1c]
+nag au démarrage : 1
+Register activé au départ : 0
+form=00010094 foreground=00010094 serial(hex)=24c1e5d05abf24c13cc9f6cbdec354d1c0cd61ccdec301
+  TMessageForm visible [CrackMe 7 by Fr1c]
+après Register : boîte affichée -> Good work cracker!

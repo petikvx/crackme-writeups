@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c247
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c247
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c247
+
+title: "crackmes.de's crackme_7 by fr1c"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: ""
+arch: "x86"
+language: "Delphi (UPX 0.94)"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme7.zip"
+  name: "crackme7.zip"
+  sha256: "946fff1179820c35d7953502a85c2a263404c04610dce27b7f1320dc57b01805"
+  md5: "e811738e7fffe78c159ac64479a9c9fd"
+  size_bytes: 134061
+
+status: solved
+solution_summary: "Delphi packé UPX ; FormCreate : anti-W32Dasm/SoftICE, nag, Register grisé (autorisé à réactiver) ; serial = pour chaque c : chr((c*99^6)+s1+s3) + chr(c+4n+s1+s2+s3-4), puis chr((s2^n)+3+GetForegroundWindow()) ; petik -> 24C2D7B7A8C66BBB35BD + octet 0x74+hwnd (wine, hwnd 0x10094 : ...08, Good work cracker!)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-13T03:08:46Z"
