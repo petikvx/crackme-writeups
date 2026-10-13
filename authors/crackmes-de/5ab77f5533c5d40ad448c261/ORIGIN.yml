@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c261
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c261
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c261
+
+title: "crackmes.de's baby_crackme_2 by haiklr"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Baby_Crackme_#2.zip"
+  name: "Baby_Crackme_#2.zip"
+  sha256: "136cab5bfd730b1ec12b97be7f3f7c6511e456429ab18a7318e79ee8f7a1997d"
+  md5: "163479c5b62618f6976ab2924104c258"
+  size_bytes: 66484
+
+status: solved
+solution_summary: "keyfile BC#2 : 0a0b0c0d0e (10²+11²+12²=13²+14²) + k10..11=CD + k12..13=#S (carré parfait)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-13T13:00:03Z"
