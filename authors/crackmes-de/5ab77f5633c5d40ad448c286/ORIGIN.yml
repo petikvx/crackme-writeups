@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c286
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c286
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c286
+
+title: "crackmes.de's hypercrackme3 by thehyper"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Borland C++ (ASPack 2.12)"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/hypercrackme3.zip"
+  name: "hypercrackme3.zip"
+  sha256: "e111efaf2a5f09be2766a04575ba5742f9b8b51f64b1d96a6e39f67271bdcfc8"
+  md5: "2a913b6952223369f15d8a20d35a0bef"
+  size_bytes: 24885
+
+status: solved
+solution_summary: "keygen : serial lu par paires de chiffres (lettre -> 2 chiffres de son code), chaque paire = chr(10a+b), doit égaler le nom (insensible à la casse) ; serial = code ASCII décimal 2 chiffres de chaque car. du nom en majuscule ; petik -> 8069847375 ; nom >=5 car., lettre <= len/2-1 fois ; ASPack dumpé sous wine, vérifié live"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-13T22:59:53Z"
