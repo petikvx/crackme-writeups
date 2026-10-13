@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c26f
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c26f
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c26f
+
+title: "crackmes.de's hades by j"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++"
+
+difficulty: 2.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/hades_keygenme.zip"
+  name: "hades_keygenme.zip"
+  sha256: "0e1f029759f7122941586bb60aea7b9c8c715b4bdc301af264dcde9b7531420a"
+  md5: "23303591c3217ff592b8e23db041c485"
+  size_bytes: 19821
+
+status: solved
+solution_summary: "petik → be8dec23-682dfa20-d668b0ce-d1c13067 : serial = RC5-32/10 E_K1∘E_K2∘E_K3∘E_K4(T(nom)), T/K dérivés du nom (pow x87 + 3-Way + GOST) ; wine: Solved!"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-13T16:08:04Z"

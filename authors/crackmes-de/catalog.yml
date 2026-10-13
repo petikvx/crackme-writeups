@@ -1226,6 +1226,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c267/original/Old_KeygenMe.zip"
     title: "crackmes.de's old_keygenme_2010 by zaas"
 
+  5ab77f5533c5d40ad448c26f:
+    sha256: "0e1f029759f7122941586bb60aea7b9c8c715b4bdc301af264dcde9b7531420a"
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c26f/original/hades_keygenme.zip"
+    title: "crackmes.de's hades by j"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2219,3 +2224,7 @@ by_sha256:
     id: 5ab77f5533c5d40ad448c267
     path: "authors/crackmes-de/5ab77f5533c5d40ad448c267/original/Old_KeygenMe.zip"
     page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c267
+  0e1f029759f7122941586bb60aea7b9c8c715b4bdc301af264dcde9b7531420a:
+    id: 5ab77f5533c5d40ad448c26f
+    path: "authors/crackmes-de/5ab77f5533c5d40ad448c26f/original/hades_keygenme.zip"
+    page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c26f
