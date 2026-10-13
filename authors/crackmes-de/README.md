@@ -276,6 +276,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 242 | [hades by j](5ab77f5533c5d40ad448c26f/) | j | Windows PE32 MinGW GUI (UPX) | `petik` / `be8dec23-682dfa20-d668b0ce-d1c13067` : RC5-32/10 ×4 (clés+cible dérivées du nom via pow x87/3-Way/GOST) (wine: Solved!) |
 | 243 | [mayhems_crackme_3 by mayhem](5ab77f5633c5d40ad448c272/) | mayhem | Windows .NET WinForms | `petik` / `107108637445` : ord(name[-1]) ‖ 9·len+63 ‖ 63 ‖ Σ ASCII(SHA512(name) hex MAJ) (wine: Good boy!) |
 | 244 | [c_crackme_2 by mayhem](5ab77f5633c5d40ad448c274/) | mayhem | Windows PE32 MSVC2010 MFC GUI | `petik` / `5h25` : hash(nom)=Σ 60·c·T[i]+0x699 mod 2^32 écrit en base 62 `a-z0-9A-Z`, poids faible en tête (wine: Valid Serial! Well Done.) |
+| 245 | [mishka_tribute by zart](5ab77f5633c5d40ad448c277/) | zart | Windows PE32 MSVC6 console (+musique XM) | `petik` / `3649375339` : nom = Σ append(i, c) (`ettiiikkkk`), hash a=a·m+c, m·=0x6E6FA (m0=0x43BA) mod 2^32, serial décimal (wine: Serial checked out) |
 
 ## Mis de côté (PARKED — y revenir)
 

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c277
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c277
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c277
+
+title: "crackmes.de's mishka_tribute by zart"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/keygenme.zip"
+  name: "keygenme.zip"
+  sha256: "dcc26e759115144de7ac6543b8971c5f1e78e672f5d915ed4efc34641314e509"
+  md5: "50c084124a6f1e07dad88cb245bbd773"
+  size_bytes: 12384
+
+status: solved
+solution_summary: "petik / 3649375339 : nom reconstruit par append(i, c) (petik→ettiiikkkk), hash a=a*m+c, m=0x43BA*0x6E6FA^i mod 2^32, serial décimal (wine: Serial checked out)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-13T19:09:38Z"
