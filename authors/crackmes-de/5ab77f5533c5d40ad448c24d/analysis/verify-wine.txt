@@ -1,0 +1,17 @@
+form 0001006a 'Crackme 3 by Fr1c'
+  child 00010070 class=ThunderRT5Frame WM_GETTEXT='' GetWindowText=''
+  child 00010072 class=ThunderRT5TextBox WM_GETTEXT='REGISTERED' GetWindowText=''
+  child 00020076 class=ThunderRT5CommandButton WM_GETTEXT='Exit' GetWindowText='Exit'
+  child 0001007a class=ThunderRT5CommandButton WM_GETTEXT='Check key' GetWindowText='Check key'
+EDIT_TEXT='REGISTERED'
+total 20
+drwxr-xr-x 2 box box 4096 Oct 13 07:59 .
+drwxr-xr-x 5 box box 4096 Oct 13 07:53 ..
+-rw-r--r-- 1 box box  397 Oct 13 07:59 verify-wine.txt
+-rw-r--r-- 1 box box 4165 Oct 13 07:59 wine-ok.png
+form 0001006a 'Crackme 3 by Fr1c'
+  child 00010070 class=ThunderRT5Frame WM_GETTEXT='' GetWindowText=''
+  child 00010072 class=ThunderRT5TextBox WM_GETTEXT='UNREGISTERED' GetWindowText=''
+  child 00020076 class=ThunderRT5CommandButton WM_GETTEXT='Exit' GetWindowText='Exit'
+  child 0001007a class=ThunderRT5CommandButton WM_GETTEXT='Check key' GetWindowText='Check key'
+EDIT_TEXT='UNREGISTERED'

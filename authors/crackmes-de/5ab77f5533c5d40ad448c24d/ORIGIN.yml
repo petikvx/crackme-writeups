@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c24d
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c24d
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c24d
+
+title: "crackmes.de's crackme_3 by fr1c"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Visual Basic 5 (natif)"
+
+difficulty: 1.0
+quality: null
+size: "4.5 KB"
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme3_1.zip"
+  name: "crackme3_1.zip"
+  sha256: "efea8013acafb8e4a8ec26ce157e182961f564e35cfe55450d503b605795ce4c"
+  md5: "eb2da81f34c300670b5587c459c638d3"
+  size_bytes: 4616
+
+status: solved
+solution_summary: "VB5 natif ; Form_Load/Command1_Click : Open \"crackme3.key\" For Input, Input #1, cmp __vbaVarTstEq vs \"98765432112345\" ; petik (ignoré) -> fichier crackme3.key = 98765432112345 (wine : Text1=REGISTERED)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-13T05:53:04Z"

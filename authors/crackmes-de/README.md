@@ -253,6 +253,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 225 | [crackme_8 by fr1c](5ab77f5533c5d40ad448c24a/) | fr1c | Windows PE32 MFC/VC++6 GUI, UPX 1.02 | keygen : `upx -d`, serial = `%d` de `(rol32(((sum+len)^len)>>1 - 74990, 1) >> 2) - 50000000 + sum - 0x41` + `Q_W65` ; **petik → 1023704942Q_W65** (wine : Nice, you done it!) |
 | 226 | [crackme_6 by fr1c](5ab77f5533c5d40ad448c24b/) | fr1c | Windows PE32 VB5 natif GUI | nag + bouton grisé ; clé = `Hex(Asc(c))` concaténés (majuscules, 1er clic seulement) ; **petik → 706574696B** (wine : Very good!) |
 | 227 | [crackme_1_1 by fr1c](5ab77f5533c5d40ad448c24c/) | fr1c | Windows PE32 C++ Builder GUI | serial constant `LStrCmp(Edit1.Text, "F988f91")` ; nom non demandé ; **petik (ignoré) → F988f91** (wine : Very good!) |
+| 228 | [crackme_3 by fr1c](5ab77f5533c5d40ad448c24d/) | fr1c | Windows PE32 VB5 natif GUI | `Open "crackme3.key"` + `Input #1` + `__vbaVarTstEq` vs `98765432112345` ; **fichier → REGISTERED** (wine) |
 
 ## Mis de côté (PARKED — y revenir)
 
