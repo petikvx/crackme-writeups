@@ -258,6 +258,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 229 | [fjlj_crackme_2 by fjlj](5ab77f5533c5d40ad448c252/) | fjlj | Windows PE32 MinGW console, SMC | SMC @ `0x43F200+sum8(name)` ; `checksum(serial)+0x4D6 == SMC` ; **petik→UM** (wine) |
 | 230 | [fjlj_crackme_3 by fjlj](5ab77f5533c5d40ad448c253/) | fjlj | Windows PE32 MinGW console | serial = weird_hex(`0x401404+Σname`) ‖ alphabet_index ; **petik→1612BDBE** (wine) |
 | 231 | [nev_crackme by nevyn](5ab77f5533c5d40ad448c258/) | nevyn | Windows PE32 Delphi 7 GUI | `Edit1^0x17 == C1` puis re-XOR `== "htContext"` ; **htContext** (wine: Well done!) |
+| 232 | [xdstylas_crackme_1 by xdstyla](5ab77f5533c5d40ad448c25a/) | xdstyla | Windows PE32 MSVC2008 console (pas VB) | `cin>>s ; s^0x14 == "loludiditcongratz"` ; **x{xap}p}\`w{zsfu\`n** (wine: Right) |
 
 ## Mis de côté (PARKED — y revenir)
 

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5533c5d40ad448c25a
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5533c5d40ad448c25a
+  download: https://crackmes.one/download/crackme/5ab77f5533c5d40ad448c25a
+
+title: "crackmes.de's xdstylas_crackme_1 by xdstyla"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows (PE32 console)"
+arch: "x86"
+language: "C++ (MSVC 2008) — classé (Visual) Basic sur le site"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Crackme1.zip"
+  name: "Crackme1.zip"
+  sha256: "1afb03c24a11c08ffcbf3f13a7b233915877333f38bebf7b23d38770942efc79"
+  md5: "6c49f04bab284f98e7b15b257a1d0d5f"
+  size_bytes: 49951
+
+status: solved
+solution_summary: "serial x{xap}p}`w{zsfu`n = \"loludiditcongratz\" ^ 0x14 (cin >> s, xor 0x14, std::string ==) ; wine: Right"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-13T08:55:15Z"

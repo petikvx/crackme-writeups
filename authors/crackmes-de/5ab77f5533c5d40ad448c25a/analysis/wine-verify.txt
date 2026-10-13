@@ -1,0 +1,6 @@
+$ printf '%s\n' 'x{xap}p}`w{zsfu`n' | wine Crackme1.exe
+Serial: Right
+$ printf '%s\n' 'petik' | wine Crackme1.exe
+Serial: Noo0O0oo!
+$ printf '%s\n' 'loludiditcongratz' | wine Crackme1.exe
+Serial: Noo0O0oo!
