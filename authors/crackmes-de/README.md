@@ -281,6 +281,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 247 | [zi___crakme_v2 by zionz](5ab77f5633c5d40ad448c279/) | zionz | Windows PE32 Blitz3D GUI | keygen 5 chars : `((((a+b+d)*c)+e)+a+e)*e+d` ; **petik→3982003** (wine: SERIAL CORRECT!) |
 | 248 | [hypercrackme by thehyper](5ab77f5633c5d40ad448c27f/) | thehyper | Windows PE32 Win32ASM GUI (UPX modifié) | serial unique **1348781387** = 23·29·31·37·41·43, somme des chiffres 50 = ID du menu « Register » |
 | 249 | [hypercrackme6 by thehyper](5ab77f5633c5d40ad448c281/) | thehyper | Windows PE32 VC++6 (code chiffré en couches, SEH, checksums) | serial lu dans le presse-papiers ; keygen srand/rand MSVC → `G......c` + hash 0xd780 ; ex. **PETI-KPET-IKPE-eQpY-RDVV** |
+| 250 | [hypercrackme2 by thehyper](5ab77f5633c5d40ad448c285/) | thehyper | Windows PE32 Win32ASM GUI (UPX, routine XOR 0xFF) | boutons 0..9 ; exactement 3 diviseurs Armstrong dans [300,1000] (370/371/407) → serial **1509970** = lcm ; menu « Register » ID 50 |
 
 ## Mis de côté (PARKED — y revenir)
 

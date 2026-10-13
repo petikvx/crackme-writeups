@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c285
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c285
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c285
+
+title: "crackmes.de's hypercrackme2 by thehyper"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Win32ASM (MASM 6.14), UPX 1.20"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/hypercrackme2.zip"
+  name: "hypercrackme2.zip"
+  sha256: "ff7996732fb772a70fd2829a6015251df08c494752e5034df138e223a58b308b"
+  md5: "7db4407676b128ca2931f43682837fc1"
+  size_bytes: 3954
+
+status: solved
+solution_summary: "GUI à boutons 0..9 ; check (code XOR 0xFF) : exactement 3 b∈[300,1000] Armstrong (somme des cubes des chiffres) divisant N -> 370,371,407 ; serial 1509970 = lcm (ou multiple) ; ajoute le menu Register (ID 50) -> Good job ; vérifié sous wine (compteur=3)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-13T22:55:42Z"
