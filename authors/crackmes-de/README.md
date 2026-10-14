@@ -328,6 +328,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 294 | [pof_kgme_0x01](5ab77f5a33c5d40ad448c532/) | pof_es | Linux ELF32 (gzexe) | mot de passe `796666880` ((n>>8)==0x2f7c2c, n pair, somme chiffres == 56) |
 | 295 | [sys_linux_crackme](5ab77f5c33c5d40ad448c637/) | syscalo | Linux ELF32 (strippé) | serial hexadécimal `731940` (scanf %x ; octet2=0x73, x&0x1f00=0x1900, q=7) |
 | 296 | [var](5ab77f5b33c5d40ad448c5b3/) | unchapelierfou | Linux ELF64 statique | flag `Flag_Over_Here_Dude` (movabs 'Flag_Ove'+'r_Here_D'+'ude' ; strcmp) |
+| 297 | [eyecandylocked](5ab77f5b33c5d40ad448c563/) | nexy | Linux ELF64 C++ (ptrace) | mot de passe `d00r1$m@licious` (14 premiers car. comparés à un tableau d'int) |
 
 ## Mis de côté (PARKED — y revenir)
 

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5b33c5d40ad448c563
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5b33c5d40ad448c563
+  download: https://crackmes.one/download/crackme/5ab77f5b33c5d40ad448c563
+
+title: "crackmes.de's eyecandylocked by nexy"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/EyeCandyLOCKED.tar.gz"
+  name: "EyeCandyLOCKED.tar.gz"
+  sha256: "14f28f477b3d82c36dc57d62a65cc4cfec56f14dd1964df12f935d1ca7ef9e11"
+  md5: "1428f6ec035d7808f1da6bce5fd62ed1"
+  size_bytes: 17280
+
+status: solved
+solution_summary: "checkIt compare s[0..13] au tableau 64 30 30 72 31 24 6d 40 6c 69 63 69 6f 75 73 = d00r1$m@licious ; anti ptrace(TRACEME)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T18:59:53Z"
