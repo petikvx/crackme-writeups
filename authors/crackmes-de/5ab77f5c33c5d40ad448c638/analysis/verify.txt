@@ -1,0 +1,3 @@
+1) fichier keykey (20 octets) écrit dans /tmp/
+2) serial : petikAAAA123456@AAA   (B^D = 1)
+check: OK (ok=True, keykey altéré→non=True, B^D=0→True)

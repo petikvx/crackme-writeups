@@ -1521,6 +1521,31 @@ by_id:
     path: "authors/crackmes-de/5ab77f5c33c5d40ad448c637/original/crkme1sys.tgz"
     title: "crackmes.de's sys_linux_crackme by nobody"
 
+  5ab77f5c33c5d40ad448c638:
+    sha256: "68872815a12dcfa257ad9b4b74232e6a4ea681b2e9f134f8f9faa970c3e07627"
+    path: "authors/crackmes-de/5ab77f5c33c5d40ad448c638/original/crkme1ritz.tgz"
+    title: "crackmes.de's ritz_crackme_for_linux by nobody"
+
+  5ab77f5c33c5d40ad448c639:
+    sha256: "a8ef5ae6e178c81b3ab448196fa5a9b8c470e5b90a4d1291e4914549e8932ef2"
+    path: "authors/crackmes-de/5ab77f5c33c5d40ad448c639/original/blaadme.tar.gz"
+    title: "crackmes.de's blaad by nobody"
+
+  5ab77f5d33c5d40ad448c69f:
+    sha256: "46f139a3db7f486ac159e0b02d000d892d897a8103dc1f7f4b0134cdb0da6d04"
+    path: "authors/crackmes-de/5ab77f5d33c5d40ad448c69f/original/rockmr.zip"
+    title: "crackmes.de's xrockmr by synamics"
+
+  5ab77f5e33c5d40ad448c728:
+    sha256: "007fffd4121fc43cc88799b1c2a67ca02621733d979d7a68a5d205152980b038"
+    path: "authors/crackmes-de/5ab77f5e33c5d40ad448c728/original/crackme.zip"
+    title: "crackmes.de's kylix_crackme by warleyalex"
+
+  5ab77f5e33c5d40ad448c744:
+    sha256: "1968a2e033e350d17c583e094e4a556b6bc8a976ce0061ed782d109bf099d07a"
+    path: "authors/crackmes-de/5ab77f5e33c5d40ad448c744/original/tvk_crackme_2.zip"
+    title: "crackmes.de's keygen_1 by tvk6843"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2750,3 +2775,23 @@ by_sha256:
     id: 5ab77f5c33c5d40ad448c637
     path: "authors/crackmes-de/5ab77f5c33c5d40ad448c637/original/crkme1sys.tgz"
     page: https://crackmes.one/crackme/5ab77f5c33c5d40ad448c637
+  68872815a12dcfa257ad9b4b74232e6a4ea681b2e9f134f8f9faa970c3e07627:
+    id: 5ab77f5c33c5d40ad448c638
+    path: "authors/crackmes-de/5ab77f5c33c5d40ad448c638/original/crkme1ritz.tgz"
+    page: https://crackmes.one/crackme/5ab77f5c33c5d40ad448c638
+  a8ef5ae6e178c81b3ab448196fa5a9b8c470e5b90a4d1291e4914549e8932ef2:
+    id: 5ab77f5c33c5d40ad448c639
+    path: "authors/crackmes-de/5ab77f5c33c5d40ad448c639/original/blaadme.tar.gz"
+    page: https://crackmes.one/crackme/5ab77f5c33c5d40ad448c639
+  46f139a3db7f486ac159e0b02d000d892d897a8103dc1f7f4b0134cdb0da6d04:
+    id: 5ab77f5d33c5d40ad448c69f
+    path: "authors/crackmes-de/5ab77f5d33c5d40ad448c69f/original/rockmr.zip"
+    page: https://crackmes.one/crackme/5ab77f5d33c5d40ad448c69f
+  007fffd4121fc43cc88799b1c2a67ca02621733d979d7a68a5d205152980b038:
+    id: 5ab77f5e33c5d40ad448c728
+    path: "authors/crackmes-de/5ab77f5e33c5d40ad448c728/original/crackme.zip"
+    page: https://crackmes.one/crackme/5ab77f5e33c5d40ad448c728
+  1968a2e033e350d17c583e094e4a556b6bc8a976ce0061ed782d109bf099d07a:
+    id: 5ab77f5e33c5d40ad448c744
+    path: "authors/crackmes-de/5ab77f5e33c5d40ad448c744/original/tvk_crackme_2.zip"
+    page: https://crackmes.one/crackme/5ab77f5e33c5d40ad448c744

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5c33c5d40ad448c638
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5c33c5d40ad448c638
+  download: https://crackmes.one/download/crackme/5ab77f5c33c5d40ad448c638
+
+title: "crackmes.de's ritz_crackme_for_linux by nobody"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crkme1ritz.tgz"
+  name: "crkme1ritz.tgz"
+  sha256: "68872815a12dcfa257ad9b4b74232e6a4ea681b2e9f134f8f9faa970c3e07627"
+  md5: "2e81df4ea1b22b5b980bf7cea1bf77ac"
+  size_bytes: 1865
+
+status: solved
+solution_summary: "keykey = K (rem=0) et serial avec dw(s,5)^dw(s,15)=1 ; idiv(f0, B^D) puis f^=rem == K ; succès suivi d'un exit brut (TTY)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T19:13:46Z"
