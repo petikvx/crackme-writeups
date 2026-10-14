@@ -50,16 +50,16 @@ Imports : `srand`, `rand`, `strlen`, `printf` — le générateur pseudo-aléato
 
 Exemple `petik` (`70 65 74 69 6b`, len 5) :
 
-| i | valeur | indice | `T[indice]` |
+| i | valeur | indice (& 0x3f) | `T[indice]` |
 |---|---|---|---|
-| 0 | `5 ^ 0x3b = 0x3e` | 62 | `u` |
-| 1 | `Σ = 0x1e1 → 0xe1 ^ 0x4f = 0xae` | 0x2e | `i` |
-| 2 | produit en cascade ^ `0x55` | … | `p` |
-| 3 | `max = 0x74`, `srand(0x7a)`, `rand()&0x3f` | … | `J` |
-| 4 | `Σ n²` mod 256 ^ `0xef` | … | `X` |
-| 5 | 112 appels de `rand()` | … | `Y` |
+| 0 | len=5: 5 ^ 0x3b = 0x3e | 62 | `u` |
+| 1 | Σ = 541 = 0x21d → 0x1d ^ 0x4f = 0x52 | 18 | `i` |
+| 2 | produit mod 256 = 0x40 ^ 0x55 = 0x15 | 21 | `p` |
+| 3 | max = 0x74, srand(0x7a), rand() = 0x59a2e262 | 34 | `J` |
+| 4 | Σ n² mod 256 = 0x33 ^ 0xef = 0xdc | 28 | `X` |
+| 5 | 112 appels de rand(), dernier = 0x15cc3801 → 0x1 ^ 0xe5 = 0xe4 | 36 | `Y` |
 
-(les colonnes « … » sont calculées par `tools/first-keygenme-solve.py`, résultat final `uipJXY`.)
+Résultat : `uipJXY`.
 
 **Pièges :**
 - `srand`/`rand` sont ceux de la glibc : la même séquence est reproduite en Python via `ctypes.CDLL("libc.so.6")` (même algorithme sur 32/64 bits). Avec une autre libc le keygen donnerait autre chose.
