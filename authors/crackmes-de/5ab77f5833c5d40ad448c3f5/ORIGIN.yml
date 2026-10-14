@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3f5
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3f5
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3f5
+
+title: "crackmes.de's cm1 by lagalopex"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/cm1.zip"
+  name: "cm1.zip"
+  sha256: "04305466e31a15b92e82f3a6c6972474553bca735ee0da516ca66cf66dbdf6d2"
+  md5: "7b12b7086a4b6edc33939a802c6964e6"
+  size_bytes: 3047
+
+status: solved
+solution_summary: "fichier ~/.key_<user> : ops * (+5) + (+1) - (-1) / (-5) séries<=5 ; ',<c>' valide name[k] puis acc/=10 ; keygen BFS"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T18:15:16Z"
