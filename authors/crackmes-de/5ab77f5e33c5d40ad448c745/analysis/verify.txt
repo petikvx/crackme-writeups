@@ -1,0 +1,4 @@
+name  : petik
+heure : 21:21
+serial: 0002d4ff0003C4400004b381   (valable dans la minute)
+check: OK (21:21 → 'Your solution is 6 + 29 = 35' ; serial altéré → 'Your solution is 5 + 24 = 32')

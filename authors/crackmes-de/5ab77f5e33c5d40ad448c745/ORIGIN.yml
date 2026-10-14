@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5e33c5d40ad448c745
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5e33c5d40ad448c745
+  download: https://crackmes.one/download/crackme/5ab77f5e33c5d40ad448c745
+
+title: "crackmes.de's keygen by tvk6843"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/keygen.zip"
+  name: "keygen.zip"
+  sha256: "1899a31771364c4854609296c773ba1b0a7243d131deed39dea02d405fa66520"
+  md5: "74757b06b0948a0ed3173785797c1431"
+  size_bytes: 2810
+
+status: solved
+solution_summary: "serial = enc(H_0..H_2), H_i = i*0xef41+0x2cdc3+Σ buf[k]*k, buf = name+chr(0x41+min&15)+chr(0x42+h&15) ; succès = addition juste affichée"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T19:20:58Z"
