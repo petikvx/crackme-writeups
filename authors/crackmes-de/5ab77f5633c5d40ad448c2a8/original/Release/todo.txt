@@ -1,0 +1,14 @@
+What I have:
+-Assembly encryption
+-Anti .net dumper
+-Anti reflector
+-Obfuscation
+-Anti Debug
+-Encrypted strings
+
+What I need to add:
+-Anti Ildasm
+-More complex obfuscation (cloning entire procedures)
+-Stronger encryption for assembly
+-Packing the assembly
+-Embedding the assembly

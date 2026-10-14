@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2a8
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2a8
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2a8
+
+title: "crackmes.de's cryxenet_0.01a by tfb"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "VB.NET (CLR 1.1, Dotfuscator) — UnpackMe Cryxe"
+
+difficulty: 2.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Release.zip"
+  name: "Release.zip"
+  sha256: "93a5c945755186e97c97b62f578cc969a47bee0a9554ccfdd6eb9693daeb9d11"
+  md5: "04f85b34bd24cda7c912299aa033bcc3"
+  size_bytes: 12203
+
+status: solved
+solution_summary: "unpack : cryxed.dll octet par octet ((b-1)&0xFF)^0x25 → assembly .NET ; keygen : serial = Base64(AES-256-CBC(nom)), clé = Customer ID complété par X à 32, IV fixe ; petik/1337 → vZTpXAO4f3DA2UcpwcWRZg== ; vérifié par le prédicat décompilé exécuté sous .NET 8 (GUI WinForms non pilotée)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T08:52:03Z"

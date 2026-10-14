@@ -1,0 +1,5 @@
+copie: The serial is correct!
+Nom         : John
+Customer ID : 12345
+Serial      : LoIU/pD/OxK2M8p70D2cCQ==
+check       : True

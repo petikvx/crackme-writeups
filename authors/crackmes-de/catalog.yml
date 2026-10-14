@@ -1341,6 +1341,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c2a4/original/Guy___s_First_Crackme.zip"
     title: "crackmes.de's guys_first_crackme by guy_"
 
+  5ab77f5633c5d40ad448c2a8:
+    sha256: "93a5c945755186e97c97b62f578cc969a47bee0a9554ccfdd6eb9693daeb9d11"
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2a8/original/Release.zip"
+    title: "crackmes.de's cryxenet_0.01a by tfb"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2426,3 +2431,7 @@ by_sha256:
     id: 5ab77f5633c5d40ad448c2a4
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c2a4/original/Guy___s_First_Crackme.zip"
     page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2a4
+  93a5c945755186e97c97b62f578cc969a47bee0a9554ccfdd6eb9693daeb9d11:
+    id: 5ab77f5633c5d40ad448c2a8
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2a8/original/Release.zip"
+    page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2a8
