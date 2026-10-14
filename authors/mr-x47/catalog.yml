@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a48e4146840520e01b22041:
+    sha256: "5e68a7121b769801234ad99f60f390300ec913d8162d8928d009bd6a828fcd30"
+    path: "authors/mr-x47/6a48e4146840520e01b22041/original/BiLoop_Cipher"
+    title: "Mr.X47's BiLoop Cipher"
+
+by_sha256:
+  5e68a7121b769801234ad99f60f390300ec913d8162d8928d009bd6a828fcd30:
+    id: 6a48e4146840520e01b22041
+    path: "authors/mr-x47/6a48e4146840520e01b22041/original/BiLoop_Cipher"
+    page: https://crackmes.one/crackme/6a48e4146840520e01b22041

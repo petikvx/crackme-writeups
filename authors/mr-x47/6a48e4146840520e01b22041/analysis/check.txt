@@ -1,0 +1,12 @@
+username : petik123
+password : iemgo1#3
+[OK] 'petik123' / 'iemgo1#3' -> Success
+[OK] 'petikpetik' / 'iemgopttuq' -> Success
+[OK] 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' / 'XAXOEAPA][IAbAF]]A\\AGI[AVAKEOADA' -> Success
+[OK] '~~~~~~~~~~~~' / 'g~gpz~o~bdv~' -> Success
+[OK] 'petik_crackmes.one' / 'iemgo_rr}ycmFs)sre' -> Success
+[OK] 'petik123' / 'iemgo1#3x' -> Failure (attendu)
+Username: [Error] The username must be between 8 and 32 characters
+Username: Password: Access Status: Failure
+
+'!!!!!!!!!!!!!' '8!8/%!0!=;)!*' True

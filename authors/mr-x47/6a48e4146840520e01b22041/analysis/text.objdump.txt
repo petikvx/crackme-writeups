@@ -1,0 +1,302 @@
+
+original/BiLoop_Cipher:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+00000000000010c0 <.text>:
+    10c0:	endbr64
+    10c4:	xor    ebp,ebp
+    10c6:	mov    r9,rdx
+    10c9:	pop    rsi
+    10ca:	mov    rdx,rsp
+    10cd:	and    rsp,0xfffffffffffffff0
+    10d1:	push   rax
+    10d2:	push   rsp
+    10d3:	xor    r8d,r8d
+    10d6:	xor    ecx,ecx
+    10d8:	lea    rdi,[rip+0x2b5]        # 1394 <malloc@plt+0x2e4>
+    10df:	call   QWORD PTR [rip+0x2edb]        # 3fc0 <malloc@plt+0x2f10>
+    10e5:	hlt
+    10e6:	cs nop WORD PTR [rax+rax*1+0x0]
+    10f0:	lea    rdi,[rip+0x2f61]        # 4058 <malloc@plt+0x2fa8>
+    10f7:	lea    rax,[rip+0x2f5a]        # 4058 <malloc@plt+0x2fa8>
+    10fe:	cmp    rax,rdi
+    1101:	je     1118 <malloc@plt+0x68>
+    1103:	mov    rax,QWORD PTR [rip+0x2ebe]        # 3fc8 <malloc@plt+0x2f18>
+    110a:	test   rax,rax
+    110d:	je     1118 <malloc@plt+0x68>
+    110f:	jmp    rax
+    1111:	nop    DWORD PTR [rax+0x0]
+    1118:	ret
+    1119:	nop    DWORD PTR [rax+0x0]
+    1120:	lea    rdi,[rip+0x2f31]        # 4058 <malloc@plt+0x2fa8>
+    1127:	lea    rsi,[rip+0x2f2a]        # 4058 <malloc@plt+0x2fa8>
+    112e:	sub    rsi,rdi
+    1131:	mov    rax,rsi
+    1134:	shr    rsi,0x3f
+    1138:	sar    rax,0x3
+    113c:	add    rsi,rax
+    113f:	sar    rsi,1
+    1142:	je     1158 <malloc@plt+0xa8>
+    1144:	mov    rax,QWORD PTR [rip+0x2e8d]        # 3fd8 <malloc@plt+0x2f28>
+    114b:	test   rax,rax
+    114e:	je     1158 <malloc@plt+0xa8>
+    1150:	jmp    rax
+    1152:	nop    WORD PTR [rax+rax*1+0x0]
+    1158:	ret
+    1159:	nop    DWORD PTR [rax+0x0]
+    1160:	endbr64
+    1164:	cmp    BYTE PTR [rip+0x2eed],0x0        # 4058 <malloc@plt+0x2fa8>
+    116b:	jne    11a0 <malloc@plt+0xf0>
+    116d:	push   rbp
+    116e:	cmp    QWORD PTR [rip+0x2e6a],0x0        # 3fe0 <malloc@plt+0x2f30>
+    1176:	mov    rbp,rsp
+    1179:	je     1188 <malloc@plt+0xd8>
+    117b:	mov    rdi,QWORD PTR [rip+0x2ece]        # 4050 <malloc@plt+0x2fa0>
+    1182:	call   QWORD PTR [rip+0x2e58]        # 3fe0 <malloc@plt+0x2f30>
+    1188:	call   10f0 <malloc@plt+0x40>
+    118d:	mov    BYTE PTR [rip+0x2ec4],0x1        # 4058 <malloc@plt+0x2fa8>
+    1194:	pop    rbp
+    1195:	ret
+    1196:	cs nop WORD PTR [rax+rax*1+0x0]
+    11a0:	ret
+    11a1:	nop    DWORD PTR [rax+0x0]
+    11a5:	data16 cs nop WORD PTR [rax+rax*1+0x0]
+    11b0:	endbr64
+    11b4:	jmp    1120 <malloc@plt+0x70>
+    11b9:	push   rbp
+    11ba:	mov    rbp,rsp
+    11bd:	mov    BYTE PTR [rbp-0x1],dil
+    11c1:	cmp    BYTE PTR [rbp-0x1],0x20
+    11c5:	jle    11d4 <malloc@plt+0x124>
+    11c7:	cmp    BYTE PTR [rbp-0x1],0x7f
+    11cb:	je     11d4 <malloc@plt+0x124>
+    11cd:	mov    eax,0x1
+    11d2:	jmp    11d9 <malloc@plt+0x129>
+    11d4:	mov    eax,0x0
+    11d9:	and    eax,0x1
+    11dc:	pop    rbp
+    11dd:	ret
+    11de:	push   rbp
+    11df:	mov    rbp,rsp
+    11e2:	sub    rsp,0x20
+    11e6:	mov    QWORD PTR [rbp-0x18],rdi
+    11ea:	mov    QWORD PTR [rbp-0x8],0x0
+    11f2:	jmp    121f <malloc@plt+0x16f>
+    11f4:	mov    rdx,QWORD PTR [rbp-0x18]
+    11f8:	mov    rax,QWORD PTR [rbp-0x8]
+    11fc:	add    rax,rdx
+    11ff:	movzx  eax,BYTE PTR [rax]
+    1202:	movsx  eax,al
+    1205:	mov    edi,eax
+    1207:	call   11b9 <malloc@plt+0x109>
+    120c:	xor    eax,0x1
+    120f:	test   al,al
+    1211:	je     121a <malloc@plt+0x16a>
+    1213:	mov    eax,0x0
+    1218:	jmp    1236 <malloc@plt+0x186>
+    121a:	add    QWORD PTR [rbp-0x8],0x1
+    121f:	mov    rax,QWORD PTR [rbp-0x18]
+    1223:	mov    rdi,rax
+    1226:	call   1050 <strlen@plt>
+    122b:	cmp    QWORD PTR [rbp-0x8],rax
+    122f:	jb     11f4 <malloc@plt+0x144>
+    1231:	mov    eax,0x1
+    1236:	leave
+    1237:	ret
+    1238:	push   rbp
+    1239:	mov    rbp,rsp
+    123c:	sub    rsp,0x40
+    1240:	mov    QWORD PTR [rbp-0x38],rdi
+    1244:	cmp    QWORD PTR [rbp-0x38],0x0
+    1249:	jne    1255 <malloc@plt+0x1a5>
+    124b:	mov    eax,0x0
+    1250:	jmp    1392 <malloc@plt+0x2e2>
+    1255:	mov    rax,QWORD PTR [rbp-0x38]
+    1259:	mov    rdi,rax
+    125c:	call   1050 <strlen@plt>
+    1261:	mov    QWORD PTR [rbp-0x10],rax
+    1265:	mov    rax,QWORD PTR [rbp-0x10]
+    1269:	add    rax,0x1
+    126d:	mov    rdi,rax
+    1270:	call   10b0 <malloc@plt>
+    1275:	mov    QWORD PTR [rbp-0x8],rax
+    1279:	cmp    QWORD PTR [rbp-0x8],0x0
+    127e:	jne    128a <malloc@plt+0x1da>
+    1280:	mov    eax,0x0
+    1285:	jmp    1392 <malloc@plt+0x2e2>
+    128a:	mov    rdx,QWORD PTR [rbp-0x10]
+    128e:	mov    rcx,QWORD PTR [rbp-0x38]
+    1292:	mov    rax,QWORD PTR [rbp-0x8]
+    1296:	mov    rsi,rcx
+    1299:	mov    rdi,rax
+    129c:	call   10a0 <memcpy@plt>
+    12a1:	mov    rdx,QWORD PTR [rbp-0x8]
+    12a5:	mov    rax,QWORD PTR [rbp-0x10]
+    12a9:	add    rax,rdx
+    12ac:	mov    BYTE PTR [rax],0x0
+    12af:	mov    QWORD PTR [rbp-0x28],0x0
+    12b7:	jmp    12f0 <malloc@plt+0x240>
+    12b9:	lea    rdx,[rip+0xd60]        # 2020 <malloc@plt+0xf70>
+    12c0:	mov    rax,QWORD PTR [rbp-0x28]
+    12c4:	add    rax,rdx
+    12c7:	movzx  eax,BYTE PTR [rax]
+    12ca:	mov    esi,eax
+    12cc:	mov    rdx,QWORD PTR [rbp-0x8]
+    12d0:	mov    rax,QWORD PTR [rbp-0x28]
+    12d4:	add    rax,rdx
+    12d7:	movzx  ecx,BYTE PTR [rax]
+    12da:	mov    rdx,QWORD PTR [rbp-0x8]
+    12de:	mov    rax,QWORD PTR [rbp-0x28]
+    12e2:	add    rax,rdx
+    12e5:	xor    esi,ecx
+    12e7:	mov    edx,esi
+    12e9:	mov    BYTE PTR [rax],dl
+    12eb:	add    QWORD PTR [rbp-0x28],0x2
+    12f0:	mov    rax,QWORD PTR [rbp-0x28]
+    12f4:	cmp    rax,QWORD PTR [rbp-0x10]
+    12f8:	jb     12b9 <malloc@plt+0x209>
+    12fa:	mov    QWORD PTR [rbp-0x20],0x0
+    1302:	jmp    133e <malloc@plt+0x28e>
+    1304:	mov    eax,0x1f
+    1309:	sub    rax,QWORD PTR [rbp-0x20]
+    130d:	lea    rdx,[rip+0xd0c]        # 2020 <malloc@plt+0xf70>
+    1314:	movzx  eax,BYTE PTR [rax+rdx*1]
+    1318:	mov    esi,eax
+    131a:	mov    rdx,QWORD PTR [rbp-0x8]
+    131e:	mov    rax,QWORD PTR [rbp-0x20]
+    1322:	add    rax,rdx
+    1325:	movzx  ecx,BYTE PTR [rax]
+    1328:	mov    rdx,QWORD PTR [rbp-0x8]
+    132c:	mov    rax,QWORD PTR [rbp-0x20]
+    1330:	add    rax,rdx
+    1333:	xor    esi,ecx
+    1335:	mov    edx,esi
+    1337:	mov    BYTE PTR [rax],dl
+    1339:	add    QWORD PTR [rbp-0x20],0x3
+    133e:	mov    rax,QWORD PTR [rbp-0x20]
+    1342:	cmp    rax,QWORD PTR [rbp-0x10]
+    1346:	jb     1304 <malloc@plt+0x254>
+    1348:	mov    QWORD PTR [rbp-0x18],0x0
+    1350:	jmp    1384 <malloc@plt+0x2d4>
+    1352:	mov    rdx,QWORD PTR [rbp-0x8]
+    1356:	mov    rax,QWORD PTR [rbp-0x18]
+    135a:	add    rax,rdx
+    135d:	movzx  eax,BYTE PTR [rax]
+    1360:	movsx  eax,al
+    1363:	mov    edi,eax
+    1365:	call   11b9 <malloc@plt+0x109>
+    136a:	xor    eax,0x1
+    136d:	test   al,al
+    136f:	je     137f <malloc@plt+0x2cf>
+    1371:	mov    rdx,QWORD PTR [rbp-0x8]
+    1375:	mov    rax,QWORD PTR [rbp-0x18]
+    1379:	add    rax,rdx
+    137c:	mov    BYTE PTR [rax],0x2a
+    137f:	add    QWORD PTR [rbp-0x18],0x1
+    1384:	mov    rax,QWORD PTR [rbp-0x18]
+    1388:	cmp    rax,QWORD PTR [rbp-0x10]
+    138c:	jb     1352 <malloc@plt+0x2a2>
+    138e:	mov    rax,QWORD PTR [rbp-0x8]
+    1392:	leave
+    1393:	ret
+    1394:	push   rbp
+    1395:	mov    rbp,rsp
+    1398:	sub    rsp,0x70
+    139c:	mov    rax,QWORD PTR fs:0x28
+    13a5:	mov    QWORD PTR [rbp-0x8],rax
+    13a9:	xor    eax,eax
+    13ab:	mov    QWORD PTR [rbp-0x70],0x0
+    13b3:	lea    rax,[rip+0xc86]        # 2040 <malloc@plt+0xf90>
+    13ba:	mov    rdi,rax
+    13bd:	mov    eax,0x0
+    13c2:	call   1070 <printf@plt>
+    13c7:	lea    rax,[rbp-0x60]
+    13cb:	lea    rdx,[rip+0xc79]        # 204b <malloc@plt+0xf9b>
+    13d2:	mov    rsi,rax
+    13d5:	mov    rdi,rdx
+    13d8:	mov    eax,0x0
+    13dd:	call   1080 <__isoc23_scanf@plt>
+    13e2:	test   eax,eax
+    13e4:	jne    13ff <malloc@plt+0x34f>
+    13e6:	lea    rax,[rip+0xc63]        # 2050 <malloc@plt+0xfa0>
+    13ed:	mov    rdi,rax
+    13f0:	call   1040 <puts@plt>
+    13f5:	mov    eax,0x1
+    13fa:	jmp    1515 <malloc@plt+0x465>
+    13ff:	lea    rax,[rbp-0x60]
+    1403:	mov    rdi,rax
+    1406:	call   1050 <strlen@plt>
+    140b:	mov    QWORD PTR [rbp-0x70],rax
+    140f:	cmp    QWORD PTR [rbp-0x70],0x7
+    1414:	ja     1427 <malloc@plt+0x377>
+    1416:	lea    rax,[rip+0xc53]        # 2070 <malloc@plt+0xfc0>
+    141d:	mov    rdi,rax
+    1420:	call   1040 <puts@plt>
+    1425:	jmp    144a <malloc@plt+0x39a>
+    1427:	lea    rax,[rbp-0x60]
+    142b:	mov    rdi,rax
+    142e:	call   11de <malloc@plt+0x12e>
+    1433:	xor    eax,0x1
+    1436:	test   al,al
+    1438:	je     144f <malloc@plt+0x39f>
+    143a:	lea    rax,[rip+0xc6f]        # 20b0 <malloc@plt+0x1000>
+    1441:	mov    rdi,rax
+    1444:	call   1040 <puts@plt>
+    1449:	nop
+    144a:	jmp    13b3 <malloc@plt+0x303>
+    144f:	nop
+    1450:	lea    rax,[rip+0xca1]        # 20f8 <malloc@plt+0x1048>
+    1457:	mov    rdi,rax
+    145a:	mov    eax,0x0
+    145f:	call   1070 <printf@plt>
+    1464:	lea    rax,[rbp-0x30]
+    1468:	lea    rdx,[rip+0xbdc]        # 204b <malloc@plt+0xf9b>
+    146f:	mov    rsi,rax
+    1472:	mov    rdi,rdx
+    1475:	mov    eax,0x0
+    147a:	call   1080 <__isoc23_scanf@plt>
+    147f:	test   eax,eax
+    1481:	jne    1499 <malloc@plt+0x3e9>
+    1483:	lea    rax,[rip+0xc7e]        # 2108 <malloc@plt+0x1058>
+    148a:	mov    rdi,rax
+    148d:	call   1040 <puts@plt>
+    1492:	mov    eax,0x1
+    1497:	jmp    1515 <malloc@plt+0x465>
+    1499:	lea    rax,[rbp-0x60]
+    149d:	mov    rdi,rax
+    14a0:	call   1238 <malloc@plt+0x188>
+    14a5:	mov    QWORD PTR [rbp-0x68],rax
+    14a9:	cmp    QWORD PTR [rbp-0x68],0x0
+    14ae:	jne    14c6 <malloc@plt+0x416>
+    14b0:	lea    rax,[rip+0xc71]        # 2128 <malloc@plt+0x1078>
+    14b7:	mov    rdi,rax
+    14ba:	call   1040 <puts@plt>
+    14bf:	mov    eax,0x1
+    14c4:	jmp    1515 <malloc@plt+0x465>
+    14c6:	lea    rdx,[rbp-0x30]
+    14ca:	mov    rax,QWORD PTR [rbp-0x68]
+    14ce:	mov    rsi,rdx
+    14d1:	mov    rdi,rax
+    14d4:	call   1090 <strcmp@plt>
+    14d9:	test   eax,eax
+    14db:	jne    14e6 <malloc@plt+0x436>
+    14dd:	lea    rax,[rip+0xc5d]        # 2141 <malloc@plt+0x1091>
+    14e4:	jmp    14ed <malloc@plt+0x43d>
+    14e6:	lea    rax,[rip+0xc5c]        # 2149 <malloc@plt+0x1099>
+    14ed:	lea    rdx,[rip+0xc5d]        # 2151 <malloc@plt+0x10a1>
+    14f4:	mov    rsi,rax
+    14f7:	mov    rdi,rdx
+    14fa:	mov    eax,0x0
+    14ff:	call   1070 <printf@plt>
+    1504:	mov    rax,QWORD PTR [rbp-0x68]
+    1508:	mov    rdi,rax
+    150b:	call   1030 <free@plt>
+    1510:	mov    eax,0x0
+    1515:	mov    rdx,QWORD PTR [rbp-0x8]
+    1519:	sub    rdx,QWORD PTR fs:0x28
+    1522:	je     1529 <malloc@plt+0x479>
+    1524:	call   1060 <__stack_chk_fail@plt>
+    1529:	leave
+    152a:	ret

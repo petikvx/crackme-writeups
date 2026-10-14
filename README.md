@@ -231,6 +231,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [zydak](authors/zydak/README.md) | zydak | 2 (simple obfuscated + Tetris DRM) | 0 / 2 |
 | [reiika](authors/reiika/README.md) | Reiika | 1 (stckwzrd) | 1 / 1 |
 | [rr7](authors/rr7/README.md) | RR7 | 1 (Secret key) | 1 / 1 |
+| [mr-x47](authors/mr-x47/README.md) | Mr.X47 | 1 (BiLoop Cipher) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -253,6 +254,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-14 | [Mr.X47's BiLoop Cipher](authors/mr-x47/6a48e4146840520e01b22041/) | Mr.X47 |
 | 2026-10-14 | [RR7's Secret key](authors/rr7/6a46f20c8a86e4c2c5525631/) | RR7 |
 | 2026-10-14 | [crack_me_01 by dynsym](authors/crackmes-de/5ab77f5633c5d40ad448c2b7/) | crackmes.de / dynsym |
 | 2026-10-14 | [gulcrackme_1 by gul](authors/crackmes-de/5ab77f5633c5d40ad448c2b0/) | crackmes.de / gul |

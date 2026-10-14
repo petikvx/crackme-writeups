@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a48e4146840520e01b22041
+
+urls:
+  page: https://crackmes.one/crackme/6a48e4146840520e01b22041
+  download: https://crackmes.one/download/crackme/6a48e4146840520e01b22041
+
+title: "Mr.X47's BiLoop Cipher"
+author_on_site: "Mr.X47"
+author_local: "mr-x47"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C/C++ (GCC)"
+
+difficulty: 1.8
+quality: null
+size: ""
+published: "2026-07-04"
+
+series_index: null
+local_slug: biloop-cipher
+
+binary:
+  path: "original/BiLoop_Cipher"
+  name: "BiLoop_Cipher"
+  sha256: "5e68a7121b769801234ad99f60f390300ec913d8162d8928d009bd6a828fcd30"
+  md5: "7a87870c5c3b9922be2ae279ebd18f6b"
+  size_bytes: 14536
+
+status: solved
+solution_summary: "keygen petik123 -> iemgo1#3 ; buf[i]^=K[i] (i pair) puis buf[j]^=K[31-j] (j%3==0), non imprimable -> '*', K = 32 octets .rodata 0x2020 ; username 8..32 car. 0x21..0x7e"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T11:51:56Z"
