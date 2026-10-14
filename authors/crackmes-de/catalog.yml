@@ -1306,6 +1306,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c28d/original/rammy_crk_1.zip"
     title: "crackmes.de's crackme_1 by rammy"
 
+  5ab77f5633c5d40ad448c28f:
+    sha256: "27ee7a870313b4f2e64c69897cad8999a4a023a0aa518907349bec5d19872500"
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c28f/original/therapy_easyone.zip"
+    title: "crackmes.de's easyone___nameserial by therapy"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2363,3 +2368,7 @@ by_sha256:
     id: 5ab77f5633c5d40ad448c28d
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c28d/original/rammy_crk_1.zip"
     page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c28d
+  27ee7a870313b4f2e64c69897cad8999a4a023a0aa518907349bec5d19872500:
+    id: 5ab77f5633c5d40ad448c28f
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c28f/original/therapy_easyone.zip"
+    page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c28f

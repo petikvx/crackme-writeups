@@ -1,0 +1,16 @@
+Hi everyone!
+
+
+This is my first windows crackme, and also my first windows prog. I dont think
+it's too hard, just try to understand the algo (easy one)! Once you get the 
+point, you'll be done with the keygen in no time! It is written in C and it is
+not packed.
+
+Level: it is for beginners who dont give up so easily
+
+Rules: no patching
+
+Send keygen and tut on how you solved it to <therapynet@hotmail.com>
+Greetings to: kao, Oorja, theForger and of course You!
+
+therapy

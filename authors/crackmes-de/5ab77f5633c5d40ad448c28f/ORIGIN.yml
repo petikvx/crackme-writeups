@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c28f
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c28f
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c28f
+
+title: "crackmes.de's easyone___nameserial by therapy"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C (MinGW)"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/therapy_easyone.zip"
+  name: "therapy_easyone.zip"
+  sha256: "27ee7a870313b4f2e64c69897cad8999a4a023a0aa518907349bec5d19872500"
+  md5: "9226bacbb113554521114fbac2c30ce0"
+  size_bytes: 4572
+
+status: solved
+solution_summary: "keygen : serial[i] = '0' + (c - isqrt(c)² + i²) % 10 pour c = name[i] (isqrt par dichotomie 8 bits), len(serial) == len(name) >= 5 ; petik→22043 ; vérifié live wine+xdotool"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T02:03:25Z"
