@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5d33c5d40ad448c69f
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5d33c5d40ad448c69f
+  download: https://crackmes.one/download/crackme/5ab77f5d33c5d40ad448c69f
+
+title: "crackmes.de's xrockmr by synamics"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/rockmr.zip"
+  name: "rockmr.zip"
+  sha256: "46f139a3db7f486ac159e0b02d000d892d897a8103dc1f7f4b0134cdb0da6d04"
+  md5: "e7d45ddbe56342a61672201e52d747bb"
+  size_bytes: 6122
+
+status: solved
+solution_summary: "password hello : fgets(password,8), password[4]!='o' => password[1]='a' ; destructeur _finit_ teste password[0..3]=='hell' -> WIN ; killall gdb/strace"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T19:13:49Z"

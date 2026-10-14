@@ -1,0 +1,10 @@
+== crackme_x64 hello
+What is the password?
+You WIN, congratulations...
+== crackme_x64 hell
+What is the password?
+== crackme_x86 hello
+What is the password?
+You WIN, congratulations...
+== crackme_x86 hell
+What is the password?
