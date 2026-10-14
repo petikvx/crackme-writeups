@@ -317,6 +317,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 283 | [facets](5ab77f5833c5d40ad448c411/) | monads | Linux ELF32 (code auto-modifiant) | argument `7` (tout n & 0xffff == 7) |
 | 284 | [crackme_1](5ab77f5933c5d40ad448c48a/) | batman10 | Linux ELF32 C++ | keygen `petik`→`u`qln` (pass[i]=name[i]^5) |
 | 285 | [easy_celen](5ab77f5a33c5d40ad448c4da/) | s4t4y | Linux ELF32 statique (ptrace) | flag `the_flag_is_arip_power` (22 mov byte sur la pile ; affiché si [esp+0x14]==0x400) |
+| 286 | [crackmejenny](5ab77f5a33c5d40ad448c4ed/) | sraboy | Linux ELF64 (code auto-modifiant) | `./release jenny@8675309` → 13284645-2427364-104376652 |
 
 ## Mis de côté (PARKED — y revenir)
 

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5a33c5d40ad448c4ed
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5a33c5d40ad448c4ed
+  download: https://crackmes.one/download/crackme/5ab77f5a33c5d40ad448c4ed
+
+title: "crackmes.de's crackmejenny by sraboy"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme.tgz"
+  name: "crackme.tgz"
+  sha256: "14a6f9269ec973d9b3be52ae483342b7e3629a87386fe0ba2e9ec90442fce64b"
+  md5: "ab4f084b37b0a90cb9172031fd57ab57"
+  size_bytes: 118272
+
+status: solved
+solution_summary: "argv[1]=user(5)+'@'+phone(7) = jenny@8675309 ; Σ(s[i]^phone)=0x295dda9, s[5]=='@', opcode 0x29 patche add->sub puis imul ; clé 13284645-2427364-104376652"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T18:44:44Z"
