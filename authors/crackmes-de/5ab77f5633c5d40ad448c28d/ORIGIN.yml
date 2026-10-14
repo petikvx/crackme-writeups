@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c28d
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c28d
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c28d
+
+title: "crackmes.de's crackme_1 by rammy"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "MASM (ASPack 2.12)"
+
+difficulty: 2.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/rammy_crk_1.zip"
+  name: "rammy_crk_1.zip"
+  sha256: "24950ce00f9f8be0d65cd2130f076c9a34779cb2c744beed3bcced7f4ce6a052"
+  md5: "7e4fab358844f0ef0ff95e84b531085f"
+  size_bytes: 7694
+
+status: solved
+solution_summary: "keygen : serial = 'R' + map(octets LE de 4*s*(F(s)+1)+F(200)), s = somme du nom, F = Fibonacci réduit ≤200 +1 ; petik→R8~9 ; code auto-modifiant (le site d'appel pousse \"RaMMy\" en statique) ; unpack ASPack via /proc/pid/mem ; vérifié live wine+xdotool"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T01:53:04Z"

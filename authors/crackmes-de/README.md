@@ -287,6 +287,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 253 | [keygenme_1 by cobrasniper555](5ab77f5633c5d40ad448c289/) | cobrasniper555 | Windows PE32 MinGW C++ GUI | keygen `c0-%X(A)-%X(B)`, A=0x87654321−Σc·66·(c^5), B=A·((c0·650)^0xC) ; **petik→p-8729D38D-6C55AB7C** (le binaire ne teste que le 1er octet ; Source.zip = `43`) |
 | 254 | [keygenme_1 by chaak](5ab77f5633c5d40ad448c28a/) | chaak | Windows PE32 MinGW GUI | labyrinthe 13×13 : `CKGM1<k1><k2>-` + 16 paires (A1'[x],A2'[y]) alphabets tournés, départ col. 0, pas ↑↓→ ; **CKGM1AB-ABCBEBGB-IBIDKDMD-MBOBQBSB-UBWBWDYD** |
 | 255 | [keygenme_conflux1 by conflux](5ab77f5633c5d40ad448c28b/) | conflux | Windows PE32 MinGW C++ console | `abcdef-goodx` + lettre `'a'+rand()%26` après `srand(time(NULL))` (LCG msvcrt) → calculée à la seconde près |
+| 256 | [crackme_1 by rammy](5ab77f5633c5d40ad448c28d/) | rammy | Windows PE32 MASM GUI, ASPack | keygen : code auto-modifiant (`lstrcmpA(gen(name), serial)`), `'R'` + map(octets de `4·Σ·(F(Σ)+1)+F(200)`), F = Fibonacci réduit ≤200 ; **petik→R8~9** |
 
 ## Mis de côté (PARKED — y revenir)
 

@@ -1301,6 +1301,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c28b/original/conflux1.1.zip"
     title: "crackmes.de's keygenme_conflux1 by conflux"
 
+  5ab77f5633c5d40ad448c28d:
+    sha256: "24950ce00f9f8be0d65cd2130f076c9a34779cb2c744beed3bcced7f4ce6a052"
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c28d/original/rammy_crk_1.zip"
+    title: "crackmes.de's crackme_1 by rammy"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2354,3 +2359,7 @@ by_sha256:
     id: 5ab77f5633c5d40ad448c28b
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c28b/original/conflux1.1.zip"
     page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c28b
+  24950ce00f9f8be0d65cd2130f076c9a34779cb2c744beed3bcced7f4ce6a052:
+    id: 5ab77f5633c5d40ad448c28d
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c28d/original/rammy_crk_1.zip"
+    page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c28d
