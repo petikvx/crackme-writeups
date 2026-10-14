@@ -330,6 +330,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 296 | [var](5ab77f5b33c5d40ad448c5b3/) | unchapelierfou | Linux ELF64 statique | flag `Flag_Over_Here_Dude` (movabs 'Flag_Ove'+'r_Here_D'+'ude' ; strcmp) |
 | 297 | [eyecandylocked](5ab77f5b33c5d40ad448c563/) | nexy | Linux ELF64 C++ (ptrace) | mot de passe `d00r1$m@licious` (14 premiers car. comparés à un tableau d'int) |
 | 298 | [ritz_crackme_for_linux](5ab77f5c33c5d40ad448c638/) | nobody | Linux ELF32 NASM (fichier keykey) | fichier `keykey` (20 octets K) + serial `petikAAAA123456@AAA` (B^D=1) |
+| 299 | [blaad](5ab77f5c33c5d40ad448c639/) | nobody | Linux ELF32 Qt 1.44 (GUI) | serial `219576501436587` (15 car., le 8e libre) ; émulé unicorn |
 
 ## Mis de côté (PARKED — y revenir)
 

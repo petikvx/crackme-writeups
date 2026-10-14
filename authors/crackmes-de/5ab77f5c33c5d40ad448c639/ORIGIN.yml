@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5c33c5d40ad448c639
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5c33c5d40ad448c639
+  download: https://crackmes.one/download/crackme/5ab77f5c33c5d40ad448c639
+
+title: "crackmes.de's blaad by nobody"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/blaadme.tar.gz"
+  name: "blaadme.tar.gz"
+  sha256: "a8ef5ae6e178c81b3ab448196fa5a9b8c470e5b90a4d1291e4914549e8932ef2"
+  md5: "3660a37e88fb6f168ce0ad7f99f9cd54"
+  size_bytes: 12053
+
+status: solved
+solution_summary: "ser[14-i] = ((ser[14-i]^ser[i])^c_i)+(i+1) == ref (cf dc df ce 05 cc cb 8a 8f 9a a9 ad bb b9 ce) ; c_i=(0xc8-10i)&0xff ; inversion → 2195765?1436587 ; Qt1 absent, émulation unicorn"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T19:13:48Z"

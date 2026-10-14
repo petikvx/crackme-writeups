@@ -1,0 +1,2 @@
+serial : 219576501436587   (le 8e caractère est libre)
+check: OK (modèle=True, émulation: 'YEAAHHH! U WIN' / 'No No No Try Again!')

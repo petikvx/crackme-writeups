@@ -1,0 +1,13 @@
+Hi.
+Sono blAAd!. 
+Per questo crackme bisogna trovare un seriale(la criptatura è semplice).
+E' in stile Window$ (messagebox, edit line varie...).
+Per creare il crackme ho utilizzato le librerie Qt 1.44
+(richedono esclusivamente la programmazione in C++), 
+e sono fortemente utilizzate dal Desktop KDE 
+(e quindi compatibili con la stragrande maggioranza delle versioni Linux).
+Nient'altro da dire. Spero qualcuno tenti di risolverlo. Io non ci ho ancora provato!!!!:P
+
+Bye by blAAd! a tutti i membri UIC & Racl & SuddenDischarge....
+
+info:: blaadeleng@yahoo.com
