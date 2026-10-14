@@ -332,6 +332,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 298 | [ritz_crackme_for_linux](5ab77f5c33c5d40ad448c638/) | nobody | Linux ELF32 NASM (fichier keykey) | fichier `keykey` (20 octets K) + serial `petikAAAA123456@AAA` (B^D=1) |
 | 299 | [blaad](5ab77f5c33c5d40ad448c639/) | nobody | Linux ELF32 Qt 1.44 (GUI) | serial `219576501436587` (15 car., le 8e libre) ; émulé unicorn |
 | 300 | [xrockmr](5ab77f5d33c5d40ad448c69f/) | synamics | Linux ELF32/64 (anti-debug killall) | mot de passe `hello` (fgets 8 ; password[4]=='o' ; _finit_ teste 'hell') |
+| 301 | [kylix_crackme](5ab77f5e33c5d40ad448c728/) | warleyalex | Linux ELF32 Kylix (CLX) | mot de passe `warleyalex` (Pascal string ^0xff ; LStrCmp) |
 
 ## Mis de côté (PARKED — y revenir)
 

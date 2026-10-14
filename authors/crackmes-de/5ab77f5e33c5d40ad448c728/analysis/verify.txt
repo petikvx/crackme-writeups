@@ -1,0 +1,3 @@
+password : warleyalex   (Good='Good', Bad='Bad')
+check: OK (décodage XOR 0xff des 3 chaînes Pascal ; preuve statique)
+./authors/crackmes-de/5ab77f5e33c5d40ad448c728/analysis/crackme: symbol lookup error: ./authors/crackmes-de/5ab77f5e33c5d40ad448c728/analysis/crackme: undefined symbol: initPAnsiStrings

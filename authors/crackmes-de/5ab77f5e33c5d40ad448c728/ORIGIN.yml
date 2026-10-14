@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5e33c5d40ad448c728
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5e33c5d40ad448c728
+  download: https://crackmes.one/download/crackme/5ab77f5e33c5d40ad448c728
+
+title: "crackmes.de's kylix_crackme by warleyalex"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme.zip"
+  name: "crackme.zip"
+  sha256: "007fffd4121fc43cc88799b1c2a67ca02621733d979d7a68a5d205152980b038"
+  md5: "91223e8f97d6d1549aa1e979a20bb93e"
+  size_bytes: 228099
+
+status: solved
+solution_summary: "OK handler @0x80a1be8 : Edit1.Text == Decode(0x80a1cc0) (octets ^0xff) = warleyalex ; Good/Bad idem ; preuve statique (libs Kylix absentes)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T19:13:51Z"
