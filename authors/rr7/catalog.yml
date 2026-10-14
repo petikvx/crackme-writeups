@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a46f20c8a86e4c2c5525631:
+    sha256: "f444f0ef793db4e9320b04d618aff6fcda7cf1502b4c3ce5f4bf0b71c72e2273"
+    path: "authors/rr7/6a46f20c8a86e4c2c5525631/original/code.exe"
+    title: "RR7's Secret key"
+
+by_sha256:
+  f444f0ef793db4e9320b04d618aff6fcda7cf1502b4c3ce5f4bf0b71c72e2273:
+    id: 6a46f20c8a86e4c2c5525631
+    path: "authors/rr7/6a46f20c8a86e4c2c5525631/original/code.exe"
+    page: https://crackmes.one/crackme/6a46f20c8a86e4c2c5525631

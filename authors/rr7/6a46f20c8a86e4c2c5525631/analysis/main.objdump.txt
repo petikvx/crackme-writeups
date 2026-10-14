@@ -1,0 +1,32 @@
+00000001400014b0 <main>:
+   1400014b0:	push   rbp
+   1400014b1:	mov    rbp,rsp
+   1400014b4:	sub    rsp,0x30
+   1400014b8:	call   140001600 <__main>
+   1400014bd:	lea    rax,[rip+0x2b3c]        # 140004000 <.rdata>
+   1400014c4:	mov    rcx,rax
+   1400014c7:	call   140002560 <printf>
+   1400014cc:	lea    rax,[rbp-0x4]
+   1400014d0:	lea    rcx,[rip+0x2b3e]        # 140004015 <.rdata+0x15>
+   1400014d7:	mov    rdx,rax
+   1400014da:	call   140002510 <scanf>
+   1400014df:	mov    eax,DWORD PTR [rbp-0x4]
+   1400014e2:	cmp    eax,0x21
+   1400014e5:	jne    140001520 <main+0x70>
+   1400014e7:	lea    rax,[rip+0x2b2a]        # 140004018 <.rdata+0x18>
+   1400014ee:	mov    rcx,rax
+   1400014f1:	call   140002560 <printf>
+   1400014f6:	lea    rax,[rbp-0x8]
+   1400014fa:	lea    rcx,[rip+0x2b14]        # 140004015 <.rdata+0x15>
+   140001501:	mov    rdx,rax
+   140001504:	call   140002510 <scanf>
+   140001509:	mov    eax,DWORD PTR [rbp-0x8]
+   14000150c:	cmp    eax,0x66
+   14000150f:	jne    140001520 <main+0x70>
+   140001511:	lea    rax,[rip+0x2b18]        # 140004030 <.rdata+0x30>
+   140001518:	mov    rcx,rax
+   14000151b:	call   140002560 <printf>
+   140001520:	mov    eax,0x0
+   140001525:	add    rsp,0x30
+   140001529:	pop    rbp
+   14000152a:	ret

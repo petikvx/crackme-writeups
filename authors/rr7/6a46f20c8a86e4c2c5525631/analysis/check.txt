@@ -1,0 +1,6 @@
+Your Number   : 33 (0x21)
+Secret Key    : 102 (0x66)
+[OK] 33 / 102     -> Congratulations
+[OK] 0x21 / 0x66  -> Congratulations
+[OK] 33 / 101     -> (rien)
+[OK] 32 / 102     -> (rien)
