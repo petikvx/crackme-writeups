@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5a33c5d40ad448c4fa
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5a33c5d40ad448c4fa
+  download: https://crackmes.one/download/crackme/5ab77f5a33c5d40ad448c4fa
+
+title: "crackmes.de's k_genme by macabre"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/k-genme.rgz"
+  name: "k-genme.rgz"
+  sha256: "a994f056b6ed993935c0f54d7a18667ebcfbb27caf32302a31d4eef20a30d698"
+  md5: "7388838c0ddbeeea0b5ec78b55f224cb"
+  size_bytes: 16961
+
+status: solved
+solution_summary: "3 champs : str(75*v23) ; str(v23/0x44)[:4] ; str(v32)[:8] avec v23 += c ; v32 += (c^0x45)*v23 ; v23=(v23-(c>>1))*c ; preuve statique (KDE3 absent)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T18:52:31Z"
