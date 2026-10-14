@@ -1,0 +1,9 @@
+Name: petik
+Key:  7dz479z8zed
+  wine OK=True  KO(key+'0')=True
+Name: crackmes
+Key:  z67bz0z6zezcz466d
+  wine OK=True  KO(key+'0')=True
+Name: qHFrocks
+Key:  604z477b62z6ze66d
+  wine OK=True  KO(key+'0')=True

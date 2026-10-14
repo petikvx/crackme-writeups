@@ -1,0 +1,110 @@
+
+original/crackme.exe:     file format pei-i386
+
+
+Disassembly of section .text:
+
+00401000 <.text>:
+  401000:	68 00 20 40 00       	push   0x402000
+  401005:	e8 f6 1f 00 00       	call   0x403000
+  40100a:	81 c4 04 00 00 00    	add    esp,0x4
+  401010:	68 0a 00 00 00       	push   0xa
+  401015:	68 0d 00 00 00       	push   0xd
+  40101a:	e9 0b 00 00 00       	jmp    0x40102a
+  40101f:	25 63 25 63 4e       	and    eax,0x4e632563
+  401024:	61                   	popa
+  401025:	6d                   	ins    DWORD PTR es:[edi],dx
+  401026:	65 3a 20             	cmp    ah,BYTE PTR gs:[eax]
+  401029:	00 68 1f             	add    BYTE PTR [eax+0x1f],ch
+  40102c:	10 40 00             	adc    BYTE PTR [eax+0x0],al
+  40102f:	e8 cc 1f 00 00       	call   0x403000
+  401034:	81 c4 0c 00 00 00    	add    esp,0xc
+  40103a:	68 20 21 40 00       	push   0x402120
+  40103f:	e8 c2 1f 00 00       	call   0x403006
+  401044:	81 c4 04 00 00 00    	add    esp,0x4
+  40104a:	b8 20 21 40 00       	mov    eax,0x402120
+  40104f:	8d 50 01             	lea    edx,[eax+0x1]
+  401052:	3e 8a 48 00          	mov    cl,BYTE PTR ds:[eax+0x0]
+  401056:	40                   	inc    eax
+  401057:	84 c9                	test   cl,cl
+  401059:	75 f7                	jne    0x401052
+  40105b:	29 d0                	sub    eax,edx
+  40105d:	3d 03 00 00 00       	cmp    eax,0x3
+  401062:	b8 d7 20 40 00       	mov    eax,0x4020d7
+  401067:	0f 8e ea 00 00 00    	jle    0x401157
+  40106d:	e9 07 00 00 00       	jmp    0x401079
+  401072:	4b                   	dec    ebx
+  401073:	65 79 3a             	gs jns 0x4010b0
+  401076:	20 20                	and    BYTE PTR [eax],ah
+  401078:	00 68 72             	add    BYTE PTR [eax+0x72],ch
+  40107b:	10 40 00             	adc    BYTE PTR [eax+0x0],al
+  40107e:	e8 7d 1f 00 00       	call   0x403000
+  401083:	81 c4 04 00 00 00    	add    esp,0x4
+  401089:	68 21 25 40 00       	push   0x402521
+  40108e:	e8 73 1f 00 00       	call   0x403006
+  401093:	81 c4 04 00 00 00    	add    esp,0x4
+  401099:	ba 20 21 40 00       	mov    edx,0x402120
+  40109e:	3e 8a 4a 00          	mov    cl,BYTE PTR ds:[edx+0x0]
+  4010a2:	0f b6 c1             	movzx  eax,cl
+  4010a5:	f6 c1 01             	test   cl,0x1
+  4010a8:	74 0f                	je     0x4010b9
+  4010aa:	2d 0f 00 00 00       	sub    eax,0xf
+  4010af:	35 02 00 00 00       	xor    eax,0x2
+  4010b4:	e9 0a 00 00 00       	jmp    0x4010c3
+  4010b9:	05 02 00 00 00       	add    eax,0x2
+  4010be:	35 0f 00 00 00       	xor    eax,0xf
+  4010c3:	52                   	push   edx
+  4010c4:	51                   	push   ecx
+  4010c5:	50                   	push   eax
+  4010c6:	68 22 29 40 00       	push   0x402922
+  4010cb:	e9 05 00 00 00       	jmp    0x4010d5
+  4010d0:	25 73 25 78 00       	and    eax,0x782573
+  4010d5:	68 d0 10 40 00       	push   0x4010d0
+  4010da:	68 22 29 40 00       	push   0x402922
+  4010df:	e8 28 1f 00 00       	call   0x40300c
+  4010e4:	81 c4 10 00 00 00    	add    esp,0x10
+  4010ea:	59                   	pop    ecx
+  4010eb:	5a                   	pop    edx
+  4010ec:	42                   	inc    edx
+  4010ed:	84 c9                	test   cl,cl
+  4010ef:	75 ad                	jne    0x40109e
+  4010f1:	b8 22 29 40 00       	mov    eax,0x402922
+  4010f6:	3e 8a 48 00          	mov    cl,BYTE PTR ds:[eax+0x0]
+  4010fa:	80 f9 66             	cmp    cl,0x66
+  4010fd:	75 0b                	jne    0x40110a
+  4010ff:	b2 71                	mov    dl,0x71
+  401101:	3e 88 50 00          	mov    BYTE PTR ds:[eax+0x0],dl
+  401105:	e9 20 00 00 00       	jmp    0x40112a
+  40110a:	80 f9 31             	cmp    cl,0x31
+  40110d:	75 0b                	jne    0x40111a
+  40110f:	b2 48                	mov    dl,0x48
+  401111:	3e 88 50 00          	mov    BYTE PTR ds:[eax+0x0],dl
+  401115:	e9 10 00 00 00       	jmp    0x40112a
+  40111a:	80 f9 35             	cmp    cl,0x35
+  40111d:	75 0b                	jne    0x40112a
+  40111f:	b2 7a                	mov    dl,0x7a
+  401121:	3e 88 50 00          	mov    BYTE PTR ds:[eax+0x0],dl
+  401125:	e9 00 00 00 00       	jmp    0x40112a
+  40112a:	40                   	inc    eax
+  40112b:	84 c9                	test   cl,cl
+  40112d:	75 c7                	jne    0x4010f6
+  40112f:	b8 21 25 40 00       	mov    eax,0x402521
+  401134:	ba 22 29 40 00       	mov    edx,0x402922
+  401139:	3e 8a 48 00          	mov    cl,BYTE PTR ds:[eax+0x0]
+  40113d:	3e 8a 5a 00          	mov    bl,BYTE PTR ds:[edx+0x0]
+  401141:	38 cb                	cmp    bl,cl
+  401143:	50                   	push   eax
+  401144:	b8 0c 21 40 00       	mov    eax,0x40210c
+  401149:	75 0c                	jne    0x401157
+  40114b:	58                   	pop    eax
+  40114c:	40                   	inc    eax
+  40114d:	42                   	inc    edx
+  40114e:	84 c9                	test   cl,cl
+  401150:	75 e7                	jne    0x401139
+  401152:	b8 f4 20 40 00       	mov    eax,0x4020f4
+  401157:	50                   	push   eax
+  401158:	e8 a3 1e 00 00       	call   0x403000
+  40115d:	81 c4 04 00 00 00    	add    esp,0x4
+  401163:	e8 aa 1e 00 00       	call   0x403012
+  401168:	31 c0                	xor    eax,eax
+  40116a:	c3                   	ret

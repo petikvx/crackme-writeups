@@ -300,6 +300,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 266 | [crack_me_01 by dynsym](5ab77f5633c5d40ad448c2b7/) | dynsym | Linux ELF32 C (GCC 3.3.5, ptrace TRACEME) | password argv[1] : `repz cmpsb` 10 octets vs `.rodata` 0x80485d4 = **`__gmon_sta`** (début de `__gmon_start__`) ; `./crackme1 __gmon_start__` → « [!] Solved! » (vérifié en natif) |
 | 267 | [qhfs_crackme1 by qhf](5ab77f5633c5d40ad448c2bd/) | qhf | Windows PE32 MinGW C++ console | keygen alphabet 37 ; `petik`→**PPPEEETTTIII** (wine: Good job) |
 | 268 | [full_patchme by qhf](5ab77f5633c5d40ad448c2be/) | qhf | Windows PE32 MinGW GUI (dialog) | patchme : 4 patches `.text` + 4 `.rsrc` (nags, Save activé/renommé, listbox, About, caption) (wine: chk.exe) |
+| 269 | [asm_is_fun by qhf](5ab77f5633c5d40ad448c2bf/) | qhf | Windows PE32 NASM console | keygen (c±…)^k en `%x` + f→q 1→H 5→z ; `petik`→**7dz479z8zed** (wine: Thanks for registering!) |
 
 ## Mis de côté (PARKED — y revenir)
 

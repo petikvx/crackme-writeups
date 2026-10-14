@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2bf
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2bf
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2bf
+
+title: "crackmes.de's asm_is_fun by qhf"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 1.0
+quality: null
+size: "1.18 KB"
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/qhfasmcrackme.zip"
+  name: "qhfasmcrackme.zip"
+  sha256: "06cd1cedb8d8cad7303fb964a0b6b379265550d2a962c1f43868fd18505ab820"
+  md5: "62dccc19dba0b022ba16db9cb0dd54f2"
+  size_bytes: 1211
+
+status: solved
+solution_summary: "keygen : pour chaque octet du nom + NUL, (c-15)^2 si impair sinon (c+2)^15, concat %x, puis f→q 1→H 5→z ; petik→7dz479z8zed (wine: Thanks for registering!)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T13:53:48Z"
