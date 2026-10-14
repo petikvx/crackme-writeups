@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c28a
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c28a
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c28a
+
+title: "crackmes.de's keygenme_1 by chaak"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++ (MinGW)"
+
+difficulty: 2.5
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/CKGM1a.zip"
+  name: "CKGM1a.zip"
+  sha256: "0531bc4cdc58ba302b1fbbae4c05f2b4b43d6e72266e49282a70dcdcb18e2523"
+  md5: "c2c84f2937b525cea53e24bcbec0e663"
+  size_bytes: 46415
+
+status: solved
+solution_summary: "labyrinthe 13x13 : serial CKGM1<k1><k2>-4x8 car. = 16 paires (A1'[x], A2'[y]) avec A1=ACEGIKMOQSUWY / A2=BDFHYLNPRTVXZ tournés sur k1/k2 ; départ colonne 0, pas haut/bas/droite sur cases libres (table 0x403000) ; ex. CKGM1AB-ABCBEBGB-IBIDKDMD-MBOBQBSB-UBWBWDYD ; vérifié live wine (inject SetDlgItemText + IDOK)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T00:56:28Z"
