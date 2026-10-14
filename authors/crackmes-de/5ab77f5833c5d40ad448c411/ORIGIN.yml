@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c411
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c411
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c411
+
+title: "crackmes.de's facets by monads"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/facets_main.tar.gz"
+  name: "facets_main.tar.gz"
+  sha256: "17a5f32a9e435123735eea68d7428e2ee7208ba7104b8c2944aff765bdb83460"
+  md5: "4e2e825dbc297dbca7123a22fd2356e4"
+  size_bytes: 3778
+
+status: solved
+solution_summary: "n & 0xffff == 7 : fonction 0x80496e0 auto-modifiante, cmp word [esp+4],7 ; 90 (exemple d'usage) est un leurre"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T18:15:17Z"
