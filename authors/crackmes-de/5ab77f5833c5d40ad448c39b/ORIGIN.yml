@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c39b
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c39b
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c39b
+
+title: "crackmes.de's bf by crp"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/bf.tar.gz"
+  name: "bf.tar.gz"
+  sha256: "8074456512541f55ae5ae2663bbfd6b392cedaf53b32594e604dfab6d335c931"
+  md5: "4542a339b924f450fffde81fc3edcca7"
+  size_bytes: 3089
+
+status: solved
+solution_summary: "key.bf = programme BF dont la sortie == %u de 3*h (h = ((L*Σ(L+u[i]))<<10)+Σ(j-u[j])), terminé par NUL ; générateur par utilisateur, pas de keyfile générique"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T18:15:14Z"
