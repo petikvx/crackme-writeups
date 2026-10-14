@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5b33c5d40ad448c5c2
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5b33c5d40ad448c5c2
+  download: https://crackmes.one/download/crackme/5ab77f5b33c5d40ad448c5c2
+
+title: "crackmes.de's jandepora by esn_min"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: ""
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme4.zip"
+  name: "crackme4.zip"
+  sha256: "d301d4caf4b19e675828e5a6a7d39ec1bde22e223b7def67d2a051479520f0fe"
+  md5: "d0be83297b057396cf4566b1bc79efbf"
+  size_bytes: 1415
+
+status: solved
+solution_summary: "serial 43 car. sur {a,b,c} : chemin d'un automate 8 états (extrait par instrumentation) hors état 7, avec #b=n%17+1 #c=n%16+1 #a=43-#b-#c (n=hash nom *37) ; DP"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T18:59:57Z"

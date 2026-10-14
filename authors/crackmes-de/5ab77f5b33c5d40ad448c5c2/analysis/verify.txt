@@ -1,0 +1,4 @@
+name  : petik
+counts: a=37 b=4 c=2
+serial: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbcabc
+check: OK (Registered=True, serial altéré→Wrong=True)

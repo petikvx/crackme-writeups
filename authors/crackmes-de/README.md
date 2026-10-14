@@ -324,6 +324,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 290 | [arm_crack1](5ab77f5a33c5d40ad448c52b/) | blankwall | Linux ARM Thumb-2 | mot de passe `this_is_flag` (littéral `TU_KU_KRXMS + 20 ; le littéral brut est un leurre) |
 | 291 | [kde_enableme1](5ab77f5a33c5d40ad448c4fb/) | macabre | Linux ELF32 KDE3/Qt3 (GUI) | patch : NOP `call [eax+0x54]` (setEnabled(false)) @0x804cb5b et @0x804cddb |
 | 292 | [k_genme](5ab77f5a33c5d40ad448c4fa/) | macabre | Linux ELF32 KDE3/Qt3 (GUI) | keygen `petik`→-2141864799 / -547 / -8189260 (3 champs, statique) |
+| 293 | [jandepora](5ab77f5b33c5d40ad448c5c2/) | esn_min | Linux (source C, 8 processus/pipes) | keygen : mot de 43 car. {a,b,c} = chemin d'un DFA 8 états avec #b=n%17+1, #c=n%16+1 ; `petik`→a×37 b×3 c a b c |
 
 ## Mis de côté (PARKED — y revenir)
 

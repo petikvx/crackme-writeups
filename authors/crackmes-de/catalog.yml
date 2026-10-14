@@ -1496,6 +1496,31 @@ by_id:
     path: "authors/crackmes-de/5ab77f5a33c5d40ad448c52b/original/Arm_crackme.zip"
     title: "crackmes.de's arm_crack1 by blankwall"
 
+  5ab77f5a33c5d40ad448c532:
+    sha256: "9526e8353d2e2a066c011f9ae3b409cdb8bd08d55644f1d199ce20138ecc6055"
+    path: "authors/crackmes-de/5ab77f5a33c5d40ad448c532/original/pof-kgme-0x01.zip"
+    title: "crackmes.de's pof_kgme_0x01 by pof_es"
+
+  5ab77f5b33c5d40ad448c563:
+    sha256: "14f28f477b3d82c36dc57d62a65cc4cfec56f14dd1964df12f935d1ca7ef9e11"
+    path: "authors/crackmes-de/5ab77f5b33c5d40ad448c563/original/EyeCandyLOCKED.tar.gz"
+    title: "crackmes.de's eyecandylocked by nexy"
+
+  5ab77f5b33c5d40ad448c5b3:
+    sha256: "31c524765e842a2a1caab4695bda817fd24b9a80ab7904637ab8a21ca3f47ca1"
+    path: "authors/crackmes-de/5ab77f5b33c5d40ad448c5b3/original/var.zip"
+    title: "crackmes.de's var by unchapelierfou"
+
+  5ab77f5b33c5d40ad448c5c2:
+    sha256: "d301d4caf4b19e675828e5a6a7d39ec1bde22e223b7def67d2a051479520f0fe"
+    path: "authors/crackmes-de/5ab77f5b33c5d40ad448c5c2/original/crackme4.zip"
+    title: "crackmes.de's jandepora by esn_min"
+
+  5ab77f5c33c5d40ad448c637:
+    sha256: "1366cf96b6afc255f64ae6c7be3a7112f2b879ffb53a6a5af8eec405b3095800"
+    path: "authors/crackmes-de/5ab77f5c33c5d40ad448c637/original/crkme1sys.tgz"
+    title: "crackmes.de's sys_linux_crackme by nobody"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2705,3 +2730,23 @@ by_sha256:
     id: 5ab77f5a33c5d40ad448c52b
     path: "authors/crackmes-de/5ab77f5a33c5d40ad448c52b/original/Arm_crackme.zip"
     page: https://crackmes.one/crackme/5ab77f5a33c5d40ad448c52b
+  9526e8353d2e2a066c011f9ae3b409cdb8bd08d55644f1d199ce20138ecc6055:
+    id: 5ab77f5a33c5d40ad448c532
+    path: "authors/crackmes-de/5ab77f5a33c5d40ad448c532/original/pof-kgme-0x01.zip"
+    page: https://crackmes.one/crackme/5ab77f5a33c5d40ad448c532
+  14f28f477b3d82c36dc57d62a65cc4cfec56f14dd1964df12f935d1ca7ef9e11:
+    id: 5ab77f5b33c5d40ad448c563
+    path: "authors/crackmes-de/5ab77f5b33c5d40ad448c563/original/EyeCandyLOCKED.tar.gz"
+    page: https://crackmes.one/crackme/5ab77f5b33c5d40ad448c563
+  31c524765e842a2a1caab4695bda817fd24b9a80ab7904637ab8a21ca3f47ca1:
+    id: 5ab77f5b33c5d40ad448c5b3
+    path: "authors/crackmes-de/5ab77f5b33c5d40ad448c5b3/original/var.zip"
+    page: https://crackmes.one/crackme/5ab77f5b33c5d40ad448c5b3
+  d301d4caf4b19e675828e5a6a7d39ec1bde22e223b7def67d2a051479520f0fe:
+    id: 5ab77f5b33c5d40ad448c5c2
+    path: "authors/crackmes-de/5ab77f5b33c5d40ad448c5c2/original/crackme4.zip"
+    page: https://crackmes.one/crackme/5ab77f5b33c5d40ad448c5c2
+  1366cf96b6afc255f64ae6c7be3a7112f2b879ffb53a6a5af8eec405b3095800:
+    id: 5ab77f5c33c5d40ad448c637
+    path: "authors/crackmes-de/5ab77f5c33c5d40ad448c637/original/crkme1sys.tgz"
+    page: https://crackmes.one/crackme/5ab77f5c33c5d40ad448c637
