@@ -1576,6 +1576,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5f33c5d40ad448c800/original/CodeLinux.zip"
     title: "crackmes.de's code_linux by buga0205"
 
+  5ab77f5633c5d40ad448c2c4:
+    sha256: "7f9fb8f107d508a2599b1db3084faafbfb5d403f8277c43ce32d67916ddc0e1c"
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2c4/original/d00m1.zip"
+    title: "crackmes.de's d00msweek039s_crackme_1 by doomsweek"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2849,3 +2854,7 @@ by_sha256:
     id: 5ab77f5f33c5d40ad448c800
     path: "authors/crackmes-de/5ab77f5f33c5d40ad448c800/original/CodeLinux.zip"
     page: https://crackmes.one/crackme/5ab77f5f33c5d40ad448c800
+  7f9fb8f107d508a2599b1db3084faafbfb5d403f8277c43ce32d67916ddc0e1c:
+    id: 5ab77f5633c5d40ad448c2c4
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2c4/original/d00m1.zip"
+    page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2c4

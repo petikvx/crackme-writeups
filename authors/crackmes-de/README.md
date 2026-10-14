@@ -340,6 +340,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 306 | [crackme05](5ab77f5e33c5d40ad448c78c/) | seveb | Linux ELF32/64 | serial 19 car. `0zz0-bcda-aefb-0yy0` (rock/paper/scissors/cracker) |
 | 307 | [crackme2](5ab77f5e33c5d40ad448c78d/) | seveb | Linux ELF32/64 | serial `da-1003-08X32-aaaa-da` (N∈{1003,1023,…,1983}) |
 | 308 | [code_linux](5ab77f5f33c5d40ad448c800/) | buga0205 | Linux ELF32 statique (ptrace) | code `Rev5rS1ng_iS_FfUn!~` (base64 → César +20 → ^4 == v5) |
+| 309 | [d00msweek039s_crackme_1](5ab77f5633c5d40ad448c2c4/) | doomsweek | Windows PE32 VB6 natif GUI | serial `CFDXXQRQAASD` (CFD+XXQ+RQA+ASD, `__vbaStrCmp` ; wine: Congrats) |
 
 ## Mis de côté (PARKED — y revenir)
 
