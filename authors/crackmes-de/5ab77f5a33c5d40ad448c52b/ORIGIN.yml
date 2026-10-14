@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5a33c5d40ad448c52b
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5a33c5d40ad448c52b
+  download: https://crackmes.one/download/crackme/5ab77f5a33c5d40ad448c52b
+
+title: "crackmes.de's arm_crack1 by blankwall"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: ""
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Arm_crackme.zip"
+  name: "Arm_crackme.zip"
+  sha256: "9a048329cdef4dd95ca5f6c5aa1183ae6b15dbe8d75429b9a1334471442f73ab"
+  md5: "6af44ebc4bdb23013a67f56535d2d84c"
+  size_bytes: 4064
+
+status: solved
+solution_summary: "pass[i] = litteral[i]+20 = this_is_flag ; cmp(litteral,s)==1 = leurre (system yes FAIL) ; émulé unicorn Thumb-2"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T18:52:36Z"
