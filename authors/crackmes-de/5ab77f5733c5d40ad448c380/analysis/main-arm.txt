@@ -1,0 +1,114 @@
+8290:	mov	ip, sp
+8294:	push	{r4, fp, ip, lr, pc}
+8298:	sub	fp, ip, #4
+829c:	sub	sp, sp, #0x24
+82a0:	str	r0, [fp, #-0x28]
+82a4:	str	r1, [fp, #-0x2c]
+82a8:	ldr	r3, [fp, #-0x28]
+82ac:	cmp	r3, #1
+82b0:	bgt	#0x82c0
+82b4:	mvn	r3, #0
+82b8:	str	r3, [fp, #-0x30]
+82bc:	b	#0x8448
+82c0:	mov	r3, #0
+82c4:	str	r3, [fp, #-0x1c]
+82c8:	mov	r0, #0x20
+82cc:	bl	#0x8248
+82d0:	mov	r3, r0
+82d4:	str	r3, [fp, #-0x20]
+82d8:	b	#0x832c
+82dc:	ldr	r3, [fp, #-0x1c]
+82e0:	lsl	r2, r3, #2
+82e4:	ldr	r3, [fp, #-0x20]
+82e8:	add	r4, r3, r2
+82ec:	mov	r0, #0x20
+82f0:	bl	#0x8248
+82f4:	mov	r3, r0
+82f8:	str	r3, [r4]
+82fc:	ldr	r3, [fp, #-0x1c]
+8300:	lsl	r2, r3, #2
+8304:	ldr	r3, [fp, #-0x20]
+8308:	add	r3, r3, r2
+830c:	ldr	r3, [r3]
+8310:	mov	r0, r3
+8314:	mov	r1, #0xa
+8318:	mov	r2, #0x20
+831c:	bl	#0x11fe0
+8320:	ldr	r3, [fp, #-0x1c]
+8324:	add	r3, r3, #1
+8328:	str	r3, [fp, #-0x1c]
+832c:	ldr	r3, [fp, #-0x1c]
+8330:	cmp	r3, #8
+8334:	bne	#0x82dc
+8338:	ldr	r3, [fp, #-0x1c]
+833c:	lsl	r2, r3, #2
+8340:	ldr	r3, [fp, #-0x20]
+8344:	add	r2, r3, r2
+8348:	mov	r3, #0
+834c:	str	r3, [r2]
+8350:	mov	r3, #0
+8354:	str	r3, [fp, #-0x1c]
+8358:	mov	r3, #0x41
+835c:	str	r3, [fp, #-0x18]
+8360:	b	#0x839c
+8364:	ldr	r3, [fp, #-0x20]
+8368:	add	r3, r3, #0xc
+836c:	ldr	r2, [r3]
+8370:	ldr	r3, [fp, #-0x1c]
+8374:	add	r2, r2, r3
+8378:	ldr	r3, [fp, #-0x18]
+837c:	and	r3, r3, #0xff
+8380:	strb	r3, [r2]
+8384:	ldr	r3, [fp, #-0x18]
+8388:	add	r3, r3, #1
+838c:	str	r3, [fp, #-0x18]
+8390:	ldr	r3, [fp, #-0x1c]
+8394:	add	r3, r3, #1
+8398:	str	r3, [fp, #-0x1c]
+839c:	ldr	r3, [fp, #-0x1c]
+83a0:	cmp	r3, #0x1f
+83a4:	bne	#0x8364
+83a8:	ldr	r3, [fp, #-0x20]
+83ac:	add	r3, r3, #0xc
+83b0:	ldr	r2, [r3]
+83b4:	ldr	r3, [fp, #-0x1c]
+83b8:	add	r2, r2, r3
+83bc:	mov	r3, #0
+83c0:	strb	r3, [r2]
+83c4:	mov	r3, #0
+83c8:	str	r3, [fp, #-0x1c]
+83cc:	b	#0x8420
+83d0:	ldr	r3, [fp, #-0x2c]
+83d4:	add	r3, r3, #4
+83d8:	ldr	r2, [r3]
+83dc:	ldr	r3, [fp, #-0x1c]
+83e0:	add	r3, r2, r3
+83e4:	ldrb	r1, [r3]
+83e8:	ldr	r3, [fp, #-0x20]
+83ec:	add	r3, r3, #0xc
+83f0:	ldr	r2, [r3]
+83f4:	ldr	r3, [fp, #-0x1c]
+83f8:	add	r3, r2, r3
+83fc:	ldrb	r3, [r3]
+8400:	cmp	r1, r3
+8404:	beq	#0x8414
+8408:	mvn	r3, #0
+840c:	str	r3, [fp, #-0x30]
+8410:	b	#0x8448
+8414:	ldr	r3, [fp, #-0x1c]
+8418:	add	r3, r3, #1
+841c:	str	r3, [fp, #-0x1c]
+8420:	ldr	r3, [fp, #-0x2c]
+8424:	add	r3, r3, #4
+8428:	ldr	r2, [r3]
+842c:	ldr	r3, [fp, #-0x1c]
+8430:	add	r3, r2, r3
+8434:	ldrb	r3, [r3]
+8438:	cmp	r3, #0
+843c:	bne	#0x83d0
+8440:	ldr	r3, [pc, #0x10]
+8444:	str	r3, [fp, #-0x30]
+8448:	ldr	r3, [fp, #-0x30]
+844c:	mov	r0, r3
+8450:	sub	sp, fp, #0x10
+8454:	ldm	sp, {r4, fp, sp, pc}

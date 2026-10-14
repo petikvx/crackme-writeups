@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c380
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c380
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c380
+
+title: "crackmes.de's 1337_arm by gtksor"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: ""
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/1337_ARM.zip"
+  name: "1337_ARM.zip"
+  sha256: "10bdfd598727a027ffddc935987d453e2f1b122ce8964e93e276f7b67c7e4f31"
+  md5: "0116505dc65e3174f1423fd9fb390270"
+  size_bytes: 257423
+
+status: solved
+solution_summary: "argv[1] comparé à t[3] = octets 0x41..0x5f (31) ; succès = retour 0x539 ; émulé unicorn ARM"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T18:15:11Z"

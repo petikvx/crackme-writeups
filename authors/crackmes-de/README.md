@@ -310,6 +310,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 276 | [drscm3](5ab77f5733c5d40ad448c307/) | drspliff | Linux ELF32 statique (MT19937) | ID `123` + licence `7sd9gwigE` |
 | 277 | [first_keygenme](5ab77f5733c5d40ad448c363/) | twistedtux | Linux ELF32 (strippé) | keygen `petik`→`uipJXY` |
 | 278 | [gtk_k3yg3nme](5ab77f5733c5d40ad448c37f/) | gtksor | Linux ELF32 GTK2 (anti-debug rdtsc) | keygen `petik`→`1513675274255` (Σ c^(i+2) 64 bits) |
+| 279 | [1337_arm](5ab77f5733c5d40ad448c380/) | gtksor | Linux ARM ELF32 statique | `ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_` (retourne 0x539) |
 
 ## Mis de côté (PARKED — y revenir)
 
