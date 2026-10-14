@@ -44,7 +44,7 @@ else                  { LED = "red";  menu désactivé; }
 
 Le test porte uniquement sur le **produit** des 5 octets (modulo 2³², signé) : de nombreux mots de passe conviennent.
 
-**Recherche** : `-1488344688 mod 2³² = 2806622608 = 0xa749a990` (valuation 2-adique 4). Pour chaque triplet de caractères imprimables, le produit des deux derniers est déterminé (inverse modulo `2^(32-v)`), on regarde s'il existe parmi les 9025 produits de paires → **180 solutions** (`--all`) ; la seule qui soit un mot de dictionnaire est `breed` (`98·114·101·101·100 = 11 529 211 600 ≡ 2806622608 mod 2³²`). Les 60 anagrammes alphanumériques (`bdeer`, `beder`, …) conviennent aussi.
+**Recherche** : `-1488344688 mod 2³² = 2806622608 = 0xa749a990` (valuation 2-adique 4). Pour chaque triplet de caractères imprimables, le produit des deux derniers est déterminé (inverse modulo `2^(32-v)`), on regarde s'il existe parmi les 9025 produits de paires → **180 solutions** (`--all`) ; la seule qui soit un mot de dictionnaire est `breed` (`98·114·101·101·100 = 11 396 557 200 ≡ 2806622608 mod 2³²`). Les 60 anagrammes alphanumériques (`bdeer`, `beder`, …) conviennent aussi.
 
 **Chiffrement de l'hôte** (`sub_0804DC40`, pour l'unpacker) : pour chaque octet `b` de l'hôte, avec la clé `K` (le mot de passe hôte) et l'indice `k` :
 
