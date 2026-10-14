@@ -28,8 +28,8 @@ binary:
   md5: "12aa4a85f2b1ad8966dc9772f0ee3b5f"
   size_bytes: 179260
 
-status: pending
-solution_summary: ""
+status: solved
+solution_summary: "serial = %p-%x-%x-%p de movsx buf[1],buf[2],buf[2],buf[4] ; buf[i]=n²^n^0xc0 puis ^= buf[2]*n3 ^0xc0 ; petik→0x78-20-20-0xfffffff2"
 
 download:
   zip_password: crackmes.one
