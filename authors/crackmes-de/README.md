@@ -290,6 +290,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 256 | [crackme_1 by rammy](5ab77f5633c5d40ad448c28d/) | rammy | Windows PE32 MASM GUI, ASPack | keygen : code auto-modifiant (`lstrcmpA(gen(name), serial)`), `'R'` + map(octets de `4·Σ·(F(Σ)+1)+F(200)`), F = Fibonacci réduit ≤200 ; **petik→R8~9** |
 | 257 | [easyone___nameserial by therapy](5ab77f5633c5d40ad448c28f/) | therapy | Windows PE32 MinGW C GUI | keygen `serial[i] = '0' + (c − isqrt(c)² + i²) % 10` (isqrt par dichotomie), longueur = nom ≥ 5 ; **petik→22043** |
 | 258 | [therapy039s_crackme_1 by therapy](5ab77f5633c5d40ad448c290/) | therapy | DOS COM 16 bits (code chiffré + junk jumps) | mot de passe = multiensemble : h×2 T×3 q×1 %×2 7×4 6×2 2×1, ordre libre (≤19 car.) ; ex. **hhTTTq%%7777662** (DOSBox: correct password) |
+| 259 | [password_check by therapy](5ab77f5633c5d40ad448c291/) | therapy | Windows PE32 MinGW C GUI (crackme #2 FindMe) | 3 conversions hex (alphabet `0-9@A-E`), `0xFF−H3[i]` = table 120 octets @0x40201a ; mot de passe unique **yeS yoU diD iT!** (wine: CORRECT) |
 
 ## Mis de côté (PARKED — y revenir)
 

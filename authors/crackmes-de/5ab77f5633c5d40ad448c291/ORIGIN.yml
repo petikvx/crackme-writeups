@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c291
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c291
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c291
+
+title: "crackmes.de's password_check by therapy"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C (MinGW)"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/therapy_findme.zip"
+  name: "therapy_findme.zip"
+  sha256: "830e0ed3bcf57e27d6fdc67f80a38ceaecb3696a75fd3d7a15137fd0ce842887"
+  md5: "ae2b3c3fbe0b7c26e3d12884ba2aad12"
+  size_bytes: 4564
+
+status: solved
+solution_summary: "mot de passe unique « yeS yoU diD iT! » : 3 conversions hex (alphabet 0-9@A-E) du mot de passe, 0xFF-h3[i] == table @0x40201a sur 120 octets ; vérifié live wine (INCORRECT -> CORRECT)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T02:55:17Z"

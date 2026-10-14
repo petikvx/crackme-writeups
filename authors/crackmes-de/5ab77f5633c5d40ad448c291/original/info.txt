@@ -1,0 +1,13 @@
+Hello!
+
+This is my second windows crackme. 
+This time you must enter the correct password! If you do it, you should see the
+"INCORRECT" text change to "CORRECT". There is not much else to talk about this 
+one. No patching pls
+
+
+Send solution and how you did it to < therapynet@hotmail.com >
+
+I greet everyone on crackmes.de and of course you!
+
+therapy
