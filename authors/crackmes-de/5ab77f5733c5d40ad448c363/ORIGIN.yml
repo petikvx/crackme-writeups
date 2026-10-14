@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c363
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c363
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c363
+
+title: "crackmes.de's first_keygenme by twistedtux"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/keygenme.tgz"
+  name: "keygenme.tgz"
+  sha256: "52aac840842df52c5c978b6dafba0d9d3fffc417002eb99dba697f7ebb55dc9a"
+  md5: "a0ac04b8a52018ba10c441f4803090b4"
+  size_bytes: 2058
+
+status: pending
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T17:24:03Z"

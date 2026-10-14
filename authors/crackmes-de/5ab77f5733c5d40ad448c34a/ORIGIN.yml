@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c34a
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c34a
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c34a
+
+title: "crackmes.de's ha_ck by hurricane"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: ""
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/ha-ck.zip"
+  name: "ha-ck.zip"
+  sha256: "da9774a0aadcea6ba4e4d2f0a0eaf7a8c3551e1c5d06103af341d956633f8975"
+  md5: "06a1e83ce99c25a2507bc1e983ecf145"
+  size_bytes: 7023
+
+status: pending
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T17:24:02Z"

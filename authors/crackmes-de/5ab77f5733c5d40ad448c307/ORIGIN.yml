@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c307
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c307
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c307
+
+title: "crackmes.de's drscm3 by drspliff"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crack.tar.gz"
+  name: "crack.tar.gz"
+  sha256: "49add971597b975f023852345841543075f4542067967b69c24640f7d197ca66"
+  md5: "6ef506aaadb570b0c4d49bd6d91fa9ce"
+  size_bytes: 12624
+
+status: solved
+solution_summary: "User ID 123 (seul ID dont le XOR MT de c.enc redonne du code) puis License 7sd9gwigE (motif 7sd9gwigE! jusqu'au '!') ; NX → copie RWX"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T17:24:00Z"

@@ -1396,6 +1396,31 @@ by_id:
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c2d6/original/crackme_01.tgz"
     title: "crackmes.de's linux_crackme by cyrex"
 
+  5ab77f5633c5d40ad448c2d7:
+    sha256: "1d05f58a1690641b1d9f80d2a10d2a9c28c549fd091b17d87256237419e7f21a"
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2d7/original/crackme_02.tgz"
+    title: "crackmes.de's linux_crackme_02 by cyrex"
+
+  5ab77f5733c5d40ad448c307:
+    sha256: "49add971597b975f023852345841543075f4542067967b69c24640f7d197ca66"
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c307/original/crack.tar.gz"
+    title: "crackmes.de's drscm3 by drspliff"
+
+  5ab77f5733c5d40ad448c34a:
+    sha256: "da9774a0aadcea6ba4e4d2f0a0eaf7a8c3551e1c5d06103af341d956633f8975"
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c34a/original/ha-ck.zip"
+    title: "crackmes.de's ha_ck by hurricane"
+
+  5ab77f5733c5d40ad448c363:
+    sha256: "52aac840842df52c5c978b6dafba0d9d3fffc417002eb99dba697f7ebb55dc9a"
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c363/original/keygenme.tgz"
+    title: "crackmes.de's first_keygenme by twistedtux"
+
+  5ab77f5733c5d40ad448c37f:
+    sha256: "7ebda59a152429d8274800faa5eaf75430a325d231d54a3a1132c5e902916652"
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c37f/original/GTK_K3YG3NME.zip"
+    title: "crackmes.de's gtk_k3yg3nme by gtksor"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2525,3 +2550,23 @@ by_sha256:
     id: 5ab77f5633c5d40ad448c2d6
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c2d6/original/crackme_01.tgz"
     page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2d6
+  1d05f58a1690641b1d9f80d2a10d2a9c28c549fd091b17d87256237419e7f21a:
+    id: 5ab77f5633c5d40ad448c2d7
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2d7/original/crackme_02.tgz"
+    page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2d7
+  49add971597b975f023852345841543075f4542067967b69c24640f7d197ca66:
+    id: 5ab77f5733c5d40ad448c307
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c307/original/crack.tar.gz"
+    page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c307
+  da9774a0aadcea6ba4e4d2f0a0eaf7a8c3551e1c5d06103af341d956633f8975:
+    id: 5ab77f5733c5d40ad448c34a
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c34a/original/ha-ck.zip"
+    page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c34a
+  52aac840842df52c5c978b6dafba0d9d3fffc417002eb99dba697f7ebb55dc9a:
+    id: 5ab77f5733c5d40ad448c363
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c363/original/keygenme.tgz"
+    page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c363
+  7ebda59a152429d8274800faa5eaf75430a325d231d54a3a1132c5e902916652:
+    id: 5ab77f5733c5d40ad448c37f
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c37f/original/GTK_K3YG3NME.zip"
+    page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c37f

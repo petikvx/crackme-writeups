@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c37f
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c37f
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c37f
+
+title: "crackmes.de's gtk_k3yg3nme by gtksor"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/GTK_K3YG3NME.zip"
+  name: "GTK_K3YG3NME.zip"
+  sha256: "7ebda59a152429d8274800faa5eaf75430a325d231d54a3a1132c5e902916652"
+  md5: "b8d2533560c318fa8e6f9ae46f456e0b"
+  size_bytes: 4880
+
+status: pending
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T17:24:05Z"
