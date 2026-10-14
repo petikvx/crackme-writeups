@@ -1,0 +1,2 @@
+serial : 217552398261569-545326772-1082328767-1082328760-1082328765-1082328753   (à 13:37 avec pid 1337 ; --check force pid/heure par LD_PRELOAD)
+check: OK (pid=1337 & 13:37 → WIN=True, mauvais serial→LOSE=True, sans shim→LOSE=True)

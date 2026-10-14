@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5e33c5d40ad448c78a
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5e33c5d40ad448c78a
+  download: https://crackmes.one/download/crackme/5ab77f5e33c5d40ad448c78a
+
+title: "crackmes.de's crackme04 by seveb"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme04.tar.gz"
+  name: "crackme04.tar.gz"
+  sha256: "59570ab85e1284bbe06cdb102ce9ec9ce6eeb72e1fb81faabff8e39260fa8e98"
+  md5: "e6e1aea7ebe5393551a74babe24319f8"
+  size_bytes: 6324
+
+status: solved
+solution_summary: "à 13:37 et pid 1337 : serial = concat('%d', ((c+0x5c)+(acc^pid))^4) avec acc|=0x2e39f3 ; acc<<=7 ; remove(argv[0]) si échec ; vérifié via LD_PRELOAD sur copie"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T19:21:00Z"
