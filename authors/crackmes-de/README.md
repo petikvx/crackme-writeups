@@ -293,6 +293,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 259 | [password_check by therapy](5ab77f5633c5d40ad448c291/) | therapy | Windows PE32 MinGW C GUI (crackme #2 FindMe) | 3 conversions hex (alphabet `0-9@A-E`), `0xFF−H3[i]` = table 120 octets @0x40201a ; mot de passe unique **yeS yoU diD iT!** (wine: CORRECT) |
 | 260 | [a_c_c_m by acid_crack](5ab77f5633c5d40ad448c29d/) | acid_crack | Windows PE32 VB6 natif GUI (A_C_Crack_me!) | clé = f(`Day(Date)`) : A=2d², B=2A, C=6A, D=C², `"31512"&D&"41610"&A&"24209"&C&"303711"&B` ; le 14 : **31512553190441610392242092352303711784** (wine: K.O.!!U WIN$) |
 | 261 | [matrix_acid_crack by acid_crack](5ab77f5633c5d40ad448c29e/) | acid_crack | Windows PE32 VB6 P-code GUI (Matrix) | serial fixe = `CStr(LitI4 0x00024EA2)` (relay Wine : VarBstrFromI4 → VarBstrCmp) ; **151202** (wine: Nice job cracker...) ; `Acid_Crack` = easter egg |
+| 262 | [andsoon_crackme1 by andsoon](5ab77f5633c5d40ad448c2a3/) | AndSoOn | DOS MZ Turbo Pascal 7 (CRT) | keygen `s=Σ UpCase(nom) ^ 0x31337 ; (s div 10)*20 + 0x5EFC051A` ; `petik`→**1593977262** (DOSBox: Good job cracker.) |
 
 ## Mis de côté (PARKED — y revenir)
 

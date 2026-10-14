@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2a3
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2a3
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2a3
+
+title: "crackmes.de's andsoon_crackme1 by andsoon"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "DOS"
+arch: "x86"
+language: "Turbo Pascal 7 (CRT)"
+
+difficulty: 2.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/AndSoOn_Crackme1.zip"
+  name: "AndSoOn_Crackme1.zip"
+  sha256: "e192e1a0045d12a4e1486564387f770783a986ca41ae91493a6ca432dc74ec68"
+  md5: "f3efda42630843418c60118fea16d641"
+  size_bytes: 4684
+
+status: solved
+solution_summary: "keygen : s=Σ UpCase(nom) ; s^=0x31337 ; s=(s div 10)*20 ; password=s+0x5EFC051A (longint décimal) ; petik→1593977262 ; vérifié live DOSBox (Good job cracker.)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T05:50:44Z"

@@ -1331,6 +1331,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c29e/original/matrix.zip"
     title: "crackmes.de's matrix_acid_crack by acid_crack"
 
+  5ab77f5633c5d40ad448c2a3:
+    sha256: "e192e1a0045d12a4e1486564387f770783a986ca41ae91493a6ca432dc74ec68"
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2a3/original/AndSoOn_Crackme1.zip"
+    title: "crackmes.de's andsoon_crackme1 by andsoon"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2408,3 +2413,7 @@ by_sha256:
     id: 5ab77f5633c5d40ad448c29e
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c29e/original/matrix.zip"
     page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c29e
+  e192e1a0045d12a4e1486564387f770783a986ca41ae91493a6ca432dc74ec68:
+    id: 5ab77f5633c5d40ad448c2a3
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2a3/original/AndSoOn_Crackme1.zip"
+    page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2a3
