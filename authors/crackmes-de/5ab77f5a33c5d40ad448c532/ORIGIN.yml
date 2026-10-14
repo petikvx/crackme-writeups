@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5a33c5d40ad448c532
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5a33c5d40ad448c532
+  download: https://crackmes.one/download/crackme/5ab77f5a33c5d40ad448c532
+
+title: "crackmes.de's pof_kgme_0x01 by pof_es"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: ""
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/pof-kgme-0x01.zip"
+  name: "pof-kgme-0x01.zip"
+  sha256: "9526e8353d2e2a066c011f9ae3b409cdb8bd08d55644f1d199ce20138ecc6055"
+  md5: "d5f493ff5cebd1e4fce6b9c6d2be8ec2"
+  size_bytes: 1952
+
+status: solved
+solution_summary: "n=entier de tête avec (n>>8)==0x2f7c2c, n pair, somme cumulée des chiffres == 56 : 796666880 (15 solutions numériques) ; gzexe"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T18:59:51Z"
