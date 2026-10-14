@@ -1351,6 +1351,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c2b0/original/gulcrkme1.zip"
     title: "crackmes.de's gulcrackme_1 by gul"
 
+  5ab77f5633c5d40ad448c2b7:
+    sha256: "f400c780b6ee01a8b38894f1b449a991a3b48efdac9428ca525222b82d927b58"
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2b7/original/crackme1.zip"
+    title: "crackmes.de's crack_me_01 by dynsym"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2444,3 +2449,7 @@ by_sha256:
     id: 5ab77f5633c5d40ad448c2b0
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c2b0/original/gulcrkme1.zip"
     page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2b0
+  f400c780b6ee01a8b38894f1b449a991a3b48efdac9428ca525222b82d927b58:
+    id: 5ab77f5633c5d40ad448c2b7
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2b7/original/crackme1.zip"
+    page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2b7

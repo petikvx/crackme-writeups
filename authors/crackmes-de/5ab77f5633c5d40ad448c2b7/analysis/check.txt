@@ -1,0 +1,4 @@
+'__gmon_sta'       rc=0     Solved  OK
+'__gmon_start__'   rc=0     Solved  OK
+'__gmon_st'        rc=stop  -       OK
+'petik'            rc=stop  -       OK

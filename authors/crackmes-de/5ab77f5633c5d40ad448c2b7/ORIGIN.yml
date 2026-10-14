@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2b7
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2b7
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2b7
+
+title: "crackmes.de's crack_me_01 by dynsym"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: "C (GCC 3.3.5), ELF console"
+
+difficulty: 1.0
+quality: 4.0
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme1.zip"
+  name: "crackme1.zip"
+  sha256: "f400c780b6ee01a8b38894f1b449a991a3b48efdac9428ca525222b82d927b58"
+  md5: "24cf9ceb1d4da0047948d32b485d9f1d"
+  size_bytes: 5425
+
+status: solved
+solution_summary: "argv[1] comparé (repz cmpsb, 10 octets) à .rodata 0x80485d4 = `__gmon_sta` (début de la chaîne __gmon_start__) ; ./crackme1 __gmon_start__ → [!] Solved! ; mauvais mot de passe = saut au milieu du call ptrace (SIGILL) ; vérifié en natif"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T10:55:57Z"
