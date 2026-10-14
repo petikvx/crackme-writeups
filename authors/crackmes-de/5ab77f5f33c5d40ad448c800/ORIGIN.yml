@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5f33c5d40ad448c800
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5f33c5d40ad448c800
+  download: https://crackmes.one/download/crackme/5ab77f5f33c5d40ad448c800
+
+title: "crackmes.de's code_linux by buga0205"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/CodeLinux.zip"
+  name: "CodeLinux.zip"
+  sha256: "ea643d717712224a3659b9087149216e38de1c013d9b979867c6c01ca36d3ceb"
+  md5: "7698858901e7ba4567862ab0c49b1e52"
+  size_bytes: 701976
+
+status: solved
+solution_summary: "base64(code) puis César +(L+1) sur les lettres puis ^4 sur 28 octets == KcT6LV@JCU1lV6bJV4PcTU0f~e99 ; L=19 ; Rev5rS1ng_iS_FfUn!~"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T19:27:55Z"

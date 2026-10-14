@@ -1571,6 +1571,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5e33c5d40ad448c78d/original/crackme02.tar.gz"
     title: "crackmes.de's crackme2 by seveb"
 
+  5ab77f5f33c5d40ad448c800:
+    sha256: "ea643d717712224a3659b9087149216e38de1c013d9b979867c6c01ca36d3ceb"
+    path: "authors/crackmes-de/5ab77f5f33c5d40ad448c800/original/CodeLinux.zip"
+    title: "crackmes.de's code_linux by buga0205"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2840,3 +2845,7 @@ by_sha256:
     id: 5ab77f5e33c5d40ad448c78d
     path: "authors/crackmes-de/5ab77f5e33c5d40ad448c78d/original/crackme02.tar.gz"
     page: https://crackmes.one/crackme/5ab77f5e33c5d40ad448c78d
+  ea643d717712224a3659b9087149216e38de1c013d9b979867c6c01ca36d3ceb:
+    id: 5ab77f5f33c5d40ad448c800
+    path: "authors/crackmes-de/5ab77f5f33c5d40ad448c800/original/CodeLinux.zip"
+    page: https://crackmes.one/crackme/5ab77f5f33c5d40ad448c800

@@ -339,6 +339,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 305 | [crackme1](5ab77f5e33c5d40ad448c78b/) | seveb | Linux ELF32/64 | nombre secret `69118105108122111110101` ('69' + ASCII décimaux de vilzone) |
 | 306 | [crackme05](5ab77f5e33c5d40ad448c78c/) | seveb | Linux ELF32/64 | serial 19 car. `0zz0-bcda-aefb-0yy0` (rock/paper/scissors/cracker) |
 | 307 | [crackme2](5ab77f5e33c5d40ad448c78d/) | seveb | Linux ELF32/64 | serial `da-1003-08X32-aaaa-da` (N∈{1003,1023,…,1983}) |
+| 308 | [code_linux](5ab77f5f33c5d40ad448c800/) | buga0205 | Linux ELF32 statique (ptrace) | code `Rev5rS1ng_iS_FfUn!~` (base64 → César +20 → ^4 == v5) |
 
 ## Mis de côté (PARKED — y revenir)
 
