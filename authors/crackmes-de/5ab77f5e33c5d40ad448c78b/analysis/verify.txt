@@ -1,0 +1,8 @@
+== crackme01_64bit
+Please enter the secret number: The Password translates into Evilzone, Good job.
+
+Please enter the secret number: Nope.
+== crackme01_32bit
+Please enter the secret number: The Password translates into Evilzone, Good job.
+
+Please enter the secret number: Nope.

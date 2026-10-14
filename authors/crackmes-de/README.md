@@ -336,6 +336,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 302 | [keygen_1](5ab77f5e33c5d40ad448c744/) | tvk6843 | Linux ELF32 C++ (dépend de l'heure) | keygen horaire `petik` (4 mots 32 bits, alphabet qwE1tym5BvCX70fG) ; serial valable dans la minute |
 | 303 | [keygen](5ab77f5e33c5d40ad448c745/) | tvk6843 | Linux ELF32 C++ (dépend de l'heure) | keygen horaire `petik` : 3 mots 32 bits (alphabet 0123456789AbCdEf) ; succès = « 6 + 29 = 35 » |
 | 304 | [crackme04](5ab77f5e33c5d40ad448c78a/) | seveb | Linux ELF32/64 (auto-suppression) | serial concaténé de 7 valeurs %d (pid=1337, heure 13:37) ; l'échec supprime le binaire |
+| 305 | [crackme1](5ab77f5e33c5d40ad448c78b/) | seveb | Linux ELF32/64 | nombre secret `69118105108122111110101` ('69' + ASCII décimaux de vilzone) |
 
 ## Mis de côté (PARKED — y revenir)
 

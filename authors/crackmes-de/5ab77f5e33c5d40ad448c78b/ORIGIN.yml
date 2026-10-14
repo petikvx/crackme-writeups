@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5e33c5d40ad448c78b
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5e33c5d40ad448c78b
+  download: https://crackmes.one/download/crackme/5ab77f5e33c5d40ad448c78b
+
+title: "crackmes.de's crackme1 by seveb"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme01.tar.gz"
+  name: "crackme01.tar.gz"
+  sha256: "5491a6e95510aa08a36209d6be1d5026666790117f1992c2464abf71a40922fa"
+  md5: "0d8f991efada55413a1c4cad656096ca"
+  size_bytes: 5541
+
+status: solved
+solution_summary: "s[0..1]='69' puis 7 groupes de 3 chiffres = codes ASCII de 'vilzone' (out='Evilzone') ; scanf %23s"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T19:21:01Z"
