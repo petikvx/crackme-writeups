@@ -53,7 +53,7 @@ def main():
     print(s[0] if a.q else f"code : {s[0]}   (L = {len(s[0])}, shift = {len(s[0]) + 1})")
     if a.check:
         with tempfile.TemporaryDirectory() as td:
-            exe = os.path.join(td, "CodeLinux"); shutil.copy(BIN, exe)
+            exe = os.path.join(td, "CodeLinux"); shutil.copy(BIN, exe); os.chmod(exe, 0o755)
             run = lambda x: subprocess.run([exe], input=x + "\n", capture_output=True, text=True, timeout=5).stdout
             ok, ko = "Code Linux Memeber" in run(s[0]), "Not Code Linux" in run("petik")
         print("check:", "OK" if ok and ko else "KO", f"(ok={ok}, petik→rejeté={ko})")
