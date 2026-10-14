@@ -1,0 +1,4 @@
+name  : petik
+heure : 21:20
+serial: qC1wByqXqqqqyG7qqqqqEwfXGGGGy1CX   (à saisir dans la minute)
+check: OK (21:20 → 'OK' ; serial altéré → rien=True)
