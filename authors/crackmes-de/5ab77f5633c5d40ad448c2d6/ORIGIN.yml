@@ -28,8 +28,8 @@ binary:
   md5: "447924de7c8193bfc0f9afe41cfca74d"
   size_bytes: 5497
 
-status: pending
-solution_summary: ""
+status: solved
+solution_summary: "password 47ghf6fh37fbgbgj : strcmp(scanf %s, constante .rodata 0x80486a4)"
 
 download:
   zip_password: crackmes.one

@@ -305,6 +305,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 271 | [linux_crackme_v1](5ab77f5433c5d40ad448c169/) | veneta | Linux ELF32 NASM | `Mudvay(!` (z3 sur 4 dwords, rcr/rcl 33 bits) |
 | 272 | [linux_crackme_v2](5ab77f5433c5d40ad448c16b/) | veneta | Linux ELF32 GTK1 (UPX) | name `3474fb45…a23c` (hex), serial libre ≥3 (`petik`) |
 | 273 | [easy_math_keygenme](5ab77f5633c5d40ad448c2d5/) | cyrex | Linux ELF32 statique (UPX) | keygen `petik`→`0x78-20-20-0xfffffff2` (%p-%x-%x-%p) |
+| 274 | [linux_crackme](5ab77f5633c5d40ad448c2d6/) | cyrex | Linux ELF32 | `47ghf6fh37fbgbgj` (strcmp en clair) |
 
 ## Mis de côté (PARKED — y revenir)
 

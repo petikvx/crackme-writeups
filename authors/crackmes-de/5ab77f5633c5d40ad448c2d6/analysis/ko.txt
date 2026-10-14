@@ -1,0 +1,3 @@
+-[ Linux CrackMe (Level:2) by cyrex ]-
+-[ TODO: You have to get the valid Password ]-
+Enter Password: -[ Ohhhh, your skills are bad try again later ]-

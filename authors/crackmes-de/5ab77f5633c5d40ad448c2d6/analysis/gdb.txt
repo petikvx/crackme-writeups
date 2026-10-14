@@ -1,0 +1,6 @@
+Using host libthread_db library "/usr/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, 0x080484a6 in main ()
+0x80486a4:	"47ghf6fh37fbgbgj"
+0xffffc828:	"wrong"
+"finish" not meaningful in the outermost frame.
