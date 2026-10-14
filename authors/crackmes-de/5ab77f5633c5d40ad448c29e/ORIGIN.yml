@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c29e
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c29e
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c29e
+
+title: "crackmes.de's matrix_acid_crack by acid_crack"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Visual Basic 6 (P-code)"
+
+difficulty: 1.0
+quality: 4.0
+size: "30.91 KB"
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/matrix.zip"
+  name: "matrix.zip"
+  sha256: "13e0b2819bf88455e544af42ca7607ce7f120be6a4840ab2fb260f93c3f872ab"
+  md5: "f3f39e1f6b2d05947da7f5de8b148790"
+  size_bytes: 31655
+
+status: solved
+solution_summary: "serial fixe 151202 = CStr(LitI4 0x00024EA2) dans le P-code du clic Check (VarBstrFromI4 + VarBstrCmp vus en relay Wine) ; vérifié live wine (Nice job cracker...) ; easter egg : Acid_Crack affiche la photo de l'auteur"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T04:57:27Z"

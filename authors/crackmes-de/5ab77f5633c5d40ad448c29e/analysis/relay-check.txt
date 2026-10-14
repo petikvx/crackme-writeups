@@ -1,0 +1,4 @@
+0024:Call oleaut32.VarBstrFromI4(00024ea2,00000409,00000000,0051f858) ret=7350038d
+0024:Call oleaut32.VarBstrCmp(0061ecec L"ZQXJK123",0061ecbc L"151202",00000000,00030001) ret=73507a52
+0024:Call KERNEL32.lstrlenA(00404bfe "Free your mind cracker...") ret=73480522
+0024:Call oleaut32.VarBstrCmp(0061ecec L"ZQXJK123",004043ac L"Acid_Crack",00000000,00030001) ret=73507a52
