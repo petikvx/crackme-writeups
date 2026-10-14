@@ -315,3 +315,4 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 |---|---|---|
 | [bugger_v.7](5ab77f6633c5d40ad448cc25/) | [`…cc25`](https://crackmes.one/crackme/5ab77f6633c5d40ad448cc25) | RC6 OK ; **clé** + wake shell `abcdefgh` — `analysis/notes.txt` |
 | [meloquynthe](5ab77f5933c5d40ad448c46f/) | [`…c46f`](https://crackmes.one/crackme/5ab77f5933c5d40ad448c46f) | GUI déobfusquée ; **séquence boutons vs wave** (`sub_40507f`) — `analysis/notes.txt` |
+| [ha_ck](5ab77f5733c5d40ad448c34a/) | [`…c34a`](https://crackmes.one/crackme/5ab77f5733c5d40ad448c34a) | shc 3.8 : clé RC4 dérivée de `stat(/bin/bash)` de la machine d'origine (rlax=0) — `analysis/notes.txt` |

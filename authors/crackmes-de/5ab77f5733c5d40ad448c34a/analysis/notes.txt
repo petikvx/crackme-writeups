@@ -1,0 +1,12 @@
+ha_ck (hurricane) — PARKED
+==========================
+- ha-ck = script gzexe ; tail -n +44 | gzip -d  -> ELF32 shc 3.8.x (« NewChallenge.sh.x »), analysis/ha-ck.unpacked
+- Chaîne RC4 shc rejouée en Python (tools/shc-rc4-emu.py) : shll=/bin/bash, rlax=0, tst1/chk1 OK
+  ("location has changed!"), msg2="abnormal behavior!".
+- rlax == 0  => key_with_file(shll) @0x8048b0b rekeye RC4 avec stat("/bin/bash") DE LA MACHINE D'ORIGINE :
+  st_dev, st_ino, st_uid, st_gid, st_rdev, st_size, st_mtime(0x40), st_ctime(0x48)  (88 octets zero + ces champs).
+- Sur notre machine : memcmp(tst2, chk2) (n=19 @0x80490d5) échoue -> texte (0x695 o @0x804a40d) mal déchiffré.
+- Contournements faits : untraceable (PR_SET_PTRACER / ptrace shim), relance bash (shc-shim.c, LD_PRELOAD 32 bits),
+  je->jmp @0xfa7 et @0x10dc (copie) : on atteint execvp mais le script est du bruit.
+- Reprise possible : retrouver stat(/bin/bash) du build (ino/size/mtime/ctime) — espace trop grand en brute force
+  (~2^45+), ou une source externe (writeup / même distro 2009 : Ubuntu 9.10 / Debian lenny bash).
