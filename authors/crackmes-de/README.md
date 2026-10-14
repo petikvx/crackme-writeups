@@ -315,6 +315,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 281 | [bf](5ab77f5833c5d40ad448c39b/) | crp | Linux ELF32 (keyfile brainfuck) | keyfile `key.bf` BF imprimant 3·H(user) en décimal (+NUL) ; petik→8692167 |
 | 282 | [cm1](5ab77f5833c5d40ad448c3f5/) | lagalopex | Linux ELF32 (fichier-clé ~/.key_user) | keyfile `~/.key_petik` : ops *+-/ sur accumulateur puis `,<octet>` par caractère |
 | 283 | [facets](5ab77f5833c5d40ad448c411/) | monads | Linux ELF32 (code auto-modifiant) | argument `7` (tout n & 0xffff == 7) |
+| 284 | [crackme_1](5ab77f5933c5d40ad448c48a/) | batman10 | Linux ELF32 C++ | keygen `petik`→`u`qln` (pass[i]=name[i]^5) |
 
 ## Mis de côté (PARKED — y revenir)
 

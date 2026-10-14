@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5933c5d40ad448c48a
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5933c5d40ad448c48a
+  download: https://crackmes.one/download/crackme/5ab77f5933c5d40ad448c48a
+
+title: "crackmes.de's crackme_1 by batman10"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme_1.zip"
+  name: "crackme_1.zip"
+  sha256: "824ba7be269726c66dafa999a26e9ad07a3ae10eca24b34e0ad7a2533a050772"
+  md5: "f172a2fb3d03e73a2ecdac3966980003"
+  size_bytes: 3412
+
+status: solved
+solution_summary: "Σ signed(name^0x47) == Σ signed(pass^0x42) ; pass[i]=name[i]^0x05 ; petik→u`qln"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T18:44:40Z"
