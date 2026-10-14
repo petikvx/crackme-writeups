@@ -28,8 +28,8 @@ binary:
   md5: "b8d2533560c318fa8e6f9ae46f456e0b"
   size_bytes: 4880
 
-status: pending
-solution_summary: ""
+status: solved
+solution_summary: "serial = Σ (signed char)name[i]**(i+2) mod 2^64 en décimal ; name>=3 ; hash 0x8048f50 émulée unicorn ; petik→1513675274255"
 
 download:
   zip_password: crackmes.one
