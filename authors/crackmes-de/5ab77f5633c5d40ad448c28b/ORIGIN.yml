@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c28b
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c28b
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c28b
+
+title: "crackmes.de's keygenme_conflux1 by conflux"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C++ (MinGW)"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/conflux1.1.zip"
+  name: "conflux1.1.zip"
+  sha256: "e280331dd5cde1d37db8ad030db1859f0444a8468381d288d7dacdbb1ec013d1"
+  md5: "e223e1087fa03edd2ed23eff58364715"
+  size_bytes: 252426
+
+status: solved
+solution_summary: "serial = abcdef-goodx + c, c = 'a' + rand()%26 après srand(time(NULL)) (rand msvcrt LCG 214013/2531011) ; lettre calculée pour la seconde courante ; vérifié live wine (FIFO stdin)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T01:02:00Z"

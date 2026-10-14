@@ -1,0 +1,10 @@
+
+authors/crackmes-de/5ab77f5633c5d40ad448c28b/original/conflux1.1.exe:     file format pei-i386
+
+Contents of section .rdata:
+ 46e040 61626364 65660000 48656c6c 6f2c2069  abcdef..Hello, i
+ 46e050 6e736572 7420796f 75722053 65726961  nsert your Seria
+ 46e060 6c20696e 20746865 20466f72 6d206f66  l in the Form of
+ 46e070 20585858 5858582d 58585858 58582100   XXXXXX-XXXXXX!.
+ 46e080 2d676f6f 64780047 6f6f6420 6a6f6221  -goodx.Good job!
+ 46e090 0a000000                             ....            
