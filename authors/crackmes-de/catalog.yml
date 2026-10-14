@@ -1321,6 +1321,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c291/original/therapy_findme.zip"
     title: "crackmes.de's password_check by therapy"
 
+  5ab77f5633c5d40ad448c29d:
+    sha256: "688f278d55720961046a26f526a7f7f411e1f9fb66e1971649f4e9b15c2890ed"
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c29d/original/Acid_Crack_cm_n2.zip"
+    title: "crackmes.de's a_c_c_m by acid_crack"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2390,3 +2395,7 @@ by_sha256:
     id: 5ab77f5633c5d40ad448c291
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c291/original/therapy_findme.zip"
     page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c291
+  688f278d55720961046a26f526a7f7f411e1f9fb66e1971649f4e9b15c2890ed:
+    id: 5ab77f5633c5d40ad448c29d
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c29d/original/Acid_Crack_cm_n2.zip"
+    page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c29d

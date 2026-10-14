@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c29d
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c29d
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c29d
+
+title: "crackmes.de's a_c_c_m by acid_crack"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Visual Basic 6 (natif)"
+
+difficulty: 2.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Acid_Crack_cm_n2.zip"
+  name: "Acid_Crack_cm_n2.zip"
+  sha256: "688f278d55720961046a26f526a7f7f411e1f9fb66e1971649f4e9b15c2890ed"
+  md5: "c615006e9f816d9811aa6941af1edf54"
+  size_bytes: 4128
+
+status: solved
+solution_summary: "keygen par date : d=Day(Date), A=2d², B=2A, C=6A, D=C², clé = 31512&D&41610&A&24209&C&303711&B (ex. le 14 : 31512553190441610392242092352303711784) ; vérifié live wine (K.O.!!U WIN$)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T03:56:50Z"
