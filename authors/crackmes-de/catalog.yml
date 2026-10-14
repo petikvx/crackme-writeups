@@ -1356,6 +1356,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c2b7/original/crackme1.zip"
     title: "crackmes.de's crack_me_01 by dynsym"
 
+  5ab77f5633c5d40ad448c2bd:
+    sha256: "6f02f5630adb343edbe1f5ac75720202886a517474c59f35717a3fde212d76c5"
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2bd/original/qHFCrackme1.zip"
+    title: "crackmes.de's qhfs_crackme1 by qhf"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2453,3 +2458,7 @@ by_sha256:
     id: 5ab77f5633c5d40ad448c2b7
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c2b7/original/crackme1.zip"
     page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2b7
+  6f02f5630adb343edbe1f5ac75720202886a517474c59f35717a3fde212d76c5:
+    id: 5ab77f5633c5d40ad448c2bd
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2bd/original/qHFCrackme1.zip"
+    page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2bd

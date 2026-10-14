@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2bd
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2bd
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2bd
+
+title: "crackmes.de's qhfs_crackme1 by qhf"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C++ (MinGW), PE32 console"
+
+difficulty: 2.0
+quality: 4.0
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/qHFCrackme1.zip"
+  name: "qHFCrackme1.zip"
+  sha256: "6f02f5630adb343edbe1f5ac75720202886a517474c59f35717a3fde212d76c5"
+  md5: "a698b19c6c1daea22c5f6d9ab3c97383"
+  size_bytes: 160936
+
+status: solved
+solution_summary: "keygen name/serial : alphabet 37 chars AJXGRFV6BKOW3Y9TM4S2ZU I70H5Q81PDECLN ; 4× name[len//4*(i+1)-1] ; chaque triplet serial à distance ≤5 dans l’alphabet ; petik→PPPEEETTTIII (wine: Good job)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T13:00:31Z"

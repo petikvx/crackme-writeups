@@ -146,7 +146,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [oguzbey](authors/oguzbey/README.md) | oguzbey | 1 (Lucky Numbers) | 1 / 1 |
 | [andrewl](authors/andrewl/README.md) | andrewl | 1 (Quick Crypto) | 1 / 1 |
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
-| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 266 / 266 |
+| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 267 / 267 |
 | [chaltu](authors/chaltu/README.md) | chaltu | 2 (a Treasure + Double Door) | 2 / 2 |
 | [qerr0r](authors/qerr0r/README.md) | QERR0R | 1 (crackit) | 1 / 1 |
 | [steve_maxwell](authors/steve_maxwell/README.md) | steve_maxwell | 1 (X-0-R) | 1 / 1 |
@@ -254,6 +254,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-14 | [qhfs_crackme1 by qhf](authors/crackmes-de/5ab77f5633c5d40ad448c2bd/) | crackmes.de / qhf |
 | 2026-10-14 | [Mr.X47's BiLoop Cipher](authors/mr-x47/6a48e4146840520e01b22041/) | Mr.X47 |
 | 2026-10-14 | [RR7's Secret key](authors/rr7/6a46f20c8a86e4c2c5525631/) | RR7 |
 | 2026-10-14 | [crack_me_01 by dynsym](authors/crackmes-de/5ab77f5633c5d40ad448c2b7/) | crackmes.de / dynsym |
