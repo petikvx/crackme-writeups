@@ -338,6 +338,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 304 | [crackme04](5ab77f5e33c5d40ad448c78a/) | seveb | Linux ELF32/64 (auto-suppression) | serial concaténé de 7 valeurs %d (pid=1337, heure 13:37) ; l'échec supprime le binaire |
 | 305 | [crackme1](5ab77f5e33c5d40ad448c78b/) | seveb | Linux ELF32/64 | nombre secret `69118105108122111110101` ('69' + ASCII décimaux de vilzone) |
 | 306 | [crackme05](5ab77f5e33c5d40ad448c78c/) | seveb | Linux ELF32/64 | serial 19 car. `0zz0-bcda-aefb-0yy0` (rock/paper/scissors/cracker) |
+| 307 | [crackme2](5ab77f5e33c5d40ad448c78d/) | seveb | Linux ELF32/64 | serial `da-1003-08X32-aaaa-da` (N∈{1003,1023,…,1983}) |
 
 ## Mis de côté (PARKED — y revenir)
 
