@@ -311,6 +311,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 277 | [first_keygenme](5ab77f5733c5d40ad448c363/) | twistedtux | Linux ELF32 (strippé) | keygen `petik`→`uipJXY` |
 | 278 | [gtk_k3yg3nme](5ab77f5733c5d40ad448c37f/) | gtksor | Linux ELF32 GTK2 (anti-debug rdtsc) | keygen `petik`→`1513675274255` (Σ c^(i+2) 64 bits) |
 | 279 | [1337_arm](5ab77f5733c5d40ad448c380/) | gtksor | Linux ARM ELF32 statique | `ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_` (retourne 0x539) |
+| 280 | [exceptional](5ab77f5833c5d40ad448c39a/) | crp | Linux ELF32 C++ (exceptions) | keygen `petik`→`61450` (len(key)=len(name)>=4) |
 
 ## Mis de côté (PARKED — y revenir)
 

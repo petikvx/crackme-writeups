@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c39a
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c39a
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c39a
+
+title: "crackmes.de's exceptional by crp"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/exceptional.zip"
+  name: "exceptional.zip"
+  sha256: "2e7b3eb52629a6128ab5676c28304632a41d7825907d6967ae0ff6a20f6c0432"
+  md5: "649d3bdfa9df246889090170ac62809a"
+  size_bytes: 10787
+
+status: solved
+solution_summary: "key = L chiffres : (name[r]*m_r*Σ(perm/rot(name)+r+1))%10, m_r=11 si r impair sinon 3r+3 ; len(key)=len(name)>=4 ; name!='Simon Templar'"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T18:15:13Z"
