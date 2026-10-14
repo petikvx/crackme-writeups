@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5c33c5d40ad448c637
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5c33c5d40ad448c637
+  download: https://crackmes.one/download/crackme/5ab77f5c33c5d40ad448c637
+
+title: "crackmes.de's sys_linux_crackme by nobody"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crkme1sys.tgz"
+  name: "crkme1sys.tgz"
+  sha256: "1366cf96b6afc255f64ae6c7be3a7112f2b879ffb53a6a5af8eec405b3095800"
+  md5: "535ff648d4af35238a413d9a3f4776cd"
+  size_bytes: 1808
+
+status: solved
+solution_summary: "scanf('%x') : ((x&0xff0000)+0xff9f0000)^0x150000 ^ (((x&0x1f00)^0x1e00)+((x&0xff|0x37)/0x11)) == 0x70707 → 0x731940 (64 solutions)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T18:59:58Z"

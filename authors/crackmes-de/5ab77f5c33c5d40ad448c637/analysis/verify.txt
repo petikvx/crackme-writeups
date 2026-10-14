@@ -1,0 +1,2 @@
+seriale (hex) : 731940   (64 solutions avec octet haut = 0 ; --all)
+check: OK (731940→Complimenti=True)
