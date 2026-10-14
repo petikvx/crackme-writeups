@@ -28,8 +28,8 @@ binary:
   md5: "3375198ad1015ecfcd8e0cac4336ad06"
   size_bytes: 4536
 
-status: pending
-solution_summary: ""
+status: solved
+solution_summary: "name = hex(RC4_MBECrew(C)) avec S init 0xf0 ; boucle xor [esi] x16 sans inc → serial libre (≥3 car.) ; vérifié unicorn"
 
 download:
   zip_password: crackmes.one

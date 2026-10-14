@@ -1,0 +1,2 @@
+3474fb4551f2fd67ac4211395461a23c petik => cracked
+3474fb4551f2fd67ac4211395461a23d petik => BAD KEY
