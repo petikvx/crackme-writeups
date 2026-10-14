@@ -1421,6 +1421,31 @@ by_id:
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c37f/original/GTK_K3YG3NME.zip"
     title: "crackmes.de's gtk_k3yg3nme by gtksor"
 
+  5ab77f5733c5d40ad448c380:
+    sha256: "10bdfd598727a027ffddc935987d453e2f1b122ce8964e93e276f7b67c7e4f31"
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c380/original/1337_ARM.zip"
+    title: "crackmes.de's 1337_arm by gtksor"
+
+  5ab77f5833c5d40ad448c39a:
+    sha256: "2e7b3eb52629a6128ab5676c28304632a41d7825907d6967ae0ff6a20f6c0432"
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c39a/original/exceptional.zip"
+    title: "crackmes.de's exceptional by crp"
+
+  5ab77f5833c5d40ad448c39b:
+    sha256: "8074456512541f55ae5ae2663bbfd6b392cedaf53b32594e604dfab6d335c931"
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c39b/original/bf.tar.gz"
+    title: "crackmes.de's bf by crp"
+
+  5ab77f5833c5d40ad448c3f5:
+    sha256: "04305466e31a15b92e82f3a6c6972474553bca735ee0da516ca66cf66dbdf6d2"
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3f5/original/cm1.zip"
+    title: "crackmes.de's cm1 by lagalopex"
+
+  5ab77f5833c5d40ad448c411:
+    sha256: "17a5f32a9e435123735eea68d7428e2ee7208ba7104b8c2944aff765bdb83460"
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c411/original/facets_main.tar.gz"
+    title: "crackmes.de's facets by monads"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2570,3 +2595,23 @@ by_sha256:
     id: 5ab77f5733c5d40ad448c37f
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c37f/original/GTK_K3YG3NME.zip"
     page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c37f
+  10bdfd598727a027ffddc935987d453e2f1b122ce8964e93e276f7b67c7e4f31:
+    id: 5ab77f5733c5d40ad448c380
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c380/original/1337_ARM.zip"
+    page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c380
+  2e7b3eb52629a6128ab5676c28304632a41d7825907d6967ae0ff6a20f6c0432:
+    id: 5ab77f5833c5d40ad448c39a
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c39a/original/exceptional.zip"
+    page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c39a
+  8074456512541f55ae5ae2663bbfd6b392cedaf53b32594e604dfab6d335c931:
+    id: 5ab77f5833c5d40ad448c39b
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c39b/original/bf.tar.gz"
+    page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c39b
+  04305466e31a15b92e82f3a6c6972474553bca735ee0da516ca66cf66dbdf6d2:
+    id: 5ab77f5833c5d40ad448c3f5
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3f5/original/cm1.zip"
+    page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3f5
+  17a5f32a9e435123735eea68d7428e2ee7208ba7104b8c2944aff765bdb83460:
+    id: 5ab77f5833c5d40ad448c411
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c411/original/facets_main.tar.gz"
+    page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c411
