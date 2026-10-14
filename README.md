@@ -201,7 +201,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [victormeloasm](authors/victormeloasm/README.md) | victormeloasm | 2 (Froggate II + Simple Frog) | 1 / 2 |
 | [nillya](authors/nillya/README.md) | Nillya | 1 (Nillya's Pass CrackMe) | 0 / 1 |
 | [leotrungkien](authors/leotrungkien/README.md) | Leotrungkien | 1 (Fugs) | 1 / 1 |
-| [fon37](authors/fon37/README.md) | fon37 | 1 (Secret Menu) | 1 / 1 |
+| [fon37](authors/fon37/README.md) | fon37 | 2 (Secret Menu + King of Asgard) | 2 / 2 |
 | [memetic0](authors/memetic0/README.md) | memetic0 | 1 (Tropical) | 1 / 1 |
 | [vetementsvmnts](authors/vetementsvmnts/README.md) | vetementsvmnts | 5 | 5 / 5 |
 | [acheylate](authors/acheylate/README.md) | acheylate | 4 (Find password L+W, State Machine, Beat The Game) | 4 / 4 |
@@ -255,6 +255,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-15 | [King of Asgard](authors/fon37/6acf9047ace07d1c3fbc4c0f/) | fon37 |
 | 2026-10-14 | [code_linux](authors/crackmes-de/5ab77f5f33c5d40ad448c800/) | crackmes.de / buga0205 |
 | 2026-10-14 | [crackme2](authors/crackmes-de/5ab77f5e33c5d40ad448c78d/) | crackmes.de / seveb |
 | 2026-10-14 | [crackme05](authors/crackmes-de/5ab77f5e33c5d40ad448c78c/) | crackmes.de / seveb |
