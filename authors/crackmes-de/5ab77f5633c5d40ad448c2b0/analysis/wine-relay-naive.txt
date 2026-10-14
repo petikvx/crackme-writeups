@@ -1,0 +1,2 @@
+Call user32.SetDlgItemTextA(00020054,000003e8,0050fe80 "If you can patch me,\nI will show you my secret. ;)") ret=00401186
+Call user32.SetDlgItemTextA(00020054,000003e8,0050fe80 "Are you trying to mess with me?\nI don't like that! ;)") ret=00401186

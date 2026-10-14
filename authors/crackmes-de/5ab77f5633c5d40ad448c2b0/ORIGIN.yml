@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2b0
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2b0
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2b0
+
+title: "crackmes.de's gulcrackme_1 by gul"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++ (MSVC 6), GUI dialog"
+
+difficulty: 2.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/gulcrkme1.zip"
+  name: "gulcrkme1.zip"
+  sha256: "9c2596cef8bf679445805599634ee27c1fb5af18ed692cf3fa375e520517369e"
+  md5: "24a78213c25db18a68b9abb97c6757eb"
+  size_bytes: 27745
+
+status: solved
+solution_summary: "patchme : 0x40135E mov ecx,1→0 ouvre le bloc mort, qui vérifie elf_hash(.text) et appelle [0x402068]^hash ; recalcul [0x402064]=0x0B8BA810 et [0x402068]=0x0BCBB9D1 pour retomber sur 0x4011C1 → Well done. Congratz! =D ; vérifié sous Wine (relay)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T08:55:17Z"

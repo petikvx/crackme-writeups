@@ -296,6 +296,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 262 | [andsoon_crackme1 by andsoon](5ab77f5633c5d40ad448c2a3/) | AndSoOn | DOS MZ Turbo Pascal 7 (CRT) | keygen `s=Σ UpCase(nom) ^ 0x31337 ; (s div 10)*20 + 0x5EFC051A` ; `petik`→**1593977262** (DOSBox: Good job cracker.) |
 | 263 | [guys_first_crackme by guy_](5ab77f5633c5d40ad448c2a4/) | Guy | Windows PE32 C++/CLI mixed-mode (.NET 2.0 + natif) | keygen `getserial` natif 0x402410 : `((c^0x33)<<1)^0x89`, shl<'A', sar>'z', sinon '1' ; `petik`→**xJpzr**, `John`→`1b1f` (code original exécuté sous Unicorn ; GUI KO sous Wine) |
 | 264 | [cryxenet_0.01a by tfb](5ab77f5633c5d40ad448c2a8/) | tfb | Windows PE32 VB.NET 1.1 (UnpackMe Cryxe, Dotfuscator) | unpack `cryxed.dll` : `((b-1)&0xFF)^0x25` ; keygen `Base64(AES-256-CBC(nom))`, clé = Customer ID + `X` jusqu’à 32, IV fixe ; `petik`/`1337`→**vZTpXAO4f3DA2UcpwcWRZg==** (prédicat vérifié sous .NET 8) |
+| 265 | [gulcrackme_1 by gul](5ab77f5633c5d40ad448c2b0/) | gul | Windows PE32 MSVC 6 GUI (patchme + hash ELF de `.text`) | patch `0x40135E` `mov ecx,1`→`0` + recalcul `[0x402064]`=**0x0B8BA810**, `[0x402068]`=hash⊕`0x4011C1` → « Well done. Congratz! =D » (vérifié Wine relay) |
 
 ## Mis de côté (PARKED — y revenir)
 

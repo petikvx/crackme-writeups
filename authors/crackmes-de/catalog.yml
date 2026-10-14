@@ -1346,6 +1346,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c2a8/original/Release.zip"
     title: "crackmes.de's cryxenet_0.01a by tfb"
 
+  5ab77f5633c5d40ad448c2b0:
+    sha256: "9c2596cef8bf679445805599634ee27c1fb5af18ed692cf3fa375e520517369e"
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2b0/original/gulcrkme1.zip"
+    title: "crackmes.de's gulcrackme_1 by gul"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2435,3 +2440,7 @@ by_sha256:
     id: 5ab77f5633c5d40ad448c2a8
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c2a8/original/Release.zip"
     page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2a8
+  9c2596cef8bf679445805599634ee27c1fb5af18ed692cf3fa375e520517369e:
+    id: 5ab77f5633c5d40ad448c2b0
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2b0/original/gulcrkme1.zip"
+    page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2b0
