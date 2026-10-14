@@ -1,0 +1,15 @@
+rbx_crackme_8 (jules) — PARKED
+==============================
+- ELF32 FreeBSD 5.3 (libc.so.5, libstdc++.so.4) : non exécutable ici ; seulement analyse statique (dis.txt).
+- main @0x8048a30 : name, company -> QuaziLies(name,company,len1,len2) / HumanTraffic(company) /
+  NerveAgent() -> ThePoisoning(f1,f2,f3) -> DontBeAMenace() : demande 3 serials, compare caractère par
+  caractère aux 3 chaînes globales  s1@0x804aa58, s2@0x804aa6c, s3@0x804aa80 (nb de matches == strlen).
+- QuaziLies : a = Σ((c ^ len2) % c) sur name ; b = Σ((c ^ len2?) % c) sur company (xor avec l'autre longueur) ;
+  boucle descendante sur name[len1+len2 .. 2] ^ len2 -> d ; sqrt(a) * |atan(d/b)| * (a*b) -> float32 ;
+  s1 = sprintf("%f.%f", double(x))   <- UN seul argument double pour deux %f.
+- HumanTraffic(company) : sommes xor de strlen/octets, atan(prod)+prod -> s2 = sprintf("%4.4f.%4.4f", double)  idem.
+- NerveAgent : constantes 0x4779f4 + 0x49ed3e + 0x81daa5 (NerveAI<long>) -> float ; ThePoisoning : f1+f2+f3 ;
+  s3 = sprintf("%4.4f", f1+f2+f3).
+- BLOQUANT : s1 et s2 contiennent la partie « .%f » lue sur des octets de pile non initialisés
+  (second argument double absent) -> valeur dépendante du FreeBSD / libstdc++ d'origine. Pas de moyen
+  de la reproduire sans l'environnement d'origine (QEMU FreeBSD 5.3) ; pas de solution vérifiable ici.

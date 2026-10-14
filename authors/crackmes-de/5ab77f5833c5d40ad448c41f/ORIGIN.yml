@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c41f
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c41f
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c41f
+
+title: "crackmes.de's rbx_crackme_8 by jules"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/rbxCrckme8.tgz"
+  name: "rbxCrckme8.tgz"
+  sha256: "fd3350ee54754cc69ef87307fc7c525937dd247976e97400922aa3c025b904d0"
+  md5: "09804f8c6ad3a16082e4f2d8e4d6a011"
+  size_bytes: 5515
+
+status: pending
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T18:44:39Z"
