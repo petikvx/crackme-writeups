@@ -1,0 +1,32 @@
+== patchme.exe (live wine + tools/chk.exe)
+main=00010058 nag_trial=00010068
+caption=[qHF's PatchMe (Unregistered Version)]
+after AddListItem: nag=00010086 listbox_count=0
+after Save: fg=[Save]
+  static=[Good job. Did you change the item's text yet?]
+about_child=[&OK]
+about_child=[About
+
+PatchMe by qHF
+
+UNREGISTERED VERSION]
+about_alive=0
+after close: nag=000400a0 main_alive=1
+== patchme_patched.exe (live wine + tools/chk.exe)
+main=00010058 nag_trial=00000000
+caption=[qHF's PatchMe (Registered Version)  ]
+after AddListItem: nag=00000000 listbox_count=1
+item0=[Good job. How are you doing with the rest?]
+after Save: fg=[Save]
+  static=[Good job. Did you change the item's text yet?]
+about_child=[&OK]
+about_child=[About
+
+PatchMe by qHF
+
+REGISTERED VERSION!!]
+about_alive=0
+after close: nag=00000000 main_alive=0
+== menu (tools/mchk.exe, LoadMenu sur le fichier)
+patchme.exe: Save=[Save (Registered Version Only)] state=0x2
+patchme_patched.exe: Save=[Save (patched by petik)       ] state=0x0

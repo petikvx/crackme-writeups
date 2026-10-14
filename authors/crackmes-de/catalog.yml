@@ -1361,6 +1361,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c2bd/original/qHFCrackme1.zip"
     title: "crackmes.de's qhfs_crackme1 by qhf"
 
+  5ab77f5633c5d40ad448c2be:
+    sha256: "069bdf98cb0bd71582e3bd54db41ac73c43222f21ccf89ed2539ae41d3c85827"
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2be/original/patchme.zip"
+    title: "crackmes.de's full_patchme by qhf"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2462,3 +2467,7 @@ by_sha256:
     id: 5ab77f5633c5d40ad448c2bd
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c2bd/original/qHFCrackme1.zip"
     page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2bd
+  069bdf98cb0bd71582e3bd54db41ac73c43222f21ccf89ed2539ae41d3c85827:
+    id: 5ab77f5633c5d40ad448c2be
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2be/original/patchme.zip"
+    page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2be

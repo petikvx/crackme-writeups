@@ -1,0 +1,6 @@
+Patch the beginning and the end nags
+Enable the File->Save option
+Change the File->Save text
+Patch so the listbox button works
+Patch the about to something other than unregistered
+Change Caption

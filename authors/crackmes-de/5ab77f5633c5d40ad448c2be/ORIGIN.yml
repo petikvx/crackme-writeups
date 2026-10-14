@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2be
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2be
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2be
+
+title: "crackmes.de's full_patchme by qhf"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/C++"
+
+difficulty: 1.0
+quality: null
+size: "3.90 KB"
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/patchme.zip"
+  name: "patchme.zip"
+  sha256: "069bdf98cb0bd71582e3bd54db41ac73c43222f21ccf89ed2539ae41d3c85827"
+  md5: "d942c53fad92a6ac8ebec094fffb348a"
+  size_bytes: 3992
+
+status: solved
+solution_summary: "patchme 6 objectifs : 4 patches .text (jne/je→jmp, NOP, jmp EndDialog : nags début/fin + bouton Add ListItem) + 4 patches .rsrc même longueur (Save MF_DISABLED→0, texte Save, caption, About REGISTERED VERSION!!) ; vérifié live Wine (chk.exe)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T13:49:36Z"
