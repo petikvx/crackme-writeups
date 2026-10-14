@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5a33c5d40ad448c4da
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5a33c5d40ad448c4da
+  download: https://crackmes.one/download/crackme/5ab77f5a33c5d40ad448c4da
+
+title: "crackmes.de's easy_celen by s4t4y"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/celen.tar.gz"
+  name: "celen.tar.gz"
+  sha256: "666565c0554a20741f84a1351b39ef72d4afd5984e6c424f34010c9900c4f9a0"
+  md5: "b6fbb4325ec9635d79b878b8f03130ba"
+  size_bytes: 294472
+
+status: solved
+solution_summary: "flag the_flag_is_arip_power : 22 'mov byte [esp+0x18+i]' dans main @0x8048e60, fprintf si [esp+0x14]==0x400 ; ptrace(TRACEME) en constructeur"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T18:44:43Z"

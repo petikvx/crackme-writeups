@@ -316,6 +316,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 282 | [cm1](5ab77f5833c5d40ad448c3f5/) | lagalopex | Linux ELF32 (fichier-clé ~/.key_user) | keyfile `~/.key_petik` : ops *+-/ sur accumulateur puis `,<octet>` par caractère |
 | 283 | [facets](5ab77f5833c5d40ad448c411/) | monads | Linux ELF32 (code auto-modifiant) | argument `7` (tout n & 0xffff == 7) |
 | 284 | [crackme_1](5ab77f5933c5d40ad448c48a/) | batman10 | Linux ELF32 C++ | keygen `petik`→`u`qln` (pass[i]=name[i]^5) |
+| 285 | [easy_celen](5ab77f5a33c5d40ad448c4da/) | s4t4y | Linux ELF32 statique (ptrace) | flag `the_flag_is_arip_power` (22 mov byte sur la pile ; affiché si [esp+0x14]==0x400) |
 
 ## Mis de côté (PARKED — y revenir)
 

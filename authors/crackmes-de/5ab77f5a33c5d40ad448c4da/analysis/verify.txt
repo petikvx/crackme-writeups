@@ -1,0 +1,4 @@
+Welcome!
+--- gdb (ptrace neutralisé, [esp+0x14]=0x400) ---
+Welcome!
+the_flag_is_arip_power
