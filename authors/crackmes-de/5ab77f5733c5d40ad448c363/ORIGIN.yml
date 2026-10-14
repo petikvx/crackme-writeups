@@ -28,8 +28,8 @@ binary:
   md5: "a0ac04b8a52018ba10c441f4803090b4"
   size_bytes: 2058
 
-status: pending
-solution_summary: ""
+status: solved
+solution_summary: "6 car. T[f_i(pseudo)] (len^3b, sum^4f, prod^55, rand(srand(max^0e)), Σn²^ef, n[0] rand) ; petik→uipJXY"
 
 download:
   zip_password: crackmes.one
