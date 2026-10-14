@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5e33c5d40ad448c78c
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5e33c5d40ad448c78c
+  download: https://crackmes.one/download/crackme/5ab77f5e33c5d40ad448c78c
+
+title: "crackmes.de's crackme05 by seveb"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme05.tar.gz"
+  name: "crackme05.tar.gz"
+  sha256: "d1cfe0ccccd9b94481a1c41b08844bbb033a26f1b5814f615c36e37c683dc611"
+  md5: "04365e9e44659074142f7eb4c0551517"
+  size_bytes: 30720
+
+status: solved
+solution_summary: "rock: [0-9A-Za-z-] len 19 ; paper: s3=s15=(s8^s10)+48, s0=s18=(s5^s13)+48 ; scissors: s1+s2>170,s16+s17>170 distincts ; cracker: s4=s9=s14='-'"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T19:21:03Z"
