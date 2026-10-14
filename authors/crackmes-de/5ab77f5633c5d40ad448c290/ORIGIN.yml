@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c290
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c290
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c290
+
+title: "crackmes.de's therapy039s_crackme_1 by therapy"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "DOS"
+arch: "x86"
+language: "Assembler (COM 16 bits)"
+
+difficulty: 2.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/therapy_crackme1.zip"
+  name: "therapy_crackme1.zip"
+  sha256: "5bd3afd855efd50551dde479972f7a68c416a56ce4c1ae8898e3906d67d3ff04"
+  md5: "e6a6fd5688fdf5473456792c12d8d7f4"
+  size_bytes: 1107
+
+status: solved
+solution_summary: "mot de passe = multiensemble : exactement h×2 T×3 q×1 %×2 7×4 6×2 2×1 (ordre libre, autres car. ignorés, ≤19 car.) ; ex. hhTTTq%%7777662 ; vérifié live DOSBox"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T02:52:37Z"

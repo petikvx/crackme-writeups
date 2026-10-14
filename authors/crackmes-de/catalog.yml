@@ -1311,6 +1311,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c28f/original/therapy_easyone.zip"
     title: "crackmes.de's easyone___nameserial by therapy"
 
+  5ab77f5633c5d40ad448c290:
+    sha256: "5bd3afd855efd50551dde479972f7a68c416a56ce4c1ae8898e3906d67d3ff04"
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c290/original/therapy_crackme1.zip"
+    title: "crackmes.de's therapy039s_crackme_1 by therapy"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2372,3 +2377,7 @@ by_sha256:
     id: 5ab77f5633c5d40ad448c28f
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c28f/original/therapy_easyone.zip"
     page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c28f
+  5bd3afd855efd50551dde479972f7a68c416a56ce4c1ae8898e3906d67d3ff04:
+    id: 5ab77f5633c5d40ad448c290
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c290/original/therapy_crackme1.zip"
+    page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c290

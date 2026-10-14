@@ -1,0 +1,22 @@
+== OK (hhTTTq%%7777662)
+.::therapy's CRACKME #1::.
+Your object: Try to make a keygenerator!
+
+
+Enter your password: hhTTTq%%7777662
+
+You have entered a correct password!!!
+
+
+Thanks for your efforts, you have done well!
+Please, send your solutions to therapynet@hotmail.com
+
+-=therapy=-
+== KO (petik)
+.::therapy's CRACKME #1::.
+Your object: Try to make a keygenerator!
+
+
+Enter your password: petik
+
+No, no. Try again, it`s easy!
