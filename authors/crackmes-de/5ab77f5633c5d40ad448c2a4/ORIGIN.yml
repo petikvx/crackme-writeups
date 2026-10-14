@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2a4
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2a4
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2a4
+
+title: "crackmes.de's guys_first_crackme by guy_"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C++/CLI mixed-mode (.NET 2.0 + natif)"
+
+difficulty: 2.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Guy___s_First_Crackme.zip"
+  name: "Guy___s_First_Crackme.zip"
+  sha256: "0b53144a208591e96724e2794e491e7260c309be400c50ac8a59b949ba3df54d"
+  md5: "14f9f4f72dbd66e88958092125f5fa5b"
+  size_bytes: 18966
+
+status: solved
+solution_summary: "keygen : serial = getserial(nom) natif VA 0x402410, par octet c=((c^0x33)<<1)^0x89, shl tant que <'A', sar tant que >'z' ; petik→xJpzr, John→1b1f (exemple auteur) ; vérifié en exécutant le code original sous Unicorn (GUI ne démarre pas sous Wine)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T05:53:50Z"

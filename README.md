@@ -146,7 +146,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [oguzbey](authors/oguzbey/README.md) | oguzbey | 1 (Lucky Numbers) | 1 / 1 |
 | [andrewl](authors/andrewl/README.md) | andrewl | 1 (Quick Crypto) | 1 / 1 |
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
-| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 262 / 262 |
+| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 263 / 263 |
 | [chaltu](authors/chaltu/README.md) | chaltu | 2 (a Treasure + Double Door) | 2 / 2 |
 | [qerr0r](authors/qerr0r/README.md) | QERR0R | 1 (crackit) | 1 / 1 |
 | [steve_maxwell](authors/steve_maxwell/README.md) | steve_maxwell | 1 (X-0-R) | 1 / 1 |
@@ -252,6 +252,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-14 | [guys_first_crackme by guy_](authors/crackmes-de/5ab77f5633c5d40ad448c2a4/) | crackmes.de / Guy |
 | 2026-10-14 | [andsoon_crackme1 by andsoon](authors/crackmes-de/5ab77f5633c5d40ad448c2a3/) | crackmes.de / AndSoOn |
 | 2026-10-14 | [matrix_acid_crack by acid_crack](authors/crackmes-de/5ab77f5633c5d40ad448c29e/) | crackmes.de / acid_crack |
 | 2026-10-14 | [a_c_c_m by acid_crack](authors/crackmes-de/5ab77f5633c5d40ad448c29d/) | crackmes.de / acid_crack |

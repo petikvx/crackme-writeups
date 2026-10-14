@@ -1336,6 +1336,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c2a3/original/AndSoOn_Crackme1.zip"
     title: "crackmes.de's andsoon_crackme1 by andsoon"
 
+  5ab77f5633c5d40ad448c2a4:
+    sha256: "0b53144a208591e96724e2794e491e7260c309be400c50ac8a59b949ba3df54d"
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2a4/original/Guy___s_First_Crackme.zip"
+    title: "crackmes.de's guys_first_crackme by guy_"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2417,3 +2422,7 @@ by_sha256:
     id: 5ab77f5633c5d40ad448c2a3
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c2a3/original/AndSoOn_Crackme1.zip"
     page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2a3
+  0b53144a208591e96724e2794e491e7260c309be400c50ac8a59b949ba3df54d:
+    id: 5ab77f5633c5d40ad448c2a4
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2a4/original/Guy___s_First_Crackme.zip"
+    page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2a4
