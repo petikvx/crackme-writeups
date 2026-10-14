@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2d7
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2d7
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2d7
+
+title: "crackmes.de's linux_crackme_02 by cyrex"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme_02.tgz"
+  name: "crackme_02.tgz"
+  sha256: "1d05f58a1690641b1d9f80d2a10d2a9c28c549fd091b17d87256237419e7f21a"
+  md5: "ef2192432c890682da8d4c612c3caf9b"
+  size_bytes: 2199
+
+status: solved
+solution_summary: "password 7gb5fjf8v4bg8fb34f (strcmp) + fopen(/tmp/crackme_89nfnjfiefheufeue) doit réussir ; ptrace anti-debug"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T17:23:59Z"

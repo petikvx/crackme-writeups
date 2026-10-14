@@ -1,0 +1,4 @@
+-[ Stage 1 Cleared
+-[ Checking Stage 2 Now....
+-[ You have successfully reversed/cracked/sniffed This Crackme
+-[ Email me your solution to eth0@list.ru
