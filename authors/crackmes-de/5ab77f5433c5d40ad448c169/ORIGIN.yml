@@ -28,8 +28,8 @@ binary:
   md5: "b9de64b25cbace5f1a3c54b0974843a8"
   size_bytes: 1104
 
-status: pending
-solution_summary: ""
+status: solved
+solution_summary: "password Mudvay(! (8 premiers car., modèle z3 de la routine @0x8048242 vs 16 octets @0x8048312)"
 
 download:
   zip_password: crackmes.one
