@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5333c5d40ad448c0f7
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c0f7
+  download: https://crackmes.one/download/crackme/5ab77f5333c5d40ad448c0f7
+
+title: "crackmes.de's qcrk_1 by qnix"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/qcrk.tgz"
+  name: "qcrk.tgz"
+  sha256: "9b026f77036a6af8d60bca36b9c7518729746b06cc03d345b174e1b35b85d330"
+  md5: "b5c49ba4679cc4de5f032d2cb426f1e7"
+  size_bytes: 3006
+
+status: solved
+solution_summary: "patch-me, jne @0x8048514 → nop (skey 60 chars vs strncpy 10) ; binaire dépaqueté via strace"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T16:32:40Z"

@@ -1371,6 +1371,31 @@ by_id:
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c2bf/original/qhfasmcrackme.zip"
     title: "crackmes.de's asm_is_fun by qhf"
 
+  5ab77f5333c5d40ad448c0f7:
+    sha256: "9b026f77036a6af8d60bca36b9c7518729746b06cc03d345b174e1b35b85d330"
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c0f7/original/qcrk.tgz"
+    title: "crackmes.de's qcrk_1 by qnix"
+
+  5ab77f5433c5d40ad448c169:
+    sha256: "9afb1c53f85eaeb4ffa6067c3a8fcd4265ec2122ad2bf3e5a57dfe8ed29efa67"
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c169/original/cm11.zip"
+    title: "crackmes.de's linux_crackme_v1 by veneta"
+
+  5ab77f5433c5d40ad448c16b:
+    sha256: "8066fb461e577aa84b0ebb258b64f9c2ac8692c41084a7fc39c3853203804fc2"
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c16b/original/cm13.zip"
+    title: "crackmes.de's linux_crackme_v2 by veneta"
+
+  5ab77f5633c5d40ad448c2d5:
+    sha256: "5a23ad6a97fdca16c1ae70cf34309629cae48993582cc5ba0e7240876701e98d"
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2d5/original/easy_math_keygenme.tgz"
+    title: "crackmes.de's easy_math_keygenme by cyrex"
+
+  5ab77f5633c5d40ad448c2d6:
+    sha256: "372cd69489161156c5b8adfbd0fcc11f5b72caeab65c8dd0b2b0ddae356f967e"
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2d6/original/crackme_01.tgz"
+    title: "crackmes.de's linux_crackme by cyrex"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2480,3 +2505,23 @@ by_sha256:
     id: 5ab77f5633c5d40ad448c2bf
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c2bf/original/qhfasmcrackme.zip"
     page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2bf
+  9b026f77036a6af8d60bca36b9c7518729746b06cc03d345b174e1b35b85d330:
+    id: 5ab77f5333c5d40ad448c0f7
+    path: "authors/crackmes-de/5ab77f5333c5d40ad448c0f7/original/qcrk.tgz"
+    page: https://crackmes.one/crackme/5ab77f5333c5d40ad448c0f7
+  9afb1c53f85eaeb4ffa6067c3a8fcd4265ec2122ad2bf3e5a57dfe8ed29efa67:
+    id: 5ab77f5433c5d40ad448c169
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c169/original/cm11.zip"
+    page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c169
+  8066fb461e577aa84b0ebb258b64f9c2ac8692c41084a7fc39c3853203804fc2:
+    id: 5ab77f5433c5d40ad448c16b
+    path: "authors/crackmes-de/5ab77f5433c5d40ad448c16b/original/cm13.zip"
+    page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c16b
+  5a23ad6a97fdca16c1ae70cf34309629cae48993582cc5ba0e7240876701e98d:
+    id: 5ab77f5633c5d40ad448c2d5
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2d5/original/easy_math_keygenme.tgz"
+    page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2d5
+  372cd69489161156c5b8adfbd0fcc11f5b72caeab65c8dd0b2b0ddae356f967e:
+    id: 5ab77f5633c5d40ad448c2d6
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2d6/original/crackme_01.tgz"
+    page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2d6

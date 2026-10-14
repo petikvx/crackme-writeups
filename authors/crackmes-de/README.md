@@ -301,6 +301,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 267 | [qhfs_crackme1 by qhf](5ab77f5633c5d40ad448c2bd/) | qhf | Windows PE32 MinGW C++ console | keygen alphabet 37 ; `petik`→**PPPEEETTTIII** (wine: Good job) |
 | 268 | [full_patchme by qhf](5ab77f5633c5d40ad448c2be/) | qhf | Windows PE32 MinGW GUI (dialog) | patchme : 4 patches `.text` + 4 `.rsrc` (nags, Save activé/renommé, listbox, About, caption) (wine: chk.exe) |
 | 269 | [asm_is_fun by qhf](5ab77f5633c5d40ad448c2bf/) | qhf | Windows PE32 NASM console | keygen (c±…)^k en `%x` + f→q 1→H 5→z ; `petik`→**7dz479z8zed** (wine: Thanks for registering!) |
+| 270 | [qcrk_1](5ab77f5333c5d40ad448c0f7/) | qnix | Linux ELF32 (packé) | patch-me : `jne` @0x8048514 → NOP (aucune clé possible, skey 60 car. vs strncpy 10) |
 
 ## Mis de côté (PARKED — y revenir)
 

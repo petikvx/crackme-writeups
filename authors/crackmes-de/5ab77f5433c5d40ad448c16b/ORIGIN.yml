@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5433c5d40ad448c16b
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5433c5d40ad448c16b
+  download: https://crackmes.one/download/crackme/5ab77f5433c5d40ad448c16b
+
+title: "crackmes.de's linux_crackme_v2 by veneta"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/cm13.zip"
+  name: "cm13.zip"
+  sha256: "8066fb461e577aa84b0ebb258b64f9c2ac8692c41084a7fc39c3853203804fc2"
+  md5: "3375198ad1015ecfcd8e0cac4336ad06"
+  size_bytes: 4536
+
+status: pending
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T16:32:43Z"

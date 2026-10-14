@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2d5
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2d5
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2d5
+
+title: "crackmes.de's easy_math_keygenme by cyrex"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/easy_math_keygenme.tgz"
+  name: "easy_math_keygenme.tgz"
+  sha256: "5a23ad6a97fdca16c1ae70cf34309629cae48993582cc5ba0e7240876701e98d"
+  md5: "12aa4a85f2b1ad8966dc9772f0ee3b5f"
+  size_bytes: 179260
+
+status: pending
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T16:32:45Z"
