@@ -86,8 +86,8 @@ Le premier octet `0xCC` donne `0x33` = `'3'`. Les 120 octets donnent :
 
 ```text
 H3 = 333733393336333533353333333233303337333933363435...333433323331
-H2 = 3739363535332037393645...                (inverse de l'hex une fois)
-H1 = 796553...                                (deux fois)
+H2 = 373936353533323037393645...              (inverse de l'hex une fois)
+H1 = 79655320796E552064694420695421         (deux fois ; 0x6F -> '6E' avec l'alphabet décalé)
 P  = "yeS yoU diD iT!"                        (trois fois)
 ```
 
