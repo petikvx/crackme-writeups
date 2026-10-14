@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5a33c5d40ad448c4f9
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5a33c5d40ad448c4f9
+  download: https://crackmes.one/download/crackme/5ab77f5a33c5d40ad448c4f9
+
+title: "crackmes.de's ps3crackme1 by macabre"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: ""
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/ps3crackme1.zip"
+  name: "ps3crackme1.zip"
+  sha256: "1d790c7fb8ed94cb717a6b1e4b1d2d1cdb4afa9b5d732237144891c587f5db22"
+  md5: "9b06718fd461919eaffed660e425cbcb"
+  size_bytes: 7242
+
+status: solved
+solution_summary: "serial[i] = 'jxzilaoq013-fs'[Σ_{j<=i}((2u_j)^(4u_j)) mod 14], len(serial)==len(user)>6 ; lu dans le programme SPU embarqué (preuve statique, pas de PS3)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T18:52:30Z"

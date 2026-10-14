@@ -320,6 +320,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 286 | [crackmejenny](5ab77f5a33c5d40ad448c4ed/) | sraboy | Linux ELF64 (code auto-modifiant) | `./release jenny@8675309` → 13284645-2427364-104376652 |
 | 287 | [infector_unpackme](5ab77f5a33c5d40ad448c4f6/) | macabre | Linux ELF32 KDE3/Qt3 (GUI) | mot de passe Infector `breed` (Π signed char == -1488344688, 5 car.) ; hôte = XOR clé répétée |
 | 288 | [easy_crackme_1](5ab77f5a33c5d40ad448c507/) | stefanie | Linux ELF32 (sans sections) | fichier `LiuYiFei_143` (5 octets) + argv[1]≥10 car. avec s[0]+s[2]+s[4]=330 |
+| 289 | [ps3crackme1](5ab77f5a33c5d40ad448c4f9/) | macabre | Linux PPC64 + SPU (PS3) | keygen `petik12`→`00f00o3` (serial[i]=T[Σ(2u^4u) mod 14], T=jxzilaoq013-fs) ; statique |
 
 ## Mis de côté (PARKED — y revenir)
 

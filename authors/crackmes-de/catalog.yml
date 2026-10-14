@@ -1471,6 +1471,31 @@ by_id:
     path: "authors/crackmes-de/5ab77f5a33c5d40ad448c4f6/original/inf-unpackme.tgz"
     title: "crackmes.de's infector_unpackme by macabre"
 
+  5ab77f5a33c5d40ad448c4f9:
+    sha256: "1d790c7fb8ed94cb717a6b1e4b1d2d1cdb4afa9b5d732237144891c587f5db22"
+    path: "authors/crackmes-de/5ab77f5a33c5d40ad448c4f9/original/ps3crackme1.zip"
+    title: "crackmes.de's ps3crackme1 by macabre"
+
+  5ab77f5a33c5d40ad448c4fa:
+    sha256: "a994f056b6ed993935c0f54d7a18667ebcfbb27caf32302a31d4eef20a30d698"
+    path: "authors/crackmes-de/5ab77f5a33c5d40ad448c4fa/original/k-genme.rgz"
+    title: "crackmes.de's k_genme by macabre"
+
+  5ab77f5a33c5d40ad448c4fb:
+    sha256: "f2ef39e3733873f2e30788d8a90a0e7a5570f997dda900be38c17ecf515584b7"
+    path: "authors/crackmes-de/5ab77f5a33c5d40ad448c4fb/original/kde-enableme1.tgz"
+    title: "crackmes.de's kde_enableme1 by macabre"
+
+  5ab77f5a33c5d40ad448c507:
+    sha256: "440bbed9bcc539b94ba48a47a8973d6b6eb5719b26d744049cbc5a2deac18c46"
+    path: "authors/crackmes-de/5ab77f5a33c5d40ad448c507/original/easycrack1.zip"
+    title: "crackmes.de's easy_crackme_1 by stefanie"
+
+  5ab77f5a33c5d40ad448c52b:
+    sha256: "9a048329cdef4dd95ca5f6c5aa1183ae6b15dbe8d75429b9a1334471442f73ab"
+    path: "authors/crackmes-de/5ab77f5a33c5d40ad448c52b/original/Arm_crackme.zip"
+    title: "crackmes.de's arm_crack1 by blankwall"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2660,3 +2685,23 @@ by_sha256:
     id: 5ab77f5a33c5d40ad448c4f6
     path: "authors/crackmes-de/5ab77f5a33c5d40ad448c4f6/original/inf-unpackme.tgz"
     page: https://crackmes.one/crackme/5ab77f5a33c5d40ad448c4f6
+  1d790c7fb8ed94cb717a6b1e4b1d2d1cdb4afa9b5d732237144891c587f5db22:
+    id: 5ab77f5a33c5d40ad448c4f9
+    path: "authors/crackmes-de/5ab77f5a33c5d40ad448c4f9/original/ps3crackme1.zip"
+    page: https://crackmes.one/crackme/5ab77f5a33c5d40ad448c4f9
+  a994f056b6ed993935c0f54d7a18667ebcfbb27caf32302a31d4eef20a30d698:
+    id: 5ab77f5a33c5d40ad448c4fa
+    path: "authors/crackmes-de/5ab77f5a33c5d40ad448c4fa/original/k-genme.rgz"
+    page: https://crackmes.one/crackme/5ab77f5a33c5d40ad448c4fa
+  f2ef39e3733873f2e30788d8a90a0e7a5570f997dda900be38c17ecf515584b7:
+    id: 5ab77f5a33c5d40ad448c4fb
+    path: "authors/crackmes-de/5ab77f5a33c5d40ad448c4fb/original/kde-enableme1.tgz"
+    page: https://crackmes.one/crackme/5ab77f5a33c5d40ad448c4fb
+  440bbed9bcc539b94ba48a47a8973d6b6eb5719b26d744049cbc5a2deac18c46:
+    id: 5ab77f5a33c5d40ad448c507
+    path: "authors/crackmes-de/5ab77f5a33c5d40ad448c507/original/easycrack1.zip"
+    page: https://crackmes.one/crackme/5ab77f5a33c5d40ad448c507
+  9a048329cdef4dd95ca5f6c5aa1183ae6b15dbe8d75429b9a1334471442f73ab:
+    id: 5ab77f5a33c5d40ad448c52b
+    path: "authors/crackmes-de/5ab77f5a33c5d40ad448c52b/original/Arm_crackme.zip"
+    page: https://crackmes.one/crackme/5ab77f5a33c5d40ad448c52b
