@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5a33c5d40ad448c507
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5a33c5d40ad448c507
+  download: https://crackmes.one/download/crackme/5ab77f5a33c5d40ad448c507
+
+title: "crackmes.de's easy_crackme_1 by stefanie"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/easycrack1.zip"
+  name: "easycrack1.zip"
+  sha256: "440bbed9bcc539b94ba48a47a8973d6b6eb5719b26d744049cbc5a2deac18c46"
+  md5: "1ef9662772733a8b77c692d117a3da09"
+  size_bytes: 2304
+
+status: solved
+solution_summary: "flag&3==3 : fichier LiuYiFei_143 de 5 octets dans le cwd + argv[1] len>=10 et arg[0]+arg[2]+arg[4]==0x14a ; anti LD_PRELOAD/ptrace ; noms XOR index"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T18:52:35Z"
