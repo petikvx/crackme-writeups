@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5a33c5d40ad448c4f6
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5a33c5d40ad448c4f6
+  download: https://crackmes.one/download/crackme/5ab77f5a33c5d40ad448c4f6
+
+title: "crackmes.de's infector_unpackme by macabre"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/inf-unpackme.tgz"
+  name: "inf-unpackme.tgz"
+  sha256: "6eaa8cefb9e34646a3996412da5a965d9088607fc18965b279c5f846624cfb75"
+  md5: "0b7212f0fbb04a02c5ebf19c20a1b2fe"
+  size_bytes: 39968
+
+status: solved
+solution_summary: "sub-goal 2 : Π(signed char pw[i]) == -1488344688 avec len 5 → breed (180 solutions) ; preuve statique (KDE3 absent) ; sub-goal 1 dépend de l'hôte embarqué"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T18:44:46Z"
