@@ -327,6 +327,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 293 | [jandepora](5ab77f5b33c5d40ad448c5c2/) | esn_min | Linux (source C, 8 processus/pipes) | keygen : mot de 43 car. {a,b,c} = chemin d'un DFA 8 états avec #b=n%17+1, #c=n%16+1 ; `petik`→a×37 b×3 c a b c |
 | 294 | [pof_kgme_0x01](5ab77f5a33c5d40ad448c532/) | pof_es | Linux ELF32 (gzexe) | mot de passe `796666880` ((n>>8)==0x2f7c2c, n pair, somme chiffres == 56) |
 | 295 | [sys_linux_crackme](5ab77f5c33c5d40ad448c637/) | syscalo | Linux ELF32 (strippé) | serial hexadécimal `731940` (scanf %x ; octet2=0x73, x&0x1f00=0x1900, q=7) |
+| 296 | [var](5ab77f5b33c5d40ad448c5b3/) | unchapelierfou | Linux ELF64 statique | flag `Flag_Over_Here_Dude` (movabs 'Flag_Ove'+'r_Here_D'+'ude' ; strcmp) |
 
 ## Mis de côté (PARKED — y revenir)
 

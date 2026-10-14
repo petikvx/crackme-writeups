@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5b33c5d40ad448c5b3
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5b33c5d40ad448c5b3
+  download: https://crackmes.one/download/crackme/5ab77f5b33c5d40ad448c5b3
+
+title: "crackmes.de's var by unchapelierfou"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/var.zip"
+  name: "var.zip"
+  sha256: "31c524765e842a2a1caab4695bda817fd24b9a80ab7904637ab8a21ca3f47ca1"
+  md5: "141206f58a14949590da03f78ed16c58"
+  size_bytes: 319312
+
+status: solved
+solution_summary: "flag Flag_Over_Here_Dude : construit par 2 movabs + mov dword sur la pile, strcmp avec la saisie"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T18:59:55Z"
