@@ -322,6 +322,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 288 | [easy_crackme_1](5ab77f5a33c5d40ad448c507/) | stefanie | Linux ELF32 (sans sections) | fichier `LiuYiFei_143` (5 octets) + argv[1]≥10 car. avec s[0]+s[2]+s[4]=330 |
 | 289 | [ps3crackme1](5ab77f5a33c5d40ad448c4f9/) | macabre | Linux PPC64 + SPU (PS3) | keygen `petik12`→`00f00o3` (serial[i]=T[Σ(2u^4u) mod 14], T=jxzilaoq013-fs) ; statique |
 | 290 | [arm_crack1](5ab77f5a33c5d40ad448c52b/) | blankwall | Linux ARM Thumb-2 | mot de passe `this_is_flag` (littéral `TU_KU_KRXMS + 20 ; le littéral brut est un leurre) |
+| 291 | [kde_enableme1](5ab77f5a33c5d40ad448c4fb/) | macabre | Linux ELF32 KDE3/Qt3 (GUI) | patch : NOP `call [eax+0x54]` (setEnabled(false)) @0x804cb5b et @0x804cddb |
 
 ## Mis de côté (PARKED — y revenir)
 

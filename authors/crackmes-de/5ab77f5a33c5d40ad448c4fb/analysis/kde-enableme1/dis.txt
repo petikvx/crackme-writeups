@@ -1,0 +1,2674 @@
+
+enableme:     file format elf32-i386
+
+
+Disassembly of section .init:
+
+0804b0dc <_init>:
+ 804b0dc:	push   ebp
+ 804b0dd:	mov    ebp,esp
+ 804b0df:	sub    esp,0x8
+ 804b0e2:	call   804bb64 <call_gmon_start>
+ 804b0e7:	call   804bbc0 <frame_dummy>
+ 804b0ec:	call   804cfc0 <__do_global_ctors_aux>
+ 804b0f1:	leave
+ 804b0f2:	ret
+
+Disassembly of section .plt:
+
+0804b0f4 <.plt>:
+ 804b0f4:	push   DWORD PTR ds:0x804fa20
+ 804b0fa:	jmp    DWORD PTR ds:0x804fa24
+ 804b100:	add    BYTE PTR [eax],al
+	...
+
+0804b104 <_ZNK7QWidget15customWhatsThisEv@plt>:
+ 804b104:	jmp    DWORD PTR ds:0x804fa28
+ 804b10a:	push   0x0
+ 804b10f:	jmp    804b0f4 <.plt>
+
+0804b114 <_ZN7QWidget10setPaletteERK8QPalette@plt>:
+ 804b114:	jmp    DWORD PTR ds:0x804fa2c
+ 804b11a:	push   0x8
+ 804b11f:	jmp    804b0f4 <.plt>
+
+0804b124 <_ZN7QPixmapD1Ev@plt>:
+ 804b124:	jmp    DWORD PTR ds:0x804fa30
+ 804b12a:	push   0x10
+ 804b12f:	jmp    804b0f4 <.plt>
+
+0804b134 <_ZNK6QGList5writeER11QDataStreamPv@plt>:
+ 804b134:	jmp    DWORD PTR ds:0x804fa34
+ 804b13a:	push   0x18
+ 804b13f:	jmp    804b0f4 <.plt>
+
+0804b144 <_ZNK12QPaintDevice10resolutionEv@plt>:
+ 804b144:	jmp    DWORD PTR ds:0x804fa38
+ 804b14a:	push   0x20
+ 804b14f:	jmp    804b0f4 <.plt>
+
+0804b154 <_ZThn40_NK7QWidget6metricEi@plt>:
+ 804b154:	jmp    DWORD PTR ds:0x804fa3c
+ 804b15a:	push   0x28
+ 804b15f:	jmp    804b0f4 <.plt>
+
+0804b164 <_ZN7QWidget10adjustSizeEv@plt>:
+ 804b164:	jmp    DWORD PTR ds:0x804fa40
+ 804b16a:	push   0x30
+ 804b16f:	jmp    804b0f4 <.plt>
+
+0804b174 <_ZN7QWidget4moveEii@plt>:
+ 804b174:	jmp    DWORD PTR ds:0x804fa44
+ 804b17a:	push   0x38
+ 804b17f:	jmp    804b0f4 <.plt>
+
+0804b184 <_ZNK12QPaintDevice7fontMetEP5QFontiPKci@plt>:
+ 804b184:	jmp    DWORD PTR ds:0x804fa48
+ 804b18a:	push   0x40
+ 804b18f:	jmp    804b0f4 <.plt>
+
+0804b194 <_ZN7QWidget19setBackgroundPixmapERK7QPixmap@plt>:
+ 804b194:	jmp    DWORD PTR ds:0x804fa4c
+ 804b19a:	push   0x48
+ 804b19f:	jmp    804b0f4 <.plt>
+
+0804b1a4 <_ZN7QWidget9setCursorERK7QCursor@plt>:
+ 804b1a4:	jmp    DWORD PTR ds:0x804fa50
+ 804b1aa:	push   0x50
+ 804b1af:	jmp    804b0f4 <.plt>
+
+0804b1b4 <_ZN18QMetaObjectCleanUp13setMetaObjectERP11QMetaObject@plt>:
+ 804b1b4:	jmp    DWORD PTR ds:0x804fa54
+ 804b1ba:	push   0x58
+ 804b1bf:	jmp    804b0f4 <.plt>
+
+0804b1c4 <_ZN7QWidget7setMaskERK7QBitmap@plt>:
+ 804b1c4:	jmp    DWORD PTR ds:0x804fa58
+ 804b1ca:	push   0x60
+ 804b1cf:	jmp    804b0f4 <.plt>
+
+0804b1d4 <_ZN7QWidget15keyReleaseEventEP9QKeyEvent@plt>:
+ 804b1d4:	jmp    DWORD PTR ds:0x804fa5c
+ 804b1da:	push   0x68
+ 804b1df:	jmp    804b0f4 <.plt>
+
+0804b1e4 <_ZN10KAboutDataC1EPKcS1_S1_S1_iS1_S1_S1_S1_@plt>:
+ 804b1e4:	jmp    DWORD PTR ds:0x804fa60
+ 804b1ea:	push   0x70
+ 804b1ef:	jmp    804b0f4 <.plt>
+
+0804b1f4 <_ZN11KPushButtonC1EP7QWidgetPKc@plt>:
+ 804b1f4:	jmp    DWORD PTR ds:0x804fa64
+ 804b1fa:	push   0x78
+ 804b1ff:	jmp    804b0f4 <.plt>
+
+0804b204 <_ZN7QWidget11qt_propertyEiiP8QVariant@plt>:
+ 804b204:	jmp    DWORD PTR ds:0x804fa68
+ 804b20a:	push   0x80
+ 804b20f:	jmp    804b0f4 <.plt>
+
+0804b214 <_ZN18QMetaObjectCleanUpD1Ev@plt>:
+ 804b214:	jmp    DWORD PTR ds:0x804fa6c
+ 804b21a:	push   0x88
+ 804b21f:	jmp    804b0f4 <.plt>
+
+0804b224 <_ZN7QPixmapaSERK6QImage@plt>:
+ 804b224:	jmp    DWORD PTR ds:0x804fa70
+ 804b22a:	push   0x90
+ 804b22f:	jmp    804b0f4 <.plt>
+
+0804b234 <_ZN7QWidget10setEnabledEb@plt>:
+ 804b234:	jmp    DWORD PTR ds:0x804fa74
+ 804b23a:	push   0x98
+ 804b23f:	jmp    804b0f4 <.plt>
+
+0804b244 <_ZN7QWidget15mousePressEventEP11QMouseEvent@plt>:
+ 804b244:	jmp    DWORD PTR ds:0x804fa78
+ 804b24a:	push   0xa0
+ 804b24f:	jmp    804b0f4 <.plt>
+
+0804b254 <_ZN7QWidget13setEraseColorERK6QColor@plt>:
+ 804b254:	jmp    DWORD PTR ds:0x804fa7c
+ 804b25a:	push   0xa8
+ 804b25f:	jmp    804b0f4 <.plt>
+
+0804b264 <_ZN7QObject11customEventEP12QCustomEvent@plt>:
+ 804b264:	jmp    DWORD PTR ds:0x804fa80
+ 804b26a:	push   0xb0
+ 804b26f:	jmp    804b0f4 <.plt>
+
+0804b274 <_ZN7QWidget11setAutoMaskEb@plt>:
+ 804b274:	jmp    DWORD PTR ds:0x804fa84
+ 804b27a:	push   0xb8
+ 804b27f:	jmp    804b0f4 <.plt>
+
+0804b284 <_ZN7QWidget4showEv@plt>:
+ 804b284:	jmp    DWORD PTR ds:0x804fa88
+ 804b28a:	push   0xc0
+ 804b28f:	jmp    804b0f4 <.plt>
+
+0804b294 <_ZN7QWidget14imComposeEventEP8QIMEvent@plt>:
+ 804b294:	jmp    DWORD PTR ds:0x804fa8c
+ 804b29a:	push   0xc8
+ 804b29f:	jmp    804b0f4 <.plt>
+
+0804b2a4 <_ZN7QWidget16setSizeIncrementEii@plt>:
+ 804b2a4:	jmp    DWORD PTR ds:0x804fa90
+ 804b2aa:	push   0xd0
+ 804b2af:	jmp    804b0f4 <.plt>
+
+0804b2b4 <_ZN7QWidget14setFocusPolicyENS_11FocusPolicyE@plt>:
+ 804b2b4:	jmp    DWORD PTR ds:0x804fa94
+ 804b2ba:	push   0xd8
+ 804b2bf:	jmp    804b0f4 <.plt>
+
+0804b2c4 <_ZN7QWidget8setFocusEv@plt>:
+ 804b2c4:	jmp    DWORD PTR ds:0x804fa98
+ 804b2ca:	push   0xe0
+ 804b2cf:	jmp    804b0f4 <.plt>
+
+0804b2d4 <_ZN7QWidget18focusNextPrevChildEb@plt>:
+ 804b2d4:	jmp    DWORD PTR ds:0x804fa9c
+ 804b2da:	push   0xe8
+ 804b2df:	jmp    804b0f4 <.plt>
+
+0804b2e4 <_ZN14QPtrCollection7newItemEPv@plt>:
+ 804b2e4:	jmp    DWORD PTR ds:0x804faa0
+ 804b2ea:	push   0xf0
+ 804b2ef:	jmp    804b0f4 <.plt>
+
+0804b2f4 <_ZN7QObject11eventFilterEPS_P6QEvent@plt>:
+ 804b2f4:	jmp    DWORD PTR ds:0x804faa4
+ 804b2fa:	push   0xf8
+ 804b2ff:	jmp    804b0f4 <.plt>
+
+0804b304 <_ZN7QObject7connectEPKS_PKcS1_S3_@plt>:
+ 804b304:	jmp    DWORD PTR ds:0x804faa8
+ 804b30a:	push   0x100
+ 804b30f:	jmp    804b0f4 <.plt>
+
+0804b314 <_ZN7QWidget10imEndEventEP8QIMEvent@plt>:
+ 804b314:	jmp    DWORD PTR ds:0x804faac
+ 804b31a:	push   0x108
+ 804b31f:	jmp    804b0f4 <.plt>
+
+0804b324 <_ZN7QWidget16contextMenuEventEP17QContextMenuEvent@plt>:
+ 804b324:	jmp    DWORD PTR ds:0x804fab0
+ 804b32a:	push   0x110
+ 804b32f:	jmp    804b0f4 <.plt>
+
+0804b334 <_ZN7QWidget13keyPressEventEP9QKeyEvent@plt>:
+ 804b334:	jmp    DWORD PTR ds:0x804fab4
+ 804b33a:	push   0x118
+ 804b33f:	jmp    804b0f4 <.plt>
+
+0804b344 <_ZN7QWidget14setMaximumSizeEii@plt>:
+ 804b344:	jmp    DWORD PTR ds:0x804fab8
+ 804b34a:	push   0x120
+ 804b34f:	jmp    804b0f4 <.plt>
+
+0804b354 <_ZN12KCmdLineArgs17addCmdLineOptionsEPK15KCmdLineOptionsPKcS4_S4_@plt>:
+ 804b354:	jmp    DWORD PTR ds:0x804fabc
+ 804b35a:	push   0x128
+ 804b35f:	jmp    804b0f4 <.plt>
+
+0804b364 <_ZN7QWidget7setNameEPKc@plt>:
+ 804b364:	jmp    DWORD PTR ds:0x804fac0
+ 804b36a:	push   0x130
+ 804b36f:	jmp    804b0f4 <.plt>
+
+0804b374 <_ZN7QWidget13setSizePolicyE11QSizePolicy@plt>:
+ 804b374:	jmp    DWORD PTR ds:0x804fac4
+ 804b37a:	push   0x138
+ 804b37f:	jmp    804b0f4 <.plt>
+
+0804b384 <_ZN6QImage12loadFromDataEPKhjPKc@plt>:
+ 804b384:	jmp    DWORD PTR ds:0x804fac8
+ 804b38a:	push   0x140
+ 804b38f:	jmp    804b0f4 <.plt>
+
+0804b394 <_ZNK7QWidget6metricEi@plt>:
+ 804b394:	jmp    DWORD PTR ds:0x804facc
+ 804b39a:	push   0x148
+ 804b39f:	jmp    804b0f4 <.plt>
+
+0804b3a4 <_ZN7QWidget13paletteChangeERK8QPalette@plt>:
+ 804b3a4:	jmp    DWORD PTR ds:0x804fad0
+ 804b3aa:	push   0x150
+ 804b3af:	jmp    804b0f4 <.plt>
+
+0804b3b4 <_ZN6QGListD1Ev@plt>:
+ 804b3b4:	jmp    DWORD PTR ds:0x804fad4
+ 804b3ba:	push   0x158
+ 804b3bf:	jmp    804b0f4 <.plt>
+
+0804b3c4 <__cxa_atexit@plt>:
+ 804b3c4:	jmp    DWORD PTR ds:0x804fad8
+ 804b3ca:	push   0x160
+ 804b3cf:	jmp    804b0f4 <.plt>
+
+0804b3d4 <_ZN7QWidget12focusInEventEP11QFocusEvent@plt>:
+ 804b3d4:	jmp    DWORD PTR ds:0x804fadc
+ 804b3da:	push   0x168
+ 804b3df:	jmp    804b0f4 <.plt>
+
+0804b3e4 <_ZN7QWidget13focusOutEventEP11QFocusEvent@plt>:
+ 804b3e4:	jmp    DWORD PTR ds:0x804fae0
+ 804b3ea:	push   0x170
+ 804b3ef:	jmp    804b0f4 <.plt>
+
+0804b3f4 <_ZN7QWidget14setMinimumSizeEii@plt>:
+ 804b3f4:	jmp    DWORD PTR ds:0x804fae4
+ 804b3fa:	push   0x178
+ 804b3ff:	jmp    804b0f4 <.plt>
+
+0804b404 <_ZN7QWidget10closeEventEP11QCloseEvent@plt>:
+ 804b404:	jmp    DWORD PTR ds:0x804fae8
+ 804b40a:	push   0x180
+ 804b40f:	jmp    804b0f4 <.plt>
+
+0804b414 <_ZNK7QWidget10sizePolicyEv@plt>:
+ 804b414:	jmp    DWORD PTR ds:0x804faec
+ 804b41a:	push   0x188
+ 804b41f:	jmp    804b0f4 <.plt>
+
+0804b424 <_ZN7QWidget10enterEventEP6QEvent@plt>:
+ 804b424:	jmp    DWORD PTR ds:0x804faf0
+ 804b42a:	push   0x190
+ 804b42f:	jmp    804b0f4 <.plt>
+
+0804b434 <_ZN7QWidget19setBackgroundOriginENS_16BackgroundOriginE@plt>:
+ 804b434:	jmp    DWORD PTR ds:0x804faf4
+ 804b43a:	push   0x198
+ 804b43f:	jmp    804b0f4 <.plt>
+
+0804b444 <_ZN7QWidget10updateMaskEv@plt>:
+ 804b444:	jmp    DWORD PTR ds:0x804faf8
+ 804b44a:	push   0x1a0
+ 804b44f:	jmp    804b0f4 <.plt>
+
+0804b454 <_ZN7QWidget17setKeyCompressionEb@plt>:
+ 804b454:	jmp    DWORD PTR ds:0x804fafc
+ 804b45a:	push   0x1a8
+ 804b45f:	jmp    804b0f4 <.plt>
+
+0804b464 <_ZN7QObject10childEventEP11QChildEvent@plt>:
+ 804b464:	jmp    DWORD PTR ds:0x804fb00
+ 804b46a:	push   0x1b0
+ 804b46f:	jmp    804b0f4 <.plt>
+
+0804b474 <_ZN11KMessageBox11informationEP7QWidgetRK7QStringS4_S4_i@plt>:
+ 804b474:	jmp    DWORD PTR ds:0x804fb04
+ 804b47a:	push   0x1b8
+ 804b47f:	jmp    804b0f4 <.plt>
+
+0804b484 <_ZN7QWidget7setIconERK7QPixmap@plt>:
+ 804b484:	jmp    DWORD PTR ds:0x804fb08
+ 804b48a:	push   0x1c0
+ 804b48f:	jmp    804b0f4 <.plt>
+
+0804b494 <_ZN7QWidget8reparentEPS_jRK6QPointb@plt>:
+ 804b494:	jmp    DWORD PTR ds:0x804fb0c
+ 804b49a:	push   0x1c8
+ 804b49f:	jmp    804b0f4 <.plt>
+
+0804b4a4 <_ZN7QWidget9hideEventEP10QHideEvent@plt>:
+ 804b4a4:	jmp    DWORD PTR ds:0x804fb10
+ 804b4aa:	push   0x1d0
+ 804b4af:	jmp    804b0f4 <.plt>
+
+0804b4b4 <_ZN7QString8fromUtf8EPKci@plt>:
+ 804b4b4:	jmp    DWORD PTR ds:0x804fb14
+ 804b4ba:	push   0x1d8
+ 804b4bf:	jmp    804b0f4 <.plt>
+
+0804b4c4 <_ZN7QWidget7setFontERK5QFont@plt>:
+ 804b4c4:	jmp    DWORD PTR ds:0x804fb18
+ 804b4ca:	push   0x1e0
+ 804b4cf:	jmp    804b0f4 <.plt>
+
+0804b4d4 <_ZN12QApplication4execEv@plt>:
+ 804b4d4:	jmp    DWORD PTR ds:0x804fb1c
+ 804b4da:	push   0x1e8
+ 804b4df:	jmp    804b0f4 <.plt>
+
+0804b4e4 <_ZN7QWidget17setUpdatesEnabledEb@plt>:
+ 804b4e4:	jmp    DWORD PTR ds:0x804fb20
+ 804b4ea:	push   0x1f0
+ 804b4ef:	jmp    804b0f4 <.plt>
+
+0804b4f4 <_ZN7QWidget13showMaximizedEv@plt>:
+ 804b4f4:	jmp    DWORD PTR ds:0x804fb24
+ 804b4fa:	push   0x1f8
+ 804b4ff:	jmp    804b0f4 <.plt>
+
+0804b504 <_ZN7QString10fromLatin1EPKci@plt>:
+ 804b504:	jmp    DWORD PTR ds:0x804fb28
+ 804b50a:	push   0x200
+ 804b50f:	jmp    804b0f4 <.plt>
+
+0804b514 <_ZN7QWidget25setPaletteBackgroundColorERK6QColor@plt>:
+ 804b514:	jmp    DWORD PTR ds:0x804fb2c
+ 804b51a:	push   0x208
+ 804b51f:	jmp    804b0f4 <.plt>
+
+0804b524 <_ZN7QWidget17mouseReleaseEventEP11QMouseEvent@plt>:
+ 804b524:	jmp    DWORD PTR ds:0x804fb30
+ 804b52a:	push   0x210
+ 804b52f:	jmp    804b0f4 <.plt>
+
+0804b534 <_ZN7QWidget13setFocusProxyEPS_@plt>:
+ 804b534:	jmp    DWORD PTR ds:0x804fb34
+ 804b53a:	push   0x218
+ 804b53f:	jmp    804b0f4 <.plt>
+
+0804b544 <_ZN7QWidget7qt_emitEiP8QUObject@plt>:
+ 804b544:	jmp    DWORD PTR ds:0x804fb38
+ 804b54a:	push   0x220
+ 804b54f:	jmp    804b0f4 <.plt>
+
+0804b554 <_ZN7QWidget13showMinimizedEv@plt>:
+ 804b554:	jmp    DWORD PTR ds:0x804fb3c
+ 804b55a:	push   0x228
+ 804b55f:	jmp    804b0f4 <.plt>
+
+0804b564 <_ZN7QWidget13dragMoveEventEP14QDragMoveEvent@plt>:
+ 804b564:	jmp    DWORD PTR ds:0x804fb40
+ 804b56a:	push   0x230
+ 804b56f:	jmp    804b0f4 <.plt>
+
+0804b574 <_ZN11QStringData10deleteSelfEv@plt>:
+ 804b574:	jmp    DWORD PTR ds:0x804fb44
+ 804b57a:	push   0x238
+ 804b57f:	jmp    804b0f4 <.plt>
+
+0804b584 <_ZN6QGList12compareItemsEPvS0_@plt>:
+ 804b584:	jmp    DWORD PTR ds:0x804fb48
+ 804b58a:	push   0x240
+ 804b58f:	jmp    804b0f4 <.plt>
+
+0804b594 <_ZNK12QApplication9translateEPKcS1_S1_NS_8EncodingE@plt>:
+ 804b594:	jmp    DWORD PTR ds:0x804fb4c
+ 804b59a:	push   0x248
+ 804b59f:	jmp    804b0f4 <.plt>
+
+0804b5a4 <_ZN7QObject16disconnectNotifyEPKc@plt>:
+ 804b5a4:	jmp    DWORD PTR ds:0x804fb50
+ 804b5aa:	push   0x250
+ 804b5af:	jmp    804b0f4 <.plt>
+
+0804b5b4 <_ZN7QWidget4hideEv@plt>:
+ 804b5b4:	jmp    DWORD PTR ds:0x804fb54
+ 804b5ba:	push   0x258
+ 804b5bf:	jmp    804b0f4 <.plt>
+
+0804b5c4 <_ZN12KCmdLineArgs4initEiPPcPK10KAboutDatab@plt>:
+ 804b5c4:	jmp    DWORD PTR ds:0x804fb58
+ 804b5ca:	push   0x260
+ 804b5cf:	jmp    804b0f4 <.plt>
+
+0804b5d4 <_ZN6QGList4readER11QDataStreamRPv@plt>:
+ 804b5d4:	jmp    DWORD PTR ds:0x804fb5c
+ 804b5da:	push   0x268
+ 804b5df:	jmp    804b0f4 <.plt>
+
+0804b5e4 <_ZN7QWidget5closeEb@plt>:
+ 804b5e4:	jmp    DWORD PTR ds:0x804fb60
+ 804b5ea:	push   0x270
+ 804b5ef:	jmp    804b0f4 <.plt>
+
+0804b5f4 <_ZN7QWidget10paintEventEP11QPaintEvent@plt>:
+ 804b5f4:	jmp    DWORD PTR ds:0x804fb64
+ 804b5fa:	push   0x278
+ 804b5ff:	jmp    804b0f4 <.plt>
+
+0804b604 <_ZN7QWidget17setBackgroundModeEN2Qt14BackgroundModeE@plt>:
+ 804b604:	jmp    DWORD PTR ds:0x804fb68
+ 804b60a:	push   0x280
+ 804b60f:	jmp    804b0f4 <.plt>
+
+0804b614 <_ZN12KCmdLineArgs5clearEv@plt>:
+ 804b614:	jmp    DWORD PTR ds:0x804fb6c
+ 804b61a:	push   0x288
+ 804b61f:	jmp    804b0f4 <.plt>
+
+0804b624 <_ZN7QObject11setPropertyEPKcRK8QVariant@plt>:
+ 804b624:	jmp    DWORD PTR ds:0x804fb70
+ 804b62a:	push   0x290
+ 804b62f:	jmp    804b0f4 <.plt>
+
+0804b634 <_ZN12KApplicationC1Ebb@plt>:
+ 804b634:	jmp    DWORD PTR ds:0x804fb74
+ 804b63a:	push   0x298
+ 804b63f:	jmp    804b0f4 <.plt>
+
+0804b644 <_ZN6QGListD0Ev@plt>:
+ 804b644:	jmp    DWORD PTR ds:0x804fb78
+ 804b64a:	push   0x2a0
+ 804b64f:	jmp    804b0f4 <.plt>
+
+0804b654 <_ZN12QKeySequenceD1Ev@plt>:
+ 804b654:	jmp    DWORD PTR ds:0x804fb7c
+ 804b65a:	push   0x2a8
+ 804b65f:	jmp    804b0f4 <.plt>
+
+0804b664 <_ZN7QWidget5eventEP6QEvent@plt>:
+ 804b664:	jmp    DWORD PTR ds:0x804fb80
+ 804b66a:	push   0x2b0
+ 804b66f:	jmp    804b0f4 <.plt>
+
+0804b674 <_ZNK12QPaintDevice7fontInfEP5QFonti@plt>:
+ 804b674:	jmp    DWORD PTR ds:0x804fb84
+ 804b67a:	push   0x2b8
+ 804b67f:	jmp    804b0f4 <.plt>
+
+0804b684 <_ZN7QWidget9showEventEP10QShowEvent@plt>:
+ 804b684:	jmp    DWORD PTR ds:0x804fb88
+ 804b68a:	push   0x2c0
+ 804b68f:	jmp    804b0f4 <.plt>
+
+0804b694 <_ZN6QImageD1Ev@plt>:
+ 804b694:	jmp    DWORD PTR ds:0x804fb8c
+ 804b69a:	push   0x2c8
+ 804b69f:	jmp    804b0f4 <.plt>
+
+0804b6a4 <_ZN7QWidget11styleChangeER6QStyle@plt>:
+ 804b6a4:	jmp    DWORD PTR ds:0x804fb90
+ 804b6aa:	push   0x2d0
+ 804b6af:	jmp    804b0f4 <.plt>
+
+0804b6b4 <_ZN7QWidget21mouseDoubleClickEventEP11QMouseEvent@plt>:
+ 804b6b4:	jmp    DWORD PTR ds:0x804fb94
+ 804b6ba:	push   0x2d8
+ 804b6bf:	jmp    804b0f4 <.plt>
+
+0804b6c4 <_ZN7QObject11removeChildEPS_@plt>:
+ 804b6c4:	jmp    DWORD PTR ds:0x804fb98
+ 804b6ca:	push   0x2e0
+ 804b6cf:	jmp    804b0f4 <.plt>
+
+0804b6d4 <_ZN7QWidget10wheelEventEP11QWheelEvent@plt>:
+ 804b6d4:	jmp    DWORD PTR ds:0x804fb9c
+ 804b6da:	push   0x2e8
+ 804b6df:	jmp    804b0f4 <.plt>
+
+0804b6e4 <_ZN7QWidget12imStartEventEP8QIMEvent@plt>:
+ 804b6e4:	jmp    DWORD PTR ds:0x804fba0
+ 804b6ea:	push   0x2f0
+ 804b6ef:	jmp    804b0f4 <.plt>
+
+0804b6f4 <_ZN18QMetaObjectCleanUpC1EPKcPFP11QMetaObjectvE@plt>:
+ 804b6f4:	jmp    DWORD PTR ds:0x804fba4
+ 804b6fa:	push   0x2f8
+ 804b6ff:	jmp    804b0f4 <.plt>
+
+0804b704 <_ZNK12QPaintDevice6handleEv@plt>:
+ 804b704:	jmp    DWORD PTR ds:0x804fba8
+ 804b70a:	push   0x300
+ 804b70f:	jmp    804b0f4 <.plt>
+
+0804b714 <_ZNK7QObject8propertyEPKc@plt>:
+ 804b714:	jmp    DWORD PTR ds:0x804fbac
+ 804b71a:	push   0x308
+ 804b71f:	jmp    804b0f4 <.plt>
+
+0804b724 <__libc_start_main@plt>:
+ 804b724:	jmp    DWORD PTR ds:0x804fbb0
+ 804b72a:	push   0x310
+ 804b72f:	jmp    804b0f4 <.plt>
+
+0804b734 <_ZN7QWidget11unsetCursorEv@plt>:
+ 804b734:	jmp    DWORD PTR ds:0x804fbb4
+ 804b73a:	push   0x318
+ 804b73f:	jmp    804b0f4 <.plt>
+
+0804b744 <_ZN12KCmdLineArgs10parsedArgsEPKc@plt>:
+ 804b744:	jmp    DWORD PTR ds:0x804fbb8
+ 804b74a:	push   0x320
+ 804b74f:	jmp    804b0f4 <.plt>
+
+0804b754 <_ZN12QKeySequenceC1ERK7QString@plt>:
+ 804b754:	jmp    DWORD PTR ds:0x804fbbc
+ 804b75a:	push   0x328
+ 804b75f:	jmp    804b0f4 <.plt>
+
+0804b764 <_ZN7QWidget14dragEnterEventEP15QDragEnterEvent@plt>:
+ 804b764:	jmp    DWORD PTR ds:0x804fbc0
+ 804b76a:	push   0x330
+ 804b76f:	jmp    804b0f4 <.plt>
+
+0804b774 <_Znwj@plt>:
+ 804b774:	jmp    DWORD PTR ds:0x804fbc4
+ 804b77a:	push   0x338
+ 804b77f:	jmp    804b0f4 <.plt>
+
+0804b784 <_ZN7QWidget17setMicroFocusHintEiiiibP5QFont@plt>:
+ 804b784:	jmp    DWORD PTR ds:0x804fbc8
+ 804b78a:	push   0x340
+ 804b78f:	jmp    804b0f4 <.plt>
+
+0804b794 <_ZN11QMetaObject14new_metaobjectEPKcPS_PK9QMetaDataiS5_iPK13QMetaPropertyiPK9QMetaEnumiPK10QClassInfoi@plt>:
+ 804b794:	jmp    DWORD PTR ds:0x804fbcc
+ 804b79a:	push   0x348
+ 804b79f:	jmp    804b0f4 <.plt>
+
+0804b7a4 <_ZN12QPaintDevice3cmdEiP8QPainterP13QPDevCmdParam@plt>:
+ 804b7a4:	jmp    DWORD PTR ds:0x804fbd0
+ 804b7aa:	push   0x350
+ 804b7af:	jmp    804b0f4 <.plt>
+
+0804b7b4 <_Z4i18nPKc@plt>:
+ 804b7b4:	jmp    DWORD PTR ds:0x804fbd4
+ 804b7ba:	push   0x358
+ 804b7bf:	jmp    804b0f4 <.plt>
+
+0804b7c4 <_ZN7QWidgetD2Ev@plt>:
+ 804b7c4:	jmp    DWORD PTR ds:0x804fbd8
+ 804b7ca:	push   0x360
+ 804b7cf:	jmp    804b0f4 <.plt>
+
+0804b7d4 <_ZN7QWidget10showNormalEv@plt>:
+ 804b7d4:	jmp    DWORD PTR ds:0x804fbdc
+ 804b7da:	push   0x368
+ 804b7df:	jmp    804b0f4 <.plt>
+
+0804b7e4 <_ZN7QWidget6createEmbb@plt>:
+ 804b7e4:	jmp    DWORD PTR ds:0x804fbe0
+ 804b7ea:	push   0x370
+ 804b7ef:	jmp    804b0f4 <.plt>
+
+0804b7f4 <_ZN7QWidget10leaveEventEP6QEvent@plt>:
+ 804b7f4:	jmp    DWORD PTR ds:0x804fbe4
+ 804b7fa:	push   0x378
+ 804b7ff:	jmp    804b0f4 <.plt>
+
+0804b804 <_ZN7QWidget7setMaskERK7QRegion@plt>:
+ 804b804:	jmp    DWORD PTR ds:0x804fbe8
+ 804b80a:	push   0x380
+ 804b80f:	jmp    804b0f4 <.plt>
+
+0804b814 <_ZN7QWidget14setErasePixmapERK7QPixmap@plt>:
+ 804b814:	jmp    DWORD PTR ds:0x804fbec
+ 804b81a:	push   0x388
+ 804b81f:	jmp    804b0f4 <.plt>
+
+0804b824 <_ZN7QWidget14setAcceptDropsEb@plt>:
+ 804b824:	jmp    DWORD PTR ds:0x804fbf0
+ 804b82a:	push   0x390
+ 804b82f:	jmp    804b0f4 <.plt>
+
+0804b834 <_ZN7QObject10timerEventEP11QTimerEvent@plt>:
+ 804b834:	jmp    DWORD PTR ds:0x804fbf4
+ 804b83a:	push   0x398
+ 804b83f:	jmp    804b0f4 <.plt>
+
+0804b844 <_ZN7QWidget9qt_invokeEiP8QUObject@plt>:
+ 804b844:	jmp    DWORD PTR ds:0x804fbf8
+ 804b84a:	push   0x3a0
+ 804b84f:	jmp    804b0f4 <.plt>
+
+0804b854 <_ZN7QObject11insertChildEPS_@plt>:
+ 804b854:	jmp    DWORD PTR ds:0x804fbfc
+ 804b85a:	push   0x3a8
+ 804b85f:	jmp    804b0f4 <.plt>
+
+0804b864 <_ZN7QWidget14dragLeaveEventEP15QDragLeaveEvent@plt>:
+ 804b864:	jmp    DWORD PTR ds:0x804fc00
+ 804b86a:	push   0x3b0
+ 804b86f:	jmp    804b0f4 <.plt>
+
+0804b874 <_ZN7QPixmapC1Ev@plt>:
+ 804b874:	jmp    DWORD PTR ds:0x804fc04
+ 804b87a:	push   0x3b8
+ 804b87f:	jmp    804b0f4 <.plt>
+
+0804b884 <_ZN7QWidget11setIconTextERK7QString@plt>:
+ 804b884:	jmp    DWORD PTR ds:0x804fc08
+ 804b88a:	push   0x3c0
+ 804b88f:	jmp    804b0f4 <.plt>
+
+0804b894 <_ZN7QWidget15setActiveWindowEv@plt>:
+ 804b894:	jmp    DWORD PTR ds:0x804fc0c
+ 804b89a:	push   0x3c8
+ 804b89f:	jmp    804b0f4 <.plt>
+
+0804b8a4 <_ZN12QPaintDevice13setResolutionEi@plt>:
+ 804b8a4:	jmp    DWORD PTR ds:0x804fc10
+ 804b8aa:	push   0x3d0
+ 804b8af:	jmp    804b0f4 <.plt>
+
+0804b8b4 <_ZN7QWidget10fontChangeERK5QFont@plt>:
+ 804b8b4:	jmp    DWORD PTR ds:0x804fc14
+ 804b8ba:	push   0x3d8
+ 804b8bf:	jmp    804b0f4 <.plt>
+
+0804b8c4 <_ZN7QWidget18setBackgroundColorERK6QColor@plt>:
+ 804b8c4:	jmp    DWORD PTR ds:0x804fc18
+ 804b8ca:	push   0x3e0
+ 804b8cf:	jmp    804b0f4 <.plt>
+
+0804b8d4 <_ZNK7QWidget8sizeHintEv@plt>:
+ 804b8d4:	jmp    DWORD PTR ds:0x804fc1c
+ 804b8da:	push   0x3e8
+ 804b8df:	jmp    804b0f4 <.plt>
+
+0804b8e4 <__cxa_pure_virtual@plt>:
+ 804b8e4:	jmp    DWORD PTR ds:0x804fc20
+ 804b8ea:	push   0x3f0
+ 804b8ef:	jmp    804b0f4 <.plt>
+
+0804b8f4 <_ZN6QImageC1Ev@plt>:
+ 804b8f4:	jmp    DWORD PTR ds:0x804fc24
+ 804b8fa:	push   0x3f8
+ 804b8ff:	jmp    804b0f4 <.plt>
+
+0804b904 <_ZN10KAboutData9addAuthorEPKcS1_S1_S1_@plt>:
+ 804b904:	jmp    DWORD PTR ds:0x804fc28
+ 804b90a:	push   0x400
+ 804b90f:	jmp    804b0f4 <.plt>
+
+0804b914 <_ZNK12QPaintDevice15x11RenderHandleEv@plt>:
+ 804b914:	jmp    DWORD PTR ds:0x804fc2c
+ 804b91a:	push   0x408
+ 804b91f:	jmp    804b0f4 <.plt>
+
+0804b924 <_ZN7QWidget11resizeEventEP12QResizeEvent@plt>:
+ 804b924:	jmp    DWORD PTR ds:0x804fc30
+ 804b92a:	push   0x410
+ 804b92f:	jmp    804b0f4 <.plt>
+
+0804b934 <exit@plt>:
+ 804b934:	jmp    DWORD PTR ds:0x804fc34
+ 804b93a:	push   0x418
+ 804b93f:	jmp    804b0f4 <.plt>
+
+0804b944 <_ZN12QApplication13setMainWidgetEP7QWidget@plt>:
+ 804b944:	jmp    DWORD PTR ds:0x804fc38
+ 804b94a:	push   0x420
+ 804b94f:	jmp    804b0f4 <.plt>
+
+0804b954 <_ZN7QStringC1EPKc@plt>:
+ 804b954:	jmp    DWORD PTR ds:0x804fc3c
+ 804b95a:	push   0x428
+ 804b95f:	jmp    804b0f4 <.plt>
+
+0804b964 <_Z8qWarningPKcz@plt>:
+ 804b964:	jmp    DWORD PTR ds:0x804fc40
+ 804b96a:	push   0x430
+ 804b96f:	jmp    804b0f4 <.plt>
+
+0804b974 <_ZN7QWidget16staticMetaObjectEv@plt>:
+ 804b974:	jmp    DWORD PTR ds:0x804fc44
+ 804b97a:	push   0x438
+ 804b97f:	jmp    804b0f4 <.plt>
+
+0804b984 <_ZNK7QWidget15minimumSizeHintEv@plt>:
+ 804b984:	jmp    DWORD PTR ds:0x804fc48
+ 804b98a:	push   0x440
+ 804b98f:	jmp    804b0f4 <.plt>
+
+0804b994 <_ZN7QWidget10setCaptionERK7QString@plt>:
+ 804b994:	jmp    DWORD PTR ds:0x804fc4c
+ 804b99a:	push   0x448
+ 804b99f:	jmp    804b0f4 <.plt>
+
+0804b9a4 <_ZN7QWidget9moveEventEP10QMoveEvent@plt>:
+ 804b9a4:	jmp    DWORD PTR ds:0x804fc50
+ 804b9aa:	push   0x450
+ 804b9af:	jmp    804b0f4 <.plt>
+
+0804b9b4 <_ZN7QWidget26setPaletteBackgroundPixmapERK7QPixmap@plt>:
+ 804b9b4:	jmp    DWORD PTR ds:0x804fc54
+ 804b9ba:	push   0x458
+ 804b9bf:	jmp    804b0f4 <.plt>
+
+0804b9c4 <_ZN7QWidgetC2EPS_PKcj@plt>:
+ 804b9c4:	jmp    DWORD PTR ds:0x804fc58
+ 804b9ca:	push   0x460
+ 804b9cf:	jmp    804b0f4 <.plt>
+
+0804b9d4 <_ZN7QWidget6resizeEii@plt>:
+ 804b9d4:	jmp    DWORD PTR ds:0x804fc5c
+ 804b9da:	push   0x468
+ 804b9df:	jmp    804b0f4 <.plt>
+
+0804b9e4 <_ZN7QWidget13enabledChangeEb@plt>:
+ 804b9e4:	jmp    DWORD PTR ds:0x804fc60
+ 804b9ea:	push   0x470
+ 804b9ef:	jmp    804b0f4 <.plt>
+
+0804b9f4 <_ZN7QWidget6polishEv@plt>:
+ 804b9f4:	jmp    DWORD PTR ds:0x804fc64
+ 804b9fa:	push   0x478
+ 804b9ff:	jmp    804b0f4 <.plt>
+
+0804ba04 <_ZN7QWidget11tabletEventEP12QTabletEvent@plt>:
+ 804ba04:	jmp    DWORD PTR ds:0x804fc68
+ 804ba0a:	push   0x480
+ 804ba0f:	jmp    804b0f4 <.plt>
+
+0804ba14 <_ZN6QGList5clearEv@plt>:
+ 804ba14:	jmp    DWORD PTR ds:0x804fc6c
+ 804ba1a:	push   0x488
+ 804ba1f:	jmp    804b0f4 <.plt>
+
+0804ba24 <_ZN7QWidget9dropEventEP10QDropEvent@plt>:
+ 804ba24:	jmp    DWORD PTR ds:0x804fc70
+ 804ba2a:	push   0x490
+ 804ba2f:	jmp    804b0f4 <.plt>
+
+0804ba34 <_ZN7QObject13connectNotifyEPKc@plt>:
+ 804ba34:	jmp    DWORD PTR ds:0x804fc74
+ 804ba3a:	push   0x498
+ 804ba3f:	jmp    804b0f4 <.plt>
+
+0804ba44 <_ZN7QWidget14mouseMoveEventEP11QMouseEvent@plt>:
+ 804ba44:	jmp    DWORD PTR ds:0x804fc78
+ 804ba4a:	push   0x4a0
+ 804ba4f:	jmp    804b0f4 <.plt>
+
+0804ba54 <_ZN7QWidget8x11EventEP7_XEvent@plt>:
+ 804ba54:	jmp    DWORD PTR ds:0x804fc7c
+ 804ba5a:	push   0x4a8
+ 804ba5f:	jmp    804b0f4 <.plt>
+
+0804ba64 <_ZN10KAboutDataD1Ev@plt>:
+ 804ba64:	jmp    DWORD PTR ds:0x804fc80
+ 804ba6a:	push   0x4b0
+ 804ba6f:	jmp    804b0f4 <.plt>
+
+0804ba74 <_ZN7QWidget11setGeometryEiiii@plt>:
+ 804ba74:	jmp    DWORD PTR ds:0x804fc84
+ 804ba7a:	push   0x4b8
+ 804ba7f:	jmp    804b0f4 <.plt>
+
+0804ba84 <_ZN7QWidget16setMouseTrackingEb@plt>:
+ 804ba84:	jmp    DWORD PTR ds:0x804fc88
+ 804ba8a:	push   0x4c0
+ 804ba8f:	jmp    804b0f4 <.plt>
+
+0804ba94 <_ZN7QWidget7qt_castEPKc@plt>:
+ 804ba94:	jmp    DWORD PTR ds:0x804fc8c
+ 804ba9a:	push   0x4c8
+ 804ba9f:	jmp    804b0f4 <.plt>
+
+0804baa4 <_ZN7QWidget7destroyEbb@plt>:
+ 804baa4:	jmp    DWORD PTR ds:0x804fc90
+ 804baaa:	push   0x4d0
+ 804baaf:	jmp    804b0f4 <.plt>
+
+0804bab4 <_ZN6QLabelC1EP7QWidgetPKcj@plt>:
+ 804bab4:	jmp    DWORD PTR ds:0x804fc94
+ 804baba:	push   0x4d8
+ 804babf:	jmp    804b0f4 <.plt>
+
+0804bac4 <_ZN7QObject16checkConnectArgsEPKcPKS_S1_@plt>:
+ 804bac4:	jmp    DWORD PTR ds:0x804fc98
+ 804baca:	push   0x4e0
+ 804bacf:	jmp    804b0f4 <.plt>
+
+0804bad4 <_ZNK7QWidget14heightForWidthEi@plt>:
+ 804bad4:	jmp    DWORD PTR ds:0x804fc9c
+ 804bada:	push   0x4e8
+ 804badf:	jmp    804b0f4 <.plt>
+
+0804bae4 <_ZN12KApplicationD1Ev@plt>:
+ 804bae4:	jmp    DWORD PTR ds:0x804fca0
+ 804baea:	push   0x4f0
+ 804baef:	jmp    804b0f4 <.plt>
+
+0804baf4 <_ZN12QPaintDevice10setX11DataEPK19QPaintDeviceX11Data@plt>:
+ 804baf4:	jmp    DWORD PTR ds:0x804fca4
+ 804bafa:	push   0x4f8
+ 804baff:	jmp    804b0f4 <.plt>
+
+0804bb04 <_ZdlPv@plt>:
+ 804bb04:	jmp    DWORD PTR ds:0x804fca8
+ 804bb0a:	push   0x500
+ 804bb0f:	jmp    804b0f4 <.plt>
+
+0804bb14 <_ZN7QWidget22windowActivationChangeEb@plt>:
+ 804bb14:	jmp    DWORD PTR ds:0x804fcac
+ 804bb1a:	push   0x508
+ 804bb1f:	jmp    804b0f4 <.plt>
+
+0804bb24 <__gmon_start__@plt>:
+ 804bb24:	jmp    DWORD PTR ds:0x804fcb0
+ 804bb2a:	push   0x510
+ 804bb2f:	jmp    804b0f4 <.plt>
+
+Disassembly of section .text:
+
+0804bb40 <_start>:
+ 804bb40:	xor    ebp,ebp
+ 804bb42:	pop    esi
+ 804bb43:	mov    ecx,esp
+ 804bb45:	and    esp,0xfffffff0
+ 804bb48:	push   eax
+ 804bb49:	push   esp
+ 804bb4a:	push   edx
+ 804bb4b:	push   0x804cf10
+ 804bb50:	push   0x804cf60
+ 804bb55:	push   ecx
+ 804bb56:	push   esi
+ 804bb57:	push   0x804bbf0
+ 804bb5c:	call   804b724 <__libc_start_main@plt>
+ 804bb61:	hlt
+ 804bb62:	nop
+ 804bb63:	nop
+
+0804bb64 <call_gmon_start>:
+ 804bb64:	push   ebp
+ 804bb65:	mov    ebp,esp
+ 804bb67:	push   ebx
+ 804bb68:	sub    esp,0x4
+ 804bb6b:	call   804bb70 <call_gmon_start+0xc>
+ 804bb70:	pop    ebx
+ 804bb71:	add    ebx,0x3eac
+ 804bb77:	mov    edx,DWORD PTR [ebx-0x4]
+ 804bb7d:	test   edx,edx
+ 804bb7f:	je     804bb86 <call_gmon_start+0x22>
+ 804bb81:	call   804bb24 <__gmon_start__@plt>
+ 804bb86:	pop    eax
+ 804bb87:	pop    ebx
+ 804bb88:	leave
+ 804bb89:	ret
+ 804bb8a:	nop
+ 804bb8b:	nop
+ 804bb8c:	nop
+ 804bb8d:	nop
+ 804bb8e:	nop
+ 804bb8f:	nop
+
+0804bb90 <__do_global_dtors_aux>:
+ 804bb90:	push   ebp
+ 804bb91:	mov    ebp,esp
+ 804bb93:	sub    esp,0x8
+ 804bb96:	cmp    BYTE PTR ds:0x804fd24,0x0
+ 804bb9d:	je     804bbab <__do_global_dtors_aux+0x1b>
+ 804bb9f:	jmp    804bbbd <__do_global_dtors_aux+0x2d>
+ 804bba1:	add    eax,0x4
+ 804bba4:	mov    ds:0x804fcbc,eax
+ 804bba9:	call   edx
+ 804bbab:	mov    eax,ds:0x804fcbc
+ 804bbb0:	mov    edx,DWORD PTR [eax]
+ 804bbb2:	test   edx,edx
+ 804bbb4:	jne    804bba1 <__do_global_dtors_aux+0x11>
+ 804bbb6:	mov    BYTE PTR ds:0x804fd24,0x1
+ 804bbbd:	leave
+ 804bbbe:	ret
+ 804bbbf:	nop
+
+0804bbc0 <frame_dummy>:
+ 804bbc0:	push   ebp
+ 804bbc1:	mov    ebp,esp
+ 804bbc3:	sub    esp,0x8
+ 804bbc6:	mov    eax,ds:0x804f84c
+ 804bbcb:	test   eax,eax
+ 804bbcd:	je     804bbe1 <frame_dummy+0x21>
+ 804bbcf:	mov    eax,0x0
+ 804bbd4:	test   eax,eax
+ 804bbd6:	je     804bbe1 <frame_dummy+0x21>
+ 804bbd8:	mov    DWORD PTR [esp],0x804f84c
+ 804bbdf:	call   eax
+ 804bbe1:	leave
+ 804bbe2:	ret
+ 804bbe3:	nop
+ 804bbe4:	nop
+ 804bbe5:	nop
+ 804bbe6:	nop
+ 804bbe7:	nop
+ 804bbe8:	nop
+ 804bbe9:	nop
+ 804bbea:	nop
+ 804bbeb:	nop
+ 804bbec:	nop
+ 804bbed:	nop
+ 804bbee:	nop
+ 804bbef:	nop
+
+0804bbf0 <main>:
+ 804bbf0:	lea    ecx,[esp+0x4]
+ 804bbf4:	and    esp,0xfffffff0
+ 804bbf7:	push   DWORD PTR [ecx-0x4]
+ 804bbfa:	xor    eax,eax
+ 804bbfc:	mov    edx,0x804d028
+ 804bc01:	push   ebp
+ 804bc02:	mov    ebp,esp
+ 804bc04:	push   edi
+ 804bc05:	mov    edi,0x804d04d
+ 804bc0a:	push   esi
+ 804bc0b:	push   ebx
+ 804bc0c:	push   ecx
+ 804bc0d:	sub    esp,0x128
+ 804bc13:	mov    esi,DWORD PTR [ecx]
+ 804bc15:	mov    ebx,DWORD PTR [ecx+0x4]
+ 804bc18:	mov    ecx,0x804d04d
+ 804bc1d:	mov    DWORD PTR [esp+0x20],eax
+ 804bc21:	xor    eax,eax
+ 804bc23:	mov    DWORD PTR [esp+0x1c],eax
+ 804bc27:	mov    eax,0x804d03c
+ 804bc2c:	mov    DWORD PTR [esp+0x18],eax
+ 804bc30:	mov    eax,0x1
+ 804bc35:	mov    DWORD PTR [esp+0x14],eax
+ 804bc39:	mov    eax,0x804d0a4
+ 804bc3e:	mov    DWORD PTR [esp+0x10],eax
+ 804bc42:	mov    eax,0x804d0a0
+ 804bc47:	mov    DWORD PTR [esp+0xc],eax
+ 804bc4b:	lea    eax,[ebp-0x44]
+ 804bc4e:	mov    DWORD PTR [esp+0x4],ecx
+ 804bc52:	mov    DWORD PTR [esp+0x24],edx
+ 804bc56:	mov    DWORD PTR [esp+0x8],edi
+ 804bc5a:	xor    edi,edi
+ 804bc5c:	mov    DWORD PTR [esp],eax
+ 804bc5f:	call   804b1e4 <_ZN10KAboutDataC1EPKcS1_S1_S1_iS1_S1_S1_S1_@plt>
+ 804bc64:	mov    eax,0x804d028
+ 804bc69:	xor    edx,edx
+ 804bc6b:	mov    DWORD PTR [esp+0xc],eax
+ 804bc6f:	xor    eax,eax
+ 804bc71:	mov    DWORD PTR [esp+0x8],eax
+ 804bc75:	mov    eax,0x804d045
+ 804bc7a:	mov    DWORD PTR [esp+0x4],eax
+ 804bc7e:	lea    eax,[ebp-0x44]
+ 804bc81:	mov    DWORD PTR [esp+0x10],edx
+ 804bc85:	mov    DWORD PTR [esp],eax
+ 804bc88:	call   804b904 <_ZN10KAboutData9addAuthorEPKcS1_S1_S1_@plt>
+ 804bc8d:	xor    eax,eax
+ 804bc8f:	mov    DWORD PTR [esp+0xc],eax
+ 804bc93:	lea    eax,[ebp-0x44]
+ 804bc96:	mov    DWORD PTR [esp+0x8],eax
+ 804bc9a:	mov    DWORD PTR [esp+0x4],ebx
+ 804bc9e:	mov    ebx,0x1
+ 804bca3:	mov    DWORD PTR [esp],esi
+ 804bca6:	mov    esi,0x1
+ 804bcab:	call   804b5c4 <_ZN12KCmdLineArgs4initEiPPcPK10KAboutDatab@plt>
+ 804bcb0:	xor    eax,eax
+ 804bcb2:	mov    DWORD PTR [esp+0xc],eax
+ 804bcb6:	xor    eax,eax
+ 804bcb8:	mov    DWORD PTR [esp+0x8],eax
+ 804bcbc:	mov    DWORD PTR [esp+0x4],edi
+ 804bcc0:	mov    DWORD PTR [esp],0x804fd28
+ 804bcc7:	call   804b354 <_ZN12KCmdLineArgs17addCmdLineOptionsEPK15KCmdLineOptionsPKcS4_S4_@plt>
+ 804bccc:	mov    DWORD PTR [esp+0x8],esi
+ 804bcd0:	lea    esi,[ebp-0x110]
+ 804bcd6:	mov    DWORD PTR [esp+0x4],ebx
+ 804bcda:	mov    DWORD PTR [esp],esi
+ 804bcdd:	call   804b634 <_ZN12KApplicationC1Ebb@plt>
+ 804bce2:	mov    DWORD PTR [esp],0x0
+ 804bce9:	call   804b744 <_ZN12KCmdLineArgs10parsedArgsEPKc@plt>
+ 804bcee:	mov    DWORD PTR [esp],0x98
+ 804bcf5:	mov    edi,eax
+ 804bcf7:	call   804b774 <_Znwj@plt>
+ 804bcfc:	xor    ecx,ecx
+ 804bcfe:	xor    edx,edx
+ 804bd00:	mov    DWORD PTR [esp+0xc],ecx
+ 804bd04:	mov    DWORD PTR [esp+0x8],edx
+ 804bd08:	mov    ebx,eax
+ 804bd0a:	xor    eax,eax
+ 804bd0c:	mov    DWORD PTR [esp+0x4],eax
+ 804bd10:	mov    DWORD PTR [esp],ebx
+ 804bd13:	call   804c180 <_ZN8enablemeC1EP7QWidgetPKcj>
+ 804bd18:	mov    DWORD PTR [esp+0x4],ebx
+ 804bd1c:	mov    DWORD PTR [esp],esi
+ 804bd1f:	call   804b944 <_ZN12QApplication13setMainWidgetEP7QWidget@plt>
+ 804bd24:	mov    eax,DWORD PTR [ebx]
+ 804bd26:	mov    DWORD PTR [esp],ebx
+ 804bd29:	call   DWORD PTR [eax+0xbc]
+ 804bd2f:	mov    DWORD PTR [esp],edi
+ 804bd32:	call   804b614 <_ZN12KCmdLineArgs5clearEv@plt>
+ 804bd37:	mov    DWORD PTR [esp],esi
+ 804bd3a:	call   804b4d4 <_ZN12QApplication4execEv@plt>
+ 804bd3f:	mov    DWORD PTR [esp],esi
+ 804bd42:	mov    ebx,eax
+ 804bd44:	call   804bae4 <_ZN12KApplicationD1Ev@plt>
+ 804bd49:	lea    eax,[ebp-0x44]
+ 804bd4c:	mov    DWORD PTR [esp],eax
+ 804bd4f:	call   804ba64 <_ZN10KAboutDataD1Ev@plt>
+ 804bd54:	add    esp,0x128
+ 804bd5a:	mov    eax,ebx
+ 804bd5c:	pop    ecx
+ 804bd5d:	pop    ebx
+ 804bd5e:	pop    esi
+ 804bd5f:	pop    edi
+ 804bd60:	pop    ebp
+ 804bd61:	lea    esp,[ecx-0x4]
+ 804bd64:	ret
+ 804bd65:	nop
+ 804bd66:	nop
+ 804bd67:	nop
+ 804bd68:	nop
+ 804bd69:	nop
+ 804bd6a:	nop
+ 804bd6b:	nop
+ 804bd6c:	nop
+ 804bd6d:	nop
+ 804bd6e:	nop
+ 804bd6f:	nop
+
+0804bd70 <_ZNK6QGList5countEv>:
+ 804bd70:	push   ebp
+ 804bd71:	mov    ebp,esp
+ 804bd73:	mov    eax,DWORD PTR [ebp+0x8]
+ 804bd76:	pop    ebp
+ 804bd77:	mov    eax,DWORD PTR [eax+0x18]
+ 804bd7a:	ret
+ 804bd7b:	nop
+ 804bd7c:	nop
+ 804bd7d:	nop
+ 804bd7e:	nop
+ 804bd7f:	nop
+
+0804bd80 <_ZNK8enableme9classNameEv>:
+ 804bd80:	push   ebp
+ 804bd81:	mov    eax,0x804d04d
+ 804bd86:	mov    ebp,esp
+ 804bd88:	pop    ebp
+ 804bd89:	ret
+ 804bd8a:	lea    esi,[esi+0x0]
+
+0804bd90 <_ZN8enableme18qt_static_propertyEP7QObjectiiP8QVariant>:
+ 804bd90:	push   ebp
+ 804bd91:	xor    eax,eax
+ 804bd93:	mov    ebp,esp
+ 804bd95:	pop    ebp
+ 804bd96:	ret
+ 804bd97:	nop
+ 804bd98:	nop
+ 804bd99:	lea    esi,[esi+eiz*1+0x0]
+
+0804bda0 <_Z41__static_initialization_and_destruction_0ii>:
+ 804bda0:	push   ebp
+ 804bda1:	mov    ebp,esp
+ 804bda3:	sub    esp,0x18
+ 804bda6:	dec    eax
+ 804bda7:	je     804bdb0 <_Z41__static_initialization_and_destruction_0ii+0x10>
+ 804bda9:	leave
+ 804bdaa:	ret
+ 804bdab:	nop
+ 804bdac:	lea    esi,[esi+eiz*1+0x0]
+ 804bdb0:	cmp    edx,0xffff
+ 804bdb6:	jne    804bda9 <_Z41__static_initialization_and_destruction_0ii+0x9>
+ 804bdb8:	mov    eax,0x804bee0
+ 804bdbd:	mov    ecx,0x804d04d
+ 804bdc2:	mov    DWORD PTR [esp+0x8],eax
+ 804bdc6:	mov    DWORD PTR [esp+0x4],ecx
+ 804bdca:	mov    DWORD PTR [esp],0x804fd38
+ 804bdd1:	call   804b6f4 <_ZN18QMetaObjectCleanUpC1EPKcPFP11QMetaObjectvE@plt>
+ 804bdd6:	mov    edx,0x804fcb8
+ 804bddb:	xor    eax,eax
+ 804bddd:	mov    DWORD PTR [esp+0x8],edx
+ 804bde1:	mov    DWORD PTR [esp+0x4],eax
+ 804bde5:	mov    DWORD PTR [esp],0x804be10
+ 804bdec:	call   804b3c4 <__cxa_atexit@plt>
+ 804bdf1:	leave
+ 804bdf2:	ret
+ 804bdf3:	nop
+ 804bdf4:	lea    esi,[esi+0x0]
+ 804bdfa:	lea    edi,[edi+0x0]
+
+0804be00 <_GLOBAL__I__ZN8enablemeC2EP7QWidgetPKcj>:
+ 804be00:	push   ebp
+ 804be01:	mov    edx,0xffff
+ 804be06:	mov    ebp,esp
+ 804be08:	mov    eax,0x1
+ 804be0d:	pop    ebp
+ 804be0e:	jmp    804bda0 <_Z41__static_initialization_and_destruction_0ii>
+
+0804be10 <__tcf_0>:
+ 804be10:	push   ebp
+ 804be11:	mov    ebp,esp
+ 804be13:	mov    DWORD PTR [ebp+0x8],0x804fd38
+ 804be1a:	pop    ebp
+ 804be1b:	jmp    804b214 <_ZN18QMetaObjectCleanUpD1Ev@plt>
+
+0804be20 <_ZN8enableme11qt_propertyEiiP8QVariant>:
+ 804be20:	push   ebp
+ 804be21:	mov    ebp,esp
+ 804be23:	sub    esp,0x18
+ 804be26:	mov    eax,DWORD PTR [ebp+0x14]
+ 804be29:	mov    DWORD PTR [esp+0xc],eax
+ 804be2d:	mov    eax,DWORD PTR [ebp+0x10]
+ 804be30:	mov    DWORD PTR [esp+0x8],eax
+ 804be34:	mov    eax,DWORD PTR [ebp+0xc]
+ 804be37:	mov    DWORD PTR [esp+0x4],eax
+ 804be3b:	mov    eax,DWORD PTR [ebp+0x8]
+ 804be3e:	mov    DWORD PTR [esp],eax
+ 804be41:	call   804c410 <_ZN5Form111qt_propertyEiiP8QVariant>
+ 804be46:	leave
+ 804be47:	movzx  eax,al
+ 804be4a:	ret
+ 804be4b:	nop
+ 804be4c:	lea    esi,[esi+eiz*1+0x0]
+
+0804be50 <_ZN8enableme7qt_emitEiP8QUObject>:
+ 804be50:	push   ebp
+ 804be51:	mov    ebp,esp
+ 804be53:	sub    esp,0x18
+ 804be56:	mov    eax,DWORD PTR [ebp+0x10]
+ 804be59:	mov    DWORD PTR [esp+0x8],eax
+ 804be5d:	mov    eax,DWORD PTR [ebp+0xc]
+ 804be60:	mov    DWORD PTR [esp+0x4],eax
+ 804be64:	mov    eax,DWORD PTR [ebp+0x8]
+ 804be67:	mov    DWORD PTR [esp],eax
+ 804be6a:	call   804c440 <_ZN5Form17qt_emitEiP8QUObject>
+ 804be6f:	leave
+ 804be70:	movzx  eax,al
+ 804be73:	ret
+ 804be74:	lea    esi,[esi+0x0]
+ 804be7a:	lea    edi,[edi+0x0]
+
+0804be80 <_ZN8enableme7qt_castEPKc>:
+ 804be80:	push   ebp
+ 804be81:	mov    ebp,esp
+ 804be83:	sub    esp,0x10
+ 804be86:	mov    eax,DWORD PTR [ebp+0xc]
+ 804be89:	mov    DWORD PTR [ebp-0xc],ebx
+ 804be8c:	mov    ebx,DWORD PTR [ebp+0x8]
+ 804be8f:	mov    DWORD PTR [ebp-0x8],esi
+ 804be92:	mov    DWORD PTR [ebp-0x4],edi
+ 804be95:	test   eax,eax
+ 804be97:	mov    DWORD PTR [ebp-0x10],eax
+ 804be9a:	jne    804beb6 <_ZN8enableme7qt_castEPKc+0x36>
+ 804be9c:	mov    eax,DWORD PTR [ebp-0x10]
+ 804be9f:	mov    DWORD PTR [ebp+0x8],ebx
+ 804bea2:	mov    esi,DWORD PTR [ebp-0x8]
+ 804bea5:	mov    ebx,DWORD PTR [ebp-0xc]
+ 804bea8:	mov    edi,DWORD PTR [ebp-0x4]
+ 804beab:	mov    DWORD PTR [ebp+0xc],eax
+ 804beae:	mov    esp,ebp
+ 804beb0:	pop    ebp
+ 804beb1:	jmp    804c470 <_ZN5Form17qt_castEPKc>
+ 804beb6:	mov    esi,DWORD PTR [ebp-0x10]
+ 804beb9:	mov    eax,0x9
+ 804bebe:	mov    edi,0x804d04d
+ 804bec3:	cld
+ 804bec4:	mov    ecx,eax
+ 804bec6:	repz cmps BYTE PTR ds:[esi],BYTE PTR es:[edi]
+ 804bec8:	jne    804be9c <_ZN8enableme7qt_castEPKc+0x1c>
+ 804beca:	mov    eax,ebx
+ 804becc:	mov    esi,DWORD PTR [ebp-0x8]
+ 804becf:	mov    ebx,DWORD PTR [ebp-0xc]
+ 804bed2:	mov    edi,DWORD PTR [ebp-0x4]
+ 804bed5:	mov    esp,ebp
+ 804bed7:	pop    ebp
+ 804bed8:	ret
+ 804bed9:	nop
+ 804beda:	lea    esi,[esi+0x0]
+
+0804bee0 <_ZN8enableme16staticMetaObjectEv>:
+ 804bee0:	push   ebp
+ 804bee1:	mov    ebp,esp
+ 804bee3:	sub    esp,0x38
+ 804bee6:	mov    eax,ds:0x804fd34
+ 804beeb:	test   eax,eax
+ 804beed:	je     804bef1 <_ZN8enableme16staticMetaObjectEv+0x11>
+ 804beef:	leave
+ 804bef0:	ret
+ 804bef1:	call   804c4d0 <_ZN5Form116staticMetaObjectEv>
+ 804bef6:	xor    ecx,ecx
+ 804bef8:	xor    edx,edx
+ 804befa:	mov    DWORD PTR [esp+0x2c],ecx
+ 804befe:	xor    ecx,ecx
+ 804bf00:	mov    DWORD PTR [esp+0x28],edx
+ 804bf04:	xor    edx,edx
+ 804bf06:	mov    DWORD PTR [esp+0x24],ecx
+ 804bf0a:	xor    ecx,ecx
+ 804bf0c:	mov    DWORD PTR [esp+0x20],edx
+ 804bf10:	xor    edx,edx
+ 804bf12:	mov    DWORD PTR [esp+0x1c],ecx
+ 804bf16:	xor    ecx,ecx
+ 804bf18:	mov    DWORD PTR [esp+0x18],edx
+ 804bf1c:	xor    edx,edx
+ 804bf1e:	mov    DWORD PTR [esp+0x14],ecx
+ 804bf22:	mov    ecx,0x2
+ 804bf27:	mov    DWORD PTR [esp+0x10],edx
+ 804bf2b:	mov    edx,0x804d338
+ 804bf30:	mov    DWORD PTR [esp+0xc],ecx
+ 804bf34:	mov    DWORD PTR [esp+0x8],edx
+ 804bf38:	mov    DWORD PTR [esp+0x4],eax
+ 804bf3c:	mov    DWORD PTR [esp],0x804d04d
+ 804bf43:	call   804b794 <_ZN11QMetaObject14new_metaobjectEPKcPS_PK9QMetaDataiS5_iPK13QMetaPropertyiPK9QMetaEnumiPK10QClassInfoi@plt>
+ 804bf48:	mov    ds:0x804fd34,eax
+ 804bf4d:	mov    eax,0x804fd34
+ 804bf52:	mov    DWORD PTR [esp+0x4],eax
+ 804bf56:	mov    DWORD PTR [esp],0x804fd38
+ 804bf5d:	call   804b1b4 <_ZN18QMetaObjectCleanUp13setMetaObjectERP11QMetaObject@plt>
+ 804bf62:	mov    eax,ds:0x804fd34
+ 804bf67:	leave
+ 804bf68:	ret
+ 804bf69:	nop
+ 804bf6a:	lea    esi,[esi+0x0]
+
+0804bf70 <_ZN8enableme9qt_invokeEiP8QUObject>:
+ 804bf70:	push   ebp
+ 804bf71:	mov    ebp,esp
+ 804bf73:	sub    esp,0x18
+ 804bf76:	mov    DWORD PTR [ebp-0x8],ebx
+ 804bf79:	mov    ebx,DWORD PTR [ebp+0xc]
+ 804bf7c:	mov    DWORD PTR [ebp-0x4],esi
+ 804bf7f:	mov    esi,DWORD PTR [ebp+0x8]
+ 804bf82:	call   804bee0 <_ZN8enableme16staticMetaObjectEv>
+ 804bf87:	mov    edx,ebx
+ 804bf89:	sub    edx,DWORD PTR [eax+0x2c]
+ 804bf8c:	mov    eax,edx
+ 804bf8e:	je     804bfb3 <_ZN8enableme9qt_invokeEiP8QUObject+0x43>
+ 804bf90:	dec    eax
+ 804bf91:	je     804bfd0 <_ZN8enableme9qt_invokeEiP8QUObject+0x60>
+ 804bf93:	mov    eax,DWORD PTR [ebp+0x10]
+ 804bf96:	mov    DWORD PTR [esp+0x4],ebx
+ 804bf9a:	mov    DWORD PTR [esp],esi
+ 804bf9d:	mov    DWORD PTR [esp+0x8],eax
+ 804bfa1:	call   804c560 <_ZN5Form19qt_invokeEiP8QUObject>
+ 804bfa6:	mov    ebx,DWORD PTR [ebp-0x8]
+ 804bfa9:	mov    esi,DWORD PTR [ebp-0x4]
+ 804bfac:	mov    esp,ebp
+ 804bfae:	pop    ebp
+ 804bfaf:	movzx  eax,al
+ 804bfb2:	ret
+ 804bfb3:	mov    eax,DWORD PTR [esi]
+ 804bfb5:	mov    DWORD PTR [esp],esi
+ 804bfb8:	call   DWORD PTR [eax+0x1bc]
+ 804bfbe:	mov    ebx,DWORD PTR [ebp-0x8]
+ 804bfc1:	mov    eax,0x1
+ 804bfc6:	mov    esi,DWORD PTR [ebp-0x4]
+ 804bfc9:	mov    esp,ebp
+ 804bfcb:	pop    ebp
+ 804bfcc:	ret
+ 804bfcd:	lea    esi,[esi+0x0]
+ 804bfd0:	mov    eax,DWORD PTR [esi]
+ 804bfd2:	mov    DWORD PTR [esp],esi
+ 804bfd5:	call   DWORD PTR [eax+0x1b8]
+ 804bfdb:	mov    ebx,DWORD PTR [ebp-0x8]
+ 804bfde:	mov    eax,0x1
+ 804bfe3:	mov    esi,DWORD PTR [ebp-0x4]
+ 804bfe6:	mov    esp,ebp
+ 804bfe8:	pop    ebp
+ 804bfe9:	ret
+ 804bfea:	lea    esi,[esi+0x0]
+
+0804bff0 <_ZN8enableme6trUtf8EPKcS1_>:
+ 804bff0:	push   ebp
+ 804bff1:	mov    ebp,esp
+ 804bff3:	push   ebx
+ 804bff4:	sub    esp,0x24
+ 804bff7:	mov    edx,DWORD PTR ds:0x804fcf0
+ 804bffd:	mov    ebx,DWORD PTR [ebp+0x8]
+ 804c000:	mov    ecx,DWORD PTR [ebp+0xc]
+ 804c003:	test   edx,edx
+ 804c005:	je     804c040 <_ZN8enableme6trUtf8EPKcS1_+0x50>
+ 804c007:	mov    eax,0x1
+ 804c00c:	mov    DWORD PTR [esp+0x14],eax
+ 804c010:	mov    eax,DWORD PTR [ebp+0x10]
+ 804c013:	mov    DWORD PTR [esp],ebx
+ 804c016:	mov    DWORD PTR [esp+0xc],ecx
+ 804c01a:	mov    DWORD PTR [esp+0x4],edx
+ 804c01e:	mov    DWORD PTR [esp+0x10],eax
+ 804c022:	mov    eax,0x804d04d
+ 804c027:	mov    DWORD PTR [esp+0x8],eax
+ 804c02b:	call   804b594 <_ZNK12QApplication9translateEPKcS1_S1_NS_8EncodingE@plt>
+ 804c030:	mov    eax,ebx
+ 804c032:	mov    ebx,DWORD PTR [ebp-0x4]
+ 804c035:	sub    esp,0x4
+ 804c038:	leave
+ 804c039:	ret    0x4
+ 804c03c:	lea    esi,[esi+eiz*1+0x0]
+ 804c040:	mov    eax,0xffffffff
+ 804c045:	mov    DWORD PTR [esp+0x8],eax
+ 804c049:	mov    DWORD PTR [esp],ebx
+ 804c04c:	mov    DWORD PTR [esp+0x4],ecx
+ 804c050:	call   804b4b4 <_ZN7QString8fromUtf8EPKci@plt>
+ 804c055:	mov    eax,ebx
+ 804c057:	mov    ebx,DWORD PTR [ebp-0x4]
+ 804c05a:	sub    esp,0x4
+ 804c05d:	leave
+ 804c05e:	ret    0x4
+ 804c061:	nop
+ 804c062:	lea    esi,[esi+eiz*1+0x0]
+ 804c069:	lea    edi,[edi+eiz*1+0x0]
+
+0804c070 <_ZN8enableme2trEPKcS1_>:
+ 804c070:	push   ebp
+ 804c071:	mov    ebp,esp
+ 804c073:	push   ebx
+ 804c074:	sub    esp,0x24
+ 804c077:	mov    edx,DWORD PTR ds:0x804fcf0
+ 804c07d:	mov    ebx,DWORD PTR [ebp+0x8]
+ 804c080:	mov    ecx,DWORD PTR [ebp+0xc]
+ 804c083:	test   edx,edx
+ 804c085:	je     804c0c0 <_ZN8enableme2trEPKcS1_+0x50>
+ 804c087:	xor    eax,eax
+ 804c089:	mov    DWORD PTR [esp+0x14],eax
+ 804c08d:	mov    eax,DWORD PTR [ebp+0x10]
+ 804c090:	mov    DWORD PTR [esp],ebx
+ 804c093:	mov    DWORD PTR [esp+0xc],ecx
+ 804c097:	mov    DWORD PTR [esp+0x4],edx
+ 804c09b:	mov    DWORD PTR [esp+0x10],eax
+ 804c09f:	mov    eax,0x804d04d
+ 804c0a4:	mov    DWORD PTR [esp+0x8],eax
+ 804c0a8:	call   804b594 <_ZNK12QApplication9translateEPKcS1_S1_NS_8EncodingE@plt>
+ 804c0ad:	mov    eax,ebx
+ 804c0af:	mov    ebx,DWORD PTR [ebp-0x4]
+ 804c0b2:	sub    esp,0x4
+ 804c0b5:	leave
+ 804c0b6:	ret    0x4
+ 804c0b9:	lea    esi,[esi+eiz*1+0x0]
+ 804c0c0:	mov    eax,0xffffffff
+ 804c0c5:	mov    DWORD PTR [esp+0x8],eax
+ 804c0c9:	mov    DWORD PTR [esp],ebx
+ 804c0cc:	mov    DWORD PTR [esp+0x4],ecx
+ 804c0d0:	call   804b504 <_ZN7QString10fromLatin1EPKci@plt>
+ 804c0d5:	mov    eax,ebx
+ 804c0d7:	mov    ebx,DWORD PTR [ebp-0x4]
+ 804c0da:	sub    esp,0x4
+ 804c0dd:	leave
+ 804c0de:	ret    0x4
+ 804c0e1:	nop
+ 804c0e2:	lea    esi,[esi+eiz*1+0x0]
+ 804c0e9:	lea    edi,[edi+eiz*1+0x0]
+
+0804c0f0 <_ZN8enableme10quit_clickEv>:
+ 804c0f0:	push   ebp
+ 804c0f1:	mov    ebp,esp
+ 804c0f3:	sub    esp,0x8
+ 804c0f6:	mov    DWORD PTR [esp],0x0
+ 804c0fd:	call   804b934 <exit@plt>
+ 804c102:	lea    esi,[esi+eiz*1+0x0]
+ 804c109:	lea    edi,[edi+eiz*1+0x0]
+
+0804c110 <_ZN8enablemeD0Ev>:
+ 804c110:	push   ebp
+ 804c111:	mov    ebp,esp
+ 804c113:	push   ebx
+ 804c114:	sub    esp,0x4
+ 804c117:	mov    ebx,DWORD PTR [ebp+0x8]
+ 804c11a:	mov    DWORD PTR [ebx],0x804d128
+ 804c120:	mov    DWORD PTR [ebx+0x28],0x804d2f4
+ 804c127:	mov    DWORD PTR [esp],ebx
+ 804c12a:	call   804c790 <_ZN5Form1D2Ev>
+ 804c12f:	mov    DWORD PTR [ebp+0x8],ebx
+ 804c132:	pop    edx
+ 804c133:	pop    ebx
+ 804c134:	pop    ebp
+ 804c135:	jmp    804bb04 <_ZdlPv@plt>
+ 804c13a:	lea    esi,[esi+0x0]
+
+0804c140 <_ZN8enablemeD1Ev>:
+ 804c140:	push   ebp
+ 804c141:	mov    ebp,esp
+ 804c143:	mov    eax,DWORD PTR [ebp+0x8]
+ 804c146:	mov    DWORD PTR [eax],0x804d128
+ 804c14c:	mov    DWORD PTR [eax+0x28],0x804d2f4
+ 804c153:	pop    ebp
+ 804c154:	jmp    804c790 <_ZN5Form1D2Ev>
+ 804c159:	nop
+ 804c15a:	lea    esi,[esi+0x0]
+
+0804c160 <_ZN8enablemeD2Ev>:
+ 804c160:	push   ebp
+ 804c161:	mov    ebp,esp
+ 804c163:	mov    eax,DWORD PTR [ebp+0x8]
+ 804c166:	mov    DWORD PTR [eax],0x804d128
+ 804c16c:	mov    DWORD PTR [eax+0x28],0x804d2f4
+ 804c173:	pop    ebp
+ 804c174:	jmp    804c790 <_ZN5Form1D2Ev>
+ 804c179:	nop
+ 804c17a:	lea    esi,[esi+0x0]
+
+0804c180 <_ZN8enablemeC1EP7QWidgetPKcj>:
+ 804c180:	push   ebp
+ 804c181:	mov    ebp,esp
+ 804c183:	push   ebx
+ 804c184:	sub    esp,0x14
+ 804c187:	mov    eax,DWORD PTR [ebp+0x14]
+ 804c18a:	mov    ebx,DWORD PTR [ebp+0x8]
+ 804c18d:	mov    DWORD PTR [esp+0xc],eax
+ 804c191:	mov    eax,DWORD PTR [ebp+0x10]
+ 804c194:	mov    DWORD PTR [esp],ebx
+ 804c197:	mov    DWORD PTR [esp+0x8],eax
+ 804c19b:	mov    eax,DWORD PTR [ebp+0xc]
+ 804c19e:	mov    DWORD PTR [esp+0x4],eax
+ 804c1a2:	call   804cc60 <_ZN5Form1C2EP7QWidgetPKcj>
+ 804c1a7:	mov    DWORD PTR [ebx],0x804d128
+ 804c1ad:	mov    DWORD PTR [ebx+0x28],0x804d2f4
+ 804c1b4:	add    esp,0x14
+ 804c1b7:	pop    ebx
+ 804c1b8:	pop    ebp
+ 804c1b9:	ret
+ 804c1ba:	lea    esi,[esi+0x0]
+
+0804c1c0 <_ZN8enablemeC2EP7QWidgetPKcj>:
+ 804c1c0:	push   ebp
+ 804c1c1:	mov    ebp,esp
+ 804c1c3:	push   ebx
+ 804c1c4:	sub    esp,0x14
+ 804c1c7:	mov    eax,DWORD PTR [ebp+0x14]
+ 804c1ca:	mov    ebx,DWORD PTR [ebp+0x8]
+ 804c1cd:	mov    DWORD PTR [esp+0xc],eax
+ 804c1d1:	mov    eax,DWORD PTR [ebp+0x10]
+ 804c1d4:	mov    DWORD PTR [esp],ebx
+ 804c1d7:	mov    DWORD PTR [esp+0x8],eax
+ 804c1db:	mov    eax,DWORD PTR [ebp+0xc]
+ 804c1de:	mov    DWORD PTR [esp+0x4],eax
+ 804c1e2:	call   804cc60 <_ZN5Form1C2EP7QWidgetPKcj>
+ 804c1e7:	mov    DWORD PTR [ebx],0x804d128
+ 804c1ed:	mov    DWORD PTR [ebx+0x28],0x804d2f4
+ 804c1f4:	add    esp,0x14
+ 804c1f7:	pop    ebx
+ 804c1f8:	pop    ebp
+ 804c1f9:	ret
+ 804c1fa:	lea    esi,[esi+0x0]
+
+0804c200 <_ZN8enableme14register_clickEv>:
+ 804c200:	push   ebp
+ 804c201:	mov    ebp,esp
+ 804c203:	push   edi
+ 804c204:	xor    edi,edi
+ 804c206:	push   esi
+ 804c207:	mov    esi,0x804d0bc
+ 804c20c:	push   ebx
+ 804c20d:	mov    ebx,0x804d0e4
+ 804c212:	sub    esp,0x2c
+ 804c215:	mov    DWORD PTR [esp+0x4],edi
+ 804c219:	lea    edi,[ebp-0x18]
+ 804c21c:	mov    DWORD PTR [esp],edi
+ 804c21f:	call   804b954 <_ZN7QStringC1EPKc@plt>
+ 804c224:	mov    DWORD PTR [esp+0x4],esi
+ 804c228:	lea    esi,[ebp-0x14]
+ 804c22b:	mov    DWORD PTR [esp],esi
+ 804c22e:	call   804b954 <_ZN7QStringC1EPKc@plt>
+ 804c233:	mov    DWORD PTR [esp+0x4],ebx
+ 804c237:	lea    ebx,[ebp-0x10]
+ 804c23a:	mov    DWORD PTR [esp],ebx
+ 804c23d:	call   804b954 <_ZN7QStringC1EPKc@plt>
+ 804c242:	mov    eax,DWORD PTR [ebp+0x8]
+ 804c245:	xor    ecx,ecx
+ 804c247:	mov    DWORD PTR [esp+0x10],ecx
+ 804c24b:	mov    DWORD PTR [esp+0xc],edi
+ 804c24f:	mov    DWORD PTR [esp+0x8],esi
+ 804c253:	mov    DWORD PTR [esp],eax
+ 804c256:	mov    DWORD PTR [esp+0x4],ebx
+ 804c25a:	call   804b474 <_ZN11KMessageBox11informationEP7QWidgetRK7QStringS4_S4_i@plt>
+ 804c25f:	mov    edx,DWORD PTR [ebp-0x10]
+ 804c262:	mov    eax,DWORD PTR [edx]
+ 804c264:	dec    eax
+ 804c265:	test   eax,eax
+ 804c267:	mov    DWORD PTR [edx],eax
+ 804c269:	jne    804c280 <_ZN8enableme14register_clickEv+0x80>
+ 804c26b:	cmp    edx,DWORD PTR ds:0x804fce0
+ 804c271:	je     804c280 <_ZN8enableme14register_clickEv+0x80>
+ 804c273:	mov    DWORD PTR [esp],edx
+ 804c276:	call   804b574 <_ZN11QStringData10deleteSelfEv@plt>
+ 804c27b:	nop
+ 804c27c:	lea    esi,[esi+eiz*1+0x0]
+ 804c280:	mov    edx,DWORD PTR [ebp-0x14]
+ 804c283:	mov    eax,DWORD PTR [edx]
+ 804c285:	dec    eax
+ 804c286:	test   eax,eax
+ 804c288:	mov    DWORD PTR [edx],eax
+ 804c28a:	jne    804c2a0 <_ZN8enableme14register_clickEv+0xa0>
+ 804c28c:	cmp    edx,DWORD PTR ds:0x804fce0
+ 804c292:	je     804c2a0 <_ZN8enableme14register_clickEv+0xa0>
+ 804c294:	mov    DWORD PTR [esp],edx
+ 804c297:	call   804b574 <_ZN11QStringData10deleteSelfEv@plt>
+ 804c29c:	lea    esi,[esi+eiz*1+0x0]
+ 804c2a0:	mov    edx,DWORD PTR [ebp-0x18]
+ 804c2a3:	mov    eax,DWORD PTR [edx]
+ 804c2a5:	dec    eax
+ 804c2a6:	test   eax,eax
+ 804c2a8:	mov    DWORD PTR [edx],eax
+ 804c2aa:	jne    804c2c0 <_ZN8enableme14register_clickEv+0xc0>
+ 804c2ac:	cmp    edx,DWORD PTR ds:0x804fce0
+ 804c2b2:	je     804c2c0 <_ZN8enableme14register_clickEv+0xc0>
+ 804c2b4:	mov    DWORD PTR [esp],edx
+ 804c2b7:	call   804b574 <_ZN11QStringData10deleteSelfEv@plt>
+ 804c2bc:	lea    esi,[esi+eiz*1+0x0]
+ 804c2c0:	mov    DWORD PTR [esp],0x0
+ 804c2c7:	call   804b934 <exit@plt>
+ 804c2cc:	nop
+ 804c2cd:	nop
+ 804c2ce:	nop
+ 804c2cf:	nop
+
+0804c2d0 <_ZN7QWidget11setGeometryERK5QRect>:
+ 804c2d0:	push   ebp
+ 804c2d1:	mov    ebp,esp
+ 804c2d3:	sub    esp,0x28
+ 804c2d6:	mov    edx,DWORD PTR [ebp+0xc]
+ 804c2d9:	mov    DWORD PTR [ebp-0x8],esi
+ 804c2dc:	mov    esi,DWORD PTR [ebp+0x8]
+ 804c2df:	mov    DWORD PTR [ebp-0xc],ebx
+ 804c2e2:	mov    DWORD PTR [ebp-0x4],edi
+ 804c2e5:	mov    ecx,DWORD PTR [edx+0x4]
+ 804c2e8:	mov    eax,DWORD PTR [edx+0xc]
+ 804c2eb:	mov    ebx,DWORD PTR [edx]
+ 804c2ed:	mov    edi,DWORD PTR [esi]
+ 804c2ef:	sub    eax,ecx
+ 804c2f1:	inc    eax
+ 804c2f2:	mov    DWORD PTR [esp+0x10],eax
+ 804c2f6:	mov    eax,DWORD PTR [edx+0x8]
+ 804c2f9:	mov    DWORD PTR [esp+0x4],ebx
+ 804c2fd:	mov    DWORD PTR [esp],esi
+ 804c300:	mov    DWORD PTR [esp+0x8],ecx
+ 804c304:	sub    eax,ebx
+ 804c306:	inc    eax
+ 804c307:	mov    DWORD PTR [esp+0xc],eax
+ 804c30b:	call   DWORD PTR [edi+0xdc]
+ 804c311:	mov    ebx,DWORD PTR [ebp-0xc]
+ 804c314:	mov    esi,DWORD PTR [ebp-0x8]
+ 804c317:	mov    edi,DWORD PTR [ebp-0x4]
+ 804c31a:	mov    esp,ebp
+ 804c31c:	pop    ebp
+ 804c31d:	ret
+ 804c31e:	nop
+ 804c31f:	nop
+
+0804c320 <_ZN7QWidget9setWStateEj>:
+ 804c320:	push   ebp
+ 804c321:	mov    ebp,esp
+ 804c323:	mov    edx,DWORD PTR [ebp+0x8]
+ 804c326:	mov    eax,DWORD PTR [ebp+0xc]
+ 804c329:	or     DWORD PTR [edx+0x40],eax
+ 804c32c:	pop    ebp
+ 804c32d:	ret
+ 804c32e:	nop
+ 804c32f:	nop
+
+0804c330 <_ZN7QWidget9setWFlagsEj>:
+ 804c330:	push   ebp
+ 804c331:	mov    ebp,esp
+ 804c333:	mov    edx,DWORD PTR [ebp+0x8]
+ 804c336:	mov    eax,DWORD PTR [ebp+0xc]
+ 804c339:	or     DWORD PTR [edx+0x44],eax
+ 804c33c:	pop    ebp
+ 804c33d:	ret
+ 804c33e:	nop
+ 804c33f:	nop
+
+0804c340 <_ZNK8enableme10metaObjectEv>:
+ 804c340:	push   ebp
+ 804c341:	mov    ebp,esp
+ 804c343:	pop    ebp
+ 804c344:	jmp    804bee0 <_ZN8enableme16staticMetaObjectEv>
+ 804c349:	nop
+ 804c34a:	nop
+ 804c34b:	nop
+ 804c34c:	nop
+ 804c34d:	nop
+ 804c34e:	nop
+ 804c34f:	nop
+
+0804c350 <_ZThn40_N8enablemeD0Ev>:
+ 804c350:	add    DWORD PTR [esp+0x4],0xffffffd8
+ 804c355:	jmp    804c110 <_ZN8enablemeD0Ev>
+ 804c35a:	nop
+ 804c35b:	nop
+ 804c35c:	nop
+ 804c35d:	nop
+ 804c35e:	nop
+ 804c35f:	nop
+
+0804c360 <_ZThn40_N8enablemeD1Ev>:
+ 804c360:	add    DWORD PTR [esp+0x4],0xffffffd8
+ 804c365:	jmp    804c140 <_ZN8enablemeD1Ev>
+ 804c36a:	nop
+ 804c36b:	nop
+ 804c36c:	nop
+ 804c36d:	nop
+ 804c36e:	nop
+ 804c36f:	nop
+
+0804c370 <_ZNK5Form19classNameEv>:
+ 804c370:	push   ebp
+ 804c371:	mov    eax,0x804d368
+ 804c376:	mov    ebp,esp
+ 804c378:	pop    ebp
+ 804c379:	ret
+ 804c37a:	lea    esi,[esi+0x0]
+
+0804c380 <_ZN5Form118qt_static_propertyEP7QObjectiiP8QVariant>:
+ 804c380:	push   ebp
+ 804c381:	xor    eax,eax
+ 804c383:	mov    ebp,esp
+ 804c385:	pop    ebp
+ 804c386:	ret
+ 804c387:	nop
+ 804c388:	nop
+ 804c389:	lea    esi,[esi+eiz*1+0x0]
+
+0804c390 <_Z41__static_initialization_and_destruction_0ii>:
+ 804c390:	push   ebp
+ 804c391:	mov    ebp,esp
+ 804c393:	sub    esp,0x18
+ 804c396:	dec    eax
+ 804c397:	je     804c3a0 <_Z41__static_initialization_and_destruction_0ii+0x10>
+ 804c399:	leave
+ 804c39a:	ret
+ 804c39b:	nop
+ 804c39c:	lea    esi,[esi+eiz*1+0x0]
+ 804c3a0:	cmp    edx,0xffff
+ 804c3a6:	jne    804c399 <_Z41__static_initialization_and_destruction_0ii+0x9>
+ 804c3a8:	mov    eax,0x804c4d0
+ 804c3ad:	mov    ecx,0x804d368
+ 804c3b2:	mov    DWORD PTR [esp+0x8],eax
+ 804c3b6:	mov    DWORD PTR [esp+0x4],ecx
+ 804c3ba:	mov    DWORD PTR [esp],0x804fd40
+ 804c3c1:	call   804b6f4 <_ZN18QMetaObjectCleanUpC1EPKcPFP11QMetaObjectvE@plt>
+ 804c3c6:	mov    edx,0x804fcb8
+ 804c3cb:	xor    eax,eax
+ 804c3cd:	mov    DWORD PTR [esp+0x8],edx
+ 804c3d1:	mov    DWORD PTR [esp+0x4],eax
+ 804c3d5:	mov    DWORD PTR [esp],0x804c400
+ 804c3dc:	call   804b3c4 <__cxa_atexit@plt>
+ 804c3e1:	leave
+ 804c3e2:	ret
+ 804c3e3:	nop
+ 804c3e4:	lea    esi,[esi+0x0]
+ 804c3ea:	lea    edi,[edi+0x0]
+
+0804c3f0 <_GLOBAL__I__ZN5Form1C2EP7QWidgetPKcj>:
+ 804c3f0:	push   ebp
+ 804c3f1:	mov    edx,0xffff
+ 804c3f6:	mov    ebp,esp
+ 804c3f8:	mov    eax,0x1
+ 804c3fd:	pop    ebp
+ 804c3fe:	jmp    804c390 <_Z41__static_initialization_and_destruction_0ii>
+
+0804c400 <__tcf_0>:
+ 804c400:	push   ebp
+ 804c401:	mov    ebp,esp
+ 804c403:	mov    DWORD PTR [ebp+0x8],0x804fd40
+ 804c40a:	pop    ebp
+ 804c40b:	jmp    804b214 <_ZN18QMetaObjectCleanUpD1Ev@plt>
+
+0804c410 <_ZN5Form111qt_propertyEiiP8QVariant>:
+ 804c410:	push   ebp
+ 804c411:	mov    ebp,esp
+ 804c413:	sub    esp,0x18
+ 804c416:	mov    eax,DWORD PTR [ebp+0x14]
+ 804c419:	mov    DWORD PTR [esp+0xc],eax
+ 804c41d:	mov    eax,DWORD PTR [ebp+0x10]
+ 804c420:	mov    DWORD PTR [esp+0x8],eax
+ 804c424:	mov    eax,DWORD PTR [ebp+0xc]
+ 804c427:	mov    DWORD PTR [esp+0x4],eax
+ 804c42b:	mov    eax,DWORD PTR [ebp+0x8]
+ 804c42e:	mov    DWORD PTR [esp],eax
+ 804c431:	call   804b204 <_ZN7QWidget11qt_propertyEiiP8QVariant@plt>
+ 804c436:	leave
+ 804c437:	movzx  eax,al
+ 804c43a:	ret
+ 804c43b:	nop
+ 804c43c:	lea    esi,[esi+eiz*1+0x0]
+
+0804c440 <_ZN5Form17qt_emitEiP8QUObject>:
+ 804c440:	push   ebp
+ 804c441:	mov    ebp,esp
+ 804c443:	sub    esp,0x18
+ 804c446:	mov    eax,DWORD PTR [ebp+0x10]
+ 804c449:	mov    DWORD PTR [esp+0x8],eax
+ 804c44d:	mov    eax,DWORD PTR [ebp+0xc]
+ 804c450:	mov    DWORD PTR [esp+0x4],eax
+ 804c454:	mov    eax,DWORD PTR [ebp+0x8]
+ 804c457:	mov    DWORD PTR [esp],eax
+ 804c45a:	call   804b544 <_ZN7QWidget7qt_emitEiP8QUObject@plt>
+ 804c45f:	leave
+ 804c460:	movzx  eax,al
+ 804c463:	ret
+ 804c464:	lea    esi,[esi+0x0]
+ 804c46a:	lea    edi,[edi+0x0]
+
+0804c470 <_ZN5Form17qt_castEPKc>:
+ 804c470:	push   ebp
+ 804c471:	mov    ebp,esp
+ 804c473:	sub    esp,0x10
+ 804c476:	mov    eax,DWORD PTR [ebp+0xc]
+ 804c479:	mov    DWORD PTR [ebp-0xc],ebx
+ 804c47c:	mov    ebx,DWORD PTR [ebp+0x8]
+ 804c47f:	mov    DWORD PTR [ebp-0x8],esi
+ 804c482:	mov    DWORD PTR [ebp-0x4],edi
+ 804c485:	test   eax,eax
+ 804c487:	mov    DWORD PTR [ebp-0x10],eax
+ 804c48a:	jne    804c4a6 <_ZN5Form17qt_castEPKc+0x36>
+ 804c48c:	mov    eax,DWORD PTR [ebp-0x10]
+ 804c48f:	mov    DWORD PTR [ebp+0x8],ebx
+ 804c492:	mov    esi,DWORD PTR [ebp-0x8]
+ 804c495:	mov    ebx,DWORD PTR [ebp-0xc]
+ 804c498:	mov    edi,DWORD PTR [ebp-0x4]
+ 804c49b:	mov    DWORD PTR [ebp+0xc],eax
+ 804c49e:	mov    esp,ebp
+ 804c4a0:	pop    ebp
+ 804c4a1:	jmp    804ba94 <_ZN7QWidget7qt_castEPKc@plt>
+ 804c4a6:	mov    esi,DWORD PTR [ebp-0x10]
+ 804c4a9:	mov    eax,0x6
+ 804c4ae:	mov    edi,0x804d368
+ 804c4b3:	cld
+ 804c4b4:	mov    ecx,eax
+ 804c4b6:	repz cmps BYTE PTR ds:[esi],BYTE PTR es:[edi]
+ 804c4b8:	jne    804c48c <_ZN5Form17qt_castEPKc+0x1c>
+ 804c4ba:	mov    eax,ebx
+ 804c4bc:	mov    esi,DWORD PTR [ebp-0x8]
+ 804c4bf:	mov    ebx,DWORD PTR [ebp-0xc]
+ 804c4c2:	mov    edi,DWORD PTR [ebp-0x4]
+ 804c4c5:	mov    esp,ebp
+ 804c4c7:	pop    ebp
+ 804c4c8:	ret
+ 804c4c9:	nop
+ 804c4ca:	lea    esi,[esi+0x0]
+
+0804c4d0 <_ZN5Form116staticMetaObjectEv>:
+ 804c4d0:	push   ebp
+ 804c4d1:	mov    ebp,esp
+ 804c4d3:	sub    esp,0x38
+ 804c4d6:	mov    eax,ds:0x804fd3c
+ 804c4db:	test   eax,eax
+ 804c4dd:	je     804c4e1 <_ZN5Form116staticMetaObjectEv+0x11>
+ 804c4df:	leave
+ 804c4e0:	ret
+ 804c4e1:	call   804b974 <_ZN7QWidget16staticMetaObjectEv@plt>
+ 804c4e6:	xor    ecx,ecx
+ 804c4e8:	xor    edx,edx
+ 804c4ea:	mov    DWORD PTR [esp+0x2c],ecx
+ 804c4ee:	xor    ecx,ecx
+ 804c4f0:	mov    DWORD PTR [esp+0x28],edx
+ 804c4f4:	xor    edx,edx
+ 804c4f6:	mov    DWORD PTR [esp+0x24],ecx
+ 804c4fa:	xor    ecx,ecx
+ 804c4fc:	mov    DWORD PTR [esp+0x20],edx
+ 804c500:	xor    edx,edx
+ 804c502:	mov    DWORD PTR [esp+0x1c],ecx
+ 804c506:	xor    ecx,ecx
+ 804c508:	mov    DWORD PTR [esp+0x18],edx
+ 804c50c:	xor    edx,edx
+ 804c50e:	mov    DWORD PTR [esp+0x14],ecx
+ 804c512:	mov    ecx,0x3
+ 804c517:	mov    DWORD PTR [esp+0x10],edx
+ 804c51b:	mov    edx,0x804d700
+ 804c520:	mov    DWORD PTR [esp+0xc],ecx
+ 804c524:	mov    DWORD PTR [esp+0x8],edx
+ 804c528:	mov    DWORD PTR [esp+0x4],eax
+ 804c52c:	mov    DWORD PTR [esp],0x804d368
+ 804c533:	call   804b794 <_ZN11QMetaObject14new_metaobjectEPKcPS_PK9QMetaDataiS5_iPK13QMetaPropertyiPK9QMetaEnumiPK10QClassInfoi@plt>
+ 804c538:	mov    ds:0x804fd3c,eax
+ 804c53d:	mov    eax,0x804fd3c
+ 804c542:	mov    DWORD PTR [esp+0x4],eax
+ 804c546:	mov    DWORD PTR [esp],0x804fd40
+ 804c54d:	call   804b1b4 <_ZN18QMetaObjectCleanUp13setMetaObjectERP11QMetaObject@plt>
+ 804c552:	mov    eax,ds:0x804fd3c
+ 804c557:	leave
+ 804c558:	ret
+ 804c559:	nop
+ 804c55a:	lea    esi,[esi+0x0]
+
+0804c560 <_ZN5Form19qt_invokeEiP8QUObject>:
+ 804c560:	push   ebp
+ 804c561:	mov    ebp,esp
+ 804c563:	sub    esp,0x18
+ 804c566:	mov    DWORD PTR [ebp-0x8],ebx
+ 804c569:	mov    ebx,DWORD PTR [ebp+0x8]
+ 804c56c:	mov    DWORD PTR [ebp-0x4],esi
+ 804c56f:	mov    esi,DWORD PTR [ebp+0xc]
+ 804c572:	call   804c4d0 <_ZN5Form116staticMetaObjectEv>
+ 804c577:	mov    edx,esi
+ 804c579:	mov    ecx,DWORD PTR [eax+0x2c]
+ 804c57c:	sub    edx,ecx
+ 804c57e:	cmp    edx,0x1
+ 804c581:	je     804c5c6 <_ZN5Form19qt_invokeEiP8QUObject+0x66>
+ 804c583:	cmp    edx,0x2
+ 804c586:	je     804c5e0 <_ZN5Form19qt_invokeEiP8QUObject+0x80>
+ 804c588:	test   edx,edx
+ 804c58a:	jne    804c5a6 <_ZN5Form19qt_invokeEiP8QUObject+0x46>
+ 804c58c:	mov    eax,DWORD PTR [ebx]
+ 804c58e:	mov    DWORD PTR [esp],ebx
+ 804c591:	call   DWORD PTR [eax+0x1b8]
+ 804c597:	mov    ebx,DWORD PTR [ebp-0x8]
+ 804c59a:	mov    eax,0x1
+ 804c59f:	mov    esi,DWORD PTR [ebp-0x4]
+ 804c5a2:	mov    esp,ebp
+ 804c5a4:	pop    ebp
+ 804c5a5:	ret
+ 804c5a6:	mov    eax,DWORD PTR [ebp+0x10]
+ 804c5a9:	mov    DWORD PTR [esp+0x4],esi
+ 804c5ad:	mov    DWORD PTR [esp],ebx
+ 804c5b0:	mov    DWORD PTR [esp+0x8],eax
+ 804c5b4:	call   804b844 <_ZN7QWidget9qt_invokeEiP8QUObject@plt>
+ 804c5b9:	mov    ebx,DWORD PTR [ebp-0x8]
+ 804c5bc:	mov    esi,DWORD PTR [ebp-0x4]
+ 804c5bf:	mov    esp,ebp
+ 804c5c1:	pop    ebp
+ 804c5c2:	movzx  eax,al
+ 804c5c5:	ret
+ 804c5c6:	mov    eax,DWORD PTR [ebx]
+ 804c5c8:	mov    DWORD PTR [esp],ebx
+ 804c5cb:	call   DWORD PTR [eax+0x1bc]
+ 804c5d1:	mov    ebx,DWORD PTR [ebp-0x8]
+ 804c5d4:	mov    eax,0x1
+ 804c5d9:	mov    esi,DWORD PTR [ebp-0x4]
+ 804c5dc:	mov    esp,ebp
+ 804c5de:	pop    ebp
+ 804c5df:	ret
+ 804c5e0:	mov    eax,DWORD PTR [ebx]
+ 804c5e2:	mov    DWORD PTR [esp],ebx
+ 804c5e5:	call   DWORD PTR [eax+0x1c0]
+ 804c5eb:	mov    ebx,DWORD PTR [ebp-0x8]
+ 804c5ee:	mov    eax,0x1
+ 804c5f3:	mov    esi,DWORD PTR [ebp-0x4]
+ 804c5f6:	mov    esp,ebp
+ 804c5f8:	pop    ebp
+ 804c5f9:	ret
+ 804c5fa:	lea    esi,[esi+0x0]
+
+0804c600 <_ZN5Form16trUtf8EPKcS1_>:
+ 804c600:	push   ebp
+ 804c601:	mov    ebp,esp
+ 804c603:	push   ebx
+ 804c604:	sub    esp,0x24
+ 804c607:	mov    edx,DWORD PTR ds:0x804fcf0
+ 804c60d:	mov    ebx,DWORD PTR [ebp+0x8]
+ 804c610:	mov    ecx,DWORD PTR [ebp+0xc]
+ 804c613:	test   edx,edx
+ 804c615:	je     804c650 <_ZN5Form16trUtf8EPKcS1_+0x50>
+ 804c617:	mov    eax,0x1
+ 804c61c:	mov    DWORD PTR [esp+0x14],eax
+ 804c620:	mov    eax,DWORD PTR [ebp+0x10]
+ 804c623:	mov    DWORD PTR [esp],ebx
+ 804c626:	mov    DWORD PTR [esp+0xc],ecx
+ 804c62a:	mov    DWORD PTR [esp+0x4],edx
+ 804c62e:	mov    DWORD PTR [esp+0x10],eax
+ 804c632:	mov    eax,0x804d368
+ 804c637:	mov    DWORD PTR [esp+0x8],eax
+ 804c63b:	call   804b594 <_ZNK12QApplication9translateEPKcS1_S1_NS_8EncodingE@plt>
+ 804c640:	mov    eax,ebx
+ 804c642:	mov    ebx,DWORD PTR [ebp-0x4]
+ 804c645:	sub    esp,0x4
+ 804c648:	leave
+ 804c649:	ret    0x4
+ 804c64c:	lea    esi,[esi+eiz*1+0x0]
+ 804c650:	mov    eax,0xffffffff
+ 804c655:	mov    DWORD PTR [esp+0x8],eax
+ 804c659:	mov    DWORD PTR [esp],ebx
+ 804c65c:	mov    DWORD PTR [esp+0x4],ecx
+ 804c660:	call   804b4b4 <_ZN7QString8fromUtf8EPKci@plt>
+ 804c665:	mov    eax,ebx
+ 804c667:	mov    ebx,DWORD PTR [ebp-0x4]
+ 804c66a:	sub    esp,0x4
+ 804c66d:	leave
+ 804c66e:	ret    0x4
+ 804c671:	nop
+ 804c672:	lea    esi,[esi+eiz*1+0x0]
+ 804c679:	lea    edi,[edi+eiz*1+0x0]
+
+0804c680 <_ZN5Form12trEPKcS1_>:
+ 804c680:	push   ebp
+ 804c681:	mov    ebp,esp
+ 804c683:	push   ebx
+ 804c684:	sub    esp,0x24
+ 804c687:	mov    edx,DWORD PTR ds:0x804fcf0
+ 804c68d:	mov    ebx,DWORD PTR [ebp+0x8]
+ 804c690:	mov    ecx,DWORD PTR [ebp+0xc]
+ 804c693:	test   edx,edx
+ 804c695:	je     804c6d0 <_ZN5Form12trEPKcS1_+0x50>
+ 804c697:	xor    eax,eax
+ 804c699:	mov    DWORD PTR [esp+0x14],eax
+ 804c69d:	mov    eax,DWORD PTR [ebp+0x10]
+ 804c6a0:	mov    DWORD PTR [esp],ebx
+ 804c6a3:	mov    DWORD PTR [esp+0xc],ecx
+ 804c6a7:	mov    DWORD PTR [esp+0x4],edx
+ 804c6ab:	mov    DWORD PTR [esp+0x10],eax
+ 804c6af:	mov    eax,0x804d368
+ 804c6b4:	mov    DWORD PTR [esp+0x8],eax
+ 804c6b8:	call   804b594 <_ZNK12QApplication9translateEPKcS1_S1_NS_8EncodingE@plt>
+ 804c6bd:	mov    eax,ebx
+ 804c6bf:	mov    ebx,DWORD PTR [ebp-0x4]
+ 804c6c2:	sub    esp,0x4
+ 804c6c5:	leave
+ 804c6c6:	ret    0x4
+ 804c6c9:	lea    esi,[esi+eiz*1+0x0]
+ 804c6d0:	mov    eax,0xffffffff
+ 804c6d5:	mov    DWORD PTR [esp+0x8],eax
+ 804c6d9:	mov    DWORD PTR [esp],ebx
+ 804c6dc:	mov    DWORD PTR [esp+0x4],ecx
+ 804c6e0:	call   804b504 <_ZN7QString10fromLatin1EPKci@plt>
+ 804c6e5:	mov    eax,ebx
+ 804c6e7:	mov    ebx,DWORD PTR [ebp-0x4]
+ 804c6ea:	sub    esp,0x4
+ 804c6ed:	leave
+ 804c6ee:	ret    0x4
+ 804c6f1:	nop
+ 804c6f2:	lea    esi,[esi+eiz*1+0x0]
+ 804c6f9:	lea    edi,[edi+eiz*1+0x0]
+
+0804c700 <_ZN5Form114register_clickEv>:
+ 804c700:	push   ebp
+ 804c701:	mov    ebp,esp
+ 804c703:	mov    DWORD PTR [ebp+0x8],0x804d414
+ 804c70a:	pop    ebp
+ 804c70b:	jmp    804b964 <_Z8qWarningPKcz@plt>
+
+0804c710 <_ZN5Form110quit_clickEv>:
+ 804c710:	push   ebp
+ 804c711:	mov    ebp,esp
+ 804c713:	mov    DWORD PTR [ebp+0x8],0x804d444
+ 804c71a:	pop    ebp
+ 804c71b:	jmp    804b964 <_Z8qWarningPKcz@plt>
+
+0804c720 <_ZN5Form1D0Ev>:
+ 804c720:	push   ebp
+ 804c721:	mov    ebp,esp
+ 804c723:	push   ebx
+ 804c724:	sub    esp,0x4
+ 804c727:	mov    ebx,DWORD PTR [ebp+0x8]
+ 804c72a:	lea    eax,[ebx+0x80]
+ 804c730:	mov    DWORD PTR [ebx],0x804d4e8
+ 804c736:	mov    DWORD PTR [ebx+0x28],0x804d6b4
+ 804c73d:	mov    DWORD PTR [esp],eax
+ 804c740:	call   804b124 <_ZN7QPixmapD1Ev@plt>
+ 804c745:	mov    DWORD PTR [esp],ebx
+ 804c748:	call   804b7c4 <_ZN7QWidgetD2Ev@plt>
+ 804c74d:	mov    DWORD PTR [ebp+0x8],ebx
+ 804c750:	pop    edx
+ 804c751:	pop    ebx
+ 804c752:	pop    ebp
+ 804c753:	jmp    804bb04 <_ZdlPv@plt>
+ 804c758:	nop
+ 804c759:	lea    esi,[esi+eiz*1+0x0]
+
+0804c760 <_ZN5Form1D1Ev>:
+ 804c760:	push   ebp
+ 804c761:	mov    ebp,esp
+ 804c763:	push   ebx
+ 804c764:	sub    esp,0x4
+ 804c767:	mov    ebx,DWORD PTR [ebp+0x8]
+ 804c76a:	mov    DWORD PTR [ebx],0x804d4e8
+ 804c770:	lea    eax,[ebx+0x80]
+ 804c776:	mov    DWORD PTR [ebx+0x28],0x804d6b4
+ 804c77d:	mov    DWORD PTR [esp],eax
+ 804c780:	call   804b124 <_ZN7QPixmapD1Ev@plt>
+ 804c785:	mov    DWORD PTR [ebp+0x8],ebx
+ 804c788:	pop    ecx
+ 804c789:	pop    ebx
+ 804c78a:	pop    ebp
+ 804c78b:	jmp    804b7c4 <_ZN7QWidgetD2Ev@plt>
+
+0804c790 <_ZN5Form1D2Ev>:
+ 804c790:	push   ebp
+ 804c791:	mov    ebp,esp
+ 804c793:	push   ebx
+ 804c794:	sub    esp,0x4
+ 804c797:	mov    ebx,DWORD PTR [ebp+0x8]
+ 804c79a:	mov    DWORD PTR [ebx],0x804d4e8
+ 804c7a0:	lea    eax,[ebx+0x80]
+ 804c7a6:	mov    DWORD PTR [ebx+0x28],0x804d6b4
+ 804c7ad:	mov    DWORD PTR [esp],eax
+ 804c7b0:	call   804b124 <_ZN7QPixmapD1Ev@plt>
+ 804c7b5:	mov    DWORD PTR [ebp+0x8],ebx
+ 804c7b8:	pop    ebx
+ 804c7b9:	pop    ebx
+ 804c7ba:	pop    ebp
+ 804c7bb:	jmp    804b7c4 <_ZN7QWidgetD2Ev@plt>
+
+0804c7c0 <_ZN5Form114languageChangeEv>:
+ 804c7c0:	push   ebp
+ 804c7c1:	mov    ebp,esp
+ 804c7c3:	push   edi
+ 804c7c4:	push   esi
+ 804c7c5:	push   ebx
+ 804c7c6:	sub    esp,0x2c
+ 804c7c9:	mov    edi,DWORD PTR [ebp+0x8]
+ 804c7cc:	lea    ebx,[ebp-0x2c]
+ 804c7cf:	mov    eax,DWORD PTR [edi]
+ 804c7d1:	mov    esi,DWORD PTR [eax+0x98]
+ 804c7d7:	mov    eax,0x804d36e
+ 804c7dc:	mov    DWORD PTR [esp+0x4],eax
+ 804c7e0:	mov    DWORD PTR [esp],ebx
+ 804c7e3:	call   804b7b4 <_Z4i18nPKc@plt>
+ 804c7e8:	sub    esp,0x4
+ 804c7eb:	mov    DWORD PTR [esp+0x4],ebx
+ 804c7ef:	mov    DWORD PTR [esp],edi
+ 804c7f2:	call   esi
+ 804c7f4:	mov    edx,DWORD PTR [ebp-0x2c]
+ 804c7f7:	mov    eax,DWORD PTR [edx]
+ 804c7f9:	dec    eax
+ 804c7fa:	test   eax,eax
+ 804c7fc:	mov    DWORD PTR [edx],eax
+ 804c7fe:	jne    804c810 <_ZN5Form114languageChangeEv+0x50>
+ 804c800:	cmp    edx,DWORD PTR ds:0x804fce0
+ 804c806:	je     804c810 <_ZN5Form114languageChangeEv+0x50>
+ 804c808:	mov    DWORD PTR [esp],edx
+ 804c80b:	call   804b574 <_ZN11QStringData10deleteSelfEv@plt>
+ 804c810:	mov    eax,DWORD PTR [edi+0x74]
+ 804c813:	lea    ebx,[ebp-0x28]
+ 804c816:	mov    eax,DWORD PTR [eax]
+ 804c818:	mov    esi,DWORD PTR [eax+0x1e4]
+ 804c81e:	mov    eax,0x804d470
+ 804c823:	mov    DWORD PTR [esp+0x4],eax
+ 804c827:	mov    DWORD PTR [esp],ebx
+ 804c82a:	call   804b7b4 <_Z4i18nPKc@plt>
+ 804c82f:	mov    eax,DWORD PTR [edi+0x74]
+ 804c832:	sub    esp,0x4
+ 804c835:	mov    DWORD PTR [esp],eax
+ 804c838:	mov    DWORD PTR [esp+0x4],ebx
+ 804c83c:	call   esi
+ 804c83e:	mov    edx,DWORD PTR [ebp-0x28]
+ 804c841:	mov    eax,DWORD PTR [edx]
+ 804c843:	dec    eax
+ 804c844:	test   eax,eax
+ 804c846:	mov    DWORD PTR [edx],eax
+ 804c848:	jne    804c860 <_ZN5Form114languageChangeEv+0xa0>
+ 804c84a:	cmp    edx,DWORD PTR ds:0x804fce0
+ 804c850:	je     804c860 <_ZN5Form114languageChangeEv+0xa0>
+ 804c852:	mov    DWORD PTR [esp],edx
+ 804c855:	call   804b574 <_ZN11QStringData10deleteSelfEv@plt>
+ 804c85a:	lea    esi,[esi+0x0]
+ 804c860:	mov    eax,DWORD PTR [edi+0x78]
+ 804c863:	lea    ebx,[ebp-0x24]
+ 804c866:	mov    eax,DWORD PTR [eax]
+ 804c868:	mov    esi,DWORD PTR [eax+0x1b8]
+ 804c86e:	mov    eax,0x804d388
+ 804c873:	mov    DWORD PTR [esp+0x4],eax
+ 804c877:	mov    DWORD PTR [esp],ebx
+ 804c87a:	call   804b7b4 <_Z4i18nPKc@plt>
+ 804c87f:	mov    eax,DWORD PTR [edi+0x78]
+ 804c882:	sub    esp,0x4
+ 804c885:	mov    DWORD PTR [esp],eax
+ 804c888:	mov    DWORD PTR [esp+0x4],ebx
+ 804c88c:	call   esi
+ 804c88e:	mov    edx,DWORD PTR [ebp-0x24]
+ 804c891:	mov    eax,DWORD PTR [edx]
+ 804c893:	dec    eax
+ 804c894:	test   eax,eax
+ 804c896:	mov    DWORD PTR [edx],eax
+ 804c898:	jne    804c8b0 <_ZN5Form114languageChangeEv+0xf0>
+ 804c89a:	cmp    edx,DWORD PTR ds:0x804fce0
+ 804c8a0:	je     804c8b0 <_ZN5Form114languageChangeEv+0xf0>
+ 804c8a2:	mov    DWORD PTR [esp],edx
+ 804c8a5:	call   804b574 <_ZN11QStringData10deleteSelfEv@plt>
+ 804c8aa:	lea    esi,[esi+0x0]
+ 804c8b0:	mov    eax,DWORD PTR [edi+0x78]
+ 804c8b3:	lea    ebx,[ebp-0x1c]
+ 804c8b6:	mov    eax,DWORD PTR [eax]
+ 804c8b8:	mov    esi,DWORD PTR [eax+0x1c0]
+ 804c8be:	mov    eax,0x804d38e
+ 804c8c3:	mov    DWORD PTR [esp+0x4],eax
+ 804c8c7:	mov    DWORD PTR [esp],ebx
+ 804c8ca:	call   804b7b4 <_Z4i18nPKc@plt>
+ 804c8cf:	sub    esp,0x4
+ 804c8d2:	mov    DWORD PTR [esp+0x4],ebx
+ 804c8d6:	lea    ebx,[ebp-0x20]
+ 804c8d9:	mov    DWORD PTR [esp],ebx
+ 804c8dc:	call   804b754 <_ZN12QKeySequenceC1ERK7QString@plt>
+ 804c8e1:	mov    eax,DWORD PTR [edi+0x78]
+ 804c8e4:	mov    DWORD PTR [esp+0x4],ebx
+ 804c8e8:	mov    DWORD PTR [esp],eax
+ 804c8eb:	call   esi
+ 804c8ed:	mov    DWORD PTR [esp],ebx
+ 804c8f0:	call   804b654 <_ZN12QKeySequenceD1Ev@plt>
+ 804c8f5:	mov    edx,DWORD PTR [ebp-0x1c]
+ 804c8f8:	mov    eax,DWORD PTR [edx]
+ 804c8fa:	dec    eax
+ 804c8fb:	test   eax,eax
+ 804c8fd:	mov    DWORD PTR [edx],eax
+ 804c8ff:	jne    804c920 <_ZN5Form114languageChangeEv+0x160>
+ 804c901:	cmp    edx,DWORD PTR ds:0x804fce0
+ 804c907:	je     804c920 <_ZN5Form114languageChangeEv+0x160>
+ 804c909:	mov    DWORD PTR [esp],edx
+ 804c90c:	call   804b574 <_ZN11QStringData10deleteSelfEv@plt>
+ 804c911:	jmp    804c920 <_ZN5Form114languageChangeEv+0x160>
+ 804c913:	nop
+ 804c914:	nop
+ 804c915:	nop
+ 804c916:	nop
+ 804c917:	nop
+ 804c918:	nop
+ 804c919:	nop
+ 804c91a:	nop
+ 804c91b:	nop
+ 804c91c:	nop
+ 804c91d:	nop
+ 804c91e:	nop
+ 804c91f:	nop
+ 804c920:	mov    eax,DWORD PTR [edi+0x7c]
+ 804c923:	lea    ebx,[ebp-0x18]
+ 804c926:	mov    eax,DWORD PTR [eax]
+ 804c928:	mov    esi,DWORD PTR [eax+0x1b8]
+ 804c92e:	mov    eax,0x804d394
+ 804c933:	mov    DWORD PTR [esp+0x4],eax
+ 804c937:	mov    DWORD PTR [esp],ebx
+ 804c93a:	call   804b7b4 <_Z4i18nPKc@plt>
+ 804c93f:	mov    eax,DWORD PTR [edi+0x7c]
+ 804c942:	sub    esp,0x4
+ 804c945:	mov    DWORD PTR [esp],eax
+ 804c948:	mov    DWORD PTR [esp+0x4],ebx
+ 804c94c:	call   esi
+ 804c94e:	mov    edx,DWORD PTR [ebp-0x18]
+ 804c951:	mov    eax,DWORD PTR [edx]
+ 804c953:	dec    eax
+ 804c954:	test   eax,eax
+ 804c956:	mov    DWORD PTR [edx],eax
+ 804c958:	jne    804c970 <_ZN5Form114languageChangeEv+0x1b0>
+ 804c95a:	cmp    edx,DWORD PTR ds:0x804fce0
+ 804c960:	je     804c970 <_ZN5Form114languageChangeEv+0x1b0>
+ 804c962:	mov    DWORD PTR [esp],edx
+ 804c965:	call   804b574 <_ZN11QStringData10deleteSelfEv@plt>
+ 804c96a:	lea    esi,[esi+0x0]
+ 804c970:	mov    eax,DWORD PTR [edi+0x7c]
+ 804c973:	lea    ebx,[ebp-0x10]
+ 804c976:	mov    eax,DWORD PTR [eax]
+ 804c978:	mov    esi,DWORD PTR [eax+0x1c0]
+ 804c97e:	mov    eax,0x804d39f
+ 804c983:	mov    DWORD PTR [esp+0x4],eax
+ 804c987:	mov    DWORD PTR [esp],ebx
+ 804c98a:	call   804b7b4 <_Z4i18nPKc@plt>
+ 804c98f:	sub    esp,0x4
+ 804c992:	mov    DWORD PTR [esp+0x4],ebx
+ 804c996:	lea    ebx,[ebp-0x14]
+ 804c999:	mov    DWORD PTR [esp],ebx
+ 804c99c:	call   804b754 <_ZN12QKeySequenceC1ERK7QString@plt>
+ 804c9a1:	mov    eax,DWORD PTR [edi+0x7c]
+ 804c9a4:	mov    DWORD PTR [esp+0x4],ebx
+ 804c9a8:	mov    DWORD PTR [esp],eax
+ 804c9ab:	call   esi
+ 804c9ad:	mov    DWORD PTR [esp],ebx
+ 804c9b0:	call   804b654 <_ZN12QKeySequenceD1Ev@plt>
+ 804c9b5:	mov    edx,DWORD PTR [ebp-0x10]
+ 804c9b8:	mov    eax,DWORD PTR [edx]
+ 804c9ba:	dec    eax
+ 804c9bb:	test   eax,eax
+ 804c9bd:	mov    DWORD PTR [edx],eax
+ 804c9bf:	jne    804c9d1 <_ZN5Form114languageChangeEv+0x211>
+ 804c9c1:	cmp    edx,DWORD PTR ds:0x804fce0
+ 804c9c7:	je     804c9d1 <_ZN5Form114languageChangeEv+0x211>
+ 804c9c9:	mov    DWORD PTR [esp],edx
+ 804c9cc:	call   804b574 <_ZN11QStringData10deleteSelfEv@plt>
+ 804c9d1:	lea    esp,[ebp-0xc]
+ 804c9d4:	pop    ebx
+ 804c9d5:	pop    esi
+ 804c9d6:	pop    edi
+ 804c9d7:	pop    ebp
+ 804c9d8:	ret
+ 804c9d9:	nop
+ 804c9da:	lea    esi,[esi+0x0]
+
+0804c9e0 <_ZN5Form1C1EP7QWidgetPKcj>:
+ 804c9e0:	push   ebp
+ 804c9e1:	mov    ebp,esp
+ 804c9e3:	push   edi
+ 804c9e4:	push   esi
+ 804c9e5:	push   ebx
+ 804c9e6:	sub    esp,0x5c
+ 804c9e9:	mov    eax,DWORD PTR [ebp+0x14]
+ 804c9ec:	mov    edi,DWORD PTR [ebp+0x8]
+ 804c9ef:	mov    ebx,DWORD PTR [ebp+0x10]
+ 804c9f2:	mov    DWORD PTR [esp+0xc],eax
+ 804c9f6:	mov    eax,DWORD PTR [ebp+0xc]
+ 804c9f9:	lea    esi,[edi+0x80]
+ 804c9ff:	mov    DWORD PTR [esp+0x8],ebx
+ 804ca03:	mov    DWORD PTR [esp],edi
+ 804ca06:	mov    DWORD PTR [esp+0x4],eax
+ 804ca0a:	call   804b9c4 <_ZN7QWidgetC2EPS_PKcj@plt>
+ 804ca0f:	mov    DWORD PTR [edi],0x804d4e8
+ 804ca15:	mov    DWORD PTR [edi+0x28],0x804d6b4
+ 804ca1c:	mov    DWORD PTR [esp],esi
+ 804ca1f:	call   804b874 <_ZN7QPixmapC1Ev@plt>
+ 804ca24:	lea    eax,[ebp-0x14]
+ 804ca27:	mov    DWORD PTR [esp],eax
+ 804ca2a:	call   804b8f4 <_ZN6QImageC1Ev@plt>
+ 804ca2f:	mov    eax,0x804d3a5
+ 804ca34:	mov    DWORD PTR [esp+0xc],eax
+ 804ca38:	mov    eax,0x10c9
+ 804ca3d:	mov    DWORD PTR [esp+0x8],eax
+ 804ca41:	mov    eax,0x804d740
+ 804ca46:	mov    DWORD PTR [esp+0x4],eax
+ 804ca4a:	lea    eax,[ebp-0x14]
+ 804ca4d:	mov    DWORD PTR [esp],eax
+ 804ca50:	call   804b384 <_ZN6QImage12loadFromDataEPKhjPKc@plt>
+ 804ca55:	lea    eax,[ebp-0x14]
+ 804ca58:	mov    DWORD PTR [esp+0x4],eax
+ 804ca5c:	mov    DWORD PTR [esp],esi
+ 804ca5f:	call   804b224 <_ZN7QPixmapaSERK6QImage@plt>
+ 804ca64:	test   ebx,ebx
+ 804ca66:	je     804cc3e <_ZN5Form1C1EP7QWidgetPKcj+0x25e>
+ 804ca6c:	mov    DWORD PTR [esp+0x4],esi
+ 804ca70:	mov    esi,0x804d3b4
+ 804ca75:	mov    DWORD PTR [esp],edi
+ 804ca78:	call   804b484 <_ZN7QWidget7setIconERK7QPixmap@plt>
+ 804ca7d:	mov    DWORD PTR [esp],0xc0
+ 804ca84:	call   804b774 <_Znwj@plt>
+ 804ca89:	mov    DWORD PTR [esp+0x4],edi
+ 804ca8d:	mov    ebx,eax
+ 804ca8f:	xor    eax,eax
+ 804ca91:	mov    DWORD PTR [esp+0xc],eax
+ 804ca95:	mov    eax,0x804d3a9
+ 804ca9a:	mov    DWORD PTR [esp+0x8],eax
+ 804ca9e:	mov    DWORD PTR [esp],ebx
+ 804caa1:	call   804bab4 <_ZN6QLabelC1EP7QWidgetPKcj@plt>
+ 804caa6:	mov    eax,DWORD PTR [ebx]
+ 804caa8:	mov    DWORD PTR [edi+0x74],ebx
+ 804caab:	mov    DWORD PTR [ebp-0x44],0x1e
+ 804cab2:	mov    DWORD PTR [ebp-0x40],0x14
+ 804cab9:	mov    edx,DWORD PTR [eax+0xe0]
+ 804cabf:	lea    eax,[ebp-0x44]
+ 804cac2:	mov    DWORD PTR [esp+0x4],eax
+ 804cac6:	mov    DWORD PTR [esp],ebx
+ 804cac9:	mov    DWORD PTR [ebp-0x3c],0x140
+ 804cad0:	mov    DWORD PTR [ebp-0x38],0x6d
+ 804cad7:	call   edx
+ 804cad9:	mov    DWORD PTR [esp],0x9c
+ 804cae0:	call   804b774 <_Znwj@plt>
+ 804cae5:	mov    DWORD PTR [esp+0x8],esi
+ 804cae9:	mov    DWORD PTR [esp+0x4],edi
+ 804caed:	mov    ebx,eax
+ 804caef:	mov    DWORD PTR [esp],eax
+ 804caf2:	call   804b1f4 <_ZN11KPushButtonC1EP7QWidgetPKc@plt>
+ 804caf7:	mov    eax,DWORD PTR [ebx]
+ 804caf9:	mov    DWORD PTR [edi+0x78],ebx
+ 804cafc:	mov    DWORD PTR [ebp-0x34],0xc8
+ 804cb03:	mov    DWORD PTR [ebp-0x30],0x8c
+ 804cb0a:	mov    edx,DWORD PTR [eax+0xe0]
+ 804cb10:	lea    eax,[ebp-0x34]
+ 804cb13:	mov    DWORD PTR [esp+0x4],eax
+ 804cb17:	mov    DWORD PTR [esp],ebx
+ 804cb1a:	mov    DWORD PTR [ebp-0x2c],0x12c
+ 804cb21:	mov    DWORD PTR [ebp-0x28],0xb4
+ 804cb28:	call   edx
+ 804cb2a:	mov    DWORD PTR [esp],0x9c
+ 804cb31:	call   804b774 <_Znwj@plt>
+ 804cb36:	mov    ecx,0x804d3bc
+ 804cb3b:	mov    DWORD PTR [esp+0x8],ecx
+ 804cb3f:	mov    DWORD PTR [esp+0x4],edi
+ 804cb43:	mov    ebx,eax
+ 804cb45:	mov    DWORD PTR [esp],eax
+ 804cb48:	call   804b1f4 <_ZN11KPushButtonC1EP7QWidgetPKc@plt>
+ 804cb4d:	mov    eax,DWORD PTR [ebx]
+ 804cb4f:	xor    edx,edx
+ 804cb51:	mov    DWORD PTR [edi+0x7c],ebx
+ 804cb54:	mov    DWORD PTR [esp+0x4],edx
+ 804cb58:	mov    DWORD PTR [esp],ebx
+ 804cb5b:	call   DWORD PTR [eax+0x54]
+ 804cb5e:	mov    edx,DWORD PTR [edi+0x7c]
+ 804cb61:	mov    DWORD PTR [ebp-0x24],0x28
+ 804cb68:	mov    DWORD PTR [ebp-0x20],0x8c
+ 804cb6f:	mov    DWORD PTR [ebp-0x1c],0x96
+ 804cb76:	mov    eax,DWORD PTR [edx]
+ 804cb78:	mov    DWORD PTR [ebp-0x18],0xb4
+ 804cb7f:	mov    ecx,DWORD PTR [eax+0xe0]
+ 804cb85:	lea    eax,[ebp-0x24]
+ 804cb88:	mov    DWORD PTR [esp+0x4],eax
+ 804cb8c:	mov    DWORD PTR [esp],edx
+ 804cb8f:	call   ecx
+ 804cb91:	mov    DWORD PTR [esp],edi
+ 804cb94:	call   804c7c0 <_ZN5Form114languageChangeEv>
+ 804cb99:	lea    eax,[ebp-0x58]
+ 804cb9c:	mov    DWORD PTR [esp],eax
+ 804cb9f:	mov    DWORD PTR [esp+0x4],edi
+ 804cba3:	call   804b984 <_ZNK7QWidget15minimumSizeHintEv@plt>
+ 804cba8:	mov    ecx,DWORD PTR [ebp-0x54]
+ 804cbab:	mov    edx,DWORD PTR [ebp-0x58]
+ 804cbae:	mov    eax,ecx
+ 804cbb0:	sub    esp,0x4
+ 804cbb3:	cmp    ecx,0xd0
+ 804cbb9:	jg     804cbc0 <_ZN5Form1C1EP7QWidgetPKcj+0x1e0>
+ 804cbbb:	mov    eax,0xd1
+ 804cbc0:	cmp    edx,0x154
+ 804cbc6:	mov    ebx,DWORD PTR [edi]
+ 804cbc8:	mov    DWORD PTR [esp+0x8],eax
+ 804cbcc:	mov    eax,edx
+ 804cbce:	jge    804cbd5 <_ZN5Form1C1EP7QWidgetPKcj+0x1f5>
+ 804cbd0:	mov    eax,0x154
+ 804cbd5:	mov    DWORD PTR [esp+0x4],eax
+ 804cbd9:	mov    esi,0x804d3c8
+ 804cbde:	mov    DWORD PTR [esp],edi
+ 804cbe1:	call   DWORD PTR [ebx+0xd8]
+ 804cbe7:	mov    ebx,0x804d3d6
+ 804cbec:	and    DWORD PTR [edi+0x40],0xffffdfff
+ 804cbf3:	mov    DWORD PTR [esp+0xc],esi
+ 804cbf7:	mov    DWORD PTR [esp+0x8],edi
+ 804cbfb:	mov    DWORD PTR [esp+0x4],ebx
+ 804cbff:	mov    eax,DWORD PTR [edi+0x78]
+ 804cc02:	mov    DWORD PTR [esp],eax
+ 804cc05:	call   804b304 <_ZN7QObject7connectEPKS_PKcS1_S3_@plt>
+ 804cc0a:	mov    ecx,0x804d3e1
+ 804cc0f:	mov    edx,0x804d3d6
+ 804cc14:	mov    DWORD PTR [esp+0xc],ecx
+ 804cc18:	mov    DWORD PTR [esp+0x8],edi
+ 804cc1c:	mov    DWORD PTR [esp+0x4],edx
+ 804cc20:	mov    eax,DWORD PTR [edi+0x7c]
+ 804cc23:	mov    DWORD PTR [esp],eax
+ 804cc26:	call   804b304 <_ZN7QObject7connectEPKS_PKcS1_S3_@plt>
+ 804cc2b:	lea    eax,[ebp-0x14]
+ 804cc2e:	mov    DWORD PTR [esp],eax
+ 804cc31:	call   804b694 <_ZN6QImageD1Ev@plt>
+ 804cc36:	lea    esp,[ebp-0xc]
+ 804cc39:	pop    ebx
+ 804cc3a:	pop    esi
+ 804cc3b:	pop    edi
+ 804cc3c:	pop    ebp
+ 804cc3d:	ret
+ 804cc3e:	mov    eax,0x804d368
+ 804cc43:	mov    DWORD PTR [esp+0x4],eax
+ 804cc47:	mov    DWORD PTR [esp],edi
+ 804cc4a:	call   804b364 <_ZN7QWidget7setNameEPKc@plt>
+ 804cc4f:	jmp    804ca6c <_ZN5Form1C1EP7QWidgetPKcj+0x8c>
+ 804cc54:	lea    esi,[esi+0x0]
+ 804cc5a:	lea    edi,[edi+0x0]
+
+0804cc60 <_ZN5Form1C2EP7QWidgetPKcj>:
+ 804cc60:	push   ebp
+ 804cc61:	mov    ebp,esp
+ 804cc63:	push   edi
+ 804cc64:	push   esi
+ 804cc65:	push   ebx
+ 804cc66:	sub    esp,0x5c
+ 804cc69:	mov    eax,DWORD PTR [ebp+0x14]
+ 804cc6c:	mov    edi,DWORD PTR [ebp+0x8]
+ 804cc6f:	mov    ebx,DWORD PTR [ebp+0x10]
+ 804cc72:	mov    DWORD PTR [esp+0xc],eax
+ 804cc76:	mov    eax,DWORD PTR [ebp+0xc]
+ 804cc79:	lea    esi,[edi+0x80]
+ 804cc7f:	mov    DWORD PTR [esp+0x8],ebx
+ 804cc83:	mov    DWORD PTR [esp],edi
+ 804cc86:	mov    DWORD PTR [esp+0x4],eax
+ 804cc8a:	call   804b9c4 <_ZN7QWidgetC2EPS_PKcj@plt>
+ 804cc8f:	mov    DWORD PTR [edi],0x804d4e8
+ 804cc95:	mov    DWORD PTR [edi+0x28],0x804d6b4
+ 804cc9c:	mov    DWORD PTR [esp],esi
+ 804cc9f:	call   804b874 <_ZN7QPixmapC1Ev@plt>
+ 804cca4:	lea    eax,[ebp-0x14]
+ 804cca7:	mov    DWORD PTR [esp],eax
+ 804ccaa:	call   804b8f4 <_ZN6QImageC1Ev@plt>
+ 804ccaf:	mov    eax,0x804d3a5
+ 804ccb4:	mov    DWORD PTR [esp+0xc],eax
+ 804ccb8:	mov    eax,0x10c9
+ 804ccbd:	mov    DWORD PTR [esp+0x8],eax
+ 804ccc1:	mov    eax,0x804d740
+ 804ccc6:	mov    DWORD PTR [esp+0x4],eax
+ 804ccca:	lea    eax,[ebp-0x14]
+ 804cccd:	mov    DWORD PTR [esp],eax
+ 804ccd0:	call   804b384 <_ZN6QImage12loadFromDataEPKhjPKc@plt>
+ 804ccd5:	lea    eax,[ebp-0x14]
+ 804ccd8:	mov    DWORD PTR [esp+0x4],eax
+ 804ccdc:	mov    DWORD PTR [esp],esi
+ 804ccdf:	call   804b224 <_ZN7QPixmapaSERK6QImage@plt>
+ 804cce4:	test   ebx,ebx
+ 804cce6:	je     804cebe <_ZN5Form1C2EP7QWidgetPKcj+0x25e>
+ 804ccec:	mov    DWORD PTR [esp+0x4],esi
+ 804ccf0:	mov    esi,0x804d3b4
+ 804ccf5:	mov    DWORD PTR [esp],edi
+ 804ccf8:	call   804b484 <_ZN7QWidget7setIconERK7QPixmap@plt>
+ 804ccfd:	mov    DWORD PTR [esp],0xc0
+ 804cd04:	call   804b774 <_Znwj@plt>
+ 804cd09:	mov    DWORD PTR [esp+0x4],edi
+ 804cd0d:	mov    ebx,eax
+ 804cd0f:	xor    eax,eax
+ 804cd11:	mov    DWORD PTR [esp+0xc],eax
+ 804cd15:	mov    eax,0x804d3a9
+ 804cd1a:	mov    DWORD PTR [esp+0x8],eax
+ 804cd1e:	mov    DWORD PTR [esp],ebx
+ 804cd21:	call   804bab4 <_ZN6QLabelC1EP7QWidgetPKcj@plt>
+ 804cd26:	mov    eax,DWORD PTR [ebx]
+ 804cd28:	mov    DWORD PTR [edi+0x74],ebx
+ 804cd2b:	mov    DWORD PTR [ebp-0x44],0x1e
+ 804cd32:	mov    DWORD PTR [ebp-0x40],0x14
+ 804cd39:	mov    edx,DWORD PTR [eax+0xe0]
+ 804cd3f:	lea    eax,[ebp-0x44]
+ 804cd42:	mov    DWORD PTR [esp+0x4],eax
+ 804cd46:	mov    DWORD PTR [esp],ebx
+ 804cd49:	mov    DWORD PTR [ebp-0x3c],0x140
+ 804cd50:	mov    DWORD PTR [ebp-0x38],0x6d
+ 804cd57:	call   edx
+ 804cd59:	mov    DWORD PTR [esp],0x9c
+ 804cd60:	call   804b774 <_Znwj@plt>
+ 804cd65:	mov    DWORD PTR [esp+0x8],esi
+ 804cd69:	mov    DWORD PTR [esp+0x4],edi
+ 804cd6d:	mov    ebx,eax
+ 804cd6f:	mov    DWORD PTR [esp],eax
+ 804cd72:	call   804b1f4 <_ZN11KPushButtonC1EP7QWidgetPKc@plt>
+ 804cd77:	mov    eax,DWORD PTR [ebx]
+ 804cd79:	mov    DWORD PTR [edi+0x78],ebx
+ 804cd7c:	mov    DWORD PTR [ebp-0x34],0xc8
+ 804cd83:	mov    DWORD PTR [ebp-0x30],0x8c
+ 804cd8a:	mov    edx,DWORD PTR [eax+0xe0]
+ 804cd90:	lea    eax,[ebp-0x34]
+ 804cd93:	mov    DWORD PTR [esp+0x4],eax
+ 804cd97:	mov    DWORD PTR [esp],ebx
+ 804cd9a:	mov    DWORD PTR [ebp-0x2c],0x12c
+ 804cda1:	mov    DWORD PTR [ebp-0x28],0xb4
+ 804cda8:	call   edx
+ 804cdaa:	mov    DWORD PTR [esp],0x9c
+ 804cdb1:	call   804b774 <_Znwj@plt>
+ 804cdb6:	mov    ecx,0x804d3bc
+ 804cdbb:	mov    DWORD PTR [esp+0x8],ecx
+ 804cdbf:	mov    DWORD PTR [esp+0x4],edi
+ 804cdc3:	mov    ebx,eax
+ 804cdc5:	mov    DWORD PTR [esp],eax
+ 804cdc8:	call   804b1f4 <_ZN11KPushButtonC1EP7QWidgetPKc@plt>
+ 804cdcd:	mov    eax,DWORD PTR [ebx]
+ 804cdcf:	xor    edx,edx
+ 804cdd1:	mov    DWORD PTR [edi+0x7c],ebx
+ 804cdd4:	mov    DWORD PTR [esp+0x4],edx
+ 804cdd8:	mov    DWORD PTR [esp],ebx
+ 804cddb:	call   DWORD PTR [eax+0x54]
+ 804cdde:	mov    edx,DWORD PTR [edi+0x7c]
+ 804cde1:	mov    DWORD PTR [ebp-0x24],0x28
+ 804cde8:	mov    DWORD PTR [ebp-0x20],0x8c
+ 804cdef:	mov    DWORD PTR [ebp-0x1c],0x96
+ 804cdf6:	mov    eax,DWORD PTR [edx]
+ 804cdf8:	mov    DWORD PTR [ebp-0x18],0xb4
+ 804cdff:	mov    ecx,DWORD PTR [eax+0xe0]
+ 804ce05:	lea    eax,[ebp-0x24]
+ 804ce08:	mov    DWORD PTR [esp+0x4],eax
+ 804ce0c:	mov    DWORD PTR [esp],edx
+ 804ce0f:	call   ecx
+ 804ce11:	mov    DWORD PTR [esp],edi
+ 804ce14:	call   804c7c0 <_ZN5Form114languageChangeEv>
+ 804ce19:	lea    eax,[ebp-0x58]
+ 804ce1c:	mov    DWORD PTR [esp],eax
+ 804ce1f:	mov    DWORD PTR [esp+0x4],edi
+ 804ce23:	call   804b984 <_ZNK7QWidget15minimumSizeHintEv@plt>
+ 804ce28:	mov    ecx,DWORD PTR [ebp-0x54]
+ 804ce2b:	mov    edx,DWORD PTR [ebp-0x58]
+ 804ce2e:	mov    eax,ecx
+ 804ce30:	sub    esp,0x4
+ 804ce33:	cmp    ecx,0xd0
+ 804ce39:	jg     804ce40 <_ZN5Form1C2EP7QWidgetPKcj+0x1e0>
+ 804ce3b:	mov    eax,0xd1
+ 804ce40:	cmp    edx,0x154
+ 804ce46:	mov    ebx,DWORD PTR [edi]
+ 804ce48:	mov    DWORD PTR [esp+0x8],eax
+ 804ce4c:	mov    eax,edx
+ 804ce4e:	jge    804ce55 <_ZN5Form1C2EP7QWidgetPKcj+0x1f5>
+ 804ce50:	mov    eax,0x154
+ 804ce55:	mov    DWORD PTR [esp+0x4],eax
+ 804ce59:	mov    esi,0x804d3c8
+ 804ce5e:	mov    DWORD PTR [esp],edi
+ 804ce61:	call   DWORD PTR [ebx+0xd8]
+ 804ce67:	mov    ebx,0x804d3d6
+ 804ce6c:	and    DWORD PTR [edi+0x40],0xffffdfff
+ 804ce73:	mov    DWORD PTR [esp+0xc],esi
+ 804ce77:	mov    DWORD PTR [esp+0x8],edi
+ 804ce7b:	mov    DWORD PTR [esp+0x4],ebx
+ 804ce7f:	mov    eax,DWORD PTR [edi+0x78]
+ 804ce82:	mov    DWORD PTR [esp],eax
+ 804ce85:	call   804b304 <_ZN7QObject7connectEPKS_PKcS1_S3_@plt>
+ 804ce8a:	mov    ecx,0x804d3e1
+ 804ce8f:	mov    edx,0x804d3d6
+ 804ce94:	mov    DWORD PTR [esp+0xc],ecx
+ 804ce98:	mov    DWORD PTR [esp+0x8],edi
+ 804ce9c:	mov    DWORD PTR [esp+0x4],edx
+ 804cea0:	mov    eax,DWORD PTR [edi+0x7c]
+ 804cea3:	mov    DWORD PTR [esp],eax
+ 804cea6:	call   804b304 <_ZN7QObject7connectEPKS_PKcS1_S3_@plt>
+ 804ceab:	lea    eax,[ebp-0x14]
+ 804ceae:	mov    DWORD PTR [esp],eax
+ 804ceb1:	call   804b694 <_ZN6QImageD1Ev@plt>
+ 804ceb6:	lea    esp,[ebp-0xc]
+ 804ceb9:	pop    ebx
+ 804ceba:	pop    esi
+ 804cebb:	pop    edi
+ 804cebc:	pop    ebp
+ 804cebd:	ret
+ 804cebe:	mov    eax,0x804d368
+ 804cec3:	mov    DWORD PTR [esp+0x4],eax
+ 804cec7:	mov    DWORD PTR [esp],edi
+ 804ceca:	call   804b364 <_ZN7QWidget7setNameEPKc@plt>
+ 804cecf:	jmp    804ccec <_ZN5Form1C2EP7QWidgetPKcj+0x8c>
+ 804ced4:	nop
+ 804ced5:	nop
+ 804ced6:	nop
+ 804ced7:	nop
+ 804ced8:	nop
+ 804ced9:	nop
+ 804ceda:	nop
+ 804cedb:	nop
+ 804cedc:	nop
+ 804cedd:	nop
+ 804cede:	nop
+ 804cedf:	nop
+
+0804cee0 <_ZNK5Form110metaObjectEv>:
+ 804cee0:	push   ebp
+ 804cee1:	mov    ebp,esp
+ 804cee3:	pop    ebp
+ 804cee4:	jmp    804c4d0 <_ZN5Form116staticMetaObjectEv>
+ 804cee9:	nop
+ 804ceea:	nop
+ 804ceeb:	nop
+ 804ceec:	nop
+ 804ceed:	nop
+ 804ceee:	nop
+ 804ceef:	nop
+
+0804cef0 <_ZThn40_N5Form1D0Ev>:
+ 804cef0:	add    DWORD PTR [esp+0x4],0xffffffd8
+ 804cef5:	jmp    804c720 <_ZN5Form1D0Ev>
+ 804cefa:	nop
+ 804cefb:	nop
+ 804cefc:	nop
+ 804cefd:	nop
+ 804cefe:	nop
+ 804ceff:	nop
+
+0804cf00 <_ZThn40_N5Form1D1Ev>:
+ 804cf00:	add    DWORD PTR [esp+0x4],0xffffffd8
+ 804cf05:	jmp    804c760 <_ZN5Form1D1Ev>
+ 804cf0a:	nop
+ 804cf0b:	nop
+ 804cf0c:	nop
+ 804cf0d:	nop
+ 804cf0e:	nop
+ 804cf0f:	nop
+
+0804cf10 <__libc_csu_fini>:
+ 804cf10:	push   ebp
+ 804cf11:	mov    ebp,esp
+ 804cf13:	push   edi
+ 804cf14:	push   esi
+ 804cf15:	push   ebx
+ 804cf16:	call   804cfb3 <__i686.get_pc_thunk.bx>
+ 804cf1b:	add    ebx,0x2b01
+ 804cf21:	sub    esp,0xc
+ 804cf24:	lea    eax,[ebx-0x1e8]
+ 804cf2a:	lea    edi,[ebx-0x1e8]
+ 804cf30:	sub    eax,edi
+ 804cf32:	sar    eax,0x2
+ 804cf35:	lea    esi,[eax-0x1]
+ 804cf38:	cmp    esi,0xffffffff
+ 804cf3b:	je     804cf49 <__libc_csu_fini+0x39>
+ 804cf3d:	lea    esi,[esi+0x0]
+ 804cf40:	call   DWORD PTR [edi+esi*4]
+ 804cf43:	dec    esi
+ 804cf44:	cmp    esi,0xffffffff
+ 804cf47:	jne    804cf40 <__libc_csu_fini+0x30>
+ 804cf49:	lea    esi,[esi+eiz*1+0x0]
+ 804cf50:	call   804cff4 <_fini>
+ 804cf55:	add    esp,0xc
+ 804cf58:	pop    ebx
+ 804cf59:	pop    esi
+ 804cf5a:	pop    edi
+ 804cf5b:	pop    ebp
+ 804cf5c:	ret
+ 804cf5d:	lea    esi,[esi+0x0]
+
+0804cf60 <__libc_csu_init>:
+ 804cf60:	push   ebp
+ 804cf61:	mov    ebp,esp
+ 804cf63:	push   edi
+ 804cf64:	push   esi
+ 804cf65:	push   ebx
+ 804cf66:	call   804cfb3 <__i686.get_pc_thunk.bx>
+ 804cf6b:	add    ebx,0x2ab1
+ 804cf71:	sub    esp,0xc
+ 804cf74:	call   804b0dc <_init>
+ 804cf79:	lea    eax,[ebx-0x1e8]
+ 804cf7f:	lea    edx,[ebx-0x1e8]
+ 804cf85:	sub    eax,edx
+ 804cf87:	sar    eax,0x2
+ 804cf8a:	mov    DWORD PTR [ebp-0x10],eax
+ 804cf8d:	je     804cfab <__libc_csu_init+0x4b>
+ 804cf8f:	xor    edi,edi
+ 804cf91:	mov    esi,edx
+ 804cf93:	lea    esi,[esi+0x0]
+ 804cf99:	lea    edi,[edi+eiz*1+0x0]
+ 804cfa0:	inc    edi
+ 804cfa1:	call   DWORD PTR [esi]
+ 804cfa3:	add    esi,0x4
+ 804cfa6:	cmp    DWORD PTR [ebp-0x10],edi
+ 804cfa9:	jne    804cfa0 <__libc_csu_init+0x40>
+ 804cfab:	add    esp,0xc
+ 804cfae:	pop    ebx
+ 804cfaf:	pop    esi
+ 804cfb0:	pop    edi
+ 804cfb1:	pop    ebp
+ 804cfb2:	ret
+
+0804cfb3 <__i686.get_pc_thunk.bx>:
+ 804cfb3:	mov    ebx,DWORD PTR [esp]
+ 804cfb6:	ret
+ 804cfb7:	nop
+ 804cfb8:	nop
+ 804cfb9:	nop
+ 804cfba:	nop
+ 804cfbb:	nop
+ 804cfbc:	nop
+ 804cfbd:	nop
+ 804cfbe:	nop
+ 804cfbf:	nop
+
+0804cfc0 <__do_global_ctors_aux>:
+ 804cfc0:	push   ebp
+ 804cfc1:	mov    ebp,esp
+ 804cfc3:	push   ebx
+ 804cfc4:	mov    ebx,0x804f83c
+ 804cfc9:	sub    esp,0x4
+ 804cfcc:	mov    eax,ds:0x804f83c
+ 804cfd1:	cmp    eax,0xffffffff
+ 804cfd4:	je     804cfec <__do_global_ctors_aux+0x2c>
+ 804cfd6:	lea    esi,[esi+0x0]
+ 804cfd9:	lea    edi,[edi+eiz*1+0x0]
+ 804cfe0:	sub    ebx,0x4
+ 804cfe3:	call   eax
+ 804cfe5:	mov    eax,DWORD PTR [ebx]
+ 804cfe7:	cmp    eax,0xffffffff
+ 804cfea:	jne    804cfe0 <__do_global_ctors_aux+0x20>
+ 804cfec:	pop    eax
+ 804cfed:	pop    ebx
+ 804cfee:	pop    ebp
+ 804cfef:	nop
+ 804cff0:	ret
+ 804cff1:	nop
+ 804cff2:	nop
+ 804cff3:	nop
+
+Disassembly of section .fini:
+
+0804cff4 <_fini>:
+ 804cff4:	push   ebp
+ 804cff5:	mov    ebp,esp
+ 804cff7:	push   ebx
+ 804cff8:	sub    esp,0x4
+ 804cffb:	call   804d000 <_fini+0xc>
+ 804d000:	pop    ebx
+ 804d001:	add    ebx,0x2a1c
+ 804d007:	call   804bb90 <__do_global_dtors_aux>
+ 804d00c:	pop    ecx
+ 804d00d:	pop    ebx
+ 804d00e:	leave
+ 804d00f:	ret

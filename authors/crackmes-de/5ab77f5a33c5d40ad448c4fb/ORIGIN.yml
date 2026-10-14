@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5a33c5d40ad448c4fb
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5a33c5d40ad448c4fb
+  download: https://crackmes.one/download/crackme/5ab77f5a33c5d40ad448c4fb
+
+title: "crackmes.de's kde_enableme1 by macabre"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/kde-enableme1.tgz"
+  name: "kde-enableme1.tgz"
+  sha256: "f2ef39e3733873f2e30788d8a90a0e7a5570f997dda900be38c17ecf515584b7"
+  md5: "48c161df9cb12c344121abf4e4c586f3"
+  size_bytes: 20650
+
+status: solved
+solution_summary: "bouton RegisterBtn créé désactivé : setEnabled(false) (call [eax+0x54]) NOPé aux 2 constructeurs ; patch autorisé ; preuve statique (KDE3 absent)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T18:52:33Z"
