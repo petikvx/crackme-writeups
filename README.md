@@ -230,6 +230,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [yugnatd](authors/yugnatd/README.md) | YugnatD | 1 (WarGames) | 1 / 1 |
 | [zydak](authors/zydak/README.md) | zydak | 2 (simple obfuscated + Tetris DRM) | 0 / 2 |
 | [reiika](authors/reiika/README.md) | Reiika | 1 (stckwzrd) | 1 / 1 |
+| [s3c_cult](authors/s3c_cult/README.md) | S3c_Cult | 1 (Schizo) | 1 / 1 |
 | [rr7](authors/rr7/README.md) | RR7 | 1 (Secret key) | 1 / 1 |
 | [mr-x47](authors/mr-x47/README.md) | Mr.X47 | 1 (BiLoop Cipher) | 1 / 1 |
 
@@ -254,6 +255,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-14 | [Schizo](authors/s3c_cult/6accbf32ace07d1c3fbc4b46/) | S3c_Cult |
 | 2026-10-14 | [asm_is_fun by qhf](authors/crackmes-de/5ab77f5633c5d40ad448c2bf/) | crackmes.de / qhf |
 | 2026-10-14 | [full_patchme by qhf](authors/crackmes-de/5ab77f5633c5d40ad448c2be/) | crackmes.de / qhf |
 | 2026-10-14 | [qhfs_crackme1 by qhf](authors/crackmes-de/5ab77f5633c5d40ad448c2bd/) | crackmes.de / qhf |

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6accbf32ace07d1c3fbc4b46
+
+urls:
+  page: https://crackmes.one/crackme/6accbf32ace07d1c3fbc4b46
+  download: https://crackmes.one/download/crackme/6accbf32ace07d1c3fbc4b46
+
+title: "S3c_Cult's Schizo"
+author_on_site: "S3c_Cult"
+author_local: "s3c_cult"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/schizo.zip"
+  name: "schizo.zip"
+  sha256: "8bd75780a214c5a63af6188d615437d9a0708d8e47684a3fab36db860671a6e1"
+  md5: "6b31960cee6835a9a1106ad3cae8a0eb"
+  size_bytes: 366287
+
+status: solved
+solution_summary: "CMO{Th3y_L1K3_T0_h1d3} — lib.so AES-256-CBC (clé = SHA256(hex(.sforce2)), IV 00..0f), 5 fragments base91 + SPN ___1 inversé (seed = len/sum)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T16:25:43Z"

@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6accbf32ace07d1c3fbc4b46:
+    sha256: "8bd75780a214c5a63af6188d615437d9a0708d8e47684a3fab36db860671a6e1"
+    path: "authors/s3c_cult/6accbf32ace07d1c3fbc4b46/original/schizo.zip"
+    title: "S3c_Cult's Schizo"
+
+by_sha256:
+  8bd75780a214c5a63af6188d615437d9a0708d8e47684a3fab36db860671a6e1:
+    id: 6accbf32ace07d1c3fbc4b46
+    path: "authors/s3c_cult/6accbf32ace07d1c3fbc4b46/original/schizo.zip"
+    page: https://crackmes.one/crackme/6accbf32ace07d1c3fbc4b46
