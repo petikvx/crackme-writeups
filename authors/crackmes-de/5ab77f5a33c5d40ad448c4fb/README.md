@@ -55,8 +55,8 @@ En assembleur (deux fois, `Form1::Form1` et le constructeur généré par uic) :
 Sans cet appel le widget reste dans son état par défaut : **activé**. L'alternative (mettre `1` à la place de `xor edx,edx`) demande 5 octets (`mov edx,1`) ; neutraliser l'appel (3 octets) est plus simple.
 
 **Pièges :**
-- Deux sites (`0x804cb5b` et `0x804cddb`) : le deuxième est le constructeur appelé réellement par `enableme::enableme` ; ne patcher qu'un seul laisse parfois le bouton grisé.
-- `Qt::Widget::setEnabled` est virtuel (slot vtable `+0x54`), pas un appel direct : d'où l'absence de symbole dans le listing PLT.
+- Deux sites identiques (`0x804cb5b` et `0x804cddb`) : copies du même constructeur (variantes du ctor généré, `Form1::Form1` / `Form1::Form1`-complet) ; on les patche toutes les deux par précaution, je n'ai pas pu exécuter le programme pour savoir laquelle est appelée.
+- `QWidget::setEnabled` est virtuel (slot vtable `+0x54`), pas un appel direct : d'où l'absence de symbole dans le listing PLT.
 - Le patch ne doit pas toucher l'original : `original/` intact, résultat dans `analysis/…/enableme.patched`.
 
 ## Fichiers
