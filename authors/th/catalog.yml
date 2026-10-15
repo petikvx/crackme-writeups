@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a53f2cb055757d3df60fcd4:
+    sha256: "e30c8719bd92272bd817de64a0567067755f6eaeac337000e5f36cc6e14980f9"
+    path: "authors/th/6a53f2cb055757d3df60fcd4/original/crackme_th"
+    title: "th's ComputeTheKey"
+
+by_sha256:
+  e30c8719bd92272bd817de64a0567067755f6eaeac337000e5f36cc6e14980f9:
+    id: 6a53f2cb055757d3df60fcd4
+    path: "authors/th/6a53f2cb055757d3df60fcd4/original/crackme_th"
+    page: https://crackmes.one/crackme/6a53f2cb055757d3df60fcd4

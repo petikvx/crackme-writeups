@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a53f2cb055757d3df60fcd4
+
+urls:
+  page: https://crackmes.one/crackme/6a53f2cb055757d3df60fcd4
+  download: https://crackmes.one/download/crackme/6a53f2cb055757d3df60fcd4
+
+title: "th's ComputeTheKey"
+author_on_site: "th"
+author_local: "th"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C"
+
+difficulty: 2.0
+quality: null
+size: "14.19 KB"
+published: 2026-07-12
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme_th"
+  name: "crackme_th"
+  sha256: "e30c8719bd92272bd817de64a0567067755f6eaeac337000e5f36cc6e14980f9"
+  md5: "d48403919410433534b1d32a4ab9d395"
+  size_bytes: 14528
+
+status: solved
+solution_summary: "XOR par blocs (6/6/6/1) avec cle byte_4018[0..2] (hash djb2 anti-patch de main() + constantes 0xC0,0xDE) sur unk_4030 -> X_SECRET_KEY_X_1307 ; piege gdb documente (breakpoint dans la zone auto-hashee)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-15T18:57:37Z"
