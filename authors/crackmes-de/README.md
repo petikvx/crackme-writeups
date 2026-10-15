@@ -343,6 +343,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 309 | [d00msweek039s_crackme_1](5ab77f5633c5d40ad448c2c4/) | doomsweek | Windows PE32 VB6 natif GUI | serial `CFDXXQRQAASD` (CFD+XXQ+RQA+ASD, `__vbaStrCmp` ; wine: Congrats) |
 | 310 | [d00msweek039s_crackme_2](5ab77f5633c5d40ad448c2c5/) | doomsweek | Windows PE32 VB6 natif GUI | keygen 3 lettres → `ZYX`+Atbash+`XXX` (`PET` → `ZYXKVGXXX` ; wine: Congrats!) |
 | 311 | [patchme_1](5ab77f5633c5d40ad448c2c6/) | doomsweek | Windows PE32 VB6 natif GUI | patch : Form1 (nag) flags `0x110→0x100` + `lpSubMain`→cave appelant `Form3.Command1_Click` (wine: MsgBox « PatchME Solved ! Good BYe », pas de nag) |
+| 312 | [crackme_by_fereter_2](5ab77f5633c5d40ad448c2ca/) | Fereter | Windows PE32 asm GUI | keygen : `N0 N1 x-x S0 S1-xxx`, N = somme(nom)&0xFF en base 9, S = idem sur le serial (`petik` → `23A-A03-AAF` ; vérif unicorn) |
 
 ## Mis de côté (PARKED — y revenir)
 
