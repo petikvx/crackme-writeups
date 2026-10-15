@@ -1581,6 +1581,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c2c4/original/d00m1.zip"
     title: "crackmes.de's d00msweek039s_crackme_1 by doomsweek"
 
+  5ab77f5633c5d40ad448c2c5:
+    sha256: "ec3af69e70e2405461190f6e7a1a2a1b7b30d396f2e61cefb01fe914e7315400"
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2c5/original/d00m2.zip"
+    title: "crackmes.de's d00msweek039s_crackme_2 by doomsweek"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2858,3 +2863,7 @@ by_sha256:
     id: 5ab77f5633c5d40ad448c2c4
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c2c4/original/d00m1.zip"
     page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2c4
+  ec3af69e70e2405461190f6e7a1a2a1b7b30d396f2e61cefb01fe914e7315400:
+    id: 5ab77f5633c5d40ad448c2c5
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2c5/original/d00m2.zip"
+    page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2c5
