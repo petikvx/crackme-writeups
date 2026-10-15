@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6ace4d0b6349e4b2540c7107
+
+urls:
+  page: https://crackmes.one/crackme/6ace4d0b6349e4b2540c7107
+  download: https://crackmes.one/download/crackme/6ace4d0b6349e4b2540c7107
+
+title: "sumhex's RiJiN crackme"
+author_on_site: "sumhex"
+author_local: "sumhex"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 4.5
+quality: null
+size: "364.00 KB"
+published: 2026-10-13
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/sumhex.exe"
+  name: "sumhex.exe"
+  sha256: "4a6d0572400555e8c2fb2ec7be31bf5beca437c46b822b41ed948f93afdde8de"
+  md5: "62243239abea3c305d27eef9926ced16"
+  size_bytes: 371712
+
+status: pending
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-15T18:09:50Z"

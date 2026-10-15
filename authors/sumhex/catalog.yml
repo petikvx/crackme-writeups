@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6ace4d0b6349e4b2540c7107:
+    sha256: "4a6d0572400555e8c2fb2ec7be31bf5beca437c46b822b41ed948f93afdde8de"
+    path: "authors/sumhex/6ace4d0b6349e4b2540c7107/original/sumhex.exe"
+    title: "sumhex's RiJiN crackme"
+
+by_sha256:
+  4a6d0572400555e8c2fb2ec7be31bf5beca437c46b822b41ed948f93afdde8de:
+    id: 6ace4d0b6349e4b2540c7107
+    path: "authors/sumhex/6ace4d0b6349e4b2540c7107/original/sumhex.exe"
+    page: https://crackmes.one/crackme/6ace4d0b6349e4b2540c7107
