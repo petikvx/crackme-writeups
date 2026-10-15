@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a597d5e055757d3df60fd58
+
+urls:
+  page: https://crackmes.one/crackme/6a597d5e055757d3df60fd58
+  download: https://crackmes.one/download/crackme/6a597d5e055757d3df60fd58
+
+title: "23x41's 0x8A7"
+author_on_site: "23x41"
+author_local: "23x41"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/joker_vault"
+  name: "joker_vault"
+  sha256: "899a3ab71318d59e22056f5c5a5ca66964a37bfc41658f1e320ad6df4f4d94e4"
+  md5: "25793300271076ee3f89d6626ad08500"
+  size_bytes: 19608
+
+status: solved
+solution_summary: "Non-PIE, canary present : leak canary via write(1,buf,0x38) dans riddle_leak, overflow dans check_password, ret2win sur open_batcave (0x4011a6) -> FLAG{0x8A7_C4N4RY_L34K_4ND_R3US3}"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-15T04:14:39Z"
