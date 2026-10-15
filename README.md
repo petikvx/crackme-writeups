@@ -150,6 +150,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [chaltu](authors/chaltu/README.md) | chaltu | 3 (a Treasure + Double Door + Accsess me please) | 3 / 3 |
 | [qerr0r](authors/qerr0r/README.md) | QERR0R | 1 (crackit) | 1 / 1 |
 | [steve_maxwell](authors/steve_maxwell/README.md) | steve_maxwell | 1 (X-0-R) | 1 / 1 |
+| [vodeff](authors/vodeff/README.md) | vodeff | 1 (FindLicenseKey) | 1 / 1 |
 | [popacracker](authors/popacracker/README.md) | PopaCracker | 1 (Python CrackMe) | 1 / 1 |
 | [noname_user](authors/noname_user/README.md) | noname_User | 2 | 2 / 2 |
 | [nizzix](authors/nizzix/README.md) | Nizzix | 1 (Ageis) | 1 / 1 |
@@ -255,6 +256,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-15 | [FindLicenseKey](authors/vodeff/6a2c61c06840520e01b21e2d/) | vodeff |
 | 2026-10-15 | [Accsess me please :)](authors/chaltu/6a3a7734a4b247348ae80666/) | chaltu |
 | 2026-10-15 | [Rage keygen](authors/mazzotti/6a357cd98a86e4c2c55254d8/) | Mazzotti |
 | 2026-10-15 | [Back To The beginning Keygen](authors/mazzotti/6a37cbc65f26f108ba18b982/) | Mazzotti |

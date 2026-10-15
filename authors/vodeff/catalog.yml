@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a2c61c06840520e01b21e2d:
+    sha256: "b3a949cbfb90f6f3d532bf1cb9b69b4f4eb8e37299db551beff58071be0a6551"
+    path: "authors/vodeff/6a2c61c06840520e01b21e2d/original/FindLicenseKey.zip"
+    title: "vodeff's FindLicenseKey"
+
+by_sha256:
+  b3a949cbfb90f6f3d532bf1cb9b69b4f4eb8e37299db551beff58071be0a6551:
+    id: 6a2c61c06840520e01b21e2d
+    path: "authors/vodeff/6a2c61c06840520e01b21e2d/original/FindLicenseKey.zip"
+    page: https://crackmes.one/crackme/6a2c61c06840520e01b21e2d

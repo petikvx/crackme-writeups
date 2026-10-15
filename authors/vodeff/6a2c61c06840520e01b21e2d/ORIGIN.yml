@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a2c61c06840520e01b21e2d
+
+urls:
+  page: https://crackmes.one/crackme/6a2c61c06840520e01b21e2d
+  download: https://crackmes.one/download/crackme/6a2c61c06840520e01b21e2d
+
+title: "vodeff's FindLicenseKey"
+author_on_site: "vodeff"
+author_local: "vodeff"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C"
+
+difficulty: 1.8
+quality: null
+size: "3.25 KB"
+published: 2026-06-12
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/FindLicenseKey.zip"
+  name: "FindLicenseKey.zip"
+  sha256: "b3a949cbfb90f6f3d532bf1cb9b69b4f4eb8e37299db551beff58071be0a6551"
+  md5: "45209bd44c6aa9d47d0d369a228ae3f4"
+  size_bytes: 3327
+
+status: solved
+solution_summary: "key[i]=T[(name[i]+i)%62], i<24, T=QAZPLWSX…; petik_the_crackme_reverser_2026→bs2gct6cxdxAxb3Q0bO4C6YC (nom <24 car. : lit la pile après argv[1])"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-15T17:19:15Z"
