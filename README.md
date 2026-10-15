@@ -160,6 +160,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [th](authors/th/README.md) | th | 1 (ComputeTheKey) | 1 / 1 |
 | [kryptos](authors/kryptos/README.md) | Kryptos | 1 (Hecate) | 1 / 1 |
 | [marco007](authors/marco007/README.md) | marco007 | 2 (time based riddle + simple crackme) | 2 / 2 |
+| [sftmlg](authors/sftmlg/README.md) | sftmlg | 1 (Quite a simple crackme) | 1 / 1 |
 | [popacracker](authors/popacracker/README.md) | PopaCracker | 1 (Python CrackMe) | 1 / 1 |
 | [noname_user](authors/noname_user/README.md) | noname_User | 2 | 2 / 2 |
 | [nizzix](authors/nizzix/README.md) | Nizzix | 1 (Ageis) | 1 / 1 |
@@ -265,6 +266,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-16 | [Quite a simple crackme](authors/sftmlg/697f761b32fcb81e1bd005c6/) | sftmlg |
 | 2026-10-16 | [simple crackme](authors/marco007/698a6214fb46458f1ef6cef5/) | marco007 |
 | 2026-10-16 | [time based riddle](authors/marco007/6990e4b9a15272fa37a80cb8/) | marco007 |
 | 2026-10-16 | [CrackIt;)](authors/qerr0r/69a65ee60f5b9757a6a5f73f/) | QERR0R |

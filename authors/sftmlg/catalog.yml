@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  697f761b32fcb81e1bd005c6:
+    sha256: "36ac421beb5dfb8e0bcba172ee7629c0b4ffd6eb5fde38e6df252e46427f58e4"
+    path: "authors/sftmlg/697f761b32fcb81e1bd005c6/original/crackme-noletters.zip"
+    title: "sftmlg's Quite a simple crackme"
+
+by_sha256:
+  36ac421beb5dfb8e0bcba172ee7629c0b4ffd6eb5fde38e6df252e46427f58e4:
+    id: 697f761b32fcb81e1bd005c6
+    path: "authors/sftmlg/697f761b32fcb81e1bd005c6/original/crackme-noletters.zip"
+    page: https://crackmes.one/crackme/697f761b32fcb81e1bd005c6

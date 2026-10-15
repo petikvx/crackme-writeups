@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 697f761b32fcb81e1bd005c6
+
+urls:
+  page: https://crackmes.one/crackme/697f761b32fcb81e1bd005c6
+  download: https://crackmes.one/download/crackme/697f761b32fcb81e1bd005c6
+
+title: "sftmlg's Quite a simple crackme"
+author_on_site: "sftmlg"
+author_local: "sftmlg"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C++"
+
+difficulty: 1.1
+quality: null
+size: "7.08 KB"
+published: 2026-02-01
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme-noletters.zip"
+  name: "crackme-noletters.zip"
+  sha256: "36ac421beb5dfb8e0bcba172ee7629c0b4ffd6eb5fde38e6df252e46427f58e4"
+  md5: "a22a6def204fac3347a2aeb6595441c6"
+  size_bytes: 7253
+
+status: solved
+solution_summary: "mot de passe en clair dans .rodata (indice auteur: pas de lettres) -> @!#-3~&,$;7?/.:%42+`"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-15T19:18:28Z"
