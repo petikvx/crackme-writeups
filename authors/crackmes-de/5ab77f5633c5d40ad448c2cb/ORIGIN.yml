@@ -1,0 +1,39 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2cb
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2cb
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2cb
+
+title: "crackmes.de's crackme_by_fereter_1 by fereter"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler (FASM 1.71, PE32 GUI)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackmebyfereter.zip"
+  name: "crackmebyfereter.zip"
+  sha256: "8f227be6bf65d64e3439e46a5e389d452ce3ebbf5de416f63c3b28033cca5858"
+  md5: "4962dd2e4307b24244ca64ecc3f03e02"
+  size_bytes: 1236
+  extracted:
+    name: "crackme.EXE"
+    sha256: "2a0303eee7a37bd94065df38cac341566906c8eb2f53f17a34dcdf247e32c52b"
+
+status: solved
+solution_summary: "serial fixe 8294810 : GetDlgItemInt doit réussir puis les 8 premiers octets du texte sont comparés à 0x34393238 (\"8294\") et 0x00303138 (\"810\\0\") ; anti-debug rdtsc + scan 0xCC/0x90 + IsDebuggerPresent (vérifié en rejouant le WndProc d'origine sous unicorn : Correct numner.)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-15T03:48:49Z"

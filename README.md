@@ -146,7 +146,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [oguzbey](authors/oguzbey/README.md) | oguzbey | 1 (Lucky Numbers) | 1 / 1 |
 | [andrewl](authors/andrewl/README.md) | andrewl | 1 (Quick Crypto) | 1 / 1 |
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
-| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 308 / 308 |
+| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 311 / 311 |
 | [chaltu](authors/chaltu/README.md) | chaltu | 2 (a Treasure + Double Door) | 2 / 2 |
 | [qerr0r](authors/qerr0r/README.md) | QERR0R | 1 (crackit) | 1 / 1 |
 | [steve_maxwell](authors/steve_maxwell/README.md) | steve_maxwell | 1 (X-0-R) | 1 / 1 |
@@ -201,7 +201,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [victormeloasm](authors/victormeloasm/README.md) | victormeloasm | 2 (Froggate II + Simple Frog) | 1 / 2 |
 | [nillya](authors/nillya/README.md) | Nillya | 1 (Nillya's Pass CrackMe) | 0 / 1 |
 | [leotrungkien](authors/leotrungkien/README.md) | Leotrungkien | 1 (Fugs) | 1 / 1 |
-| [fon37](authors/fon37/README.md) | fon37 | 1 (Secret Menu) | 1 / 1 |
+| [fon37](authors/fon37/README.md) | fon37 | 2 (Secret Menu + King of Asgard) | 2 / 2 |
 | [memetic0](authors/memetic0/README.md) | memetic0 | 1 (Tropical) | 1 / 1 |
 | [vetementsvmnts](authors/vetementsvmnts/README.md) | vetementsvmnts | 5 | 5 / 5 |
 | [acheylate](authors/acheylate/README.md) | acheylate | 4 (Find password L+W, State Machine, Beat The Game) | 4 / 4 |
@@ -261,6 +261,10 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 | 2026-10-15 | [Cortisol level low keygen](authors/mazzotti/6a400d20a4b247348ae806cf/) | Mazzotti |
 | 2026-10-15 | [23x41's 0x8A7 Vault (Joker)](authors/23x41/6a597d5e055757d3df60fd58/) | 23x41 |
 | 2026-10-15 | [23x41's 0x8A7 Gate (Batcave)](authors/23x41/6a597d2a0b25d281a656896b/) | 23x41 |
+| 2026-10-15 | [patchme_1 by doomsweek](authors/crackmes-de/5ab77f5633c5d40ad448c2c6/) | crackmes.de / doomsweek |
+| 2026-10-15 | [d00msweek039s_crackme_2 by doomsweek](authors/crackmes-de/5ab77f5633c5d40ad448c2c5/) | crackmes.de / doomsweek |
+| 2026-10-15 | [d00msweek039s_crackme_1 by doomsweek](authors/crackmes-de/5ab77f5633c5d40ad448c2c4/) | crackmes.de / doomsweek |
+| 2026-10-15 | [King of Asgard](authors/fon37/6acf9047ace07d1c3fbc4c0f/) | fon37 |
 | 2026-10-14 | [code_linux](authors/crackmes-de/5ab77f5f33c5d40ad448c800/) | crackmes.de / buga0205 |
 | 2026-10-14 | [crackme2](authors/crackmes-de/5ab77f5e33c5d40ad448c78d/) | crackmes.de / seveb |
 | 2026-10-14 | [crackme05](authors/crackmes-de/5ab77f5e33c5d40ad448c78c/) | crackmes.de / seveb |

@@ -1,0 +1,10 @@
+$ upx -d -o analysis/crackme.unpacked original/crackme
+$ python3 tools/king-of-asgard-solve.py
+CMO{IamLokiofAsgardandIamburdenedwithgloriouspurpose}
+$ echo 'CMO{IamLokiofAsgardandIamburdenedwithgloriouspurpose}' | ./crackme
+Enter the flag: 
+You Win!
+
+$ echo petik | ./crackme
+Enter the flag: 
+Invalid Length

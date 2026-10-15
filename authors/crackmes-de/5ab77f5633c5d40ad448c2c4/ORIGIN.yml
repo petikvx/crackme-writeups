@@ -1,0 +1,39 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2c4
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2c4
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2c4
+
+title: "crackmes.de's d00msweek039s_crackme_1 by doomsweek"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows (site: Unspecified/other)"
+arch: "x86"
+language: "Visual Basic 6 (native)"
+
+difficulty: 1.0
+quality: 4.0
+size: "3.26 KB"
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/d00m1.zip"
+  name: "d00m1.zip"
+  sha256: "7f9fb8f107d508a2599b1db3084faafbfb5d403f8277c43ce32d67916ddc0e1c"
+  md5: "a9d37c636c429e31b2a4304f6ed25fad"
+  size_bytes: 3341
+  extracted:
+    name: "d00m1.exe"
+    sha256: "a90ba19eab751c043a2fd9cb4a40b7bb4a34d7ed9ae4c48a869c7d74993b7b53"
+
+status: solved
+solution_summary: "serial constant CFDXXQRQAASD = concat des 4 BSTR de Form_Load (CFD XXQ RQA ASD), __vbaStrCmp dans cmdCheck_Click (wine: MsgBox Congrats)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T22:54:28Z"

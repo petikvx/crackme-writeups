@@ -1,0 +1,39 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2c5
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2c5
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2c5
+
+title: "crackmes.de's d00msweek039s_crackme_2 by doomsweek"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows (site: Unspecified/other)"
+arch: "x86"
+language: "Visual Basic 6 (native)"
+
+difficulty: 1.0
+quality: 4.0
+size: "4.35 KB"
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/d00m2.zip"
+  name: "d00m2.zip"
+  sha256: "ec3af69e70e2405461190f6e7a1a2a1b7b30d396f2e61cefb01fe914e7315400"
+  md5: "6e2f5dd41aa9e9d93ef8c7872a9ff5ea"
+  size_bytes: 4455
+  extracted:
+    name: "d00m2.exe"
+    sha256: "9db8e7717d35ce100fc9d927ea4794694762e65f05f63c75c00b208482a66794"
+
+status: solved
+solution_summary: "keygen 3 lettres L1L2L3 -> code ZYX+atbash(L1L2L3)+XXX (PET -> ZYXKVGXXX), cascade __vbaStrCmp A..Z + __vbaVarAdd/__vbaVarTstEq (wine: Congrats!)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-14T23:58:00Z"

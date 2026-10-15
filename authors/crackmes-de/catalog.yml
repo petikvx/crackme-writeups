@@ -1576,6 +1576,31 @@ by_id:
     path: "authors/crackmes-de/5ab77f5f33c5d40ad448c800/original/CodeLinux.zip"
     title: "crackmes.de's code_linux by buga0205"
 
+  5ab77f5633c5d40ad448c2c4:
+    sha256: "7f9fb8f107d508a2599b1db3084faafbfb5d403f8277c43ce32d67916ddc0e1c"
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2c4/original/d00m1.zip"
+    title: "crackmes.de's d00msweek039s_crackme_1 by doomsweek"
+
+  5ab77f5633c5d40ad448c2c5:
+    sha256: "ec3af69e70e2405461190f6e7a1a2a1b7b30d396f2e61cefb01fe914e7315400"
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2c5/original/d00m2.zip"
+    title: "crackmes.de's d00msweek039s_crackme_2 by doomsweek"
+
+  5ab77f5633c5d40ad448c2c6:
+    sha256: "1b5c37f0d8939d9b67de07db32b155c3263a013994eacb79c04c6cf5336f304f"
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2c6/original/patchme1.zip"
+    title: "crackmes.de's patchme_1 by doomsweek"
+
+  5ab77f5633c5d40ad448c2ca:
+    sha256: "c59e5a39d820f9aa47b2dd318400fcf56f6256945310979835fd8d3a9a70256b"
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2ca/original/CrackMeByFereter#2.zip"
+    title: "crackmes.de's crackme_by_fereter_2 by fereter"
+
+  5ab77f5633c5d40ad448c2cb:
+    sha256: "8f227be6bf65d64e3439e46a5e389d452ce3ebbf5de416f63c3b28033cca5858"
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2cb/original/crackmebyfereter.zip"
+    title: "crackmes.de's crackme_by_fereter_1 by fereter"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2849,3 +2874,23 @@ by_sha256:
     id: 5ab77f5f33c5d40ad448c800
     path: "authors/crackmes-de/5ab77f5f33c5d40ad448c800/original/CodeLinux.zip"
     page: https://crackmes.one/crackme/5ab77f5f33c5d40ad448c800
+  7f9fb8f107d508a2599b1db3084faafbfb5d403f8277c43ce32d67916ddc0e1c:
+    id: 5ab77f5633c5d40ad448c2c4
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2c4/original/d00m1.zip"
+    page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2c4
+  ec3af69e70e2405461190f6e7a1a2a1b7b30d396f2e61cefb01fe914e7315400:
+    id: 5ab77f5633c5d40ad448c2c5
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2c5/original/d00m2.zip"
+    page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2c5
+  1b5c37f0d8939d9b67de07db32b155c3263a013994eacb79c04c6cf5336f304f:
+    id: 5ab77f5633c5d40ad448c2c6
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2c6/original/patchme1.zip"
+    page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2c6
+  c59e5a39d820f9aa47b2dd318400fcf56f6256945310979835fd8d3a9a70256b:
+    id: 5ab77f5633c5d40ad448c2ca
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2ca/original/CrackMeByFereter#2.zip"
+    page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2ca
+  8f227be6bf65d64e3439e46a5e389d452ce3ebbf5de416f63c3b28033cca5858:
+    id: 5ab77f5633c5d40ad448c2cb
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2cb/original/crackmebyfereter.zip"
+    page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2cb

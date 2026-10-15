@@ -1,0 +1,39 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2ca
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2ca
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2ca
+
+title: "crackmes.de's crackme_by_fereter_2 by fereter"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler (MASM/FASM, PE32 GUI)"
+
+difficulty: 2.0
+quality: 4.0
+size: "1.93 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/CrackMeByFereter#2.zip"
+  name: "CrackMeByFereter#2.zip"
+  sha256: "c59e5a39d820f9aa47b2dd318400fcf56f6256945310979835fd8d3a9a70256b"
+  md5: "855901765a8584183eff5e7f4ea162d6"
+  size_bytes: 1980
+  extracted:
+    name: "CrackMeByFereter#2.exe"
+    sha256: "9006e3e207fee2acca1a7ee0c96a389cc60629120f0c5d14ceedab1de991ff0c"
+
+status: solved
+solution_summary: "keygen : serial 11 car. D0 D1 x - x D5 D6 - x x x ; D0/D1 = somme(nom)&0xFF %%9 et /9%%9, D5/D6 = idem sur la somme du serial lui-même ; petik -> 23A-A03-AAF (vérifié en rejouant la routine x86 du binaire sous unicorn)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-15T02:49:53Z"
