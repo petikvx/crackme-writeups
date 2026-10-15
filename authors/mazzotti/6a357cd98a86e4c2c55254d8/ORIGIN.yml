@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a357cd98a86e4c2c55254d8
+
+urls:
+  page: https://crackmes.one/crackme/6a357cd98a86e4c2c55254d8
+  download: https://crackmes.one/download/crackme/6a357cd98a86e4c2c55254d8
+
+title: "Mazzotti's Rage keygen"
+author_on_site: "Mazzotti"
+author_local: "mazzotti"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme"
+  name: "crackme"
+  sha256: "d2a61600ab5f02b3217696036bc84884701238a3f1214aad50819aeba90014c5"
+  md5: "f7a0262668b2af51c67948fa987c3662"
+  size_bytes: 14568
+
+status: solved
+solution_summary: "XOR en place (pivot v=s[N-3]) puis double check: somme signee==732 et stoi(T)%27==13 (stoi lit seulement le prefixe numerique)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-15T04:21:25Z"
