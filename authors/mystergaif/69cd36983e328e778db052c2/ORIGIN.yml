@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69cd36983e328e778db052c2
+
+urls:
+  page: https://crackmes.one/crackme/69cd36983e328e778db052c2
+  download: https://crackmes.one/download/crackme/69cd36983e328e778db052c2
+
+title: "mystergaif's U Can&#39;t Pass"
+author_on_site: "mystergaif"
+author_local: "mystergaif"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C (clang)"
+
+difficulty: 1.0
+quality: null
+size: "15.12 KB"
+published: 2026-04-01
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/main.out"
+  name: "main.out"
+  sha256: "ba7c61f81dbeb140cbcbfddbcf0eee2f0ab56118242c868ad8ee559333c116ff"
+  md5: "e24e7570eba97a2671bb2661d3312f5c"
+  size_bytes: 15488
+
+status: solved
+solution_summary: "binaire sans aucune entree (ni stdin ni argv) : var_8=10 compare a 10, tautologie -> toujours Error! ; Success! force en live sous gdb (set variable var_8=0), fichier non patche"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-15T17:45:23Z"

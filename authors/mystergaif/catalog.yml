@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69cd36983e328e778db052c2:
+    sha256: "ba7c61f81dbeb140cbcbfddbcf0eee2f0ab56118242c868ad8ee559333c116ff"
+    path: "authors/mystergaif/69cd36983e328e778db052c2/original/main.out"
+    title: "mystergaif's U Can&#39;t Pass"
+
+by_sha256:
+  ba7c61f81dbeb140cbcbfddbcf0eee2f0ab56118242c868ad8ee559333c116ff:
+    id: 69cd36983e328e778db052c2
+    path: "authors/mystergaif/69cd36983e328e778db052c2/original/main.out"
+    page: https://crackmes.one/crackme/69cd36983e328e778db052c2
