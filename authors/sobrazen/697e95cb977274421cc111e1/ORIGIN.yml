@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 697e95cb977274421cc111e1
+
+urls:
+  page: https://crackmes.one/crackme/697e95cb977274421cc111e1
+  download: https://crackmes.one/download/crackme/697e95cb977274421cc111e1
+
+title: "SoBrazen's Prometheora"
+author_on_site: "SoBrazen"
+author_local: "sobrazen"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/prometheora"
+  name: "prometheora"
+  sha256: "fdaaceae0922e7d772c82fa1950bce4c894b5ec055fc01a8b53ed48792d9fe21"
+  md5: "66d970bc1129c8ab4f2d118e11b2495c"
+  size_bytes: 512912
+
+status: pending
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-15T19:19:26Z"

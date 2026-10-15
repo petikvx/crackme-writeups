@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  697e95cb977274421cc111e1:
+    sha256: "fdaaceae0922e7d772c82fa1950bce4c894b5ec055fc01a8b53ed48792d9fe21"
+    path: "authors/sobrazen/697e95cb977274421cc111e1/original/prometheora"
+    title: "SoBrazen's Prometheora"
+
+by_sha256:
+  fdaaceae0922e7d772c82fa1950bce4c894b5ec055fc01a8b53ed48792d9fe21:
+    id: 697e95cb977274421cc111e1
+    path: "authors/sobrazen/697e95cb977274421cc111e1/original/prometheora"
+    page: https://crackmes.one/crackme/697e95cb977274421cc111e1
