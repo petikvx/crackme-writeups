@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a400d20a4b247348ae806cf
+
+urls:
+  page: https://crackmes.one/crackme/6a400d20a4b247348ae806cf
+  download: https://crackmes.one/download/crackme/6a400d20a4b247348ae806cf
+
+title: "Mazzotti's Cortisol level low keygen"
+author_on_site: "Mazzotti"
+author_local: "mazzotti"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/cortisol_level_low_keygen"
+  name: "cortisol_level_low_keygen"
+  sha256: "102cd396a16bb1aced9c4a768dfc93ea7de44509b53e8ee2d8699b33b1f42aca"
+  md5: "45952a7065ee23d624a1fa6f7daf67ba"
+  size_bytes: 14624
+
+status: solved
+solution_summary: "Checksum mod10 complement: 10 chiffres, weights=[1,3,7,9,1,3,7,9,1,3], cle=(10-sum%10)%10 -> ex. 12345678903"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-15T04:21:20Z"
