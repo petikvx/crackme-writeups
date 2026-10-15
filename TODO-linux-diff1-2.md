@@ -4,7 +4,7 @@ Recherche [crackmes.one](https://crackmes.one/search?name=&author=&difficulty-mi
 
 Filtre : plateforme Unix/linux, difficulté 1.0–2.0, tri date décroissante (plus récent en haut). **Page 1 seulement (50 résultats)** — le site est paginé, il y a probablement d'autres résultats plus anciens derrière (`Show All` / page 2+) pas encore inventoriés ici.
 
-Statuts vérifiés le 2026-10-15 (plusieurs sessions en parallèle ont avancé sur cette liste, d'où le nombre élevé de `solved`). Les **19** lignes marquées `TODO` ci-dessous restent à faire.
+Statuts vérifiés le 2026-10-15 (plusieurs sessions en parallèle ont avancé sur cette liste, d'où le nombre élevé de `solved`). Les **18** lignes marquées `TODO` ci-dessous restent à faire.
 
 | # | Date | Crackme | Auteur | Difficulté | Taille | URL | Statut |
 |---|---|---|---|---|---|---|---|
@@ -32,7 +32,7 @@ Statuts vérifiés le 2026-10-15 (plusieurs sessions en parallèle ont avancé s
 | 22 | 2026-05-19 | Jame's Cybersecurity Company | segfaults | 2.0 | 17.07 KB | https://crackmes.one/crackme/6a0c8b608fab7bbca2730221 | solved |
 | 23 | 2026-05-07 | InputPrinter | khaledddd | 2.0 | 18.41 KB | https://crackmes.one/crackme/69fc5a3a3fba64e45dcea9ed | solved |
 | 24 | 2026-05-06 | VaultBreaker | ShadowLegion | 1.8 | 41.61 KB | https://crackmes.one/crackme/69fba1198fab7bbca27300f2 | solved |
-| 25 | 2026-04-18 | c | Toronto | 1.6 | 14.39 KB | https://crackmes.one/crackme/69e352c2643676f8bb961d2e | **TODO** |
+| 25 | 2026-04-18 | c | Toronto | 1.6 | 14.39 KB | https://crackmes.one/crackme/69e352c2643676f8bb961d2e | solved |
 | 26 | 2026-04-01 | I need to be honest | pipedown | 1.6 | 6.84 KB | https://crackmes.one/crackme/69cd43df49fa49a2a2602312 | solved |
 | 27 | 2026-04-01 | U Can't Pass | mystergaif | 1.0 | 15.12 KB | https://crackmes.one/crackme/69cd36983e328e778db052c2 | **TODO** |
 | 28 | 2026-03-03 | CrackIt;) | QERR0R | 1.8 | 14.45 KB | https://crackmes.one/crackme/69a65ee60f5b9757a6a5f73f | **TODO** |
@@ -54,4 +54,4 @@ Statuts vérifiés le 2026-10-15 (plusieurs sessions en parallèle ont avancé s
 | 44 | 2025-08-07 | int overflow | izijerry | 1.4 | 15.75 KB | https://crackmes.one/crackme/6894d8e98fac2855fe6fb3ff | **TODO** |
 | 45 | 2025-07-25 | Godez_Mark crackme | Mark_Godez | 1.2 | 15.74 KB | https://crackmes.one/crackme/688328248fac2855fe6fb07d | **TODO** |
 
-Le prochain de la file est **c** (#25, Toronto) : https://crackmes.one/crackme/69e352c2643676f8bb961d2e
+Le prochain de la file est **U Can't Pass** (#27, mystergaif) : https://crackmes.one/crackme/69cd36983e328e778db052c2

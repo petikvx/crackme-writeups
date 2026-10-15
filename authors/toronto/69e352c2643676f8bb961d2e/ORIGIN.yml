@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69e352c2643676f8bb961d2e
+
+urls:
+  page: https://crackmes.one/crackme/69e352c2643676f8bb961d2e
+  download: https://crackmes.one/download/crackme/69e352c2643676f8bb961d2e
+
+title: "Toronto's c"
+author_on_site: "Toronto"
+author_local: "toronto"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C"
+
+difficulty: 1.6
+quality: null
+size: "14.39 KB"
+published: 2026-04-18
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Wrieyster"
+  name: "Wrieyster"
+  sha256: "070f760ebce0c2fbdd8b93d26865e3417a8f0ae25fd8164c657339851dbc8823"
+  md5: "bc4fc115e034addf783b1e033fda7426"
+  size_bytes: 14736
+
+status: solved
+solution_summary: "mot de passe en dur encode hex, decode via sub_12A0, strcmp direct ; chaines leurres (sub_1330, i%3==0) jamais comparees -> Shake it, baby!"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-15T17:43:16Z"

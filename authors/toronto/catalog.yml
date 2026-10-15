@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69e352c2643676f8bb961d2e:
+    sha256: "070f760ebce0c2fbdd8b93d26865e3417a8f0ae25fd8164c657339851dbc8823"
+    path: "authors/toronto/69e352c2643676f8bb961d2e/original/Wrieyster"
+    title: "Toronto's c"
+
+by_sha256:
+  070f760ebce0c2fbdd8b93d26865e3417a8f0ae25fd8164c657339851dbc8823:
+    id: 69e352c2643676f8bb961d2e
+    path: "authors/toronto/69e352c2643676f8bb961d2e/original/Wrieyster"
+    page: https://crackmes.one/crackme/69e352c2643676f8bb961d2e
