@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a5010dac630e9c9509785f6:
+    sha256: "0cccfa3e391533258c2ec6d8478cde30e8bef7e4789e500b317964d43c51b424"
+    path: "authors/kryptos/6a5010dac630e9c9509785f6/original/hecate"
+    title: "Kryptos's Hecate linux/unix"
+
+by_sha256:
+  0cccfa3e391533258c2ec6d8478cde30e8bef7e4789e500b317964d43c51b424:
+    id: 6a5010dac630e9c9509785f6
+    path: "authors/kryptos/6a5010dac630e9c9509785f6/original/hecate"
+    page: https://crackmes.one/crackme/6a5010dac630e9c9509785f6

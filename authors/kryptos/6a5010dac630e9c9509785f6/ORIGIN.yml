@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a5010dac630e9c9509785f6
+
+urls:
+  page: https://crackmes.one/crackme/6a5010dac630e9c9509785f6
+  download: https://crackmes.one/download/crackme/6a5010dac630e9c9509785f6
+
+title: "Kryptos's Hecate linux/unix"
+author_on_site: "Kryptos"
+author_local: "kryptos"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C++"
+
+difficulty: 2.0
+quality: null
+size: "14.32 KB"
+published: 2026-07-09
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/hecate"
+  name: "hecate"
+  sha256: "0cccfa3e391533258c2ec6d8478cde30e8bef7e4789e500b317964d43c51b424"
+  md5: "44f7b00bed39bea6f25db6f702302bfe"
+  size_bytes: 14664
+
+status: solved
+solution_summary: "FNV-1a 32 bits sur le nom brut (pas majuscule) + longueur -> XOR/shift -> %04X-%04X-%04X (0xC0DE en clair) ; petik -> 82FE-6815-2A35"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-15T19:08:33Z"

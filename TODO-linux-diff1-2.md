@@ -26,7 +26,7 @@ Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` 
 | 16 | 2026-07-17 | 0x8A7 - Vault | 23x41 | 1.8 | 19.15 KB | https://crackmes.one/crackme/6a597d5e055757d3df60fd58 | solved |
 | 17 | 2026-07-17 | 0x8A7 - Gate | 23x41 | 1.5 | 18.84 KB | https://crackmes.one/crackme/6a597d2a0b25d281a656896b | solved |
 | 18 | 2026-07-12 | ComputeTheKey | th | 2.0 | 14.19 KB | https://crackmes.one/crackme/6a53f2cb055757d3df60fcd4 | solved |
-| 19 | 2026-07-09 | Hecate linux/unix | Kryptos | 2.0 | 14.32 KB | https://crackmes.one/crackme/6a5010dac630e9c9509785f6 | **TODO** |
+| 19 | 2026-07-09 | Hecate linux/unix | Kryptos | 2.0 | 14.32 KB | https://crackmes.one/crackme/6a5010dac630e9c9509785f6 | solved |
 | 20 | 2026-07-04 | BiLoop Cipher | Mr.X47 | 1.8 | 14.20 KB | https://crackmes.one/crackme/6a48e4146840520e01b22041 | solved |
 | 21 | 2026-06-27 | Cortisol level low keygen | Mazzotti | 1.5 | 14.28 KB | https://crackmes.one/crackme/6a400d20a4b247348ae806cf | solved |
 | 22 | 2026-06-25 | Getting started keygen | Mazzotti | 1.3 | 14.29 KB | https://crackmes.one/crackme/6a3ce36d39dd6183d62b9dfe | solved |
@@ -200,4 +200,4 @@ Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` 
 | 190 | 2018-05-06 | Sh4ll2 | destructeur | 2.0 | 8.49 KB | https://crackmes.one/crackme/5aef385633c5d41ac64b492f | **TODO** |
 | 191 | 2018-05-06 | Sh4ll1 | destructeur | 1.4 | 13.23 KB | https://crackmes.one/crackme/5aef37c733c5d41ac64b492e | **TODO** |
 
-Le prochain de la file est **Hecate linux/unix** (Kryptos) : https://crackmes.one/crackme/6a5010dac630e9c9509785f6
+Le prochain de la file est **CrackIt;)** (QERR0R) : https://crackmes.one/crackme/69a65ee60f5b9757a6a5f73f

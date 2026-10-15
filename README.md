@@ -158,6 +158,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [mystergaif](authors/mystergaif/README.md) | mystergaif | 1 (U Can't Pass) | 1 / 1 |
 | [arshi](authors/arshi/README.md) | arshi | 1 (LvArshu / TWO-RING VOW) | 1 / 1 |
 | [th](authors/th/README.md) | th | 1 (ComputeTheKey) | 1 / 1 |
+| [kryptos](authors/kryptos/README.md) | Kryptos | 1 (Hecate) | 1 / 1 |
 | [popacracker](authors/popacracker/README.md) | PopaCracker | 1 (Python CrackMe) | 1 / 1 |
 | [noname_user](authors/noname_user/README.md) | noname_User | 2 | 2 / 2 |
 | [nizzix](authors/nizzix/README.md) | Nizzix | 1 (Ageis) | 1 / 1 |
@@ -263,6 +264,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-16 | [Hecate linux/unix](authors/kryptos/6a5010dac630e9c9509785f6/) | Kryptos |
 | 2026-10-16 | [ComputeTheKey](authors/th/6a53f2cb055757d3df60fcd4/) | th |
 | 2026-10-15 | [LvArshu (Flag) / TWO-RING VOW](authors/arshi/6acfedfb6349e4b2540c7170/) | arshi |
 | 2026-10-15 | [U Can't Pass](authors/mystergaif/69cd36983e328e778db052c2/) | mystergaif |
