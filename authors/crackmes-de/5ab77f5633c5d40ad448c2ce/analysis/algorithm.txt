@@ -1,0 +1,18 @@
+ActivateProduct(name, key) — IL généré par Form1.GenerateOpcode
+
+locals:
+  loc0 = name.ToCharArray()
+  loc1 = key.ToCharArray()
+  loc2 = i (index name)
+  loc3 = j (index key)
+
+prédicat:
+  if len(key) != 2 * len(name): return false
+  i = 0; j = 0
+  while j < len(key):
+    if key[j] != name[i] + j: return false   # addition sur codes Unicode/char
+    i = (i + 1) % len(name)
+    j = j + 1
+  return true
+
+Exemple petik → pfvlouk{qt

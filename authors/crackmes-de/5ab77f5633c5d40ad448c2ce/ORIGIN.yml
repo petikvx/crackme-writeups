@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2ce
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2ce
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2ce
+
+title: "crackmes.de's crackme1_s4tan by s4tan"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ".NET"
+
+difficulty: 2.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: crackme1-s4tan
+
+binary:
+  path: "original/CrackMe#1.zip"
+  name: "CrackMe#1.zip"
+  sha256: "dfa3a5e2b50aac81c4affaab277d289d9dae91000c2b3fe8d4ba133607cf8d51"
+  md5: "8d434acf41e45745d295b0784b429f1f"
+  size_bytes: 5733
+
+status: solved
+solution_summary: "keygen Reflection.Emit : len(key)=2*len(name), key[j]=name[j%len]+j ; petik→pfvlouk{qt"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-15T22:57:41Z"

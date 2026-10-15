@@ -146,7 +146,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [oguzbey](authors/oguzbey/README.md) | oguzbey | 1 (Lucky Numbers) | 1 / 1 |
 | [andrewl](authors/andrewl/README.md) | andrewl | 1 (Quick Crypto) | 1 / 1 |
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
-| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 311 / 311 |
+| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 314 / 314 |
 | [chaltu](authors/chaltu/README.md) | chaltu | 3 (a Treasure + Double Door + Accsess me please) | 3 / 3 |
 | [qerr0r](authors/qerr0r/README.md) | QERR0R | 2 (crackit + CrackIt;)) | 2 / 2 |
 | [steve_maxwell](authors/steve_maxwell/README.md) | steve_maxwell | 1 (X-0-R) | 1 / 1 |
@@ -266,6 +266,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-16 | [crackme1_s4tan by s4tan](authors/crackmes-de/5ab77f5633c5d40ad448c2ce/) | crackmes.de / s4tan |
 | 2026-10-16 | [Quite a simple crackme](authors/sftmlg/697f761b32fcb81e1bd005c6/) | sftmlg |
 | 2026-10-16 | [simple crackme](authors/marco007/698a6214fb46458f1ef6cef5/) | marco007 |
 | 2026-10-16 | [time based riddle](authors/marco007/6990e4b9a15272fa37a80cb8/) | marco007 |
