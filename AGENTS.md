@@ -11,7 +11,7 @@ Reverse engineering **éducatif** de crackmes (surtout [crackmes.one](https://cr
 3. Produire un **solveur** reproductible
 4. Écrire le **write-up** (`README.md` du challenge)
 5. Mettre à jour les index (`ORIGIN.yml`, `authors/*/README.md`, README racine : famille **et** historique)
-6. **Stop** : livrer le challenge terminé en local. **Ne pas** `git commit` / `git push` sauf demande explicite de l’utilisateur (« commit », « push », « on push », …)
+6. **Commit automatique** : dès que le challenge est marqué `status: solved` (write-up + solveur + index à jour), `git commit` directement sans attendre de consigne — voir § Git. **Ne pas** `git push` sauf demande explicite de l’utilisateur (« push », « commit + push », « on push », …)
 
 Les binaires d’origine sont **inclus** (pas des malwares, mais un AV peut gueuler).
 
@@ -205,23 +205,23 @@ Un README du type « password = `FOO` ; formule `sum*7+0x7b` » **sans** chemin 
 
 Langue : **français** (comme le reste du dépôt), termes techniques en anglais OK.
 
-### 5. Git (uniquement sur demande)
+### 5. Git (commit auto, push sur demande)
 
-Par défaut : **aucun** `git commit` ni `git push` à la fin d’un challenge.  
-Attendre une consigne claire (`commit`, `push`, `commit + push`, `on push`, …).
-
-Quand c’est demandé :
+Dès qu’un challenge passe `status: solved` (write-up + solveur + index à jour) : **commit directement, sans attendre de consigne** — ce n’est plus une étape optionnelle.  
+`git push` reste **sur demande explicite** uniquement (`push`, `commit + push`, `on push`, …).
 
 ```bash
-git add authors/<slug>/… README.md   # ce qui a changé
+git add authors/<slug>/… README.md   # ce qui a changé pour CE challenge
 git commit -m "message clair (auteur + challenge + idée de la soluce)"
-# git push origin main   ← seulement si push demandé aussi
+# git push origin main   ← seulement si push demandé
 ```
 
+- Un commit par challenge résolu (pas de gros commit fourre-tout qui mélange plusieurs challenges).
 - Remote : **`main`** / `origin` (déjà configuré).
 - Message de commit : style historique du repo (ex. `cracknotme CFB#3: mini-VM password pwn_vm_3`).
 - Ne pas committer `__pycache__/`, bases IDA brutes (voir `.gitignore`).
-- Screenshots / binaires d’origine : **oui**, ils font partie du dépôt (quand on commit).
+- Screenshots / binaires d’origine : **oui**, ils font partie du dépôt.
+- Si l’utilisateur demande explicitement de ne pas commiter sur une session donnée, respecter cette consigne ponctuelle (elle ne change pas la règle par défaut pour la suite).
 
 ---
 
@@ -355,7 +355,7 @@ Les solveurs restent dans `authors/<slug>/<id>/tools/`.
 - [ ] `authors/<slug>/README.md` + README racine (compteur famille) à jour  
 - [ ] Historique README racine : **nouvelle ligne en haut** (`Date | Crackme | Auteur`)  
 - [ ] Screenshots liés s’ils existent dans `analysis/`  
-- [ ] Git : **seulement si demandé** (`commit` / `push`)
+- [ ] Git : **`commit` automatique** (un commit par challenge) ; `push` seulement si demandé
 
 ---
 
@@ -378,4 +378,4 @@ Les solveurs restent dans `authors/<slug>/<id>/tools/`.
 | Go strip / pclntab | `GoReSym` / `go version -m` |
 | YARA (CLI) | build `install-re-tools.sh` / `postinstall` → `yara` `yarac` |
 
-Quand l’utilisateur dit « on continue » avec une URL `add-crackme` réussie : **enchaîner reverse → solveur → write-up → index** sans redemander la structure. **Pas** de commit/push sauf s’il le demande ensuite.
+Quand l’utilisateur dit « on continue » avec une URL `add-crackme` réussie : **enchaîner reverse → solveur → write-up → index → commit** sans redemander la structure ni la permission de commiter. **Pas** de push sauf s’il le demande ensuite.
