@@ -1,0 +1,39 @@
+/*
+~ Note From Builder
+    In our last security system an employee tried to steal other's passwords. 
+    So now we Encrypt it with a system. Please do not check the codes!
+*/
+{
+    "users": {
+        "will_smith": {
+            "name": "Will Smith",
+            "role": "Software Engineer",
+            "note": "Her father named her after his favorite actor"
+        },
+        "marcus_vane": {
+            "name": "Marcus Vane",
+            "role": "Chief Decryption Officer",
+            "note": "Thinks the office is haunted, refuses to work after 6 PM"
+        },
+        "john_doe": {
+            "name": "John Doe",
+            "role": "Cybersecurity Expert",
+            "note": "He can crack passwords for everyone and he never forgets passwords"
+        },
+        "jomes_sandin": {
+            "name": "Jomes Sandin",
+            "role": "Dead",
+            "note": "Got stabbed in a home invasion while selling broken security systems"
+        },
+        "sarah_jenkins": {
+            "name": "Sarah Jenkins",
+            "role": "Intern",
+            "note": "Hasn't been seen in three days, but her laptop is still logged in"
+        },
+        "franklin_sierra": {
+            "name": "Franklin Sierra",
+            "role": "Founder",
+            "note": "Named the company James when his name is not James"
+        }
+    }
+}

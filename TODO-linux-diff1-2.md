@@ -4,7 +4,7 @@ Recherche [crackmes.one](https://crackmes.one/search?name=&author=&difficulty-mi
 
 Filtre : plateforme Unix/linux, difficulté 1.0–2.0, tri date décroissante (plus récent en haut). **Page 1 seulement (50 résultats)** — le site est paginé, il y a probablement d'autres résultats plus anciens derrière (`Show All` / page 2+) pas encore inventoriés ici.
 
-Statuts vérifiés le 2026-10-15 (plusieurs sessions en parallèle ont avancé sur cette liste, d'où le nombre élevé de `solved`). Les **22** lignes marquées `TODO` ci-dessous restent à faire.
+Statuts vérifiés le 2026-10-15 (plusieurs sessions en parallèle ont avancé sur cette liste, d'où le nombre élevé de `solved`). Les **21** lignes marquées `TODO` ci-dessous restent à faire.
 
 | # | Date | Crackme | Auteur | Difficulté | Taille | URL | Statut |
 |---|---|---|---|---|---|---|---|
@@ -29,7 +29,7 @@ Statuts vérifiés le 2026-10-15 (plusieurs sessions en parallèle ont avancé s
 | 19 | 2026-06-21 | Back To The beginning Keygen | Mazzotti | 1.2 | 14.23 KB | https://crackmes.one/crackme/6a37cbc65f26f108ba18b982 | solved |
 | 20 | 2026-06-19 | Rage keygen | Mazzotti | 2.0 | 14.23 KB | https://crackmes.one/crackme/6a357cd98a86e4c2c55254d8 | solved |
 | 21 | 2026-06-12 | FindLicenseKey | vodeff | 1.8 | 3.25 KB | https://crackmes.one/crackme/6a2c61c06840520e01b21e2d | solved |
-| 22 | 2026-05-19 | Jame's Cybersecurity Company | segfaults | 2.0 | 17.07 KB | https://crackmes.one/crackme/6a0c8b608fab7bbca2730221 | **TODO** |
+| 22 | 2026-05-19 | Jame's Cybersecurity Company | segfaults | 2.0 | 17.07 KB | https://crackmes.one/crackme/6a0c8b608fab7bbca2730221 | solved |
 | 23 | 2026-05-07 | InputPrinter | khaledddd | 2.0 | 18.41 KB | https://crackmes.one/crackme/69fc5a3a3fba64e45dcea9ed | **TODO** |
 | 24 | 2026-05-06 | VaultBreaker | ShadowLegion | 1.8 | 41.61 KB | https://crackmes.one/crackme/69fba1198fab7bbca27300f2 | **TODO** |
 | 25 | 2026-04-18 | c | Toronto | 1.6 | 14.39 KB | https://crackmes.one/crackme/69e352c2643676f8bb961d2e | **TODO** |
@@ -54,4 +54,4 @@ Statuts vérifiés le 2026-10-15 (plusieurs sessions en parallèle ont avancé s
 | 44 | 2025-08-07 | int overflow | izijerry | 1.4 | 15.75 KB | https://crackmes.one/crackme/6894d8e98fac2855fe6fb3ff | **TODO** |
 | 45 | 2025-07-25 | Godez_Mark crackme | Mark_Godez | 1.2 | 15.74 KB | https://crackmes.one/crackme/688328248fac2855fe6fb07d | **TODO** |
 
-Le prochain de la file est **Jame's Cybersecurity Company** (#22) : https://crackmes.one/crackme/6a0c8b608fab7bbca2730221
+Le prochain de la file est **InputPrinter** (#23) : https://crackmes.one/crackme/69fc5a3a3fba64e45dcea9ed

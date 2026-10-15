@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a0c8b608fab7bbca2730221:
+    sha256: "9f4e6d21943818372844bf9dd7f18c299d44c9eaa65def7daf3defabfedd20ae"
+    path: "authors/segfaults/6a0c8b608fab7bbca2730221/original/james-cybersec.zip"
+    title: "segfaults's Jame&#39;s Cybersecurity Company"
+
+by_sha256:
+  9f4e6d21943818372844bf9dd7f18c299d44c9eaa65def7daf3defabfedd20ae:
+    id: 6a0c8b608fab7bbca2730221
+    path: "authors/segfaults/6a0c8b608fab7bbca2730221/original/james-cybersec.zip"
+    page: https://crackmes.one/crackme/6a0c8b608fab7bbca2730221
