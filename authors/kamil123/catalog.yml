@@ -5,8 +5,17 @@ by_id:
     path: "authors/kamil123/6abd98190885f990699dc084/original/crackme03.exe"
     title: "kamil123's Mini LLM Sentinel"
 
+  6acec96e6349e4b2540c712b:
+    sha256: "f521f319ef052e50580861f16aa4d4ded032685c1de19cdf9353e57ce4ca1185"
+    path: "authors/kamil123/6acec96e6349e4b2540c712b/original/boxvm.exe"
+    title: "kamil123's BoxVM"
+
 by_sha256:
   bd758259be76d9fa3eddde7ae4cd56f417d076fc84496090e3dfe701fd68aaef:
     id: 6abd98190885f990699dc084
     path: "authors/kamil123/6abd98190885f990699dc084/original/crackme03.exe"
     page: https://crackmes.one/crackme/6abd98190885f990699dc084
+  f521f319ef052e50580861f16aa4d4ded032685c1de19cdf9353e57ce4ca1185:
+    id: 6acec96e6349e4b2540c712b
+    path: "authors/kamil123/6acec96e6349e4b2540c712b/original/boxvm.exe"
+    page: https://crackmes.one/crackme/6acec96e6349e4b2540c712b

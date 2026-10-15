@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6acec96e6349e4b2540c712b
+
+urls:
+  page: https://crackmes.one/crackme/6acec96e6349e4b2540c712b
+  download: https://crackmes.one/download/crackme/6acec96e6349e4b2540c712b
+
+title: "kamil123's BoxVM"
+author_on_site: "kamil123"
+author_local: "kamil123"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 4.0
+quality: null
+size: "4.18 MB"
+published: 2026-10-14
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/boxvm.exe"
+  name: "boxvm.exe"
+  sha256: "f521f319ef052e50580861f16aa4d4ded032685c1de19cdf9353e57ce4ca1185"
+  md5: "58681051c9c9d84f9d4dc66874afbafa"
+  size_bytes: 4387840
+
+status: pending
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-15T17:58:28Z"
