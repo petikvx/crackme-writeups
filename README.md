@@ -165,9 +165,9 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [pitou](authors/pitou/README.md) | pitou | 1 (Evaisve) | 1 / 1 |
 | [fatih](authors/fatih/README.md) | Fatih | 1 (S-BOX) | 1 / 1 |
 | [vilxd](authors/vilxd/README.md) | vilxd | 2 (points + CRACK ME DLL) | 2 / 2 |
-| [mazzotti](authors/mazzotti/README.md) | Mazzotti | 2 (patch-me + multi-layer) | 2 / 2 |
+| [mazzotti](authors/mazzotti/README.md) | Mazzotti | 6 (patch-me + multi-layer + cortisol + getting started keygen + back to the beginning + rage) | 6 / 6 |
 | [fourexp](authors/fourexp/README.md) | fourexp | 1 (fourexps hard crackme) | 1 / 1 |
-| [23x41](authors/23x41/README.md) | 23x41 | 3 (Secure Vault + DPRK + Maze) | 3 / 3 |
+| [23x41](authors/23x41/README.md) | 23x41 | 5 (Secure Vault + DPRK + Maze + Gate + Vault) | 5 / 5 |
 | [pera](authors/pera/README.md) | Pera | 2 (Simple keygenme + Tiktok comment) | 2 / 2 |
 | [hacktooth](authors/hacktooth/README.md) | hacktooth | 1 (Simple Crack/Keygenme AutoIt) | 1 / 1 |
 | [gregland](authors/gregland/README.md) | gregland | 4 (CrackMe #1–#4) | 4 / 4 |
@@ -255,6 +255,12 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-15 | [Rage keygen](authors/mazzotti/6a357cd98a86e4c2c55254d8/) | Mazzotti |
+| 2026-10-15 | [Back To The beginning Keygen](authors/mazzotti/6a37cbc65f26f108ba18b982/) | Mazzotti |
+| 2026-10-15 | [Getting started keygen](authors/mazzotti/6a3ce36d39dd6183d62b9dfe/) | Mazzotti |
+| 2026-10-15 | [Cortisol level low keygen](authors/mazzotti/6a400d20a4b247348ae806cf/) | Mazzotti |
+| 2026-10-15 | [23x41's 0x8A7 Vault (Joker)](authors/23x41/6a597d5e055757d3df60fd58/) | 23x41 |
+| 2026-10-15 | [23x41's 0x8A7 Gate (Batcave)](authors/23x41/6a597d2a0b25d281a656896b/) | 23x41 |
 | 2026-10-14 | [code_linux](authors/crackmes-de/5ab77f5f33c5d40ad448c800/) | crackmes.de / buga0205 |
 | 2026-10-14 | [crackme2](authors/crackmes-de/5ab77f5e33c5d40ad448c78d/) | crackmes.de / seveb |
 | 2026-10-14 | [crackme05](authors/crackmes-de/5ab77f5e33c5d40ad448c78c/) | crackmes.de / seveb |

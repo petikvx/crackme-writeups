@@ -10,6 +10,26 @@ by_id:
     path: "authors/mazzotti/6a6e1787184836c0dbe7d625/original/crackme"
     title: "Mazzotti's Multi"
 
+  6a400d20a4b247348ae806cf:
+    sha256: "102cd396a16bb1aced9c4a768dfc93ea7de44509b53e8ee2d8699b33b1f42aca"
+    path: "authors/mazzotti/6a400d20a4b247348ae806cf/original/cortisol_level_low_keygen"
+    title: "Mazzotti's Cortisol level low keygen"
+
+  6a3ce36d39dd6183d62b9dfe:
+    sha256: "f610c9b35528a23b8f881271112d65db96717464b3a51150ab76f97e015545a1"
+    path: "authors/mazzotti/6a3ce36d39dd6183d62b9dfe/original/getting_started_keygen"
+    title: "Mazzotti's Getting started keygen"
+
+  6a37cbc65f26f108ba18b982:
+    sha256: "70e6be7d2b73964855339c7afd72ba4ef7677ccdc4449e2d824cb3c8a1b6ae4f"
+    path: "authors/mazzotti/6a37cbc65f26f108ba18b982/original/crackme_easy"
+    title: "Mazzotti's Back To The beginning Keygen"
+
+  6a357cd98a86e4c2c55254d8:
+    sha256: "d2a61600ab5f02b3217696036bc84884701238a3f1214aad50819aeba90014c5"
+    path: "authors/mazzotti/6a357cd98a86e4c2c55254d8/original/crackme"
+    title: "Mazzotti's Rage keygen"
+
 by_sha256:
   75474ed0a59dd35b6e2ce5f974097c29cb464c5937c6a9702bf96439049e09f7:
     id: 6a6ef28bdf981859694943d5
@@ -19,3 +39,19 @@ by_sha256:
     id: 6a6e1787184836c0dbe7d625
     path: "authors/mazzotti/6a6e1787184836c0dbe7d625/original/crackme"
     page: https://crackmes.one/crackme/6a6e1787184836c0dbe7d625
+  102cd396a16bb1aced9c4a768dfc93ea7de44509b53e8ee2d8699b33b1f42aca:
+    id: 6a400d20a4b247348ae806cf
+    path: "authors/mazzotti/6a400d20a4b247348ae806cf/original/cortisol_level_low_keygen"
+    page: https://crackmes.one/crackme/6a400d20a4b247348ae806cf
+  f610c9b35528a23b8f881271112d65db96717464b3a51150ab76f97e015545a1:
+    id: 6a3ce36d39dd6183d62b9dfe
+    path: "authors/mazzotti/6a3ce36d39dd6183d62b9dfe/original/getting_started_keygen"
+    page: https://crackmes.one/crackme/6a3ce36d39dd6183d62b9dfe
+  70e6be7d2b73964855339c7afd72ba4ef7677ccdc4449e2d824cb3c8a1b6ae4f:
+    id: 6a37cbc65f26f108ba18b982
+    path: "authors/mazzotti/6a37cbc65f26f108ba18b982/original/crackme_easy"
+    page: https://crackmes.one/crackme/6a37cbc65f26f108ba18b982
+  d2a61600ab5f02b3217696036bc84884701238a3f1214aad50819aeba90014c5:
+    id: 6a357cd98a86e4c2c55254d8
+    path: "authors/mazzotti/6a357cd98a86e4c2c55254d8/original/crackme"
+    page: https://crackmes.one/crackme/6a357cd98a86e4c2c55254d8

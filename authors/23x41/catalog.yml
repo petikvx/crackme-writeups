@@ -15,6 +15,16 @@ by_id:
     path: "authors/23x41/6a597d7f0691b3daf2a3f2a0/original/riddler_maze"
     title: "23x41's 0x8A7"
 
+  6a597d2a0b25d281a656896b:
+    sha256: "c58b2d78b6af9ebc78399b8f90362b6a468824456ca71ac461561f08dae00daf"
+    path: "authors/23x41/6a597d2a0b25d281a656896b/original/batcave"
+    title: "23x41's 0x8A7"
+
+  6a597d5e055757d3df60fd58:
+    sha256: "899a3ab71318d59e22056f5c5a5ca66964a37bfc41658f1e320ad6df4f4d94e4"
+    path: "authors/23x41/6a597d5e055757d3df60fd58/original/joker_vault"
+    title: "23x41's 0x8A7"
+
 by_sha256:
   a2d496d8c402ec9c54ef12cc132ba30269044109811947a138d58b075dfb0e2a:
     id: 6a59d79ba27dfa335e4c8597
@@ -28,3 +38,11 @@ by_sha256:
     id: 6a597d7f0691b3daf2a3f2a0
     path: "authors/23x41/6a597d7f0691b3daf2a3f2a0/original/riddler_maze"
     page: https://crackmes.one/crackme/6a597d7f0691b3daf2a3f2a0
+  c58b2d78b6af9ebc78399b8f90362b6a468824456ca71ac461561f08dae00daf:
+    id: 6a597d2a0b25d281a656896b
+    path: "authors/23x41/6a597d2a0b25d281a656896b/original/batcave"
+    page: https://crackmes.one/crackme/6a597d2a0b25d281a656896b
+  899a3ab71318d59e22056f5c5a5ca66964a37bfc41658f1e320ad6df4f4d94e4:
+    id: 6a597d5e055757d3df60fd58
+    path: "authors/23x41/6a597d5e055757d3df60fd58/original/joker_vault"
+    page: https://crackmes.one/crackme/6a597d5e055757d3df60fd58
