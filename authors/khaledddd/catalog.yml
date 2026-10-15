@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69fc5a3a3fba64e45dcea9ed:
+    sha256: "42870c1c0695d1935e09d34b8c8552d03b1ea4a5cf4f8887c07b02f52c55807c"
+    path: "authors/khaledddd/69fc5a3a3fba64e45dcea9ed/original/vuln"
+    title: "khaledddd's InputPrinter"
+
+by_sha256:
+  42870c1c0695d1935e09d34b8c8552d03b1ea4a5cf4f8887c07b02f52c55807c:
+    id: 69fc5a3a3fba64e45dcea9ed
+    path: "authors/khaledddd/69fc5a3a3fba64e45dcea9ed/original/vuln"
+    page: https://crackmes.one/crackme/69fc5a3a3fba64e45dcea9ed

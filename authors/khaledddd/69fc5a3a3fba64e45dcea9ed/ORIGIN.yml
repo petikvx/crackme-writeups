@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69fc5a3a3fba64e45dcea9ed
+
+urls:
+  page: https://crackmes.one/crackme/69fc5a3a3fba64e45dcea9ed
+  download: https://crackmes.one/download/crackme/69fc5a3a3fba64e45dcea9ed
+
+title: "khaledddd's InputPrinter"
+author_on_site: "khaledddd"
+author_local: "khaledddd"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C"
+
+difficulty: 2.0
+quality: null
+size: "18.41 KB"
+published: 2026-05-07
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/vuln"
+  name: "vuln"
+  sha256: "42870c1c0695d1935e09d34b8c8552d03b1ea4a5cf4f8887c07b02f52c55807c"
+  md5: "124bd3911051e1f0cdaedfabd2307d17"
+  size_bytes: 18848
+
+status: solved
+solution_summary: "stack buffer overflow (read 0xff dans buf[64], pas de canari, pile RWE, non-PIE) : fuite de &buf via printf(%p) puis ret2shellcode (offset 72) ; --check: write+exit banniere, --shell: execve(/bin/sh)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-15T17:24:15Z"
