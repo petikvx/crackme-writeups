@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a3a7734a4b247348ae80666
+
+urls:
+  page: https://crackmes.one/crackme/6a3a7734a4b247348ae80666
+  download: https://crackmes.one/download/crackme/6a3a7734a4b247348ae80666
+
+title: "chaltu's Accsess me please :)"
+author_on_site: "chaltu"
+author_local: "chaltu"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/main"
+  name: "main"
+  sha256: "8e2e87e5c83b748089a3d78c2fc30e02144ec7b5d6c7f8384e4ec67cf184f9fd"
+  md5: "38f58d87a33c912d8256b952516723e5"
+  size_bytes: 16208
+
+status: solved
+solution_summary: "cmp eax,0xb7b5 (scanf %d) -> mot de passe 47029"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-15T04:40:08Z"

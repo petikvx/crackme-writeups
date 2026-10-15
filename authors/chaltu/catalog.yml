@@ -10,6 +10,11 @@ by_id:
     path: "authors/chaltu/6a9281f948cda5a2aaa3dbf3/original/main.exe"
     title: "chaltu's Double Door"
 
+  6a3a7734a4b247348ae80666:
+    sha256: "8e2e87e5c83b748089a3d78c2fc30e02144ec7b5d6c7f8384e4ec67cf184f9fd"
+    path: "authors/chaltu/6a3a7734a4b247348ae80666/original/main"
+    title: "chaltu's Accsess me please :)"
+
 by_sha256:
   e0e1d7fd6392d0210f0273c1bfbddb4fdb8bb92f8c2ae9d38616c044d2547223:
     id: 6a4014135f26f108ba18ba0b
@@ -19,3 +24,7 @@ by_sha256:
     id: 6a9281f948cda5a2aaa3dbf3
     path: "authors/chaltu/6a9281f948cda5a2aaa3dbf3/original/main.exe"
     page: https://crackmes.one/crackme/6a9281f948cda5a2aaa3dbf3
+  8e2e87e5c83b748089a3d78c2fc30e02144ec7b5d6c7f8384e4ec67cf184f9fd:
+    id: 6a3a7734a4b247348ae80666
+    path: "authors/chaltu/6a3a7734a4b247348ae80666/original/main"
+    page: https://crackmes.one/crackme/6a3a7734a4b247348ae80666
