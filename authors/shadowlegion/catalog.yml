@@ -5,8 +5,17 @@ by_id:
     path: "authors/shadowlegion/6a9950e9cab6678aefe9dc90/original/TermBreaker"
     title: "ShadowLegion's TermBreaker"
 
+  69fba1198fab7bbca27300f2:
+    sha256: "017028cb927b173dee8a470c4deff2b71018d93a1b42bb1a38886ba6e85dbe3c"
+    path: "authors/shadowlegion/69fba1198fab7bbca27300f2/original/VaultBreaker"
+    title: "ShadowLegion's VaultBreaker"
+
 by_sha256:
   d4054e820a667ab52e62b0a2b315f76c789185e26d409e983fbfcb0d70eaf806:
     id: 6a9950e9cab6678aefe9dc90
     path: "authors/shadowlegion/6a9950e9cab6678aefe9dc90/original/TermBreaker"
     page: https://crackmes.one/crackme/6a9950e9cab6678aefe9dc90
+  017028cb927b173dee8a470c4deff2b71018d93a1b42bb1a38886ba6e85dbe3c:
+    id: 69fba1198fab7bbca27300f2
+    path: "authors/shadowlegion/69fba1198fab7bbca27300f2/original/VaultBreaker"
+    page: https://crackmes.one/crackme/69fba1198fab7bbca27300f2

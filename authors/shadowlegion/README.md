@@ -1,34 +1,13 @@
-# shadowlegion
+# ShadowLegion
 
 Auteur local : **`shadowlegion`** (site : [ShadowLegion](https://crackmes.one/user/ShadowLegion)).
 
-Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml) (id ↔ sha256).
+Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml).
 
 ## Progression
 
 | # | Titre | ID | Plateforme | Solution |
 |---|---|---|---|---|
-| 1 | [TermBreaker](6a9950e9cab6678aefe9dc90/) | [`6a9950e9…`](https://crackmes.one/crackme/6a9950e9cab6678aefe9dc90) | Linux ELF64 Qt6 | code `TERMATUR` (Σ(i+1)·ord = 2856) |
+| 1 | [VaultBreaker](69fba1198fab7bbca27300f2/) | [`69fba119…`](https://crackmes.one/crackme/69fba1198fab7bbca27300f2) | Linux ELF64 PIE C++/Qt6 | `len==10 && utf8==XOR(kEncoded,0x5A)` → `Op3nS3same` |
 
-
-Section **Debug GDB** : ajoutée dans [`TermBreaker`](6a9950e9cab6678aefe9dc90/README.md).
-## Arborescence d’un challenge
-
-```
-<id-crackmes.one>/
-  ORIGIN.yml
-  README.md
-  original/
-  analysis/
-  tools/
-```
-
-## Ajouter un crackme
-
-```bash
-./scripts/add-crackme.sh https://crackmes.one/crackme/<id>
-# ou forcer le slug :
-./scripts/add-crackme.sh --author shadowlegion <id>
-```
-
-Doc : [README racine](../../README.md#ajouter-un-crackme-crackmesone).
+Section **Debug GDB** : appel direct de `MainWindow::CheckPassword` en live (voir [README](69fba1198fab7bbca27300f2/README.md)).

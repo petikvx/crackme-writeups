@@ -153,6 +153,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [vodeff](authors/vodeff/README.md) | vodeff | 1 (FindLicenseKey) | 1 / 1 |
 | [segfaults](authors/segfaults/README.md) | segfaults | 1 (Jame's Cybersecurity Company) | 1 / 1 |
 | [khaledddd](authors/khaledddd/README.md) | khaledddd | 1 (InputPrinter) | 1 / 1 |
+| [shadowlegion](authors/shadowlegion/README.md) | ShadowLegion | 1 (VaultBreaker) | 1 / 1 |
 | [popacracker](authors/popacracker/README.md) | PopaCracker | 1 (Python CrackMe) | 1 / 1 |
 | [noname_user](authors/noname_user/README.md) | noname_User | 2 | 2 / 2 |
 | [nizzix](authors/nizzix/README.md) | Nizzix | 1 (Ageis) | 1 / 1 |
@@ -258,6 +259,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-15 | [VaultBreaker](authors/shadowlegion/69fba1198fab7bbca27300f2/) | ShadowLegion |
 | 2026-10-15 | [InputPrinter](authors/khaledddd/69fc5a3a3fba64e45dcea9ed/) | khaledddd |
 | 2026-10-15 | [Jame's Cybersecurity Company](authors/segfaults/6a0c8b608fab7bbca2730221/) | segfaults |
 | 2026-10-15 | [FindLicenseKey](authors/vodeff/6a2c61c06840520e01b21e2d/) | vodeff |
