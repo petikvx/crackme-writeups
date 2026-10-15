@@ -1,21 +1,21 @@
 #!/usr/bin/env python3
-"""
-arshi's LvArshu (Flag) — alias "TWO-RING VOW" (two_ring_vow.exe)
-WIP — PAS ENCORE RESOLU. Voir analysis/NOTES.md pour l'etat complet.
+"""arshi's LvArshu (Flag) -- alias "TWO-RING VOW" (two_ring_vow.exe).
 
-Ce script reimplemente en Python les fonctions sub_140001780 /
-sub_1400018D0 / sub_1400019A0 (pures, deterministes, ne dependent que de
-l'index et de tables fixes en .rdata) extraites du decompile IDA
-(analysis/two_ring_vow.exe.i64.c). Il recalcule les 15 octets de
-reference candidats : "LvY0uArshu130(T" (a verifier -- voir NOTES.md,
-le "(" final est suspect, peut-etre une erreur d'implementation).
+Le verificateur (sub_140003290) attend EXACTEMENT 15 caracteres ASCII
+imprimables et les compare (par 4 algorithmes de hash redondants, qui
+passent tous ensemble si et seulement si l'entree est octet pour octet
+identique) a une reference calculee par une fonction pure sub_1400019A0(j),
+j=0..14 -- un scrambler deterministe sur 7 tables fixes en .rdata, sans
+AUCUNE dependance a l'entree utilisateur ni a l'environnement d'execution.
 
-Lit directement les octets de .rdata depuis le binaire via objdump (pas
-besoin d'etat externe / pickle).
+Ce script reimplemente sub_140001780 / sub_1400018D0 / sub_1400019A0 en
+Python (verifie bit a bit face au pseudo-code IDA) et relit les tables
+directement dans le binaire (pas de valeurs codees en dur a la main).
 
 Usage :
-    python3 tools/wip-emulate-sub1400019A0.py
+    two-ring-vow-solve.py [-q]
 """
+import argparse
 import re
 import subprocess
 from pathlib import Path
@@ -36,8 +36,7 @@ def dump_rdata(start: int, stop: int) -> bytes:
         m = re.match(r"^\s*([0-9a-f]+)\s+([0-9a-f ]+?)  ", line)
         if not m:
             continue
-        hexpart = m.group(2).replace(" ", "")
-        data += bytes.fromhex(hexpart)
+        data += bytes.fromhex(m.group(2).replace(" ", ""))
     return bytes(data)
 
 
@@ -57,7 +56,7 @@ def BYTE(v, i):
     return (v >> (8 * i)) & 0xFF
 
 
-def main():
+def password() -> str:
     blob = dump_rdata(0x1400CA880, 0x1400CA9C0)
 
     def grab(addr, n, base=0x1400CA880):
@@ -82,7 +81,7 @@ def main():
         inner = ((t1 << 24) ^ t2 ^ t3 ^ t4 ^ (t5 << 16) ^ (t6 << 8) ^ 0xE17A9C53) & M32
         rolled = rol32(inner, (a2 + 3 * a1) & M32)
         v2 = (rolled + 374761393 * a2 + 668265261) & M32
-        b0, b1, b2, b3 = BYTE(v2, 0), BYTE(v2, 1), BYTE(v2, 2), BYTE(v2, 3)
+        b1, b2, b3 = BYTE(v2, 1), BYTE(v2, 2), BYTE(v2, 3)
         v3 = ((b1 ^ b2) | (b3 << 8)) & M32
         return (b3 ^ v2 ^ v3) & M32
 
@@ -94,8 +93,7 @@ def main():
             if v6 == 3:
                 a2 = (a2 * ((2 * v5 + 1) & M32)) & M32
                 continue
-            parity0 = ((a1 + i) & 4) == 0
-            if parity0:
+            if ((a1 + i) & 4) == 0:
                 if v6 == 1:
                     a2 = (a2 + v5 + a1) & M32
                 elif v6 == 2:
@@ -142,10 +140,15 @@ def main():
         final_byte = (byte2 ^ inner3) & 0xFF
         return sub_1400018D0(a1, final_byte) & 0xFF
 
-    ref = [sub_1400019A0(j) for j in range(15)]
-    print("octets :", ref)
-    print("hex    :", [hex(x) for x in ref])
-    print("texte  :", repr(bytes(ref).decode("latin1")))
+    return bytes(sub_1400019A0(j) for j in range(15)).decode("ascii")
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("-q", action="store_true")
+    a = ap.parse_args()
+    pw = password()
+    print(pw if a.q else f"ligne a saisir = {pw!r}")
 
 
 if __name__ == "__main__":

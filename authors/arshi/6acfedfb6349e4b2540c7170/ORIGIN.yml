@@ -11,7 +11,7 @@ author_local: "arshi"
 
 platform: "Windows"
 arch: "x86-64"
-language: ""
+language: "C++ (MinGW-w64/GCC)"
 
 difficulty: null
 quality: null
@@ -28,8 +28,8 @@ binary:
   md5: "e3e56dac1e9c800725e8b7e2abc7a530"
   size_bytes: 364304
 
-status: pending
-solution_summary: ""
+status: solved
+solution_summary: "ligne 15 car. recalculee par un scrambler pur (sub_1400019A0, tables .rdata) -> LvY0uArshu130(T ; succes reel XOR-decode dynamiquement (byte_1400CA170), leurres combinatoires + anti-debug/anti-VM (sub_140002420) a ignorer ; verifie 3x sous Wine sur le binaire original, exit code 0"
 
 download:
   zip_password: crackmes.one

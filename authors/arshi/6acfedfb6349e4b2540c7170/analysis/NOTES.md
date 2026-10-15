@@ -1,7 +1,10 @@
-# NOTES WIP — arshi's LvArshu (Flag) / "TWO-RING VOW"
+# NOTES (session de reverse) — arshi's LvArshu (Flag) / "TWO-RING VOW"
 
-> État : **EN COURS, PAS RESOLU**. `ORIGIN.yml` reste `status: pending`.
-> Reprise sur une autre machine : lire ce fichier en entier avant de continuer.
+> État : **RÉSOLU**. Voir [`../README.md`](../README.md) pour le write-up final
+> (réponse, preuve, mécanisme complet). Ce fichier est conservé tel quel comme
+> trace de la session d'investigation (candidat initialement jugé « suspect »,
+> confirmé correct ensuite par exécution directe — voir le write-up, section
+> « Comment on trouve », pour le dénouement).
 
 Challenge : https://crackmes.one/crackme/6acfedfb6349e4b2540c7170
 Binaire réel : `original/extracted/two_ring_vow.exe` (le ZIP téléchargé par `add-crackme.sh`
