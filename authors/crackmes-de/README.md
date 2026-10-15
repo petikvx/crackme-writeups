@@ -342,6 +342,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 308 | [code_linux](5ab77f5f33c5d40ad448c800/) | buga0205 | Linux ELF32 statique (ptrace) | code `Rev5rS1ng_iS_FfUn!~` (base64 → César +20 → ^4 == v5) |
 | 309 | [d00msweek039s_crackme_1](5ab77f5633c5d40ad448c2c4/) | doomsweek | Windows PE32 VB6 natif GUI | serial `CFDXXQRQAASD` (CFD+XXQ+RQA+ASD, `__vbaStrCmp` ; wine: Congrats) |
 | 310 | [d00msweek039s_crackme_2](5ab77f5633c5d40ad448c2c5/) | doomsweek | Windows PE32 VB6 natif GUI | keygen 3 lettres → `ZYX`+Atbash+`XXX` (`PET` → `ZYXKVGXXX` ; wine: Congrats!) |
+| 311 | [patchme_1](5ab77f5633c5d40ad448c2c6/) | doomsweek | Windows PE32 VB6 natif GUI | patch : Form1 (nag) flags `0x110→0x100` + `lpSubMain`→cave appelant `Form3.Command1_Click` (wine: MsgBox « PatchME Solved ! Good BYe », pas de nag) |
 
 ## Mis de côté (PARKED — y revenir)
 

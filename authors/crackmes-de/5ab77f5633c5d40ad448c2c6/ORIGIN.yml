@@ -1,0 +1,39 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2c6
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2c6
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2c6
+
+title: "crackmes.de's patchme_1 by doomsweek"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows (site: Unspecified/other)"
+arch: "x86"
+language: "Visual Basic 6 (native)"
+
+difficulty: 1.0
+quality: null
+size: "4.55 KB"
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/patchme1.zip"
+  name: "patchme1.zip"
+  sha256: "1b5c37f0d8939d9b67de07db32b155c3263a013994eacb79c04c6cf5336f304f"
+  md5: "334967ebc0448aaaf448c93c7f1b5aa5"
+  size_bytes: 4658
+  extracted:
+    name: "PatchME1.exe"
+    sha256: "018a0d02220c4a219abf223bf70ab682cee0782edf12a1598f2b47ce0cb2845c"
+
+status: solved
+solution_summary: "patch VB6 : GUI table Form1 flags 0x110->0x100 (nag plus startup) + lpSubMain -> cave qui appelle Form3.Command1_Click (MsgBox \"PatchME Solved ! Good BYe\") ; wine: pas de nag, MsgBox BYE"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-15T00:55:47Z"
