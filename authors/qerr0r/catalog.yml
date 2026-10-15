@@ -5,8 +5,17 @@ by_id:
     path: "authors/qerr0r/69a65b6c7a778cfffbfb680e/original/crackit"
     title: "QERR0R's crackit"
 
+  69a65ee60f5b9757a6a5f73f:
+    sha256: "7fb92886db1f4de6208bb6be40de8e56d8d9381de6a934b4de5c73551172c6e6"
+    path: "authors/qerr0r/69a65ee60f5b9757a6a5f73f/original/crackit"
+    title: "QERR0R's CrackIt;)"
+
 by_sha256:
   c17a56fe9caf1c9105212f8b4c72b9d7b998f3b862521e8a1235b532a97e5cd8:
     id: 69a65b6c7a778cfffbfb680e
     path: "authors/qerr0r/69a65b6c7a778cfffbfb680e/original/crackit"
     page: https://crackmes.one/crackme/69a65b6c7a778cfffbfb680e
+  7fb92886db1f4de6208bb6be40de8e56d8d9381de6a934b4de5c73551172c6e6:
+    id: 69a65ee60f5b9757a6a5f73f
+    path: "authors/qerr0r/69a65ee60f5b9757a6a5f73f/original/crackit"
+    page: https://crackmes.one/crackme/69a65ee60f5b9757a6a5f73f

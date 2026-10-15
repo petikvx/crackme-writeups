@@ -148,7 +148,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
 | [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 311 / 311 |
 | [chaltu](authors/chaltu/README.md) | chaltu | 3 (a Treasure + Double Door + Accsess me please) | 3 / 3 |
-| [qerr0r](authors/qerr0r/README.md) | QERR0R | 1 (crackit) | 1 / 1 |
+| [qerr0r](authors/qerr0r/README.md) | QERR0R | 2 (crackit + CrackIt;)) | 2 / 2 |
 | [steve_maxwell](authors/steve_maxwell/README.md) | steve_maxwell | 1 (X-0-R) | 1 / 1 |
 | [vodeff](authors/vodeff/README.md) | vodeff | 1 (FindLicenseKey) | 1 / 1 |
 | [segfaults](authors/segfaults/README.md) | segfaults | 1 (Jame's Cybersecurity Company) | 1 / 1 |
@@ -264,6 +264,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-16 | [CrackIt;)](authors/qerr0r/69a65ee60f5b9757a6a5f73f/) | QERR0R |
 | 2026-10-16 | [Hecate linux/unix](authors/kryptos/6a5010dac630e9c9509785f6/) | Kryptos |
 | 2026-10-16 | [ComputeTheKey](authors/th/6a53f2cb055757d3df60fcd4/) | th |
 | 2026-10-15 | [LvArshu (Flag) / TWO-RING VOW](authors/arshi/6acfedfb6349e4b2540c7170/) | arshi |

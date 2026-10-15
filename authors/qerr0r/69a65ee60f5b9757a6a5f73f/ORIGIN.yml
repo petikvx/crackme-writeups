@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69a65ee60f5b9757a6a5f73f
+
+urls:
+  page: https://crackmes.one/crackme/69a65ee60f5b9757a6a5f73f
+  download: https://crackmes.one/download/crackme/69a65ee60f5b9757a6a5f73f
+
+title: "QERR0R's CrackIt;)"
+author_on_site: "QERR0R"
+author_local: "qerr0r"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C++"
+
+difficulty: 1.8
+quality: null
+size: "14.45 KB"
+published: 2026-03-03
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackit"
+  name: "crackit"
+  sha256: "7fb92886db1f4de6208bb6be40de8e56d8d9381de6a934b4de5c73551172c6e6"
+  md5: "5b92cd95790dee1e3a1d8b869763d2ca"
+  size_bytes: 14800
+
+status: solved
+solution_summary: "flag en dur eclate en 11 litteraux concatenes (anti-strings) -> CTF{My_S3cr3t_Fl4g}W0WY0uF0undM3{0r N0t}"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-15T19:10:29Z"
