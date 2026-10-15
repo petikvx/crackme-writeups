@@ -42,7 +42,7 @@ Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` 
 | 32 | 2026-04-01 | U Can't Pass | mystergaif | 1.0 | 15.12 KB | https://crackmes.one/crackme/69cd36983e328e778db052c2 | solved |
 | 33 | 2026-03-03 | CrackIt;) | QERR0R | 1.8 | 14.45 KB | https://crackmes.one/crackme/69a65ee60f5b9757a6a5f73f | solved |
 | 34 | 2026-02-14 | time based riddle | marco007 | 2.0 | 22.36 KB | https://crackmes.one/crackme/6990e4b9a15272fa37a80cb8 | solved |
-| 35 | 2026-02-09 | simple crackme | marco007 | 1.4 | 15.95 KB | https://crackmes.one/crackme/698a6214fb46458f1ef6cef5 | **TODO** |
+| 35 | 2026-02-09 | simple crackme | marco007 | 1.4 | 15.95 KB | https://crackmes.one/crackme/698a6214fb46458f1ef6cef5 | solved |
 | 36 | 2026-02-01 | Quite a simple crackme | sftmlg | 1.1 | 7.08 KB | https://crackmes.one/crackme/697f761b32fcb81e1bd005c6 | **TODO** |
 | 37 | 2026-01-31 | Prometheora | SoBrazen | 1.6 | 500.89 KB | https://crackmes.one/crackme/697e95cb977274421cc111e1 | **TODO** |
 | 38 | 2026-01-25 | X-0-R | steve_maxwell | 1.9 | 4.72 MB | https://crackmes.one/crackme/6976041d9bf7b8997653a6cf | solved |

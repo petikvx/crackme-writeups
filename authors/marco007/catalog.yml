@@ -5,8 +5,17 @@ by_id:
     path: "authors/marco007/6990e4b9a15272fa37a80cb8/original/crackme_ctf"
     title: "marco007's time based riddle"
 
+  698a6214fb46458f1ef6cef5:
+    sha256: "de69c76c95d806f05e8458169c22354c760424cd7e59ec5344fd5639cd9ef935"
+    path: "authors/marco007/698a6214fb46458f1ef6cef5/original/crackme"
+    title: "marco007's simple crackme"
+
 by_sha256:
   3ac0c828158f65c6bc3f5402128e48da65a99c9a826836f930947240558b477b:
     id: 6990e4b9a15272fa37a80cb8
     path: "authors/marco007/6990e4b9a15272fa37a80cb8/original/crackme_ctf"
     page: https://crackmes.one/crackme/6990e4b9a15272fa37a80cb8
+  de69c76c95d806f05e8458169c22354c760424cd7e59ec5344fd5639cd9ef935:
+    id: 698a6214fb46458f1ef6cef5
+    path: "authors/marco007/698a6214fb46458f1ef6cef5/original/crackme"
+    page: https://crackmes.one/crackme/698a6214fb46458f1ef6cef5

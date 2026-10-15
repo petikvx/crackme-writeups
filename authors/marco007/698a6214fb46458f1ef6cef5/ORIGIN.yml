@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 698a6214fb46458f1ef6cef5
+
+urls:
+  page: https://crackmes.one/crackme/698a6214fb46458f1ef6cef5
+  download: https://crackmes.one/download/crackme/698a6214fb46458f1ef6cef5
+
+title: "marco007's simple crackme"
+author_on_site: "marco007"
+author_local: "marco007"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C"
+
+difficulty: 1.4
+quality: null
+size: "15.95 KB"
+published: 2026-02-09
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme"
+  name: "crackme"
+  sha256: "de69c76c95d806f05e8458169c22354c760424cd7e59ec5344fd5639cd9ef935"
+  md5: "b5fb41307212ceb583f66df6a9f212aa"
+  size_bytes: 16336
+
+status: solved
+solution_summary: "XOR fixe enc_msg^key -> NAKED_SNAKE ; flag[j]^(j+(multiplier^offset)) -> FLAG{CIPHER_ENCRYPTION}"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-15T19:17:03Z"
