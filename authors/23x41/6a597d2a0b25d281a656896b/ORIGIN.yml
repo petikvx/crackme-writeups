@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a597d2a0b25d281a656896b
+
+urls:
+  page: https://crackmes.one/crackme/6a597d2a0b25d281a656896b
+  download: https://crackmes.one/download/crackme/6a597d2a0b25d281a656896b
+
+title: "23x41's 0x8A7"
+author_on_site: "23x41"
+author_local: "23x41"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/batcave"
+  name: "batcave"
+  sha256: "c58b2d78b6af9ebc78399b8f90362b6a468824456ca71ac461561f08dae00daf"
+  md5: "02a19c42baedb24508eb41f58726e07f"
+  size_bytes: 19288
+
+status: solved
+solution_summary: "Non-PIE, sans canary : overflow read(0,buf,0x200) sur buf[0x50] dans check_password, ret2win direct sur open_batcave (0x401186) -> FLAG{0x8A7_R3T2W1N_N0_PR0T3CT10N5}"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-15T04:14:37Z"
