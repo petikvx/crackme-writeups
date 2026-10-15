@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6990e4b9a15272fa37a80cb8
+
+urls:
+  page: https://crackmes.one/crackme/6990e4b9a15272fa37a80cb8
+  download: https://crackmes.one/download/crackme/6990e4b9a15272fa37a80cb8
+
+title: "marco007's time based riddle"
+author_on_site: "marco007"
+author_local: "marco007"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C++"
+
+difficulty: 2.0
+quality: null
+size: "22.36 KB"
+published: 2026-02-14
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme_ctf"
+  name: "crackme_ctf"
+  sha256: "3ac0c828158f65c6bc3f5402128e48da65a99c9a826836f930947240558b477b"
+  md5: "1a88ccbb1627c0e1e2d522c5bf0abf1b"
+  size_bytes: 22896
+
+status: solved
+solution_summary: "4 enigmes (keyboard/map/footsteps/m) + limite de temps 10s ; le dechiffrage Cesar des reponses officielles est un leurre jamais verifie, seul le checksum ASCII des reponses saisies cle decrypt_flag() -> FLAG{TIME_TRAVELER}"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-15T19:11:53Z"

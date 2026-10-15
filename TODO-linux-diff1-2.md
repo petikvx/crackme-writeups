@@ -41,7 +41,7 @@ Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` 
 | 31 | 2026-04-01 | I need to be honest | pipedown | 1.6 | 6.84 KB | https://crackmes.one/crackme/69cd43df49fa49a2a2602312 | solved |
 | 32 | 2026-04-01 | U Can't Pass | mystergaif | 1.0 | 15.12 KB | https://crackmes.one/crackme/69cd36983e328e778db052c2 | solved |
 | 33 | 2026-03-03 | CrackIt;) | QERR0R | 1.8 | 14.45 KB | https://crackmes.one/crackme/69a65ee60f5b9757a6a5f73f | solved |
-| 34 | 2026-02-14 | time based riddle | marco007 | 2.0 | 22.36 KB | https://crackmes.one/crackme/6990e4b9a15272fa37a80cb8 | **TODO** |
+| 34 | 2026-02-14 | time based riddle | marco007 | 2.0 | 22.36 KB | https://crackmes.one/crackme/6990e4b9a15272fa37a80cb8 | solved |
 | 35 | 2026-02-09 | simple crackme | marco007 | 1.4 | 15.95 KB | https://crackmes.one/crackme/698a6214fb46458f1ef6cef5 | **TODO** |
 | 36 | 2026-02-01 | Quite a simple crackme | sftmlg | 1.1 | 7.08 KB | https://crackmes.one/crackme/697f761b32fcb81e1bd005c6 | **TODO** |
 | 37 | 2026-01-31 | Prometheora | SoBrazen | 1.6 | 500.89 KB | https://crackmes.one/crackme/697e95cb977274421cc111e1 | **TODO** |
@@ -200,4 +200,4 @@ Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` 
 | 190 | 2018-05-06 | Sh4ll2 | destructeur | 2.0 | 8.49 KB | https://crackmes.one/crackme/5aef385633c5d41ac64b492f | **TODO** |
 | 191 | 2018-05-06 | Sh4ll1 | destructeur | 1.4 | 13.23 KB | https://crackmes.one/crackme/5aef37c733c5d41ac64b492e | **TODO** |
 
-Le prochain de la file est **time based riddle** (marco007) : https://crackmes.one/crackme/6990e4b9a15272fa37a80cb8
+Le prochain de la file est **simple crackme** (marco007) : https://crackmes.one/crackme/698a6214fb46458f1ef6cef5
