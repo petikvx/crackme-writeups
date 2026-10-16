@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  67fa22568f555589f3530a94:
+    sha256: "74a56000344498f377156b16b2b47f574c93f8e63eb66f4296e6a8a065102de2"
+    path: "authors/vulnix/67fa22568f555589f3530a94/original/easyjerk"
+    title: "vulnix's easyjerk"
+
+by_sha256:
+  74a56000344498f377156b16b2b47f574c93f8e63eb66f4296e6a8a065102de2:
+    id: 67fa22568f555589f3530a94
+    path: "authors/vulnix/67fa22568f555589f3530a94/original/easyjerk"
+    page: https://crackmes.one/crackme/67fa22568f555589f3530a94

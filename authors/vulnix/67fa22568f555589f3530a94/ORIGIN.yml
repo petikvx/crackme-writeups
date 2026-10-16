@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 67fa22568f555589f3530a94
+
+urls:
+  page: https://crackmes.one/crackme/67fa22568f555589f3530a94
+  download: https://crackmes.one/download/crackme/67fa22568f555589f3530a94
+
+title: "vulnix's easyjerk"
+author_on_site: "vulnix"
+author_local: "vulnix"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/easyjerk"
+  name: "easyjerk"
+  sha256: "74a56000344498f377156b16b2b47f574c93f8e63eb66f4296e6a8a065102de2"
+  md5: "4ef0890fb4685785ebbf454526aa4b0e"
+  size_bytes: 16184
+
+status: solved
+solution_summary: "serial = LiZTeETf : transform(c,i)=((c^(i+7))+13)&0x7f == T[i] (8 octets sur la pile)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-16T18:02:44Z"
