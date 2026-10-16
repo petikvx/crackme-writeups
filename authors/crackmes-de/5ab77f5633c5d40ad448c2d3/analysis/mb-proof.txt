@@ -1,0 +1,7 @@
+dialog=00010058
+MB_TITLE=Madeinqc's crack-me 1
+  [Button] OK
+  [Static] Good job! You found the Menu!
+Now send a mail to madeinqc_cracking@hotmail.com with your tutorial.
+---
+found_mb=1

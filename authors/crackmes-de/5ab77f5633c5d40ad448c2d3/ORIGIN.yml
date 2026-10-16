@@ -1,0 +1,39 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2d3
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2d3
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2d3
+
+title: "crackmes.de's madeinqcs_crackme by madeinqc"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler (MASM32)"
+
+difficulty: 2.0
+quality: null
+size: "1.76 KB"
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Madeinqc_crack-me_1.zip"
+  name: "Madeinqc_crack-me_1.zip"
+  sha256: "f6a975b7aaef72cdb9dd8cc896a1b333a201da550e6a2fc093026f88baf74a00"
+  md5: "7d75b0a5668291b63448846ca0911957"
+  size_bytes: 1806
+  extracted:
+    name: "crackme1.exe"
+    sha256: "65ec6d343105165b4b178d3eae5c9cd7451e6ca7ac9207997efca3743975dcad"
+
+status: solved
+solution_summary: "lancer crackme1.exe /MADEINQCMENU puis menu You hacked it! → Good job! (WM_COMMAND id=1, lParam=0) → MsgBox Good Boy ; pas de patch"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-16T02:50:19Z"

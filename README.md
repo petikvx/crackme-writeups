@@ -266,6 +266,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-16 | [madeinqcs_crackme by madeinqc](authors/crackmes-de/5ab77f5633c5d40ad448c2d3/) | crackmes.de / madeinqc |
 | 2026-10-16 | [crackme_4.75 by bullet](authors/crackmes-de/5ab77f5633c5d40ad448c2d2/) | crackmes.de / BuLLeT |
 | 2026-10-16 | [crackme_1.75 by bullet](authors/crackmes-de/5ab77f5633c5d40ad448c2d1/) | crackmes.de / BuLLeT |
 | 2026-10-16 | [crackme1_s4tan by s4tan](authors/crackmes-de/5ab77f5633c5d40ad448c2ce/) | crackmes.de / s4tan |
