@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6963af82143c47935bdea9ab:
+    sha256: "af3ee10e8a9c7c88892fbcd37c4a9549af25ed9eee265d5bd9950c7d699005c8"
+    path: "authors/svidnet/6963af82143c47935bdea9ab/original/ZEXORv1_wayland"
+    title: "svidnet's ZEXOR"
+
+by_sha256:
+  af3ee10e8a9c7c88892fbcd37c4a9549af25ed9eee265d5bd9950c7d699005c8:
+    id: 6963af82143c47935bdea9ab
+    path: "authors/svidnet/6963af82143c47935bdea9ab/original/ZEXORv1_wayland"
+    page: https://crackmes.one/crackme/6963af82143c47935bdea9ab

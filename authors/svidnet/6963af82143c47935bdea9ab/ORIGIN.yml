@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6963af82143c47935bdea9ab
+
+urls:
+  page: https://crackmes.one/crackme/6963af82143c47935bdea9ab
+  download: https://crackmes.one/download/crackme/6963af82143c47935bdea9ab
+
+title: "svidnet's ZEXOR"
+author_on_site: "svidnet"
+author_local: "svidnet"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/ZEXORv1_wayland"
+  name: "ZEXORv1_wayland"
+  sha256: "af3ee10e8a9c7c88892fbcd37c4a9549af25ed9eee265d5bd9950c7d699005c8"
+  md5: "4e96d62a1b379167a44a05c7cff0f6b4"
+  size_bytes: 17200
+
+status: solved
+solution_summary: "license = AEXORRBSHA36325S33 (valid() = strcmp(saisie, UH) ; UH reloc RELATIVE -> .rodata+0x8)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-16T15:09:30Z"
