@@ -161,6 +161,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [kryptos](authors/kryptos/README.md) | Kryptos | 1 (Hecate) | 1 / 1 |
 | [marco007](authors/marco007/README.md) | marco007 | 2 (time based riddle + simple crackme) | 2 / 2 |
 | [sftmlg](authors/sftmlg/README.md) | sftmlg | 1 (Quite a simple crackme) | 1 / 1 |
+| [userrrrrr](authors/userrrrrr/README.md) | userrrrrr | 1 (EasyCrackme) | 1 / 1 |
 | [mark_godez](authors/mark_godez/README.md) | Mark_Godez | 1 (Godez_Mark crackme) | 1 / 1 |
 | [izijerry](authors/izijerry/README.md) | izijerry | 1 (int overflow) | 1 / 1 |
 | [thedollar](authors/thedollar/README.md) | thedollar | 1 (Bingus) | 1 / 1 |
@@ -279,6 +280,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 | 2026-10-17 | [orcs236_crackme by orcs236](authors/crackmes-de/5ab77f5633c5d40ad448c2de/) | crackmes.de / orcs236 |
 | 2026-10-17 | [orks236_crackme_2 by orcs236](authors/crackmes-de/5ab77f5633c5d40ad448c2dd/) | crackmes.de / orcs236 |
 | 2026-10-17 | [crackme_1.0 by skjobax](authors/crackmes-de/5ab77f5633c5d40ad448c2dc/) | crackmes.de / skjobax |
+| 2026-10-16 | [EasyCrackme](authors/userrrrrr/682767d26297cca3ff7d79be/) | userrrrrr |
 | 2026-10-16 | [XORcist](authors/s3c_cult/684f47bd2b84be7ea774390e/) | S3c_Cult |
 | 2026-10-16 | [shellcoding](authors/toasterbirb/6869167eaadb6eeafb398fb4/) | toasterbirb |
 | 2026-10-16 | [argc](authors/toasterbirb/68698837aadb6eeafb399017/) | toasterbirb |

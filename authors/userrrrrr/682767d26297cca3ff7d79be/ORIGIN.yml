@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 682767d26297cca3ff7d79be
+
+urls:
+  page: https://crackmes.one/crackme/682767d26297cca3ff7d79be
+  download: https://crackmes.one/download/crackme/682767d26297cca3ff7d79be
+
+title: "userrrrrr's EasyCrackme"
+author_on_site: "userrrrrr"
+author_local: "userrrrrr"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme"
+  name: "crackme"
+  sha256: "9443783b916bae529c66a3d07e5a900fabb4eadf58a918b1140d612e1a037168"
+  md5: "9fba0922955370d7bcacfc99dd5e596f"
+  size_bytes: 16264
+
+status: solved
+solution_summary: "password = .rdata (strcmp(saisie, storedPassword @ .rodata+0x4))"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-16T18:02:33Z"

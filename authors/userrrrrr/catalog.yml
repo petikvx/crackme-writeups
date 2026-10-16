@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  682767d26297cca3ff7d79be:
+    sha256: "9443783b916bae529c66a3d07e5a900fabb4eadf58a918b1140d612e1a037168"
+    path: "authors/userrrrrr/682767d26297cca3ff7d79be/original/crackme"
+    title: "userrrrrr's EasyCrackme"
+
+by_sha256:
+  9443783b916bae529c66a3d07e5a900fabb4eadf58a918b1140d612e1a037168:
+    id: 682767d26297cca3ff7d79be
+    path: "authors/userrrrrr/682767d26297cca3ff7d79be/original/crackme"
+    page: https://crackmes.one/crackme/682767d26297cca3ff7d79be
