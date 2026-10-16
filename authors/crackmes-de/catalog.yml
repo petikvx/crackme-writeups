@@ -1611,6 +1611,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c2d1/original/tol_b175.zip"
     title: "crackmes.de's crackme_1.75 by bullet"
 
+  5ab77f5633c5d40ad448c2d2:
+    sha256: "9953d94f29119f49869714756341cb4ef58e4352199543e18dcf0ee70be413cf"
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2d2/original/b_crk4.zip"
+    title: "crackmes.de's crackme_4.75 by bullet"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2912,3 +2917,7 @@ by_sha256:
     id: 5ab77f5633c5d40ad448c2d1
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c2d1/original/tol_b175.zip"
     page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2d1
+  9953d94f29119f49869714756341cb4ef58e4352199543e18dcf0ee70be413cf:
+    id: 5ab77f5633c5d40ad448c2d2
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2d2/original/b_crk4.zip"
+    page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2d2

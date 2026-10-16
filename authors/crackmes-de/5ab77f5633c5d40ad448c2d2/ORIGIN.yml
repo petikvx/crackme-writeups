@@ -1,0 +1,39 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2d2
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2d2
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2d2
+
+title: "crackmes.de's crackme_4.75 by bullet"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows (site: Unspecified/other)"
+arch: "x86"
+language: "Borland Delphi 4"
+
+difficulty: 1.0
+quality: null
+size: "176.22 KB"
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/b_crk4.zip"
+  name: "b_crk4.zip"
+  sha256: "9953d94f29119f49869714756341cb4ef58e4352199543e18dcf0ee70be413cf"
+  md5: "0b7e0c0dab284a7643cf77ea6e446eed"
+  size_bytes: 180448
+  extracted:
+    name: "B-Crk475.exe"
+    sha256: "047bfff3103ad3c31a8d9bb0759eb4942df96e4486b9e7358fd3369f4dc8d043"
+
+status: solved
+solution_summary: "serial constant « This program must be run under Win32 » (AnsiString Delphi @ 0x44093C, @LStrCmp Button1Click) ; wine: mauvais→Wrong serial, bon→Unlock successfull"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-16T01:58:16Z"

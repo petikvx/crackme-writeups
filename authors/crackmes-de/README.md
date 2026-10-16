@@ -348,6 +348,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 
 | 314 | [crackme1_s4tan](5ab77f5633c5d40ad448c2ce/) | s4tan | Windows PE32 .NET GUI | keygen Reflection.Emit : `len(key)=2*len(name)`, `key[j]=name[j%n]+j` (`petik` → `pfvlouk{qt`) |
 | 315 | [crackme_1.75](5ab77f5633c5d40ad448c2d1/) | BuLLeT | Windows PE32 VB5 p-code GUI | password `2hard4u2crackm8` (BSTR Command1_Click ; wine: mauvais→Nope, bon→accepté) |
+| 316 | [crackme_4.75](5ab77f5633c5d40ad448c2d2/) | BuLLeT | Windows PE32 Delphi 4 GUI | serial `This program must be run under Win32` (@LStrCmp ; wine: Wrong serial / Unlock successfull) |
 
 ## Mis de côté (PARKED — y revenir)
 
