@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2db
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2db
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2db
+
+title: "crackmes.de's wtf_serial_protected_round_1 by skjobax"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "PureBasic + VBScript (MSScriptControl)"
+
+difficulty: 2.0
+quality: 4.0
+size: "5.74 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/WTFserialProtected#1.zip"
+  name: "WTFserialProtected#1.zip"
+  sha256: "dc3b0ad0a8f76230fb7b0ea0866f7cb2e79c6432b89f33279330a43120849cde"
+  md5: "6711d29fcf9a604b7e1a9e25fba6a193"
+  size_bytes: 5875
+
+status: solved
+solution_summary: "VBScript compressé JCALG1 en overlay (0x3600), décompressé par émulation unicorn de 0x402E40 ; serial = CStr(20*n) & CStr((10 mod n)+40) & Chr(20*n), n=Len(nom) 1..12 ; petik → 10040d"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-16T23:49:07Z"

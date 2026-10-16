@@ -291,6 +291,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 | 2026-10-16 | [Password And Flag in C](authors/howosec/6973ebc6d735cd51e7a1aa97/) | howosec |
 | 2026-10-16 | [crackme_2.75 (BuLLeT)](authors/crackmes-de/5ab77f5633c5d40ad448c2d0/) | crackmes.de / BuLLeT |
 | 2026-10-16 | [crackme1 by dlap](authors/crackmes-de/5ab77f5633c5d40ad448c2d8/) | crackmes.de / dlap |
+| 2026-10-17 | [wtf_serial_protected_round_1 by skjobax](authors/crackmes-de/5ab77f5633c5d40ad448c2db/) | crackmes.de / skjobax |
 | 2026-10-16 | [madeinqcs_crackme by madeinqc](authors/crackmes-de/5ab77f5633c5d40ad448c2d3/) | crackmes.de / madeinqc |
 | 2026-10-16 | [crackme_4.75 by bullet](authors/crackmes-de/5ab77f5633c5d40ad448c2d2/) | crackmes.de / BuLLeT |
 | 2026-10-16 | [crackme_1.75 by bullet](authors/crackmes-de/5ab77f5633c5d40ad448c2d1/) | crackmes.de / BuLLeT |

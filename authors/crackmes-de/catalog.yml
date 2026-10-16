@@ -1631,6 +1631,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c2d0/original/tol_b275.zip"
     title: "crackmes.de's crackme_2.75 by bullet"
 
+  5ab77f5633c5d40ad448c2db:
+    sha256: "dc3b0ad0a8f76230fb7b0ea0866f7cb2e79c6432b89f33279330a43120849cde"
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2db/original/WTFserialProtected#1.zip"
+    title: "crackmes.de's wtf_serial_protected_round_1 by skjobax"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2948,3 +2953,7 @@ by_sha256:
     id: 5ab77f5633c5d40ad448c2d0
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c2d0/original/tol_b275.zip"
     page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2d0
+  dc3b0ad0a8f76230fb7b0ea0866f7cb2e79c6432b89f33279330a43120849cde:
+    id: 5ab77f5633c5d40ad448c2db
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2db/original/WTFserialProtected#1.zip"
+    page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2db

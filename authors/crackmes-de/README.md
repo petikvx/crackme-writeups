@@ -352,6 +352,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 317 | [crackme_4.75](5ab77f5633c5d40ad448c2d2/) | BuLLeT | Windows PE32 Delphi 4 GUI | serial `This program must be run under Win32` (@LStrCmp ; wine: Wrong serial / Unlock successfull) |
 | 318 | [madeinqcs_crackme](5ab77f5633c5d40ad448c2d3/) | madeinqc | Windows PE32 MASM32 GUI | `/MADEINQCMENU` → menu Good job! (WM_COMMAND id=1) → MsgBox Good Boy |
 | 319 | [crackme1 by dlap](5ab77f5633c5d40ad448c2d8/) | dlap | MS-DOS MZ asm | patch JE@0x22F→JNE ; message `You got it. Now write a solution, and send to me. DLAP@mail.ru` |
+| 320 | [wtf_serial_protected_round_1](5ab77f5633c5d40ad448c2db/) | skjobax | Windows PE32 PureBasic + VBScript | VBScript JCALG1 en overlay (émulation unicorn) ; serial = `20n` & `(10 mod n)+40` & `Chr(20n)` ; `petik` → `10040d` |
 
 ## Mis de côté (PARKED — y revenir)
 
