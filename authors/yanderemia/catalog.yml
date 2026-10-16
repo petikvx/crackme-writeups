@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6946be18523504d8c842eb7e:
+    sha256: "2a49183334834ce77e544366c805d4a374fa01a60e01fc78780392ac7f9e577b"
+    path: "authors/yanderemia/6946be18523504d8c842eb7e/original/crackme"
+    title: "YandereMia's simple XOR crackme"
+
+by_sha256:
+  2a49183334834ce77e544366c805d4a374fa01a60e01fc78780392ac7f9e577b:
+    id: 6946be18523504d8c842eb7e
+    path: "authors/yanderemia/6946be18523504d8c842eb7e/original/crackme"
+    page: https://crackmes.one/crackme/6946be18523504d8c842eb7e

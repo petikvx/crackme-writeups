@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6946be18523504d8c842eb7e
+
+urls:
+  page: https://crackmes.one/crackme/6946be18523504d8c842eb7e
+  download: https://crackmes.one/download/crackme/6946be18523504d8c842eb7e
+
+title: "YandereMia's simple XOR crackme"
+author_on_site: "YandereMia"
+author_local: "yanderemia"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme"
+  name: "crackme"
+  sha256: "2a49183334834ce77e544366c805d4a374fa01a60e01fc78780392ac7f9e577b"
+  md5: "3028321585aa152abcd007bc1e595145"
+  size_bytes: 15480
+
+status: solved
+solution_summary: "key = ABC&E@GH98K51NOP (key[i] = T0[i]^T1[i]^T2[i]^T3[i]^0x20, 16 octets, tables .rodata 0x2030..0x2060)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-16T15:55:15Z"
