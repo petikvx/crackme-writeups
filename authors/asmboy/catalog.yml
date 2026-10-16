@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6919feb12d267f28f69b7e5c:
+    sha256: "0521f61250bf5d16e81f697b9b387f17aed92a2a63c23c7878d8c1eb887e79c5"
+    path: "authors/asmboy/6919feb12d267f28f69b7e5c/original/a.out"
+    title: "ASMboy's segfault"
+
+by_sha256:
+  0521f61250bf5d16e81f697b9b387f17aed92a2a63c23c7878d8c1eb887e79c5:
+    id: 6919feb12d267f28f69b7e5c
+    path: "authors/asmboy/6919feb12d267f28f69b7e5c/original/a.out"
+    page: https://crackmes.one/crackme/6919feb12d267f28f69b7e5c

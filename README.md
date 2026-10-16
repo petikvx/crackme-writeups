@@ -161,6 +161,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [kryptos](authors/kryptos/README.md) | Kryptos | 1 (Hecate) | 1 / 1 |
 | [marco007](authors/marco007/README.md) | marco007 | 2 (time based riddle + simple crackme) | 2 / 2 |
 | [sftmlg](authors/sftmlg/README.md) | sftmlg | 1 (Quite a simple crackme) | 1 / 1 |
+| [asmboy](authors/asmboy/README.md) | ASMboy | 1 (segfault) | 1 / 1 |
 | [ezloom](authors/ezloom/README.md) | ezloom | 1 (really easy) | 1 / 1 |
 | [yanderemia](authors/yanderemia/README.md) | YandereMia | 2 | 2 / 2 |
 | [svidnet](authors/svidnet/README.md) | svidnet | 1 (ZEXOR-v1 (Linux)) | 1 / 1 |
@@ -270,6 +271,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-16 | [segfault](authors/asmboy/6919feb12d267f28f69b7e5c/) | ASMboy |
 | 2026-10-16 | [really easy](authors/ezloom/691fd9362d267f28f69b7f89/) | ezloom |
 | 2026-10-16 | [Introduction to RE](authors/yanderemia/6940b5870992a052ab22235b/) | YandereMia |
 | 2026-10-16 | [simple XOR crackme](authors/yanderemia/6946be18523504d8c842eb7e/) | YandereMia |

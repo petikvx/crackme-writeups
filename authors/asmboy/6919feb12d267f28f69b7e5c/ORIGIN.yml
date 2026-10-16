@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6919feb12d267f28f69b7e5c
+
+urls:
+  page: https://crackmes.one/crackme/6919feb12d267f28f69b7e5c
+  download: https://crackmes.one/download/crackme/6919feb12d267f28f69b7e5c
+
+title: "ASMboy's segfault"
+author_on_site: "ASMboy"
+author_local: "asmboy"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/a.out"
+  name: "a.out"
+  sha256: "0521f61250bf5d16e81f697b9b387f17aed92a2a63c23c7878d8c1eb887e79c5"
+  md5: "6f5399f49ad796855478d9f4f144428c"
+  size_bytes: 16488
+
+status: solved
+solution_summary: "serial = (double)atoi(alt_case(user)[0:8]), user 8..12 car. ; petikpetik -> 0 ; 12345678 -> 12345678"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-16T17:00:48Z"
