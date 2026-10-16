@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  680d04208f555589f3530fb5:
+    sha256: "8c4f4e2e3f78fa7744350ddafba9597cce9190530373779ac4ed7b2ed3353629"
+    path: "authors/idanhajbeko/680d04208f555589f3530fb5/original/babtFirstCrackme.zip"
+    title: "idanhajbeko's babyFirstCrackme"
+
+by_sha256:
+  8c4f4e2e3f78fa7744350ddafba9597cce9190530373779ac4ed7b2ed3353629:
+    id: 680d04208f555589f3530fb5
+    path: "authors/idanhajbeko/680d04208f555589f3530fb5/original/babtFirstCrackme.zip"
+    page: https://crackmes.one/crackme/680d04208f555589f3530fb5

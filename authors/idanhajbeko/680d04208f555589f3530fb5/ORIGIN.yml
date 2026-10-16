@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 680d04208f555589f3530fb5
+
+urls:
+  page: https://crackmes.one/crackme/680d04208f555589f3530fb5
+  download: https://crackmes.one/download/crackme/680d04208f555589f3530fb5
+
+title: "idanhajbeko's babyFirstCrackme"
+author_on_site: "idanhajbeko"
+author_local: "idanhajbeko"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/babtFirstCrackme.zip"
+  name: "babtFirstCrackme.zip"
+  sha256: "8c4f4e2e3f78fa7744350ddafba9597cce9190530373779ac4ed7b2ed3353629"
+  md5: "31735ad522c04b3cd559201cbb42c8a9"
+  size_bytes: 7715
+
+status: solved
+solution_summary: "password = !_-P@$$w0rD-_! (main.exe : strcmp(saisie, .rodata+0x1f) puis getFlag) ; hints.exe extra non explore (easy + code 1250)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-16T18:02:36Z"
