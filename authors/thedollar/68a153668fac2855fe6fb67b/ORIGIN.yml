@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 68a153668fac2855fe6fb67b
+
+urls:
+  page: https://crackmes.one/crackme/68a153668fac2855fe6fb67b
+  download: https://crackmes.one/download/crackme/68a153668fac2855fe6fb67b
+
+title: "thedollar's Bingus"
+author_on_site: "thedollar"
+author_local: "thedollar"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/bingus"
+  name: "bingus"
+  sha256: "0ad062baf9201b13c66b86e2bd73f8029dd1910a817fecdb1125dfff054c6a23"
+  md5: "cc45aea3a742ecd60f5a0e616679343f"
+  size_bytes: 14488
+
+status: solved
+solution_summary: "argv[1] = pp (c=0x70 ; 0x66 + sum(\"This is a red herring\")=1919 + 2c == 0x8c5 ; la chaine \"not a red herring\" est un leurre)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-16T17:03:10Z"

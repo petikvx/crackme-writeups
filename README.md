@@ -161,6 +161,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [kryptos](authors/kryptos/README.md) | Kryptos | 1 (Hecate) | 1 / 1 |
 | [marco007](authors/marco007/README.md) | marco007 | 2 (time based riddle + simple crackme) | 2 / 2 |
 | [sftmlg](authors/sftmlg/README.md) | sftmlg | 1 (Quite a simple crackme) | 1 / 1 |
+| [thedollar](authors/thedollar/README.md) | thedollar | 1 (Bingus) | 1 / 1 |
 | [emilia161](authors/emilia161/README.md) | Emilia161 | 1 (good kitty) | 1 / 1 |
 | [asmboy](authors/asmboy/README.md) | ASMboy | 1 (segfault) | 1 / 1 |
 | [ezloom](authors/ezloom/README.md) | ezloom | 1 (really easy) | 1 / 1 |
@@ -272,6 +273,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-16 | [Bingus](authors/thedollar/68a153668fac2855fe6fb67b/) | thedollar |
 | 2026-10-16 | [good kitty](authors/emilia161/68c44e20224c0ec5dcedbf4b/) | Emilia161 |
 | 2026-10-16 | [segfault](authors/asmboy/6919feb12d267f28f69b7e5c/) | ASMboy |
 | 2026-10-16 | [really easy](authors/ezloom/691fd9362d267f28f69b7f89/) | ezloom |

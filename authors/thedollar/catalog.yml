@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  68a153668fac2855fe6fb67b:
+    sha256: "0ad062baf9201b13c66b86e2bd73f8029dd1910a817fecdb1125dfff054c6a23"
+    path: "authors/thedollar/68a153668fac2855fe6fb67b/original/bingus"
+    title: "thedollar's Bingus"
+
+by_sha256:
+  0ad062baf9201b13c66b86e2bd73f8029dd1910a817fecdb1125dfff054c6a23:
+    id: 68a153668fac2855fe6fb67b
+    path: "authors/thedollar/68a153668fac2855fe6fb67b/original/bingus"
+    page: https://crackmes.one/crackme/68a153668fac2855fe6fb67b
