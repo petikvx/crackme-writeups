@@ -1626,6 +1626,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c2d8/original/my_crackmes.zip"
     title: "crackmes.de's crackme1 by dlap"
 
+  5ab77f5633c5d40ad448c2d0:
+    sha256: "a1d511b45888f9cf8c47b94cfd9a5e99c184afcdb61f25618ca8a3287b5d8a2f"
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2d0/original/tol_b275.zip"
+    title: "crackmes.de's crackme_2.75 by bullet"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2939,3 +2944,7 @@ by_sha256:
     id: 5ab77f5633c5d40ad448c2d8
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c2d8/original/my_crackmes.zip"
     page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2d8
+  a1d511b45888f9cf8c47b94cfd9a5e99c184afcdb61f25618ca8a3287b5d8a2f:
+    id: 5ab77f5633c5d40ad448c2d0
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2d0/original/tol_b275.zip"
+    page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2d0

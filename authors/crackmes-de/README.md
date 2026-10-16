@@ -347,10 +347,11 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 313 | [crackme_by_fereter_1](5ab77f5633c5d40ad448c2cb/) | Fereter | Windows PE32 FASM GUI | serial fixe : `8294810` (deux dwords comparés `0x34393237+1` / `0x303138`, anti-debug rdtsc + scan 0xCC/0x90 ; vérif unicorn) |
 
 | 314 | [crackme1_s4tan](5ab77f5633c5d40ad448c2ce/) | s4tan | Windows PE32 .NET GUI | keygen Reflection.Emit : `len(key)=2*len(name)`, `key[j]=name[j%n]+j` (`petik` → `pfvlouk{qt`) |
-| 315 | [crackme_1.75](5ab77f5633c5d40ad448c2d1/) | BuLLeT | Windows PE32 VB5 p-code GUI | password `2hard4u2crackm8` (BSTR Command1_Click ; wine: mauvais→Nope, bon→accepté) |
-| 316 | [crackme_4.75](5ab77f5633c5d40ad448c2d2/) | BuLLeT | Windows PE32 Delphi 4 GUI | serial `This program must be run under Win32` (@LStrCmp ; wine: Wrong serial / Unlock successfull) |
-| 317 | [madeinqcs_crackme](5ab77f5633c5d40ad448c2d3/) | madeinqc | Windows PE32 MASM32 GUI | `/MADEINQCMENU` → menu Good job! (WM_COMMAND id=1) → MsgBox Good Boy |
-| 318 | [crackme1 by dlap](5ab77f5633c5d40ad448c2d8/) | dlap | MS-DOS MZ asm | patch JE@0x22F→JNE ; message `You got it. Now write a solution, and send to me. DLAP@mail.ru` |
+| 315 | [crackme_2.75](5ab77f5633c5d40ad448c2d0/) | BuLLeT | Windows PE32 VB5 natif GUI | password `2rK4HJ4-7n8RgT09IW6a7kSlg33` — deux chaînes « leurres » servent en fait de matière première à 6 `Mid$()` concaténés ; BSTR de référence lu en direct sous GDB (Xvfb + winetricks vb5run) |
+| 316 | [crackme_1.75](5ab77f5633c5d40ad448c2d1/) | BuLLeT | Windows PE32 VB5 p-code GUI | password `2hard4u2crackm8` (BSTR Command1_Click ; wine: mauvais→Nope, bon→accepté) |
+| 317 | [crackme_4.75](5ab77f5633c5d40ad448c2d2/) | BuLLeT | Windows PE32 Delphi 4 GUI | serial `This program must be run under Win32` (@LStrCmp ; wine: Wrong serial / Unlock successfull) |
+| 318 | [madeinqcs_crackme](5ab77f5633c5d40ad448c2d3/) | madeinqc | Windows PE32 MASM32 GUI | `/MADEINQCMENU` → menu Good job! (WM_COMMAND id=1) → MsgBox Good Boy |
+| 319 | [crackme1 by dlap](5ab77f5633c5d40ad448c2d8/) | dlap | MS-DOS MZ asm | patch JE@0x22F→JNE ; message `You got it. Now write a solution, and send to me. DLAP@mail.ru` |
 
 ## Mis de côté (PARKED — y revenir)
 
