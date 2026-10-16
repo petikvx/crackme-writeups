@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6894d8e98fac2855fe6fb3ff:
+    sha256: "2990d611ccd34b9378959470a706c5b930d0450223f62a49a81117d5dbd48010"
+    path: "authors/izijerry/6894d8e98fac2855fe6fb3ff/original/pass"
+    title: "izijerry's int overflow"
+
+by_sha256:
+  2990d611ccd34b9378959470a706c5b930d0450223f62a49a81117d5dbd48010:
+    id: 6894d8e98fac2855fe6fb3ff
+    path: "authors/izijerry/6894d8e98fac2855fe6fb3ff/original/pass"
+    page: https://crackmes.one/crackme/6894d8e98fac2855fe6fb3ff

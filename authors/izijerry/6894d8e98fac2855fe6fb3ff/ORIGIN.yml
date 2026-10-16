@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6894d8e98fac2855fe6fb3ff
+
+urls:
+  page: https://crackmes.one/crackme/6894d8e98fac2855fe6fb3ff
+  download: https://crackmes.one/download/crackme/6894d8e98fac2855fe6fb3ff
+
+title: "izijerry's int overflow"
+author_on_site: "izijerry"
+author_local: "izijerry"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/pass"
+  name: "pass"
+  sha256: "2990d611ccd34b9378959470a706c5b930d0450223f62a49a81117d5dbd48010"
+  md5: "3ab29e8813129db2f7ee2b441ad190d8"
+  size_bytes: 16128
+
+status: solved
+solution_summary: "password = -539222978 (ou 3755744318 par overflow atoi) : (int)atoi(saisie) == 0xdfdc1c3e"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-16T17:28:36Z"
