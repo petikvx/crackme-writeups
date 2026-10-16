@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 688328248fac2855fe6fb07d
+
+urls:
+  page: https://crackmes.one/crackme/688328248fac2855fe6fb07d
+  download: https://crackmes.one/download/crackme/688328248fac2855fe6fb07d
+
+title: "Mark_Godez's Godez_Mark crackme"
+author_on_site: "Mark_Godez"
+author_local: "mark_godez"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/godez-crackme.exe"
+  name: "godez-crackme.exe"
+  sha256: "bafd131b340992b25e52c2d86172ed049965e2edafba6401d2c953e63b7f840e"
+  md5: "316262a3475fe64f9c4721225bb8b791"
+  size_bytes: 16120
+
+status: solved
+solution_summary: "serial = godez123 (strcmp(saisie, .rodata+0x1e))"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-16T17:31:42Z"

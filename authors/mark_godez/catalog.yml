@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  688328248fac2855fe6fb07d:
+    sha256: "bafd131b340992b25e52c2d86172ed049965e2edafba6401d2c953e63b7f840e"
+    path: "authors/mark_godez/688328248fac2855fe6fb07d/original/godez-crackme.exe"
+    title: "Mark_Godez's Godez_Mark crackme"
+
+by_sha256:
+  bafd131b340992b25e52c2d86172ed049965e2edafba6401d2c953e63b7f840e:
+    id: 688328248fac2855fe6fb07d
+    path: "authors/mark_godez/688328248fac2855fe6fb07d/original/godez-crackme.exe"
+    page: https://crackmes.one/crackme/688328248fac2855fe6fb07d

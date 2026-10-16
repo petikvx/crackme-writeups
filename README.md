@@ -161,6 +161,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [kryptos](authors/kryptos/README.md) | Kryptos | 1 (Hecate) | 1 / 1 |
 | [marco007](authors/marco007/README.md) | marco007 | 2 (time based riddle + simple crackme) | 2 / 2 |
 | [sftmlg](authors/sftmlg/README.md) | sftmlg | 1 (Quite a simple crackme) | 1 / 1 |
+| [mark_godez](authors/mark_godez/README.md) | Mark_Godez | 1 (Godez_Mark crackme) | 1 / 1 |
 | [izijerry](authors/izijerry/README.md) | izijerry | 1 (int overflow) | 1 / 1 |
 | [thedollar](authors/thedollar/README.md) | thedollar | 1 (Bingus) | 1 / 1 |
 | [emilia161](authors/emilia161/README.md) | Emilia161 | 1 (good kitty) | 1 / 1 |
@@ -274,6 +275,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-16 | [Godez_Mark crackme](authors/mark_godez/688328248fac2855fe6fb07d/) | Mark_Godez |
 | 2026-10-16 | [int overflow](authors/izijerry/6894d8e98fac2855fe6fb3ff/) | izijerry |
 | 2026-10-16 | [Bingus](authors/thedollar/68a153668fac2855fe6fb67b/) | thedollar |
 | 2026-10-16 | [good kitty](authors/emilia161/68c44e20224c0ec5dcedbf4b/) | Emilia161 |
