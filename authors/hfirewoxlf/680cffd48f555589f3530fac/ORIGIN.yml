@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 680cffd48f555589f3530fac
+
+urls:
+  page: https://crackmes.one/crackme/680cffd48f555589f3530fac
+  download: https://crackmes.one/download/crackme/680cffd48f555589f3530fac
+
+title: "hFireWoxlf's My First Rust Crackme"
+author_on_site: "hFireWoxlf"
+author_local: "hfirewoxlf"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/rust_crackme.zip"
+  name: "rust_crackme.zip"
+  sha256: "1ed967a273a0167c54d453ada7e6724a8cee54fa94b14bfb7f19a9edeea9992c"
+  md5: "621730cd45646c8005545a9d00674362"
+  size_bytes: 204258
+
+status: solved
+solution_summary: "license = X7J4P-9D5K2-RQ8M0-3VZ1L-6F0C4 (hex_decode(0x2e5238…) XOR \"vertigox\" repete ; confirme live)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-16T18:02:42Z"

@@ -161,6 +161,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [kryptos](authors/kryptos/README.md) | Kryptos | 1 (Hecate) | 1 / 1 |
 | [marco007](authors/marco007/README.md) | marco007 | 2 (time based riddle + simple crackme) | 2 / 2 |
 | [sftmlg](authors/sftmlg/README.md) | sftmlg | 1 (Quite a simple crackme) | 1 / 1 |
+| [hfirewoxlf](authors/hfirewoxlf/README.md) | hFireWoxlf | 1 (My First Rust Crackme) | 1 / 1 |
 | [vulnix](authors/vulnix/README.md) | vulnix | 1 (easyjerk) | 1 / 1 |
 | [idanhajbeko](authors/idanhajbeko/README.md) | idanhajbeko | 1 (babyFirstCrackme) | 1 / 1 |
 | [userrrrrr](authors/userrrrrr/README.md) | userrrrrr | 1 (EasyCrackme) | 1 / 1 |
@@ -282,6 +283,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 | 2026-10-17 | [orcs236_crackme by orcs236](authors/crackmes-de/5ab77f5633c5d40ad448c2de/) | crackmes.de / orcs236 |
 | 2026-10-17 | [orks236_crackme_2 by orcs236](authors/crackmes-de/5ab77f5633c5d40ad448c2dd/) | crackmes.de / orcs236 |
 | 2026-10-17 | [crackme_1.0 by skjobax](authors/crackmes-de/5ab77f5633c5d40ad448c2dc/) | crackmes.de / skjobax |
+| 2026-10-16 | [My First Rust Crackme](authors/hfirewoxlf/680cffd48f555589f3530fac/) | hFireWoxlf |
 | 2026-10-16 | [easyjerk](authors/vulnix/67fa22568f555589f3530a94/) | vulnix |
 | 2026-10-16 | [babyFirstCrackme](authors/idanhajbeko/680d04208f555589f3530fb5/) | idanhajbeko |
 | 2026-10-16 | [EasyCrackme](authors/userrrrrr/682767d26297cca3ff7d79be/) | userrrrrr |

@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  680cffd48f555589f3530fac:
+    sha256: "1ed967a273a0167c54d453ada7e6724a8cee54fa94b14bfb7f19a9edeea9992c"
+    path: "authors/hfirewoxlf/680cffd48f555589f3530fac/original/rust_crackme.zip"
+    title: "hFireWoxlf's My First Rust Crackme"
+
+by_sha256:
+  1ed967a273a0167c54d453ada7e6724a8cee54fa94b14bfb7f19a9edeea9992c:
+    id: 680cffd48f555589f3530fac
+    path: "authors/hfirewoxlf/680cffd48f555589f3530fac/original/rust_crackme.zip"
+    page: https://crackmes.one/crackme/680cffd48f555589f3530fac
