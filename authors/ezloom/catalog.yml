@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  691fd9362d267f28f69b7f89:
+    sha256: "e165d5efea2c1b44de9f8041e409fd41580d37035430f8f983eca8277c79f05a"
+    path: "authors/ezloom/691fd9362d267f28f69b7f89/original/simp-password"
+    title: "ezloom's really easy"
+
+by_sha256:
+  e165d5efea2c1b44de9f8041e409fd41580d37035430f8f983eca8277c79f05a:
+    id: 691fd9362d267f28f69b7f89
+    path: "authors/ezloom/691fd9362d267f28f69b7f89/original/simp-password"
+    page: https://crackmes.one/crackme/691fd9362d267f28f69b7f89

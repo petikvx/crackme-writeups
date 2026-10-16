@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 691fd9362d267f28f69b7f89
+
+urls:
+  page: https://crackmes.one/crackme/691fd9362d267f28f69b7f89
+  download: https://crackmes.one/download/crackme/691fd9362d267f28f69b7f89
+
+title: "ezloom's really easy"
+author_on_site: "ezloom"
+author_local: "ezloom"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/simp-password"
+  name: "simp-password"
+  sha256: "e165d5efea2c1b44de9f8041e409fd41580d37035430f8f983eca8277c79f05a"
+  md5: "b4d1e229cc449345aa094287be8d29b6"
+  size_bytes: 16152
+
+status: solved
+solution_summary: "password = iloveicecream (strcmp(saisie, .rodata+0x1a))"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-16T15:56:17Z"
