@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  67afd55ae36dd9b0e79b2ec6:
+    sha256: "2928672a3b0f5d8f4221eae70ca05c850ddf2adc703a16ce6d841ad5fbc296f1"
+    path: "authors/fragus/67afd55ae36dd9b0e79b2ec6/original/prog"
+    title: "Fragus's Very simple crackme"
+
+by_sha256:
+  2928672a3b0f5d8f4221eae70ca05c850ddf2adc703a16ce6d841ad5fbc296f1:
+    id: 67afd55ae36dd9b0e79b2ec6
+    path: "authors/fragus/67afd55ae36dd9b0e79b2ec6/original/prog"
+    page: https://crackmes.one/crackme/67afd55ae36dd9b0e79b2ec6

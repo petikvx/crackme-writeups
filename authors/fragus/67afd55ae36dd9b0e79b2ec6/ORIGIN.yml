@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 67afd55ae36dd9b0e79b2ec6
+
+urls:
+  page: https://crackmes.one/crackme/67afd55ae36dd9b0e79b2ec6
+  download: https://crackmes.one/download/crackme/67afd55ae36dd9b0e79b2ec6
+
+title: "Fragus's Very simple crackme"
+author_on_site: "Fragus"
+author_local: "fragus"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/prog"
+  name: "prog"
+  sha256: "2928672a3b0f5d8f4221eae70ca05c850ddf2adc703a16ce6d841ad5fbc296f1"
+  md5: "c99de1f7c24e12b7c88dfd0ae08aa7ee"
+  size_bytes: 16128
+
+status: solved
+solution_summary: "password = 2876 (scanf(\"%d\") == 0xb3c)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-16T18:08:03Z"
