@@ -250,7 +250,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [yugnatd](authors/yugnatd/README.md) | YugnatD | 1 (WarGames) | 1 / 1 |
 | [zydak](authors/zydak/README.md) | zydak | 2 (simple obfuscated + Tetris DRM) | 0 / 2 |
 | [reiika](authors/reiika/README.md) | Reiika | 1 (stckwzrd) | 1 / 1 |
-| [s3c_cult](authors/s3c_cult/README.md) | S3c_Cult | 1 (Schizo) | 1 / 1 |
+| [s3c_cult](authors/s3c_cult/README.md) | S3c_Cult | 2 (Schizo + XORcist) | 2 / 2 |
 | [rr7](authors/rr7/README.md) | RR7 | 1 (Secret key) | 1 / 1 |
 | [mr-x47](authors/mr-x47/README.md) | Mr.X47 | 1 (BiLoop Cipher) | 1 / 1 |
 
@@ -275,6 +275,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-16 | [XORcist](authors/s3c_cult/684f47bd2b84be7ea774390e/) | S3c_Cult |
 | 2026-10-16 | [shellcoding](authors/toasterbirb/6869167eaadb6eeafb398fb4/) | toasterbirb |
 | 2026-10-16 | [argc](authors/toasterbirb/68698837aadb6eeafb399017/) | toasterbirb |
 | 2026-10-16 | [main.cpp](authors/toasterbirb/6869233eaadb6eeafb398fdb/) | toasterbirb |

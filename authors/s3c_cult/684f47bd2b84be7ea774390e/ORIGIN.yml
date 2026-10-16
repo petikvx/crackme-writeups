@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 684f47bd2b84be7ea774390e
+
+urls:
+  page: https://crackmes.one/crackme/684f47bd2b84be7ea774390e
+  download: https://crackmes.one/download/crackme/684f47bd2b84be7ea774390e
+
+title: "S3c_Cult's XORcist"
+author_on_site: "S3c_Cult"
+author_local: "s3c_cult"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/XORcist.zip"
+  name: "XORcist.zip"
+  sha256: "d8b83c6d362616a33d376bf343148044eb5bb8b5dfeefadce1361242c764e8e1"
+  md5: "1ffa04c032b0d165e34e00ccffdc3229"
+  size_bytes: 3898
+
+status: solved
+solution_summary: "password = ts_pmo_gng_icl (enc ^ 0xA9 ; anti-debug TracerPid sans effet sur le predicat)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-16T17:31:50Z"

@@ -5,8 +5,17 @@ by_id:
     path: "authors/s3c_cult/6accbf32ace07d1c3fbc4b46/original/schizo.zip"
     title: "S3c_Cult's Schizo"
 
+  684f47bd2b84be7ea774390e:
+    sha256: "d8b83c6d362616a33d376bf343148044eb5bb8b5dfeefadce1361242c764e8e1"
+    path: "authors/s3c_cult/684f47bd2b84be7ea774390e/original/XORcist.zip"
+    title: "S3c_Cult's XORcist"
+
 by_sha256:
   8bd75780a214c5a63af6188d615437d9a0708d8e47684a3fab36db860671a6e1:
     id: 6accbf32ace07d1c3fbc4b46
     path: "authors/s3c_cult/6accbf32ace07d1c3fbc4b46/original/schizo.zip"
     page: https://crackmes.one/crackme/6accbf32ace07d1c3fbc4b46
+  d8b83c6d362616a33d376bf343148044eb5bb8b5dfeefadce1361242c764e8e1:
+    id: 684f47bd2b84be7ea774390e
+    path: "authors/s3c_cult/684f47bd2b84be7ea774390e/original/XORcist.zip"
+    page: https://crackmes.one/crackme/684f47bd2b84be7ea774390e
