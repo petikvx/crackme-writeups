@@ -1,0 +1,37 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6784f8a84d850ac5f7dc5173
+
+urls:
+  page: https://crackmes.one/crackme/6784f8a84d850ac5f7dc5173
+  download: https://crackmes.one/download/crackme/6784f8a84d850ac5f7dc5173
+
+title: "Cappybara's BabyRev"
+author_on_site: "Cappybara"
+author_local: "cappybara"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/babyrev"
+  name: "babyrev"
+  sha256: "0f1af1a8a6ed155eaf74a4849fc35de05e34bdc2f1862c40a8bb6d87f29d08d0"
+  md5: "ea61b1577d0f2c4ac46579a4a414638f"
+  size_bytes: 16296
+
+status: solved
+solution_summary: "pass = Sup3rS3cr3tP455W0rd (+
+ dans la constante), code 1337 ; flag CTFlearn{W4s_1T_Th4T_H4rd?} = ((i+0x69)^dword[i])"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-16T18:08:06Z"

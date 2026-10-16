@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6784f8a84d850ac5f7dc5173:
+    sha256: "0f1af1a8a6ed155eaf74a4849fc35de05e34bdc2f1862c40a8bb6d87f29d08d0"
+    path: "authors/cappybara/6784f8a84d850ac5f7dc5173/original/babyrev"
+    title: "Cappybara's BabyRev"
+
+by_sha256:
+  0f1af1a8a6ed155eaf74a4849fc35de05e34bdc2f1862c40a8bb6d87f29d08d0:
+    id: 6784f8a84d850ac5f7dc5173
+    path: "authors/cappybara/6784f8a84d850ac5f7dc5173/original/babyrev"
+    page: https://crackmes.one/crackme/6784f8a84d850ac5f7dc5173
