@@ -349,6 +349,8 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 314 | [crackme1_s4tan](5ab77f5633c5d40ad448c2ce/) | s4tan | Windows PE32 .NET GUI | keygen Reflection.Emit : `len(key)=2*len(name)`, `key[j]=name[j%n]+j` (`petik` → `pfvlouk{qt`) |
 | 315 | [crackme_1.75](5ab77f5633c5d40ad448c2d1/) | BuLLeT | Windows PE32 VB5 p-code GUI | password `2hard4u2crackm8` (BSTR Command1_Click ; wine: mauvais→Nope, bon→accepté) |
 | 316 | [crackme_4.75](5ab77f5633c5d40ad448c2d2/) | BuLLeT | Windows PE32 Delphi 4 GUI | serial `This program must be run under Win32` (@LStrCmp ; wine: Wrong serial / Unlock successfull) |
+| 317 | [madeinqcs_crackme](5ab77f5633c5d40ad448c2d3/) | madeinqc | Windows PE32 MASM32 GUI | `/MADEINQCMENU` → menu Good job! (WM_COMMAND id=1) → MsgBox Good Boy |
+| 318 | [crackme1 by dlap](5ab77f5633c5d40ad448c2d8/) | dlap | MS-DOS MZ asm | patch JE@0x22F→JNE ; message `You got it. Now write a solution, and send to me. DLAP@mail.ru` |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -358,5 +360,4 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | [meloquynthe](5ab77f5933c5d40ad448c46f/) | [`…c46f`](https://crackmes.one/crackme/5ab77f5933c5d40ad448c46f) | GUI déobfusquée ; **séquence boutons vs wave** (`sub_40507f`) — `analysis/notes.txt` |
 | [ha_ck](5ab77f5733c5d40ad448c34a/) | [`…c34a`](https://crackmes.one/crackme/5ab77f5733c5d40ad448c34a) | shc 3.8 : clé RC4 dérivée de `stat(/bin/bash)` de la machine d'origine (rlax=0) — `analysis/notes.txt` |
 | [rbx_crackme_8](5ab77f5833c5d40ad448c41f/) | [`…c41f`](https://crackmes.one/crackme/5ab77f5833c5d40ad448c41f) | FreeBSD 5.3 ; serials 1/2 = `sprintf("%f.%f", x)` avec 2ᵉ double lu sur la pile (non initialisé) — `analysis/notes.txt` |
-| [madeinqcs_crackme](5ab77f5633c5d40ad448c2d3/) | [`…c2d3`](https://crackmes.one/crackme/5ab77f5633c5d40ad448c2d3) | Win PE32 MASM ; `/MADEINQCMENU` → menu Good job! — MsgBox Good Boy |
 

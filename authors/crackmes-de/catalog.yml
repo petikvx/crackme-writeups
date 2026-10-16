@@ -1621,6 +1621,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c2d3/original/Madeinqc_crack-me_1.zip"
     title: "crackmes.de's madeinqcs_crackme by madeinqc"
 
+  5ab77f5633c5d40ad448c2d8:
+    sha256: "91bc82f4efa7397ddf8d514c1f234e5cfd0be5766583dc10f5a63fcb37e6c6fd"
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2d8/original/my_crackmes.zip"
+    title: "crackmes.de's crackme1 by dlap"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2930,3 +2935,7 @@ by_sha256:
     id: 5ab77f5633c5d40ad448c2d3
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c2d3/original/Madeinqc_crack-me_1.zip"
     page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2d3
+  91bc82f4efa7397ddf8d514c1f234e5cfd0be5766583dc10f5a63fcb37e6c6fd:
+    id: 5ab77f5633c5d40ad448c2d8
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2d8/original/my_crackmes.zip"
+    page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2d8

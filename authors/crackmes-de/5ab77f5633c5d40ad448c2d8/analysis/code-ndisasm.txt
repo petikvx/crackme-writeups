@@ -1,0 +1,40 @@
+00000000  B409              mov ah,0x9
+00000002  BA5A00            mov dx,0x5a
+00000005  81C20001          add dx,0x100
+00000009  CD21              int 0x21
+0000000B  B407              mov ah,0x7
+0000000D  CD21              int 0x21
+0000000F  B90300            mov cx,0x3
+00000012  8CC8              mov ax,cs
+00000014  8EC0              mov es,ax
+00000016  BF2D00            mov di,0x2d
+00000019  33C0              xor ax,ax
+0000001B  260205            add al,[es:di]
+0000001E  47                inc di
+0000001F  E2FA              loop 0x1b
+00000021  80C401            add ah,0x1
+00000024  B303              mov bl,0x3
+00000026  F6F3              div bl
+00000028  8BD8              mov bx,ax
+0000002A  BA7B00            mov dx,0x7b
+0000002D  3BC2              cmp ax,dx
+0000002F  741D              jz 0x4e
+00000031  90                nop
+00000032  90                nop
+00000033  BBB501            mov bx,0x1b5
+00000036  8A17              mov dl,[bx]
+00000038  80FA24            cmp dl,0x24
+0000003B  740D              jz 0x4a
+0000003D  90                nop
+0000003E  90                nop
+0000003F  2BD0              sub dx,ax
+00000041  50                push ax
+00000042  B402              mov ah,0x2
+00000044  CD21              int 0x21
+00000046  58                pop ax
+00000047  43                inc bx
+00000048  EBEC              jmp short 0x36
+0000004A  B44C              mov ah,0x4c
+0000004C  CD21              int 0x21
+0000004E  B409              mov ah,0x9
+00000050  BAA001            mov dx,0x1a0

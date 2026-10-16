@@ -1,0 +1,41 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2d8
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2d8
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2d8
+
+title: "crackmes.de's crackme1 by dlap"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "DOS"
+arch: "x86-16"
+language: "Assembler"
+
+difficulty: 2.0
+quality: null
+size: "757 B"
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/my_crackmes.zip"
+  name: "my_crackmes.zip"
+  sha256: "91bc82f4efa7397ddf8d514c1f234e5cfd0be5766583dc10f5a63fcb37e6c6fd"
+  md5: "36f2d032638dc06a674732f21767bcb3"
+  size_bytes: 947
+  extracted:
+    name: "CRACKME1.EXE"
+    sha256: "b836fef8c84b30d55d843546a5cb0c3abd724681a87a8374470361c43c4cdab7"
+    md5: "49918e8f921bfe329c8ea0c0c931f896"
+    size_bytes: 757
+
+status: solved
+solution_summary: "patchme DOS : JE@0x22F → JNE (74→75) pour forcer le déchiffrement (clé=checksum 0x7B) → « You got it. Now write a solution, and send to me. DLAP@mail.ru » ; sinon message leurre « May be later... »"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-16T03:51:34Z"
