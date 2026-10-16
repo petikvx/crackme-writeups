@@ -1,0 +1,39 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2d1
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2d1
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2d1
+
+title: "crackmes.de's crackme_1.75 by bullet"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows (site: Unspecified/other)"
+arch: "x86"
+language: "Visual Basic 5 (p-code)"
+
+difficulty: 1.0
+quality: null
+size: "61.82 KB"
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/tol_b175.zip"
+  name: "tol_b175.zip"
+  sha256: "b918edd435be14f3c56a0d6dd16a28d8e9570c0ba410ae6f3e31021773df28e4"
+  md5: "8ccfea8ae44f6dbbe20bff565fcdd1ff"
+  size_bytes: 63305
+  extracted:
+    name: "BRK175.EXE"
+    sha256: "135919347df5f950a87d10be2428cd1628b1ae7e50238b4bc234618e19870531"
+
+status: solved
+solution_summary: "password constant 2hard4u2crackm8 (BSTR UTF-16 dans pool Command1_Click) ; wine: mauvais → « Nope. That's not the one! », bon → pas de rejet"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-16T00:58:11Z"

@@ -347,6 +347,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 313 | [crackme_by_fereter_1](5ab77f5633c5d40ad448c2cb/) | Fereter | Windows PE32 FASM GUI | serial fixe : `8294810` (deux dwords comparés `0x34393237+1` / `0x303138`, anti-debug rdtsc + scan 0xCC/0x90 ; vérif unicorn) |
 
 | 314 | [crackme1_s4tan](5ab77f5633c5d40ad448c2ce/) | s4tan | Windows PE32 .NET GUI | keygen Reflection.Emit : `len(key)=2*len(name)`, `key[j]=name[j%n]+j` (`petik` → `pfvlouk{qt`) |
+| 315 | [crackme_1.75](5ab77f5633c5d40ad448c2d1/) | BuLLeT | Windows PE32 VB5 p-code GUI | password `2hard4u2crackm8` (BSTR Command1_Click ; wine: mauvais→Nope, bon→accepté) |
 
 ## Mis de côté (PARKED — y revenir)
 
