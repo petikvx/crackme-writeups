@@ -35,6 +35,21 @@ by_id:
     path: "authors/toasterbirb/68c1f30a224c0ec5dcedbeda/original/branchless"
     title: "toasterbirb's branchless"
 
+  68698837aadb6eeafb399017:
+    sha256: "e4afac571dfc8ac5ee37b612c5a1ee217f4f1bbc168c0fb0ace1940fa277b23a"
+    path: "authors/toasterbirb/68698837aadb6eeafb399017/original/argc"
+    title: "toasterbirb's argc"
+
+  6869233eaadb6eeafb398fdb:
+    sha256: "557491b6285a2a87364234fab2949737609eb86c64c52d0ce82c0b6b7db97f5e"
+    path: "authors/toasterbirb/6869233eaadb6eeafb398fdb/original/main.cpp"
+    title: "toasterbirb's main.cpp"
+
+  6869167eaadb6eeafb398fb4:
+    sha256: "ab8e3dcc3f3efa7348ad27d766d2ebb95f5e12567dbcb6e02a3adc1a412cd2ac"
+    path: "authors/toasterbirb/6869167eaadb6eeafb398fb4/original/shellcoding"
+    title: "toasterbirb's shellcoding"
+
 by_sha256:
   4420c47f5c1ddaf46b9add156e6badc6ff66af3b0ea38a7c714b6e0d6acf1d82:
     id: 6a77541805a9e80a907242fe
@@ -64,3 +79,15 @@ by_sha256:
     id: 68c1f30a224c0ec5dcedbeda
     path: "authors/toasterbirb/68c1f30a224c0ec5dcedbeda/original/branchless"
     page: https://crackmes.one/crackme/68c1f30a224c0ec5dcedbeda
+  e4afac571dfc8ac5ee37b612c5a1ee217f4f1bbc168c0fb0ace1940fa277b23a:
+    id: 68698837aadb6eeafb399017
+    path: "authors/toasterbirb/68698837aadb6eeafb399017/original/argc"
+    page: https://crackmes.one/crackme/68698837aadb6eeafb399017
+  557491b6285a2a87364234fab2949737609eb86c64c52d0ce82c0b6b7db97f5e:
+    id: 6869233eaadb6eeafb398fdb
+    path: "authors/toasterbirb/6869233eaadb6eeafb398fdb/original/main.cpp"
+    page: https://crackmes.one/crackme/6869233eaadb6eeafb398fdb
+  ab8e3dcc3f3efa7348ad27d766d2ebb95f5e12567dbcb6e02a3adc1a412cd2ac:
+    id: 6869167eaadb6eeafb398fb4
+    path: "authors/toasterbirb/6869167eaadb6eeafb398fb4/original/shellcoding"
+    page: https://crackmes.one/crackme/6869167eaadb6eeafb398fb4

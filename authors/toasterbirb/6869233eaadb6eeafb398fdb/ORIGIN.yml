@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6869233eaadb6eeafb398fdb
+
+urls:
+  page: https://crackmes.one/crackme/6869233eaadb6eeafb398fdb
+  download: https://crackmes.one/download/crackme/6869233eaadb6eeafb398fdb
+
+title: "toasterbirb's main.cpp"
+author_on_site: "toasterbirb"
+author_local: "toasterbirb"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/main.cpp"
+  name: "main.cpp"
+  sha256: "557491b6285a2a87364234fab2949737609eb86c64c52d0ce82c0b6b7db97f5e"
+  md5: "a4887e55940eeecb724e51dde0a05055"
+  size_bytes: 922
+
+status: solved
+solution_summary: "password = even_more_secure_password en $3 avec >= 4 args (magic_spell base64 -> sed remplace extra_secret_password)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-16T17:31:46Z"

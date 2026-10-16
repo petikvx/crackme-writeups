@@ -15,6 +15,7 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml) (id ↔ sha256).
 | 5 | [branchless](68692748aadb6eeafb398fe3/) | [`68692748…`](https://crackmes.one/crackme/68692748aadb6eeafb398fe3) | Linux ELF64 NASM | `5$` (len/sum fib∩prime) |
 | 6 | [jump](6869287daadb6eeafb398fec/) | [`6869287d…`](https://crackmes.one/crackme/6869287daadb6eeafb398fec) | Linux ELF64 NASM | `just` / `test` (byte[3]=`t`) |
 | 7 | [branchless-fixed](68c1f30a224c0ec5dcedbeda/) | [`68c1f30a…`](https://crackmes.one/crackme/68c1f30a224c0ec5dcedbeda) | Linux ELF64 NASM | `5$` (DLC fix `idiv rcx`) |
+| 8 | [main.cpp](6869233eaadb6eeafb398fdb/) | [`6869233e…`](https://crackmes.one/crackme/6869233eaadb6eeafb398fdb) | Linux polyglotte bash/C++ | `even_more_secure_password` en 3ᵉ arg, ≥ 4 args (`bash main.cpp a b <pw> d`) |
 
 Les six ELF NASM (flags → branchless-fixed) ont une section **Debug GDB (pas à pas)** dans leur `README.md` (adresses, breakpoints, commandes).  
 `yap` est hors série asm (C++).
