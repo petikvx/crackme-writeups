@@ -4,7 +4,7 @@ Recherche [crackmes.one](https://crackmes.one/search?name=&author=&platform=Unix
 
 Filtre : plateforme Unix/linux, difficulté 1.0–2.0, tri date décroissante (plus récent en haut). **278 résultats au total** sur le site ; les **87 derniers** (préfixe `by <auteur>` à partir de `mycrk by cli3nt`) sont les imports historiques `crackmes.de`, déjà traités intégralement et séparément (voir `authors/crackmes-de/`, 311/311 résolus) — **exclus de ce tableau**, qui ne couvre que les **191** crackmes.one natifs restants.
 
-Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` du dépôt (ID exact, pas le titre). **52** déjà `solved`, **139** marqués `TODO` ci-dessous. Changement notable par rapport à l'ancien tri (page 1 seulement, 50 résultats) : 3 entrées manquaient (`0x8A7 - Maze`, `ComputeTheKey`, `Hecate linux/unix`), et la liste s'étend maintenant bien au-delà de `Godez_Mark crackme` (jusqu'à `Sh4ll1`, 2018).
+Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` du dépôt (ID exact, pas le titre). **66** déjà `solved`, **125** marqués `TODO` ci-dessous. Changement notable par rapport à l'ancien tri (page 1 seulement, 50 résultats) : 3 entrées manquaient (`0x8A7 - Maze`, `ComputeTheKey`, `Hecate linux/unix`), et la liste s'étend maintenant bien au-delà de `Godez_Mark crackme` (jusqu'à `Sh4ll1`, 2018).
 
 | # | Date | Crackme | Auteur | Difficulté | Taille | URL | Statut |
 |---|---|---|---|---|---|---|---|
@@ -46,24 +46,24 @@ Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` 
 | 36 | 2026-02-01 | Quite a simple crackme | sftmlg | 1.1 | 7.08 KB | https://crackmes.one/crackme/697f761b32fcb81e1bd005c6 | solved |
 | 37 | 2026-01-31 | Prometheora | SoBrazen | 1.6 | 500.89 KB | https://crackmes.one/crackme/697e95cb977274421cc111e1 | **TODO** |
 | 38 | 2026-01-25 | X-0-R | steve_maxwell | 1.9 | 4.72 MB | https://crackmes.one/crackme/6976041d9bf7b8997653a6cf | solved |
-| 39 | 2026-01-23 | Password And Flag in C | howosec | 2.0 | 20.51 KB | https://crackmes.one/crackme/6973ebc6d735cd51e7a1aa97 | **TODO** |
+| 39 | 2026-01-23 | Password And Flag in C | howosec | 2.0 | 20.51 KB | https://crackmes.one/crackme/6973ebc6d735cd51e7a1aa97 | solved |
 | 40 | 2026-01-21 | Rev1 | Klip29mat1 | 2.0 | 3.08 KB | https://crackmes.one/crackme/6970da549bf7b8997653a66f | **TODO** |
-| 41 | 2026-01-11 | ZEXOR-v1(Linux version) | svidnet | 1.0 | 16.80 KB | https://crackmes.one/crackme/6963af82143c47935bdea9ab | **TODO** |
-| 42 | 2025-12-20 | simple XOR crackme | YandereMia | 2.0 | 15.12 KB | https://crackmes.one/crackme/6946be18523504d8c842eb7e | **TODO** |
-| 43 | 2025-12-16 | Introduction to RE | YandereMia | 1.2 | 15.27 KB | https://crackmes.one/crackme/6940b5870992a052ab22235b | **TODO** |
-| 44 | 2025-11-21 | really easy | ezloom | 1.0 | 15.77 KB | https://crackmes.one/crackme/691fd9362d267f28f69b7f89 | **TODO** |
+| 41 | 2026-01-11 | ZEXOR-v1(Linux version) | svidnet | 1.0 | 16.80 KB | https://crackmes.one/crackme/6963af82143c47935bdea9ab | solved |
+| 42 | 2025-12-20 | simple XOR crackme | YandereMia | 2.0 | 15.12 KB | https://crackmes.one/crackme/6946be18523504d8c842eb7e | solved |
+| 43 | 2025-12-16 | Introduction to RE | YandereMia | 1.2 | 15.27 KB | https://crackmes.one/crackme/6940b5870992a052ab22235b | solved |
+| 44 | 2025-11-21 | really easy | ezloom | 1.0 | 15.77 KB | https://crackmes.one/crackme/691fd9362d267f28f69b7f89 | solved |
 | 45 | 2025-11-17 | FedGuy easy crack | fedguy | 1.6 | 15.44 KB | https://crackmes.one/crackme/691abffc2d267f28f69b7e8a | **TODO** |
-| 46 | 2025-11-16 | segfault | ASMboy | 1.6 | 16.10 KB | https://crackmes.one/crackme/6919feb12d267f28f69b7e5c | **TODO** |
-| 47 | 2025-09-12 | good kitty | Emilia161 | 1.8 | 15.82 KB | https://crackmes.one/crackme/68c44e20224c0ec5dcedbf4b | **TODO** |
-| 48 | 2025-08-17 | Bingus | thedollar | 1.8 | 14.15 KB | https://crackmes.one/crackme/68a153668fac2855fe6fb67b | **TODO** |
-| 49 | 2025-08-07 | int overflow | izijerry | 1.4 | 15.75 KB | https://crackmes.one/crackme/6894d8e98fac2855fe6fb3ff | **TODO** |
-| 50 | 2025-07-25 | Godez_Mark crackme | Mark_Godez | 1.2 | 15.74 KB | https://crackmes.one/crackme/688328248fac2855fe6fb07d | **TODO** |
-| 51 | 2025-07-05 | argc | toasterbirb | 1.5 | 18.17 KB | https://crackmes.one/crackme/68698837aadb6eeafb399017 | **TODO** |
-| 52 | 2025-07-05 | main.cpp | toasterbirb | 1.2 | 922 B | https://crackmes.one/crackme/6869233eaadb6eeafb398fdb | **TODO** |
+| 46 | 2025-11-16 | segfault | ASMboy | 1.6 | 16.10 KB | https://crackmes.one/crackme/6919feb12d267f28f69b7e5c | solved |
+| 47 | 2025-09-12 | good kitty | Emilia161 | 1.8 | 15.82 KB | https://crackmes.one/crackme/68c44e20224c0ec5dcedbf4b | solved |
+| 48 | 2025-08-17 | Bingus | thedollar | 1.8 | 14.15 KB | https://crackmes.one/crackme/68a153668fac2855fe6fb67b | solved |
+| 49 | 2025-08-07 | int overflow | izijerry | 1.4 | 15.75 KB | https://crackmes.one/crackme/6894d8e98fac2855fe6fb3ff | solved |
+| 50 | 2025-07-25 | Godez_Mark crackme | Mark_Godez | 1.2 | 15.74 KB | https://crackmes.one/crackme/688328248fac2855fe6fb07d | solved |
+| 51 | 2025-07-05 | argc | toasterbirb | 1.5 | 18.17 KB | https://crackmes.one/crackme/68698837aadb6eeafb399017 | solved |
+| 52 | 2025-07-05 | main.cpp | toasterbirb | 1.2 | 922 B | https://crackmes.one/crackme/6869233eaadb6eeafb398fdb | solved |
 | 53 | 2025-07-05 | off_by_one | toasterbirb | 2.0 | 4.70 KB | https://crackmes.one/crackme/68692100aadb6eeafb398fd3 | solved |
 | 54 | 2025-07-05 | flags | toasterbirb | 1.8 | 8.48 KB | https://crackmes.one/crackme/686918c6aadb6eeafb398fbd | solved |
-| 55 | 2025-07-05 | shellcoding | toasterbirb | 1.5 | 14.11 KB | https://crackmes.one/crackme/6869167eaadb6eeafb398fb4 | **TODO** |
-| 56 | 2025-06-15 | XORcist | S3c_Cult | 1.9 | 3.81 KB | https://crackmes.one/crackme/684f47bd2b84be7ea774390e | **TODO** |
+| 55 | 2025-07-05 | shellcoding | toasterbirb | 1.5 | 14.11 KB | https://crackmes.one/crackme/6869167eaadb6eeafb398fb4 | solved |
+| 56 | 2025-06-15 | XORcist | S3c_Cult | 1.9 | 3.81 KB | https://crackmes.one/crackme/684f47bd2b84be7ea774390e | solved |
 | 57 | 2025-05-22 | Ghost | 0xf00 | 2.0 | 14.44 KB | https://crackmes.one/crackme/682f69bd6297cca3ff7d7b9b | **TODO** |
 | 58 | 2025-05-16 | EasyCrackme | userrrrrr | 1.1 | 15.88 KB | https://crackmes.one/crackme/682767d26297cca3ff7d79be | **TODO** |
 | 59 | 2025-04-26 | babyFirstCrackme | idanhajbeko | 1.2 | 7.53 KB | https://crackmes.one/crackme/680d04208f555589f3530fb5 | **TODO** |
@@ -200,4 +200,4 @@ Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` 
 | 190 | 2018-05-06 | Sh4ll2 | destructeur | 2.0 | 8.49 KB | https://crackmes.one/crackme/5aef385633c5d41ac64b492f | **TODO** |
 | 191 | 2018-05-06 | Sh4ll1 | destructeur | 1.4 | 13.23 KB | https://crackmes.one/crackme/5aef37c733c5d41ac64b492e | **TODO** |
 
-Le prochain de la file est **simple crackme** (marco007) : https://crackmes.one/crackme/698a6214fb46458f1ef6cef5
+Le prochain de la file est **Ghost** (0xf00) : https://crackmes.one/crackme/682f69bd6297cca3ff7d7b9b (pwn de tas, mis de côté) puis **EasyCrackme** (userrrrrr). Mis de côté : Prometheora (#37, Rust+VM), Rev1 (#40, sources contradictoires), FedGuy easy crack (#45, SHA-256 à casser).
