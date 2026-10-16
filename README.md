@@ -161,6 +161,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [kryptos](authors/kryptos/README.md) | Kryptos | 1 (Hecate) | 1 / 1 |
 | [marco007](authors/marco007/README.md) | marco007 | 2 (time based riddle + simple crackme) | 2 / 2 |
 | [sftmlg](authors/sftmlg/README.md) | sftmlg | 1 (Quite a simple crackme) | 1 / 1 |
+| [howosec](authors/howosec/README.md) | howosec | 1 (Password And Flag in C) | 1 / 1 |
 | [popacracker](authors/popacracker/README.md) | PopaCracker | 1 (Python CrackMe) | 1 / 1 |
 | [noname_user](authors/noname_user/README.md) | noname_User | 2 | 2 / 2 |
 | [nizzix](authors/nizzix/README.md) | Nizzix | 1 (Ageis) | 1 / 1 |
@@ -266,6 +267,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-16 | [Password And Flag in C](authors/howosec/6973ebc6d735cd51e7a1aa97/) | howosec |
 | 2026-10-16 | [crackme_2.75 (BuLLeT)](authors/crackmes-de/5ab77f5633c5d40ad448c2d0/) | crackmes.de / BuLLeT |
 | 2026-10-16 | [crackme1 by dlap](authors/crackmes-de/5ab77f5633c5d40ad448c2d8/) | crackmes.de / dlap |
 | 2026-10-16 | [madeinqcs_crackme by madeinqc](authors/crackmes-de/5ab77f5633c5d40ad448c2d3/) | crackmes.de / madeinqc |

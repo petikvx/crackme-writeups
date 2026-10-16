@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6973ebc6d735cd51e7a1aa97:
+    sha256: "2849760cc674e39bc691cada99f6e1256e93cb4b7d61e5092fd8df559e2d7e5b"
+    path: "authors/howosec/6973ebc6d735cd51e7a1aa97/original/senha-e-flag-C-2"
+    title: "howosec's Password And Flag in C"
+
+by_sha256:
+  2849760cc674e39bc691cada99f6e1256e93cb4b7d61e5092fd8df559e2d7e5b:
+    id: 6973ebc6d735cd51e7a1aa97
+    path: "authors/howosec/6973ebc6d735cd51e7a1aa97/original/senha-e-flag-C-2"
+    page: https://crackmes.one/crackme/6973ebc6d735cd51e7a1aa97
