@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 68c44e20224c0ec5dcedbf4b
+
+urls:
+  page: https://crackmes.one/crackme/68c44e20224c0ec5dcedbf4b
+  download: https://crackmes.one/download/crackme/68c44e20224c0ec5dcedbf4b
+
+title: "Emilia161's good kitty"
+author_on_site: "Emilia161"
+author_local: "emilia161"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crack"
+  name: "crack"
+  sha256: "e1d2d0597ffa3214d84042ef7d9e42deb0d033e28cde533ffc21ec5b88bbfdca"
+  md5: "a190a39cb7cea13833b2a5ca99d61895"
+  size_bytes: 16200
+
+status: solved
+solution_summary: "password = 00sGo4M0 (lpf(600851475143)=6857 -> cbrt=18 -> 18! LE -> repli mod 62 en alphanumérique)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-16T17:02:00Z"

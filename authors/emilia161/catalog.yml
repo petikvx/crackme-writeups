@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  68c44e20224c0ec5dcedbf4b:
+    sha256: "e1d2d0597ffa3214d84042ef7d9e42deb0d033e28cde533ffc21ec5b88bbfdca"
+    path: "authors/emilia161/68c44e20224c0ec5dcedbf4b/original/crack"
+    title: "Emilia161's good kitty"
+
+by_sha256:
+  e1d2d0597ffa3214d84042ef7d9e42deb0d033e28cde533ffc21ec5b88bbfdca:
+    id: 68c44e20224c0ec5dcedbf4b
+    path: "authors/emilia161/68c44e20224c0ec5dcedbf4b/original/crack"
+    page: https://crackmes.one/crackme/68c44e20224c0ec5dcedbf4b
