@@ -161,7 +161,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [kryptos](authors/kryptos/README.md) | Kryptos | 1 (Hecate) | 1 / 1 |
 | [marco007](authors/marco007/README.md) | marco007 | 2 (time based riddle + simple crackme) | 2 / 2 |
 | [sftmlg](authors/sftmlg/README.md) | sftmlg | 1 (Quite a simple crackme) | 1 / 1 |
-| [yanderemia](authors/yanderemia/README.md) | YandereMia | 1 (simple XOR crackme) | 1 / 1 |
+| [yanderemia](authors/yanderemia/README.md) | YandereMia | 2 | 2 / 2 |
 | [svidnet](authors/svidnet/README.md) | svidnet | 1 (ZEXOR-v1 (Linux)) | 1 / 1 |
 | [howosec](authors/howosec/README.md) | howosec | 1 (Password And Flag in C) | 1 / 1 |
 | [popacracker](authors/popacracker/README.md) | PopaCracker | 1 (Python CrackMe) | 1 / 1 |
@@ -269,6 +269,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-16 | [Introduction to RE](authors/yanderemia/6940b5870992a052ab22235b/) | YandereMia |
 | 2026-10-16 | [simple XOR crackme](authors/yanderemia/6946be18523504d8c842eb7e/) | YandereMia |
 | 2026-10-16 | [ZEXOR-v1 (Linux)](authors/svidnet/6963af82143c47935bdea9ab/) | svidnet |
 | 2026-10-16 | [Password And Flag in C](authors/howosec/6973ebc6d735cd51e7a1aa97/) | howosec |
