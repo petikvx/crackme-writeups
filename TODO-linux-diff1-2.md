@@ -4,7 +4,7 @@ Recherche [crackmes.one](https://crackmes.one/search?name=&author=&platform=Unix
 
 Filtre : plateforme Unix/linux, difficulté 1.0–2.0, tri date décroissante (plus récent en haut). **278 résultats au total** sur le site ; les **87 derniers** (préfixe `by <auteur>` à partir de `mycrk by cli3nt`) sont les imports historiques `crackmes.de`, déjà traités intégralement et séparément (voir `authors/crackmes-de/`, 311/311 résolus) — **exclus de ce tableau**, qui ne couvre que les **191** crackmes.one natifs restants.
 
-Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` du dépôt (ID exact, pas le titre). **66** déjà `solved`, **125** marqués `TODO` ci-dessous. Changement notable par rapport à l'ancien tri (page 1 seulement, 50 résultats) : 3 entrées manquaient (`0x8A7 - Maze`, `ComputeTheKey`, `Hecate linux/unix`), et la liste s'étend maintenant bien au-delà de `Godez_Mark crackme` (jusqu'à `Sh4ll1`, 2018).
+Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` du dépôt (ID exact, pas le titre). **72** déjà `solved`, **119** marqués `TODO` ci-dessous. Changement notable par rapport à l'ancien tri (page 1 seulement, 50 résultats) : 3 entrées manquaient (`0x8A7 - Maze`, `ComputeTheKey`, `Hecate linux/unix`), et la liste s'étend maintenant bien au-delà de `Godez_Mark crackme` (jusqu'à `Sh4ll1`, 2018).
 
 | # | Date | Crackme | Auteur | Difficulté | Taille | URL | Statut |
 |---|---|---|---|---|---|---|---|
@@ -65,12 +65,12 @@ Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` 
 | 55 | 2025-07-05 | shellcoding | toasterbirb | 1.5 | 14.11 KB | https://crackmes.one/crackme/6869167eaadb6eeafb398fb4 | solved |
 | 56 | 2025-06-15 | XORcist | S3c_Cult | 1.9 | 3.81 KB | https://crackmes.one/crackme/684f47bd2b84be7ea774390e | solved |
 | 57 | 2025-05-22 | Ghost | 0xf00 | 2.0 | 14.44 KB | https://crackmes.one/crackme/682f69bd6297cca3ff7d7b9b | **TODO** |
-| 58 | 2025-05-16 | EasyCrackme | userrrrrr | 1.1 | 15.88 KB | https://crackmes.one/crackme/682767d26297cca3ff7d79be | **TODO** |
-| 59 | 2025-04-26 | babyFirstCrackme | idanhajbeko | 1.2 | 7.53 KB | https://crackmes.one/crackme/680d04208f555589f3530fb5 | **TODO** |
-| 60 | 2025-04-26 | My First Rust Crackme | hFireWoxlf | 1.7 | 199.47 KB | https://crackmes.one/crackme/680cffd48f555589f3530fac | **TODO** |
-| 61 | 2025-04-12 | easyjerk | vulnix | 1.8 | 15.80 KB | https://crackmes.one/crackme/67fa22568f555589f3530a94 | **TODO** |
-| 62 | 2025-02-14 | Very simple crackme | Fragus | 1.4 | 15.75 KB | https://crackmes.one/crackme/67afd55ae36dd9b0e79b2ec6 | **TODO** |
-| 63 | 2025-01-13 | BabyRev | Cappybara | 1.3 | 15.91 KB | https://crackmes.one/crackme/6784f8a84d850ac5f7dc5173 | **TODO** |
+| 58 | 2025-05-16 | EasyCrackme | userrrrrr | 1.1 | 15.88 KB | https://crackmes.one/crackme/682767d26297cca3ff7d79be | solved |
+| 59 | 2025-04-26 | babyFirstCrackme | idanhajbeko | 1.2 | 7.53 KB | https://crackmes.one/crackme/680d04208f555589f3530fb5 | solved |
+| 60 | 2025-04-26 | My First Rust Crackme | hFireWoxlf | 1.7 | 199.47 KB | https://crackmes.one/crackme/680cffd48f555589f3530fac | solved |
+| 61 | 2025-04-12 | easyjerk | vulnix | 1.8 | 15.80 KB | https://crackmes.one/crackme/67fa22568f555589f3530a94 | solved |
+| 62 | 2025-02-14 | Very simple crackme | Fragus | 1.4 | 15.75 KB | https://crackmes.one/crackme/67afd55ae36dd9b0e79b2ec6 | solved |
+| 63 | 2025-01-13 | BabyRev | Cappybara | 1.3 | 15.91 KB | https://crackmes.one/crackme/6784f8a84d850ac5f7dc5173 | solved |
 | 64 | 2024-12-07 | yum :P | hybridkenrel | 1.9 | 745.64 KB | https://crackmes.one/crackme/6754620160fa67152406b53c | **TODO** |
 | 65 | 2024-11-22 | Gemy | Computerboy | 1.5 | 5.68 KB | https://crackmes.one/crackme/673ff5da9b533b4c22bd2fff | **TODO** |
 | 66 | 2024-10-20 | Sexy 1337 | RafaelGFreveng | 1.5 | 16.00 KB | https://crackmes.one/crackme/6715466c9b533b4c22bd18bb | **TODO** |
@@ -200,4 +200,4 @@ Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` 
 | 190 | 2018-05-06 | Sh4ll2 | destructeur | 2.0 | 8.49 KB | https://crackmes.one/crackme/5aef385633c5d41ac64b492f | **TODO** |
 | 191 | 2018-05-06 | Sh4ll1 | destructeur | 1.4 | 13.23 KB | https://crackmes.one/crackme/5aef37c733c5d41ac64b492e | **TODO** |
 
-Le prochain de la file est **Ghost** (0xf00) : https://crackmes.one/crackme/682f69bd6297cca3ff7d7b9b (pwn de tas, mis de côté) puis **EasyCrackme** (userrrrrr). Mis de côté : Prometheora (#37, Rust+VM), Rev1 (#40, sources contradictoires), FedGuy easy crack (#45, SHA-256 à casser).
+Le prochain de la file est **yum :P** (hybridkenrel, #64) : https://crackmes.one/crackme/6754620160fa67152406b53c puis **Gemy** (Computerboy). Mis de côté : Prometheora (#37, Rust+VM), Rev1 (#40, sources contradictoires), FedGuy easy crack (#45, SHA-256 à casser), Ghost (#57, pwn de tas).
