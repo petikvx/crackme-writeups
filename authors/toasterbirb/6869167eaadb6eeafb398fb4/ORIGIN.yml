@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6869167eaadb6eeafb398fb4
+
+urls:
+  page: https://crackmes.one/crackme/6869167eaadb6eeafb398fb4
+  download: https://crackmes.one/download/crackme/6869167eaadb6eeafb398fb4
+
+title: "toasterbirb's shellcoding"
+author_on_site: "toasterbirb"
+author_local: "toasterbirb"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/shellcoding"
+  name: "shellcoding"
+  sha256: "ab8e3dcc3f3efa7348ad27d766d2ebb95f5e12567dbcb6e02a3adc1a412cd2ac"
+  md5: "07d4b14d656acbdea1dfbcfe78da96b6"
+  size_bytes: 14448
+
+status: pending
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-16T17:31:48Z"

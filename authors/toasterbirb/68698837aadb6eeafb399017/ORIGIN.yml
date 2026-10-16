@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 68698837aadb6eeafb399017
+
+urls:
+  page: https://crackmes.one/crackme/68698837aadb6eeafb399017
+  download: https://crackmes.one/download/crackme/68698837aadb6eeafb399017
+
+title: "toasterbirb's argc"
+author_on_site: "toasterbirb"
+author_local: "toasterbirb"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/argc"
+  name: "argc"
+  sha256: "e4afac571dfc8ac5ee37b612c5a1ee217f4f1bbc168c0fb0ace1940fa277b23a"
+  md5: "de21e2bc51cc9e1366bc41cdc7de0133"
+  size_bytes: 18608
+
+status: solved
+solution_summary: "args: petik petik a b c (argc reel 6/7 car _start fait argc>>1 ; argv[1]==argv[2])"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-16T17:31:44Z"
