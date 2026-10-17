@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 63ff9d5c33c5d447bc7616f0
+
+urls:
+  page: https://crackmes.one/crackme/63ff9d5c33c5d447bc7616f0
+  download: https://crackmes.one/download/crackme/63ff9d5c33c5d447bc7616f0
+
+title: "SirEnder125's MyFirstCrackme"
+author_on_site: "SirEnder125"
+author_local: "sirender125"
+
+platform: "Windows"
+arch: ""
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme"
+  name: "crackme"
+  sha256: "62e1efae025e4c16f174e87d09b82c6d983add6e81af2027ed946faeff319106"
+  md5: "5062aa567e1787feecfc9dd948e22248"
+  size_bytes: 16216
+
+status: solved
+solution_summary: "password = crackmes4ever:) ; pin = 15 caracteres quelconques (seule la longueur est testee, strlen==15)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T07:38:50Z"
