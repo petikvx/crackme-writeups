@@ -161,7 +161,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [kryptos](authors/kryptos/README.md) | Kryptos | 1 (Hecate) | 1 / 1 |
 | [marco007](authors/marco007/README.md) | marco007 | 2 (time based riddle + simple crackme) | 2 / 2 |
 | [sftmlg](authors/sftmlg/README.md) | sftmlg | 1 (Quite a simple crackme) | 1 / 1 |
-| [yariza](authors/yariza/README.md) | yariza | 1 (Keygen Me) | 1 / 1 |
+| [yariza](authors/yariza/README.md) | yariza | 2 (Keygen Me) | 2 / 2 |
 | [mkesenheimer](authors/mkesenheimer/README.md) | MKesenheimer | 1 (Forest) | 1 / 1 |
 | [0xtamsee1](authors/0xtamsee1/README.md) | 0xtamsee1 | 1 (revv) | 1 / 1 |
 | [4n0ny31ty](authors/4n0ny31ty/README.md) | 4N0NY31TY | 1 (4N0NY31TY's First Crackme) | 1 / 1 |
@@ -318,6 +318,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-17 | [Yariza Crackme #2](authors/yariza/60bd61ea33c5d410b8842c76/) | yariza |
 | 2026-10-17 | [Keygen Me](authors/yariza/60c24a7133c5d410b8842d3c/) | yariza |
 | 2026-10-17 | [Forest](authors/mkesenheimer/60f31f1d33c5d42814fb3381/) | MKesenheimer |
 | 2026-10-17 | [revv](authors/0xtamsee1/60fc687b33c5d42814fb34e0/) | 0xtamsee1 |

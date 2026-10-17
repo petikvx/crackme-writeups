@@ -28,8 +28,8 @@ binary:
   md5: "27f38e5d323c4a3eef3322b20e56d6dd"
   size_bytes: 16792
 
-status: pending
-solution_summary: ""
+status: solved
+solution_summary: "password = super_secret_pass_56178 (23 immediates mov BYTE sur la pile)"
 
 download:
   zip_password: crackmes.one
