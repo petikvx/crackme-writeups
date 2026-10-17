@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5c8e1a9533c5d4776a837ecf
+
+urls:
+  page: https://crackmes.one/crackme/5c8e1a9533c5d4776a837ecf
+  download: https://crackmes.one/download/crackme/5c8e1a9533c5d4776a837ecf
+
+title: "D4RKFL0W's Easy_firstCrackme"
+author_on_site: "D4RKFL0W"
+author_local: "d4rkfl0w"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crack1_by_D4RK_FL0W"
+  name: "crack1_by_D4RK_FL0W"
+  sha256: "666be87d793ccfdc122becb763ad96a5de5c7f3c04e28b408449bf966da02172"
+  md5: "e1802988f919e8423adeafcaf5e066ca"
+  size_bytes: 17648
+
+status: solved
+solution_summary: "comparaisons octet par octet en immediates -> H1DD3N"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T18:10:26Z"

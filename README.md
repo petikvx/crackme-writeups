@@ -182,7 +182,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [shad3](authors/shad3/README.md) | Shad3 | 1 (Baby Ransom) | 1 / 1 |
 | [zed-zahir](authors/zed-zahir/README.md) | zed-zahir | 1 (ZED-Crackme) | 1 / 1 |
 | [destructeur](authors/destructeur/README.md) | destructeur | 2 (ShAPK1) | 2 / 2 |
-| [d4rkfl0w](authors/d4rkfl0w/README.md) | D4RKFL0W | 4 (Crack_5) | 4 / 4 |
+| [d4rkfl0w](authors/d4rkfl0w/README.md) | D4RKFL0W | 5 (Crack_5) | 5 / 5 |
 | [tynkute](authors/tynkute/README.md) | tynkute | 1 (Just crackme) | 1 / 1 |
 | [rafi](authors/rafi/README.md) | rafi | 1 (what) | 1 / 1 |
 | [silentwraith](authors/silentwraith/README.md) | SilentWraith | 1 (lockcode) | 1 / 1 |
@@ -348,6 +348,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-17 | [Easy_firstCrackme-by-D4RK_FL0W](authors/d4rkfl0w/5c8e1a9533c5d4776a837ecf/) | D4RKFL0W |
 | 2026-10-17 | [Password Login](authors/loz/5c90a72d33c5d4776a837f07/) | Loz |
 | 2026-10-17 | [de_tcrack1](authors/paypain/5c9d9eea33c5d4419da55641/) | paypain |
 | 2026-10-17 | [Crack3-by-D4RK_FL0W](authors/d4rkfl0w/5ca0b3f833c5d4419da5567a/) | D4RKFL0W |

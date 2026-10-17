@@ -12,3 +12,4 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml).
 | 2 | [Crackme-4](5e0fa43b33c5d419aa01351e/) | [`5e0fa43b…`](https://crackmes.one/crackme/5e0fa43b33c5d419aa01351e) | Linux ELF64 C++ | checkPassword c0..c8, c7 depend de la pile (gdb) -> U6-:YL."+ |
 | 3 | [D4RK_FL0W-3.5](5ce137b933c5d4419da55ac2/) | [`5ce137b9…`](https://crackmes.one/crackme/5ce137b933c5d4419da55ac2) | Linux ELF64 C++ | 4 constantes modulo 9 -> 4 2 7 3 |
 | 4 | [Crack3-by-D4RK_FL0W](5ca0b3f833c5d4419da5567a/) | [`5ca0b3f8…`](https://crackmes.one/crackme/5ca0b3f833c5d4419da5567a) | Linux ELF64 C++ | get_digit sur 4 tableaux fixes -> code 3674 |
+| 5 | [Easy_firstCrackme-by-D4RK_FL0W](5c8e1a9533c5d4776a837ecf/) | [`5c8e1a95…`](https://crackmes.one/crackme/5c8e1a9533c5d4776a837ecf) | Linux ELF64 C++ | comparaisons immediates ASCII -> H1DD3N |
