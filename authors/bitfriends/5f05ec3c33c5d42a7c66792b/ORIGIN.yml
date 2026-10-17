@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5f05ec3c33c5d42a7c66792b
+
+urls:
+  page: https://crackmes.one/crackme/5f05ec3c33c5d42a7c66792b
+  download: https://crackmes.one/download/crackme/5f05ec3c33c5d42a7c66792b
+
+title: "BitFriends's simple overflow"
+author_on_site: "BitFriends"
+author_local: "bitfriends"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/a.out"
+  name: "a.out"
+  sha256: "9bec25af59838923a448ed3ca257a5c277100d52945ad5b1330d67a88b145740"
+  md5: "324be64edc46d5bc2431226224be1c6e"
+  size_bytes: 16760
+
+status: solved
+solution_summary: "fgets(0xa0) dans buf malloc(0x10) ; 31 A -> le NUL terminal zero-ote le uid adjacent (malloc(0x8)) -> admin"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T14:34:44Z"

@@ -10,6 +10,11 @@ by_id:
     path: "authors/bitfriends/5f3d7ed033c5d42a7c667d95/original/rop"
     title: "BitFriends's rop"
 
+  5f05ec3c33c5d42a7c66792b:
+    sha256: "9bec25af59838923a448ed3ca257a5c277100d52945ad5b1330d67a88b145740"
+    path: "authors/bitfriends/5f05ec3c33c5d42a7c66792b/original/a.out"
+    title: "BitFriends's simple overflow"
+
 by_sha256:
   4872e271d6f4a012fd317804b783512abbeb233c0b5efbeb847435acc72eb5a5:
     id: 5ea48a1433c5d47611746436
@@ -19,3 +24,7 @@ by_sha256:
     id: 5f3d7ed033c5d42a7c667d95
     path: "authors/bitfriends/5f3d7ed033c5d42a7c667d95/original/rop"
     page: https://crackmes.one/crackme/5f3d7ed033c5d42a7c667d95
+  9bec25af59838923a448ed3ca257a5c277100d52945ad5b1330d67a88b145740:
+    id: 5f05ec3c33c5d42a7c66792b
+    path: "authors/bitfriends/5f05ec3c33c5d42a7c66792b/original/a.out"
+    page: https://crackmes.one/crackme/5f05ec3c33c5d42a7c66792b

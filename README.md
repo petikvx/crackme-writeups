@@ -259,7 +259,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [s01den](authors/s01den/README.md) | S01den | 1 (0verney) | 1 / 1 |
 | [lubimpiskoty](authors/lubimpiskoty/README.md) | LubimPiskoty | 1 (Personal Safe) | 1 / 1 |
 | [bagolymadar](authors/bagolymadar/README.md) | bagolymadar | 1 (virtual.1) | 1 / 1 |
-| [bitfriends](authors/bitfriends/README.md) | BitFriends | 1 (nasm crack) | 1 / 1 |
+| [bitfriends](authors/bitfriends/README.md) | BitFriends | 2 (nasm crack) | 2 / 2 |
 | [binarynewbie](authors/binarynewbie/README.md) | BinaryNewbie | 1 (Small Keygenme) | 1 / 1 |
 | [weissi1994](authors/weissi1994/README.md) | weissi1994 | 1 (crackme-not) | 1 / 1 |
 | [2bitsin](authors/2bitsin/README.md) | 2bitsin | 1 (Secret message from a traveller) | 1 / 1 |
@@ -327,6 +327,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-17 | [simple overflow](authors/bitfriends/5f05ec3c33c5d42a7c66792b/) | BitFriends |
 | 2026-10-17 | [Crack_5](authors/d4rkfl0w/5f0998cb33c5d42a7c667974/) | D4RKFL0W |
 | 2026-10-17 | [Just crackme](authors/tynkute/5fa2cdce33c5d424269a1740/) | tynkute |
 | 2026-10-17 | [what](authors/rafi/5fd5c44c33c5d424269a1b76/) | rafi |
