@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5e0fa43b33c5d419aa01351e
+
+urls:
+  page: https://crackmes.one/crackme/5e0fa43b33c5d419aa01351e
+  download: https://crackmes.one/download/crackme/5e0fa43b33c5d419aa01351e
+
+title: "D4RKFL0W's Crackme"
+author_on_site: "D4RKFL0W"
+author_local: "d4rkfl0w"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Crackme-4"
+  name: "Crackme-4"
+  sha256: "19bfd34a5ed905de716117d565a8bcff8f95c11d59b906e3043ad1dd2b382b35"
+  md5: "493043877e70fa90c80e0e835e59e110"
+  size_bytes: 18168
+
+status: solved
+solution_summary: "9 fonctions c0..c8 deterministes sauf c7 (variable non initialisee, dependante de l ordre d appel) lue sous gdb -> U6-:YL.\"+"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T15:18:06Z"

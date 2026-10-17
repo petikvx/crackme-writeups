@@ -5,8 +5,17 @@ by_id:
     path: "authors/d4rkfl0w/5f0998cb33c5d42a7c667974/original/crack_5"
     title: "D4RKFL0W's Crack_5"
 
+  5e0fa43b33c5d419aa01351e:
+    sha256: "19bfd34a5ed905de716117d565a8bcff8f95c11d59b906e3043ad1dd2b382b35"
+    path: "authors/d4rkfl0w/5e0fa43b33c5d419aa01351e/original/Crackme-4"
+    title: "D4RKFL0W's Crackme"
+
 by_sha256:
   d4a38dec4dfcfb88674f52ff11f5a190282a2412da9004a6d14b86d0c7bb1e4c:
     id: 5f0998cb33c5d42a7c667974
     path: "authors/d4rkfl0w/5f0998cb33c5d42a7c667974/original/crack_5"
     page: https://crackmes.one/crackme/5f0998cb33c5d42a7c667974
+  19bfd34a5ed905de716117d565a8bcff8f95c11d59b906e3043ad1dd2b382b35:
+    id: 5e0fa43b33c5d419aa01351e
+    path: "authors/d4rkfl0w/5e0fa43b33c5d419aa01351e/original/Crackme-4"
+    page: https://crackmes.one/crackme/5e0fa43b33c5d419aa01351e
