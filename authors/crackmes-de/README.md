@@ -358,6 +358,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 323 | [orcs236_crackme](5ab77f5633c5d40ad448c2de/) | orcs236 | Windows PE32 AutoIt 3.1 (EA04, UPX, loader + exe interne) | script lu en mémoire sous wine ; serial = _StringEncrypt(1, _StringToHex(nom), nom, 3)[len-60:len-5] ; `petik` → `9AE46FBD6B8492333F2B3BF5B7A8F33DA30E35FF2E46622BC3E8620` |
 | 324 | [lfalchs_1st_crackme](5ab77f5633c5d40ad448c2df/) | lfalch | Java Swing (jar obfusqué, CFR) | serial = 16 × `java.util.Random(nom.hashCode() \| "LFalch".hashCode()).nextInt(34)` dans `0-5,8,9,a-z`, insensible à la casse ; `petik` → `0yfuu3g1cyic4fwl` |
 | 325 | [crackme by aharli](5ab77f5633c5d40ad448c2e1/) | aharli | Windows PE32 VB.NET WinForms | identifiants en dur (`ilspycmd`) : User `aharli` / Pass `1368` → « Cracked » ; nom fixe, pas de keygen |
+| 326 | [keygenme_1](5ab77f5633c5d40ad448c2e4/) | ksil (Ks@il) | Windows PE32 Delphi 7 | serial sans nom = IntToStr(major)+IntToStr(minor) de `GetVersion()` + chaîne XOR « Delphi String Protect » `Ft-23g$-bx4f-@d` ; wine/Win10 → `62Ft-23g$-bx4f-@d` (vérifié sous wine, harnais débogueur) |
 
 ## Mis de côté (PARKED — y revenir)
 

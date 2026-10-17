@@ -1,0 +1,40 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2e4
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2e4
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2e4
+
+title: "crackmes.de's keygenme_1 by ksil"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Borland Delphi 7"
+
+difficulty: 2.0
+quality: null
+size: "249.61 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/keygenme.zip"
+  name: "keygenme.zip"
+  sha256: "5ede8b9e5d0382265a5fb708d96bb022406df9a7fd94d46117828e4e92fbede9"
+  md5: "435eb9bf591736f3596e45fdf01f894f"
+  size_bytes: 255598
+
+status: solved
+solution_summary: "serial = IntToStr(major)+IntToStr(minor) de GetVersion() + chaîne XOR \"Ft-23g$-bx4f-@d\" ; wine/Win10 → 62Ft-23g$-bx4f-@d (vérifié sous wine)"
+
+inner_binary:
+  path: "original/KeyGenMe.exe"
+  sha256: "f5e21a8897a82387e6df3e592c0283560e956cc09b5bbb6221725db0b39723f4"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T23:49:13Z"
