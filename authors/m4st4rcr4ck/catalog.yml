@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  65a172f0eef082e477ff5a6e:
+    sha256: "7124d1e9c6e03a0494ac606824c132ab367da3d272bd4da52afe481ac544a873"
+    path: "authors/m4st4rcr4ck/65a172f0eef082e477ff5a6e/original/h1dd3n_fl4g"
+    title: "M4st4rCr4ck's H1dd4n Fl4g"
+
+by_sha256:
+  7124d1e9c6e03a0494ac606824c132ab367da3d272bd4da52afe481ac544a873:
+    id: 65a172f0eef082e477ff5a6e
+    path: "authors/m4st4rcr4ck/65a172f0eef082e477ff5a6e/original/h1dd3n_fl4g"
+    page: https://crackmes.one/crackme/65a172f0eef082e477ff5a6e
