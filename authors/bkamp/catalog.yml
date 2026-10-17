@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5df26b4033c5d419aa013362:
+    sha256: "6054843d0b4228b8a2a60b25be18bb6e205c0a9da5f6393569cda520ea8c2f43"
+    path: "authors/bkamp/5df26b4033c5d419aa013362/original/glowwine"
+    title: "Bkamp's glow wine [keygen practice]"
+
+by_sha256:
+  6054843d0b4228b8a2a60b25be18bb6e205c0a9da5f6393569cda520ea8c2f43:
+    id: 5df26b4033c5d419aa013362
+    path: "authors/bkamp/5df26b4033c5d419aa013362/original/glowwine"
+    page: https://crackmes.one/crackme/5df26b4033c5d419aa013362

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5df26b4033c5d419aa013362
+
+urls:
+  page: https://crackmes.one/crackme/5df26b4033c5d419aa013362
+  download: https://crackmes.one/download/crackme/5df26b4033c5d419aa013362
+
+title: "Bkamp's glow wine [keygen practice]"
+author_on_site: "Bkamp"
+author_local: "bkamp"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/glowwine"
+  name: "glowwine"
+  sha256: "6054843d0b4228b8a2a60b25be18bb6e205c0a9da5f6393569cda520ea8c2f43"
+  md5: "1d6e0f653a7dec6a8efe7b323f9dc134"
+  size_bytes: 8424
+
+status: solved
+solution_summary: "len==5, key[1]=='@', key[2]+key[3]+key[4]==300 -> A@ddd"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T15:18:10Z"
