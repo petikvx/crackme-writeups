@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5ec1a37533c5d449d91ae535:
+    sha256: "a483e1a3d6e270bc34dec5c5d6d3f2d69cb08193e60e0dca0e0e561dbef0e932"
+    path: "authors/shad3/5ec1a37533c5d449d91ae535/original/covid-19.bin"
+    title: "Shad3's Baby Ransom"
+
+by_sha256:
+  a483e1a3d6e270bc34dec5c5d6d3f2d69cb08193e60e0dca0e0e561dbef0e932:
+    id: 5ec1a37533c5d449d91ae535
+    path: "authors/shad3/5ec1a37533c5d449d91ae535/original/covid-19.bin"
+    page: https://crackmes.one/crackme/5ec1a37533c5d449d91ae535

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ec1a37533c5d449d91ae535
+
+urls:
+  page: https://crackmes.one/crackme/5ec1a37533c5d449d91ae535
+  download: https://crackmes.one/download/crackme/5ec1a37533c5d449d91ae535
+
+title: "Shad3's Baby Ransom"
+author_on_site: "Shad3"
+author_local: "shad3"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/covid-19.bin"
+  name: "covid-19.bin"
+  sha256: "a483e1a3d6e270bc34dec5c5d6d3f2d69cb08193e60e0dca0e0e561dbef0e932"
+  md5: "08d4ac2667d561b510ab02df5d151cdd"
+  size_bytes: 10216
+
+status: solved
+solution_summary: "toy-ransomware : chiffre+supprime les fichiers du cwd ; cle = rand()%255 avec seed fixe 0xDEADBEEF, recalculee via ctypes sans jamais executer le binaire -> cle 92 (0x5c)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T15:08:51Z"
