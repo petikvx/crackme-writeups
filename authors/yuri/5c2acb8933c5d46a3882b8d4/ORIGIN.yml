@@ -1,0 +1,35 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5c2acb8933c5d46a3882b8d4
+
+urls:
+  page: https://crackmes.one/crackme/5c2acb8933c5d46a3882b8d4
+  download: https://crackmes.one/download/crackme/5c2acb8933c5d46a3882b8d4
+
+title: "Yuri's Simple Keygen"
+author_on_site: "Yuri"
+author_local: "yuri"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/SimpleKeyGen"
+  name: "SimpleKeyGen"
+  sha256: "95d4e0ba3b1c804e6ad051ef09e242e916bf768661dee835bfec96576839d09c"
+  note: "extrait de original/Keygen.tar.gz ; tar.gz supprime apres extraction."
+
+status: solved
+solution_summary: "strlen==16, 8 paires serial[i+1]=serial[i]+1 -> 0123456789ABCDEF"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T18:10:31Z"

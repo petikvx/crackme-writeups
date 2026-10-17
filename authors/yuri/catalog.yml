@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5c2acb8933c5d46a3882b8d4:
+    sha256: "09c1514bd6f9af50b3371e8561e90c17225dfe7fe3b03cb3c18ca189c957c4fa"
+    path: "authors/yuri/5c2acb8933c5d46a3882b8d4/original/Keygen.tar.gz"
+    title: "Yuri's Simple Keygen"
+
+by_sha256:
+  09c1514bd6f9af50b3371e8561e90c17225dfe7fe3b03cb3c18ca189c957c4fa:
+    id: 5c2acb8933c5d46a3882b8d4
+    path: "authors/yuri/5c2acb8933c5d46a3882b8d4/original/Keygen.tar.gz"
+    page: https://crackmes.one/crackme/5c2acb8933c5d46a3882b8d4
