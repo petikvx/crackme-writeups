@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5ecd7cc133c5d449d91ae641:
+    sha256: "224e3e153805d7abba7219d442e4d37da10e5e0dea6e08df3946ef83c886f023"
+    path: "authors/zed-zahir/5ecd7cc133c5d449d91ae641/original/ZED-Crackme-x64.bin"
+    title: "zed"
+
+by_sha256:
+  224e3e153805d7abba7219d442e4d37da10e5e0dea6e08df3946ef83c886f023:
+    id: 5ecd7cc133c5d449d91ae641
+    path: "authors/zed-zahir/5ecd7cc133c5d449d91ae641/original/ZED-Crackme-x64.bin"
+    page: https://crackmes.one/crackme/5ecd7cc133c5d449d91ae641

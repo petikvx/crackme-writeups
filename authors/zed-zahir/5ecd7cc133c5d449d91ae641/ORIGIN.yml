@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ecd7cc133c5d449d91ae641
+
+urls:
+  page: https://crackmes.one/crackme/5ecd7cc133c5d449d91ae641
+  download: https://crackmes.one/download/crackme/5ecd7cc133c5d449d91ae641
+
+title: "zed"
+author_on_site: "zed-zahir"
+author_local: "zed-zahir"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/ZED-Crackme-x64.bin"
+  name: "ZED-Crackme-x64.bin"
+  sha256: "224e3e153805d7abba7219d442e4d37da10e5e0dea6e08df3946ef83c886f023"
+  md5: "adff2c626f42b9c164bf3a239fe38043"
+  size_bytes: 7656
+
+status: solved
+solution_summary: "serial derive d'une constante embarquee par XOR/+-/BYTEn, anti-VM SIDT + anti-debug ptrace bypasses sous gdb -> C(uiICD@CADDEBNEEDD"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T14:34:51Z"
