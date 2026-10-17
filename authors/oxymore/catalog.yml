@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  65c926c6eef082e477ff6b5a:
+    sha256: "365bef1fbeaea4cbea092d0c04f78a8631f2d591ad63ba1aec6dd5ba37c8f332"
+    path: "authors/oxymore/65c926c6eef082e477ff6b5a/original/crackme"
+    title: "Oxymore's Password"
+
+by_sha256:
+  365bef1fbeaea4cbea092d0c04f78a8631f2d591ad63ba1aec6dd5ba37c8f332:
+    id: 65c926c6eef082e477ff6b5a
+    path: "authors/oxymore/65c926c6eef082e477ff6b5a/original/crackme"
+    page: https://crackmes.one/crackme/65c926c6eef082e477ff6b5a

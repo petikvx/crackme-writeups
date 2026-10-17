@@ -1,0 +1,37 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 65c926c6eef082e477ff6b5a
+
+urls:
+  page: https://crackmes.one/crackme/65c926c6eef082e477ff6b5a
+  download: https://crackmes.one/download/crackme/65c926c6eef082e477ff6b5a
+
+title: "Oxymore's Password"
+author_on_site: "Oxymore"
+author_local: "oxymore"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme"
+  name: "crackme"
+  sha256: "365bef1fbeaea4cbea092d0c04f78a8631f2d591ad63ba1aec6dd5ba37c8f332"
+  md5: "180fe0f4676b1c94f86c4cc5e7d57a2e"
+  size_bytes: 4425536
+
+status: solved
+solution_summary: "password = NoiCe SANS retour a la ligne (Rust read_line garde le 
+ et le prog compare sans trim) ; printf NoiCe | ./crackme"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T06:31:47Z"
