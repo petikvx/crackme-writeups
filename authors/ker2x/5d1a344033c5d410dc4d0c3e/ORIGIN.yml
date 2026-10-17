@@ -1,0 +1,35 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5d1a344033c5d410dc4d0c3e
+
+urls:
+  page: https://crackmes.one/crackme/5d1a344033c5d410dc4d0c3e
+  download: https://crackmes.one/download/crackme/5d1a344033c5d410dc4d0c3e
+
+title: "ker2x's guild hall adventure Ch.2"
+author_on_site: "ker2x"
+author_local: "ker2x"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/adventure2-package/adventure2"
+  name: "adventure2"
+  sha256: "6541b1800c296b3f38d122f62f943a3b61c5f5237d38b87c891f601fb754f50a"
+  note: "extrait de original/adventure2-package.tgz (adventure2-package/{adventure,adventure2,README.txt}) ; tgz supprime apres extraction. adventure = version complete du Ch.1 fournie en bonus par l'auteur, voir authors/ker2x/5d0fa1ac33c5d41c6d56e172/."
+
+status: solved
+solution_summary: "cheat argv1='1A' (digit N + N chars) -> step2 ; reponse = argv1[0]+15 = 64 (pas liee au %c cosmetique affiche)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T15:38:04Z"

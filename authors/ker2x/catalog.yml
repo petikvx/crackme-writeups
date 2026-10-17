@@ -1,0 +1,21 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5d1a344033c5d410dc4d0c3e:
+    sha256: "faef71da6e6937aca164059e31d2fbba4d95d864e46eb068e3dda81206fe9690"
+    path: "authors/ker2x/5d1a344033c5d410dc4d0c3e/original/adventure2-package.tgz"
+    title: "ker2x's guild hall adventure Ch.2"
+
+  5d0fa1ac33c5d41c6d56e172:
+    sha256: "1fa5f3843c50c243a01f82129da9673c9cb4ab2aa88c72914d90c427807edcf0"
+    path: "authors/ker2x/5d0fa1ac33c5d41c6d56e172/original/adventure"
+    title: "ker2x's guild hall adventure Ch.1"
+
+by_sha256:
+  faef71da6e6937aca164059e31d2fbba4d95d864e46eb068e3dda81206fe9690:
+    id: 5d1a344033c5d410dc4d0c3e
+    path: "authors/ker2x/5d1a344033c5d410dc4d0c3e/original/adventure2-package.tgz"
+    page: https://crackmes.one/crackme/5d1a344033c5d410dc4d0c3e
+  1fa5f3843c50c243a01f82129da9673c9cb4ab2aa88c72914d90c427807edcf0:
+    id: 5d0fa1ac33c5d41c6d56e172
+    path: "authors/ker2x/5d0fa1ac33c5d41c6d56e172/original/adventure"
+    page: https://crackmes.one/crackme/5d0fa1ac33c5d41c6d56e172
