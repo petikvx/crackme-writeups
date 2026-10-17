@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5f0998cb33c5d42a7c667974
+
+urls:
+  page: https://crackmes.one/crackme/5f0998cb33c5d42a7c667974
+  download: https://crackmes.one/download/crackme/5f0998cb33c5d42a7c667974
+
+title: "D4RKFL0W's Crack_5"
+author_on_site: "D4RKFL0W"
+author_local: "d4rkfl0w"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crack_5"
+  name: "crack_5"
+  sha256: "d4a38dec4dfcfb88674f52ff11f5a190282a2412da9004a6d14b86d0c7bb1e4c"
+  md5: "6d2bc06fb1eefe0f294787b104e06310"
+  size_bytes: 19344
+
+status: solved
+solution_summary: "password = P0iNT3R_tYPe5_M4tt3r ; args(argv1 len8, argv2 len!=8, argv2[0]>X, argv2[-2]==X) ; secret lu sous gdb apres convert() (scramble fixe func1/func2)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T14:14:33Z"

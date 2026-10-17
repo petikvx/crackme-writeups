@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5f0998cb33c5d42a7c667974:
+    sha256: "d4a38dec4dfcfb88674f52ff11f5a190282a2412da9004a6d14b86d0c7bb1e4c"
+    path: "authors/d4rkfl0w/5f0998cb33c5d42a7c667974/original/crack_5"
+    title: "D4RKFL0W's Crack_5"
+
+by_sha256:
+  d4a38dec4dfcfb88674f52ff11f5a190282a2412da9004a6d14b86d0c7bb1e4c:
+    id: 5f0998cb33c5d42a7c667974
+    path: "authors/d4rkfl0w/5f0998cb33c5d42a7c667974/original/crack_5"
+    page: https://crackmes.one/crackme/5f0998cb33c5d42a7c667974
