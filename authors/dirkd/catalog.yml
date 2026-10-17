@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  60957b9a33c5d458ce0ec88e:
+    sha256: "c3adc81cf502c3082499a6b9f62c414c3775fb4155eead592aeb886746e0be8d"
+    path: "authors/dirkd/60957b9a33c5d458ce0ec88e/original/EZwan"
+    title: "DirkD's EZwan"
+
+by_sha256:
+  c3adc81cf502c3082499a6b9f62c414c3775fb4155eead592aeb886746e0be8d:
+    id: 60957b9a33c5d458ce0ec88e
+    path: "authors/dirkd/60957b9a33c5d458ce0ec88e/original/EZwan"
+    page: https://crackmes.one/crackme/60957b9a33c5d458ce0ec88e

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 60957b9a33c5d458ce0ec88e
+
+urls:
+  page: https://crackmes.one/crackme/60957b9a33c5d458ce0ec88e
+  download: https://crackmes.one/download/crackme/60957b9a33c5d458ce0ec88e
+
+title: "DirkD's EZwan"
+author_on_site: "DirkD"
+author_local: "dirkd"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/EZwan"
+  name: "EZwan"
+  sha256: "c3adc81cf502c3082499a6b9f62c414c3775fb4155eead592aeb886746e0be8d"
+  md5: "e9bec869fc8ae8d9293a4ad9f764c269"
+  size_bytes: 16832
+
+status: solved
+solution_summary: "key = NiceDude (table[i+1] ^ 0x55, i=0..7 ; indexation decalee de 1)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T12:36:14Z"
