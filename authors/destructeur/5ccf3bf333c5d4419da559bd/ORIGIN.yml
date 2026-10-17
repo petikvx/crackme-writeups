@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ccf3bf333c5d4419da559bd
+
+urls:
+  page: https://crackmes.one/crackme/5ccf3bf333c5d4419da559bd
+  download: https://crackmes.one/download/crackme/5ccf3bf333c5d4419da559bd
+
+title: "destructeur's Sh4ll10"
+author_on_site: "destructeur"
+author_local: "destructeur"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Sh4ll10.bin"
+  name: "Sh4ll10.bin"
+  sha256: "8e6e1d9b2492c68c8a62d2df790838aa83f7496aeabda230e12dc4845cb9cf8c"
+  md5: "5c199dead8e1726dc147db933d64288c"
+  size_bytes: 8328
+
+status: solved
+solution_summary: "non-PIE : call rax sur (saisie-115), goodBoy()/badBoy() exit() sans retour -> saisir 0x400665 (= goodBoy+0x73)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T17:51:05Z"

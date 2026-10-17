@@ -5,8 +5,17 @@ by_id:
     path: "authors/destructeur/5eea811d33c5d449d91ae870/original/ShAPK1.apk"
     title: "destructeur's ShAPK1"
 
+  5ccf3bf333c5d4419da559bd:
+    sha256: "8e6e1d9b2492c68c8a62d2df790838aa83f7496aeabda230e12dc4845cb9cf8c"
+    path: "authors/destructeur/5ccf3bf333c5d4419da559bd/original/Sh4ll10.bin"
+    title: "destructeur's Sh4ll10"
+
 by_sha256:
   ba669869c8cdc77860b08a25193ea77f7454f17b7b53e2b8442ed5817dbd4cec:
     id: 5eea811d33c5d449d91ae870
     path: "authors/destructeur/5eea811d33c5d449d91ae870/original/ShAPK1.apk"
     page: https://crackmes.one/crackme/5eea811d33c5d449d91ae870
+  8e6e1d9b2492c68c8a62d2df790838aa83f7496aeabda230e12dc4845cb9cf8c:
+    id: 5ccf3bf333c5d4419da559bd
+    path: "authors/destructeur/5ccf3bf333c5d4419da559bd/original/Sh4ll10.bin"
+    page: https://crackmes.one/crackme/5ccf3bf333c5d4419da559bd

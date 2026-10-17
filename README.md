@@ -178,7 +178,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [476f64](authors/476f64/README.md) | 476f64 | 1 (easyAF) | 1 / 1 |
 | [shad3](authors/shad3/README.md) | Shad3 | 1 (Baby Ransom) | 1 / 1 |
 | [zed-zahir](authors/zed-zahir/README.md) | zed-zahir | 1 (ZED-Crackme) | 1 / 1 |
-| [destructeur](authors/destructeur/README.md) | destructeur | 1 (ShAPK1) | 1 / 1 |
+| [destructeur](authors/destructeur/README.md) | destructeur | 2 (ShAPK1) | 2 / 2 |
 | [d4rkfl0w](authors/d4rkfl0w/README.md) | D4RKFL0W | 3 (Crack_5) | 3 / 3 |
 | [tynkute](authors/tynkute/README.md) | tynkute | 1 (Just crackme) | 1 / 1 |
 | [rafi](authors/rafi/README.md) | rafi | 1 (what) | 1 / 1 |
@@ -345,6 +345,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-17 | [Sh4ll10](authors/destructeur/5ccf3bf333c5d4419da559bd/) | destructeur |
 | 2026-10-17 | [D4RK_FL0W-3.5](authors/d4rkfl0w/5ce137b933c5d4419da55ac2/) | D4RKFL0W |
 | 2026-10-17 | [crackme #1](authors/hikilaka/5cf574fe33c5d41c6d56e01b/) | hikilaka |
 | 2026-10-17 | [Simple crackme](authors/kawaii-flesh/5d0d1e1333c5d41c6d56e155/) | kawaii-flesh |
