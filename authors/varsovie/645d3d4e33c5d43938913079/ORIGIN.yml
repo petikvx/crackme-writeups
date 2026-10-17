@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 645d3d4e33c5d43938913079
+
+urls:
+  page: https://crackmes.one/crackme/645d3d4e33c5d43938913079
+  download: https://crackmes.one/download/crackme/645d3d4e33c5d43938913079
+
+title: "Varsovie's GDB basics"
+author_on_site: "Varsovie"
+author_local: "varsovie"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/a.out"
+  name: "a.out"
+  sha256: "a25eff06677800739d8ea319272f0dca3af740f0b21ef63be3236a0906366e6c"
+  md5: "ce1d68e41e255e3cb976bb1bbd347f4c"
+  size_bytes: 20192
+
+status: solved
+solution_summary: "n = 219283456 (x=2 ; x*=i pour i=2..19 en int32 avec debordement = 0x0D120000) -> flag I_LOVE_YOU ; lecture GDB de [rbp-4] au cmp"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T07:17:16Z"

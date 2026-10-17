@@ -161,6 +161,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [kryptos](authors/kryptos/README.md) | Kryptos | 1 (Hecate) | 1 / 1 |
 | [marco007](authors/marco007/README.md) | marco007 | 2 (time based riddle + simple crackme) | 2 / 2 |
 | [sftmlg](authors/sftmlg/README.md) | sftmlg | 1 (Quite a simple crackme) | 1 / 1 |
+| [varsovie](authors/varsovie/README.md) | Varsovie | 1 (GDB basics) | 1 / 1 |
 | [sudo0x18](authors/sudo0x18/README.md) | sudo0x18 | 1 (Level1) | 1 / 1 |
 | [ithawk](authors/ithawk/README.md) | ithawk | 1 (Find password) | 1 / 1 |
 | [mt77](authors/mt77/README.md) | mt77 | 1 (based) | 1 / 1 |
@@ -300,6 +301,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-17 | [GDB basics](authors/varsovie/645d3d4e33c5d43938913079/) | Varsovie |
 | 2026-10-17 | [Level1](authors/sudo0x18/646627a933c5d439389131d9/) | sudo0x18 |
 | 2026-10-17 | [Find password](authors/ithawk/64e91b92d931496abf9091e3/) | ithawk |
 | 2026-10-17 | [based](authors/mt77/64fdf93bd931496abf90994b/) | mt77 |

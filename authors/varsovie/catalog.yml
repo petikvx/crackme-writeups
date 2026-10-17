@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  645d3d4e33c5d43938913079:
+    sha256: "a25eff06677800739d8ea319272f0dca3af740f0b21ef63be3236a0906366e6c"
+    path: "authors/varsovie/645d3d4e33c5d43938913079/original/a.out"
+    title: "Varsovie's GDB basics"
+
+by_sha256:
+  a25eff06677800739d8ea319272f0dca3af740f0b21ef63be3236a0906366e6c:
+    id: 645d3d4e33c5d43938913079
+    path: "authors/varsovie/645d3d4e33c5d43938913079/original/a.out"
+    page: https://crackmes.one/crackme/645d3d4e33c5d43938913079
