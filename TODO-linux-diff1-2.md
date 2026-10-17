@@ -4,7 +4,7 @@ Recherche [crackmes.one](https://crackmes.one/search?name=&author=&platform=Unix
 
 Filtre : plateforme Unix/linux, difficulté 1.0–2.0, tri date décroissante (plus récent en haut). **278 résultats au total** sur le site ; les **87 derniers** (préfixe `by <auteur>` à partir de `mycrk by cli3nt`) sont les imports historiques `crackmes.de`, déjà traités intégralement et séparément (voir `authors/crackmes-de/`, 311/311 résolus) — **exclus de ce tableau**, qui ne couvre que les **191** crackmes.one natifs restants.
 
-Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` du dépôt (ID exact, pas le titre). **112** déjà `solved`, **78** marqués `TODO` (+ 1 « analysé » sans condition de victoire) ci-dessous. Changement notable par rapport à l'ancien tri (page 1 seulement, 50 résultats) : 3 entrées manquaient (`0x8A7 - Maze`, `ComputeTheKey`, `Hecate linux/unix`), et la liste s'étend maintenant bien au-delà de `Godez_Mark crackme` (jusqu'à `Sh4ll1`, 2018).
+Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` du dépôt (ID exact, pas le titre). **116** déjà `solved`, **74** marqués `TODO` (+ 1 « analysé » sans condition de victoire) ci-dessous. Changement notable par rapport à l'ancien tri (page 1 seulement, 50 résultats) : 3 entrées manquaient (`0x8A7 - Maze`, `ComputeTheKey`, `Hecate linux/unix`), et la liste s'étend maintenant bien au-delà de `Godez_Mark crackme` (jusqu'à `Sh4ll1`, 2018).
 
 | # | Date | Crackme | Auteur | Difficulté | Taille | URL | Statut |
 |---|---|---|---|---|---|---|---|
@@ -121,10 +121,10 @@ Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` 
 | 111 | 2021-08-19 | super_easy | eventhorizon02 | 1.8 | 8.34 KB | https://crackmes.one/crackme/611e9bfb33c5d45db85dc2d7 | solved |
 | 112 | 2021-08-19 | 4N0NY31TY's First Crackme | 4N0NY31TY | 1.5 | 15.99 KB | https://crackmes.one/crackme/611e76ec33c5d45db85dc2d1 | solved |
 | 113 | 2021-07-24 | revv | 0xtamsee1 | 1.8 | 14.13 KB | https://crackmes.one/crackme/60fc687b33c5d42814fb34e0 | solved |
-| 114 | 2021-07-17 | Forest | MKesenheimer | 1.7 | 15.91 KB | https://crackmes.one/crackme/60f31f1d33c5d42814fb3381 | **TODO** |
-| 115 | 2021-06-10 | Keygen Me \| Yariza | yariza | 2.0 | 16.60 KB | https://crackmes.one/crackme/60c24a7133c5d410b8842d3c | **TODO** |
-| 116 | 2021-06-07 | Yariza Crackme #2 | yariza | 1.6 | 16.40 KB | https://crackmes.one/crackme/60bd61ea33c5d410b8842c76 | **TODO** |
-| 117 | 2021-05-07 | EZwan | DirkD | 1.7 | 16.44 KB | https://crackmes.one/crackme/60957b9a33c5d458ce0ec88e | **TODO** |
+| 114 | 2021-07-17 | Forest | MKesenheimer | 1.7 | 15.91 KB | https://crackmes.one/crackme/60f31f1d33c5d42814fb3381 | solved |
+| 115 | 2021-06-10 | Keygen Me \| Yariza | yariza | 2.0 | 16.60 KB | https://crackmes.one/crackme/60c24a7133c5d410b8842d3c | solved |
+| 116 | 2021-06-07 | Yariza Crackme #2 | yariza | 1.6 | 16.40 KB | https://crackmes.one/crackme/60bd61ea33c5d410b8842c76 | solved |
+| 117 | 2021-05-07 | EZwan | DirkD | 1.7 | 16.44 KB | https://crackmes.one/crackme/60957b9a33c5d458ce0ec88e | solved |
 | 118 | 2021-04-12 | My_first_ever_crackme | ASBO_GENERAL | 1.8 | 18.14 KB | https://crackmes.one/crackme/6074618733c5d44899821e35 | **TODO** |
 | 119 | 2021-03-09 | crackme | Harel21 | 1.7 | 14.09 KB | https://crackmes.one/crackme/6047ffb433c5d42c3d016da6 | **TODO** |
 | 120 | 2021-03-06 | GO GO GO - Harmful Logic | s0k1t | 2.0 | 1.39 MB | https://crackmes.one/crackme/6044083333c5d42c3d016d3d | **TODO** |
@@ -200,4 +200,4 @@ Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` 
 | 190 | 2018-05-06 | Sh4ll2 | destructeur | 2.0 | 8.49 KB | https://crackmes.one/crackme/5aef385633c5d41ac64b492f | **TODO** |
 | 191 | 2018-05-06 | Sh4ll1 | destructeur | 1.4 | 13.23 KB | https://crackmes.one/crackme/5aef37c733c5d41ac64b492e | **TODO** |
 
-Le prochain de la file est **Forest** (MKesenheimer, #114) : https://crackmes.one/crackme/60f31f1d33c5d42814fb3381 puis **Keygen Me | Yariza** (#115), **Yariza Crackme #2** (#116) et **EZwan** (DirkD, #117). Mis de côté : Prometheora (#37, Rust+VM), Rev1 (#40, sources contradictoires), FedGuy easy crack (#45, SHA-256 à casser), Ghost (#57, pwn de tas), Gemy (#65, UPX modifié), Upgraded Levels Keygen (#67, 4 niveaux dont un keygen « sorcier »), sh0uld_b3_e4zy (#78, aucune condition de victoire).
+Le prochain de la file est **My_first_ever_crackme** (ASBO_GENERAL, #118) : https://crackmes.one/crackme/6074618733c5d44899821e35 puis **crackme** (Harel21, #119), **GO GO GO - Harmful Logic** (s0k1t, #120) et **unlockme** (pranav, #121). Mis de côté : Prometheora (#37, Rust+VM), Rev1 (#40, sources contradictoires), FedGuy easy crack (#45, SHA-256 à casser), Ghost (#57, pwn de tas), Gemy (#65, UPX modifié), Upgraded Levels Keygen (#67, 4 niveaux dont un keygen « sorcier »), sh0uld_b3_e4zy (#78, aucune condition de victoire).
