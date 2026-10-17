@@ -28,8 +28,8 @@ binary:
   md5: "39c16d3dafc6a9c81f77168fbe17e700"
   size_bytes: 16248
 
-status: pending
-solution_summary: ""
+status: solved
+solution_summary: "key = KS-LICENSE-KEY-2021-REV-1 (strcmp argv[1] avec la constante en clair)"
 
 download:
   zip_password: crackmes.one
