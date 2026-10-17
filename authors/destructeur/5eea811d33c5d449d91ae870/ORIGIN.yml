@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5eea811d33c5d449d91ae870
+
+urls:
+  page: https://crackmes.one/crackme/5eea811d33c5d449d91ae870
+  download: https://crackmes.one/download/crackme/5eea811d33c5d449d91ae870
+
+title: "destructeur's ShAPK1"
+author_on_site: "destructeur"
+author_local: "destructeur"
+
+platform: "Unix/linux etc."
+arch: ""
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/ShAPK1.apk"
+  name: "ShAPK1.apk"
+  sha256: "ba669869c8cdc77860b08a25193ea77f7454f17b7b53e2b8442ed5817dbd4cec"
+  md5: "fb0193cf8d2c433cff7502221166c70f"
+  size_bytes: 1405924
+
+status: solved
+solution_summary: "MainActivity.encrypt XOR cyclique avec cle resource 'beginning', compare Base64 a une cible -> inversion triviale : Welcome_T0_4ndroid_World"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T14:34:49Z"

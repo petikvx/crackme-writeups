@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5eea811d33c5d449d91ae870:
+    sha256: "ba669869c8cdc77860b08a25193ea77f7454f17b7b53e2b8442ed5817dbd4cec"
+    path: "authors/destructeur/5eea811d33c5d449d91ae870/original/ShAPK1.apk"
+    title: "destructeur's ShAPK1"
+
+by_sha256:
+  ba669869c8cdc77860b08a25193ea77f7454f17b7b53e2b8442ed5817dbd4cec:
+    id: 5eea811d33c5d449d91ae870
+    path: "authors/destructeur/5eea811d33c5d449d91ae870/original/ShAPK1.apk"
+    page: https://crackmes.one/crackme/5eea811d33c5d449d91ae870
