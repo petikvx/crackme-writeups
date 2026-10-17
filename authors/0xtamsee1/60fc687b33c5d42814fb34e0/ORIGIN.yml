@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 60fc687b33c5d42814fb34e0
+
+urls:
+  page: https://crackmes.one/crackme/60fc687b33c5d42814fb34e0
+  download: https://crackmes.one/download/crackme/60fc687b33c5d42814fb34e0
+
+title: "0xtamsee1's revv"
+author_on_site: "0xtamsee1"
+author_local: "0xtamsee1"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/revv"
+  name: "revv"
+  sha256: "bf26eea99ab57eb148ba76ff3ff6afb47cc440c31feab8d4c62a186cd1e98fbb"
+  md5: "3d5c479134db8645c16e5b33f58d90ea"
+  size_bytes: 14472
+
+status: solved
+solution_summary: "password = ACTF{N01ce_R3v3r51^g} (21 comparaisons cmp al,imm8 sur pw[offset], ordre non lineaire)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T10:12:42Z"

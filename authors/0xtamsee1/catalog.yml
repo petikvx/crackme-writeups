@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  60fc687b33c5d42814fb34e0:
+    sha256: "bf26eea99ab57eb148ba76ff3ff6afb47cc440c31feab8d4c62a186cd1e98fbb"
+    path: "authors/0xtamsee1/60fc687b33c5d42814fb34e0/original/revv"
+    title: "0xtamsee1's revv"
+
+by_sha256:
+  bf26eea99ab57eb148ba76ff3ff6afb47cc440c31feab8d4c62a186cd1e98fbb:
+    id: 60fc687b33c5d42814fb34e0
+    path: "authors/0xtamsee1/60fc687b33c5d42814fb34e0/original/revv"
+    page: https://crackmes.one/crackme/60fc687b33c5d42814fb34e0
