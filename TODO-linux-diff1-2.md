@@ -4,7 +4,7 @@ Recherche [crackmes.one](https://crackmes.one/search?name=&author=&platform=Unix
 
 Filtre : plateforme Unix/linux, difficulté 1.0–2.0, tri date décroissante (plus récent en haut). **278 résultats au total** sur le site ; les **87 derniers** (préfixe `by <auteur>` à partir de `mycrk by cli3nt`) sont les imports historiques `crackmes.de`, déjà traités intégralement et séparément (voir `authors/crackmes-de/`, 311/311 résolus) — **exclus de ce tableau**, qui ne couvre que les **191** crackmes.one natifs restants.
 
-Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` du dépôt (ID exact, pas le titre). **72** déjà `solved`, **119** marqués `TODO` ci-dessous. Changement notable par rapport à l'ancien tri (page 1 seulement, 50 résultats) : 3 entrées manquaient (`0x8A7 - Maze`, `ComputeTheKey`, `Hecate linux/unix`), et la liste s'étend maintenant bien au-delà de `Godez_Mark crackme` (jusqu'à `Sh4ll1`, 2018).
+Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` du dépôt (ID exact, pas le titre). **74** déjà `solved`, **117** marqués `TODO` ci-dessous. Changement notable par rapport à l'ancien tri (page 1 seulement, 50 résultats) : 3 entrées manquaient (`0x8A7 - Maze`, `ComputeTheKey`, `Hecate linux/unix`), et la liste s'étend maintenant bien au-delà de `Godez_Mark crackme` (jusqu'à `Sh4ll1`, 2018).
 
 | # | Date | Crackme | Auteur | Difficulté | Taille | URL | Statut |
 |---|---|---|---|---|---|---|---|
@@ -71,9 +71,9 @@ Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` 
 | 61 | 2025-04-12 | easyjerk | vulnix | 1.8 | 15.80 KB | https://crackmes.one/crackme/67fa22568f555589f3530a94 | solved |
 | 62 | 2025-02-14 | Very simple crackme | Fragus | 1.4 | 15.75 KB | https://crackmes.one/crackme/67afd55ae36dd9b0e79b2ec6 | solved |
 | 63 | 2025-01-13 | BabyRev | Cappybara | 1.3 | 15.91 KB | https://crackmes.one/crackme/6784f8a84d850ac5f7dc5173 | solved |
-| 64 | 2024-12-07 | yum :P | hybridkenrel | 1.9 | 745.64 KB | https://crackmes.one/crackme/6754620160fa67152406b53c | **TODO** |
+| 64 | 2024-12-07 | yum :P | hybridkenrel | 1.9 | 745.64 KB | https://crackmes.one/crackme/6754620160fa67152406b53c | solved |
 | 65 | 2024-11-22 | Gemy | Computerboy | 1.5 | 5.68 KB | https://crackmes.one/crackme/673ff5da9b533b4c22bd2fff | **TODO** |
-| 66 | 2024-10-20 | Sexy 1337 | RafaelGFreveng | 1.5 | 16.00 KB | https://crackmes.one/crackme/6715466c9b533b4c22bd18bb | **TODO** |
+| 66 | 2024-10-20 | Sexy 1337 | RafaelGFreveng | 1.5 | 16.00 KB | https://crackmes.one/crackme/6715466c9b533b4c22bd18bb | solved |
 | 67 | 2024-08-22 | Upgraded Levels Keygen (difficulty 1-3) | saltedMacaroni841 | 2.0 | 16.64 KB | https://crackmes.one/crackme/66c724b9b899a3b9dd02ad98 | **TODO** |
 | 68 | 2024-07-25 | Levels Keygen! | saltedMacaroni841 | 1.7 | 15.80 KB | https://crackmes.one/crackme/66a288ed90c4c2830c820fa0 | **TODO** |
 | 69 | 2024-07-19 | good_boy | fdisotto | 1.5 | 13.86 KB | https://crackmes.one/crackme/669a714890c4c2830c820bc0 | **TODO** |
@@ -200,4 +200,4 @@ Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` 
 | 190 | 2018-05-06 | Sh4ll2 | destructeur | 2.0 | 8.49 KB | https://crackmes.one/crackme/5aef385633c5d41ac64b492f | **TODO** |
 | 191 | 2018-05-06 | Sh4ll1 | destructeur | 1.4 | 13.23 KB | https://crackmes.one/crackme/5aef37c733c5d41ac64b492e | **TODO** |
 
-Le prochain de la file est **yum :P** (hybridkenrel, #64) : https://crackmes.one/crackme/6754620160fa67152406b53c puis **Gemy** (Computerboy). Mis de côté : Prometheora (#37, Rust+VM), Rev1 (#40, sources contradictoires), FedGuy easy crack (#45, SHA-256 à casser), Ghost (#57, pwn de tas).
+Le prochain de la file est **Levels Keygen!** (saltedMacaroni841, #68) : https://crackmes.one/crackme/66a288ed90c4c2830c820fa0 puis **Upgraded Levels Keygen** (#67) et **good_boy** (fdisotto). Mis de côté : Prometheora (#37, Rust+VM), Rev1 (#40, sources contradictoires), FedGuy easy crack (#45, SHA-256 à casser), Ghost (#57, pwn de tas), Gemy (#65, UPX modifié que upx 3.96 ne sait pas défaire).
