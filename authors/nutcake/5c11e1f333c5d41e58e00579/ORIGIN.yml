@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5c11e1f333c5d41e58e00579
+
+urls:
+  page: https://crackmes.one/crackme/5c11e1f333c5d41e58e00579
+  download: https://crackmes.one/download/crackme/5c11e1f333c5d41e58e00579
+
+title: "nutcake's PieIsMyFav"
+author_on_site: "nutcake"
+author_local: "nutcake"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/simple"
+  name: "simple"
+  sha256: "2c7774d411988d5d2eb5c88f5919d01ebd3efb502109dcea4b160fbb57b56818"
+  md5: "0ab03b2cd988d707e3476b7b3e81de6d"
+  size_bytes: 16720
+
+status: solved
+solution_summary: "(100*3+14)/100 (division entiere) -> 3"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T18:18:39Z"
