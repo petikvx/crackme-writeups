@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6ad3c8922c7537120cbe82fe:
+    sha256: "691ddf1e2b889eb28189d6428840312665d14c998ad758d3b435e810009b4973"
+    path: "authors/wut/6ad3c8922c7537120cbe82fe/original/two_ring_vow.zip"
+    title: "frd"
+
+by_sha256:
+  691ddf1e2b889eb28189d6428840312665d14c998ad758d3b435e810009b4973:
+    id: 6ad3c8922c7537120cbe82fe
+    path: "authors/wut/6ad3c8922c7537120cbe82fe/original/two_ring_vow.zip"
+    page: https://crackmes.one/crackme/6ad3c8922c7537120cbe82fe

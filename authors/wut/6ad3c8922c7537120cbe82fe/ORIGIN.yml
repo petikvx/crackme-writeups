@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6ad3c8922c7537120cbe82fe
+
+urls:
+  page: https://crackmes.one/crackme/6ad3c8922c7537120cbe82fe
+  download: https://crackmes.one/download/crackme/6ad3c8922c7537120cbe82fe
+
+title: "frd"
+author_on_site: "wut"
+author_local: "wut"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: 1
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: "frd"
+
+binary:
+  path: "original/two_ring_vow.zip"
+  name: "two_ring_vow.zip"
+  sha256: "691ddf1e2b889eb28189d6428840312665d14c998ad758d3b435e810009b4973"
+  md5: "e3e56dac1e9c800725e8b7e2abc7a530"
+  size_bytes: 364304
+
+status: solved
+solution_summary: "LvY0uArshu130(T — référence générée par ref_char(i) @0x1400019a0 (fonction pure), émulée sous Unicorn ; 4 VM/hash contournées ; vérifié wine rc=0"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T22:34:28Z"

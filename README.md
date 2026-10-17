@@ -333,6 +333,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [s3c_cult](authors/s3c_cult/README.md) | S3c_Cult | 2 (Schizo + XORcist) | 2 / 2 |
 | [rr7](authors/rr7/README.md) | RR7 | 1 (Secret key) | 1 / 1 |
 | [mr-x47](authors/mr-x47/README.md) | Mr.X47 | 1 (BiLoop Cipher) | 1 / 1 |
+| [wut](authors/wut/README.md) | wut | 1 (frd) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -355,6 +356,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-18 | [frd (TWO-RING VOW)](authors/wut/6ad3c8922c7537120cbe82fe/) | wut |
 | 2026-10-17 | [VSEC Challenger #2](authors/vsec/6acc0cbbace07d1c3fbc4afb/) | vsec |
 | 2026-10-17 | [PrettyDamnEasy](authors/nutcake/5c11dcaf33c5d41e58e00578/) | nutcake |
 | 2026-10-17 | [PieIsMyFav](authors/nutcake/5c11e1f333c5d41e58e00579/) | nutcake |
