@@ -169,7 +169,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [kawaii-flesh](authors/kawaii-flesh/README.md) | kawaii-flesh | 3 (keygenme) | 3 / 3 |
 | [mrt4ntr4](authors/mrt4ntr4/README.md) | mrT4ntr4 | 1 (Save Scooby) | 1 / 1 |
 | [skudo](authors/skudo/README.md) | skudo | 1 (Crack the algorithm) | 1 / 1 |
-| [paypain](authors/paypain/README.md) | paypain | 2 (Election) | 2 / 2 |
+| [paypain](authors/paypain/README.md) | paypain | 3 (Election) | 3 / 3 |
 | [totothetoro](authors/totothetoro/README.md) | totothetoro | 1 (alien_bin) | 1 / 1 |
 | [ezman](authors/ezman/README.md) | ezman | 1 (easy keyg3nme) | 1 / 1 |
 | [m3hd1](authors/m3hd1/README.md) | m3hd1 | 1 (half-twins) | 1 / 1 |
@@ -348,6 +348,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-17 | [de_tcrack1](authors/paypain/5c9d9eea33c5d4419da55641/) | paypain |
 | 2026-10-17 | [Crack3-by-D4RK_FL0W](authors/d4rkfl0w/5ca0b3f833c5d4419da5567a/) | D4RKFL0W |
 | 2026-10-17 | [Password Login 2](authors/loz/5ca0b6c833c5d4419da5567b/) | Loz |
 | 2026-10-17 | [am i really random?](authors/m00ny/5cb7533133c5d4419da5584b/) | m00ny |

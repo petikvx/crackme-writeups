@@ -1,0 +1,35 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5c9d9eea33c5d4419da55641
+
+urls:
+  page: https://crackmes.one/crackme/5c9d9eea33c5d4419da55641
+  download: https://crackmes.one/download/crackme/5c9d9eea33c5d4419da55641
+
+title: "paypain's de_tcrack1"
+author_on_site: "paypain"
+author_local: "paypain"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/de_tcrack1"
+  name: "de_tcrack1"
+  sha256: "b0c8233f8774c07d8a919641da714722bb1e74653c756047012e2f601687d411"
+  note: "extrait de original/de_tcrack1.tar ; tar supprime apres extraction."
+
+status: solved
+solution_summary: "strlen>8, argv1[4]=='@', exactement 3 'b' -> xxxx@bbbxx"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T18:02:29Z"
