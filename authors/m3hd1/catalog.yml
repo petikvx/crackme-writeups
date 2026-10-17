@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5dce805c33c5d419aa0131ae:
+    sha256: "52770c081aa1f92f97c5fc32640a80ad922547224794d8197cf2c77689127e5c"
+    path: "authors/m3hd1/5dce805c33c5d419aa0131ae/original/half-twins"
+    title: "m3hd1's half"
+
+by_sha256:
+  52770c081aa1f92f97c5fc32640a80ad922547224794d8197cf2c77689127e5c:
+    id: 5dce805c33c5d419aa0131ae
+    path: "authors/m3hd1/5dce805c33c5d419aa0131ae/original/half-twins"
+    page: https://crackmes.one/crackme/5dce805c33c5d419aa0131ae

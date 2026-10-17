@@ -161,6 +161,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [kryptos](authors/kryptos/README.md) | Kryptos | 1 (Hecate) | 1 / 1 |
 | [marco007](authors/marco007/README.md) | marco007 | 2 (time based riddle + simple crackme) | 2 / 2 |
 | [sftmlg](authors/sftmlg/README.md) | sftmlg | 1 (Quite a simple crackme) | 1 / 1 |
+| [m3hd1](authors/m3hd1/README.md) | m3hd1 | 1 (half-twins) | 1 / 1 |
 | [bkamp](authors/bkamp/README.md) | Bkamp | 1 (glow wine [keygen practice]) | 1 / 1 |
 | [exxtra12](authors/exxtra12/README.md) | Exxtra12 | 1 (Ext.challenges) | 1 / 1 |
 | [raphiolet](authors/raphiolet/README.md) | raphiolet | 1 (mgdilolmsoamasiug) | 1 / 1 |
@@ -336,6 +337,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-17 | [half-twins](authors/m3hd1/5dce805c33c5d419aa0131ae/) | m3hd1 |
 | 2026-10-17 | [glow wine [keygen practice]](authors/bkamp/5df26b4033c5d419aa013362/) | Bkamp |
 | 2026-10-17 | [Ext.challenges](authors/exxtra12/5dfd77a833c5d419aa013406/) | Exxtra12 |
 | 2026-10-17 | [Crackme-4](authors/d4rkfl0w/5e0fa43b33c5d419aa01351e/) | D4RKFL0W |

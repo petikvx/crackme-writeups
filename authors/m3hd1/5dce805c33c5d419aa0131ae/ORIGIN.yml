@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5dce805c33c5d419aa0131ae
+
+urls:
+  page: https://crackmes.one/crackme/5dce805c33c5d419aa0131ae
+  download: https://crackmes.one/download/crackme/5dce805c33c5d419aa0131ae
+
+title: "m3hd1's half"
+author_on_site: "m3hd1"
+author_local: "m3hd1"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/half-twins"
+  name: "half-twins"
+  sha256: "52770c081aa1f92f97c5fc32640a80ad922547224794d8197cf2c77689127e5c"
+  md5: "07f8e553219d2c29337944f0beb9f0d4"
+  size_bytes: 16592
+
+status: solved
+solution_summary: "len(abby)==len(gabby)>6 paire ; 1ere moitie identique, 2eme moitie toute differente (compteur non reinitialise entre les deux boucles) -> abcdwxyz/abcdWXYZ"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T15:18:12Z"
