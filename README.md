@@ -161,6 +161,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [kryptos](authors/kryptos/README.md) | Kryptos | 1 (Hecate) | 1 / 1 |
 | [marco007](authors/marco007/README.md) | marco007 | 2 (time based riddle + simple crackme) | 2 / 2 |
 | [sftmlg](authors/sftmlg/README.md) | sftmlg | 1 (Quite a simple crackme) | 1 / 1 |
+| [eventhorizon02](authors/eventhorizon02/README.md) | eventhorizon02 | 1 (super_easy) | 1 / 1 |
 | [raphdev](authors/raphdev/README.md) | RaphDev | 1 (PleaseCrackMe) | 1 / 1 |
 | [bueb810](authors/bueb810/README.md) | bueb810 | 1 (gugus the first) | 1 / 1 |
 | [mrempy](authors/mrempy/README.md) | MrEmpy | 1 (TryCrackMe) | 1 / 1 |
@@ -313,6 +314,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-17 | [super_easy](authors/eventhorizon02/611e9bfb33c5d45db85dc2d7/) | eventhorizon02 |
 | 2026-10-17 | [PleaseCrackMe](authors/raphdev/612e85d833c5d41acedffa4f/) | RaphDev |
 | 2026-10-17 | [gugus the first](authors/bueb810/61e9983133c5d413767ca5ac/) | bueb810 |
 | 2026-10-17 | [TryCrackMe](authors/mrempy/61c8deff33c5d413767ca0ea/) | MrEmpy |

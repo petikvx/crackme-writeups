@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 611e9bfb33c5d45db85dc2d7
+
+urls:
+  page: https://crackmes.one/crackme/611e9bfb33c5d45db85dc2d7
+  download: https://crackmes.one/download/crackme/611e9bfb33c5d45db85dc2d7
+
+title: "eventhorizon02's super_easy"
+author_on_site: "eventhorizon02"
+author_local: "eventhorizon02"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/linux_64_bit"
+  name: "linux_64_bit"
+  sha256: "cc8163e9f82317c395bda93cafbc6d394b407775ff0fac7c65e05b60685cc959"
+  md5: "65489b29497580dd8590e6eb70b8522d"
+  size_bytes: 8544
+
+status: solved
+solution_summary: "code = argv[1], longueur %3==0 et valeur premiere (ex. 101 -> flag{101})"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T10:12:38Z"

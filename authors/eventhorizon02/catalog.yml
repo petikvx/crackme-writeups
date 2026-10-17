@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  611e9bfb33c5d45db85dc2d7:
+    sha256: "cc8163e9f82317c395bda93cafbc6d394b407775ff0fac7c65e05b60685cc959"
+    path: "authors/eventhorizon02/611e9bfb33c5d45db85dc2d7/original/linux_64_bit"
+    title: "eventhorizon02's super_easy"
+
+by_sha256:
+  cc8163e9f82317c395bda93cafbc6d394b407775ff0fac7c65e05b60685cc959:
+    id: 611e9bfb33c5d45db85dc2d7
+    path: "authors/eventhorizon02/611e9bfb33c5d45db85dc2d7/original/linux_64_bit"
+    page: https://crackmes.one/crackme/611e9bfb33c5d45db85dc2d7
