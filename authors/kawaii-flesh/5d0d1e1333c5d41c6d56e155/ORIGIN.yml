@@ -1,0 +1,35 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5d0d1e1333c5d41c6d56e155
+
+urls:
+  page: https://crackmes.one/crackme/5d0d1e1333c5d41c6d56e155
+  download: https://crackmes.one/download/crackme/5d0d1e1333c5d41c6d56e155
+
+title: "kawaii-flesh's Simple crackme"
+author_on_site: "kawaii-flesh"
+author_local: "kawaii-flesh"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme"
+  name: "crackme"
+  sha256: "193b2f71045b4aa509d2a0d9564f05602418ff0c3b343c4af98121d5bf45a424"
+  note: "extrait de original/crackme.7z (pas de mot de passe) ; 7z supprime apres extraction."
+
+status: solved
+solution_summary: "3 chaines hash-like, une seule reellement decodee (XOR 3) et comparee -> bd4c217637bc828982c090b2de41b84d"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T15:38:09Z"
