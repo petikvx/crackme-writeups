@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6617d3a5cddae72ae250c556
+
+urls:
+  page: https://crackmes.one/crackme/6617d3a5cddae72ae250c556
+  download: https://crackmes.one/download/crackme/6617d3a5cddae72ae250c556
+
+title: "AnanasCharles's Authorize by PIN"
+author_on_site: "AnanasCharles"
+author_local: "ananascharles"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/authorize"
+  name: "authorize"
+  sha256: "d454043736ee996dc6f63de011ec78070a13c5808210163a70e6f5b38c952e0c"
+  md5: "1cc4beae66a1c5b24af382bd9619147c"
+  size_bytes: 20456
+
+status: solved
+solution_summary: "PIN = 3991 (decode_pin = digit-5 mod 10 -> 8446) ; flag JCTF{3nC0D1nG_15_FuN} = decode_string(enc, PIN)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T06:27:38Z"

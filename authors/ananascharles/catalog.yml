@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6617d3a5cddae72ae250c556:
+    sha256: "d454043736ee996dc6f63de011ec78070a13c5808210163a70e6f5b38c952e0c"
+    path: "authors/ananascharles/6617d3a5cddae72ae250c556/original/authorize"
+    title: "AnanasCharles's Authorize by PIN"
+
+by_sha256:
+  d454043736ee996dc6f63de011ec78070a13c5808210163a70e6f5b38c952e0c:
+    id: 6617d3a5cddae72ae250c556
+    path: "authors/ananascharles/6617d3a5cddae72ae250c556/original/authorize"
+    page: https://crackmes.one/crackme/6617d3a5cddae72ae250c556
