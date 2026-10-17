@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  60f31f1d33c5d42814fb3381:
+    sha256: "3523080b6900152114639a8f15fda64f0336234258fb8d6d902f9f5eba842194"
+    path: "authors/mkesenheimer/60f31f1d33c5d42814fb3381/original/forest"
+    title: "MKesenheimer's Forest"
+
+by_sha256:
+  3523080b6900152114639a8f15fda64f0336234258fb8d6d902f9f5eba842194:
+    id: 60f31f1d33c5d42814fb3381
+    path: "authors/mkesenheimer/60f31f1d33c5d42814fb3381/original/forest"
+    page: https://crackmes.one/crackme/60f31f1d33c5d42814fb3381

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 60f31f1d33c5d42814fb3381
+
+urls:
+  page: https://crackmes.one/crackme/60f31f1d33c5d42814fb3381
+  download: https://crackmes.one/download/crackme/60f31f1d33c5d42814fb3381
+
+title: "MKesenheimer's Forest"
+author_on_site: "MKesenheimer"
+author_local: "mkesenheimer"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/forest"
+  name: "forest"
+  sha256: "3523080b6900152114639a8f15fda64f0336234258fb8d6d902f9f5eba842194"
+  md5: "7f7aeb697dbdeda0a067408230554905"
+  size_bytes: 16296
+
+status: solved
+solution_summary: "flag = redridinghood (buf[0]=r, buf[1]%10==1, sqrt(buf[2])*5==50, buf[3] libre, buf[4..12]=idinghood)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T12:36:07Z"
