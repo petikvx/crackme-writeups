@@ -272,7 +272,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [lubimpiskoty](authors/lubimpiskoty/README.md) | LubimPiskoty | 1 (Personal Safe) | 1 / 1 |
 | [bagolymadar](authors/bagolymadar/README.md) | bagolymadar | 1 (virtual.1) | 1 / 1 |
 | [bitfriends](authors/bitfriends/README.md) | BitFriends | 2 (nasm crack) | 2 / 2 |
-| [binarynewbie](authors/binarynewbie/README.md) | BinaryNewbie | 1 (Small Keygenme) | 1 / 1 |
+| [binarynewbie](authors/binarynewbie/README.md) | BinaryNewbie | 2 (Small Keygenme) | 2 / 2 |
 | [weissi1994](authors/weissi1994/README.md) | weissi1994 | 1 (crackme-not) | 1 / 1 |
 | [2bitsin](authors/2bitsin/README.md) | 2bitsin | 1 (Secret message from a traveller) | 1 / 1 |
 | [fentcat](authors/fentcat/README.md) | FentCat | 1 (Assembler Crackme) | 1 / 1 |
@@ -339,6 +339,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-17 | [Simple obfuscation](authors/binarynewbie/5d6da7bc33c5d46f00e2c3a3/) | BinaryNewbie |
 | 2026-10-17 | [alien_bin](authors/totothetoro/5d78168833c5d46f00e2c428/) | totothetoro |
 | 2026-10-17 | [easy keyg3nme](authors/ezman/5da31ebc33c5d46f00e2c661/) | ezman |
 | 2026-10-17 | [half-twins](authors/m3hd1/5dce805c33c5d419aa0131ae/) | m3hd1 |

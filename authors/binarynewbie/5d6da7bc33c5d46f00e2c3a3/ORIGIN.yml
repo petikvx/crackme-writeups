@@ -1,0 +1,35 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5d6da7bc33c5d46f00e2c3a3
+
+urls:
+  page: https://crackmes.one/crackme/5d6da7bc33c5d46f00e2c3a3
+  download: https://crackmes.one/download/crackme/5d6da7bc33c5d46f00e2c3a3
+
+title: "BinaryNewbie's Simple obfuscation"
+author_on_site: "BinaryNewbie"
+author_local: "binarynewbie"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/cr4ckme/crackme"
+  name: "crackme"
+  sha256: "d94fe502df5e9134fe4b0ae04971459eb196d53b7d72bb3bfd524f7c682216d3"
+  note: "extrait de original/cr4ck.tar.gz (cr4ckme/crackme + cr4ckme/flag.zip, protege par la cle elle-meme) ; tar.gz supprime apres extraction. Source + flag fournis par l'auteur, dechiffres avec la cle trouvee, deplaces en original/source/."
+
+status: solved
+solution_summary: "verify_key : abcdefghij transforme par swaps en jcdefghiab, equation finale exige match total -> jcdefghiab (meme cle dechiffre flag.zip -> FL4G{Ass1st4nt_Pr0f3ss0r})"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T15:26:06Z"
