@@ -133,7 +133,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [simbahdd](authors/simbahdd/README.md) | SimbaHDD | 1 (CRACKME) | 1 / 1 |
 | [tdaron](authors/tdaron/README.md) | tdaron | 1 (Use your brain) | 1 / 1 |
 | [pipedown](authors/pipedown/README.md) | pipedown | 1 (I need to be honest) | 1 / 1 |
-| [jeffli6789](authors/jeffli6789/README.md) | jeffli6789 | 5 (wallpaper + x86 + Maze + Orbit Fold + Date of Birth) | 5 / 5 |
+| [jeffli6789](authors/jeffli6789/README.md) | jeffli6789 | 6 (wallpaper + x86 + Maze + Orbit Fold + Date of Birth) | 6 / 6 |
 | [cr-ck_god001](authors/cr-ck_god001/README.md) | Cr@ck_God001 | 1 (Crackme GUI) | 1 / 1 |
 | [neoncarrot](authors/neoncarrot/README.md) | neoncarrot | 1 (Find the correct key!) | 1 / 1 |
 | [cosmosss](authors/cosmosss/README.md) | CosmoSSS | 1 (Password Very Easy) | 1 / 1 |
@@ -327,6 +327,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-17 | [bubbly](authors/jeffli6789/5f00a02533c5d4285070947a/) | jeffli6789 |
 | 2026-10-17 | [simple overflow](authors/bitfriends/5f05ec3c33c5d42a7c66792b/) | BitFriends |
 | 2026-10-17 | [Crack_5](authors/d4rkfl0w/5f0998cb33c5d42a7c667974/) | D4RKFL0W |
 | 2026-10-17 | [Just crackme](authors/tynkute/5fa2cdce33c5d424269a1740/) | tynkute |

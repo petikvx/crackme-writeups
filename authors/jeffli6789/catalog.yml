@@ -25,6 +25,11 @@ by_id:
     path: "authors/jeffli6789/5f4efbb133c5d4357b3b00a0/original/date_of_birth"
     title: "jeffli6789's Date of Birth"
 
+  5f00a02533c5d4285070947a:
+    sha256: "4f31749483e71f76c0efa867c505a37fb8198d923b3d557e431ace9bc7d26ec5"
+    path: "authors/jeffli6789/5f00a02533c5d4285070947a/original/main"
+    title: "jeffli6789's bubbly"
+
 by_sha256:
   7526418ecada66780062b7f6ca7205c4540d6e2800fc994a4d02f75ae4b2b673:
     id: 69a2911b7a778cfffbfb67ca
@@ -46,3 +51,7 @@ by_sha256:
     id: 5f4efbb133c5d4357b3b00a0
     path: "authors/jeffli6789/5f4efbb133c5d4357b3b00a0/original/date_of_birth"
     page: https://crackmes.one/crackme/5f4efbb133c5d4357b3b00a0
+  4f31749483e71f76c0efa867c505a37fb8198d923b3d557e431ace9bc7d26ec5:
+    id: 5f00a02533c5d4285070947a
+    path: "authors/jeffli6789/5f00a02533c5d4285070947a/original/main"
+    page: https://crackmes.one/crackme/5f00a02533c5d4285070947a

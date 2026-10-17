@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5f00a02533c5d4285070947a
+
+urls:
+  page: https://crackmes.one/crackme/5f00a02533c5d4285070947a
+  download: https://crackmes.one/download/crackme/5f00a02533c5d4285070947a
+
+title: "jeffli6789's bubbly"
+author_on_site: "jeffli6789"
+author_local: "jeffli6789"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/main"
+  name: "main"
+  sha256: "4f31749483e71f76c0efa867c505a37fb8198d923b3d557e431ace9bc7d26ec5"
+  md5: "eb2e85efcfed2d773f743d11d257aa03"
+  size_bytes: 6216
+
+status: solved
+solution_summary: "main attend des index de swap adjacent (scanf) sur un tableau fige de 20 entiers, verifie si trie -> sequence bubble-sort = reponse"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T14:34:46Z"
