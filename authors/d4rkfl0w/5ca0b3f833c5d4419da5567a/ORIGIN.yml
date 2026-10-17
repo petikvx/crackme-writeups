@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ca0b3f833c5d4419da5567a
+
+urls:
+  page: https://crackmes.one/crackme/5ca0b3f833c5d4419da5567a
+  download: https://crackmes.one/download/crackme/5ca0b3f833c5d4419da5567a
+
+title: "D4RKFL0W's Crack3"
+author_on_site: "D4RKFL0W"
+author_local: "d4rkfl0w"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crack3-by-D4RK_FL0W"
+  name: "crack3-by-D4RK_FL0W"
+  sha256: "5f424cea423fcec30c22bd3c351879700935734a108ad14ac68bb51d733dae1e"
+  md5: "d1ae6b19f9666650a21e5876dd38f225"
+  size_bytes: 17976
+
+status: solved
+solution_summary: "get_digit() = additionneur bit-serie applique a 4 tableaux fixes p1..p4 -> code 3674"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T18:02:27Z"
