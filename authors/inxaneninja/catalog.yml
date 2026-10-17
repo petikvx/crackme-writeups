@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5c8d45c333c5d4776a837ec2:
+    sha256: "229dc8a90ec1d1090ff749c1a90213bff1576198eb2ec0e0dca3361dbf412b81"
+    path: "authors/inxaneninja/5c8d45c333c5d4776a837ec2/original/license.zip"
+    title: "inxaneninja's Keygen Practice"
+
+by_sha256:
+  229dc8a90ec1d1090ff749c1a90213bff1576198eb2ec0e0dca3361dbf412b81:
+    id: 5c8d45c333c5d4776a837ec2
+    path: "authors/inxaneninja/5c8d45c333c5d4776a837ec2/original/license.zip"
+    page: https://crackmes.one/crackme/5c8d45c333c5d4776a837ec2

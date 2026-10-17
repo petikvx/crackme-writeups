@@ -161,6 +161,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [kryptos](authors/kryptos/README.md) | Kryptos | 1 (Hecate) | 1 / 1 |
 | [marco007](authors/marco007/README.md) | marco007 | 2 (time based riddle + simple crackme) | 2 / 2 |
 | [sftmlg](authors/sftmlg/README.md) | sftmlg | 1 (Quite a simple crackme) | 1 / 1 |
+| [inxaneninja](authors/inxaneninja/README.md) | inxaneninja | 1 (Keygen Practice) | 1 / 1 |
 | [loz](authors/loz/README.md) | Loz | 2 (Password Login 2) | 2 / 2 |
 | [m00ny](authors/m00ny/README.md) | m00ny | 1 (am i really random?) | 1 / 1 |
 | [novn91](authors/novn91/README.md) | novn91 | 1 (crackmepal) | 1 / 1 |
@@ -348,6 +349,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-17 | [Keygen Practice](authors/inxaneninja/5c8d45c333c5d4776a837ec2/) | inxaneninja |
 | 2026-10-17 | [Easy_firstCrackme-by-D4RK_FL0W](authors/d4rkfl0w/5c8e1a9533c5d4776a837ecf/) | D4RKFL0W |
 | 2026-10-17 | [Password Login](authors/loz/5c90a72d33c5d4776a837f07/) | Loz |
 | 2026-10-17 | [de_tcrack1](authors/paypain/5c9d9eea33c5d4419da55641/) | paypain |

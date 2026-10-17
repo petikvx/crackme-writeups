@@ -1,0 +1,35 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5c8d45c333c5d4776a837ec2
+
+urls:
+  page: https://crackmes.one/crackme/5c8d45c333c5d4776a837ec2
+  download: https://crackmes.one/download/crackme/5c8d45c333c5d4776a837ec2
+
+title: "inxaneninja's Keygen Practice"
+author_on_site: "inxaneninja"
+author_local: "inxaneninja"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/license"
+  name: "license"
+  sha256: "27595634a8dc7528dac6268f36b71df087f55d7f362121033c03160949d0867c"
+  note: "original/license.zip (mot de passe interne : crackmes.one, different du mdp de l'archive crackmes.one externe) extrait via 7z -p'crackmes.one' (unzip refusait : 'need PK compat. v5.1') ; zip supprime apres extraction."
+
+status: solved
+solution_summary: "sum(ord(c))*len(pw)^2==52650 ; 9 caracteres, somme=650 -> HHHHHHHHJ"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T18:12:07Z"
