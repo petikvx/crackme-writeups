@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2de
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2de
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2de
+
+title: "crackmes.de's orcs236_crackme by orcs236"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "AutoIt v3.1 (en-tête EA04, UPX 1.25), loader + script interne"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme.zip"
+  name: "crackme.zip"
+  sha256: "c9dd26de3e470d45547081820fd4fae91b4963fe0462f202b2dd34af22c0d1fe"
+  md5: "746aac8c3f4e9af4a8cfa8e9747b73a8"
+  size_bytes: 370367
+
+status: solved
+solution_summary: "Loader AutoIt qui FileInstall un 2e exe AutoIt 3.1 (EA04, non géré par autoit-ripper) ; script lu dans la mémoire du processus sous wine ; serial = _StringEncrypt(1, _StringToHex(nom), nom, 3)[len-60:len-5] (nom doublé si 1 caractère) ; petik → 9AE46FBD6B8492333F2B3BF5B7A8F33DA30E35FF2E46622BC3E8620"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T02:49:43Z"

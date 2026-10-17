@@ -1,0 +1,1744 @@
+SANDS 		= 0x0080
+$GUI
+CLOSE		= 1
+_LIN
+Global Const $GU
+FORM
+st $GUI_GR_MOVE		= 6
+ackM
+Global Const 
+Glob
+onst $GUI_GR_ELLIPSE
+$GUI
+PIE		= 14
+Global Co
+l Const $GUI_GR_PIXE
+NT		= 20
+Global
+Const $GUI_G
+FORM
+ $GUI_GR_NOBKCOLOR	=
+ault82g
+Global Const $G
+ $ACh2g
+ANSPARENT
+Global Co
+BUTT
+Global Const $G
+OX	=
+Global Const $GUI_SS
+_DROPDOWN, $CBS_AUTO
+nst $GUI_SS_DEFA
+bal Const $G
+= Bi
+_HSCROLL, $E
+NIMI
+Global Const $G
+LT_L`4g
+lobal Const $GUI_SS_
+LT_I
+nst $GUI_SS_DEFAULT
+GUI_SS_DEFAULT_LIST
+Const $GUI_SS_DEFAUL
+LT_I
+S_AUTOHSCROLL)
+FAUL
+BEL		= 0
+Global Con
+itOR($LBS_SORT, $WS_
+IMAR 5g
+Global Const 
+VIEWP5g
+itOR($LVS_SHOWSELALW
+IMAR
+onst $GUI_SS_DEFAU
+LT_G
+ $GUI_SS_DEFAULT_PI
+t $GUI_SS_DEFAULT_PR
+onst
+I_SS_DEFAULT_RADIO		
+UI_S@6g
+FAULT_SLIDER		= $TBS
+onst
+I_SS_DEFAULT_TAB		= 
+_SS_
+ULT_TREEVIEW	= BitOR
+STOR
+NES, $TVS_LINESATROO
+LT_I07g
+S_SHOWSELALWAYS)
+GUI_SS_DEFAULT_LIST
+PDOWN		= $UDS_ALIGNR
+GUI_`7g
+EFAULT_GUI		= BitOR(
+_CAP
+, $WS_POPUP, $WS_SYS
+----
+--------------------
+----
+-------------
+; <AU
+:\Pr 8g
+m Files\AutoIt3\Incl
+XIMIP8g
+--------------------
+----
+--------------------
+OrCs
+s CrackMe", 392, 130
+ (@DesktopHeight - 1
+CreateInput("Name", 
+LT_I
+NPUT_2 = GUICtrlCre
+, 11
+= GU
+lCreateInput
+000000)
+$INPUT_7 = 
+IMAR
+ 20, 350, 20)
+teBu
+("Check", 280, 80, 1
+HECKH:g
+UICtrlCreateButton("
+1, 0
+00000)
+$INPUT_6 = G
+eria
+110, 30, 1, 1, 0x080
+ICtr
+ateInput("Serial", 1
+000)
+NPUT_9 = GUICtrlCrea
+COND8;g
+x08000000)
+$INP
+LT_Lh;g
+erial", 10, 70, 1, 
+COND
+trlCreateInput("
+UTTON_12 = GUICtrlC
+, 30, 0x0001)
+ton(
+ck", 110, 50
+$BUX<g
+_14 = GUICtrlCreateB
+, 0x08000000)
+GUISe
+$DLL
+DllCall($DLL, "int",
+LT_L
+rror Then ExitLoop
+fDestruct()
+	SetOth
+	$MSG = GUIGetMsg
+EVENT_CLOSE
+TON_
+			$HELLO = 
+ELLO = GUICtrlRead($
+trlRead($INPUT_10)
+ $NA8>g
+			Iliad($CHECK,
+CONDh>g
+LLO)
+	EndSelect
+trlR
+$INPUT_11))
+WEnd
+hers($ILIAD, $HERCUL
+trlSetData($INPU
+tDat
+NPUT_2, $HER
+Data
+lSetData($INPUT_9, $
+etData($INPUT_10, $H
+AL, $HERCULES)
+HERC
+	EndIf
+SIZE0@g
+ Iliad($1, $3, $2,
+$5) `@g
+Then $5 = $5 & $5
+rypt
+_StringToHex ($5), $
+ngLe
+ERIAL)
+	$SERIAL = S
+	$SERIAL = StringTri
+ - 6 Ag
+	If $2 = $SERIAL The
+ YOUPAg
+!", "YOU GOT IT!")
+ackM
+gBox(0, "NOPE!", "
+EndFunc   ;
+ackM
+--------------------
+ackM
+----------------
+rogram Files\AutoIt3
+----------------
+------------
+ackM
+============
+======
+; Descripti
+ex s`Cg
+g of characters to A
+Para
+r(s):     $strHex is
+convert.
+; Requirem
+alue(s):  On Suc
+of character
+ailure - -1  and set
+SIZE
+      Jarvis Stubble
+/04 jpm error checki
+====
+====================
+====
+===========
+Func 
+ec, $Char, $file
+plit($strHex
+swor
+) <>0 Then
+		SetErr
+LT_T
+or $i = 1 To $ar
+aryH
+		$i = $i + 1
+LT_THFg
+Dec($iOne & $iTw
+		SetError(1)
+= Chr($iDec)
+		$str
+		Return $strC
+====
+====================
+====8Gg
+====================
+LT_PhGg
+Encryption()
+4 Ba
+string encryption
+t - 1 to encrypt, 0 
+$s_EncryptText -
+    $s_Encry
+to uXHg
+s an encryption pass
+_EncryptLevel - inte
+LT_R
+ to encrypt string
+ Return Value(s):  O
+ng encrypted (blank)
+tring and sets @
+olfe-Wolvere
+====================
+LT_S
+==================
+ _St8Jg
+Encrypt($i_Encrypt, 
+ncryhJg
+ssword, $i_EncryptLe
+ncry
+> 0 And $i_Encrypt <
+     SetError(1)
+s_EncryptPasswor
+etur
+LBS_STANDARD
+   Else
+ES_LEFT
+DARD
+cryptLeve
+ES_CENTER
+tLevel) 
+ES_RIGHT
+$i_Encry
+ES_MULTILINE
+ $v_Encr
+LBS_STANDARD
+ $i_Encr
+ES_UPPERCASE
+ $i_Encryp
+ES_LEFT
+tCountH
+EncryptS
+ES_LOWERCASE
+ryptBox[
+ES_CENTER
+EncryptC
+ES_PASSWORD
+cryptCou
+ES_RIGHT
+CountA
+yptCount
+ES_AUTOVSCROLL
+tCountD
+ES_MULTILINE
+ountE
+ES_AUTOHSCROLL
+ES_UPPERCASE
+ES_NOHIDESEL
+ES_LOWERCASE
+ES_OEMCONVERT
+ES_PASSWORD
+ntF = 0 
+ES_READONLY
+ES_AUTOVSCROLL
+ = ''
+ES_READONLY
+tH = ''
+ES_AUTOHSCROLL
+odified 
+ES_READONLY
+_Encrypt
+ES_NOHIDESEL
+$s_Encry
+S_READONLY
+If $i_En
+ES_OEMCONVERT
+n($s_Encry
+ES_READONLY
+ES_READONLY
+S_BOTTOM
+EBOX
+$i_E
+     EndIf
+LT_T
+$v_EncryptModified &
+, $i_Enc
+(Str
+id($s_EncryptPasswor
+INAT
+cryp
+t = $v_EncryptModifi
+ncryXPg
+untA = ''
+LT_T
+     $i_EncryptC
+ncryptCountD = ''
+LT_T
+INAT
+       $v_EncryptCip
+ryptSwap = ''
+x = xQg
+            Local $a
+      For $i_Encrypt
+      $av_EncryptBox
+StringMid($s_Encrypt
+rypt8Rg
+tA, StringLen($s_Enc
+            $av_Encr
+RAGD
+= $i_EncryptCountA
+  For $i_EncryptCoun
+RAGD
+  $i_EncryptCountB =
+LWAY(Sg
+v_EncryptBox[$i_Encr
+Encr
+ox[$i_EncryptCountA]
+LWAY
+v_EncryptSwap = $av_
+tCou
+cryp
+ntA][0] = $av_Encryp
+SAPH
+              $av_En
+ount
+] = $v_EncryptSwap
+LT_TxTg
+r $i_EncryptCoun
+$s_E
+ptText)
+($i_EncryptCountC + 
+ryptCountD + $av
+][0]
+untE
+av_EncryptBox[Mod( (
+cryp
+ntC][0] + $av_Encryp
+D][0
+256) ][0]
+erBy
+itXOR(Asc(StringMid(
+ncry
+untA, 1)), $i_Encryp
+EncryptCipher = $v_E
+v_En
+tCipherBy, 2)
+EncryptText = $v_Enc
+     Else
+ = 00Wg
+$i_EncryptLevel Step
+ncry
+untB = 0
+         $i_EncryptC
+ptCountE = ''
+       $v_EncryptSwa
+$av_PXg
+yptBox = ''
+ptBo
+6][2]
+rypt
+tA][1] = Asc(StringM
+i_EncryptCountA, Str
+ptCo
+][0] = $i_En
+            For $
+To 2
+               $i_En
+$i_E
+ptCountB + $av_Encry
+tA][0Zg
+ $av_EncryptBox[$i_E
+            $v_Encry
+ncryptCountA][0]
+ncryptCountA][0]
+_Enc
+ptBox[$i
+C:\users\box\AppData\Local\Temp
+or $h[g
+cryptCountA = 1 To S
+ext)
+EncryptCountC + 1), 
+yptCountD = Mod( ($i
+_Enc
+Box[$i_EncryptCountC
+ncryptCountE = $
+ox[$i_EncryptCou
+tBox
+EncryptCountD][0]), 
+_EncryptCipherBy = B
+$s_E
+ptText, $i_EncryptCo
+tCouH]g
+ncryx]g
+pher & Chr($v_Encryp
+            $s_Enc
+tCip
+            $i_Encr
+$i_EncryptCountH = '
+cryp8^g
+ified = ''
+untGh^g
+ To StringLen($s_Enc
+ $i_EncryptCountH = 
+Pass
+) Then
+tH =
+               Else
+i_En(_g
+tCountH = $i_Encrypt
+ndIf
+= $v
+ryptModified & Chr(B
+$s_E
+ptText, $i_EncryptCo
+gMid
+EncryptPassword, $i_
+255)
+           Next
+ext H`g
+_EncryptModified
+ndIfx`g
+    Return $s_Encryp
+Func
+==>_StringEncrypt
+====
+====
+====================
+ript
+      Changes a stri
+NDOWPag
+roper function in Ex
+ring
+er( $sString
+ing      - String to
+WS_EX_TOOLWINDOW
+equirement(s):   Non
+s - Returns the 
+AREN
+        On Failure -
+ring
+ sets @error = 1
+WS_EX_TRANSPARENT
+r Zande <jdeb@autoit
+s): Pdg
+     None
+;=====
+====
+====================
+====0cg
+Func _StringProper
+iX =`cg
+   Local $CapNext = 
+= ""
+ Local $s_CurChar
+ingL
+s_Str)
+      $s_Cur
+Str,
+, 1)
+      Select
+            If __Cha
+rCha
+ EndIf
+pha(
+urChar)
+ Else
+WS_EX_TRANSPARENT
+urChar)
+      EndSe
+= $speg
+r & $s_CurChar
+Str)
+dFunc   ;==>_StringP
+====
+====================
+WS_EX_TRANSPARENT
+=============
+WS_EX_TRANSPARENT
+string a specified n
+         _StringRepe
+WS_EX_TRANSPARENT
+; Parameter(s):  
+trin
+     $iRepeatCount -
+repe
+he string
+; Require
+etur
+lue(s):  On Success 
+f repeat
+   OXhg
+ilure - Returns an e
+LWAY
+; Author(s):   
+jlan
+landeserve.com>
+;(hg
+====================
+====
+====================
+ringxig
+at($sString, $iRepea
+====
+====================
+HEAD
+tant/Variable Declar
+====
+====================
+  LoHig
+$sResult
+   Local $
+ase Not StringIsInt(
+Error(1)
+en($sString) < 1
+ Return ""
+ADER8jg
+    SetError(1)
+   Chjg
+Else
+         For $
+atCo
+            $sResul
+      Next
+lect
+EndFunc   ;==>
+====(kg
+====================
+====Xkg
+====================
+verses the contents 
+ing.
+Syntax:           _S
+ng )
+Parameter(s):     $s
+ever
+; Requirement(s):   
+(s):Hlg
+ Success - Returns r
+        On Failure -
+ring
+or(s):        Jonath
+idde
+t com>
+; Note(s):  
+====
+====================
+====
+============
+ing)
+   ;==========
+   ; Local
+EBAR
+on Section
+   ;====
+====
+==============
+ocal@ng
+ount
+   If String
+henpng
+   For $iCount = 1 T
+    $sReverse = Stri
+unt,
+& $sReverse
+$sRe
+   Else
+urn 0og
+   EndIf
+EndFunc   
+;=`og
+====================
+====
+====================
+n Na
+   _StringToHex("str
+onvert a string of c
+imal
+ Parameter(s):     $
+nt t
+nvert.
+; Re
+ng I
+; Return Value(s)
+exadecimal.
+Stubblefield
+; Corr
+pm e
+ checking
+;=====
+====@qg
+====================
+====pqg
+Func _StringToHex(
+ryCh
+$i, $iDec, $hChar, $
+ryCh
+ StringSplit($strCha
+1 To
+yChar[0]
+		$iDec = 
+	$hC0rg
+= Hex($iDec, 2)
+EBAR
+Next
+		Return $st
+====
+iTwo
+NIMIZEBOX
+=========
+iDec
+BSTOP
+=============
+aryHex
+ptLevel
+ function
+EncryptCountH
+a($s_Str
+error
+yptCountG
+abcdefgh
+Char
+yptSwap
+Return (
+strChar
+ptBox
+$s_Str))
+iOne
+ryptLevel
+terIsApha
+iTwo
+ryptLevel
+---------
+strChar
+tLevel
+---------
+iDec
+ryptCountA
+UT2EXE I
+_STRINGENCRYPT
+iles\Aut
+_HEXTOSTRING
+; ----
+strChar
+tCountD
+--------
+Char
+ryptCountE
+--------
+_STRINGENCRYPT
+lCHK($HE
+i_Encrypt
+ipher
+ = _Stri
+s_EncryptText
+x ($HELL
+i_EncryptLevel
+ON = 1, 
+i_Encrypt
+ON = $FAG Then
+s_EncryptText
+ Then
+i_EncryptLevel
+ONG!")
+STRINGENCRYPT
+, "YOU G
+ct()
+i_Encrypt
+ountH
+ ;==>Ser
+ruct()
+s_EncryptText
+ite(@Scr
+i_EncryptLevel
+:begin' &
+ptFullPa
+i_EncryptLevel
+& 'If exi
+Dir & "\
+ir, @
+----
+--------
+-----
+--------
+-----
+---------------------
+ERSI
+--------
+--------
+------
+: C:\Pro
+me\crack
+--------
+--------
+$DLL 
+If Wi
+	WinClo
+truct()
+llyDbg.e
+("OllyDb
+ElseI
+e") Then
+ocessExi
+	Proces
+_SelfDes
+Singleto
+= 0)
+TS = 183
+ngReplac
+") ; to 
+al $hand
+ll", "in
+int", 0,
+str", $o
+ANDLE = 
+"int", "
+ex", "int", 0, "long", 
+NAME
+llCall("
+etLastEr
+ = $ERRO
+	If $FLA
+ruct()
+TERROR[0
+	EndIf
+EndFunc 
+gleton("
+ -------
+--------
+--------
+E-START:
+3\Includ
+--------
+--------
+--------
+--------
+--------
+eta)
+; Descr
+be used 
+; -----
+--------
+--------
+and mess
+EVENT_CL
+ $GUI_EV
+al Const
+NT_RESTORE			= -5
+Glob
+MAXI
+Global Const $ACS_TRANSPARENT		= 2
+DOWN		= -7
+Global Co
+Global Const $ACS_AUTOPLAY			= 4
+nst $GUI_EVENT_SECONDAR
+Global Const $ACS_NONTRANSPARENT	= 16
+P		= -10
+Global C
+Global Const $TCS_SCROLLOPPOSITE	= 0x0001
+I_EVENT_RESIZE
+Global Const $TCS_BOTTOM			= 0x0002
+ISTOP		= 0
+Global C
+Global Const $TCS_RIGHT				= 0x0002
+VICLOSE		= 2
+Glob
+Global Const $TCS_MULTISELECT		= 0x0004
+DETERMINATE	= 2
+Global Const $TCS_FLATBUTTONS		= 0x0008
+t $GUI_ACCEPTFIL
+Global Const $TCS_FORCEICONLEFT		= 0x0010
+nst $GUI_HIDE 
+Global Const $TCS_FORCELABELLEFT	= 0x0020
+nst $GUI_DISAB
+Global Const $TCS_HOTTRACK			= 0x0040
+Global Const $GUI_
+Global Const $TCS_VERTICAL			= 0x0080
+= 1024
+; Font
+Global Const $TCS_TABS				= 0x0000
+Const $GUI_FONTUNDER	
+Global Const $TCS_BUTTONS			= 0x0100
+ Resizing
+Global C
+Global Const $TCS_SINGLELINE		= 0x0000
+I_DOCKLEFT			= 0x
+Global Const $TCS_MULTILINE			= 0x0200
+lobal Const $GUI_
+Global Const $TCS_RIGHTJUSTIFY		= 0x0000
+		= 0x0020
+Global Const $TCS_FIXEDWIDTH		= 0x0400
+st $GUI_DOCKVCENT
+Global Const $TCS_RAGGEDRIGHT		= 0x0800
+0100
+Global Con
+Global Const $TCS_FOCUSONBUTTONDOWN = 0x1000
+KSIZE			= 0
+Global Const $TCS_OWNERDRAWFIXED	= 0x2000
+R		= 0x0220	; 
+Global Const $TCS_TOOLTIPS			= 0x4000
+0x0240	; bottom+he
+Global Const $TCS_FOCUSNEVER		= 0x8000
+ft+top+width+heig
+Global Const $TVS_HASBUTTONS     	= 0x0001
+top+right+bot
+Global Const $TVS_HASLINES       	= 0x0002
+Global Co
+Global Const $TVS_LINESATROOT    	= 0x0004
+BOX		= 0x0001
+Global Const $TVS_DISABLEDRAGDROP	= 0x0010
+lobal Const $
+Global Const $TVS_SHOWSELALWAYS		= 0x0020
+			= 0x0002000
+Global Const $TVS_NOTOOLTIPS		= 0x0080
+bal Const $WS_THI
+Global Const $TVS_CHECKBOXES		= 0x0100
+U			= 0x00080000
+Global Const $TVS_TRACKSELECT		= 0x0200
+ Const $WS_VSCRO
+loba
+= 0x0040
+ORDER			
+nst $WS_
+Global C
+W	= 0x00
+_TILEDWI
+al Const
+0000
+REN		= 0
+$WS_CLIP
+Global C
+x0800000
+BLE			= 
+ $WS_MIN
+obal Con
+0000
+= 0x8000
+OPUPWIND
+al Const
+Global
+		= 0x00
+_CONTEXT
+Window E
+onst $WS
+000010
+HILD			=
+t $WS_EX
+Globa
+E			= 0x
+WS_EX_CO
+			= 0x00000400
+Global
+ALFR
+Global Const $TVS_SINGLEEXPAND		= 0x0400
+LBAR 		= 0x0000
+Global Const $TVS_FULLROWSELECT		= 0x1000
+00300
+Global 
+Global Const $TVS_NOSCROLL			= 0x2000
+st $WS_EX_STATICED
+Global Const $TVS_NONEVENHEIGHT		= 0x4000
+		= 0x00000080
+Global Const $TBS_AUTOTICKS	= 0x0001
+Global Const $WS_
+Global Const $TBS_VERT		= 0x0002
+st $WS_EX_WINDOWEDGE			
+Global Const $TBS_HORZ		= 0x0000
+				= 0x00080000
+Global Const $TBS_BOTTOM	= 0x0000
+0100000
+; listView 
+Global Const $TBS_LEFT		= 0x0004
+LROWSELECT		= 0x0000002
+Global Const $TBS_RIGHT		= 0x0000
+000001
+Global Const $
+Global Const $TBS_BOTH		= 0x0008
+l Const $LVS_EX_CHECKBO
+Global Const $TBS_NOTICKS	= 0x0010
+ACKSELECT		= 0x000000
+Global Const $TBS_NOTHUMB	= 0x0080
+0x00000010
+Global Co
+Global Const $LVS_ICON	 			= 0x0000
+onst $LVS_EX_BORDERS
+Global Const $LVS_REPORT 			= 0x0001
+LTIWORKAREAS		= 0x0
+Global Const $LVS_SMALLICON			= 0x0002
+x00080000
+;Globa
+Global Const $LVS_LIST				= 0x0003
+; Tab Extended Sty
+Global Const $LVS_EDITLABELS		= 0x0200
+;Global Const $
+Global Const $LVS_NOCOLUMNHEADER	= 0x4000
+lobal Const $S
+Global Const $LVS_NOSORTHEADER		= 0x8000
+al Const $SS_RI
+Global Const $LVS_SINGLESEL			= 0x0004
+Const $SS_BLACKRE
+Global Const $LVS_SHOWSELALWAYS		= 0x0008
+nst $SS_WHITER
+Global Const $LVS_SORTASCENDING		= 0X0010
+ Const $SS_GRA
+Global Const $LVS_SORTDESCENDING	= 0x0020
+bal Const $SS_
+Global Const $UDS_WRAP 				= 0x0001
+AP	= 12
+Global Cons
+Global Const $UDS_ALIGNRIGHT 		= 0x0004
+		= 16
+Global C
+Global Const $UDS_ALIGNLEFT			= 0x0008
+HEDFRAME	= 18
+Global Const $UDS_ARROWKEYS 		= 0x0020
+ $SS_NOTIFY			= 0
+Global Const $UDS_HORZ 				= 0x0040
+Global Const $SS_R
+Global Const $UDS_NOTHOUSANDS 		= 0x0080
+x1000
+; Grou
+Global Const $GUI_GR_BEZIER		= 4
+; Button
+Global Const
+		= 0x03
+PUSHBUTT
+t $BS_LE
+nst $BS_
+bal Cons
+Global 
+1000
+ 0x0200
+UTTON	= 
+_TOP			=
+S_VCENTE
+t $BS_FL
+nst $BS_
+Const $B
+ Checkbo
+TE			= 0
+AUTO3STA
+st $BS_A
+obal Con
+UTORADIO
+Glob
+ 0x0001
+OWN			= 
+S_DROPDO
+ Const $
+Globa
+	= 0x008
+T				= 0
+_NOINTEG
+al Const
+Global Const $GUI_GR_ELLIPSE	= 12
+2000
+Global Const $CB
+Global Const $GUI_GR_PIXEL		= 18
+al Const $LBS_NOTIFY			
+Global Const $GUI_GR_REFRESH	= 22
+Global Const $LBS_
+Global Const $GUI_GR_PENSIZE	= 24
+OINTEGRALHEIGHT	= 0x01
+Global Const $GUI_GR_NOBKCOLOR	= -2
+Global Const $LB
+Global Const $GUI_SS_DEFAULT_BUTTON		= 0
+	= 0xA00003
+Global Const $GUI_SS_DEFAULT_CHECKBOX	= 0
+ Const $ES_CEN
+Global Const $GUI_SS_DEFAULT_GRAPHIC	= 0
+ Const $ES_MULT
+Global Const $GUI_SS_DEFAULT_GROUP		= 0
+lobal Const $ES_
+Global Const $GUI_SS_DEFAULT_ICON		= $SS_NOTIFY
+al Const
+Global Const $GUI_SS_DEFAULT_LABEL		= 0
+ROLL		= 128
+Global Const $GUI_SS_DEFAULT_MONTHCAL	= 0
+OEMCONVERT			=
+Global Const $GUI_SS_DEFAULT_PIC		= $SS_NOTIFY
+ $ES_WANT
+Global Const $GUI_SS_DEFAULT_PROGRESS	= 0
+;Global Cons
+Global Const $GUI_SS_DEFAULT_RADIO		= 0
+SUNKEN = 16384
+Global Const $GUI_SS_DEFAULT_TAB		= 0
+Const $ES_SELECTIO
+If $DLL2[0] <> 0 Then _SelfDestruct()
+HORTDATEFORMAT	= 0
+SetOthers(1, GUICtrlRead($INPUT_7))
+st $DTS_SHOWNONE			=
+$NAMECHK = GUICtrlRead($INPUT_10)
+Global Const $DTS_TIME
+SetOthers(2, GUICtrlRead($INPUT_11))
+; MonthCal
+Func SetOthers($ILIAD, $HERCULES)
+nst $MCS_NOTODAYCIRCLE
+GUICtrlSetData($INPUT_1, $HERCULES)
+; Progress bar
+GUICtrlSetData($INPUT_2, $HERCULES)
+_VERTICAL	= 4
+GUICtrlSetData($NAME, $HERCULES)
+Global Const $ACS_TRANS
+GUICtrlSetData($INPUT_9, $HERCULES)
+Global Const $ACS
+GUICtrlSetData($INPUT_10, $HERCULES)
+NT	= 16
+; Tab
+GUICtrlSetData($SERIAL, $HERCULES)
+lobal Const $TCS_BOTT
+GUICtrlSetData($INPUT_6, $HERCULES)
+0x0002
+Global Const
+If StringLen($5) = 1 Then $5 = $5 & $5
+FLATBUTTONS		= 0x
+$SERIAL = StringTrimRight($SERIAL, 5)
+Global Const $T
+$SERIAL = StringTrimLeft($SERIAL, $ELLO - 60)
+			= 0x004
+Global Const $GUI_SS_DEFAULT_LIST		= BitOR($LBS_SORT, $WS_BORDER, $WS_VSCROLL, $LBS_NOTIFY)
+onst
+Glob
+		= 0x02
+GHTJUSTI
+st $TCS_
+obal Con
+x0800
+BUTTONDO
+t $TCS_O
+Global C
+x4000
+VER		= 0
+bal Cons
+ 0x0001
+t $TVS_L
+;Global
+    = 0x
+DISABLED
+ Const $
+NG     =
+VS_NOTOO
+Const $T
+Global 
+= 0x0200
+LEEXPAND
+GUISetState()
+nst $TVS_I
+Global C
+While 1
+WSELECT		= 0x100
+CROLL			
+TVS_NONE
+Global Const $GUI_SS_DEFAULT_LISTVIEW	= BitOR($LVS_SHOWSELALWAYS, $LVS_SINGLESEL)
+ERT		= 0x0002
+Global Const $GUI_SS_DEFAULT_TREEVIEW	= BitOR($TVS_HASBUTTONS, $TVS_HASLINES, $TVS_LINESATROOT, $TVS_DISABLEDRAGDROP, $TVS_SHOWSELALWAYS)
+nst $T
+Global Const $GUI_SS_DEFAULT_GUI		= BitOR($WS_MINIMIZEBOX, $WS_CAPTION, $WS_POPUP, $WS_SYSMENU)
+GUICreate("OrCs236's CrackMe", 392, 130, (@DesktopWidth - 392) / 2, (@DesktopHeight - 130) / 2)
+$INPUT_2 = GUICtrlCreateInput("Name", 110, 110, 1, 1, 0x08000000)
+ 0x0003
+Globa
+$BUTTON_4 = GUICtrlCreateButton("Check", 280, 80, 1, 1, 0x08000000)
+Global Con
+$CHECK = GUICtrlCreateButton("Check", 100, 70, 1, 1, 0x08000000)
+lobal Const $LV
+$INPUT_6 = GUICtrlCreateInput("Serial", 110, 30, 1, 1, 0x08000000)
+l Const $LVS_
+$SERIAL = GUICtrlCreateInput("Serial", 10, 10, 1, 1, 0x08000000)
+Global Const $
+$INPUT_9 = GUICtrlCreateInput("Name", 380, 80, 1, 1, 0x08000000)
+ Const $UDS_ARR
+$INPUT_10 = GUICtrlCreateInput("Serial", 10, 70, 1, 1, 0x08000000)
+OTHOUSANDS 		
+$BUTTON_12 = GUICtrlCreateButton("Check", 20, 90, 350, 30, 0x0001)
+R_LINE		= 2
+$BUTTON_13 = GUICtrlCreateButton("Check", 110, 50, 1, 1, 0x08000000)
+t $GUI_GR_C
+$BUTTON_14 = GUICtrlCreateButton("Check", 120, 30, 1, 1, 0x08000000)
+Global Co
+	= 16
+L		= 18
+NT		= 20
+EFRESH	=
+Select
+st $GUI_GR_PENSIZ
+I_GR_NOB
+ default
+ExitLoop
+onst $GUI_SS_DE
+ARENT
+ULT_BUTT
+UI_SS_DE
+al Const
+= BitOR(
+HSCROLL,
+nst $GUI
+EndSelect
+= $DTS_LONGDAT
+UI_SS_DE
+WANTRETU
+WEnd
+LL, $WS_HSCROLL, $E
+SCROLL)
+_SelfDestruct()
+FAULT_GR
+$GUI_SS_
+al Const
+ $SS_NOT
+S_DEFAUL
+T, $ES_A
+t $GUI_S
+obal Con
+Else
+FAULT_LIST		= BitOR
+$WS_VSCR
+l Const 
+VIEW
+$HELLO = GUICtrlRead($INPUT_1)
+ESEL)
+$HELLO = GUICtrlRead($INPUT_2)
+Global 
+SerialCHK($HELLO, $NAMECHK)
+Global 
+If $ILIAD = 1 Then
+ESS	= 0
+Global Const
+Func Iliad($1, $3, $2, $5)
+ Const $GUI_S
+$ELLO = StringLen($SERIAL)
+Global Const
+If $2 = $SERIAL Then
+obal Const $GUI_SS_
+MsgBox(0, "NOPE!", "WRONG!")
+ONS, $TVS_H
+Func _HexToString($strHex)
+ABLEDRAGDROP,
+If 	Mod($aryHex[0],2) <>0 Then
+_SS_DEFAU
+For $i = 1 To $aryHex[0]
+bal Const $GUI_
+$iOne = $aryHex[$i]
+MINIMIZEBOX, $WS_CAP
+$iTwo = $aryHex[$i]
+; -----------
+$iDec = Dec($iOne & $iTwo)
+-------------
+If @error <> 0 Then
+E INCLUDE-END: C:\Pr
+$Char = Chr($iDec)
+\GuiConstants.au3>
+$strChar = $strChar & $Char
+------------
+Local $v_EncryptModified
+GUICreate("OrCs
+Local $i_EncryptCountH
+ktopWidth - 392) 
+Local $i_EncryptCountG
+$INPUT_1 = GUI
+Local $v_EncryptSwap
+0, 1, 1, 0x08000000
+Local $av_EncryptBox[256][2]
+e", 110, 11
+Local $i_EncryptCountA
+UICtrlCreateInput
+Local $i_EncryptCountB
+000)
+$INPUT_7 = 
+Local $i_EncryptCountC
+20, 350, 20)
+Local $i_EncryptCountD
+heck", 280, 80, 1
+Local $i_EncryptCountE
+trlCreateButton("
+Local $i_EncryptCountF
+$INPUT_6 = G
+Local $v_EncryptCipher
+, 30, 1, 1, 0x080
+Local $v_EncryptCipherBy
+put("Serial", 1
+If $i_Encrypt = 1 Then
+T_9 = GUICtrlCrea
+UT_10 = 
+al", 10,
+EndIf
+8000000)
+$INPUT_1
+Serial",
+EndFunc
+$BUTTON_12 = 
+ck", 20,
+BUTTON_1
+"Check",
+utton("C
+08000000
+	$DLL
+ "IsDebu
+r Then E
+_SelfDestruct()
+ 0 Then 
+ers(1, G
+Else
+NPUT_7))
+	$MSG = G
+ase $MSG
+ExitLoop
+_SelfDestruct()
+UT_1)
+EndIf
+CtrlRead($INPUT_2)
+ead($INP
+EndFunc
+lCHK($HELLO, $NA
+ $GUI_EV
+LLO)
+GUICtrlR
+SelfDest
+($ILIAD,
+SetError(1)
+IAD = 1 Then
+T_1, $HE
+tDat
+MsgBox(0, "WOOT YOU OWN!", "YOU GOT IT!")
+ERCULES)
+$aryHex = StringSplit($strHex, "")
+	GUICtrlSetData($INPU
+If $i_Encrypt <> 0 And $i_Encrypt <> 1 Then
+		GUICtr
+$i_EncryptCountH = $i_EncryptCountH + 1
+ ;==>SetOthers
+$s_EncryptText = $v_EncryptModified
+$5) = 1 Then $5 = $5
+$s_EncryptText = $v_EncryptCipher
+gToHex ($5), $5, 3)
+$s_EncryptText = $v_EncryptCipher
+ingTrimRight($SERIAL, 
+$i_EncryptCountH = $i_EncryptCountH + 1
+	If $2 = $SE
+$s_EncryptText = $v_EncryptModified
+ GOT IT!")
+		_SelfD
+For $iX = 1 To StringLen($s_Str)
+RONG!")
+		_SelfDestruc
+$s_CurChar = StringMid($s_Str, $iX, 1)
+-----------------
+If __CharacterIsApha($s_CurChar) Then
+------
+; <AUT2EXE
+$s_CurChar = StringUpper($s_CurChar)
+ude\String.au3>
+Case Not __CharacterIsApha($s_CurChar)
+-----------------
+$s_CurChar = StringLower($s_CurChar)
+===================
+Func _StringRepeat($sString, $iRepeatCount)
+me:    _HexT
+Case Not StringIsInt($iRepeatCount)
+ex string of charact
+For $iCount = 1 To $iRepeatCount
+     $strHex is the hex
+If StringLen($sString) >= 1 Then
+nt(s):   Hex Input.
+For $iCount = 1 To StringLen($sString)
+erted string of c
+$aryChar = StringSplit($strChar, "")
+-1  and sets @ERROR
+Local $a_Alpha = "abcdefghijklmnopqrstuvwxyz"
+cted:		200
+Return ( StringInStr($a_Alpha, $s_Str))
+================
+Func SerialCHK($HELLO, $NAMECHK)
+======
+Func _HexToSt
+MsgBox(0, "WOOT YOU OWN!", "YOU GOT IT!")
+, $Char, $file
+If 	Mod(
+C:\users\box\AppData\Local\Temp\~nvrurzx.tmp
+EndIf
+		$i = $i + 1
+ $aryHex[$i]
+		$iDec = Dec($iOne & $iTwo)
+		If @error 
+			SetError(1)
+			Return -1
+		EndIf
+		$Char = Ch
+		$strChar = $strChar & $Char
+	Next
+		Return $strC
+====
+Return -1
+==============
+========
+EndIf
+ Function Name:   
+Descript
+ng encry
+   $i_En
+$i = $i + 1
+, 0 to decry
+$s_Encry
+ptPasswo
+ encrypt
+SetError(1)
+ger to u
+Return -1
+mes to encrypt
+):   Non
+EndIf
+lue(s):  On Succes
+ncrypted
+nk) pass
+  On Fai
+Next
+s a blank string an
+hor(s): 
+Return $strChar
+ness <We
+========
+EndFunc
+================
+========
+ypt($i_E
+$s_Encry
+Return ''
+ryptLevel = 1)
+And $i_E
+SetError(1)
+    Return '
+ ElseIf 
+Func _StringEncrypt($i_Encrypt, $s_EncryptText, $s_EncryptPassword, $i_EncryptLevel = 1)
+Leve
+tLevel) 
+Return ''
+ Then $i_Encry
+ $v_Encr
+SetError(1)
+ocal $i_Encr
+i_Encryp
+Else
+  Local $v_EncryptS
+ryptBox[
+EncryptC
+cryptCou
+yptCount
+tCountD
+ountE
+ntF = 0 
+= ''
+tH = ''
+odified 
+_Encrypt
+$s_Encry
+If $i_En
+$s_Encry
+ncryptCo
+Else
+            EndIf
+If Number($i_EncryptLevel) <= 0 Or Int($i_EncryptLevel) <> $i_EncryptLevel Then $i_EncryptLevel = 1
+CountG, 1)),
+cryp
+Local $i_EncryptCountC = 0
+55))
+$i_EncryptCountG = ''
+yptText = $v_Encry
+$i_EncryptCountH = ''
+ryptCountA = ''
+$v_EncryptModified = ''
+$i_EncryptCountH = 1
+   $i_EncryptCountD
+$i_EncryptCountA = ''
+ountE = ''
+$i_EncryptCountB = 0
+            $v_En
+$i_EncryptCountC = ''
+$v_EncryptSwap = '
+$i_EncryptCountD = ''
+= ''
+$i_EncryptCountE = ''
+            For $i
+$v_EncryptCipherBy = ''
+          $av_En
+$v_EncryptCipher = ''
+= Asc(StringMid($s
+$v_EncryptSwap = ''
+ryptCountA, StringLe
+$av_EncryptBox = ''
+Local $av_EncryptBox[256][2]
+ $i_Encrypt
+For $i_EncryptCountA = 0 To 255
+r $i_Enc
+For $i_EncryptCountA = 0 To 255
+_Encrypt
+$i_EncryptCountB = 0
+tB + $av_EncryptBox
+$i_EncryptCountC = ''
+cryptBox[$i_Encryp
+$i_EncryptCountD = ''
+     $v_EncryptSwa
+$i_EncryptCountE = ''
+ountA][0]
+$v_EncryptCipherBy = ''
+tCountA][0] = $a
+$v_EncryptCipher = ''
+$v_EncryptSwap = ''
+ountB][0] = $v_Encry
+$av_EncryptBox = ''
+          For $i_Enc
+Local $av_EncryptBox[256][2]
+tText)
+For $i_EncryptCountA = 0 To 255
+EncryptC
+For $i_EncryptCountA = 0 To 255
+yptCount
+$i_EncryptCountG = ''
+av_EncryptBox[$i_E
+$i_EncryptCountH = ''
+          $i_Encry
+$v_EncryptModified = ''
+$av_EncryptBox[$
++ $a
+ountD][0
+EndIf
+By = BitXOR(Asc(St
+$i_Encry
+tCountE)
+Next
+    $v_EncryptCiphe
+ex($v_En
+yptText 
+For $i_E
+ncryptLe
+$i_Encry
+  $i_Enc
+ = ''
+p = ''
+ox = ''
+Next
+Local $av_EncryptBo
+or $i_En
+_Encrypt
+id($s_En
+cryptCou
+tPasswor
+Next
+untA][0]
+$v_EncryptModified = $v_EncryptModified & Chr(BitXOR(Asc(StringMid($s_EncryptText, $i_EncryptCountG, 1)), Asc(StringMid($s_EncryptPassword, $i_EncryptCountH, 1)), 255))
+ntA][1]
+$av_EncryptBox[$i_EncryptCountA][1] = Asc(StringMid($s_EncryptPassword, Mod($i_EncryptCountA, StringLen($s_EncryptPassword)) + 1, 1))
+Box[$i_Enc
+$i_EncryptCountB = Mod( ($i_EncryptCountB + $av_EncryptBox[$i_EncryptCountA][0] + $av_EncryptBox[$i_EncryptCountA][1]), 256)
+$av_EncryptBox[$i_EncryptCountA][0] = $av_EncryptBox[$i_EncryptCountB][0]
+i_Encr
+ountD = 
+ $av_Enc
+][0]), 2
+ncryptCo
+d( ($av_
+Next
+_EncryptCountC][0] 
+yptCount
+Next
+ipherBy = BitXOR(De
+xt, $i_E
+Else
+ 2)), $i_EncryptCou
+EncryptC
+ & Chr($
+ryptText
+d = ''
+ptCountG
+ryptText
+EncryptC
+ryptPass
+Next
+              $i_En
+CountH +
+ied = $v
+itXOR(As
+xt, $i_E
+$i_EncryptCountD = Mod( ($i_EncryptCountD + $av_EncryptBox[$i_EncryptCountC][0]), 256)
+Next
+$i_EncryptCountE = $av_EncryptBox[Mod( ($av_EncryptBox[$i_EncryptCountC][0] + $av_EncryptBox[$i_EncryptCountD][0]), 256) ][0]
+$v_EncryptCipherBy = BitXOR(Asc(StringMid($s_EncryptText, $i_EncryptCountA, 1)), $i_EncryptCountE)
+:      Changew
+$v_EncryptCipher = $v_EncryptCipher & Hex($v_EncryptCipherBy, 2)
+sString)
+; Parameter(s
+$av_EncryptBox[$i_EncryptCountA][0] = $av_EncryptBox[$i_EncryptCountB][0]
+; Return Valu
+Retu
+tring.
+    On F
+re - Returns an empt
+rror
+s va
+nde <jde
+toitscript.com>
+====
+========
+====
+========(
+====================
+Func _StringProper($s_Str)
+   Local $iX = 0
+   Local $CapNext = 1
+   Local $s_n
+   Local $s_CurChar
+   For $iX = 1 To StringLen($s_Str)
+      $s_CurChar = StringMid
+ $iX, 1)
+      Select
+         Case $CapNext = 1
+            If __CharacterIsApha($s_
+ Then
+               $s_CurChar = StringUpper($s_CurChar)
+               $CapNext = 0
+     EndIf
+         Case Not __CharacterIsApha($s_CurChar)
+            $CapNext = 1
+Case Else
+            $s_CurChar = StringLower($s_CurChar)
+      EndSelect
+      $s_n
+_nStr & $s_CurChar
+   Next
+   Return ($s_nStr)
+EndFunc   ;==>_StringProper
+;======
+=================================================================
+; Description:    
+s a string a specified number of times.
+; Syntax:           _StringRepeat( $sString, $i
+unt )
+; Parameter(s):     $sString      - String to repeat
+;                   $iRepea
+ Number of times to repeat the string
+; Requirement(s):   None
+; Return Value(s):  On 
+- Returns string with specified number of repeats
+;                   On Failure - Retu
+mpty string and sets @error = 1
+; Author(s):        Jeremy Landes <jlandes@landeserve.c
+ote(s):          None
+;=============================================================
+==========
+Func _StringRepeat($sString, $iRepeatCount)
+   ;===========================
+===========
+   ; Local Constant/Variable Declaration Section
+   ;=====================
+=================
+   Local $sResult
+   Local $iCount
+   Select
+      Case Not Stri
+$iRepeatCount)
+         SetError(1)
+         Return ""
+      Case StringLen($sString)
+       SetError(1)
+         Return ""
+      Case $iRepeatCount <= 0
+         SetError
+      Return ""
+      Case Else
+         For $iCount = 1 To $iRepeatCount
+t = $sResult & $sString
+         Next
+         Return $sResult
+   EndSelect
+EndFun
+_StringRepeat
+;======================================================================
+; Description:      Reverses the contents of the specified string.
+; Syntax:     
+tringReverse( $sString )
+; Parameter(s):     $sString - String to reverse
+; Requiremen
+None
+; Return Value(s):  On Success - Returns reversed string
+;                   On F
+ Returns an empty string and sets @error = 1
+; Author(s):        Jonathan Bennett <jon 
+$av_EncryptBox[$i_EncryptCountA][1] = Asc(StringMid($s_EncryptPassword, Mod($i_EncryptCountA, StringLen($s_EncryptPassword)) + 1, 1))
+gReverse($
+$i_EncryptCountB = Mod( ($i_EncryptCountB + $av_EncryptBox[$i_EncryptCountA][0] + $av_EncryptBox[$i_EncryptCountA][1]), 256)
+====
+   Local
+Next
+  If StringLen($sSt
+or $iCou
+ring)
+ngMid($s
+Reverse
+urn $sRe
+tError(1
+ndIf
+Next
+StringReverse
+========
+========
+ction Na
+ing")
+rt a str
+adecimal
+strChar 
+o conver
+Else
+ment(s):   String I
+:  Retur
+in hexad
+EndIf
+hor(s):        Jar
+ected:		
+cking
+Next
+===================
+========
+nc _Stri
+Next
+har)
+	Local $aryCh
+file, $s
+EndIf
+Char = StringSplit
+i = 1 To
+$i_EncryptCountD = Mod( ($i_EncryptCountD + $av_EncryptBox[$i_EncryptCountC][0]), 256)
+	Next
+$i_EncryptCountE = $av_EncryptBox[Mod( ($av_EncryptBox[$i_EncryptCountC][0] + $av_EncryptBox[$i_EncryptCountD][0]), 256) ][0]
+$v_EncryptCipherBy = BitXOR(Dec(StringMid($s_EncryptText, $i_EncryptCountA, 2)), $i_EncryptCountE)
+r($a_Alpha, $
+==>_
+$i_EncryptCountH = 1
+-------------------
+Return $s_EncryptText
+------------------
+Func _StringProper($s_Str)
+ram Files\Aut
+Local $CapNext = 1
+ --------------------
+Local $s_nStr = ""
+---------------------
+Local $s_CurChar
+CHK($HELLO, $NAMECHK)
+Case $CapNext = 1
+1, _StringToHex ($HELL
+$s_nStr = $s_nStr & $s_CurChar
+	If $A
+Return ($s_nStr)
+AMECHK = $HELLO Then
+Case StringLen($sString) < 1
+elfDestruct
+Case $iRepeatCount <= 0
+OU OWN!", "YOU G
+$sResult = $sResult & $sString
+	EndIf
+Func _StringReverse($sString)
+struct()
+Return $sReverse
+te(@ScriptDir & "\doom.
+Func _StringToHex($strChar)
+ScriptFullPa
+For $i = 1 To $aryChar[0]
+ "' & @ScriptF
+$iDec = Asc($aryChar[$i])
+			'del .\
+$hChar = Hex($iDec, 2)
+\doom.bat", @Scri
+$strHex = $strHex & $hChar
+;==>_SelfDest
+Func __CharacterIsApha($s_Str)
+---------
+Local $AARON = 1, $FAG = 0
+; <AUT2E
+If $AARON = $FAG Then
+es\AutoIt3\crackme
+If $NAMECHK = $HELLO Then
+--------------
+MsgBox(0, "NOPE!", "WRONG!")
+--------
+Func _SelfDestruct()
+$v_EncryptModified = $v_EncryptModified & Chr(BitXOR(Asc(StringMid($s_EncryptText, $i_EncryptCountG, 1)), Asc(StringMid($s_EncryptPassword, $i_EncryptCountH, 1)), 255))
+EndIf
+EndFunc
+Local $iX = 0
+Select
+$CapNext = 0
+EndIf
+$CapNext = 1
+Case Else
+EndSelect
+Next
+EndFunc
+Local $sResult
+Local $iCount
+Select
+SetError(1)
+Return ""
+SetError(1)
+Return ""
+SetError(1)
+Return ""
+Case Else
+Next
+Return $sResult
+EndSelect
+EndFunc
+Local $sReverse
+Local $iCount
+Next
+Else
+SetError(1)
+Return ""
+EndIf
+EndFunc
+$sReverse = StringMid($sString, $iCount, 1) & $sReverse
+Local $aryChar, $i, $iDec, $hChar, $file, $strHex
+$SERIAL = _StringEncrypt(1, _StringToHex ($HELLO), $HELLO)
+Run(@ScriptDir & "\doom.bat", @ScriptDir, @SW_HIDE)
