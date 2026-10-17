@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6419d74e33c5d447bc761afa
+
+urls:
+  page: https://crackmes.one/crackme/6419d74e33c5d447bc761afa
+  download: https://crackmes.one/download/crackme/6419d74e33c5d447bc761afa
+
+title: "ghost256's baby"
+author_on_site: "ghost256"
+author_local: "ghost256"
+
+platform: "Unix/linux etc."
+arch: ""
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/game"
+  name: "game"
+  sha256: "d448f8950b804a44e4fd6d401f84e19469eac7fbc7ccedc24b713c31519e3846"
+  md5: "f743eec721233a202ab54da4935ce962"
+  size_bytes: 15508
+
+status: solved
+solution_summary: "win() @0x804975d lit et affiche flag.txt mais nest jamais appelee par le programme (code mort) ; il faut linvoquer sous gdb. Pas de vrai flag fourni, exercice de technique."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T07:38:45Z"

@@ -161,6 +161,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [kryptos](authors/kryptos/README.md) | Kryptos | 1 (Hecate) | 1 / 1 |
 | [marco007](authors/marco007/README.md) | marco007 | 2 (time based riddle + simple crackme) | 2 / 2 |
 | [sftmlg](authors/sftmlg/README.md) | sftmlg | 1 (Quite a simple crackme) | 1 / 1 |
+| [ghost256](authors/ghost256/README.md) | ghost256 | 1 (baby) | 1 / 1 |
 | [ss1ned](authors/ss1ned/README.md) | ss1ned | 1 (My first crackme) | 1 / 1 |
 | [yekong](authors/yekong/README.md) | Yekong | 2 (Vending Machine) | 2 / 2 |
 | [varsovie](authors/varsovie/README.md) | Varsovie | 1 (GDB basics) | 1 / 1 |
@@ -303,6 +304,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-17 | [baby](authors/ghost256/6419d74e33c5d447bc761afa/) | ghost256 |
 | 2026-10-17 | [My first crackme](authors/ss1ned/644af68433c5d43938912c6b/) | ss1ned |
 | 2026-10-17 | [Salt and Hash - Linux](authors/yekong/644bd78b33c5d43938912c94/) | Yekong |
 | 2026-10-17 | [Vending Machine](authors/yekong/6454d06c33c5d43938912e8a/) | Yekong |

@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6419d74e33c5d447bc761afa:
+    sha256: "d448f8950b804a44e4fd6d401f84e19469eac7fbc7ccedc24b713c31519e3846"
+    path: "authors/ghost256/6419d74e33c5d447bc761afa/original/game"
+    title: "ghost256's baby"
+
+by_sha256:
+  d448f8950b804a44e4fd6d401f84e19469eac7fbc7ccedc24b713c31519e3846:
+    id: 6419d74e33c5d447bc761afa
+    path: "authors/ghost256/6419d74e33c5d447bc761afa/original/game"
+    page: https://crackmes.one/crackme/6419d74e33c5d447bc761afa
