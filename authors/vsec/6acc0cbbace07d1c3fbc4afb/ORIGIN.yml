@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6acc0cbbace07d1c3fbc4afb
+
+urls:
+  page: https://crackmes.one/crackme/6acc0cbbace07d1c3fbc4afb
+  download: https://crackmes.one/download/crackme/6acc0cbbace07d1c3fbc4afb
+
+title: "VSEC's VSEC Challenger Num #2"
+author_on_site: "VSEC"
+author_local: "vsec"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: 2
+local_slug: vsec2
+
+binary:
+  path: "original/Challenger_2.exe"
+  name: "Challenger_2.exe"
+  sha256: "b0589d591573f981b12c9cb841676abc6b34fcc49a14c0d97b4c7294fb0fde69"
+  md5: "901ff3feb45194a9358e7954cb30d627"
+  size_bytes: 1327104
+
+status: solved
+solution_summary: "petik → EWB9M-AC59-WZB4-CMYW ; flag fixe CMO{K3YG3-N1US-R3V3-RS3D} ; serial base32 (5-4-4-4) des mots W0..W3, uhash/ucrc/mix rejoués (VM aplatie), W0 xorshift+0x85ebca6b, W1 popcount 10 et n%7==3, W2/W3 masque 20 bits (tools/vsec2-solve.py)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T19:00:28Z"

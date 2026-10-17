@@ -5,8 +5,17 @@ by_id:
     path: "authors/vsec/6acace8cca34abba98f8305a/original/VSEC_Challenger_No.1.exe"
     title: "VSEC Challenger No.1"
 
+  6acc0cbbace07d1c3fbc4afb:
+    sha256: "b0589d591573f981b12c9cb841676abc6b34fcc49a14c0d97b4c7294fb0fde69"
+    path: "authors/vsec/6acc0cbbace07d1c3fbc4afb/original/Challenger_2.exe"
+    title: "VSEC's VSEC Challenger Num #2"
+
 by_sha256:
   6bd1a18428b2a2439368f6b152b9dcb18863ddc97870f8e83988ce5ef39e5242:
     id: 6acace8cca34abba98f8305a
     path: "authors/vsec/6acace8cca34abba98f8305a/original/VSEC_Challenger_No.1.exe"
     page: https://crackmes.one/crackme/6acace8cca34abba98f8305a
+  b0589d591573f981b12c9cb841676abc6b34fcc49a14c0d97b4c7294fb0fde69:
+    id: 6acc0cbbace07d1c3fbc4afb
+    path: "authors/vsec/6acc0cbbace07d1c3fbc4afb/original/Challenger_2.exe"
+    page: https://crackmes.one/crackme/6acc0cbbace07d1c3fbc4afb

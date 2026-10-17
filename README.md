@@ -326,7 +326,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [orbitz](authors/orbitz/README.md) | ORBITZ | 1 (BabyDotNet) | 1 / 1 |
 | [radoncoding](authors/radoncoding/README.md) | RadonCoding | 1 (binsafe) | 1 / 1 |
 | [nimanikjoo](authors/nimanikjoo/README.md) | NimaNikjoo | 1 (nightmare CrackMe) | 1 / 1 |
-| [vsec](authors/vsec/README.md) | vsec | 1 (Challenger No.1) | 1 / 1 |
+| [vsec](authors/vsec/README.md) | vsec | 2 (Challenger No.1 / Challenger #2) | 2 / 2 |
 | [yugnatd](authors/yugnatd/README.md) | YugnatD | 1 (WarGames) | 1 / 1 |
 | [zydak](authors/zydak/README.md) | zydak | 2 (simple obfuscated + Tetris DRM) | 0 / 2 |
 | [reiika](authors/reiika/README.md) | Reiika | 1 (stckwzrd) | 1 / 1 |
@@ -355,6 +355,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-17 | [VSEC Challenger #2](authors/vsec/6acc0cbbace07d1c3fbc4afb/) | vsec |
 | 2026-10-17 | [PrettyDamnEasy](authors/nutcake/5c11dcaf33c5d41e58e00578/) | nutcake |
 | 2026-10-17 | [PieIsMyFav](authors/nutcake/5c11e1f333c5d41e58e00579/) | nutcake |
 | 2026-10-17 | [WhiteRabbit](authors/nutcake/5c11e2f333c5d41e58e0057a/) | nutcake |
