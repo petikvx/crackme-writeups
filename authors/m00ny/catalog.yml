@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5cb7533133c5d4419da5584b:
+    sha256: "0a5ffbe69f838e9413f8e488f85cfde1dbee7fa00134de61cd317ddc81be4221"
+    path: "authors/m00ny/5cb7533133c5d4419da5584b/original/crackMe-by-m00ny-1"
+    title: "m00ny's am i really random?"
+
+by_sha256:
+  0a5ffbe69f838e9413f8e488f85cfde1dbee7fa00134de61cd317ddc81be4221:
+    id: 5cb7533133c5d4419da5584b
+    path: "authors/m00ny/5cb7533133c5d4419da5584b/original/crackMe-by-m00ny-1"
+    page: https://crackmes.one/crackme/5cb7533133c5d4419da5584b

@@ -161,6 +161,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [kryptos](authors/kryptos/README.md) | Kryptos | 1 (Hecate) | 1 / 1 |
 | [marco007](authors/marco007/README.md) | marco007 | 2 (time based riddle + simple crackme) | 2 / 2 |
 | [sftmlg](authors/sftmlg/README.md) | sftmlg | 1 (Quite a simple crackme) | 1 / 1 |
+| [m00ny](authors/m00ny/README.md) | m00ny | 1 (am i really random?) | 1 / 1 |
 | [novn91](authors/novn91/README.md) | novn91 | 1 (crackmepal) | 1 / 1 |
 | [hikilaka](authors/hikilaka/README.md) | hikilaka | 1 (crackme #1) | 1 / 1 |
 | [ker2x](authors/ker2x/README.md) | ker2x | 2 (guild hall adventure Ch.2) | 2 / 2 |
@@ -346,6 +347,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-17 | [am i really random?](authors/m00ny/5cb7533133c5d4419da5584b/) | m00ny |
 | 2026-10-17 | [EasyCrack - Much0l0k0](authors/paypain/5cc1117833c5d4419da558dc/) | paypain |
 | 2026-10-17 | [crackmepal](authors/novn91/5ccecc7e33c5d4419da559b3/) | novn91 |
 | 2026-10-17 | [Sh4ll10](authors/destructeur/5ccf3bf333c5d4419da559bd/) | destructeur |

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5cb7533133c5d4419da5584b
+
+urls:
+  page: https://crackmes.one/crackme/5cb7533133c5d4419da5584b
+  download: https://crackmes.one/download/crackme/5cb7533133c5d4419da5584b
+
+title: "m00ny's am i really random?"
+author_on_site: "m00ny"
+author_local: "m00ny"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackMe-by-m00ny-1"
+  name: "crackMe-by-m00ny-1"
+  sha256: "0a5ffbe69f838e9413f8e488f85cfde1dbee7fa00134de61cd317ddc81be4221"
+  md5: "5e226283c5b64f8888ea98c4c81304c5"
+  size_bytes: 17272
+
+status: solved
+solution_summary: "password = argv0[5]+'0'+argv0[2]+argv0[6] ; flag affiche est aleatoire (rand non seede) -> c0ck"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T18:02:23Z"
