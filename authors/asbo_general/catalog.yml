@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6074618733c5d44899821e35:
+    sha256: "a9f4d7c320f26e479cfb69cac5caab0d707fc41aafd84240a3dfb1f5ef77c456"
+    path: "authors/asbo_general/6074618733c5d44899821e35/original/first-evercrackme"
+    title: "ASBO_GENERAL's My_first_ever_crackme"
+
+by_sha256:
+  a9f4d7c320f26e479cfb69cac5caab0d707fc41aafd84240a3dfb1f5ef77c456:
+    id: 6074618733c5d44899821e35
+    path: "authors/asbo_general/6074618733c5d44899821e35/original/first-evercrackme"
+    page: https://crackmes.one/crackme/6074618733c5d44899821e35

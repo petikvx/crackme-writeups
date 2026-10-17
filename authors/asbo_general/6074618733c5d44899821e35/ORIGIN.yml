@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6074618733c5d44899821e35
+
+urls:
+  page: https://crackmes.one/crackme/6074618733c5d44899821e35
+  download: https://crackmes.one/download/crackme/6074618733c5d44899821e35
+
+title: "ASBO_GENERAL's My_first_ever_crackme"
+author_on_site: "ASBO_GENERAL"
+author_local: "asbo_general"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/first-evercrackme"
+  name: "first-evercrackme"
+  sha256: "a9f4d7c320f26e479cfb69cac5caab0d707fc41aafd84240a3dfb1f5ef77c456"
+  md5: "3cc9975db8482d0b83d5cc23c8f179bc"
+  size_bytes: 18576
+
+status: solved
+solution_summary: "key = iusearchbtw (inverse de boringFunc : XOR cyclique XYZ sauf dernier car., cible = 1,)=8(;18,w)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T14:03:49Z"
