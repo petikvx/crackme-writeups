@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6454d06c33c5d43938912e8a
+
+urls:
+  page: https://crackmes.one/crackme/6454d06c33c5d43938912e8a
+  download: https://crackmes.one/download/crackme/6454d06c33c5d43938912e8a
+
+title: "Yekong's Vending Machine"
+author_on_site: "Yekong"
+author_local: "yekong"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/vending_machine"
+  name: "vending_machine"
+  sha256: "2dd63877c70e10161133da0b008b6b19339013fe7dcdbe984fd6532bb7d4538a"
+  md5: "98473ec554172365c76a39ca159e42e6"
+  size_bytes: 4273224
+
+status: solved
+solution_summary: "coca x -18 (quantite i32 sans test de signe, coins -= 5*q) -> 100 pieces -> achat du flag : flag{v3nd1ng_m4ch1n3_1s_4w3s0m3}"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T07:17:19Z"

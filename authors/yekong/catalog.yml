@@ -1,0 +1,21 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6454d06c33c5d43938912e8a:
+    sha256: "2dd63877c70e10161133da0b008b6b19339013fe7dcdbe984fd6532bb7d4538a"
+    path: "authors/yekong/6454d06c33c5d43938912e8a/original/vending_machine"
+    title: "Yekong's Vending Machine"
+
+  644bd78b33c5d43938912c94:
+    sha256: "3ea873edbef0e3e3f0ac17f49982c8ca7e53075e3fca2e322b1dea4158879f32"
+    path: "authors/yekong/644bd78b33c5d43938912c94/original/hash.7z"
+    title: "Yekong's Salt and Hash"
+
+by_sha256:
+  2dd63877c70e10161133da0b008b6b19339013fe7dcdbe984fd6532bb7d4538a:
+    id: 6454d06c33c5d43938912e8a
+    path: "authors/yekong/6454d06c33c5d43938912e8a/original/vending_machine"
+    page: https://crackmes.one/crackme/6454d06c33c5d43938912e8a
+  3ea873edbef0e3e3f0ac17f49982c8ca7e53075e3fca2e322b1dea4158879f32:
+    id: 644bd78b33c5d43938912c94
+    path: "authors/yekong/644bd78b33c5d43938912c94/original/hash.7z"
+    page: https://crackmes.one/crackme/644bd78b33c5d43938912c94
