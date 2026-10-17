@@ -4,7 +4,7 @@ Recherche [crackmes.one](https://crackmes.one/search?name=&author=&platform=Unix
 
 Filtre : plateforme Unix/linux, difficulté 1.0–2.0, tri date décroissante (plus récent en haut). **278 résultats au total** sur le site ; les **87 derniers** (préfixe `by <auteur>` à partir de `mycrk by cli3nt`) sont les imports historiques `crackmes.de`, déjà traités intégralement et séparément (voir `authors/crackmes-de/`, 311/311 résolus) — **exclus de ce tableau**, qui ne couvre que les **191** crackmes.one natifs restants.
 
-Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` du dépôt (ID exact, pas le titre). **79** déjà `solved`, **112** marqués `TODO` ci-dessous. Changement notable par rapport à l'ancien tri (page 1 seulement, 50 résultats) : 3 entrées manquaient (`0x8A7 - Maze`, `ComputeTheKey`, `Hecate linux/unix`), et la liste s'étend maintenant bien au-delà de `Godez_Mark crackme` (jusqu'à `Sh4ll1`, 2018).
+Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` du dépôt (ID exact, pas le titre). **82** déjà `solved`, **109** marqués `TODO` ci-dessous. Changement notable par rapport à l'ancien tri (page 1 seulement, 50 résultats) : 3 entrées manquaient (`0x8A7 - Maze`, `ComputeTheKey`, `Hecate linux/unix`), et la liste s'étend maintenant bien au-delà de `Godez_Mark crackme` (jusqu'à `Sh4ll1`, 2018).
 
 | # | Date | Crackme | Auteur | Difficulté | Taille | URL | Statut |
 |---|---|---|---|---|---|---|---|
@@ -80,9 +80,9 @@ Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` 
 | 70 | 2024-06-19 | KGenMe v2 | dzonerzy | 2.0 | 3.48 KB | https://crackmes.one/crackme/6672bf9ee7b35c09bb266f5e | solved |
 | 71 | 2024-05-12 | guess_the_password | b4te | 1.1 | 15.88 KB | https://crackmes.one/crackme/6640d1d26b8bd8ddfe33c80a | solved |
 | 72 | 2024-04-25 | Crack On The Cob - COBOL | froglover22 | 1.3 | 75.55 KB | https://crackmes.one/crackme/6629bf7aa562ef06c3b52e86 | solved |
-| 73 | 2024-04-11 | Authorize by PIN | AnanasCharles | 2.0 | 19.98 KB | https://crackmes.one/crackme/6617d3a5cddae72ae250c556 | **TODO** |
-| 74 | 2024-04-01 | Getting started | stonezarcon | 1.8 | 2.65 KB | https://crackmes.one/crackme/660a24f1cddae72ae250bf56 | **TODO** |
-| 75 | 2024-03-27 | Simple but not simple | jackioye | 1.8 | 837.77 KB | https://crackmes.one/crackme/6603c10ccddae72ae250bcd6 | **TODO** |
+| 73 | 2024-04-11 | Authorize by PIN | AnanasCharles | 2.0 | 19.98 KB | https://crackmes.one/crackme/6617d3a5cddae72ae250c556 | solved |
+| 74 | 2024-04-01 | Getting started | stonezarcon | 1.8 | 2.65 KB | https://crackmes.one/crackme/660a24f1cddae72ae250bf56 | solved |
+| 75 | 2024-03-27 | Simple but not simple | jackioye | 1.8 | 837.77 KB | https://crackmes.one/crackme/6603c10ccddae72ae250bcd6 | solved |
 | 76 | 2024-02-24 | level2 | nimacpp | 1.1 | 15.62 KB | https://crackmes.one/crackme/65da0fce6d3d2b1fef4be4df | **TODO** |
 | 77 | 2024-02-11 | Password | Oxymore | 1.2 | 4.22 MB | https://crackmes.one/crackme/65c926c6eef082e477ff6b5a | **TODO** |
 | 78 | 2024-02-10 | sh0uld_b3_e4zy | cycrusader | 1.4 | 15.27 KB | https://crackmes.one/crackme/65c795a3eef082e477ff6a7e | **TODO** |
@@ -200,4 +200,4 @@ Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` 
 | 190 | 2018-05-06 | Sh4ll2 | destructeur | 2.0 | 8.49 KB | https://crackmes.one/crackme/5aef385633c5d41ac64b492f | **TODO** |
 | 191 | 2018-05-06 | Sh4ll1 | destructeur | 1.4 | 13.23 KB | https://crackmes.one/crackme/5aef37c733c5d41ac64b492e | **TODO** |
 
-Le prochain de la file est **Authorize by PIN** (AnanasCharles, #73) : https://crackmes.one/crackme/6617d3a5cddae72ae250c556 puis **Getting started** (stonezarcon, #74) et **Simple but not simple** (jackioye). Mis de côté : Prometheora (#37, Rust+VM), Rev1 (#40, sources contradictoires), FedGuy easy crack (#45, SHA-256 à casser), Ghost (#57, pwn de tas), Gemy (#65, UPX modifié), Upgraded Levels Keygen (#67, 4 niveaux dont un keygen « sorcier » ; dossier scaffoldé).
+Le prochain de la file est **level2** (nimacpp, #76) : https://crackmes.one/crackme/65da0fce6d3d2b1fef4be4df puis **Password** (Oxymore, #77) et **sh0uld_b3_e4zy** (cycrusader, #78). Mis de côté : Prometheora (#37, Rust+VM), Rev1 (#40, sources contradictoires), FedGuy easy crack (#45, SHA-256 à casser), Ghost (#57, pwn de tas), Gemy (#65, UPX modifié), Upgraded Levels Keygen (#67, 4 niveaux dont un keygen « sorcier » ; dossier scaffoldé).
