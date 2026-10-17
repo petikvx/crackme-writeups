@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6672bf9ee7b35c09bb266f5e
+
+urls:
+  page: https://crackmes.one/crackme/6672bf9ee7b35c09bb266f5e
+  download: https://crackmes.one/download/crackme/6672bf9ee7b35c09bb266f5e
+
+title: "dzonerzy's KGenMe v2"
+author_on_site: "dzonerzy"
+author_local: "dzonerzy"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/kgenmev2.rar"
+  name: "kgenmev2.rar"
+  sha256: "3ea1b6f870dc8d65890772dff5c0f3ea29ae8a24a9c94bf97d45027aa1948f42"
+  md5: "991bed638db6421fde4662ac83fb3442"
+  size_bytes: 3564
+
+status: solved
+solution_summary: "keygen : H(s)=sum(s[i]*31^i) mod 1000000007 ; (H(user)+H(serial)) mod p == pow(16370,32771,49157)=2511 ; serial 29 car. au format sub_14B0 ; petik -> 213J7-cqaX8-ON10H-rsO9L-ArdcB"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T05:03:18Z"

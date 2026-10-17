@@ -161,6 +161,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [kryptos](authors/kryptos/README.md) | Kryptos | 1 (Hecate) | 1 / 1 |
 | [marco007](authors/marco007/README.md) | marco007 | 2 (time based riddle + simple crackme) | 2 / 2 |
 | [sftmlg](authors/sftmlg/README.md) | sftmlg | 1 (Quite a simple crackme) | 1 / 1 |
+| [dzonerzy](authors/dzonerzy/README.md) | dzonerzy | 1 (KGenMe v2) | 1 / 1 |
 | [froglover22](authors/froglover22/README.md) | froglover22 | 1 (Crack On The Cob - COBOL) | 1 / 1 |
 | [b4te](authors/b4te/README.md) | b4te | 1 (guess_the_password) | 1 / 1 |
 | [fdisotto](authors/fdisotto/README.md) | fdisotto | 1 (good_boy) | 1 / 1 |
@@ -287,6 +288,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-17 | [KGenMe v2](authors/dzonerzy/6672bf9ee7b35c09bb266f5e/) | dzonerzy |
 | 2026-10-17 | [Crack On The Cob - COBOL](authors/froglover22/6629bf7aa562ef06c3b52e86/) | froglover22 |
 | 2026-10-17 | [guess_the_password](authors/b4te/6640d1d26b8bd8ddfe33c80a/) | b4te |
 | 2026-10-17 | [good_boy](authors/fdisotto/669a714890c4c2830c820bc0/) | fdisotto |

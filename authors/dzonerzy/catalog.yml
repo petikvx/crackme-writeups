@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6672bf9ee7b35c09bb266f5e:
+    sha256: "3ea1b6f870dc8d65890772dff5c0f3ea29ae8a24a9c94bf97d45027aa1948f42"
+    path: "authors/dzonerzy/6672bf9ee7b35c09bb266f5e/original/kgenmev2.rar"
+    title: "dzonerzy's KGenMe v2"
+
+by_sha256:
+  3ea1b6f870dc8d65890772dff5c0f3ea29ae8a24a9c94bf97d45027aa1948f42:
+    id: 6672bf9ee7b35c09bb266f5e
+    path: "authors/dzonerzy/6672bf9ee7b35c09bb266f5e/original/kgenmev2.rar"
+    page: https://crackmes.one/crackme/6672bf9ee7b35c09bb266f5e
