@@ -4,7 +4,7 @@ Recherche [crackmes.one](https://crackmes.one/search?name=&author=&platform=Unix
 
 Filtre : plateforme Unix/linux, difficulté 1.0–2.0, tri date décroissante (plus récent en haut). **278 résultats au total** sur le site ; les **87 derniers** (préfixe `by <auteur>` à partir de `mycrk by cli3nt`) sont les imports historiques `crackmes.de`, déjà traités intégralement et séparément (voir `authors/crackmes-de/`, 311/311 résolus) — **exclus de ce tableau**, qui ne couvre que les **191** crackmes.one natifs restants.
 
-Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` du dépôt (ID exact, pas le titre). **74** déjà `solved`, **117** marqués `TODO` ci-dessous. Changement notable par rapport à l'ancien tri (page 1 seulement, 50 résultats) : 3 entrées manquaient (`0x8A7 - Maze`, `ComputeTheKey`, `Hecate linux/unix`), et la liste s'étend maintenant bien au-delà de `Godez_Mark crackme` (jusqu'à `Sh4ll1`, 2018).
+Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` du dépôt (ID exact, pas le titre). **79** déjà `solved`, **112** marqués `TODO` ci-dessous. Changement notable par rapport à l'ancien tri (page 1 seulement, 50 résultats) : 3 entrées manquaient (`0x8A7 - Maze`, `ComputeTheKey`, `Hecate linux/unix`), et la liste s'étend maintenant bien au-delà de `Godez_Mark crackme` (jusqu'à `Sh4ll1`, 2018).
 
 | # | Date | Crackme | Auteur | Difficulté | Taille | URL | Statut |
 |---|---|---|---|---|---|---|---|
@@ -75,11 +75,11 @@ Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` 
 | 65 | 2024-11-22 | Gemy | Computerboy | 1.5 | 5.68 KB | https://crackmes.one/crackme/673ff5da9b533b4c22bd2fff | **TODO** |
 | 66 | 2024-10-20 | Sexy 1337 | RafaelGFreveng | 1.5 | 16.00 KB | https://crackmes.one/crackme/6715466c9b533b4c22bd18bb | solved |
 | 67 | 2024-08-22 | Upgraded Levels Keygen (difficulty 1-3) | saltedMacaroni841 | 2.0 | 16.64 KB | https://crackmes.one/crackme/66c724b9b899a3b9dd02ad98 | **TODO** |
-| 68 | 2024-07-25 | Levels Keygen! | saltedMacaroni841 | 1.7 | 15.80 KB | https://crackmes.one/crackme/66a288ed90c4c2830c820fa0 | **TODO** |
-| 69 | 2024-07-19 | good_boy | fdisotto | 1.5 | 13.86 KB | https://crackmes.one/crackme/669a714890c4c2830c820bc0 | **TODO** |
-| 70 | 2024-06-19 | KGenMe v2 | dzonerzy | 2.0 | 3.48 KB | https://crackmes.one/crackme/6672bf9ee7b35c09bb266f5e | **TODO** |
-| 71 | 2024-05-12 | guess_the_password | b4te | 1.1 | 15.88 KB | https://crackmes.one/crackme/6640d1d26b8bd8ddfe33c80a | **TODO** |
-| 72 | 2024-04-25 | Crack On The Cob - COBOL | froglover22 | 1.3 | 75.55 KB | https://crackmes.one/crackme/6629bf7aa562ef06c3b52e86 | **TODO** |
+| 68 | 2024-07-25 | Levels Keygen! | saltedMacaroni841 | 1.7 | 15.80 KB | https://crackmes.one/crackme/66a288ed90c4c2830c820fa0 | solved |
+| 69 | 2024-07-19 | good_boy | fdisotto | 1.5 | 13.86 KB | https://crackmes.one/crackme/669a714890c4c2830c820bc0 | solved |
+| 70 | 2024-06-19 | KGenMe v2 | dzonerzy | 2.0 | 3.48 KB | https://crackmes.one/crackme/6672bf9ee7b35c09bb266f5e | solved |
+| 71 | 2024-05-12 | guess_the_password | b4te | 1.1 | 15.88 KB | https://crackmes.one/crackme/6640d1d26b8bd8ddfe33c80a | solved |
+| 72 | 2024-04-25 | Crack On The Cob - COBOL | froglover22 | 1.3 | 75.55 KB | https://crackmes.one/crackme/6629bf7aa562ef06c3b52e86 | solved |
 | 73 | 2024-04-11 | Authorize by PIN | AnanasCharles | 2.0 | 19.98 KB | https://crackmes.one/crackme/6617d3a5cddae72ae250c556 | **TODO** |
 | 74 | 2024-04-01 | Getting started | stonezarcon | 1.8 | 2.65 KB | https://crackmes.one/crackme/660a24f1cddae72ae250bf56 | **TODO** |
 | 75 | 2024-03-27 | Simple but not simple | jackioye | 1.8 | 837.77 KB | https://crackmes.one/crackme/6603c10ccddae72ae250bcd6 | **TODO** |
@@ -200,4 +200,4 @@ Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` 
 | 190 | 2018-05-06 | Sh4ll2 | destructeur | 2.0 | 8.49 KB | https://crackmes.one/crackme/5aef385633c5d41ac64b492f | **TODO** |
 | 191 | 2018-05-06 | Sh4ll1 | destructeur | 1.4 | 13.23 KB | https://crackmes.one/crackme/5aef37c733c5d41ac64b492e | **TODO** |
 
-Le prochain de la file est **Levels Keygen!** (saltedMacaroni841, #68) : https://crackmes.one/crackme/66a288ed90c4c2830c820fa0 puis **Upgraded Levels Keygen** (#67) et **good_boy** (fdisotto). Mis de côté : Prometheora (#37, Rust+VM), Rev1 (#40, sources contradictoires), FedGuy easy crack (#45, SHA-256 à casser), Ghost (#57, pwn de tas), Gemy (#65, UPX modifié que upx 3.96 ne sait pas défaire).
+Le prochain de la file est **Authorize by PIN** (AnanasCharles, #73) : https://crackmes.one/crackme/6617d3a5cddae72ae250c556 puis **Getting started** (stonezarcon, #74) et **Simple but not simple** (jackioye). Mis de côté : Prometheora (#37, Rust+VM), Rev1 (#40, sources contradictoires), FedGuy easy crack (#45, SHA-256 à casser), Ghost (#57, pwn de tas), Gemy (#65, UPX modifié), Upgraded Levels Keygen (#67, 4 niveaux dont un keygen « sorcier » ; dossier scaffoldé).
