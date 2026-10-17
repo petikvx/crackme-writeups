@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5eae2d6633c5d47611746500:
+    sha256: "b57f8f60b264422698980f431840197fc59074660e0425f2586efd3db34224f5"
+    path: "authors/476f64/5eae2d6633c5d47611746500/original/easyAF.zip"
+    title: "476f64's easyAF"
+
+by_sha256:
+  b57f8f60b264422698980f431840197fc59074660e0425f2586efd3db34224f5:
+    id: 5eae2d6633c5d47611746500
+    path: "authors/476f64/5eae2d6633c5d47611746500/original/easyAF.zip"
+    page: https://crackmes.one/crackme/5eae2d6633c5d47611746500

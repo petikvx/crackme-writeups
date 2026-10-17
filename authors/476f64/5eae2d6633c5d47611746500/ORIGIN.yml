@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5eae2d6633c5d47611746500
+
+urls:
+  page: https://crackmes.one/crackme/5eae2d6633c5d47611746500
+  download: https://crackmes.one/download/crackme/5eae2d6633c5d47611746500
+
+title: "476f64's easyAF"
+author_on_site: "476f64"
+author_local: "476f64"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/easyAF"
+  name: "easyAF"
+  sha256: "f698b8c11bc1cfd39dbbab6883356e007cd18c0c209b88e598e8c082039aaccb"
+  size_bytes: 18512
+  note: "original/easyAF.zip (inner, pas de mot de passe) a ete extrait puis supprime ; sha256 ci-dessus = celui du binaire ELF."
+
+status: solved
+solution_summary: "constante .rodata comparee via std::string::operator== -> pass"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T15:08:53Z"
