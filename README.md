@@ -161,6 +161,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [kryptos](authors/kryptos/README.md) | Kryptos | 1 (Hecate) | 1 / 1 |
 | [marco007](authors/marco007/README.md) | marco007 | 2 (time based riddle + simple crackme) | 2 / 2 |
 | [sftmlg](authors/sftmlg/README.md) | sftmlg | 1 (Quite a simple crackme) | 1 / 1 |
+| [mrempy](authors/mrempy/README.md) | MrEmpy | 1 (TryCrackMe) | 1 / 1 |
 | [nomanprodhan](authors/nomanprodhan/README.md) | NomanProdhan | 3 (License Checker 0x03) | 3 / 3 |
 | [pourmeadrinkwhileimfloating](authors/pourmeadrinkwhileimfloating/README.md) | pourmeadrinkwhileimfloating | 1 (licesnse_checker_3) | 1 / 1 |
 | [b3nd3p](authors/b3nd3p/README.md) | b3nd3p | 1 (my_f1rs7_cr4ckm3) | 1 / 1 |
@@ -310,6 +311,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-17 | [TryCrackMe](authors/mrempy/61c8deff33c5d413767ca0ea/) | MrEmpy |
 | 2026-10-17 | [License Checker 0x01](authors/nomanprodhan/619eda7b33c5d455dece628d/) | NomanProdhan |
 | 2026-10-17 | [License Checker 0x02](authors/nomanprodhan/61c62bde33c5d413767ca0a0/) | NomanProdhan |
 | 2026-10-17 | [License Checker 0x03](authors/nomanprodhan/62072dd633c5d46c8bcbfd9b/) | NomanProdhan |

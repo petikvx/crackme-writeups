@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  61c8deff33c5d413767ca0ea:
+    sha256: "7cc03dd6271b07a379f7e7f88560f18d77fb2087edeb7408a3039453c0fc79e0"
+    path: "authors/mrempy/61c8deff33c5d413767ca0ea/original/trycrackme"
+    title: "MrEmpy's TryCrackMe"
+
+by_sha256:
+  7cc03dd6271b07a379f7e7f88560f18d77fb2087edeb7408a3039453c0fc79e0:
+    id: 61c8deff33c5d413767ca0ea
+    path: "authors/mrempy/61c8deff33c5d413767ca0ea/original/trycrackme"
+    page: https://crackmes.one/crackme/61c8deff33c5d413767ca0ea

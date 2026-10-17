@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 61c8deff33c5d413767ca0ea
+
+urls:
+  page: https://crackmes.one/crackme/61c8deff33c5d413767ca0ea
+  download: https://crackmes.one/download/crackme/61c8deff33c5d413767ca0ea
+
+title: "MrEmpy's TryCrackMe"
+author_on_site: "MrEmpy"
+author_local: "mrempy"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/trycrackme"
+  name: "trycrackme"
+  sha256: "7cc03dd6271b07a379f7e7f88560f18d77fb2087edeb7408a3039453c0fc79e0"
+  md5: "87ea01ba5d36f76e81fd932076bf24f6"
+  size_bytes: 16424
+
+status: solved
+solution_summary: "key = 34407373373234353336 (hex ASCII de \"4@ss724536\", via sprintf %02x)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T10:09:06Z"
