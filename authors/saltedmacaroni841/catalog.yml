@@ -1,0 +1,21 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  66a288ed90c4c2830c820fa0:
+    sha256: "1e7bbb42c3a5c8bb831366efa5b121d264b68af6104825eaa831cdc8b43eac56"
+    path: "authors/saltedmacaroni841/66a288ed90c4c2830c820fa0/original/LevelsByMacaroni841"
+    title: "saltedMacaroni841's Levels Keygen!"
+
+  66c724b9b899a3b9dd02ad98:
+    sha256: "8d7d5eb1aa385c966953b3dcfdc8cd1e946f86726299a84c2dab499fb70c9274"
+    path: "authors/saltedmacaroni841/66c724b9b899a3b9dd02ad98/original/Levels_UPG_Mac841.zip"
+    title: "saltedMacaroni841's Upgraded Levels Keygen (difficulty 1"
+
+by_sha256:
+  1e7bbb42c3a5c8bb831366efa5b121d264b68af6104825eaa831cdc8b43eac56:
+    id: 66a288ed90c4c2830c820fa0
+    path: "authors/saltedmacaroni841/66a288ed90c4c2830c820fa0/original/LevelsByMacaroni841"
+    page: https://crackmes.one/crackme/66a288ed90c4c2830c820fa0
+  8d7d5eb1aa385c966953b3dcfdc8cd1e946f86726299a84c2dab499fb70c9274:
+    id: 66c724b9b899a3b9dd02ad98
+    path: "authors/saltedmacaroni841/66c724b9b899a3b9dd02ad98/original/Levels_UPG_Mac841.zip"
+    page: https://crackmes.one/crackme/66c724b9b899a3b9dd02ad98

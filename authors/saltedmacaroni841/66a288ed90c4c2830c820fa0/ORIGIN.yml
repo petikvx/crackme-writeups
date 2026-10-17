@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 66a288ed90c4c2830c820fa0
+
+urls:
+  page: https://crackmes.one/crackme/66a288ed90c4c2830c820fa0
+  download: https://crackmes.one/download/crackme/66a288ed90c4c2830c820fa0
+
+title: "saltedMacaroni841's Levels Keygen!"
+author_on_site: "saltedMacaroni841"
+author_local: "saltedmacaroni841"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/LevelsByMacaroni841"
+  name: "LevelsByMacaroni841"
+  sha256: "1e7bbb42c3a5c8bb831366efa5b121d264b68af6104825eaa831cdc8b43eac56"
+  md5: "fb2c561b725827a40f0e03375c60329c"
+  size_bytes: 16184
+
+status: solved
+solution_summary: "key1 = 34123, key2 = 68246 (chiffres doubles) ; SUCCESS-LVL-3 ; bonus strlen==0x1b39 impossible -> patch jne @0x1374 (copie dans analysis/)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T05:00:48Z"
