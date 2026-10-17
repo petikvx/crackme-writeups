@@ -1,0 +1,35 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5d17962b33c5d41c6d56e1f2
+
+urls:
+  page: https://crackmes.one/crackme/5d17962b33c5d41c6d56e1f2
+  download: https://crackmes.one/download/crackme/5d17962b33c5d41c6d56e1f2
+
+title: "kawaii-flesh's Key and keygen"
+author_on_site: "kawaii-flesh"
+author_local: "kawaii-flesh"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/keygenme"
+  name: "keygenme"
+  sha256: "ce8f238c9640ef835813d89d1573b06629d926f24e2c45e920fcd81a338f498f"
+  note: "extrait de original/keygenme.7z (pas de mot de passe) ; 7z supprime apres extraction."
+
+status: solved
+solution_summary: "encr() generique : checksum ASCII puis 9 iterations (div non signee pour c, div signee pour accumulateur) -> keygen fonctionnel, petik -> l[NE?951."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T15:38:05Z"
