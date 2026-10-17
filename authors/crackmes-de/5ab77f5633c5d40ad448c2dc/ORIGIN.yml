@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2dc
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2dc
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2dc
+
+title: "crackmes.de's crackme_1.0 by skjobax"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "VB.NET (WinForms, late binding)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/CrackMe2.0.zip"
+  name: "CrackMe2.0.zip"
+  sha256: "b64188cbbe5099a22aeff1296c459f7e47d8ca11f9a6e7ab48d31d612f0e3c68"
+  md5: "0ccef6916154a854936d1395059c8705"
+  size_bytes: 7665
+
+status: solved
+solution_summary: "Operators.*Object VB élargissent Integer→Long→Decimal→Double ; obj*9+n sur 10000 tours → +Infinity ; serial = Infinity pour tout nom non vide (petik → Infinity)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T00:51:11Z"
