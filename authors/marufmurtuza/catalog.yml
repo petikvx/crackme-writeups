@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  637c66b633c5d43ab4ecec2a:
+    sha256: "88e705cf495f60772ed333d073d8f9f1c80e6fc78f49b95a16eb3ac9200346b5"
+    path: "authors/marufmurtuza/637c66b633c5d43ab4ecec2a/original/illogical_logic"
+    title: "marufmurtuza's Illogical Logic"
+
+by_sha256:
+  88e705cf495f60772ed333d073d8f9f1c80e6fc78f49b95a16eb3ac9200346b5:
+    id: 637c66b633c5d43ab4ecec2a
+    path: "authors/marufmurtuza/637c66b633c5d43ab4ecec2a/original/illogical_logic"
+    page: https://crackmes.one/crackme/637c66b633c5d43ab4ecec2a

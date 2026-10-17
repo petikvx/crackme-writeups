@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 637c66b633c5d43ab4ecec2a
+
+urls:
+  page: https://crackmes.one/crackme/637c66b633c5d43ab4ecec2a
+  download: https://crackmes.one/download/crackme/637c66b633c5d43ab4ecec2a
+
+title: "marufmurtuza's Illogical Logic"
+author_on_site: "marufmurtuza"
+author_local: "marufmurtuza"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/illogical_logic"
+  name: "illogical_logic"
+  sha256: "88e705cf495f60772ed333d073d8f9f1c80e6fc78f49b95a16eb3ac9200346b5"
+  md5: "6dc2e88431b590417425630d5a135349"
+  size_bytes: 22408
+
+status: solved
+solution_summary: "pin = 0 (checker: if pin==0 -> flag()). Toute saisie non numerique laisse cin en echec avec pin=0 aussi."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T10:04:54Z"
