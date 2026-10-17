@@ -4,7 +4,7 @@ Recherche [crackmes.one](https://crackmes.one/search?name=&author=&platform=Unix
 
 Filtre : plateforme Unix/linux, difficulté 1.0–2.0, tri date décroissante (plus récent en haut). **278 résultats au total** sur le site ; les **87 derniers** (préfixe `by <auteur>` à partir de `mycrk by cli3nt`) sont les imports historiques `crackmes.de`, déjà traités intégralement et séparément (voir `authors/crackmes-de/`, 311/311 résolus) — **exclus de ce tableau**, qui ne couvre que les **191** crackmes.one natifs restants.
 
-Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` du dépôt (ID exact, pas le titre). **128** déjà `solved`, **62** marqués `TODO` (+ 1 « analysé » sans condition de victoire) ci-dessous. Changement notable par rapport à l'ancien tri (page 1 seulement, 50 résultats) : 3 entrées manquaient (`0x8A7 - Maze`, `ComputeTheKey`, `Hecate linux/unix`), et la liste s'étend maintenant bien au-delà de `Godez_Mark crackme` (jusqu'à `Sh4ll1`, 2018).
+Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` du dépôt (ID exact, pas le titre). **148** déjà `solved`, **42** marqués `TODO` (+ 1 « analysé » sans condition de victoire) ci-dessous. Changement notable par rapport à l'ancien tri (page 1 seulement, 50 résultats) : 3 entrées manquaient (`0x8A7 - Maze`, `ComputeTheKey`, `Hecate linux/unix`), et la liste s'étend maintenant bien au-delà de `Godez_Mark crackme` (jusqu'à `Sh4ll1`, 2018).
 
 | # | Date | Crackme | Auteur | Difficulté | Taille | URL | Statut |
 |---|---|---|---|---|---|---|---|
@@ -142,31 +142,31 @@ Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` 
 | 132 | 2020-05-26 | ZED-Crackme | zed-zahir | 2.0 | 7.48 KB | https://crackmes.one/crackme/5ecd7cc133c5d449d91ae641 | solved |
 | 133 | 2020-05-25 | timotei crackme#4 | tim0tei | 2.0 | 8.84 KB | https://crackmes.one/crackme/5ecb906533c5d449d91ae616 | solved |
 | 134 | 2020-05-25 | timotei crackme#3 | tim0tei | 2.0 | 8.57 KB | https://crackmes.one/crackme/5ecb902633c5d449d91ae615 | solved |
-| 135 | 2020-05-17 | Baby Ransom | Shad3 | 1.8 | 9.98 KB | https://crackmes.one/crackme/5ec1a37533c5d449d91ae535 | **TODO** |
-| 136 | 2020-05-03 | easyAF | 476f64 | 1.0 | 4.16 KB | https://crackmes.one/crackme/5eae2d6633c5d47611746500 | **TODO** |
+| 135 | 2020-05-17 | Baby Ransom | Shad3 | 1.8 | 9.98 KB | https://crackmes.one/crackme/5ec1a37533c5d449d91ae535 | solved |
+| 136 | 2020-05-03 | easyAF | 476f64 | 1.0 | 4.16 KB | https://crackmes.one/crackme/5eae2d6633c5d47611746500 | solved |
 | 137 | 2020-04-25 | nasm crack | BitFriends | 1.0 | 8.96 KB | https://crackmes.one/crackme/5ea48a1433c5d47611746436 | solved |
 | 138 | 2020-04-01 | Small Keygenme | BinaryNewbie | 2.0 | 1.12 KB | https://crackmes.one/crackme/5e83f7f433c5d4439bb2e059 | solved |
 | 139 | 2020-03-24 | timotei crackme#2 | tim0tei | 2.0 | 8.56 KB | https://crackmes.one/crackme/5e7a61ca33c5d4439bb2df60 | solved |
-| 140 | 2020-03-22 | racecars | chillywilly | 2.0 | 18.91 KB | https://crackmes.one/crackme/5e76c37d33c5d4439bb2df1b | **TODO** |
-| 141 | 2020-03-12 | Very Special Number v1 | owo_whats_this | 2.0 | 17.28 KB | https://crackmes.one/crackme/5e6ac90233c5d4439bb2de39 | **TODO** |
-| 142 | 2020-03-05 | mgdilolmsoamasiug | raphiolet | 1.5 | 18.12 KB | https://crackmes.one/crackme/5e604d4333c5d4439bb2dd72 | **TODO** |
+| 140 | 2020-03-22 | racecars | chillywilly | 2.0 | 18.91 KB | https://crackmes.one/crackme/5e76c37d33c5d4439bb2df1b | solved |
+| 141 | 2020-03-12 | Very Special Number v1 | owo_whats_this | 2.0 | 17.28 KB | https://crackmes.one/crackme/5e6ac90233c5d4439bb2de39 | solved |
+| 142 | 2020-03-05 | mgdilolmsoamasiug | raphiolet | 1.5 | 18.12 KB | https://crackmes.one/crackme/5e604d4333c5d4439bb2dd72 | solved |
 | 143 | 2020-03-01 | timotei crackme#1 | timotei | 2.0 | 9.60 KB | https://crackmes.one/crackme/5e5c14c333c5d4439bb2dd1f | solved |
 | 144 | 2020-02-26 | Lucky Numbers | oguzbey | 1.5 | 8.26 KB | https://crackmes.one/crackme/5e567e1d33c5d4439bb2dca0 | solved |
-| 145 | 2020-01-03 | Crackme-4 | D4RKFL0W | 1.7 | 17.74 KB | https://crackmes.one/crackme/5e0fa43b33c5d419aa01351e | **TODO** |
-| 146 | 2019-12-21 | Ext.challenges | Exxtra12 | 2.0 | 8.28 KB | https://crackmes.one/crackme/5dfd77a833c5d419aa013406 | **TODO** |
-| 147 | 2019-12-12 | glow wine [keygen practice] | Bkamp | 1.4 | 8.23 KB | https://crackmes.one/crackme/5df26b4033c5d419aa013362 | **TODO** |
-| 148 | 2019-11-15 | half-twins | m3hd1 | 1.8 | 16.20 KB | https://crackmes.one/crackme/5dce805c33c5d419aa0131ae | **TODO** |
-| 149 | 2019-10-13 | easy keyg3nme | ezman | 1.3 | 16.28 KB | https://crackmes.one/crackme/5da31ebc33c5d46f00e2c661 | **TODO** |
-| 150 | 2019-09-10 | alien_bin | totothetoro | 1.7 | 29.16 KB | https://crackmes.one/crackme/5d78168833c5d46f00e2c428 | **TODO** |
-| 151 | 2019-09-02 | Simple obfuscation | BinaryNewbie | 2.0 | 312.19 KB | https://crackmes.one/crackme/5d6da7bc33c5d46f00e2c3a3 | **TODO** |
-| 152 | 2019-08-27 | Election | paypain | 2.0 | 20.00 KB | https://crackmes.one/crackme/5d64749533c5d46f00e2c324 | **TODO** |
-| 153 | 2019-08-04 | Crack the algorithm | skudo | 2.0 | 23.15 KB | https://crackmes.one/crackme/5d46d2bd33c5d444ad3018d3 | **TODO** |
-| 154 | 2019-07-31 | Save Scooby | mrT4ntr4 | 1.7 | 8.38 KB | https://crackmes.one/crackme/5d41bf7633c5d444ad30189b | **TODO** |
-| 155 | 2019-07-09 | keygenme | kawaii-flesh | 2.0 | 1.90 KB | https://crackmes.one/crackme/5d24585133c5d410dc4d0cbd | **TODO** |
-| 156 | 2019-07-01 | guild hall adventure Ch.2 | ker2x | 2.0 | 7.56 KB | https://crackmes.one/crackme/5d1a344033c5d410dc4d0c3e | **TODO** |
-| 157 | 2019-06-29 | Key and keygen | kawaii-flesh | 2.0 | 2.78 KB | https://crackmes.one/crackme/5d17962b33c5d41c6d56e1f2 | **TODO** |
-| 158 | 2019-06-23 | guild hall adventure Ch.1 | ker2x | 1.3 | 8.34 KB | https://crackmes.one/crackme/5d0fa1ac33c5d41c6d56e172 | **TODO** |
-| 159 | 2019-06-21 | Simple crackme | kawaii-flesh | 1.1 | 2.21 KB | https://crackmes.one/crackme/5d0d1e1333c5d41c6d56e155 | **TODO** |
+| 145 | 2020-01-03 | Crackme-4 | D4RKFL0W | 1.7 | 17.74 KB | https://crackmes.one/crackme/5e0fa43b33c5d419aa01351e | solved |
+| 146 | 2019-12-21 | Ext.challenges | Exxtra12 | 2.0 | 8.28 KB | https://crackmes.one/crackme/5dfd77a833c5d419aa013406 | solved |
+| 147 | 2019-12-12 | glow wine [keygen practice] | Bkamp | 1.4 | 8.23 KB | https://crackmes.one/crackme/5df26b4033c5d419aa013362 | solved |
+| 148 | 2019-11-15 | half-twins | m3hd1 | 1.8 | 16.20 KB | https://crackmes.one/crackme/5dce805c33c5d419aa0131ae | solved |
+| 149 | 2019-10-13 | easy keyg3nme | ezman | 1.3 | 16.28 KB | https://crackmes.one/crackme/5da31ebc33c5d46f00e2c661 | solved |
+| 150 | 2019-09-10 | alien_bin | totothetoro | 1.7 | 29.16 KB | https://crackmes.one/crackme/5d78168833c5d46f00e2c428 | solved |
+| 151 | 2019-09-02 | Simple obfuscation | BinaryNewbie | 2.0 | 312.19 KB | https://crackmes.one/crackme/5d6da7bc33c5d46f00e2c3a3 | solved |
+| 152 | 2019-08-27 | Election | paypain | 2.0 | 20.00 KB | https://crackmes.one/crackme/5d64749533c5d46f00e2c324 | solved |
+| 153 | 2019-08-04 | Crack the algorithm | skudo | 2.0 | 23.15 KB | https://crackmes.one/crackme/5d46d2bd33c5d444ad3018d3 | solved |
+| 154 | 2019-07-31 | Save Scooby | mrT4ntr4 | 1.7 | 8.38 KB | https://crackmes.one/crackme/5d41bf7633c5d444ad30189b | solved |
+| 155 | 2019-07-09 | keygenme | kawaii-flesh | 2.0 | 1.90 KB | https://crackmes.one/crackme/5d24585133c5d410dc4d0cbd | solved |
+| 156 | 2019-07-01 | guild hall adventure Ch.2 | ker2x | 2.0 | 7.56 KB | https://crackmes.one/crackme/5d1a344033c5d410dc4d0c3e | solved |
+| 157 | 2019-06-29 | Key and keygen | kawaii-flesh | 2.0 | 2.78 KB | https://crackmes.one/crackme/5d17962b33c5d41c6d56e1f2 | solved |
+| 158 | 2019-06-23 | guild hall adventure Ch.1 | ker2x | 1.3 | 8.34 KB | https://crackmes.one/crackme/5d0fa1ac33c5d41c6d56e172 | solved |
+| 159 | 2019-06-21 | Simple crackme | kawaii-flesh | 1.1 | 2.21 KB | https://crackmes.one/crackme/5d0d1e1333c5d41c6d56e155 | solved |
 | 160 | 2019-06-18 | Time is of the Essence | emiflake | 2.0 | 34.17 KB | https://crackmes.one/crackme/5d09368533c5d41c6d56e124 | **TODO** |
 | 161 | 2019-06-17 | Quick Crypto, 18k | andrewl | 2.0 | 17.93 KB | https://crackmes.one/crackme/5d07f03233c5d41c6d56e10c | solved |
 | 162 | 2019-06-03 | crackme #1 | hikilaka | 2.0 | 26.36 KB | https://crackmes.one/crackme/5cf574fe33c5d41c6d56e01b | **TODO** |
@@ -200,4 +200,4 @@ Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` 
 | 190 | 2018-05-06 | Sh4ll2 | destructeur | 2.0 | 8.49 KB | https://crackmes.one/crackme/5aef385633c5d41ac64b492f | **TODO** |
 | 191 | 2018-05-06 | Sh4ll1 | destructeur | 1.4 | 13.23 KB | https://crackmes.one/crackme/5aef37c733c5d41ac64b492e | **TODO** |
 
-Le prochain de la file est **Baby Ransom** (Shad3, #135) : https://crackmes.one/crackme/5ec1a37533c5d449d91ae535 puis **easyAF** (476f64, #136), **racecars** (chillywilly, #140) et **Very Special Number v1** (owo_whats_this, #141). Mis de côté : Prometheora (#37, Rust+VM), Rev1 (#40, sources contradictoires), FedGuy easy crack (#45, SHA-256 à casser), Ghost (#57, pwn de tas), Gemy (#65, UPX modifié), Upgraded Levels Keygen (#67, 4 niveaux dont un keygen « sorcier »), sh0uld_b3_e4zy (#78, aucune condition de victoire).
+Le prochain de la file est **Quick Crypto, 18k** deja solved, donc **crackme #1** (hikilaka, #162) : https://crackmes.one/crackme/5cf574fe33c5d41c6d56e01b puis **D4RK_FL0W-3.5** (D4RKFL0W, #163), **Sh4ll10** (destructeur, #164) et **crackmepal** (novn91, #165). Mis de côté : Prometheora (#37, Rust+VM), Rev1 (#40, sources contradictoires), FedGuy easy crack (#45, SHA-256 à casser), Ghost (#57, pwn de tas), Gemy (#65, UPX modifié), Upgraded Levels Keygen (#67, 4 niveaux dont un keygen « sorcier »), sh0uld_b3_e4zy (#78, aucune condition de victoire).
