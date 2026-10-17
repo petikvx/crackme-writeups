@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6715466c9b533b4c22bd18bb
+
+urls:
+  page: https://crackmes.one/crackme/6715466c9b533b4c22bd18bb
+  download: https://crackmes.one/download/crackme/6715466c9b533b4c22bd18bb
+
+title: "RafaelGFreveng's Sexy 1337"
+author_on_site: "RafaelGFreveng"
+author_local: "rafaelgfreveng"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/sexy1337.out"
+  name: "sexy1337.out"
+  sha256: "29eb50c08d17a4c4a4e561e4325732af90a1f462119b7e36b2bd70ea46a86f8b"
+  md5: "0999f21f53a9eee045f73dc30f3c3c66"
+  size_bytes: 16384
+
+status: solved
+solution_summary: "password = vh{|466:  (seed sexy1337 + 3 par octet ; encrypt_decrypt XOR 0xaa appliqué des deux côtés donc sans effet)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T04:56:17Z"

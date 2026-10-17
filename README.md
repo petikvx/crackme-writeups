@@ -161,6 +161,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [kryptos](authors/kryptos/README.md) | Kryptos | 1 (Hecate) | 1 / 1 |
 | [marco007](authors/marco007/README.md) | marco007 | 2 (time based riddle + simple crackme) | 2 / 2 |
 | [sftmlg](authors/sftmlg/README.md) | sftmlg | 1 (Quite a simple crackme) | 1 / 1 |
+| [rafaelgfreveng](authors/rafaelgfreveng/README.md) | RafaelGFreveng | 1 (Sexy 1337) | 1 / 1 |
 | [cappybara](authors/cappybara/README.md) | Cappybara | 1 (BabyRev) | 1 / 1 |
 | [fragus](authors/fragus/README.md) | Fragus | 1 (Very simple crackme) | 1 / 1 |
 | [hfirewoxlf](authors/hfirewoxlf/README.md) | hFireWoxlf | 1 (My First Rust Crackme) | 1 / 1 |
@@ -281,6 +282,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-17 | [Sexy 1337](authors/rafaelgfreveng/6715466c9b533b4c22bd18bb/) | RafaelGFreveng |
 | 2026-10-17 | [lfalchs_1st_crackme by lfalch](authors/crackmes-de/5ab77f5633c5d40ad448c2df/) | crackmes.de / lfalch |
 | 2026-10-17 | [orcs236_crackme by orcs236](authors/crackmes-de/5ab77f5633c5d40ad448c2de/) | crackmes.de / orcs236 |
 | 2026-10-17 | [orks236_crackme_2 by orcs236](authors/crackmes-de/5ab77f5633c5d40ad448c2dd/) | crackmes.de / orcs236 |

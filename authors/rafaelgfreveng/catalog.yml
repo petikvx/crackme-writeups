@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6715466c9b533b4c22bd18bb:
+    sha256: "29eb50c08d17a4c4a4e561e4325732af90a1f462119b7e36b2bd70ea46a86f8b"
+    path: "authors/rafaelgfreveng/6715466c9b533b4c22bd18bb/original/sexy1337.out"
+    title: "RafaelGFreveng's Sexy 1337"
+
+by_sha256:
+  29eb50c08d17a4c4a4e561e4325732af90a1f462119b7e36b2bd70ea46a86f8b:
+    id: 6715466c9b533b4c22bd18bb
+    path: "authors/rafaelgfreveng/6715466c9b533b4c22bd18bb/original/sexy1337.out"
+    page: https://crackmes.one/crackme/6715466c9b533b4c22bd18bb
