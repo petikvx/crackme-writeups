@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ce137b933c5d4419da55ac2
+
+urls:
+  page: https://crackmes.one/crackme/5ce137b933c5d4419da55ac2
+  download: https://crackmes.one/download/crackme/5ce137b933c5d4419da55ac2
+
+title: "D4RKFL0W's D4RK_FL0W"
+author_on_site: "D4RKFL0W"
+author_local: "d4rkfl0w"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/D4RK_FL0W-3.5"
+  name: "D4RK_FL0W-3.5"
+  sha256: "ba1808ad2ccfbc5f9b9e46ec25af47a4606945df503e8974016c7822ba3628db"
+  md5: "22b72aee11a42e19bf90b603b97904e7"
+  size_bytes: 17840
+
+status: solved
+solution_summary: "4 get_numN avec constantes en dur, modulo 9 -> code 4273"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T17:51:03Z"

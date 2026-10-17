@@ -10,6 +10,11 @@ by_id:
     path: "authors/d4rkfl0w/5e0fa43b33c5d419aa01351e/original/Crackme-4"
     title: "D4RKFL0W's Crackme"
 
+  5ce137b933c5d4419da55ac2:
+    sha256: "ba1808ad2ccfbc5f9b9e46ec25af47a4606945df503e8974016c7822ba3628db"
+    path: "authors/d4rkfl0w/5ce137b933c5d4419da55ac2/original/D4RK_FL0W-3.5"
+    title: "D4RKFL0W's D4RK_FL0W"
+
 by_sha256:
   d4a38dec4dfcfb88674f52ff11f5a190282a2412da9004a6d14b86d0c7bb1e4c:
     id: 5f0998cb33c5d42a7c667974
@@ -19,3 +24,7 @@ by_sha256:
     id: 5e0fa43b33c5d419aa01351e
     path: "authors/d4rkfl0w/5e0fa43b33c5d419aa01351e/original/Crackme-4"
     page: https://crackmes.one/crackme/5e0fa43b33c5d419aa01351e
+  ba1808ad2ccfbc5f9b9e46ec25af47a4606945df503e8974016c7822ba3628db:
+    id: 5ce137b933c5d4419da55ac2
+    path: "authors/d4rkfl0w/5ce137b933c5d4419da55ac2/original/D4RK_FL0W-3.5"
+    page: https://crackmes.one/crackme/5ce137b933c5d4419da55ac2
