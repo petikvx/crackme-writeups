@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 61e9983133c5d413767ca5ac
+
+urls:
+  page: https://crackmes.one/crackme/61e9983133c5d413767ca5ac
+  download: https://crackmes.one/download/crackme/61e9983133c5d413767ca5ac
+
+title: "bueb810's gugus the first"
+author_on_site: "bueb810"
+author_local: "bueb810"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/gugus.out"
+  name: "gugus.out"
+  sha256: "02970c7eb3f8533663b6dcdb07fd1fdb61f0ea0c3d929cc6572b308cb13e3aba"
+  md5: "14b2559b6135bd793f9e6a8678ba2476"
+  size_bytes: 15180
+
+status: solved
+solution_summary: "argv[1] = gu!gu?s (immediates 0x67217567 + 0x733f75 sur la pile)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T10:09:04Z"

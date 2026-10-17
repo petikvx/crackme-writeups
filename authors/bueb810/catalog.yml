@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  61e9983133c5d413767ca5ac:
+    sha256: "02970c7eb3f8533663b6dcdb07fd1fdb61f0ea0c3d929cc6572b308cb13e3aba"
+    path: "authors/bueb810/61e9983133c5d413767ca5ac/original/gugus.out"
+    title: "bueb810's gugus the first"
+
+by_sha256:
+  02970c7eb3f8533663b6dcdb07fd1fdb61f0ea0c3d929cc6572b308cb13e3aba:
+    id: 61e9983133c5d413767ca5ac
+    path: "authors/bueb810/61e9983133c5d413767ca5ac/original/gugus.out"
+    page: https://crackmes.one/crackme/61e9983133c5d413767ca5ac
