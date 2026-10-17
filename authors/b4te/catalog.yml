@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6640d1d26b8bd8ddfe33c80a:
+    sha256: "8275d84cc74870e4e500546e9544887056c96ff5de1d25383b96e813d0d6a036"
+    path: "authors/b4te/6640d1d26b8bd8ddfe33c80a/original/guess_the_password"
+    title: "b4te's guess_the_password"
+
+by_sha256:
+  8275d84cc74870e4e500546e9544887056c96ff5de1d25383b96e813d0d6a036:
+    id: 6640d1d26b8bd8ddfe33c80a
+    path: "authors/b4te/6640d1d26b8bd8ddfe33c80a/original/guess_the_password"
+    page: https://crackmes.one/crackme/6640d1d26b8bd8ddfe33c80a

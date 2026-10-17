@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6640d1d26b8bd8ddfe33c80a
+
+urls:
+  page: https://crackmes.one/crackme/6640d1d26b8bd8ddfe33c80a
+  download: https://crackmes.one/download/crackme/6640d1d26b8bd8ddfe33c80a
+
+title: "b4te's guess_the_password"
+author_on_site: "b4te"
+author_local: "b4te"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/guess_the_password"
+  name: "guess_the_password"
+  sha256: "8275d84cc74870e4e500546e9544887056c96ff5de1d25383b96e813d0d6a036"
+  md5: "3aa98ef710cbe1544232483bcd6ccc3b"
+  size_bytes: 16264
+
+status: solved
+solution_summary: "password = toute chaine de 10 car. avec s[0]==\"1\" et s[4]==\"9\" (ex. 1pet9ikpet)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T05:03:21Z"
