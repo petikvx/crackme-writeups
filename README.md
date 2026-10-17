@@ -161,6 +161,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [kryptos](authors/kryptos/README.md) | Kryptos | 1 (Hecate) | 1 / 1 |
 | [marco007](authors/marco007/README.md) | marco007 | 2 (time based riddle + simple crackme) | 2 / 2 |
 | [sftmlg](authors/sftmlg/README.md) | sftmlg | 1 (Quite a simple crackme) | 1 / 1 |
+| [novn91](authors/novn91/README.md) | novn91 | 1 (crackmepal) | 1 / 1 |
 | [hikilaka](authors/hikilaka/README.md) | hikilaka | 1 (crackme #1) | 1 / 1 |
 | [ker2x](authors/ker2x/README.md) | ker2x | 2 (guild hall adventure Ch.2) | 2 / 2 |
 | [kawaii-flesh](authors/kawaii-flesh/README.md) | kawaii-flesh | 3 (keygenme) | 3 / 3 |
@@ -345,6 +346,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-17 | [crackmepal](authors/novn91/5ccecc7e33c5d4419da559b3/) | novn91 |
 | 2026-10-17 | [Sh4ll10](authors/destructeur/5ccf3bf333c5d4419da559bd/) | destructeur |
 | 2026-10-17 | [D4RK_FL0W-3.5](authors/d4rkfl0w/5ce137b933c5d4419da55ac2/) | D4RKFL0W |
 | 2026-10-17 | [crackme #1](authors/hikilaka/5cf574fe33c5d41c6d56e01b/) | hikilaka |

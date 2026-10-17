@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ccecc7e33c5d4419da559b3
+
+urls:
+  page: https://crackmes.one/crackme/5ccecc7e33c5d4419da559b3
+  download: https://crackmes.one/download/crackme/5ccecc7e33c5d4419da559b3
+
+title: "novn91's crackmepal"
+author_on_site: "novn91"
+author_local: "novn91"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackmeMario"
+  name: "crackmeMario"
+  sha256: "1b7d7c5ae2b5cd333dd539185581ccf5f74ba2e8c48e3a047b7bc9a44a50a59a"
+  md5: "ac7639dff103dd1c21b91dbd11f67609"
+  size_bytes: 16568
+
+status: solved
+solution_summary: "len(argv1)==9, argv1[4]=='-', contient '@' n importe ou -> xxxx-@xxx"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T17:51:08Z"

@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5ccecc7e33c5d4419da559b3:
+    sha256: "1b7d7c5ae2b5cd333dd539185581ccf5f74ba2e8c48e3a047b7bc9a44a50a59a"
+    path: "authors/novn91/5ccecc7e33c5d4419da559b3/original/crackmeMario"
+    title: "novn91's crackmepal"
+
+by_sha256:
+  1b7d7c5ae2b5cd333dd539185581ccf5f74ba2e8c48e3a047b7bc9a44a50a59a:
+    id: 5ccecc7e33c5d4419da559b3
+    path: "authors/novn91/5ccecc7e33c5d4419da559b3/original/crackmeMario"
+    page: https://crackmes.one/crackme/5ccecc7e33c5d4419da559b3
