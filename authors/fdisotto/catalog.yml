@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  669a714890c4c2830c820bc0:
+    sha256: "2e2eed74ac69420c6abd3b0bb6a33547ea827b70c777d66d63ae711fb372a253"
+    path: "authors/fdisotto/669a714890c4c2830c820bc0/original/good_boy"
+    title: "fdisotto's good_boy"
+
+by_sha256:
+  2e2eed74ac69420c6abd3b0bb6a33547ea827b70c777d66d63ae711fb372a253:
+    id: 669a714890c4c2830c820bc0
+    path: "authors/fdisotto/669a714890c4c2830c820bc0/original/good_boy"
+    page: https://crackmes.one/crackme/669a714890c4c2830c820bc0
