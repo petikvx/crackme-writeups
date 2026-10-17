@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  65c795a3eef082e477ff6a7e:
+    sha256: "f959482648afe56f5b2cfdce701b1b6863e75e8c4203f98439bc8d175553a034"
+    path: "authors/cycrusader/65c795a3eef082e477ff6a7e/original/test"
+    title: "cycrusader's sh0uld_b3_e4zy"
+
+by_sha256:
+  f959482648afe56f5b2cfdce701b1b6863e75e8c4203f98439bc8d175553a034:
+    id: 65c795a3eef082e477ff6a7e
+    path: "authors/cycrusader/65c795a3eef082e477ff6a7e/original/test"
+    page: https://crackmes.one/crackme/65c795a3eef082e477ff6a7e

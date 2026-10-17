@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 65c795a3eef082e477ff6a7e
+
+urls:
+  page: https://crackmes.one/crackme/65c795a3eef082e477ff6a7e
+  download: https://crackmes.one/download/crackme/65c795a3eef082e477ff6a7e
+
+title: "cycrusader's sh0uld_b3_e4zy"
+author_on_site: "cycrusader"
+author_local: "cycrusader"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/test"
+  name: "test"
+  sha256: "f959482648afe56f5b2cfdce701b1b6863e75e8c4203f98439bc8d175553a034"
+  md5: "e4dccd0cc788af0537018334b65d6dd3"
+  size_bytes: 15632
+
+status: pending
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T06:31:50Z"
