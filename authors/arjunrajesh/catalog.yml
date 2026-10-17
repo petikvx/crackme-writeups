@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  65a97cbaeef082e477ff5d84:
+    sha256: "4b3feaf4ae584b7ecbcb4c953c44516f3a68b8325cf71611845f3dbb4dfb1c8f"
+    path: "authors/arjunrajesh/65a97cbaeef082e477ff5d84/original/tryme"
+    title: "ArjunRajesh's FLAG"
+
+by_sha256:
+  4b3feaf4ae584b7ecbcb4c953c44516f3a68b8325cf71611845f3dbb4dfb1c8f:
+    id: 65a97cbaeef082e477ff5d84
+    path: "authors/arjunrajesh/65a97cbaeef082e477ff5d84/original/tryme"
+    page: https://crackmes.one/crackme/65a97cbaeef082e477ff5d84

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 65a97cbaeef082e477ff5d84
+
+urls:
+  page: https://crackmes.one/crackme/65a97cbaeef082e477ff5d84
+  download: https://crackmes.one/download/crackme/65a97cbaeef082e477ff5d84
+
+title: "ArjunRajesh's FLAG"
+author_on_site: "ArjunRajesh"
+author_local: "arjunrajesh"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/tryme"
+  name: "tryme"
+  sha256: "4b3feaf4ae584b7ecbcb4c953c44516f3a68b8325cf71611845f3dbb4dfb1c8f"
+  md5: "5d5a9235f0f6e642ed96b95276ed8f85"
+  size_bytes: 16264
+
+status: solved
+solution_summary: "argv[1] = flag{_y0u_f0und_key_} ; flag[i] = (key[i]-0x22) ^ table[i], key = sup3r_s3cr3t_k3y_1337"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T06:35:28Z"
