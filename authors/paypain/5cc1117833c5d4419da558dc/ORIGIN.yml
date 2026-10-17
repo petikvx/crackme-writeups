@@ -1,0 +1,35 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5cc1117833c5d4419da558dc
+
+urls:
+  page: https://crackmes.one/crackme/5cc1117833c5d4419da558dc
+  download: https://crackmes.one/download/crackme/5cc1117833c5d4419da558dc
+
+title: "paypain's EasyCrack - Much0l0k0"
+author_on_site: "paypain"
+author_local: "paypain"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/de_mucholoko"
+  name: "de_mucholoko"
+  sha256: "3896a7675f6a974910c04e43d03a3fc2d0d47c8fe6b838767355aa28bdbbd267"
+  note: "extrait de original/EasyCrack_loko.tar ; tar supprime apres extraction."
+
+status: solved
+solution_summary: "5 fenetres de 7 octets chevauchant les tirets, compteur croissant de char speciaux ; longueur 39 lue sous gdb -> gabarit"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T17:51:11Z"
