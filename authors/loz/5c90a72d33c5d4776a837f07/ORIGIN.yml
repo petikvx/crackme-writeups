@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5c90a72d33c5d4776a837f07
+
+urls:
+  page: https://crackmes.one/crackme/5c90a72d33c5d4776a837f07
+  download: https://crackmes.one/download/crackme/5c90a72d33c5d4776a837f07
+
+title: "Loz's Password Login"
+author_on_site: "Loz"
+author_local: "loz"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme"
+  name: "crackme"
+  sha256: "cd00215df69e55cb05aaab1df4bb22533aecbe97fbbe1aa9d73aa853987c324a"
+  md5: "98c4ed2c1e64e359cd432221c0135acd"
+  size_bytes: 21136
+
+status: solved
+solution_summary: "construction de chaine 'dekcarc' puis comparaison a reverse(input) -> cracked"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T18:02:31Z"

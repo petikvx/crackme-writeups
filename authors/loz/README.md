@@ -9,3 +9,4 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml).
 | # | Titre | ID | Plateforme | Solution |
 |---|---|---|---|---|
 | 1 | [Password Login 2](5ca0b6c833c5d4419da5567b/) | [`5ca0b6c8…`](https://crackmes.one/crackme/5ca0b6c833c5d4419da5567b) | Linux ELF64 C++ | XOR 0x42 sur substring membre -> lozlvl2 |
+| 2 | [Password Login](5c90a72d33c5d4776a837f07/) | [`5c90a72d…`](https://crackmes.one/crackme/5c90a72d33c5d4776a837f07) | Linux ELF64 C++ | reverse('dekcarc') -> cracked |
