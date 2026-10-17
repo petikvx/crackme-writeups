@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5ff53c5c33c5d42c3d0165b7:
+    sha256: "f51a8fd5374933df7a4ef4dbeace0c00bc6f304612c75ed5b510318276065d3a"
+    path: "authors/pranav/5ff53c5c33c5d42c3d0165b7/original/a.out"
+    title: "pranav's unlockme"
+
+by_sha256:
+  f51a8fd5374933df7a4ef4dbeace0c00bc6f304612c75ed5b510318276065d3a:
+    id: 5ff53c5c33c5d42c3d0165b7
+    path: "authors/pranav/5ff53c5c33c5d42c3d0165b7/original/a.out"
+    page: https://crackmes.one/crackme/5ff53c5c33c5d42c3d0165b7

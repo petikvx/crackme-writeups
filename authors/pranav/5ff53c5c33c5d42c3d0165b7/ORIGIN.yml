@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ff53c5c33c5d42c3d0165b7
+
+urls:
+  page: https://crackmes.one/crackme/5ff53c5c33c5d42c3d0165b7
+  download: https://crackmes.one/download/crackme/5ff53c5c33c5d42c3d0165b7
+
+title: "pranav's unlockme"
+author_on_site: "pranav"
+author_local: "pranav"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/a.out"
+  name: "a.out"
+  sha256: "f51a8fd5374933df7a4ef4dbeace0c00bc6f304612c75ed5b510318276065d3a"
+  md5: "e9d2f752be6594753eeb9323c0629754"
+  size_bytes: 8584
+
+status: solved
+solution_summary: "password = YesYouCrackedMe (table 15 octets XOR 0x50, longueur verifiee via 2n-1==0x1d)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T14:03:57Z"
