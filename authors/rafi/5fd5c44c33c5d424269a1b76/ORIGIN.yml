@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5fd5c44c33c5d424269a1b76
+
+urls:
+  page: https://crackmes.one/crackme/5fd5c44c33c5d424269a1b76
+  download: https://crackmes.one/download/crackme/5fd5c44c33c5d424269a1b76
+
+title: "rafi's what"
+author_on_site: "rafi"
+author_local: "rafi"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme"
+  name: "crackme"
+  sha256: "c1cf0701ae4b79e6105e0c532e5ec32fecd0f657a37dd37c3adc1827c8dbe76b"
+  md5: "664f7108a5e159027c4062c07b46f5e0"
+  size_bytes: 8440
+
+status: solved
+solution_summary: "flag = F{BGDeGOVCIRT} (decoder() jamais appelee, compteur fige a 0 ; XOR cyclique avec the_flag ; preuve via gdb call decoder())"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T14:14:27Z"

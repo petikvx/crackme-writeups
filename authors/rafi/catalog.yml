@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5fd5c44c33c5d424269a1b76:
+    sha256: "c1cf0701ae4b79e6105e0c532e5ec32fecd0f657a37dd37c3adc1827c8dbe76b"
+    path: "authors/rafi/5fd5c44c33c5d424269a1b76/original/crackme"
+    title: "rafi's what"
+
+by_sha256:
+  c1cf0701ae4b79e6105e0c532e5ec32fecd0f657a37dd37c3adc1827c8dbe76b:
+    id: 5fd5c44c33c5d424269a1b76
+    path: "authors/rafi/5fd5c44c33c5d424269a1b76/original/crackme"
+    page: https://crackmes.one/crackme/5fd5c44c33c5d424269a1b76
