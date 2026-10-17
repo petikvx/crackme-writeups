@@ -1,0 +1,30 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5c11e2f333c5d41e58e0057a:
+    sha256: "f5a204ee1b3c68d94f4f35cd3acd4f899c96689111706fbffb4bf747313c1f8c"
+    path: "authors/nutcake/5c11e2f333c5d41e58e0057a/original/hidden"
+    title: "nutcake's WhiteRabbit"
+
+  5c11e1f333c5d41e58e00579:
+    sha256: "2c7774d411988d5d2eb5c88f5919d01ebd3efb502109dcea4b160fbb57b56818"
+    path: "authors/nutcake/5c11e1f333c5d41e58e00579/original/simple"
+    title: "nutcake's PieIsMyFav"
+
+  5c11dcaf33c5d41e58e00578:
+    sha256: "6f853d08eecce5040951ffdcdf3f82827e8f78b890b7a7f50f12b8afa6413b67"
+    path: "authors/nutcake/5c11dcaf33c5d41e58e00578/original/crack"
+    title: "nutcake's PrettyDamnEasy"
+
+by_sha256:
+  f5a204ee1b3c68d94f4f35cd3acd4f899c96689111706fbffb4bf747313c1f8c:
+    id: 5c11e2f333c5d41e58e0057a
+    path: "authors/nutcake/5c11e2f333c5d41e58e0057a/original/hidden"
+    page: https://crackmes.one/crackme/5c11e2f333c5d41e58e0057a
+  2c7774d411988d5d2eb5c88f5919d01ebd3efb502109dcea4b160fbb57b56818:
+    id: 5c11e1f333c5d41e58e00579
+    path: "authors/nutcake/5c11e1f333c5d41e58e00579/original/simple"
+    page: https://crackmes.one/crackme/5c11e1f333c5d41e58e00579
+  6f853d08eecce5040951ffdcdf3f82827e8f78b890b7a7f50f12b8afa6413b67:
+    id: 5c11dcaf33c5d41e58e00578
+    path: "authors/nutcake/5c11dcaf33c5d41e58e00578/original/crack"
+    page: https://crackmes.one/crackme/5c11dcaf33c5d41e58e00578

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5c11e2f333c5d41e58e0057a
+
+urls:
+  page: https://crackmes.one/crackme/5c11e2f333c5d41e58e0057a
+  download: https://crackmes.one/download/crackme/5c11e2f333c5d41e58e0057a
+
+title: "nutcake's WhiteRabbit"
+author_on_site: "nutcake"
+author_local: "nutcake"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/hidden"
+  name: "hidden"
+  sha256: "f5a204ee1b3c68d94f4f35cd3acd4f899c96689111706fbffb4bf747313c1f8c"
+  md5: "0efe40486c9afe39d17882097ced2972"
+  size_bytes: 16688
+
+status: solved
+solution_summary: "secret() jamais appele par main, printf a arguments constants, confirme sous gdb (call secret()) -> flag{3sc0nd1d0_3h_M41s_G0st0S0}"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T18:18:37Z"
