@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6047ffb433c5d42c3d016da6:
+    sha256: "9d562ab54d31a96a5c90b181eba2564cb561da5b622b654b5d48622c82b717e4"
+    path: "authors/harel21/6047ffb433c5d42c3d016da6/original/crackme"
+    title: "Harel21's crackme"
+
+by_sha256:
+  9d562ab54d31a96a5c90b181eba2564cb561da5b622b654b5d48622c82b717e4:
+    id: 6047ffb433c5d42c3d016da6
+    path: "authors/harel21/6047ffb433c5d42c3d016da6/original/crackme"
+    page: https://crackmes.one/crackme/6047ffb433c5d42c3d016da6

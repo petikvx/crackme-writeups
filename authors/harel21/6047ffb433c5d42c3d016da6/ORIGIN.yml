@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6047ffb433c5d42c3d016da6
+
+urls:
+  page: https://crackmes.one/crackme/6047ffb433c5d42c3d016da6
+  download: https://crackmes.one/download/crackme/6047ffb433c5d42c3d016da6
+
+title: "Harel21's crackme"
+author_on_site: "Harel21"
+author_local: "harel21"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme"
+  name: "crackme"
+  sha256: "9d562ab54d31a96a5c90b181eba2564cb561da5b622b654b5d48622c82b717e4"
+  md5: "7b53e53f7b911a973c1c7f8c5824bfb3"
+  size_bytes: 14432
+
+status: solved
+solution_summary: "name=petik serial=535341 (nameValue(\"petik\") appelee directement sous gdb car main() segfault toujours - pointeur non initialise)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T14:03:51Z"
