@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  62327b0433c5d46c8bcc0335:
+    sha256: "70f214bbb8f7175a8127622a833a3a9e94b171c3ffdc3173c34aa0d0dd904353"
+    path: "authors/pourmeadrinkwhileimfloating/62327b0433c5d46c8bcc0335/original/111.zip"
+    title: "pourmeadrinkwhileimfloating's licesnse_checker_3"
+
+by_sha256:
+  70f214bbb8f7175a8127622a833a3a9e94b171c3ffdc3173c34aa0d0dd904353:
+    id: 62327b0433c5d46c8bcc0335
+    path: "authors/pourmeadrinkwhileimfloating/62327b0433c5d46c8bcc0335/original/111.zip"
+    page: https://crackmes.one/crackme/62327b0433c5d46c8bcc0335

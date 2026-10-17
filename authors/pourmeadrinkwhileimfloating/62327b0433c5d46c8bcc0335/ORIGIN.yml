@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 62327b0433c5d46c8bcc0335
+
+urls:
+  page: https://crackmes.one/crackme/62327b0433c5d46c8bcc0335
+  download: https://crackmes.one/download/crackme/62327b0433c5d46c8bcc0335
+
+title: "pourmeadrinkwhileimfloating's licesnse_checker_3"
+author_on_site: "pourmeadrinkwhileimfloating"
+author_local: "pourmeadrinkwhileimfloating"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/111.zip"
+  name: "111.zip"
+  sha256: "70f214bbb8f7175a8127622a833a3a9e94b171c3ffdc3173c34aa0d0dd904353"
+  md5: "9b37a12d71acfa6dffe8b9e81373810b"
+  size_bytes: 2914
+
+status: solved
+solution_summary: "code = toute chaine de chiffres dont la somme == 50 (ex. 999995)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T10:04:59Z"
