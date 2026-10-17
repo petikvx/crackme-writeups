@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6513567328b5870bef263329:
+    sha256: "68a61e557210878054841547ff73ef1b83421ca02bc50a3e4c9d9518d7fc0369"
+    path: "authors/i3a4dam/6513567328b5870bef263329/original/plain_sight.zip"
+    title: "I3a4dam's Plain sight"
+
+by_sha256:
+  68a61e557210878054841547ff73ef1b83421ca02bc50a3e4c9d9518d7fc0369:
+    id: 6513567328b5870bef263329
+    path: "authors/i3a4dam/6513567328b5870bef263329/original/plain_sight.zip"
+    page: https://crackmes.one/crackme/6513567328b5870bef263329
