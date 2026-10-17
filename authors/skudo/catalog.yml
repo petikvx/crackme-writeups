@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5d46d2bd33c5d444ad3018d3:
+    sha256: "c44f9229728deee64c399a8dad0f5289eccfc0938c6182aa57df2327ecffeee3"
+    path: "authors/skudo/5d46d2bd33c5d444ad3018d3/original/Encrypt"
+    title: "skudo's Crack the algorithm"
+
+by_sha256:
+  c44f9229728deee64c399a8dad0f5289eccfc0938c6182aa57df2327ecffeee3:
+    id: 5d46d2bd33c5d444ad3018d3
+    path: "authors/skudo/5d46d2bd33c5d444ad3018d3/original/Encrypt"
+    page: https://crackmes.one/crackme/5d46d2bd33c5d444ad3018d3

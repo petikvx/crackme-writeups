@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5d46d2bd33c5d444ad3018d3
+
+urls:
+  page: https://crackmes.one/crackme/5d46d2bd33c5d444ad3018d3
+  download: https://crackmes.one/download/crackme/5d46d2bd33c5d444ad3018d3
+
+title: "skudo's Crack the algorithm"
+author_on_site: "skudo"
+author_local: "skudo"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Encrypt"
+  name: "Encrypt"
+  sha256: "c44f9229728deee64c399a8dad0f5289eccfc0938c6182aa57df2327ecffeee3"
+  md5: "2bd99f5a5a82cd95e2d08508a31c2f88"
+  size_bytes: 23704
+
+status: solved
+solution_summary: "createKey(imsupersecur3) puis chiffrement XOR feedback de SvenJoergen...PooPoo -> fichier-cle attendu par le chemin, 49 octets"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T15:26:10Z"
