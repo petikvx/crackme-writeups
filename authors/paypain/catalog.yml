@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5d64749533c5d46f00e2c324:
+    sha256: "7072cb5007bc9f7cc08d2913b1a800488f1051080327ef9494785352261a4eca"
+    path: "authors/paypain/5d64749533c5d46f00e2c324/original/Election.tar"
+    title: "paypain's Election"
+
+by_sha256:
+  7072cb5007bc9f7cc08d2913b1a800488f1051080327ef9494785352261a4eca:
+    id: 5d64749533c5d46f00e2c324
+    path: "authors/paypain/5d64749533c5d46f00e2c324/original/Election.tar"
+    page: https://crackmes.one/crackme/5d64749533c5d46f00e2c324

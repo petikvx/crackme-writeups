@@ -161,6 +161,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [kryptos](authors/kryptos/README.md) | Kryptos | 1 (Hecate) | 1 / 1 |
 | [marco007](authors/marco007/README.md) | marco007 | 2 (time based riddle + simple crackme) | 2 / 2 |
 | [sftmlg](authors/sftmlg/README.md) | sftmlg | 1 (Quite a simple crackme) | 1 / 1 |
+| [paypain](authors/paypain/README.md) | paypain | 1 (Election) | 1 / 1 |
 | [totothetoro](authors/totothetoro/README.md) | totothetoro | 1 (alien_bin) | 1 / 1 |
 | [ezman](authors/ezman/README.md) | ezman | 1 (easy keyg3nme) | 1 / 1 |
 | [m3hd1](authors/m3hd1/README.md) | m3hd1 | 1 (half-twins) | 1 / 1 |
@@ -339,6 +340,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-17 | [Election](authors/paypain/5d64749533c5d46f00e2c324/) | paypain |
 | 2026-10-17 | [Simple obfuscation](authors/binarynewbie/5d6da7bc33c5d46f00e2c3a3/) | BinaryNewbie |
 | 2026-10-17 | [alien_bin](authors/totothetoro/5d78168833c5d46f00e2c428/) | totothetoro |
 | 2026-10-17 | [easy keyg3nme](authors/ezman/5da31ebc33c5d46f00e2c661/) | ezman |

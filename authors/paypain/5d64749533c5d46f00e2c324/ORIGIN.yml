@@ -1,0 +1,35 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5d64749533c5d46f00e2c324
+
+urls:
+  page: https://crackmes.one/crackme/5d64749533c5d46f00e2c324
+  download: https://crackmes.one/download/crackme/5d64749533c5d46f00e2c324
+
+title: "paypain's Election"
+author_on_site: "paypain"
+author_local: "paypain"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/election"
+  name: "election"
+  sha256: "76b661f4c12e061d84c557657cc8098131856493a1facf928ea972c016918b3e"
+  note: "extrait de original/Election.tar (election + README_ELECTION.txt) ; tar supprime apres extraction."
+
+status: solved
+solution_summary: "challenge non-patch : shim LD_PRELOAD efface sa propre variable d env en constructeur puis hooke rand() (0,0,98) -> Sar gagne"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T15:26:08Z"
