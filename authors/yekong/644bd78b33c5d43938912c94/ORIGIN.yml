@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 644bd78b33c5d43938912c94
+
+urls:
+  page: https://crackmes.one/crackme/644bd78b33c5d43938912c94
+  download: https://crackmes.one/download/crackme/644bd78b33c5d43938912c94
+
+title: "Yekong's Salt and Hash"
+author_on_site: "Yekong"
+author_local: "yekong"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/hash.7z"
+  name: "hash.7z"
+  sha256: "3ea873edbef0e3e3f0ac17f49982c8ca7e53075e3fca2e322b1dea4158879f32"
+  md5: "dff721e17bacd6637db7db1b0601db4d"
+  size_bytes: 774381
+
+status: solved
+solution_summary: "reponse = adm1n1strat0r (check_ans compare a une constante codee en dur, 2 qwords qui se recouvrent ; le hash salt affiche nest jamais recalcule)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T07:17:22Z"

@@ -161,7 +161,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [kryptos](authors/kryptos/README.md) | Kryptos | 1 (Hecate) | 1 / 1 |
 | [marco007](authors/marco007/README.md) | marco007 | 2 (time based riddle + simple crackme) | 2 / 2 |
 | [sftmlg](authors/sftmlg/README.md) | sftmlg | 1 (Quite a simple crackme) | 1 / 1 |
-| [yekong](authors/yekong/README.md) | Yekong | 1 (Vending Machine) | 1 / 1 |
+| [yekong](authors/yekong/README.md) | Yekong | 2 (Vending Machine) | 2 / 2 |
 | [varsovie](authors/varsovie/README.md) | Varsovie | 1 (GDB basics) | 1 / 1 |
 | [sudo0x18](authors/sudo0x18/README.md) | sudo0x18 | 1 (Level1) | 1 / 1 |
 | [ithawk](authors/ithawk/README.md) | ithawk | 1 (Find password) | 1 / 1 |
@@ -302,6 +302,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-17 | [Salt and Hash - Linux](authors/yekong/644bd78b33c5d43938912c94/) | Yekong |
 | 2026-10-17 | [Vending Machine](authors/yekong/6454d06c33c5d43938912e8a/) | Yekong |
 | 2026-10-17 | [GDB basics](authors/varsovie/645d3d4e33c5d43938913079/) | Varsovie |
 | 2026-10-17 | [Level1](authors/sudo0x18/646627a933c5d439389131d9/) | sudo0x18 |
