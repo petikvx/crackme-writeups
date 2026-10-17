@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5fda4fa433c5d41f64dee37b:
+    sha256: "29289d5a9bcf2999a8360cf4f0b5100eef8c70fb8f8f585d2907dd44df97b25a"
+    path: "authors/silentwraith/5fda4fa433c5d41f64dee37b/original/lockcode"
+    title: "SilentWraith's lockcode"
+
+by_sha256:
+  29289d5a9bcf2999a8360cf4f0b5100eef8c70fb8f8f585d2907dd44df97b25a:
+    id: 5fda4fa433c5d41f64dee37b
+    path: "authors/silentwraith/5fda4fa433c5d41f64dee37b/original/lockcode"
+    page: https://crackmes.one/crackme/5fda4fa433c5d41f64dee37b

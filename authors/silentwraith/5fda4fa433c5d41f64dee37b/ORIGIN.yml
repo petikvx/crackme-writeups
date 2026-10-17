@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5fda4fa433c5d41f64dee37b
+
+urls:
+  page: https://crackmes.one/crackme/5fda4fa433c5d41f64dee37b
+  download: https://crackmes.one/download/crackme/5fda4fa433c5d41f64dee37b
+
+title: "SilentWraith's lockcode"
+author_on_site: "SilentWraith"
+author_local: "silentwraith"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/lockcode"
+  name: "lockcode"
+  sha256: "29289d5a9bcf2999a8360cf4f0b5100eef8c70fb8f8f585d2907dd44df97b25a"
+  md5: "f10c70cdbb3bdeb3e83f6dee4c8ef241"
+  size_bytes: 19872
+
+status: solved
+solution_summary: "code = toute chaine dont la somme ASCII == 2977 (ex. constante interne wzJCPjBHBsHAkHbazmhYdflzLdhapPUE)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T14:14:25Z"
