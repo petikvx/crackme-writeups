@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5d78168833c5d46f00e2c428
+
+urls:
+  page: https://crackmes.one/crackme/5d78168833c5d46f00e2c428
+  download: https://crackmes.one/download/crackme/5d78168833c5d46f00e2c428
+
+title: "totothetoro's alien_bin"
+author_on_site: "totothetoro"
+author_local: "totothetoro"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/alien_bin"
+  name: "alien_bin"
+  sha256: "a713efd3286db47186fa95f595adbcd7ab236b36e381daa0da81ddafeb2d0d2f"
+  md5: "f229089cb1cc0c6f5abd1a6d88d52029"
+  size_bytes: 29864
+
+status: solved
+solution_summary: "table de 100 pointeurs copiee sur la pile, offset fixe (index10) -> 17 premiers octets d une chaine -> bd23cf3f56baa86bc"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T15:26:04Z"

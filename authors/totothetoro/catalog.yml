@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5d78168833c5d46f00e2c428:
+    sha256: "a713efd3286db47186fa95f595adbcd7ab236b36e381daa0da81ddafeb2d0d2f"
+    path: "authors/totothetoro/5d78168833c5d46f00e2c428/original/alien_bin"
+    title: "totothetoro's alien_bin"
+
+by_sha256:
+  a713efd3286db47186fa95f595adbcd7ab236b36e381daa0da81ddafeb2d0d2f:
+    id: 5d78168833c5d46f00e2c428
+    path: "authors/totothetoro/5d78168833c5d46f00e2c428/original/alien_bin"
+    page: https://crackmes.one/crackme/5d78168833c5d46f00e2c428
