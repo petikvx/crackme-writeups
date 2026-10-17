@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5e604d4333c5d4439bb2dd72:
+    sha256: "2c6e01e41cd5350f8fbd25065ccdc817f94629e4ae93cb6bb3f61089b4217200"
+    path: "authors/raphiolet/5e604d4333c5d4439bb2dd72/original/mgdilolmsoamasiug"
+    title: "raphiolet's mgdilolmsoamasiug"
+
+by_sha256:
+  2c6e01e41cd5350f8fbd25065ccdc817f94629e4ae93cb6bb3f61089b4217200:
+    id: 5e604d4333c5d4439bb2dd72
+    path: "authors/raphiolet/5e604d4333c5d4439bb2dd72/original/mgdilolmsoamasiug"
+    page: https://crackmes.one/crackme/5e604d4333c5d4439bb2dd72

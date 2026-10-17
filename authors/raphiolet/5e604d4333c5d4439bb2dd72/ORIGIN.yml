@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5e604d4333c5d4439bb2dd72
+
+urls:
+  page: https://crackmes.one/crackme/5e604d4333c5d4439bb2dd72
+  download: https://crackmes.one/download/crackme/5e604d4333c5d4439bb2dd72
+
+title: "raphiolet's mgdilolmsoamasiug"
+author_on_site: "raphiolet"
+author_local: "raphiolet"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/mgdilolmsoamasiug"
+  name: "mgdilolmsoamasiug"
+  sha256: "2c6e01e41cd5350f8fbd25065ccdc817f94629e4ae93cb6bb3f61089b4217200"
+  md5: "b15a89f219e1a203746f4de4e7cc3e82"
+  size_bytes: 18560
+
+status: solved
+solution_summary: "simulation pas a pas de la permutation (aliasing, pas de formule fermee) : petik -> iekik"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T15:09:00Z"
