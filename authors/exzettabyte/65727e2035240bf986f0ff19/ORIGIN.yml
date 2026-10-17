@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 65727e2035240bf986f0ff19
+
+urls:
+  page: https://crackmes.one/crackme/65727e2035240bf986f0ff19
+  download: https://crackmes.one/download/crackme/65727e2035240bf986f0ff19
+
+title: "exzettabyte's Weird"
+author_on_site: "exzettabyte"
+author_local: "exzettabyte"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/weird"
+  name: "weird"
+  sha256: "e33b975e33c3d5088b0025ba5e22b8e02a4f2aa96878409c65f792178a123981"
+  md5: "7ac9eb11735b04b896365d3cdbca5024"
+  size_bytes: 335696
+
+status: solved
+solution_summary: "flag = flag{9aec9b0277379453e49889427efe7e7b} : secret() @0x401d05 jamais appelee, 38 octets XOR 0x09 ; UPX 3.96 ; preuve gdb sur le binaire packe"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T06:35:35Z"

@@ -161,6 +161,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [kryptos](authors/kryptos/README.md) | Kryptos | 1 (Hecate) | 1 / 1 |
 | [marco007](authors/marco007/README.md) | marco007 | 2 (time based riddle + simple crackme) | 2 / 2 |
 | [sftmlg](authors/sftmlg/README.md) | sftmlg | 1 (Quite a simple crackme) | 1 / 1 |
+| [exzettabyte](authors/exzettabyte/README.md) | exzettabyte | 1 (Weird) | 1 / 1 |
 | [m4st4rcr4ck](authors/m4st4rcr4ck/README.md) | M4st4rCr4ck | 1 (H1dd3n Fl4g) | 1 / 1 |
 | [arjunrajesh](authors/arjunrajesh/README.md) | ArjunRajesh | 1 (FLAG) | 1 / 1 |
 | [oxymore](authors/oxymore/README.md) | Oxymore | 1 (Password) | 1 / 1 |
@@ -295,6 +296,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-17 | [Weird](authors/exzettabyte/65727e2035240bf986f0ff19/) | exzettabyte |
 | 2026-10-17 | [nice_crackme](authors/jenya/659fde9deef082e477ff59ba/) | Jenya |
 | 2026-10-17 | [H1dd3n Fl4g](authors/m4st4rcr4ck/65a172f0eef082e477ff5a6e/) | M4st4rCr4ck |
 | 2026-10-17 | [FLAG](authors/arjunrajesh/65a97cbaeef082e477ff5d84/) | ArjunRajesh |
