@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  64e91b92d931496abf9091e3:
+    sha256: "4d06bf4ad020303d0debaeb57b28b73f20d88793294dcff08803171cf8644ce0"
+    path: "authors/ithawk/64e91b92d931496abf9091e3/original/P@ssw0rd"
+    title: "ithawk's Find password"
+
+by_sha256:
+  4d06bf4ad020303d0debaeb57b28b73f20d88793294dcff08803171cf8644ce0:
+    id: 64e91b92d931496abf9091e3
+    path: "authors/ithawk/64e91b92d931496abf9091e3/original/P@ssw0rd"
+    page: https://crackmes.one/crackme/64e91b92d931496abf9091e3

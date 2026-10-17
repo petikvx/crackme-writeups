@@ -161,6 +161,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [kryptos](authors/kryptos/README.md) | Kryptos | 1 (Hecate) | 1 / 1 |
 | [marco007](authors/marco007/README.md) | marco007 | 2 (time based riddle + simple crackme) | 2 / 2 |
 | [sftmlg](authors/sftmlg/README.md) | sftmlg | 1 (Quite a simple crackme) | 1 / 1 |
+| [ithawk](authors/ithawk/README.md) | ithawk | 1 (Find password) | 1 / 1 |
 | [mt77](authors/mt77/README.md) | mt77 | 1 (based) | 1 / 1 |
 | [i3a4dam](authors/i3a4dam/README.md) | I3a4dam | 1 (Plain sight) | 1 / 1 |
 | [exzettabyte](authors/exzettabyte/README.md) | exzettabyte | 1 (Weird) | 1 / 1 |
@@ -298,6 +299,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-17 | [Find password](authors/ithawk/64e91b92d931496abf9091e3/) | ithawk |
 | 2026-10-17 | [based](authors/mt77/64fdf93bd931496abf90994b/) | mt77 |
 | 2026-10-17 | [Plain sight](authors/i3a4dam/6513567328b5870bef263329/) | I3a4dam |
 | 2026-10-17 | [Weird](authors/exzettabyte/65727e2035240bf986f0ff19/) | exzettabyte |

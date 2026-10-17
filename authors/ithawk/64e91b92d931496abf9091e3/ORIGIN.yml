@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 64e91b92d931496abf9091e3
+
+urls:
+  page: https://crackmes.one/crackme/64e91b92d931496abf9091e3
+  download: https://crackmes.one/download/crackme/64e91b92d931496abf9091e3
+
+title: "ithawk's Find password"
+author_on_site: "ithawk"
+author_local: "ithawk"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/P@ssw0rd"
+  name: "P@ssw0rd"
+  sha256: "4d06bf4ad020303d0debaeb57b28b73f20d88793294dcff08803171cf8644ce0"
+  md5: "8b35d19ba150e483238ff08f79f090db"
+  size_bytes: 16248
+
+status: solved
+solution_summary: "password = CTF{Gh1Dr4-4nD-5Tr4C3-15-H31L} : encrypt() retire 10 a chaque octet de la saisie, comparee a la constante de la pile ; ptrace anti-debug"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T06:58:59Z"
