@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 64fdf93bd931496abf90994b
+
+urls:
+  page: https://crackmes.one/crackme/64fdf93bd931496abf90994b
+  download: https://crackmes.one/download/crackme/64fdf93bd931496abf90994b
+
+title: "mt77's based"
+author_on_site: "mt77"
+author_local: "mt77"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/luna"
+  name: "luna"
+  sha256: "bd72873595f041288d869c267b96d6742f3a9462f1be5c3391fb553bab4dcf08"
+  md5: "7f58681246a87c3291d23402284af83e"
+  size_bytes: 24192
+
+status: solved
+solution_summary: "n = entier Luhn-valide entre 100000 et 10000000 (ex. 100008, 123455, 2000008) ; luna() = Luhn"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T06:58:57Z"
