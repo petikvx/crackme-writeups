@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 644af68433c5d43938912c6b
+
+urls:
+  page: https://crackmes.one/crackme/644af68433c5d43938912c6b
+  download: https://crackmes.one/download/crackme/644af68433c5d43938912c6b
+
+title: "ss1ned's My first crackme"
+author_on_site: "ss1ned"
+author_local: "ss1ned"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme"
+  name: "crackme"
+  sha256: "fef8835c45b964039ce526d54d3f88a8022e48f891414e8e546001bd02936c1c"
+  md5: "a32c4bbf7d3788d26d8ef1d759e58693"
+  size_bytes: 16960
+
+status: solved
+solution_summary: "password = Password (strncpy copie P@ssword puis main ecrase buf[1] par 0x61 (a) avant comparaison)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T07:17:25Z"

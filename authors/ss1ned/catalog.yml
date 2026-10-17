@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  644af68433c5d43938912c6b:
+    sha256: "fef8835c45b964039ce526d54d3f88a8022e48f891414e8e546001bd02936c1c"
+    path: "authors/ss1ned/644af68433c5d43938912c6b/original/crackme"
+    title: "ss1ned's My first crackme"
+
+by_sha256:
+  fef8835c45b964039ce526d54d3f88a8022e48f891414e8e546001bd02936c1c:
+    id: 644af68433c5d43938912c6b
+    path: "authors/ss1ned/644af68433c5d43938912c6b/original/crackme"
+    page: https://crackmes.one/crackme/644af68433c5d43938912c6b
