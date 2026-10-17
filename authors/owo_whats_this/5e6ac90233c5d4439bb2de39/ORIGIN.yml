@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5e6ac90233c5d4439bb2de39
+
+urls:
+  page: https://crackmes.one/crackme/5e6ac90233c5d4439bb2de39
+  download: https://crackmes.one/download/crackme/5e6ac90233c5d4439bb2de39
+
+title: "owo_whats_this's Very Special Number v1"
+author_on_site: "owo_whats_this"
+author_local: "owo_whats_this"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/OwO_vsn_1"
+  name: "OwO_vsn_1"
+  sha256: "c8990006a610e4a28e6eb2d78b5d923ecbd0ed7a6da146a8a9444cd590976640"
+  md5: "6bd06c2526aa73a8ff61806e38533d86"
+  size_bytes: 17696
+
+status: solved
+solution_summary: "generate()==genNum(magic_number1+magic_number2,magic_number2,5,0,0) ; appel direct sous gdb (starti) -> 109713430479"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T15:08:58Z"

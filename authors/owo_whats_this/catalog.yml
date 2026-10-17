@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5e6ac90233c5d4439bb2de39:
+    sha256: "c8990006a610e4a28e6eb2d78b5d923ecbd0ed7a6da146a8a9444cd590976640"
+    path: "authors/owo_whats_this/5e6ac90233c5d4439bb2de39/original/OwO_vsn_1"
+    title: "owo_whats_this's Very Special Number v1"
+
+by_sha256:
+  c8990006a610e4a28e6eb2d78b5d923ecbd0ed7a6da146a8a9444cd590976640:
+    id: 5e6ac90233c5d4439bb2de39
+    path: "authors/owo_whats_this/5e6ac90233c5d4439bb2de39/original/OwO_vsn_1"
+    page: https://crackmes.one/crackme/5e6ac90233c5d4439bb2de39
