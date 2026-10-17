@@ -4,7 +4,7 @@ Recherche [crackmes.one](https://crackmes.one/search?name=&author=&platform=Unix
 
 Filtre : plateforme Unix/linux, difficulté 1.0–2.0, tri date décroissante (plus récent en haut). **278 résultats au total** sur le site ; les **87 derniers** (préfixe `by <auteur>` à partir de `mycrk by cli3nt`) sont les imports historiques `crackmes.de`, déjà traités intégralement et séparément (voir `authors/crackmes-de/`, 311/311 résolus) — **exclus de ce tableau**, qui ne couvre que les **191** crackmes.one natifs restants.
 
-Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` du dépôt (ID exact, pas le titre). **124** déjà `solved`, **66** marqués `TODO` (+ 1 « analysé » sans condition de victoire) ci-dessous. Changement notable par rapport à l'ancien tri (page 1 seulement, 50 résultats) : 3 entrées manquaient (`0x8A7 - Maze`, `ComputeTheKey`, `Hecate linux/unix`), et la liste s'étend maintenant bien au-delà de `Godez_Mark crackme` (jusqu'à `Sh4ll1`, 2018).
+Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` du dépôt (ID exact, pas le titre). **128** déjà `solved`, **62** marqués `TODO` (+ 1 « analysé » sans condition de victoire) ci-dessous. Changement notable par rapport à l'ancien tri (page 1 seulement, 50 résultats) : 3 entrées manquaient (`0x8A7 - Maze`, `ComputeTheKey`, `Hecate linux/unix`), et la liste s'étend maintenant bien au-delà de `Godez_Mark crackme` (jusqu'à `Sh4ll1`, 2018).
 
 | # | Date | Crackme | Auteur | Difficulté | Taille | URL | Statut |
 |---|---|---|---|---|---|---|---|
@@ -136,10 +136,10 @@ Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` 
 | 126 | 2020-09-02 | Date of Birth | jeffli6789 | 2.0 | 9.98 KB | https://crackmes.one/crackme/5f4efbb133c5d4357b3b00a0 | solved |
 | 127 | 2020-08-19 | rop | BitFriends | 2.0 | 8.12 KB | https://crackmes.one/crackme/5f3d7ed033c5d42a7c667d95 | solved |
 | 128 | 2020-07-11 | Crack_5 | D4RKFL0W | 2.0 | 18.89 KB | https://crackmes.one/crackme/5f0998cb33c5d42a7c667974 | solved |
-| 129 | 2020-07-08 | simple overflow | BitFriends | 1.3 | 16.37 KB | https://crackmes.one/crackme/5f05ec3c33c5d42a7c66792b | **TODO** |
-| 130 | 2020-07-04 | bubbly | jeffli6789 | 1.5 | 6.07 KB | https://crackmes.one/crackme/5f00a02533c5d4285070947a | **TODO** |
-| 131 | 2020-06-17 | ShAPK1 | destructeur | 2.0 | 1.34 MB | https://crackmes.one/crackme/5eea811d33c5d449d91ae870 | **TODO** |
-| 132 | 2020-05-26 | ZED-Crackme | zed-zahir | 2.0 | 7.48 KB | https://crackmes.one/crackme/5ecd7cc133c5d449d91ae641 | **TODO** |
+| 129 | 2020-07-08 | simple overflow | BitFriends | 1.3 | 16.37 KB | https://crackmes.one/crackme/5f05ec3c33c5d42a7c66792b | solved |
+| 130 | 2020-07-04 | bubbly | jeffli6789 | 1.5 | 6.07 KB | https://crackmes.one/crackme/5f00a02533c5d4285070947a | solved |
+| 131 | 2020-06-17 | ShAPK1 | destructeur | 2.0 | 1.34 MB | https://crackmes.one/crackme/5eea811d33c5d449d91ae870 | solved |
+| 132 | 2020-05-26 | ZED-Crackme | zed-zahir | 2.0 | 7.48 KB | https://crackmes.one/crackme/5ecd7cc133c5d449d91ae641 | solved |
 | 133 | 2020-05-25 | timotei crackme#4 | tim0tei | 2.0 | 8.84 KB | https://crackmes.one/crackme/5ecb906533c5d449d91ae616 | solved |
 | 134 | 2020-05-25 | timotei crackme#3 | tim0tei | 2.0 | 8.57 KB | https://crackmes.one/crackme/5ecb902633c5d449d91ae615 | solved |
 | 135 | 2020-05-17 | Baby Ransom | Shad3 | 1.8 | 9.98 KB | https://crackmes.one/crackme/5ec1a37533c5d449d91ae535 | **TODO** |
@@ -200,4 +200,4 @@ Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` 
 | 190 | 2018-05-06 | Sh4ll2 | destructeur | 2.0 | 8.49 KB | https://crackmes.one/crackme/5aef385633c5d41ac64b492f | **TODO** |
 | 191 | 2018-05-06 | Sh4ll1 | destructeur | 1.4 | 13.23 KB | https://crackmes.one/crackme/5aef37c733c5d41ac64b492e | **TODO** |
 
-Le prochain de la file est **simple overflow** (BitFriends, #129) : https://crackmes.one/crackme/5f05ec3c33c5d42a7c66792b puis **bubbly** (jeffli6789, #130), **ShAPK1** (destructeur, #131) et **ZED-Crackme** (zed-zahir, #132). Mis de côté : Prometheora (#37, Rust+VM), Rev1 (#40, sources contradictoires), FedGuy easy crack (#45, SHA-256 à casser), Ghost (#57, pwn de tas), Gemy (#65, UPX modifié), Upgraded Levels Keygen (#67, 4 niveaux dont un keygen « sorcier »), sh0uld_b3_e4zy (#78, aucune condition de victoire).
+Le prochain de la file est **Baby Ransom** (Shad3, #135) : https://crackmes.one/crackme/5ec1a37533c5d449d91ae535 puis **easyAF** (476f64, #136), **racecars** (chillywilly, #140) et **Very Special Number v1** (owo_whats_this, #141). Mis de côté : Prometheora (#37, Rust+VM), Rev1 (#40, sources contradictoires), FedGuy easy crack (#45, SHA-256 à casser), Ghost (#57, pwn de tas), Gemy (#65, UPX modifié), Upgraded Levels Keygen (#67, 4 niveaux dont un keygen « sorcier »), sh0uld_b3_e4zy (#78, aucune condition de victoire).
