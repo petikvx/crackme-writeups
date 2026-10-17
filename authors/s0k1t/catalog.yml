@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6044083333c5d42c3d016d3d:
+    sha256: "593879a07a2690c2d58434d2f1fe2cd1a07a76080e70b1c8d31e1ad79ec9adfd"
+    path: "authors/s0k1t/6044083333c5d42c3d016d3d/original/main"
+    title: "s0k1t's GO GO GO"
+
+by_sha256:
+  593879a07a2690c2d58434d2f1fe2cd1a07a76080e70b1c8d31e1ad79ec9adfd:
+    id: 6044083333c5d42c3d016d3d
+    path: "authors/s0k1t/6044083333c5d42c3d016d3d/original/main"
+    page: https://crackmes.one/crackme/6044083333c5d42c3d016d3d

@@ -161,6 +161,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [kryptos](authors/kryptos/README.md) | Kryptos | 1 (Hecate) | 1 / 1 |
 | [marco007](authors/marco007/README.md) | marco007 | 2 (time based riddle + simple crackme) | 2 / 2 |
 | [sftmlg](authors/sftmlg/README.md) | sftmlg | 1 (Quite a simple crackme) | 1 / 1 |
+| [s0k1t](authors/s0k1t/README.md) | s0k1t | 1 (GO GO GO - Harmful Logic) | 1 / 1 |
 | [harel21](authors/harel21/README.md) | Harel21 | 1 (crackme) | 1 / 1 |
 | [asbo_general](authors/asbo_general/README.md) | ASBO_GENERAL | 1 (My_first_ever_crackme) | 1 / 1 |
 | [dirkd](authors/dirkd/README.md) | DirkD | 1 (EZwan) | 1 / 1 |
@@ -321,6 +322,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-17 | [GO GO GO - Harmful Logic](authors/s0k1t/6044083333c5d42c3d016d3d/) | s0k1t |
 | 2026-10-17 | [crackme](authors/harel21/6047ffb433c5d42c3d016da6/) | Harel21 |
 | 2026-10-17 | [My_first_ever_crackme](authors/asbo_general/6074618733c5d44899821e35/) | ASBO_GENERAL |
 | 2026-10-17 | [EZwan](authors/dirkd/60957b9a33c5d458ce0ec88e/) | DirkD |
