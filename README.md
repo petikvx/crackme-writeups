@@ -161,6 +161,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [kryptos](authors/kryptos/README.md) | Kryptos | 1 (Hecate) | 1 / 1 |
 | [marco007](authors/marco007/README.md) | marco007 | 2 (time based riddle + simple crackme) | 2 / 2 |
 | [sftmlg](authors/sftmlg/README.md) | sftmlg | 1 (Quite a simple crackme) | 1 / 1 |
+| [kawaii-flesh](authors/kawaii-flesh/README.md) | kawaii-flesh | 1 (keygenme) | 1 / 1 |
 | [mrt4ntr4](authors/mrt4ntr4/README.md) | mrT4ntr4 | 1 (Save Scooby) | 1 / 1 |
 | [skudo](authors/skudo/README.md) | skudo | 1 (Crack the algorithm) | 1 / 1 |
 | [paypain](authors/paypain/README.md) | paypain | 1 (Election) | 1 / 1 |
@@ -342,6 +343,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-17 | [keygenme](authors/kawaii-flesh/5d24585133c5d410dc4d0cbd/) | kawaii-flesh |
 | 2026-10-17 | [Save Scooby](authors/mrt4ntr4/5d41bf7633c5d444ad30189b/) | mrT4ntr4 |
 | 2026-10-17 | [Crack the algorithm](authors/skudo/5d46d2bd33c5d444ad3018d3/) | skudo |
 | 2026-10-17 | [Election](authors/paypain/5d64749533c5d46f00e2c324/) | paypain |

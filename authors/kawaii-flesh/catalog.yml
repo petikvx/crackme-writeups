@@ -1,0 +1,30 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5d24585133c5d410dc4d0cbd:
+    sha256: "402230106756a641b83db61825173aa2b4816aed12cfb61f926bafcc8047a511"
+    path: "authors/kawaii-flesh/5d24585133c5d410dc4d0cbd/original/keygenme.7z"
+    title: "kawaii"
+
+  5d17962b33c5d41c6d56e1f2:
+    sha256: "7b5174932c83bb365c30285e8635250e9cd141768fc07d8768d776bceda7bb47"
+    path: "authors/kawaii-flesh/5d17962b33c5d41c6d56e1f2/original/keygenme.7z"
+    title: "kawaii"
+
+  5d0d1e1333c5d41c6d56e155:
+    sha256: "353c046f401fe87aa259facb438ec3d5b1c702edd7219d1100fbbd239182b4f4"
+    path: "authors/kawaii-flesh/5d0d1e1333c5d41c6d56e155/original/crackme.7z"
+    title: "kawaii"
+
+by_sha256:
+  402230106756a641b83db61825173aa2b4816aed12cfb61f926bafcc8047a511:
+    id: 5d24585133c5d410dc4d0cbd
+    path: "authors/kawaii-flesh/5d24585133c5d410dc4d0cbd/original/keygenme.7z"
+    page: https://crackmes.one/crackme/5d24585133c5d410dc4d0cbd
+  7b5174932c83bb365c30285e8635250e9cd141768fc07d8768d776bceda7bb47:
+    id: 5d17962b33c5d41c6d56e1f2
+    path: "authors/kawaii-flesh/5d17962b33c5d41c6d56e1f2/original/keygenme.7z"
+    page: https://crackmes.one/crackme/5d17962b33c5d41c6d56e1f2
+  353c046f401fe87aa259facb438ec3d5b1c702edd7219d1100fbbd239182b4f4:
+    id: 5d0d1e1333c5d41c6d56e155
+    path: "authors/kawaii-flesh/5d0d1e1333c5d41c6d56e155/original/crackme.7z"
+    page: https://crackmes.one/crackme/5d0d1e1333c5d41c6d56e155
