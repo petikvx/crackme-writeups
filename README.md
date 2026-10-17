@@ -216,7 +216,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [xalperen](authors/xalperen/README.md) | xalperen | 1 (KryptonVM) | 1 / 1 |
 | [shadowlegion](authors/shadowlegion/README.md) | ShadowLegion | 1 (TermBreaker) | 1 / 1 |
 | [5iriu5](authors/5iriu5/README.md) | 5iriu5 | 1 (SSE Login) | 1 / 1 |
-| [jenya](authors/jenya/README.md) | Jenya | 2 (math_crackme + linux_asm_jenya) | 2 / 2 |
+| [jenya](authors/jenya/README.md) | Jenya | 3 (math_crackme + linux_asm_jenya) | 3 / 3 |
 | [0x6f6d6172h](authors/0x6f6d6172h/README.md) | 0x6f6D6172h | 1 (crackme1) | 1 / 1 |
 | [s4r](authors/s4r/README.md) | s4r | 5 (encrypted_box + fuckalight2 + bitflip + prime + matrice) | 5 / 5 |
 | [ximxn](authors/ximxn/README.md) | Ximxn | 1 (perwira) | 1 / 1 |
@@ -295,6 +295,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-17 | [nice_crackme](authors/jenya/659fde9deef082e477ff59ba/) | Jenya |
 | 2026-10-17 | [H1dd3n Fl4g](authors/m4st4rcr4ck/65a172f0eef082e477ff5a6e/) | M4st4rCr4ck |
 | 2026-10-17 | [FLAG](authors/arjunrajesh/65a97cbaeef082e477ff5d84/) | ArjunRajesh |
 | 2026-10-17 | [Password](authors/oxymore/65c926c6eef082e477ff6b5a/) | Oxymore |

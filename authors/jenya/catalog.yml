@@ -10,6 +10,11 @@ by_id:
     path: "authors/jenya/655b43750f4238b24302bc42/original/jenya_asm_linux.zip"
     title: "Jenya's linux_asm_jenya"
 
+  659fde9deef082e477ff59ba:
+    sha256: "119f4ccb881d2740fcfe1f20e5c3431c03f4ccb8f2cdb40bf0a6fe723ce470e0"
+    path: "authors/jenya/659fde9deef082e477ff59ba/original/nice_crackme.zip"
+    title: "Jenya's nice_crackme"
+
 by_sha256:
   f9d4695c882d8125fdf82c7652aab2446856585875476e5b76fe6377f765c8bd:
     id: 659ffe1beef082e477ff59d0
@@ -19,3 +24,7 @@ by_sha256:
     id: 655b43750f4238b24302bc42
     path: "authors/jenya/655b43750f4238b24302bc42/original/jenya_asm_linux.zip"
     page: https://crackmes.one/crackme/655b43750f4238b24302bc42
+  119f4ccb881d2740fcfe1f20e5c3431c03f4ccb8f2cdb40bf0a6fe723ce470e0:
+    id: 659fde9deef082e477ff59ba
+    path: "authors/jenya/659fde9deef082e477ff59ba/original/nice_crackme.zip"
+    page: https://crackmes.one/crackme/659fde9deef082e477ff59ba

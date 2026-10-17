@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 659fde9deef082e477ff59ba
+
+urls:
+  page: https://crackmes.one/crackme/659fde9deef082e477ff59ba
+  download: https://crackmes.one/download/crackme/659fde9deef082e477ff59ba
+
+title: "Jenya's nice_crackme"
+author_on_site: "Jenya"
+author_local: "jenya"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/nice_crackme.zip"
+  name: "nice_crackme.zip"
+  sha256: "119f4ccb881d2740fcfe1f20e5c3431c03f4ccb8f2cdb40bf0a6fe723ce470e0"
+  md5: "f1aa1d63aa52dfac61c781864374fef5"
+  size_bytes: 4674
+
+status: solved
+solution_summary: "password = suite de blocs de 4 car. palindromes xyyx (len%4==0) ; petik -> peeptiitkxxk ; chaine vide acceptee aussi"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T06:35:32Z"

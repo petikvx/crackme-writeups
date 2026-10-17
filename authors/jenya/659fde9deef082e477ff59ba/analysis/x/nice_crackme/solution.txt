@@ -1,0 +1,6 @@
+the password need to be the length devisibly by four(except the null terminator)
+and the program checks every four characters if its a palindrome 
+if every four characters are a palindrome and the length its divisibly by four
+(like lengths 4,8,12,16....)
+the password its correct
+you have 5 attempts to find the password 
