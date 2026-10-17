@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6754620160fa67152406b53c:
+    sha256: "2face62d00ffcfedac21c09f6ac0bcca1f6ba77e58577c8187ae1148c52b5968"
+    path: "authors/hybridkenrel/6754620160fa67152406b53c/original/yum.zip"
+    title: "hybridkenrel's yum :P"
+
+by_sha256:
+  2face62d00ffcfedac21c09f6ac0bcca1f6ba77e58577c8187ae1148c52b5968:
+    id: 6754620160fa67152406b53c
+    path: "authors/hybridkenrel/6754620160fa67152406b53c/original/yum.zip"
+    page: https://crackmes.one/crackme/6754620160fa67152406b53c

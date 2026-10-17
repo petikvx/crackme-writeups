@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6754620160fa67152406b53c
+
+urls:
+  page: https://crackmes.one/crackme/6754620160fa67152406b53c
+  download: https://crackmes.one/download/crackme/6754620160fa67152406b53c
+
+title: "hybridkenrel's yum :P"
+author_on_site: "hybridkenrel"
+author_local: "hybridkenrel"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/yum.zip"
+  name: "yum.zip"
+  sha256: "2face62d00ffcfedac21c09f6ac0bcca1f6ba77e58577c8187ae1148c52b5968"
+  md5: "de14475172add19079106de0f38ea4fc"
+  size_bytes: 763531
+
+status: solved
+solution_summary: "password = gidasevkiujshgynluehiajedikudhe (31 octets suivant le premier 0xde de libyum.so ; comparaison std::string)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T04:56:12Z"
