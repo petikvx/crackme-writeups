@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 65da0fce6d3d2b1fef4be4df
+
+urls:
+  page: https://crackmes.one/crackme/65da0fce6d3d2b1fef4be4df
+  download: https://crackmes.one/download/crackme/65da0fce6d3d2b1fef4be4df
+
+title: "nimacpp's level2"
+author_on_site: "nimacpp"
+author_local: "nimacpp"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/level2"
+  name: "level2"
+  sha256: "1143e8c9587ec30e8ad220c0d032c8b705e84fd1d7e5d05673bef85e441496ee"
+  md5: "3b567833b514bcfcd58c420167847e61"
+  size_bytes: 16000
+
+status: solved
+solution_summary: "pas de saisie : strcmp de 2 constantes (01234567891 vs Jsfdb56d65a) toujours different ; patch jne @0x1198 -> \"01234567891 is password\" (copie dans analysis/) ; interpretation, enonce absent"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T06:31:44Z"

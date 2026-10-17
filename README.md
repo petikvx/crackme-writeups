@@ -161,6 +161,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [kryptos](authors/kryptos/README.md) | Kryptos | 1 (Hecate) | 1 / 1 |
 | [marco007](authors/marco007/README.md) | marco007 | 2 (time based riddle + simple crackme) | 2 / 2 |
 | [sftmlg](authors/sftmlg/README.md) | sftmlg | 1 (Quite a simple crackme) | 1 / 1 |
+| [nimacpp](authors/nimacpp/README.md) | nimacpp | 1 (level2) | 1 / 1 |
 | [jackioye](authors/jackioye/README.md) | jackioye | 1 (Simple but not simple) | 1 / 1 |
 | [stonezarcon](authors/stonezarcon/README.md) | stonezarcon | 1 (Getting started) | 1 / 1 |
 | [ananascharles](authors/ananascharles/README.md) | AnanasCharles | 1 (Authorize by PIN) | 1 / 1 |
@@ -291,6 +292,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-17 | [level2](authors/nimacpp/65da0fce6d3d2b1fef4be4df/) | nimacpp |
 | 2026-10-17 | [Simple but not simple](authors/jackioye/6603c10ccddae72ae250bcd6/) | jackioye |
 | 2026-10-17 | [Getting started](authors/stonezarcon/660a24f1cddae72ae250bf56/) | stonezarcon |
 | 2026-10-17 | [Authorize by PIN](authors/ananascharles/6617d3a5cddae72ae250c556/) | AnanasCharles |
