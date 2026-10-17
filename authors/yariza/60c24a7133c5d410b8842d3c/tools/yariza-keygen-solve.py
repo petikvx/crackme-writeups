@@ -25,8 +25,19 @@ a = ap.parse_args()
 if a.q:
     print(KEY); sys.exit(0)
 print(f"key = {KEY}  (seuls key[4]='@', key[6]='-', key[9]='l', key[15]='?' comptent)")
+def run(k: str) -> str:
+    # la clé correcte lance l'animation "donut" qui ne rend jamais la main : on force la
+    # sortie non bufferisée (stdbuf -o0) et on tue le processus après un court délai.
+    p = subprocess.Popen(["stdbuf", "-o0", str(EXE), k], stdout=subprocess.PIPE, stderr=subprocess.DEVNULL, text=True)
+    try:
+        out, _ = p.communicate(timeout=1.5)
+    except subprocess.TimeoutExpired:
+        p.kill()
+        out, _ = p.communicate()
+    return out
+
+
 if a.check:
-    run = lambda k: subprocess.run([str(EXE), k], capture_output=True, text=True, timeout=5).stdout
     ok = run(KEY)
     bad = list(KEY); bad[4] = "y"
     ko = run("".join(bad))
