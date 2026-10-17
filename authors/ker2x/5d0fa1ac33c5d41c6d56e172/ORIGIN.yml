@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5d0fa1ac33c5d41c6d56e172
+
+urls:
+  page: https://crackmes.one/crackme/5d0fa1ac33c5d41c6d56e172
+  download: https://crackmes.one/download/crackme/5d0fa1ac33c5d41c6d56e172
+
+title: "ker2x's guild hall adventure Ch.1"
+author_on_site: "ker2x"
+author_local: "ker2x"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/adventure"
+  name: "adventure"
+  sha256: "1fa5f3843c50c243a01f82129da9673c9cb4ab2aa88c72914d90c427807edcf0"
+  md5: "add63572d1ce8957d90d2cc88a86cf58"
+  size_bytes: 8536
+
+status: solved
+solution_summary: "argv1=hello puis la 2e saisie doit etre un prefixe exact de argv[0] -> ./adventure (version incomplete, voir Ch.2)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T15:38:07Z"
