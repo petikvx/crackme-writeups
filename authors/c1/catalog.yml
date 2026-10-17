@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5c2335c033c5d41e58e00625:
+    sha256: "c60bb546711add75669ab8862a62983f08ea53f96a3d1a9d46a772d47ce1c89f"
+    path: "authors/c1/5c2335c033c5d41e58e00625/original/keygenme1"
+    title: "c1's c1_keygenme1"
+
+by_sha256:
+  c60bb546711add75669ab8862a62983f08ea53f96a3d1a9d46a772d47ce1c89f:
+    id: 5c2335c033c5d41e58e00625
+    path: "authors/c1/5c2335c033c5d41e58e00625/original/keygenme1"
+    page: https://crackmes.one/crackme/5c2335c033c5d41e58e00625

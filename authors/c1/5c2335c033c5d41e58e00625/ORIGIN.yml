@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5c2335c033c5d41e58e00625
+
+urls:
+  page: https://crackmes.one/crackme/5c2335c033c5d41e58e00625
+  download: https://crackmes.one/download/crackme/5c2335c033c5d41e58e00625
+
+title: "c1's c1_keygenme1"
+author_on_site: "c1"
+author_local: "c1"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/keygenme1"
+  name: "keygenme1"
+  sha256: "c60bb546711add75669ab8862a62983f08ea53f96a3d1a9d46a772d47ce1c89f"
+  md5: "be6a2f451450403a7952023a2ac4d9d2"
+  size_bytes: 13744
+
+status: solved
+solution_summary: "LSB de chaque octet code un bit de crc32(username), efface puis crc32(32 zeros)=constante -> keygen generique, petik->..."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T18:10:36Z"
