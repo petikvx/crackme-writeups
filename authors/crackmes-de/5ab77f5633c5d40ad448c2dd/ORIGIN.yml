@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2dd
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2dd
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2dd
+
+title: "crackmes.de's orks236_crackme_2 by orcs236"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "AutoIt v3.2 (Aut2Exe, stub PELock 2.x), 2 couches"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Orks236_Crackme_#2.zip"
+  name: "Orks236_Crackme_#2.zip"
+  sha256: "65cf9dd7938c44823af14c0ffcdb2c1d345e70c074839a13435296b7ce03076a"
+  md5: "f34c9e8d1421ebf2b89d2bdbb5879839"
+  size_bytes: 474312
+
+status: solved
+solution_summary: "Script AutoIt imbriqué (loader + crackme.exe) extrait avec autoit-ripper ; serial = Stretch(nom10,In)-Stretch(nom10+orcs236,In)-Stretch(Stretch(UserName+ComputerName,Out,20),In,10) ; dépend de la machine ; keygen vérifié avec l'interpréteur AutoIt d'origine (petik / box / GROK-BOT-VM-411 → 99616-34659-94504-90041)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T01:55:11Z"

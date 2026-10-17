@@ -1641,6 +1641,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c2dc/original/CrackMe2.0.zip"
     title: "crackmes.de's crackme_1.0 by skjobax"
 
+  5ab77f5633c5d40ad448c2dd:
+    sha256: "65cf9dd7938c44823af14c0ffcdb2c1d345e70c074839a13435296b7ce03076a"
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2dd/original/Orks236_Crackme_#2.zip"
+    title: "crackmes.de's orks236_crackme_2 by orcs236"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -2966,3 +2971,7 @@ by_sha256:
     id: 5ab77f5633c5d40ad448c2dc
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c2dc/original/CrackMe2.0.zip"
     page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2dc
+  65cf9dd7938c44823af14c0ffcdb2c1d345e70c074839a13435296b7ce03076a:
+    id: 5ab77f5633c5d40ad448c2dd
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2dd/original/Orks236_Crackme_#2.zip"
+    page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2dd
