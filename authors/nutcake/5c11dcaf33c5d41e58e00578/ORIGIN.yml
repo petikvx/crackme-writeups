@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5c11dcaf33c5d41e58e00578
+
+urls:
+  page: https://crackmes.one/crackme/5c11dcaf33c5d41e58e00578
+  download: https://crackmes.one/download/crackme/5c11dcaf33c5d41e58e00578
+
+title: "nutcake's PrettyDamnEasy"
+author_on_site: "nutcake"
+author_local: "nutcake"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crack"
+  name: "crack"
+  sha256: "6f853d08eecce5040951ffdcdf3f82827e8f78b890b7a7f50f12b8afa6413b67"
+  md5: "92a41a26f570e86c75da9e76e5a1d3c4"
+  size_bytes: 16776
+
+status: solved
+solution_summary: "password construit sur la pile via movabs immediates, piege : strings donne easycracH (leurre) -> easycrack"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T18:18:41Z"
