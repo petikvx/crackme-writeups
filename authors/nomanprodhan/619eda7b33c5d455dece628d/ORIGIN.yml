@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 619eda7b33c5d455dece628d
+
+urls:
+  page: https://crackmes.one/crackme/619eda7b33c5d455dece628d
+  download: https://crackmes.one/download/crackme/619eda7b33c5d455dece628d
+
+title: "NomanProdhan's License Checker 0x01"
+author_on_site: "NomanProdhan"
+author_local: "nomanprodhan"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/license_checker_1"
+  name: "license_checker_1"
+  sha256: "8578e1c55baa726d6a49d9d700041e55a9cdf4705651e8668aca3fe737cb8385"
+  md5: "39c16d3dafc6a9c81f77168fbe17e700"
+  size_bytes: 16248
+
+status: pending
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T10:09:10Z"

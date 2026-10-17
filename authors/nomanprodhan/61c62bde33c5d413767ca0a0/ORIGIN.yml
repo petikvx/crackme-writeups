@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 61c62bde33c5d413767ca0a0
+
+urls:
+  page: https://crackmes.one/crackme/61c62bde33c5d413767ca0a0
+  download: https://crackmes.one/download/crackme/61c62bde33c5d413767ca0a0
+
+title: "NomanProdhan's License Checker 0x02"
+author_on_site: "NomanProdhan"
+author_local: "nomanprodhan"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/license_checker_2"
+  name: "license_checker_2"
+  sha256: "c89c95b1c8d0df2898c1f24aef8e8d0408bc6bf04b1a85231f26a231b76b9eb5"
+  md5: "c497cedfce3b27d1ef6571f85a268a72"
+  size_bytes: 16200
+
+status: solved
+solution_summary: "argv1=NomanProdhan (nom code en dur, pas de variante) ; argv2=KS-LICENSE-KEY-2021-REV-2"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T10:09:08Z"
