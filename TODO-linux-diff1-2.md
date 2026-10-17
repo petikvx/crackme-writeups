@@ -4,7 +4,7 @@ Recherche [crackmes.one](https://crackmes.one/search?name=&author=&platform=Unix
 
 Filtre : plateforme Unix/linux, difficulté 1.0–2.0, tri date décroissante (plus récent en haut). **278 résultats au total** sur le site ; les **87 derniers** (préfixe `by <auteur>` à partir de `mycrk by cli3nt`) sont les imports historiques `crackmes.de`, déjà traités intégralement et séparément (voir `authors/crackmes-de/`, 311/311 résolus) — **exclus de ce tableau**, qui ne couvre que les **191** crackmes.one natifs restants.
 
-Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` du dépôt (ID exact, pas le titre). **120** déjà `solved`, **70** marqués `TODO` (+ 1 « analysé » sans condition de victoire) ci-dessous. Changement notable par rapport à l'ancien tri (page 1 seulement, 50 résultats) : 3 entrées manquaient (`0x8A7 - Maze`, `ComputeTheKey`, `Hecate linux/unix`), et la liste s'étend maintenant bien au-delà de `Godez_Mark crackme` (jusqu'à `Sh4ll1`, 2018).
+Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` du dépôt (ID exact, pas le titre). **124** déjà `solved`, **66** marqués `TODO` (+ 1 « analysé » sans condition de victoire) ci-dessous. Changement notable par rapport à l'ancien tri (page 1 seulement, 50 résultats) : 3 entrées manquaient (`0x8A7 - Maze`, `ComputeTheKey`, `Hecate linux/unix`), et la liste s'étend maintenant bien au-delà de `Godez_Mark crackme` (jusqu'à `Sh4ll1`, 2018).
 
 | # | Date | Crackme | Auteur | Difficulté | Taille | URL | Statut |
 |---|---|---|---|---|---|---|---|
@@ -129,13 +129,13 @@ Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` 
 | 119 | 2021-03-09 | crackme | Harel21 | 1.7 | 14.09 KB | https://crackmes.one/crackme/6047ffb433c5d42c3d016da6 | solved |
 | 120 | 2021-03-06 | GO GO GO - Harmful Logic | s0k1t | 2.0 | 1.39 MB | https://crackmes.one/crackme/6044083333c5d42c3d016d3d | solved |
 | 121 | 2021-01-06 | unlockme | pranav | 2.0 | 8.38 KB | https://crackmes.one/crackme/5ff53c5c33c5d42c3d0165b7 | solved |
-| 122 | 2020-12-16 | lockcode | SilentWraith | 1.6 | 19.41 KB | https://crackmes.one/crackme/5fda4fa433c5d41f64dee37b | **TODO** |
-| 123 | 2020-12-13 | what | rafi | 2.0 | 8.24 KB | https://crackmes.one/crackme/5fd5c44c33c5d424269a1b76 | **TODO** |
+| 122 | 2020-12-16 | lockcode | SilentWraith | 1.6 | 19.41 KB | https://crackmes.one/crackme/5fda4fa433c5d41f64dee37b | solved |
+| 123 | 2020-12-13 | what | rafi | 2.0 | 8.24 KB | https://crackmes.one/crackme/5fd5c44c33c5d424269a1b76 | solved |
 | 124 | 2020-12-08 | EZ crackme | R3tr0BS | 1.0 | 20.00 KB | https://crackmes.one/crackme/5fcfb87933c5d424269a1afc | solved |
-| 125 | 2020-11-04 | Just crackme | tynkute | 1.7 | 16.80 KB | https://crackmes.one/crackme/5fa2cdce33c5d424269a1740 | **TODO** |
+| 125 | 2020-11-04 | Just crackme | tynkute | 1.7 | 16.80 KB | https://crackmes.one/crackme/5fa2cdce33c5d424269a1740 | solved |
 | 126 | 2020-09-02 | Date of Birth | jeffli6789 | 2.0 | 9.98 KB | https://crackmes.one/crackme/5f4efbb133c5d4357b3b00a0 | solved |
 | 127 | 2020-08-19 | rop | BitFriends | 2.0 | 8.12 KB | https://crackmes.one/crackme/5f3d7ed033c5d42a7c667d95 | solved |
-| 128 | 2020-07-11 | Crack_5 | D4RKFL0W | 2.0 | 18.89 KB | https://crackmes.one/crackme/5f0998cb33c5d42a7c667974 | **TODO** |
+| 128 | 2020-07-11 | Crack_5 | D4RKFL0W | 2.0 | 18.89 KB | https://crackmes.one/crackme/5f0998cb33c5d42a7c667974 | solved |
 | 129 | 2020-07-08 | simple overflow | BitFriends | 1.3 | 16.37 KB | https://crackmes.one/crackme/5f05ec3c33c5d42a7c66792b | **TODO** |
 | 130 | 2020-07-04 | bubbly | jeffli6789 | 1.5 | 6.07 KB | https://crackmes.one/crackme/5f00a02533c5d4285070947a | **TODO** |
 | 131 | 2020-06-17 | ShAPK1 | destructeur | 2.0 | 1.34 MB | https://crackmes.one/crackme/5eea811d33c5d449d91ae870 | **TODO** |
@@ -200,4 +200,4 @@ Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` 
 | 190 | 2018-05-06 | Sh4ll2 | destructeur | 2.0 | 8.49 KB | https://crackmes.one/crackme/5aef385633c5d41ac64b492f | **TODO** |
 | 191 | 2018-05-06 | Sh4ll1 | destructeur | 1.4 | 13.23 KB | https://crackmes.one/crackme/5aef37c733c5d41ac64b492e | **TODO** |
 
-Le prochain de la file est **lockcode** (SilentWraith, #122) : https://crackmes.one/crackme/5fda4fa433c5d41f64dee37b puis **what** (rafi, #123), **Just crackme** (tynkute, #125) et **Crack_5** (D4RKFL0W, #128). Mis de côté : Prometheora (#37, Rust+VM), Rev1 (#40, sources contradictoires), FedGuy easy crack (#45, SHA-256 à casser), Ghost (#57, pwn de tas), Gemy (#65, UPX modifié), Upgraded Levels Keygen (#67, 4 niveaux dont un keygen « sorcier »), sh0uld_b3_e4zy (#78, aucune condition de victoire).
+Le prochain de la file est **simple overflow** (BitFriends, #129) : https://crackmes.one/crackme/5f05ec3c33c5d42a7c66792b puis **bubbly** (jeffli6789, #130), **ShAPK1** (destructeur, #131) et **ZED-Crackme** (zed-zahir, #132). Mis de côté : Prometheora (#37, Rust+VM), Rev1 (#40, sources contradictoires), FedGuy easy crack (#45, SHA-256 à casser), Ghost (#57, pwn de tas), Gemy (#65, UPX modifié), Upgraded Levels Keygen (#67, 4 niveaux dont un keygen « sorcier »), sh0uld_b3_e4zy (#78, aucune condition de victoire).
