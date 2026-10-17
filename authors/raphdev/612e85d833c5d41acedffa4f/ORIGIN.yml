@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 612e85d833c5d41acedffa4f
+
+urls:
+  page: https://crackmes.one/crackme/612e85d833c5d41acedffa4f
+  download: https://crackmes.one/download/crackme/612e85d833c5d41acedffa4f
+
+title: "RaphDev's PleaseCrackMe"
+author_on_site: "RaphDev"
+author_local: "raphdev"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/PleaseCrackMe"
+  name: "PleaseCrackMe"
+  sha256: "950f8f580268676dea4fe08860da32efb92ac724020ae4885287c86c44202310"
+  md5: "b44ca620d718c6814fbb95cecbf00476"
+  size_bytes: 16928
+
+status: solved
+solution_summary: "password[i] = username[i] + number (1..9) ; petik + n=5 -> ujynp"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T10:12:36Z"

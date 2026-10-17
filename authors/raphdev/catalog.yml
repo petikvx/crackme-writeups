@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  612e85d833c5d41acedffa4f:
+    sha256: "950f8f580268676dea4fe08860da32efb92ac724020ae4885287c86c44202310"
+    path: "authors/raphdev/612e85d833c5d41acedffa4f/original/PleaseCrackMe"
+    title: "RaphDev's PleaseCrackMe"
+
+by_sha256:
+  950f8f580268676dea4fe08860da32efb92ac724020ae4885287c86c44202310:
+    id: 612e85d833c5d41acedffa4f
+    path: "authors/raphdev/612e85d833c5d41acedffa4f/original/PleaseCrackMe"
+    page: https://crackmes.one/crackme/612e85d833c5d41acedffa4f
