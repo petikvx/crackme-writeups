@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6603c10ccddae72ae250bcd6
+
+urls:
+  page: https://crackmes.one/crackme/6603c10ccddae72ae250bcd6
+  download: https://crackmes.one/download/crackme/6603c10ccddae72ae250bcd6
+
+title: "jackioye's Simple but not simple"
+author_on_site: "jackioye"
+author_local: "jackioye"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/mid"
+  name: "mid"
+  sha256: "4c7fa06dd78875610b8bfdad4905de28663f6f8eb15c120a4126e940d3938127"
+  md5: "714326bd024572dff1e65d30d9483068"
+  size_bytes: 857880
+
+status: solved
+solution_summary: "password = secretPassword123 (saisie XOR 5 == constante v`fw`qUdvvrjwa476 ; encryptInput @0x4017d5)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T06:27:44Z"

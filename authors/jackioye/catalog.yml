@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6603c10ccddae72ae250bcd6:
+    sha256: "4c7fa06dd78875610b8bfdad4905de28663f6f8eb15c120a4126e940d3938127"
+    path: "authors/jackioye/6603c10ccddae72ae250bcd6/original/mid"
+    title: "jackioye's Simple but not simple"
+
+by_sha256:
+  4c7fa06dd78875610b8bfdad4905de28663f6f8eb15c120a4126e940d3938127:
+    id: 6603c10ccddae72ae250bcd6
+    path: "authors/jackioye/6603c10ccddae72ae250bcd6/original/mid"
+    page: https://crackmes.one/crackme/6603c10ccddae72ae250bcd6
