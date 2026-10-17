@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5dfd77a833c5d419aa013406:
+    sha256: "9fdc40e37f9a39ab87f5477f8c76867ac21c0dff860506068d406e9dafb5f982"
+    path: "authors/exxtra12/5dfd77a833c5d419aa013406/original/xordemo"
+    title: "Exxtra12's Ext.challenges"
+
+by_sha256:
+  9fdc40e37f9a39ab87f5477f8c76867ac21c0dff860506068d406e9dafb5f982:
+    id: 5dfd77a833c5d419aa013406
+    path: "authors/exxtra12/5dfd77a833c5d419aa013406/original/xordemo"
+    page: https://crackmes.one/crackme/5dfd77a833c5d419aa013406

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5dfd77a833c5d419aa013406
+
+urls:
+  page: https://crackmes.one/crackme/5dfd77a833c5d419aa013406
+  download: https://crackmes.one/download/crackme/5dfd77a833c5d419aa013406
+
+title: "Exxtra12's Ext.challenges"
+author_on_site: "Exxtra12"
+author_local: "exxtra12"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/xordemo"
+  name: "xordemo"
+  sha256: "9fdc40e37f9a39ab87f5477f8c76867ac21c0dff860506068d406e9dafb5f982"
+  md5: "7f8f01ead2c9b25fd341f6ede0519eab"
+  size_bytes: 8480
+
+status: solved
+solution_summary: "argv1[i]=key[i]^target[i], key='badbeef12', target 9 octets immediates -> rungirl34"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T15:18:08Z"
