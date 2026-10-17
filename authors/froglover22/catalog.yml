@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6629bf7aa562ef06c3b52e86:
+    sha256: "cac045f1420f9aca07b00b58fc17040eee808079f44361653fc1f6a18804703b"
+    path: "authors/froglover22/6629bf7aa562ef06c3b52e86/original/crack_on_the_cob"
+    title: "froglover22's Crack On The Cob"
+
+by_sha256:
+  cac045f1420f9aca07b00b58fc17040eee808079f44361653fc1f6a18804703b:
+    id: 6629bf7aa562ef06c3b52e86
+    path: "authors/froglover22/6629bf7aa562ef06c3b52e86/original/crack_on_the_cob"
+    page: https://crackmes.one/crackme/6629bf7aa562ef06c3b52e86

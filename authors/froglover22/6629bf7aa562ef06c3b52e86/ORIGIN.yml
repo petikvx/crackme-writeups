@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6629bf7aa562ef06c3b52e86
+
+urls:
+  page: https://crackmes.one/crackme/6629bf7aa562ef06c3b52e86
+  download: https://crackmes.one/download/crackme/6629bf7aa562ef06c3b52e86
+
+title: "froglover22's Crack On The Cob"
+author_on_site: "froglover22"
+author_local: "froglover22"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crack_on_the_cob"
+  name: "crack_on_the_cob"
+  sha256: "cac045f1420f9aca07b00b58fc17040eee808079f44361653fc1f6a18804703b"
+  md5: "f9884cba26b61bc8f9e84ce0dcc41a11"
+  size_bytes: 77360
+
+status: solved
+solution_summary: "password = PASSWORD (PIC X(10) complete par espaces ; memcmp(b_8.3,b_9.2,10) ; constante posee par movabs en .bss ; preuve via shim libcob)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T05:03:23Z"
