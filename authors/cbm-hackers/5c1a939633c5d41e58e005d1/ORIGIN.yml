@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5c1a939633c5d41e58e005d1
+
+urls:
+  page: https://crackmes.one/crackme/5c1a939633c5d41e58e005d1
+  download: https://crackmes.one/download/crackme/5c1a939633c5d41e58e005d1
+
+title: "cbm-hackers's jumpjumpjump"
+author_on_site: "cbm-hackers"
+author_local: "cbm-hackers"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/rev03"
+  name: "rev03"
+  sha256: "42214fc24b0578200736d1531c7a57da7c440c7dbc122a86ff8271948952f858"
+  md5: "3769c64694d4cdd391a759e922148523"
+  size_bytes: 16920
+
+status: solved
+solution_summary: "fgets+somme signed==1000, len<=11 (piege : pas de newline) -> flag fixe flag{!#&*/5<DMW}"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T18:18:34Z"

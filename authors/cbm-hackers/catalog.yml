@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5c1a939633c5d41e58e005d1:
+    sha256: "42214fc24b0578200736d1531c7a57da7c440c7dbc122a86ff8271948952f858"
+    path: "authors/cbm-hackers/5c1a939633c5d41e58e005d1/original/rev03"
+    title: "cbm"
+
+by_sha256:
+  42214fc24b0578200736d1531c7a57da7c440c7dbc122a86ff8271948952f858:
+    id: 5c1a939633c5d41e58e005d1
+    path: "authors/cbm-hackers/5c1a939633c5d41e58e005d1/original/rev03"
+    page: https://crackmes.one/crackme/5c1a939633c5d41e58e005d1
