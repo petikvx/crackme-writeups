@@ -1,0 +1,37 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 611e76ec33c5d45db85dc2d1
+
+urls:
+  page: https://crackmes.one/crackme/611e76ec33c5d45db85dc2d1
+  download: https://crackmes.one/download/crackme/611e76ec33c5d45db85dc2d1
+
+title: "4N0NY31TY's 4N0NY31TY&#39;s First Crackme"
+author_on_site: "4N0NY31TY"
+author_local: "4n0ny31ty"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme"
+  name: "crackme"
+  sha256: "3400f61cd80ce6794178a9d557f8ca50f03d7a485abf62f199799db40ece790b"
+  md5: "92be9c7b2e4afd6d205892eae0341e52"
+  size_bytes: 16376
+
+status: solved
+solution_summary: "licence = chaine dont somme ASCII == 13543-10*longueur ; getchar+realloc exige un 
+ final"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T10:12:40Z"

@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  611e76ec33c5d45db85dc2d1:
+    sha256: "3400f61cd80ce6794178a9d557f8ca50f03d7a485abf62f199799db40ece790b"
+    path: "authors/4n0ny31ty/611e76ec33c5d45db85dc2d1/original/crackme"
+    title: "4N0NY31TY's 4N0NY31TY&#39;s First Crackme"
+
+by_sha256:
+  3400f61cd80ce6794178a9d557f8ca50f03d7a485abf62f199799db40ece790b:
+    id: 611e76ec33c5d45db85dc2d1
+    path: "authors/4n0ny31ty/611e76ec33c5d45db85dc2d1/original/crackme"
+    page: https://crackmes.one/crackme/611e76ec33c5d45db85dc2d1
