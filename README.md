@@ -161,6 +161,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [kryptos](authors/kryptos/README.md) | Kryptos | 1 (Hecate) | 1 / 1 |
 | [marco007](authors/marco007/README.md) | marco007 | 2 (time based riddle + simple crackme) | 2 / 2 |
 | [sftmlg](authors/sftmlg/README.md) | sftmlg | 1 (Quite a simple crackme) | 1 / 1 |
+| [bahha](authors/bahha/README.md) | bahha | 1 (easy_keygenme) | 1 / 1 |
 | [c1](authors/c1/README.md) | c1 | 1 (c1_keygenme1) | 1 / 1 |
 | [rion](authors/rion/README.md) | rion | 1 (keyGme) | 1 / 1 |
 | [yuri](authors/yuri/README.md) | Yuri | 1 (Simple Keygen) | 1 / 1 |
@@ -352,6 +353,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-17 | [easy_keygenme](authors/bahha/5c1cc7d533c5d41e58e005ee/) | bahha |
 | 2026-10-17 | [c1_keygenme1](authors/c1/5c2335c033c5d41e58e00625/) | c1 |
 | 2026-10-17 | [keyGme](authors/rion/5c268e8333c5d41e58e00654/) | rion |
 | 2026-10-17 | [Simple Keygen](authors/yuri/5c2acb8933c5d46a3882b8d4/) | Yuri |

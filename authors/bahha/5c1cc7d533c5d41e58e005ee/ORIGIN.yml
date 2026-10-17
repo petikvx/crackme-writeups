@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5c1cc7d533c5d41e58e005ee
+
+urls:
+  page: https://crackmes.one/crackme/5c1cc7d533c5d41e58e005ee
+  download: https://crackmes.one/download/crackme/5c1cc7d533c5d41e58e005ee
+
+title: "bahha's easy_keygenme"
+author_on_site: "bahha"
+author_local: "bahha"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/keygenme"
+  name: "keygenme"
+  sha256: "9674bf535c249a19be24e49815067ad3ed8f9d10f78e7ebc838ae3b66957cbcf"
+  md5: "5cf73c59903df2f28c1500e1699bab31"
+  size_bytes: 19040
+
+status: solved
+solution_summary: "gks() applique ROT-N (N=len(username)) a chaque lettre -> keygen generique, petik->ujynp"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T18:18:32Z"

@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5c1cc7d533c5d41e58e005ee:
+    sha256: "9674bf535c249a19be24e49815067ad3ed8f9d10f78e7ebc838ae3b66957cbcf"
+    path: "authors/bahha/5c1cc7d533c5d41e58e005ee/original/keygenme"
+    title: "bahha's easy_keygenme"
+
+by_sha256:
+  9674bf535c249a19be24e49815067ad3ed8f9d10f78e7ebc838ae3b66957cbcf:
+    id: 5c1cc7d533c5d41e58e005ee
+    path: "authors/bahha/5c1cc7d533c5d41e58e005ee/original/keygenme"
+    page: https://crackmes.one/crackme/5c1cc7d533c5d41e58e005ee
