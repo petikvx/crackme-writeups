@@ -4,7 +4,7 @@ Recherche [crackmes.one](https://crackmes.one/search?name=&author=&platform=Unix
 
 Filtre : plateforme Unix/linux, difficulté 1.0–2.0, tri date décroissante (plus récent en haut). **278 résultats au total** sur le site ; les **87 derniers** (préfixe `by <auteur>` à partir de `mycrk by cli3nt`) sont les imports historiques `crackmes.de`, déjà traités intégralement et séparément (voir `authors/crackmes-de/`, 311/311 résolus) — **exclus de ce tableau**, qui ne couvre que les **191** crackmes.one natifs restants.
 
-Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` du dépôt (ID exact, pas le titre). **88** déjà `solved`, **102** marqués `TODO` (+ 1 « analysé » sans condition de victoire) ci-dessous. Changement notable par rapport à l'ancien tri (page 1 seulement, 50 résultats) : 3 entrées manquaient (`0x8A7 - Maze`, `ComputeTheKey`, `Hecate linux/unix`), et la liste s'étend maintenant bien au-delà de `Godez_Mark crackme` (jusqu'à `Sh4ll1`, 2018).
+Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` du dépôt (ID exact, pas le titre). **92** déjà `solved`, **98** marqués `TODO` (+ 1 « analysé » sans condition de victoire) ci-dessous. Changement notable par rapport à l'ancien tri (page 1 seulement, 50 résultats) : 3 entrées manquaient (`0x8A7 - Maze`, `ComputeTheKey`, `Hecate linux/unix`), et la liste s'étend maintenant bien au-delà de `Godez_Mark crackme` (jusqu'à `Sh4ll1`, 2018).
 
 | # | Date | Crackme | Auteur | Difficulté | Taille | URL | Statut |
 |---|---|---|---|---|---|---|---|
@@ -93,11 +93,11 @@ Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` 
 | 83 | 2023-12-08 | Weird | exzettabyte | 1.8 | 327.83 KB | https://crackmes.one/crackme/65727e2035240bf986f0ff19 | solved |
 | 84 | 2023-11-20 | linux_asm_jenya | Jenya | 1.8 | 1.51 KB | https://crackmes.one/crackme/655b43750f4238b24302bc42 | solved |
 | 85 | 2023-09-29 | crackme1 | 0x6f6D6172h | 1.5 | 7.02 KB | https://crackmes.one/crackme/6516c8018b6aa566ae723220 | solved |
-| 86 | 2023-09-26 | Plain sight | I3a4dam | 1.1 | 3.41 KB | https://crackmes.one/crackme/6513567328b5870bef263329 | **TODO** |
-| 87 | 2023-09-10 | based | mt77 | 1.4 | 23.62 KB | https://crackmes.one/crackme/64fdf93bd931496abf90994b | **TODO** |
+| 86 | 2023-09-26 | Plain sight | I3a4dam | 1.1 | 3.41 KB | https://crackmes.one/crackme/6513567328b5870bef263329 | solved |
+| 87 | 2023-09-10 | based | mt77 | 1.4 | 23.62 KB | https://crackmes.one/crackme/64fdf93bd931496abf90994b | solved |
 | 88 | 2023-08-27 | perwira | Ximxn | 2.0 | 15.77 KB | https://crackmes.one/crackme/64eb62e2d931496abf9092e7 | solved |
-| 89 | 2023-08-25 | Find password | ithawk | 1.9 | 15.87 KB | https://crackmes.one/crackme/64e91b92d931496abf9091e3 | **TODO** |
-| 90 | 2023-05-18 | Level1 | sudo0x18 | 1.1 | 15.67 KB | https://crackmes.one/crackme/646627a933c5d439389131d9 | **TODO** |
+| 89 | 2023-08-25 | Find password | ithawk | 1.9 | 15.87 KB | https://crackmes.one/crackme/64e91b92d931496abf9091e3 | solved |
+| 90 | 2023-05-18 | Level1 | sudo0x18 | 1.1 | 15.67 KB | https://crackmes.one/crackme/646627a933c5d439389131d9 | solved |
 | 91 | 2023-05-11 | GDB basics | Varsovie | 1.5 | 19.72 KB | https://crackmes.one/crackme/645d3d4e33c5d43938913079 | **TODO** |
 | 92 | 2023-05-05 | Vending Machine | Yekong | 1.5 | 4.08 MB | https://crackmes.one/crackme/6454d06c33c5d43938912e8a | **TODO** |
 | 93 | 2023-04-28 | Salt and Hash - Linux | Yekong | 2.0 | 756.23 KB | https://crackmes.one/crackme/644bd78b33c5d43938912c94 | **TODO** |
@@ -200,4 +200,4 @@ Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` 
 | 190 | 2018-05-06 | Sh4ll2 | destructeur | 2.0 | 8.49 KB | https://crackmes.one/crackme/5aef385633c5d41ac64b492f | **TODO** |
 | 191 | 2018-05-06 | Sh4ll1 | destructeur | 1.4 | 13.23 KB | https://crackmes.one/crackme/5aef37c733c5d41ac64b492e | **TODO** |
 
-Le prochain de la file est **Plain sight** (I3a4dam, #86) : https://crackmes.one/crackme/6513567328b5870bef263329 puis **based** (mt77, #87), **Find password** (ithawk, #89) et **Level1** (sudo0x18, #90). Mis de côté : Prometheora (#37, Rust+VM), Rev1 (#40, sources contradictoires), FedGuy easy crack (#45, SHA-256 à casser), Ghost (#57, pwn de tas), Gemy (#65, UPX modifié), Upgraded Levels Keygen (#67, 4 niveaux dont un keygen « sorcier »), sh0uld_b3_e4zy (#78, aucune condition de victoire).
+Le prochain de la file est **GDB basics** (Varsovie, #91) : https://crackmes.one/crackme/645d3d4e33c5d43938913079 puis **Vending Machine** (Yekong, #92), **Salt and Hash - Linux** (#93) et **My first crackme** (ss1ned, #94). Mis de côté : Prometheora (#37, Rust+VM), Rev1 (#40, sources contradictoires), FedGuy easy crack (#45, SHA-256 à casser), Ghost (#57, pwn de tas), Gemy (#65, UPX modifié), Upgraded Levels Keygen (#67, 4 niveaux dont un keygen « sorcier »), sh0uld_b3_e4zy (#78, aucune condition de victoire).
