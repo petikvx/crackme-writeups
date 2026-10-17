@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5d41bf7633c5d444ad30189b
+
+urls:
+  page: https://crackmes.one/crackme/5d41bf7633c5d444ad30189b
+  download: https://crackmes.one/download/crackme/5d41bf7633c5d444ad30189b
+
+title: "mrT4ntr4's Save Scooby"
+author_on_site: "mrT4ntr4"
+author_local: "mrt4ntr4"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/save_scooby"
+  name: "save_scooby"
+  sha256: "c3efb1f9ed08597d5cde2dad8a232d9f889840e1759d454f14e39b26c3c3d1c6"
+  md5: "8da326804fff6203a7562c3d9958b148"
+  size_bytes: 8584
+
+status: solved
+solution_summary: "transformation du cwd reel (/ -> $, a-z -30, A-Z +30) doit prefixer la saisie -> reponse dependante du chemin d execution"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T15:26:13Z"

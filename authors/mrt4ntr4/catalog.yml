@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5d41bf7633c5d444ad30189b:
+    sha256: "c3efb1f9ed08597d5cde2dad8a232d9f889840e1759d454f14e39b26c3c3d1c6"
+    path: "authors/mrt4ntr4/5d41bf7633c5d444ad30189b/original/save_scooby"
+    title: "mrT4ntr4's Save Scooby"
+
+by_sha256:
+  c3efb1f9ed08597d5cde2dad8a232d9f889840e1759d454f14e39b26c3c3d1c6:
+    id: 5d41bf7633c5d444ad30189b
+    path: "authors/mrt4ntr4/5d41bf7633c5d444ad30189b/original/save_scooby"
+    page: https://crackmes.one/crackme/5d41bf7633c5d444ad30189b
