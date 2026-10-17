@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5e76c37d33c5d4439bb2df1b:
+    sha256: "a2bdde3cbe809074c24e70d525b812d782f4e7ba4057f1d55f9069bd909fa6f2"
+    path: "authors/chillywilly/5e76c37d33c5d4439bb2df1b/original/racecars"
+    title: "chillywilly's racecars"
+
+by_sha256:
+  a2bdde3cbe809074c24e70d525b812d782f4e7ba4057f1d55f9069bd909fa6f2:
+    id: 5e76c37d33c5d4439bb2df1b
+    path: "authors/chillywilly/5e76c37d33c5d4439bb2df1b/original/racecars"
+    page: https://crackmes.one/crackme/5e76c37d33c5d4439bb2df1b

@@ -161,6 +161,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [kryptos](authors/kryptos/README.md) | Kryptos | 1 (Hecate) | 1 / 1 |
 | [marco007](authors/marco007/README.md) | marco007 | 2 (time based riddle + simple crackme) | 2 / 2 |
 | [sftmlg](authors/sftmlg/README.md) | sftmlg | 1 (Quite a simple crackme) | 1 / 1 |
+| [chillywilly](authors/chillywilly/README.md) | chillywilly | 1 (racecars) | 1 / 1 |
 | [476f64](authors/476f64/README.md) | 476f64 | 1 (easyAF) | 1 / 1 |
 | [shad3](authors/shad3/README.md) | Shad3 | 1 (Baby Ransom) | 1 / 1 |
 | [zed-zahir](authors/zed-zahir/README.md) | zed-zahir | 1 (ZED-Crackme) | 1 / 1 |
@@ -331,6 +332,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-17 | [racecars](authors/chillywilly/5e76c37d33c5d4439bb2df1b/) | chillywilly |
 | 2026-10-17 | [easyAF](authors/476f64/5eae2d6633c5d47611746500/) | 476f64 |
 | 2026-10-17 | [Baby Ransom](authors/shad3/5ec1a37533c5d449d91ae535/) | Shad3 |
 | 2026-10-17 | [ZED-Crackme](authors/zed-zahir/5ecd7cc133c5d449d91ae641/) | zed-zahir |

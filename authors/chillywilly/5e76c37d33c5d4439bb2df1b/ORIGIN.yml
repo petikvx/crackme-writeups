@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5e76c37d33c5d4439bb2df1b
+
+urls:
+  page: https://crackmes.one/crackme/5e76c37d33c5d4439bb2df1b
+  download: https://crackmes.one/download/crackme/5e76c37d33c5d4439bb2df1b
+
+title: "chillywilly's racecars"
+author_on_site: "chillywilly"
+author_local: "chillywilly"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/racecars"
+  name: "racecars"
+  sha256: "a2bdde3cbe809074c24e70d525b812d782f4e7ba4057f1d55f9069bd909fa6f2"
+  md5: "b212b651e946892236b6d7a3342a5c37"
+  size_bytes: 19368
+
+status: solved
+solution_summary: "argv[0] (pas d entree utilisateur) : basename doit etre un palindrome -> renommer le binaire en 'racecar'"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T15:08:56Z"
