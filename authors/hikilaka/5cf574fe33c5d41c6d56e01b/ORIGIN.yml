@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5cf574fe33c5d41c6d56e01b
+
+urls:
+  page: https://crackmes.one/crackme/5cf574fe33c5d41c6d56e01b
+  download: https://crackmes.one/download/crackme/5cf574fe33c5d41c6d56e01b
+
+title: "hikilaka's crackme #1"
+author_on_site: "hikilaka"
+author_local: "hikilaka"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme"
+  name: "crackme"
+  sha256: "99ce00634501b4da092d0ad185bdbfe78ee67e2d7c06f1415978393bd7cd8a00"
+  md5: "40c2ab1a4de35440bc509b63f496d2a6"
+  size_bytes: 26992
+
+status: solved
+solution_summary: "generateur Fibonacci (5,1) mod 26 +'a' sur 10 octets compare via std::mismatch -> entree '10 ghnuhbijra'"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T17:51:02Z"

@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5cf574fe33c5d41c6d56e01b:
+    sha256: "99ce00634501b4da092d0ad185bdbfe78ee67e2d7c06f1415978393bd7cd8a00"
+    path: "authors/hikilaka/5cf574fe33c5d41c6d56e01b/original/crackme"
+    title: "hikilaka's crackme #1"
+
+by_sha256:
+  99ce00634501b4da092d0ad185bdbfe78ee67e2d7c06f1415978393bd7cd8a00:
+    id: 5cf574fe33c5d41c6d56e01b
+    path: "authors/hikilaka/5cf574fe33c5d41c6d56e01b/original/crackme"
+    page: https://crackmes.one/crackme/5cf574fe33c5d41c6d56e01b

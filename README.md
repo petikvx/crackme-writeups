@@ -161,6 +161,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [kryptos](authors/kryptos/README.md) | Kryptos | 1 (Hecate) | 1 / 1 |
 | [marco007](authors/marco007/README.md) | marco007 | 2 (time based riddle + simple crackme) | 2 / 2 |
 | [sftmlg](authors/sftmlg/README.md) | sftmlg | 1 (Quite a simple crackme) | 1 / 1 |
+| [hikilaka](authors/hikilaka/README.md) | hikilaka | 1 (crackme #1) | 1 / 1 |
 | [ker2x](authors/ker2x/README.md) | ker2x | 2 (guild hall adventure Ch.2) | 2 / 2 |
 | [kawaii-flesh](authors/kawaii-flesh/README.md) | kawaii-flesh | 3 (keygenme) | 3 / 3 |
 | [mrt4ntr4](authors/mrt4ntr4/README.md) | mrT4ntr4 | 1 (Save Scooby) | 1 / 1 |
@@ -344,6 +345,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-17 | [crackme #1](authors/hikilaka/5cf574fe33c5d41c6d56e01b/) | hikilaka |
 | 2026-10-17 | [Simple crackme](authors/kawaii-flesh/5d0d1e1333c5d41c6d56e155/) | kawaii-flesh |
 | 2026-10-17 | [guild hall adventure Ch.1](authors/ker2x/5d0fa1ac33c5d41c6d56e172/) | ker2x |
 | 2026-10-17 | [Key and keygen](authors/kawaii-flesh/5d17962b33c5d41c6d56e1f2/) | kawaii-flesh |
