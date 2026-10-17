@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  660a24f1cddae72ae250bf56:
+    sha256: "00b7841dca7e0494e15fcf01cf9912a6b097e6bed62369f358e8a083a08e0f2b"
+    path: "authors/stonezarcon/660a24f1cddae72ae250bf56/original/getting_started.zip"
+    title: "stonezarcon's Getting started"
+
+by_sha256:
+  00b7841dca7e0494e15fcf01cf9912a6b097e6bed62369f358e8a083a08e0f2b:
+    id: 660a24f1cddae72ae250bf56
+    path: "authors/stonezarcon/660a24f1cddae72ae250bf56/original/getting_started.zip"
+    page: https://crackmes.one/crackme/660a24f1cddae72ae250bf56

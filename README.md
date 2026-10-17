@@ -161,6 +161,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [kryptos](authors/kryptos/README.md) | Kryptos | 1 (Hecate) | 1 / 1 |
 | [marco007](authors/marco007/README.md) | marco007 | 2 (time based riddle + simple crackme) | 2 / 2 |
 | [sftmlg](authors/sftmlg/README.md) | sftmlg | 1 (Quite a simple crackme) | 1 / 1 |
+| [stonezarcon](authors/stonezarcon/README.md) | stonezarcon | 1 (Getting started) | 1 / 1 |
 | [ananascharles](authors/ananascharles/README.md) | AnanasCharles | 1 (Authorize by PIN) | 1 / 1 |
 | [dzonerzy](authors/dzonerzy/README.md) | dzonerzy | 1 (KGenMe v2) | 1 / 1 |
 | [froglover22](authors/froglover22/README.md) | froglover22 | 1 (Crack On The Cob - COBOL) | 1 / 1 |
@@ -289,6 +290,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-17 | [Getting started](authors/stonezarcon/660a24f1cddae72ae250bf56/) | stonezarcon |
 | 2026-10-17 | [Authorize by PIN](authors/ananascharles/6617d3a5cddae72ae250c556/) | AnanasCharles |
 | 2026-10-17 | [KGenMe v2](authors/dzonerzy/6672bf9ee7b35c09bb266f5e/) | dzonerzy |
 | 2026-10-17 | [Crack On The Cob - COBOL](authors/froglover22/6629bf7aa562ef06c3b52e86/) | froglover22 |

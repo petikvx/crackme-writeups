@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 660a24f1cddae72ae250bf56
+
+urls:
+  page: https://crackmes.one/crackme/660a24f1cddae72ae250bf56
+  download: https://crackmes.one/download/crackme/660a24f1cddae72ae250bf56
+
+title: "stonezarcon's Getting started"
+author_on_site: "stonezarcon"
+author_local: "stonezarcon"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/getting_started.zip"
+  name: "getting_started.zip"
+  sha256: "00b7841dca7e0494e15fcf01cf9912a6b097e6bed62369f358e8a083a08e0f2b"
+  md5: "d2496ac0922f09ab3feb29f96becf099"
+  size_bytes: 2716
+
+status: solved
+solution_summary: "argv[1] = secret (entiers 0x6e 0x60 0x5e 0x6d 0x60 0x6f incrementes 5 fois)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T06:27:41Z"
