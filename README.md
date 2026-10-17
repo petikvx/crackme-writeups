@@ -161,6 +161,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [kryptos](authors/kryptos/README.md) | Kryptos | 1 (Hecate) | 1 / 1 |
 | [marco007](authors/marco007/README.md) | marco007 | 2 (time based riddle + simple crackme) | 2 / 2 |
 | [sftmlg](authors/sftmlg/README.md) | sftmlg | 1 (Quite a simple crackme) | 1 / 1 |
+| [b3nd3p](authors/b3nd3p/README.md) | b3nd3p | 1 (my_f1rs7_cr4ckm3) | 1 / 1 |
 | [marufmurtuza](authors/marufmurtuza/README.md) | marufmurtuza | 1 (Illogical Logic) | 1 / 1 |
 | [skibur](authors/skibur/README.md) | skibur | 1 (Just In Time) | 1 / 1 |
 | [sirender125](authors/sirender125/README.md) | SirEnder125 | 2 (RegistrationCrackme) | 2 / 2 |
@@ -307,6 +308,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-17 | [my_f1rs7_cr4ckm3](authors/b3nd3p/6296c1ff33c5d45b75903c0f/) | b3nd3p |
 | 2026-10-17 | [Illogical Logic](authors/marufmurtuza/637c66b633c5d43ab4ecec2a/) | marufmurtuza |
 | 2026-10-17 | [Just In Time](authors/skibur/63c4ee1a33c5d43ab4ecf49a/) | skibur |
 | 2026-10-17 | [MyFirstCrackme](authors/sirender125/63ff9d5c33c5d447bc7616f0/) | SirEnder125 |

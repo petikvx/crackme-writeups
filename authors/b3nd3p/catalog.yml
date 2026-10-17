@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6296c1ff33c5d45b75903c0f:
+    sha256: "65d7f55b0055e639eba7180c636ebf96af9d5307a3c6ed3dcea0677eac591416"
+    path: "authors/b3nd3p/6296c1ff33c5d45b75903c0f/original/first"
+    title: "b3nd3p's my_f1rs7_cr4ckm3"
+
+by_sha256:
+  65d7f55b0055e639eba7180c636ebf96af9d5307a3c6ed3dcea0677eac591416:
+    id: 6296c1ff33c5d45b75903c0f
+    path: "authors/b3nd3p/6296c1ff33c5d45b75903c0f/original/first"
+    page: https://crackmes.one/crackme/6296c1ff33c5d45b75903c0f
