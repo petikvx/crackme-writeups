@@ -1,0 +1,21 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5ca0b6c833c5d4419da5567b:
+    sha256: "537abfb050bff429a13057666c238c15a4a44ac070fa171c6cc59ef0fa51817d"
+    path: "authors/loz/5ca0b6c833c5d4419da5567b/original/main"
+    title: "Loz's Password Login 2"
+
+  5c90a72d33c5d4776a837f07:
+    sha256: "cd00215df69e55cb05aaab1df4bb22533aecbe97fbbe1aa9d73aa853987c324a"
+    path: "authors/loz/5c90a72d33c5d4776a837f07/original/crackme"
+    title: "Loz's Password Login"
+
+by_sha256:
+  537abfb050bff429a13057666c238c15a4a44ac070fa171c6cc59ef0fa51817d:
+    id: 5ca0b6c833c5d4419da5567b
+    path: "authors/loz/5ca0b6c833c5d4419da5567b/original/main"
+    page: https://crackmes.one/crackme/5ca0b6c833c5d4419da5567b
+  cd00215df69e55cb05aaab1df4bb22533aecbe97fbbe1aa9d73aa853987c324a:
+    id: 5c90a72d33c5d4776a837f07
+    path: "authors/loz/5c90a72d33c5d4776a837f07/original/crackme"
+    page: https://crackmes.one/crackme/5c90a72d33c5d4776a837f07

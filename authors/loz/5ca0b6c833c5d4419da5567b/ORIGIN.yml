@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ca0b6c833c5d4419da5567b
+
+urls:
+  page: https://crackmes.one/crackme/5ca0b6c833c5d4419da5567b
+  download: https://crackmes.one/download/crackme/5ca0b6c833c5d4419da5567b
+
+title: "Loz's Password Login 2"
+author_on_site: "Loz"
+author_local: "loz"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/main"
+  name: "main"
+  sha256: "537abfb050bff429a13057666c238c15a4a44ac070fa171c6cc59ef0fa51817d"
+  md5: "0bc96e9175d6a90ba1d5628c5ff57515"
+  size_bytes: 26744
+
+status: solved
+solution_summary: "constructeur stocke cle XOR 0x42 et chaine membre ; checkPassword XOR input et compare a secret.substr(5,7) -> lozlvl2"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T18:02:25Z"
