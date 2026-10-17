@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5c268e8333c5d41e58e00654
+
+urls:
+  page: https://crackmes.one/crackme/5c268e8333c5d41e58e00654
+  download: https://crackmes.one/download/crackme/5c268e8333c5d41e58e00654
+
+title: "rion's keyGme"
+author_on_site: "rion"
+author_local: "rion"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/keyGme"
+  name: "keyGme"
+  sha256: "430985df3e78f665557af3dbf657baf6b0f455482573d946907cae64c9aee834"
+  md5: "f05065ec9e428062b068e8932c007ade"
+  size_bytes: 3176
+
+status: solved
+solution_summary: "15 chars A-Z/0-9 + checksum (c+v3)>>1 mod 3840 +10 -> AAAAAAAAAAAAAAAT"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T18:10:34Z"

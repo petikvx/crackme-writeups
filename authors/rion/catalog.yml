@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5c268e8333c5d41e58e00654:
+    sha256: "430985df3e78f665557af3dbf657baf6b0f455482573d946907cae64c9aee834"
+    path: "authors/rion/5c268e8333c5d41e58e00654/original/keyGme"
+    title: "rion's keyGme"
+
+by_sha256:
+  430985df3e78f665557af3dbf657baf6b0f455482573d946907cae64c9aee834:
+    id: 5c268e8333c5d41e58e00654
+    path: "authors/rion/5c268e8333c5d41e58e00654/original/keyGme"
+    page: https://crackmes.one/crackme/5c268e8333c5d41e58e00654

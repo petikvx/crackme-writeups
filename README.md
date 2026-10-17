@@ -161,6 +161,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [kryptos](authors/kryptos/README.md) | Kryptos | 1 (Hecate) | 1 / 1 |
 | [marco007](authors/marco007/README.md) | marco007 | 2 (time based riddle + simple crackme) | 2 / 2 |
 | [sftmlg](authors/sftmlg/README.md) | sftmlg | 1 (Quite a simple crackme) | 1 / 1 |
+| [rion](authors/rion/README.md) | rion | 1 (keyGme) | 1 / 1 |
 | [yuri](authors/yuri/README.md) | Yuri | 1 (Simple Keygen) | 1 / 1 |
 | [inxaneninja](authors/inxaneninja/README.md) | inxaneninja | 1 (Keygen Practice) | 1 / 1 |
 | [loz](authors/loz/README.md) | Loz | 2 (Password Login 2) | 2 / 2 |
@@ -350,6 +351,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-17 | [keyGme](authors/rion/5c268e8333c5d41e58e00654/) | rion |
 | 2026-10-17 | [Simple Keygen](authors/yuri/5c2acb8933c5d46a3882b8d4/) | Yuri |
 | 2026-10-17 | [Keygen Practice](authors/inxaneninja/5c8d45c333c5d4776a837ec2/) | inxaneninja |
 | 2026-10-17 | [Easy_firstCrackme-by-D4RK_FL0W](authors/d4rkfl0w/5c8e1a9533c5d4776a837ecf/) | D4RKFL0W |
