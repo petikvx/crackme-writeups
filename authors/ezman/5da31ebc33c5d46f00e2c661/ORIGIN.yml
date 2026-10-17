@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5da31ebc33c5d46f00e2c661
+
+urls:
+  page: https://crackmes.one/crackme/5da31ebc33c5d46f00e2c661
+  download: https://crackmes.one/download/crackme/5da31ebc33c5d46f00e2c661
+
+title: "ezman's easy keyg3nme"
+author_on_site: "ezman"
+author_local: "ezman"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/keyg3nme"
+  name: "keyg3nme"
+  sha256: "c5a1a8b2545eb7868b26ca7dc79380cad8a0bfc01d1c53ce4f5e5c6662154a71"
+  md5: "84fd0728ae993ad998e22de7e0b5b0ff"
+  size_bytes: 16672
+
+status: solved
+solution_summary: "sequence imul/sar/imul/sub = division par constante (key%1223) -> tout multiple de 1223, ex 1223"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T15:18:15Z"

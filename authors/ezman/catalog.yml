@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5da31ebc33c5d46f00e2c661:
+    sha256: "c5a1a8b2545eb7868b26ca7dc79380cad8a0bfc01d1c53ce4f5e5c6662154a71"
+    path: "authors/ezman/5da31ebc33c5d46f00e2c661/original/keyg3nme"
+    title: "ezman's easy keyg3nme"
+
+by_sha256:
+  c5a1a8b2545eb7868b26ca7dc79380cad8a0bfc01d1c53ce4f5e5c6662154a71:
+    id: 5da31ebc33c5d46f00e2c661
+    path: "authors/ezman/5da31ebc33c5d46f00e2c661/original/keyg3nme"
+    page: https://crackmes.one/crackme/5da31ebc33c5d46f00e2c661
