@@ -4,7 +4,7 @@ Recherche [crackmes.one](https://crackmes.one/search?name=&author=&platform=Unix
 
 Filtre : plateforme Unix/linux, difficulté 1.0–2.0, tri date décroissante (plus récent en haut). **278 résultats au total** sur le site ; les **87 derniers** (préfixe `by <auteur>` à partir de `mycrk by cli3nt`) sont les imports historiques `crackmes.de`, déjà traités intégralement et séparément (voir `authors/crackmes-de/`, 311/311 résolus) — **exclus de ce tableau**, qui ne couvre que les **191** crackmes.one natifs restants.
 
-Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` du dépôt (ID exact, pas le titre). **148** déjà `solved`, **42** marqués `TODO` (+ 1 « analysé » sans condition de victoire) ci-dessous. Changement notable par rapport à l'ancien tri (page 1 seulement, 50 résultats) : 3 entrées manquaient (`0x8A7 - Maze`, `ComputeTheKey`, `Hecate linux/unix`), et la liste s'étend maintenant bien au-delà de `Godez_Mark crackme` (jusqu'à `Sh4ll1`, 2018).
+Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` du dépôt (ID exact, pas le titre). **168** déjà `solved`, **22** marqués `TODO` (+ 1 « analysé » sans condition de victoire) ci-dessous. Changement notable par rapport à l'ancien tri (page 1 seulement, 50 résultats) : 3 entrées manquaient (`0x8A7 - Maze`, `ComputeTheKey`, `Hecate linux/unix`), et la liste s'étend maintenant bien au-delà de `Godez_Mark crackme` (jusqu'à `Sh4ll1`, 2018).
 
 | # | Date | Crackme | Auteur | Difficulté | Taille | URL | Statut |
 |---|---|---|---|---|---|---|---|
@@ -169,27 +169,27 @@ Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` 
 | 159 | 2019-06-21 | Simple crackme | kawaii-flesh | 1.1 | 2.21 KB | https://crackmes.one/crackme/5d0d1e1333c5d41c6d56e155 | solved |
 | 160 | 2019-06-18 | Time is of the Essence | emiflake | 2.0 | 34.17 KB | https://crackmes.one/crackme/5d09368533c5d41c6d56e124 | **TODO** |
 | 161 | 2019-06-17 | Quick Crypto, 18k | andrewl | 2.0 | 17.93 KB | https://crackmes.one/crackme/5d07f03233c5d41c6d56e10c | solved |
-| 162 | 2019-06-03 | crackme #1 | hikilaka | 2.0 | 26.36 KB | https://crackmes.one/crackme/5cf574fe33c5d41c6d56e01b | **TODO** |
-| 163 | 2019-05-19 | D4RK_FL0W-3.5 | D4RKFL0W | 2.0 | 17.42 KB | https://crackmes.one/crackme/5ce137b933c5d4419da55ac2 | **TODO** |
-| 164 | 2019-05-05 | Sh4ll10 | destructeur | 2.0 | 8.13 KB | https://crackmes.one/crackme/5ccf3bf333c5d4419da559bd | **TODO** |
-| 165 | 2019-05-05 | crackmepal | novn91 | 1.3 | 16.18 KB | https://crackmes.one/crackme/5ccecc7e33c5d4419da559b3 | **TODO** |
-| 166 | 2019-04-25 | EasyCrack - Much0l0k0 | paypain | 2.0 | 20.00 KB | https://crackmes.one/crackme/5cc1117833c5d4419da558dc | **TODO** |
-| 167 | 2019-04-17 | am i really random? | m00ny | 1.5 | 16.87 KB | https://crackmes.one/crackme/5cb7533133c5d4419da5584b | **TODO** |
-| 168 | 2019-03-31 | Password Login 2 | Loz | 2.0 | 26.12 KB | https://crackmes.one/crackme/5ca0b6c833c5d4419da5567b | **TODO** |
-| 169 | 2019-03-31 | Crack3-by-D4RK_FL0W | D4RKFL0W | 2.0 | 17.55 KB | https://crackmes.one/crackme/5ca0b3f833c5d4419da5567a | **TODO** |
-| 170 | 2019-03-29 | de_tcrack1 | paypain | 2.0 | 20.00 KB | https://crackmes.one/crackme/5c9d9eea33c5d4419da55641 | **TODO** |
-| 171 | 2019-03-19 | Password Login | Loz | 1.1 | 20.64 KB | https://crackmes.one/crackme/5c90a72d33c5d4776a837f07 | **TODO** |
-| 172 | 2019-03-17 | Easy_firstCrackme-by-D4RK_FL0W | D4RKFL0W | 1.2 | 17.23 KB | https://crackmes.one/crackme/5c8e1a9533c5d4776a837ecf | **TODO** |
-| 173 | 2019-03-16 | Keygen Practice | inxaneninja | 2.0 | 2.59 KB | https://crackmes.one/crackme/5c8d45c333c5d4776a837ec2 | **TODO** |
+| 162 | 2019-06-03 | crackme #1 | hikilaka | 2.0 | 26.36 KB | https://crackmes.one/crackme/5cf574fe33c5d41c6d56e01b | solved |
+| 163 | 2019-05-19 | D4RK_FL0W-3.5 | D4RKFL0W | 2.0 | 17.42 KB | https://crackmes.one/crackme/5ce137b933c5d4419da55ac2 | solved |
+| 164 | 2019-05-05 | Sh4ll10 | destructeur | 2.0 | 8.13 KB | https://crackmes.one/crackme/5ccf3bf333c5d4419da559bd | solved |
+| 165 | 2019-05-05 | crackmepal | novn91 | 1.3 | 16.18 KB | https://crackmes.one/crackme/5ccecc7e33c5d4419da559b3 | solved |
+| 166 | 2019-04-25 | EasyCrack - Much0l0k0 | paypain | 2.0 | 20.00 KB | https://crackmes.one/crackme/5cc1117833c5d4419da558dc | solved |
+| 167 | 2019-04-17 | am i really random? | m00ny | 1.5 | 16.87 KB | https://crackmes.one/crackme/5cb7533133c5d4419da5584b | solved |
+| 168 | 2019-03-31 | Password Login 2 | Loz | 2.0 | 26.12 KB | https://crackmes.one/crackme/5ca0b6c833c5d4419da5567b | solved |
+| 169 | 2019-03-31 | Crack3-by-D4RK_FL0W | D4RKFL0W | 2.0 | 17.55 KB | https://crackmes.one/crackme/5ca0b3f833c5d4419da5567a | solved |
+| 170 | 2019-03-29 | de_tcrack1 | paypain | 2.0 | 20.00 KB | https://crackmes.one/crackme/5c9d9eea33c5d4419da55641 | solved |
+| 171 | 2019-03-19 | Password Login | Loz | 1.1 | 20.64 KB | https://crackmes.one/crackme/5c90a72d33c5d4776a837f07 | solved |
+| 172 | 2019-03-17 | Easy_firstCrackme-by-D4RK_FL0W | D4RKFL0W | 1.2 | 17.23 KB | https://crackmes.one/crackme/5c8e1a9533c5d4776a837ecf | solved |
+| 173 | 2019-03-16 | Keygen Practice | inxaneninja | 2.0 | 2.59 KB | https://crackmes.one/crackme/5c8d45c333c5d4776a837ec2 | solved |
 | 174 | 2019-01-31 | crackme-not | weissi1994 | 1.5 | 9.35 KB | https://crackmes.one/crackme/5c53840a33c5d475210bc6e9 | solved |
-| 175 | 2019-01-01 | Simple Keygen | Yuri | 1.4 | 2.79 KB | https://crackmes.one/crackme/5c2acb8933c5d46a3882b8d4 | **TODO** |
-| 176 | 2018-12-28 | keyGme | rion | 2.0 | 3.10 KB | https://crackmes.one/crackme/5c268e8333c5d41e58e00654 | **TODO** |
-| 177 | 2018-12-26 | c1_keygenme1 | c1 | 2.0 | 13.42 KB | https://crackmes.one/crackme/5c2335c033c5d41e58e00625 | **TODO** |
-| 178 | 2018-12-21 | easy_keygenme | bahha | 2.0 | 18.59 KB | https://crackmes.one/crackme/5c1cc7d533c5d41e58e005ee | **TODO** |
-| 179 | 2018-12-19 | jumpjumpjump | cbm-hackers | 2.0 | 16.52 KB | https://crackmes.one/crackme/5c1a939633c5d41e58e005d1 | **TODO** |
-| 180 | 2018-12-13 | WhiteRabbit | nutcake | 1.3 | 16.30 KB | https://crackmes.one/crackme/5c11e2f333c5d41e58e0057a | **TODO** |
-| 181 | 2018-12-13 | PieIsMyFav | nutcake | 1.0 | 16.33 KB | https://crackmes.one/crackme/5c11e1f333c5d41e58e00579 | **TODO** |
-| 182 | 2018-12-13 | PrettyDamnEasy | nutcake | 1.1 | 16.38 KB | https://crackmes.one/crackme/5c11dcaf33c5d41e58e00578 | **TODO** |
+| 175 | 2019-01-01 | Simple Keygen | Yuri | 1.4 | 2.79 KB | https://crackmes.one/crackme/5c2acb8933c5d46a3882b8d4 | solved |
+| 176 | 2018-12-28 | keyGme | rion | 2.0 | 3.10 KB | https://crackmes.one/crackme/5c268e8333c5d41e58e00654 | solved |
+| 177 | 2018-12-26 | c1_keygenme1 | c1 | 2.0 | 13.42 KB | https://crackmes.one/crackme/5c2335c033c5d41e58e00625 | solved |
+| 178 | 2018-12-21 | easy_keygenme | bahha | 2.0 | 18.59 KB | https://crackmes.one/crackme/5c1cc7d533c5d41e58e005ee | solved |
+| 179 | 2018-12-19 | jumpjumpjump | cbm-hackers | 2.0 | 16.52 KB | https://crackmes.one/crackme/5c1a939633c5d41e58e005d1 | solved |
+| 180 | 2018-12-13 | WhiteRabbit | nutcake | 1.3 | 16.30 KB | https://crackmes.one/crackme/5c11e2f333c5d41e58e0057a | solved |
+| 181 | 2018-12-13 | PieIsMyFav | nutcake | 1.0 | 16.33 KB | https://crackmes.one/crackme/5c11e1f333c5d41e58e00579 | solved |
+| 182 | 2018-12-13 | PrettyDamnEasy | nutcake | 1.1 | 16.38 KB | https://crackmes.one/crackme/5c11dcaf33c5d41e58e00578 | solved |
 | 183 | 2018-09-15 | noprelo | kellek | 2.0 | 2.27 KB | https://crackmes.one/crackme/5b9d312233c5d45fc286ae03 | **TODO** |
 | 184 | 2018-09-13 | prodigy | fack | 2.0 | 721.28 KB | https://crackmes.one/crackme/5b9a0b2433c5d45fc286adec | **TODO** |
 | 185 | 2018-09-01 | easy_reverse | cbm-hackers | 1.3 | 2.69 KB | https://crackmes.one/crackme/5b8a37a433c5d45fc286ad83 | **TODO** |
@@ -200,4 +200,4 @@ Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` 
 | 190 | 2018-05-06 | Sh4ll2 | destructeur | 2.0 | 8.49 KB | https://crackmes.one/crackme/5aef385633c5d41ac64b492f | **TODO** |
 | 191 | 2018-05-06 | Sh4ll1 | destructeur | 1.4 | 13.23 KB | https://crackmes.one/crackme/5aef37c733c5d41ac64b492e | **TODO** |
 
-Le prochain de la file est **Quick Crypto, 18k** deja solved, donc **crackme #1** (hikilaka, #162) : https://crackmes.one/crackme/5cf574fe33c5d41c6d56e01b puis **D4RK_FL0W-3.5** (D4RKFL0W, #163), **Sh4ll10** (destructeur, #164) et **crackmepal** (novn91, #165). Mis de côté : Prometheora (#37, Rust+VM), Rev1 (#40, sources contradictoires), FedGuy easy crack (#45, SHA-256 à casser), Ghost (#57, pwn de tas), Gemy (#65, UPX modifié), Upgraded Levels Keygen (#67, 4 niveaux dont un keygen « sorcier »), sh0uld_b3_e4zy (#78, aucune condition de victoire).
+Le prochain de la file est **noprelo** (kellek, #183) : https://crackmes.one/crackme/5b9d312233c5d45fc286ae03 puis **prodigy** (fack, #184), **easy_reverse** (cbm-hackers, #185) et **JustSee** (exzettabyte, #186). Mis de côté : Prometheora (#37, Rust+VM), Rev1 (#40, sources contradictoires), FedGuy easy crack (#45, SHA-256 à casser), Ghost (#57, pwn de tas), Gemy (#65, UPX modifié), Upgraded Levels Keygen (#67, 4 niveaux dont un keygen « sorcier »), sh0uld_b3_e4zy (#78, aucune condition de victoire).
