@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 60c24a7133c5d410b8842d3c
+
+urls:
+  page: https://crackmes.one/crackme/60c24a7133c5d410b8842d3c
+  download: https://crackmes.one/download/crackme/60c24a7133c5d410b8842d3c
+
+title: "yariza's Keygen Me"
+author_on_site: "yariza"
+author_local: "yariza"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/keygen.me"
+  name: "keygen.me"
+  sha256: "5c1175f0a6734a92ec75e7e9c8e32b9c8fd9997db4017ff344327472ed21e6b0"
+  md5: "68c1989af36474cf352802bde706a9ae"
+  size_bytes: 17000
+
+status: solved
+solution_summary: "key = gabarit 16 car. avec key[4]=@ key[6]=- key[9]=l key[15]=? (ex. xxxx@x-xxlxxxxx?)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T12:36:10Z"

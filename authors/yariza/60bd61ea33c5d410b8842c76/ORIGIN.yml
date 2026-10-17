@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 60bd61ea33c5d410b8842c76
+
+urls:
+  page: https://crackmes.one/crackme/60bd61ea33c5d410b8842c76
+  download: https://crackmes.one/download/crackme/60bd61ea33c5d410b8842c76
+
+title: "yariza's Yariza Crackme #2"
+author_on_site: "yariza"
+author_local: "yariza"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme"
+  name: "crackme"
+  sha256: "4f4585f7d692335e9c78c2df9d21a4c10a54a6d5ca1659a354b8e7064a43ac3b"
+  md5: "27f38e5d323c4a3eef3322b20e56d6dd"
+  size_bytes: 16792
+
+status: pending
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T12:36:12Z"

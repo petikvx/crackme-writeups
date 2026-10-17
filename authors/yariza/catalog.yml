@@ -1,0 +1,21 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  60c24a7133c5d410b8842d3c:
+    sha256: "5c1175f0a6734a92ec75e7e9c8e32b9c8fd9997db4017ff344327472ed21e6b0"
+    path: "authors/yariza/60c24a7133c5d410b8842d3c/original/keygen.me"
+    title: "yariza's Keygen Me"
+
+  60bd61ea33c5d410b8842c76:
+    sha256: "4f4585f7d692335e9c78c2df9d21a4c10a54a6d5ca1659a354b8e7064a43ac3b"
+    path: "authors/yariza/60bd61ea33c5d410b8842c76/original/crackme"
+    title: "yariza's Yariza Crackme #2"
+
+by_sha256:
+  5c1175f0a6734a92ec75e7e9c8e32b9c8fd9997db4017ff344327472ed21e6b0:
+    id: 60c24a7133c5d410b8842d3c
+    path: "authors/yariza/60c24a7133c5d410b8842d3c/original/keygen.me"
+    page: https://crackmes.one/crackme/60c24a7133c5d410b8842d3c
+  4f4585f7d692335e9c78c2df9d21a4c10a54a6d5ca1659a354b8e7064a43ac3b:
+    id: 60bd61ea33c5d410b8842c76
+    path: "authors/yariza/60bd61ea33c5d410b8842c76/original/crackme"
+    page: https://crackmes.one/crackme/60bd61ea33c5d410b8842c76
