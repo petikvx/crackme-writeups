@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2df
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2df
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2df
+
+title: "crackmes.de's lfalchs_1st_crackme by lfalch"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Multiplateforme (Java)"
+arch: "java"
+language: "Java (Swing, jar obfusqué : classes a/b/c)"
+
+difficulty: 1.0
+quality: 4.0
+size: "3.61 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/LFalch_s_1st_Crackme.zip"
+  name: "LFalch_s_1st_Crackme.zip"
+  sha256: "426343fc04061cd8286e32c86e2bd9c86fee85a82a985d55450b4b1ae7f92188"
+  md5: "c605e3d3aa5633487ac2ef944cb7fcc7"
+  size_bytes: 3692
+
+status: solved
+solution_summary: "Jar Swing obfusqué (CFR) ; serial = 16 tirages java.util.Random(nom.hashCode() | \"LFalch\".hashCode()).nextInt(34) dans l'alphabet 0-5,8,9,a-z, comparé en minuscules ; petik → 0yfuu3g1cyic4fwl"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T03:52:58Z"

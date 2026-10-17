@@ -356,6 +356,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 321 | [crackme_1.0 (CrackMe2.0)](5ab77f5633c5d40ad448c2dc/) | skjobax | Windows PE32 VB.NET WinForms | late binding VB : Integer→Long→Decimal→Double → +Infinity ; serial `Infinity` pour tout nom (`petik`) |
 | 322 | [orks236_crackme_2](5ab77f5633c5d40ad448c2dd/) | orcs236 | Windows PE32 AutoIt 3.2 (2 couches, stub PELock) | autoit-ripper ×2 ; serial = Stretch(nom10)-Stretch(nom10+orcs236)-Stretch(id machine) ; keygen vérifié par l'interpréteur d'origine (`petik`/`box`/`GROK-BOT-VM-411` → `99616-34659-94504-90041`) |
 | 323 | [orcs236_crackme](5ab77f5633c5d40ad448c2de/) | orcs236 | Windows PE32 AutoIt 3.1 (EA04, UPX, loader + exe interne) | script lu en mémoire sous wine ; serial = _StringEncrypt(1, _StringToHex(nom), nom, 3)[len-60:len-5] ; `petik` → `9AE46FBD6B8492333F2B3BF5B7A8F33DA30E35FF2E46622BC3E8620` |
+| 324 | [lfalchs_1st_crackme](5ab77f5633c5d40ad448c2df/) | lfalch | Java Swing (jar obfusqué, CFR) | serial = 16 × `java.util.Random(nom.hashCode() \| "LFalch".hashCode()).nextInt(34)` dans `0-5,8,9,a-z`, insensible à la casse ; `petik` → `0yfuu3g1cyic4fwl` |
 
 ## Mis de côté (PARKED — y revenir)
 
