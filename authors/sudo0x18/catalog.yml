@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  646627a933c5d439389131d9:
+    sha256: "f0d5c530a6b7ee5d87ce95d8e532917d7c60655f2223bf2a7b782d7956a01f99"
+    path: "authors/sudo0x18/646627a933c5d439389131d9/original/level1"
+    title: "sudo0x18's  Level1"
+
+by_sha256:
+  f0d5c530a6b7ee5d87ce95d8e532917d7c60655f2223bf2a7b782d7956a01f99:
+    id: 646627a933c5d439389131d9
+    path: "authors/sudo0x18/646627a933c5d439389131d9/original/level1"
+    page: https://crackmes.one/crackme/646627a933c5d439389131d9

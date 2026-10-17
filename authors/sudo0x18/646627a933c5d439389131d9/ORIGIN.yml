@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 646627a933c5d439389131d9
+
+urls:
+  page: https://crackmes.one/crackme/646627a933c5d439389131d9
+  download: https://crackmes.one/download/crackme/646627a933c5d439389131d9
+
+title: "sudo0x18's  Level1"
+author_on_site: "sudo0x18"
+author_local: "sudo0x18"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/level1"
+  name: "level1"
+  sha256: "f0d5c530a6b7ee5d87ce95d8e532917d7c60655f2223bf2a7b782d7956a01f99"
+  md5: "e49f26ee6a617c527c9118552b3579e6"
+  size_bytes: 16048
+
+status: solved
+solution_summary: "password = sudo0x18 (checkPass : 8 cmp al,imm8 successifs ; aucun test du 9e octet)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T06:59:01Z"
