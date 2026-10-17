@@ -4,7 +4,7 @@ Recherche [crackmes.one](https://crackmes.one/search?name=&author=&platform=Unix
 
 Filtre : plateforme Unix/linux, difficulté 1.0–2.0, tri date décroissante (plus récent en haut). **278 résultats au total** sur le site ; les **87 derniers** (préfixe `by <auteur>` à partir de `mycrk by cli3nt`) sont les imports historiques `crackmes.de`, déjà traités intégralement et séparément (voir `authors/crackmes-de/`, 311/311 résolus) — **exclus de ce tableau**, qui ne couvre que les **191** crackmes.one natifs restants.
 
-Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` du dépôt (ID exact, pas le titre). **96** déjà `solved`, **94** marqués `TODO` (+ 1 « analysé » sans condition de victoire) ci-dessous. Changement notable par rapport à l'ancien tri (page 1 seulement, 50 résultats) : 3 entrées manquaient (`0x8A7 - Maze`, `ComputeTheKey`, `Hecate linux/unix`), et la liste s'étend maintenant bien au-delà de `Godez_Mark crackme` (jusqu'à `Sh4ll1`, 2018).
+Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` du dépôt (ID exact, pas le titre). **100** déjà `solved`, **90** marqués `TODO` (+ 1 « analysé » sans condition de victoire) ci-dessous. Changement notable par rapport à l'ancien tri (page 1 seulement, 50 résultats) : 3 entrées manquaient (`0x8A7 - Maze`, `ComputeTheKey`, `Hecate linux/unix`), et la liste s'étend maintenant bien au-delà de `Godez_Mark crackme` (jusqu'à `Sh4ll1`, 2018).
 
 | # | Date | Crackme | Auteur | Difficulté | Taille | URL | Statut |
 |---|---|---|---|---|---|---|---|
@@ -102,10 +102,10 @@ Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` 
 | 92 | 2023-05-05 | Vending Machine | Yekong | 1.5 | 4.08 MB | https://crackmes.one/crackme/6454d06c33c5d43938912e8a | solved |
 | 93 | 2023-04-28 | Salt and Hash - Linux | Yekong | 2.0 | 756.23 KB | https://crackmes.one/crackme/644bd78b33c5d43938912c94 | solved |
 | 94 | 2023-04-27 | My first crackme | ss1ned | 1.5 | 16.56 KB | https://crackmes.one/crackme/644af68433c5d43938912c6b | solved |
-| 95 | 2023-03-21 | baby | ghost256 | 2.0 | 15.14 KB | https://crackmes.one/crackme/6419d74e33c5d447bc761afa | **TODO** |
-| 96 | 2023-03-05 | RegistrationCrackme | SirEnder125 | 1.3 | 15.93 KB | https://crackmes.one/crackme/6404055233c5d447bc7617ad | **TODO** |
-| 97 | 2023-03-01 | MyFirstCrackme | SirEnder125 | 1.3 | 15.84 KB | https://crackmes.one/crackme/63ff9d5c33c5d447bc7616f0 | **TODO** |
-| 98 | 2023-01-16 | Just In Time | skibur | 2.0 | 14.09 KB | https://crackmes.one/crackme/63c4ee1a33c5d43ab4ecf49a | **TODO** |
+| 95 | 2023-03-21 | baby | ghost256 | 2.0 | 15.14 KB | https://crackmes.one/crackme/6419d74e33c5d447bc761afa | solved |
+| 96 | 2023-03-05 | RegistrationCrackme | SirEnder125 | 1.3 | 15.93 KB | https://crackmes.one/crackme/6404055233c5d447bc7617ad | solved |
+| 97 | 2023-03-01 | MyFirstCrackme | SirEnder125 | 1.3 | 15.84 KB | https://crackmes.one/crackme/63ff9d5c33c5d447bc7616f0 | solved |
+| 98 | 2023-01-16 | Just In Time | skibur | 2.0 | 14.09 KB | https://crackmes.one/crackme/63c4ee1a33c5d43ab4ecf49a | solved |
 | 99 | 2022-11-22 | Illogical Logic | marufmurtuza | 1.4 | 21.88 KB | https://crackmes.one/crackme/637c66b633c5d43ab4ecec2a | **TODO** |
 | 100 | 2022-09-22 | FindThePassword1 | Xeeven | 1.2 | 2.29 KB | https://crackmes.one/crackme/632cf67b33c5d4425e2cd501 | solved |
 | 101 | 2022-06-01 | my_f1rs7_cr4ckm3 | b3nd3p | 1.2 | 20.37 KB | https://crackmes.one/crackme/6296c1ff33c5d45b75903c0f | **TODO** |
@@ -200,4 +200,4 @@ Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` 
 | 190 | 2018-05-06 | Sh4ll2 | destructeur | 2.0 | 8.49 KB | https://crackmes.one/crackme/5aef385633c5d41ac64b492f | **TODO** |
 | 191 | 2018-05-06 | Sh4ll1 | destructeur | 1.4 | 13.23 KB | https://crackmes.one/crackme/5aef37c733c5d41ac64b492e | **TODO** |
 
-Le prochain de la file est **baby** (ghost256, #95) : https://crackmes.one/crackme/6419d74e33c5d447bc761afa puis **RegistrationCrackme** (SirEnder125, #96), **MyFirstCrackme** (#97) et **Just In Time** (skibur, #98). Mis de côté : Prometheora (#37, Rust+VM), Rev1 (#40, sources contradictoires), FedGuy easy crack (#45, SHA-256 à casser), Ghost (#57, pwn de tas), Gemy (#65, UPX modifié), Upgraded Levels Keygen (#67, 4 niveaux dont un keygen « sorcier »), sh0uld_b3_e4zy (#78, aucune condition de victoire).
+Le prochain de la file est **Illogical Logic** (marufmurtuza, #99) : https://crackmes.one/crackme/637c66b633c5d43ab4ecec2a puis **my_f1rs7_cr4ckm3** (b3nd3p, #101), **licesnse_checker_3** (#102) et **License Checker 0x03** (NomanProdhan, #103). Mis de côté : Prometheora (#37, Rust+VM), Rev1 (#40, sources contradictoires), FedGuy easy crack (#45, SHA-256 à casser), Ghost (#57, pwn de tas), Gemy (#65, UPX modifié), Upgraded Levels Keygen (#67, 4 niveaux dont un keygen « sorcier »), sh0uld_b3_e4zy (#78, aucune condition de victoire).
