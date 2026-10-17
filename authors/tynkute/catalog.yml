@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5fa2cdce33c5d424269a1740:
+    sha256: "72d3a62cd4286c3102b689c4a7c8c84c20adb7b8196c25091fec2cf976b801b6"
+    path: "authors/tynkute/5fa2cdce33c5d424269a1740/original/a.out"
+    title: "tynkute's Just crackme"
+
+by_sha256:
+  72d3a62cd4286c3102b689c4a7c8c84c20adb7b8196c25091fec2cf976b801b6:
+    id: 5fa2cdce33c5d424269a1740
+    path: "authors/tynkute/5fa2cdce33c5d424269a1740/original/a.out"
+    page: https://crackmes.one/crackme/5fa2cdce33c5d424269a1740

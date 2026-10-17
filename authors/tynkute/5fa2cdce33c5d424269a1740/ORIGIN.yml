@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5fa2cdce33c5d424269a1740
+
+urls:
+  page: https://crackmes.one/crackme/5fa2cdce33c5d424269a1740
+  download: https://crackmes.one/download/crackme/5fa2cdce33c5d424269a1740
+
+title: "tynkute's Just crackme"
+author_on_site: "tynkute"
+author_local: "tynkute"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/a.out"
+  name: "a.out"
+  sha256: "72d3a62cd4286c3102b689c4a7c8c84c20adb7b8196c25091fec2cf976b801b6"
+  md5: "84ed24e1e29a3b4b5c530184ab145485"
+  size_bytes: 17208
+
+status: solved
+solution_summary: "reponse = \"Wait, your name is\"+USER XOR (tm_min>>tm_mday) ; cle nulle si mday>=6 (quasi tout le mois)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T14:14:29Z"

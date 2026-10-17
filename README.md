@@ -161,6 +161,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [kryptos](authors/kryptos/README.md) | Kryptos | 1 (Hecate) | 1 / 1 |
 | [marco007](authors/marco007/README.md) | marco007 | 2 (time based riddle + simple crackme) | 2 / 2 |
 | [sftmlg](authors/sftmlg/README.md) | sftmlg | 1 (Quite a simple crackme) | 1 / 1 |
+| [tynkute](authors/tynkute/README.md) | tynkute | 1 (Just crackme) | 1 / 1 |
 | [rafi](authors/rafi/README.md) | rafi | 1 (what) | 1 / 1 |
 | [silentwraith](authors/silentwraith/README.md) | SilentWraith | 1 (lockcode) | 1 / 1 |
 | [pranav](authors/pranav/README.md) | pranav | 1 (unlockme) | 1 / 1 |
@@ -325,6 +326,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-17 | [Just crackme](authors/tynkute/5fa2cdce33c5d424269a1740/) | tynkute |
 | 2026-10-17 | [what](authors/rafi/5fd5c44c33c5d424269a1b76/) | rafi |
 | 2026-10-17 | [lockcode](authors/silentwraith/5fda4fa433c5d41f64dee37b/) | SilentWraith |
 | 2026-10-17 | [unlockme](authors/pranav/5ff53c5c33c5d42c3d0165b7/) | pranav |
