@@ -161,6 +161,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [kryptos](authors/kryptos/README.md) | Kryptos | 1 (Hecate) | 1 / 1 |
 | [marco007](authors/marco007/README.md) | marco007 | 2 (time based riddle + simple crackme) | 2 / 2 |
 | [sftmlg](authors/sftmlg/README.md) | sftmlg | 1 (Quite a simple crackme) | 1 / 1 |
+| [skibur](authors/skibur/README.md) | skibur | 1 (Just In Time) | 1 / 1 |
 | [sirender125](authors/sirender125/README.md) | SirEnder125 | 2 (RegistrationCrackme) | 2 / 2 |
 | [ghost256](authors/ghost256/README.md) | ghost256 | 1 (baby) | 1 / 1 |
 | [ss1ned](authors/ss1ned/README.md) | ss1ned | 1 (My first crackme) | 1 / 1 |
@@ -305,6 +306,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-17 | [Just In Time](authors/skibur/63c4ee1a33c5d43ab4ecf49a/) | skibur |
 | 2026-10-17 | [MyFirstCrackme](authors/sirender125/63ff9d5c33c5d447bc7616f0/) | SirEnder125 |
 | 2026-10-17 | [RegistrationCrackme](authors/sirender125/6404055233c5d447bc7617ad/) | SirEnder125 |
 | 2026-10-17 | [baby](authors/ghost256/6419d74e33c5d447bc761afa/) | ghost256 |

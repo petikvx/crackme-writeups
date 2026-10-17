@@ -1,0 +1,38 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 63c4ee1a33c5d43ab4ecf49a
+
+urls:
+  page: https://crackmes.one/crackme/63c4ee1a33c5d43ab4ecf49a
+  download: https://crackmes.one/download/crackme/63c4ee1a33c5d43ab4ecf49a
+
+title: "skibur's Just In Time"
+author_on_site: "skibur"
+author_local: "skibur"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/ski000"
+  name: "ski000"
+  sha256: "7598383b9e8388c91766f80aeb58fdeb8df58969a319f2bd8aac3ce608fdb414"
+  md5: "9365169c38aae4d674d125388394fbb5"
+  size_bytes: 14432
+
+status: solved
+solution_summary: "password = %djk(9^{.f@1F4X (15 car., sans 
+ final) ; n=(tm_sec%10)%3==1 requis (secondes finissant par 1,4,7) ; piege du 
+ decouvert via GDB"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T07:38:52Z"

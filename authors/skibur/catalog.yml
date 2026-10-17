@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  63c4ee1a33c5d43ab4ecf49a:
+    sha256: "7598383b9e8388c91766f80aeb58fdeb8df58969a319f2bd8aac3ce608fdb414"
+    path: "authors/skibur/63c4ee1a33c5d43ab4ecf49a/original/ski000"
+    title: "skibur's Just In Time"
+
+by_sha256:
+  7598383b9e8388c91766f80aeb58fdeb8df58969a319f2bd8aac3ce608fdb414:
+    id: 63c4ee1a33c5d43ab4ecf49a
+    path: "authors/skibur/63c4ee1a33c5d43ab4ecf49a/original/ski000"
+    page: https://crackmes.one/crackme/63c4ee1a33c5d43ab4ecf49a
