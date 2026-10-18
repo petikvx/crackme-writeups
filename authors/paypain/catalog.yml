@@ -5,8 +5,26 @@ by_id:
     path: "authors/paypain/5d64749533c5d46f00e2c324/original/Election.tar"
     title: "paypain's Election"
 
+  5cc1117833c5d4419da558dc:
+    sha256: "68468fde9019197ece2eb1adcd1c206b79a7876e57d8fa147035d204c855578e"
+    path: "authors/paypain/5cc1117833c5d4419da558dc/original/EasyCrack_loko.tar"
+    title: "paypain's EasyCrack"
+
+  5c9d9eea33c5d4419da55641:
+    sha256: "d6683be6b64a56b77fddcaf066aa4d9f7688bc85e836fb14bd100ef7194a39cc"
+    path: "authors/paypain/5c9d9eea33c5d4419da55641/original/de_tcrack1.tar"
+    title: "paypain's de_tcrack1"
+
 by_sha256:
   7072cb5007bc9f7cc08d2913b1a800488f1051080327ef9494785352261a4eca:
     id: 5d64749533c5d46f00e2c324
     path: "authors/paypain/5d64749533c5d46f00e2c324/original/Election.tar"
     page: https://crackmes.one/crackme/5d64749533c5d46f00e2c324
+  68468fde9019197ece2eb1adcd1c206b79a7876e57d8fa147035d204c855578e:
+    id: 5cc1117833c5d4419da558dc
+    path: "authors/paypain/5cc1117833c5d4419da558dc/original/EasyCrack_loko.tar"
+    page: https://crackmes.one/crackme/5cc1117833c5d4419da558dc
+  d6683be6b64a56b77fddcaf066aa4d9f7688bc85e836fb14bd100ef7194a39cc:
+    id: 5c9d9eea33c5d4419da55641
+    path: "authors/paypain/5c9d9eea33c5d4419da55641/original/de_tcrack1.tar"
+    page: https://crackmes.one/crackme/5c9d9eea33c5d4419da55641
