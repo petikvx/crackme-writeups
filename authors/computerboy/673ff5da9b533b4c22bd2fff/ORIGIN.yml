@@ -1,0 +1,45 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 673ff5da9b533b4c22bd2fff
+
+urls:
+  page: https://crackmes.one/crackme/673ff5da9b533b4c22bd2fff
+  download: https://crackmes.one/download/crackme/673ff5da9b533b4c22bd2fff
+
+title: "Computerboy's Gemy"
+author_on_site: "Computerboy"
+author_local: "computerboy"
+
+platform: "Unix/linux etc."
+arch: ""
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/gem"
+  name: "gem"
+  sha256: "a0b7d45b5c495f5bcc2df918fe8315d6b4726efcf99c1a8ecdbe1adaa1b3c4cd"
+  md5: "e33cf0231eb809cea6fde34579aa5141"
+  size_bytes: 5812
+
+status: solved
+solution_summary: >
+  Clé d'accès = "KEY" (strcmp direct, pas de transformation). byte_4030 et
+  byte_4037 ne sont pas deux tableaux distincts mais la meme chaine
+  "mysteryKEY" vue a deux offsets : "mystery" (7 octets) alimente une
+  boucle XOR 0xAB dont le resultat n'est jamais reutilise (code mort,
+  leurre) ; "KEY" (offset +7) est copie tel quel dans le buffer compare.
+  Binaire packe UPX 4.22 (repo n'a que UPX 3.96, incompatible) : depaquete
+  en memoire en laissant le process se lancer normalement (bloque sur
+  scanf au prompt), dump de /proc/<pid>/mem sur les 4 pages PT_LOAD
+  anonymes -> ELF valide charge dans IDA (MCP ida) pour le pseudocode.
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T04:56:14Z"

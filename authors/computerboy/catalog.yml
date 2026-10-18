@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  673ff5da9b533b4c22bd2fff:
+    sha256: "a0b7d45b5c495f5bcc2df918fe8315d6b4726efcf99c1a8ecdbe1adaa1b3c4cd"
+    path: "authors/computerboy/673ff5da9b533b4c22bd2fff/original/gem"
+    title: "Computerboy's Gemy"
+
+by_sha256:
+  a0b7d45b5c495f5bcc2df918fe8315d6b4726efcf99c1a8ecdbe1adaa1b3c4cd:
+    id: 673ff5da9b533b4c22bd2fff
+    path: "authors/computerboy/673ff5da9b533b4c22bd2fff/original/gem"
+    page: https://crackmes.one/crackme/673ff5da9b533b4c22bd2fff

@@ -72,7 +72,7 @@ Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` 
 | 62 | 2025-02-14 | Very simple crackme | Fragus | 1.4 | 15.75 KB | https://crackmes.one/crackme/67afd55ae36dd9b0e79b2ec6 | solved |
 | 63 | 2025-01-13 | BabyRev | Cappybara | 1.3 | 15.91 KB | https://crackmes.one/crackme/6784f8a84d850ac5f7dc5173 | solved |
 | 64 | 2024-12-07 | yum :P | hybridkenrel | 1.9 | 745.64 KB | https://crackmes.one/crackme/6754620160fa67152406b53c | solved |
-| 65 | 2024-11-22 | Gemy | Computerboy | 1.5 | 5.68 KB | https://crackmes.one/crackme/673ff5da9b533b4c22bd2fff | **TODO** |
+| 65 | 2024-11-22 | Gemy | Computerboy | 1.5 | 5.68 KB | https://crackmes.one/crackme/673ff5da9b533b4c22bd2fff | solved |
 | 66 | 2024-10-20 | Sexy 1337 | RafaelGFreveng | 1.5 | 16.00 KB | https://crackmes.one/crackme/6715466c9b533b4c22bd18bb | solved |
 | 67 | 2024-08-22 | Upgraded Levels Keygen (difficulty 1-3) | saltedMacaroni841 | 2.0 | 16.64 KB | https://crackmes.one/crackme/66c724b9b899a3b9dd02ad98 | **TODO** |
 | 68 | 2024-07-25 | Levels Keygen! | saltedMacaroni841 | 1.7 | 15.80 KB | https://crackmes.one/crackme/66a288ed90c4c2830c820fa0 | solved |
