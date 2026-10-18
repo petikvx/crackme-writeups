@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2e8
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2e8
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2e8
+
+title: "crackmes.de's anonimoser_crackme_i by anonimoser"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Borland Delphi 5 (UPX)"
+
+difficulty: 1.0
+quality: 4.0
+size: "178.26 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme1.zip"
+  name: "crackme1.zip"
+  sha256: "868cd7a9c5b7c2c8d50ef3aee495e835542a432e13aca550b75d64ee901d918c"
+  md5: "798e57713e6b432b966a06fc8ed9c4b7"
+  size_bytes: 182535
+
+status: solved
+solution_summary: "keygen Delphi 5 (UPX) : S1 = str(nom[0]*Σnom+2n) + str(Σchiffres des v_i cumulés) ; code = S1 + chr(0x41+d_i+d_i+1)… ; petik → 6060288GGGCKQ (vérifié sous wine)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-18T03:58:09Z"
