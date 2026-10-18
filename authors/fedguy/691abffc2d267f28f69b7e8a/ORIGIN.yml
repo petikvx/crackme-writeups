@@ -1,0 +1,43 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 691abffc2d267f28f69b7e8a
+
+urls:
+  page: https://crackmes.one/crackme/691abffc2d267f28f69b7e8a
+  download: https://crackmes.one/download/crackme/691abffc2d267f28f69b7e8a
+
+title: "fedguy's FedGuy easy crack"
+author_on_site: "fedguy"
+author_local: "fedguy"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crack"
+  name: "crack"
+  sha256: "b4d030cdf3a254b18836d180aca9d2b7b1afb4ff0f73be6726afbf1d1ceb22be"
+  md5: "04ab0ece69c637cfd4b3824058169048"
+  size_bytes: 15808
+
+status: solved
+solution_summary: >
+  Mot de passe "chicken". main() calcule SHA256(password), le convertit en
+  hexa (bytes_to_hex, %02x par octet) et compare par strcmp a la constante
+  811eb81b9d11d65a36c53c3ebdb738ee303403cb79d781ccf4b40764e0a9d12a codee en
+  dur. Pas de sel, pas de transformation : preimage SHA-256 directe,
+  trouvee par attaque au dictionnaire (/usr/share/dict/american-english,
+  ~104k mots, variantes de casse) - aucun rockyou/hashcat/john disponible
+  sur la machine.
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-16T15:56:19Z"

@@ -338,6 +338,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [sudoddos](authors/sudoddos/README.md) | sudoddos | 1 (sudoddos's crackme) | 1 / 1 |
 | [0xf00](authors/0xf00/README.md) | 0xf00 | 1 (Ghost) | 1 / 1 |
 | [computerboy](authors/computerboy/README.md) | Computerboy | 1 (Gemy) | 1 / 1 |
+| [fedguy](authors/fedguy/README.md) | fedguy | 1 (FedGuy easy crack) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -361,6 +362,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-18 | [FedGuy easy crack](authors/fedguy/691abffc2d267f28f69b7e8a/) | fedguy |
 | 2026-10-18 | [Gemy](authors/computerboy/673ff5da9b533b4c22bd2fff/) | Computerboy |
 | 2026-10-18 | [Ghost](authors/0xf00/682f69bd6297cca3ff7d7b9b/) | 0xf00 |
 | 2026-10-18 | [sudoddos's crackme](authors/sudoddos/6ad4fb7e4ab951a9999d9ed6/) | sudoddos |

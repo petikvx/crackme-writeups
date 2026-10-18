@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  691abffc2d267f28f69b7e8a:
+    sha256: "b4d030cdf3a254b18836d180aca9d2b7b1afb4ff0f73be6726afbf1d1ceb22be"
+    path: "authors/fedguy/691abffc2d267f28f69b7e8a/original/crack"
+    title: "fedguy's FedGuy easy crack"
+
+by_sha256:
+  b4d030cdf3a254b18836d180aca9d2b7b1afb4ff0f73be6726afbf1d1ceb22be:
+    id: 691abffc2d267f28f69b7e8a
+    path: "authors/fedguy/691abffc2d267f28f69b7e8a/original/crack"
+    page: https://crackmes.one/crackme/691abffc2d267f28f69b7e8a

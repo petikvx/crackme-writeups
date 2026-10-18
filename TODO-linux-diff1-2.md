@@ -52,7 +52,7 @@ Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` 
 | 42 | 2025-12-20 | simple XOR crackme | YandereMia | 2.0 | 15.12 KB | https://crackmes.one/crackme/6946be18523504d8c842eb7e | solved |
 | 43 | 2025-12-16 | Introduction to RE | YandereMia | 1.2 | 15.27 KB | https://crackmes.one/crackme/6940b5870992a052ab22235b | solved |
 | 44 | 2025-11-21 | really easy | ezloom | 1.0 | 15.77 KB | https://crackmes.one/crackme/691fd9362d267f28f69b7f89 | solved |
-| 45 | 2025-11-17 | FedGuy easy crack | fedguy | 1.6 | 15.44 KB | https://crackmes.one/crackme/691abffc2d267f28f69b7e8a | **TODO** |
+| 45 | 2025-11-17 | FedGuy easy crack | fedguy | 1.6 | 15.44 KB | https://crackmes.one/crackme/691abffc2d267f28f69b7e8a | solved |
 | 46 | 2025-11-16 | segfault | ASMboy | 1.6 | 16.10 KB | https://crackmes.one/crackme/6919feb12d267f28f69b7e5c | solved |
 | 47 | 2025-09-12 | good kitty | Emilia161 | 1.8 | 15.82 KB | https://crackmes.one/crackme/68c44e20224c0ec5dcedbf4b | solved |
 | 48 | 2025-08-17 | Bingus | thedollar | 1.8 | 14.15 KB | https://crackmes.one/crackme/68a153668fac2855fe6fb67b | solved |
