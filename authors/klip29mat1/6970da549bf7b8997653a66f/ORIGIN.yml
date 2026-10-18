@@ -1,0 +1,48 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6970da549bf7b8997653a66f
+
+urls:
+  page: https://crackmes.one/crackme/6970da549bf7b8997653a66f
+  download: https://crackmes.one/download/crackme/6970da549bf7b8997653a66f
+
+title: "Klip29mat1's Rev1"
+author_on_site: "Klip29mat1"
+author_local: "klip29mat1"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/rev1.tar.gz"
+  name: "rev1.tar.gz"
+  sha256: "f536bd41ec32087fb3b2fb68bcbc3b1b5d5c9dc43ef3a8a001a09a8f2ccbdaac"
+  md5: "82ffd5e9d65f5add2276e1d3ebe7769b"
+  size_bytes: 3154
+
+status: solved
+solution_summary: >
+  Pas un mot de passe : verify() (strcmp(buf+1,"3V4") avec strlen(buf)==8
+  exige) ne peut mathematiquement jamais retourner 1 (contradiction entre
+  strlen==8 et le \0 implicite de "3V4" en buf[4]) - leurre volontaire.
+  Compile -no-pie -fno-stack-protector : strcpy(buf[32], argv[1]) sans
+  borne -> debordement de pile classique. Payload 43 octets : 32 'A'
+  (buf) + 8 'B' (RBP sauve, sans importance) + 3 octets bas (b7 11 40) de
+  l'adresse de retour 0x004011b7 (juste apres le "test eax,eax;je" dans
+  main, saute direct sur la branche "ACCESS GRANTED"). Les 5 octets hauts
+  de la case retour sont deja a 0 (verifie sous GDB), pas d'octet nul a
+  faire passer par argv. main plante ensuite (RBP corrompu, leave final)
+  mais APRES avoir affiche le message - visible seulement via un pty
+  (stdout ligne-bufferise), perdu sur un pipe plein-bufferise.
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-16T15:09:28Z"

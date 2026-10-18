@@ -47,7 +47,7 @@ Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` 
 | 37 | 2026-01-31 | Prometheora | SoBrazen | 1.6 | 500.89 KB | https://crackmes.one/crackme/697e95cb977274421cc111e1 | **TODO** |
 | 38 | 2026-01-25 | X-0-R | steve_maxwell | 1.9 | 4.72 MB | https://crackmes.one/crackme/6976041d9bf7b8997653a6cf | solved |
 | 39 | 2026-01-23 | Password And Flag in C | howosec | 2.0 | 20.51 KB | https://crackmes.one/crackme/6973ebc6d735cd51e7a1aa97 | solved |
-| 40 | 2026-01-21 | Rev1 | Klip29mat1 | 2.0 | 3.08 KB | https://crackmes.one/crackme/6970da549bf7b8997653a66f | **TODO** |
+| 40 | 2026-01-21 | Rev1 | Klip29mat1 | 2.0 | 3.08 KB | https://crackmes.one/crackme/6970da549bf7b8997653a66f | solved |
 | 41 | 2026-01-11 | ZEXOR-v1(Linux version) | svidnet | 1.0 | 16.80 KB | https://crackmes.one/crackme/6963af82143c47935bdea9ab | solved |
 | 42 | 2025-12-20 | simple XOR crackme | YandereMia | 2.0 | 15.12 KB | https://crackmes.one/crackme/6946be18523504d8c842eb7e | solved |
 | 43 | 2025-12-16 | Introduction to RE | YandereMia | 1.2 | 15.27 KB | https://crackmes.one/crackme/6940b5870992a052ab22235b | solved |

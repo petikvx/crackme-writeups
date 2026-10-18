@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6970da549bf7b8997653a66f:
+    sha256: "f536bd41ec32087fb3b2fb68bcbc3b1b5d5c9dc43ef3a8a001a09a8f2ccbdaac"
+    path: "authors/klip29mat1/6970da549bf7b8997653a66f/original/rev1.tar.gz"
+    title: "Klip29mat1's Rev1"
+
+by_sha256:
+  f536bd41ec32087fb3b2fb68bcbc3b1b5d5c9dc43ef3a8a001a09a8f2ccbdaac:
+    id: 6970da549bf7b8997653a66f
+    path: "authors/klip29mat1/6970da549bf7b8997653a66f/original/rev1.tar.gz"
+    page: https://crackmes.one/crackme/6970da549bf7b8997653a66f
