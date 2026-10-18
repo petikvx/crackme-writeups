@@ -340,6 +340,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [computerboy](authors/computerboy/README.md) | Computerboy | 1 (Gemy) | 1 / 1 |
 | [fedguy](authors/fedguy/README.md) | fedguy | 1 (FedGuy easy crack) | 1 / 1 |
 | [klip29mat1](authors/klip29mat1/README.md) | Klip29mat1 | 1 (Rev1) | 1 / 1 |
+| [emiflake](authors/emiflake/README.md) | emiflake | 1 (Time is of the Essence) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -364,6 +365,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-18 | [Time is of the Essence](authors/emiflake/5d09368533c5d41c6d56e124/) | emiflake |
 | 2026-10-18 | [Upgraded Levels Keygen (difficulty 1-3)](authors/saltedmacaroni841/66c724b9b899a3b9dd02ad98/) | saltedMacaroni841 |
 | 2026-10-18 | [Rev1](authors/klip29mat1/6970da549bf7b8997653a66f/) | Klip29mat1 |
 | 2026-10-18 | [FedGuy easy crack](authors/fedguy/691abffc2d267f28f69b7e8a/) | fedguy |

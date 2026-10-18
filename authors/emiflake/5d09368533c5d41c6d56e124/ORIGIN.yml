@@ -1,0 +1,42 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5d09368533c5d41c6d56e124
+
+urls:
+  page: https://crackmes.one/crackme/5d09368533c5d41c6d56e124
+  download: https://crackmes.one/download/crackme/5d09368533c5d41c6d56e124
+
+title: "emiflake's Time is of the Essence"
+author_on_site: "emiflake"
+author_local: "emiflake"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme"
+  name: "crackme"
+  sha256: "c92cd4b5f685dfe8666136cd398bcc8384d98c5a5445f321ffd895085821aa91"
+  md5: "af2e7dc7df7b3e085e4384d654dbce84"
+  size_bytes: 34992
+
+status: solved
+solution_summary: >
+  Pas de mot de passe fixe : Decryptor::decrypt() construit un vecteur en
+  bouclant for(i=0;i<tm_min;i++) push_back(tm_year*i) - la valeur poussee
+  n'est jamais relue, seule la taille du vecteur (== tm_min, la minute
+  courante de l'heure locale) compte. Compare l'entree a
+  std::to_string(taille), donc le mot de passe est simplement la minute
+  courante (0-59, decimal, sans zero de tete).
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-18T20:03:19Z"

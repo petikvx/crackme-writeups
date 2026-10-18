@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  5d09368533c5d41c6d56e124:
+    sha256: "c92cd4b5f685dfe8666136cd398bcc8384d98c5a5445f321ffd895085821aa91"
+    path: "authors/emiflake/5d09368533c5d41c6d56e124/original/crackme"
+    title: "emiflake's Time is of the Essence"
+
+by_sha256:
+  c92cd4b5f685dfe8666136cd398bcc8384d98c5a5445f321ffd895085821aa91:
+    id: 5d09368533c5d41c6d56e124
+    path: "authors/emiflake/5d09368533c5d41c6d56e124/original/crackme"
+    page: https://crackmes.one/crackme/5d09368533c5d41c6d56e124
