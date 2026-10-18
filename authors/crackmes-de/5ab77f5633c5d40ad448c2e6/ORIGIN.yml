@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2e6
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2e6
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2e6
+
+title: "crackmes.de's nirvana_crackme_i by anonimoser"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembleur (MASM/TASM), packé"
+
+difficulty: 2.0
+quality: 4.0
+size: "39.01 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/nirvana_crackme1.zip"
+  name: "nirvana_crackme1.zip"
+  sha256: "2b645cd9ddad505225e8794d0d0d1951ef1b9c7a9fea545d38408d2a0f3254c8"
+  md5: "d206a784d92ab57c9b8165cd24ef2224"
+  size_bytes: 39948
+
+status: solved
+solution_summary: "serial = %d(int32((somme octets nom * nb chiffres de 9n²)²)) + \"AS\" + str(9n²), n=len(nom)>=4 ; petik → 2634129AS225 (vérifié sous wine)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-18T01:48:29Z"
