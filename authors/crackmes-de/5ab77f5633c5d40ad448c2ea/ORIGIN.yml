@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2ea
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2ea
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2ea
+
+title: "crackmes.de's anonimoser_crackme_v by anonimoser"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: ""
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme5.zip"
+  name: "crackme5.zip"
+  sha256: "8d07b79d89268286dec4c4929e7ab3e9daf1d26982f31201b5a2aa1bc8897dc1"
+  md5: "24cd01430b43c0ce7f22f597fbadb48f"
+  size_bytes: 220636
+
+status: pending
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-18T22:55:23Z"
