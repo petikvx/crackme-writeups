@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6acbc705cdee6e086a173793
+
+urls:
+  page: https://crackmes.one/crackme/6acbc705cdee6e086a173793
+  download: https://crackmes.one/download/crackme/6acbc705cdee6e086a173793
+
+title: "rqueww's AegisShield"
+author_on_site: "rqueww"
+author_local: "rqueww"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/AegisShield_crackme_1.exe"
+  name: "AegisShield_crackme_1.exe"
+  sha256: "02f2424a7307969996cc99beb2dcfe889b0377745a1c75cd86d929bf08bf652e"
+  md5: "ae674ffbc7718f79423d538919896c96"
+  size_bytes: 308224
+
+status: solved
+solution_summary: "Flag CMO{a3g1s_vmp_cff_mba_sh13ld_1s_4ct1v3} récupéré via copie patchée (hash forcé à la cible + anti-tamper CRC neutralisé) ; mot de passe (pré-image du hash 64 bits) non retrouvé"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-17T20:07:14Z"

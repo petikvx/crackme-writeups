@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6acbc705cdee6e086a173793:
+    sha256: "02f2424a7307969996cc99beb2dcfe889b0377745a1c75cd86d929bf08bf652e"
+    path: "authors/rqueww/6acbc705cdee6e086a173793/original/AegisShield_crackme_1.exe"
+    title: "rqueww's AegisShield"
+
+by_sha256:
+  02f2424a7307969996cc99beb2dcfe889b0377745a1c75cd86d929bf08bf652e:
+    id: 6acbc705cdee6e086a173793
+    path: "authors/rqueww/6acbc705cdee6e086a173793/original/AegisShield_crackme_1.exe"
+    page: https://crackmes.one/crackme/6acbc705cdee6e086a173793
