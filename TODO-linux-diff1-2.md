@@ -64,7 +64,7 @@ Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` 
 | 54 | 2025-07-05 | flags | toasterbirb | 1.8 | 8.48 KB | https://crackmes.one/crackme/686918c6aadb6eeafb398fbd | solved |
 | 55 | 2025-07-05 | shellcoding | toasterbirb | 1.5 | 14.11 KB | https://crackmes.one/crackme/6869167eaadb6eeafb398fb4 | solved |
 | 56 | 2025-06-15 | XORcist | S3c_Cult | 1.9 | 3.81 KB | https://crackmes.one/crackme/684f47bd2b84be7ea774390e | solved |
-| 57 | 2025-05-22 | Ghost | 0xf00 | 2.0 | 14.44 KB | https://crackmes.one/crackme/682f69bd6297cca3ff7d7b9b | **TODO** |
+| 57 | 2025-05-22 | Ghost | 0xf00 | 2.0 | 14.44 KB | https://crackmes.one/crackme/682f69bd6297cca3ff7d7b9b | solved |
 | 58 | 2025-05-16 | EasyCrackme | userrrrrr | 1.1 | 15.88 KB | https://crackmes.one/crackme/682767d26297cca3ff7d79be | solved |
 | 59 | 2025-04-26 | babyFirstCrackme | idanhajbeko | 1.2 | 7.53 KB | https://crackmes.one/crackme/680d04208f555589f3530fb5 | solved |
 | 60 | 2025-04-26 | My First Rust Crackme | hFireWoxlf | 1.7 | 199.47 KB | https://crackmes.one/crackme/680cffd48f555589f3530fac | solved |

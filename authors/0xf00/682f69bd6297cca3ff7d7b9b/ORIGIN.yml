@@ -1,0 +1,46 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 682f69bd6297cca3ff7d7b9b
+
+urls:
+  page: https://crackmes.one/crackme/682f69bd6297cca3ff7d7b9b
+  download: https://crackmes.one/download/crackme/682f69bd6297cca3ff7d7b9b
+
+title: "0xf00's Ghost"
+author_on_site: "0xf00"
+author_local: "0xf00"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/ghost"
+  name: "ghost"
+  sha256: "13d79788f097ff7371ec65c3aa0060832b1825d8113a319f7b5547363ca7056a"
+  md5: "a1519a6197ebdcccacfa1e0f85122a4a"
+  size_bytes: 14784
+
+status: solved
+solution_summary: >
+  Pas un serial : note-manager heap-CTF avec format string non contrôlée
+  dans "5. Leak" (printf(buf) direct). Exploit : leak de la base PIE via
+  %17$p (adresse de retour sur la pile), lecture arbitraire (%N$s) du
+  pointeur de struct note puis de son champ "meta" (heap), écriture
+  arbitraire (%hn x2, 32 bits bas seulement, les 32 hauts étant déjà
+  corrects car meme image PIE) du pointeur de fonction meta[0] vers
+  sub_1960 (fonction "win", XOR 0x42 -> "Congratulations, you triggered
+  the ghost heap!"). "4. Trigger" appelle alors sub_1960 au lieu de la
+  fonction d'affichage normale. Jump-table (.rodata) et GOT (Full RELRO)
+  verifies non inscriptibles avant de cibler le pointeur meta sur le heap.
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-16T17:31:52Z"

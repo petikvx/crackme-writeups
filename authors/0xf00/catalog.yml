@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  682f69bd6297cca3ff7d7b9b:
+    sha256: "13d79788f097ff7371ec65c3aa0060832b1825d8113a319f7b5547363ca7056a"
+    path: "authors/0xf00/682f69bd6297cca3ff7d7b9b/original/ghost"
+    title: "0xf00's Ghost"
+
+by_sha256:
+  13d79788f097ff7371ec65c3aa0060832b1825d8113a319f7b5547363ca7056a:
+    id: 682f69bd6297cca3ff7d7b9b
+    path: "authors/0xf00/682f69bd6297cca3ff7d7b9b/original/ghost"
+    page: https://crackmes.one/crackme/682f69bd6297cca3ff7d7b9b
