@@ -322,7 +322,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [joejoejoe](authors/joejoejoe/README.md) | JoeJoeJoe | 1 (thefirsttest) | 1 / 1 |
 | [vmlinuz719](authors/vmlinuz719/README.md) | vmlinuz719 | 1 (Product Activation) | 1 / 1 |
 | [pwned.cpp](authors/pwned.cpp/README.md) | Pwned.cpp | 1 (ImGUI-CrackME) | 1 / 1 |
-| [trynatobe6for6def](authors/trynatobe6for6def/README.md) | TrynaToBe6for6Def | 2 (My First / My Second Crackme) | 2 / 2 |
+| [trynatobe6for6def](authors/trynatobe6for6def/README.md) | TrynaToBe6for6Def | 3 (My First / Second / Third Crackme) | 3 / 3 |
 | [orbitz](authors/orbitz/README.md) | ORBITZ | 1 (BabyDotNet) | 1 / 1 |
 | [radoncoding](authors/radoncoding/README.md) | RadonCoding | 1 (binsafe) | 1 / 1 |
 | [nimanikjoo](authors/nimanikjoo/README.md) | NimaNikjoo | 1 (nightmare CrackMe) | 1 / 1 |
@@ -355,6 +355,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-18 | [My Third Crackme (Medium + Flag)](authors/trynatobe6for6def/6ac8f2506349e4b2540c6fc0/) | TrynaToBe6for6Def |
 | 2026-10-18 | [Basics::AHardcodedKeyGoneWrong](authors/michaelsrtsrt/6ab56a1e95b976f8f1300b7a/) | michaelsrtsrt |
 | 2026-10-18 | [anonimoser_crackme_i by anonimoser](authors/crackmes-de/5ab77f5633c5d40ad448c2e8/) | crackmes.de / anonimoser |
 | 2026-10-18 | [anonimoser_crackme_ii by anonimoser](authors/crackmes-de/5ab77f5633c5d40ad448c2e7/) | crackmes.de / anonimoser |

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6ac8f2506349e4b2540c6fc0
+
+urls:
+  page: https://crackmes.one/crackme/6ac8f2506349e4b2540c6fc0
+  download: https://crackmes.one/download/crackme/6ac8f2506349e4b2540c6fc0
+
+title: "TrynaToBe6for6Def's My Third Crackme (Medium + Flag)"
+author_on_site: "TrynaToBe6for6Def"
+author_local: "trynatobe6for6def"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: 3
+local_slug: my-third-crackme
+
+binary:
+  path: "original/My_Third_Crackme.exe"
+  name: "My_Third_Crackme.exe"
+  sha256: "8948aa8ccb0001dbc3270a286fd7d70aed5fd4f386217ac46c885ff55a9b0ca0"
+  md5: "bbf551add89c00adfd5292cb4daf1fbd"
+  size_bytes: 14336
+
+status: solved
+solution_summary: "password L565L3O63OM0L5454 (17 car., DFA 19 états, nibble ((c^0xA)+1)&0xF, chemin unique ; plusieurs solutions) ; flag CMO{Level3/6completed}"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-18T09:08:35Z"
