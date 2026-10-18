@@ -74,7 +74,7 @@ Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` 
 | 64 | 2024-12-07 | yum :P | hybridkenrel | 1.9 | 745.64 KB | https://crackmes.one/crackme/6754620160fa67152406b53c | solved |
 | 65 | 2024-11-22 | Gemy | Computerboy | 1.5 | 5.68 KB | https://crackmes.one/crackme/673ff5da9b533b4c22bd2fff | solved |
 | 66 | 2024-10-20 | Sexy 1337 | RafaelGFreveng | 1.5 | 16.00 KB | https://crackmes.one/crackme/6715466c9b533b4c22bd18bb | solved |
-| 67 | 2024-08-22 | Upgraded Levels Keygen (difficulty 1-3) | saltedMacaroni841 | 2.0 | 16.64 KB | https://crackmes.one/crackme/66c724b9b899a3b9dd02ad98 | **TODO** |
+| 67 | 2024-08-22 | Upgraded Levels Keygen (difficulty 1-3) | saltedMacaroni841 | 2.0 | 16.64 KB | https://crackmes.one/crackme/66c724b9b899a3b9dd02ad98 | solved |
 | 68 | 2024-07-25 | Levels Keygen! | saltedMacaroni841 | 1.7 | 15.80 KB | https://crackmes.one/crackme/66a288ed90c4c2830c820fa0 | solved |
 | 69 | 2024-07-19 | good_boy | fdisotto | 1.5 | 13.86 KB | https://crackmes.one/crackme/669a714890c4c2830c820bc0 | solved |
 | 70 | 2024-06-19 | KGenMe v2 | dzonerzy | 2.0 | 3.48 KB | https://crackmes.one/crackme/6672bf9ee7b35c09bb266f5e | solved |

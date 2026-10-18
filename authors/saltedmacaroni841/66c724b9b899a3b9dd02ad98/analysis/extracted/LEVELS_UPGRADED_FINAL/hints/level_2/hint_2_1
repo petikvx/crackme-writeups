@@ -1,0 +1,11 @@
+################################
+#                              #
+#     LEVEL (2), HINT(1)       #
+#                              #
+################################
+
+
+"What is argv[1]? is it necessary in the if statement?"
+
+"And arrays count starting from 0.. if we have an array = {'1', '3'} and we want array[1] we will get 3."
+

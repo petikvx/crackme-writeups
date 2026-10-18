@@ -1,0 +1,12 @@
+################################
+#                              #
+#     LEVEL (1), HINT(3)       #   
+#                              #
+################################
+
+
+"what value is the program XORing your password by?"
+
+"Is it feasible to undo an XOR operation? (To be clear, we're not talking about reverse engineering. Instead, consider the following example: if 2 XOR 5 equals a certain value, does ANS XOR 5 equal 2?)"
+
+"Are you in need of further assistance? A comprehensive explanation can be found in the file named 'ans_1'. However, I would recommend only consulting it as a last resort, for instance, if you have already attempted to solve the problem twenty times without success."

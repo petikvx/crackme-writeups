@@ -1,0 +1,9 @@
+################################
+#                              #
+#     LEVEL (1), HINT(1)       #
+#                              #
+################################
+
+"Dost thou suspect that some unseen force, perchance a bit-wise operator, doth alter thy password betwixt the entry and the verification? It is a mystery most perplexing, like the workings of the loom or the smelting of iron in the furnace."
+
+"If you have never worked with a stripped binary, then learn how to find the main function from the address at libc_start_main inside the entry function"

@@ -1,0 +1,8 @@
+################################
+#                              #
+#     LEVEL (3), HINT(2)       #
+#                              #
+################################
+
+
+"Grasping the state transition in this software relies on understanding array positions. Be aware that decompilers might misinterpret pseudocode, so ensure the values you're handling match their intended counterparts in the original program. For instance, in tools like Cutter, strings often appear as hexadecimal characters or decimal numbers."

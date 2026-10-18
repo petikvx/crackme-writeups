@@ -232,7 +232,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [froglover22](authors/froglover22/README.md) | froglover22 | 1 (Crack On The Cob - COBOL) | 1 / 1 |
 | [b4te](authors/b4te/README.md) | b4te | 1 (guess_the_password) | 1 / 1 |
 | [fdisotto](authors/fdisotto/README.md) | fdisotto | 1 (good_boy) | 1 / 1 |
-| [saltedmacaroni841](authors/saltedmacaroni841/README.md) | saltedMacaroni841 | 1 (Levels Keygen!) | 1 / 1 |
+| [saltedmacaroni841](authors/saltedmacaroni841/README.md) | saltedMacaroni841 | 2 (Levels Keygen! + Upgraded Levels Keygen) | 2 / 2 |
 | [hybridkenrel](authors/hybridkenrel/README.md) | hybridkenrel | 1 (yum :P) | 1 / 1 |
 | [rafaelgfreveng](authors/rafaelgfreveng/README.md) | RafaelGFreveng | 1 (Sexy 1337) | 1 / 1 |
 | [cappybara](authors/cappybara/README.md) | Cappybara | 1 (BabyRev) | 1 / 1 |
@@ -363,6 +363,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-18 | [Upgraded Levels Keygen (difficulty 1-3)](authors/saltedmacaroni841/66c724b9b899a3b9dd02ad98/) | saltedMacaroni841 |
 | 2026-10-18 | [Rev1](authors/klip29mat1/6970da549bf7b8997653a66f/) | Klip29mat1 |
 | 2026-10-18 | [FedGuy easy crack](authors/fedguy/691abffc2d267f28f69b7e8a/) | fedguy |
 | 2026-10-18 | [Gemy](authors/computerboy/673ff5da9b533b4c22bd2fff/) | Computerboy |

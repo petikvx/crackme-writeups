@@ -1,0 +1,61 @@
+################################
+#                              #
+#   LEVEL (2) ANS              #  
+#                              #
+################################
+
+[1] Begin by reverse-engineering the program using your preferred tools such as Ghidra, cutter, BN, R2, etc., with the aim of understanding its logic and flow.
+
+[2] During your analysis, pay particular attention to the following areas within the level 2 function:
+
+    The character set array
+    The encrypted password array
+    The for loop that alters all characters of the password
+    The if statement that verifies if argv[1] matches a specific value and if the strcmp comparison between your password and the encrypted password equals 0 (true)
+
+[Important Logic]
+
+[2.1] The program selects characters from the character set and stores them in another array, which is "encrypted" using the sequence (0x31 0x64 0x38 0x36 0x63 0x65).
+
+[2.2] The program then asks for the password.
+
+[2.3] It processes your input by using a for loop that iterates over each character in the array, applying XOR with 0x12.
+
+[2.4] The for loop also adds the value of i, which increases by 1 starting at 0 for each loop iteration until the string's length is equal to i.
+
+[2.5] The program checks if the value passed to the program through argv (an argument provided when running the program, like the "B" in: $ ./program B) is equal to 'e'.
+
+[2.6] The program checks if your password matches the "encrypted" password array.
+
+[3] The desired final values for our password should be 0x31 0x64 0x38 0x36 0x63 and 0x65. If the code follows this pattern, our password should be adjusted accordingly. If the code is:
+
+for (int i = 0; i < strlen(password); i++) {
+     password[i] ^= ENCRYPTION_KEY;
+     password[i] = password[i] + i;
+ 
+   }  
+
+To obtain the final password, follow these steps:
+
+    Subtract the first value in the sequence with the current value of i (starting from 0 and incrementing by 1) and then XOR it with 0x12.
+
+Follow this sequence:
+
+    At i equals 0: 0x31 - 0 XOR 0x12 = 0x23 in ASCII is "#"
+    At i equals 1: 0x64 - 1 XOR 0x12 = 0x71 in ASCII is "q"
+    At i equals 2: 0x38 - 2 XOR 0x12 = 0x24 in ASCII is "$"
+    At i equals 3: 0x36 - 3 XOR 0x12 = 0x21 in ASCII is "!"
+    At i equals 4: 0x63 - 4 XOR 0x12 = 0x4D in ASCII is "M"
+    At i equals 5: 0x65 - 5 XOR 0x12 = 0x72 in ASCII is "r"
+
+    The final password is the resulting string from the sequence: "#q$!Mr" with 'e' as argv[1]
+
+Please note:
+
+    If you complete the level and proceed to level 3 immediately, the value of argv[1] will still be e and not the value required for the level 3 function.
+    To avoid this, exit the program and run it again with the updated argv value.
+
+
+
+
+
