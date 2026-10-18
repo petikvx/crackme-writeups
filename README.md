@@ -325,7 +325,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [trynatobe6for6def](authors/trynatobe6for6def/README.md) | TrynaToBe6for6Def | 3 (My First / Second / Third Crackme) | 3 / 3 |
 | [rqueww](authors/rqueww/README.md) | rqueww | 1 (AegisShield) | 1 / 1 |
 | [orbitz](authors/orbitz/README.md) | ORBITZ | 1 (BabyDotNet) | 1 / 1 |
-| [radoncoding](authors/radoncoding/README.md) | RadonCoding | 1 (binsafe) | 1 / 1 |
+| [radoncoding](authors/radoncoding/README.md) | RadonCoding | 2 (binsafe + binsafe #2) | 1 / 2 |
 | [nimanikjoo](authors/nimanikjoo/README.md) | NimaNikjoo | 1 (nightmare CrackMe) | 1 / 1 |
 | [vsec](authors/vsec/README.md) | vsec | 2 (Challenger No.1 / Challenger #2) | 2 / 2 |
 | [yugnatd](authors/yugnatd/README.md) | YugnatD | 1 (WarGames) | 1 / 1 |
@@ -350,6 +350,7 @@ Challenges `status: pending` volontairement suspendus (`parked: true` dans `ORIG
 | [bugger_v.7](authors/crackmes-de/5ab77f6633c5d40ad448cc25/) | crackmes.de / shism | clé RC6 + wake shell dormant |
 | [meloquynthe](authors/crackmes-de/5ab77f5933c5d40ad448c46f/) | crackmes.de / meat | boutons `0x532..0x536` vs wave (`sub_40507f`) ; pas de saisie clavier |
 | [MCM 3.0 REWORK](authors/cracknotme/698fb9e9a79466462e957bec/) | CrackNotMe | parent/`--3a1f9b` + VM ; mask XOR TBD (notes 2026-09-01) |
+| [binsafe #2](authors/radoncoding/6ad4ab462c7537120cbe832b/) | RadonCoding | `F` devirtualisee (`mix(b+(2c+1)*G)`, bijection ; `tools/binsafe-model.py`) ; reste un chemin vers 0 (MITM >9 coups, ~x64/coup) ou le hash final `T` (SAT sur le keystream) |
 
 ## Historique des résolutions
 
