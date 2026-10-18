@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2eb
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2eb
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2eb
+
+title: "crackmes.de's anonimoser_crackme_iv by anonimoser"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Delphi 5 (UPX 1.21)"
+
+difficulty: 2.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme4.zip"
+  name: "crackme4.zip"
+  sha256: "9222194e87d1e8121333fdaf40b2a9115799d3af57ba1cff00cbca1d85dcd015"
+  md5: "7f9774fd96fbe15d93bb36df3c69d72b"
+  size_bytes: 173630
+
+status: solved
+solution_summary: "Patchme : le dernier octet du .exe doit valoir 'U' (ajout d'un octet en overlay)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-18T23:55:44Z"

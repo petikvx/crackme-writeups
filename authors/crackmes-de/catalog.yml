@@ -1686,6 +1686,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c2ea/original/crackme5.zip"
     title: "crackmes.de's anonimoser_crackme_v by anonimoser"
 
+  5ab77f5633c5d40ad448c2eb:
+    sha256: "9222194e87d1e8121333fdaf40b2a9115799d3af57ba1cff00cbca1d85dcd015"
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2eb/original/crackme4.zip"
+    title: "crackmes.de's anonimoser_crackme_iv by anonimoser"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3047,3 +3052,7 @@ by_sha256:
     id: 5ab77f5633c5d40ad448c2ea
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c2ea/original/crackme5.zip"
     page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2ea
+  9222194e87d1e8121333fdaf40b2a9115799d3af57ba1cff00cbca1d85dcd015:
+    id: 5ab77f5633c5d40ad448c2eb
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2eb/original/crackme4.zip"
+    page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2eb
