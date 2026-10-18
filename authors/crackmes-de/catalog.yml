@@ -1671,6 +1671,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c2e6/original/nirvana_crackme1.zip"
     title: "crackmes.de's nirvana_crackme_i by anonimoser"
 
+  5ab77f5633c5d40ad448c2e7:
+    sha256: "cec31a34d9f79005f065148b9eb1bcb36828c734f0a9c5c03d6463d4cf9ff691"
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2e7/original/crackme2.zip"
+    title: "crackmes.de's anonimoser_crackme_ii by anonimoser"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3020,3 +3025,7 @@ by_sha256:
     id: 5ab77f5633c5d40ad448c2e6
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c2e6/original/nirvana_crackme1.zip"
     page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2e6
+  cec31a34d9f79005f065148b9eb1bcb36828c734f0a9c5c03d6463d4cf9ff691:
+    id: 5ab77f5633c5d40ad448c2e7
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2e7/original/crackme2.zip"
+    page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2e7

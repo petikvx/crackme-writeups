@@ -360,6 +360,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 325 | [crackme by aharli](5ab77f5633c5d40ad448c2e1/) | aharli | Windows PE32 VB.NET WinForms | identifiants en dur (`ilspycmd`) : User `aharli` / Pass `1368` → « Cracked » ; nom fixe, pas de keygen |
 | 326 | [keygenme_1](5ab77f5633c5d40ad448c2e4/) | ksil (Ks@il) | Windows PE32 Delphi 7 | serial sans nom = IntToStr(major)+IntToStr(minor) de `GetVersion()` + chaîne XOR « Delphi String Protect » `Ft-23g$-bx4f-@d` ; wine/Win10 → `62Ft-23g$-bx4f-@d` (vérifié sous wine, harnais débogueur) |
 | 327 | [nirvana_crackme_i](5ab77f5633c5d40ad448c2e6/) | anonimoser | Windows PE32 assembleur packé (dump mémoire sous wine) | serial = `%d`((L·Σnom)² mod 2³²) + `AS` + `9n²` (L = nb de chiffres de 9n²) ; anti-debug SICE/OLLYDBG = boucle infinie ; `petik` → `2634129AS225` (vérifié sous wine) |
+| 328 | [anonimoser_crackme_ii](5ab77f5633c5d40ad448c2e7/) | anonimoser | Windows PE32 Delphi (UPX) | keygen : `S1 = str(nom[0]·Σnom·6n) + str(Σchiffres·(len+1))`, puis paires de chiffres → `chr(0x41+a+b)`, suffixe `-AS` ; bouton activé seulement si le code est bon ; `petik` → `18177601272JJIONGBDJJ-AS` (vérifié sous wine) |
 
 ## Mis de côté (PARKED — y revenir)
 
