@@ -28,9 +28,9 @@ binary:
   md5: "2010f7184359c48f425797073020f52a"
   size_bytes: 184320
 
-status: pending
-parked: true
-solution_summary: ""
+status: solved
+parked: false
+solution_summary: "CMO{YouFoundMeWoohoo} — fiche 0xB9170251 via sub_140009DA0 (tweak vif, pas la formule pré-init)"
 
 download:
   zip_password: crackmes.one

@@ -1,6 +1,6 @@
 # Notes — Basics::AHardcodedKeyGoneWrong
 
-Statut : **parked** (`2026-09-27`). Pas de clé, pas de flag. Ne pas marquer solved.
+Statut : **solved** (`2026-10-18`). Clé `CMO{YouFoundMeWoohoo}`. Write-up : [`../README.md`](../README.md). Le détail ci-dessous date du parking : la formule pré-init et les quatre id « manquants » sont périmés.
 
 Brouillons VM (chemins Windows, pas le solveur) : `tools/kc_emu.py`, `tools/kc_tab2.py`, dump `tools/kc_tab2.bin`.
 

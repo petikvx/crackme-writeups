@@ -8,7 +8,7 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml).
 
 | # | Titre | ID | Plateforme | Solution |
 |---|---|---|---|---|
-| 1 | [Basics::AHardcodedKeyGoneWrong](6ab56a1e95b976f8f1300b7a/) | [`6ab56a1e…`](https://crackmes.one/crackme/6ab56a1e95b976f8f1300b7a) | Windows PE64 | **parked** — coffres ouverts, textes illisibles |
+| 1 | [Basics::AHardcodedKeyGoneWrong](6ab56a1e95b976f8f1300b7a/) | [`6ab56a1e…`](https://crackmes.one/crackme/6ab56a1e95b976f8f1300b7a) | Windows PE64 | `CMO{YouFoundMeWoohoo}` (coffre chaînes `0xB9170251`) |
 
 ## Ajouter un crackme
 
