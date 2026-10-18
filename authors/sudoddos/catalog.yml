@@ -1,0 +1,12 @@
+# Index id <-> sha256 <-> path
+by_id:
+  6ad4fb7e4ab951a9999d9ed6:
+    sha256: "7544776833d93234f25b3da6e60f129598f677929c305b76e5d78a7aa8653e3c"
+    path: "authors/sudoddos/6ad4fb7e4ab951a9999d9ed6/original/crackme.py"
+    title: "sudoddos's crackme"
+
+by_sha256:
+  7544776833d93234f25b3da6e60f129598f677929c305b76e5d78a7aa8653e3c:
+    id: 6ad4fb7e4ab951a9999d9ed6
+    path: "authors/sudoddos/6ad4fb7e4ab951a9999d9ed6/original/crackme.py"
+    page: https://crackmes.one/crackme/6ad4fb7e4ab951a9999d9ed6

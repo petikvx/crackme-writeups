@@ -1,0 +1,36 @@
+# Origine crackmes.one
+id: 6ad4fb7e4ab951a9999d9ed6
+
+urls:
+  page: https://crackmes.one/crackme/6ad4fb7e4ab951a9999d9ed6
+  download: https://crackmes.one/download/crackme/6ad4fb7e4ab951a9999d9ed6
+
+title: "sudoddos's crackme"
+author_on_site: "sudoddos"
+author_local: "sudoddos"
+
+platform: "Multiplatform"
+arch: "n/a (Python)"
+language: "Python"
+
+difficulty: null
+quality: null
+size: "1.06 MB"
+published: "2026-10-18"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme.py"
+  name: "crackme.py"
+  sha256: "7544776833d93234f25b3da6e60f129598f677929c305b76e5d78a7aa8653e3c"
+  md5: "8198335d6289acb77138095d77c01beb"
+  size_bytes: 1109073
+
+status: solved
+solution_summary: "mot de passe PeNiZoBfUsCaT0R67 : script Python obscurci en 4 couches (blobs box-drawing, SHA-256 shuffle, XOR+zlib/lzma) puis mini-VM d'IR ; chunks hex 4372…37 -> ascii 'CrAvMbOsHfPnG0E67' -> rot13 (analyse AST statique)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-18T18:14:51Z"

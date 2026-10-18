@@ -335,6 +335,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [rr7](authors/rr7/README.md) | RR7 | 1 (Secret key) | 1 / 1 |
 | [mr-x47](authors/mr-x47/README.md) | Mr.X47 | 1 (BiLoop Cipher) | 1 / 1 |
 | [wut](authors/wut/README.md) | wut | 1 (frd) | 1 / 1 |
+| [sudoddos](authors/sudoddos/README.md) | sudoddos | 1 (sudoddos's crackme) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -358,6 +359,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-18 | [sudoddos's crackme](authors/sudoddos/6ad4fb7e4ab951a9999d9ed6/) | sudoddos |
 | 2026-10-18 | [AegisShield](authors/rqueww/6acbc705cdee6e086a173793/) | rqueww |
 | 2026-10-18 | [My Third Crackme (Medium + Flag)](authors/trynatobe6for6def/6ac8f2506349e4b2540c6fc0/) | TrynaToBe6for6Def |
 | 2026-10-18 | [Basics::AHardcodedKeyGoneWrong](authors/michaelsrtsrt/6ab56a1e95b976f8f1300b7a/) | michaelsrtsrt |
