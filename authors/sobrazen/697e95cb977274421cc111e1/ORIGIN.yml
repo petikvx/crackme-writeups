@@ -29,6 +29,7 @@ binary:
   size_bytes: 512912
 
 status: pending
+parked: true
 solution_summary: ""
 
 download:

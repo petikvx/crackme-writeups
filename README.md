@@ -347,6 +347,7 @@ Challenges `status: pending` volontairement suspendus (`parked: true` dans `ORIG
 
 | Crackme | Auteur | Reprendre |
 |---|---|---|
+| [Prometheora](authors/sobrazen/697e95cb977274421cc111e1/) | SoBrazen | Rust PIE, 500 KB ; VM bytecode maison + control-flow flattening + sbox + anti-debug (`rdtsc`/`lock cmpxchg`) ; profondeur ~4.0-4.5 malgré l'étiquette 1.6 ; `secure_verify.rs` pas localisé ; `analysis/NOTES.md` |
 | [LeetObfuscator Crackme](authors/zydak/6ab666ec5ef425e62ef7fd50/) | zydak | watchdog `LeetCrackme` ptrace `./CXXD4` ; `Hell no` ; strings @ `0x4b3060` ; pas de flag ; `analysis/NOTES.md` |
 | [Tetris DRM](authors/zydak/6ac989246349e4b2540c6fe9/) | zydak | prologue `main` @ `0x124a00` ; `EB FF`/`jmp rax` ; suite `0xF6968` ; `SIGILL` sous strace ; notes `analysis/NOTES.md` |
 | [Froggate II: Croackpocallypse](authors/victormeloasm/6aa471e83b246e477b6c0be7/) | victormeloasm | `transform(serial)==mask` prouvé GDB ; inv. transform (~407 mixers) TBD |
