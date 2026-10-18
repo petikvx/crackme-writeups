@@ -5,8 +5,17 @@ by_id:
     path: "authors/radoncoding/6ac3c6176349e4b2540c6ea2/original/crack-me.protected.exe"
     title: "RadonCoding's binsafe"
 
+  6ad4ab462c7537120cbe832b:
+    sha256: "93bee7316ad4043a923e033be104911c43a9346387847f8ad393f500d04c0a14"
+    path: "authors/radoncoding/6ad4ab462c7537120cbe832b/original/crack-me.protected.exe"
+    title: "RadonCoding's binsafe"
+
 by_sha256:
   5915033807c7405d129fdbb5e96f769d636a95e09845b77bc621e86cafe9a901:
     id: 6ac3c6176349e4b2540c6ea2
     path: "authors/radoncoding/6ac3c6176349e4b2540c6ea2/original/crack-me.protected.exe"
     page: https://crackmes.one/crackme/6ac3c6176349e4b2540c6ea2
+  93bee7316ad4043a923e033be104911c43a9346387847f8ad393f500d04c0a14:
+    id: 6ad4ab462c7537120cbe832b
+    path: "authors/radoncoding/6ad4ab462c7537120cbe832b/original/crack-me.protected.exe"
+    page: https://crackmes.one/crackme/6ad4ab462c7537120cbe832b
