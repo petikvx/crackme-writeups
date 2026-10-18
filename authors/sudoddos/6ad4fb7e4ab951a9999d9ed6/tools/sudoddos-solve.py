@@ -53,7 +53,9 @@ EXPECTED = 'PeNiZoBfUsCaT0R67'
 
 if __name__ == '__main__':
     args = [a for a in sys.argv[1:] if a not in ('-q', '--check')]
-    path = args[0] if args else 'analysis/ir_dump.txt'
+    import os
+    here = os.path.dirname(os.path.abspath(__file__))
+    path = args[0] if args else os.path.join(here, '..', 'analysis', 'ir_dump.txt')   # défaut : indépendant du dossier courant
     quiet = '-q' in sys.argv
     if quiet:
         import io, contextlib
