@@ -90,3 +90,10 @@ mix(z)  : z ^= z>>31 ; z *= 0xbf58476d1ce4e5b9 ; z ^= z>>29 ; z *= 0x94d049bb133
 5. Le journal des opcodes (`vmlog.py`, `analysis/vm-F-ops-board0123-idx3.json`) montre les constantes splitmix/golden ratio ; on ajuste `Y(plateau, c)` en inversant `mix` sur des sorties emulees : `Y = plateau + (2c+1)*G`.
 
 **Ce qui reste :** il faut une suite de cellules amenant le plateau initial `0x946683638e186420` a `0` **avec le bon hash**, car le flag ne se dechiffre correctement qu'avec le hash du chemin voulu. Recherche bidirectionnelle (`tools/binsafe-mitm.py`, numpy) : **aucune solution jusqu'a 9 coups** (5 avant + 4 arriere, ~8 min) ; chaque coup de plus coute x64. Piste restante : retrouver directement le hash final `T` par attaque a clair connu (`CMO{` ... `}`, 41 octets dans `analysis/flag-cipher.hex`) via SAT sur `ks(T + i*G)`, puis `tools/binsafe-model.py --flag 0x<T>`.
+
+
+### Etat final de la session (non resolu)
+
+- Recherche de chemin : aucune solution jusqu'a 9 coups (`tools/binsafe-mitm.py 5 4`, ~8 min) ; 10 coups ~ 9 h sur 1 coeur.
+- Hash final `T` par clair connu : `tools/binsafe-sat-T.py analysis/flag-cipher.hex` (Z3 puis CaDiCaL via `python-sat`, multiplications tronquees a 41 bits, ~95 000 variables / 335 000 clauses). **Z3 : `unknown` apres 10 min ; CaDiCaL : lance deux fois, interrompu avant la fin, aucun resultat.** A relancer en le laissant tourner longtemps (le script affiche `T` et le flag en clair des qu'il aboutit) ; ensuite `python tools/binsafe-model.py --flag 0x<T>`.
+- Statut inchange : `pending` (pas de solveur de bout en bout, pas de flag).
