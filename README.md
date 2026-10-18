@@ -328,7 +328,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [nimanikjoo](authors/nimanikjoo/README.md) | NimaNikjoo | 1 (nightmare CrackMe) | 1 / 1 |
 | [vsec](authors/vsec/README.md) | vsec | 2 (Challenger No.1 / Challenger #2) | 2 / 2 |
 | [yugnatd](authors/yugnatd/README.md) | YugnatD | 1 (WarGames) | 1 / 1 |
-| [zydak](authors/zydak/README.md) | zydak | 2 (simple obfuscated + Tetris DRM) | 0 / 2 |
+| [zydak](authors/zydak/README.md) | zydak | 3 (simple obfuscated + LeetObfuscator + Tetris DRM) | 0 / 3 |
 | [reiika](authors/reiika/README.md) | Reiika | 1 (stckwzrd) | 1 / 1 |
 | [s3c_cult](authors/s3c_cult/README.md) | S3c_Cult | 2 (Schizo + XORcist) | 2 / 2 |
 | [rr7](authors/rr7/README.md) | RR7 | 1 (Secret key) | 1 / 1 |
@@ -341,6 +341,7 @@ Challenges `status: pending` volontairement suspendus (`parked: true` dans `ORIG
 
 | Crackme | Auteur | Reprendre |
 |---|---|---|
+| [LeetObfuscator Crackme](authors/zydak/6ab666ec5ef425e62ef7fd50/) | zydak | watchdog `LeetCrackme` ptrace `./CXXD4` ; `Hell no` ; strings @ `0x4b3060` ; pas de flag ; `analysis/NOTES.md` |
 | [Tetris DRM](authors/zydak/6ac989246349e4b2540c6fe9/) | zydak | prologue `main` @ `0x124a00` ; `EB FF`/`jmp rax` ; suite `0xF6968` ; `SIGILL` sous strace ; notes `analysis/NOTES.md` |
 | [Froggate II: Croackpocallypse](authors/victormeloasm/6aa471e83b246e477b6c0be7/) | victormeloasm | `transform(serial)==mask` prouvé GDB ; inv. transform (~407 mixers) TBD |
 | [custom vmp crackme](authors/alpjs/6aa4b6d3585e8875bcbebf80/) | alpjs | crypto OK ; brute H100 (`analysis/H100.md`) ; a-z len5 ~68 % ; flag bloc0 `Doğru! F` |

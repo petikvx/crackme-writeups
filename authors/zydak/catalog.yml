@@ -10,6 +10,11 @@ by_id:
     path: "authors/zydak/6ac989246349e4b2540c6fe9/original/Crackme"
     title: "Zydak's Tetris DRM"
 
+  6ab666ec5ef425e62ef7fd50:
+    sha256: "1aa28374ff51106275fe852bd396f34e47a148fc35a888066126d17a8c303daf"
+    path: "authors/zydak/6ab666ec5ef425e62ef7fd50/original/LeetCrackme"
+    title: "Zydak's LeetObfuscator Crackme"
+
 by_sha256:
   0b32dac9d741bb5dbd4070614a4ad233f37cc2807def6692f3dffa1d742e4a7d:
     id: 6a81081208712c1a17cbadb3
@@ -19,3 +24,7 @@ by_sha256:
     id: 6ac989246349e4b2540c6fe9
     path: "authors/zydak/6ac989246349e4b2540c6fe9/original/Crackme"
     page: https://crackmes.one/crackme/6ac989246349e4b2540c6fe9
+  1aa28374ff51106275fe852bd396f34e47a148fc35a888066126d17a8c303daf:
+    id: 6ab666ec5ef425e62ef7fd50
+    path: "authors/zydak/6ab666ec5ef425e62ef7fd50/original/LeetCrackme"
+    page: https://crackmes.one/crackme/6ab666ec5ef425e62ef7fd50

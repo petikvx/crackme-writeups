@@ -1,0 +1,49 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6ab666ec5ef425e62ef7fd50
+
+urls:
+  page: https://crackmes.one/crackme/6ab666ec5ef425e62ef7fd50
+  download: https://crackmes.one/download/crackme/6ab666ec5ef425e62ef7fd50
+
+title: "Zydak's LeetObfuscator Crackme"
+author_on_site: "Zydak"
+author_local: "zydak"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+# ZIP site → original/LeetCrackme.7z (sans mot de passe).
+# Dedans : LeetCrackme (watchdog), CXXD4 (payload), README.md.
+binary:
+  path: "original/LeetCrackme"
+  name: "LeetCrackme"
+  sha256: "1aa28374ff51106275fe852bd396f34e47a148fc35a888066126d17a8c303daf"
+  size_bytes: 2318616
+
+companions:
+  - path: "original/CXXD4"
+    role: "payload obfusqué, exec relatif ./CXXD4, ptracé par le watchdog"
+    sha256: "af2e89bb71ba60dc9fff2ff4ceed23012e7a64e7a29857a883e915ce3ef3b76b"
+    size_bytes: 2786528
+  - path: "original/LeetCrackme.7z"
+    role: "archive interne du ZIP crackmes.one"
+    sha256: "bd7e56302197bc1c0443940ed2f02acf33ec66d8bf880b6e3461c4b5505d6a11"
+    md5: "bcb7a0f9726362591cfbc1542756ba3b"
+    size_bytes: 1634637
+
+status: pending
+parked: true
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-18T09:14:38Z"
