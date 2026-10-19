@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2ec
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2ec
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2ec
+
+title: "crackmes.de's anonimoser_crackme_iii by anonimoser"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Delphi (UPX 1.21)"
+
+difficulty: 1.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme3.zip"
+  name: "crackme3.zip"
+  sha256: "9ee0311a25b399e523f4aa73afa360c52987a1c8d5ba11c991c4c723846f181c"
+  md5: "2f0a1387153b6c4f4b6de29fca98366a"
+  size_bytes: 187202
+
+status: solved
+solution_summary: "Keyfile clave.txt : nom puis somme décimale de ses codes ASCII (petik / 541)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-19T00:53:46Z"
