@@ -146,7 +146,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [oguzbey](authors/oguzbey/README.md) | oguzbey | 1 (Lucky Numbers) | 1 / 1 |
 | [andrewl](authors/andrewl/README.md) | andrewl | 1 (Quick Crypto) | 1 / 1 |
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
-| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 330 / 330 |
+| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 331 / 331 |
 | [chaltu](authors/chaltu/README.md) | chaltu | 3 (a Treasure + Double Door + Accsess me please) | 3 / 3 |
 | [qerr0r](authors/qerr0r/README.md) | QERR0R | 2 (crackit + CrackIt;)) | 2 / 2 |
 | [steve_maxwell](authors/steve_maxwell/README.md) | steve_maxwell | 1 (X-0-R) | 1 / 1 |
@@ -367,6 +367,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-20 | [enableme_pushme_1_by_saytos by saytos](authors/crackmes-de/5ab77f5633c5d40ad448c2ee/) | crackmes.de / saytos |
 | 2026-10-20 | [crackme2_by_mabaker by mabaker](authors/crackmes-de/5ab77f5633c5d40ad448c2ed/) | crackmes.de / mabaker |
 | 2026-10-18 | [Time is of the Essence](authors/emiflake/5d09368533c5d41c6d56e124/) | emiflake |
 | 2026-10-18 | [Upgraded Levels Keygen (difficulty 1-3)](authors/saltedmacaroni841/66c724b9b899a3b9dd02ad98/) | saltedMacaroni841 |

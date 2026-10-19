@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2ee
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2ee
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2ee
+
+title: "crackmes.de's enableme_pushme_1_by_saytos by saytos"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 2.0
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: "enableme_pushme_1_by_saytos"
+
+binary:
+  path: "original/PushMe#1.zip"
+  name: "PushMe#1.zip"
+  sha256: "d5c7522fd357c6ad7d869e4aceecd5563d03b52f0d208dae3532f083c0f4a64b"
+  md5: "bc80f51466a3a25a9614a46dce25c0c6"
+  size_bytes: 2177
+
+status: solved
+solution_summary: "patch : remplacer CreateThread x3 de WM_INITDIALOG (@401185) par EnableWindow(bouton,TRUE) ; compteur 0x402058 reste 0x1BD (^0x43 = 0x1FE) → good boy ; + correctif EP @4010E1 (xor eax,eax) pour Wine"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-19T23:48:58Z"
