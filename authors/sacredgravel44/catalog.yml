@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6ad44c6c5fa39ab0d4ac1c16:
+    sha256: "7595c793f004d94534f786bf2bdcf47564b7a7ff85888a69aa4e92edc74add9a"
+    path: "authors/sacredgravel44/6ad44c6c5fa39ab0d4ac1c16/original/matryoshka9_cmo.exe"
+    title: "sacredgravel44's matryoshka9"
+
+by_sha256:
+  7595c793f004d94534f786bf2bdcf47564b7a7ff85888a69aa4e92edc74add9a:
+    id: 6ad44c6c5fa39ab0d4ac1c16
+    path: "authors/sacredgravel44/6ad44c6c5fa39ab0d4ac1c16/original/matryoshka9_cmo.exe"
+    page: https://crackmes.one/crackme/6ad44c6c5fa39ab0d4ac1c16

@@ -341,6 +341,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [fedguy](authors/fedguy/README.md) | fedguy | 1 (FedGuy easy crack) | 1 / 1 |
 | [klip29mat1](authors/klip29mat1/README.md) | Klip29mat1 | 1 (Rev1) | 1 / 1 |
 | [emiflake](authors/emiflake/README.md) | emiflake | 1 (Time is of the Essence) | 1 / 1 |
+| [sacredgravel44](authors/sacredgravel44/README.md) | sacredgravel44 | 1 (matryoshka9) | 0 / 1 *(parked)* |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -348,6 +349,7 @@ Challenges `status: pending` volontairement suspendus (`parked: true` dans `ORIG
 
 | Crackme | Auteur | Reprendre |
 |---|---|---|
+| [matryoshka9](authors/sacredgravel44/6ad44c6c5fa39ab0d4ac1c16/) | sacredgravel44 | Windows PE64 natif ; serial 76 car. ; déchiffrement ARX (31 rounds) + check final localisés (hash 64 bits vs `0x23030D333EA5FEC6`) ; code flatten + MBA massif, Z3 n'a pas convergé ; `analysis/NOTES.md` |
 | [Prometheora](authors/sobrazen/697e95cb977274421cc111e1/) | SoBrazen | Rust PIE, 500 KB ; VM bytecode maison + control-flow flattening + sbox + anti-debug (`rdtsc`/`lock cmpxchg`) ; profondeur ~4.0-4.5 malgré l'étiquette 1.6 ; `secure_verify.rs` pas localisé ; `analysis/NOTES.md` |
 | [LeetObfuscator Crackme](authors/zydak/6ab666ec5ef425e62ef7fd50/) | zydak | watchdog `LeetCrackme` ptrace `./CXXD4` ; `Hell no` ; strings @ `0x4b3060` ; pas de flag ; `analysis/NOTES.md` |
 | [Tetris DRM](authors/zydak/6ac989246349e4b2540c6fe9/) | zydak | prologue `main` @ `0x124a00` ; `EB FF`/`jmp rax` ; suite `0xF6968` ; `SIGILL` sous strace ; notes `analysis/NOTES.md` |

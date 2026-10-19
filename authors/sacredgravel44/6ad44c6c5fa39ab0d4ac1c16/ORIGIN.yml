@@ -1,0 +1,37 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6ad44c6c5fa39ab0d4ac1c16
+
+urls:
+  page: https://crackmes.one/crackme/6ad44c6c5fa39ab0d4ac1c16
+  download: https://crackmes.one/download/crackme/6ad44c6c5fa39ab0d4ac1c16
+
+title: "sacredgravel44's matryoshka9"
+author_on_site: "sacredgravel44"
+author_local: "sacredgravel44"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/matryoshka9_cmo.exe"
+  name: "matryoshka9_cmo.exe"
+  sha256: "7595c793f004d94534f786bf2bdcf47564b7a7ff85888a69aa4e92edc74add9a"
+  md5: "c4f2dc506c97b78103eed297c5c6a75f"
+  size_bytes: 1254400
+
+status: pending
+parked: true
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-19T16:51:47Z"
