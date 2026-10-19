@@ -4,7 +4,7 @@ Recherche [crackmes.one](https://crackmes.one/search?name=&author=&platform=Unix
 
 Filtre : plateforme Unix/linux, difficulté 1.0–2.0, tri date décroissante (plus récent en haut). **278 résultats au total** sur le site ; les **87 derniers** (préfixe `by <auteur>` à partir de `mycrk by cli3nt`) sont les imports historiques `crackmes.de`, déjà traités intégralement et séparément (voir `authors/crackmes-de/`, 311/311 résolus) — **exclus de ce tableau**, qui ne couvre que les **191** crackmes.one natifs restants.
 
-Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` du dépôt (ID exact, pas le titre). **168** déjà `solved`, **22** marqués `TODO` (+ 1 « analysé » sans condition de victoire) ci-dessous. Changement notable par rapport à l'ancien tri (page 1 seulement, 50 résultats) : 3 entrées manquaient (`0x8A7 - Maze`, `ComputeTheKey`, `Hecate linux/unix`), et la liste s'étend maintenant bien au-delà de `Godez_Mark crackme` (jusqu'à `Sh4ll1`, 2018).
+Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` du dépôt (ID exact, pas le titre), puis mis à jour au fil des résolutions (dernière passe : 2026-10-19). **189** `solved`, **1** `parked` (Prometheora, #37) et **1** « analysé » sans condition de victoire (sh0uld_b3_e4zy, #78). Changement notable par rapport à l'ancien tri (page 1 seulement, 50 résultats) : 3 entrées manquaient (`0x8A7 - Maze`, `ComputeTheKey`, `Hecate linux/unix`), et la liste s'étend maintenant bien au-delà de `Godez_Mark crackme` (jusqu'à `Sh4ll1`, 2018).
 
 | # | Date | Crackme | Auteur | Difficulté | Taille | URL | Statut |
 |---|---|---|---|---|---|---|---|
@@ -44,7 +44,7 @@ Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` 
 | 34 | 2026-02-14 | time based riddle | marco007 | 2.0 | 22.36 KB | https://crackmes.one/crackme/6990e4b9a15272fa37a80cb8 | solved |
 | 35 | 2026-02-09 | simple crackme | marco007 | 1.4 | 15.95 KB | https://crackmes.one/crackme/698a6214fb46458f1ef6cef5 | solved |
 | 36 | 2026-02-01 | Quite a simple crackme | sftmlg | 1.1 | 7.08 KB | https://crackmes.one/crackme/697f761b32fcb81e1bd005c6 | solved |
-| 37 | 2026-01-31 | Prometheora | SoBrazen | 1.6 | 500.89 KB | https://crackmes.one/crackme/697e95cb977274421cc111e1 | **TODO** |
+| 37 | 2026-01-31 | Prometheora | SoBrazen | 1.6 | 500.89 KB | https://crackmes.one/crackme/697e95cb977274421cc111e1 | parked |
 | 38 | 2026-01-25 | X-0-R | steve_maxwell | 1.9 | 4.72 MB | https://crackmes.one/crackme/6976041d9bf7b8997653a6cf | solved |
 | 39 | 2026-01-23 | Password And Flag in C | howosec | 2.0 | 20.51 KB | https://crackmes.one/crackme/6973ebc6d735cd51e7a1aa97 | solved |
 | 40 | 2026-01-21 | Rev1 | Klip29mat1 | 2.0 | 3.08 KB | https://crackmes.one/crackme/6970da549bf7b8997653a66f | solved |
@@ -200,4 +200,11 @@ Statuts revérifiés le 2026-10-16 par recoupement direct avec les `ORIGIN.yml` 
 | 190 | 2018-05-06 | Sh4ll2 | destructeur | 2.0 | 8.49 KB | https://crackmes.one/crackme/5aef385633c5d41ac64b492f | **TODO** |
 | 191 | 2018-05-06 | Sh4ll1 | destructeur | 1.4 | 13.23 KB | https://crackmes.one/crackme/5aef37c733c5d41ac64b492e | **TODO** |
 
-Rev1 (#40), FedGuy easy crack (#45), Ghost (#57), Gemy (#65), Upgraded Levels Keygen (#67) : résolus (voir tableau ci-dessus). sh0uld_b3_e4zy (#78) : analysé, aucune condition de victoire (pas de cible). **Mis en attente** : Prometheora (#37, Rust+VM+anti-debug, profondeur ~4.0-4.5 malgré l'étiquette 1.6 — voir `authors/sobrazen/697e95cb977274421cc111e1/analysis/NOTES.md` et la table PARKED du README racine). Le prochain de la file est **Time is of the Essence** (emiflake, #160) : https://crackmes.one/crackme/5d09368533c5d41c6d56e124, puis **noprelo** (kellek, #183), **prodigy** (fack, #184), **easy_reverse** (cbm-hackers, #185), **JustSee** (exzettabyte, #186), **Crack The Door** (S01den, #187), **Sh4ll5/4/2/1** (destructeur, #188-191).
+**190/191 résolus.** Seul reste **Prometheora** (#37, SoBrazen) — mis de
+côté (`parked`) : Rust + VM bytecode maison + control-flow flattening +
+sbox + anti-debug (`rdtsc`/`lock cmpxchg`), profondeur ~4.0-4.5 malgré
+l'étiquette site 1.6. Voir `authors/sobrazen/697e95cb977274421cc111e1/analysis/NOTES.md`
+et la table PARKED du README racine pour reprendre.
+
+sh0uld_b3_e4zy (#78) : analysé, aucune condition de victoire (pas une
+vraie cible, rien à résoudre).
