@@ -362,6 +362,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 327 | [nirvana_crackme_i](5ab77f5633c5d40ad448c2e6/) | anonimoser | Windows PE32 assembleur packé (dump mémoire sous wine) | serial = `%d`((L·Σnom)² mod 2³²) + `AS` + `9n²` (L = nb de chiffres de 9n²) ; anti-debug SICE/OLLYDBG = boucle infinie ; `petik` → `2634129AS225` (vérifié sous wine) |
 | 328 | [anonimoser_crackme_ii](5ab77f5633c5d40ad448c2e7/) | anonimoser | Windows PE32 Delphi (UPX) | keygen : `S1 = str(nom[0]·Σnom·6n) + str(Σchiffres·(len+1))`, puis paires de chiffres → `chr(0x41+a+b)`, suffixe `-AS` ; bouton activé seulement si le code est bon ; `petik` → `18177601272JJIONGBDJJ-AS` (vérifié sous wine) |
 | 329 | [anonimoser_crackme_i](5ab77f5633c5d40ad448c2e8/) | anonimoser | Windows PE32 Delphi 5 (UPX) | keygen : `S1 = str(nom[0]·Σnom+2n) + str(Σchiffres des v cumulés)`, puis paires de chiffres → `chr(0x41+a+b)` ; anti-SoftICE (`\\.\SICE`) dans un timer ; `petik` → `6060288GGGCKQ` (vérifié sous wine) |
+| 330 | [crackme2_by_mabaker](5ab77f5633c5d40ad448c2ed/) | mabaker | Windows PE32 VB6 natif (UPX) | serial fixe : `Val(Text1) = Val(Command11.Caption "0") + 56336980 + 1` → `56336981`, saisi au pavé (vérifié sous wine) |
 
 ## Mis de côté (PARKED — y revenir)
 

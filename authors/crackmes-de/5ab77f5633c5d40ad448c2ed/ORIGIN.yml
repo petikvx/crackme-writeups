@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2ed
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2ed
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2ed
+
+title: "crackmes.de's crackme2_by_mabaker by mabaker"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Visual Basic 6 (natif, UPX)"
+
+difficulty: 1.0
+quality: null
+size: "32.53 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crack_me2.zip"
+  name: "crack_me2.zip"
+  sha256: "edb1112da306312c5180cfdadf297059129ce816c361591b9cac24b93e5ac7a1"
+  md5: "e353685bb36e5743d84d49aaa92ce630"
+  size_bytes: 33313
+
+status: solved
+solution_summary: "Serial fixe 56336981 = Val(Command11.Caption \"0\") + 56336980 + 1, saisi au pavé (VB6 natif)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-19T22:56:51Z"
