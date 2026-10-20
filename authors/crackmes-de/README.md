@@ -364,6 +364,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 329 | [anonimoser_crackme_i](5ab77f5633c5d40ad448c2e8/) | anonimoser | Windows PE32 Delphi 5 (UPX) | keygen : `S1 = str(nom[0]·Σnom+2n) + str(Σchiffres des v cumulés)`, puis paires de chiffres → `chr(0x41+a+b)` ; anti-SoftICE (`\\.\SICE`) dans un timer ; `petik` → `6060288GGGCKQ` (vérifié sous wine) |
 | 330 | [crackme2_by_mabaker](5ab77f5633c5d40ad448c2ed/) | mabaker | Windows PE32 VB6 natif (UPX) | serial fixe : `Val(Text1) = Val(Command11.Caption "0") + 56336980 + 1` → `56336981`, saisi au pavé (vérifié sous wine) |
 | 331 | [enableme_pushme_1_by_saytos](5ab77f5633c5d40ad448c2ee/) | saytos | Windows PE32 asm (anti-patch multithread) | patch : 3 `CreateThread` de `WM_INITDIALOG` → `EnableWindow(bouton, TRUE)` ; compteur `0x1BD ^ 0x43 == 0x1FE` intact → good boy (vérifié sous wine) |
+| 332 | [keygenme2_by_saytos](5ab77f5633c5d40ad448c2ef/) | saytos | Windows PE32 MASM keygenme | keygen : `MD5hex(nom) + "-" + TEA("crackmes\0Hmm,but", nom[:8])` inversé, positions 6/20/31 forcées (`C`, `x`, `$`), majuscules ; routines du binaire vérifiées sous unicorn |
 
 ## Mis de côté (PARKED — y revenir)
 

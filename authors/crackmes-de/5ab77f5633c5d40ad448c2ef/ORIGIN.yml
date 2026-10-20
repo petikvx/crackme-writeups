@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2ef
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2ef
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2ef
+
+title: "crackmes.de's keygenme2 by saytos"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Assembler"
+
+difficulty: 2.0
+quality: 4.0
+size: "12.23 KB"
+published: "2018-03-25"
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/keygenme#2_saytos.zip"
+  name: "keygenme#2_saytos.zip"
+  sha256: "12ffb66cadd5854e5f8e26fa05779ae8840c0aaef1f01af50ee63f6e4ce91b9f"
+  md5: "5872315d699c7768a8671e6e2a4b3cbb"
+  size_bytes: 12528
+
+status: solved
+solution_summary: "keygen : MD5hex(nom) + '-' + TEA(clé \"crackmes\\0Hmm,but\", nom[:8]) inversé, s[6]=C s[20]=x MAJ s[31]=$ ; petik -> CDC64CCB9A59F8E590BFX214497A1E6$-31B8E0E5501DFF9B"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-20T00:54:33Z"
