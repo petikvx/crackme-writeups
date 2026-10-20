@@ -365,6 +365,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 330 | [crackme2_by_mabaker](5ab77f5633c5d40ad448c2ed/) | mabaker | Windows PE32 VB6 natif (UPX) | serial fixe : `Val(Text1) = Val(Command11.Caption "0") + 56336980 + 1` → `56336981`, saisi au pavé (vérifié sous wine) |
 | 331 | [enableme_pushme_1_by_saytos](5ab77f5633c5d40ad448c2ee/) | saytos | Windows PE32 asm (anti-patch multithread) | patch : 3 `CreateThread` de `WM_INITDIALOG` → `EnableWindow(bouton, TRUE)` ; compteur `0x1BD ^ 0x43 == 0x1FE` intact → good boy (vérifié sous wine) |
 | 332 | [keygenme2_by_saytos](5ab77f5633c5d40ad448c2ef/) | saytos | Windows PE32 MASM keygenme | keygen : `MD5hex(nom) + "-" + TEA("crackmes\0Hmm,but", nom[:8])` inversé, positions 6/20/31 forcées (`C`, `x`, `$`), majuscules ; routines du binaire vérifiées sous unicorn |
+| 333 | [crackme_v0.2 by lafarge](5ab77f5633c5d40ad448c2f0/) | lafarge (Team ICU) | Windows PE32 asm (dialogue) | keygen : `buf[i%16] = ((nom[i%len] ^ buf[i%16]) % 25) + 0x41` sur la clé `_r <()<1-Z2[l5,^`, format `XXXX-XXXX-XXXX-XXXX` ; petik → `WXJK-ROOT-SYQM-YRVV` (vérifié sous wine) |
 
 ## Mis de côté (PARKED — y revenir)
 

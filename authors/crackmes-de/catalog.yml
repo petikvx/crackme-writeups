@@ -1711,6 +1711,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c2ef/original/keygenme#2_saytos.zip"
     title: "crackmes.de's keygenme2 by saytos"
 
+  5ab77f5633c5d40ad448c2f0:
+    sha256: "93a211ed0db2559c8d8f8bc3c657b73a3fe37f3601152917665a41f64498597b"
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2f0/original/lafarge__s.crackme.0.2.crackme-icu.zip"
+    title: "crackmes.de's crackme_v0.2 by lafarge"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3092,3 +3097,7 @@ by_sha256:
     id: 5ab77f5633c5d40ad448c2ef
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c2ef/original/keygenme#2_saytos.zip"
     page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2ef
+  93a211ed0db2559c8d8f8bc3c657b73a3fe37f3601152917665a41f64498597b:
+    id: 5ab77f5633c5d40ad448c2f0
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2f0/original/lafarge__s.crackme.0.2.crackme-icu.zip"
+    page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2f0

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2f0
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2f0
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2f0
+
+title: "crackmes.de's crackme_v0.2 by lafarge"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "asm"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/lafarge__s.crackme.0.2.crackme-icu.zip"
+  name: "lafarge__s.crackme.0.2.crackme-icu.zip"
+  sha256: "93a211ed0db2559c8d8f8bc3c657b73a3fe37f3601152917665a41f64498597b"
+  md5: "1f6db3eb94f196f9f7fb46fe677124e7"
+  size_bytes: 35209
+
+status: solved
+solution_summary: "keygen : buf[i%16] = ((nom[i%len] ^ buf[i%16]) % 25) + 0x41 sur la clé _r <()<1-Z2[l5,^ (i < max(16,len)), format XXXX-XXXX-XXXX-XXXX ; petik -> WXJK-ROOT-SYQM-YRVV"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-20T04:37:23Z"
