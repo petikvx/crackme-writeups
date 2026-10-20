@@ -366,6 +366,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 331 | [enableme_pushme_1_by_saytos](5ab77f5633c5d40ad448c2ee/) | saytos | Windows PE32 asm (anti-patch multithread) | patch : 3 `CreateThread` de `WM_INITDIALOG` → `EnableWindow(bouton, TRUE)` ; compteur `0x1BD ^ 0x43 == 0x1FE` intact → good boy (vérifié sous wine) |
 | 332 | [keygenme2_by_saytos](5ab77f5633c5d40ad448c2ef/) | saytos | Windows PE32 MASM keygenme | keygen : `MD5hex(nom) + "-" + TEA("crackmes\0Hmm,but", nom[:8])` inversé, positions 6/20/31 forcées (`C`, `x`, `$`), majuscules ; routines du binaire vérifiées sous unicorn |
 | 333 | [crackme_v0.2 by lafarge](5ab77f5633c5d40ad448c2f0/) | lafarge (Team ICU) | Windows PE32 asm (dialogue) | keygen : `buf[i%16] = ((nom[i%len] ^ buf[i%16]) % 25) + 0x41` sur la clé `_r <()<1-Z2[l5,^`, format `XXXX-XXXX-XXXX-XXXX` ; petik → `WXJK-ROOT-SYQM-YRVV` (vérifié sous wine) |
+| 334 | [lafarges_crackme_1 by lafarge](5ab77f5633c5d40ad448c2f1/) | lafarge | Windows PE32 MASM (dialogue), packé Yoda's Crypter 1.2 | keygen : nom (4–84 car.) → `XXXXX-XXXXX-XXXXX` via 2 tables 256 o (T0 mélange, T1 substitution) ; petik → `_!^ E-\%^SA--'SNC` (routine réelle vérifiée sous unicorn ; Wine plante dans le stub du packer) |
 
 ## Mis de côté (PARKED — y revenir)
 

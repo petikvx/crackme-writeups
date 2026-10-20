@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2f1
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2f1
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2f1
+
+title: "crackmes.de's lafarges_crackme_1 by lafarge"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/lafarge-crackme1.zip"
+  name: "lafarge-crackme1.zip"
+  sha256: "ecc4af4416300dac78c7400b8aed647ab0ecad497cee52bfbd67f256fe4fdd63"
+  md5: "3caaa2e2af8814ec436f6928d50d2bce"
+  size_bytes: 35140
+
+status: solved
+solution_summary: "keygen : nom (4-84 car.) completé à un multiple de 15 par T0, mélange b[j]^=T0[b[i]], repliement des blocs de 15 sur le 1er, substitution T1, format XXXXX-XXXXX-XXXXX ; petik -> _!^ E-\\%^SA--'SNC"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-20T19:27:11Z"
