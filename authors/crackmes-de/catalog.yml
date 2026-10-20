@@ -1721,6 +1721,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c2f1/original/lafarge-crackme1.zip"
     title: "crackmes.de's lafarges_crackme_1 by lafarge"
 
+  5ab77f5633c5d40ad448c2f7:
+    sha256: "1ae8144a993ba374af1a25a88f0768ab2aeb43dd723596194fe14cc9cd3e5b09"
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2f7/original/CrackMe.zip"
+    title: "crackmes.de's crackme_1 by nrz0e1"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3110,3 +3115,7 @@ by_sha256:
     id: 5ab77f5633c5d40ad448c2f1
     path: "authors/crackmes-de/5ab77f5633c5d40ad448c2f1/original/lafarge-crackme1.zip"
     page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2f1
+  1ae8144a993ba374af1a25a88f0768ab2aeb43dd723596194fe14cc9cd3e5b09:
+    id: 5ab77f5633c5d40ad448c2f7
+    path: "authors/crackmes-de/5ab77f5633c5d40ad448c2f7/original/CrackMe.zip"
+    page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2f7

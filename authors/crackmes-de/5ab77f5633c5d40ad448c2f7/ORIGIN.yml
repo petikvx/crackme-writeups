@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2f7
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2f7
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2f7
+
+title: "crackmes.de's crackme_1 by nrz0e1"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Borland C++"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/CrackMe.zip"
+  name: "CrackMe.zip"
+  sha256: "1ae8144a993ba374af1a25a88f0768ab2aeb43dd723596194fe14cc9cd3e5b09"
+  md5: "4b01331a5cf77eecd13db455471a0a2b"
+  size_bytes: 28153
+
+status: solved
+solution_summary: "patch : neutraliser l'exit(1) de main (VA 0x40117c, 8 octets -> nop) ; tools/crackme1-nrz0e1-solve.py -> analysis/CrackMe-patched.exe affiche « You solved the problem !!!! » (Wine)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-20T23:49:48Z"
