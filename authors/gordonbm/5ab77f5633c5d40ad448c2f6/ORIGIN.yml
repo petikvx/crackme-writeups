@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2f6
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2f6
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2f6
+
+title: "crackmes.de's reverse_keygenme by gordonbm"
+author_on_site: "crackmes.de"
+author_local: "gordonbm"
+
+platform: "Windows"
+arch: "x86"
+language: "C# (.NET 4.5)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Reverse_Keygenme.zip"
+  name: "Reverse_Keygenme.zip"
+  sha256: "fc0dd4e42801d6da7682e73a54c770edc25cd4366db4b661890be94da3f5a5d1"
+  md5: "815f5e3ef35634d2fd4dae45f3176de1"
+  size_bytes: 5231
+
+status: solved
+solution_summary: "Encrypter.exe .NET : mode normal = concat des codes ASCII décimaux (petik→112101116105107) ; hardcore = char + ran(L) (ran = sum r_i*(i^6)*3^(2L-1-i), r_i aléatoire) ; inverse par énumération des offsets + DFS de segmentation (GordonBM retrouvé sur les clés du readme)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-20T22:50:14Z"

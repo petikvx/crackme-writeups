@@ -1,0 +1,15 @@
+/workspace/crackme-writeups/authors/gordonbm/5ab77f5633c5d40ad448c2f6/tools/harness/bin/Release/net8.0/h
+/workspace/crackme-writeups/authors/gordonbm/5ab77f5633c5d40ad448c2f6/tools/harness/bin/Release/net8.0/h.deps.json
+/workspace/crackme-writeups/authors/gordonbm/5ab77f5633c5d40ad448c2f6/tools/harness/bin/Release/net8.0/h.runtimeconfig.json
+/workspace/crackme-writeups/authors/gordonbm/5ab77f5633c5d40ad448c2f6/tools/harness/bin/Release/net8.0/h.dll
+/workspace/crackme-writeups/authors/gordonbm/5ab77f5633c5d40ad448c2f6/tools/harness/bin/Release/net8.0/h.pdb
+/workspace/crackme-writeups/authors/gordonbm/5ab77f5633c5d40ad448c2f6/tools/harness/obj/Release/net8.0/h.GeneratedMSBuildEditorConfig.editorconfig
+/workspace/crackme-writeups/authors/gordonbm/5ab77f5633c5d40ad448c2f6/tools/harness/obj/Release/net8.0/h.AssemblyInfoInputs.cache
+/workspace/crackme-writeups/authors/gordonbm/5ab77f5633c5d40ad448c2f6/tools/harness/obj/Release/net8.0/h.AssemblyInfo.cs
+/workspace/crackme-writeups/authors/gordonbm/5ab77f5633c5d40ad448c2f6/tools/harness/obj/Release/net8.0/h.csproj.CoreCompileInputs.cache
+/workspace/crackme-writeups/authors/gordonbm/5ab77f5633c5d40ad448c2f6/tools/harness/obj/Release/net8.0/h.sourcelink.json
+/workspace/crackme-writeups/authors/gordonbm/5ab77f5633c5d40ad448c2f6/tools/harness/obj/Release/net8.0/h.dll
+/workspace/crackme-writeups/authors/gordonbm/5ab77f5633c5d40ad448c2f6/tools/harness/obj/Release/net8.0/refint/h.dll
+/workspace/crackme-writeups/authors/gordonbm/5ab77f5633c5d40ad448c2f6/tools/harness/obj/Release/net8.0/h.pdb
+/workspace/crackme-writeups/authors/gordonbm/5ab77f5633c5d40ad448c2f6/tools/harness/obj/Release/net8.0/h.genruntimeconfig.cache
+/workspace/crackme-writeups/authors/gordonbm/5ab77f5633c5d40ad448c2f6/tools/harness/obj/Release/net8.0/ref/h.dll

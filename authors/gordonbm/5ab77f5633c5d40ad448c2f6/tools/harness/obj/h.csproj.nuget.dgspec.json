@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "/workspace/crackme-writeups/authors/gordonbm/5ab77f5633c5d40ad448c2f6/tools/harness/h.csproj": {}
+  },
+  "projects": {
+    "/workspace/crackme-writeups/authors/gordonbm/5ab77f5633c5d40ad448c2f6/tools/harness/h.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/workspace/crackme-writeups/authors/gordonbm/5ab77f5633c5d40ad448c2f6/tools/harness/h.csproj",
+        "projectName": "h",
+        "projectPath": "/workspace/crackme-writeups/authors/gordonbm/5ab77f5633c5d40ad448c2f6/tools/harness/h.csproj",
+        "packagesPath": "/home/box/.nuget/packages/",
+        "outputPath": "/workspace/crackme-writeups/authors/gordonbm/5ab77f5633c5d40ad448c2f6/tools/harness/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/box/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/box/.dotnet/sdk/8.0.425/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

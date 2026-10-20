@@ -342,6 +342,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [klip29mat1](authors/klip29mat1/README.md) | Klip29mat1 | 1 (Rev1) | 1 / 1 |
 | [emiflake](authors/emiflake/README.md) | emiflake | 1 (Time is of the Essence) | 1 / 1 |
 | [sacredgravel44](authors/sacredgravel44/README.md) | sacredgravel44 | 1 (matryoshka9) | 0 / 1 *(parked)* |
+| [gordonbm](authors/gordonbm/README.md) | GordonBM | 1 (Reverse_Keygenme) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -367,6 +368,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-21 | [Reverse_Keygenme by GordonBM](authors/gordonbm/5ab77f5633c5d40ad448c2f6/) | gordonbm |
 | 2026-10-20 | [lafarges_crackme_1 by lafarge](authors/crackmes-de/5ab77f5633c5d40ad448c2f1/) | crackmes.de / lafarge |
 | 2026-10-20 | [crackme_v0.2 by lafarge](authors/crackmes-de/5ab77f5633c5d40ad448c2f0/) | crackmes.de / lafarge |
 | 2026-10-20 | [keygenme2 by saytos](authors/crackmes-de/5ab77f5633c5d40ad448c2ef/) | crackmes.de / saytos |
