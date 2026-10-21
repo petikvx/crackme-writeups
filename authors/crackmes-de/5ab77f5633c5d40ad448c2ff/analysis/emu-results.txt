@@ -1,0 +1,8 @@
+# OK petik
+[(1004, b'Serial accepted! Type a keygen!')]
+# KO serial+x
+[(1004, b'Wrong serial!')]
+# KO nom court
+[(1004, b'User name must be more than 3 chars!')]
+# OK Alexander 1469836248-deadbeef-weloveyourMy Disk
+[(1004, b'Serial accepted! Type a keygen!')]

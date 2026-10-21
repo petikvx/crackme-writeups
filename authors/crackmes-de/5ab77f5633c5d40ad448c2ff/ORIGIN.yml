@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2ff
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2ff
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2ff
+
+title: "crackmes.de's crackme_1_fixed by missing_in_bytes"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows PE32 GUI (VC++ 6, MFC42D debug, UPX 1.24)"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/mib.crkme1_fixed.zip"
+  name: "mib.crkme1_fixed.zip"
+  sha256: "75075d018e5136e3c52b6438fa68aca19e9ecb0ac160a703b59e5640e9820edb"
+  md5: "76ece864944bb0ed61c44d0892e37a67"
+  size_bytes: 27412
+
+status: solved
+solution_summary: "keygen : \"%d\"(S*4) + \"-\" + hex(volser) + \"-weloveyour\" + label du volume, S = 0xCCCCCCCC (non init) + Σ sext8(len+sext8(c+1)) + (CWnd*desktop>>1) ; petik→880189860-1234abcd-weloveyourPETIK (volser 1234abcd, label PETIK, desktop a1b2c4) ; vérifié par émulation unicorn du handler réel (MFC42D absente de wine)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-21T02:56:31Z"
