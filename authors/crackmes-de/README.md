@@ -370,6 +370,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 335 | [crackme_1 by nrz0e1](5ab77f5633c5d40ad448c2f7/) | nrz0e1 | Windows PE32 console Borland C++ | patch : `main` appelle `exit(1)` juste après la bannière (VA `0x40117c`, `6a 01 e8 … 59`) → 8×`nop` ⇒ « You solved the problem !!!! » (vérifié Wine) |
 | 336 | [nelix_crackme_1](5ab77f5633c5d40ad448c2fd/) | nelix | Windows .NET WinForms (x86) | keygen : serial = hex(`MD5(name)` ⊕ clé 16 octets en dur) ; `petik`→`C2FCC399D9645CD0B34B702811275377` (vérifié wine-mono) |
 | 337 | [CrackMe #1 (MiB)](5ab77f5633c5d40ad448c2ff/) | MiSSiNG iN ByTES | Windows PE32 GUI, VC++ 6 / MFC42D debug, UPX | keygen : `%d`(S·4) + `-` + `%x`(serial volume) + `-weloveyour` + label volume, S = `0xCCCCCCCC` (non init) + Σ… + desktop>>1 ; petik → `880189860-1234abcd-weloveyourPETIK` (handler réel vérifié sous unicorn ; MFC42D absente de wine) |
+| 338 | [crackme_extreme_v1.0](5ab77f5633c5d40ad448c300/) | the_rapture | Windows .NET VB WinForms (x86) | 2 serials en dur : `c60r4a26c4k89m6e3-rapture` (Form4) puis `r2a6p4t8u9r6e3` (Form6, nom `petik` accepté — non vérifié) ; 3 nags `Remove Me` au `Form1_Load` |
 
 ## Mis de côté (PARKED — y revenir)
 

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c300
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c300
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c300
+
+title: "crackmes.de's crackme_extreme_v1.0 by the_rapture"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "VB.NET"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/CrackMe_Extreme_v1.0.zip.zip"
+  name: "CrackMe_Extreme_v1.0.zip.zip"
+  sha256: "dcf8dbef9a37cd15eaf79f93b91d449cea946ca876708f7519de02859c0e89c6"
+  md5: "a6af97c716ac9df8f16b93b51db3465f"
+  size_bytes: 26685
+
+status: solved
+solution_summary: "serials en dur (CompareString VB.NET) : Form4 c60r4a26c4k89m6e3-rapture, puis Form6 r2a6p4t8u9r6e3 (nom petik, non vérifié) ; nags = 3 MsgBox au Form1_Load"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-21T03:39:08Z"
