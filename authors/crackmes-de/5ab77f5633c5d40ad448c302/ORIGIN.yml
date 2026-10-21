@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c302
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c302
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c302
+
+title: "crackmes.de's keygenme.v.1.by.albertus by albertus"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C++ (MinGW)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Keygenme.v.1.by.albertus.zip"
+  name: "Keygenme.v.1.by.albertus.zip"
+  sha256: "7d27c08a672c1e03bfa8b2f3d4ef4751c191f0f08c55d492c70d470e0d8f9400"
+  md5: "4f89cd12009b4531ceb4bc6d0c758947"
+  size_bytes: 144254
+
+status: solved
+solution_summary: "keygen : 1er caractère du nom ∈ {!GHJLMTYaeghikorstuv}, longueur impaire 11..29 non multiple de 3 (ex. ketiketiket ; petik impossible) ; serial = chiffres + dernier chiffre = somme pondérée %10 (ex. 123456780)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-21T03:52:02Z"
