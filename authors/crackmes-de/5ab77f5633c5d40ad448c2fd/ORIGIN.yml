@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5633c5d40ad448c2fd
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5633c5d40ad448c2fd
+  download: https://crackmes.one/download/crackme/5ab77f5633c5d40ad448c2fd
+
+title: "crackmes.de's nelix_crackme_1 by nelix"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C# (.NET)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Nelix_CrackMe_1.zip"
+  name: "Nelix_CrackMe_1.zip"
+  sha256: "9d80b14b4b9cabb92ec2efcb6d09f5f6b1e0875fb3a17929b055a506ee2a1dd5"
+  md5: "31ac10614c01c1a5ae873fe2080ae93b"
+  size_bytes: 6757
+
+status: solved
+solution_summary: "keygen : serial = hex(MD5(name) XOR K) (K = 16 octets en dur dans l'IL généré à la volée) ; petik->C2FCC399D9645CD0B34B702811275377 ; tools/nelix-crackme1-solve.py, vérifié wine-mono"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-21T02:10:42Z"

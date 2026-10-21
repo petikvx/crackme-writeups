@@ -368,6 +368,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 333 | [crackme_v0.2 by lafarge](5ab77f5633c5d40ad448c2f0/) | lafarge (Team ICU) | Windows PE32 asm (dialogue) | keygen : `buf[i%16] = ((nom[i%len] ^ buf[i%16]) % 25) + 0x41` sur la clé `_r <()<1-Z2[l5,^`, format `XXXX-XXXX-XXXX-XXXX` ; petik → `WXJK-ROOT-SYQM-YRVV` (vérifié sous wine) |
 | 334 | [lafarges_crackme_1 by lafarge](5ab77f5633c5d40ad448c2f1/) | lafarge | Windows PE32 MASM (dialogue), packé Yoda's Crypter 1.2 | keygen : nom (4–84 car.) → `XXXXX-XXXXX-XXXXX` via 2 tables 256 o (T0 mélange, T1 substitution) ; petik → `_!^ E-\%^SA--'SNC` (routine réelle vérifiée sous unicorn ; Wine plante dans le stub du packer) |
 | 335 | [crackme_1 by nrz0e1](5ab77f5633c5d40ad448c2f7/) | nrz0e1 | Windows PE32 console Borland C++ | patch : `main` appelle `exit(1)` juste après la bannière (VA `0x40117c`, `6a 01 e8 … 59`) → 8×`nop` ⇒ « You solved the problem !!!! » (vérifié Wine) |
+| 336 | [nelix_crackme_1](5ab77f5633c5d40ad448c2fd/) | nelix | Windows .NET WinForms (x86) | keygen : serial = hex(`MD5(name)` ⊕ clé 16 octets en dur) ; `petik`→`C2FCC399D9645CD0B34B702811275377` (vérifié wine-mono) |
 
 ## Mis de côté (PARKED — y revenir)
 
