@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c309
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c309
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c309
+
+title: "crackmes.de's crackme12 by attilhaz"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows PE32 GUI (VB6 natif)"
+arch: "x86"
+language: "Visual Basic 6"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme12.zip"
+  name: "crackme12.zip"
+  sha256: "e00b6948d8eaf1f49f1eb9a682ffef3bbbde8039f5c12adcf699769a89a06179"
+  md5: "e5f2d67c9feb019bb6b3916ab4a20daf"
+  size_bytes: 3803
+
+status: solved
+solution_summary: "keyfile : keyfile.dat = abcx-rmno-fdas-fass (chaîne en dur, sans CRLF) ; vérifié Wine"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-22T00:48:45Z"
