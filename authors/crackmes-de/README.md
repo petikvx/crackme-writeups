@@ -373,6 +373,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 338 | [crackme_extreme_v1.0](5ab77f5633c5d40ad448c300/) | the_rapture | Windows .NET VB WinForms (x86) | 2 serials en dur : `c60r4a26c4k89m6e3-rapture` (Form4) puis `r2a6p4t8u9r6e3` (Form6, nom `petik` accepté — non vérifié) ; 3 nags `Remove Me` au `Form1_Load` |
 | 339 | [Keygenme v.1 (albertus)](5ab77f5633c5d40ad448c302/) | albertus | Windows PE32 console MinGW C++ | keygen : 1er car. du nom ∈ jeu dérivé de 2 tables, longueur impaire 11..29 non multiple de 3 ; serial = chiffres + chiffre de contrôle (somme pondérée mod 10) ; `petik` refusé → `ketiketiket` / `123456780` (vérifié Wine) |
 | 340 | [crackme12 (attilhaz)](5ab77f5733c5d40ad448c309/) | attilhaz | Windows PE32 GUI, VB6 natif | keyfile : `keyfile.dat` doit contenir exactement `abcx-rmno-fdas-fass` (StrCmp en dur, sans CRLF) ; vérifié Wine (Registered / Unregistered) |
+| 341 | [crackme06 (attilhaz)](5ab77f5733c5d40ad448c30c/) | attilhaz | Windows PE32 GUI, VB6 natif | patch : caption `Label2` `DEMO VERSION` → `FULL VERSION` (même longueur) → le Timer écrit `REGISTERED` ; vérifié Wine (`tools/crackme06-solve.py`) |
 
 ## Mis de côté (PARKED — y revenir)
 

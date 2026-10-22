@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c30c
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c30c
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c30c
+
+title: "crackmes.de's crackme06 by attilhaz"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows PE32 GUI"
+arch: "x86"
+language: "Visual Basic 6 (native)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme06.zip"
+  name: "crackme06.zip"
+  sha256: "1514adf801b56263aaa2ba0d89006ef0a9f28d2e29102e8af268b17f97c0b3ca"
+  md5: "a5830103b4c0c7ddc1ae0afe88c639be"
+  size_bytes: 3970
+
+status: solved
+solution_summary: "patch : Label2.Caption DEMO VERSION -> FULL VERSION (frx @0x1369) ; le handler compare Caption==\"FULL VERSION\" puis Text1=\"REGISTERED\""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-22T22:56:28Z"
