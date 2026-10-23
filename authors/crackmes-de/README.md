@@ -374,6 +374,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 339 | [Keygenme v.1 (albertus)](5ab77f5633c5d40ad448c302/) | albertus | Windows PE32 console MinGW C++ | keygen : 1er car. du nom ∈ jeu dérivé de 2 tables, longueur impaire 11..29 non multiple de 3 ; serial = chiffres + chiffre de contrôle (somme pondérée mod 10) ; `petik` refusé → `ketiketiket` / `123456780` (vérifié Wine) |
 | 340 | [crackme12 (attilhaz)](5ab77f5733c5d40ad448c309/) | attilhaz | Windows PE32 GUI, VB6 natif | keyfile : `keyfile.dat` doit contenir exactement `abcx-rmno-fdas-fass` (StrCmp en dur, sans CRLF) ; vérifié Wine (Registered / Unregistered) |
 | 341 | [crackme06 (attilhaz)](5ab77f5733c5d40ad448c30c/) | attilhaz | Windows PE32 GUI, VB6 natif | patch : caption `Label2` `DEMO VERSION` → `FULL VERSION` (même longueur) → le Timer écrit `REGISTERED` ; vérifié Wine (`tools/crackme06-solve.py`) |
+| 342 | [crackme04 (attilhaz)](5ab77f5733c5d40ad448c30e/) | attilhaz | Windows PE32 GUI, VB6 natif | patch : `jmp 0x401ec8` (`eb 91`→`eb 00` @0x401f35) casse la boucle infinie de MsgBox ; vérifié Wine |
 
 ## Mis de côté (PARKED — y revenir)
 

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c30e
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c30e
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c30e
+
+title: "crackmes.de's crackme04 by attilhaz"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows PE32 GUI (VB6 natif)"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme04.zip"
+  name: "crackme04.zip"
+  sha256: "02c1d6d41c0a03c152c722b86bb89affedba27c3940eba6d98de685a5dd609ac"
+  md5: "c234be312b4da71841552418108ffbc2"
+  size_bytes: 3465
+
+status: solved
+solution_summary: "patch : boucle infinie MsgBox 'Infinity cicle' ; jmp 0x401ec8 (eb 91) -> eb 00 @0x401f35 (offset fichier 0x1f35)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-23T00:54:30Z"
