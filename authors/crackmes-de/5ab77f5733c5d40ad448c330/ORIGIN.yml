@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c330
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c330
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c330
+
+title: "crackmes.de's keygenme_1 by toma6868"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/CrackMe_1.zip"
+  name: "CrackMe_1.zip"
+  sha256: "6592f786d9d70b55a86db1b273678d47e0a0c61505c8bb03349fd12d2651a131"
+  md5: "78873e364130f89c4e06c02c1f07195a"
+  size_bytes: 22298
+
+status: solved
+solution_summary: "keygen name->serial : reverse(concat(hex_maj(ord(c)))), len(name)>=4 ; petik->B696475607 (KeyGenMe_1.exe, VB.NET WinForms)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-24T22:49:28Z"
