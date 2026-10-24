@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c31a
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c31a
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c31a
+
+title: "crackmes.de's crackme13 by attilhaz"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows PE32 GUI (VB6 natif)"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme13.zip"
+  name: "crackme13.zip"
+  sha256: "8be8957afca6d90acd7cd6d49d8aef5c289366f307edf74cee4329a72e9c4ee9"
+  md5: "536d44f004d9001a2a5e0653917ccef9"
+  size_bytes: 3877
+
+status: solved
+solution_summary: "keyfile.dat de 25 octets (LOF(1) == pow(2,2)+21+98-90+10-16-pow(456,0)-1 = 25) ; contenu ignoré ; petik+bourrage ; Wine OK"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-24T06:46:20Z"
