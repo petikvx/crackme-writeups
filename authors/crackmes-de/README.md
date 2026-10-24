@@ -392,4 +392,4 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | [meloquynthe](5ab77f5933c5d40ad448c46f/) | [`…c46f`](https://crackmes.one/crackme/5ab77f5933c5d40ad448c46f) | GUI déobfusquée ; **séquence boutons vs wave** (`sub_40507f`) — `analysis/notes.txt` |
 | [ha_ck](5ab77f5733c5d40ad448c34a/) | [`…c34a`](https://crackmes.one/crackme/5ab77f5733c5d40ad448c34a) | shc 3.8 : clé RC4 dérivée de `stat(/bin/bash)` de la machine d'origine (rlax=0) — `analysis/notes.txt` |
 | [rbx_crackme_8](5ab77f5833c5d40ad448c41f/) | [`…c41f`](https://crackmes.one/crackme/5ab77f5833c5d40ad448c41f) | FreeBSD 5.3 ; serials 1/2 = `sprintf("%f.%f", x)` avec 2ᵉ double lu sur la pile (non initialisé) — `analysis/notes.txt` |
-
+| 351 | [crackme22 (attilhaz)](5ab77f5733c5d40ad448c31e/) | attilhaz | Windows PE32 GUI, VB6 natif | keygen name→serial : `petik`→`1229112695117` (concat décimale de `Asc±10`, +/− selon parité) ; vérifié Wine (`tools/crackme22-solve.py --check`) |
