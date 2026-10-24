@@ -10,6 +10,11 @@ by_id:
     path: "authors/jasper676767/6a7590e8184836c0dbe7d6bc/original/myFirstCrackme"
     title: "Jasper676767's I forgot my password!!!!"
 
+  6ad6c85c4ab951a9999d9f55:
+    sha256: "e089734d62dd9fb3f267fda6771f2a4efe23299f470c2c6b9d4820941b182abc"
+    path: "authors/jasper676767/6ad6c85c4ab951a9999d9f55/original/Chall.zip"
+    title: "Jasper676767's Functions!"
+
 by_sha256:
   c6dc1be3e9133cfe5625769bc516124d2283042bd7e4d0a6d90d29bd7712543c:
     id: 6a76df14184836c0dbe7d6de
@@ -19,3 +24,7 @@ by_sha256:
     id: 6a7590e8184836c0dbe7d6bc
     path: "authors/jasper676767/6a7590e8184836c0dbe7d6bc/original/myFirstCrackme"
     page: https://crackmes.one/crackme/6a7590e8184836c0dbe7d6bc
+  e089734d62dd9fb3f267fda6771f2a4efe23299f470c2c6b9d4820941b182abc:
+    id: 6ad6c85c4ab951a9999d9f55
+    path: "authors/jasper676767/6ad6c85c4ab951a9999d9f55/original/Chall.zip"
+    page: https://crackmes.one/crackme/6ad6c85c4ab951a9999d9f55

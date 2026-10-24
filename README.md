@@ -261,7 +261,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [soulreaper](authors/soulreaper/README.md) | soulreaper | 3 (Dead Terminal + XorGate + Death Trap) | 3 / 3 |
 | [toasterbirb](authors/toasterbirb/README.md) | toasterbirb | 10 (yap + série asm flags…branchless-fixed + main.cpp + argc + shellcoding) | 10 / 10 |
 | [ttlhacker](authors/ttlhacker/README.md) | ttlhacker | 3 (hell86 + jittery + hard_software) | 3 / 3 |
-| [jasper676767](authors/jasper676767/README.md) | Jasper676767 | 2 (Red light + forgot password) | 2 / 2 |
+| [jasper676767](authors/jasper676767/README.md) | Jasper676767 | 3 (Red light + forgot password + Functions!) | 3 / 3 |
 | [pitou](authors/pitou/README.md) | pitou | 1 (Evaisve) | 1 / 1 |
 | [fatih](authors/fatih/README.md) | Fatih | 1 (S-BOX) | 1 / 1 |
 | [vilxd](authors/vilxd/README.md) | vilxd | 2 (points + CRACK ME DLL) | 2 / 2 |
@@ -368,6 +368,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-24 | [Functions!](authors/jasper676767/6ad6c85c4ab951a9999d9f55/) | Jasper676767 |
 | 2026-10-24 | [crackme08 by attilhaz](authors/crackmes-de/5ab77f5733c5d40ad448c31b/) | crackmes.de / attilhaz |
 | 2026-10-24 | [crackme13 by attilhaz](authors/crackmes-de/5ab77f5733c5d40ad448c31a/) | crackmes.de / attilhaz |
 | 2026-10-24 | [crackme05 by attilhaz](authors/crackmes-de/5ab77f5733c5d40ad448c317/) | crackmes.de / attilhaz |

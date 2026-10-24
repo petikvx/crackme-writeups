@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6ad6c85c4ab951a9999d9f55
+
+urls:
+  page: https://crackmes.one/crackme/6ad6c85c4ab951a9999d9f55
+  download: https://crackmes.one/download/crackme/6ad6c85c4ab951a9999d9f55
+
+title: "Jasper676767's Functions!"
+author_on_site: "Jasper676767"
+author_local: "jasper676767"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Chall.zip"
+  name: "Chall.zip"
+  sha256: "e089734d62dd9fb3f267fda6771f2a4efe23299f470c2c6b9d4820941b182abc"
+  md5: "79ebb9542c2d21d613d7692e77dbd826"
+  size_bytes: 11129
+
+status: solved
+solution_summary: "output ^ 0x4c (known-plaintext CMO{) ; flag CMO{I_l0v3_fUnCt1OnS} ; boucle 12x+7 du binaire = leurre"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-24T08:39:25Z"
