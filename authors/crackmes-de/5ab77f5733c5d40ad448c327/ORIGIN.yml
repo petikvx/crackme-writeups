@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c327
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c327
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c327
+
+title: "crackmes.de's creepys_crackme by creepy"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows PE32 console"
+arch: "x86"
+language: "C++ (MinGW)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Creepy`sfirstcrackme.zip"
+  name: "Creepy`sfirstcrackme.zip"
+  sha256: "63dd0be138b6aa69f897d7d3e91150b8b33278ec56ecd352b13aa8913fd97233"
+  md5: "0c29059945788e3f7a14ce88b44cf4dc"
+  size_bytes: 150802
+
+status: solved
+solution_summary: "serial 15346 (long double 80 bits à 0x4400f0, cin >> long double + fucompp) ; vérifié Wine"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-24T16:40:00Z"
