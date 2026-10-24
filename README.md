@@ -146,7 +146,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [oguzbey](authors/oguzbey/README.md) | oguzbey | 1 (Lucky Numbers) | 1 / 1 |
 | [andrewl](authors/andrewl/README.md) | andrewl | 1 (Quick Crypto) | 1 / 1 |
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
-| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 352 / 352 |
+| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 353 / 353 |
 | [chaltu](authors/chaltu/README.md) | chaltu | 3 (a Treasure + Double Door + Accsess me please) | 3 / 3 |
 | [qerr0r](authors/qerr0r/README.md) | QERR0R | 2 (crackit + CrackIt;)) | 2 / 2 |
 | [steve_maxwell](authors/steve_maxwell/README.md) | steve_maxwell | 1 (X-0-R) | 1 / 1 |
@@ -368,6 +368,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-24 | [crackme07 by attilhaz](authors/crackmes-de/5ab77f5733c5d40ad448c322/) | crackmes.de / attilhaz |
 | 2026-10-24 | [Functions!](authors/jasper676767/6ad6c85c4ab951a9999d9f55/) | Jasper676767 |
 | 2026-10-24 | [crackme26 by attilhaz](authors/crackmes-de/5ab77f5733c5d40ad448c321/) | crackmes.de / attilhaz |
 | 2026-10-24 | [crackme22 by attilhaz](authors/crackmes-de/5ab77f5733c5d40ad448c31e/) | crackmes.de / attilhaz |
