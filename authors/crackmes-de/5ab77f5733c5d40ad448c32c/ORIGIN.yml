@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c32c
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c32c
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c32c
+
+title: "crackmes.de's keygenme_2 by boonz"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/KeyGenMe2.zip"
+  name: "KeyGenMe2.zip"
+  sha256: "8a42ff4b76f3eb2b428687da4eaecf71dd144f2fa5f8b2faece3df24ddcc7c1b"
+  md5: "4d604f9cc34537062392fdeba1241694"
+  size_bytes: 60838
+
+status: solved
+solution_summary: "keygen name->serial int32 : (445*S+999-L!)*trunc(L!/((L-4)!*4!)), S=somme des octets, L=len ; petik->1208120 (KeygenMe2.exe, MSVC6 C++ debug)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-24T19:48:18Z"

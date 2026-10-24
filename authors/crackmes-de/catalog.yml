@@ -1841,6 +1841,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c32a/original/CrackmeV50DLL.zip"
     title: "crackmes.de's crackmev5 by logan"
 
+  5ab77f5733c5d40ad448c32c:
+    sha256: "8a42ff4b76f3eb2b428687da4eaecf71dd144f2fa5f8b2faece3df24ddcc7c1b"
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c32c/original/KeyGenMe2.zip"
+    title: "crackmes.de's keygenme_2 by boonz"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3326,3 +3331,7 @@ by_sha256:
     id: 5ab77f5733c5d40ad448c32a
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c32a/original/CrackmeV50DLL.zip"
     page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c32a
+  8a42ff4b76f3eb2b428687da4eaecf71dd144f2fa5f8b2faece3df24ddcc7c1b:
+    id: 5ab77f5733c5d40ad448c32c
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c32c/original/KeyGenMe2.zip"
+    page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c32c
