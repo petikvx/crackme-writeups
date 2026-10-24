@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c331
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c331
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c331
+
+title: "crackmes.de's xcrackme by am0k"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "asm (FSG 1.0)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/xCrackMe.zip"
+  name: "xCrackMe.zip"
+  sha256: "37ad8e2eb07ec93062efa962c41e930cd125f8081ef485be1d684bcea595e40f"
+  md5: "5745f98098e8d432c9597c8f28a37c69"
+  size_bytes: 1172
+
+status: solved
+solution_summary: "keygen -> fichier xCrackMe.key (0xa4 o) : nom + dword n=hash(nom) + serial 127 hex, XOR keystream ; petik->9F9DEB23E5D95FCE…C7334EA ; FSG 1.0 dépacké via unicorn"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-24T23:44:51Z"
