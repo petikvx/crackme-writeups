@@ -1,0 +1,16 @@
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+0xf7f39589 in __kernel_vsyscall ()
+Breakpoint 1 at 0x402874
+Breakpoint 2 at 0x4028ac
+i=1 ax=90
+i=2 ax=65
+i=3 ax=65
+i=4 ax=65
+i=5 ax=85
+0x17690fc:	U"\x41005a\x41002d\x550041\x740000\x6b0069"
+0x0:	<error: Cannot access memory at address 0x0>
+
+Program received signal SIGTERM, Terminated.
+0xf7f39589 in __kernel_vsyscall ()
+[Inferior 1 (process 49098) detached]

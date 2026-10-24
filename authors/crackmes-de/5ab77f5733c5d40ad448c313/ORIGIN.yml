@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c313
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c313
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c313
+
+title: "crackmes.de's crackme21 by attilhaz"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows PE32 GUI, VB6 natif"
+arch: "x86"
+language: "Visual Basic 6"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme21.zip"
+  name: "crackme21.zip"
+  sha256: "69e56f2d247eed521c1a63c81b96921b65fcfcf40e216be7417dc566d83ccc60"
+  md5: "b2156f78906c7cc14c8b91c282fad7d7"
+  size_bytes: 5381
+
+status: solved
+solution_summary: "keygen : Asc(nom[i]) ±10 (i impair/pair) normalisé dans A..Z, '-' toutes les 3 itérations ; petik→ZA-AAU ; vérifié Wine/Xvfb + gdb"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-24T00:56:12Z"
