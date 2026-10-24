@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c32d
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c32d
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c32d
+
+title: "crackmes.de's keygenme_1_by_boonz by boonz"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C/ASM (MSVC 6, minifmod)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/KeygenMe_1_by_boonz.zip"
+  name: "KeygenMe_1_by_boonz.zip"
+  sha256: "13098f0aa6cfb62b77151b2a90dbbe95ed0f768567540f5e0df5e21adb786c56"
+  md5: "f3df92a374ab1e9f2f2cab54239237b5"
+  size_bytes: 81232
+
+status: solved
+solution_summary: "keygen name->serial : Bon-<A>-<A^3>-<C> en %lX, A=-sum(c-0x19), C=0x40E0F8*(0x40E0F8-1) constante ; petik->Bon-FFFFFE60-FBB58000-41720F48 (keygenme1.exe, MSVC6 GUI)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-24T20:41:11Z"

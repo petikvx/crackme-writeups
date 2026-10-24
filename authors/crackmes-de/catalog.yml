@@ -1846,6 +1846,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c32c/original/KeyGenMe2.zip"
     title: "crackmes.de's keygenme_2 by boonz"
 
+  5ab77f5733c5d40ad448c32d:
+    sha256: "13098f0aa6cfb62b77151b2a90dbbe95ed0f768567540f5e0df5e21adb786c56"
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c32d/original/KeygenMe_1_by_boonz.zip"
+    title: "crackmes.de's keygenme_1_by_boonz by boonz"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3335,3 +3340,7 @@ by_sha256:
     id: 5ab77f5733c5d40ad448c32c
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c32c/original/KeyGenMe2.zip"
     page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c32c
+  13098f0aa6cfb62b77151b2a90dbbe95ed0f768567540f5e0df5e21adb786c56:
+    id: 5ab77f5733c5d40ad448c32d
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c32d/original/KeygenMe_1_by_boonz.zip"
+    page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c32d
