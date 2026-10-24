@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c326
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c326
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c326
+
+title: "crackmes.de's creepys_crackme3 by creepy"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows PE32 console (MinGW)"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/creepys_crackme#3.zip"
+  name: "creepys_crackme#3.zip"
+  sha256: "905626c83808dda5cfb09335e6405c77c32e2e6477340662695cdd3953094683"
+  md5: "5d7a144113f5d340a78df63b5f13714c"
+  size_bytes: 156274
+
+status: solved
+solution_summary: "mot de passe statique 4444afg56afg56bxdbxd (concaténation de 4 std::string globales: 44,44,afg,56,afg,56,bxd,bxd); vérifié Wine"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-24T15:39:10Z"
