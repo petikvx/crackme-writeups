@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c316
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c316
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c316
+
+title: "crackmes.de's crackme14 by attilhaz"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows PE32 GUI (VB6 natif)"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme14.zip"
+  name: "crackme14.zip"
+  sha256: "bd9aeb0d546881f5ce0a06ea47bca4ff153d950019e0096ca58af563e8d45950"
+  md5: "54ff785bba6879af238a0536571902bf"
+  size_bytes: 4118
+
+status: solved
+solution_summary: "keygen : Len(Text1) == 15 suffit ; petik -> petikpetikpetik ; vérifié Wine"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-24T04:43:57Z"
