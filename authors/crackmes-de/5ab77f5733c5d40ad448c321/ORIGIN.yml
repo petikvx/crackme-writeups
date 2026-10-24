@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c321
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c321
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c321
+
+title: "crackmes.de's crackme26 by attilhaz"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows PE32 GUI (VB6 natif)"
+arch: "x86"
+language: "Visual Basic 6"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme26.zip"
+  name: "crackme26.zip"
+  sha256: "82817cd96933c66fa13f7d714a732829504d669ede9ebd215da08234b5eb1216"
+  md5: "0119f297ce13db69f64ec8b9298950df"
+  size_bytes: 42241
+
+status: solved
+solution_summary: "serial fixe 360119036 : Check_Click @0x4106a0 compare Val(Text1.Text) au double 360119036.0 @0x401138 ; garde anti-debug Timer ; Wine OK"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-24T12:48:05Z"
