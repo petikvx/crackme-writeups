@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c31b
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c31b
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c31b
+
+title: "crackmes.de's crackme08 by attilhaz"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows PE32 GUI (VB6 natif)"
+arch: "x86"
+language: "Visual Basic 6"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme08.zip"
+  name: "crackme08.zip"
+  sha256: "30d2fe9666481b4103c705f1c3d88438cee0ab2170b7cc2aa48bc37550850deb"
+  md5: "63fffb371dc5699bf36368c0851388da"
+  size_bytes: 3878
+
+status: solved
+solution_summary: "patch : 3 octets de la Form1 VB6 (0x1322 00->01 Command1.Enabled ; 0x138e et 0x13c5 05->07 menus Level02 / Enable me03) active les 3 niveaux ; pas de serial ; Wine OK"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-24T07:48:30Z"

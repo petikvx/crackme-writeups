@@ -381,6 +381,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 346 | [crackme14 (attilhaz)](5ab77f5733c5d40ad448c316/) | attilhaz | Windows PE32 GUI, VB6 natif | keygen : `Len(Text1) == 15` (aucun autre test) ; `petik` → `petikpetikpetik` ; vérifié Wine (`tools/crackme14-solve.py`) |
 | 347 | [crackme05 (attilhaz)](5ab77f5733c5d40ad448c317/) | attilhaz | Windows PE32 GUI, VB6 natif | serial en dur `Ap49-mn41` (8 `__vbaStrCat` de constantes 1 char, ordre piégeux) ; aucun user ; vérifié Wine (`tools/crackme05-solve.py`) |
 | 348 | [crackme13 (attilhaz)](5ab77f5733c5d40ad448c31a/) | attilhaz | Windows PE32 GUI, VB6 natif | keyfile : `keyfile.dat` de **25 octets** (seule la taille `LOF` compte, contenu libre ; `petik` + bourrage) ; vérifié Wine (`tools/crackme13-solve.py --check`) |
+| 349 | [crackme08 (attilhaz)](5ab77f5733c5d40ad448c31b/) | attilhaz | Windows PE32 GUI, VB6 natif | patch « enable all levels » : 3 octets dans la ressource Form1 (`0x1322` 00→01, `0x138e`/`0x13c5` 05→07) ; aucun serial ; vérifié Wine (`tools/crackme08-solve.py --check`) |
 
 ## Mis de côté (PARKED — y revenir)
 
