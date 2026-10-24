@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c315
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c315
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c315
+
+title: "crackmes.de's crackme09 by attilhaz"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows PE32 GUI (VB6 natif)"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme09.zip"
+  name: "crackme09.zip"
+  sha256: "f5e2c496cfc9333afe66a4005f47fbc6a4ebe1ed1a1af4497bacef167ea4c748"
+  md5: "d8b40d535ed704ccac140bcd2883102b"
+  size_bytes: 5447
+
+status: solved
+solution_summary: "keygen : serial = F1 | Arcx0d21 | F3 | rNtp4v21 | F5 ; cd-key = Fc+F1+3d7+F3+jk21+F5+fr1a (petik -> pe/ti/k -> Fcpe3d7tijk21kfr1a) ; vérifié Wine/Xvfb"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-24T02:53:10Z"

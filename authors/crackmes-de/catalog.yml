@@ -1771,6 +1771,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c313/original/crackme21.zip"
     title: "crackmes.de's crackme21 by attilhaz"
 
+  5ab77f5733c5d40ad448c315:
+    sha256: "f5e2c496cfc9333afe66a4005f47fbc6a4ebe1ed1a1af4497bacef167ea4c748"
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c315/original/crackme09.zip"
+    title: "crackmes.de's crackme09 by attilhaz"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3200,3 +3205,7 @@ by_sha256:
     id: 5ab77f5733c5d40ad448c313
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c313/original/crackme21.zip"
     page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c313
+  f5e2c496cfc9333afe66a4005f47fbc6a4ebe1ed1a1af4497bacef167ea4c748:
+    id: 5ab77f5733c5d40ad448c315
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c315/original/crackme09.zip"
+    page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c315

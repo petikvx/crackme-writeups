@@ -377,6 +377,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 342 | [crackme04 (attilhaz)](5ab77f5733c5d40ad448c30e/) | attilhaz | Windows PE32 GUI, VB6 natif | patch : `jmp 0x401ec8` (`eb 91`→`eb 00` @0x401f35) casse la boucle infinie de MsgBox ; vérifié Wine |
 | 343 | [crackme01 (attilhaz)](5ab77f5733c5d40ad448c30f/) | attilhaz | Windows PE32 GUI, VB6 natif | serial en dur `Rmth2hm89T21` (`__vbaStrCmp`) ; vérifié Wine (`tools/crackme01-solve.py`) |
 | 344 | [crackme21 (attilhaz)](5ab77f5733c5d40ad448c313/) | attilhaz | Windows PE32 GUI, VB6 natif | keygen : `Asc(nom[i])±10` (i impair/pair) normalisé dans `A..Z`, `-` toutes les 3 itérations ; `petik` → `ZA-AAU` ; vérifié Wine + gdb |
+| 345 | [crackme09 (attilhaz)](5ab77f5733c5d40ad448c315/) | attilhaz | Windows PE32 GUI, VB6 natif | keygen 5 champs + cd-key : `F1`,`Arcx0d21`,`F3`,`rNtp4v21`,`F5` ; cd-key = `Fc+F1+3d7+F3+jk21+F5+fr1a` ; `petik` → `pe/ti/k` → `Fcpe3d7tijk21kfr1a` ; vérifié Wine (`tools/crackme09-solve.py`) |
 
 ## Mis de côté (PARKED — y revenir)
 
