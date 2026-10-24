@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c323
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c323
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c323
+
+title: "crackmes.de's crackme20 by attilhaz"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows PE32 GUI (VB6 natif)"
+arch: "x86"
+language: "Visual Basic 6"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme20.zip"
+  name: "crackme20.zip"
+  sha256: "5549c3a750c4fb816b2d42499ac889272fe9a45f50e2a2126857db5f7ff9b2a6"
+  md5: "5c33af2452688e362a331249f51e3436"
+  size_bytes: 5042
+
+status: solved
+solution_summary: "keygen name->serial : Command1_Click @0x402780 compare Text2 a EncryptPassword(Text1, 10) @0x402430 (Asc+/-10 selon parite, +0x21 si <0x65, +0xa, -0x21 si >0x7a) ; petik->cegi^ ; Wine OK"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-24T14:46:25Z"
