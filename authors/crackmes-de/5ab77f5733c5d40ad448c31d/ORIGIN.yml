@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c31d
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c31d
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c31d
+
+title: "crackmes.de's crackme02 by attilhaz"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows PE32 GUI (VB6 natif)"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme02.zip"
+  name: "crackme02.zip"
+  sha256: "1956a342b1530ace780f44152d685d72f6c0d0e2a69db21614f6c0f04c071fb5"
+  md5: "b9ac2c81e859a0787de091991313f144"
+  size_bytes: 3904
+
+status: solved
+solution_summary: "patch : supprimer le NAG screen — handler VA 0x4022e0 (MsgBox \"Remove Me\" / titre NAG) court-circuité par `55 8b ec`->`c2 04 00` @0x22e0 ; pas de serial ; Wine OK"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-24T10:39:42Z"
