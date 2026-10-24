@@ -379,6 +379,7 @@ Batch **E3** (GDB `-nx -batch`, debuginfod off) : `oxfoo1me`, `Crackme3` (sx0r),
 | 344 | [crackme21 (attilhaz)](5ab77f5733c5d40ad448c313/) | attilhaz | Windows PE32 GUI, VB6 natif | keygen : `Asc(nom[i])±10` (i impair/pair) normalisé dans `A..Z`, `-` toutes les 3 itérations ; `petik` → `ZA-AAU` ; vérifié Wine + gdb |
 | 345 | [crackme09 (attilhaz)](5ab77f5733c5d40ad448c315/) | attilhaz | Windows PE32 GUI, VB6 natif | keygen 5 champs + cd-key : `F1`,`Arcx0d21`,`F3`,`rNtp4v21`,`F5` ; cd-key = `Fc+F1+3d7+F3+jk21+F5+fr1a` ; `petik` → `pe/ti/k` → `Fcpe3d7tijk21kfr1a` ; vérifié Wine (`tools/crackme09-solve.py`) |
 | 346 | [crackme14 (attilhaz)](5ab77f5733c5d40ad448c316/) | attilhaz | Windows PE32 GUI, VB6 natif | keygen : `Len(Text1) == 15` (aucun autre test) ; `petik` → `petikpetikpetik` ; vérifié Wine (`tools/crackme14-solve.py`) |
+| 347 | [crackme05 (attilhaz)](5ab77f5733c5d40ad448c317/) | attilhaz | Windows PE32 GUI, VB6 natif | serial en dur `Ap49-mn41` (8 `__vbaStrCat` de constantes 1 char, ordre piégeux) ; aucun user ; vérifié Wine (`tools/crackme05-solve.py`) |
 
 ## Mis de côté (PARKED — y revenir)
 

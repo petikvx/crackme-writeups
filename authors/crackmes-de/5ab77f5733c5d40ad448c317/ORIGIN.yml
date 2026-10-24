@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c317
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c317
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c317
+
+title: "crackmes.de's crackme05 by attilhaz"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows PE32 GUI (VB6 natif)"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme05.zip"
+  name: "crackme05.zip"
+  sha256: "88ec7e13a59142438874af61f50dd8065a4f3b1817c8f999389c62aef8747346"
+  md5: "05f1680fdd623437ed4d35a2e1ef6065"
+  size_bytes: 4354
+
+status: solved
+solution_summary: "serial en dur Ap49-mn41 (concaténation VB de constantes 1 char) ; pas de user ; vérifié Wine"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-24T05:44:31Z"
