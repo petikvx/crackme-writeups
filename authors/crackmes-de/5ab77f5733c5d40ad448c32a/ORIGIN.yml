@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c32a
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c32a
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c32a
+
+title: "crackmes.de's crackmev5 by logan"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C++ (MFC 4.2, MSVC 6)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/CrackmeV50DLL.zip"
+  name: "CrackmeV50DLL.zip"
+  sha256: "18f9349e1ce25f967075cd72a25cb3fecc21205bf212efd7f040bf07e7870ea8"
+  md5: "91c0dcf858782536c525c2c0af6b3777"
+  size_bytes: 35412
+
+status: solved
+solution_summary: "keygen name(5 car.)->serial(11) : serial[i]=c+digitsum(c)-i, '-', puis -6 ; petik->tfzlo-n`tfi (crap() dans CrackmeV50DLL.DLL)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-24T18:48:18Z"
