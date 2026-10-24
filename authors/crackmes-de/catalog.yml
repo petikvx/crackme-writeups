@@ -1831,6 +1831,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c327/original/Creepy`sfirstcrackme.zip"
     title: "crackmes.de's creepys_crackme by creepy"
 
+  5ab77f5733c5d40ad448c328:
+    sha256: "87b2f2532241d2988ed360498621c0d1af106a5b11c2bfc5d0a29ebb9e46d740"
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c328/original/crackme.zip"
+    title: "crackmes.de's crackme_v4 by logan"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3308,3 +3313,7 @@ by_sha256:
     id: 5ab77f5733c5d40ad448c327
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c327/original/Creepy`sfirstcrackme.zip"
     page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c327
+  87b2f2532241d2988ed360498621c0d1af106a5b11c2bfc5d0a29ebb9e46d740:
+    id: 5ab77f5733c5d40ad448c328
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c328/original/crackme.zip"
+    page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c328

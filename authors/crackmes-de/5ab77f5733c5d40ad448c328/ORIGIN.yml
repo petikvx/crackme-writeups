@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c328
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c328
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c328
+
+title: "crackmes.de's crackme_v4 by logan"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme.zip"
+  name: "crackme.zip"
+  sha256: "87b2f2532241d2988ed360498621c0d1af106a5b11c2bfc5d0a29ebb9e46d740"
+  md5: "e60bac87f983c9b4c3822ca6aee4f1b9"
+  size_bytes: 36957
+
+status: solved
+solution_summary: "password omgstfuplz : len==10, p5<p2<p8<p1<p0<p7<p3<p4<p6<p9, chaîne de différences, somme 0x45b (@0x401e3b..0x401f78) ; Wine OK"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-24T17:42:55Z"
