@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c355
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c355
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c355
+
+title: "crackmes.de's keygenme_1_v2.1_final by haspor"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/keygenme1_v21.zip"
+  name: "keygenme1_v21.zip"
+  sha256: "3b6832a5676c62137e34149672c3a946b814207ad723f11a9114b5e9a42f9a16"
+  md5: "a1568fbe7ab6895a0e6544d023790e3b"
+  size_bytes: 2360
+
+status: solved
+solution_summary: "keygen sans nom : XXXX-XXXX-XXXX-XXXX (5 bits/char -> 80 bits), 16 bits aux positions du masque 0x258410C103108904 = CRC16/ARC des 8 octets de donnees ; ex. MDAX-UU9D-W7VJ-FLCY"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-25T19:47:35Z"

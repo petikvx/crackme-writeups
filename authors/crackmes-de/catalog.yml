@@ -1936,6 +1936,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c354/original/hackereha.zip"
     title: "crackmes.de's crackme_by_hackereh by hackereha"
 
+  5ab77f5733c5d40ad448c355:
+    sha256: "3b6832a5676c62137e34149672c3a946b814207ad723f11a9114b5e9a42f9a16"
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c355/original/keygenme1_v21.zip"
+    title: "crackmes.de's keygenme_1_v2.1_final by haspor"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3497,3 +3502,7 @@ by_sha256:
     id: 5ab77f5733c5d40ad448c354
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c354/original/hackereha.zip"
     page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c354
+  3b6832a5676c62137e34149672c3a946b814207ad723f11a9114b5e9a42f9a16:
+    id: 5ab77f5733c5d40ad448c355
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c355/original/keygenme1_v21.zip"
+    page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c355
