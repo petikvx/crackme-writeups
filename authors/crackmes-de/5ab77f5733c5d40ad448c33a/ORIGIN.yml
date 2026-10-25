@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c33a
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c33a
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c33a
+
+title: "crackmes.de's nag_screen_1 by kcom"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme1.zip"
+  name: "crackme1.zip"
+  sha256: "5b4cd2269c36cf359ea03f113b994a0028d7daba326d35329e40de24bd9cd428"
+  md5: "4fc575279681fd07a89390efe0ebc523"
+  size_bytes: 711
+
+status: solved
+solution_summary: "Nag screen : MessageBoxA \"GET RID OF ME!\" avant DialogBoxParamA ; patch NOP VA 0x40101e-0x401031 (4 push + call) via tools/nag-screen-1-solve.py -> dialogue Crackme! directement sous Wine"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-25T04:46:12Z"

@@ -1871,6 +1871,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c336/original/amkTwo.zip"
     title: "crackmes.de's amktwo by am0k"
 
+  5ab77f5733c5d40ad448c33a:
+    sha256: "5b4cd2269c36cf359ea03f113b994a0028d7daba326d35329e40de24bd9cd428"
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c33a/original/crackme1.zip"
+    title: "crackmes.de's nag_screen_1 by kcom"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3380,3 +3385,7 @@ by_sha256:
     id: 5ab77f5733c5d40ad448c336
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c336/original/amkTwo.zip"
     page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c336
+  5b4cd2269c36cf359ea03f113b994a0028d7daba326d35329e40de24bd9cd428:
+    id: 5ab77f5733c5d40ad448c33a
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c33a/original/crackme1.zip"
+    page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c33a
