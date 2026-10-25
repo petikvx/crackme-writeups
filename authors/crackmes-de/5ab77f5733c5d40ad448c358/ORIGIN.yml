@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c358
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c358
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c358
+
+title: "crackmes.de's firstcrackme by damiok"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/a.zip"
+  name: "a.zip"
+  sha256: "9dc8e17e02ad3eb2554544cf4e665ab1daf517f32e3588ae826ba2801431771a"
+  md5: "5f388ac05e95c228dac69021952a498c"
+  size_bytes: 26888
+
+status: solved
+solution_summary: "mot de passe fixe `BombaDG` : strcmp avec la chaîne bâtie sur la pile par deux immediates (0x626d6f42 + 0x0a474461 = \"Bomb\" + \"aDG\\n\") ; vérifié Wine/xvfb"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-25T21:48:44Z"
