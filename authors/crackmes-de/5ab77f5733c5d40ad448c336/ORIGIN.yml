@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c336
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c336
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c336
+
+title: "crackmes.de's amktwo by am0k"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C++ (MSVC 6)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/amkTwo.zip"
+  name: "amkTwo.zip"
+  sha256: "61ff75f84c14c365a14a6447eae1dd8cb0ed1ff69dcc1b0be93eb4dcb0c8f8f6"
+  md5: "0f213283301f217b0a083e181868215e"
+  size_bytes: 16799
+
+status: solved
+solution_summary: "keygen KeyFile amkTwo.key (ligne1 nom + \\r\\n, ligne2 serial 32 car. sans \\n final) ; petik->177L002II833P77LUU8EE433P773QQ4A ; hash hex 32 car. puis swap-parité + ROT13/ROT5, vérifié Wine Good Job"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-25T03:39:59Z"
