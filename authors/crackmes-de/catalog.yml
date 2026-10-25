@@ -1956,6 +1956,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c359/original/thorwakcm01.zip"
     title: "crackmes.de's thorwak_crackme01_selfkeygenme_win32 by thorwak"
 
+  5ab77f5733c5d40ad448c35b:
+    sha256: "1ced261fbd6746cad2c7561d4fd10fae9599d337461f016789699b592603fec0"
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c35b/original/magenta1.zip"
+    title: "crackmes.de's crackme_1 by magenta"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3533,3 +3538,7 @@ by_sha256:
     id: 5ab77f5733c5d40ad448c359
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c359/original/thorwakcm01.zip"
     page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c359
+  1ced261fbd6746cad2c7561d4fd10fae9599d337461f016789699b592603fec0:
+    id: 5ab77f5733c5d40ad448c35b
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c35b/original/magenta1.zip"
+    page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c35b

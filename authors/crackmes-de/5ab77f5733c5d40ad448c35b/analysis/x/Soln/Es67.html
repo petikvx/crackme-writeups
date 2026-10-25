@@ -1,0 +1,760 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.04 [en] (Win95; I) [Netscape]">
+   <META NAME="Author" CONTENT="The Sandman">
+   <META NAME="Classification" CONTENT="Reverse Code Engineering">
+   <META NAME="Description" CONTENT="Step by step guide to cracking Magenta's VB Crackme #1">
+   <META NAME="KeyWords" CONTENT="How to crack Magenta's VB Crackme #1">
+   <TITLE>Magenta's VB Crackme #1</TITLE>
+</HEAD>
+<BODY TEXT="#001010" BGCOLOR="#C0C0C0" LINK="#FF0000" VLINK="#CC0000" ALINK="#FFFFFF">
+<FONT FACE="Arial,Helvetica">&nbsp;</FONT>
+<TABLE BORDER CELLSPACING=2 WIDTH="100%" 22" >
+<TR BGCOLOR="#FFFFFF">
+<TD WIDTH="15%">
+<CENTER><B><FONT FACE="Arial,Helvetica">Nov 1998</FONT></B></CENTER>
+</TD>
+
+<TD WIDTH="100%">
+<CENTER><B><FONT FACE="Arial,Helvetica"><FONT SIZE=+1>"</FONT><FONT SIZE=+2>Magenta's
+VB Crackme #1</FONT><FONT SIZE=+1>"</FONT></FONT></B></CENTER>
+
+<CENTER><FONT FACE="Arial,Helvetica">&nbsp;'How to crack a VB program (prt
+1)'</FONT></CENTER>
+</TD>
+
+<TD WIDTH="30%">
+<CENTER><B><FONT FACE="Arial,Helvetica">Win '95 PROGRAM</FONT></B></CENTER>
+
+<CENTER><FONT FACE="Arial,Helvetica"><FONT COLOR="#808080">Win Code Reversing</FONT></FONT></CENTER>
+
+<CENTER><FONT FACE="Arial,Helvetica"><FONT COLOR="#808080">&nbsp;</FONT></FONT></CENTER>
+</TD>
+</TR>
+
+<TR BGCOLOR="#FFFF99">
+<TD WIDTH="15%">
+<CENTER><FONT FACE="Arial,Helvetica"><FONT COLOR="#890000">&nbsp;</FONT></FONT></CENTER>
+</TD>
+
+<TD>
+<CENTER><FONT FACE="Arial,Helvetica">by <FONT SIZE=+3>The Sandman&nbsp;</FONT></FONT></CENTER>
+</TD>
+
+<TD VALIGN=CENTER WIDTH="30%"><FONT FACE="Arial,Helvetica">&nbsp;</FONT></TD>
+</TR>
+
+<TR BGCOLOR="#999900">
+<TD WIDTH="15%">
+<CENTER><FONT FACE="Arial,Helvetica">&nbsp;</FONT></CENTER>
+</TD>
+
+<TD>
+<CENTER><FONT FACE="Arial,Helvetica">Code Reversing For Beginners&nbsp;</FONT></CENTER>
+</TD>
+
+<TD WIDTH="30%">
+<CENTER><FONT FACE="Arial,Helvetica">&nbsp;</FONT></CENTER>
+
+<CENTER><FONT FACE="Arial,Helvetica">&nbsp;</FONT></CENTER>
+</TD>
+</TR>
+
+<TR BGCOLOR="#C0C0C0">
+<TD WIDTH="15%"></TD>
+
+<TD ALIGN=LEFT>
+<CENTER><FONT FACE="Arial,Helvetica">&nbsp;</FONT></CENTER>
+
+<CENTER><B><FONT FACE="Arial,Helvetica">Program Details</FONT></B></CENTER>
+
+<CENTER><FONT FACE="Arial,Helvetica"><B>Program Name:</B> Crackme1.exe</FONT></CENTER>
+
+<CENTER><FONT FACE="Arial,Helvetica"><B>Program Type:</B> A VB Crackme</FONT></CENTER>
+
+<CENTER><FONT FACE="Arial,Helvetica"><B>Program Location:</B> <A HREF="Files/Crackme1.zip">Here</A>&nbsp;</FONT></CENTER>
+
+<CENTER><FONT FACE="Arial,Helvetica"><B>Program Size: </B>38K</FONT></CENTER>
+<FONT FACE="Arial,Helvetica">&nbsp;</FONT></TD>
+
+<TD WIDTH="30%"></TD>
+</TR>
+
+<TR BGCOLOR="#C0C0C0">
+<TD WIDTH="15%"></TD>
+
+<TD><FONT FACE="Arial,Helvetica"><B>&nbsp;</B>&nbsp;&nbsp;&nbsp;&nbsp;</FONT>&nbsp;
+<CENTER><B><FONT FACE="Arial,Helvetica">Tools Used:</FONT></B></CENTER>
+
+<CENTER><FONT FACE="Arial,Helvetica">&nbsp;Softice V3.24 - Win'95 Debugger</FONT></CENTER>
+
+<CENTER><FONT FACE="Arial,Helvetica">W32Dasm V8.93 - Disassembler</FONT></CENTER>
+
+<CENTER><FONT FACE="Arial,Helvetica">&nbsp;</FONT></CENTER>
+</TD>
+
+<TD WIDTH="30%"></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER BGCOLOR="#C6E7C6">
+<CENTER><B><FONT FACE="Arial,Helvetica"><FONT COLOR="#0000FF">Rating</FONT></FONT></B></CENTER>
+</TD>
+
+<TD VALIGN=CENTER BGCOLOR="#C6E7C6">
+<CENTER><B><FONT FACE="Arial,Helvetica"><FONT COLOR="#0000FF">Easy ( X
+)&nbsp; Medium ( )&nbsp; Hard ( )</FONT></FONT></B></CENTER>
+</TD>
+
+<TD WIDTH="30%" BGCOLOR="#999900"><B><FONT FACE="Arial,Helvetica"><FONT SIZE=-1>There
+is a crack, a crack in everything. That's how the light gets in.</FONT></FONT></B></TD>
+</TR>
+</TABLE>
+
+<CENTER><FONT FACE="Arial,Helvetica"><FONT SIZE=-1>&nbsp;</FONT></FONT></CENTER>
+
+<CENTER><FONT FACE="Arial,Helvetica">&nbsp;&nbsp;&nbsp;&nbsp;</FONT>&nbsp;
+<HR></CENTER>
+
+<CENTER><FONT FACE="Arial,Helvetica">&nbsp;</FONT></CENTER>
+
+<CENTER><B><FONT FACE="Arial,Helvetica"><FONT SIZE=+3>Magenta's VB Crackme
+#1</FONT></FONT></B></CENTER>
+
+<CENTER><FONT FACE="Arial,Helvetica"><FONT SIZE=+2>'How to crack a VB program
+(prt 1)'</FONT></FONT></CENTER>
+
+<CENTER><FONT FACE="Arial,Helvetica"><FONT COLOR="#0B7FC1">Written by The
+Sandman</FONT></FONT></CENTER>
+<FONT FACE="Arial,Helvetica">&nbsp;</FONT>
+<BR><FONT FACE="Arial,Helvetica">&nbsp;</FONT>
+<TABLE BORDER CELLSPACING=2 WIDTH="100%" HEIGHT="22" >
+<TR>
+<TD BGCOLOR="#C6E7C6">
+<CENTER><FONT FACE="Arial,Helvetica"><FONT COLOR="#0000FF"><FONT SIZE=+2>Introduction</FONT></FONT></FONT></CENTER>
+</TD>
+</TR>
+</TABLE>
+<FONT FACE="Arial,Helvetica">&nbsp;</FONT>
+<BR><FONT FACE="Arial,Helvetica">Before you can begin, you must make sure
+you have the following .DLL file in your <B>C:\WINDOWS\SYSTEM</B> directory..</FONT>
+<BR><FONT FACE="Arial,Helvetica">&nbsp;</FONT>
+<BR><FONT FACE="Arial,Helvetica"><B><FONT COLOR="#000099">MSVBVM50.DLL</FONT></B>&nbsp;&nbsp;
+- Email me if you don't have this file.</FONT>
+<BR><FONT FACE="Arial,Helvetica">&nbsp;</FONT>
+<BR><FONT FACE="Arial,Helvetica">You must also make sure you have the following
+line in your <B>Winice.Dat</B> File:-</FONT>
+<BR><FONT FACE="Arial,Helvetica">&nbsp;</FONT>
+<BR><B><FONT FACE="Arial,Helvetica"><FONT COLOR="#000099">EXP=C:\windows\system\msvbvm50.dll</FONT></FONT></B>
+<BR><FONT FACE="Arial,Helvetica">&nbsp;</FONT>
+<BR><FONT FACE="Arial,Helvetica">If you don't have either then you will
+not be able to run or follow this Essay...</FONT>
+
+<P>&nbsp;
+<TABLE BORDER CELLSPACING=2 WIDTH="100%" HEIGHT="22" >
+<TR>
+<TD BGCOLOR="#C6E7C6">
+<CENTER><FONT FACE="Arial,Helvetica"><FONT COLOR="#3333FF"><FONT SIZE=+2>About
+this protection system</FONT></FONT></FONT></CENTER>
+</TD>
+</TR>
+</TABLE>
+<FONT FACE="Arial,Helvetica">&nbsp;</FONT>
+<BR><FONT FACE="Arial,Helvetica">The 'protection system' hides behind the
+natural defenses of a computer language known as Visual Basic, which as
+every newbie knows, is like no other computer language they've ever come
+across before. Understandably, newbies tend to avoid such programs written
+in Visual Basic because it requires a different method of attack that often
+requires tracing through one routine after another and ultimately ending
+up nowhere.&nbsp; I speak of hard learnt experience here..:)</FONT>
+
+<P><FONT FACE="Arial,Helvetica">Hiding behind this computer language is
+a simple serial number protection system which is based on the User entering
+a valid Alpha-numeric serial&nbsp;</FONT> number that is based on the User's
+Name.
+<BR>&nbsp;
+<TABLE BORDER CELLSPACING=2 WIDTH="100%" HEIGHT="22" >
+<TR>
+<TD BGCOLOR="#C6E7C6">
+<CENTER><FONT FACE="Arial,Helvetica"><FONT SIZE=+2><FONT COLOR="#0000FF">The
+Essay</FONT>&nbsp;</FONT></FONT></CENTER>
+</TD>
+</TR>
+</TABLE>
+<FONT FACE="Arial,Helvetica">&nbsp;</FONT>
+<BR><FONT FACE="Arial,Helvetica"><B>Magenta says</B>: "<B><FONT COLOR="#993366">This
+is the first Crackme I've written. It's just a simple VB5 Crackme. To find
+out your Serial you just have to bpx the Msvbvm50 compare code. The serial
+generator is very easy to understand. If you have your serial, you will
+understand it! This should not be to difficult. </FONT></B>"</FONT>
+
+<P><FONT FACE="Arial,Helvetica">Hmmm, so I can't patch this babe and that
+the serial generated by this program can be figured out if I see it!. It
+gets better and better..:)</FONT>
+
+<P><FONT FACE="Arial,Helvetica">Here's how I figured out how this program
+works...</FONT>
+
+<P><FONT FACE="Arial,Helvetica">If you run this program then you will be
+greeted with a simple dialog box, asking you to enter a User Name and Serial,
+which I type:-</FONT>
+
+<P><FONT FACE="Arial,Helvetica"><B>User Name</B>:<B><FONT COLOR="#993366">
+The Sandman</FONT></B></FONT>
+<BR><FONT FACE="Arial,Helvetica"><B>Serial&nbsp;</B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+: <B><FONT COLOR="#993366">7777777</FONT></B></FONT>
+
+<P><FONT FACE="Arial,Helvetica">At this point I fired up softice, pressing
+<B>Ctrl &amp; D keys</B> together..</FONT>
+
+<P><FONT FACE="Arial,Helvetica">Now we need to select a system function
+for Softice to break on, my favorite and one I find is perfect for getting
+into Visual Basic programs especially at this point in the target program
+is Hmemcpy.</FONT>
+
+<P><FONT FACE="Arial,Helvetica">Type: <B>bpx hmemcpy</B> then<B> x</B>
+to return to our Crackme.</FONT>
+<BR>&nbsp;
+
+<P><FONT FACE="Arial,Helvetica">Now click on the large<B> OK</B> button.</FONT>
+<BR><FONT FACE="Arial,Helvetica">&nbsp;</FONT>
+<BR><B><FONT FACE="Arial,Helvetica"><FONT COLOR="#000099">Softice Breaks
+at the start of the Hmemcpy routine...</FONT></FONT></B>
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">We're now deep within
+the operating system, we now need to type: <B>bd 00</B> to disable our
+original </FONT><B><FONT COLOR="#993366">Hmemcpy</FONT></B><FONT COLOR="#000000">
+breakpoint, this will prevent softice from acting on it as we start going
+through the rest of the Crackme's code.</FONT></FONT>
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">Now Press...</FONT></FONT>
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000"><B>F11</B> </FONT><B><U><FONT COLOR="#993366">Once</FONT></U></B></FONT>
+<BR><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000"><B>F12</B> </FONT><B><U><FONT COLOR="#993366">Thirteen
+Times</FONT></U></B></FONT>
+<BR><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000"><B>F10</B> </FONT><B><U><FONT COLOR="#993366">Once</FONT></U></B></FONT>
+
+<P>You should now be in the Crackme's Code at this memory location...
+
+<P><FONT FACE="Courier New,Courier"><FONT SIZE=-1>:0040A8CA 3BC7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+cmp eax, edi ;<B><FONT COLOR="#993366">We land here...</FONT></B></FONT></FONT>
+<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1>:0040A8CC 7D12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+jge 0040A8E0</FONT></FONT>
+<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1>:0040A8CE 68A0000000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+push 000000A0</FONT></FONT>
+<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1>:0040A8D3 68E01E4000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+push 00401EE0</FONT></FONT>
+<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1>:0040A8D8 53&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+push ebx</FONT></FONT>
+<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1>:0040A8D9 50&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+push eax</FONT></FONT>
+
+<P>At the bottom of Softice Disassembly Window it should show something
+like: <B><FONT COLOR="#009900">CRACKME#1!_Text+98C4</FONT></B>
+<BR>&nbsp;
+<BR>&nbsp;
+<CENTER><TABLE BORDER WIDTH="95%" BGCOLOR="#FFFFFF" >
+<TR>
+<TD><FONT FACE="Arial,Helvetica"><FONT COLOR="#000099">At this point I
+traced through the code using <B>F10</B> until I hit the call instruction
+that displays the 'loser Message' which gave me a good idea just how much
+more code I had to go through before I hit this loser message. I did this
+several times, each time building up my notes on which conditional jumps
+were 'set' and which jumps I took and where they sent me.. I'm building
+up a picture that now gives me a pretty clear idea of how this program
+works..</FONT></FONT>&nbsp;
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000099">Here's what I found...</FONT></FONT>&nbsp;
+
+<P><FONT FACE="Courier New,Courier"><FONT SIZE=-1><FONT COLOR="#3366FF">:0040A864</FONT><FONT COLOR="#000099">
+mov eax, dword ptr [ebp+FFFFFF48]</FONT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<FONT COLOR="#CC0000">;Address of our User Name</FONT></FONT></FONT>&nbsp;
+<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1><FONT COLOR="#3366FF">:0040A86A</FONT><FONT COLOR="#000099">
+mov esi, dword ptr [MSVBVM50.__vbaVarMove]</FONT> <FONT COLOR="#CC0000">;Set
+esi =_vbaVarMove</FONT></FONT></FONT>&nbsp;
+<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1><FONT COLOR="#3366FF">:0040A870</FONT><FONT COLOR="#000099">
+lea edx, dword ptr [ebp+FFFFFF34]</FONT>&nbsp;</FONT></FONT>&nbsp;
+<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1><FONT COLOR="#3366FF">:0040A876</FONT><FONT COLOR="#000099">
+lea ecx, dword ptr [ebp-34]</FONT>&nbsp;</FONT></FONT>&nbsp;
+<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1><FONT COLOR="#3366FF">:0040A879</FONT><FONT COLOR="#000099">
+mov dword ptr [ebp+FFFFFF48], edi</FONT>&nbsp;</FONT></FONT>&nbsp;
+<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1><FONT COLOR="#3366FF">:0040A87F</FONT><FONT COLOR="#000099">
+mov dword ptr [ebp+FFFFFF3C], eax</FONT>&nbsp;</FONT></FONT>&nbsp;
+<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1><FONT COLOR="#3366FF">:0040A885</FONT><FONT COLOR="#000099">
+mov dword ptr [ebp+FFFFFF34], 00000008</FONT>&nbsp;</FONT></FONT>&nbsp;
+<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1><FONT COLOR="#3366FF">:0040A88F</FONT><FONT COLOR="#000099">
+call esi</FONT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<FONT COLOR="#CC0000">;Call's _vbaVarMove routine</FONT></FONT></FONT>&nbsp;
+
+<P><FONT FACE="Courier New,Courier"><FONT SIZE=-1><FONT COLOR="#3366FF">:0040A891</FONT><FONT COLOR="#000099">
+lea ecx, dword ptr [ebp+FFFFFF44]</FONT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+;<FONT COLOR="#CC0000">ECX = Your User Name in</FONT></FONT></FONT>&nbsp;
+<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+;<FONT COLOR="#CC0000">Wide Character Format.</FONT></FONT></FONT>&nbsp;
+<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1>&nbsp;</FONT></FONT>&nbsp;
+<BR><FONT FACE="Arial,Helvetica"><FONT COLOR="#000099">After executing
+the above line at </FONT><FONT COLOR="#CC0000">0040A891</FONT><FONT COLOR="#000099">
+if you type: <B>D ecx</B> then you will see in your Code Window and in
+reverse order, the first <B><U>four</U></B> bytes that, if you THEN type:
+<B>D XXXXXXXX </B>will now show you your User Name in Wide Character Format.</FONT></FONT>&nbsp;
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000099">In my case I now
+see:&nbsp; T.h.e...S.a.n.d.m.a.n.</FONT></FONT>&nbsp;
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000099">Interestingly, if
+you scroll down the Code Window you'll also see in full, your *REAL* serial
+number for your User Name, trust me, it's there all right. However, at
+this stage of the crack we don't yet know that this is our *REAL* serial
+number so we must continue on with our crack..</FONT></FONT>&nbsp;
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000099">The code starting
+from </FONT><FONT COLOR="#CC0000">0040A983</FONT><FONT COLOR="#000099">
+to </FONT><FONT COLOR="#CC0000">0040AAC4</FONT><FONT COLOR="#000099"> loops
+round for each letter in your User Name.</FONT></FONT>&nbsp;
+<BR>&nbsp;
+
+<P><FONT FACE="Courier New,Courier"><FONT SIZE=-1><FONT COLOR="#3366FF">:0040A983</FONT><FONT COLOR="#000099">
+test eax, eax</FONT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<FONT COLOR="#CC0000">;Start of Character Loop</FONT></FONT></FONT>&nbsp;
+<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1><FONT COLOR="#3366FF">:0040A985</FONT><FONT COLOR="#000099">
+je 0040AAC9</FONT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<FONT COLOR="#CC0000">;loop exit's <B><U>HERE</U></B></FONT></FONT></FONT>&nbsp;
+<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1><FONT COLOR="#3366FF">:0040A98B</FONT><FONT COLOR="#000099">
+lea ecx, dword ptr [ebp+FFFFFF34]</FONT>&nbsp;</FONT></FONT>&nbsp;
+<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1><FONT COLOR="#3366FF">:0040A991</FONT><FONT COLOR="#000099">
+lea edx, dword ptr [ebp-24]</FONT>&nbsp;</FONT></FONT>&nbsp;
+<BR><FONT FACE="Courier New,Courier"><FONT COLOR="#000099">...........</FONT></FONT>&nbsp;
+<BR><FONT FACE="Arial,Helvetica"><FONT COLOR="#000099">&lt;Snip..Snip></FONT></FONT>&nbsp;
+<BR><FONT FACE="Courier New,Courier"><FONT COLOR="#000099"><FONT SIZE=-1>............</FONT></FONT></FONT>&nbsp;
+<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1><FONT COLOR="#3366FF">:0040AABD</FONT><FONT COLOR="#000099">
+push ecx</FONT>&nbsp;</FONT></FONT>&nbsp;
+<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1><FONT COLOR="#3366FF">:0040AABE</FONT><FONT COLOR="#000099">
+Call MSVBVM50.__vbaVarForNext</FONT></FONT></FONT>&nbsp;
+<BR><FONT FACE="Courier New,Courier"><FONT SIZE=-1><FONT COLOR="#3366FF">:0040AAC4</FONT><FONT COLOR="#000099">
+jmp 0040A983&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</FONT><FONT COLOR="#CC0000">;End of Character loop</FONT></FONT></FONT>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;</TD>
+</TR>
+</TABLE></CENTER>
+&nbsp;
+<BR>&nbsp;
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">Once the above code
+has been executed X number of times for each letter in your User Name the
+program continues from here...&nbsp; Unless you wish to follow the above
+steps for yourself you can skip them by typing: <B>bpx 0040AAC9</B> then
+press<B> X</B> to skip the above code so that you land here...</FONT></FONT>
+<BR><FONT FACE="Arial,Helvetica"><FONT COLOR="#000099">&nbsp;</FONT></FONT>
+<BR><FONT FACE="Courier New,Courier"><FONT COLOR="#000000">:0040AAC9 8D55AC&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+lea edx, dword ptr [ebp-54] ;</FONT><B><FONT COLOR="#993366">We land here.</FONT></B></FONT>
+<BR><FONT FACE="Courier New,Courier"><FONT COLOR="#000000">:0040AACC 8D857CFFFFFF&nbsp;
+lea eax, dword ptr [ebp+FFFFFF7C]</FONT></FONT>
+<BR><FONT FACE="Courier New,Courier"><FONT COLOR="#000000">:0040AAD2 52&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+push edx</FONT></FONT>
+<BR><FONT FACE="Courier New,Courier"><FONT COLOR="#000000">:0040AAD3 50&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+push eax</FONT></FONT>
+<BR><FONT FACE="Courier New,Courier"><FONT COLOR="#000000">:0040AAD4 FF154CD14000&nbsp;
+Call MSVBVM50.__vbaVarTstEq ;</FONT><B><FONT COLOR="#993366">Check both
+the</FONT></B></FONT>
+<BR><FONT FACE="Courier New,Courier"><FONT COLOR="#000000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+;</FONT><B><FONT COLOR="#993366">*Fake &amp; Real* serials</FONT></B></FONT>
+<BR><FONT FACE="Courier New,Courier"><FONT COLOR="#000000">:0040AADA 6685C0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+test ax, ax&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+;</FONT><B><FONT COLOR="#993366">Valid Serial?</FONT></B></FONT>
+<BR><FONT FACE="Courier New,Courier"><FONT COLOR="#000000">:0040AADD 0F84B9010000&nbsp;
+je 0040AC9C&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+;</FONT><B><FONT COLOR="#993366">No? then Jump to Loser</FONT></B></FONT>
+<BR>&nbsp;
+<BR><FONT FACE="Arial,Helvetica">Our first conditional jump <B><I><U>after</U></I></B>
+the Character Code loop and we find that the program calls the Visual basic
+routine <B><FONT COLOR="#000099">_vbaVarTstEq</FONT></B> to check both
+serials!. If <B><I><U>both</U></I></B> serials don't match then it must
+mean that we used a *fake* serial where the program then jumps to the '<B><FONT COLOR="#993366">Loser
+Message</FONT></B>' routine.&nbsp; Of course we don't really know this
+at this point, so lets check this out for ourselves, just as though this
+is our first time at cracking this program..:)</FONT>
+
+<P><FONT FACE="Arial,Helvetica">You should still be waiting at:-</FONT>
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">:0040AAC9 8D55AC&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+lea edx, dword ptr [ebp-54] ;</FONT><B><FONT COLOR="#993366">We land here.</FONT></B></FONT>
+
+<P><FONT FACE="Arial,Helvetica">So press the<B> F10</B> key FOUR times
+so that your now on this instruction:-</FONT>
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">:0040AAD4 FF154CD14000&nbsp;
+Call MSVBVM50.__vbaVarTstEq</FONT></FONT>
+<BR><FONT FACE="Arial,Helvetica">&nbsp;</FONT>
+<BR><FONT FACE="Arial,Helvetica">From here press the <B>F10</B> key once
+more...</FONT>
+
+<P><FONT FACE="Arial,Helvetica">We are now in the Visual Basic RunTime
+library...MSVBVM50.DLL&nbsp;&nbsp; Try and stay with me for the rest of
+the way because many visual basic programs can be cracked using the methods
+described in this Essay..:)</FONT>
+
+<P><FONT FACE="Arial,Helvetica">OK, we should see this code routine:-</FONT>
+
+<P><FONT FACE="Arial,Helvetica">Exported fn(): __vbaVarTstEq - Ord:01E4h</FONT>
+
+<P><FONT FACE="Courier New,Courier">:0F107828 FF742408&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+push [esp+08]</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F10782C FF742408&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+push [esp+08]</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F107830 6A00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+push 00000000</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F107832 E8E55DFFFF&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+call 0F0FD61C ;<B><FONT COLOR="#993366">Press the T key HERE.</FONT></B></FONT>
+<BR><FONT FACE="Courier New,Courier">:0F107837 8B0485C4830E0F&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+mov eax, dword ptr [4*eax+0F0E83C4]</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F10783E C20800&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ret 0008</FONT>
+
+<P><FONT FACE="Arial,Helvetica"><B>F10</B> until you land on the call 0F0FD61C.</FONT>
+<BR><FONT FACE="Arial,Helvetica">Now Press the <B>T</B> key.</FONT>
+
+<P><FONT FACE="Arial,Helvetica">If you had correctly <B>T</B>raced into
+the above <B><FONT COLOR="#993366">call 0F0FD61C</FONT></B> then you should
+now see this new code snippet..</FONT>
+
+<P><FONT FACE="Courier New,Courier">:0F0FD61C 55&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+push ebp ;<B><FONT COLOR="#993366">You land here. Start </FONT><FONT COLOR="#000000">F10</FONT><FONT COLOR="#993366">'ing</FONT></B></FONT>
+<BR><FONT FACE="Courier New,Courier">:0F0FD61D 8BEC&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+mov ebp, esp</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F0FD61F 83EC44&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+sub esp, 00000044</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F0FD622 833D5CB3100F00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+cmp dword ptr [0F10B35C], 00000000</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F0FD629 53&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+push ebx</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F0FD62A 56&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+push esi</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F0FD62B 57&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+push edi</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F0FD62C 0F859B5C0000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+jne 0F1032CD</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F0FD632 A164B3100F&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+mov eax, dword ptr [0F10B364]</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F0FD637 8D4850&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+lea ecx, dword ptr [eax+50]</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F0FD63A 83C060&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+add eax, 00000060</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F0FD63D 8B5D10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+mov ebx, dword ptr [ebp+10]</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F0FD640 8B550C&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+mov edx, dword ptr [ebp+0C]</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F0FD643 668B32&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+mov si, word ptr [edx]</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F0FD646 894DF0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+mov dword ptr [ebp-10], ecx</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F0FD649 6681E6FF7F&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+and si, 7FFF</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F0FD64E 8945F4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+mov dword ptr [ebp-0C], eax</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F0FD651 668B03&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+mov ax, word ptr [ebx]</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F0FD654 6625FF7F&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+and ax, 7FFF</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F0FD658 668945FE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+mov word ptr [ebp-02], ax</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F0FD65C 6683FE11&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+cmp si, 0011</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F0FD660 0F87785C0000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ja 0F1032DE</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F0FD666 0FB745FE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+movzx eax, word ptr [ebp-02]</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F0FD66A 0FB7CE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+movzx ecx, si</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F0FD66D 6BC012&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+imul eax, 00000012</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F0FD670 03C1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+add eax, ecx</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F0FD672 3D43010000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+cmp eax, 00000143</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F0FD677 0F872F5D0000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ja 0F1033AC</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F0FD67D 0FB69072DA0F0F&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+movzx edx, byte ptr [eax+0F0FDA72]</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F0FD684 FF2495E2D70F0F&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+jmp dword ptr [4*edx+0F0FD7E2]</FONT>
+
+<P><FONT FACE="Courier New,Courier">Keep pressing the <B>F10</B> key until
+you land on the <B><FONT COLOR="#993366">jmp dword ptr [4*edx+0F0FD7E2]</FONT></B><FONT COLOR="#000000">
+where this jump will take you here..</FONT></FONT>
+
+<P><FONT FACE="Courier New,Courier"><FONT COLOR="#000000">:0F0FD7B0 8B550C&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+mov edx, dword ptr [ebp+0C] ;</FONT><B><FONT COLOR="#993366">We land here</FONT></B></FONT>
+<BR><FONT FACE="Courier New,Courier"><FONT COLOR="#000000">:0F0FD7B3 FF7308&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+push [ebx+08]</FONT></FONT>
+<BR><FONT FACE="Courier New,Courier"><FONT COLOR="#000000">:0F0FD7B6 FF7208&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+push [edx+08]</FONT></FONT>
+<BR><FONT FACE="Courier New,Courier"><FONT COLOR="#000000">:0F0FD7B9 FF7508&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+push [ebp+08]</FONT></FONT>
+<BR><FONT FACE="Courier New,Courier"><FONT COLOR="#000000">:0F0FD7BC E8C2A0F4FF&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+call 0F047883 ;</FONT><B><FONT COLOR="#993366">Press the </FONT><FONT COLOR="#000000">T</FONT><FONT COLOR="#993366">
+key to trace</FONT></B></FONT>
+<BR><B><FONT FACE="Courier New,Courier"><FONT COLOR="#993366">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+;into this call</FONT></FONT></B>
+
+<P><FONT FACE="Courier New,Courier">Which now takes us to this code routine...</FONT>
+
+<P><FONT FACE="Courier New,Courier">:0F047883 66837C240400&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+cmp word ptr [esp+04], 0000</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F047889 B800000000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+mov eax, 00000000</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F04788E 0F85105C0300&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+jne 0F07D4A4</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F047894 FF74240C&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+push [esp+0C]</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F047898 FF74240C&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+push [esp+0C]</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F04789C 50&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+push eax</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F04789D E85F6A0000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+call MSVBVM50.__vbaStrComp <FONT COLOR="#000000">;</FONT><B><FONT COLOR="#993366">Press
+the </FONT><FONT COLOR="#000000">T</FONT></B></FONT>
+<BR><B><FONT FACE="Courier New,Courier"><FONT COLOR="#993366">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+;key to trace</FONT></FONT></B>
+<BR><B><FONT FACE="Courier New,Courier"><FONT COLOR="#993366">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+;into this</FONT></FONT></B>
+<BR><B><FONT FACE="Courier New,Courier"><FONT COLOR="#993366">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+;call</FONT></FONT></B>
+
+<P>Now isn't that interesting, we've come across a CALL to the <B><FONT COLOR="#993366">_vbaStrComp
+routine</FONT></B>!. This is our Visual Basic String Compare routine!.
+If you want to compare two serials against each other then the <B><FONT COLOR="#993366">_vbaStrComp
+routine </FONT></B><FONT COLOR="#000000">is the one your most likely to
+use in your Visual Basic programs!.</FONT>
+
+<P>Can you feel the ZEN yet!...
+
+<P>OK, you've <B>T</B>raced into the Call _vbaStrComp and you should now
+see this last section of code...
+
+<P><FONT FACE="Courier New,Courier">:0F04E301 55&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+push ebp&nbsp; ;<B><FONT COLOR="#993366">We land here... Start </FONT><FONT COLOR="#000000">F10</FONT><FONT COLOR="#993366">'ing</FONT></B></FONT>
+<BR><FONT FACE="Courier New,Courier">:0F04E302 8BEC&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+mov ebp, esp</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F04E304 53&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+push ebx</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F04E305 56&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+push esi</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F04E306 57&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+push edi</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F04E307 837D1000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+cmp dword ptr [ebp+10], 00000000</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F04E30B BE00000000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+mov esi, 00000000</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F04E310 7406&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+je 0F04E318</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F04E312 8B4510&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+mov eax, dword ptr [ebp+10]</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F04E315 8B70FC&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+mov esi, dword ptr [eax-04]</FONT>
+<BR><FONT FACE="Courier New,Courier">.........</FONT>
+<BR><FONT FACE="Courier New,Courier">&lt;Snip..Snip ></FONT>
+<BR><FONT FACE="Courier New,Courier">.........</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F04E34C 8BC3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+mov eax, ebx</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F04E34E D1E8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+shr eax, 1</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F04E350 50&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+push eax</FONT>
+<BR><FONT FACE="Courier New,Courier">:0F04E351 FF750C&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+push [ebp+0C] ;<B><FONT COLOR="#993366">Push *REAL* serial #</FONT></B></FONT>
+<BR><FONT FACE="Courier New,Courier">:0F04E354 FF7510&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+push [ebp+10] ;<B><FONT COLOR="#993366">Push *FAKE* serial #</FONT></B></FONT>
+<BR><FONT FACE="Courier New,Courier">:0F04E357 E83CDEFFFF&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+call 0F04C198</FONT>
+<BR>&nbsp;
+
+<P><FONT FACE="Arial,Helvetica">Bingo!... We've found where, in Visual
+Basic it compares our *Fake* Serial against the *Real* one..</FONT>
+
+<P><FONT FACE="Arial,Helvetica">Here's how to read it...</FONT>
+
+<P><B>F10</B> over this instruction...
+
+<P><FONT FACE="Courier New,Courier">:0F04E351 FF750C&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+push [ebp+0C] ;<B><FONT COLOR="#993366">Push *REAL* serial #</FONT></B></FONT>
+
+<P><FONT FACE="Arial,Helvetica">Type <B>d ebp+0c</B></FONT>
+
+<P><FONT FACE="Arial,Helvetica">In your Softice Code Window you will see:
+78164100XXXXXXXX</FONT>
+<BR><FONT FACE="Arial,Helvetica">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+XXXXXXXXXXXXXXXX</FONT>
+<BR><FONT FACE="Arial,Helvetica">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+XXXXXXXXXXXXXXXX</FONT>
+
+<P><FONT FACE="Arial,Helvetica">What your looking at is the actual memory
+address stored in a sequence of bytes where your *Real* serial number is
+stored in memory, ready to be compared against the one you've just typed
+into the Crackme..</FONT>
+
+<P><FONT FACE="Arial,Helvetica">To see our *Real* serial number we must
+now 'reverse' this address (four bytes)&nbsp; like this:-</FONT>
+
+<P><FONT FACE="Arial,Helvetica">Type: <B>d 00411678</B></FONT>
+
+<P>Now you can see the *Real* serial number for the User Name: The Sandman
+
+<P><FONT FACE="Arial,Helvetica">Serial:=&nbsp;&nbsp; <B><FONT COLOR="#CC0000"><FONT SIZE=+1>Uif!Tboenbo</FONT></FONT></B></FONT>
+
+<P>But wait!...
+
+<P>We're not done.. While we can now go into the Crackme and type in this
+serial number for the User Name of The Sandman and see the pretty picture
+of a young lady about to catch a cold we might as well see what Magenta
+meant when he said "<B><FONT FACE="Arial,Helvetica"><FONT COLOR="#993366">
+The serial generator is very easy to understand. If you have your serial,
+you will understand it! "</FONT><FONT COLOR="#000000">.</FONT></FONT></B>
+
+<P>My User Name: The Sandman contains two small letter a's and two small
+letter n's and two capital letters, so lets see what characters this Crackme
+has assigned to them..
+
+<P><FONT FACE="Courier New,Courier"><B>User Name</B>&nbsp; : The Sandman</FONT>
+<BR><FONT FACE="Courier New,Courier"><B>Serial Code</B>: Uif!Tboenbo</FONT>
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">Can you see that
+the Crackme assigns&nbsp; a capital U to my '<B>T</B>'</FONT></FONT>
+<BR><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">Can you see that
+the Crackme assigns&nbsp; a Capital T to my '<B>S</B>'</FONT></FONT>
+<BR><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">Can you see that
+the Crackme assigns&nbsp; a small letter b to my two <B>a</B>'s</FONT></FONT>
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">That's all I need
+to work out what the 'key' is based on when the Crackme assigns a serial
+number based on the User's Name/Handle..</FONT></FONT>
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">The key is best explained
+like this:-</FONT></FONT>
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">If your User Name
+is:&nbsp; ABCDEFG then the Crackme will 'add' one letter <B><U>forward</U></B>
+to each letter of YOUR User name...</FONT></FONT>
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">So your User Name
+of</FONT><B><FONT COLOR="#CC0000"> ABCDEFGH</FONT></B><FONT COLOR="#000000">
+becomes </FONT><B><FONT COLOR="#CC0000">BCDEFGHI</FONT></B></FONT>
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">Another example...</FONT></FONT>
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">If your User Name
+is:</FONT><B><FONT COLOR="#CC0000"> abcdefgh</FONT></B><FONT COLOR="#000000">
+then your serial number for this User Name becomes </FONT><B><FONT COLOR="#CC0000">bcdefghi</FONT></B></FONT>
+<BR>&nbsp;
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">Job Done.</FONT></FONT>
+<BR><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">&nbsp;</FONT></FONT>
+<TABLE BORDER CELLSPACING=2 WIDTH="100%" HEIGHT="22" >
+<TR>
+<TD BGCOLOR="#C6E7C6">
+<CENTER><FONT FACE="Arial,Helvetica"><FONT COLOR="#0000FF"><FONT SIZE=+2>The
+Crack</FONT></FONT></FONT></CENTER>
+</TD>
+</TR>
+</TABLE>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT></FONT>
+<BR><FONT FACE="Arial,Helvetica">None is required nor needed.&nbsp;</FONT>
+<BR><FONT FACE="Arial,Helvetica">&nbsp;</FONT>
+<TABLE BORDER CELLSPACING=2 WIDTH="100%" HEIGHT="22" >
+<TR>
+<TD BGCOLOR="#C6E7C6">
+<CENTER><FONT FACE="Arial,Helvetica"><FONT SIZE=+2><FONT COLOR="#0000FF">Final
+Notes</FONT>&nbsp;</FONT></FONT></CENTER>
+</TD>
+</TR>
+</TABLE>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#333333">&nbsp;&nbsp;&nbsp;&nbsp;</FONT></FONT>
+<BR><FONT FACE="Arial,Helvetica">This Essay I hope, explains two main items
+of interest to you..</FONT>
+
+<P><FONT FACE="Arial,Helvetica"><B>1.&nbsp;</B> Visual Basic programs are
+no different to any other program you may come across, so if you can't
+dead list a program then try and get softice to break as close to the protection
+system as possible using a function such as Hmemcpy. Having done this then
+take the time to map the surrounding code and routines before you plunge
+head long into the VB code itself.</FONT>
+
+<P><FONT FACE="Arial,Helvetica"><B>2.</B> Simply sniffing out the serial
+number is not always your main goal to cracking a program, try and see
+if the serial has any 'patterns' to it such as the one described above.
+You can easily find them by choosing a User Name such as:&nbsp; <B>aaBBccCCddDDeeFF1234</B>
+which will quickly show up any set patterns used in the target program's
+serial generating routines.</FONT>
+
+<P><FONT FACE="Arial,Helvetica"><B><FONT COLOR="#CC0000">*Final Note*.</FONT></B>&nbsp;
+There is a bug in this crackme... If you click on the <B>OK</B> button
+<B><I><U>WITHOUT</U></I></B> typing anything for the User Name or Serial
+Number then the program will accept this and display the 'Congratulations'
+dialog box followed by the final </FONT>screen ..:)
+
+<P><FONT FACE="Arial,Helvetica">My thanks and gratitude goes to:-</FONT>
+<BR><FONT FACE="Arial,Helvetica">&nbsp;</FONT>
+<BR><FONT FACE="Arial,Helvetica">Fravia+ for providing possibly the greatest
+source of Reverse Engineering</FONT>
+<BR><FONT FACE="Arial,Helvetica">knowledge on the Web.</FONT>
+<BR><FONT FACE="Arial,Helvetica">&nbsp;</FONT>
+<BR><FONT FACE="Arial,Helvetica">+ORC for showing me the light at the end
+of the tunnel.</FONT>
+<BR><FONT FACE="Arial,Helvetica">&nbsp;</FONT>
+<TABLE BORDER CELLSPACING=2 WIDTH="100%" HEIGHT="22" >
+<TR>
+<TD BGCOLOR="#C6E7C6">
+<CENTER><FONT FACE="Arial,Helvetica"><FONT COLOR="#0000FF"><FONT SIZE=+2>Ob
+Duh</FONT></FONT>&nbsp;</FONT></CENTER>
+</TD>
+</TR>
+</TABLE>
+<I><FONT FACE="Arial,Helvetica">&nbsp;</FONT></I>
+<BR><I><FONT FACE="Arial,Helvetica">Do I really have to remind you all
+that by buying and NOT stealing the software you use will ensure that these
+software houses will be encouraged to producing even *better* software
+for us to use and enjoy.</FONT></I>
+
+<P><I><FONT FACE="Arial,Helvetica">Ripping off software through serials
+and cracks is for lamers..</FONT></I>
+<BR><FONT FACE="Arial,Helvetica">&nbsp;</FONT>
+<BR><I><FONT FACE="Arial,Helvetica">If your looking for cracks or serial
+numbers from these pages then your wasting your time, try searching elsewhere
+on the Web under Warze, Cracks etc.</FONT></I>
+<BR><FONT FACE="Arial,Helvetica">&nbsp;</FONT>
+<BR>
+<HR SIZE=3 WIDTH="100%">
+<CENTER><FONT FACE="Arial,Helvetica">&nbsp;</FONT></CENTER>
+
+<CENTER><FONT FACE="Arial,Helvetica">&nbsp;</FONT></CENTER>
+
+<CENTER><TABLE BORDER=2 >
+<TR>
+<TD><FONT FACE="Arial,Helvetica">&nbsp;<B><A HREF="Es68.html">Next</A></B>&nbsp;</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">&nbsp;<B><A HREF="sandman.html">Return
+to Essay Index</A></B>&nbsp;</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">&nbsp;<B><A HREF="Es66.html">Previous</A></B>&nbsp;</FONT></TD>
+</TR>
+</TABLE></CENTER>
+
+<CENTER><B><FONT FACE="Arial,Helvetica"><FONT SIZE=+1>&nbsp;</FONT></FONT></B></CENTER>
+
+<HR SIZE=3 WIDTH="100%"><FONT FACE="Arial,Helvetica"><FONT SIZE=-2>Essay
+by:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <A HREF="mailto:The Sandman<greenway@proweb.co.uk>">The
+Sandman</A></FONT></FONT>
+<BR><FONT FACE="Arial,Helvetica"><FONT SIZE=-2>Page Created: 30th November
+1998</FONT></FONT>
+<BR><SCRIPT LANGUAGE="JavaScript">
+<!--- hide script from old browsers
+update= new Date(document.lastModified)
+document.writeln("<FONT SIZE=-1>Last Updated: <EM>" + update.toLocaleString(update) + "</EM></FONT><BR>")
+// end hiding --->
+</SCRIPT>
+
+</BODY>
+</HTML>
