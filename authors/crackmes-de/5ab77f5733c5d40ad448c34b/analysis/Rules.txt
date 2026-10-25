@@ -1,0 +1,17 @@
+Hello 
+I'm Axel.Net I written this crackme using c# 
+The point of this crackme is enjoy ppl who will attempt to solve.
+I have to say it's easy, really easy has been designed for Beginners.
+
+The name of this crackme is "Parts" because it's composed by 2 parts
+
+Ok these are the rules:
+--> read the rules inside the executable there is a button called " Rules" which will explain all!!
+Anyway for ppl too lazy (like me)
+--> Patching is allowed only in the first part: yes this crackme is composed by 2 parts(as I said) you CAN PATCH ONLY IN FIRST PART!!!
+The total amount of patching is 3: 
+1 INSTRUCTION and this instruction must be REPLACED WITH THIS OPCODE "br" (unconditional jmp) the other 2 instructions you will have to replace are 2 PARAMETERS i cannot say more or i solve by myself!!!
+--> Write a Keygen obviously or a self-Keygen I put a button About you can use it for self-keygen
+--> write a tutorial where you will explain what you have replaced pls insert the original opcodes and the new opcodes
+Finally
+Good Luck Have Fun

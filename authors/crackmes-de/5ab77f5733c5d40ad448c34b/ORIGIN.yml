@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c34b
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c34b
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c34b
+
+title: "crackmes.de's parts by axel.net"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Parts.zip"
+  name: "Parts.zip"
+  sha256: "307ee41f6088b122b2d099107f83844e6ca4a59d1f7e2ba442a1fa38b44b0147"
+  md5: "97169d875a955653a8032466988204cc"
+  size_bytes: 5477
+
+status: solved
+solution_summary: "Keygen : serial = concat(ord(c)+key) ; key() aleatoire 50..89 par clic ; petik+key50 = 1125010150116501055010750 (tools/parts-solve.py)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-25T14:44:56Z"
