@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c334
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c334
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c334
+
+title: "crackmes.de's am0k_crackme_2 by am0k"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Am0kCM_2.zip"
+  name: "Am0kCM_2.zip"
+  sha256: "14e069c5432fe9d20d1e1d4d8ae336a582b990c94a2afc06825733f7608bd503"
+  md5: "2a55b8a164a06f351673b6216dd9e238"
+  size_bytes: 9002
+
+status: solved
+solution_summary: "Pas de saisie : rand() (0..0x7fff) == 0x4876e7ff et edx==0x17 impossibles ; patch NOP des jne VA 0x401018 et 0x40101d (tools/am0k-crackme2-solve.py) -> Good Job sous Wine"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-25T02:42:22Z"
