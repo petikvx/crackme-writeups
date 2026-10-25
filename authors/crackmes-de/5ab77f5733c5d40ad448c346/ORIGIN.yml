@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c346
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c346
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c346
+
+title: "crackmes.de's obnoxiousskgm2 by obnoxious"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Obnoxious__sKGM#2.zip"
+  name: "Obnoxious__sKGM#2.zip"
+  sha256: "4575b62f049d854d1876b82d818db4c853ccab28e51c8be6d30275ab45fe5ca7"
+  md5: "49a6fb591b0bd1f23009bb4a31f97f62"
+  size_bytes: 5676
+
+status: solved
+solution_summary: "keygen : MD5(UserName+DoubleClickTime) en decimal (b.ToString vide), substring(n,20), tirets tous les n depuis index 4 ; petik (dct 500) -> 1139-0141-3676-1172-4444"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-25T11:45:18Z"

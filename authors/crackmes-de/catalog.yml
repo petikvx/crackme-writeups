@@ -1901,6 +1901,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c344/original/optimise.zip"
     title: "crackmes.de's optimise by obnoxious"
 
+  5ab77f5733c5d40ad448c346:
+    sha256: "4575b62f049d854d1876b82d818db4c853ccab28e51c8be6d30275ab45fe5ca7"
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c346/original/Obnoxious__sKGM#2.zip"
+    title: "crackmes.de's obnoxiousskgm2 by obnoxious"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3434,3 +3439,7 @@ by_sha256:
     id: 5ab77f5733c5d40ad448c344
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c344/original/optimise.zip"
     page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c344
+  4575b62f049d854d1876b82d818db4c853ccab28e51c8be6d30275ab45fe5ca7:
+    id: 5ab77f5733c5d40ad448c346
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c346/original/Obnoxious__sKGM#2.zip"
+    page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c346

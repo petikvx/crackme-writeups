@@ -147,7 +147,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [oguzbey](authors/oguzbey/README.md) | oguzbey | 1 (Lucky Numbers) | 1 / 1 |
 | [andrewl](authors/andrewl/README.md) | andrewl | 1 (Quick Crypto) | 1 / 1 |
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
-| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 370 / 370 |
+| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 371 / 371 |
 | [chaltu](authors/chaltu/README.md) | chaltu | 3 (a Treasure + Double Door + Accsess me please) | 3 / 3 |
 | [qerr0r](authors/qerr0r/README.md) | QERR0R | 2 (crackit + CrackIt;)) | 2 / 2 |
 | [steve_maxwell](authors/steve_maxwell/README.md) | steve_maxwell | 1 (X-0-R) | 1 / 1 |
@@ -372,6 +372,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 | 2026-10-25 | [Lattice](authors/memetic0/6add58b64ab951a9999da0c8/) | memetic0 |
 | 2026-10-25 | [zenobiatranoss](authors/zenoniatranoss/6add0af25fa39ab0d4ac1e11/) | zenoniatranoss |
 | 2026-10-25 | [Zero4](authors/cracknotme/6add1a434b6d53e8802ed06a/) | CrackNotMe |
+| 2026-10-25 | [obnoxiousskgm2 by obnoxious](authors/crackmes-de/5ab77f5733c5d40ad448c346/) | crackmes.de / obnoxious |
 | 2026-10-25 | [optimise by obnoxious](authors/crackmes-de/5ab77f5733c5d40ad448c344/) | crackmes.de / obnoxious |
 | 2026-10-25 | [get2thatnumber by obnoxious](authors/crackmes-de/5ab77f5733c5d40ad448c343/) | crackmes.de / obnoxious |
 | 2026-10-25 | [crackme1_by_cr4ckd0r](authors/crackmes-de/5ab77f5733c5d40ad448c33f/) | crackmes.de / cr4ckd0r |
