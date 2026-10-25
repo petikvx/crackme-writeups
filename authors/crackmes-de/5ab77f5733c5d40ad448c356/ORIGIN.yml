@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c356
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c356
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c356
+
+title: "crackmes.de's cm01 by cyriel"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/cm01.zip"
+  name: "cm01.zip"
+  sha256: "6f39d694f5d747a98c339b951012664dfc54028493b681de1e4a8f67a23b69e4"
+  md5: "cdb7211f223dbf12837a3d2d50b1818d"
+  size_bytes: 5774
+
+status: solved
+solution_summary: "mot de passe fixe de 13 car. `1337cracker;]` (9 contraintes sur p[i] ; 2 d'entre elles forment le pointeur « Well done » réécrit par WriteProcessMemory) ; anti-debug IsDebuggerPresent → leurre IsItThis? ; vérifié Wine"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-25T20:48:05Z"
