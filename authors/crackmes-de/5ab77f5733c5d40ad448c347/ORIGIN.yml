@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c347
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c347
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c347
+
+title: "crackmes.de's obnoxiousskgm1 by obnoxious"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ".NET (C#)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Obnoxious__sKGM#1.zip"
+  name: "Obnoxious__sKGM#1.zip"
+  sha256: "bf162541bb30065e70b5d0c20bd00b0725f47e3a434b6e0871a03a5602045970"
+  md5: "69f942fd1ecfbfddcf3fb2400e0c7ed5"
+  size_bytes: 359004
+
+status: solved
+solution_summary: "keygen : Obnoxious-<H[1:9]>-<jour>-<name[2:4]> ; H = TimeSpan.GetHashCode() du lancement (c:\\windows\\time_data.txt) ; petik1 -> Obnoxious-81838602-25-ti (vérifié Wine)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-25T12:45:31Z"
