@@ -1911,6 +1911,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c347/original/Obnoxious__sKGM#1.zip"
     title: "crackmes.de's obnoxiousskgm1 by obnoxious"
 
+  5ab77f5733c5d40ad448c349:
+    sha256: "d4fa7ccc5858558474fde0f733accd533d777ce896d1c022c337b242b5584132"
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c349/original/JustAFewNumbers.zip"
+    title: "crackmes.de's justafewnumbers by obnoxious"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3452,3 +3457,7 @@ by_sha256:
     id: 5ab77f5733c5d40ad448c347
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c347/original/Obnoxious__sKGM#1.zip"
     page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c347
+  d4fa7ccc5858558474fde0f733accd533d777ce896d1c022c337b242b5584132:
+    id: 5ab77f5733c5d40ad448c349
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c349/original/JustAFewNumbers.zip"
+    page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c349

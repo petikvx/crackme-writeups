@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c349
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c349
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c349
+
+title: "crackmes.de's justafewnumbers by obnoxious"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C# (.NET 2.0)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/JustAFewNumbers.zip"
+  name: "JustAFewNumbers.zip"
+  sha256: "d4fa7ccc5858558474fde0f733accd533d777ce896d1c022c337b242b5584132"
+  md5: "64885f750154ca595678ed66e08ba76a"
+  size_bytes: 2465
+
+status: solved
+solution_summary: "11 args argv : 12 20 10 14 35 35 10 12 20 35 14 (pgcd/ppcm/produit par paires, puis 5 valeurs recyclées à pgcd strictement croissants) ; fail() ne quitte pas donc valide = aucun Invalid ; pas de user (petik n/a)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-25T13:47:04Z"
