@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c352
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c352
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c352
+
+title: "crackmes.de's simple_kgm_2_by_v3sa by vesa"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Simple_KGM_2.zip"
+  name: "Simple_KGM_2.zip"
+  sha256: "647caed1616d89be6f941db78d7a89db50522067cd4be9b8d75894cfea62a7d9"
+  md5: "61588f255fa25f46b23ca7447b53a215"
+  size_bytes: 4278
+
+status: solved
+solution_summary: "keygen RSA-64 : ID = hash(name) + 0xd4 (décimal) ; Serial = hash^d mod N (hex), N=0xF1CB476270EA27E9 factorisé ; petik→4084154228 / 55B54812B4DCC5D1"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-25T16:47:36Z"
