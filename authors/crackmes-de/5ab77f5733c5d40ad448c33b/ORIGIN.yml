@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c33b
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c33b
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c33b
+
+title: "crackmes.de's key_file_crack_1 by kcom"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Win PE32 GUI"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme3.zip"
+  name: "crackme3.zip"
+  sha256: "c07be709edbcc02aca3949bd22016f44456dd4f52233697cdad6fa24054ad7e3"
+  md5: "3b0047b08cfdd067f8a38f3dcc5636e6"
+  size_bytes: 870
+
+status: solved
+solution_summary: "keyfile TheKeyFile.txt (nom XOR 14) contenant hzj||/xg`|/mnld (guess whos back ^ 0x0f)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-25T05:48:25Z"

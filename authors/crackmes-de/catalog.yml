@@ -1876,6 +1876,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c33a/original/crackme1.zip"
     title: "crackmes.de's nag_screen_1 by kcom"
 
+  5ab77f5733c5d40ad448c33b:
+    sha256: "c07be709edbcc02aca3949bd22016f44456dd4f52233697cdad6fa24054ad7e3"
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c33b/original/crackme3.zip"
+    title: "crackmes.de's key_file_crack_1 by kcom"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3389,3 +3394,7 @@ by_sha256:
     id: 5ab77f5733c5d40ad448c33a
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c33a/original/crackme1.zip"
     page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c33a
+  c07be709edbcc02aca3949bd22016f44456dd4f52233697cdad6fa24054ad7e3:
+    id: 5ab77f5733c5d40ad448c33b
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c33b/original/crackme3.zip"
+    page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c33b
