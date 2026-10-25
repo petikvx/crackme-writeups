@@ -1926,6 +1926,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c352/original/Simple_KGM_2.zip"
     title: "crackmes.de's simple_kgm_2_by_v3sa by vesa"
 
+  5ab77f5733c5d40ad448c353:
+    sha256: "5f237e00314af3e4072916ae431a838f41c7120357895041eef4f06d6fd21693"
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c353/original/My_KeygenMe.zip"
+    title: "crackmes.de's very_easy_keygenme_from_hackereh by hackereha"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3479,3 +3484,7 @@ by_sha256:
     id: 5ab77f5733c5d40ad448c352
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c352/original/Simple_KGM_2.zip"
     page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c352
+  5f237e00314af3e4072916ae431a838f41c7120357895041eef4f06d6fd21693:
+    id: 5ab77f5733c5d40ad448c353
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c353/original/My_KeygenMe.zip"
+    page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c353

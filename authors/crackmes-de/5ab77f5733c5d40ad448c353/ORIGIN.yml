@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c353
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c353
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c353
+
+title: "crackmes.de's very_easy_keygenme_from_hackereh by hackereha"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/My_KeygenMe.zip"
+  name: "My_KeygenMe.zip"
+  sha256: "5f237e00314af3e4072916ae431a838f41c7120357895041eef4f06d6fd21693"
+  md5: "d5575d203a85f50f29526515f0ecdb10"
+  size_bytes: 49140
+
+status: solved
+solution_summary: "keygen : serial = %u du dernier eax d une boucle de hash du nom (edx=0xdeadc0de, imul 0x666, sub 0x777) ; petik -> 2636335687"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-25T17:40:35Z"
