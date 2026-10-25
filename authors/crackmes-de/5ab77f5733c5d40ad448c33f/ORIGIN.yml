@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c33f
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c33f
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c33f
+
+title: "crackmes.de's crackme1_by_cr4ckd0r by cr4ckd0r"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "VB.NET"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme.zip"
+  name: "crackme.zip"
+  sha256: "ad069adc01f683847ed97d109b26bc559a06608ccf6821a2b8f23c2609aee6b0"
+  md5: "58dbf52c6beee88351447a4d0344b298"
+  size_bytes: 22213
+
+status: solved
+solution_summary: "Name/serial fixes (pas de keygen) : name `cr4ckd0r` + serial `Crack me if you can!!!` (String compare VB.NET dans Button1_Click_1) ; `petik` refusé ; vérifié Wine/xvfb"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-25T07:41:43Z"
