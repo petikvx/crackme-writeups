@@ -25,6 +25,7 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml) (id ↔ sha256).
 | — | [MCM 2.0](698d9ebd3eb49a23d3417763/) | [`698d9ebd…`](https://crackmes.one/crackme/698d9ebd3eb49a23d3417763) | Windows PE32+ | password `Z1Y` (matrix FNV + VM parent/enfant) |
 | — | [MCM 3.0 REWORK](698fb9e9a79466462e957bec/) | [`698fb9e9…`](https://crackmes.one/crackme/698fb9e9a79466462e957bec) | Windows PE32+ | **PARKED** — unpack+honeypot OK ; **VM / checksum `0x762`** à finir |
 | 777 | [CFM #777 Stochastic Casino](6a8f5412dbb3353b753965d9/) | [`6a8f5412…`](https://crackmes.one/crackme/6a8f5412dbb3353b753965d9) | Windows x86-64 | **PARKED** — ARX/decrypt OK ; **état final → VIP 50 chars** à finir |
+| — | [Zero4](6add1a434b6d53e8802ed06a/) | [`6add1a43…`](https://crackmes.one/crackme/6add1a434b6d53e8802ed06a) | Windows x86-64 | password `Zero3_is_not_malware_please_check_manually_instead_of_auto_CAPE_sandbox` (XOR `i*7+0x5a`) |
 
 ## Mis de côté (PARKED — y revenir)
 
