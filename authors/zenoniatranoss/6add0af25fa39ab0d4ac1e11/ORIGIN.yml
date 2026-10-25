@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6add0af25fa39ab0d4ac1e11
+
+urls:
+  page: https://crackmes.one/crackme/6add0af25fa39ab0d4ac1e11
+  download: https://crackmes.one/download/crackme/6add0af25fa39ab0d4ac1e11
+
+title: "zenoniatranoss's zenobiatranoss"
+author_on_site: "zenoniatranoss"
+author_local: "zenoniatranoss"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme"
+  name: "crackme"
+  sha256: "34401d07af8833445093fa059b23d29b118c3dbd8f25ed71ed5d086381b722e7"
+  md5: "c4ff6373de0c12065b9513f2fc3718d6"
+  size_bytes: 14472
+
+status: solved
+solution_summary: "clé 24 car. XXXX-XXXX-XXXX-XXXX-XXXX ; hash rol5/xor 32 bits == 0x9ae078de (flot aplati, anti-lenteur clock_gettime) ; ex. PETI-MKZE-RKNO-BIYC-GATR"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-25T10:53:29Z"

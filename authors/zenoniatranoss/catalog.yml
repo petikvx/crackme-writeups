@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6add0af25fa39ab0d4ac1e11:
+    sha256: "34401d07af8833445093fa059b23d29b118c3dbd8f25ed71ed5d086381b722e7"
+    path: "authors/zenoniatranoss/6add0af25fa39ab0d4ac1e11/original/crackme"
+    title: "zenoniatranoss's zenobiatranoss"
+
+by_sha256:
+  34401d07af8833445093fa059b23d29b118c3dbd8f25ed71ed5d086381b722e7:
+    id: 6add0af25fa39ab0d4ac1e11
+    path: "authors/zenoniatranoss/6add0af25fa39ab0d4ac1e11/original/crackme"
+    page: https://crackmes.one/crackme/6add0af25fa39ab0d4ac1e11
