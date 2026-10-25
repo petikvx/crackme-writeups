@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c33c
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c33c
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c33c
+
+title: "crackmes.de's key_check_crackme by kcom"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows PE32 GUI, MSVC 6"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme2.zip"
+  name: "crackme2.zip"
+  sha256: "bc3c3dc46917fa997419deea7d3679850f95d39b1794d17d8dfab6e57f5ac214"
+  md5: "0c7f3899740c71ceeb5817b5ff4242ed"
+  size_bytes: 1202
+
+status: solved
+solution_summary: "keygen name>=10 car. : petikpetik -> 81ecb488b72deb9799b0f2faede3a6edebc3f4ce309591e6c5f0f5 (octets bruts ; (AKCOM-L434 + AKCOM-L434 + name[10:] + 022LACD) ^ (KEY[i%15]+1), wsprintf en place)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-25T06:49:00Z"
