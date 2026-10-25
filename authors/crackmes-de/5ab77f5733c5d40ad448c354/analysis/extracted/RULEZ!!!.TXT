@@ -1,0 +1,15 @@
+Crackme by hackereh@
+
+1)No patching jmp etc. of course
+2)Just find the right serial
+3)There's just a several right serial( dont let this confuse ur head its because ascii values)
+4)I think it's level 1 sure every1 can crack it:)
+5)It's for newbies:)
+6)When u crack it make a tut:)
+
+This is my first crackme it's actually to easy for some1 who knows basic of asm:) If u find some bugs in
+this pro, let me know it:)
+
+Good luck:)
+
+Regards hackereh@

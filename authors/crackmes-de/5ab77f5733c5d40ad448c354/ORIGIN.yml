@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c354
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c354
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c354
+
+title: "crackmes.de's crackme_by_hackereh by hackereha"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/hackereha.zip"
+  name: "hackereha.zip"
+  sha256: "8696e49a0f73eb0f6284fa42dcf94ef68370eaa696722a91bc504c5371bea146"
+  md5: "32659631944d1f3ef4387f375c17dbee"
+  size_bytes: 34181
+
+status: solved
+solution_summary: "serial fixe de 6 car., plusieurs valides : c[i] & masque[i] == 0 (masques ad 9a 97 bf 5fc5 d6) ; ex. Reh@0)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-25T18:48:52Z"
