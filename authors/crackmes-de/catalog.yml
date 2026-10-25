@@ -1891,6 +1891,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c33f/original/crackme.zip"
     title: "crackmes.de's crackme1_by_cr4ckd0r by cr4ckd0r"
 
+  5ab77f5733c5d40ad448c343:
+    sha256: "cbde59ea4ff3943aa88a9144d033b635e1f355f858f8b025f98b03f92629a6f0"
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c343/original/Get2ThatNumberFixed.zip"
+    title: "crackmes.de's get2thatnumber by obnoxious"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3416,3 +3421,7 @@ by_sha256:
     id: 5ab77f5733c5d40ad448c33f
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c33f/original/crackme.zip"
     page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c33f
+  cbde59ea4ff3943aa88a9144d033b635e1f355f858f8b025f98b03f92629a6f0:
+    id: 5ab77f5733c5d40ad448c343
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c343/original/Get2ThatNumberFixed.zip"
+    page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c343

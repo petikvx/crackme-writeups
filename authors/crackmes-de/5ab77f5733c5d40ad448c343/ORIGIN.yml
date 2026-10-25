@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c343
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c343
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c343
+
+title: "crackmes.de's get2thatnumber by obnoxious"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C# (.NET 2.0, WinForms)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Get2ThatNumberFixed.zip"
+  name: "Get2ThatNumberFixed.zip"
+  sha256: "cbde59ea4ff3943aa88a9144d033b635e1f355f858f8b025f98b03f92629a6f0"
+  md5: "879b161520349877df9e316179d2bef2"
+  size_bytes: 5335
+
+status: solved
+solution_summary: "keygen name→key : delimiteur d in {5,6,8} = f(sum(name)&15), key = concaténation des 8/13/34 chemins croissants (pas 1 ou 2, départ 1 ou 2) finissant en d ; petik→d=8, 34 segments ; vérifié Wine-mono Registered"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-25T09:40:08Z"
