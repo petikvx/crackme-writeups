@@ -1896,6 +1896,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c343/original/Get2ThatNumberFixed.zip"
     title: "crackmes.de's get2thatnumber by obnoxious"
 
+  5ab77f5733c5d40ad448c344:
+    sha256: "2b06a009e3cf819bbfd54c9870881f09d3b5de4849c8225e7fe34cabe700c3af"
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c344/original/optimise.zip"
+    title: "crackmes.de's optimise by obnoxious"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3425,3 +3430,7 @@ by_sha256:
     id: 5ab77f5733c5d40ad448c343
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c343/original/Get2ThatNumberFixed.zip"
     page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c343
+  2b06a009e3cf819bbfd54c9870881f09d3b5de4849c8225e7fe34cabe700c3af:
+    id: 5ab77f5733c5d40ad448c344
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c344/original/optimise.zip"
+    page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c344

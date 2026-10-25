@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c344
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c344
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c344
+
+title: "crackmes.de's optimise by obnoxious"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ".NET (C#)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/optimise.zip"
+  name: "optimise.zip"
+  sha256: "2b06a009e3cf819bbfd54c9870881f09d3b5de4849c8225e7fe34cabe700c3af"
+  md5: "12aa3222b44b2ad106b5407a036650ac"
+  size_bytes: 5066
+
+status: solved
+solution_summary: "keygen : petik → 974 | 3 | 499 | 2240 (4e champ = somme des octets MD5(name) ; a,b,c = solution entière de 16a+17b+10c=20625 sous contraintes)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-25T10:42:11Z"
