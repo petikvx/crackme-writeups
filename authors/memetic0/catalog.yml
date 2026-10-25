@@ -5,8 +5,17 @@ by_id:
     path: "authors/memetic0/6aadc96d585e8875bcbec043/original/tropical"
     title: "memetic0's Tropical"
 
+  6add58b64ab951a9999da0c8:
+    sha256: "6eb67d26cd104f1d3d60a03e229a3260ef70cc2ded20cf7a48371071042fa6fb"
+    path: "authors/memetic0/6add58b64ab951a9999da0c8/original/lattice6-crackmes.zip"
+    title: "memetic0's Lattice"
+
 by_sha256:
   2132f2a38c7f9e37203909b65b4b826b3beace5791b26b56ffcc9c66248dd27c:
     id: 6aadc96d585e8875bcbec043
     path: "authors/memetic0/6aadc96d585e8875bcbec043/original/tropical"
     page: https://crackmes.one/crackme/6aadc96d585e8875bcbec043
+  6eb67d26cd104f1d3d60a03e229a3260ef70cc2ded20cf7a48371071042fa6fb:
+    id: 6add58b64ab951a9999da0c8
+    path: "authors/memetic0/6add58b64ab951a9999da0c8/original/lattice6-crackmes.zip"
+    page: https://crackmes.one/crackme/6add58b64ab951a9999da0c8

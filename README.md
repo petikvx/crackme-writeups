@@ -126,7 +126,8 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | Famille | Auteur | Épreuves | Résolues |
 |---|---|---|---|
 | [timotei](authors/timotei/README.md) | timotei (`tim0tei`, `timotei_`) | 12 (4 ELF64 + 8 PE32) | 12 / 12 |
-| [cracknotme](authors/cracknotme/README.md) | CrackNotMe | 16+ (CFB… + Wonka + Turbine + MCM1–3) | 15 / 16 |
+| [cracknotme](authors/cracknotme/README.md) | CrackNotMe | 17+ (CFB… + Wonka + Turbine + MCM1–3 + Zero4) | 16 / 17 |
+| [zenoniatranoss](authors/zenoniatranoss/README.md) | zenoniatranoss | 1 (zenobiatranoss) | 1 / 1 |
 | [crudd](authors/crudd/README.md) | crudd | 1 (PatchPad) | 1 / 1 |
 | [plikan](authors/plikan/README.md) | plikan | 1 (Easy Keygen .NET) | 1 / 1 |
 | [cyberpenguin](authors/cyberpenguin/README.md) | Cyberpenguin | 1 (What password???) | 1 / 1 |
@@ -302,7 +303,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [nillya](authors/nillya/README.md) | Nillya | 1 (Nillya's Pass CrackMe) | 0 / 1 |
 | [leotrungkien](authors/leotrungkien/README.md) | Leotrungkien | 1 (Fugs) | 1 / 1 |
 | [fon37](authors/fon37/README.md) | fon37 | 2 (Secret Menu + King of Asgard) | 2 / 2 |
-| [memetic0](authors/memetic0/README.md) | memetic0 | 1 (Tropical) | 1 / 1 |
+| [memetic0](authors/memetic0/README.md) | memetic0 | 2 (Tropical, Lattice) | 2 / 2 |
 | [vetementsvmnts](authors/vetementsvmnts/README.md) | vetementsvmnts | 5 | 5 / 5 |
 | [acheylate](authors/acheylate/README.md) | acheylate | 4 (Find password L+W, State Machine, Beat The Game) | 4 / 4 |
 | [keep](authors/keep/README.md) | Keep | 2 (sygil gui + console) | 2 / 2 |
@@ -368,6 +369,9 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-25 | [Lattice](authors/memetic0/6add58b64ab951a9999da0c8/) | memetic0 |
+| 2026-10-25 | [zenobiatranoss](authors/zenoniatranoss/6add0af25fa39ab0d4ac1e11/) | zenoniatranoss |
+| 2026-10-25 | [Zero4](authors/cracknotme/6add1a434b6d53e8802ed06a/) | CrackNotMe |
 | 2026-10-25 | [optimise by obnoxious](authors/crackmes-de/5ab77f5733c5d40ad448c344/) | crackmes.de / obnoxious |
 | 2026-10-25 | [get2thatnumber by obnoxious](authors/crackmes-de/5ab77f5733c5d40ad448c343/) | crackmes.de / obnoxious |
 | 2026-10-25 | [crackme1_by_cr4ckd0r](authors/crackmes-de/5ab77f5733c5d40ad448c33f/) | crackmes.de / cr4ckd0r |

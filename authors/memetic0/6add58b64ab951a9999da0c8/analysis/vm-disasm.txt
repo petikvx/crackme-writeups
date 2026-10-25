@@ -1,0 +1,809 @@
+# 808 slots du programme VM (op rDst a b imm) - décodés par tools/lattice-solve.py
+  0 movi  r11 a=0 b=0 imm=0x0
+  1 movi  r12 a=0 b=0 imm=0x1
+  2 movi  r7 a=0 b=0 imm=0x0
+  3 movi  r4 a=0 b=0 imm=0x0
+  4 movi  r0 a=0 b=0 imm=0x20
+  5 eq    r2 a=4 b=0 imm=0x0
+  6 jnz   r2 a=0 b=0 imm=0xc
+  7 movi  r14 a=0 b=0 imm=0x80
+  8 add   r14 a=14 b=4 imm=0x0
+  9 stb   r14 a=11 b=0 imm=0x0
+ 10 add   r4 a=4 b=12 imm=0x0
+ 11 jmp   r0 a=0 b=0 imm=0x4
+ 12 movi  r14 a=0 b=0 imm=0x50
+ 13 ldb   r10 a=14 b=0 imm=0x0
+ 14 movi  r0 a=0 b=0 imm=0xa1
+ 15 movi  r14 a=0 b=0 imm=0xf20
+ 16 stb   r14 a=0 b=0 imm=0x0
+ 17 movi  r8 a=0 b=0 imm=0xf20
+ 18 movi  r9 a=0 b=0 imm=0x1
+ 19 movi  r4 a=0 b=0 imm=0x0
+ 20 eq    r2 a=4 b=9 imm=0x0
+ 21 jnz   r2 a=0 b=0 imm=0x26
+ 22 add   r14 a=8 b=4 imm=0x0
+ 23 ldb   r1 a=14 b=0 imm=0x0
+ 24 movi  r0 a=0 b=0 imm=0x10
+ 25 eq    r2 a=7 b=0 imm=0x0
+ 26 jz    r2 a=0 b=0 imm=0x1e
+ 27 movi  r7 a=0 b=0 imm=0x0
+ 28 movi  r14 a=0 b=0 imm=0x80
+ 29 blk   r14 a=0 b=0 imm=0x0
+ 30 movi  r14 a=0 b=0 imm=0x80
+ 31 add   r14 a=14 b=7 imm=0x0
+ 32 ldb   r0 a=14 b=0 imm=0x0
+ 33 xor   r0 a=0 b=1 imm=0x0
+ 34 stb   r14 a=0 b=0 imm=0x0
+ 35 add   r7 a=7 b=12 imm=0x0
+ 36 add   r4 a=4 b=12 imm=0x0
+ 37 jmp   r0 a=0 b=0 imm=0x14
+ 38 movi  r8 a=0 b=0 imm=0x0
+ 39 movi  r14 a=0 b=0 imm=0x40
+ 40 ldw   r9 a=14 b=0 imm=0x0
+ 41 movi  r4 a=0 b=0 imm=0x0
+ 42 eq    r2 a=4 b=9 imm=0x0
+ 43 jnz   r2 a=0 b=0 imm=0x3c
+ 44 add   r14 a=8 b=4 imm=0x0
+ 45 ldb   r1 a=14 b=0 imm=0x0
+ 46 movi  r0 a=0 b=0 imm=0x10
+ 47 eq    r2 a=7 b=0 imm=0x0
+ 48 jz    r2 a=0 b=0 imm=0x34
+ 49 movi  r7 a=0 b=0 imm=0x0
+ 50 movi  r14 a=0 b=0 imm=0x80
+ 51 blk   r14 a=0 b=0 imm=0x0
+ 52 movi  r14 a=0 b=0 imm=0x80
+ 53 add   r14 a=14 b=7 imm=0x0
+ 54 ldb   r0 a=14 b=0 imm=0x0
+ 55 xor   r0 a=0 b=1 imm=0x0
+ 56 stb   r14 a=0 b=0 imm=0x0
+ 57 add   r7 a=7 b=12 imm=0x0
+ 58 add   r4 a=4 b=12 imm=0x0
+ 59 jmp   r0 a=0 b=0 imm=0x2a
+ 60 movi  r14 a=0 b=0 imm=0xf20
+ 61 stb   r14 a=10 b=0 imm=0x0
+ 62 movi  r8 a=0 b=0 imm=0xf20
+ 63 movi  r9 a=0 b=0 imm=0x1
+ 64 movi  r4 a=0 b=0 imm=0x0
+ 65 eq    r2 a=4 b=9 imm=0x0
+ 66 jnz   r2 a=0 b=0 imm=0x53
+ 67 add   r14 a=8 b=4 imm=0x0
+ 68 ldb   r1 a=14 b=0 imm=0x0
+ 69 movi  r0 a=0 b=0 imm=0x10
+ 70 eq    r2 a=7 b=0 imm=0x0
+ 71 jz    r2 a=0 b=0 imm=0x4b
+ 72 movi  r7 a=0 b=0 imm=0x0
+ 73 movi  r14 a=0 b=0 imm=0x80
+ 74 blk   r14 a=0 b=0 imm=0x0
+ 75 movi  r14 a=0 b=0 imm=0x80
+ 76 add   r14 a=14 b=7 imm=0x0
+ 77 ldb   r0 a=14 b=0 imm=0x0
+ 78 xor   r0 a=0 b=1 imm=0x0
+ 79 stb   r14 a=0 b=0 imm=0x0
+ 80 add   r7 a=7 b=12 imm=0x0
+ 81 add   r4 a=4 b=12 imm=0x0
+ 82 jmp   r0 a=0 b=0 imm=0x41
+ 83 movi  r0 a=0 b=0 imm=0x10
+ 84 eq    r2 a=7 b=0 imm=0x0
+ 85 jz    r2 a=0 b=0 imm=0x59
+ 86 movi  r7 a=0 b=0 imm=0x0
+ 87 movi  r14 a=0 b=0 imm=0x80
+ 88 blk   r14 a=0 b=0 imm=0x0
+ 89 movi  r14 a=0 b=0 imm=0x80
+ 90 add   r14 a=14 b=7 imm=0x0
+ 91 ldb   r0 a=14 b=0 imm=0x0
+ 92 movi  r1 a=0 b=0 imm=0x80
+ 93 xor   r0 a=0 b=1 imm=0x0
+ 94 stb   r14 a=0 b=0 imm=0x0
+ 95 movi  r14 a=0 b=0 imm=0x80
+ 96 blk   r14 a=0 b=0 imm=0x0
+ 97 movi  r7 a=0 b=0 imm=0x0
+ 98 movi  r4 a=0 b=0 imm=0x0
+ 99 movi  r0 a=0 b=0 imm=0xc0
+100 eq    r2 a=4 b=0 imm=0x0
+101 jnz   r2 a=0 b=0 imm=0x75
+102 movi  r0 a=0 b=0 imm=0x10
+103 eq    r2 a=7 b=0 imm=0x0
+104 jz    r2 a=0 b=0 imm=0x6c
+105 movi  r7 a=0 b=0 imm=0x0
+106 movi  r14 a=0 b=0 imm=0x80
+107 blk   r14 a=0 b=0 imm=0x0
+108 movi  r14 a=0 b=0 imm=0x80
+109 add   r14 a=14 b=7 imm=0x0
+110 ldb   r3 a=14 b=0 imm=0x0
+111 add   r7 a=7 b=12 imm=0x0
+112 movi  r14 a=0 b=0 imm=0xc0
+113 add   r14 a=14 b=4 imm=0x0
+114 stb   r14 a=3 b=0 imm=0x0
+115 add   r4 a=4 b=12 imm=0x0
+116 jmp   r0 a=0 b=0 imm=0x63
+117 movi  r14 a=0 b=0 imm=0xc0
+118 ldb   r0 a=14 b=0 imm=0x0
+119 xor   r0 a=0 b=10 imm=0x0
+120 stb   r14 a=0 b=0 imm=0x0
+121 movi  r4 a=0 b=0 imm=0x0
+122 movi  r0 a=0 b=0 imm=0x10
+123 eq    r2 a=4 b=0 imm=0x0
+124 jnz   r2 a=0 b=0 imm=0x10e
+125 movi  r5 a=0 b=0 imm=0x0
+126 movi  r0 a=0 b=0 imm=0x10
+127 eq    r2 a=5 b=0 imm=0x0
+128 jnz   r2 a=0 b=0 imm=0x10c
+129 movi  r0 a=0 b=0 imm=0x10
+130 mul   r8 a=4 b=0 imm=0x0
+131 add   r8 a=8 b=5 imm=0x0
+132 eq    r2 a=4 b=5 imm=0x0
+133 jz    r2 a=0 b=0 imm=0x93
+134 movi  r0 a=0 b=0 imm=0x1
+135 movi  r2 a=0 b=0 imm=0x4
+136 mul   r1 a=8 b=2 imm=0x0
+137 movi  r14 a=0 b=0 imm=0x200
+138 add   r14 a=14 b=1 imm=0x0
+139 stw   r14 a=0 b=0 imm=0x0
+140 movi  r0 a=0 b=0 imm=0x1
+141 movi  r2 a=0 b=0 imm=0x4
+142 mul   r1 a=8 b=2 imm=0x0
+143 movi  r14 a=0 b=0 imm=0x600
+144 add   r14 a=14 b=1 imm=0x0
+145 stw   r14 a=0 b=0 imm=0x0
+146 jmp   r0 a=0 b=0 imm=0x10a
+147 ltu   r2 a=5 b=4 imm=0x0
+148 jz    r2 a=0 b=0 imm=0xd0
+149 movi  r0 a=0 b=0 imm=0x10
+150 eq    r2 a=7 b=0 imm=0x0
+151 jz    r2 a=0 b=0 imm=0x9b
+152 movi  r7 a=0 b=0 imm=0x0
+153 movi  r14 a=0 b=0 imm=0x80
+154 blk   r14 a=0 b=0 imm=0x0
+155 movi  r14 a=0 b=0 imm=0x80
+156 add   r14 a=14 b=7 imm=0x0
+157 ldb   r3 a=14 b=0 imm=0x0
+158 add   r7 a=7 b=12 imm=0x0
+159 movi  r14 a=0 b=0 imm=0xf20
+160 stb   r14 a=3 b=0 imm=0x0
+161 movi  r0 a=0 b=0 imm=0x10
+162 eq    r2 a=7 b=0 imm=0x0
+163 jz    r2 a=0 b=0 imm=0xa7
+164 movi  r7 a=0 b=0 imm=0x0
+165 movi  r14 a=0 b=0 imm=0x80
+166 blk   r14 a=0 b=0 imm=0x0
+167 movi  r14 a=0 b=0 imm=0x80
+168 add   r14 a=14 b=7 imm=0x0
+169 ldb   r3 a=14 b=0 imm=0x0
+170 add   r7 a=7 b=12 imm=0x0
+171 movi  r14 a=0 b=0 imm=0xf20
+172 stb   r14 a=3 b=0 imm=0x1
+173 movi  r0 a=0 b=0 imm=0x10
+174 eq    r2 a=7 b=0 imm=0x0
+175 jz    r2 a=0 b=0 imm=0xb3
+176 movi  r7 a=0 b=0 imm=0x0
+177 movi  r14 a=0 b=0 imm=0x80
+178 blk   r14 a=0 b=0 imm=0x0
+179 movi  r14 a=0 b=0 imm=0x80
+180 add   r14 a=14 b=7 imm=0x0
+181 ldb   r3 a=14 b=0 imm=0x0
+182 add   r7 a=7 b=12 imm=0x0
+183 movi  r14 a=0 b=0 imm=0xf20
+184 stb   r14 a=3 b=0 imm=0x2
+185 movi  r14 a=0 b=0 imm=0xf20
+186 ldb   r0 a=14 b=0 imm=0x0
+187 ldb   r1 a=14 b=0 imm=0x1
+188 movi  r2 a=0 b=0 imm=0x100
+189 mul   r1 a=1 b=2 imm=0x0
+190 add   r0 a=0 b=1 imm=0x0
+191 ldb   r1 a=14 b=0 imm=0x2
+192 movi  r2 a=0 b=0 imm=0x10000
+193 mul   r1 a=1 b=2 imm=0x0
+194 add   r0 a=0 b=1 imm=0x0
+195 mod   r0 a=0 b=0 imm=0x0
+196 movi  r2 a=0 b=0 imm=0x4
+197 mul   r1 a=8 b=2 imm=0x0
+198 movi  r14 a=0 b=0 imm=0x200
+199 add   r14 a=14 b=1 imm=0x0
+200 stw   r14 a=0 b=0 imm=0x0
+201 movi  r0 a=0 b=0 imm=0x0
+202 movi  r2 a=0 b=0 imm=0x4
+203 mul   r1 a=8 b=2 imm=0x0
+204 movi  r14 a=0 b=0 imm=0x600
+205 add   r14 a=14 b=1 imm=0x0
+206 stw   r14 a=0 b=0 imm=0x0
+207 jmp   r0 a=0 b=0 imm=0x10a
+208 movi  r0 a=0 b=0 imm=0x0
+209 movi  r2 a=0 b=0 imm=0x4
+210 mul   r1 a=8 b=2 imm=0x0
+211 movi  r14 a=0 b=0 imm=0x200
+212 add   r14 a=14 b=1 imm=0x0
+213 stw   r14 a=0 b=0 imm=0x0
+214 movi  r0 a=0 b=0 imm=0x10
+215 eq    r2 a=7 b=0 imm=0x0
+216 jz    r2 a=0 b=0 imm=0xdc
+217 movi  r7 a=0 b=0 imm=0x0
+218 movi  r14 a=0 b=0 imm=0x80
+219 blk   r14 a=0 b=0 imm=0x0
+220 movi  r14 a=0 b=0 imm=0x80
+221 add   r14 a=14 b=7 imm=0x0
+222 ldb   r3 a=14 b=0 imm=0x0
+223 add   r7 a=7 b=12 imm=0x0
+224 movi  r14 a=0 b=0 imm=0xf20
+225 stb   r14 a=3 b=0 imm=0x0
+226 movi  r0 a=0 b=0 imm=0x10
+227 eq    r2 a=7 b=0 imm=0x0
+228 jz    r2 a=0 b=0 imm=0xe8
+229 movi  r7 a=0 b=0 imm=0x0
+230 movi  r14 a=0 b=0 imm=0x80
+231 blk   r14 a=0 b=0 imm=0x0
+232 movi  r14 a=0 b=0 imm=0x80
+233 add   r14 a=14 b=7 imm=0x0
+234 ldb   r3 a=14 b=0 imm=0x0
+235 add   r7 a=7 b=12 imm=0x0
+236 movi  r14 a=0 b=0 imm=0xf20
+237 stb   r14 a=3 b=0 imm=0x1
+238 movi  r0 a=0 b=0 imm=0x10
+239 eq    r2 a=7 b=0 imm=0x0
+240 jz    r2 a=0 b=0 imm=0xf4
+241 movi  r7 a=0 b=0 imm=0x0
+242 movi  r14 a=0 b=0 imm=0x80
+243 blk   r14 a=0 b=0 imm=0x0
+244 movi  r14 a=0 b=0 imm=0x80
+245 add   r14 a=14 b=7 imm=0x0
+246 ldb   r3 a=14 b=0 imm=0x0
+247 add   r7 a=7 b=12 imm=0x0
+248 movi  r14 a=0 b=0 imm=0xf20
+249 stb   r14 a=3 b=0 imm=0x2
+250 movi  r14 a=0 b=0 imm=0xf20
+251 ldb   r0 a=14 b=0 imm=0x0
+252 ldb   r1 a=14 b=0 imm=0x1
+253 movi  r2 a=0 b=0 imm=0x100
+254 mul   r1 a=1 b=2 imm=0x0
+255 add   r0 a=0 b=1 imm=0x0
+256 ldb   r1 a=14 b=0 imm=0x2
+257 movi  r2 a=0 b=0 imm=0x10000
+258 mul   r1 a=1 b=2 imm=0x0
+259 add   r0 a=0 b=1 imm=0x0
+260 mod   r0 a=0 b=0 imm=0x0
+261 movi  r2 a=0 b=0 imm=0x4
+262 mul   r1 a=8 b=2 imm=0x0
+263 movi  r14 a=0 b=0 imm=0x600
+264 add   r14 a=14 b=1 imm=0x0
+265 stw   r14 a=0 b=0 imm=0x0
+266 add   r5 a=5 b=12 imm=0x0
+267 jmp   r0 a=0 b=0 imm=0x7e
+268 add   r4 a=4 b=12 imm=0x0
+269 jmp   r0 a=0 b=0 imm=0x7a
+270 movi  r4 a=0 b=0 imm=0x0
+271 movi  r0 a=0 b=0 imm=0x10
+272 eq    r2 a=4 b=0 imm=0x0
+273 jnz   r2 a=0 b=0 imm=0x148
+274 movi  r0 a=0 b=0 imm=0x10
+275 eq    r2 a=7 b=0 imm=0x0
+276 jz    r2 a=0 b=0 imm=0x118
+277 movi  r7 a=0 b=0 imm=0x0
+278 movi  r14 a=0 b=0 imm=0x80
+279 blk   r14 a=0 b=0 imm=0x0
+280 movi  r14 a=0 b=0 imm=0x80
+281 add   r14 a=14 b=7 imm=0x0
+282 ldb   r3 a=14 b=0 imm=0x0
+283 add   r7 a=7 b=12 imm=0x0
+284 movi  r14 a=0 b=0 imm=0xf20
+285 stb   r14 a=3 b=0 imm=0x0
+286 movi  r0 a=0 b=0 imm=0x10
+287 eq    r2 a=7 b=0 imm=0x0
+288 jz    r2 a=0 b=0 imm=0x124
+289 movi  r7 a=0 b=0 imm=0x0
+290 movi  r14 a=0 b=0 imm=0x80
+291 blk   r14 a=0 b=0 imm=0x0
+292 movi  r14 a=0 b=0 imm=0x80
+293 add   r14 a=14 b=7 imm=0x0
+294 ldb   r3 a=14 b=0 imm=0x0
+295 add   r7 a=7 b=12 imm=0x0
+296 movi  r14 a=0 b=0 imm=0xf20
+297 stb   r14 a=3 b=0 imm=0x1
+298 movi  r0 a=0 b=0 imm=0x10
+299 eq    r2 a=7 b=0 imm=0x0
+300 jz    r2 a=0 b=0 imm=0x130
+301 movi  r7 a=0 b=0 imm=0x0
+302 movi  r14 a=0 b=0 imm=0x80
+303 blk   r14 a=0 b=0 imm=0x0
+304 movi  r14 a=0 b=0 imm=0x80
+305 add   r14 a=14 b=7 imm=0x0
+306 ldb   r3 a=14 b=0 imm=0x0
+307 add   r7 a=7 b=12 imm=0x0
+308 movi  r14 a=0 b=0 imm=0xf20
+309 stb   r14 a=3 b=0 imm=0x2
+310 movi  r14 a=0 b=0 imm=0xf20
+311 ldb   r0 a=14 b=0 imm=0x0
+312 ldb   r1 a=14 b=0 imm=0x1
+313 movi  r2 a=0 b=0 imm=0x100
+314 mul   r1 a=1 b=2 imm=0x0
+315 add   r0 a=0 b=1 imm=0x0
+316 ldb   r1 a=14 b=0 imm=0x2
+317 movi  r2 a=0 b=0 imm=0x10000
+318 mul   r1 a=1 b=2 imm=0x0
+319 add   r0 a=0 b=1 imm=0x0
+320 mod   r0 a=0 b=0 imm=0x0
+321 movi  r2 a=0 b=0 imm=0x4
+322 mul   r1 a=4 b=2 imm=0x0
+323 movi  r14 a=0 b=0 imm=0xe00
+324 add   r14 a=14 b=1 imm=0x0
+325 stw   r14 a=0 b=0 imm=0x0
+326 add   r4 a=4 b=12 imm=0x0
+327 jmp   r0 a=0 b=0 imm=0x10f
+328 movi  r4 a=0 b=0 imm=0x0
+329 movi  r0 a=0 b=0 imm=0x10
+330 eq    r2 a=4 b=0 imm=0x0
+331 jnz   r2 a=0 b=0 imm=0x175
+332 movi  r5 a=0 b=0 imm=0x0
+333 movi  r0 a=0 b=0 imm=0x10
+334 eq    r2 a=5 b=0 imm=0x0
+335 jnz   r2 a=0 b=0 imm=0x173
+336 movi  r15 a=0 b=0 imm=0x0
+337 movi  r6 a=0 b=0 imm=0x0
+338 movi  r0 a=0 b=0 imm=0x10
+339 eq    r2 a=6 b=0 imm=0x0
+340 jnz   r2 a=0 b=0 imm=0x169
+341 movi  r0 a=0 b=0 imm=0x10
+342 mul   r8 a=4 b=0 imm=0x0
+343 add   r8 a=8 b=6 imm=0x0
+344 movi  r2 a=0 b=0 imm=0x4
+345 mul   r1 a=8 b=2 imm=0x0
+346 movi  r14 a=0 b=0 imm=0x200
+347 add   r14 a=14 b=1 imm=0x0
+348 ldw   r3 a=14 b=0 imm=0x0
+349 movi  r0 a=0 b=0 imm=0x10
+350 mul   r8 a=6 b=0 imm=0x0
+351 add   r8 a=8 b=5 imm=0x0
+352 movi  r2 a=0 b=0 imm=0x4
+353 mul   r1 a=8 b=2 imm=0x0
+354 movi  r14 a=0 b=0 imm=0x600
+355 add   r14 a=14 b=1 imm=0x0
+356 ldw   r0 a=14 b=0 imm=0x0
+357 mmul  r0 a=3 b=0 imm=0x0
+358 madd  r15 a=15 b=0 imm=0x0
+359 add   r6 a=6 b=12 imm=0x0
+360 jmp   r0 a=0 b=0 imm=0x152
+361 movi  r0 a=0 b=0 imm=0x10
+362 mul   r8 a=4 b=0 imm=0x0
+363 add   r8 a=8 b=5 imm=0x0
+364 movi  r2 a=0 b=0 imm=0x4
+365 mul   r1 a=8 b=2 imm=0x0
+366 movi  r14 a=0 b=0 imm=0xa00
+367 add   r14 a=14 b=1 imm=0x0
+368 stw   r14 a=15 b=0 imm=0x0
+369 add   r5 a=5 b=12 imm=0x0
+370 jmp   r0 a=0 b=0 imm=0x14d
+371 add   r4 a=4 b=12 imm=0x0
+372 jmp   r0 a=0 b=0 imm=0x149
+373 movi  r4 a=0 b=0 imm=0x0
+374 movi  r0 a=0 b=0 imm=0x20
+375 eq    r2 a=4 b=0 imm=0x0
+376 jnz   r2 a=0 b=0 imm=0x181
+377 movi  r14 a=0 b=0 imm=0x51
+378 add   r14 a=14 b=4 imm=0x0
+379 ldb   r0 a=14 b=0 imm=0x0
+380 movi  r14 a=0 b=0 imm=0xf00
+381 add   r14 a=14 b=4 imm=0x0
+382 stb   r14 a=0 b=0 imm=0x0
+383 add   r4 a=4 b=12 imm=0x0
+384 jmp   r0 a=0 b=0 imm=0x176
+385 movi  r9 a=0 b=0 imm=0x0
+386 movi  r0 a=0 b=0 imm=0x6
+387 eq    r2 a=9 b=0 imm=0x0
+388 jnz   r2 a=0 b=0 imm=0x1cc
+389 movi  r4 a=0 b=0 imm=0x0
+390 movi  r0 a=0 b=0 imm=0x20
+391 eq    r2 a=4 b=0 imm=0x0
+392 jnz   r2 a=0 b=0 imm=0x196
+393 movi  r0 a=0 b=0 imm=0x20
+394 mul   r8 a=9 b=0 imm=0x0
+395 add   r8 a=8 b=4 imm=0x0
+396 movi  r14 a=0 b=0 imm=0xc0
+397 add   r14 a=14 b=8 imm=0x0
+398 ldb   r0 a=14 b=0 imm=0x0
+399 movi  r14 a=0 b=0 imm=0xf00
+400 add   r14 a=14 b=4 imm=0x0
+401 ldb   r1 a=14 b=0 imm=0x0
+402 xor   r0 a=0 b=1 imm=0x0
+403 stb   r14 a=0 b=0 imm=0x0
+404 add   r4 a=4 b=12 imm=0x0
+405 jmp   r0 a=0 b=0 imm=0x186
+406 movi  r4 a=0 b=0 imm=0x0
+407 movi  r0 a=0 b=0 imm=0x20
+408 eq    r2 a=4 b=0 imm=0x0
+409 jnz   r2 a=0 b=0 imm=0x1a1
+410 movi  r14 a=0 b=0 imm=0xf00
+411 add   r14 a=14 b=4 imm=0x0
+412 ldb   r0 a=14 b=0 imm=0x0
+413 sbox  r0 a=0 b=0 imm=0x0
+414 stb   r14 a=0 b=0 imm=0x0
+415 add   r4 a=4 b=12 imm=0x0
+416 jmp   r0 a=0 b=0 imm=0x197
+417 movi  r4 a=0 b=0 imm=0x0
+418 movi  r0 a=0 b=0 imm=0x8
+419 eq    r2 a=4 b=0 imm=0x0
+420 jnz   r2 a=0 b=0 imm=0x1ac
+421 movi  r0 a=0 b=0 imm=0x4
+422 mul   r0 a=4 b=0 imm=0x0
+423 movi  r14 a=0 b=0 imm=0xf00
+424 add   r14 a=14 b=0 imm=0x0
+425 mix4  r14 a=0 b=0 imm=0x0
+426 add   r4 a=4 b=12 imm=0x0
+427 jmp   r0 a=0 b=0 imm=0x1a2
+428 movi  r4 a=0 b=0 imm=0x0
+429 movi  r0 a=0 b=0 imm=0x20
+430 eq    r2 a=4 b=0 imm=0x0
+431 jnz   r2 a=0 b=0 imm=0x1be
+432 movi  r0 a=0 b=0 imm=0x7
+433 mul   r8 a=4 b=0 imm=0x0
+434 movi  r0 a=0 b=0 imm=0x3
+435 add   r8 a=8 b=0 imm=0x0
+436 movi  r0 a=0 b=0 imm=0x1f
+437 and   r8 a=8 b=0 imm=0x0
+438 movi  r14 a=0 b=0 imm=0xf00
+439 add   r14 a=14 b=4 imm=0x0
+440 ldb   r0 a=14 b=0 imm=0x0
+441 movi  r14 a=0 b=0 imm=0xf20
+442 add   r14 a=14 b=8 imm=0x0
+443 stb   r14 a=0 b=0 imm=0x0
+444 add   r4 a=4 b=12 imm=0x0
+445 jmp   r0 a=0 b=0 imm=0x1ad
+446 movi  r4 a=0 b=0 imm=0x0
+447 movi  r0 a=0 b=0 imm=0x20
+448 eq    r2 a=4 b=0 imm=0x0
+449 jnz   r2 a=0 b=0 imm=0x1ca
+450 movi  r14 a=0 b=0 imm=0xf20
+451 add   r14 a=14 b=4 imm=0x0
+452 ldb   r0 a=14 b=0 imm=0x0
+453 movi  r14 a=0 b=0 imm=0xf00
+454 add   r14 a=14 b=4 imm=0x0
+455 stb   r14 a=0 b=0 imm=0x0
+456 add   r4 a=4 b=12 imm=0x0
+457 jmp   r0 a=0 b=0 imm=0x1bf
+458 add   r9 a=9 b=12 imm=0x0
+459 jmp   r0 a=0 b=0 imm=0x182
+460 movi  r4 a=0 b=0 imm=0x0
+461 movi  r0 a=0 b=0 imm=0x10
+462 eq    r2 a=4 b=0 imm=0x0
+463 jnz   r2 a=0 b=0 imm=0x1e0
+464 movi  r2 a=0 b=0 imm=0x2
+465 mul   r8 a=4 b=2 imm=0x0
+466 movi  r14 a=0 b=0 imm=0xf00
+467 add   r14 a=14 b=8 imm=0x0
+468 ldb   r0 a=14 b=0 imm=0x0
+469 ldb   r1 a=14 b=0 imm=0x1
+470 movi  r2 a=0 b=0 imm=0x100
+471 mul   r0 a=0 b=2 imm=0x0
+472 add   r0 a=0 b=1 imm=0x0
+473 movi  r2 a=0 b=0 imm=0x4
+474 mul   r1 a=4 b=2 imm=0x0
+475 movi  r14 a=0 b=0 imm=0xe40
+476 add   r14 a=14 b=1 imm=0x0
+477 stw   r14 a=0 b=0 imm=0x0
+478 add   r4 a=4 b=12 imm=0x0
+479 jmp   r0 a=0 b=0 imm=0x1cd
+480 movi  r4 a=0 b=0 imm=0x0
+481 movi  r0 a=0 b=0 imm=0x10
+482 eq    r2 a=4 b=0 imm=0x0
+483 jnz   r2 a=0 b=0 imm=0x207
+484 movi  r15 a=0 b=0 imm=0x0
+485 movi  r5 a=0 b=0 imm=0x0
+486 movi  r0 a=0 b=0 imm=0x10
+487 eq    r2 a=5 b=0 imm=0x0
+488 jnz   r2 a=0 b=0 imm=0x1fa
+489 movi  r0 a=0 b=0 imm=0x10
+490 mul   r8 a=4 b=0 imm=0x0
+491 add   r8 a=8 b=5 imm=0x0
+492 movi  r2 a=0 b=0 imm=0x4
+493 mul   r1 a=8 b=2 imm=0x0
+494 movi  r14 a=0 b=0 imm=0xa00
+495 add   r14 a=14 b=1 imm=0x0
+496 ldw   r3 a=14 b=0 imm=0x0
+497 movi  r2 a=0 b=0 imm=0x4
+498 mul   r1 a=5 b=2 imm=0x0
+499 movi  r14 a=0 b=0 imm=0xe40
+500 add   r14 a=14 b=1 imm=0x0
+501 ldw   r0 a=14 b=0 imm=0x0
+502 mmul  r0 a=3 b=0 imm=0x0
+503 madd  r15 a=15 b=0 imm=0x0
+504 add   r5 a=5 b=12 imm=0x0
+505 jmp   r0 a=0 b=0 imm=0x1e6
+506 movi  r2 a=0 b=0 imm=0x4
+507 mul   r1 a=4 b=2 imm=0x0
+508 movi  r14 a=0 b=0 imm=0xe00
+509 add   r14 a=14 b=1 imm=0x0
+510 ldw   r0 a=14 b=0 imm=0x0
+511 madd  r15 a=15 b=0 imm=0x0
+512 movi  r2 a=0 b=0 imm=0x4
+513 mul   r1 a=4 b=2 imm=0x0
+514 movi  r14 a=0 b=0 imm=0xe80
+515 add   r14 a=14 b=1 imm=0x0
+516 stw   r14 a=15 b=0 imm=0x0
+517 add   r4 a=4 b=12 imm=0x0
+518 jmp   r0 a=0 b=0 imm=0x1e1
+519 movi  r0 a=0 b=0 imm=0x2eeb
+520 movi  r8 a=0 b=0 imm=0x0
+521 movi  r2 a=0 b=0 imm=0x4
+522 mul   r1 a=8 b=2 imm=0x0
+523 movi  r14 a=0 b=0 imm=0xf80
+524 add   r14 a=14 b=1 imm=0x0
+525 stw   r14 a=0 b=0 imm=0x0
+526 movi  r2 a=0 b=0 imm=0x4
+527 mul   r1 a=8 b=2 imm=0x0
+528 movi  r14 a=0 b=0 imm=0xe80
+529 add   r14 a=14 b=1 imm=0x0
+530 ldw   r1 a=14 b=0 imm=0x0
+531 msub  r3 a=1 b=0 imm=0x0
+532 movi  r2 a=0 b=0 imm=0x4
+533 mul   r1 a=8 b=2 imm=0x0
+534 movi  r14 a=0 b=0 imm=0xfc0
+535 add   r14 a=14 b=1 imm=0x0
+536 stw   r14 a=3 b=0 imm=0x0
+537 movi  r0 a=0 b=0 imm=0xab4c
+538 movi  r8 a=0 b=0 imm=0x1
+539 movi  r2 a=0 b=0 imm=0x4
+540 mul   r1 a=8 b=2 imm=0x0
+541 movi  r14 a=0 b=0 imm=0xf80
+542 add   r14 a=14 b=1 imm=0x0
+543 stw   r14 a=0 b=0 imm=0x0
+544 movi  r2 a=0 b=0 imm=0x4
+545 mul   r1 a=8 b=2 imm=0x0
+546 movi  r14 a=0 b=0 imm=0xe80
+547 add   r14 a=14 b=1 imm=0x0
+548 ldw   r1 a=14 b=0 imm=0x0
+549 msub  r3 a=1 b=0 imm=0x0
+550 movi  r2 a=0 b=0 imm=0x4
+551 mul   r1 a=8 b=2 imm=0x0
+552 movi  r14 a=0 b=0 imm=0xfc0
+553 add   r14 a=14 b=1 imm=0x0
+554 stw   r14 a=3 b=0 imm=0x0
+555 movi  r0 a=0 b=0 imm=0x38e
+556 movi  r8 a=0 b=0 imm=0x2
+557 movi  r2 a=0 b=0 imm=0x4
+558 mul   r1 a=8 b=2 imm=0x0
+559 movi  r14 a=0 b=0 imm=0xf80
+560 add   r14 a=14 b=1 imm=0x0
+561 stw   r14 a=0 b=0 imm=0x0
+562 movi  r2 a=0 b=0 imm=0x4
+563 mul   r1 a=8 b=2 imm=0x0
+564 movi  r14 a=0 b=0 imm=0xe80
+565 add   r14 a=14 b=1 imm=0x0
+566 ldw   r1 a=14 b=0 imm=0x0
+567 msub  r3 a=1 b=0 imm=0x0
+568 movi  r2 a=0 b=0 imm=0x4
+569 mul   r1 a=8 b=2 imm=0x0
+570 movi  r14 a=0 b=0 imm=0xfc0
+571 add   r14 a=14 b=1 imm=0x0
+572 stw   r14 a=3 b=0 imm=0x0
+573 movi  r0 a=0 b=0 imm=0xd6d9
+574 movi  r8 a=0 b=0 imm=0x3
+575 movi  r2 a=0 b=0 imm=0x4
+576 mul   r1 a=8 b=2 imm=0x0
+577 movi  r14 a=0 b=0 imm=0xf80
+578 add   r14 a=14 b=1 imm=0x0
+579 stw   r14 a=0 b=0 imm=0x0
+580 movi  r2 a=0 b=0 imm=0x4
+581 mul   r1 a=8 b=2 imm=0x0
+582 movi  r14 a=0 b=0 imm=0xe80
+583 add   r14 a=14 b=1 imm=0x0
+584 ldw   r1 a=14 b=0 imm=0x0
+585 msub  r3 a=1 b=0 imm=0x0
+586 movi  r2 a=0 b=0 imm=0x4
+587 mul   r1 a=8 b=2 imm=0x0
+588 movi  r14 a=0 b=0 imm=0xfc0
+589 add   r14 a=14 b=1 imm=0x0
+590 stw   r14 a=3 b=0 imm=0x0
+591 movi  r0 a=0 b=0 imm=0x11
+592 movi  r8 a=0 b=0 imm=0x4
+593 movi  r2 a=0 b=0 imm=0x4
+594 mul   r1 a=8 b=2 imm=0x0
+595 movi  r14 a=0 b=0 imm=0xf80
+596 add   r14 a=14 b=1 imm=0x0
+597 stw   r14 a=0 b=0 imm=0x0
+598 movi  r2 a=0 b=0 imm=0x4
+599 mul   r1 a=8 b=2 imm=0x0
+600 movi  r14 a=0 b=0 imm=0xe80
+601 add   r14 a=14 b=1 imm=0x0
+602 ldw   r1 a=14 b=0 imm=0x0
+603 msub  r3 a=1 b=0 imm=0x0
+604 movi  r2 a=0 b=0 imm=0x4
+605 mul   r1 a=8 b=2 imm=0x0
+606 movi  r14 a=0 b=0 imm=0xfc0
+607 add   r14 a=14 b=1 imm=0x0
+608 stw   r14 a=3 b=0 imm=0x0
+609 movi  r0 a=0 b=0 imm=0xfa00
+610 movi  r8 a=0 b=0 imm=0x5
+611 movi  r2 a=0 b=0 imm=0x4
+612 mul   r1 a=8 b=2 imm=0x0
+613 movi  r14 a=0 b=0 imm=0xf80
+614 add   r14 a=14 b=1 imm=0x0
+615 stw   r14 a=0 b=0 imm=0x0
+616 movi  r2 a=0 b=0 imm=0x4
+617 mul   r1 a=8 b=2 imm=0x0
+618 movi  r14 a=0 b=0 imm=0xe80
+619 add   r14 a=14 b=1 imm=0x0
+620 ldw   r1 a=14 b=0 imm=0x0
+621 msub  r3 a=1 b=0 imm=0x0
+622 movi  r2 a=0 b=0 imm=0x4
+623 mul   r1 a=8 b=2 imm=0x0
+624 movi  r14 a=0 b=0 imm=0xfc0
+625 add   r14 a=14 b=1 imm=0x0
+626 stw   r14 a=3 b=0 imm=0x0
+627 movi  r0 a=0 b=0 imm=0x56ce
+628 movi  r8 a=0 b=0 imm=0x6
+629 movi  r2 a=0 b=0 imm=0x4
+630 mul   r1 a=8 b=2 imm=0x0
+631 movi  r14 a=0 b=0 imm=0xf80
+632 add   r14 a=14 b=1 imm=0x0
+633 stw   r14 a=0 b=0 imm=0x0
+634 movi  r2 a=0 b=0 imm=0x4
+635 mul   r1 a=8 b=2 imm=0x0
+636 movi  r14 a=0 b=0 imm=0xe80
+637 add   r14 a=14 b=1 imm=0x0
+638 ldw   r1 a=14 b=0 imm=0x0
+639 msub  r3 a=1 b=0 imm=0x0
+640 movi  r2 a=0 b=0 imm=0x4
+641 mul   r1 a=8 b=2 imm=0x0
+642 movi  r14 a=0 b=0 imm=0xfc0
+643 add   r14 a=14 b=1 imm=0x0
+644 stw   r14 a=3 b=0 imm=0x0
+645 movi  r0 a=0 b=0 imm=0x3
+646 movi  r8 a=0 b=0 imm=0x7
+647 movi  r2 a=0 b=0 imm=0x4
+648 mul   r1 a=8 b=2 imm=0x0
+649 movi  r14 a=0 b=0 imm=0xf80
+650 add   r14 a=14 b=1 imm=0x0
+651 stw   r14 a=0 b=0 imm=0x0
+652 movi  r2 a=0 b=0 imm=0x4
+653 mul   r1 a=8 b=2 imm=0x0
+654 movi  r14 a=0 b=0 imm=0xe80
+655 add   r14 a=14 b=1 imm=0x0
+656 ldw   r1 a=14 b=0 imm=0x0
+657 msub  r3 a=1 b=0 imm=0x0
+658 movi  r2 a=0 b=0 imm=0x4
+659 mul   r1 a=8 b=2 imm=0x0
+660 movi  r14 a=0 b=0 imm=0xfc0
+661 add   r14 a=14 b=1 imm=0x0
+662 stw   r14 a=3 b=0 imm=0x0
+663 movi  r0 a=0 b=0 imm=0x1000
+664 movi  r8 a=0 b=0 imm=0x8
+665 movi  r2 a=0 b=0 imm=0x4
+666 mul   r1 a=8 b=2 imm=0x0
+667 movi  r14 a=0 b=0 imm=0xf80
+668 add   r14 a=14 b=1 imm=0x0
+669 stw   r14 a=0 b=0 imm=0x0
+670 movi  r2 a=0 b=0 imm=0x4
+671 mul   r1 a=8 b=2 imm=0x0
+672 movi  r14 a=0 b=0 imm=0xe80
+673 add   r14 a=14 b=1 imm=0x0
+674 ldw   r1 a=14 b=0 imm=0x0
+675 msub  r3 a=1 b=0 imm=0x0
+676 movi  r2 a=0 b=0 imm=0x4
+677 mul   r1 a=8 b=2 imm=0x0
+678 movi  r14 a=0 b=0 imm=0xfc0
+679 add   r14 a=14 b=1 imm=0x0
+680 stw   r14 a=3 b=0 imm=0x0
+681 movi  r0 a=0 b=0 imm=0xea61
+682 movi  r8 a=0 b=0 imm=0x9
+683 movi  r2 a=0 b=0 imm=0x4
+684 mul   r1 a=8 b=2 imm=0x0
+685 movi  r14 a=0 b=0 imm=0xf80
+686 add   r14 a=14 b=1 imm=0x0
+687 stw   r14 a=0 b=0 imm=0x0
+688 movi  r2 a=0 b=0 imm=0x4
+689 mul   r1 a=8 b=2 imm=0x0
+690 movi  r14 a=0 b=0 imm=0xe80
+691 add   r14 a=14 b=1 imm=0x0
+692 ldw   r1 a=14 b=0 imm=0x0
+693 msub  r3 a=1 b=0 imm=0x0
+694 movi  r2 a=0 b=0 imm=0x4
+695 mul   r1 a=8 b=2 imm=0x0
+696 movi  r14 a=0 b=0 imm=0xfc0
+697 add   r14 a=14 b=1 imm=0x0
+698 stw   r14 a=3 b=0 imm=0x0
+699 movi  r0 a=0 b=0 imm=0x4d
+700 movi  r8 a=0 b=0 imm=0xa
+701 movi  r2 a=0 b=0 imm=0x4
+702 mul   r1 a=8 b=2 imm=0x0
+703 movi  r14 a=0 b=0 imm=0xf80
+704 add   r14 a=14 b=1 imm=0x0
+705 stw   r14 a=0 b=0 imm=0x0
+706 movi  r2 a=0 b=0 imm=0x4
+707 mul   r1 a=8 b=2 imm=0x0
+708 movi  r14 a=0 b=0 imm=0xe80
+709 add   r14 a=14 b=1 imm=0x0
+710 ldw   r1 a=14 b=0 imm=0x0
+711 msub  r3 a=1 b=0 imm=0x0
+712 movi  r2 a=0 b=0 imm=0x4
+713 mul   r1 a=8 b=2 imm=0x0
+714 movi  r14 a=0 b=0 imm=0xfc0
+715 add   r14 a=14 b=1 imm=0x0
+716 stw   r14 a=3 b=0 imm=0x0
+717 movi  r0 a=0 b=0 imm=0x7ab7
+718 movi  r8 a=0 b=0 imm=0xb
+719 movi  r2 a=0 b=0 imm=0x4
+720 mul   r1 a=8 b=2 imm=0x0
+721 movi  r14 a=0 b=0 imm=0xf80
+722 add   r14 a=14 b=1 imm=0x0
+723 stw   r14 a=0 b=0 imm=0x0
+724 movi  r2 a=0 b=0 imm=0x4
+725 mul   r1 a=8 b=2 imm=0x0
+726 movi  r14 a=0 b=0 imm=0xe80
+727 add   r14 a=14 b=1 imm=0x0
+728 ldw   r1 a=14 b=0 imm=0x0
+729 msub  r3 a=1 b=0 imm=0x0
+730 movi  r2 a=0 b=0 imm=0x4
+731 mul   r1 a=8 b=2 imm=0x0
+732 movi  r14 a=0 b=0 imm=0xfc0
+733 add   r14 a=14 b=1 imm=0x0
+734 stw   r14 a=3 b=0 imm=0x0
+735 movi  r0 a=0 b=0 imm=0x320
+736 movi  r8 a=0 b=0 imm=0xc
+737 movi  r2 a=0 b=0 imm=0x4
+738 mul   r1 a=8 b=2 imm=0x0
+739 movi  r14 a=0 b=0 imm=0xf80
+740 add   r14 a=14 b=1 imm=0x0
+741 stw   r14 a=0 b=0 imm=0x0
+742 movi  r2 a=0 b=0 imm=0x4
+743 mul   r1 a=8 b=2 imm=0x0
+744 movi  r14 a=0 b=0 imm=0xe80
+745 add   r14 a=14 b=1 imm=0x0
+746 ldw   r1 a=14 b=0 imm=0x0
+747 msub  r3 a=1 b=0 imm=0x0
+748 movi  r2 a=0 b=0 imm=0x4
+749 mul   r1 a=8 b=2 imm=0x0
+750 movi  r14 a=0 b=0 imm=0xfc0
+751 add   r14 a=14 b=1 imm=0x0
+752 stw   r14 a=3 b=0 imm=0x0
+753 movi  r0 a=0 b=0 imm=0x3039
+754 movi  r8 a=0 b=0 imm=0xd
+755 movi  r2 a=0 b=0 imm=0x4
+756 mul   r1 a=8 b=2 imm=0x0
+757 movi  r14 a=0 b=0 imm=0xf80
+758 add   r14 a=14 b=1 imm=0x0
+759 stw   r14 a=0 b=0 imm=0x0
+760 movi  r2 a=0 b=0 imm=0x4
+761 mul   r1 a=8 b=2 imm=0x0
+762 movi  r14 a=0 b=0 imm=0xe80
+763 add   r14 a=14 b=1 imm=0x0
+764 ldw   r1 a=14 b=0 imm=0x0
+765 msub  r3 a=1 b=0 imm=0x0
+766 movi  r2 a=0 b=0 imm=0x4
+767 mul   r1 a=8 b=2 imm=0x0
+768 movi  r14 a=0 b=0 imm=0xfc0
+769 add   r14 a=14 b=1 imm=0x0
+770 stw   r14 a=3 b=0 imm=0x0
+771 movi  r0 a=0 b=0 imm=0xffff
+772 movi  r8 a=0 b=0 imm=0xe
+773 movi  r2 a=0 b=0 imm=0x4
+774 mul   r1 a=8 b=2 imm=0x0
+775 movi  r14 a=0 b=0 imm=0xf80
+776 add   r14 a=14 b=1 imm=0x0
+777 stw   r14 a=0 b=0 imm=0x0
+778 movi  r2 a=0 b=0 imm=0x4
+779 mul   r1 a=8 b=2 imm=0x0
+780 movi  r14 a=0 b=0 imm=0xe80
+781 add   r14 a=14 b=1 imm=0x0
+782 ldw   r1 a=14 b=0 imm=0x0
+783 msub  r3 a=1 b=0 imm=0x0
+784 movi  r2 a=0 b=0 imm=0x4
+785 mul   r1 a=8 b=2 imm=0x0
+786 movi  r14 a=0 b=0 imm=0xfc0
+787 add   r14 a=14 b=1 imm=0x0
+788 stw   r14 a=3 b=0 imm=0x0
+789 movi  r0 a=0 b=0 imm=0x1092
+790 movi  r8 a=0 b=0 imm=0xf
+791 movi  r2 a=0 b=0 imm=0x4
+792 mul   r1 a=8 b=2 imm=0x0
+793 movi  r14 a=0 b=0 imm=0xf80
+794 add   r14 a=14 b=1 imm=0x0
+795 stw   r14 a=0 b=0 imm=0x0
+796 movi  r2 a=0 b=0 imm=0x4
+797 mul   r1 a=8 b=2 imm=0x0
+798 movi  r14 a=0 b=0 imm=0xe80
+799 add   r14 a=14 b=1 imm=0x0
+800 ldw   r1 a=14 b=0 imm=0x0
+801 msub  r3 a=1 b=0 imm=0x0
+802 movi  r2 a=0 b=0 imm=0x4
+803 mul   r1 a=8 b=2 imm=0x0
+804 movi  r14 a=0 b=0 imm=0xfc0
+805 add   r14 a=14 b=1 imm=0x0
+806 stw   r14 a=3 b=0 imm=0x0
+807 halt  r0 a=0 b=0 imm=0x0

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6add58b64ab951a9999da0c8
+
+urls:
+  page: https://crackmes.one/crackme/6add58b64ab951a9999da0c8
+  download: https://crackmes.one/download/crackme/6add58b64ab951a9999da0c8
+
+title: "memetic0's Lattice"
+author_on_site: "memetic0"
+author_local: "memetic0"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "Rust"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/lattice6-crackmes.zip"
+  name: "lattice6-crackmes.zip"
+  sha256: "6eb67d26cd104f1d3d60a03e229a3260ef70cc2ded20cf7a48371071042fa6fb"
+  md5: "aedb605a1345443a6c622d966cf71bc2"
+  size_bytes: 209352
+
+status: solved
+solution_summary: "CrackMes1 -> 8YO4cBYeQNL+RPAgxK/sPqc5kd7taPp1u2Et5BYJpeDN => CMO{lattice_lu_gf65537_spn}. VM chiffrée (splitmix64), out=P·x+c mod 65537 inversé + SPN GF(2^8) inversé ; AEAD final lié à l'user (petik: serial VM-valide mais rejeté)."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-25T10:54:59Z"
