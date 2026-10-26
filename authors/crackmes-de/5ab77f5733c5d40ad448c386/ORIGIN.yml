@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c386
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c386
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c386
+
+title: "crackmes.de's crackme_v2.75 by tol"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows PE32 GUI, Visual Basic 5"
+arch: "x86"
+language: "VB5 (code natif)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/tol_b275.zip"
+  name: "tol_b275.zip"
+  sha256: "a1d511b45888f9cf8c47b94cfd9a5e99c184afcdb61f25618ca8a3287b5d8a2f"
+  md5: "b4899b315984ccce4c5ee0d40ab74c0f"
+  size_bytes: 7405
+
+status: solved
+solution_summary: "mot de passe `2rK4HJ4-7n8RgT09IW6a7kSlg33` : Command1_Click concatène 6 Mid$ de deux BSTR constants (@0x401a04, @0x401a94) + \"-\" via __vbaVarAdd puis __vbaVarTstEq vs Text1 ; vérifié Wine/xvfb (Contact: / BuL_LeT@hotmail.com vs Nope) ; pas de user (petik = KO)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-26T23:46:44Z"
