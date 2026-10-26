@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c362
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c362
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c362
+
+title: "crackmes.de's evidence2 by giveme5"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows PE32 GUI"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/haque_evd2.zip"
+  name: "haque_evd2.zip"
+  sha256: "198a60cc8034dd979afb7702aaa1e0b7af5c64d1c2e557b9eeefd0639470f7a3"
+  md5: "977d4a99f0f783a62b62f0ad3d91e9f9"
+  size_bytes: 28878
+
+status: solved
+solution_summary: "keygen : total = Σ(c+47) sur tout le nom (espaces inclus) ; serial = ((total²+2) ^ (total+0x1a0b)) − 0x308 en décimal ; petik → 600649 ; check @0x401028 (imbriqué dans l'atoi @0x401000) ; vérifié Wine/xvfb « Yep, Serial valid ! » (tools/evd2-solve.py --check)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-26T04:42:33Z"

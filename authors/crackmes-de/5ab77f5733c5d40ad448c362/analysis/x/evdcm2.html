@@ -1,0 +1,656 @@
+<HTML><TITLE>EVD trial crackme tutorial</TITLE>
+<BODY TEXT="#0000FF" BGCOLOR="#0000FF" LINK="#FF0000" VLINK="#000099" ALINK="#FFFF00"><HR SIZE="5"><H2><CENTER><FONT COLOR="#FFFF00"><B>
+Tutorial for EViDENCE Trial Crackme
+</CENTER></H2><H3><CENTER><i>By HaQue 13 March 2001</I></FONT></CENTER></H3><HR SIZE="5"><BR></B>
+
+
+
+<TABLE BORDER CELLSPACING=2 WIDTH="100%" HEIGHT="22">
+  <TR>
+    <TD BGCOLOR="#C6E7C6">
+      <CENTER><B>
+      <FONT COLOR="#0000FF" SIZE=+2>
+Information
+      </FONT>
+      </CENTER>
+    </TD></B>
+  </TR>
+</TABLE>
+
+
+
+
+<TABLE WIDTH="100%" BORDER="1" ALIGN="CENTER">
+ <TD BODY BGCOLOR="#D0D0D0">
+  <TR>
+	<TH BODY BGCOLOR="#B6B6B6"><CENTER>Level</CENTER>
+	<TH BODY BGCOLOR="#B6B6B6"><CENTER>Target</CENTER>
+	<TH BODY BGCOLOR="#B6B6B6"><CENTER>Size</CENTER>
+	<TH BODY BGCOLOR="#B6B6B6"><CENTER>Location</CENTER>
+	<TH BODY BGCOLOR="#B6B6B6"><CENTER>Crackme</CENTER>
+	<TH BODY BGCOLOR="#B6B6B6"><CENTER>Keygen</CENTER>
+	<TH BODY BGCOLOR="#B6B6B6"><CENTER>Patch</CENTER>
+	<TH BODY BGCOLOR="#B6B6B6"><CENTER>KG Source</CENTER></TH>
+</TR>
+<TR>
+	<TD BODY BGCOLOR="#D0D0D0"><CENTER><B>Easy</CENTER>
+	<TD BODY BGCOLOR="#D0D0D0"><CENTER><B>crackme.exe</CENTER>
+	<TD BODY BGCOLOR="#D0D0D0"><CENTER><B>Tiny</CENTER>
+ 	<TD BODY BGCOLOR="#D0D0D0"><CENTER><B>www.evidence2000.de</CENTER>
+ 	<TD BODY BGCOLOR="#D0D0D0"><CENTER><B>evd_crackme.exe</CENTER>
+    <TD BODY BGCOLOR="#D0D0D0"><CENTER><B>evd_key.exe</CENTER>
+	<TD BODY BGCOLOR="#D0D0D0"><CENTER><B>crackme.patched.exe</CENTER>
+	<TD BODY BGCOLOR="#D0D0D0"><CENTER><B>keygen.c</B></CENTER></TD>
+</TR>
+ </TD></TABLE>
+<BR>
+
+
+<TABLE BORDER CELLSPACING=2 WIDTH="100%" HEIGHT="22"><TR><TD BGCOLOR="#C6E7C6"><CENTER>
+<FONT COLOR="#0000FF" SIZE=+2><B>
+You will need:
+</B></FONT></CENTER></TD></TR></TABLE>
+
+
+
+<TABLE WIDTH="100%" BORDER="1" ALIGN="CENTER"><TD BODY BGCOLOR="#D0D0D0">
+<FONT COLOR="#0000FF"><B><BR><UL>
+	<LI>Borland C++ 5.02
+	<LI>W32Dasm v8.93
+	<LI>Hiew v6.55
+    <LI>Our Handy Dandy... NoteBook. You are good at this game!
+	<LI>The <A HREF="evdcm2.exe">crackme</A>
+	<LI>The <A HREF="#serial">Serial</A>
+	<LI>the <A HREF="evdcm2sc.c">keygen</A> sourcecode
+</UL></TD></FONT></B></TABLE>
+
+<BR>
+
+<TABLE BORDER CELLSPACING=2 WIDTH="100%" HEIGHT="22"><TR><TD BGCOLOR="#C6E7C6"><CENTER>
+<FONT COLOR="#0000FF" SIZE=+2><B>
+Introduction
+</B></FONT></CENTER></TD></TR></TABLE>
+
+
+<TABLE WIDTH="100%" BORDER="1" ALIGN="CENTER"><TD BODY BGCOLOR="#D0D0D0">
+<FONT COLOR="#0000FF"><B><BR> 
+        Hello, welcome to my tutorial.  I hope you enjoy it and maybe 
+        learn something new. I have decided to do a tutorial on everything 
+        I crack from now on, and try to explain everything as much as I can. 
+        There are alot of shit tutorials out there!  You can expect ASM 
+        explanations, well commented source code, explanations about softice, 
+        w32dasm etc. and general comments.  I think it will help me as well as 
+        the aspiring cracker. 
+  
+        The target is crackme.exe from www.evidence2000.de and it is used 
+        by them to recruit crackers to see if they really know any cracking... 
+        I was only planning on getting a valid serial for this one, but I 
+        was bored at Uni, so I thought why not practice a bit and do a 
+        Triple Whammy - serial, patch and keygen? 
+        So strap yourself in ppl, we're going in!<BR><BR>
+</TABLE></TD></FONT></B><BR>
+
+
+<TABLE BORDER CELLSPACING=2 WIDTH="100%" HEIGHT="22"><TR><TD BGCOLOR="#C6E7C6"><CENTER>
+<FONT COLOR="#0000FF" SIZE=+2><B>
+Section 1 - the examination
+</B></FONT></CENTER></TD></TR></TABLE>
+
+
+
+<TABLE WIDTH="100%" BORDER="1" ALIGN="CENTER"><TD BODY BGCOLOR="#D0D0D0">
+<FONT COLOR="#0000FF"><B><BR>        
+The first thing I do with any program is load it up and see what it does & doesn't do.
+There is no use going straight to W32Dasm because we don't even know what sort of crack it needs to be.  This all needs to be done in a systematic way.  We see the following when we load it up:<P>
+<UL>
+<LI>small app with 2 edit fields Name & Serial.  The top already has 
+           the authors name in it.  We can enter whatever we want - numbers 
+           letters symbols. Some apps help us by only letting us put in (for 
+           example) 8 characters in the passfield. This app gives us no help 
+           like that.
+<LI>Click the "check" button and we get a MessageBox saying "Sorry, 
+           serial not valid!". Click OK and the whole app exits. Bugger, you 
+           only get one try! 
+<LI>Has a little about box which appears to have nothing to do with the 
+           check. If you exit the prog without trying a serial, it still has 
+           wrong serial message.  This could be here to throw you off abit 
+           when it comes time to crack it... 
+</UL>
+</B></TD></FONT></TABLE>
+<BR>
+
+
+
+<TABLE BORDER CELLSPACING=2 WIDTH="100%" HEIGHT="22"><TR><TD BGCOLOR="#C6E7C6"><CENTER>
+<FONT COLOR="#0000FF" SIZE=+2><B>
+Section 2 - the disassembly &  patch
+</B></FONT></CENTER></TD></TR></TABLE> 
+        
+
+
+<TABLE WIDTH="100%" BORDER="1" ALIGN="CENTER"><TD BODY BGCOLOR="#D0D0D0">
+<FONT COLOR="#0000FF"><B><BR>
+        Ok, we know what we are looking for in W32Dasm now, MessageBoxA() 
+        function, "Sorry, serial not valid!" string reference... etc.. 
+        Open W32Dasm and go to Disassembler -> Open File To Disassemble and 
+        then open it! We almost instantly get our disassembled target.  The 
+        string references are easy to find.  BTW, this is one of the leanest 
+        win programs Ive seen ;-) 
+        We look at the functions that crackme.exe imports from other files to 
+        see if there are any that could be grabbing our serial.  Then we can 
+        use that in softice to  BPX on  - more about that later. 
+        Well GetDlgItemTextA() looks promising, so lets trace the code a bit. 
+        Click the imports button and then doubleclick GetDlgItemTextA. 
+        We land here:
+<BR><BR></B></TD></FONT></TABLE> 
+
+
+
+<TABLE WIDTH="100%" BORDER="1" ALIGN="CENTER"><TD BODY BGCOLOR="#D0D0D0">
+<FONT COLOR="#0000FF"><B><BR><PRE> 
+* Reference To: USER32.GetDlgItemTextA, Ord:0000h       ; Windows function that 
+gets 
+                                |                       ; text from a dialog 
+box. 
+:0040120E E879000000     Call 0040128C                  ; 
+:00401213 A3FB204000     mov dword ptr [004020FB], eax  ; EAX has length of the 
+serial (in Hex) 
+:00401218 33C0           xor eax, eax                   ; this effectively 
+clears EAX 
+:0040121A EB19           jmp 00401235                   ; Jump to location 
+0040135 
+-----------/   /--------------------- 
+  bit of code snipped out here.. 
+-----------/  /---------------------- 
+* Referenced by a (U)nconditional or (C)onditional Jump at Address: 
+|:0040121A(U) 
+| 
+:00401235 6850204000     push 00402050                 ; The serial we entered 
+is pushed. 
+:0040123A 5E             pop esi                       ; Then popped off the 
+stack into ESI. 
+:0040123B E8C0FDFFFF     call 00401000                 ; The serial check 
+routine (1st time). 
+:00401240 A3FF204000     mov dword ptr [004020FF], eax ; EAX holds our serial. 
+:00401245 E8B6FDFFFF     call 00401000                 ; The serial check seems 
+to be here!!! 
+:0040124A 55             push ebp                      ; Save EBP value. 
+:0040124B B807214000     mov eax, 00402107             ; Put into EAX 
+temporarily. 
+:00401250 8BE8           mov ebp, eax                  ; Put 00402107 int EBP. 
+:00401252 FE4500         inc [ebp+00]                  ; Increment 0040207 by 1. 
+
+:00401255 E8A6FDFFFF     call 00401000                 ; The serial check 
+routine (3rd time). 
+:0040125A 5D             pop ebp                       ; Restore EBP to original 
+value. 
+:0040125B 6A00           push 00000000                 ; This parameter for 
+MessageBox is null. 
+* Possible StringData Ref from Data Obj ->"CrackMe"    ; The title of the 
+messageBox is 
+                        |                              ; stored at mem location 
+:0040125D 680F214000    push 0040210F                  ; 0040210F 
+* Possible StringData Ref from Data Obj ->"Yep, Serial valid !" ; Hmmmmmm... !! 
+                        | 
+:00401262 6831214000    push 00402131                  ; 00402131 holds the good 
+guy string 
+:00401267 6A00          push 00000000                  ; This parameter for 
+MessageBox is null. 
+* Reference To: USER32.MessageBoxA, Ord:0000h          ; displays the 
+MessageBox.
+
+</TD></FONT></B><BR></PRE></TABLE>
+<BR>
+ 
+<TABLE WIDTH="100%" BORDER="1" ALIGN="CENTER"><TD BODY BGCOLOR="#D0D0D0">
+<FONT COLOR="#0000FF"><B><BR>
+        It should be quite clear what is going on there.  We can patch it in 
+        1 Byte by changing location 0040121A  from EB19 (jmp 00401235) to EB3F 
+        (jmp 0040125B) Ill explain.. the EB is the opcode for JMP, and this 
+        should be followed by how many Bytes forward you want to jump (in Hex). 
+        If you count them it will work out. 3F is one byte (in Hex) and it 
+        equals 63 Decimal, so we Jump forward 63 bytes. 
+        Now we make a copy of crackme.exe called crkmHIEW.exe and drag it to 
+        HIEW32.exe & drop it on top to open it up.  We need to get the editor 
+        in ASM mode, so pressingwill toggle through the 3 modes, ASM, 
+        HEX, ASCII.  You'll press enter twice, now we need to get to the 
+        location that we want to patch.  press F5 to GOTO and type in 81A then 
+        enter.  We got there, now we need to edit it to our new value. Press 
+        F3 to enter edit mode.  Change the 19 to 3F and press F9 to update 
+       (save) the file. exit Hiew and try it. it will accept anything now!!! 
+        Cool! But with most crackmes that need a name/serial combination, it 
+        is against the rules to patch it, so we either need a valid serial 
+        or a keygen.  Another reason is that we skipped A LOT of code with our 
+ patch, and this is not a good idea.  It is ok for this target though.
+</B></TD></FONT></TABLE> 
+  
+  <BR>
+
+<TABLE BORDER CELLSPACING=2 WIDTH="100%" HEIGHT="22"><TR><TD BGCOLOR="#C6E7C6"><CENTER>
+<FONT COLOR="#0000FF" SIZE=+2><B>
+Section 3 - Lets go serial fishing!
+</B></FONT></CENTER></TD></TR></TABLE>
+
+ 
+
+
+<TABLE WIDTH="100%" BORDER="1" ALIGN="CENTER"><TD BODY BGCOLOR="#D0D0D0">
+<FONT COLOR="#0000FF"><B><BR>
+        We know from above that the proggie uses GetDlgItemTextA() to grab our 
+        info from the dialog box.  We will set softice to stop our program 
+        when it executes that function to allow us to trace through the rest 
+        of it slowly, hopefully we can find a valid serial while doing so. 
+        Load up our uncracked crackme.exe and press Control+D to go into 
+        softice. Type in BPX GetDlgItemTextA(), and ENTER.  F5 to get out of 
+        softice and back to windoze. Shit, it pops up softice straight away as 
+        soon as you edit something  :-(  thats cool, just type in BD * to 
+        temporarily disable the breakpoint and hit F5. 
+        now put in your name and a serial and WRITE IT DOWN! but dont click OK 
+        yet. I chose HaQue/11112222 something easy to recognise in memory. Now 
+        what I do is work out what my serial is in Hex (A9 8F 1E) so I can spot 
+        it easily in memory operations in softice. Now Control+D back to 
+        softice and type BE * to enable the breakpoint again, F5 out again and 
+        click OK. 
+        Softice "pops" and we can get back to the instructions that called 
+        GetDlgItemTextA() by hitting F11. 
+        If you have been paying attention you will notice that we already 
+        know this code well!<P> 
+ after we pressed F11, we see this:<P>
+
+</B></TD></FONT></TABLE>
+
+
+
+
+<TABLE WIDTH="100%" BORDER="1" ALIGN="CENTER"><TD BODY BGCOLOR="#D0D0D0">
+<FONT COLOR="#0000FF"><B><BR><PRE>
+
+* Reference To: USER32.GetDlgItemTextA, Ord:0000h       ; Windows function that 
+gets 
+                                |                       ; text from a dialog 
+box. 
+:0040120E E879000000     Call 0040128C                  ; 
+:00401213 A3FB204000     mov dword ptr [004020FB], eax  ; EAX has length of the 
+serial (in Hex) 
+:00401218 33C0           xor eax, eax                   ; this effectively 
+clears EAX 
+:0040121A EB19           jmp 00401235                   ; Jump to location 
+0040135 
+ The line marker is on line 00401213, if you type ? EAX you see that eax = 0008 
+        (in hex). Then it clears EAX and jumps to the following code: 
+:00401235 6850204000     push 00402050        ; The serial we entered is pushed 
+ont the stack. 
+:0040123A 5E             pop esi              ; Then popped off the stack into 
+ESI. 
+:0040123B E8C0FDFFFF     call 00401000        ; The serial check routine (1st 
+time).
+
+</TD></FONT></B><BR></PRE></TABLE> 
+
+
+
+<TABLE WIDTH="100%" BORDER="1" ALIGN="CENTER"><TD BODY BGCOLOR="#D0D0D0">
+<FONT COLOR="#0000FF"><B><BR>
+ We are going to have to trace into this call sooner or later, but at the 
+ moment we are wanting just to find a valid serial.  This is usually found 
+ by looking for a place where the program compares a known good serial that 
+ has been internally generated by the program to a serial that was entered 
+ by the user... something like:<P>
+ 
+ ---start fictional code---<BR>
+ CMP  EAX, EBX  ; compares the good and the entered serialsBR>
+ JNX  00484A42  ; jumps to the "good boy" message if it matches<BR>
+ PUSH 00402100  ; 00402100 holds "The serial sux, on yer bike!"<BR> 
+ CALL MessageBox<BR> 
+ ---end fictional code---<P>
+ because we are just looking for the compare, and we believe that the serial 
+ checking routine is at location 00401000 (called 3 times), logic tells me to 
+ skip over the first 2 calls and tracing into the last call to 00401000.  We 
+ press F10 to step OVER calls until we arrive at 00401255, then press F8 to 
+ step INTO the call.  There is a CMP straight away which Ill explain later, 
+ and then a jump which we take to 00401028.<P> 
+ Now we press F8 a few times (33 times) and we are at CMP EDX, [ESI]<BR><BR>
+        Type ? EDX, and read our valid serial (for HaQue it is 496449)<BR> 
+        and type D ESI to display the memory address that esi is pointing to.<BR> 
+ This holds the serial we entered (in Hex) 1E 8F A9  If we reverse the bytes 
+ and convert to decimal we get A98F1E or 11112222 decimal. 
+ So this part is complete, on to the keygen  :-)<P>
+</B></TD></FONT></TABLE>
+
+<BR>
+<TABLE BORDER CELLSPACING=2 WIDTH="100%" HEIGHT="22"><TR><TD BGCOLOR="#C6E7C6"><CENTER>
+<FONT COLOR="#0000FF" SIZE=+2><B>
+Section 4 - Whats that Blue? A clue? Blues Clues point to A keygen!
+</B></FONT></CENTER></TD></TR></TABLE>
+
+<TABLE WIDTH="100%" BORDER="1" ALIGN="CENTER"><TD BODY BGCOLOR="#D0D0D0">
+<FONT COLOR="#0000FF"><B><BR>
+ 
+ the steps in making a keygen are these:
+<OL>
+  <LI>work out the algorithm that the program uses to generate the serial. 
+  <LI>make a program to use the same algorithm to make a serial for any name. 
+  <LI>Use the same rules as the program, for example if the program won't allow 
+    names under 5 characters, your kegen also shouldn't allow it.
+</OL> 
+ This is the call at 00401000 :<BR><BR>
+</B></TD></FONT></TABLE>
+ 
+
+
+<TABLE WIDTH="100%" BORDER="1" ALIGN="CENTER"><TD BODY BGCOLOR="#D0D0D0">
+<FONT COLOR="#0000FF"><B><BR><PRE>
+:00401000 807D0001       cmp byte ptr [ebp+00], 01   ; EBP set to 1 only on 3rd 
+call 
+:00401004 7422           je 00401028                 ; if on 3rd call, jump 
+:00401006 33C0           xor eax, eax                ; clears EAX 
+:00401008 33DB           xor ebx, ebx                ; clears EBX 
+:0040100A 33D2           xor edx, edx                ; clears EDX 
+:0040100C BFCCCCCC0C     mov edi, 0CCCCCCC           ; 
+:00401011 8A1E           mov bl, byte ptr [esi]      ; gets first char of serial 
+in BL 
+:00401013 46             inc esi                     ; ESI points to first char 
+:00401014 B500           mov ch, 00                  ; 
+           ; 
+:00401016 80EB30    +--> sub bl, 30                  ; take 30h from BL, see 
+*note* below 
+:00401019 8D0480    |    lea eax, dword ptr [eax+4*eax] ; all these three lines 
+do is put 
+:0040101C 03C0      |    add eax, eax                   ; our serial into EAX. 
+:0040101E 03C3      |    add eax, ebx                   ; 
+:00401020 8A1E      |    mov bl, byte ptr [esi]      ; get next number in serial 
+
+:00401022 46        |    inc esi                     ; point ESI to next number 
+in serial 
+:00401023 84DB      |    test bl, bl                 ; test if BL is zero 
+:00401025 75EF      +--- jne 00401016                ; if so, dont keep looping 
+and: 
+:00401027 C3             ret                         ; return (to 0040125A) 
+
+</TD></FONT></B><BR></PRE></TABLE>
+
+<br>
+<TABLE WIDTH="100%" BORDER="1" ALIGN="CENTER"><TD BODY BGCOLOR="#D0D0D0">
+<FONT COLOR="#0000FF"><B><BR>
+ our serials 1st number was 1.  in ascii that is 49 decimal or 31Hex. 
+ take 30Hex from that we get our original number in Hex!  After all this 
+ our serial just ends up in EAX...<BR><BR>
+</B></TD></FONT></TABLE> 
+  
+<TABLE WIDTH="100%" BORDER="1" ALIGN="CENTER"><TD BODY BGCOLOR="#D0D0D0">
+<FONT COLOR="#0000FF"><B><PRE>
+ 
+:0040123B E8C0FDFFFF     call 00401000                  ; the call we returned 
+from 
+:00401240 A3FF204000     mov dword ptr [004020FF], eax  ; loads our serial to 
+004020FF 
+:00401245 E8B6FDFFFF     call 00401000                  ; calls the same call 
+again 
+
+</TD></FONT></B><BR></PRE></TABLE>
+
+
+<br>
+<TABLE WIDTH="100%" BORDER="1" ALIGN="CENTER"><TD BODY BGCOLOR="#D0D0D0">
+<FONT COLOR="#0000FF"><B><BR>
+ I wont paste the code in, but I'll just tell you that as there 
+ is nothing in esi, it will go through the above code, getting a byte 
+ from esi, putting it in BL, BL will be zero at the TEST BL, BL and 
+ just return...<P> 
+ To here: 
+<BR><BR>
+</B></TD></FONT></TABLE>
+
+<TABLE WIDTH="100%" BORDER="1" ALIGN="CENTER"><TD BODY BGCOLOR="#D0D0D0">
+<FONT COLOR="#0000FF"><B><BR><PRE>
+
+:0040124A 55             push ebp             ; save EBP onto the stack 
+:0040124B B807214000     mov eax, 00402107    ; cant move 00402107 ino EBP 
+directly, so use EAX 
+:00401250 8BE8           mov ebp, eax         ; EBP points to 00402107 (which is 
+empty) 
+:00401252 FE4500         inc [ebp+00]         ; increment EBP, so now it is 0001 
+(BL=01 BH=00) 
+:00401255 E8A6FDFFFF     call 00401000        ; call our wonderful check once 
+more! 
+:00401000 807D0001       cmp byte ptr [ebp+00], 01  ; EBP is now 01, so.. 
+:00401004 7422           je 00401028                ; we JUMP this time.. last & 
+hardest now.. 
+: 
+: 
+: 
+:00401028 833DF720400000 cmp dword ptr [004020F7], 00000000 ; The length of name 
+is in 004020F7 
+:0040102F 7460           je 00401091                        ; Jump to bad boy if 
+name empty 
+:00401031 8B0DF7204000   mov ecx, dword ptr [004020F7]      ; Length of name 
+into counter ECX 
+:00401037 BE0E204000     mov esi, 0040200E                  ; Our name goes to 
+ESI 
+:0040103C 33C0           xor eax, eax                       ; clear eax, (buffer 
+for LODSB) 
+:0040103E BF03214000     mov edi, 00402103               ; edi will hold the 
+total of the loop 
+:00401043 AC             lodsb                           ; loads first letter to 
+EAX 
+:00401044 0107           add dword ptr [edi], eax        ; Puts the hex value in 
+00402103 [EDI] 
+:00401046 83072F         add dword ptr [edi], 0000002F   ; Adds 2F to the total 
+:00401049 E2F8           loop 00401043                   ; goes back to 
+0040103C, loops until 
+        ;   ECX is 0 (all letters are read) 
+:0040104B 33D2           xor edx, edx                    ; clears EDX 
+:0040104D 8B07           mov eax, dword ptr [edi]        ; puts the total into 
+EAX 
+:0040104F 50             push eax                        ; saves it for l8tr 
+(doesnt clear EAX) 
+:00401050 050B1A0000     add eax, 00001A0B               ; adds 1A0B to EAX 
+:00401055 BF07214000     mov edi, 00402107               ; 
+:0040105A 8907           mov dword ptr [edi], eax        ; puts new EAX in 
+00402107 
+:0040105C 58             pop eax                         ; restores EAX to be as 
+:0040104F 
+:0040105D F7E8           imul eax    ; squares EAX, stores it back in EAX 
+:0040105F BF0B214000     mov edi, 0040210B               ; 
+:00401064 8907           mov dword ptr [edi], eax        ; put EAX into 0040210B 
+
+:00401066 FF07           inc dword ptr [edi]             ; increments EAX 
+:00401068 FF07           inc dword ptr [edi]             ; increments EAX again 
+:0040106A BF07214000     mov edi, 00402107               ; 
+:0040106F 8B07           mov eax, dword ptr [edi]        ; puts result from 
+00401050 into EAX 
+:00401071 BE0B214000     mov esi, 0040210B               ; 
+:00401076 3106           xor dword ptr [esi], eax        ; XOR's EAX with stuff 
+at 0040210B 
+:00401078 812E09030000   sub dword ptr [esi], 00000309   ; subtracts 309h from 
+the result 
+:0040107E FF06           inc dword ptr [esi]             ; increments address at 
+[ESI] 
+:00401080 8B16           mov edx, dword ptr [esi]      ; value at [ESI] into EDX 
+(good serial!) 
+:00401082 33C0           xor eax, eax                    ; clears EAX 
+:00401084 8906           mov dword ptr [esi], eax        ; clears ESI [ESI] 
+:00401086 68FF204000     push 004020FF                   ; 004020FF holds our 
+fake serial 
+:0040108B 5E             pop esi                         ; put whats at 004020FF 
+into ESI 
+:0040108C 3B16           cmp edx, dword ptr [esi]        ; compare the good 
+serial with fake 1 
+:0040108E 7501           jne 00401091                    ; if they don't match, 
+jump to bad boy 
+:00401090 C3             ret                             ; returns to show good 
+serial message. 
+  
+:00401091 33D2           xor edx, edx           ; clears good serial ASAP !! 
+(not soon enuff!) 
+:00401093 681C124000     push 0040121C          ; 0040121C holds "Sorry, serial 
+not valid!" 
+:00401098 C3             ret                    ; returns to show bad serial 
+message. 
+  
+</TD></FONT></B><BR></PRE></TABLE>
+
+
+
+<br>
+<TABLE WIDTH="100%" BORDER="1" ALIGN="CENTER"><TD BODY BGCOLOR="#D0D0D0">
+<FONT COLOR="#0000FF"><B><BR>
+ whew, that was a lot of typing  ;-) 
+ all we need to do now is look at the code between :00401028 & :00401080 
+ to see how we can use it in our own keygen to generate a valid serial for us. 
+ Lets study it more closely, taking out all the shit we don't need to look at 
+ and see if we can make a simple algorith out of it.<P> 
+   psuedocode follows:<BR><BR>
+</B></TD></FONT></TABLE>
+
+
+
+<TABLE WIDTH="100%" BORDER="1" ALIGN="CENTER"><TD BODY BGCOLOR="#D0D0D0">
+<FONT COLOR="#0000FF"><B><BR><PRE> 
+        String  name; 
+ int     total, temp, i, var1, var2, var3; 
+  
+If ( length(name) = 0 ) 
+  messageBox ("your name must be entered"); 
+else 
+ { 
+   for ( i = 1; i  
+     { 
+       letter = Char.at(i); 
+       total = total + letter; 
+       total = total + 2F; 
+     } 
+end if 
+var1 = total 
+var2 = var1 
+var3 = var1 + 1A0B 
+var2 = var2 * var2 
+var2 = var2 + 1 
+var2 = var2 + 1 
+var2 = var2 xor var3 
+var2 = var2 - 309h 
+var2 = var2 + 1 
+good serial = var2 
+//----------- end psuedocode --------------// 
+
+</TD></FONT></B><BR></PRE></TABLE>
+
+<BR>
+
+<TABLE WIDTH="100%" BORDER="1" ALIGN="CENTER"><TD BODY BGCOLOR="#D0D0D0">
+<FONT COLOR="#0000FF"><B><BR>
+The reason it looks so confusing is that in ASM, you can't just assign 
+some registers directly, you have to put a value in one register and 
+then mov it to another. the "dword ptr [edi] also confuses ppl. 
+take, for example:<P> 
+     mov edi, 00402107<BR> 
+     mov eax, dword ptr [edi]<P> 
+In plain english it means this:<P>
+
+move the address 00402107 into EDI.<BR>
+Then take the VALUE of the double-word(4 bytes)of data that is stored at the address in EDI, 
+and move it into EAX.<P> 
+Ok, so now we think we know the algorithm, we will give it a test.. 
+we will get the values of our name (in HEXADECIMAL remember)..<BR>
+ 
+<TABLE WIDTH="40%" BORDER="1" ALIGN="CENTER"><TD BODY BGCOLOR="#D0D0D0">
+  <TR>
+    <TH><CENTER>ASCII</CENTER></TH>
+    <TD><CENTER>H</CENTER></TD>
+    <TD><CENTER>a</CENTER></TD>
+    <TD><CENTER>Q</CENTER></TD>
+    <TD><CENTER>u</CENTER></TD>
+    <TD><CENTER>e</CENTER></TD>
+  </TR>
+  <TR>
+    <TH><CENTER>DEC</CENTER></TH>
+    <TD><CENTER>72</CENTER></TD>
+    <TD><CENTER>97</CENTER></TD>
+    <TD><CENTER>81</CENTER></TD>
+    <TD><CENTER>117</CENTER></TD>
+    <TD><CENTER>101</CENTER></TD>
+  </TR>
+  <TR> 
+    <TH>HEX 
+    <TD><CENTER>48</CENTER></TD>
+    <TD><CENTER>61</CENTER></TD>
+    <TD><CENTER>51</CENTER></TD>
+    <TD><CENTER>75</CENTER></TD>
+    <TD><CENTER>65</CENTER></TD>
+  </TR>
+</TABLE>
+ <BR> 
+   
+            we loop through our name and add it to 
+            a running total, adding 2F to it each time. 
+            *** we could just as easy add (5 * 2F) at the end, 
+            and add all our letters together at once, so we will!!<BR><BR> 
+</B></TD></FONT></TABLE>
+
+
+
+ <TABLE WIDTH="100%" BORDER="1" ALIGN="CENTER"><TD BODY BGCOLOR="#D0D0D0">
+<FONT COLOR="#0000FF"><B><BR><PRE> 
+  48 + 61 + 51 + 75 + 65 + (5 * 2F) = 2BF 
+var1 = total               ;  var1 = 2BF 
+var2 = var1                ;  var2 = 2BF 
+var3 = var1 + 1A0B         ;  var3 = (2BF +1A0B) ...  var3 = 1CCA 
+var2 = var2 * var2         ;  var2 = 78A81 
+var2 = var2 + 1            ;  var2 = 78A82 
+var2 = var2 + 1            ;  var2 = 78A83 
+var2 = var2 xor var3       ;  Var2 = (78A83 XOR 1CCA)  ... var2 = 79649 
+var2 = var2 - 309          ;  var2 = 79649 - 309 ... var2 = 79340 
+var2 = var2 + 1            ;  var2 = 79341 
+good serial = var2         ; serial = 79341 or 496449 in decimal.
+
+</TD></FONT></B><BR></PRE></TABLE>
+
+<BR>
+
+<TABLE WIDTH="100%" BORDER="1" ALIGN="CENTER"><TD BODY BGCOLOR="#D0D0D0">
+<FONT COLOR="#0000FF"><B><BR>
+try it out in the crackme... it works!! 
+now we can optimise the equations and code it in our favourite 
+programming language.  I am going to code it in Borland C 5.02.  I have to 
+start using this compiler for Uni so It will help to test out the 
+paths, compiling etc, and get a feel for it.... 
+Get <A HREF="evdcm2sc.c">keygen.c</A> ,the C source code for the keygen!<BR><BR>
+</B></TD></FONT></TABLE> 
+<BR>
+<TABLE BORDER CELLSPACING=2 WIDTH="100%" HEIGHT="22">
+<TR>
+<TD BGCOLOR="#C6E7C6">
+<CENTER>
+<FONT COLOR="#0000FF" SIZE=+2>
+<B>
+<A NAME=serial>Serial</A> 
+</B>
+</FONT>
+</CENTER>
+</TD>
+</TR>
+</TABLE>
+
+
+<TABLE WIDTH="100%" BORDER="1" ALIGN="CENTER" BGCOLOR="#D0D0D0">
+<TD><BR>
+<TABLE WIDTH="30%" BORDER="1" ALIGN="CENTER" BGCOLOR="#D0D0D0">
+<B>
+<TR>
+  <TH><CENTER>Name</CENTER></TH>
+  <TD><CENTER>HaQue</CENTER></TH>
+</TR>
+<TR>
+  <TH><CENTER>Serial</CENTER></TH>
+  <TD><CENTER>496449</CENTER></TD>
+</TR> 
+</B>
+</FONT>
+</TABLE><BR>
+</TD>
+</TABLE>
+<BR>
+
+
+</BODY>
+</HTML>

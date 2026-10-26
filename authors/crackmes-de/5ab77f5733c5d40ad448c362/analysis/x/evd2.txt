@@ -1,0 +1,4 @@
+level          : easy
+tute written by: HaQue
+Crackme author : GiveMe5
+type           : Serial

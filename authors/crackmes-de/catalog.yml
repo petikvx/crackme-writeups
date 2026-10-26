@@ -1976,6 +1976,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c35f/original/KeygenME#1.zip"
     title: "crackmes.de's keygenme1 by l0calh0st"
 
+  5ab77f5733c5d40ad448c362:
+    sha256: "198a60cc8034dd979afb7702aaa1e0b7af5c64d1c2e557b9eeefd0639470f7a3"
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c362/original/haque_evd2.zip"
+    title: "crackmes.de's evidence2 by giveme5"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3569,3 +3574,7 @@ by_sha256:
     id: 5ab77f5733c5d40ad448c35f
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c35f/original/KeygenME#1.zip"
     page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c35f
+  198a60cc8034dd979afb7702aaa1e0b7af5c64d1c2e557b9eeefd0639470f7a3:
+    id: 5ab77f5733c5d40ad448c362
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c362/original/haque_evd2.zip"
+    page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c362
