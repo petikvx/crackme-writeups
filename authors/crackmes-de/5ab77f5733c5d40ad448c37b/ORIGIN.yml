@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c37b
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c37b
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c37b
+
+title: "crackmes.de's crackme_4_combo by klizma"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/CrackMe_#4_by_KLiZMA.zip"
+  name: "CrackMe_#4_by_KLiZMA.zip"
+  sha256: "e3051d57c3fbb2b9abb41629f5aa7ae83f04577fa3fdbe8d548638f35337b502"
+  md5: "5c7982b1d30c6325fe59823406cf8e73"
+  size_bytes: 3342
+
+status: solved
+solution_summary: "keygen 3 stages (FSG dépacké par unicorn) : S=99999999 (b0b1+b2b3==b4b6+b5b7) ; A=999999 ; v2=A+S-0x400, v3=(S+v2)>>10, v4=S-A+v2-v3, v5=S>>8+A>>7+v2>>6 ; ID=v3 (>99999), Code=v5 (>999999) -> 99999999 999999 100998974 196288 199802686 1976544 196288 1976544 ; vérifié Wine/xvfb ; pas de user (petik non demandé)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-26T16:48:30Z"
