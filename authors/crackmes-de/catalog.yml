@@ -2001,6 +2001,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c370/original/gncrk9.zip"
     title: "crackmes.de's gc_crackme_9 by gandalf"
 
+  5ab77f5733c5d40ad448c374:
+    sha256: "0544ec180e5542adb0b68ee62bdd35817330dcc6b528ca2e43c06d7d2950e86d"
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c374/original/KeyGenMe#4.zip"
+    title: "crackmes.de's newhitmans_keygenme4 by newhitman"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3614,3 +3619,7 @@ by_sha256:
     id: 5ab77f5733c5d40ad448c370
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c370/original/gncrk9.zip"
     page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c370
+  0544ec180e5542adb0b68ee62bdd35817330dcc6b528ca2e43c06d7d2950e86d:
+    id: 5ab77f5733c5d40ad448c374
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c374/original/KeyGenMe#4.zip"
+    page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c374

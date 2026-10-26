@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c374
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c374
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c374
+
+title: "crackmes.de's newhitmans_keygenme4 by newhitman"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/KeyGenMe#4.zip"
+  name: "KeyGenMe#4.zip"
+  sha256: "0544ec180e5542adb0b68ee62bdd35817330dcc6b528ca2e43c06d7d2950e86d"
+  md5: "ef1b83d317ba620caa75b4f4a81395a2"
+  size_bytes: 420915
+
+status: solved
+solution_summary: "Keygen 3 étapes (Delphi, suiButton1Click @0x4834e4) : petik→keitt (n[-1]n[1]n[-2]n[2]n[-3]) / 707465 (hex n[0]n[-3]n[1]) / 10734633 (0x999*0x1111, constant) ; vérifié Wine/xvfb {REGISTERED}"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-26T10:44:24Z"
