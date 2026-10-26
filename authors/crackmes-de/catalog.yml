@@ -1971,6 +1971,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c35d/original/magenta2.zip"
     title: "crackmes.de's crackme_2 by magenta"
 
+  5ab77f5733c5d40ad448c35f:
+    sha256: "bda7f4401bc240bb9f5e02290f75073cbb4e23f78cbe8d956c1b39d06fad065f"
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c35f/original/KeygenME#1.zip"
+    title: "crackmes.de's keygenme1 by l0calh0st"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3560,3 +3565,7 @@ by_sha256:
     id: 5ab77f5733c5d40ad448c35d
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c35d/original/magenta2.zip"
     page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c35d
+  bda7f4401bc240bb9f5e02290f75073cbb4e23f78cbe8d956c1b39d06fad065f:
+    id: 5ab77f5733c5d40ad448c35f
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c35f/original/KeygenME#1.zip"
+    page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c35f

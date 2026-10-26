@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c35f
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c35f
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c35f
+
+title: "crackmes.de's keygenme1 by l0calh0st"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "MS-DOS"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/KeygenME#1.zip"
+  name: "KeygenME#1.zip"
+  sha256: "bda7f4401bc240bb9f5e02290f75073cbb4e23f78cbe8d956c1b39d06fad065f"
+  md5: "c3266f14ae9f49ea73593f799c7ee33e"
+  size_bytes: 29611
+
+status: solved
+solution_summary: "keygen : serial = (long)(r + sqrt(r)), r = (u32)(long)pow(sum(name),3.0) ; petik → 158353004 ; main @0x2e0 (EXE DOS 16 bits Borland C++), FPU émulée INT 34h-3Dh ; vérifié dans un émulateur unicorn (tools/dosrun.py, tools/keygenme1-solve.py --check) « Well done dude!!! »"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-26T03:43:47Z"
