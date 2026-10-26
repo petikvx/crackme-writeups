@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c36b
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c36b
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c36b
+
+title: "crackmes.de's gc_crackme_10 by gandalf"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows PE32 GUI (Delphi 3, UPX)"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/gncrk10.zip"
+  name: "gncrk10.zip"
+  sha256: "b1694cbbf7d15b7bda35cf0ce6b3f036484ca770fe996e66eab89251b2bf2089"
+  md5: "aba1b9a7ffd0c732ae6f485e4a4c5321"
+  size_bytes: 129494
+
+status: solved
+solution_summary: "keygen : petik → Serial 1510753, Unlock code 13408 (constante) ; Name forcé en MAJUSCULES par le TEdit"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-26T07:43:05Z"
