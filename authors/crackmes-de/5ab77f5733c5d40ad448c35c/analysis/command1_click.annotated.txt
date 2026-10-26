@@ -1,0 +1,742 @@
+402040: push ebp
+402041: mov ebp, esp
+402043: sub esp, 0xc
+402046: push 0x401026
+40204b: mov eax, dword ptr fs:[0]
+402051: push eax
+402052: mov dword ptr fs:[0], esp
+402059: sub esp, 0x1ac
+40205f: push ebx
+402060: mov ebx, dword ptr [ebp + 8]
+402063: mov eax, ebx
+402065: push esi
+402066: and ebx, 0xfffffffe
+402069: push edi
+40206a: mov dword ptr [ebp - 0xc], esp
+40206d: and eax, 1
+402070: mov esi, dword ptr [ebx]
+402072: mov dword ptr [ebp - 8], 0x401000
+402079: push ebx
+40207a: mov dword ptr [ebp - 4], eax
+40207d: mov dword ptr [ebp + 8], ebx
+402080: call dword ptr [esi + 4]
+402083: mov esi, dword ptr [esi + 0x308]
+402089: xor edi, edi
+40208b: push ebx
+40208c: mov dword ptr [ebp - 0x24], edi
+40208f: mov dword ptr [ebp - 0x34], edi
+402092: mov dword ptr [ebp - 0x44], edi
+402095: mov dword ptr [ebp - 0x54], edi
+402098: mov dword ptr [ebp - 0x64], edi
+40209b: mov dword ptr [ebp - 0x74], edi
+40209e: mov dword ptr [ebp - 0x84], edi
+4020a4: mov dword ptr [ebp - 0x94], edi
+4020aa: mov dword ptr [ebp - 0xa4], edi
+4020b0: mov dword ptr [ebp - 0xb4], edi
+4020b6: mov dword ptr [ebp - 0xc4], edi
+4020bc: mov dword ptr [ebp - 0xd4], edi
+4020c2: mov dword ptr [ebp - 0xd8], edi
+4020c8: mov dword ptr [ebp - 0xdc], edi
+4020ce: mov dword ptr [ebp - 0xec], edi
+4020d4: mov dword ptr [ebp - 0xfc], edi
+4020da: mov dword ptr [ebp - 0x10c], edi
+4020e0: mov dword ptr [ebp - 0x11c], edi
+4020e6: mov dword ptr [ebp - 0x12c], edi
+4020ec: mov dword ptr [ebp - 0x13c], edi
+4020f2: mov dword ptr [ebp - 0x14c], edi
+4020f8: mov dword ptr [ebp - 0x15c], edi
+4020fe: mov dword ptr [ebp - 0x16c], edi
+402104: mov dword ptr [ebp - 0x17c], edi
+40210a: mov dword ptr [ebp - 0x18c], edi
+402110: mov dword ptr [ebp - 0x1ac], edi
+402116: mov dword ptr [ebp - 0x1c0], esi
+40211c: call esi
+40211e: lea ecx, [ebp - 0xdc]
+402124: push eax
+402125: push ecx
+402126: call dword ptr [0x404154]   ; __vbaObjSet
+40212c: mov esi, eax
+40212e: lea eax, [ebp - 0xd8]
+402134: push eax
+402135: push esi
+402136: mov edx, dword ptr [esi]
+402138: call dword ptr [edx + 0xa0]
+40213e: cmp eax, edi
+402140: jge 0x402154
+402142: push 0xa0
+402147: push 0x401b88
+40214c: push esi
+40214d: push eax
+40214e: call dword ptr [0x404144]   ; __vbaHresultCheckObj
+402154: mov ecx, dword ptr [ebp - 0xd8]
+40215a: push ecx
+40215b: call dword ptr [0x404208]   ; 581
+402161: mov esi, dword ptr [0x404128]   ; __vbaVarMove
+402167: lea edx, [ebp - 0x16c]
+40216d: fstp qword ptr [ebp - 0x164]
+402173: lea ecx, [ebp - 0x74]
+402176: mov dword ptr [ebp - 0x16c], 5
+402180: call esi
+402182: lea ecx, [ebp - 0xd8]
+402188: call dword ptr [0x404200]   ; __vbaFreeStr
+40218e: lea ecx, [ebp - 0xdc]
+402194: call dword ptr [0x404204]   ; __vbaFreeObj
+40219a: mov ebx, dword ptr [0x404148]   ; __vbaLenVar
+4021a0: mov eax, 0x8002
+4021a5: mov dword ptr [ebp - 0x17c], eax
+4021ab: mov dword ptr [ebp - 0x18c], eax
+4021b1: lea edx, [ebp - 0x74]
+4021b4: lea eax, [ebp - 0xec]
+4021ba: mov ecx, 8
+4021bf: push edx
+4021c0: push eax
+4021c1: mov dword ptr [ebp - 0x164], 0x401b9c
+4021cb: mov dword ptr [ebp - 0x16c], 0x8008
+4021d5: mov dword ptr [ebp - 0x174], ecx
+4021db: mov dword ptr [ebp - 0x184], ecx
+4021e1: call ebx
+4021e3: lea ecx, [ebp - 0x16c]
+4021e9: push eax
+4021ea: lea edx, [ebp - 0xfc]
+4021f0: push ecx
+4021f1: push edx
+4021f2: call dword ptr [0x4041e0]   ; __vbaVarCmpEq
+4021f8: push eax
+4021f9: lea eax, [ebp - 0x74]
+4021fc: lea ecx, [ebp - 0x10c]
+402202: push eax
+402203: push ecx
+402204: call ebx
+402206: push eax
+402207: lea edx, [ebp - 0x17c]
+40220d: lea eax, [ebp - 0x11c]
+402213: push edx
+402214: push eax
+402215: call dword ptr [0x4041d0]   ; __vbaVarCmpLt
+40221b: lea ecx, [ebp - 0x12c]
+402221: push eax
+402222: push ecx
+402223: call dword ptr [0x40418c]   ; __vbaVarOr
+402229: push eax
+40222a: lea edx, [ebp - 0x74]
+40222d: lea eax, [ebp - 0x13c]
+402233: push edx
+402234: push eax
+402235: call ebx
+402237: lea ecx, [ebp - 0x18c]
+40223d: push eax
+40223e: lea edx, [ebp - 0x14c]
+402244: push ecx
+402245: push edx
+402246: call dword ptr [0x404178]   ; __vbaVarCmpGt
+40224c: push eax
+40224d: lea eax, [ebp - 0x15c]
+402253: push eax
+402254: call dword ptr [0x40418c]   ; __vbaVarOr
+40225a: push eax
+40225b: call dword ptr [0x404170]   ; __vbaBoolVarNull
+402261: test ax, ax
+402264: je 0x402341
+40226a: mov ebx, dword ptr [0x4041e8]   ; __vbaVarDup
+402270: mov ecx, 0xa
+402275: mov eax, 0x80020004
+40227a: mov dword ptr [ebp - 0x11c], ecx
+402280: mov dword ptr [ebp - 0x10c], ecx
+402286: lea edx, [ebp - 0x17c]
+40228c: lea ecx, [ebp - 0xfc]
+402292: mov dword ptr [ebp - 0x114], eax
+402298: mov dword ptr [ebp - 0x104], eax
+40229e: mov dword ptr [ebp - 0x174], 0x401bf0
+4022a8: mov dword ptr [ebp - 0x17c], 8
+4022b2: call ebx
+4022b4: lea edx, [ebp - 0x16c]
+4022ba: lea ecx, [ebp - 0xec]
+4022c0: mov dword ptr [ebp - 0x164], 0x401ba4
+4022ca: mov dword ptr [ebp - 0x16c], 8
+4022d4: call ebx
+4022d6: lea ecx, [ebp - 0x11c]
+4022dc: lea edx, [ebp - 0x10c]
+4022e2: push ecx
+4022e3: lea eax, [ebp - 0xfc]
+4022e9: push edx
+4022ea: push eax
+4022eb: lea ecx, [ebp - 0xec]
+4022f1: push 0x2e
+4022f3: push ecx
+4022f4: call dword ptr [0x404158]   ; 595
+4022fa: lea edx, [ebp - 0x1ac]
+402300: lea ecx, [ebp - 0x34]
+402303: mov dword ptr [ebp - 0x1a4], eax
+402309: mov dword ptr [ebp - 0x1ac], 3
+402313: call esi
+402315: lea edx, [ebp - 0x11c]
+40231b: lea eax, [ebp - 0x10c]
+402321: push edx
+402322: lea ecx, [ebp - 0xfc]
+402328: push eax
+402329: lea edx, [ebp - 0xec]
+40232f: push ecx
+402330: push edx
+402331: push 4
+402333: call dword ptr [0x404134]   ; __vbaFreeVarList
+402339: add esp, 0x14
+40233c: jmp 0x40295b
+402341: mov edi, dword ptr [0x40417c]   ; 632
+402347: lea eax, [ebp - 0xec]
+40234d: push eax
+40234e: lea ecx, [ebp - 0x74]
+402351: push 1
+402353: lea edx, [ebp - 0xfc]
+402359: push ecx
+40235a: push edx
+40235b: mov dword ptr [ebp - 0xe4], 1
+402365: mov dword ptr [ebp - 0xec], 2
+40236f: call edi
+402371: lea edx, [ebp - 0xfc]
+402377: lea ecx, [ebp - 0x44]
+40237a: call esi
+40237c: mov ebx, dword ptr [0x40412c]   ; __vbaFreeVar
+402382: lea ecx, [ebp - 0xec]
+402388: call ebx
+40238a: lea eax, [ebp - 0xec]
+402390: lea ecx, [ebp - 0x74]
+402393: push eax
+402394: push 2
+402396: lea edx, [ebp - 0xfc]
+40239c: push ecx
+40239d: push edx
+40239e: mov dword ptr [ebp - 0xe4], 1
+4023a8: mov dword ptr [ebp - 0xec], 2
+4023b2: call edi
+4023b4: lea edx, [ebp - 0xfc]
+4023ba: lea ecx, [ebp - 0x54]
+4023bd: call esi
+4023bf: lea ecx, [ebp - 0xec]
+4023c5: call ebx
+4023c7: lea eax, [ebp - 0xec]
+4023cd: lea ecx, [ebp - 0x74]
+4023d0: push eax
+4023d1: push 3
+4023d3: lea edx, [ebp - 0xfc]
+4023d9: push ecx
+4023da: push edx
+4023db: mov dword ptr [ebp - 0xe4], 1
+4023e5: mov dword ptr [ebp - 0xec], 2
+4023ef: call edi
+4023f1: lea edx, [ebp - 0xfc]
+4023f7: lea ecx, [ebp - 0x64]
+4023fa: call esi
+4023fc: lea ecx, [ebp - 0xec]
+402402: call ebx
+402404: lea eax, [ebp - 0xec]
+40240a: lea ecx, [ebp - 0x74]
+40240d: push eax
+40240e: push 4
+402410: lea edx, [ebp - 0xfc]
+402416: push ecx
+402417: push edx
+402418: mov dword ptr [ebp - 0xe4], 1
+402422: mov dword ptr [ebp - 0xec], 2
+40242c: call edi
+40242e: lea edx, [ebp - 0xfc]
+402434: lea ecx, [ebp - 0x84]
+40243a: call esi
+40243c: lea ecx, [ebp - 0xec]
+402442: call ebx
+402444: lea eax, [ebp - 0xec]
+40244a: lea ecx, [ebp - 0x74]
+40244d: push eax
+40244e: push 5
+402450: lea edx, [ebp - 0xfc]
+402456: push ecx
+402457: push edx
+402458: mov dword ptr [ebp - 0xe4], 1
+402462: mov dword ptr [ebp - 0xec], 2
+40246c: call edi
+40246e: lea edx, [ebp - 0xfc]
+402474: lea ecx, [ebp - 0x94]
+40247a: call esi
+40247c: lea ecx, [ebp - 0xec]
+402482: call ebx
+402484: lea eax, [ebp - 0xec]
+40248a: mov dword ptr [ebp - 0xe4], 1
+402494: mov dword ptr [ebp - 0xec], 2
+40249e: push eax
+40249f: lea ecx, [ebp - 0x74]
+4024a2: push 6
+4024a4: lea edx, [ebp - 0xfc]
+4024aa: push ecx
+4024ab: push edx
+4024ac: call edi
+4024ae: lea edx, [ebp - 0xfc]
+4024b4: lea ecx, [ebp - 0xa4]
+4024ba: call esi
+4024bc: lea ecx, [ebp - 0xec]
+4024c2: call ebx
+4024c4: lea eax, [ebp - 0xec]
+4024ca: lea ecx, [ebp - 0x74]
+4024cd: push eax
+4024ce: push 7
+4024d0: lea edx, [ebp - 0xfc]
+4024d6: push ecx
+4024d7: push edx
+4024d8: mov dword ptr [ebp - 0xe4], 1
+4024e2: mov dword ptr [ebp - 0xec], 2
+4024ec: call edi
+4024ee: lea edx, [ebp - 0xfc]
+4024f4: lea ecx, [ebp - 0xb4]
+4024fa: call esi
+4024fc: lea ecx, [ebp - 0xec]
+402502: call ebx
+402504: lea eax, [ebp - 0xec]
+40250a: lea ecx, [ebp - 0x74]
+40250d: push eax
+40250e: push 8
+402510: lea edx, [ebp - 0xfc]
+402516: push ecx
+402517: push edx
+402518: mov dword ptr [ebp - 0xe4], 1
+402522: mov dword ptr [ebp - 0xec], 2
+40252c: call edi
+40252e: lea edx, [ebp - 0xfc]
+402534: lea ecx, [ebp - 0xc4]
+40253a: call esi
+40253c: lea ecx, [ebp - 0xec]
+402542: call ebx
+402544: mov ebx, dword ptr [0x4041a0]   ; __vbaVarMul
+40254a: lea eax, [ebp - 0x44]
+40254d: lea ecx, [ebp - 0x54]
+402550: push eax
+402551: lea edx, [ebp - 0xec]
+402557: push ecx
+402558: push edx
+402559: call ebx
+40255b: mov edi, dword ptr [0x4041e4]   ; __vbaVarAdd
+402561: push eax
+402562: lea eax, [ebp - 0x64]
+402565: lea ecx, [ebp - 0x84]
+40256b: push eax
+40256c: lea edx, [ebp - 0xfc]
+402572: push ecx
+402573: push edx
+402574: call edi
+402576: push eax
+402577: lea eax, [ebp - 0x10c]
+40257d: push eax
+40257e: call dword ptr [0x40411c]   ; __vbaVarSub
+402584: lea ecx, [ebp - 0x94]
+40258a: push eax
+40258b: lea edx, [ebp - 0xa4]
+402591: push ecx
+402592: lea eax, [ebp - 0x11c]
+402598: push edx
+402599: push eax
+40259a: call ebx
+40259c: lea ecx, [ebp - 0x12c]
+4025a2: push eax
+4025a3: push ecx
+4025a4: call edi
+4025a6: push eax
+4025a7: lea edx, [ebp - 0xb4]
+4025ad: lea eax, [ebp - 0x13c]
+4025b3: push edx
+4025b4: push eax
+4025b5: call edi
+4025b7: push eax
+4025b8: lea ecx, [ebp - 0xc4]
+4025be: lea edx, [ebp - 0x14c]
+4025c4: push ecx
+4025c5: push edx
+4025c6: call dword ptr [0x40411c]   ; __vbaVarSub
+4025cc: mov edx, eax
+4025ce: lea ecx, [ebp - 0xd4]
+4025d4: call esi
+4025d6: mov ebx, dword ptr [0x404134]   ; __vbaFreeVarList
+4025dc: lea eax, [ebp - 0x13c]
+4025e2: lea ecx, [ebp - 0x12c]
+4025e8: push eax
+4025e9: lea edx, [ebp - 0xfc]
+4025ef: push ecx
+4025f0: push edx
+4025f1: push 3
+4025f3: call ebx
+4025f5: add esp, 0x10
+4025f8: lea eax, [ebp - 0xd4]
+4025fe: lea ecx, [ebp - 0x16c]
+402604: mov edi, 0xa
+402609: push eax
+40260a: push ecx
+40260b: mov dword ptr [ebp - 0x164], edi
+402611: mov dword ptr [ebp - 0x16c], 0x8002
+40261b: call dword ptr [0x404188]   ; __vbaVarTstEq
+402621: test ax, ax
+402624: je 0x40288b
+40262a: mov eax, 0x80020004
+40262f: mov dword ptr [ebp - 0x11c], edi
+402635: mov dword ptr [ebp - 0x10c], edi
+40263b: mov edi, dword ptr [0x4041e8]   ; __vbaVarDup
+402641: lea edx, [ebp - 0x17c]
+402647: lea ecx, [ebp - 0xfc]
+40264d: mov dword ptr [ebp - 0x114], eax
+402653: mov dword ptr [ebp - 0x104], eax
+402659: mov dword ptr [ebp - 0x174], 0x401c18
+402663: mov dword ptr [ebp - 0x17c], 8
+40266d: call edi
+40266f: lea edx, [ebp - 0x16c]
+402675: lea ecx, [ebp - 0xec]
+40267b: mov dword ptr [ebp - 0x164], 0x401c00
+402685: mov dword ptr [ebp - 0x16c], 8
+40268f: call edi
+402691: lea edx, [ebp - 0x11c]
+402697: lea eax, [ebp - 0x10c]
+40269d: push edx
+40269e: lea ecx, [ebp - 0xfc]
+4026a4: push eax
+4026a5: push ecx
+4026a6: lea edx, [ebp - 0xec]
+4026ac: push 0
+4026ae: push edx
+4026af: call dword ptr [0x404158]   ; 595
+4026b5: lea edx, [ebp - 0x1ac]
+4026bb: lea ecx, [ebp - 0x34]
+4026be: mov dword ptr [ebp - 0x1a4], eax
+4026c4: mov dword ptr [ebp - 0x1ac], 3
+4026ce: call esi
+4026d0: lea eax, [ebp - 0x11c]
+4026d6: lea ecx, [ebp - 0x10c]
+4026dc: push eax
+4026dd: lea edx, [ebp - 0xfc]
+4026e3: push ecx
+4026e4: lea eax, [ebp - 0xec]
+4026ea: push edx
+4026eb: push eax
+4026ec: push 4
+4026ee: call ebx
+4026f0: mov ecx, 0xa
+4026f5: mov eax, 0x80020004
+4026fa: mov dword ptr [ebp - 0x11c], ecx
+402700: mov dword ptr [ebp - 0x10c], ecx
+402706: add esp, 0x14
+402709: lea edx, [ebp - 0x17c]
+40270f: lea ecx, [ebp - 0xfc]
+402715: mov dword ptr [ebp - 0x114], eax
+40271b: mov dword ptr [ebp - 0x104], eax
+402721: mov dword ptr [ebp - 0x174], 0x401ca0
+40272b: mov dword ptr [ebp - 0x17c], 8
+402735: call edi
+402737: lea edx, [ebp - 0x16c]
+40273d: lea ecx, [ebp - 0xec]
+402743: mov dword ptr [ebp - 0x164], 0x401c3c
+40274d: mov dword ptr [ebp - 0x16c], 8
+402757: call edi
+402759: lea ecx, [ebp - 0x11c]
+40275f: lea edx, [ebp - 0x10c]
+402765: push ecx
+402766: lea eax, [ebp - 0xfc]
+40276c: push edx
+40276d: push eax
+40276e: lea ecx, [ebp - 0xec]
+402774: push 0x40
+402776: push ecx
+402777: call dword ptr [0x404158]   ; 595
+40277d: lea edx, [ebp - 0x1ac]
+402783: lea ecx, [ebp - 0x34]
+402786: mov dword ptr [ebp - 0x1a4], eax
+40278c: mov dword ptr [ebp - 0x1ac], 3
+402796: call esi
+402798: lea edx, [ebp - 0x11c]
+40279e: lea eax, [ebp - 0x10c]
+4027a4: push edx
+4027a5: lea ecx, [ebp - 0xfc]
+4027ab: push eax
+4027ac: lea edx, [ebp - 0xec]
+4027b2: push ecx
+4027b3: push edx
+4027b4: push 4
+4027b6: call ebx
+4027b8: mov ecx, 0xa
+4027bd: mov eax, 0x80020004
+4027c2: mov dword ptr [ebp - 0x11c], ecx
+4027c8: mov dword ptr [ebp - 0x10c], ecx
+4027ce: add esp, 0x14
+4027d1: lea edx, [ebp - 0x17c]
+4027d7: lea ecx, [ebp - 0xfc]
+4027dd: mov dword ptr [ebp - 0x114], eax
+4027e3: mov dword ptr [ebp - 0x104], eax
+4027e9: mov dword ptr [ebp - 0x174], 0x401ca0
+4027f3: mov dword ptr [ebp - 0x17c], 8
+4027fd: call edi
+4027ff: lea edx, [ebp - 0x16c]
+402805: lea ecx, [ebp - 0xec]
+40280b: mov dword ptr [ebp - 0x164], 0x401cb0
+402815: mov dword ptr [ebp - 0x16c], 8
+40281f: call edi
+402821: lea eax, [ebp - 0x11c]
+402827: lea ecx, [ebp - 0x10c]
+40282d: push eax
+40282e: lea edx, [ebp - 0xfc]
+402834: push ecx
+402835: push edx
+402836: lea eax, [ebp - 0xec]
+40283c: push 0x40
+40283e: push eax
+40283f: call dword ptr [0x404158]   ; 595
+402845: lea edx, [ebp - 0x1ac]
+40284b: lea ecx, [ebp - 0x34]
+40284e: mov dword ptr [ebp - 0x1a4], eax
+402854: mov dword ptr [ebp - 0x1ac], 3
+40285e: call esi
+402860: lea ecx, [ebp - 0x11c]
+402866: lea edx, [ebp - 0x10c]
+40286c: push ecx
+40286d: lea eax, [ebp - 0xfc]
+402873: push edx
+402874: lea ecx, [ebp - 0xec]
+40287a: push eax
+40287b: push ecx
+40287c: push 4
+40287e: call ebx
+402880: add esp, 0x14
+402883: call dword ptr [0x404138]   ; __vbaEnd
+402889: jmp 0x402891
+40288b: mov edi, dword ptr [0x4041e8]   ; __vbaVarDup
+402891: mov ecx, 0xa
+402896: mov eax, 0x80020004
+40289b: mov dword ptr [ebp - 0x11c], ecx
+4028a1: mov dword ptr [ebp - 0x10c], ecx
+4028a7: lea edx, [ebp - 0x17c]
+4028ad: lea ecx, [ebp - 0xfc]
+4028b3: mov dword ptr [ebp - 0x114], eax
+4028b9: mov dword ptr [ebp - 0x104], eax
+4028bf: mov dword ptr [ebp - 0x174], 0x401d44
+4028c9: mov dword ptr [ebp - 0x17c], 8
+4028d3: call edi
+4028d5: lea edx, [ebp - 0x16c]
+4028db: lea ecx, [ebp - 0xec]
+4028e1: mov dword ptr [ebp - 0x164], 0x401d04
+4028eb: mov dword ptr [ebp - 0x16c], 8
+4028f5: call edi
+4028f7: lea edx, [ebp - 0x11c]
+4028fd: lea eax, [ebp - 0x10c]
+402903: push edx
+402904: lea ecx, [ebp - 0xfc]
+40290a: push eax
+40290b: push ecx
+40290c: lea edx, [ebp - 0xec]
+402912: push 0
+402914: push edx
+402915: call dword ptr [0x404158]   ; 595
+40291b: lea edx, [ebp - 0x1ac]
+402921: lea ecx, [ebp - 0x34]
+402924: mov dword ptr [ebp - 0x1a4], eax
+40292a: mov dword ptr [ebp - 0x1ac], 3
+402934: call esi
+402936: lea eax, [ebp - 0x11c]
+40293c: lea ecx, [ebp - 0x10c]
+402942: push eax
+402943: lea edx, [ebp - 0xfc]
+402949: push ecx
+40294a: lea eax, [ebp - 0xec]
+402950: push edx
+402951: push eax
+402952: push 4
+402954: call ebx
+402956: add esp, 0x14
+402959: xor edi, edi
+40295b: mov ecx, dword ptr [ebp + 8]
+40295e: push ecx
+40295f: call dword ptr [ebp - 0x1c0]
+402965: lea edx, [ebp - 0xdc]
+40296b: push eax
+40296c: push edx
+40296d: call dword ptr [0x404154]   ; __vbaObjSet
+402973: mov esi, eax
+402975: push 0x401b9c
+40297a: push esi
+40297b: mov eax, dword ptr [esi]
+40297d: call dword ptr [eax + 0xa4]
+402983: cmp eax, edi
+402985: jge 0x402999
+402987: push 0xa4
+40298c: push 0x401b88
+402991: push esi
+402992: push eax
+402993: call dword ptr [0x404144]   ; __vbaHresultCheckObj
+402999: lea ecx, [ebp - 0xdc]
+40299f: call dword ptr [0x404204]   ; __vbaFreeObj
+4029a5: mov dword ptr [ebp - 4], edi
+4029a8: wait 
+4029a9: push 0x402a61
+4029ae: jmp 0x402a0c
+4029b0: lea ecx, [ebp - 0xd8]
+4029b6: call dword ptr [0x404200]   ; __vbaFreeStr
+4029bc: lea ecx, [ebp - 0xdc]
+4029c2: call dword ptr [0x404204]   ; __vbaFreeObj
+4029c8: lea ecx, [ebp - 0x15c]
+4029ce: lea edx, [ebp - 0x14c]
+4029d4: push ecx
+4029d5: lea eax, [ebp - 0x13c]
+4029db: push edx
+4029dc: lea ecx, [ebp - 0x12c]
+4029e2: push eax
+4029e3: lea edx, [ebp - 0x11c]
+4029e9: push ecx
+4029ea: lea eax, [ebp - 0x10c]
+4029f0: push edx
+4029f1: lea ecx, [ebp - 0xfc]
+4029f7: push eax
+4029f8: lea edx, [ebp - 0xec]
+4029fe: push ecx
+4029ff: push edx
+402a00: push 8
+402a02: call dword ptr [0x404134]   ; __vbaFreeVarList
+402a08: add esp, 0x24
+402a0b: ret 
+402a0c: mov esi, dword ptr [0x40412c]   ; __vbaFreeVar
+402a12: lea ecx, [ebp - 0x24]
+402a15: call esi
+402a17: lea ecx, [ebp - 0x34]
+402a1a: call esi
+402a1c: lea ecx, [ebp - 0x44]
+402a1f: call esi
+402a21: lea ecx, [ebp - 0x54]
+402a24: call esi
+402a26: lea ecx, [ebp - 0x64]
+402a29: call esi
+402a2b: lea ecx, [ebp - 0x74]
+402a2e: call esi
+402a30: lea ecx, [ebp - 0x84]
+402a36: call esi
+402a38: lea ecx, [ebp - 0x94]
+402a3e: call esi
+402a40: lea ecx, [ebp - 0xa4]
+402a46: call esi
+402a48: lea ecx, [ebp - 0xb4]
+402a4e: call esi
+402a50: lea ecx, [ebp - 0xc4]
+402a56: call esi
+402a58: lea ecx, [ebp - 0xd4]
+402a5e: jmp esi
+402a60: ret 
+402a61: mov eax, dword ptr [ebp + 8]
+402a64: push eax
+402a65: mov ecx, dword ptr [eax]
+402a67: call dword ptr [ecx + 8]
+402a6a: mov ecx, dword ptr [ebp - 0x14]
+402a6d: mov eax, dword ptr [ebp - 4]
+402a70: pop edi
+402a71: pop esi
+402a72: mov dword ptr fs:[0], ecx
+402a79: pop ebx
+402a7a: mov esp, ebp
+402a7c: pop ebp
+402a7d: ret 4
+402a80: push ebp
+402a81: mov ebp, esp
+402a83: sub esp, 0xc
+402a86: push 0x401026
+402a8b: mov eax, dword ptr fs:[0]
+402a91: push eax
+402a92: mov dword ptr fs:[0], esp
+402a99: sub esp, 0x34
+402a9c: push ebx
+402a9d: push esi
+402a9e: mov esi, dword ptr [ebp + 8]
+402aa1: push edi
+402aa2: mov eax, esi
+402aa4: and esi, 0xfffffffe
+402aa7: mov dword ptr [ebp - 0xc], esp
+402aaa: and eax, 1
+402aad: mov ecx, dword ptr [esi]
+402aaf: mov dword ptr [ebp - 8], 0x401010
+402ab6: push esi
+402ab7: mov dword ptr [ebp - 4], eax
+402aba: mov dword ptr [ebp + 8], esi
+402abd: call dword ptr [ecx + 4]
+402ac0: lea ebx, [esi + 0x34]
+402ac3: xor edi, edi
+402ac5: mov edx, 0x401d58
+402aca: mov ecx, ebx
+402acc: mov dword ptr [ebp - 0x18], edi
+402acf: mov dword ptr [ebp - 0x28], edi
+402ad2: mov dword ptr [ebp - 0x38], edi
+402ad5: call dword ptr [0x4041cc]   ; __vbaStrCopy
+402adb: mov dx, word ptr [esi + 0x38]
+402adf: inc dx
+402ae1: jo 0x402bb6
+402ae7: mov word ptr [esi + 0x38], dx
+402aeb: mov eax, dword ptr [0x403010]
+402af0: cmp eax, edi
+402af2: jne 0x402b04
+402af4: push 0x403010
+402af9: push 0x401614
+402afe: call dword ptr [0x4041c0]   ; __vbaNew2
+402b04: movsx eax, word ptr [esi + 0x38]
+402b08: mov edi, dword ptr [0x403010]
+402b0e: lea ecx, [ebp - 0x38]
+402b11: push eax
+402b12: lea edx, [ebp - 0x28]
+402b15: push ecx
+402b16: push edx
+402b17: mov dword ptr [ebp - 0x30], ebx
+402b1a: mov dword ptr [ebp - 0x38], 0x4008
+402b21: call dword ptr [0x4041ec]   ; 617
+402b27: mov ebx, dword ptr [edi]
+402b29: lea eax, [ebp - 0x28]
+402b2c: lea ecx, [ebp - 0x18]
+402b2f: push eax
+402b30: push ecx
+402b31: call dword ptr [0x4041b4]   ; __vbaStrVarVal
+402b37: push eax
+402b38: push edi
+402b39: call dword ptr [ebx + 0x54]
+402b3c: xor ebx, ebx
+402b3e: cmp eax, ebx
+402b40: jge 0x402b51
+402b42: push 0x54
+402b44: push 0x401a38
+402b49: push edi
+402b4a: push eax
+402b4b: call dword ptr [0x404144]   ; __vbaHresultCheckObj
+402b51: lea ecx, [ebp - 0x18]
+402b54: call dword ptr [0x404200]   ; __vbaFreeStr
+402b5a: lea ecx, [ebp - 0x28]
+402b5d: call dword ptr [0x40412c]   ; __vbaFreeVar
+402b63: mov edx, dword ptr [esi + 0x34]
+402b66: push edx
+402b67: call dword ptr [0x404130]   ; __vbaLenBstr
+402b6d: movsx ecx, word ptr [esi + 0x38]
+402b71: cmp ecx, eax
+402b73: jne 0x402b79
+402b75: mov word ptr [esi + 0x38], bx
+402b79: mov dword ptr [ebp - 4], ebx
+402b7c: push 0x402b97
+402b81: jmp 0x402b96
+402b83: lea ecx, [ebp - 0x18]
+402b86: call dword ptr [0x404200]   ; __vbaFreeStr
+402b8c: lea ecx, [ebp - 0x28]
+402b8f: call dword ptr [0x40412c]   ; __vbaFreeVar
+402b95: ret 
+402b96: ret 
+402b97: mov eax, dword ptr [ebp + 8]
+402b9a: push eax
+402b9b: mov edx, dword ptr [eax]
+402b9d: call dword ptr [edx + 8]
+402ba0: mov ecx, dword ptr [ebp - 0x14]
+402ba3: mov eax, dword ptr [ebp - 4]
+402ba6: pop edi
+402ba7: pop esi
+402ba8: mov dword ptr fs:[0], ecx
+402baf: pop ebx
+402bb0: mov esp, ebp
+402bb2: pop ebp
+402bb3: ret 4
+402bb6: call dword ptr [0x4041bc]   ; __vbaErrorOverflow
+402bbc: nop 
+402bbd: nop 
+402bbe: nop 
+402bbf: nop 
+402bc0: sahf 
+402bc1: sahf 
+402bc2: sahf 
+402bc3: sahf 

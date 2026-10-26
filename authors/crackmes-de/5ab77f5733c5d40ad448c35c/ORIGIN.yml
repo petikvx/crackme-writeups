@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c35c
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c35c
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c35c
+
+title: "crackmes.de's crackme_4 by magenta"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows PE32 GUI"
+arch: "x86"
+language: "Visual Basic 5 (natif, MSVBVM50)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/magenta4.zip"
+  name: "magenta4.zip"
+  sha256: "a731d997b683339a01451cc415fc90ecbe3e588a964f9b07a9c7f08d72a5eb0c"
+  md5: "57d34e4af24d46c08130173dafbcb712"
+  size_bytes: 5462
+
+status: solved
+solution_summary: "mot de passe 8 chiffres d1..d8 : d1*d2 + d5*d6 + d7 - d8 - (d3&d4 concat) == 10 ; ex. 10001190 ; Wine/xvfb Well done (tools/magenta4-solve.py)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-26T00:46:27Z"

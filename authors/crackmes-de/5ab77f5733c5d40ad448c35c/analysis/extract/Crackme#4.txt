@@ -1,0 +1,15 @@
+This crackme uses a password protection. You have to type the right 
+password and then you've done the job. The password is calculated
+with a simple algorithm, so there is no need to search for a hardcoded
+password. There should be more than only one "good" key, but i found 
+only one till yet. If you find a working one, please send it to:
+M.a.g.e.n.t.a@gmx.net
+Ther you can also get information about new crackme's. I have written 
+4 so if you don't know where to find the others just ask me.
+
+RuleZ: Patching is not allowed!!!
+
+
+Greetz to evryone out there............
+
+Bye Magenta
