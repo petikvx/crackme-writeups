@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c379
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c379
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c379
+
+title: "crackmes.de's crackme_6_ascii by klizma"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "MS-DOS"
+arch: "x86 (16 bits réel)"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/CrackMe_#6_by_KLiZMA.zip"
+  name: "CrackMe_#6_by_KLiZMA.zip"
+  sha256: "544f14b7c614cf16313244dc6f7341a1bf2e420d0ef3459f28634e1a210c186d"
+  md5: "af440102b67eef58b20cd5de4d98f283"
+  size_bytes: 9811
+
+status: solved
+solution_summary: "serial fixe 666 (scanf %ld == 0x29a, high word 0) ; le nom (petik) est ignoré ; vérifié par émulation unicorn DOS"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-26T14:51:16Z"
