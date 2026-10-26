@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c377
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c377
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c377
+
+title: "crackmes.de's crackme2_math by klizma"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/CrackMe#2_by_KLiZMA.zip"
+  name: "CrackMe#2_by_KLiZMA.zip"
+  sha256: "66e855098ec608e5c4bfe05855d71dae8b978386376c6809ec82155ee340a7b2"
+  md5: "30ed15625df7dd9ef4b6270a71861d7e"
+  size_bytes: 2833
+
+status: solved
+solution_summary: "3 serials dérivés de l'ID entier (FSG, MinGW) : s1=3*(id/2)+0x50a5d, s2=(s1/3+0x40564)/2, s3=(s1+id+s2)/11 ; id 12345 → 348849/189903/50099"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-26T12:41:33Z"
