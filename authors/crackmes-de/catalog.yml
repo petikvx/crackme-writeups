@@ -1966,6 +1966,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c35c/original/magenta4.zip"
     title: "crackmes.de's crackme_4 by magenta"
 
+  5ab77f5733c5d40ad448c35d:
+    sha256: "92be75ba0757bdad70309ea6dd3733871c915e6cecf21b26a39a8ea99579d173"
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c35d/original/magenta2.zip"
+    title: "crackmes.de's crackme_2 by magenta"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3551,3 +3556,7 @@ by_sha256:
     id: 5ab77f5733c5d40ad448c35c
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c35c/original/magenta4.zip"
     page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c35c
+  92be75ba0757bdad70309ea6dd3733871c915e6cecf21b26a39a8ea99579d173:
+    id: 5ab77f5733c5d40ad448c35d
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c35d/original/magenta2.zip"
+    page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c35d

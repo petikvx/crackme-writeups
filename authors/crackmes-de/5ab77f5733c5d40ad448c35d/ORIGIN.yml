@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c35d
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c35d
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c35d
+
+title: "crackmes.de's crackme_2 by magenta"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows PE32 GUI (VB5 natif, MSVBVM50)"
+arch: "x86"
+language: "Visual Basic 5"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/magenta2.zip"
+  name: "magenta2.zip"
+  sha256: "92be75ba0757bdad70309ea6dd3733871c915e6cecf21b26a39a8ea99579d173"
+  md5: "0406a533511112de18bd35edff5c948c"
+  size_bytes: 11620
+
+status: solved
+solution_summary: "keygen : serial = concaténation de (Asc(nom[i+1]) − Asc(nom[i])) en décimal pour chaque i où cette différence est > 0, nom circulaire ; petik → 1525 ; Command1_Click @0x402040, Val(attendu) − Val(saisi) = 0 ; vérifié Wine/xvfb « Congratulations » (tools/magenta2-solve.py --check)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-26T01:42:34Z"
