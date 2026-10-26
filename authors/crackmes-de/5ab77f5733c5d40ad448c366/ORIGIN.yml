@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c366
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c366
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c366
+
+title: "crackmes.de's eazy_peazy_crackme by fego"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/SerialMe.zip"
+  name: "SerialMe.zip"
+  sha256: "25ea58dfa089308bbe54c0ff048e7c8a1eb48963d593ee2b65915ad868436a9d"
+  md5: "38b697f49f96ef17fbfd4e7b312ebd27"
+  size_bytes: 1946
+
+status: solved
+solution_summary: "serial fixe 8 car. (pas de user) : -Z8Z'K8# ; 2 moitiés de 4 octets (imul + xor + rol/ror) comparées à 8x@rtr25 ; vérifié Wine/xvfb « Right serial »"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-26T05:47:19Z"

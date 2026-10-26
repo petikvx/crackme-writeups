@@ -1981,6 +1981,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c362/original/haque_evd2.zip"
     title: "crackmes.de's evidence2 by giveme5"
 
+  5ab77f5733c5d40ad448c366:
+    sha256: "25ea58dfa089308bbe54c0ff048e7c8a1eb48963d593ee2b65915ad868436a9d"
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c366/original/SerialMe.zip"
+    title: "crackmes.de's eazy_peazy_crackme by fego"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3578,3 +3583,7 @@ by_sha256:
     id: 5ab77f5733c5d40ad448c362
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c362/original/haque_evd2.zip"
     page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c362
+  25ea58dfa089308bbe54c0ff048e7c8a1eb48963d593ee2b65915ad868436a9d:
+    id: 5ab77f5733c5d40ad448c366
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c366/original/SerialMe.zip"
+    page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c366
