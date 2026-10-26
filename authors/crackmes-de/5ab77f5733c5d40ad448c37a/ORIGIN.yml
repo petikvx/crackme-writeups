@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c37a
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c37a
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c37a
+
+title: "crackmes.de's crackme_5_stupid by klizma"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/CrackMe_#5_by_KLiZMA.zip"
+  name: "CrackMe_#5_by_KLiZMA.zip"
+  sha256: "4f6f6b378658b60bbb353eef007be4aa60a944c9cd8ff0844a4a33c5d2190b06"
+  md5: "9374089f97fe319b0b5a1018a338c5f2"
+  size_bytes: 2732
+
+status: solved
+solution_summary: "unpack FSG (unicorn) puis patch 2 octets : imm32 du mov [esp],0x403000 -> 0x403004 (@0x4012cb) et 'p'->'P' @0x403004 : 'Not patched!' -> 'Patched!' ; vérifié Wine/xvfb ; pas de user/serial (petik n'est pas demandé)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-26T15:45:02Z"
