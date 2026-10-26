@@ -1986,6 +1986,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c366/original/SerialMe.zip"
     title: "crackmes.de's eazy_peazy_crackme by fego"
 
+  5ab77f5733c5d40ad448c368:
+    sha256: "9a2dd9e49705adb484a98e4f6704e3f0bb18d487522a11ba459edcafe362228d"
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c368/original/gncrk8.zip"
+    title: "crackmes.de's gc_crackme_8 by gandalf"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3587,3 +3592,7 @@ by_sha256:
     id: 5ab77f5733c5d40ad448c366
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c366/original/SerialMe.zip"
     page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c366
+  9a2dd9e49705adb484a98e4f6704e3f0bb18d487522a11ba459edcafe362228d:
+    id: 5ab77f5733c5d40ad448c368
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c368/original/gncrk8.zip"
+    page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c368

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c368
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c368
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c368
+
+title: "crackmes.de's gc_crackme_8 by gandalf"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows PE32 GUI (Delphi, UPX 0.92)"
+arch: "x86"
+language: "Delphi"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/gncrk8.zip"
+  name: "gncrk8.zip"
+  sha256: "9a2dd9e49705adb484a98e4f6704e3f0bb18d487522a11ba459edcafe362228d"
+  md5: "1440a6e1bc9f034387c1cf14fdba5d4a"
+  size_bytes: 125886
+
+status: solved
+solution_summary: "Keygen : Name (>=5 car., identifiant valide, devient Form1.Name) ; A,B = replis imul/xor sur [n3,n1,n4,n0,n2] (0xd80/0x3a115 et 0x1a62/0xddc36) ; Serial=A, Code=B ; petik→1402517 / 4834592 ; Company libre ; vérifié Wine (double-clic Check)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-26T06:43:50Z"

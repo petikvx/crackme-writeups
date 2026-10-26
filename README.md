@@ -147,7 +147,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [oguzbey](authors/oguzbey/README.md) | oguzbey | 1 (Lucky Numbers) | 1 / 1 |
 | [andrewl](authors/andrewl/README.md) | andrewl | 1 (Quick Crypto) | 1 / 1 |
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
-| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 387 / 387 |
+| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 388 / 388 |
 | [chaltu](authors/chaltu/README.md) | chaltu | 3 (a Treasure + Double Door + Accsess me please) | 3 / 3 |
 | [qerr0r](authors/qerr0r/README.md) | QERR0R | 2 (crackit + CrackIt;)) | 2 / 2 |
 | [steve_maxwell](authors/steve_maxwell/README.md) | steve_maxwell | 1 (X-0-R) | 1 / 1 |
@@ -369,6 +369,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-26 | [gc_crackme_8 by gandalf](authors/crackmes-de/5ab77f5733c5d40ad448c368/) | crackmes.de / gandalf |
 | 2026-10-26 | [eazy_peazy_crackme (SerialMe) by fego](authors/crackmes-de/5ab77f5733c5d40ad448c366/) | crackmes.de / fego |
 | 2026-10-26 | [evidence2 by GiveMe5](authors/crackmes-de/5ab77f5733c5d40ad448c362/) | crackmes.de / GiveMe5 |
 | 2026-10-26 | [KeygenME #1 by l0calh0st](authors/crackmes-de/5ab77f5733c5d40ad448c35f/) | crackmes.de / l0calh0st |
