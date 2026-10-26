@@ -1996,6 +1996,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c36b/original/gncrk10.zip"
     title: "crackmes.de's gc_crackme_10 by gandalf"
 
+  5ab77f5733c5d40ad448c370:
+    sha256: "c4e66850b83a46f510e32d24f3fd1cd26d69b2771584a76f1893ad44cae6dafc"
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c370/original/gncrk9.zip"
+    title: "crackmes.de's gc_crackme_9 by gandalf"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3605,3 +3610,7 @@ by_sha256:
     id: 5ab77f5733c5d40ad448c36b
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c36b/original/gncrk10.zip"
     page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c36b
+  c4e66850b83a46f510e32d24f3fd1cd26d69b2771584a76f1893ad44cae6dafc:
+    id: 5ab77f5733c5d40ad448c370
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c370/original/gncrk9.zip"
+    page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c370

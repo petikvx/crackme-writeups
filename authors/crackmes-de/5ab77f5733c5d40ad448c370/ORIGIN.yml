@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c370
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c370
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c370
+
+title: "crackmes.de's gc_crackme_9 by gandalf"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows PE32 GUI"
+arch: "x86"
+language: "Delphi (UPX)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/gncrk9.zip"
+  name: "gncrk9.zip"
+  sha256: "c4e66850b83a46f510e32d24f3fd1cd26d69b2771584a76f1893ad44cae6dafc"
+  md5: "469dee0c31ec93a3438886e4cadf7b57"
+  size_bytes: 84454
+
+status: solved
+solution_summary: "serial fixe de 5 car. : StrToInt -> chiffres base 3 = prefixe de 2,0,2,0,1,2,2,1,0,2 ; 43598 (aussi 00020, 00101, 00587, 02045, 04232) ; pas de user (petik non applicable)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-26T09:42:12Z"
