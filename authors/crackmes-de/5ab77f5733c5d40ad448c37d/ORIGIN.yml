@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c37d
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c37d
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c37d
+
+title: "crackmes.de's crackme_3_interval by klizma"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/CrackMe#3_by_KLiZMA.zip"
+  name: "CrackMe#3_by_KLiZMA.zip"
+  sha256: "6ee80c442677d9064a7fa121e4b7b11d633fa91dbfac176f31647e198e2d2cbf"
+  md5: "365534fad6ef60c108a677aa8dc79850"
+  size_bytes: 3078
+
+status: solved
+solution_summary: "keygen 3 entrées %ld (FSG dépacké par unicorn, main @0x401290) : ID 10000..99999, Serial 100..999, ID*S/(ID+S) dans 850..900, Code dans [ID-S-100, ID+S-100] ; ex. 99999 / 900 / 99999 ; vérifié Wine/xvfb ; pas de user (petik non applicable)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-26T18:39:41Z"

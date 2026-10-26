@@ -2036,6 +2036,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c37c/original/Crackme#1_by_KLiZMA.zip"
     title: "crackmes.de's crackme1_lucky by klizma"
 
+  5ab77f5733c5d40ad448c37d:
+    sha256: "6ee80c442677d9064a7fa121e4b7b11d633fa91dbfac176f31647e198e2d2cbf"
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c37d/original/CrackMe#3_by_KLiZMA.zip"
+    title: "crackmes.de's crackme_3_interval by klizma"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3677,3 +3682,7 @@ by_sha256:
     id: 5ab77f5733c5d40ad448c37c
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c37c/original/Crackme#1_by_KLiZMA.zip"
     page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c37c
+  6ee80c442677d9064a7fa121e4b7b11d633fa91dbfac176f31647e198e2d2cbf:
+    id: 5ab77f5733c5d40ad448c37d
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c37d/original/CrackMe#3_by_KLiZMA.zip"
+    page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c37d
