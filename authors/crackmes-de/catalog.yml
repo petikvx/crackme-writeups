@@ -2011,6 +2011,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c377/original/CrackMe#2_by_KLiZMA.zip"
     title: "crackmes.de's crackme2_math by klizma"
 
+  5ab77f5733c5d40ad448c378:
+    sha256: "2f60752ce3759dac63e441822b9e0128ce3bd24fa2e51eae61d36464bdc86039"
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c378/original/UnpackMe#1_by_KLiZMA.zip"
+    title: "crackmes.de's unpackme_1 by klizma"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3632,3 +3637,7 @@ by_sha256:
     id: 5ab77f5733c5d40ad448c377
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c377/original/CrackMe#2_by_KLiZMA.zip"
     page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c377
+  2f60752ce3759dac63e441822b9e0128ce3bd24fa2e51eae61d36464bdc86039:
+    id: 5ab77f5733c5d40ad448c378
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c378/original/UnpackMe#1_by_KLiZMA.zip"
+    page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c378

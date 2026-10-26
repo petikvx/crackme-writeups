@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c378
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c378
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c378
+
+title: "crackmes.de's unpackme_1 by klizma"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/UnpackMe#1_by_KLiZMA.zip"
+  name: "UnpackMe#1_by_KLiZMA.zip"
+  sha256: "2f60752ce3759dac63e441822b9e0128ce3bd24fa2e51eae61d36464bdc86039"
+  md5: "8644f410fe4e0685449023e655c924dc"
+  size_bytes: 201640
+
+status: solved
+solution_summary: "patch : wrapper XOR 0x62 + stub UPX 1.93 modifié (3 patchs « stolen bytes ») dépacké par émulation unicorn, imports reconstruits, OEP 0x463c80 ; caption DFM Label2 UNREGISTERED → REGISTERED ; vérifié sous Wine/xvfb (tools/unpackme1-solve.py --check)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-26T13:49:24Z"
