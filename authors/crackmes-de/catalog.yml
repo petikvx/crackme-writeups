@@ -2031,6 +2031,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c37b/original/CrackMe_#4_by_KLiZMA.zip"
     title: "crackmes.de's crackme_4_combo by klizma"
 
+  5ab77f5733c5d40ad448c37c:
+    sha256: "34e6325129e72561e46860ca70d74bcdcd0f1c3d4c3c656cf7f0326e935e6abc"
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c37c/original/Crackme#1_by_KLiZMA.zip"
+    title: "crackmes.de's crackme1_lucky by klizma"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3668,3 +3673,7 @@ by_sha256:
     id: 5ab77f5733c5d40ad448c37b
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c37b/original/CrackMe_#4_by_KLiZMA.zip"
     page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c37b
+  34e6325129e72561e46860ca70d74bcdcd0f1c3d4c3c656cf7f0326e935e6abc:
+    id: 5ab77f5733c5d40ad448c37c
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c37c/original/Crackme#1_by_KLiZMA.zip"
+    page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c37c

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c37c
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c37c
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c37c
+
+title: "crackmes.de's crackme1_lucky by klizma"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Crackme#1_by_KLiZMA.zip"
+  name: "Crackme#1_by_KLiZMA.zip"
+  sha256: "34e6325129e72561e46860ca70d74bcdcd0f1c3d4c3c656cf7f0326e935e6abc"
+  md5: "abed378e60cd6c6b868040b835991e7c"
+  size_bytes: 2738
+
+status: solved
+solution_summary: "serial 6 chiffres 0..999999 (FSG dépacké par unicorn) : digits d0..d5 (unité en premier), valide ssi d0+d1+d2 == d3+d4+d5 ; ex. 123006 -> Good! ; vérifié Wine/xvfb ; pas de user (petik non applicable)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-26T17:43:38Z"
