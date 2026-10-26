@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c383
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c383
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c383
+
+title: "crackmes.de's crackme_false_by_vctor by vctor_"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/CRACKME1.zip"
+  name: "CRACKME1.zip"
+  sha256: "8204e810de20c7b5faabf53247ea5d64f98c9f572ad7335f4924221a892afc85"
+  md5: "29f82b2d26badeec81e76e642cd4efd1"
+  size_bytes: 3587
+
+status: solved
+solution_summary: "keygen : serial[2i]+serial[2i+1] == name[i]+0x23 (mod 256), check réel dans info.nfo (CRACKME.dll chargée en advaapi32.dll) au détachement ; petik→IJDDKLFFGG"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-26T21:48:14Z"
