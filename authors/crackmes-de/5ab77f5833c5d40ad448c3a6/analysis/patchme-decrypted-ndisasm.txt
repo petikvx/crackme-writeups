@@ -1,0 +1,66 @@
+00000000  B81010            mov ax,0x1010
+00000003  8ED8              mov ds,ax
+00000005  90                nop
+00000006  662E812E1000C7F4  sub dword [cs:0x10],0xe5b9f4c7
+         -B9E5
+00000010  E80400            call 0x17
+00000013  EB1E              jmp short 0x33
+00000015  EA39662E81        jmp 0x812e:0x6639
+0000001A  3627              ss daa
+0000001C  00935218          add [bp+di+0x1852],dl
+00000020  7466              jz 0x88
+00000022  2EF7162700        not word [cs:0x27]
+00000027  B409              mov ah,0x9
+00000029  BA0000            mov dx,0x0
+0000002C  2E8036320021      xor byte [cs:0x32],0x21
+00000032  C3                ret
+00000033  CD21              int 0x21
+00000035  662E81364500EFBE  xor dword [cs:0x45],0xdeadbeef
+         -ADDE
+0000003F  662EF7164500      not dword [cs:0x45]
+00000045  B400              mov ah,0x0
+00000047  CD16              int 0x16
+00000049  662EF7164F00      not dword [cs:0x4f]
+0000004F  E83500            call 0x87
+00000052  EB01              jmp short 0x55
+00000054  3366B8            xor sp,[bp-0x48]
+00000057  7C00              jl 0x59
+00000059  0000              add [bx+si],al
+0000005B  66BB6C000000      mov ebx,0x6c
+00000061  6650              push eax
+00000063  C3                ret
+00000064  7041              jo 0xa7
+00000066  54                push sp
+00000067  636820            arpl [bx+si+0x20],bp
+0000006A  6954B409BA        imul dx,[si-0x4c],word 0xba09
+0000006F  6E                outsb
+00000070  00CD              add ch,cl
+00000072  2166B8            and [bp-0x48],sp
+00000075  830000            add word [bx+si],byte +0x0
+00000078  006650            add [bp+0x50],ah
+0000007B  C3                ret
+0000007C  B409              mov ah,0x9
+0000007E  BA8800            mov dx,0x88
+00000081  CD21              int 0x21
+00000083  B44C              mov ah,0x4c
+00000085  CD21              int 0x21
+00000087  66BB54000000      mov ebx,0x54
+0000008D  66B910000000      mov ecx,0x10
+00000093  662E678B03        mov eax,[cs:ebx]
+00000098  EB01              jmp short 0x9b
+0000009A  3366C1            xor sp,[bp-0x3f]
+0000009D  C804662D          enter 0x6604,0x2d
+000000A1  69238547          imul sp,[bp+di],word 0x4785
+000000A5  EB01              jmp short 0xa8
+000000A7  1566C1            adc ax,0xc166
+000000AA  C00466            rol byte [si],byte 0x66
+000000AD  F7D0              not ax
+000000AF  663546579315      xor eax,0x15935746
+000000B5  662E678903        mov [cs:ebx],eax
+000000BA  6683C304          add ebx,byte +0x4
+000000BE  6683E904          sub ecx,byte +0x4
+000000C2  75CF              jnz 0x93
+000000C4  66B920000000      mov ecx,0x20
+000000CA  66BB64000000      mov ebx,0x64
+000000D0  662E678B03        mov eax,[cs:ebx]
+000000D5  EB01              jmp short 0xd8

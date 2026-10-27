@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3a6
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3a6
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3a6
+
+title: "crackmes.de's patchit by sas0"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "MS-DOS 16-bit EXE"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/patchIT.zip"
+  name: "patchIT.zip"
+  sha256: "4a62de87ea732f4d0d6f037899f80888b51c1e7ced88d1af0078e98d84ae8122"
+  md5: "327b875d7f56b017400eb3eba71ef115"
+  size_bytes: 792
+
+status: solved
+solution_summary: "patch DOS : dword chiffré file+0x254 0F27051F->FF27051E (octets 0x254:1F->1E, 0x257:0F->FF) ; mov eax,0x7C -> 0x6C => Good work you did it ; émulation unicorn (pas de DOS réel)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-27T14:52:01Z"

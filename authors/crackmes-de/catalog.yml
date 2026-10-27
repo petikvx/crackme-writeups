@@ -2121,6 +2121,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3a4/original/NET_Anarchy.zip"
     title: "crackmes.de's .net_anarchy by sas0"
 
+  5ab77f5833c5d40ad448c3a6:
+    sha256: "4a62de87ea732f4d0d6f037899f80888b51c1e7ced88d1af0078e98d84ae8122"
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3a6/original/patchIT.zip"
+    title: "crackmes.de's patchit by sas0"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3822,3 +3827,7 @@ by_sha256:
     id: 5ab77f5833c5d40ad448c3a4
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3a4/original/NET_Anarchy.zip"
     page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3a4
+  4a62de87ea732f4d0d6f037899f80888b51c1e7ced88d1af0078e98d84ae8122:
+    id: 5ab77f5833c5d40ad448c3a6
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3a6/original/patchIT.zip"
+    page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3a6
