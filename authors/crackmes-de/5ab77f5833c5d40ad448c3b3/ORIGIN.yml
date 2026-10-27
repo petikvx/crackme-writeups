@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3b3
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3b3
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3b3
+
+title: "crackmes.de's lil_crackme by abcd"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme2.zip"
+  name: "crackme2.zip"
+  sha256: "a44a6b76760929180f2b96675ff0d5a1004f5cf51ff8c800f2e411877aa154d2"
+  md5: "6ee6d0a8489bc01ebccc37dec55b039e"
+  size_bytes: 131383
+
+status: solved
+solution_summary: "keygen : fichier kernel32.dll (cwd) contenant « naumaan » + username >8 car. avec sum((10*c)%(3i+3) * (i^3)) == 0x1be ; petik→petik!!,; ; vérifié Wine/xvfb (Congrats!!) via tools/lil-crackme-solve.py"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-27T21:40:42Z"
