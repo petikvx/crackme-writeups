@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c396
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c396
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c396
+
+title: "crackmes.de's crackme_1_by_dip22e by dip22e"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crcme.zip"
+  name: "crcme.zip"
+  sha256: "38bea0c9ce843502458086ad0f9fb4b4af6571f0a250e697fc5bb68a3c7602c4"
+  md5: "9d47151d500e9fa2c5c610260e2a914b"
+  size_bytes: 2030
+
+status: solved
+solution_summary: "Keygen sans user : 8 lettres a-z avec serial[i] % (8-i) == 0 (ex. pilihfdb) ; verifie sous Wine"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-27T09:42:16Z"

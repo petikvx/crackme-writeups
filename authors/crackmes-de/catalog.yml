@@ -2096,6 +2096,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c394/original/keygenme.zip"
     title: "crackmes.de's keygenme1 by darkmaster2"
 
+  5ab77f5833c5d40ad448c396:
+    sha256: "38bea0c9ce843502458086ad0f9fb4b4af6571f0a250e697fc5bb68a3c7602c4"
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c396/original/crcme.zip"
+    title: "crackmes.de's crackme_1_by_dip22e by dip22e"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3777,3 +3782,7 @@ by_sha256:
     id: 5ab77f5833c5d40ad448c394
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c394/original/keygenme.zip"
     page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c394
+  38bea0c9ce843502458086ad0f9fb4b4af6571f0a250e697fc5bb68a3c7602c4:
+    id: 5ab77f5833c5d40ad448c396
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c396/original/crcme.zip"
+    page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c396
