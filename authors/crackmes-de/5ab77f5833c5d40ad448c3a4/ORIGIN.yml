@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3a4
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3a4
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3a4
+
+title: "crackmes.de's .net_anarchy by sas0"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ".NET 2.0 (C#)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/NET_Anarchy.zip"
+  name: "NET_Anarchy.zip"
+  sha256: "d77ede5143fc95b02da5787ca3294759717d82627a5a4767cf72d1a4870a4a18"
+  md5: "c29dd207a3f47fe10f6d22262dde056c"
+  size_bytes: 3724
+
+status: solved
+solution_summary: "keygen: .NET-<groupes de 4 car.> ; ex. .NET-Gac6 / .NET-8puBf_Vf (pas de nom, petik identique)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-27T13:48:58Z"
