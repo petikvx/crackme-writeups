@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c38a
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c38a
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c38a
+
+title: "crackmes.de's jim_dotnet_series_1 by jim"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/jim_dotnet_series_1.zip"
+  name: "jim_dotnet_series_1.zip"
+  sha256: "0489eec57349d4f61417ae3b61d25e54639c0247b7f457093d7725f22bb48500"
+  md5: "29bbcaa291c8e98eabca0555ea1546eb"
+  size_bytes: 10634
+
+status: solved
+solution_summary: "keygen petik (user box)→key 626F7858504554494B + cases A,C : hex(rotR*(UserName)+'X'+rotL*(UPPER(name))), cases = bits de len(name) ; vérifié via SuperString réelle (dotnet), Wine-mono KO"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-27T02:48:28Z"

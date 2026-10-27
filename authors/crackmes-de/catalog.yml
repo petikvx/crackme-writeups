@@ -2066,6 +2066,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c389/original/Crackmeh.zip"
     title: "crackmes.de's crackmeh by jim"
 
+  5ab77f5733c5d40ad448c38a:
+    sha256: "0489eec57349d4f61417ae3b61d25e54639c0247b7f457093d7725f22bb48500"
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c38a/original/jim_dotnet_series_1.zip"
+    title: "crackmes.de's jim_dotnet_series_1 by jim"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3723,3 +3728,7 @@ by_sha256:
     id: 5ab77f5733c5d40ad448c389
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c389/original/Crackmeh.zip"
     page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c389
+  0489eec57349d4f61417ae3b61d25e54639c0247b7f457093d7725f22bb48500:
+    id: 5ab77f5733c5d40ad448c38a
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c38a/original/jim_dotnet_series_1.zip"
+    page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c38a
