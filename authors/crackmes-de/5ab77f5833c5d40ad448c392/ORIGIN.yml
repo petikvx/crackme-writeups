@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c392
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c392
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c392
+
+title: "crackmes.de's jammmie999s_crackme by jammmie999"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/CrackMe2.zip"
+  name: "CrackMe2.zip"
+  sha256: "36e42627af65495275de5e816cfa4150b6929aab0883a462267837c3de455a22"
+  md5: "fd544a0ec1d79ab639719e097d9e390e"
+  size_bytes: 19982
+
+status: solved
+solution_summary: "keygen ID matériel -> serial : MakePassword(ID,\"999\") (Boring + 3x InverseByBase(9) + ChangeChar) ; ex. KKIKKEIKTIPIETPTTTEEPPIPE -> W@WBKWKBGKGKBBGK@BG@W@WG@ ; verifie sur SoftwareLocker.dll reelle"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-27T06:45:30Z"
