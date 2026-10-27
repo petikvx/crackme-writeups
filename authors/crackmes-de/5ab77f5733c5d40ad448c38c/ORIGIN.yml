@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c38c
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c38c
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c38c
+
+title: "crackmes.de's bfcrackme by jim"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Multiplatform"
+arch: "x86-16"
+language: "Brainfuck → DOS .COM"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/bfcrackme.zip"
+  name: "bfcrackme.zip"
+  sha256: "e38d8c61ee084c302db447b6e9847cccfe7b889f1c20fc12d834a1c7c9815556"
+  md5: "3a25f8376c4c4be8bb0f1a8e8eda2557"
+  size_bytes: 1339
+
+status: solved
+solution_summary: "un seul octet accepté : 0xD0 (208, '╨' CP437, Alt+208) ; BF : ',' puis -(20*10+8) ; vérifié par émulation unicorn de BFCRACKME.COM (Congratualtions) ; pas de user (petik N/A)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-27T04:43:35Z"
