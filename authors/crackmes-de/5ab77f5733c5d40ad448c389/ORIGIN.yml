@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c389
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c389
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c389
+
+title: "crackmes.de's crackmeh by jim"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Delphi 2006"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Crackmeh.zip"
+  name: "Crackmeh.zip"
+  sha256: "648e56a149fe03f1bebd48a1d0b2d7582d1280d876f14c6813ee4dd116c8a699"
+  md5: "6c262f153214b066eb6a354fe980836c"
+  size_bytes: 206727
+
+status: solved
+solution_summary: "keygen petik→10N1bT6bh0WC2228 : Button2Click (@0x45a1b8) = RightStr(b64(#1+name+#2+#3) alphabet 0-9A-Za-z+/ sans padding, 16) après padding len%10+s+len*2 tant que len<16 ; vérifié Wine/xvfb (Good boy / Bad boy)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-27T01:45:12Z"
