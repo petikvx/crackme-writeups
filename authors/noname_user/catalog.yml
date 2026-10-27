@@ -10,6 +10,11 @@ by_id:
     path: "authors/noname_user/69a138ff7a778cfffbfb6797/original/test_protect.py"
     title: "noname_User's Test my obf. PLS"
 
+  6ae0a43e5fa39ab0d4ac1ec3:
+    sha256: "b3f45c13341cb96ef40fc47af143599b1ea6822445bf985961cb066677f52031"
+    path: "authors/noname_user/6ae0a43e5fa39ab0d4ac1ec3/original/obf-test2.py"
+    title: "noname_User's A test suite with obfuscated source code"
+
 by_sha256:
   0617e6374673cb3cceba2406791d690141adcb71f695f40c9f163a634a3b6cda:
     id: 699c06a46ca1599050950670
@@ -19,3 +24,7 @@ by_sha256:
     id: 69a138ff7a778cfffbfb6797
     path: "authors/noname_user/69a138ff7a778cfffbfb6797/original/test_protect.py"
     page: https://crackmes.one/crackme/69a138ff7a778cfffbfb6797
+  b3f45c13341cb96ef40fc47af143599b1ea6822445bf985961cb066677f52031:
+    id: 6ae0a43e5fa39ab0d4ac1ec3
+    path: "authors/noname_user/6ae0a43e5fa39ab0d4ac1ec3/original/obf-test2.py"
+    page: https://crackmes.one/crackme/6ae0a43e5fa39ab0d4ac1ec3

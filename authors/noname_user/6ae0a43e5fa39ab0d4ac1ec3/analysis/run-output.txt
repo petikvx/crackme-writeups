@@ -1,0 +1,530 @@
+[CASE-BEGIN] add
+[RESULT] add = 30
+[CASE-PASS] add
+[TIME] add = 0.000s
+[CASE-END] add
+[CASE-BEGIN] scale
+[RESULT] scale = (21, 28)
+[CASE-PASS] scale
+[TIME] scale = 0.012s
+[CASE-END] scale
+[CASE-BEGIN] fib
+[RESULT] fib = 55
+[CASE-PASS] fib
+[TIME] fib = 0.001s
+[CASE-END] fib
+[CASE-BEGIN] varargs_kwargs
+[RESULT] varargs_kwargs = 10
+[CASE-PASS] varargs_kwargs
+[TIME] varargs_kwargs = 0.001s
+[CASE-END] varargs_kwargs
+[CASE-BEGIN] identity
+[RESULT] identity = 7
+[CASE-PASS] identity
+[TIME] identity = 0.001s
+[CASE-END] identity
+[CASE-BEGIN] chained_compare
+[RESULT] chained_compare = (True, [1, 2, 3])
+[CASE-PASS] chained_compare
+[TIME] chained_compare = 0.001s
+[CASE-END] chained_compare
+[CASE-BEGIN] dynamic_default
+[RESULT] dynamic_default = 7
+[CASE-PASS] dynamic_default
+[TIME] dynamic_default = 0.000s
+[CASE-END] dynamic_default
+[CASE-BEGIN] decorated_function
+[RESULT] decorated_function = 9
+[CASE-PASS] decorated_function
+[TIME] decorated_function = 0.000s
+[CASE-END] decorated_function
+[CASE-BEGIN] class_static_class_property
+[RESULT] class_static_class_property = (8, 3, 'box')
+[CASE-PASS] class_static_class_property
+[TIME] class_static_class_property = 0.002s
+[CASE-END] class_static_class_property
+[CASE-BEGIN] class_attribute
+[RESULT] class_attribute = 'ok'
+[CASE-PASS] class_attribute
+[TIME] class_attribute = 0.000s
+[CASE-END] class_attribute
+[CASE-BEGIN] match_case
+[RESULT] match_case = ('small', 3, 200, 7, 12, 'miss')
+[CASE-PASS] match_case
+[TIME] match_case = 0.024s
+[CASE-END] match_case
+[CASE-BEGIN] try_except_finally
+[RESULT] try_except_finally = (5.0, 'value')
+[CASE-PASS] try_except_finally
+[TIME] try_except_finally = 0.002s
+[CASE-END] try_except_finally
+[CASE-BEGIN] with_contextlib
+[RESULT] with_contextlib = 'inside'
+[CASE-PASS] with_contextlib
+[TIME] with_contextlib = 0.001s
+[CASE-END] with_contextlib
+[CASE-BEGIN] unpack_star
+[RESULT] unpack_star = (1, [2, 3], 4)
+[CASE-PASS] unpack_star
+[TIME] unpack_star = 0.011s
+[CASE-END] unpack_star
+[CASE-BEGIN] dict_unpack
+[RESULT] dict_unpack = {'a': 1, 'b': 2, 'c': 3}
+[CASE-PASS] dict_unpack
+[TIME] dict_unpack = 0.001s
+[CASE-END] dict_unpack
+[CASE-BEGIN] set_comp
+[RESULT] set_comp = {0, 2, 4}
+[CASE-PASS] set_comp
+[TIME] set_comp = 0.001s
+[CASE-END] set_comp
+[CASE-BEGIN] list_comp
+[RESULT] list_comp = [0, 2, 4]
+[CASE-PASS] list_comp
+[TIME] list_comp = 0.001s
+[CASE-END] list_comp
+[CASE-BEGIN] dict_comp
+[RESULT] dict_comp = {0: 0, 1: 1, 2: 4}
+[CASE-PASS] dict_comp
+[TIME] dict_comp = 0.001s
+[CASE-END] dict_comp
+[CASE-BEGIN] dictcomp_call_key
+[RESULT] dictcomp_call_key = ([('238', 714), ('456', 1368), ('694', 2082)], [(238, 714), (456, 1368), (694, 2082)], [('456', 1368), ('694', 2082)])
+[CASE-PASS] dictcomp_call_key
+[TIME] dictcomp_call_key = 0.019s
+[CASE-END] dictcomp_call_key
+[CASE-BEGIN] dictcomp_nested_dc
+[RESULT] dictcomp_nested_dc = ([('238', {'238': 238}), ('456', {'456': 456}), ('694', {'694': 694})], [('(238,)', '238'), ('(456,)', '456'), ('(694,)', '694')])
+[CASE-PASS] dictcomp_nested_dc
+[TIME] dictcomp_nested_dc = 0.005s
+[CASE-END] dictcomp_nested_dc
+[CASE-BEGIN] dict_literal_order
+[RESULT] dict_literal_order = (['a', 'b', 'c', 'd'], ['x', 'y', 'z'])
+[CASE-PASS] dict_literal_order
+[TIME] dict_literal_order = 0.018s
+[CASE-END] dict_literal_order
+[CASE-BEGIN] dict_literal_dupkey
+[RESULT] dict_literal_dupkey = ('second', ['k', 'x'], 'B', ['3', 'b'])
+[CASE-PASS] dict_literal_dupkey
+[TIME] dict_literal_dupkey = 0.016s
+[CASE-END] dict_literal_dupkey
+[CASE-BEGIN] listcomp_multigen
+[RESULT] listcomp_multigen = ([110, 120, 210, 220], [6], [(1, 20), (2, 20)])
+[CASE-PASS] listcomp_multigen
+[TIME] listcomp_multigen = 0.014s
+[CASE-END] listcomp_multigen
+[CASE-BEGIN] dictcomp_multigen
+[RESULT] dictcomp_multigen = ({'1': 10, '2': 20}, {1: 4, 2: 5})
+[CASE-PASS] dictcomp_multigen
+[TIME] dictcomp_multigen = 0.009s
+[CASE-END] dictcomp_multigen
+[CASE-BEGIN] call_star_simple
+[RESULT] call_star_simple = ((2, 3, 4, 5), (2, 3, 4, 5), (1, 2, 3, 4), (2, (3, 9), 1))
+[CASE-PASS] call_star_simple
+[TIME] call_star_simple = 0.029s
+[CASE-END] call_star_simple
+[CASE-BEGIN] call_star_def
+[RESULT] call_star_def = ((1, 2, 3), (1, (2, 3)), (1, (2, 3), 7), ((1, 2), 3), ())
+[CASE-PASS] call_star_def
+[TIME] call_star_def = 0.018s
+[CASE-END] call_star_def
+[CASE-BEGIN] call_star_literal
+[RESULT] call_star_literal = ([1, 2, 3, 9], (1, 2, 3), [1, 2, 3], [1, 2], [0, 1, 1, 2, 3])
+[CASE-PASS] call_star_literal
+[TIME] call_star_literal = 0.002s
+[CASE-END] call_star_literal
+[CASE-BEGIN] call_arity_errors
+[RESULT] call_arity_errors = (['TypeError', 'TypeError', 'TypeError', 'TypeError', 'TypeError', 'TypeError', 'no-raise'], (1, 2, 3, 2))
+[CASE-PASS] call_arity_errors
+[TIME] call_arity_errors = 0.019s
+[CASE-END] call_arity_errors
+[CASE-BEGIN] call_kw_star
+[RESULT] call_kw_star = ((1, 0, [('k', 2)]), (1, 2, [('z', 3)]), (1, 2, [('z', 3)]), (1, 2, []), (1, (2, 3), 4, ['e']), (1, (2,), 1, []))
+[CASE-PASS] call_kw_star
+[TIME] call_kw_star = 0.039s
+[CASE-END] call_kw_star
+[CASE-BEGIN] comp_multigen_roll
+[RESULT] comp_multigen_roll = (['1:10', '1:20', '2:10', '2:20'], [('1', 30), ('2', 20)], [(1, 10, 11), (1, 20, 21), (2, 10, 12), (2, 20, 22)])
+[CASE-PASS] comp_multigen_roll
+[TIME] comp_multigen_roll = 0.006s
+[CASE-END] comp_multigen_roll
+[CASE-BEGIN] closure_latebind
+[RESULT] closure_latebind = ((12, 12), (1, 2, 2, 4, 4), (5, 6))
+[CASE-PASS] closure_latebind
+[TIME] closure_latebind = 0.002s
+[CASE-END] closure_latebind
+[CASE-BEGIN] comprehension_class_scope
+[RESULT] comprehension_class_scope = ((100, 200), (11, 12))
+[CASE-PASS] comprehension_class_scope
+[TIME] comprehension_class_scope = 0.001s
+[CASE-END] comprehension_class_scope
+[CASE-BEGIN] with_nonclass
+[RESULT] with_nonclass = ('TypeError', 'TypeError')
+[CASE-PASS] with_nonclass
+[TIME] with_nonclass = 0.003s
+[CASE-END] with_nonclass
+[CASE-BEGIN] lambda_dup_param
+[RESULT] lambda_dup_param = 'rejected'
+[CASE-PASS] lambda_dup_param
+[TIME] lambda_dup_param = 0.003s
+[CASE-END] lambda_dup_param
+[CASE-BEGIN] max_eq_large_consts
+[RESULT] max_eq_large_consts = (110, 320, 6)
+[CASE-PASS] max_eq_large_consts
+[TIME] max_eq_large_consts = 0.002s
+[CASE-END] max_eq_large_consts
+[CASE-BEGIN] gen_expr
+[RESULT] gen_expr = 6
+[CASE-PASS] gen_expr
+[TIME] gen_expr = 0.001s
+[CASE-END] gen_expr
+[CASE-BEGIN] math_fastpaths
+[RESULT] math_fastpaths = (120, 7.0, 0.0, 2.0)
+[CASE-PASS] math_fastpaths
+[TIME] math_fastpaths = 0.001s
+[CASE-END] math_fastpaths
+[CASE-BEGIN] bool_logic
+[RESULT] bool_logic = 'yes'
+[CASE-PASS] bool_logic
+[TIME] bool_logic = 0.001s
+[CASE-END] bool_logic
+[CASE-BEGIN] assert_delete
+[RESULT] assert_delete = 'deleted'
+[CASE-PASS] assert_delete
+[TIME] assert_delete = 0.001s
+[CASE-END] assert_delete
+[CASE-BEGIN] closure
+[RESULT] closure = 'v7'
+[CASE-PASS] closure
+[TIME] closure = 0.002s
+[CASE-END] closure
+[CASE-BEGIN] nested_scope
+[RESULT] nested_scope = 3
+[CASE-PASS] nested_scope
+[TIME] nested_scope = 0.002s
+[CASE-END] nested_scope
+[CASE-BEGIN] slice
+[RESULT] slice = ([1, 3], [4, 3, 2, 1, 0])
+[CASE-PASS] slice
+[TIME] slice = 0.001s
+[CASE-END] slice
+[CASE-BEGIN] import_json
+[RESULT] import_json = 1
+[CASE-PASS] import_json
+[TIME] import_json = 0.002s
+[CASE-END] import_json
+[CASE-BEGIN] exception_chain
+[RESULT] exception_chain = 'TypeError'
+[CASE-PASS] exception_chain
+[TIME] exception_chain = 0.001s
+[CASE-END] exception_chain
+[CASE-BEGIN] descriptor_meta_class_decorator
+[RESULT] descriptor_meta_class_decorator = ('Fancy', True, True)
+[CASE-PASS] descriptor_meta_class_decorator
+[TIME] descriptor_meta_class_decorator = 0.001s
+[CASE-END] descriptor_meta_class_decorator
+[CASE-BEGIN] posonly_kwonly
+[RESULT] posonly_kwonly = "pre:(1, 2):{'x': 3}:post"
+[CASE-PASS] posonly_kwonly
+[TIME] posonly_kwonly = 0.001s
+[CASE-END] posonly_kwonly
+[CASE-BEGIN] contextvar
+[RESULT] contextvar = ('unset', <Token var=<ContextVar name='token_var' default='unset' at 0x7bb352042d40> at 0x7bb350e2d980>, 'ok')
+[CASE-PASS] contextvar
+[TIME] contextvar = 0.001s
+[CASE-END] contextvar
+[CASE-BEGIN] generator_list_stub
+[RESULT] generator_list_stub = [1, 2, 3]
+[CASE-PASS] generator_list_stub
+[TIME] generator_list_stub = 0.000s
+[CASE-END] generator_list_stub
+[CASE-BEGIN] walrus
+[RESULT] walrus = 3
+[CASE-PASS] walrus
+[TIME] walrus = 0.023s
+[CASE-END] walrus
+[CASE-BEGIN] call_repr
+[RESULT] call_repr = (1, 3, 'Counter(3)')
+[CASE-PASS] call_repr
+[TIME] call_repr = 0.015s
+[CASE-END] call_repr
+[CASE-BEGIN] getitem_setitem_delitem
+[RESULT] getitem_setitem_delitem = (2, {'b': 2})
+[CASE-PASS] getitem_setitem_delitem
+[TIME] getitem_setitem_delitem = 0.004s
+[CASE-END] getitem_setitem_delitem
+[CASE-BEGIN] iterator_protocol
+[RESULT] iterator_protocol = [1, 2, 3]
+[CASE-PASS] iterator_protocol
+[TIME] iterator_protocol = 0.000s
+[CASE-END] iterator_protocol
+[CASE-BEGIN] iterator_class
+[RESULT] iterator_class = [1, 2, 3]
+[CASE-PASS] iterator_class
+[TIME] iterator_class = 0.015s
+[CASE-END] iterator_class
+[CASE-BEGIN] super
+[RESULT] super = 'base:child'
+[CASE-PASS] super
+[TIME] super = 0.026s
+[CASE-END] super
+[CASE-BEGIN] custom_context_manager
+[RESULT] custom_context_manager = 'enter'
+[CASE-PASS] custom_context_manager
+[TIME] custom_context_manager = 0.002s
+[CASE-END] custom_context_manager
+[CASE-BEGIN] global_mutation
+[RESULT] global_mutation = 20
+[CASE-PASS] global_mutation
+[TIME] global_mutation = 0.002s
+[CASE-END] global_mutation
+[CASE-BEGIN] nonlocal_counter
+[RESULT] nonlocal_counter = 13
+[CASE-PASS] nonlocal_counter
+[TIME] nonlocal_counter = 0.000s
+[CASE-END] nonlocal_counter
+[CASE-BEGIN] curry
+[RESULT] curry = 7
+[CASE-PASS] curry
+[TIME] curry = 0.003s
+[CASE-END] curry
+[CASE-BEGIN] decorator_with_args
+[RESULT] decorator_with_args = 'hit:5'
+[CASE-PASS] decorator_with_args
+[TIME] decorator_with_args = 0.006s
+[CASE-END] decorator_with_args
+[CASE-BEGIN] property_setter
+[RESULT] property_setter = (7, 6)
+[CASE-PASS] property_setter
+[TIME] property_setter = 0.013s
+[CASE-END] property_setter
+[CASE-BEGIN] str_methods
+[RESULT] str_methods = ('OBF-BATTERY-V2', ['obf', 'Battery', 'v2'], 'obf-Battery', 'obf-Battery-V2', True, 'Battery')
+[CASE-PASS] str_methods
+[TIME] str_methods = 0.003s
+[CASE-END] str_methods
+[CASE-BEGIN] bytes_memory
+[RESULT] bytes_memory = (b'at d', bytearray(b'retreat'), 15)
+[CASE-PASS] bytes_memory
+[TIME] bytes_memory = 0.016s
+[CASE-END] bytes_memory
+[CASE-BEGIN] struct_pack
+[RESULT] struct_pack = ((7, 3, -1), 10)
+[CASE-PASS] struct_pack
+[TIME] struct_pack = 0.001s
+[CASE-END] struct_pack
+[CASE-BEGIN] zlib_roundtrip
+[RESULT] zlib_roundtrip = (15, 300)
+[CASE-PASS] zlib_roundtrip
+[TIME] zlib_roundtrip = 0.000s
+[CASE-END] zlib_roundtrip
+[CASE-BEGIN] hash_chain
+[RESULT] hash_chain = 'c7197bec94e3b1b7'
+[CASE-PASS] hash_chain
+[TIME] hash_chain = 0.001s
+[CASE-END] hash_chain
+[CASE-BEGIN] re_extract
+[RESULT] re_extract = [('a', '1'), ('b', '22'), ('c', '333')]
+[CASE-PASS] re_extract
+[TIME] re_extract = 0.022s
+[CASE-END] re_extract
+[CASE-BEGIN] collections_stdlib
+[RESULT] collections_stdlib = ([('o', 2)], {'b': 2, 'a': 1}, [2, 3, 4])
+[CASE-PASS] collections_stdlib
+[TIME] collections_stdlib = 0.004s
+[CASE-END] collections_stdlib
+[CASE-BEGIN] itertools_stdlib
+[RESULT] itertools_stdlib = ([0, 1, 3], ['aa', 'ab', 'ba', 'bb'], [1, 2, 3])
+[CASE-PASS] itertools_stdlib
+[TIME] itertools_stdlib = 0.013s
+[CASE-END] itertools_stdlib
+[CASE-BEGIN] datetime_stdlib
+[RESULT] datetime_stdlib = ('2026-09-08T17:00:00', 1)
+[CASE-PASS] datetime_stdlib
+[TIME] datetime_stdlib = 0.001s
+[CASE-END] datetime_stdlib
+[CASE-BEGIN] builtin_algo
+[RESULT] builtin_algo = ([5, 4, 3, 2, 1], [5, 4, 3, 2, 1], ['5', '1'], [(0, 5), (1, 1)], True, True, 1, 5, 15, 5)
+[CASE-PASS] builtin_algo
+[TIME] builtin_algo = 0.001s
+[CASE-END] builtin_algo
+[CASE-BEGIN] dict_view_sort
+[RESULT] dict_view_sort = [('apple', 1), ('pear', 2), ('fig', 3)]
+[CASE-PASS] dict_view_sort
+[TIME] dict_view_sort = 0.002s
+[CASE-END] dict_view_sort
+[CASE-BEGIN] custom_exception
+[RESULT] custom_exception = (42, 'code=42', True)
+[CASE-PASS] custom_exception
+[TIME] custom_exception = 0.017s
+[CASE-END] custom_exception
+[CASE-BEGIN] re_raise
+[RESULT] re_raise = 'KeyError'
+[CASE-PASS] re_raise
+[TIME] re_raise = 0.001s
+[CASE-END] re_raise
+[CASE-BEGIN] finally_override
+[RESULT] finally_override = 'finally'
+[CASE-PASS] finally_override
+[TIME] finally_override = 0.002s
+[CASE-END] finally_override
+[CASE-BEGIN] while_break_continue_else
+[RESULT] while_break_continue_else = ([1, 2, 4, 5], 6)
+[CASE-PASS] while_break_continue_else
+[TIME] while_break_continue_else = 0.001s
+[CASE-END] while_break_continue_else
+[CASE-BEGIN] nested_data
+[RESULT] nested_data = ({'a': [1, {'b': (9, 9)}, {'c': {'d': 4}}]}, 4)
+[CASE-PASS] nested_data
+[TIME] nested_data = 0.025s
+[CASE-END] nested_data
+[CASE-BEGIN] isinstance_mro
+[RESULT] isinstance_mro = (True, True, True, 'function')
+[CASE-PASS] isinstance_mro
+[TIME] isinstance_mro = 0.001s
+[CASE-END] isinstance_mro
+[CASE-BEGIN] fstring_nested
+[RESULT] fstring_nested = ('  7', '007.0', 'value=7')
+[CASE-PASS] fstring_nested
+[TIME] fstring_nested = 0.001s
+[CASE-END] fstring_nested
+[CASE-BEGIN] lambda_sort
+[RESULT] lambda_sort = [('c', 1), ('b', 2), ('a', 3)]
+[CASE-PASS] lambda_sort
+[TIME] lambda_sort = 0.014s
+[CASE-END] lambda_sort
+[CASE-BEGIN] eq_hash
+[RESULT] eq_hash = ('c', 2)
+[CASE-PASS] eq_hash
+[TIME] eq_hash = 0.005s
+[CASE-END] eq_hash
+[CASE-BEGIN] operator_overload
+[RESULT] operator_overload = 'Vec(8)'
+[CASE-PASS] operator_overload
+[TIME] operator_overload = 0.032s
+[CASE-END] operator_overload
+[CASE-BEGIN] recursion_depth
+[RESULT] recursion_depth = 1770
+[CASE-PASS] recursion_depth
+[TIME] recursion_depth = 0.280s
+[CASE-END] recursion_depth
+[CASE-BEGIN] comprehensions_nested
+[RESULT] comprehensions_nested = [[0, 0, 0], [0, 2, 4]]
+[CASE-PASS] comprehensions_nested
+[TIME] comprehensions_nested = 0.001s
+[CASE-END] comprehensions_nested
+[CASE-BEGIN] multiple_inheritance
+[RESULT] multiple_inheritance = ('A', 'b', ['C', 'A', 'B', 'object'])
+[CASE-PASS] multiple_inheritance
+[TIME] multiple_inheritance = 0.029s
+[CASE-END] multiple_inheritance
+[CASE-BEGIN] slots_behavior
+[RESULT] slots_behavior = (10, False)
+[CASE-PASS] slots_behavior
+[TIME] slots_behavior = 0.002s
+[CASE-END] slots_behavior
+[CASE-BEGIN] genexp_any_pkg
+[RESULT] genexp_any_pkg = (True, 119)
+[CASE-PASS] genexp_any_pkg
+[TIME] genexp_any_pkg = 0.015s
+[CASE-END] genexp_any_pkg
+[CASE-BEGIN] json_roundtrip
+[RESULT] json_roundtrip = (True, ['{'])
+[CASE-PASS] json_roundtrip
+[TIME] json_roundtrip = 0.003s
+[CASE-END] json_roundtrip
+[CASE-BEGIN] dict_ordering
+[RESULT] dict_ordering = (['c', 'a', 'b'], True)
+[CASE-PASS] dict_ordering
+[TIME] dict_ordering = 0.029s
+[CASE-END] dict_ordering
+[CASE-BEGIN] chain_compare_order
+[RESULT] chain_compare_order = (True, [1, 2, 2])
+[CASE-PASS] chain_compare_order
+[TIME] chain_compare_order = 0.002s
+[CASE-END] chain_compare_order
+[CASE-BEGIN] sentinel_default
+[RESULT] sentinel_default = 1
+[CASE-PASS] sentinel_default
+[TIME] sentinel_default = 0.001s
+[CASE-END] sentinel_default
+[CASE-BEGIN] type_hints_runtime
+[RESULT] type_hints_runtime = ('xxx', 'int')
+[CASE-PASS] type_hints_runtime
+[TIME] type_hints_runtime = 0.015s
+[CASE-END] type_hints_runtime
+[CASE-BEGIN] small_int_cache
+[RESULT] small_int_cache = (True, False)
+[CASE-PASS] small_int_cache
+[TIME] small_int_cache = 0.002s
+[CASE-END] small_int_cache
+[CASE-BEGIN] string_intern
+[RESULT] string_intern = (True, False)
+[CASE-PASS] string_intern
+[TIME] string_intern = 0.013s
+[CASE-END] string_intern
+[CASE-BEGIN] ctypes_buffer
+[RESULT] ctypes_buffer = (b'ABf\x00', -5)
+[CASE-PASS] ctypes_buffer
+[TIME] ctypes_buffer = 0.002s
+[CASE-END] ctypes_buffer
+[CASE-BEGIN] generator_yield_real
+[RESULT] generator_yield_real = [0]
+[CASE-PASS] generator_yield_real
+[TIME] generator_yield_real = 0.000s
+[CASE-END] generator_yield_real
+[CASE-BEGIN] generator_fn
+[RESULT] generator_fn = [1, 2]
+[CASE-PASS] generator_fn
+[TIME] generator_fn = 0.000s
+[CASE-END] generator_fn
+[CASE-BEGIN] async_await
+[RESULT] async_await = 5
+[CASE-PASS] async_await
+[TIME] async_await = 0.015s
+[CASE-END] async_await
+[CASE-BEGIN] heavy_sha_chain
+[RESULT] heavy_sha_chain = 'fef18d243a5f5c1a'
+[CASE-PASS] heavy_sha_chain
+[TIME] heavy_sha_chain = 0.023s
+[CASE-END] heavy_sha_chain
+[CASE-BEGIN] heavy_sort
+[RESULT] heavy_sort = (199998032, [16, 20, 20, 35, 50])
+[CASE-PASS] heavy_sort
+[TIME] heavy_sort = 0.303s
+[CASE-END] heavy_sort
+[CASE-BEGIN] heavy_dict_churn
+[RESULT] heavy_dict_churn = (333, 580661)
+[CASE-PASS] heavy_dict_churn
+[TIME] heavy_dict_churn = 0.198s
+[CASE-END] heavy_dict_churn
+[CASE-BEGIN] heavy_string_build
+[RESULT] heavy_string_build = (38689, 143853)
+[CASE-PASS] heavy_string_build
+[TIME] heavy_string_build = 1.032s
+[CASE-END] heavy_string_build
+[CASE-BEGIN] heavy_matrix
+[RESULT] heavy_matrix = 131100
+[CASE-PASS] heavy_matrix
+[TIME] heavy_matrix = 0.868s
+[CASE-END] heavy_matrix
+[CASE-BEGIN] heavy_fib_recursion
+[RESULT] heavy_fib_recursion = 377
+[CASE-PASS] heavy_fib_recursion
+[TIME] heavy_fib_recursion = 2.654s
+[CASE-END] heavy_fib_recursion
+[CASE-BEGIN] heavy_deep_recursion
+[RESULT] heavy_deep_recursion = 11325
+[CASE-PASS] heavy_deep_recursion
+[TIME] heavy_deep_recursion = 0.866s
+[CASE-END] heavy_deep_recursion
+[CASE-BEGIN] heavy_bytes_xor
+[RESULT] heavy_bytes_xor = '64e9e2e07680c8c9'
+[CASE-PASS] heavy_bytes_xor
+[TIME] heavy_bytes_xor = 0.503s
+[CASE-END] heavy_bytes_xor
+[CASE-BEGIN] heavy_csv_pipeline
+[RESULT] heavy_csv_pipeline = [('zone_0', 2, 64), ('zone_1', 90, 23), ('zone_2', 81, 71), ('zone_3', 72, 30)]
+[CASE-PASS] heavy_csv_pipeline
+[TIME] heavy_csv_pipeline = 0.288s
+[CASE-END] heavy_csv_pipeline

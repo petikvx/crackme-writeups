@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6ae0a43e5fa39ab0d4ac1ec3
+
+urls:
+  page: https://crackmes.one/crackme/6ae0a43e5fa39ab0d4ac1ec3
+  download: https://crackmes.one/download/crackme/6ae0a43e5fa39ab0d4ac1ec3
+
+title: "noname_User's A test suite with obfuscated source code"
+author_on_site: "noname_User"
+author_local: "noname_user"
+
+platform: "Multiplatform"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/obf-test2.py"
+  name: "obf-test2.py"
+  sha256: "b3f45c13341cb96ef40fc47af143599b1ea6822445bf985961cb066677f52031"
+  md5: "faef070ab5857f94c0537ec2fdedf735"
+  size_bytes: 5145023
+
+status: pending
+solution_summary: "partiel : pas de flag/input ; couches 1-2 déballées, loader + VM analysés, sources des 106 tests non dévirtualisées"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-27T19:29:54Z"
