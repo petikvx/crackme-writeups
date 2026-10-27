@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3b0
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3b0
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3b0
+
+title: "crackmes.de's crackme_2 by cosh"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows PE32 GUI (MSVC 6 + MFC 4.2)"
+arch: "x86"
+language: "C++ (MFC)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/cosh2.zip"
+  name: "cosh2.zip"
+  sha256: "0f6c7edad3822e5eede25b029b8ec0ef7481da9efa35fc1c4160f2f5ee8bc864"
+  md5: "03b7ff150c6658986f4b3329d7f80090"
+  size_bytes: 4640
+
+status: solved
+solution_summary: "keygen : len(Name)>5 et Serial commence par 6287-A (reste libre) ; petik123 -> 6287-A-petik123"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-27T19:46:10Z"
