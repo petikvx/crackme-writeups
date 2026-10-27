@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c393
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c393
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c393
+
+title: "crackmes.de's crackme_1 by dpswtch"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Delphi 7"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Crackme_Number_one_V1.1.zip"
+  name: "Crackme_Number_one_V1.1.zip"
+  sha256: "2ec37b83e686f5306367681751699a5b59999e7b332af74ddffd4664b6637699"
+  md5: "6d52c4742db7084a35e24624a0a48e28"
+  size_bytes: 213934
+
+status: solved
+solution_summary: "keygen name->serial (3 chiffres par paire de lettres) : petik->123171149197 ; tools/crackme1-solve.py"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-27T07:44:09Z"
