@@ -147,7 +147,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [oguzbey](authors/oguzbey/README.md) | oguzbey | 1 (Lucky Numbers) | 1 / 1 |
 | [andrewl](authors/andrewl/README.md) | andrewl | 1 (Quick Crypto) | 1 / 1 |
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
-| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 410 / 410 |
+| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 411 / 411 |
 | [chaltu](authors/chaltu/README.md) | chaltu | 3 (a Treasure + Double Door + Accsess me please) | 3 / 3 |
 | [qerr0r](authors/qerr0r/README.md) | QERR0R | 2 (crackit + CrackIt;)) | 2 / 2 |
 | [steve_maxwell](authors/steve_maxwell/README.md) | steve_maxwell | 1 (X-0-R) | 1 / 1 |
@@ -369,6 +369,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-27 | [newcoma's CrackMe #1 (newcoma-CrackMe) by newcoma](authors/crackmes-de/5ab77f5833c5d40ad448c39e/) | crackmes.de / newcoma |
 | 2026-10-27 | [crackme_1_by_dip22e (crcme) by dip22e](authors/crackmes-de/5ab77f5833c5d40ad448c396/) | crackmes.de / dip22e |
 | 2026-10-27 | [KeygenME1 (keygenme1) by darkmaster2](authors/crackmes-de/5ab77f5833c5d40ad448c394/) | crackmes.de / darkmaster2 |
 | 2026-10-27 | [Crackme #1 (Crackme_Number_one_V1.1) by dpswtch](authors/crackmes-de/5ab77f5833c5d40ad448c393/) | crackmes.de / D!PSW!TCH |

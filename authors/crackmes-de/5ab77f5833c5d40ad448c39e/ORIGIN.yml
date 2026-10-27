@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c39e
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c39e
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c39e
+
+title: "crackmes.de's newcoma039s_crackme_1 by newcoma"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "VB6 (native) + ASPack"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/newcoma.crackme1.zip"
+  name: "newcoma.crackme1.zip"
+  sha256: "2d225c69e32811563ec76bce1c89fc8ef00ddde6d6bbb6c7639cef906af5e648"
+  md5: "7474b12a5faefda982c0559823eb2978"
+  size_bytes: 59929
+
+status: solved
+solution_summary: "Keygen dépendant de l'heure locale : serial = concat_i Hex(CInt(i + Asc(UCase(name[i])) + Timer/3600)) ; petik→5D5363595C à 11h (nom 5..40 car.)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-27T10:40:32Z"
