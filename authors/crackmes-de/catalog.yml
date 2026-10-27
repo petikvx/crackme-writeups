@@ -2136,6 +2136,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3ab/original/Crackme.zip"
     title: "crackmes.de's my_little_first_crackme by mistero5050"
 
+  5ab77f5833c5d40ad448c3af:
+    sha256: "c464c0e3623b7c22dce00b8973d23c4c084a8c08e26cabf374176e9f957460f3"
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3af/original/cosh1.zip"
+    title: "crackmes.de's crackme_1 by cosh"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3849,3 +3854,7 @@ by_sha256:
     id: 5ab77f5833c5d40ad448c3ab
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3ab/original/Crackme.zip"
     page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3ab
+  c464c0e3623b7c22dce00b8973d23c4c084a8c08e26cabf374176e9f957460f3:
+    id: 5ab77f5833c5d40ad448c3af
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3af/original/cosh1.zip"
+    page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3af

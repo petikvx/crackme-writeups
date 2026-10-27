@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3af
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3af
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3af
+
+title: "crackmes.de's crackme_1 by cosh"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows PE32 GUI (MSVC 6 / MFC 4.2)"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/cosh1.zip"
+  name: "cosh1.zip"
+  sha256: "c464c0e3623b7c22dce00b8973d23c4c084a8c08e26cabf374176e9f957460f3"
+  md5: "f2e6670c2d77f9a118b8e0ce791fc8d3"
+  size_bytes: 4614
+
+status: solved
+solution_summary: "patch 2 octets : 0F 84 -> 90 E9 à l'offset 0x138C (VA 0x40138C) ; CreateFileA(CD_CHECK.DAT) appelé avec disposition=0 (invalide) donc le test CD échoue toujours ; vérifié Wine/xvfb (Try again -> You did it) via tools/cosh1-solve.py"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-27T18:44:04Z"
