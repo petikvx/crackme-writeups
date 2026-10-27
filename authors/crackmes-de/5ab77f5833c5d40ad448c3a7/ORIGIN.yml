@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3a7
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3a7
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3a7
+
+title: "crackmes.de's crackmertdsc by sas0"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "MS-DOS 16 bits (EXE MZ)"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackmeRTDSC.zip"
+  name: "crackmeRTDSC.zip"
+  sha256: "6b6313a84cfd1030790a5e80c9fca148f5ae08984ea9e312da986031d88c3773"
+  md5: "fd9a503172056548da6a47581a88eb0f"
+  size_bytes: 737
+
+status: solved
+solution_summary: "code DOS 8 car. = table[delta:delta+8], delta = rdtsc2-rdtsc1 (non déterministe, ~0x1c ici => 347457z2, 0x1a..0x32 observés) ; solveur --all liste les 81 codes ; émulation unicorn (pas de DOS réel) ; petik non utilisé"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-27T15:45:50Z"
