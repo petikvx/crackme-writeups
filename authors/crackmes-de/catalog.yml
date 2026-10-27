@@ -2056,6 +2056,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c386/original/tol_b275.zip"
     title: "crackmes.de's crackme_v2.75 by tol"
 
+  5ab77f5733c5d40ad448c388:
+    sha256: "a62ea945fc3bcbd85198d9cfdbad6e461ab3769c8e6cc205ffe8be62b0c7186f"
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c388/original/spaghettime.zip"
+    title: "crackmes.de's spaghettime by jim"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3705,3 +3710,7 @@ by_sha256:
     id: 5ab77f5733c5d40ad448c386
     path: "authors/crackmes-de/5ab77f5733c5d40ad448c386/original/tol_b275.zip"
     page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c386
+  a62ea945fc3bcbd85198d9cfdbad6e461ab3769c8e6cc205ffe8be62b0c7186f:
+    id: 5ab77f5733c5d40ad448c388
+    path: "authors/crackmes-de/5ab77f5733c5d40ad448c388/original/spaghettime.zip"
+    page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c388

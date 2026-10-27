@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5733c5d40ad448c388
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5733c5d40ad448c388
+  download: https://crackmes.one/download/crackme/5ab77f5733c5d40ad448c388
+
+title: "crackmes.de's spaghettime by jim"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ".NET (C#)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/spaghettime.zip"
+  name: "spaghettime.zip"
+  sha256: "a62ea945fc3bcbd85198d9cfdbad6e461ab3769c8e6cc205ffe8be62b0c7186f"
+  md5: "5a061b6cf4eca24a83a981e1ebcbe0e8"
+  size_bytes: 62261
+
+status: solved
+solution_summary: "keygen `petik`→`kQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA` : clé = base64 de 30 octets ; overloaded(int[]) réduit le tableau récursivement (a[i]=(last+a[i])%255) et le résultat doit valoir rec(name.GetHashCode()/100000)%255 ; vérifié Wine (harness reflexion sur l'exe d'origine, VALID/INVALID)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-27T00:45:08Z"
