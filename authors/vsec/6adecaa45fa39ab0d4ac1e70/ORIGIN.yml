@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6adecaa45fa39ab0d4ac1e70
+
+urls:
+  page: https://crackmes.one/crackme/6adecaa45fa39ab0d4ac1e70
+  download: https://crackmes.one/download/crackme/6adecaa45fa39ab0d4ac1e70
+
+title: "VSEC's VSEC"
+author_on_site: "VSEC"
+author_local: "vsec"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Pafet_Challenge.exe"
+  name: "Pafet_Challenge.exe"
+  sha256: "fe85e59225387fba4923f3bc6103914fe7b85ba3dc0514c9e37382818fb44d1a"
+  md5: "dbb9bed1557096efbbe402534b0f95f6"
+  size_bytes: 4396544
+
+status: pending
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-26T19:52:12Z"
