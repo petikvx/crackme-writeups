@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3a1
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3a1
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3a1
+
+title: "crackmes.de's crackme1_thomas.openmod.org by thomas.idpz.net"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme1_thomas.zip"
+  name: "crackme1_thomas.zip"
+  sha256: "f3fa272c79fbc2025bfa518662f0e5a19fe9e703bd5a44a3f82fb56ba984c9cf"
+  md5: "804624d7295d51735209363ec1021c39"
+  size_bytes: 4450
+
+status: solved
+solution_summary: "Keygen dépendant de la date : serial = (Σ Asc(nom)) × Format(Date,\"ddmmyyyy\") ; petik→14662196066 le 27/10/2026 (nom >= 5 car.)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-27T11:46:02Z"

@@ -2106,6 +2106,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c39e/original/newcoma.crackme1.zip"
     title: "crackmes.de's newcoma039s_crackme_1 by newcoma"
 
+  5ab77f5833c5d40ad448c3a1:
+    sha256: "f3fa272c79fbc2025bfa518662f0e5a19fe9e703bd5a44a3f82fb56ba984c9cf"
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3a1/original/crackme1_thomas.zip"
+    title: "crackmes.de's crackme1_thomas.openmod.org by thomas.idpz.net"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3795,3 +3800,7 @@ by_sha256:
     id: 5ab77f5833c5d40ad448c39e
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c39e/original/newcoma.crackme1.zip"
     page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c39e
+  f3fa272c79fbc2025bfa518662f0e5a19fe9e703bd5a44a3f82fb56ba984c9cf:
+    id: 5ab77f5833c5d40ad448c3a1
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3a1/original/crackme1_thomas.zip"
+    page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3a1
