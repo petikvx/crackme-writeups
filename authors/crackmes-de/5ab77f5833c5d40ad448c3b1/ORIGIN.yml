@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3b1
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3b1
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3b1
+
+title: "crackmes.de's crackme_3 by cosh"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows PE32 GUI (MSVC 6 + MFC 4.2)"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/cosh3.zip"
+  name: "cosh3.zip"
+  sha256: "0ac4a6964fda028c7a5ce9044ae2d841d42630b1c039384ff8f5c2a1698e2e7a"
+  md5: "0bb49e4bb5ec6fb16ef4e62cebe49620"
+  size_bytes: 4614
+
+status: solved
+solution_summary: "keygen : Serial[i] = Name[i] ^ (1+i) ^ (10+i), len(Name)>5 et len(Serial)>5 (boucles XOR @0x401580/0x40159d) ; petik123 -> {l{``8%* ; vérifié Wine via tools/cosh3-solve.py"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-27T20:48:34Z"

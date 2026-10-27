@@ -2146,6 +2146,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3b0/original/cosh2.zip"
     title: "crackmes.de's crackme_2 by cosh"
 
+  5ab77f5833c5d40ad448c3b1:
+    sha256: "0ac4a6964fda028c7a5ce9044ae2d841d42630b1c039384ff8f5c2a1698e2e7a"
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3b1/original/cosh3.zip"
+    title: "crackmes.de's crackme_3 by cosh"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3867,3 +3872,7 @@ by_sha256:
     id: 5ab77f5833c5d40ad448c3b0
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3b0/original/cosh2.zip"
     page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3b0
+  0ac4a6964fda028c7a5ce9044ae2d841d42630b1c039384ff8f5c2a1698e2e7a:
+    id: 5ab77f5833c5d40ad448c3b1
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3b1/original/cosh3.zip"
+    page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3b1
