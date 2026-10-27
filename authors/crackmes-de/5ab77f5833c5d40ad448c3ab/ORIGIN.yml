@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3ab
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3ab
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3ab
+
+title: "crackmes.de's my_little_first_crackme by mistero5050"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C++ (MinGW 4.8.1)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Crackme.zip"
+  name: "Crackme.zip"
+  sha256: "a7a7b73b6f0b98d38b96eb1fa0ba506e17f602181f69e092ee7c39b4cdfa7d32"
+  md5: "9b6125f92f01aea66f7e62c119b4c15c"
+  size_bytes: 379012
+
+status: solved
+solution_summary: "mot de passe 34 car. : congrats_on_resolving_this_crackme (inversion de 34 tours reverse / +i%34 / swap pairs ; vérifié Wine You win!) ; pas de login, petik non applicable"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-27T17:42:37Z"
