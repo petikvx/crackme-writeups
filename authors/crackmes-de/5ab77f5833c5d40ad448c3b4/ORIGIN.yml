@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3b4
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3b4
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3b4
+
+title: "crackmes.de's abcds_2nd_innings by abcd"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme.zip"
+  name: "crackme.zip"
+  sha256: "5f022faa3d121172ef50642f5befc0331fd4acd8c5ddfc3078a47f63c7e4c8f2"
+  md5: "776e7e566adac5c5c8a9a3eb0c2b99e3"
+  size_bytes: 131175
+
+status: solved
+solution_summary: "keygen : password = L + 'x' + R, username de longueur 2n>=8 (L,R de n car.), s4[n-1-i]=f(U[n+i],i) == (U[i]+R[i]+L[i])/3 avec f = (c<<4 signed, abs) + T[i%7] mod 127 (+32 si <=31) ; petik→petik?@_~!#$%& / !!.Ws!bxkC~~~H~ ; vérifié Wine/xvfb (Congrats!) via tools/abcds-2nd-innings-solve.py"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-27T22:45:05Z"
