@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3bb
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3bb
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3bb
+
+title: "crackmes.de's boons_crackme_1 by boon"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme1.zip"
+  name: "crackme1.zip"
+  sha256: "8cfcb3659a494f12f667686304acc62262c2b37bc79a2b05d634f2bd1079903c"
+  md5: "9c19d1a12d3d5ae5a938dda94cb1d2a0"
+  size_bytes: 4769
+
+status: solved
+solution_summary: "Patch : NOP du jmp eb 16 @0x40109b (off 0x49b) ET de sa copie @0x402044 (off 0x844) que le thread 0x4011ea restaure toutes les 500 ms via WriteProcessMemory ; aucun mot de passe comparé (petik accepté) ; vérifié Wine/xdotool via tools/boons-crackme1-solve.py"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-28T03:48:32Z"
