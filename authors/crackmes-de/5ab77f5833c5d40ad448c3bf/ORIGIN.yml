@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3bf
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3bf
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3bf
+
+title: "crackmes.de's keygenme_3 by issogoo"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/issogoo_keygenme_3_fixed.zip"
+  name: "issogoo_keygenme_3_fixed.zip"
+  sha256: "50361c6d0133db5b17e4678f291e857f0c0de5eae2ed09b6085de7a947cb4cc8"
+  md5: "766c1dffcf309b8209cf87fcc0aa8b15"
+  size_bytes: 46030
+
+status: solved
+solution_summary: "Keygen sans user : serial 10 car. [A-Za-z0-9] ; 2 tours xor dword (0x1234567, 0x89abcde)+and 0xe sur octets 0/4, sommes dans buf[8]/buf[9] doivent valoir 0x42/0xde ; seed petik→9dexQHxf1Z ; vérifié par émulation Unicorn de 0x401063 (tools/keygenme3-emu.py) + tools/keygenme3-solve.py --check ; capture Wine noire"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-28T07:42:42Z"
