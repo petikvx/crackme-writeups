@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3c0
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3c0
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3c0
+
+title: "crackmes.de's triangle_keygenme by issogoo"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/trianglekeygenme_issogoo.zip"
+  name: "trianglekeygenme_issogoo.zip"
+  sha256: "cad90ceef046f51bdab6b0f49bcd5efc6ccc4f5111eab7c7359b8d6558af5ed8"
+  md5: "06fdf0be61ba72fa80cdb4bd19ac1d35"
+  size_bytes: 6486
+
+status: solved
+solution_summary: "Keygen name->serial 16 hex : R = somme de |T-U| (aires x87 sqrt des paires d'octets du nom padde a 100 octets), serial = hex(bytes LE de R) avec chaque char +1 sauf 9/F ; petik->9557DFE9CD5E8E51 ; verifie Unicorn (tools/triangle-keygenme-solve.py --check) + Wine Goodboy/Badboy"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-28T08:47:53Z"

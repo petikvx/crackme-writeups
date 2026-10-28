@@ -2201,6 +2201,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3bf/original/issogoo_keygenme_3_fixed.zip"
     title: "crackmes.de's keygenme_3 by issogoo"
 
+  5ab77f5833c5d40ad448c3c0:
+    sha256: "cad90ceef046f51bdab6b0f49bcd5efc6ccc4f5111eab7c7359b8d6558af5ed8"
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3c0/original/trianglekeygenme_issogoo.zip"
+    title: "crackmes.de's triangle_keygenme by issogoo"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3966,3 +3971,7 @@ by_sha256:
     id: 5ab77f5833c5d40ad448c3bf
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3bf/original/issogoo_keygenme_3_fixed.zip"
     page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3bf
+  cad90ceef046f51bdab6b0f49bcd5efc6ccc4f5111eab7c7359b8d6558af5ed8:
+    id: 5ab77f5833c5d40ad448c3c0
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3c0/original/trianglekeygenme_issogoo.zip"
+    page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3c0
