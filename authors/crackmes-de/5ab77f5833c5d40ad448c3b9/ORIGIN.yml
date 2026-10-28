@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3b9
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3b9
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3b9
+
+title: "crackmes.de's krakkrsr by crackr"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/KrakkRSR.zip"
+  name: "KrakkRSR.zip"
+  sha256: "51d54c5fd6e3e0c8b697771fe4f253ad5ffd81067ebd09f0b7260a6968e84908"
+  md5: "46f4fc62315db0e0f20a33fabed0fe20"
+  size_bytes: 3786
+
+status: solved
+solution_summary: "Serial statique `2968723465784783` : littéral .NET `krakkey` comparé au TextBox (pas de nom, petik non utilisé) ; vérifié Wine+Mono via tools/krakkrsr-solve.py"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-28T01:39:53Z"

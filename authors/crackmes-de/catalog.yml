@@ -2166,6 +2166,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3b8/original/keygenme2byank83.zip"
     title: "crackmes.de's keygenme_2 by ank83"
 
+  5ab77f5833c5d40ad448c3b9:
+    sha256: "51d54c5fd6e3e0c8b697771fe4f253ad5ffd81067ebd09f0b7260a6968e84908"
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3b9/original/KrakkRSR.zip"
+    title: "crackmes.de's krakkrsr by crackr"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3903,3 +3908,7 @@ by_sha256:
     id: 5ab77f5833c5d40ad448c3b8
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3b8/original/keygenme2byank83.zip"
     page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3b8
+  51d54c5fd6e3e0c8b697771fe4f253ad5ffd81067ebd09f0b7260a6968e84908:
+    id: 5ab77f5833c5d40ad448c3b9
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3b9/original/KrakkRSR.zip"
+    page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3b9
