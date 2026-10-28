@@ -2171,6 +2171,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3b9/original/KrakkRSR.zip"
     title: "crackmes.de's krakkrsr by crackr"
 
+  5ab77f5833c5d40ad448c3ba:
+    sha256: "b88397f2f0d65d1b5545a66427e41884fc3051cb55b268c035e63d20af3f28ef"
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3ba/original/KRAKK_v.10_SHA-1_edition.zip"
+    title: "crackmes.de's krakk_v.10_sha_1_edition_keygenme by crackr"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3912,3 +3917,7 @@ by_sha256:
     id: 5ab77f5833c5d40ad448c3b9
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3b9/original/KrakkRSR.zip"
     page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3b9
+  b88397f2f0d65d1b5545a66427e41884fc3051cb55b268c035e63d20af3f28ef:
+    id: 5ab77f5833c5d40ad448c3ba
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3ba/original/KRAKK_v.10_SHA-1_edition.zip"
+    page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3ba

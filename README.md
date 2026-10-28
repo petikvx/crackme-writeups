@@ -147,7 +147,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [oguzbey](authors/oguzbey/README.md) | oguzbey | 1 (Lucky Numbers) | 1 / 1 |
 | [andrewl](authors/andrewl/README.md) | andrewl | 1 (Quick Crypto) | 1 / 1 |
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
-| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 424 / 424 |
+| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 425 / 425 |
 | [chaltu](authors/chaltu/README.md) | chaltu | 3 (a Treasure + Double Door + Accsess me please) | 3 / 3 |
 | [qerr0r](authors/qerr0r/README.md) | QERR0R | 2 (crackit + CrackIt;)) | 2 / 2 |
 | [steve_maxwell](authors/steve_maxwell/README.md) | steve_maxwell | 1 (X-0-R) | 1 / 1 |
@@ -369,6 +369,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-28 | [KRAKK v.10 SHA-1 edition by crackr](authors/crackmes-de/5ab77f5833c5d40ad448c3ba/) | crackmes.de / crackr |
 | 2026-10-28 | [krakkrsr (KrakkRSR.exe) by crackr](authors/crackmes-de/5ab77f5833c5d40ad448c3b9/) | crackmes.de / crackr |
 | 2026-10-28 | [keygenme_2 (KeyGenMe #2.exe) by ank83](authors/crackmes-de/5ab77f5833c5d40ad448c3b8/) | crackmes.de / ank83 |
 | 2026-10-27 | [abcds_2nd_innings (crackme.exe) by abcd](authors/crackmes-de/5ab77f5833c5d40ad448c3b4/) | crackmes.de / abcd |

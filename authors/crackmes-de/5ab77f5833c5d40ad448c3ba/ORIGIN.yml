@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3ba
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3ba
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3ba
+
+title: "crackmes.de's krakk_v.10_sha_1_edition_keygenme by crackr"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/KRAKK_v.10_SHA-1_edition.zip"
+  name: "KRAKK_v.10_SHA-1_edition.zip"
+  sha256: "b88397f2f0d65d1b5545a66427e41884fc3051cb55b268c035e63d20af3f28ef"
+  md5: "a09945470cca93285dc9a22d56467bd2"
+  size_bytes: 4813
+
+status: solved
+solution_summary: "Keygen : key = SHA-1(UTF-8(user)) en hex MAJUSCULES (X2), ex. petik→CA5DF7F10E5D63588C60ABB69A52014FCF927C95 ; .NET via ilspycmd ; vérifié Wine+Mono via tools/krakk-sha1-solve.py"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-28T02:40:39Z"
