@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3bc
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3bc
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3bc
+
+title: "crackmes.de's encrypted_v._2_find_the_right_word_to_pass by servitute"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Korrect2_updated.zip"
+  name: "Korrect2_updated.zip"
+  sha256: "32f6c945d4f8e343c472d13668f0c6cbde2b0210a4d2d22f5f6068b67907c6e0"
+  md5: "674ddd0c522bc473050e5455975eeda7"
+  size_bytes: 5013
+
+status: solved
+solution_summary: "Mot de passe `tschichold` (10 cmp byte immediates dans main @0x4012b0 ; seul buf[5]=='c' est réellement lu ; `brunelleschi` = leurre → Ahahah) ; stub .xxx au EP ; pas de user (petik sans objet) ; vérifié Wine/xvfb via tools/korrect2-solve.py --check"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-28T04:49:03Z"
