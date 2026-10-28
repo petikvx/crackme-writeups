@@ -147,7 +147,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [oguzbey](authors/oguzbey/README.md) | oguzbey | 1 (Lucky Numbers) | 1 / 1 |
 | [andrewl](authors/andrewl/README.md) | andrewl | 1 (Quick Crypto) | 1 / 1 |
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
-| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 428 / 428 |
+| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 429 / 429 |
 | [chaltu](authors/chaltu/README.md) | chaltu | 3 (a Treasure + Double Door + Accsess me please) | 3 / 3 |
 | [qerr0r](authors/qerr0r/README.md) | QERR0R | 2 (crackit + CrackIt;)) | 2 / 2 |
 | [steve_maxwell](authors/steve_maxwell/README.md) | steve_maxwell | 1 (X-0-R) | 1 / 1 |
@@ -369,6 +369,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-10-28 | [encrypted_find_the_right_word_to_pass (Korrect.exe) by servitute](authors/crackmes-de/5ab77f5833c5d40ad448c3be/) | crackmes.de / servitute |
 | 2026-10-28 | [euler_keygenme (Euler.exe) by servitute](authors/crackmes-de/5ab77f5833c5d40ad448c3bd/) | crackmes.de / servitute |
 | 2026-10-28 | [encrypted_v._2_find_the_right_word_to_pass (Korrect2.exe) by servitute](authors/crackmes-de/5ab77f5833c5d40ad448c3bc/) | crackmes.de / servitute |
 | 2026-10-28 | [boons_crackme_1 (Boon's crackme #1.exe) by Boon](authors/crackmes-de/5ab77f5833c5d40ad448c3bb/) | crackmes.de / Boon |

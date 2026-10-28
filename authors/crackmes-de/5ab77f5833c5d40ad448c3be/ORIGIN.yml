@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3be
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3be
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3be
+
+title: "crackmes.de's encrypted_find_the_right_word_to_pass by servitute"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/PassMe.zip"
+  name: "PassMe.zip"
+  sha256: "6e3f4b594ef550e73b74181977c0c599a4d24d724284baf608c8294a271796b8"
+  md5: "14a577512731dc703ac328848801f447"
+  size_bytes: 8808
+
+status: solved
+solution_summary: "Mot de passe `esistgut` : strcmp(input, \"esistgut\") @0x401313 dans main 0x4012b0 ; exe packé eXPressor 1.4.5, dépack live Wine + lecture /proc/pid/mem ; pas de user (petik sans objet) ; vérifié Wine/xvfb via tools/passme-solve.py --check"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-28T06:40:46Z"
