@@ -2161,6 +2161,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3b4/original/crackme.zip"
     title: "crackmes.de's abcds_2nd_innings by abcd"
 
+  5ab77f5833c5d40ad448c3b8:
+    sha256: "7f83b3e37c67382a4495a3b2bedeb2d1ba4da61654d907d97fd18bc8df30e58b"
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3b8/original/keygenme2byank83.zip"
+    title: "crackmes.de's keygenme_2 by ank83"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3894,3 +3899,7 @@ by_sha256:
     id: 5ab77f5833c5d40ad448c3b4
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3b4/original/crackme.zip"
     page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3b4
+  7f83b3e37c67382a4495a3b2bedeb2d1ba4da61654d907d97fd18bc8df30e58b:
+    id: 5ab77f5833c5d40ad448c3b8
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3b8/original/keygenme2byank83.zip"
+    page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3b8

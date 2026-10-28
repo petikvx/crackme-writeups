@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3b8
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3b8
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3b8
+
+title: "crackmes.de's keygenme_2 by ank83"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/keygenme2byank83.zip"
+  name: "keygenme2byank83.zip"
+  sha256: "7f83b3e37c67382a4495a3b2bedeb2d1ba4da61654d907d97fd18bc8df30e58b"
+  md5: "2c15fec4961fb2f1d59795b5ffc0fddc"
+  size_bytes: 32880
+
+status: solved
+solution_summary: "serial = (2*ID+1)^2 - 190 (ID 0..999), ex. ID 5 -> -69 ; UPX + MSVC6 console ; vérifié Wine/xvfb (tools/keygenme2-solve.py --check)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-28T00:46:00Z"
