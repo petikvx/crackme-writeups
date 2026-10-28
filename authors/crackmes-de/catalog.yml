@@ -2186,6 +2186,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3bc/original/Korrect2_updated.zip"
     title: "crackmes.de's encrypted_v._2_find_the_right_word_to_pass by servitute"
 
+  5ab77f5833c5d40ad448c3bd:
+    sha256: "77d04fcc66af661060412a6a86476e74fa83c6a512148331e0d0b8ef29cd40b6"
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3bd/original/Euler_-_KGM.zip"
+    title: "crackmes.de's euler_keygenme by servitute"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3939,3 +3944,7 @@ by_sha256:
     id: 5ab77f5833c5d40ad448c3bc
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3bc/original/Korrect2_updated.zip"
     page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3bc
+  77d04fcc66af661060412a6a86476e74fa83c6a512148331e0d0b8ef29cd40b6:
+    id: 5ab77f5833c5d40ad448c3bd
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3bd/original/Euler_-_KGM.zip"
+    page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3bd

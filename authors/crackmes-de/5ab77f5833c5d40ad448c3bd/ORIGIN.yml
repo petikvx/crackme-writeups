@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3bd
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3bd
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3bd
+
+title: "crackmes.de's euler_keygenme by servitute"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Euler_-_KGM.zip"
+  name: "Euler_-_KGM.zip"
+  sha256: "77d04fcc66af661060412a6a86476e74fa83c6a512148331e0d0b8ef29cd40b6"
+  md5: "4257c5f333b225b17ba97b0caeef6a62"
+  size_bytes: 161479
+
+status: solved
+solution_summary: "Keygen : serial = ecvt5(exp(name[len-4])) + A + B, A=180*somme ASCII des 5 chiffres, B=12*A+268 ; petik->7307146440557548 ; strcat sur buffer non initialisé (résidu pile sous Wine) -> preuve sur copie strcat->strcpy via tools/euler-solve.py --check"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-28T05:44:12Z"
