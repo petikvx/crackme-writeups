@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6ae33abb5fa39ab0d4ac1f60
+
+urls:
+  page: https://crackmes.one/crackme/6ae33abb5fa39ab0d4ac1f60
+  download: https://crackmes.one/download/crackme/6ae33abb5fa39ab0d4ac1f60
+
+title: "agigatorx's Simple Easy CrackMe (Tutorial Video)"
+author_on_site: "agigatorx"
+author_local: "agigatorx"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/level1.exe"
+  name: "level1.exe"
+  sha256: "e8e0f5776e91ebab56b4ab06354cc6b6c380a314f53d42569fac79d40c3fa39f"
+  md5: "aa5ef04e1a8f633ee2fed0468fd623f1"
+  size_bytes: 19456
+
+status: solved
+solution_summary: "mot de passe fixe AGIGATOR (switch par index, longueur 8)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-02T18:47:35Z"
