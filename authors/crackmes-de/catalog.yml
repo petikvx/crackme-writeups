@@ -2216,6 +2216,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3c8/original/keygenme1.zip"
     title: "crackmes.de's crackmes4begginers___keygenme1 by csfs"
 
+  5ab77f5833c5d40ad448c3ca:
+    sha256: "102072375c59240d2b3adf0154f66d255f8c8d1885be2297df3323ada2181a63"
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3ca/original/crackme2.zip"
+    title: "crackmes.de's crackme2_by_neo_theone by neo_theone"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -3993,3 +3998,7 @@ by_sha256:
     id: 5ab77f5833c5d40ad448c3c8
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3c8/original/keygenme1.zip"
     page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3c8
+  102072375c59240d2b3adf0154f66d255f8c8d1885be2297df3323ada2181a63:
+    id: 5ab77f5833c5d40ad448c3ca
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3ca/original/crackme2.zip"
+    page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3ca

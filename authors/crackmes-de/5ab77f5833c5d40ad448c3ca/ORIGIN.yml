@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3ca
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3ca
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3ca
+
+title: "crackmes.de's crackme2_by_neo_theone by neo_theone"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows PE32 GUI (VB6 native)"
+arch: "x86"
+language: "Visual Basic 6"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme2.zip"
+  name: "crackme2.zip"
+  sha256: "102072375c59240d2b3adf0154f66d255f8c8d1885be2297df3323ada2181a63"
+  md5: "6d98748e0b1f81bac92be471c159f42f"
+  size_bytes: 5636
+
+status: solved
+solution_summary: "keygen : serial = (somme des codes ASCII du nom) x 1001 (= x7 x11 x13) ; petik -> 541541 ; verifie Wine/xvfb"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-02T22:47:57Z"
