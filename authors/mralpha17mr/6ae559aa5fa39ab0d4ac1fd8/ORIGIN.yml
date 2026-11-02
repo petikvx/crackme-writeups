@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6ae559aa5fa39ab0d4ac1fd8
+
+urls:
+  page: https://crackmes.one/crackme/6ae559aa5fa39ab0d4ac1fd8
+  download: https://crackmes.one/download/crackme/6ae559aa5fa39ab0d4ac1fd8
+
+title: "mrAlpha17mr's mothlight"
+author_on_site: "mrAlpha17mr"
+author_local: "mralpha17mr"
+
+platform: "Windows"
+arch: "x86-64"
+language: "asm/custom"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/upload-mothlight.zip"
+  name: "upload-mothlight.zip"
+  sha256: "1ff9209b0571bd845ac58fb44367769c436d530cce2dbfbdd43e597c06201f00"
+  md5: "ee068831f7bf0b53bdd6df5d72b70602"
+  size_bytes: 3611
+
+status: solved
+solution_summary: "ML-<C>-<A>-<B> : A=FNV-1a fwd, B=rol5 bwd, C=positionnel ; petik->ML-85B5-54A6-E67E ; CrackMes1->ML-1F57-0F11-C79E (CMO{AEA8CD56})"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-02T18:42:24Z"

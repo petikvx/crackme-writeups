@@ -331,6 +331,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [vsec](authors/vsec/README.md) | vsec | 2 (Challenger No.1 / Challenger #2) | 2 / 2 |
 | [yugnatd](authors/yugnatd/README.md) | YugnatD | 1 (WarGames) | 1 / 1 |
 | [zydak](authors/zydak/README.md) | zydak | 3 (simple obfuscated + LeetObfuscator + Tetris DRM) | 0 / 3 |
+| [mralpha17mr](authors/mralpha17mr/README.md) | mrAlpha17mr | 1 (mothlight) | 1 / 1 |
 | [reiika](authors/reiika/README.md) | Reiika | 1 (stckwzrd) | 1 / 1 |
 | [s3c_cult](authors/s3c_cult/README.md) | S3c_Cult | 2 (Schizo + XORcist) | 2 / 2 |
 | [rr7](authors/rr7/README.md) | RR7 | 1 (Secret key) | 1 / 1 |
@@ -370,6 +371,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 | Date | Crackme | Auteur |
 |---|---|---|
 | 2026-11-02 | [crackme_n1 (crackme_1.exe) by bytel0rd](authors/crackmes-de/5ab77f5833c5d40ad448c3c2/) | crackmes.de / bytel0rd |
+| 2026-11-02 | [mothlight](authors/mralpha17mr/6ae559aa5fa39ab0d4ac1fd8/) | mrAlpha17mr |
 | 2026-10-28 | [triangle_keygenme (KeyGenMe.exe) by issogoo](authors/crackmes-de/5ab77f5833c5d40ad448c3c0/) | crackmes.de / issogoo |
 | 2026-10-28 | [keygenme_3 (KeygenMe.exe) by issogoo](authors/crackmes-de/5ab77f5833c5d40ad448c3bf/) | crackmes.de / issogoo |
 | 2026-10-28 | [encrypted_find_the_right_word_to_pass (Korrect.exe) by servitute](authors/crackmes-de/5ab77f5833c5d40ad448c3be/) | crackmes.de / servitute |

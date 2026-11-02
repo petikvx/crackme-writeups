@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6ae559aa5fa39ab0d4ac1fd8:
+    sha256: "1ff9209b0571bd845ac58fb44367769c436d530cce2dbfbdd43e597c06201f00"
+    path: "authors/mralpha17mr/6ae559aa5fa39ab0d4ac1fd8/original/upload-mothlight.zip"
+    title: "mrAlpha17mr's mothlight"
+
+by_sha256:
+  1ff9209b0571bd845ac58fb44367769c436d530cce2dbfbdd43e597c06201f00:
+    id: 6ae559aa5fa39ab0d4ac1fd8
+    path: "authors/mralpha17mr/6ae559aa5fa39ab0d4ac1fd8/original/upload-mothlight.zip"
+    page: https://crackmes.one/crackme/6ae559aa5fa39ab0d4ac1fd8
