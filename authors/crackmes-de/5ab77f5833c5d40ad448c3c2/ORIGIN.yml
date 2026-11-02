@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3c2
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3c2
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3c2
+
+title: "crackmes.de's crackme_n1 by bytel0rd"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows PE32 GUI (Delphi)"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/bytel0rds_crackme_n1.other_mp2k.zip"
+  name: "bytel0rds_crackme_n1.other_mp2k.zip"
+  sha256: "24b64a920557748e452e30de90572e273279b1a36db0742cccac3c37bdd0c0ae"
+  md5: "3282ce2b8eb5e663525c0beb1aa8fb30"
+  size_bytes: 11700
+
+status: solved
+solution_summary: "keygen : Name -> n=popcount(sum(name)) ; RegKey DDD-DDD-DDD-L -> V (poids 10..2 + (L&1)) ; Serial 5 chiffres K tel que (V^n mod K) est premier (x87 fistp, V^n<2^63) ; petik / 111-111-111-A / 11118"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-02T18:41:06Z"
