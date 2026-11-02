@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3c8
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3c8
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3c8
+
+title: "crackmes.de's crackmes4begginers___keygenme1 by csfs"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "Delphi 7"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/keygenme1.zip"
+  name: "keygenme1.zip"
+  sha256: "9111a160b95de01718caca3ef9b680cef1adb25372b4c7733f3174261c3f6caf"
+  md5: "6460d8623b9f446cee57f6bfe5c7710c"
+  size_bytes: 210828
+
+status: solved
+solution_summary: "keygen : serial = ord(dernier caractère du nom) * 1234 en décimal ; petik→132038"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-02T20:42:08Z"
