@@ -15,6 +15,11 @@ by_id:
     path: "authors/vsec/6adecaa45fa39ab0d4ac1e70/original/Pafet_Challenge.exe"
     title: "VSEC's VSEC"
 
+  6ad67d7d4b6d53e8802ecefa:
+    sha256: "82561ebb9a5bcd29820fb9fc9baf3576878d080365375b138835697c99a62e76"
+    path: "authors/vsec/6ad67d7d4b6d53e8802ecefa/original/VSEC_CTF.exe"
+    title: "VSEC's VSEC Challenger Num #4"
+
 by_sha256:
   6bd1a18428b2a2439368f6b152b9dcb18863ddc97870f8e83988ce5ef39e5242:
     id: 6acace8cca34abba98f8305a
@@ -28,3 +33,7 @@ by_sha256:
     id: 6adecaa45fa39ab0d4ac1e70
     path: "authors/vsec/6adecaa45fa39ab0d4ac1e70/original/Pafet_Challenge.exe"
     page: https://crackmes.one/crackme/6adecaa45fa39ab0d4ac1e70
+  82561ebb9a5bcd29820fb9fc9baf3576878d080365375b138835697c99a62e76:
+    id: 6ad67d7d4b6d53e8802ecefa
+    path: "authors/vsec/6ad67d7d4b6d53e8802ecefa/original/VSEC_CTF.exe"
+    page: https://crackmes.one/crackme/6ad67d7d4b6d53e8802ecefa

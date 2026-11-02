@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6ad67d7d4b6d53e8802ecefa
+
+urls:
+  page: https://crackmes.one/crackme/6ad67d7d4b6d53e8802ecefa
+  download: https://crackmes.one/download/crackme/6ad67d7d4b6d53e8802ecefa
+
+title: "VSEC's VSEC Challenger Num #4"
+author_on_site: "VSEC"
+author_local: "vsec"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/VSEC_CTF.exe"
+  name: "VSEC_CTF.exe"
+  sha256: "82561ebb9a5bcd29820fb9fc9baf3576878d080365375b138835697c99a62e76"
+  md5: "91bb9a3652821e90a9356b5be760a50d"
+  size_bytes: 3854848
+
+status: pending
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-10-27T19:49:12Z"
