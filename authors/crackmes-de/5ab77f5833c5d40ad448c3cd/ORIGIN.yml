@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3cd
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3cd
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3cd
+
+title: "crackmes.de's trevils_keyegnme_2 by trevil"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/keygenme2.zip"
+  name: "keygenme2.zip"
+  sha256: "aa5b8751c8a6255010d97296c45cf447e96936921ec74cdae7b3c48bdbc732d8"
+  md5: "95586e9e5f3455ef7c884ceab9a15b6d"
+  size_bytes: 3203
+
+status: solved
+solution_summary: "keygen : serial 64 hex = TEA modifie (cle Flying.....Horse, delta=champ B, sum0=champ A, 32 tours) du nom pad \\0 ; petik + A=1234567890 + B=2654435769 -> b6b173a62ae886a4d63b851efb4237a5 puis 3x d63b851efb4237a5 ; verifie Wine/xvfb"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-03T00:41:40Z"
