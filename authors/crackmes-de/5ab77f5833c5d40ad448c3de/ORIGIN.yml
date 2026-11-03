@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3de
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3de
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3de
+
+title: "crackmes.de's m477hi45s_first_crackme_asm by m477hi45"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme1_1.zip"
+  name: "crackme1_1.zip"
+  sha256: "59dcc3888cd44feb3c65427d4fd1062173cb14db16e39d4e7b1d451a38d62719"
+  md5: "0258d30adc7b065f96cbe14f124863cb"
+  size_bytes: 746
+
+status: solved
+solution_summary: "COM DOS 16 bits, 4 touches comparées à des constantes (cl compté == 0x34) : serial 2a69"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-03T12:46:51Z"

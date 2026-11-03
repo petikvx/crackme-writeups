@@ -2281,6 +2281,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3dd/original/keygenmy.zip"
     title: "crackmes.de's keygenmev1_seasy by pxor"
 
+  5ab77f5833c5d40ad448c3de:
+    sha256: "59dcc3888cd44feb3c65427d4fd1062173cb14db16e39d4e7b1d451a38d62719"
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3de/original/crackme1_1.zip"
+    title: "crackmes.de's m477hi45s_first_crackme_asm by m477hi45"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -4110,3 +4115,7 @@ by_sha256:
     id: 5ab77f5833c5d40ad448c3dd
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3dd/original/keygenmy.zip"
     page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3dd
+  59dcc3888cd44feb3c65427d4fd1062173cb14db16e39d4e7b1d451a38d62719:
+    id: 5ab77f5833c5d40ad448c3de
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3de/original/crackme1_1.zip"
+    page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3de
