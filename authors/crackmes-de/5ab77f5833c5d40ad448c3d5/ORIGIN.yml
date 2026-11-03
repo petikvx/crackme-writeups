@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3d5
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3d5
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3d5
+
+title: "crackmes.de's keygenme3_by_bikers80 by bikers80"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Keygen3_by_Bikers80.zip"
+  name: "Keygen3_by_Bikers80.zip"
+  sha256: "1c296bc2af24d438d5650a8a47f39e94e078c7599aa19b844c88f3daad1ea9df"
+  md5: "53dfdab889d384604780c0edbe4fdae6"
+  size_bytes: 36831
+
+status: solved
+solution_summary: "VB.NET : 2 serials dépendant de l'heure HHMM ; petik@GROK 05:07 (en-US) → 35823337087 / 744050707 ; tools/keygen3-solve.py"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-03T05:42:59Z"

@@ -2246,6 +2246,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3d4/original/KeygenMe.zip"
     title: "crackmes.de's kygenme by bikers80"
 
+  5ab77f5833c5d40ad448c3d5:
+    sha256: "1c296bc2af24d438d5650a8a47f39e94e078c7599aa19b844c88f3daad1ea9df"
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3d5/original/Keygen3_by_Bikers80.zip"
+    title: "crackmes.de's keygenme3_by_bikers80 by bikers80"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -4047,3 +4052,7 @@ by_sha256:
     id: 5ab77f5833c5d40ad448c3d4
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3d4/original/KeygenMe.zip"
     page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3d4
+  1c296bc2af24d438d5650a8a47f39e94e078c7599aa19b844c88f3daad1ea9df:
+    id: 5ab77f5833c5d40ad448c3d5
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3d5/original/Keygen3_by_Bikers80.zip"
+    page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3d5
