@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3ea
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3ea
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3ea
+
+title: "crackmes.de's crackme1 by tossic_shamrock"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows PE32 GUI"
+arch: "x86"
+language: "Delphi 6"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/tossics_crackme1.zip"
+  name: "tossics_crackme1.zip"
+  sha256: "d80f0ae5d2e5f05c60733fd667c7cba74981d49c14f0830059fe2ce8c6ac0f8d"
+  md5: "3f085e9dfb44a29889603342a6af60d6"
+  size_bytes: 229582
+
+status: solved
+solution_summary: "keygen name→serial (nom >= 4) : LL2TF- + chr(((name[i]^i)+(i|3))&0xFF) en majuscules + -ALFIGH ; petik→LL2TF-TJZTU-ALFIGH"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-03T21:48:10Z"
