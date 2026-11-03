@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3e2
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3e2
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3e2
+
+title: "crackmes.de's keygenme3 by starzboy"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "C++ (MinGW)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Keygenme#3.zip"
+  name: "Keygenme#3.zip"
+  sha256: "cbc1718a802720e9a24f18cdaa3b1c1a8bc65622e296a2f276ee7917547e8a19"
+  md5: "7d254dc99e3e168b3d824d35fea45165"
+  size_bytes: 130948
+
+status: solved
+solution_summary: "keygen : password = A(name) ; identity = A + (rand()%41=17) ; secret = B(last company char)·A·ID + A + ID + A + 2 ; petik/petik → -1949721347 / -1949721364 / 675145339"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-03T14:42:38Z"
