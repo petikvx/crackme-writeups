@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3d7
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3d7
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3d7
+
+title: "crackmes.de's new_keygenme_by_bikers80 by bikers80"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "VB.NET"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/NewKeygenME.zip"
+  name: "NewKeygenME.zip"
+  sha256: "07589e1a4cbc2dc29976e0e6fb4423afcdffc42b2d3e8777f41ff70a3859725f"
+  md5: "e4841b1c2f32be4c5b787fd5b662e171"
+  size_bytes: 285703
+
+status: solved
+solution_summary: "keygen : serial = 6*f(Environ(UserName)) + round(f(NAME.upper())/3), f = Chr(Asc+i), reverse, hex, retire A-F, 10 premiers ; petik (user Windows petik)→4408852210 via tools/new-keygenme-solve.py"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-03T07:49:06Z"
