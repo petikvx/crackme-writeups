@@ -2231,6 +2231,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3ce/original/KeyWizard_1_Ready.zip"
     title: "crackmes.de's keywizard_1 by disasmdisease"
 
+  5ab77f5833c5d40ad448c3cf:
+    sha256: "5c2bd52e4ef84444f3f672fa06c6299442f6bd814734806b972cfd01bfb54235"
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3cf/original/KeyWizard_2.zip"
+    title: "crackmes.de's keywizard_2 by disasmdisease"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -4020,3 +4025,7 @@ by_sha256:
     id: 5ab77f5833c5d40ad448c3ce
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3ce/original/KeyWizard_1_Ready.zip"
     page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3ce
+  5c2bd52e4ef84444f3f672fa06c6299442f6bd814734806b972cfd01bfb54235:
+    id: 5ab77f5833c5d40ad448c3cf
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3cf/original/KeyWizard_2.zip"
+    page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3cf
