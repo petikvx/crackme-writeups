@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3db
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3db
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3db
+
+title: "crackmes.de's keygenme_v2 by pxor"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/keygenme_v2.zip"
+  name: "keygenme_v2.zip"
+  sha256: "ac58f11dcdcfc2b9d00dfe6049b82e0597a35c1c00a8697b059b0201997563d0"
+  md5: "472eb41302afd58fd95bf2f4a4441fda"
+  size_bytes: 3550
+
+status: solved
+solution_summary: "keygen : serial de 79 car. = 12 car. fixes (xlat S4, trois étapes OR/XOR/ADD) + '-' + 66 hex (33 octets : 32 octets → R par paires S2, octet 33 = somme(R) mod 256, R→mélange xor→paires S3 = 8 premiers octets du hash du nom) ; petik→Kocham Gosie-6BC7309EF9…3B39A via tools/kgme2-solve.py"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-03T09:48:43Z"
