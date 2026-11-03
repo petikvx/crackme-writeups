@@ -2276,6 +2276,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3dc/original/serialme.zip"
     title: "crackmes.de's serialiseme_seasy by pxor"
 
+  5ab77f5833c5d40ad448c3dd:
+    sha256: "8ec56e94ab88f0cae3237bd8e0f637c9ac6d5116e22767061364d0ed9df2a2b6"
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3dd/original/keygenmy.zip"
+    title: "crackmes.de's keygenmev1_seasy by pxor"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -4101,3 +4106,7 @@ by_sha256:
     id: 5ab77f5833c5d40ad448c3dc
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3dc/original/serialme.zip"
     page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3dc
+  8ec56e94ab88f0cae3237bd8e0f637c9ac6d5116e22767061364d0ed9df2a2b6:
+    id: 5ab77f5833c5d40ad448c3dd
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3dd/original/keygenmy.zip"
+    page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3dd

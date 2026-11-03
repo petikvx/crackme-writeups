@@ -1,0 +1,36 @@
+### petik 00001002-DFBB71CC
+name readback=[petik] r=1
+serial readback=[00001002-DFBB71CC]
+--- apres clic Check ---
+WIN class=#32770 title=[Good job young crax0r :P]
+   child id=1088 text=[]
+   child id=1 text=[OK]
+   child id=65535 text=[Good job keygen this bitch and send me sources+tutorial :D (pxor@go2.pl)]
+WIN class=#32770 title=[Keygenmev1 by d9a]
+   child id=1002 text=[Check]
+### petik 00001001-450D4FE4
+name readback=[petik] r=1
+serial readback=[00001001-450D4FE4]
+--- apres clic Check ---
+WIN class=#32770 title=[Keygenmev1 by d9a]
+   child id=1002 text=[Check]
+### Bob 00001000-ED7D974D
+name readback=[Bob] r=1
+serial readback=[00001000-ED7D974D]
+--- apres clic Check ---
+WIN class=#32770 title=[Good job young crax0r :P]
+   child id=1088 text=[]
+   child id=1 text=[OK]
+   child id=65535 text=[Good job keygen this bitch and send me sources+tutorial :D (pxor@go2.pl)]
+WIN class=#32770 title=[Keygenmev1 by d9a]
+   child id=1002 text=[Check]
+### LongNameLongNameLongNameLongNa 00001002-C7CD2F57
+name readback=[LongNameLongNameLongNameLongNa] r=1
+serial readback=[00001002-C7CD2F57]
+--- apres clic Check ---
+WIN class=#32770 title=[Good job young crax0r :P]
+   child id=1088 text=[]
+   child id=1 text=[OK]
+   child id=65535 text=[Good job keygen this bitch and send me sources+tutorial :D (pxor@go2.pl)]
+WIN class=#32770 title=[Keygenmev1 by d9a]
+   child id=1002 text=[Check]

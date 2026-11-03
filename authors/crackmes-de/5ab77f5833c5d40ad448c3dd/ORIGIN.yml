@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3dd
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3dd
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3dd
+
+title: "crackmes.de's keygenmev1_seasy by pxor"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "asm (Win32)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/keygenmy.zip"
+  name: "keygenmy.zip"
+  sha256: "8ec56e94ab88f0cae3237bd8e0f637c9ac6d5116e22767061364d0ed9df2a2b6"
+  md5: "15f382a1137c23dccf3da3ff1a1ec557"
+  size_bytes: 1998
+
+status: solved
+solution_summary: "keygen name→serial AAAAAAAA-BBBBBBBB (hex maj.) : round(1.22²·B − 0.4883·A) == hash32(nom répété sur 32 o) ; ex. petik→00001002-DFBB71CC (vérifié sous Wine)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-03T11:49:15Z"
