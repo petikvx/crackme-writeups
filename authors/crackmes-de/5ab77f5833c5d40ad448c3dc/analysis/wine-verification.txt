@@ -1,0 +1,38 @@
+### 000000001000000220000000A0000000
+--- apres injection ---
+WIN class=#32770 title=[Good Job :-)]
+   child id=1088 text=[]
+   child id=1 text=[OK]
+   child id=65535 text=[U found 1 of xxx valid serials send it to me with some explanation :-P at pxor@go2.pl]
+WIN class=Wine IME title=[]
+WIN class=#32770 title=[SerialMe v1 by d9a]
+   child id=1000 text=[]
+   child id=0 text=[Serial:]
+   child id=1001 text=[About]
+   child id=1002 text=[Exit]
+   child id=1003 text=[Status: CRACKED]
+WIN class=IME title=[Default IME]
+### 0997968E10000002272124F0AF684AAF
+--- apres injection ---
+WIN class=#32770 title=[Good Job :-)]
+   child id=1088 text=[]
+   child id=1 text=[OK]
+   child id=65535 text=[U found 1 of xxx valid serials send it to me with some explanation :-P at pxor@go2.pl]
+WIN class=Wine IME title=[]
+WIN class=#32770 title=[SerialMe v1 by d9a]
+   child id=1000 text=[]
+   child id=0 text=[Serial:]
+   child id=1001 text=[About]
+   child id=1002 text=[Exit]
+   child id=1003 text=[Status: CRACKED]
+WIN class=IME title=[Default IME]
+### 00000000100000022000000050000000
+--- apres injection ---
+WIN class=Wine IME title=[]
+WIN class=#32770 title=[SerialMe v1 by d9a]
+   child id=1000 text=[]
+   child id=0 text=[Serial:]
+   child id=1001 text=[About]
+   child id=1002 text=[Exit]
+   child id=1003 text=[Status: UNCRACKED]
+WIN class=IME title=[Default IME]

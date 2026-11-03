@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3dc
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3dc
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3dc
+
+title: "crackmes.de's serialiseme_seasy by pxor"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/serialme.zip"
+  name: "serialme.zip"
+  sha256: "56e28a3a5bccfaaaabfee1345cb3df78094d1dfda7cf47dc1f4567a3b248868b"
+  md5: "3832e9e2b2763d292993a66424518f17"
+  size_bytes: 2059
+
+status: solved
+solution_summary: "serial hex 32 maj. = mini-VM de 4 instructions (opcode=nibble haut) ; E==5678 et F==1234 ; ex. 000000001000000220000000A0000000 (keygen --random possible, vérifié sous Wine)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-03T10:45:52Z"
