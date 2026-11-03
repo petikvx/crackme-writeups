@@ -2301,6 +2301,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3e3/original/De-KryptZo[1nd2].zip"
     title: "crackmes.de's de_kryptzo_12 by starzboy"
 
+  5ab77f5833c5d40ad448c3e4:
+    sha256: "4aea9a4a3d8008fceba3fa0cdf615c0e1c49bdb8b9925ba14e3992d1302760bb"
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3e4/original/app.zip"
+    title: "crackmes.de's bitwise_fun by reductor"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -4146,3 +4151,7 @@ by_sha256:
     id: 5ab77f5833c5d40ad448c3e3
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3e3/original/De-KryptZo[1nd2].zip"
     page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3e3
+  4aea9a4a3d8008fceba3fa0cdf615c0e1c49bdb8b9925ba14e3992d1302760bb:
+    id: 5ab77f5833c5d40ad448c3e4
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3e4/original/app.zip"
+    page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3e4

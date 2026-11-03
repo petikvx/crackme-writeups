@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3e4
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3e4
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3e4
+
+title: "crackmes.de's bitwise_fun by reductor"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/app.zip"
+  name: "app.zip"
+  sha256: "4aea9a4a3d8008fceba3fa0cdf615c0e1c49bdb8b9925ba14e3992d1302760bb"
+  md5: "b85ba97ca1cae6c9537bc4fc350257d5"
+  size_bytes: 12857
+
+status: solved
+solution_summary: "keygen : serial décimal, f(serial)==sum(nom+'\\n') ; petik→459 ; vérifié sous Wine via tools/bitwise-fun-solve.py"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-03T16:45:35Z"
