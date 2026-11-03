@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3d8
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3d8
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3d8
+
+title: "crackmes.de's bikers80keygenme2 by bikers80"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Keygenme2.zip"
+  name: "Keygenme2.zip"
+  sha256: "423de382da46707f3581645d49d3e4e6fd8e3d2ebaa11846c540513176131cb1"
+  md5: "657de95e9b462c42e9a55daada201ee9"
+  size_bytes: 96383
+
+status: solved
+solution_summary: "keygen : serial = Mid(decode(hex(reverse(%COMPUTERNAME%)) + hex(name)), 5, 15), decode = +3 par caractère ; petik@PETIK-PC→5G7E7<877883:39 via tools/keygenme2-solve.py"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-03T08:46:44Z"
