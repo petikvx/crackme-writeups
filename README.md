@@ -147,7 +147,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [oguzbey](authors/oguzbey/README.md) | oguzbey | 1 (Lucky Numbers) | 1 / 1 |
 | [andrewl](authors/andrewl/README.md) | andrewl | 1 (Quick Crypto) | 1 / 1 |
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
-| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 438 / 438 |
+| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 439 / 439 |
 | [chaltu](authors/chaltu/README.md) | chaltu | 3 (a Treasure + Double Door + Accsess me please) | 3 / 3 |
 | [qerr0r](authors/qerr0r/README.md) | QERR0R | 2 (crackit + CrackIt;)) | 2 / 2 |
 | [steve_maxwell](authors/steve_maxwell/README.md) | steve_maxwell | 1 (X-0-R) | 1 / 1 |
@@ -371,6 +371,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-03 | [kygenme (KeygenMe.exe) by bikers80](authors/crackmes-de/5ab77f5833c5d40ad448c3d4/) | crackmes.de / bikers80 |
 | 2026-11-03 | [second_keygenme (FixedSecondKeyGenMe.exe) by dmichael](authors/crackmes-de/5ab77f5833c5d40ad448c3d0/) | crackmes.de / dmichael |
 | 2026-11-03 | [keywizard_2 (KeyWizard 2.exe) by disasmdisease](authors/crackmes-de/5ab77f5833c5d40ad448c3cf/) | crackmes.de / disasmdisease |
 | 2026-11-03 | [keywizard_1 (KeyWizard 1.exe) by disasmdisease](authors/crackmes-de/5ab77f5833c5d40ad448c3ce/) | crackmes.de / disasmdisease |

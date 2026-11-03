@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3d4
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3d4
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3d4
+
+title: "crackmes.de's kygenme by bikers80"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "VB.NET"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/KeygenMe.zip"
+  name: "KeygenMe.zip"
+  sha256: "30cb9b86433344e8b1407212fcc7784135a96761f1fa67a6a4dbc8d21be9948c"
+  md5: "8abc5a72452c5fad34d39864cef250ed"
+  size_bytes: 220596
+
+status: solved
+solution_summary: "VB.NET : 4 champs = f(name, %ComputerName%) ; petik@PC → 5043 / 96475607B6 / 7465743434 / 401356 (champ4 = len*68+401016)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-03T04:43:02Z"

@@ -2241,6 +2241,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3d0/original/FixedSecondKeyGenMe.zip"
     title: "crackmes.de's second_keygenme by dmichael"
 
+  5ab77f5833c5d40ad448c3d4:
+    sha256: "30cb9b86433344e8b1407212fcc7784135a96761f1fa67a6a4dbc8d21be9948c"
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3d4/original/KeygenMe.zip"
+    title: "crackmes.de's kygenme by bikers80"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -4038,3 +4043,7 @@ by_sha256:
     id: 5ab77f5833c5d40ad448c3d0
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3d0/original/FixedSecondKeyGenMe.zip"
     page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3d0
+  30cb9b86433344e8b1407212fcc7784135a96761f1fa67a6a4dbc8d21be9948c:
+    id: 5ab77f5833c5d40ad448c3d4
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3d4/original/KeygenMe.zip"
+    page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3d4
