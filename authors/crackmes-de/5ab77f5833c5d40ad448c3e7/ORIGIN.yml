@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3e7
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3e7
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3e7
+
+title: "crackmes.de's utw_keygenme_v3 by rootsec"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/UTW_KGMv3.zip"
+  name: "UTW_KGMv3.zip"
+  sha256: "6122ffe1249faeb9292a30d146ca2a32ac07662937deece10bc39c5bd6cb47dc"
+  md5: "d82a043ed6c69f1e42194afdbbe100fd"
+  size_bytes: 10390
+
+status: solved
+solution_summary: "VB6 natif packé FSG 2.0 ; keygen name→serial : str(len+2·c²)+str(len·2000), c=Asc(1er car.) ; petik→2509310000 ; comparaison après hash 32 hex (MD5-like, injectif) des deux côtés ; vérifié Wine/xvfb"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-03T19:45:22Z"
