@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3d6
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3d6
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3d6
+
+title: "crackmes.de's keygenme_by_bikers80 by bikers80"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/KeygenMe.zip"
+  name: "KeygenMe.zip"
+  sha256: "8ef9e52ab10791b7692ebe75d2c09f0955d663c06a6427f9058858bf7b93115a"
+  md5: "139067a0890296e9813b1a698ac9a50a"
+  size_bytes: 303188
+
+status: solved
+solution_summary: "VB.NET : serial XXXX-XXXX-XXXX-XXXX = g1,g3 de esp1 (hex name + hex Environment.Version + checksum) et g2,g4 de SHA256(UTF-16LE(esp1)) ; petik (CLR 4.0.30319.1 / wine-mono) → 3423-JZIQ-8027-AF58 ; tools/keygenme-bikers80-solve.py"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-03T06:46:05Z"
