@@ -147,7 +147,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [oguzbey](authors/oguzbey/README.md) | oguzbey | 1 (Lucky Numbers) | 1 / 1 |
 | [andrewl](authors/andrewl/README.md) | andrewl | 1 (Quick Crypto) | 1 / 1 |
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
-| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 449 / 449 |
+| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 450 / 450 |
 | [chaltu](authors/chaltu/README.md) | chaltu | 3 (a Treasure + Double Door + Accsess me please) | 3 / 3 |
 | [qerr0r](authors/qerr0r/README.md) | QERR0R | 2 (crackit + CrackIt;)) | 2 / 2 |
 | [steve_maxwell](authors/steve_maxwell/README.md) | steve_maxwell | 1 (X-0-R) | 1 / 1 |
@@ -371,6 +371,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-03 | [de_kryptzo_12 (De-KryptZo 1 & 2) by starzboy](authors/crackmes-de/5ab77f5833c5d40ad448c3e3/) | crackmes.de / starzboy |
 | 2026-11-03 | [keygenme3 (KeygenMe #3.exe) by starzboy](authors/crackmes-de/5ab77f5833c5d40ad448c3e2/) | crackmes.de / starzboy |
 | 2026-11-03 | [keygen_me_2 (Keygenme # 2.exe) by starzboy](authors/crackmes-de/5ab77f5833c5d40ad448c3e0/) | crackmes.de / starzboy |
 | 2026-11-03 | [first_crackme_asm (crackme1.exe) by m477hi45](authors/crackmes-de/5ab77f5833c5d40ad448c3de/) | crackmes.de / m477hi45 |

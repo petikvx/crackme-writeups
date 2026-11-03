@@ -1,0 +1,14 @@
+De-KryptZo - 1
+
+No PATCHING
+NO BRUTE FORCING
+
+FIND SERIAL(S)
+WRITE TUT
+
+Unless you Enter a Valid Serial ... the Decryption will be wrong and the 
+app will crash !
+On entering a Correct Serial ... you will get a goodboy message !
+
+starzboy / iCU
+starzboy@gmail.com

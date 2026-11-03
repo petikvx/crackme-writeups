@@ -2296,6 +2296,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3e2/original/Keygenme#3.zip"
     title: "crackmes.de's keygenme3 by starzboy"
 
+  5ab77f5833c5d40ad448c3e3:
+    sha256: "cb3b74e560659398bfd180623e352f4c702c40cc17534c7653d196c5ac085443"
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3e3/original/De-KryptZo[1nd2].zip"
+    title: "crackmes.de's de_kryptzo_12 by starzboy"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -4137,3 +4142,7 @@ by_sha256:
     id: 5ab77f5833c5d40ad448c3e2
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3e2/original/Keygenme#3.zip"
     page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3e2
+  cb3b74e560659398bfd180623e352f4c702c40cc17534c7653d196c5ac085443:
+    id: 5ab77f5833c5d40ad448c3e3
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3e3/original/De-KryptZo[1nd2].zip"
+    page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3e3
