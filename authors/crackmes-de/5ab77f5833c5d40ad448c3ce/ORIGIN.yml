@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3ce
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3ce
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3ce
+
+title: "crackmes.de's keywizard_1 by disasmdisease"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "VB.NET"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/KeyWizard_1_Ready.zip"
+  name: "KeyWizard_1_Ready.zip"
+  sha256: "d74858ddfe357cbaccf2c06878302e9ee9fe51534a3adfdc99420238aa2d0396"
+  md5: "3efa37756f299919c97441316d91a968"
+  size_bytes: 28287
+
+status: solved
+solution_summary: "keygen : nom >= 6 car. ; serial = 8 derniers car. de la chaîne transformée (Chr(n)->Chr(n-19), table N..Z) ; petik1->WEFHANN1"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-03T01:42:19Z"
