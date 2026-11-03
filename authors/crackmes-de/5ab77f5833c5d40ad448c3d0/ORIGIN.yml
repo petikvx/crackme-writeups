@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3d0
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3d0
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3d0
+
+title: "crackmes.de's second_keygenme by dmichael"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/FixedSecondKeyGenMe.zip"
+  name: "FixedSecondKeyGenMe.zip"
+  sha256: "301b7e9c78e3bea82ecaf54dabff97e62acbe6508ae6fb34510fa4f7ccd2c3e4"
+  md5: "364cf17dd0d1311f27beddb311126e80"
+  size_bytes: 84047
+
+status: solved
+solution_summary: "keygen : serial[i] = (name[i] ^ 0x19) + 1 pour i < len-1 (dernier char non verifie) ; petik->j}nqs"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-03T03:45:30Z"

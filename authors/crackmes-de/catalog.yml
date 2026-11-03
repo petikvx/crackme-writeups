@@ -2236,6 +2236,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3cf/original/KeyWizard_2.zip"
     title: "crackmes.de's keywizard_2 by disasmdisease"
 
+  5ab77f5833c5d40ad448c3d0:
+    sha256: "301b7e9c78e3bea82ecaf54dabff97e62acbe6508ae6fb34510fa4f7ccd2c3e4"
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3d0/original/FixedSecondKeyGenMe.zip"
+    title: "crackmes.de's second_keygenme by dmichael"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -4029,3 +4034,7 @@ by_sha256:
     id: 5ab77f5833c5d40ad448c3cf
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3cf/original/KeyWizard_2.zip"
     page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3cf
+  301b7e9c78e3bea82ecaf54dabff97e62acbe6508ae6fb34510fa4f7ccd2c3e4:
+    id: 5ab77f5833c5d40ad448c3d0
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3d0/original/FixedSecondKeyGenMe.zip"
+    page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3d0
