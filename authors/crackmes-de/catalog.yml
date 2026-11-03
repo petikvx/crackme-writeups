@@ -2316,6 +2316,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3e7/original/UTW_KGMv3.zip"
     title: "crackmes.de's utw_keygenme_v3 by rootsec"
 
+  5ab77f5833c5d40ad448c3e8:
+    sha256: "23fdd50659f41b20c732d47a5b3b7f1be388b832ee649c9e16a0e1bc5a4a5584"
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3e8/original/UTW_KeyGenMe.zip"
+    title: "crackmes.de's utw_keygenme by rootsec"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -4173,3 +4178,7 @@ by_sha256:
     id: 5ab77f5833c5d40ad448c3e7
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3e7/original/UTW_KGMv3.zip"
     page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3e7
+  23fdd50659f41b20c732d47a5b3b7f1be388b832ee649c9e16a0e1bc5a4a5584:
+    id: 5ab77f5833c5d40ad448c3e8
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3e8/original/UTW_KeyGenMe.zip"
+    page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3e8
