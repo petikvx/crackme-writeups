@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3e5
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3e5
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3e5
+
+title: "crackmes.de's utw_crackme by rootsec"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/UTW_Crackme_v2.zip"
+  name: "UTW_Crackme_v2.zip"
+  sha256: "c7dbfd0bd065c6e85812b08a9d2cbdaa6cd2c989b412b773f27047fe01e5eb9b"
+  md5: "e75b61c1e65d9492e31a20047eef34e4"
+  size_bytes: 5525
+
+status: solved
+solution_summary: "VB6 natif packé FSG 2.0 ; user fixe `UTW`, key fixe `U85T84W87` (chaînes rebâties via codes ASCII + __vbaVarCat, comparées par __vbaVarTstEq) ; vérifié Wine/xvfb"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-03T17:48:46Z"
