@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3f6
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3f6
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3f6
+
+title: "crackmes.de's cm2 by lagalopex"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Unix/linux etc."
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/cm2.zip"
+  name: "cm2.zip"
+  sha256: "049961141f3de0cdd447f93a5d08a22d34f0146d1318cd4ccfa82540b71e2734"
+  md5: "b03f36f3dafe891a06f3f9d7ce57814f"
+  size_bytes: 2558
+
+status: solved
+solution_summary: "keygen ELF32 : ./cm2 name A B ; A=2691050739 (donne la clé XOR 0x1679afcc qui déchiffre le bloc 0x8048688) ; B=~P avec checksum du nom (1024 itérations mod 251) ; petik→A=2691050739 B=184513939 ; vérifié natif via tools/cm2-solve.py --check"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-04T04:40:10Z"

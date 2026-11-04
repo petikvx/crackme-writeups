@@ -2341,6 +2341,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3f0/original/CrackMe.zip"
     title: "crackmes.de's crackme_didnt_think_about_a_name by grzzlwmpf"
 
+  5ab77f5833c5d40ad448c3f6:
+    sha256: "049961141f3de0cdd447f93a5d08a22d34f0146d1318cd4ccfa82540b71e2734"
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3f6/original/cm2.zip"
+    title: "crackmes.de's cm2 by lagalopex"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -4218,3 +4223,7 @@ by_sha256:
     id: 5ab77f5833c5d40ad448c3f0
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3f0/original/CrackMe.zip"
     page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3f0
+  049961141f3de0cdd447f93a5d08a22d34f0146d1318cd4ccfa82540b71e2734:
+    id: 5ab77f5833c5d40ad448c3f6
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3f6/original/cm2.zip"
+    page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3f6
