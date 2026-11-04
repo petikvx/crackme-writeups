@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c403
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c403
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c403
+
+title: "crackmes.de's pemem by deroko"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme.zip"
+  name: "crackme.zip"
+  sha256: "abe329b2d18068bc6fa316b73e859915868824a96e7416a3f9bb038b2833ec75"
+  md5: "52b48220d1506227452092c0c7f32ca2"
+  size_bytes: 18183
+
+status: solved
+solution_summary: "Keygen name->serial XXXXXXXX-XXXXXXXX-XXXXXXXX (petik -> 72734927-77E42AE5-66ED9530) : stub aPLib + PE interne chiffré (xor rolling 0xdeadc0de) ; md5(name) octets 0,3,4,8,9,10 -> table 0x40216d, somme des 3 termes xor hex(serial) (rol 7 / ror 9) = 0 ; tools/pemem-solve.py --check (Wine+xdotool)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-04T10:46:29Z"

@@ -2371,6 +2371,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c402/original/crackme.zip"
     title: "crackmes.de's derokos_crackme_2 by deroko"
 
+  5ab77f5833c5d40ad448c403:
+    sha256: "abe329b2d18068bc6fa316b73e859915868824a96e7416a3f9bb038b2833ec75"
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c403/original/crackme.zip"
+    title: "crackmes.de's pemem by deroko"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -4272,3 +4277,7 @@ by_sha256:
     id: 5ab77f5833c5d40ad448c402
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c402/original/crackme.zip"
     page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c402
+  abe329b2d18068bc6fa316b73e859915868824a96e7416a3f9bb038b2833ec75:
+    id: 5ab77f5833c5d40ad448c403
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c403/original/crackme.zip"
+    page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c403
