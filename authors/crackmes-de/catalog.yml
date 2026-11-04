@@ -2346,6 +2346,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3f6/original/cm2.zip"
     title: "crackmes.de's cm2 by lagalopex"
 
+  5ab77f5833c5d40ad448c3f8:
+    sha256: "7e5814f1a47b4985fa4a6548b61f785fe1970caa84e7e77ffb2fe2299a063dcb"
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3f8/original/Harry_Potter_Crackme.zip"
+    title: "crackmes.de's harry_potter_crackme by shalamandra"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -4227,3 +4232,7 @@ by_sha256:
     id: 5ab77f5833c5d40ad448c3f6
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3f6/original/cm2.zip"
     page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3f6
+  7e5814f1a47b4985fa4a6548b61f785fe1970caa84e7e77ffb2fe2299a063dcb:
+    id: 5ab77f5833c5d40ad448c3f8
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3f8/original/Harry_Potter_Crackme.zip"
+    page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3f8
