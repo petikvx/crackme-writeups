@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3ec
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3ec
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3ec
+
+title: "crackmes.de's vbcrackme_2 by main"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: "VB6 (natif)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/VBCrackme2.by.main.zip"
+  name: "VBCrackme2.by.main.zip"
+  sha256: "1c8838138a1cbdb6394d7f97d4d277813634462826bb0c9dc92d35c6ea1906af"
+  md5: "008130c85a715d9a3d5f22fc835a7cc9"
+  size_bytes: 4782
+
+status: solved
+solution_summary: "Password d'unlock = argument de ligne de commande (Command$) = Phase1 (chiffré chr(0x36,0xAF,0x27,0x47,0x9A,0xCE) XOR 66 C7 46 34 FF FF écrit par WriteProcessMemory en 0x40246f) ; puis serial 'just some password' dans la textbox + Check. Pas de champ user."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-04T01:42:11Z"
