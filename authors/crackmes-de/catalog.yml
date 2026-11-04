@@ -2356,6 +2356,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3fd/original/lightning2.zip"
     title: "crackmes.de's crackme_2 by lightning"
 
+  5ab77f5833c5d40ad448c3fe:
+    sha256: "7204856331d4871a344736ccd90f004084e0c512ac9aff7fb4a86876a908e4cc"
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3fe/original/lightning21.zip"
+    title: "crackmes.de's crackme_2.1 by lightning"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -4245,3 +4250,7 @@ by_sha256:
     id: 5ab77f5833c5d40ad448c3fd
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3fd/original/lightning2.zip"
     page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3fd
+  7204856331d4871a344736ccd90f004084e0c512ac9aff7fb4a86876a908e4cc:
+    id: 5ab77f5833c5d40ad448c3fe
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3fe/original/lightning21.zip"
+    page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3fe

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3fe
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3fe
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3fe
+
+title: "crackmes.de's crackme_2.1 by lightning"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/lightning21.zip"
+  name: "lightning21.zip"
+  sha256: "7204856331d4871a344736ccd90f004084e0c512ac9aff7fb4a86876a908e4cc"
+  md5: "ab6bc55907f863e8cfcdfeb02825cd87"
+  size_bytes: 11640
+
+status: solved
+solution_summary: "Keyfile `key` de 0x100 octets : name\\0 + S2 (2*len(name) octets, name[i]=((rol(S2[i],c)^ror(S2[i+p],c))+c)&255, c=p-i) + \\0 ; dernier octet 0x90 (nop sur le ret en 0x401261) ; petik -> petik\\0@!#*!l7C?P ; solveur tools/lightning21-solve.py ; vérifié Wine (Registered)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-04T07:50:26Z"

@@ -1,0 +1,6 @@
+Lightning's Crackme #2.1
+
+This is a revised version of my 2nd crackme. You must create a key generator for this one
+of course. Patching the exe as the solution is not allowed. Have fun.
+
+-Lightning (Lightning@Lightspeed.cx)
