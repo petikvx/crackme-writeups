@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3ef
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3ef
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3ef
+
+title: "crackmes.de's antidbg_crackme1 by scriptkiddy"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Crackme#1.zip"
+  name: "Crackme#1.zip"
+  sha256: "a0c3bf5a93f7fcfa8b94522678d205cf4bce486220afa51d9962fa1f0b064e30"
+  md5: "b7b8e45dc5e7372ddba58cd926d9013d"
+  size_bytes: 13808
+
+status: solved
+solution_summary: "keygen: username 10 car. dans 1-5, serial[i]=chr(ord(user[i])+1) ; petik→3221332213/4332443324 (anti-debug: OutputDebugString %s, self-debug, FindWindow OLLYDBG)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-04T02:41:28Z"

@@ -2331,6 +2331,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3ec/original/VBCrackme2.by.main.zip"
     title: "crackmes.de's vbcrackme_2 by main"
 
+  5ab77f5833c5d40ad448c3ef:
+    sha256: "a0c3bf5a93f7fcfa8b94522678d205cf4bce486220afa51d9962fa1f0b064e30"
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3ef/original/Crackme#1.zip"
+    title: "crackmes.de's antidbg_crackme1 by scriptkiddy"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -4200,3 +4205,7 @@ by_sha256:
     id: 5ab77f5833c5d40ad448c3ec
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c3ec/original/VBCrackme2.by.main.zip"
     page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3ec
+  a0c3bf5a93f7fcfa8b94522678d205cf4bce486220afa51d9962fa1f0b064e30:
+    id: 5ab77f5833c5d40ad448c3ef
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c3ef/original/Crackme#1.zip"
+    page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3ef

@@ -147,7 +147,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [oguzbey](authors/oguzbey/README.md) | oguzbey | 1 (Lucky Numbers) | 1 / 1 |
 | [andrewl](authors/andrewl/README.md) | andrewl | 1 (Quick Crypto) | 1 / 1 |
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
-| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 456 / 456 |
+| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 457 / 457 |
 | [chaltu](authors/chaltu/README.md) | chaltu | 3 (a Treasure + Double Door + Accsess me please) | 3 / 3 |
 | [qerr0r](authors/qerr0r/README.md) | QERR0R | 2 (crackit + CrackIt;)) | 2 / 2 |
 | [steve_maxwell](authors/steve_maxwell/README.md) | steve_maxwell | 1 (X-0-R) | 1 / 1 |
@@ -371,6 +371,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-04 | [antidbg_crackme1 (Crackme#1.exe) by scriptkiddy](authors/crackmes-de/5ab77f5833c5d40ad448c3ef/) | crackmes.de / scriptkiddy |
 | 2026-11-04 | [vbcrackme_2 (VBCrackme2.exe) by main](authors/crackmes-de/5ab77f5833c5d40ad448c3ec/) | crackmes.de / main |
 | 2026-11-03 | [crackme1 (Crackme1.exe) by tossic_shamrock](authors/crackmes-de/5ab77f5833c5d40ad448c3ea/) | crackmes.de / tossic_shamrock |
 | 2026-11-03 | [utw_keygenme (UTW KeyGenMe.exe) by rootsec](authors/crackmes-de/5ab77f5833c5d40ad448c3e8/) | crackmes.de / rootsec |
