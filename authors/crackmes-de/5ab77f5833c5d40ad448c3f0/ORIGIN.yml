@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3f0
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3f0
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3f0
+
+title: "crackmes.de's crackme_didnt_think_about_a_name by grzzlwmpf"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ".NET (C#)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/CrackMe.zip"
+  name: "CrackMe.zip"
+  sha256: "8520b945384e942600a40979348859b319dccc46b67f33e660eddd1d7a2c092b"
+  md5: "a4564f17848a0640346cd20f426505c7"
+  size_bytes: 33825
+
+status: solved
+solution_summary: "keygen: serial=Base64(AES-256-CBC(UTF-16LE(name))), key/IV=PasswordDeriveBytes(name,\"Ivan Medvedev\") (SHA1 x100, IV = b0[8:16]||b2[:8] bug .NET) ; petik→WEGcZUQrn9fMXYkv+GElMw== ; backdoor Grzzlwmpf/backdoor"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-04T03:46:58Z"
