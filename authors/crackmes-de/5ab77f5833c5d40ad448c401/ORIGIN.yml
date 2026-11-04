@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c401
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c401
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c401
+
+title: "crackmes.de's derokos_crackme_1 by deroko"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme.zip"
+  name: "crackme.zip"
+  sha256: "119f51d149ceac98cbe49a0c9a944a1070fe539137a0d8e8dd738fab20021355"
+  md5: "b8fa63290bc5ea75ce48911e9fdf3a59"
+  size_bytes: 28052
+
+status: solved
+solution_summary: "Clé = mot de passe du RAR crackme_src.rar : BrAiN_BuStEr_bY_dErOkO (0x50 octets en 0xe00 déchiffrés par ((b-0xaa) rol 4)^0xde, code stage1 exécuté sur la pile) ; solveur tools/derokos-solve.py --check (en-têtes RAR chiffrés ouverts par 7z)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-04T08:48:31Z"

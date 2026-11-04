@@ -147,7 +147,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [oguzbey](authors/oguzbey/README.md) | oguzbey | 1 (Lucky Numbers) | 1 / 1 |
 | [andrewl](authors/andrewl/README.md) | andrewl | 1 (Quick Crypto) | 1 / 1 |
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
-| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 462 / 462 |
+| [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 463 / 463 |
 | [chaltu](authors/chaltu/README.md) | chaltu | 3 (a Treasure + Double Door + Accsess me please) | 3 / 3 |
 | [qerr0r](authors/qerr0r/README.md) | QERR0R | 2 (crackit + CrackIt;)) | 2 / 2 |
 | [steve_maxwell](authors/steve_maxwell/README.md) | steve_maxwell | 1 (X-0-R) | 1 / 1 |
@@ -371,6 +371,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-04 | [derokos_crackme_1 (crackme.zip) by deroko](authors/crackmes-de/5ab77f5833c5d40ad448c401/) | crackmes.de / deroko |
 | 2026-11-04 | [crackme_2.1 (lightning21.zip) by lightning](authors/crackmes-de/5ab77f5833c5d40ad448c3fe/) | crackmes.de / lightning |
 | 2026-11-04 | [crackme_2 (lightning2.zip) by lightning](authors/crackmes-de/5ab77f5833c5d40ad448c3fd/) | crackmes.de / lightning |
 | 2026-11-04 | [harry_potter_crackme (Harry Potter Crackme.exe) by shalamandra](authors/crackmes-de/5ab77f5833c5d40ad448c3f8/) | crackmes.de / shalamandra |
