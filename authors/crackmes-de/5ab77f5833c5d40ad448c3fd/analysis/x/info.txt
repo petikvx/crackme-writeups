@@ -1,0 +1,11 @@
+Lightning's Crackme #2
+
+This is my second crackme. I aimed this one to be very simple. It is a keyfile but there is
+not that much to it. The objective is simple. Create an app that can create a keyfile.
+Patching the EXE as the solution is not accepted. You will know when the keyfile is valid
+when the window says it is registered.
+
+Nothing is hiding the code, no protections of any kind, nothing is keeping you from cracking
+it but yourself. Email me with a good tutorial on it when ya crack it.
+
+-Lightning (Lightning@Lightspeed.cx)
