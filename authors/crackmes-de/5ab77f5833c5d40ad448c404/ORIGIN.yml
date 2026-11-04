@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c404
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c404
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c404
+
+title: "crackmes.de's x64_unpackme by deroko"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/unpackme.zip"
+  name: "unpackme.zip"
+  sha256: "7b291683bec61ffb9604c5ad298806960e4afbe25a96e47c08a1260dda1fe576"
+  md5: "3d0dc99d0b708e2537f7b24fd4df7beb"
+  size_bytes: 22563
+
+status: solved
+solution_summary: "Unpackme x64 : stub résout ntdll/kernel32 par hash (rol7/xor), RtlDecompressBuffer(LZNT1|MAX) de RVA 0xf301 (0x6307 o) vers RVA 0x1000 (0xe000 o), fix imports (dir 0x8a18), jmp OEP 0x11dc ; tools/unpackme-solve.py reproduit hors-ligne, binaire dépacké testé sous Wine"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-04T11:48:55Z"

@@ -2376,6 +2376,11 @@ by_id:
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c403/original/crackme.zip"
     title: "crackmes.de's pemem by deroko"
 
+  5ab77f5833c5d40ad448c404:
+    sha256: "7b291683bec61ffb9604c5ad298806960e4afbe25a96e47c08a1260dda1fe576"
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c404/original/unpackme.zip"
+    title: "crackmes.de's x64_unpackme by deroko"
+
 by_sha256:
   11de5e840d01cee6b27d31193dc1c752e0dc2b4e9b301448045d6db014abf938:
     id: 5ab77f6533c5d40ad448cb74
@@ -4281,3 +4286,7 @@ by_sha256:
     id: 5ab77f5833c5d40ad448c403
     path: "authors/crackmes-de/5ab77f5833c5d40ad448c403/original/crackme.zip"
     page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c403
+  7b291683bec61ffb9604c5ad298806960e4afbe25a96e47c08a1260dda1fe576:
+    id: 5ab77f5833c5d40ad448c404
+    path: "authors/crackmes-de/5ab77f5833c5d40ad448c404/original/unpackme.zip"
+    page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c404
