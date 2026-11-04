@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5ab77f5833c5d40ad448c3f8
+
+urls:
+  page: https://crackmes.one/crackme/5ab77f5833c5d40ad448c3f8
+  download: https://crackmes.one/download/crackme/5ab77f5833c5d40ad448c3f8
+
+title: "crackmes.de's harry_potter_crackme by shalamandra"
+author_on_site: "crackmes.de"
+author_local: "crackmes-de"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Harry_Potter_Crackme.zip"
+  name: "Harry_Potter_Crackme.zip"
+  sha256: "7e5814f1a47b4985fa4a6548b61f785fe1970caa84e7e77ffb2fe2299a063dcb"
+  md5: "ff50e55c0538b89fef58d1f4fc245855"
+  size_bytes: 131101
+
+status: solved
+solution_summary: "Nom = permutation inverse de 'I am Lord Voldemort' : 'tom marVoLo rIddle ' (espace final) ; solveur tools/harry-potter-solve.py ; vérifié Wine"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-04T05:42:30Z"
