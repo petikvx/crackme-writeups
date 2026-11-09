@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6aba3db8ca34abba98f82dd0
+
+urls:
+  page: https://crackmes.one/crackme/6aba3db8ca34abba98f82dd0
+  download: https://crackmes.one/download/crackme/6aba3db8ca34abba98f82dd0
+
+title: "kamil123's Needle in a Haystack"
+author_on_site: "kamil123"
+author_local: "kamil123"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme.exe"
+  name: "crackme.exe"
+  sha256: "f77967154004b56b21c3ddd5bba59d570d81d7a8049c18774824daf99d556435"
+  md5: "b3f617e15e4929c0ff4b5ef0757d51e3"
+  size_bytes: 45568
+
+status: solved
+solution_summary: "password kafkaesque_99 : la seule chaîne de la table de 41 leurres dont le hash maison == ebx attendu (rol 13)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-09T19:12:00Z"

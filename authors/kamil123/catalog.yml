@@ -10,6 +10,11 @@ by_id:
     path: "authors/kamil123/6acec96e6349e4b2540c712b/original/boxvm.exe"
     title: "kamil123's BoxVM"
 
+  6aba3db8ca34abba98f82dd0:
+    sha256: "f77967154004b56b21c3ddd5bba59d570d81d7a8049c18774824daf99d556435"
+    path: "authors/kamil123/6aba3db8ca34abba98f82dd0/original/crackme.exe"
+    title: "kamil123's Needle in a Haystack"
+
 by_sha256:
   bd758259be76d9fa3eddde7ae4cd56f417d076fc84496090e3dfe701fd68aaef:
     id: 6abd98190885f990699dc084
@@ -19,3 +24,7 @@ by_sha256:
     id: 6acec96e6349e4b2540c712b
     path: "authors/kamil123/6acec96e6349e4b2540c712b/original/boxvm.exe"
     page: https://crackmes.one/crackme/6acec96e6349e4b2540c712b
+  f77967154004b56b21c3ddd5bba59d570d81d7a8049c18774824daf99d556435:
+    id: 6aba3db8ca34abba98f82dd0
+    path: "authors/kamil123/6aba3db8ca34abba98f82dd0/original/crackme.exe"
+    page: https://crackmes.one/crackme/6aba3db8ca34abba98f82dd0

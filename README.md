@@ -321,7 +321,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [werrec](authors/werrec/README.md) | werrec | 1 (Retro OEM License Check) | 1 / 1 |
 | [pietrogamer](authors/pietrogamer/README.md) | pietrogamer | 1 (Embrace RSA) | 1 / 1 |
 | [nake](authors/nake/README.md) | nake | 1 (SP network cipher) | 1 / 1 |
-| [kamil123](authors/kamil123/README.md) | kamil123 | 1 (Mini LLM Sentinel) | 1 / 1 |
+| [kamil123](authors/kamil123/README.md) | kamil123 | 2 (Mini LLM Sentinel, Needle in a Haystack) | 2 / 2 |
 | [joejoejoe](authors/joejoejoe/README.md) | JoeJoeJoe | 1 (thefirsttest) | 1 / 1 |
 | [vmlinuz719](authors/vmlinuz719/README.md) | vmlinuz719 | 1 (Product Activation) | 1 / 1 |
 | [pwned.cpp](authors/pwned.cpp/README.md) | Pwned.cpp | 1 (ImGUI-CrackME) | 1 / 1 |
@@ -373,6 +373,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-09 | [Needle in a Haystack](authors/kamil123/6aba3db8ca34abba98f82dd0/) | kamil123 |
 | 2026-11-09 | [Embrace RSA](authors/pietrogamer/6ab95f87cdee6e086a1734a9/) | pietrogamer |
 | 2026-11-09 | [Retro OEM License Check](authors/werrec/6aafdc79dbb3353b75396911/) | werrec |
 | 2026-11-09 | [ZSecure](authors/mas/6aa5ccb13b246e477b6c0c12/) | MAS |
