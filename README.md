@@ -305,7 +305,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [fon37](authors/fon37/README.md) | fon37 | 2 (Secret Menu + King of Asgard) | 2 / 2 |
 | [memetic0](authors/memetic0/README.md) | memetic0 | 2 (Tropical, Lattice) | 2 / 2 |
 | [vetementsvmnts](authors/vetementsvmnts/README.md) | vetementsvmnts | 5 | 5 / 5 |
-| [acheylate](authors/acheylate/README.md) | acheylate | 4 (Find password L+W, State Machine, Beat The Game) | 4 / 4 |
+| [acheylate](authors/acheylate/README.md) | acheylate | 5 (Find password L+W, State Machine, Beat The Game, Patch It Cli Game) | 5 / 5 |
 | [keep](authors/keep/README.md) | Keep | 2 (sygil gui + console) | 2 / 2 |
 | [mas](authors/mas/README.md) | MAS | 3 (zW0rM + Type Punning + ZSecure) | 3 / 3 |
 | [glitch_baby](authors/glitch_baby/README.md) | Glitch_Baby | 1 (Wheredakey) | 1 / 1 |
@@ -376,6 +376,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-09 | [acheylate's Patch It, Cli Game](authors/acheylate/6aeca2894ab951a9999da415/) | acheylate |
 | 2026-11-09 | [crazy_bg's Keygen Me!](authors/crazy_bg/6ae1fecd2c7537120cbe8617/) | crazy_bg |
 | 2026-11-09 | [kretrod's my first password crackme](authors/kretrod/6ae119d5c0ad374eab0813b6/) | kretrod |
 | 2026-11-09 | [Easiest_my_first](authors/fenata/6ac7d71aace07d1c3fbc49e8/) | fenata |

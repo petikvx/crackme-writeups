@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6aeca2894ab951a9999da415
+
+urls:
+  page: https://crackmes.one/crackme/6aeca2894ab951a9999da415
+  download: https://crackmes.one/download/crackme/6aeca2894ab951a9999da415
+
+title: "acheylate's Patch It, Cli Game"
+author_on_site: "acheylate"
+author_local: "acheylate"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/guessnumber"
+  name: "guessnumber"
+  sha256: "3ad5605c536d95bfb45fb1d4a075de870a2df65fe4891d524815680b90eeb9fd"
+  md5: "f91f990faa72d8c2e6533e86030a5e4e"
+  size_bytes: 366360
+
+status: solved
+solution_summary: "Secret 1..1000 aléatoire (3 essais) stocké dans la frame de main (rsp+0xac au read(0)) ; tools/guessnumber-solve.py le lit sous gdb et le rejoue → victoire 1er coup."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-09T21:42:17Z"
