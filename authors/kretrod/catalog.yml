@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6ae119d5c0ad374eab0813b6:
+    sha256: "6c398bd350d9c69f59483b0af423a595f9369fcf17355d9eb2d157bced5b6de5"
+    path: "authors/kretrod/6ae119d5c0ad374eab0813b6/original/my-first-crackme.exe"
+    title: "kretrod's my first password crackme"
+
+by_sha256:
+  6c398bd350d9c69f59483b0af423a595f9369fcf17355d9eb2d157bced5b6de5:
+    id: 6ae119d5c0ad374eab0813b6
+    path: "authors/kretrod/6ae119d5c0ad374eab0813b6/original/my-first-crackme.exe"
+    page: https://crackmes.one/crackme/6ae119d5c0ad374eab0813b6

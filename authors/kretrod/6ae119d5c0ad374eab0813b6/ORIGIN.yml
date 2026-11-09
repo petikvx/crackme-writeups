@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6ae119d5c0ad374eab0813b6
+
+urls:
+  page: https://crackmes.one/crackme/6ae119d5c0ad374eab0813b6
+  download: https://crackmes.one/download/crackme/6ae119d5c0ad374eab0813b6
+
+title: "kretrod's my first password crackme"
+author_on_site: "kretrod"
+author_local: "kretrod"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/my-first-crackme.exe"
+  name: "my-first-crackme.exe"
+  sha256: "6c398bd350d9c69f59483b0af423a595f9369fcf17355d9eb2d157bced5b6de5"
+  md5: "d46dd311ba3e9d0bc1dd0f0f7c43f68c"
+  size_bytes: 6656
+
+status: solved
+solution_summary: "password en clair SECRET-PASSWORD_2026 (len 20 + repz cmpsb), pas de user"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-09T20:09:47Z"
