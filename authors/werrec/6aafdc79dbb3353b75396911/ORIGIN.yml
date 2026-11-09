@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6aafdc79dbb3353b75396911
+
+urls:
+  page: https://crackmes.one/crackme/6aafdc79dbb3353b75396911
+  download: https://crackmes.one/download/crackme/6aafdc79dbb3353b75396911
+
+title: "werrec's Retro OEM License Check"
+author_on_site: "werrec"
+author_local: "werrec"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme_02.exe"
+  name: "crackme_02.exe"
+  sha256: "010619f204753bffc0734cfee115cde94b795ec8bee8c04d3b128ddfef7e21c9"
+  md5: "f6b59373a40cc0cef08e9930599b308b"
+  size_bytes: 25088
+
+status: solved
+solution_summary: "Serial AAAAA-OEM-DDDDDDD-BBBBB : XOR(A)=0x5a, somme(D)%7==0, B[i]=enc((val(A[i])+7)%36) ; ex. 0000Z-OEM-1234560-77776 (FLAG{OEM_KEYS_NEVER_DIE}) ; FLAG0-OEM-1337133-HAHA1 = leurre"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-09T17:41:37Z"
