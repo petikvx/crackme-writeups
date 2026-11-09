@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6ac7d71aace07d1c3fbc49e8:
+    sha256: "d38d81044fa32fe91d1aa9574dffb891199497d60df8c7d5c9eb078a09fda70f"
+    path: "authors/fenata/6ac7d71aace07d1c3fbc49e8/original/myfirst.exe"
+    title: "fenata's Easiest_my_first"
+
+by_sha256:
+  d38d81044fa32fe91d1aa9574dffb891199497d60df8c7d5c9eb078a09fda70f:
+    id: 6ac7d71aace07d1c3fbc49e8
+    path: "authors/fenata/6ac7d71aace07d1c3fbc49e8/original/myfirst.exe"
+    page: https://crackmes.one/crackme/6ac7d71aace07d1c3fbc49e8

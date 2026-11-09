@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6ac7d71aace07d1c3fbc49e8
+
+urls:
+  page: https://crackmes.one/crackme/6ac7d71aace07d1c3fbc49e8
+  download: https://crackmes.one/download/crackme/6ac7d71aace07d1c3fbc49e8
+
+title: "fenata's Easiest_my_first"
+author_on_site: "fenata"
+author_local: "fenata"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/myfirst.exe"
+  name: "myfirst.exe"
+  sha256: "d38d81044fa32fe91d1aa9574dffb891199497d60df8c7d5c9eb078a09fda70f"
+  md5: "c51468e3280723406a51d41be50ce6d2"
+  size_bytes: 90624
+
+status: solved
+solution_summary: "password fixe `123456` (strcpy dans un buffer VirtualAlloc puis strcmp avec cin) ; pas de user (petik non applicable)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-09T19:44:27Z"
