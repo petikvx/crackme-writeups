@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6ab95f87cdee6e086a1734a9:
+    sha256: "533a005c5e5ee54ecf6603cbecfdff0caf6136ad701b4e93a2dcaf6d16d39b0e"
+    path: "authors/pietrogamer/6ab95f87cdee6e086a1734a9/original/crackme.jar"
+    title: "pietrogamer's Embrace RSA"
+
+by_sha256:
+  533a005c5e5ee54ecf6603cbecfdff0caf6136ad701b4e93a2dcaf6d16d39b0e:
+    id: 6ab95f87cdee6e086a1734a9
+    path: "authors/pietrogamer/6ab95f87cdee6e086a1734a9/original/crackme.jar"
+    page: https://crackmes.one/crackme/6ab95f87cdee6e086a1734a9

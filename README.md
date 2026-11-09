@@ -319,6 +319,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [confining0367](authors/confining0367/README.md) | confining0367 | 1 (Key) | 1 / 1 |
 | [rodrigoteixeira](authors/rodrigoteixeira/README.md) | RodrigoTeixeira | 1 (Loggin) | 1 / 1 |
 | [werrec](authors/werrec/README.md) | werrec | 1 (Retro OEM License Check) | 1 / 1 |
+| [pietrogamer](authors/pietrogamer/README.md) | pietrogamer | 1 (Embrace RSA) | 1 / 1 |
 | [nake](authors/nake/README.md) | nake | 1 (SP network cipher) | 1 / 1 |
 | [kamil123](authors/kamil123/README.md) | kamil123 | 1 (Mini LLM Sentinel) | 1 / 1 |
 | [joejoejoe](authors/joejoejoe/README.md) | JoeJoeJoe | 1 (thefirsttest) | 1 / 1 |
@@ -372,6 +373,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-09 | [Embrace RSA](authors/pietrogamer/6ab95f87cdee6e086a1734a9/) | pietrogamer |
 | 2026-11-09 | [Retro OEM License Check](authors/werrec/6aafdc79dbb3353b75396911/) | werrec |
 | 2026-11-09 | [ZSecure](authors/mas/6aa5ccb13b246e477b6c0c12/) | MAS |
 | 2026-11-04 | [x64_unpackme (unpackme.zip) by deroko](authors/crackmes-de/5ab77f5833c5d40ad448c404/) | crackmes.de / deroko |

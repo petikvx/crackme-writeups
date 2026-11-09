@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6aafdc79dbb3353b75396911:
+    sha256: "010619f204753bffc0734cfee115cde94b795ec8bee8c04d3b128ddfef7e21c9"
+    path: "authors/werrec/6aafdc79dbb3353b75396911/original/crackme_02.exe"
+    title: "werrec's Retro OEM License Check"
+
+by_sha256:
+  010619f204753bffc0734cfee115cde94b795ec8bee8c04d3b128ddfef7e21c9:
+    id: 6aafdc79dbb3353b75396911
+    path: "authors/werrec/6aafdc79dbb3353b75396911/original/crackme_02.exe"
+    page: https://crackmes.one/crackme/6aafdc79dbb3353b75396911

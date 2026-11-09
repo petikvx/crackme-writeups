@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6ab95f87cdee6e086a1734a9
+
+urls:
+  page: https://crackmes.one/crackme/6ab95f87cdee6e086a1734a9
+  download: https://crackmes.one/download/crackme/6ab95f87cdee6e086a1734a9
+
+title: "pietrogamer's Embrace RSA"
+author_on_site: "pietrogamer"
+author_local: "pietrogamer"
+
+platform: "Multiplatform"
+arch: "JVM"
+language: "Java"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme.jar"
+  name: "crackme.jar"
+  sha256: "533a005c5e5ee54ecf6603cbecfdff0caf6136ad701b4e93a2dcaf6d16d39b0e"
+  md5: "49a6453959973cf8eae9a909dde9c882"
+  size_bytes: 127797
+
+status: solved
+solution_summary: "RSA-2048 : BigInteger(serial,16)^65537 mod N == SHA256(name). d (privee) cachee apres IEND de Embrace.png (!ITISNOTAKEY!) -> serial = SHA256(name)^d mod N en hex ; petik->a95e8ed3...1ebe26 (tools/embrace-rsa-solve.py)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-09T18:41:29Z"
