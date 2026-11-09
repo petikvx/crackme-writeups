@@ -10,6 +10,11 @@ by_id:
     path: "authors/mas/69926c19f752dd83da8782b0/original/challenge"
     title: "MAS's Type Punning"
 
+  6aa5ccb13b246e477b6c0c12:
+    sha256: "612914f0cb8a5ff9d46dedea0633bc30e089329b696c27aa3724a8972e86dffb"
+    path: "authors/mas/6aa5ccb13b246e477b6c0c12/original/ZSecure.exe"
+    title: "MAS's ZSecure"
+
 by_sha256:
   975ea2949fb15747394c0bc88fd214d3054aa3cb46bfeff59e5ed18d1f7fe2e2:
     id: 6aa8483c48cda5a2aaa3ddc1
@@ -19,3 +24,7 @@ by_sha256:
     id: 69926c19f752dd83da8782b0
     path: "authors/mas/69926c19f752dd83da8782b0/original/challenge"
     page: https://crackmes.one/crackme/69926c19f752dd83da8782b0
+  612914f0cb8a5ff9d46dedea0633bc30e089329b696c27aa3724a8972e86dffb:
+    id: 6aa5ccb13b246e477b6c0c12
+    path: "authors/mas/6aa5ccb13b246e477b6c0c12/original/ZSecure.exe"
+    page: https://crackmes.one/crackme/6aa5ccb13b246e477b6c0c12

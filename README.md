@@ -307,7 +307,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [vetementsvmnts](authors/vetementsvmnts/README.md) | vetementsvmnts | 5 | 5 / 5 |
 | [acheylate](authors/acheylate/README.md) | acheylate | 4 (Find password L+W, State Machine, Beat The Game) | 4 / 4 |
 | [keep](authors/keep/README.md) | Keep | 2 (sygil gui + console) | 2 / 2 |
-| [mas](authors/mas/README.md) | MAS | 2 (zW0rM + Type Punning) | 2 / 2 |
+| [mas](authors/mas/README.md) | MAS | 3 (zW0rM + Type Punning + ZSecure) | 3 / 3 |
 | [glitch_baby](authors/glitch_baby/README.md) | Glitch_Baby | 1 (Wheredakey) | 1 / 1 |
 | [lypd0](authors/lypd0/README.md) | lypd0 | 1 (Lantern01) | 1 / 1 |
 | [whyyourapedme](authors/whyyourapedme/README.md) | whyyourapedme | 1 (study get PASSWORD) | 1 / 1 |
@@ -371,6 +371,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-09 | [ZSecure](authors/mas/6aa5ccb13b246e477b6c0c12/) | MAS |
 | 2026-11-04 | [x64_unpackme (unpackme.zip) by deroko](authors/crackmes-de/5ab77f5833c5d40ad448c404/) | crackmes.de / deroko |
 | 2026-11-04 | [pemem (crackme.zip) by deroko](authors/crackmes-de/5ab77f5833c5d40ad448c403/) | crackmes.de / deroko |
 | 2026-11-04 | [derokos_crackme_2 (crackme.zip) by deroko](authors/crackmes-de/5ab77f5833c5d40ad448c402/) | crackmes.de / deroko |

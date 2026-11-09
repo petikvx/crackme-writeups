@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6aa5ccb13b246e477b6c0c12
+
+urls:
+  page: https://crackmes.one/crackme/6aa5ccb13b246e477b6c0c12
+  download: https://crackmes.one/download/crackme/6aa5ccb13b246e477b6c0c12
+
+title: "MAS's ZSecure"
+author_on_site: "MAS"
+author_local: "mas"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C# (.NET Framework 4, WinForms)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/ZSecure.exe"
+  name: "ZSecure.exe"
+  sha256: "612914f0cb8a5ff9d46dedea0633bc30e089329b696c27aa3724a8972e86dffb"
+  md5: "56bfb5f0c20b66703db860a59b290e7a"
+  size_bytes: 58880
+
+status: solved
+solution_summary: "Boot key K7P-2XM-9Q4-T8V (inversion char par char de ValidateBootKey) ; puis jeu : mail oday@zsecure.zplus + 'burger', PC1 oday/Aa123456, VPN 10.10.55.21:4444 ROT13, PC2 mohamad/Aa123456, overflow win_addr+marker SHA-256 ; FLAG Z+{1tS_JU5t_SImulation}"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-09T16:40:06Z"
