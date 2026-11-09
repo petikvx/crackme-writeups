@@ -310,6 +310,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [mas](authors/mas/README.md) | MAS | 3 (zW0rM + Type Punning + ZSecure) | 3 / 3 |
 | [glitch_baby](authors/glitch_baby/README.md) | Glitch_Baby | 1 (Wheredakey) | 1 / 1 |
 | [lypd0](authors/lypd0/README.md) | lypd0 | 1 (Lantern01) | 1 / 1 |
+| [micky23310](authors/micky23310/README.md) | micky23310 | 1 (HiddenFlag) | 1 / 1 |
 | [whyyourapedme](authors/whyyourapedme/README.md) | whyyourapedme | 1 (study get PASSWORD) | 1 / 1 |
 | [michaelsrtsrt](authors/michaelsrtsrt/README.md) | michaelsrtsrt | 1 (AHardcodedKeyGoneWrong) | 1 / 1 |
 | [prestdayzero](authors/prestdayzero/README.md) | prestdayzero | 1 (Bobs gambling) | 1 / 1 |
@@ -376,6 +377,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-09 | [micky23310's HiddenFlag](authors/micky23310/6aeed49ec0ad374eab08168d/) | micky23310 |
 | 2026-11-09 | [acheylate's Patch It, Cli Game](authors/acheylate/6aeca2894ab951a9999da415/) | acheylate |
 | 2026-11-09 | [crazy_bg's Keygen Me!](authors/crazy_bg/6ae1fecd2c7537120cbe8617/) | crazy_bg |
 | 2026-11-09 | [kretrod's my first password crackme](authors/kretrod/6ae119d5c0ad374eab0813b6/) | kretrod |

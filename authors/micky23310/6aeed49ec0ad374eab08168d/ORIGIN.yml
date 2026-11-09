@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6aeed49ec0ad374eab08168d
+
+urls:
+  page: https://crackmes.one/crackme/6aeed49ec0ad374eab08168d
+  download: https://crackmes.one/download/crackme/6aeed49ec0ad374eab08168d
+
+title: "micky23310's HiddenFlag"
+author_on_site: "micky23310"
+author_local: "micky23310"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++ (MinGW-w64 GCC 16.2)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/HiddenFlag.exe"
+  name: "HiddenFlag.exe"
+  sha256: "9975b7834f0b08db4865f2cf62493697e142281bd2e0521d6f3330db9a553bae"
+  md5: "40099dfb3e21f98c39fbb3b0352b9ef0"
+  size_bytes: 1039872
+
+status: solved
+solution_summary: "Flag CMO{X64_X0R_1s_A_G00d_St4rt} : enc[i] = ((c^0x5a)+3*i)&0xff comparé à une table de 28 octets en .rdata (0x1400ce050) ; inversion directe."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-09T22:42:35Z"
