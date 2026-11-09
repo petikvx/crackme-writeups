@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6af10b5e5fa39ab0d4ac2280
+
+urls:
+  page: https://crackmes.one/crackme/6af10b5e5fa39ab0d4ac2280
+  download: https://crackmes.one/download/crackme/6af10b5e5fa39ab0d4ac2280
+
+title: "nx3n's Find a password"
+author_on_site: "nx3n"
+author_local: "nx3n"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/my_first_crackme.exe"
+  name: "my_first_crackme.exe"
+  sha256: "691c78409b69a11dbcc17a7dfe37e334de32e80a5b33551bc928998c959871a3"
+  md5: "45724c45c284de4099c1ffc83e7a8ac2"
+  size_bytes: 58063
+
+status: solved
+solution_summary: "Password en clair dans cmpr() (0x140002110) : ASOINdiu129021j90e12 ; le gros blob codebase() est un leurre"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-09T23:41:10Z"
