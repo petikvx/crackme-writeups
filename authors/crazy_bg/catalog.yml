@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6ae1fecd2c7537120cbe8617:
+    sha256: "9015f7971c711d7305653d98cd34f01bea471e47030798f3ce8f610ba2dd2244"
+    path: "authors/crazy_bg/6ae1fecd2c7537120cbe8617/original/Keygen.exe"
+    title: "crazy_bg's Keygen Me!"
+
+by_sha256:
+  9015f7971c711d7305653d98cd34f01bea471e47030798f3ce8f610ba2dd2244:
+    id: 6ae1fecd2c7537120cbe8617
+    path: "authors/crazy_bg/6ae1fecd2c7537120cbe8617/original/Keygen.exe"
+    page: https://crackmes.one/crackme/6ae1fecd2c7537120cbe8617

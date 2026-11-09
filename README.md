@@ -324,6 +324,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [kamil123](authors/kamil123/README.md) | kamil123 | 2 (Mini LLM Sentinel, Needle in a Haystack) | 2 / 2 |
 | [fenata](authors/fenata/README.md) | fenata | 1 (Easiest_my_first) | 1 / 1 |
 | [kretrod](authors/kretrod/README.md) | kretrod | 1 (kretrod's my first password crackme) | 1 / 1 |
+| [crazy_bg](authors/crazy_bg/README.md) | crazy_bg | 1 (crazy_bg's Keygen Me!) | 1 / 1 |
 | [joejoejoe](authors/joejoejoe/README.md) | JoeJoeJoe | 1 (thefirsttest) | 1 / 1 |
 | [vmlinuz719](authors/vmlinuz719/README.md) | vmlinuz719 | 1 (Product Activation) | 1 / 1 |
 | [pwned.cpp](authors/pwned.cpp/README.md) | Pwned.cpp | 1 (ImGUI-CrackME) | 1 / 1 |
@@ -375,6 +376,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-09 | [crazy_bg's Keygen Me!](authors/crazy_bg/6ae1fecd2c7537120cbe8617/) | crazy_bg |
 | 2026-11-09 | [kretrod's my first password crackme](authors/kretrod/6ae119d5c0ad374eab0813b6/) | kretrod |
 | 2026-11-09 | [Easiest_my_first](authors/fenata/6ac7d71aace07d1c3fbc49e8/) | fenata |
 | 2026-11-09 | [Needle in a Haystack](authors/kamil123/6aba3db8ca34abba98f82dd0/) | kamil123 |

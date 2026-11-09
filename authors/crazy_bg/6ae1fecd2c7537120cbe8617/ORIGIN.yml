@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6ae1fecd2c7537120cbe8617
+
+urls:
+  page: https://crackmes.one/crackme/6ae1fecd2c7537120cbe8617
+  download: https://crackmes.one/download/crackme/6ae1fecd2c7537120cbe8617
+
+title: "crazy_bg's Keygen Me!"
+author_on_site: "crazy_bg"
+author_local: "crazy_bg"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Keygen.exe"
+  name: "Keygen.exe"
+  sha256: "9015f7971c711d7305653d98cd34f01bea471e47030798f3ce8f610ba2dd2244"
+  md5: "ea6e05a5e55f91dc5c584d9ae8e5d0e4"
+  size_bytes: 2705446
+
+status: solved
+solution_summary: "Serial int lu via cin, dérivé de la variable d'env USER (sinon USERNAME) : s=sum(c+0x539) ; t=s*30 ; serial=((t-(t^0x37))<<3) signé 32 bits. petik→-376."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-09T20:44:22Z"
