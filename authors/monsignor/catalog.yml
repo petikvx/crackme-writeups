@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a2c80595f26f108ba18b8bd:
+    sha256: "65f4ac8c9c1408c099d47845451e83cc2b22eba54b7f5b92f00a4f1baf141741"
+    path: "authors/monsignor/6a2c80595f26f108ba18b8bd/original/download.bin"
+    title: "Monsignor's Monsignors Crackme"
+
+by_sha256:
+  65f4ac8c9c1408c099d47845451e83cc2b22eba54b7f5b92f00a4f1baf141741:
+    id: 6a2c80595f26f108ba18b8bd
+    path: "authors/monsignor/6a2c80595f26f108ba18b8bd/original/download.bin"
+    page: https://crackmes.one/crackme/6a2c80595f26f108ba18b8bd

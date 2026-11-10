@@ -134,6 +134,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [cyberpenguin](authors/cyberpenguin/README.md) | Cyberpenguin | 1 (What password???) | 1 / 1 |
 | [solitikburmaldatik](authors/solitikburmaldatik/README.md) | SolitikBurmaldatik | 1 (FirstCrackMe) | 1 / 1 |
 | [simbahdd](authors/simbahdd/README.md) | SimbaHDD | 3 (CRACKME + very easy crackme + first golang crackme) | 3 / 3 |
+| [monsignor](authors/monsignor/README.md) | Monsignor | 1 (Monsignor's Monsignors Crackme) | 1 / 1 |
 | [tdaron](authors/tdaron/README.md) | tdaron | 1 (Use your brain) | 1 / 1 |
 | [pipedown](authors/pipedown/README.md) | pipedown | 1 (I need to be honest) | 1 / 1 |
 | [jeffli6789](authors/jeffli6789/README.md) | jeffli6789 | 6 (wallpaper + x86 + Maze + Orbit Fold + Date of Birth) | 6 / 6 |
@@ -390,6 +391,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-10 | [Monsignor's Monsignors Crackme](authors/monsignor/6a2c80595f26f108ba18b8bd/) | Monsignor |
 | 2026-11-10 | [SolitikBurmaldatik's FirstCrackMe](authors/solitikburmaldatik/6a215f53ee3223161ea298c8/) | SolitikBurmaldatik |
 | 2026-11-10 | [SimbaHDD's first golang crackme](authors/simbahdd/6a1608d1d7ff92e1214c01f5/) | SimbaHDD |
 | 2026-11-10 | [SimbaHDD's very easy crackme](authors/simbahdd/6a1604d22b3df128c1df5cbc/) | SimbaHDD |

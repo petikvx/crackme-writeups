@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a2c80595f26f108ba18b8bd
+
+urls:
+  page: https://crackmes.one/crackme/6a2c80595f26f108ba18b8bd
+  download: https://crackmes.one/download/crackme/6a2c80595f26f108ba18b8bd
+
+title: "Monsignor's Monsignors Crackme"
+author_on_site: "Monsignor"
+author_local: "monsignor"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C (MinGW-w64)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "65f4ac8c9c1408c099d47845451e83cc2b22eba54b7f5b92f00a4f1baf141741"
+  md5: "ee3751bc13526c170682850103011858"
+  size_bytes: 171348
+
+status: solved
+solution_summary: "password `secret` : strcmp(scanf(\"%s\"), \"secret\") dans main (0x140001528) ; aucun user/petik. Binaire = download.bin est un ZIP (pwd crackmes.one) contenant hello.exe, extrait sous analysis/x/. Solveur tools/monsignor-solve.py --check (émulation Unicorn de main)."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-10T21:15:50Z"
