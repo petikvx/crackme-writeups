@@ -312,6 +312,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [lypd0](authors/lypd0/README.md) | lypd0 | 1 (Lantern01) | 1 / 1 |
 | [micky23310](authors/micky23310/README.md) | micky23310 | 1 (HiddenFlag) | 1 / 1 |
 | [nx3n](authors/nx3n/README.md) | nx3n | 1 (Find a password) | 1 / 1 |
+| [qpdudusydi](authors/qpdudusydi/README.md) | qpdudusydi | 1 (Rust Crackme Very Easy) | 1 / 1 |
 | [whyyourapedme](authors/whyyourapedme/README.md) | whyyourapedme | 1 (study get PASSWORD) | 1 / 1 |
 | [michaelsrtsrt](authors/michaelsrtsrt/README.md) | michaelsrtsrt | 1 (AHardcodedKeyGoneWrong) | 1 / 1 |
 | [prestdayzero](authors/prestdayzero/README.md) | prestdayzero | 1 (Bobs gambling) | 1 / 1 |
@@ -378,6 +379,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-10 | [qpdudusydi's Rust Crackme Very Easy](authors/qpdudusydi/6af1cc355fa39ab0d4ac22b6/) | qpdudusydi |
 | 2026-11-10 | [nx3n's Find a password](authors/nx3n/6af10b5e5fa39ab0d4ac2280/) | nx3n |
 | 2026-11-09 | [micky23310's HiddenFlag](authors/micky23310/6aeed49ec0ad374eab08168d/) | micky23310 |
 | 2026-11-09 | [acheylate's Patch It, Cli Game](authors/acheylate/6aeca2894ab951a9999da415/) | acheylate |

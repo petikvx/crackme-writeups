@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6af1cc355fa39ab0d4ac22b6
+
+urls:
+  page: https://crackmes.one/crackme/6af1cc355fa39ab0d4ac22b6
+  download: https://crackmes.one/download/crackme/6af1cc355fa39ab0d4ac22b6
+
+title: "qpdudusydi's Rust Crackme Very Easy"
+author_on_site: "qpdudusydi"
+author_local: "qpdudusydi"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/rustcrackme.exe"
+  name: "rustcrackme.exe"
+  sha256: "65ec9c8933d4fa03c18a67a533906733f7b571b4a5a529f03209eed5de9b7813"
+  md5: "17c3e4267293cf9e2f9048684dc95e9f"
+  size_bytes: 156160
+
+status: solved
+solution_summary: "Rust : lecture stdin, trim, comparaison memcmp avec la chaîne hardcodée Cr4ckme_Rus7 (.rdata 0x14001b9b6)."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-10T00:12:30Z"
