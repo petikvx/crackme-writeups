@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6af234285fa39ab0d4ac22dc:
+    sha256: "77d8c3aed6cf0b5832a6100d4bee58782a13f6c2c0be1b1e8305d9556e2b7847"
+    path: "authors/waze_r/6af234285fa39ab0d4ac22dc/original/the_gate.exe"
+    title: "Waze_r's rick_theroll_morty"
+
+by_sha256:
+  77d8c3aed6cf0b5832a6100d4bee58782a13f6c2c0be1b1e8305d9556e2b7847:
+    id: 6af234285fa39ab0d4ac22dc
+    path: "authors/waze_r/6af234285fa39ab0d4ac22dc/original/the_gate.exe"
+    page: https://crackmes.one/crackme/6af234285fa39ab0d4ac22dc

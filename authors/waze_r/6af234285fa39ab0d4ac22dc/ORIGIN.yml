@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6af234285fa39ab0d4ac22dc
+
+urls:
+  page: https://crackmes.one/crackme/6af234285fa39ab0d4ac22dc
+  download: https://crackmes.one/download/crackme/6af234285fa39ab0d4ac22dc
+
+title: "Waze_r's rick_theroll_morty"
+author_on_site: "Waze_r"
+author_local: "waze_r"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/the_gate.exe"
+  name: "the_gate.exe"
+  sha256: "77d8c3aed6cf0b5832a6100d4bee58782a13f6c2c0be1b1e8305d9556e2b7847"
+  md5: "946bc9fc90da0461d8e892ba8d633877"
+  size_bytes: 25088
+
+status: solved
+solution_summary: "Phrase `never gonna give you up` (trim + lowercase) → SHA-256 = clé AES-256-ECB ; déchiffre 48 octets, padding PKCS7, SHA-256(flag) comparé à une valeur en dur → CMO{n3v3r_g0nna_run_4round_4nd_desert_y0u}. La chaîne 'never gonna let you down' dans .raze est un leurre."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-10T00:42:35Z"
