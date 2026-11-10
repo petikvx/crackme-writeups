@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a6b5bdd59d4a7b04de30a28
+
+urls:
+  page: https://crackmes.one/crackme/6a6b5bdd59d4a7b04de30a28
+  download: https://crackmes.one/download/crackme/6a6b5bdd59d4a7b04de30a28
+
+title: "mintcocs's learning_vm"
+author_on_site: "mintcocs"
+author_local: "mintcocs"
+
+platform: "macOS Mach-O arm64 (ZIP -> vm), Objective-C"
+arch: "arm64"
+language: "Objective-C"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "8e4809f8abcae4a86b3e1c6e574bfb30a21a1474171ae813e114edf9f874fa75"
+  md5: "18ac6956390ff937be89dc896cb6dbb4"
+  size_bytes: 4794
+
+status: solved
+solution_summary: "Mini-VM : acc=rol8(acc^c,1) == table[i] sur 21 octets ; code @m@z1n9!_y0u_g07_7h15 (pas de user)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-10T06:12:37Z"
