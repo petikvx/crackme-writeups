@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a07d24a3fba64e45dceaaa7
+
+urls:
+  page: https://crackmes.one/crackme/6a07d24a3fba64e45dceaaa7
+  download: https://crackmes.one/download/crackme/6a07d24a3fba64e45dceaaa7
+
+title: "gustavsofa's password esasy"
+author_on_site: "gustavsofa"
+author_local: "gustavsofa"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "f6ce2139286440db79de31a914c83923353cc4491c6c57afa9212e6b39cb68af"
+  md5: "73f01a106ee0135c157ebec26f0f01fb"
+  size_bytes: 714739
+
+status: solved
+solution_summary: "Mot de passe littéral `1234` (comparé par std::string == const char* dans main) ; pas de login, donc pas de petik."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-10T19:12:30Z"

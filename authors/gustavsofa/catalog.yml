@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a07d24a3fba64e45dceaaa7:
+    sha256: "f6ce2139286440db79de31a914c83923353cc4491c6c57afa9212e6b39cb68af"
+    path: "authors/gustavsofa/6a07d24a3fba64e45dceaaa7/original/download.bin"
+    title: "gustavsofa's password esasy"
+
+by_sha256:
+  f6ce2139286440db79de31a914c83923353cc4491c6c57afa9212e6b39cb68af:
+    id: 6a07d24a3fba64e45dceaaa7
+    path: "authors/gustavsofa/6a07d24a3fba64e45dceaaa7/original/download.bin"
+    page: https://crackmes.one/crackme/6a07d24a3fba64e45dceaaa7
