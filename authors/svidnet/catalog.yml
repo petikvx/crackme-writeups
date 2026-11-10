@@ -5,8 +5,17 @@ by_id:
     path: "authors/svidnet/6963af82143c47935bdea9ab/original/ZEXORv1_wayland"
     title: "svidnet's ZEXOR"
 
+  6953d0c0d88d50bd6a9e7b63:
+    sha256: "cfd0a5161968c20990b31a076763d482c05133c4b8947b80209d3a8747d90258"
+    path: "authors/svidnet/6953d0c0d88d50bd6a9e7b63/original/download.bin"
+    title: "svidnet's ZEXOR"
+
 by_sha256:
   af3ee10e8a9c7c88892fbcd37c4a9549af25ed9eee265d5bd9950c7d699005c8:
     id: 6963af82143c47935bdea9ab
     path: "authors/svidnet/6963af82143c47935bdea9ab/original/ZEXORv1_wayland"
     page: https://crackmes.one/crackme/6963af82143c47935bdea9ab
+  cfd0a5161968c20990b31a076763d482c05133c4b8947b80209d3a8747d90258:
+    id: 6953d0c0d88d50bd6a9e7b63
+    path: "authors/svidnet/6953d0c0d88d50bd6a9e7b63/original/download.bin"
+    page: https://crackmes.one/crackme/6953d0c0d88d50bd6a9e7b63

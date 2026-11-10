@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6953d0c0d88d50bd6a9e7b63
+
+urls:
+  page: https://crackmes.one/crackme/6953d0c0d88d50bd6a9e7b63
+  download: https://crackmes.one/download/crackme/6953d0c0d88d50bd6a9e7b63
+
+title: "svidnet's ZEXOR"
+author_on_site: "svidnet"
+author_local: "svidnet"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++ (MinGW-w64)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "cfd0a5161968c20990b31a076763d482c05133c4b8947b80209d3a8747d90258"
+  md5: "b804758f7d9c5246de6cc2503abcf43c"
+  size_bytes: 45288
+
+status: solved
+solution_summary: "Licence statique AEXORRBSHA36325S33 : CheckLicense = strcmp(saisie, LICENO) avec LICENO -> .rdata+0 ; pas de nom utilisateur (petik non concerné)."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-10T22:16:37Z"

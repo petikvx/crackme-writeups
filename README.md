@@ -254,7 +254,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [asmboy](authors/asmboy/README.md) | ASMboy | 1 (segfault) | 1 / 1 |
 | [ezloom](authors/ezloom/README.md) | ezloom | 1 (really easy) | 1 / 1 |
 | [yanderemia](authors/yanderemia/README.md) | YandereMia | 2 | 2 / 2 |
-| [svidnet](authors/svidnet/README.md) | svidnet | 1 (ZEXOR-v1 (Linux)) | 1 / 1 |
+| [svidnet](authors/svidnet/README.md) | svidnet | 2 (ZEXOR-v1 (Linux), ZEXOR-01 (Windows)) | 2 / 2 |
 | [howosec](authors/howosec/README.md) | howosec | 1 (Password And Flag in C) | 1 / 1 |
 | [popacracker](authors/popacracker/README.md) | PopaCracker | 1 (Python CrackMe) | 1 / 1 |
 | [noname_user](authors/noname_user/README.md) | noname_User | 2 | 2 / 2 |
@@ -392,6 +392,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-10 | [svidnet's ZEXOR (Windows)](authors/svidnet/6953d0c0d88d50bd6a9e7b63/) | svidnet |
 | 2026-11-10 | [TihiyOmut's EZFTP_ByTOMUT](authors/tihiyomut/6a2d22756840520e01b21e3b/) | TihiyOmut |
 | 2026-11-10 | [Monsignor's Monsignors Crackme](authors/monsignor/6a2c80595f26f108ba18b8bd/) | Monsignor |
 | 2026-11-10 | [SolitikBurmaldatik's FirstCrackMe](authors/solitikburmaldatik/6a215f53ee3223161ea298c8/) | SolitikBurmaldatik |
