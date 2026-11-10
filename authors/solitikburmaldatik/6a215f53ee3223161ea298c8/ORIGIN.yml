@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a215f53ee3223161ea298c8
+
+urls:
+  page: https://crackmes.one/crackme/6a215f53ee3223161ea298c8
+  download: https://crackmes.one/download/crackme/6a215f53ee3223161ea298c8
+
+title: "SolitikBurmaldatik's FirstCrackMe"
+author_on_site: "SolitikBurmaldatik"
+author_local: "solitikburmaldatik"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C (MinGW-w64 GCC 15.2)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "24424af9ed45afce73a57ab3281a84dec607b6cd5830f2e1df5b45c1cf85bd91"
+  md5: "a00c0ccf0b116584bc3e812ce53f187a"
+  size_bytes: 41979
+
+status: solved
+solution_summary: "password `simba123` : strcmp en clair dans main (0x140001490) ; download.bin est un ZIP (mdp crackmes.one) contenant crackme.exe, PE32+ MinGW"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-10T20:40:40Z"

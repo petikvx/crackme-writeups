@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a215f53ee3223161ea298c8:
+    sha256: "24424af9ed45afce73a57ab3281a84dec607b6cd5830f2e1df5b45c1cf85bd91"
+    path: "authors/solitikburmaldatik/6a215f53ee3223161ea298c8/original/download.bin"
+    title: "SolitikBurmaldatik's FirstCrackMe"
+
+by_sha256:
+  24424af9ed45afce73a57ab3281a84dec607b6cd5830f2e1df5b45c1cf85bd91:
+    id: 6a215f53ee3223161ea298c8
+    path: "authors/solitikburmaldatik/6a215f53ee3223161ea298c8/original/download.bin"
+    page: https://crackmes.one/crackme/6a215f53ee3223161ea298c8
