@@ -9,6 +9,7 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml) (id ↔ sha256).
 | # | Titre | ID | Plateforme | Solution |
 |---|---|---|---|---|
 | 1 | [CRACKME](6a160c2a2b3df128c1df5cc1/) | [`6a160c2a…`](https://crackmes.one/crackme/6a160c2a2b3df128c1df5cc1) | Windows PE32+ MinGW | password `simba123` (strcmp clair) |
+| 2 | [very easy crackme](6a1604d22b3df128c1df5cbc/) | [`6a1604d2…`](https://crackmes.one/crackme/6a1604d22b3df128c1df5cbc) | Windows .NET (ZIP imbriqué) | password `crackme12345ez` (littéral C#) |
 
 ## Arborescence d’un challenge
 
