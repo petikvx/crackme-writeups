@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a653dd6539826f489a10a27
+
+urls:
+  page: https://crackmes.one/crackme/6a653dd6539826f489a10a27
+  download: https://crackmes.one/download/crackme/6a653dd6539826f489a10a27
+
+title: "0xbadc0de's XOR Challenge By 0xbadc0de"
+author_on_site: "0xbadc0de"
+author_local: "0xbadc0de"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "982e87e25bfa51d427f8660f46f678716afebcb3fb081c06c8c99b054b23125f"
+  md5: "0afbaea209f5d4478e5f1d5e1cbe92be"
+  size_bytes: 24519
+
+status: solved
+solution_summary: "password fixe mr1337 : 6 octets chiffrés 38 27 64 66 66 62 XOR 0x55 (check @ 0x1400173d0)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-10T05:41:30Z"

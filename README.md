@@ -310,6 +310,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [mas](authors/mas/README.md) | MAS | 3 (zW0rM + Type Punning + ZSecure) | 3 / 3 |
 | [glitch_baby](authors/glitch_baby/README.md) | Glitch_Baby | 1 (Wheredakey) | 1 / 1 |
 | [lypd0](authors/lypd0/README.md) | lypd0 | 1 (Lantern01) | 1 / 1 |
+| [0xbadc0de](authors/0xbadc0de/README.md) | 0xbadc0de | 1 (XOR Challenge) | 1 / 1 |
 | [micky23310](authors/micky23310/README.md) | micky23310 | 1 (HiddenFlag) | 1 / 1 |
 | [nx3n](authors/nx3n/README.md) | nx3n | 1 (Find a password) | 1 / 1 |
 | [qpdudusydi](authors/qpdudusydi/README.md) | qpdudusydi | 1 (Rust Crackme Very Easy) | 1 / 1 |
@@ -380,6 +381,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-10 | [0xbadc0de's XOR Challenge](authors/0xbadc0de/6a653dd6539826f489a10a27/) | 0xbadc0de |
 | 2026-11-10 | [chaltu's FRONTLINES](authors/chaltu/6a5e741d83de0d8298d6426e/) | chaltu |
 | 2026-11-10 | [Waze_r's rick_theroll_morty](authors/waze_r/6af234285fa39ab0d4ac22dc/) | Waze_r |
 | 2026-11-10 | [qpdudusydi's Rust Crackme Very Easy](authors/qpdudusydi/6af1cc355fa39ab0d4ac22b6/) | qpdudusydi |

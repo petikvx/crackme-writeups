@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a653dd6539826f489a10a27:
+    sha256: "982e87e25bfa51d427f8660f46f678716afebcb3fb081c06c8c99b054b23125f"
+    path: "authors/0xbadc0de/6a653dd6539826f489a10a27/original/download.bin"
+    title: "0xbadc0de's XOR Challenge By 0xbadc0de"
+
+by_sha256:
+  982e87e25bfa51d427f8660f46f678716afebcb3fb081c06c8c99b054b23125f:
+    id: 6a653dd6539826f489a10a27
+    path: "authors/0xbadc0de/6a653dd6539826f489a10a27/original/download.bin"
+    page: https://crackmes.one/crackme/6a653dd6539826f489a10a27
