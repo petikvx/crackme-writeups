@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  698d2206e2ba6023bfacaa4f:
+    sha256: "7424d10b70b565ad8064796cf99bd73551efec4d30a61c017ffa53fd34051264"
+    path: "authors/kanax01/698d2206e2ba6023bfacaa4f/original/download.bin"
+    title: "Kanax01's Fixed Easy Crackme"
+
+by_sha256:
+  7424d10b70b565ad8064796cf99bd73551efec4d30a61c017ffa53fd34051264:
+    id: 698d2206e2ba6023bfacaa4f
+    path: "authors/kanax01/698d2206e2ba6023bfacaa4f/original/download.bin"
+    page: https://crackmes.one/crackme/698d2206e2ba6023bfacaa4f

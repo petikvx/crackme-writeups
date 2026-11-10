@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 698d2206e2ba6023bfacaa4f
+
+urls:
+  page: https://crackmes.one/crackme/698d2206e2ba6023bfacaa4f
+  download: https://crackmes.one/download/crackme/698d2206e2ba6023bfacaa4f
+
+title: "Kanax01's Fixed Easy Crackme"
+author_on_site: "Kanax01"
+author_local: "kanax01"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++ (MSVC)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "7424d10b70b565ad8064796cf99bd73551efec4d30a61c017ffa53fd34051264"
+  md5: "0c038bc6a3a6dc871dd94b56a943016f"
+  size_bytes: 8489
+
+status: solved
+solution_summary: "Mot de passe en dur EasyPassword : std::string globale statique (.data @0x1400050b8, size 0xc) comparée par size + memcmp à la saisie cin. Pas de dérivation (pas de user). Note : download.bin est un ZIP chiffré (crackmes.one) contenant CrackMeEasy.exe."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-10T17:42:04Z"
