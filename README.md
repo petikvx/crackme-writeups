@@ -132,7 +132,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [plikan](authors/plikan/README.md) | plikan | 2 (Easy Keygen .NET + Ez Crackme) | 2 / 2 |
 | [microsoftstorage](authors/microsoftstorage/README.md) | MicrosoftStorage | 1 (ACrack) | 1 / 1 |
 | [cyberpenguin](authors/cyberpenguin/README.md) | Cyberpenguin | 1 (What password???) | 1 / 1 |
-| [simbahdd](authors/simbahdd/README.md) | SimbaHDD | 2 (CRACKME + very easy crackme) | 2 / 2 |
+| [simbahdd](authors/simbahdd/README.md) | SimbaHDD | 3 (CRACKME + very easy crackme + first golang crackme) | 3 / 3 |
 | [tdaron](authors/tdaron/README.md) | tdaron | 1 (Use your brain) | 1 / 1 |
 | [pipedown](authors/pipedown/README.md) | pipedown | 1 (I need to be honest) | 1 / 1 |
 | [jeffli6789](authors/jeffli6789/README.md) | jeffli6789 | 6 (wallpaper + x86 + Maze + Orbit Fold + Date of Birth) | 6 / 6 |
@@ -389,6 +389,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-10 | [SimbaHDD's first golang crackme](authors/simbahdd/6a1608d1d7ff92e1214c01f5/) | SimbaHDD |
 | 2026-11-10 | [SimbaHDD's very easy crackme](authors/simbahdd/6a1604d22b3df128c1df5cbc/) | SimbaHDD |
 | 2026-11-10 | [gustavsofa's password esasy](authors/gustavsofa/6a07d24a3fba64e45dceaaa7/) | gustavsofa |
 | 2026-11-10 | [sdsddudusdus's My First CrackMe](authors/sdsddudusdus/69d48374f2d49d8512f64c95/) | sdsddudusdus |

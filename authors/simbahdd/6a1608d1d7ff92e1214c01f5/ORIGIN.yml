@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a1608d1d7ff92e1214c01f5
+
+urls:
+  page: https://crackmes.one/crackme/6a1608d1d7ff92e1214c01f5
+  download: https://crackmes.one/download/crackme/6a1608d1d7ff92e1214c01f5
+
+title: "SimbaHDD's first golang crackme"
+author_on_site: "SimbaHDD"
+author_local: "simbahdd"
+
+platform: "Windows"
+arch: "x86-64"
+language: "Go (go1.26.2)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "a46f4f472b2825a58cf35edd9fe68050eac36eee0fc95c1b3315045517f043d7"
+  md5: "942a79ce2fb1652a90e29fcf67bb787f"
+  size_bytes: 1538527
+
+status: solved
+solution_summary: "password simba123 (comparaison Go d'un qword LE 0x33323161626d6973 dans main.main ; keygen sans user)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-10T20:09:53Z"
