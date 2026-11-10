@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6906250b2d267f28f69b7a50
+
+urls:
+  page: https://crackmes.one/crackme/6906250b2d267f28f69b7a50
+  download: https://crackmes.one/download/crackme/6906250b2d267f28f69b7a50
+
+title: "NullerF's Easiest"
+author_on_site: "NullerF"
+author_local: "nullerf"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "8c915250356d15e5f8fe9bfef07dc1cd634aa08438de64ebcb44ab9fa1ab75b2"
+  md5: "dc58d8c645e3f8968016f1643b7dbcdc"
+  size_bytes: 40283
+
+status: solved
+solution_summary: "PIN décimal 8569 (cmp eax,0x2179 dans main ; scanf %d) — pas de user"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-10T23:46:36Z"

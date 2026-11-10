@@ -322,6 +322,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [nx3n](authors/nx3n/README.md) | nx3n | 1 (Find a password) | 1 / 1 |
 | [maxpsger](authors/maxpsger/README.md) | maxpsger | 1 (Easy crackme) | 1 / 1 |
 | [eilay_yosfan](authors/eilay_yosfan/README.md) | Eilay_Yosfan | 1 (3OutOf6) | 1 / 1 |
+| [nullerf](authors/nullerf/README.md) | NullerF | 1 (NullerF's Easiest) | 1 / 1 |
 | [qpdudusydi](authors/qpdudusydi/README.md) | qpdudusydi | 1 (Rust Crackme Very Easy) | 1 / 1 |
 | [ended](authors/ended/README.md) | ended | 1 (catgirl.crack) | 1 / 1 |
 | [kanax01](authors/kanax01/README.md) | Kanax01 | 1 (Fixed Easy Crackme) | 1 / 1 |
@@ -394,6 +395,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-11 | [NullerF's Easiest](authors/nullerf/6906250b2d267f28f69b7a50/) | NullerF |
 | 2026-11-11 | [Eilay_Yosfan's 3OutOf6](authors/eilay_yosfan/690210a42d267f28f69b7980/) | Eilay_Yosfan |
 | 2026-11-10 | [maxpsger's Easy crackme](authors/maxpsger/695b957ad7c572e88f5433f6/) | maxpsger |
 | 2026-11-10 | [svidnet's ZEXOR (Windows)](authors/svidnet/6953d0c0d88d50bd6a9e7b63/) | svidnet |
