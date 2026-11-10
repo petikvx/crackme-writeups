@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 698c7dbfa15272fa37a80c73
+
+urls:
+  page: https://crackmes.one/crackme/698c7dbfa15272fa37a80c73
+  download: https://crackmes.one/download/crackme/698c7dbfa15272fa37a80c73
+
+title: "vestige46's GetToKnow"
+author_on_site: "vestige46"
+author_local: "vestige46"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "18b86e832cc89cebdd894fdf629d898ba2e422e025282f24787b9b0d55691b83"
+  md5: "a583d1172232d8768b865692e7fc5478"
+  size_bytes: 43205
+
+status: solved
+solution_summary: "Mot de passe en dur reconstruit par 3 mov d'immediates dans main : 1mN0TTh3PwTru5tM3 (strcmp direct). Note : download.bin est un ZIP chiffré (crackmes.one) contenant GTK-v0.1.exe."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-10T17:13:57Z"
