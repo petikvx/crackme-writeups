@@ -333,6 +333,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [va7d1n3](authors/va7d1n3/README.md) | Va7D1n3 | 1 (Automata Simulation) | 1 / 1 |
 | [confining0367](authors/confining0367/README.md) | confining0367 | 1 (Key) | 1 / 1 |
 | [rodrigoteixeira](authors/rodrigoteixeira/README.md) | RodrigoTeixeira | 1 (Loggin) | 1 / 1 |
+| [tihiyomut](authors/tihiyomut/README.md) | TihiyOmut | 1 (EZFTP_ByTOMUT) | 1 / 1 |
 | [werrec](authors/werrec/README.md) | werrec | 1 (Retro OEM License Check) | 1 / 1 |
 | [pietrogamer](authors/pietrogamer/README.md) | pietrogamer | 1 (Embrace RSA) | 1 / 1 |
 | [nake](authors/nake/README.md) | nake | 1 (SP network cipher) | 1 / 1 |
@@ -391,6 +392,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-10 | [TihiyOmut's EZFTP_ByTOMUT](authors/tihiyomut/6a2d22756840520e01b21e3b/) | TihiyOmut |
 | 2026-11-10 | [Monsignor's Monsignors Crackme](authors/monsignor/6a2c80595f26f108ba18b8bd/) | Monsignor |
 | 2026-11-10 | [SolitikBurmaldatik's FirstCrackMe](authors/solitikburmaldatik/6a215f53ee3223161ea298c8/) | SolitikBurmaldatik |
 | 2026-11-10 | [SimbaHDD's first golang crackme](authors/simbahdd/6a1608d1d7ff92e1214c01f5/) | SimbaHDD |
