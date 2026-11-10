@@ -15,6 +15,11 @@ by_id:
     path: "authors/chaltu/6a3a7734a4b247348ae80666/original/main"
     title: "chaltu's Accsess me please :)"
 
+  6a5e741d83de0d8298d6426e:
+    sha256: "72198a6717fd9ca4cf1a4f279e9969fc5821ea90cd8a6c936585ba33aa4fbd8b"
+    path: "authors/chaltu/6a5e741d83de0d8298d6426e/original/download.bin"
+    title: "chaltu's FRONTLINES"
+
 by_sha256:
   e0e1d7fd6392d0210f0273c1bfbddb4fdb8bb92f8c2ae9d38616c044d2547223:
     id: 6a4014135f26f108ba18ba0b
@@ -28,3 +33,7 @@ by_sha256:
     id: 6a3a7734a4b247348ae80666
     path: "authors/chaltu/6a3a7734a4b247348ae80666/original/main"
     page: https://crackmes.one/crackme/6a3a7734a4b247348ae80666
+  72198a6717fd9ca4cf1a4f279e9969fc5821ea90cd8a6c936585ba33aa4fbd8b:
+    id: 6a5e741d83de0d8298d6426e
+    path: "authors/chaltu/6a5e741d83de0d8298d6426e/original/download.bin"
+    page: https://crackmes.one/crackme/6a5e741d83de0d8298d6426e

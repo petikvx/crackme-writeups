@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a5e741d83de0d8298d6426e
+
+urls:
+  page: https://crackmes.one/crackme/6a5e741d83de0d8298d6426e
+  download: https://crackmes.one/download/crackme/6a5e741d83de0d8298d6426e
+
+title: "chaltu's FRONTLINES"
+author_on_site: "chaltu"
+author_local: "chaltu"
+
+platform: "Windows"
+arch: "x86-64"
+language: "Rust"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "72198a6717fd9ca4cf1a4f279e9969fc5821ea90cd8a6c936585ba33aa4fbd8b"
+  md5: "0f22510f75d9eceb905447bbc6a08ed5"
+  size_bytes: 98729
+
+status: solved
+solution_summary: "Menu option 3 (Speak the Word of Victory) : mot de 11 octets obfusqué dans .rdata, char=(b^0xAA)+0xED → LIONOFJUDAH"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-10T05:07:00Z"

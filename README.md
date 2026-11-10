@@ -148,7 +148,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [andrewl](authors/andrewl/README.md) | andrewl | 1 (Quick Crypto) | 1 / 1 |
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
 | [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 466 / 466 |
-| [chaltu](authors/chaltu/README.md) | chaltu | 3 (a Treasure + Double Door + Accsess me please) | 3 / 3 |
+| [chaltu](authors/chaltu/README.md) | chaltu | 4 (a Treasure + Double Door + Accsess me please + FRONTLINES) | 4 / 4 |
 | [qerr0r](authors/qerr0r/README.md) | QERR0R | 2 (crackit + CrackIt;)) | 2 / 2 |
 | [steve_maxwell](authors/steve_maxwell/README.md) | steve_maxwell | 1 (X-0-R) | 1 / 1 |
 | [vodeff](authors/vodeff/README.md) | vodeff | 1 (FindLicenseKey) | 1 / 1 |
@@ -380,6 +380,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-10 | [chaltu's FRONTLINES](authors/chaltu/6a5e741d83de0d8298d6426e/) | chaltu |
 | 2026-11-10 | [Waze_r's rick_theroll_morty](authors/waze_r/6af234285fa39ab0d4ac22dc/) | Waze_r |
 | 2026-11-10 | [qpdudusydi's Rust Crackme Very Easy](authors/qpdudusydi/6af1cc355fa39ab0d4ac22b6/) | qpdudusydi |
 | 2026-11-10 | [nx3n's Find a password](authors/nx3n/6af10b5e5fa39ab0d4ac2280/) | nx3n |
