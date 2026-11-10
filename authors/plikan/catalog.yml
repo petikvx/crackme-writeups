@@ -5,8 +5,17 @@ by_id:
     path: "authors/plikan/6a7d865b184836c0dbe7d789/original/Easy_Keygen_Crackme.exe"
     title: "plikan's Easy Keygen Crackme"
 
+  692272032d267f28f69b7ff5:
+    sha256: "34cd73e80625afaf2a3a9a8d36f58f79ad8afb6052095926c966d74262efb160"
+    path: "authors/plikan/692272032d267f28f69b7ff5/original/download.bin"
+    title: "plikan's Ez Crackme"
+
 by_sha256:
   b6ec4f8991db7a5d909e703b3fdf5d8950b8f0128e826a8eda3f1f910b5ff9e1:
     id: 6a7d865b184836c0dbe7d789
     path: "authors/plikan/6a7d865b184836c0dbe7d789/original/Easy_Keygen_Crackme.exe"
     page: https://crackmes.one/crackme/6a7d865b184836c0dbe7d789
+  34cd73e80625afaf2a3a9a8d36f58f79ad8afb6052095926c966d74262efb160:
+    id: 692272032d267f28f69b7ff5
+    path: "authors/plikan/692272032d267f28f69b7ff5/original/download.bin"
+    page: https://crackmes.one/crackme/692272032d267f28f69b7ff5
