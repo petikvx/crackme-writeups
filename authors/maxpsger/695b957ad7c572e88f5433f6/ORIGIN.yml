@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 695b957ad7c572e88f5433f6
+
+urls:
+  page: https://crackmes.one/crackme/695b957ad7c572e88f5433f6
+  download: https://crackmes.one/download/crackme/695b957ad7c572e88f5433f6
+
+title: "maxpsger's Easy crackme"
+author_on_site: "maxpsger"
+author_local: "maxpsger"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++ (MSVC)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "69c69d2ea5c5168206ac0e54ea6646ec1c82d9ff0dcf3e8ee4561711219200a8"
+  md5: "52cc13c205633710d69fc81347a27f35"
+  size_bytes: 8358
+
+status: solved
+solution_summary: "username `crackme` + password `Rickroll` (littéraux fixes comparés par memcmp @ 0x140001290 ; pas de keygen, donc pas de petik)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-10T22:42:01Z"

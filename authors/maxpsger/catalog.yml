@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  695b957ad7c572e88f5433f6:
+    sha256: "69c69d2ea5c5168206ac0e54ea6646ec1c82d9ff0dcf3e8ee4561711219200a8"
+    path: "authors/maxpsger/695b957ad7c572e88f5433f6/original/download.bin"
+    title: "maxpsger's Easy crackme"
+
+by_sha256:
+  69c69d2ea5c5168206ac0e54ea6646ec1c82d9ff0dcf3e8ee4561711219200a8:
+    id: 695b957ad7c572e88f5433f6
+    path: "authors/maxpsger/695b957ad7c572e88f5433f6/original/download.bin"
+    page: https://crackmes.one/crackme/695b957ad7c572e88f5433f6
