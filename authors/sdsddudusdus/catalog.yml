@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69d48374f2d49d8512f64c95:
+    sha256: "3955bad30f8c4e52e08569bfcb788a6529a0678a2666d1398406e65e6543d955"
+    path: "authors/sdsddudusdus/69d48374f2d49d8512f64c95/original/download.bin"
+    title: "sdsddudusdus's My First CrackMe"
+
+by_sha256:
+  3955bad30f8c4e52e08569bfcb788a6529a0678a2666d1398406e65e6543d955:
+    id: 69d48374f2d49d8512f64c95
+    path: "authors/sdsddudusdus/69d48374f2d49d8512f64c95/original/download.bin"
+    page: https://crackmes.one/crackme/69d48374f2d49d8512f64c95

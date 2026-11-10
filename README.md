@@ -154,6 +154,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [steve_maxwell](authors/steve_maxwell/README.md) | steve_maxwell | 1 (X-0-R) | 1 / 1 |
 | [vodeff](authors/vodeff/README.md) | vodeff | 1 (FindLicenseKey) | 1 / 1 |
 | [segfaults](authors/segfaults/README.md) | segfaults | 1 (Jame's Cybersecurity Company) | 1 / 1 |
+| [sdsddudusdus](authors/sdsddudusdus/README.md) | sdsddudusdus | 1 (My First CrackMe) | 1 / 1 |
 | [khaledddd](authors/khaledddd/README.md) | khaledddd | 1 (InputPrinter) | 1 / 1 |
 | [shadowlegion](authors/shadowlegion/README.md) | ShadowLegion | 1 (VaultBreaker) | 1 / 1 |
 | [toronto](authors/toronto/README.md) | Toronto | 1 (c) | 1 / 1 |
@@ -387,6 +388,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-10 | [sdsddudusdus's My First CrackMe](authors/sdsddudusdus/69d48374f2d49d8512f64c95/) | sdsddudusdus |
 | 2026-11-10 | [ended's catgirl.crack](authors/ended/69b282cff2d49d8512f649df/) | ended |
 | 2026-11-10 | [Kanax01's Fixed Easy Crackme](authors/kanax01/698d2206e2ba6023bfacaa4f/) | kanax01 |
 | 2026-11-10 | [vestige46's GetToKnow](authors/vestige46/698c7dbfa15272fa37a80c73/) | vestige46 |

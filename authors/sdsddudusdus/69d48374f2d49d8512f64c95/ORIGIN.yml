@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69d48374f2d49d8512f64c95
+
+urls:
+  page: https://crackmes.one/crackme/69d48374f2d49d8512f64c95
+  download: https://crackmes.one/download/crackme/69d48374f2d49d8512f64c95
+
+title: "sdsddudusdus's My First CrackMe"
+author_on_site: "sdsddudusdus"
+author_local: "sdsddudusdus"
+
+platform: "Windows"
+arch: "x86-64"
+language: ".NET 9 (C#)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "3955bad30f8c4e52e08569bfcb788a6529a0678a2666d1398406e65e6543d955"
+  md5: "12fe350b95959c01dabeae5efefdcabd"
+  size_bytes: 72352
+
+status: solved
+solution_summary: "chip-8.exe = apphost .NET ; chip-8.dll compare la ligne lue à la constante \"password\" (String.op_Equality). Serial : password (pas de user/login dans ce crackme)."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-10T18:36:55Z"
