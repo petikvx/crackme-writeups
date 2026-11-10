@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  690210a42d267f28f69b7980:
+    sha256: "aeebc13c742d5bab8e5377db9d1c0fa126661393bfb97e647886d9326cd69468"
+    path: "authors/eilay_yosfan/690210a42d267f28f69b7980/original/download.bin"
+    title: "Eilay_Yosfan's 3OutOf6"
+
+by_sha256:
+  aeebc13c742d5bab8e5377db9d1c0fa126661393bfb97e647886d9326cd69468:
+    id: 690210a42d267f28f69b7980
+    path: "authors/eilay_yosfan/690210a42d267f28f69b7980/original/download.bin"
+    page: https://crackmes.one/crackme/690210a42d267f28f69b7980

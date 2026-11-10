@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 690210a42d267f28f69b7980
+
+urls:
+  page: https://crackmes.one/crackme/690210a42d267f28f69b7980
+  download: https://crackmes.one/download/crackme/690210a42d267f28f69b7980
+
+title: "Eilay_Yosfan's 3OutOf6"
+author_on_site: "Eilay_Yosfan"
+author_local: "eilay_yosfan"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C (GCC 13.4 / Cygwin)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "aeebc13c742d5bab8e5377db9d1c0fa126661393bfb97e647886d9326cd69468"
+  md5: "c2e7406f58b25ecefd9eaddcc7c308ec"
+  size_bytes: 20971
+
+status: solved
+solution_summary: "Clé entière fixe 68 (0x44) comparée à la saisie scanf(%d) ; vérifié par émulation Unicorn de main (cygwin, pas de wine)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-10T23:11:58Z"
