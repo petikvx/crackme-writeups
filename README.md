@@ -313,6 +313,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [0xbadc0de](authors/0xbadc0de/README.md) | 0xbadc0de | 1 (XOR Challenge) | 1 / 1 |
 | [micky23310](authors/micky23310/README.md) | micky23310 | 1 (HiddenFlag) | 1 / 1 |
 | [mintcocs](authors/mintcocs/README.md) | mintcocs | 1 (learning_vm) | 1 / 1 |
+| [stels](authors/stels/README.md) | stels | 1 (sob Obfuscator Challenge) | 1 / 1 |
 | [nx3n](authors/nx3n/README.md) | nx3n | 1 (Find a password) | 1 / 1 |
 | [qpdudusydi](authors/qpdudusydi/README.md) | qpdudusydi | 1 (Rust Crackme Very Easy) | 1 / 1 |
 | [waze_r](authors/waze_r/README.md) | Waze_r | 1 (rick_theroll_morty / the_gate) | 1 / 1 |
@@ -382,6 +383,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-10 | [stels's sob Obfuscator Challenge (insane++)](authors/stels/6a8e55413b246e477b6c09ad/) | stels |
 | 2026-11-10 | [mintcocs's learning_vm](authors/mintcocs/6a6b5bdd59d4a7b04de30a28/) | mintcocs |
 | 2026-11-10 | [0xbadc0de's XOR Challenge](authors/0xbadc0de/6a653dd6539826f489a10a27/) | 0xbadc0de |
 | 2026-11-10 | [chaltu's FRONTLINES](authors/chaltu/6a5e741d83de0d8298d6426e/) | chaltu |

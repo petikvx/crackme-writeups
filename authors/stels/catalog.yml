@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a8e55413b246e477b6c09ad:
+    sha256: "300d2f626d97de50dbac062d63fb60d4cbe2e778dc0673b90f3144419a428a65"
+    path: "authors/stels/6a8e55413b246e477b6c09ad/original/download.bin"
+    title: "stels's sob Obfuscator Challenge (insane++)"
+
+by_sha256:
+  300d2f626d97de50dbac062d63fb60d4cbe2e778dc0673b90f3144419a428a65:
+    id: 6a8e55413b246e477b6c09ad
+    path: "authors/stels/6a8e55413b246e477b6c09ad/original/download.bin"
+    page: https://crackmes.one/crackme/6a8e55413b246e477b6c09ad
