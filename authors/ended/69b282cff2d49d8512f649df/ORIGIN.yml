@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69b282cff2d49d8512f649df
+
+urls:
+  page: https://crackmes.one/crackme/69b282cff2d49d8512f649df
+  download: https://crackmes.one/download/crackme/69b282cff2d49d8512f649df
+
+title: "ended's catgirl.crack"
+author_on_site: "ended"
+author_local: "ended"
+
+platform: "Multiplatform"
+arch: "x86-64"
+language: "C# (.NET 10)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "afa69f8ac7b180b6b766dd5cc2897be9c2192b05fa0407e7d567a33b7c9c353d"
+  md5: "0a3c17c839a1dfab12dbb8710fc75a9c"
+  size_bytes: 50516
+
+status: solved
+solution_summary: "Mot de passe fixe `Mint` (OrdinalIgnoreCase) ; `meow` est un leurre. .NET 10, lecture IL du Main"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-10T18:13:55Z"

@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69b282cff2d49d8512f649df:
+    sha256: "afa69f8ac7b180b6b766dd5cc2897be9c2192b05fa0407e7d567a33b7c9c353d"
+    path: "authors/ended/69b282cff2d49d8512f649df/original/download.bin"
+    title: "ended's catgirl.crack"
+
+by_sha256:
+  afa69f8ac7b180b6b766dd5cc2897be9c2192b05fa0407e7d567a33b7c9c353d:
+    id: 69b282cff2d49d8512f649df
+    path: "authors/ended/69b282cff2d49d8512f649df/original/download.bin"
+    page: https://crackmes.one/crackme/69b282cff2d49d8512f649df

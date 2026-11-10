@@ -317,6 +317,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [stels](authors/stels/README.md) | stels | 1 (sob Obfuscator Challenge) | 1 / 1 |
 | [nx3n](authors/nx3n/README.md) | nx3n | 1 (Find a password) | 1 / 1 |
 | [qpdudusydi](authors/qpdudusydi/README.md) | qpdudusydi | 1 (Rust Crackme Very Easy) | 1 / 1 |
+| [ended](authors/ended/README.md) | ended | 1 (catgirl.crack) | 1 / 1 |
 | [kanax01](authors/kanax01/README.md) | Kanax01 | 1 (Fixed Easy Crackme) | 1 / 1 |
 | [vestige46](authors/vestige46/README.md) | vestige46 | 1 (GetToKnow) | 1 / 1 |
 | [waze_r](authors/waze_r/README.md) | Waze_r | 1 (rick_theroll_morty / the_gate) | 1 / 1 |
@@ -386,6 +387,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-10 | [ended's catgirl.crack](authors/ended/69b282cff2d49d8512f649df/) | ended |
 | 2026-11-10 | [Kanax01's Fixed Easy Crackme](authors/kanax01/698d2206e2ba6023bfacaa4f/) | kanax01 |
 | 2026-11-10 | [vestige46's GetToKnow](authors/vestige46/698c7dbfa15272fa37a80c73/) | vestige46 |
 | 2026-11-10 | [MicrosoftStorage's ACrack](authors/microsoftstorage/694013390992a052ab222338/) | microsoftstorage |
