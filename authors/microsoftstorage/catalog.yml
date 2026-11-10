@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  694013390992a052ab222338:
+    sha256: "d2d4b4841d2152229f2279daa487099de71751b9b7fffcf320bb7e5f492fc3f4"
+    path: "authors/microsoftstorage/694013390992a052ab222338/original/download.bin"
+    title: "MicrosoftStorage's ACrack"
+
+by_sha256:
+  d2d4b4841d2152229f2279daa487099de71751b9b7fffcf320bb7e5f492fc3f4:
+    id: 694013390992a052ab222338
+    path: "authors/microsoftstorage/694013390992a052ab222338/original/download.bin"
+    page: https://crackmes.one/crackme/694013390992a052ab222338

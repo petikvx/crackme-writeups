@@ -130,6 +130,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [zenoniatranoss](authors/zenoniatranoss/README.md) | zenoniatranoss | 1 (zenobiatranoss) | 1 / 1 |
 | [crudd](authors/crudd/README.md) | crudd | 1 (PatchPad) | 1 / 1 |
 | [plikan](authors/plikan/README.md) | plikan | 2 (Easy Keygen .NET + Ez Crackme) | 2 / 2 |
+| [microsoftstorage](authors/microsoftstorage/README.md) | MicrosoftStorage | 1 (ACrack) | 1 / 1 |
 | [cyberpenguin](authors/cyberpenguin/README.md) | Cyberpenguin | 1 (What password???) | 1 / 1 |
 | [simbahdd](authors/simbahdd/README.md) | SimbaHDD | 1 (CRACKME) | 1 / 1 |
 | [tdaron](authors/tdaron/README.md) | tdaron | 1 (Use your brain) | 1 / 1 |
@@ -383,6 +384,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-10 | [MicrosoftStorage's ACrack](authors/microsoftstorage/694013390992a052ab222338/) | microsoftstorage |
 | 2026-11-10 | [plikan's Ez Crackme](authors/plikan/692272032d267f28f69b7ff5/) | plikan |
 | 2026-11-10 | [stels's sob Obfuscator Challenge (insane++)](authors/stels/6a8e55413b246e477b6c09ad/) | stels |
 | 2026-11-10 | [mintcocs's learning_vm](authors/mintcocs/6a6b5bdd59d4a7b04de30a28/) | mintcocs |

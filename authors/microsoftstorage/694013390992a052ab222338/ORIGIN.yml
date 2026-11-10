@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 694013390992a052ab222338
+
+urls:
+  page: https://crackmes.one/crackme/694013390992a052ab222338
+  download: https://crackmes.one/download/crackme/694013390992a052ab222338
+
+title: "MicrosoftStorage's ACrack"
+author_on_site: "MicrosoftStorage"
+author_local: "microsoftstorage"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "d2d4b4841d2152229f2279daa487099de71751b9b7fffcf320bb7e5f492fc3f4"
+  md5: "a04ee808bfb9f5cca6784e93c27eff20"
+  size_bytes: 164338
+
+status: solved
+solution_summary: "Deux strcmp() en dur : nickname CrackMeOne, password t.me/Umno223 (pas de dépendance au nom, petik inutile)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-10T16:43:12Z"
