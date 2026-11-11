@@ -129,7 +129,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [cracknotme](authors/cracknotme/README.md) | CrackNotMe | 17+ (CFB… + Wonka + Turbine + MCM1–3 + Zero4) | 16 / 17 |
 | [zenoniatranoss](authors/zenoniatranoss/README.md) | zenoniatranoss | 1 (zenobiatranoss) | 1 / 1 |
 | [crudd](authors/crudd/README.md) | crudd | 1 (PatchPad) | 1 / 1 |
-| [plikan](authors/plikan/README.md) | plikan | 2 (Easy Keygen .NET + Ez Crackme) | 2 / 2 |
+| [plikan](authors/plikan/README.md) | plikan | 3 (Easy Keygen .NET + Ez Crackme + Very Ez Crackme) | 3 / 3 |
 | [microsoftstorage](authors/microsoftstorage/README.md) | MicrosoftStorage | 1 (ACrack) | 1 / 1 |
 | [cyberpenguin](authors/cyberpenguin/README.md) | Cyberpenguin | 1 (What password???) | 1 / 1 |
 | [solitikburmaldatik](authors/solitikburmaldatik/README.md) | SolitikBurmaldatik | 1 (FirstCrackMe) | 1 / 1 |
@@ -402,6 +402,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-11 | [plikan's Ez Crackme (WinForms)](authors/plikan/694f2baf0c16072f40f5a495/) | plikan |
 | 2026-11-11 | [Demian's entry level crackme](authors/Demian/6a54d56b055757d3df60fce8/) | Demian |
 | 2026-11-11 | [rm7rv's my first crackme](authors/rm7rv/69ce60243e328e778db052cd/) | rm7rv |
 | 2026-11-11 | [zsombii's Easy crackme](authors/zsombii/693d89b50992a052ab2222d7/) | zsombii |

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 694f2baf0c16072f40f5a495
+
+urls:
+  page: https://crackmes.one/crackme/694f2baf0c16072f40f5a495
+  download: https://crackmes.one/download/crackme/694f2baf0c16072f40f5a495
+
+title: "plikan's Ez Crackme"
+author_on_site: "plikan"
+author_local: "plikan"
+
+platform: "Windows"
+arch: "x86-64"
+language: ".NET (WinForms)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "bb46d0bd6bac28b6fc18ae11d00bc695d72e914e61acb6c6f3d04fbd8c5216a3"
+  md5: "68e857dd471645df6482d6d2d8c44326"
+  size_bytes: 4289
+
+status: solved
+solution_summary: "code = int(date.today() yyyyMMdd) + 4777 (ex. 2026-11-11 -> 20265888) ; pas de user (petik n'est pas utilise)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-11T04:41:54Z"

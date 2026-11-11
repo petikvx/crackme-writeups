@@ -10,6 +10,11 @@ by_id:
     path: "authors/plikan/692272032d267f28f69b7ff5/original/download.bin"
     title: "plikan's Ez Crackme"
 
+  694f2baf0c16072f40f5a495:
+    sha256: "bb46d0bd6bac28b6fc18ae11d00bc695d72e914e61acb6c6f3d04fbd8c5216a3"
+    path: "authors/plikan/694f2baf0c16072f40f5a495/original/download.bin"
+    title: "plikan's Ez Crackme"
+
 by_sha256:
   b6ec4f8991db7a5d909e703b3fdf5d8950b8f0128e826a8eda3f1f910b5ff9e1:
     id: 6a7d865b184836c0dbe7d789
@@ -19,3 +24,7 @@ by_sha256:
     id: 692272032d267f28f69b7ff5
     path: "authors/plikan/692272032d267f28f69b7ff5/original/download.bin"
     page: https://crackmes.one/crackme/692272032d267f28f69b7ff5
+  bb46d0bd6bac28b6fc18ae11d00bc695d72e914e61acb6c6f3d04fbd8c5216a3:
+    id: 694f2baf0c16072f40f5a495
+    path: "authors/plikan/694f2baf0c16072f40f5a495/original/download.bin"
+    page: https://crackmes.one/crackme/694f2baf0c16072f40f5a495
