@@ -322,7 +322,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [nx3n](authors/nx3n/README.md) | nx3n | 1 (Find a password) | 1 / 1 |
 | [maxpsger](authors/maxpsger/README.md) | maxpsger | 1 (Easy crackme) | 1 / 1 |
 | [eilay_yosfan](authors/eilay_yosfan/README.md) | Eilay_Yosfan | 1 (3OutOf6) | 1 / 1 |
-| [nullerf](authors/nullerf/README.md) | NullerF | 1 (NullerF's Easiest) | 1 / 1 |
+| [nullerf](authors/nullerf/README.md) | NullerF | 2 (Easiest + Simple_GUI_crackme) | 2 / 2 |
 | [qpdudusydi](authors/qpdudusydi/README.md) | qpdudusydi | 1 (Rust Crackme Very Easy) | 1 / 1 |
 | [Lacks](authors/Lacks/README.md) | Lacks | 1 (Lacks's Level 1) | 1 / 1 |
 | [ended](authors/ended/README.md) | ended | 1 (catgirl.crack) | 1 / 1 |
@@ -399,6 +399,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-11 | [NullerF's Simple_GUI_crackme](authors/NullerF/69062e232d267f28f69b7a58/) | NullerF |
 | 2026-11-11 | [Lacks's Level 1](authors/Lacks/6a512980234391ae74f63ae8/) | Lacks |
 | 2026-11-11 | [Dirtbikercj's Secure License Portal](authors/Dirtbikercj/6a2fbd2b6840520e01b21e5e/) | Dirtbikercj |
 | 2026-11-11 | [billy_bat's My First Crackme](authors/billy_bat/69e69e738afd9d6c48b489a9/) | billy_bat |

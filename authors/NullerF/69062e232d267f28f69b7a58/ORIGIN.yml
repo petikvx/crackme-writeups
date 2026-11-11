@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69062e232d267f28f69b7a58
+
+urls:
+  page: https://crackmes.one/crackme/69062e232d267f28f69b7a58
+  download: https://crackmes.one/download/crackme/69062e232d267f28f69b7a58
+
+title: "NullerF's Simple_GUI_crackme"
+author_on_site: "NullerF"
+author_local: "NullerF"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C# (.NET Framework 4, WinForms)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "efb26fe5d1127c79a8f7586187222e8eeadbeed1e05ddfd7f03bac21ba3fbec6"
+  md5: "2ddb5860d74a142184f57c45976b095a"
+  size_bytes: 4911
+
+status: solved
+solution_summary: "WinForms .NET : button1_Click compare TextBox.Text == \"sk-189\" (String.op_Equality) → CORRECT!. Clé fixe, pas de user (petik non utilisé)."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-11T02:10:01Z"

@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69062e232d267f28f69b7a58:
+    sha256: "efb26fe5d1127c79a8f7586187222e8eeadbeed1e05ddfd7f03bac21ba3fbec6"
+    path: "authors/NullerF/69062e232d267f28f69b7a58/original/download.bin"
+    title: "NullerF's Simple_GUI_crackme"
+
+by_sha256:
+  efb26fe5d1127c79a8f7586187222e8eeadbeed1e05ddfd7f03bac21ba3fbec6:
+    id: 69062e232d267f28f69b7a58
+    path: "authors/NullerF/69062e232d267f28f69b7a58/original/download.bin"
+    page: https://crackmes.one/crackme/69062e232d267f28f69b7a58
