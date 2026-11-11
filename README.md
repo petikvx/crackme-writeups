@@ -338,6 +338,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [va7d1n3](authors/va7d1n3/README.md) | Va7D1n3 | 1 (Automata Simulation) | 1 / 1 |
 | [confining0367](authors/confining0367/README.md) | confining0367 | 1 (Key) | 1 / 1 |
 | [rodrigoteixeira](authors/rodrigoteixeira/README.md) | RodrigoTeixeira | 1 (Loggin) | 1 / 1 |
+| [Dirtbikercj](authors/Dirtbikercj/README.md) | Dirtbikercj | 1 (Secure License Portal) | 1 / 1 |
 | [tihiyomut](authors/tihiyomut/README.md) | TihiyOmut | 1 (EZFTP_ByTOMUT) | 1 / 1 |
 | [werrec](authors/werrec/README.md) | werrec | 1 (Retro OEM License Check) | 1 / 1 |
 | [pietrogamer](authors/pietrogamer/README.md) | pietrogamer | 1 (Embrace RSA) | 1 / 1 |
@@ -397,6 +398,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-11 | [Dirtbikercj's Secure License Portal](authors/Dirtbikercj/6a2fbd2b6840520e01b21e5e/) | Dirtbikercj |
 | 2026-11-11 | [billy_bat's My First Crackme](authors/billy_bat/69e69e738afd9d6c48b489a9/) | billy_bat |
 | 2026-11-11 | [alogen's Simple Java Verify](authors/alogen/69b7d857ddd6176826ae8a10/) | alogen |
 | 2026-11-11 | [NullerF's Easiest](authors/nullerf/6906250b2d267f28f69b7a50/) | NullerF |

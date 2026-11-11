@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a2fbd2b6840520e01b21e5e
+
+urls:
+  page: https://crackmes.one/crackme/6a2fbd2b6840520e01b21e5e
+  download: https://crackmes.one/download/crackme/6a2fbd2b6840520e01b21e5e
+
+title: "Dirtbikercj's Secure License Portal"
+author_on_site: "Dirtbikercj"
+author_local: "Dirtbikercj"
+
+platform: "Windows"
+arch: "x86-64"
+language: ".NET 10 (C#)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "a2656613c2c2c2c377522a1d2dd2311201d5015888e914c0d2cee92d633659f6"
+  md5: "1d2fd20df744f6d0b531e44ca1eb10d6"
+  size_bytes: 72201
+
+status: solved
+solution_summary: "License key hardcodée SECURE-PASSWORD (blob statique de 15 octets ReadOnlySpan<byte> comparé par ValidateKey ; pas de login, petik → FAIL)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-11T01:10:41Z"
