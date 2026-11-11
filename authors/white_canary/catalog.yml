@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69cc0fa13e328e778db052a7:
+    sha256: "5ab9e8ca2be4a1e63fac7663ec836678120dee35b05732416b16ca3baab6c000"
+    path: "authors/white_canary/69cc0fa13e328e778db052a7/original/download.bin"
+    title: "White_Canary's Adversarial Mind"
+
+by_sha256:
+  5ab9e8ca2be4a1e63fac7663ec836678120dee35b05732416b16ca3baab6c000:
+    id: 69cc0fa13e328e778db052a7
+    path: "authors/white_canary/69cc0fa13e328e778db052a7/original/download.bin"
+    page: https://crackmes.one/crackme/69cc0fa13e328e778db052a7

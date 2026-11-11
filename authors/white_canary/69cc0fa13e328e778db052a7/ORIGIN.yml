@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69cc0fa13e328e778db052a7
+
+urls:
+  page: https://crackmes.one/crackme/69cc0fa13e328e778db052a7
+  download: https://crackmes.one/download/crackme/69cc0fa13e328e778db052a7
+
+title: "White_Canary's Adversarial Mind"
+author_on_site: "White_Canary"
+author_local: "white_canary"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++ (MSVC)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "5ab9e8ca2be4a1e63fac7663ec836678120dee35b05732416b16ca3baab6c000"
+  md5: "0054a492af4b2524dd571f84f7772ea0"
+  size_bytes: 110515
+
+status: solved
+solution_summary: "Mot de passe = chaîne base64 littérale UEFTU1dPUkR7ZmFsc2VfcGFzc3dvcmR9 (std::string == sur la constante .rdata 0x140024520) ; le décodé PASSWORD{false_password} et le flag PASSWORD{AI_n0t_th@t_gud} (prompt-injection base64 anti-IA) sont des leurres. original/download.bin est un ZIP (pwd crackmes.one) contenant AdversarialMind.exe."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-11T16:58:00Z"

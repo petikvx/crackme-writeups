@@ -325,6 +325,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [nx3n](authors/nx3n/README.md) | nx3n | 1 (Find a password) | 1 / 1 |
 | [kcgaming](authors/kcgaming/README.md) | kcgaming | 1 (very simple keycheck) | 1 / 1 |
 | [whekkees](authors/whekkees/README.md) | whekkees | 2 (my first simple crack me, very easy crack me $$$) | 2 / 2 |
+| [white_canary](authors/white_canary/README.md) | White_Canary | 1 (Adversarial Mind) | 1 / 1 |
 | [n0sync_](authors/n0sync_/README.md) | n0sync_ | 1 (Complex) | 1 / 1 |
 | [rm7rv](authors/rm7rv/README.md) | rm7rv | 1 (my first crackme) | 1 / 1 |
 | [Demian](authors/Demian/README.md) | Demian | 1 (entry level crackme) | 1 / 1 |
@@ -412,6 +413,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-11 | [White_Canary's Adversarial Mind](authors/white_canary/69cc0fa13e328e778db052a7/) | White_Canary |
 | 2026-11-11 | [whekkees's very easy crack me $$$](authors/whekkees/69b18b47ddd6176826ae8950/) | whekkees |
 | 2026-11-11 | [kcgaming's very simple keycheck](authors/kcgaming/6a503f2ab1e3022155040e63/) | kcgaming |
 | 2026-11-11 | [mirunaf's Floating password](authors/mirunaf/6a1896b717539b5175d123cb/) | mirunaf |
