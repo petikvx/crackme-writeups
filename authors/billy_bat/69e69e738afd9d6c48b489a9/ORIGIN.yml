@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69e69e738afd9d6c48b489a9
+
+urls:
+  page: https://crackmes.one/crackme/69e69e738afd9d6c48b489a9
+  download: https://crackmes.one/download/crackme/69e69e738afd9d6c48b489a9
+
+title: "billy_bat's My First Crackme"
+author_on_site: "billy_bat"
+author_local: "billy_bat"
+
+platform: "Windows"
+arch: "x86-64"
+language: ".NET (C#)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "1ad6aadfb6b7f4bdaba9b77bedbea3e850cf4dd3403203c8570fb6b6691cea2b"
+  md5: "19342d8aafa03c4847d1385c8af7c88a"
+  size_bytes: 70844
+
+status: solved
+solution_summary: "Serial constant en clair `password` (Program.Main, text == \"password\"); zip imbriqué, DLL .NET 9"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-11T00:45:41Z"

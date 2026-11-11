@@ -330,6 +330,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [waze_r](authors/waze_r/README.md) | Waze_r | 1 (rick_theroll_morty / the_gate) | 1 / 1 |
 | [whyyourapedme](authors/whyyourapedme/README.md) | whyyourapedme | 1 (study get PASSWORD) | 1 / 1 |
 | [michaelsrtsrt](authors/michaelsrtsrt/README.md) | michaelsrtsrt | 1 (AHardcodedKeyGoneWrong) | 1 / 1 |
+| [billy_bat](authors/billy_bat/README.md) | billy_bat | 1 (My First Crackme) | 1 / 1 |
 | [prestdayzero](authors/prestdayzero/README.md) | prestdayzero | 1 (Bobs gambling) | 1 / 1 |
 | [5](authors/5/README.md) | 5 | 1 (Quintessence) | 1 / 1 |
 | [kaban](authors/kaban/README.md) | KAban | 1 (custom protector) | 1 / 1 |
@@ -396,6 +397,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-11 | [billy_bat's My First Crackme](authors/billy_bat/69e69e738afd9d6c48b489a9/) | billy_bat |
 | 2026-11-11 | [alogen's Simple Java Verify](authors/alogen/69b7d857ddd6176826ae8a10/) | alogen |
 | 2026-11-11 | [NullerF's Easiest](authors/nullerf/6906250b2d267f28f69b7a50/) | NullerF |
 | 2026-11-11 | [Eilay_Yosfan's 3OutOf6](authors/eilay_yosfan/690210a42d267f28f69b7980/) | Eilay_Yosfan |

@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69e69e738afd9d6c48b489a9:
+    sha256: "1ad6aadfb6b7f4bdaba9b77bedbea3e850cf4dd3403203c8570fb6b6691cea2b"
+    path: "authors/billy_bat/69e69e738afd9d6c48b489a9/original/download.bin"
+    title: "billy_bat's My First Crackme"
+
+by_sha256:
+  1ad6aadfb6b7f4bdaba9b77bedbea3e850cf4dd3403203c8570fb6b6691cea2b:
+    id: 69e69e738afd9d6c48b489a9
+    path: "authors/billy_bat/69e69e738afd9d6c48b489a9/original/download.bin"
+    page: https://crackmes.one/crackme/69e69e738afd9d6c48b489a9
