@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a54d56b055757d3df60fce8:
+    sha256: "38d5c14b1cd1091a2bb1ca89284519fd3c643dabfdbce536d20925400eb78e7c"
+    path: "authors/Demian/6a54d56b055757d3df60fce8/original/download.bin"
+    title: "Demian's Demian&#39;s entry level crackme"
+
+by_sha256:
+  38d5c14b1cd1091a2bb1ca89284519fd3c643dabfdbce536d20925400eb78e7c:
+    id: 6a54d56b055757d3df60fce8
+    path: "authors/Demian/6a54d56b055757d3df60fce8/original/download.bin"
+    page: https://crackmes.one/crackme/6a54d56b055757d3df60fce8

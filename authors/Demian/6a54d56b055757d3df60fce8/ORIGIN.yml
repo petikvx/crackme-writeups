@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a54d56b055757d3df60fce8
+
+urls:
+  page: https://crackmes.one/crackme/6a54d56b055757d3df60fce8
+  download: https://crackmes.one/download/crackme/6a54d56b055757d3df60fce8
+
+title: "Demian's Demian&#39;s entry level crackme"
+author_on_site: "Demian"
+author_local: "Demian"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "38d5c14b1cd1091a2bb1ca89284519fd3c643dabfdbce536d20925400eb78e7c"
+  md5: "5899b59248f5b551cca6b8a6931c846a"
+  size_bytes: 18532
+
+status: solved
+solution_summary: "Mot de passe en clair sw0rdf1sh (strcmp dans check_password, .rdata 0x140005050) ; aucun calcul, pas de username"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-11T04:13:36Z"
