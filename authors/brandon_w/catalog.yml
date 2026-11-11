@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  694dc5b60c16072f40f5a43c:
+    sha256: "8315015eabd68f964a7616f5f53a153df604040a11eeb8702a9f7d42641def2b"
+    path: "authors/brandon_w/694dc5b60c16072f40f5a43c/original/download.bin"
+    title: "brandon_w's simple windows crackme"
+
+by_sha256:
+  8315015eabd68f964a7616f5f53a153df604040a11eeb8702a9f7d42641def2b:
+    id: 694dc5b60c16072f40f5a43c
+    path: "authors/brandon_w/694dc5b60c16072f40f5a43c/original/download.bin"
+    page: https://crackmes.one/crackme/694dc5b60c16072f40f5a43c

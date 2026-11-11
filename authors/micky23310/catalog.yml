@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6aeed49ec0ad374eab08168d:
+    sha256: "9975b7834f0b08db4865f2cf62493697e142281bd2e0521d6f3330db9a553bae"
+    path: "authors/micky23310/6aeed49ec0ad374eab08168d/original/HiddenFlag.exe"
+    title: "micky23310's HiddenFlag"
+
+by_sha256:
+  9975b7834f0b08db4865f2cf62493697e142281bd2e0521d6f3330db9a553bae:
+    id: 6aeed49ec0ad374eab08168d
+    path: "authors/micky23310/6aeed49ec0ad374eab08168d/original/HiddenFlag.exe"
+    page: https://crackmes.one/crackme/6aeed49ec0ad374eab08168d

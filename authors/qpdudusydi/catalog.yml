@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6af1cc355fa39ab0d4ac22b6:
+    sha256: "65ec9c8933d4fa03c18a67a533906733f7b571b4a5a529f03209eed5de9b7813"
+    path: "authors/qpdudusydi/6af1cc355fa39ab0d4ac22b6/original/rustcrackme.exe"
+    title: "qpdudusydi's Rust Crackme Very Easy"
+
+by_sha256:
+  65ec9c8933d4fa03c18a67a533906733f7b571b4a5a529f03209eed5de9b7813:
+    id: 6af1cc355fa39ab0d4ac22b6
+    path: "authors/qpdudusydi/6af1cc355fa39ab0d4ac22b6/original/rustcrackme.exe"
+    page: https://crackmes.one/crackme/6af1cc355fa39ab0d4ac22b6

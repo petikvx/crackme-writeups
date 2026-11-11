@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6af10b5e5fa39ab0d4ac2280:
+    sha256: "691c78409b69a11dbcc17a7dfe37e334de32e80a5b33551bc928998c959871a3"
+    path: "authors/nx3n/6af10b5e5fa39ab0d4ac2280/original/my_first_crackme.exe"
+    title: "nx3n's Find a password"
+
+by_sha256:
+  691c78409b69a11dbcc17a7dfe37e334de32e80a5b33551bc928998c959871a3:
+    id: 6af10b5e5fa39ab0d4ac2280
+    path: "authors/nx3n/6af10b5e5fa39ab0d4ac2280/original/my_first_crackme.exe"
+    page: https://crackmes.one/crackme/6af10b5e5fa39ab0d4ac2280

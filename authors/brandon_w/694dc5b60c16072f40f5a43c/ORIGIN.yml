@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 694dc5b60c16072f40f5a43c
+
+urls:
+  page: https://crackmes.one/crackme/694dc5b60c16072f40f5a43c
+  download: https://crackmes.one/download/crackme/694dc5b60c16072f40f5a43c
+
+title: "brandon_w's simple windows crackme"
+author_on_site: "brandon_w"
+author_local: "brandon_w"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "8315015eabd68f964a7616f5f53a153df604040a11eeb8702a9f7d42641def2b"
+  md5: "2c4c4b83d588924f259f5b4b6964b572"
+  size_bytes: 5745
+
+status: solved
+solution_summary: "Mot de passe fixe RCQQUMPF : l'entrée est XORée octet par octet avec 0x22 (de^ad^be^ef) puis comparée à 'password'. Pas de user (petik non applicable)."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-11T20:56:58Z"

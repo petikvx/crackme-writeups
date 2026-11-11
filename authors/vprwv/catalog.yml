@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  68e54bb82d267f28f69b740f:
+    sha256: "2d7a55ac7f00f7101cfa45688dba40d6786eb1213d72a90160871507cb717684"
+    path: "authors/vprwv/68e54bb82d267f28f69b740f/original/download.bin"
+    title: "vprwv's Random user and pw protected console app"
+
+by_sha256:
+  2d7a55ac7f00f7101cfa45688dba40d6786eb1213d72a90160871507cb717684:
+    id: 68e54bb82d267f28f69b740f
+    path: "authors/vprwv/68e54bb82d267f28f69b740f/original/download.bin"
+    page: https://crackmes.one/crackme/68e54bb82d267f28f69b740f

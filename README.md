@@ -133,7 +133,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [microsoftstorage](authors/microsoftstorage/README.md) | MicrosoftStorage | 1 (ACrack) | 1 / 1 |
 | [cyberpenguin](authors/cyberpenguin/README.md) | Cyberpenguin | 1 (What password???) | 1 / 1 |
 | [solitikburmaldatik](authors/solitikburmaldatik/README.md) | SolitikBurmaldatik | 1 (FirstCrackMe) | 1 / 1 |
-| [simbahdd](authors/simbahdd/README.md) | SimbaHDD | 3 (CRACKME + very easy crackme + first golang crackme) | 3 / 3 |
+| [simbahdd](authors/simbahdd/README.md) | SimbaHDD | 4 (CRACKME + very easy crackme + first golang crackme + easy crackme) | 4 / 4 |
 | [monsignor](authors/monsignor/README.md) | Monsignor | 1 (Monsignor's Monsignors Crackme) | 1 / 1 |
 | [tdaron](authors/tdaron/README.md) | tdaron | 1 (Use your brain) | 1 / 1 |
 | [pipedown](authors/pipedown/README.md) | pipedown | 1 (I need to be honest) | 1 / 1 |
@@ -323,6 +323,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [mintcocs](authors/mintcocs/README.md) | mintcocs | 1 (learning_vm) | 1 / 1 |
 | [stels](authors/stels/README.md) | stels | 1 (sob Obfuscator Challenge) | 1 / 1 |
 | [nx3n](authors/nx3n/README.md) | nx3n | 1 (Find a password) | 1 / 1 |
+| [brandon_w](authors/brandon_w/README.md) | brandon_w | 1 (simple windows crackme) | 1 / 1 |
 | [kcgaming](authors/kcgaming/README.md) | kcgaming | 1 (very simple keycheck) | 1 / 1 |
 | [whekkees](authors/whekkees/README.md) | whekkees | 2 (my first simple crack me, very easy crack me $$$) | 2 / 2 |
 | [white_canary](authors/white_canary/README.md) | White_Canary | 1 (Adversarial Mind) | 1 / 1 |
@@ -413,6 +414,8 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-11 | [brandon_w's simple windows crackme](authors/brandon_w/694dc5b60c16072f40f5a43c/) | brandon_w |
+| 2026-11-11 | [SimbaHDD's easy crackme](authors/simbahdd/6a160789d7ff92e1214c01f1/) | SimbaHDD |
 | 2026-11-11 | [White_Canary's Adversarial Mind](authors/white_canary/69cc0fa13e328e778db052a7/) | White_Canary |
 | 2026-11-11 | [whekkees's very easy crack me $$$](authors/whekkees/69b18b47ddd6176826ae8950/) | whekkees |
 | 2026-11-11 | [kcgaming's very simple keycheck](authors/kcgaming/6a503f2ab1e3022155040e63/) | kcgaming |

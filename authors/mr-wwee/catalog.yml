@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a76e97005a9e80a907242f2:
+    sha256: "a834a6c4cb08007a8fc6e93a4a884cdb4729127d57f19c44c2fdf081e4cd2fd6"
+    path: "authors/mr-wwee/6a76e97005a9e80a907242f2/original/download.bin"
+    title: "Mr.WWee's Easy Pick"
+
+by_sha256:
+  a834a6c4cb08007a8fc6e93a4a884cdb4729127d57f19c44c2fdf081e4cd2fd6:
+    id: 6a76e97005a9e80a907242f2
+    path: "authors/mr-wwee/6a76e97005a9e80a907242f2/original/download.bin"
+    page: https://crackmes.one/crackme/6a76e97005a9e80a907242f2

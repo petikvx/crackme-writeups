@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6aef9fff2c7537120cbe8900:
+    sha256: "0dce891bfdf86d03e5b74cebf4a317295481d78b714724bfed96d8daf4e526ae"
+    path: "authors/verenov/6aef9fff2c7537120cbe8900/original/crackme.exe"
+    title: "verenov's my first crackme :)"
+
+by_sha256:
+  0dce891bfdf86d03e5b74cebf4a317295481d78b714724bfed96d8daf4e526ae:
+    id: 6aef9fff2c7537120cbe8900
+    path: "authors/verenov/6aef9fff2c7537120cbe8900/original/crackme.exe"
+    page: https://crackmes.one/crackme/6aef9fff2c7537120cbe8900
