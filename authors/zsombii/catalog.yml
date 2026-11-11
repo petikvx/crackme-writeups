@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  693d89b50992a052ab2222d7:
+    sha256: "958a259b55a586c6c5143c13248152a516e42d76522236e0f30de449cbc4f819"
+    path: "authors/zsombii/693d89b50992a052ab2222d7/original/download.bin"
+    title: "zsombii's Easy crackme"
+
+by_sha256:
+  958a259b55a586c6c5143c13248152a516e42d76522236e0f30de449cbc4f819:
+    id: 693d89b50992a052ab2222d7
+    path: "authors/zsombii/693d89b50992a052ab2222d7/original/download.bin"
+    page: https://crackmes.one/crackme/693d89b50992a052ab2222d7

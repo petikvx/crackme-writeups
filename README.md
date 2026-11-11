@@ -333,6 +333,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [michaelsrtsrt](authors/michaelsrtsrt/README.md) | michaelsrtsrt | 1 (AHardcodedKeyGoneWrong) | 1 / 1 |
 | [billy_bat](authors/billy_bat/README.md) | billy_bat | 1 (My First Crackme) | 1 / 1 |
 | [prestdayzero](authors/prestdayzero/README.md) | prestdayzero | 1 (Bobs gambling) | 1 / 1 |
+| [zsombii](authors/zsombii/README.md) | zsombii | 1 (Easy crackme) | 1 / 1 |
 | [5](authors/5/README.md) | 5 | 1 (Quintessence) | 1 / 1 |
 | [kaban](authors/kaban/README.md) | KAban | 1 (custom protector) | 1 / 1 |
 | [alogen](authors/alogen/README.md) | alogen | 1 (Simple Java Verify) | 1 / 1 |
@@ -399,6 +400,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-11 | [zsombii's Easy crackme](authors/zsombii/693d89b50992a052ab2222d7/) | zsombii |
 | 2026-11-11 | [NullerF's Simple_GUI_crackme](authors/NullerF/69062e232d267f28f69b7a58/) | NullerF |
 | 2026-11-11 | [Lacks's Level 1](authors/Lacks/6a512980234391ae74f63ae8/) | Lacks |
 | 2026-11-11 | [Dirtbikercj's Secure License Portal](authors/Dirtbikercj/6a2fbd2b6840520e01b21e5e/) | Dirtbikercj |

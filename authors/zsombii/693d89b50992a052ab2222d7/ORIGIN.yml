@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 693d89b50992a052ab2222d7
+
+urls:
+  page: https://crackmes.one/crackme/693d89b50992a052ab2222d7
+  download: https://crackmes.one/download/crackme/693d89b50992a052ab2222d7
+
+title: "zsombii's Easy crackme"
+author_on_site: "zsombii"
+author_local: "zsombii"
+
+platform: "Multiplatform"
+arch: ""
+language: "Java (bytecode)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "958a259b55a586c6c5143c13248152a516e42d76522236e0f30de449cbc4f819"
+  md5: "07fbcb864603070f29d93e43c6de50e3"
+  size_bytes: 1459
+
+status: solved
+solution_summary: "Clé de longueur 10 avec exactement 4 caractères dont le code ASCII est multiple de 4 (préfixe KEY = leurre, iinc 1,0) ; ex. KEY0000111"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-11T02:46:23Z"
