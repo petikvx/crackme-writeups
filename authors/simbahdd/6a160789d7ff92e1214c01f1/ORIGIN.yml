@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a160789d7ff92e1214c01f1
+
+urls:
+  page: https://crackmes.one/crackme/6a160789d7ff92e1214c01f1
+  download: https://crackmes.one/download/crackme/6a160789d7ff92e1214c01f1
+
+title: "SimbaHDD's easy crackme"
+author_on_site: "SimbaHDD"
+author_local: "simbahdd"
+
+platform: "Windows"
+arch: "x86-64"
+language: ".NET"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "d75efe12be96ffafedb04b5c2e74e36140dfaa58411e7e593525dcda9232d0ec"
+  md5: "16818fd487bdf3a10d2c39eb8a3337c1"
+  size_bytes: 1708
+
+status: solved
+solution_summary: "password crackme12345simba (littéral base64 Y3JhY2ttZTEyMzQ1c2ltYmE= comparé à base64(UTF8(saisie)))"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-11T18:58:56Z"
