@@ -323,6 +323,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [mintcocs](authors/mintcocs/README.md) | mintcocs | 1 (learning_vm) | 1 / 1 |
 | [stels](authors/stels/README.md) | stels | 1 (sob Obfuscator Challenge) | 1 / 1 |
 | [nx3n](authors/nx3n/README.md) | nx3n | 1 (Find a password) | 1 / 1 |
+| [whekkees](authors/whekkees/README.md) | whekkees | 1 (my first simple crack me) | 1 / 1 |
 | [n0sync_](authors/n0sync_/README.md) | n0sync_ | 1 (Complex) | 1 / 1 |
 | [rm7rv](authors/rm7rv/README.md) | rm7rv | 1 (my first crackme) | 1 / 1 |
 | [Demian](authors/Demian/README.md) | Demian | 1 (entry level crackme) | 1 / 1 |
@@ -409,6 +410,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-11 | [whekkees's my first simple crack me](authors/whekkees/69b18083ddd6176826ae8947/) | whekkees |
 | 2026-11-11 | [sarahmills's Gopher Secrets](authors/sarahmills/6955400d24bfc29298329efc/) | sarahmills |
 | 2026-11-11 | [BadEngineer's First Crackme](authors/badengineer/694f817e0c16072f40f5a4a0/) | BadEngineer |
 | 2026-11-11 | [n0sync_'s Complex](authors/n0sync_/69435e300992a052ab222402/) | n0sync_ |

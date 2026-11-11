@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69b18083ddd6176826ae8947
+
+urls:
+  page: https://crackmes.one/crackme/69b18083ddd6176826ae8947
+  download: https://crackmes.one/download/crackme/69b18083ddd6176826ae8947
+
+title: "whekkees's my first simple crack me by whekkees"
+author_on_site: "whekkees"
+author_local: "whekkees"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++ (MSVC)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "f5c035dcf70db04111097c92f90b94f70bb2eebf79f1cfcf119b019bfc6bfb17"
+  md5: "144cac25e29e5fffc7cb0368eb22f89e"
+  size_bytes: 9193
+
+status: solved
+solution_summary: "login whekkees / password qwert (comparaisons vs immediates u32 LE dans 0x1400012a0 ; solveur + émulation unicorn)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-11T08:44:02Z"

@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69b18083ddd6176826ae8947:
+    sha256: "f5c035dcf70db04111097c92f90b94f70bb2eebf79f1cfcf119b019bfc6bfb17"
+    path: "authors/whekkees/69b18083ddd6176826ae8947/original/download.bin"
+    title: "whekkees's my first simple crack me by whekkees"
+
+by_sha256:
+  f5c035dcf70db04111097c92f90b94f70bb2eebf79f1cfcf119b019bfc6bfb17:
+    id: 69b18083ddd6176826ae8947
+    path: "authors/whekkees/69b18083ddd6176826ae8947/original/download.bin"
+    page: https://crackmes.one/crackme/69b18083ddd6176826ae8947
