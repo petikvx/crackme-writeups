@@ -337,7 +337,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [qpdudusydi](authors/qpdudusydi/README.md) | qpdudusydi | 1 (Rust Crackme Very Easy) | 1 / 1 |
 | [Lacks](authors/Lacks/README.md) | Lacks | 1 (Lacks's Level 1) | 1 / 1 |
 | [ended](authors/ended/README.md) | ended | 1 (catgirl.crack) | 1 / 1 |
-| [badengineer](authors/badengineer/README.md) | BadEngineer | 1 (BadEngineer's First Crackme) | 1 / 1 |
+| [badengineer](authors/badengineer/README.md) | BadEngineer | 2 (First Crackme, BeginnerFriendly) | 2 / 2 |
 | [sarahmills](authors/sarahmills/README.md) | sarahmills | 1 (Gopher Secrets) | 1 / 1 |
 | [kanax01](authors/kanax01/README.md) | Kanax01 | 1 (Fixed Easy Crackme) | 1 / 1 |
 | [vestige46](authors/vestige46/README.md) | vestige46 | 1 (GetToKnow) | 1 / 1 |
@@ -414,6 +414,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-11 | [BadEngineer's BeginnerFriendly](authors/badengineer/69523463044ecfaf9923f9c5/) | BadEngineer |
 | 2026-11-11 | [brandon_w's simple windows crackme](authors/brandon_w/694dc5b60c16072f40f5a43c/) | brandon_w |
 | 2026-11-11 | [SimbaHDD's easy crackme](authors/simbahdd/6a160789d7ff92e1214c01f1/) | SimbaHDD |
 | 2026-11-11 | [White_Canary's Adversarial Mind](authors/white_canary/69cc0fa13e328e778db052a7/) | White_Canary |

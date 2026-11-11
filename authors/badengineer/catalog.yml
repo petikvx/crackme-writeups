@@ -5,8 +5,17 @@ by_id:
     path: "authors/badengineer/694f817e0c16072f40f5a4a0/original/download.bin"
     title: "BadEngineer's First Crackme"
 
+  69523463044ecfaf9923f9c5:
+    sha256: "a5a23f290cffeba62c93a35396cd70528e3511b1fea43ae4e67b001e753debe3"
+    path: "authors/badengineer/69523463044ecfaf9923f9c5/original/download.bin"
+    title: "BadEngineer's BeginnerFriendly"
+
 by_sha256:
   3966389c8776f88e0bfca184d5614e1aecde669e9449b5e2cdf4afc122aee5de:
     id: 694f817e0c16072f40f5a4a0
     path: "authors/badengineer/694f817e0c16072f40f5a4a0/original/download.bin"
     page: https://crackmes.one/crackme/694f817e0c16072f40f5a4a0
+  a5a23f290cffeba62c93a35396cd70528e3511b1fea43ae4e67b001e753debe3:
+    id: 69523463044ecfaf9923f9c5
+    path: "authors/badengineer/69523463044ecfaf9923f9c5/original/download.bin"
+    page: https://crackmes.one/crackme/69523463044ecfaf9923f9c5

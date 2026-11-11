@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69523463044ecfaf9923f9c5
+
+urls:
+  page: https://crackmes.one/crackme/69523463044ecfaf9923f9c5
+  download: https://crackmes.one/download/crackme/69523463044ecfaf9923f9c5
+
+title: "BadEngineer's BeginnerFriendly"
+author_on_site: "BadEngineer"
+author_local: "badengineer"
+
+platform: "Windows"
+arch: "x86"
+language: "C (MinGW GCC 6.3.0)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "a5a23f290cffeba62c93a35396cd70528e3511b1fea43ae4e67b001e753debe3"
+  md5: "0d6b1388b84bb5dcedfe7f12e2665ab0"
+  size_bytes: 19756
+
+status: solved
+solution_summary: "Somme des codes ASCII == 0x4d8 (1240) et strlen <= 16 ; tout mot de passe convenable, ex. petik→petikuuuttt. Solveur beginnerfriendly-solve.py"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-11T22:56:51Z"
