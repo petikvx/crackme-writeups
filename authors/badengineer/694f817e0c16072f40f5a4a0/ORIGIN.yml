@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 694f817e0c16072f40f5a4a0
+
+urls:
+  page: https://crackmes.one/crackme/694f817e0c16072f40f5a4a0
+  download: https://crackmes.one/download/crackme/694f817e0c16072f40f5a4a0
+
+title: "BadEngineer's First Crackme"
+author_on_site: "BadEngineer"
+author_local: "badengineer"
+
+platform: "Windows"
+arch: "x86"
+language: "C (MinGW GCC 6.3.0)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "3966389c8776f88e0bfca184d5614e1aecde669e9449b5e2cdf4afc122aee5de"
+  md5: "018766c39d62b7bb8251d4e535390f57"
+  size_bytes: 20624
+
+status: solved
+solution_summary: "Mot de passe 9 chars : p[0]=c (libre, <= '5' pour main), p[i]=p[i-1]+i ; ex. 0136:?ELT. Solveur easycrackme-solve.py"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-11T07:39:42Z"

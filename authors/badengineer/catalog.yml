@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  694f817e0c16072f40f5a4a0:
+    sha256: "3966389c8776f88e0bfca184d5614e1aecde669e9449b5e2cdf4afc122aee5de"
+    path: "authors/badengineer/694f817e0c16072f40f5a4a0/original/download.bin"
+    title: "BadEngineer's First Crackme"
+
+by_sha256:
+  3966389c8776f88e0bfca184d5614e1aecde669e9449b5e2cdf4afc122aee5de:
+    id: 694f817e0c16072f40f5a4a0
+    path: "authors/badengineer/694f817e0c16072f40f5a4a0/original/download.bin"
+    page: https://crackmes.one/crackme/694f817e0c16072f40f5a4a0

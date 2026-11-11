@@ -333,6 +333,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [qpdudusydi](authors/qpdudusydi/README.md) | qpdudusydi | 1 (Rust Crackme Very Easy) | 1 / 1 |
 | [Lacks](authors/Lacks/README.md) | Lacks | 1 (Lacks's Level 1) | 1 / 1 |
 | [ended](authors/ended/README.md) | ended | 1 (catgirl.crack) | 1 / 1 |
+| [badengineer](authors/badengineer/README.md) | BadEngineer | 1 (BadEngineer's First Crackme) | 1 / 1 |
 | [kanax01](authors/kanax01/README.md) | Kanax01 | 1 (Fixed Easy Crackme) | 1 / 1 |
 | [vestige46](authors/vestige46/README.md) | vestige46 | 1 (GetToKnow) | 1 / 1 |
 | [waze_r](authors/waze_r/README.md) | Waze_r | 1 (rick_theroll_morty / the_gate) | 1 / 1 |
@@ -407,6 +408,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-11 | [BadEngineer's First Crackme](authors/badengineer/694f817e0c16072f40f5a4a0/) | BadEngineer |
 | 2026-11-11 | [n0sync_'s Complex](authors/n0sync_/69435e300992a052ab222402/) | n0sync_ |
 | 2026-11-11 | [illusionxxx's simple crackme](authors/illusionxxx/6929c3af2d267f28f69b8196/) | illusionxxx |
 | 2026-11-11 | [arasreal's SimpleCrackMe](authors/arasreal/69b33ffcddd6176826ae8975/) | arasreal |
