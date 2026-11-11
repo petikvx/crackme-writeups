@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69b33ffcddd6176826ae8975:
+    sha256: "cc6ca4337a3d585f1ee39581ade773ee0542c796238f10bc2e150ef730492b37"
+    path: "authors/arasreal/69b33ffcddd6176826ae8975/original/download.bin"
+    title: "arasreal's SimpleCrackMe"
+
+by_sha256:
+  cc6ca4337a3d585f1ee39581ade773ee0542c796238f10bc2e150ef730492b37:
+    id: 69b33ffcddd6176826ae8975
+    path: "authors/arasreal/69b33ffcddd6176826ae8975/original/download.bin"
+    page: https://crackmes.one/crackme/69b33ffcddd6176826ae8975

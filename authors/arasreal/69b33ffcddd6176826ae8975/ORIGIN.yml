@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69b33ffcddd6176826ae8975
+
+urls:
+  page: https://crackmes.one/crackme/69b33ffcddd6176826ae8975
+  download: https://crackmes.one/download/crackme/69b33ffcddd6176826ae8975
+
+title: "arasreal's SimpleCrackMe"
+author_on_site: "arasreal"
+author_local: "arasreal"
+
+platform: "Windows"
+arch: "x86"
+language: "C++ (MSVC, x86)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "cc6ca4337a3d585f1ee39581ade773ee0542c796238f10bc2e150ef730492b37"
+  md5: "3e31415d7517f593e1f34c2d9bfcfa91"
+  size_bytes: 10868
+
+status: solved
+solution_summary: "Mot de passe = concaténation de 12 std::string littérales (succ+ess+good+try+but+you+are+found+at+ry+pass+01) = successgoodtrybutyouarefoundatrypass01 ; anti-debug IsDebuggerPresent seulement. Vérifié par émulation unicorn de main()."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-11T06:14:32Z"

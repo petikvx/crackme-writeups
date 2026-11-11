@@ -324,6 +324,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [nx3n](authors/nx3n/README.md) | nx3n | 1 (Find a password) | 1 / 1 |
 | [rm7rv](authors/rm7rv/README.md) | rm7rv | 1 (my first crackme) | 1 / 1 |
 | [Demian](authors/Demian/README.md) | Demian | 1 (entry level crackme) | 1 / 1 |
+| [arasreal](authors/arasreal/README.md) | arasreal | 1 (SimpleCrackMe) | 1 / 1 |
 | [maxpsger](authors/maxpsger/README.md) | maxpsger | 1 (Easy crackme) | 1 / 1 |
 | [eilay_yosfan](authors/eilay_yosfan/README.md) | Eilay_Yosfan | 1 (3OutOf6) | 1 / 1 |
 | [nullerf](authors/nullerf/README.md) | NullerF | 2 (Easiest + Simple_GUI_crackme) | 2 / 2 |
@@ -404,6 +405,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-11 | [arasreal's SimpleCrackMe](authors/arasreal/69b33ffcddd6176826ae8975/) | arasreal |
 | 2026-11-11 | [esofl's easycrack](authors/esofl/699b27efc1756e2381cffa4d/) | esofl |
 | 2026-11-11 | [0x3xp's Project Obscura](authors/0x3xp/69774182d735cd51e7a1aadc/) | 0x3xp |
 | 2026-11-11 | [plikan's Ez Crackme (WinForms)](authors/plikan/694f2baf0c16072f40f5a495/) | plikan |
