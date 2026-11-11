@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69774182d735cd51e7a1aadc
+
+urls:
+  page: https://crackmes.one/crackme/69774182d735cd51e7a1aadc
+  download: https://crackmes.one/download/crackme/69774182d735cd51e7a1aadc
+
+title: "0x3xp's Project Obscura"
+author_on_site: "0x3xp"
+author_local: "0x3xp"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C (MinGW)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "655b5464d3538e25e76bf3bd75090284be82bee0b1add73274148a8c2bb24f79"
+  md5: "7359104bd2d044b8afac715533e857af"
+  size_bytes: 45392
+
+status: solved
+solution_summary: "Code secret 0xP670PPGT56DEA (15 octets reordonnés par sprintf %c) ; flag CTF{R3v3rs3_EnG_1s_4M1ndG4m3s}"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-11T05:16:03Z"

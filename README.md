@@ -173,6 +173,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [c1](authors/c1/README.md) | c1 | 1 (c1_keygenme1) | 1 / 1 |
 | [rion](authors/rion/README.md) | rion | 1 (keyGme) | 1 / 1 |
 | [yuri](authors/yuri/README.md) | Yuri | 1 (Simple Keygen) | 1 / 1 |
+| [0x3xp](authors/0x3xp/README.md) | 0x3xp | 1 (Project Obscura) | 1 / 1 |
 | [inxaneninja](authors/inxaneninja/README.md) | inxaneninja | 1 (Keygen Practice) | 1 / 1 |
 | [loz](authors/loz/README.md) | Loz | 2 (Password Login 2) | 2 / 2 |
 | [m00ny](authors/m00ny/README.md) | m00ny | 1 (am i really random?) | 1 / 1 |
@@ -402,6 +403,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-11 | [0x3xp's Project Obscura](authors/0x3xp/69774182d735cd51e7a1aadc/) | 0x3xp |
 | 2026-11-11 | [plikan's Ez Crackme (WinForms)](authors/plikan/694f2baf0c16072f40f5a495/) | plikan |
 | 2026-11-11 | [Demian's entry level crackme](authors/Demian/6a54d56b055757d3df60fce8/) | Demian |
 | 2026-11-11 | [rm7rv's my first crackme](authors/rm7rv/69ce60243e328e778db052cd/) | rm7rv |

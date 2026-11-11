@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69774182d735cd51e7a1aadc:
+    sha256: "655b5464d3538e25e76bf3bd75090284be82bee0b1add73274148a8c2bb24f79"
+    path: "authors/0x3xp/69774182d735cd51e7a1aadc/original/download.bin"
+    title: "0x3xp's Project Obscura"
+
+by_sha256:
+  655b5464d3538e25e76bf3bd75090284be82bee0b1add73274148a8c2bb24f79:
+    id: 69774182d735cd51e7a1aadc
+    path: "authors/0x3xp/69774182d735cd51e7a1aadc/original/download.bin"
+    page: https://crackmes.one/crackme/69774182d735cd51e7a1aadc
