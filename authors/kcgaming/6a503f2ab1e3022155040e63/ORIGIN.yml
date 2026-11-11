@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a503f2ab1e3022155040e63
+
+urls:
+  page: https://crackmes.one/crackme/6a503f2ab1e3022155040e63
+  download: https://crackmes.one/download/crackme/6a503f2ab1e3022155040e63
+
+title: "kcgaming's very simple keycheck"
+author_on_site: "kcgaming"
+author_local: "kcgaming"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "5b45d19e6e58e3dcc335490388cd436d718fdcae9ae7b2261e8571f22979608d"
+  md5: "3df9b2985aa50568d6d0451ce06a3f00"
+  size_bytes: 24284
+
+status: solved
+solution_summary: "checkPassword(int) : cmp ecx,0x4d2 → entrer 1234"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-11T11:00:50Z"

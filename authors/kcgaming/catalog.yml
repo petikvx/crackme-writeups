@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a503f2ab1e3022155040e63:
+    sha256: "5b45d19e6e58e3dcc335490388cd436d718fdcae9ae7b2261e8571f22979608d"
+    path: "authors/kcgaming/6a503f2ab1e3022155040e63/original/download.bin"
+    title: "kcgaming's very simple keycheck"
+
+by_sha256:
+  5b45d19e6e58e3dcc335490388cd436d718fdcae9ae7b2261e8571f22979608d:
+    id: 6a503f2ab1e3022155040e63
+    path: "authors/kcgaming/6a503f2ab1e3022155040e63/original/download.bin"
+    page: https://crackmes.one/crackme/6a503f2ab1e3022155040e63
