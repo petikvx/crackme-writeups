@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69ce60243e328e778db052cd
+
+urls:
+  page: https://crackmes.one/crackme/69ce60243e328e778db052cd
+  download: https://crackmes.one/download/crackme/69ce60243e328e778db052cd
+
+title: "rm7rv's my first crackme"
+author_on_site: "rm7rv"
+author_local: "rm7rv"
+
+platform: "Windows"
+arch: "x86-64"
+language: "Rust"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "e933cf607f387af4f55543e9c1e84a5586b7ed12059fa940056514dd5b2c6467"
+  md5: "f48a587ff30bb8d2573e6ab3c868c7a0"
+  size_bytes: 104268
+
+status: solved
+solution_summary: "Login ADMIN (majuscules) : MD5 du login == 73acd9a5972130b75066c82595a1fae3 ; Rust + obfstr, vérifié par émulation Unicorn de main"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-11T03:46:07Z"

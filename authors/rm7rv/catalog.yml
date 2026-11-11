@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69ce60243e328e778db052cd:
+    sha256: "e933cf607f387af4f55543e9c1e84a5586b7ed12059fa940056514dd5b2c6467"
+    path: "authors/rm7rv/69ce60243e328e778db052cd/original/download.bin"
+    title: "rm7rv's my first crackme"
+
+by_sha256:
+  e933cf607f387af4f55543e9c1e84a5586b7ed12059fa940056514dd5b2c6467:
+    id: 69ce60243e328e778db052cd
+    path: "authors/rm7rv/69ce60243e328e778db052cd/original/download.bin"
+    page: https://crackmes.one/crackme/69ce60243e328e778db052cd

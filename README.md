@@ -320,6 +320,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [mintcocs](authors/mintcocs/README.md) | mintcocs | 1 (learning_vm) | 1 / 1 |
 | [stels](authors/stels/README.md) | stels | 1 (sob Obfuscator Challenge) | 1 / 1 |
 | [nx3n](authors/nx3n/README.md) | nx3n | 1 (Find a password) | 1 / 1 |
+| [rm7rv](authors/rm7rv/README.md) | rm7rv | 1 (my first crackme) | 1 / 1 |
 | [maxpsger](authors/maxpsger/README.md) | maxpsger | 1 (Easy crackme) | 1 / 1 |
 | [eilay_yosfan](authors/eilay_yosfan/README.md) | Eilay_Yosfan | 1 (3OutOf6) | 1 / 1 |
 | [nullerf](authors/nullerf/README.md) | NullerF | 2 (Easiest + Simple_GUI_crackme) | 2 / 2 |
@@ -400,6 +401,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-11 | [rm7rv's my first crackme](authors/rm7rv/69ce60243e328e778db052cd/) | rm7rv |
 | 2026-11-11 | [zsombii's Easy crackme](authors/zsombii/693d89b50992a052ab2222d7/) | zsombii |
 | 2026-11-11 | [NullerF's Simple_GUI_crackme](authors/NullerF/69062e232d267f28f69b7a58/) | NullerF |
 | 2026-11-11 | [Lacks's Level 1](authors/Lacks/6a512980234391ae74f63ae8/) | Lacks |
