@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a512980234391ae74f63ae8:
+    sha256: "489aaa8d0feaea9aad011be74bfbf2177fd4e7569849beb600ed271ca03940d4"
+    path: "authors/Lacks/6a512980234391ae74f63ae8/original/download.bin"
+    title: "Lacks's Level 1"
+
+by_sha256:
+  489aaa8d0feaea9aad011be74bfbf2177fd4e7569849beb600ed271ca03940d4:
+    id: 6a512980234391ae74f63ae8
+    path: "authors/Lacks/6a512980234391ae74f63ae8/original/download.bin"
+    page: https://crackmes.one/crackme/6a512980234391ae74f63ae8

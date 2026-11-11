@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a512980234391ae74f63ae8
+
+urls:
+  page: https://crackmes.one/crackme/6a512980234391ae74f63ae8
+  download: https://crackmes.one/download/crackme/6a512980234391ae74f63ae8
+
+title: "Lacks's Level 1"
+author_on_site: "Lacks"
+author_local: "Lacks"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++ (MSVC)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "489aaa8d0feaea9aad011be74bfbf2177fd4e7569849beb600ed271ca03940d4"
+  md5: "635402f2a8a9c6900c6996b6a873c0aa"
+  size_bytes: 8831
+
+status: solved
+solution_summary: "Mot de passe statique `password` : main() fait memcmp(entrée, \"password\", 8) (std::string SSO de 8 octets en .rdata 0x1400033C8). Pas de username."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-11T01:36:45Z"
