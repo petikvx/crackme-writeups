@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69b18b47ddd6176826ae8950
+
+urls:
+  page: https://crackmes.one/crackme/69b18b47ddd6176826ae8950
+  download: https://crackmes.one/download/crackme/69b18b47ddd6176826ae8950
+
+title: "whekkees's very easy crack me $$$ by whekkees"
+author_on_site: "whekkees"
+author_local: "whekkees"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "93268b86eac29badd9b36daa065f0455727212902356ac890d7e4737d7a7a8d3"
+  md5: "76a5fa0415c979d3f2267bfdcc933788"
+  size_bytes: 9369
+
+status: solved
+solution_summary: "login whekkes / password qwerty (immediates C-string, strlen+memcmp) ; petik refusé"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-11T14:59:28Z"
