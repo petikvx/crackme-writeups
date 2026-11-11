@@ -323,6 +323,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [mintcocs](authors/mintcocs/README.md) | mintcocs | 1 (learning_vm) | 1 / 1 |
 | [stels](authors/stels/README.md) | stels | 1 (sob Obfuscator Challenge) | 1 / 1 |
 | [nx3n](authors/nx3n/README.md) | nx3n | 1 (Find a password) | 1 / 1 |
+| [n0sync_](authors/n0sync_/README.md) | n0sync_ | 1 (Complex) | 1 / 1 |
 | [rm7rv](authors/rm7rv/README.md) | rm7rv | 1 (my first crackme) | 1 / 1 |
 | [Demian](authors/Demian/README.md) | Demian | 1 (entry level crackme) | 1 / 1 |
 | [arasreal](authors/arasreal/README.md) | arasreal | 1 (SimpleCrackMe) | 1 / 1 |
@@ -406,6 +407,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-11 | [n0sync_'s Complex](authors/n0sync_/69435e300992a052ab222402/) | n0sync_ |
 | 2026-11-11 | [illusionxxx's simple crackme](authors/illusionxxx/6929c3af2d267f28f69b8196/) | illusionxxx |
 | 2026-11-11 | [arasreal's SimpleCrackMe](authors/arasreal/69b33ffcddd6176826ae8975/) | arasreal |
 | 2026-11-11 | [esofl's easycrack](authors/esofl/699b27efc1756e2381cffa4d/) | esofl |

@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69435e300992a052ab222402:
+    sha256: "fe33e39f80f7c36f81baf1db67b8323a5cb3f5b9255f62e9b20181ac12b4c62d"
+    path: "authors/n0sync_/69435e300992a052ab222402/original/download.bin"
+    title: "n0sync_'s Complex"
+
+by_sha256:
+  fe33e39f80f7c36f81baf1db67b8323a5cb3f5b9255f62e9b20181ac12b4c62d:
+    id: 69435e300992a052ab222402
+    path: "authors/n0sync_/69435e300992a052ab222402/original/download.bin"
+    page: https://crackmes.one/crackme/69435e300992a052ab222402

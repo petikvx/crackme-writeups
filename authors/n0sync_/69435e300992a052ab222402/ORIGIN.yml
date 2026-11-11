@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69435e300992a052ab222402
+
+urls:
+  page: https://crackmes.one/crackme/69435e300992a052ab222402
+  download: https://crackmes.one/download/crackme/69435e300992a052ab222402
+
+title: "n0sync_'s Complex"
+author_on_site: "n0sync_"
+author_local: "n0sync_"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++ (MinGW-w64 GCC 15.2)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "fe33e39f80f7c36f81baf1db67b8323a5cb3f5b9255f62e9b20181ac12b4c62d"
+  md5: "e9462c6f11cc6bb5ea030906e98b94a9"
+  size_bytes: 40565
+
+status: solved
+solution_summary: "2 std::complex<double> sur stdin : (1,1.1) puis (11,1.1) (ex. petik : sans objet, pas de user)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-11T07:15:56Z"
