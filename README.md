@@ -173,6 +173,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [c1](authors/c1/README.md) | c1 | 1 (c1_keygenme1) | 1 / 1 |
 | [rion](authors/rion/README.md) | rion | 1 (keyGme) | 1 / 1 |
 | [yuri](authors/yuri/README.md) | Yuri | 1 (Simple Keygen) | 1 / 1 |
+| [illusionxxx](authors/illusionxxx/README.md) | illusionxxx | 1 (simple crackme) | 1 / 1 |
 | [0x3xp](authors/0x3xp/README.md) | 0x3xp | 1 (Project Obscura) | 1 / 1 |
 | [esofl](authors/esofl/README.md) | esofl | 1 (esofl's easycrack) | 1 / 1 |
 | [inxaneninja](authors/inxaneninja/README.md) | inxaneninja | 1 (Keygen Practice) | 1 / 1 |
@@ -405,6 +406,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-11 | [illusionxxx's simple crackme](authors/illusionxxx/6929c3af2d267f28f69b8196/) | illusionxxx |
 | 2026-11-11 | [arasreal's SimpleCrackMe](authors/arasreal/69b33ffcddd6176826ae8975/) | arasreal |
 | 2026-11-11 | [esofl's easycrack](authors/esofl/699b27efc1756e2381cffa4d/) | esofl |
 | 2026-11-11 | [0x3xp's Project Obscura](authors/0x3xp/69774182d735cd51e7a1aadc/) | 0x3xp |

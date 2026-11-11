@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6929c3af2d267f28f69b8196:
+    sha256: "52fb92e1616f562cf0f01dda1f7b5d6e257341634ac8906d95985f601cf15dd3"
+    path: "authors/illusionxxx/6929c3af2d267f28f69b8196/original/download.bin"
+    title: "illusionxxx's simple crackme"
+
+by_sha256:
+  52fb92e1616f562cf0f01dda1f7b5d6e257341634ac8906d95985f601cf15dd3:
+    id: 6929c3af2d267f28f69b8196
+    path: "authors/illusionxxx/6929c3af2d267f28f69b8196/original/download.bin"
+    page: https://crackmes.one/crackme/6929c3af2d267f28f69b8196

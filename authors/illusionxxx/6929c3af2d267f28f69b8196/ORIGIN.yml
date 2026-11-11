@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6929c3af2d267f28f69b8196
+
+urls:
+  page: https://crackmes.one/crackme/6929c3af2d267f28f69b8196
+  download: https://crackmes.one/download/crackme/6929c3af2d267f28f69b8196
+
+title: "illusionxxx's simple crackme"
+author_on_site: "illusionxxx"
+author_local: "illusionxxx"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++ (MinGW-w64)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "52fb92e1616f562cf0f01dda1f7b5d6e257341634ac8906d95985f601cf15dd3"
+  md5: "85c60a6acdbc250eb3362959b1c3f7ff"
+  size_bytes: 7596
+
+status: solved
+solution_summary: "mot de passe fixe d7pghz8m : saisie[i]^len(saisie) == 'l?xo`0re' (len=8 -> XOR 8) ; ZIP a.exe PE64 MinGW ; validé par émulation unicorn"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-11T06:38:19Z"
