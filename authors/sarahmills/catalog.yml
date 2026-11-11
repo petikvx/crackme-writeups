@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6955400d24bfc29298329efc:
+    sha256: "7c9312c94ec40d20f7ac83867989b75ec2e71003bcd7a2f0587cfa39478a4d69"
+    path: "authors/sarahmills/6955400d24bfc29298329efc/original/download.bin"
+    title: "sarahmills's Gopher Secrets"
+
+by_sha256:
+  7c9312c94ec40d20f7ac83867989b75ec2e71003bcd7a2f0587cfa39478a4d69:
+    id: 6955400d24bfc29298329efc
+    path: "authors/sarahmills/6955400d24bfc29298329efc/original/download.bin"
+    page: https://crackmes.one/crackme/6955400d24bfc29298329efc

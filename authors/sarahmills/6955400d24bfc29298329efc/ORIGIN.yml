@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6955400d24bfc29298329efc
+
+urls:
+  page: https://crackmes.one/crackme/6955400d24bfc29298329efc
+  download: https://crackmes.one/download/crackme/6955400d24bfc29298329efc
+
+title: "sarahmills's Gopher Secrets"
+author_on_site: "sarahmills"
+author_local: "sarahmills"
+
+platform: "Multiplatform"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "7c9312c94ec40d20f7ac83867989b75ec2e71003bcd7a2f0587cfa39478a4d69"
+  md5: "a6461c326a3dbc4406835fd49f7efa33"
+  size_bytes: 1480796
+
+status: solved
+solution_summary: "Flag statique CTF{g0_r3v3rs3_m4st3r_1640991415} (argv[1]) : buildRealFlag = concat de morceaux + str(1640995200^0x1337) ; decoyChecker (MD5) est un leurre toujours faux"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-11T08:06:49Z"
