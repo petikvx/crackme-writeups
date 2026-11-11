@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  699b27efc1756e2381cffa4d:
+    sha256: "9a57c41326d4edab97b2910b563bbdb57abea372287797c5d15877301183468c"
+    path: "authors/esofl/699b27efc1756e2381cffa4d/original/download.bin"
+    title: "esofl's easycrack"
+
+by_sha256:
+  9a57c41326d4edab97b2910b563bbdb57abea372287797c5d15877301183468c:
+    id: 699b27efc1756e2381cffa4d
+    path: "authors/esofl/699b27efc1756e2381cffa4d/original/download.bin"
+    page: https://crackmes.one/crackme/699b27efc1756e2381cffa4d

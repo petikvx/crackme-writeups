@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 699b27efc1756e2381cffa4d
+
+urls:
+  page: https://crackmes.one/crackme/699b27efc1756e2381cffa4d
+  download: https://crackmes.one/download/crackme/699b27efc1756e2381cffa4d
+
+title: "esofl's easycrack"
+author_on_site: "esofl"
+author_local: "esofl"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++ (MinGW, FLTK + OpenSSL)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "9a57c41326d4edab97b2910b563bbdb57abea372287797c5d15877301183468c"
+  md5: "8416f80dec188d217ab6f45506dbe7eb"
+  size_bytes: 3620239
+
+status: solved
+solution_summary: "main.exe (FLTK, dans un zip imbriqué) compare SHA-256(saisie) en hex à 5e884898… = sha256('password') ; mot de passe : password"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-11T05:44:43Z"
