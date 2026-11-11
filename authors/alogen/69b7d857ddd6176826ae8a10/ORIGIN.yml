@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69b7d857ddd6176826ae8a10
+
+urls:
+  page: https://crackmes.one/crackme/69b7d857ddd6176826ae8a10
+  download: https://crackmes.one/download/crackme/69b7d857ddd6176826ae8a10
+
+title: "alogen's Simple Java Verify"
+author_on_site: "alogen"
+author_local: "alogen"
+
+platform: "Android"
+arch: ""
+language: "Java (Dalvik)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "87bda96ba59b5b8f16154880feb4a9735190cb1b4f9e2dc0dbce9082275bfca7"
+  md5: "0dae4763a6f5826d193be0c5a515ceee"
+  size_bytes: 80866
+
+status: solved
+solution_summary: "len==8, préfixe 77, suffixe 1 ; petik→77petik1"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-11T00:12:10Z"

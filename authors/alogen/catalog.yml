@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69b7d857ddd6176826ae8a10:
+    sha256: "87bda96ba59b5b8f16154880feb4a9735190cb1b4f9e2dc0dbce9082275bfca7"
+    path: "authors/alogen/69b7d857ddd6176826ae8a10/original/download.bin"
+    title: "alogen's Simple Java Verify"
+
+by_sha256:
+  87bda96ba59b5b8f16154880feb4a9735190cb1b4f9e2dc0dbce9082275bfca7:
+    id: 69b7d857ddd6176826ae8a10
+    path: "authors/alogen/69b7d857ddd6176826ae8a10/original/download.bin"
+    page: https://crackmes.one/crackme/69b7d857ddd6176826ae8a10
