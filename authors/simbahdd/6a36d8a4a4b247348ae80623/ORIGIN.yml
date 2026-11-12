@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a36d8a4a4b247348ae80623
+
+urls:
+  page: https://crackmes.one/crackme/6a36d8a4a4b247348ae80623
+  download: https://crackmes.one/download/crackme/6a36d8a4a4b247348ae80623
+
+title: "SimbaHDD's CRACKME"
+author_on_site: "SimbaHDD"
+author_local: "simbahdd"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "78aa5e487aa3f3d2981db5c62d6cf1f2d5cc94bf8ac658483c3c5c882759c7ec"
+  md5: "a485009e989c3d8de9f474cfab15bd86"
+  size_bytes: 20760
+
+status: solved
+solution_summary: "clé fixe 12 octets non imprimable 3c0f553c2422ac30aeafac55 : ((c^0x55)+7)^0x33 == \"CR4CKM3_1234\" (inversion ; vérifié par émulation unicorn)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-12T00:58:13Z"

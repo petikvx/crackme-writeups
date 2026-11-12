@@ -20,6 +20,11 @@ by_id:
     path: "authors/simbahdd/6a160789d7ff92e1214c01f1/original/download.bin"
     title: "SimbaHDD's easy crackme"
 
+  6a36d8a4a4b247348ae80623:
+    sha256: "78aa5e487aa3f3d2981db5c62d6cf1f2d5cc94bf8ac658483c3c5c882759c7ec"
+    path: "authors/simbahdd/6a36d8a4a4b247348ae80623/original/download.bin"
+    title: "SimbaHDD's CRACKME"
+
 by_sha256:
   dead29f6b77611aacf0467139236c0ddc6fb422bfa0422721003c9f19c46ca1a:
     id: 6a160c2a2b3df128c1df5cc1
@@ -37,3 +42,7 @@ by_sha256:
     id: 6a160789d7ff92e1214c01f1
     path: "authors/simbahdd/6a160789d7ff92e1214c01f1/original/download.bin"
     page: https://crackmes.one/crackme/6a160789d7ff92e1214c01f1
+  78aa5e487aa3f3d2981db5c62d6cf1f2d5cc94bf8ac658483c3c5c882759c7ec:
+    id: 6a36d8a4a4b247348ae80623
+    path: "authors/simbahdd/6a36d8a4a4b247348ae80623/original/download.bin"
+    page: https://crackmes.one/crackme/6a36d8a4a4b247348ae80623
