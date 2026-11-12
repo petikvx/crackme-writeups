@@ -133,6 +133,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [microsoftstorage](authors/microsoftstorage/README.md) | MicrosoftStorage | 1 (ACrack) | 1 / 1 |
 | [cyberpenguin](authors/cyberpenguin/README.md) | Cyberpenguin | 1 (What password???) | 1 / 1 |
 | [solitikburmaldatik](authors/solitikburmaldatik/README.md) | SolitikBurmaldatik | 1 (FirstCrackMe) | 1 / 1 |
+| [doncris](authors/doncris/README.md) | DonCris | 1 (Existential Vending Machine) | 1 / 1 |
 | [simbahdd](authors/simbahdd/README.md) | SimbaHDD | 5 (CRACKME + very easy crackme + first golang crackme + easy crackme + CRACKME 2) | 5 / 5 |
 | [monsignor](authors/monsignor/README.md) | Monsignor | 1 (Monsignor's Monsignors Crackme) | 1 / 1 |
 | [tdaron](authors/tdaron/README.md) | tdaron | 1 (Use your brain) | 1 / 1 |
@@ -414,6 +415,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-12 | [DonCris's Existential Vending Machine](authors/doncris/696280f08cfebaa7f00e32b0/) | DonCris |
 | 2026-11-12 | [SimbaHDD's CRACKME (2)](authors/simbahdd/6a36d8a4a4b247348ae80623/) | SimbaHDD |
 | 2026-11-11 | [BadEngineer's BeginnerFriendly](authors/badengineer/69523463044ecfaf9923f9c5/) | BadEngineer |
 | 2026-11-11 | [brandon_w's simple windows crackme](authors/brandon_w/694dc5b60c16072f40f5a43c/) | brandon_w |

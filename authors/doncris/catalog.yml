@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  696280f08cfebaa7f00e32b0:
+    sha256: "b604f5840512560b22f433f8e66a30cd1547903419dfe9c4527c1f8d89181e3e"
+    path: "authors/doncris/696280f08cfebaa7f00e32b0/original/download.bin"
+    title: "DonCris's Existential Vending Machine"
+
+by_sha256:
+  b604f5840512560b22f433f8e66a30cd1547903419dfe9c4527c1f8d89181e3e:
+    id: 696280f08cfebaa7f00e32b0
+    path: "authors/doncris/696280f08cfebaa7f00e32b0/original/download.bin"
+    page: https://crackmes.one/crackme/696280f08cfebaa7f00e32b0

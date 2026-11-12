@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 696280f08cfebaa7f00e32b0
+
+urls:
+  page: https://crackmes.one/crackme/696280f08cfebaa7f00e32b0
+  download: https://crackmes.one/download/crackme/696280f08cfebaa7f00e32b0
+
+title: "DonCris's Existential Vending Machine"
+author_on_site: "DonCris"
+author_local: "doncris"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++ (MinGW-w64)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "b604f5840512560b22f433f8e66a30cd1547903419dfe9c4527c1f8d89181e3e"
+  md5: "b59341e42b8d115ee4fc1667f37a6b93"
+  size_bytes: 25947
+
+status: solved
+solution_summary: "keygen : petik→57555 ; code = (13*sum(nom)+7 ^ 0xface) - 0x7b (calculate_soul_weight + main)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-12T02:54:40Z"
