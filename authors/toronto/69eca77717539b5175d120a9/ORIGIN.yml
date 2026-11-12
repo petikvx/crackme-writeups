@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69eca77717539b5175d120a9
+
+urls:
+  page: https://crackmes.one/crackme/69eca77717539b5175d120a9
+  download: https://crackmes.one/download/crackme/69eca77717539b5175d120a9
+
+title: "Toronto's aola"
+author_on_site: "Toronto"
+author_local: "toronto"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C (MinGW-w64)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "44caf73e2e2255e903df83344dd7a3a3ed0c77c47d421f2dc30a6dfb08f0d791"
+  md5: "be0eab0f859dcb7841e6deaec5e641e0"
+  size_bytes: 7636
+
+status: solved
+solution_summary: "Mot de passe en dur Yippie-Ki-Yay (13 octets XOR 0xAA dans .data) ; pas de username (petik→non applicable) ; download.bin est un ZIP contenant b.exe, extrait sous analysis/"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-12T09:02:48Z"

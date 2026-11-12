@@ -4,9 +4,17 @@ by_id:
     sha256: "070f760ebce0c2fbdd8b93d26865e3417a8f0ae25fd8164c657339851dbc8823"
     path: "authors/toronto/69e352c2643676f8bb961d2e/original/Wrieyster"
     title: "Toronto's c"
+  69eca77717539b5175d120a9:
+    sha256: "44caf73e2e2255e903df83344dd7a3a3ed0c77c47d421f2dc30a6dfb08f0d791"
+    path: "authors/toronto/69eca77717539b5175d120a9/original/download.bin"
+    title: "Toronto's aola"
 
 by_sha256:
   070f760ebce0c2fbdd8b93d26865e3417a8f0ae25fd8164c657339851dbc8823:
     id: 69e352c2643676f8bb961d2e
     path: "authors/toronto/69e352c2643676f8bb961d2e/original/Wrieyster"
     page: https://crackmes.one/crackme/69e352c2643676f8bb961d2e
+  44caf73e2e2255e903df83344dd7a3a3ed0c77c47d421f2dc30a6dfb08f0d791:
+    id: 69eca77717539b5175d120a9
+    path: "authors/toronto/69eca77717539b5175d120a9/original/download.bin"
+    page: https://crackmes.one/crackme/69eca77717539b5175d120a9

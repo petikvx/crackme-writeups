@@ -9,3 +9,4 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml).
 | # | Titre | ID | Plateforme | Solution |
 |---|---|---|---|---|
 | 1 | [c](69e352c2643676f8bb961d2e/) | [`69e352c2…`](https://crackmes.one/crackme/69e352c2643676f8bb961d2e) | Linux ELF64 PIE C (strings hex-encodees) | mot de passe en dur `Shake it, baby!` |
+| 2 | [aola](69eca77717539b5175d120a9/) | [`69eca777…`](https://crackmes.one/crackme/69eca77717539b5175d120a9) | Windows PE64 console (MinGW) | **solved** — mot de passe `Yippie-Ki-Yay` (XOR 0xAA) |
