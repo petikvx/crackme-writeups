@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 697fd52a16739b40dcb5dabd
+
+urls:
+  page: https://crackmes.one/crackme/697fd52a16739b40dcb5dabd
+  download: https://crackmes.one/download/crackme/697fd52a16739b40dcb5dabd
+
+title: "BadEngineer's EasiestEver"
+author_on_site: "BadEngineer"
+author_local: "badengineer"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C (MinGW-w64)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "b148455afb68a6e2a42ba73325be802be9b90c7a17edd3a8829ca2c9ddf10130"
+  md5: "a8a79d3461d7fd134d92ec715c5ba2d6"
+  size_bytes: 188273
+
+status: solved
+solution_summary: "mot de passe <= 16 chars avec au moins 1 char de chacune des 10 classes (0-4,H-N,t-y,a-f,!-&,;-?,j-m,z-},o-s,\\-`) ; ex. 0Hta!;jzo\\ (pas de user ; petik non applicable)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-12T06:59:04Z"

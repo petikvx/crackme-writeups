@@ -10,6 +10,11 @@ by_id:
     path: "authors/badengineer/69523463044ecfaf9923f9c5/original/download.bin"
     title: "BadEngineer's BeginnerFriendly"
 
+  697fd52a16739b40dcb5dabd:
+    sha256: "b148455afb68a6e2a42ba73325be802be9b90c7a17edd3a8829ca2c9ddf10130"
+    path: "authors/badengineer/697fd52a16739b40dcb5dabd/original/download.bin"
+    title: "BadEngineer's EasiestEver"
+
 by_sha256:
   3966389c8776f88e0bfca184d5614e1aecde669e9449b5e2cdf4afc122aee5de:
     id: 694f817e0c16072f40f5a4a0
@@ -19,3 +24,7 @@ by_sha256:
     id: 69523463044ecfaf9923f9c5
     path: "authors/badengineer/69523463044ecfaf9923f9c5/original/download.bin"
     page: https://crackmes.one/crackme/69523463044ecfaf9923f9c5
+  b148455afb68a6e2a42ba73325be802be9b90c7a17edd3a8829ca2c9ddf10130:
+    id: 697fd52a16739b40dcb5dabd
+    path: "authors/badengineer/697fd52a16739b40dcb5dabd/original/download.bin"
+    page: https://crackmes.one/crackme/697fd52a16739b40dcb5dabd

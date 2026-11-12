@@ -338,7 +338,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [qpdudusydi](authors/qpdudusydi/README.md) | qpdudusydi | 1 (Rust Crackme Very Easy) | 1 / 1 |
 | [Lacks](authors/Lacks/README.md) | Lacks | 1 (Lacks's Level 1) | 1 / 1 |
 | [ended](authors/ended/README.md) | ended | 1 (catgirl.crack) | 1 / 1 |
-| [badengineer](authors/badengineer/README.md) | BadEngineer | 2 (First Crackme, BeginnerFriendly) | 2 / 2 |
+| [badengineer](authors/badengineer/README.md) | BadEngineer | 3 (First Crackme, BeginnerFriendly, EasiestEver) | 3 / 3 |
 | [sarahmills](authors/sarahmills/README.md) | sarahmills | 1 (Gopher Secrets) | 1 / 1 |
 | [kanax01](authors/kanax01/README.md) | Kanax01 | 1 (Fixed Easy Crackme) | 1 / 1 |
 | [vestige46](authors/vestige46/README.md) | vestige46 | 1 (GetToKnow) | 1 / 1 |
@@ -415,6 +415,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-12 | [BadEngineer's EasiestEver](authors/badengineer/697fd52a16739b40dcb5dabd/) | BadEngineer |
 | 2026-11-12 | [DonCris's Existential Vending Machine](authors/doncris/696280f08cfebaa7f00e32b0/) | DonCris |
 | 2026-11-12 | [SimbaHDD's CRACKME (2)](authors/simbahdd/6a36d8a4a4b247348ae80623/) | SimbaHDD |
 | 2026-11-11 | [BadEngineer's BeginnerFriendly](authors/badengineer/69523463044ecfaf9923f9c5/) | BadEngineer |
