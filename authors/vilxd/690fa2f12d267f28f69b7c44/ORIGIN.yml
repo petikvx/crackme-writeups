@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 690fa2f12d267f28f69b7c44
+
+urls:
+  page: https://crackmes.one/crackme/690fa2f12d267f28f69b7c44
+  download: https://crackmes.one/download/crackme/690fa2f12d267f28f69b7c44
+
+title: "vilxd's crack the points"
+author_on_site: "vilxd"
+author_local: "vilxd"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "112e2f858ba86e953d9da514a02e0d6d1c984ed51a8bae805bbc48ce8db5886b"
+  md5: "9cee589a7a343ed6d4d1f488ebe6ef60"
+  size_bytes: 40331
+
+status: solved
+solution_summary: "Patch main @0x140011924 : call __main + xor edx,edx -> mov edx,101 ; affiche Your count points is 101 (tools/point-cracker-solve.py)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-13T20:58:07Z"

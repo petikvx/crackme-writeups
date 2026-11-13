@@ -278,7 +278,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [jasper676767](authors/jasper676767/README.md) | Jasper676767 | 3 (Red light + forgot password + Functions!) | 3 / 3 |
 | [pitou](authors/pitou/README.md) | pitou | 1 (Evaisve) | 1 / 1 |
 | [fatih](authors/fatih/README.md) | Fatih | 1 (S-BOX) | 1 / 1 |
-| [vilxd](authors/vilxd/README.md) | vilxd | 2 (points + CRACK ME DLL) | 2 / 2 |
+| [vilxd](authors/vilxd/README.md) | vilxd | 3 (points + CRACK ME DLL + crack the points) | 3 / 3 |
 | [mazzotti](authors/mazzotti/README.md) | Mazzotti | 6 (patch-me + multi-layer + cortisol + getting started keygen + back to the beginning + rage) | 6 / 6 |
 | [fourexp](authors/fourexp/README.md) | fourexp | 1 (fourexps hard crackme) | 1 / 1 |
 | [23x41](authors/23x41/README.md) | 23x41 | 5 (Secure Vault + DPRK + Maze + Gate + Vault) | 5 / 5 |
@@ -419,6 +419,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-13 | [vilxd's crack the points](authors/vilxd/690fa2f12d267f28f69b7c44/) | vilxd |
 | 2026-11-13 | [fuxy's Challenge #5](authors/fuxy/69bc0fb3ddd6176826ae8a55/) | fuxy |
 | 2026-11-13 | [rettyz's Easy Rust crackme](authors/rettyz/69ceb8986793d479be018f3f/) | rettyz |
 | 2026-11-13 | [Bobx's Very hard antidebug +10 antisystem](authors/bobx/690cdb672d267f28f69b7bbf/) | Bobx |
