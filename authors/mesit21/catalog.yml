@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69598dbe533f5f8e93cde755:
+    sha256: "af1839623feefd961a828db7b4d34661c095b15fdd057fc46b3c8b39d3922001"
+    path: "authors/mesit21/69598dbe533f5f8e93cde755/original/download.bin"
+    title: "mesit21's the stary console"
+
+by_sha256:
+  af1839623feefd961a828db7b4d34661c095b15fdd057fc46b3c8b39d3922001:
+    id: 69598dbe533f5f8e93cde755
+    path: "authors/mesit21/69598dbe533f5f8e93cde755/original/download.bin"
+    page: https://crackmes.one/crackme/69598dbe533f5f8e93cde755

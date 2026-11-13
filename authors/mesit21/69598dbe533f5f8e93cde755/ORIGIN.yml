@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69598dbe533f5f8e93cde755
+
+urls:
+  page: https://crackmes.one/crackme/69598dbe533f5f8e93cde755
+  download: https://crackmes.one/download/crackme/69598dbe533f5f8e93cde755
+
+title: "mesit21's the stary console"
+author_on_site: "mesit21"
+author_local: "mesit21"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "af1839623feefd961a828db7b4d34661c095b15fdd057fc46b3c8b39d3922001"
+  md5: "3833a46f713c1e96041a52d24ee8baee"
+  size_bytes: 42989
+
+status: solved
+solution_summary: "Bug scanf(\"%d\", NULL) + cmp val==val : toute saisie non numérique (ex. petik) affiche « correct :) » ; un nombre (dont 45563 = 0xb1fb) crashe."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-13T23:01:41Z"
