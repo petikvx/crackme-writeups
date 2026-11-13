@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a0bd0592b3df128c1df5c16
+
+urls:
+  page: https://crackmes.one/crackme/6a0bd0592b3df128c1df5c16
+  download: https://crackmes.one/download/crackme/6a0bd0592b3df128c1df5c16
+
+title: "igr0t7's CrackMeBaby2"
+author_on_site: "igr0t7"
+author_local: "igr0t7"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "5b17c84ccbd329dd692c03380b9e76657ce5e6ae19cf03140bf370ada9d2ba18"
+  md5: "a3741bbcd3e5b137310190a99f5c8a19"
+  size_bytes: 15398
+
+status: solved
+solution_summary: "ZIP imbriqué (crackmes.one) ; étape 1 mot de passe flag:igr0t-theking (C ^ 0x0a, le flag{can-you-crack?} est un leurre) ; étape 2 « Say my name... » -> igr0t. Pas de username (petik non applicable)."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-13T08:56:08Z"
