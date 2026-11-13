@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69bc0fb3ddd6176826ae8a55
+
+urls:
+  page: https://crackmes.one/crackme/69bc0fb3ddd6176826ae8a55
+  download: https://crackmes.one/download/crackme/69bc0fb3ddd6176826ae8a55
+
+title: "fuxy's Challenge #5"
+author_on_site: "fuxy"
+author_local: "fuxy"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "7c2f616e35d238e3b7c6b16c62a05824f57319025ae39bba0f53bfdbbe315750"
+  md5: "7a1cfb7f32744f6a5fe7b809fc72f917"
+  size_bytes: 7686
+
+status: solved
+solution_summary: "flag CTF{ASCII-mOre-like_BINASCII!!!} : ASCII decode de la chaine binaire en .rdata (comparaison bit a bit ; dernier char jamais encode)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-13T14:58:06Z"

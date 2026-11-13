@@ -162,6 +162,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [khaledddd](authors/khaledddd/README.md) | khaledddd | 1 (InputPrinter) | 1 / 1 |
 | [shadowlegion](authors/shadowlegion/README.md) | ShadowLegion | 1 (VaultBreaker) | 1 / 1 |
 | [toronto](authors/toronto/README.md) | Toronto | 2 (c, aola) | 2 / 2 |
+| [fuxy](authors/fuxy/README.md) | fuxy | 1 (Challenge #5) | 1 / 1 |
 | [igr0t7](authors/igr0t7/README.md) | igr0t7 | 1 (CrackMeBaby2) | 1 / 1 |
 | [bobx](authors/bobx/README.md) | Bobx | 1 (Very hard antidebug +10 antisystem) | 1 / 1 |
 | [rettyz](authors/rettyz/README.md) | rettyz | 1 (Easy Rust crackme) | 1 / 1 |
@@ -418,6 +419,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-13 | [fuxy's Challenge #5](authors/fuxy/69bc0fb3ddd6176826ae8a55/) | fuxy |
 | 2026-11-13 | [rettyz's Easy Rust crackme](authors/rettyz/69ceb8986793d479be018f3f/) | rettyz |
 | 2026-11-13 | [Bobx's Very hard antidebug +10 antisystem](authors/bobx/690cdb672d267f28f69b7bbf/) | Bobx |
 | 2026-11-13 | [igr0t7's CrackMeBaby2](authors/igr0t7/6a0bd0592b3df128c1df5c16/) | igr0t7 |

@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69bc0fb3ddd6176826ae8a55:
+    sha256: "7c2f616e35d238e3b7c6b16c62a05824f57319025ae39bba0f53bfdbbe315750"
+    path: "authors/fuxy/69bc0fb3ddd6176826ae8a55/original/download.bin"
+    title: "fuxy's Challenge #5"
+
+by_sha256:
+  7c2f616e35d238e3b7c6b16c62a05824f57319025ae39bba0f53bfdbbe315750:
+    id: 69bc0fb3ddd6176826ae8a55
+    path: "authors/fuxy/69bc0fb3ddd6176826ae8a55/original/download.bin"
+    page: https://crackmes.one/crackme/69bc0fb3ddd6176826ae8a55
