@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  690cdb672d267f28f69b7bbf:
+    sha256: "5ab0eafe76b44174bb6bce85c9ef9bf18535f043d944ca7c224559427e12ae4f"
+    path: "authors/bobx/690cdb672d267f28f69b7bbf/original/download.bin"
+    title: "Bobx's Very hard antidebug +10 antisystem"
+
+by_sha256:
+  5ab0eafe76b44174bb6bce85c9ef9bf18535f043d944ca7c224559427e12ae4f:
+    id: 690cdb672d267f28f69b7bbf
+    path: "authors/bobx/690cdb672d267f28f69b7bbf/original/download.bin"
+    page: https://crackmes.one/crackme/690cdb672d267f28f69b7bbf

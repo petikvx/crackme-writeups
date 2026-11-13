@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 690cdb672d267f28f69b7bbf
+
+urls:
+  page: https://crackmes.one/crackme/690cdb672d267f28f69b7bbf
+  download: https://crackmes.one/download/crackme/690cdb672d267f28f69b7bbf
+
+title: "Bobx's Very hard antidebug +10 antisystem"
+author_on_site: "Bobx"
+author_local: "bobx"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "5ab0eafe76b44174bb6bce85c9ef9bf18535f043d944ca7c224559427e12ae4f"
+  md5: "822ce9ef83d7d12f20721a6fc33a2d26"
+  size_bytes: 20649
+
+status: solved
+solution_summary: "Mot de passe fixe CR4CK_TH15_M3G4_H4RD_2024! (GetPassword écrase son résultat PID/tick par des constantes ; dword final chevauche le dernier 2)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-13T10:53:54Z"
