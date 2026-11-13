@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69ceb8986793d479be018f3f:
+    sha256: "83ae3e281a36d3eedc358388a6e6905a1af01511d6ecd604490682bb9c13b739"
+    path: "authors/rettyz/69ceb8986793d479be018f3f/original/download.bin"
+    title: "rettyz's Easy Rust crackme"
+
+by_sha256:
+  83ae3e281a36d3eedc358388a6e6905a1af01511d6ecd604490682bb9c13b739:
+    id: 69ceb8986793d479be018f3f
+    path: "authors/rettyz/69ceb8986793d479be018f3f/original/download.bin"
+    page: https://crackmes.one/crackme/69ceb8986793d479be018f3f

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69ceb8986793d479be018f3f
+
+urls:
+  page: https://crackmes.one/crackme/69ceb8986793d479be018f3f
+  download: https://crackmes.one/download/crackme/69ceb8986793d479be018f3f
+
+title: "rettyz's Easy Rust crackme"
+author_on_site: "rettyz"
+author_local: "rettyz"
+
+platform: "Windows"
+arch: "x86-64"
+language: "Rust"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "83ae3e281a36d3eedc358388a6e6905a1af01511d6ecd604490682bb9c13b739"
+  md5: "fb7dc18cfae379b15eb29e8af73dc65d"
+  size_bytes: 72620
+
+status: solved
+solution_summary: "Couple fixe comparé en dur (qword imm64) : username `crackers`, password `passhunt` (indépendant de petik) ; vérifié sous Wine."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-13T12:56:44Z"

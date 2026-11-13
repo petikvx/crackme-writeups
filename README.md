@@ -164,6 +164,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [toronto](authors/toronto/README.md) | Toronto | 2 (c, aola) | 2 / 2 |
 | [igr0t7](authors/igr0t7/README.md) | igr0t7 | 1 (CrackMeBaby2) | 1 / 1 |
 | [bobx](authors/bobx/README.md) | Bobx | 1 (Very hard antidebug +10 antisystem) | 1 / 1 |
+| [rettyz](authors/rettyz/README.md) | rettyz | 1 (Easy Rust crackme) | 1 / 1 |
 | [mystergaif](authors/mystergaif/README.md) | mystergaif | 1 (U Can't Pass) | 1 / 1 |
 | [arshi](authors/arshi/README.md) | arshi | 1 (LvArshu / TWO-RING VOW) | 1 / 1 |
 | [th](authors/th/README.md) | th | 1 (ComputeTheKey) | 1 / 1 |
@@ -417,6 +418,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-13 | [rettyz's Easy Rust crackme](authors/rettyz/69ceb8986793d479be018f3f/) | rettyz |
 | 2026-11-13 | [Bobx's Very hard antidebug +10 antisystem](authors/bobx/690cdb672d267f28f69b7bbf/) | Bobx |
 | 2026-11-13 | [igr0t7's CrackMeBaby2](authors/igr0t7/6a0bd0592b3df128c1df5c16/) | igr0t7 |
 | 2026-11-12 | [Toronto's aola](authors/toronto/69eca77717539b5175d120a9/) | Toronto |
