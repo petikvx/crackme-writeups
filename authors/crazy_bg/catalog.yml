@@ -5,8 +5,17 @@ by_id:
     path: "authors/crazy_bg/6ae1fecd2c7537120cbe8617/original/Keygen.exe"
     title: "crazy_bg's Keygen Me!"
 
+  6af20c184ab951a9999da51e:
+    sha256: "f85344a327308b36791917ba72facacb89066078ad88cc4d3d4f6e7416a5f13d"
+    path: "authors/crazy_bg/6af20c184ab951a9999da51e/original/download.bin"
+    title: "crazy_bg's Picky Keygen Me!"
+
 by_sha256:
   9015f7971c711d7305653d98cd34f01bea471e47030798f3ce8f610ba2dd2244:
     id: 6ae1fecd2c7537120cbe8617
     path: "authors/crazy_bg/6ae1fecd2c7537120cbe8617/original/Keygen.exe"
     page: https://crackmes.one/crackme/6ae1fecd2c7537120cbe8617
+  f85344a327308b36791917ba72facacb89066078ad88cc4d3d4f6e7416a5f13d:
+    id: 6af20c184ab951a9999da51e
+    path: "authors/crazy_bg/6af20c184ab951a9999da51e/original/download.bin"
+    page: https://crackmes.one/crackme/6af20c184ab951a9999da51e

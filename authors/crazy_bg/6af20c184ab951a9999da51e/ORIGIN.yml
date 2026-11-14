@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6af20c184ab951a9999da51e
+
+urls:
+  page: https://crackmes.one/crackme/6af20c184ab951a9999da51e
+  download: https://crackmes.one/download/crackme/6af20c184ab951a9999da51e
+
+title: "crazy_bg's Picky Keygen Me!"
+author_on_site: "crazy_bg"
+author_local: "crazy_bg"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++ (MinGW)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "f85344a327308b36791917ba72facacb89066078ad88cc4d3d4f6e7416a5f13d"
+  md5: "05aeb02b68c89f008bc3b8805257071f"
+  size_bytes: 689203
+
+status: solved
+solution_summary: "serial int32 = f(USER, heure==10, 1er fichier C*/c* de System32) ; petik, 1er=c → 140249139 ; tools/picky-keygen-solve.py"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-14T20:43:47Z"

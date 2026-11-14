@@ -371,7 +371,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [kamil123](authors/kamil123/README.md) | kamil123 | 2 (Mini LLM Sentinel, Needle in a Haystack) | 2 / 2 |
 | [fenata](authors/fenata/README.md) | fenata | 1 (Easiest_my_first) | 1 / 1 |
 | [kretrod](authors/kretrod/README.md) | kretrod | 1 (kretrod's my first password crackme) | 1 / 1 |
-| [crazy_bg](authors/crazy_bg/README.md) | crazy_bg | 1 (crazy_bg's Keygen Me!) | 1 / 1 |
+| [crazy_bg](authors/crazy_bg/README.md) | crazy_bg | 2 (Keygen Me!, Picky Keygen Me!) | 2 / 2 |
 | [joejoejoe](authors/joejoejoe/README.md) | JoeJoeJoe | 1 (thefirsttest) | 1 / 1 |
 | [vmlinuz719](authors/vmlinuz719/README.md) | vmlinuz719 | 1 (Product Activation) | 1 / 1 |
 | [pwned.cpp](authors/pwned.cpp/README.md) | Pwned.cpp | 1 (ImGUI-CrackME) | 1 / 1 |
@@ -424,6 +424,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-14 | [crazy_bg's Picky Keygen Me!](authors/crazy_bg/6af20c184ab951a9999da51e/) | crazy_bg |
 | 2026-11-14 | [liboxin's unpack me v1](authors/liboxin/6af59fc52c7537120cbe8a22/) | liboxin |
 | 2026-11-14 | [zouave](authors/s4r/5aa9b4e233c5d40a63746b21/) | s4r |
 | 2026-11-14 | [mintcocs's party invitation](authors/mintcocs/6989bfd9fb46458f1ef6ced9/) | mintcocs |
