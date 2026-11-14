@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6af59fc52c7537120cbe8a22:
+    sha256: "bde7649418ee21bc7195aec59a5060888a3244d723fe06bcd04dee29cc5622ab"
+    path: "authors/liboxin/6af59fc52c7537120cbe8a22/original/download.bin"
+    title: "liboxin's unpack me v1"
+
+by_sha256:
+  bde7649418ee21bc7195aec59a5060888a3244d723fe06bcd04dee29cc5622ab:
+    id: 6af59fc52c7537120cbe8a22
+    path: "authors/liboxin/6af59fc52c7537120cbe8a22/original/download.bin"
+    page: https://crackmes.one/crackme/6af59fc52c7537120cbe8a22

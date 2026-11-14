@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6af59fc52c7537120cbe8a22
+
+urls:
+  page: https://crackmes.one/crackme/6af59fc52c7537120cbe8a22
+  download: https://crackmes.one/download/crackme/6af59fc52c7537120cbe8a22
+
+title: "liboxin's unpack me v1"
+author_on_site: "liboxin"
+author_local: "liboxin"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++ (MSVC) + protecteur aegis"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "bde7649418ee21bc7195aec59a5060888a3244d723fe06bcd04dee29cc5622ab"
+  md5: "57a188bb6e66c67d55571295b3e6f194"
+  size_bytes: 201766
+
+status: solved
+solution_summary: "Serial fixe N6NY-PHP1-WL48-NO51 : SBOX[c_i ^ acc] == EXPECT[i], acc = acc + 7*c_i + i (acc0 = 0x5a) ; tables déchiffrées au runtime par le protecteur aegis (dump mémoire Wine)."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-14T18:40:48Z"
