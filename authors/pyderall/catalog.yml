@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69857e26de90f62e94d90c2d:
+    sha256: "894b2532d4cc5f55049ae7098c4a7e7dce024e9483f42a56b98786189bd532a4"
+    path: "authors/pyderall/69857e26de90f62e94d90c2d/original/download.bin"
+    title: "pyderall's TickTock"
+
+by_sha256:
+  894b2532d4cc5f55049ae7098c4a7e7dce024e9483f42a56b98786189bd532a4:
+    id: 69857e26de90f62e94d90c2d
+    path: "authors/pyderall/69857e26de90f62e94d90c2d/original/download.bin"
+    page: https://crackmes.one/crackme/69857e26de90f62e94d90c2d

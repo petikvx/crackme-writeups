@@ -397,6 +397,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [emiflake](authors/emiflake/README.md) | emiflake | 1 (Time is of the Essence) | 1 / 1 |
 | [sacredgravel44](authors/sacredgravel44/README.md) | sacredgravel44 | 1 (matryoshka9) | 0 / 1 *(parked)* |
 | [gordonbm](authors/gordonbm/README.md) | GordonBM | 1 (Reverse_Keygenme) | 1 / 1 |
+| [pyderall](authors/pyderall/README.md) | pyderall | 1 (TickTock) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -422,6 +423,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-14 | [pyderall's TickTock](authors/pyderall/69857e26de90f62e94d90c2d/) | pyderall |
 | 2026-11-14 | [Elzzie's winkeygenme](authors/Elzzie/6a21ed4d266afadcd56fabd9/) | Elzzie |
 | 2026-11-14 | [feliz's Feliz's crackme](authors/feliz/6a37ed2539dd6183d62b9da3/) | feliz |
 | 2026-11-14 | [qpdudusydi's Rust Crackme (XOR) Easy](authors/qpdudusydi/6af34bd84b6d53e8802ed4e6/) | qpdudusydi |

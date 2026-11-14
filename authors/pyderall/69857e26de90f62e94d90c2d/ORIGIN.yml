@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69857e26de90f62e94d90c2d
+
+urls:
+  page: https://crackmes.one/crackme/69857e26de90f62e94d90c2d
+  download: https://crackmes.one/download/crackme/69857e26de90f62e94d90c2d
+
+title: "pyderall's TickTock"
+author_on_site: "pyderall"
+author_local: "pyderall"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++ (source)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "894b2532d4cc5f55049ae7098c4a7e7dce024e9483f42a56b98786189bd532a4"
+  md5: "c813704dfa5f418cc707cabc9d636509"
+  size_bytes: 1418
+
+status: solved
+solution_summary: "Keygen temporel : serial base36 XXXX-XXXX-XXXX = (A,B,C) dérivés de FNV-1a(rotl(minute^(yday<<16)^0xC0FFEE11,7)+0x9E3779B9), valide si (A^B)%97==minute%97 (~3/97 des minutes) ; solveur tools/ticktock-solve.py (ex. 02QV-140I-19Y7 le 2026-11-14 ~12:15)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-14T10:56:33Z"
