@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 5aa9b4e233c5d40a63746b21
+
+urls:
+  page: https://crackmes.one/crackme/5aa9b4e233c5d40a63746b21
+  download: https://crackmes.one/download/crackme/5aa9b4e233c5d40a63746b21
+
+title: "s4r's zouave"
+author_on_site: "s4r"
+author_local: "s4r"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "c5ddd33df9a95cedc3274ee76693b8548c9b827250fd55824cd8f44346d5ccea"
+  md5: "e93b160169901e6a1b71366f275715fa"
+  size_bytes: 102624
+
+status: solved
+solution_summary: "Keygen : MD5(user) ; serial = HEX16(md5[:16])-KEY32-reverse(HEX16(md5[16:])), KEY = ~ror16(D[i])^const ; petik→CDC64CAB9A59F8E5-0E211B5B8351918AB21A0E17BEA49F83-06E1A794412CFB09"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-14T15:01:49Z"

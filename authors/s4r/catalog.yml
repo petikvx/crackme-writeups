@@ -25,6 +25,11 @@ by_id:
     path: "authors/s4r/5aa9b47f33c5d40a63746b1f/original/matrice.exe"
     title: "s4r's matrice"
 
+  5aa9b4e233c5d40a63746b21:
+    sha256: "c5ddd33df9a95cedc3274ee76693b8548c9b827250fd55824cd8f44346d5ccea"
+    path: "authors/s4r/5aa9b4e233c5d40a63746b21/original/download.bin"
+    title: "s4r's zouave"
+
 by_sha256:
   f17318419da1c0815cf4bf3e4c2b94be99eacdd079b5035ef76c4495f666aed3:
     id: 64f1f7dbd931496abf90952d
@@ -46,3 +51,7 @@ by_sha256:
     id: 5aa9b47f33c5d40a63746b1f
     path: "authors/s4r/5aa9b47f33c5d40a63746b1f/original/matrice.exe"
     page: https://crackmes.one/crackme/5aa9b47f33c5d40a63746b1f
+  c5ddd33df9a95cedc3274ee76693b8548c9b827250fd55824cd8f44346d5ccea:
+    id: 5aa9b4e233c5d40a63746b21
+    path: "authors/s4r/5aa9b4e233c5d40a63746b21/original/download.bin"
+    page: https://crackmes.one/crackme/5aa9b4e233c5d40a63746b21

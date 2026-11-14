@@ -293,7 +293,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [5iriu5](authors/5iriu5/README.md) | 5iriu5 | 1 (SSE Login) | 1 / 1 |
 | [jenya](authors/jenya/README.md) | Jenya | 3 (math_crackme + linux_asm_jenya) | 3 / 3 |
 | [0x6f6d6172h](authors/0x6f6d6172h/README.md) | 0x6f6D6172h | 1 (crackme1) | 1 / 1 |
-| [s4r](authors/s4r/README.md) | s4r | 5 (encrypted_box + fuckalight2 + bitflip + prime + matrice) | 5 / 5 |
+| [s4r](authors/s4r/README.md) | s4r | 6 (encrypted_box + fuckalight2 + bitflip + prime + matrice + zouave) | 6 / 6 |
 | [ximxn](authors/ximxn/README.md) | Ximxn | 1 (perwira) | 1 / 1 |
 | [breadleaf](authors/breadleaf/README.md) | breadleaf | 1 (Password and Username) | 1 / 1 |
 | [thephilosopher](authors/thephilosopher/README.md) | ThePhilosopher | 2 (Bruteverse + The Matrix) | 2 / 2 |
@@ -423,6 +423,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-14 | [zouave](authors/s4r/5aa9b4e233c5d40a63746b21/) | s4r |
 | 2026-11-14 | [mintcocs's party invitation](authors/mintcocs/6989bfd9fb46458f1ef6ced9/) | mintcocs |
 | 2026-11-14 | [pyderall's TickTock](authors/pyderall/69857e26de90f62e94d90c2d/) | pyderall |
 | 2026-11-14 | [Elzzie's winkeygenme](authors/Elzzie/6a21ed4d266afadcd56fabd9/) | Elzzie |
