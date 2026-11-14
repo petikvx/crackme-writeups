@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6af347ef4ab951a9999da55d
+
+urls:
+  page: https://crackmes.one/crackme/6af347ef4ab951a9999da55d
+  download: https://crackmes.one/download/crackme/6af347ef4ab951a9999da55d
+
+title: "liboxin's my ollvm test"
+author_on_site: "liboxin"
+author_local: "liboxin"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++ (MSVC, obfusqué OLLVM)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "8c0a578f701027aa75c1c3cdf4b31e2020ec0da7dca16cfe2da55047ae56e273"
+  md5: "16a510e743029c5270915967a1b84c05"
+  size_bytes: 107255
+
+status: solved
+solution_summary: "Mot de passe fixe 123456 (pas de dépendance à l'entrée) : main OLLVM déchiffre les strings à la volée, fgets(20) + strcspn(\\n) puis strcmp(saisie, \"123456\"). Trouvé par émulation Unicorn de main, confirmé sous Wine."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-14T22:43:13Z"

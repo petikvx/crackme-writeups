@@ -5,8 +5,17 @@ by_id:
     path: "authors/liboxin/6af59fc52c7537120cbe8a22/original/download.bin"
     title: "liboxin's unpack me v1"
 
+  6af347ef4ab951a9999da55d:
+    sha256: "8c0a578f701027aa75c1c3cdf4b31e2020ec0da7dca16cfe2da55047ae56e273"
+    path: "authors/liboxin/6af347ef4ab951a9999da55d/original/download.bin"
+    title: "liboxin's my ollvm test"
+
 by_sha256:
   bde7649418ee21bc7195aec59a5060888a3244d723fe06bcd04dee29cc5622ab:
     id: 6af59fc52c7537120cbe8a22
     path: "authors/liboxin/6af59fc52c7537120cbe8a22/original/download.bin"
     page: https://crackmes.one/crackme/6af59fc52c7537120cbe8a22
+  8c0a578f701027aa75c1c3cdf4b31e2020ec0da7dca16cfe2da55047ae56e273:
+    id: 6af347ef4ab951a9999da55d
+    path: "authors/liboxin/6af347ef4ab951a9999da55d/original/download.bin"
+    page: https://crackmes.one/crackme/6af347ef4ab951a9999da55d
