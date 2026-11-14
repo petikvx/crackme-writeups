@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a21ed4d266afadcd56fabd9
+
+urls:
+  page: https://crackmes.one/crackme/6a21ed4d266afadcd56fabd9
+  download: https://crackmes.one/download/crackme/6a21ed4d266afadcd56fabd9
+
+title: "Elzzie's winkeygenme"
+author_on_site: "Elzzie"
+author_local: "Elzzie"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C# (WPF, .NET 8, apphost + DLL en overlay)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "91da585aeed478358e5ef620df095d9795623443754de0257b6049af11b1e0fd"
+  md5: "14b2e7bae3f5ddf594f1790d43ddc209"
+  size_bytes: 73699
+
+status: solved
+solution_summary: "keygen : user>=6 car. ; key = base32(S-box[SHA256(user)])[:25] en 5x5 ; petik1 -> VFSAN-RRP8D-EXWTX-YASD9-N6AHZ"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-14T07:00:09Z"

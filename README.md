@@ -326,6 +326,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [lypd0](authors/lypd0/README.md) | lypd0 | 1 (Lantern01) | 1 / 1 |
 | [0xbadc0de](authors/0xbadc0de/README.md) | 0xbadc0de | 1 (XOR Challenge) | 1 / 1 |
 | [feliz](authors/feliz/README.md) | Feliz | 1 (Feliz's crackme) | 1 / 1 |
+| [Elzzie](authors/Elzzie/README.md) | Elzzie | 1 (winkeygenme) | 1 / 1 |
 | [micky23310](authors/micky23310/README.md) | micky23310 | 1 (HiddenFlag) | 1 / 1 |
 | [mintcocs](authors/mintcocs/README.md) | mintcocs | 1 (learning_vm) | 1 / 1 |
 | [stels](authors/stels/README.md) | stels | 1 (sob Obfuscator Challenge) | 1 / 1 |
@@ -421,6 +422,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-14 | [Elzzie's winkeygenme](authors/Elzzie/6a21ed4d266afadcd56fabd9/) | Elzzie |
 | 2026-11-14 | [feliz's Feliz's crackme](authors/feliz/6a37ed2539dd6183d62b9da3/) | feliz |
 | 2026-11-14 | [qpdudusydi's Rust Crackme (XOR) Easy](authors/qpdudusydi/6af34bd84b6d53e8802ed4e6/) | qpdudusydi |
 | 2026-11-14 | [mesit21's the stary console](authors/mesit21/69598dbe533f5f8e93cde755/) | mesit21 |

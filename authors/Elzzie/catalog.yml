@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a21ed4d266afadcd56fabd9:
+    sha256: "91da585aeed478358e5ef620df095d9795623443754de0257b6049af11b1e0fd"
+    path: "authors/Elzzie/6a21ed4d266afadcd56fabd9/original/download.bin"
+    title: "Elzzie's winkeygenme"
+
+by_sha256:
+  91da585aeed478358e5ef620df095d9795623443754de0257b6049af11b1e0fd:
+    id: 6a21ed4d266afadcd56fabd9
+    path: "authors/Elzzie/6a21ed4d266afadcd56fabd9/original/download.bin"
+    page: https://crackmes.one/crackme/6a21ed4d266afadcd56fabd9
