@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a37ed2539dd6183d62b9da3
+
+urls:
+  page: https://crackmes.one/crackme/6a37ed2539dd6183d62b9da3
+  download: https://crackmes.one/download/crackme/6a37ed2539dd6183d62b9da3
+
+title: "Feliz's crackme by feliz"
+author_on_site: "Feliz"
+author_local: "feliz"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "c2c1a0e508ca5cd07cb64408639c88927dfb27f65894b96878df8ff9852ab6da"
+  md5: "979fbfc2d69a24adc479d13001a4f079"
+  size_bytes: 9012
+
+status: solved
+solution_summary: "ZIP chiffré (crackmes.one) contenant prorevers.exe ; password = \"sperma\" + str(((7*0x1cdf+0x43)/52)*0xb9a - 0xa5318) = sperma2281488 (constant, pas de user) ; succès affiche prorevers228"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-14T05:00:12Z"

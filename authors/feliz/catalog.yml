@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a37ed2539dd6183d62b9da3:
+    sha256: "c2c1a0e508ca5cd07cb64408639c88927dfb27f65894b96878df8ff9852ab6da"
+    path: "authors/feliz/6a37ed2539dd6183d62b9da3/original/download.bin"
+    title: "Feliz's crackme by feliz"
+
+by_sha256:
+  c2c1a0e508ca5cd07cb64408639c88927dfb27f65894b96878df8ff9852ab6da:
+    id: 6a37ed2539dd6183d62b9da3
+    path: "authors/feliz/6a37ed2539dd6183d62b9da3/original/download.bin"
+    page: https://crackmes.one/crackme/6a37ed2539dd6183d62b9da3
