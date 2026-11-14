@@ -340,7 +340,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [maxpsger](authors/maxpsger/README.md) | maxpsger | 1 (Easy crackme) | 1 / 1 |
 | [eilay_yosfan](authors/eilay_yosfan/README.md) | Eilay_Yosfan | 1 (3OutOf6) | 1 / 1 |
 | [nullerf](authors/nullerf/README.md) | NullerF | 2 (Easiest + Simple_GUI_crackme) | 2 / 2 |
-| [qpdudusydi](authors/qpdudusydi/README.md) | qpdudusydi | 1 (Rust Crackme Very Easy) | 1 / 1 |
+| [qpdudusydi](authors/qpdudusydi/README.md) | qpdudusydi | 2 (Very Easy, XOR Easy) | 2 / 2 |
 | [Lacks](authors/Lacks/README.md) | Lacks | 1 (Lacks's Level 1) | 1 / 1 |
 | [ended](authors/ended/README.md) | ended | 1 (catgirl.crack) | 1 / 1 |
 | [badengineer](authors/badengineer/README.md) | BadEngineer | 3 (First Crackme, BeginnerFriendly, EasiestEver) | 3 / 3 |
@@ -420,6 +420,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-14 | [qpdudusydi's Rust Crackme (XOR) Easy](authors/qpdudusydi/6af34bd84b6d53e8802ed4e6/) | qpdudusydi |
 | 2026-11-14 | [mesit21's the stary console](authors/mesit21/69598dbe533f5f8e93cde755/) | mesit21 |
 | 2026-11-13 | [vilxd's crack the points](authors/vilxd/690fa2f12d267f28f69b7c44/) | vilxd |
 | 2026-11-13 | [fuxy's Challenge #5](authors/fuxy/69bc0fb3ddd6176826ae8a55/) | fuxy |

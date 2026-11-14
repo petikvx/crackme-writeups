@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6af34bd84b6d53e8802ed4e6
+
+urls:
+  page: https://crackmes.one/crackme/6af34bd84b6d53e8802ed4e6
+  download: https://crackmes.one/download/crackme/6af34bd84b6d53e8802ed4e6
+
+title: "qpdudusydi's Rust Crackme (XOR) Easy"
+author_on_site: "qpdudusydi"
+author_local: "qpdudusydi"
+
+platform: "Windows"
+arch: "x86-64"
+language: "Rust"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "c0fa50224b86e253e8cf39315c0a04d026d7823d6d457f6b6e2decc6352ae746"
+  md5: "5a039f01b7d35f00f4259b665a408bc3"
+  size_bytes: 82575
+
+status: solved
+solution_summary: "Rust : table de 16 octets en immediates dans main XORée avec la clé 0x5a (VA 0x140002f6d) → Cr4ckm3_Rus7_x0r ; download.bin est un ZIP (pw crackmes.one) contenant rustpj.exe."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-14T01:01:31Z"
