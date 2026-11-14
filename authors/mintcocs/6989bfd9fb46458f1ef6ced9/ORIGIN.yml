@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6989bfd9fb46458f1ef6ced9
+
+urls:
+  page: https://crackmes.one/crackme/6989bfd9fb46458f1ef6ced9
+  download: https://crackmes.one/download/crackme/6989bfd9fb46458f1ef6ced9
+
+title: "mintcocs's party invitation"
+author_on_site: "mintcocs"
+author_local: "mintcocs"
+
+platform: "macOS fat Mach-O (x86_64+arm64), SwiftUI (ZIP -> ZIP -> .app)"
+arch: "x86_64 + arm64"
+language: "Swift"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "b0d0c5274d20fd445d85e72ba0993696c016f6098e0e8da54bda85f9453da7b6"
+  md5: "c674d476491c06ea8836a0a9555e3fcf"
+  size_bytes: 49720
+
+status: solved
+solution_summary: "Invitation ID INV-AAAA-BBBBBBBB-CC : AAAA=3085 (seule valeur passant le filtre 16 bits), B hex libre (petik->70657469), CC=(A*13+B)%100 ; ex. INV-3085-70657469-34"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-14T12:56:43Z"

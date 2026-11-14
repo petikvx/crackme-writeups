@@ -328,7 +328,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [feliz](authors/feliz/README.md) | Feliz | 1 (Feliz's crackme) | 1 / 1 |
 | [Elzzie](authors/Elzzie/README.md) | Elzzie | 1 (winkeygenme) | 1 / 1 |
 | [micky23310](authors/micky23310/README.md) | micky23310 | 1 (HiddenFlag) | 1 / 1 |
-| [mintcocs](authors/mintcocs/README.md) | mintcocs | 1 (learning_vm) | 1 / 1 |
+| [mintcocs](authors/mintcocs/README.md) | mintcocs | 2 (learning_vm, party invitation) | 2 / 2 |
 | [stels](authors/stels/README.md) | stels | 1 (sob Obfuscator Challenge) | 1 / 1 |
 | [nx3n](authors/nx3n/README.md) | nx3n | 1 (Find a password) | 1 / 1 |
 | [brandon_w](authors/brandon_w/README.md) | brandon_w | 1 (simple windows crackme) | 1 / 1 |
@@ -423,6 +423,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-14 | [mintcocs's party invitation](authors/mintcocs/6989bfd9fb46458f1ef6ced9/) | mintcocs |
 | 2026-11-14 | [pyderall's TickTock](authors/pyderall/69857e26de90f62e94d90c2d/) | pyderall |
 | 2026-11-14 | [Elzzie's winkeygenme](authors/Elzzie/6a21ed4d266afadcd56fabd9/) | Elzzie |
 | 2026-11-14 | [feliz's Feliz's crackme](authors/feliz/6a37ed2539dd6183d62b9da3/) | feliz |

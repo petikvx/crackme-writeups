@@ -5,8 +5,17 @@ by_id:
     path: "authors/mintcocs/6a6b5bdd59d4a7b04de30a28/original/download.bin"
     title: "mintcocs's learning_vm"
 
+  6989bfd9fb46458f1ef6ced9:
+    sha256: "b0d0c5274d20fd445d85e72ba0993696c016f6098e0e8da54bda85f9453da7b6"
+    path: "authors/mintcocs/6989bfd9fb46458f1ef6ced9/original/download.bin"
+    title: "mintcocs's party invitation"
+
 by_sha256:
   8e4809f8abcae4a86b3e1c6e574bfb30a21a1474171ae813e114edf9f874fa75:
     id: 6a6b5bdd59d4a7b04de30a28
     path: "authors/mintcocs/6a6b5bdd59d4a7b04de30a28/original/download.bin"
     page: https://crackmes.one/crackme/6a6b5bdd59d4a7b04de30a28
+  b0d0c5274d20fd445d85e72ba0993696c016f6098e0e8da54bda85f9453da7b6:
+    id: 6989bfd9fb46458f1ef6ced9
+    path: "authors/mintcocs/6989bfd9fb46458f1ef6ced9/original/download.bin"
+    page: https://crackmes.one/crackme/6989bfd9fb46458f1ef6ced9
