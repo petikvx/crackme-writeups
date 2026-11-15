@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69a28c267a778cfffbfb67be
+
+urls:
+  page: https://crackmes.one/crackme/69a28c267a778cfffbfb67be
+  download: https://crackmes.one/download/crackme/69a28c267a778cfffbfb67be
+
+title: "jeffli6789's Crackmes.one RE CTF 2026"
+author_on_site: "jeffli6789"
+author_local: "jeffli6789"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++ (MSVC)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "4178fac7ee744e1b66e1db88a0d57116613805214ae97d29b6073c54ca98f5bd"
+  md5: "39c2564f16a7d054ceb053e8cf2973e5"
+  size_bytes: 158309
+
+status: solved
+solution_summary: "Screensaver config dialog (champ Text, 25 wchar) : substitution table->table inversée, xor (i+\"FLARERALF\"[i%9]), reverse, == tableau 0x1400064d0. Flag CMO{frogt4s7ic_r3vers1ng} (solveur tools/flrscrnsvr-solve.py, preuve unicorn sur 0x140001300)."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-15T02:40:12Z"

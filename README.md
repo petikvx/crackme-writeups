@@ -138,7 +138,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [monsignor](authors/monsignor/README.md) | Monsignor | 1 (Monsignor's Monsignors Crackme) | 1 / 1 |
 | [tdaron](authors/tdaron/README.md) | tdaron | 1 (Use your brain) | 1 / 1 |
 | [pipedown](authors/pipedown/README.md) | pipedown | 1 (I need to be honest) | 1 / 1 |
-| [jeffli6789](authors/jeffli6789/README.md) | jeffli6789 | 6 (wallpaper + x86 + Maze + Orbit Fold + Date of Birth) | 6 / 6 |
+| [jeffli6789](authors/jeffli6789/README.md) | jeffli6789 | 7 (wallpaper + x86 + Maze + Orbit Fold + Date of Birth + bubbly + FLRSCRNSVR) | 7 / 7 |
 | [cr-ck_god001](authors/cr-ck_god001/README.md) | Cr@ck_God001 | 1 (Crackme GUI) | 1 / 1 |
 | [neoncarrot](authors/neoncarrot/README.md) | neoncarrot | 1 (Find the correct key!) | 1 / 1 |
 | [cosmosss](authors/cosmosss/README.md) | CosmoSSS | 1 (Password Very Easy) | 1 / 1 |
@@ -425,6 +425,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-15 | [FLRSCRNSVR (RE CTF 2026 screensaver)](authors/jeffli6789/69a28c267a778cfffbfb67be/) | jeffli6789 |
 | 2026-11-15 | [AcidByte's Acid's First Crackme](authors/acidbyte/6999f719c1756e2381cffa34/) | acidbyte |
 | 2026-11-14 | [crazy_bg's Picky Keygen Me!](authors/crazy_bg/6af20c184ab951a9999da51e/) | crazy_bg |
 | 2026-11-14 | [liboxin's unpack me v1](authors/liboxin/6af59fc52c7537120cbe8a22/) | liboxin |

@@ -30,6 +30,11 @@ by_id:
     path: "authors/jeffli6789/5f00a02533c5d4285070947a/original/main"
     title: "jeffli6789's bubbly"
 
+  69a28c267a778cfffbfb67be:
+    sha256: "4178fac7ee744e1b66e1db88a0d57116613805214ae97d29b6073c54ca98f5bd"
+    path: "authors/jeffli6789/69a28c267a778cfffbfb67be/original/download.bin"
+    title: "jeffli6789's Crackmes.one RE CTF 2026"
+
 by_sha256:
   7526418ecada66780062b7f6ca7205c4540d6e2800fc994a4d02f75ae4b2b673:
     id: 69a2911b7a778cfffbfb67ca
@@ -55,3 +60,7 @@ by_sha256:
     id: 5f00a02533c5d4285070947a
     path: "authors/jeffli6789/5f00a02533c5d4285070947a/original/main"
     page: https://crackmes.one/crackme/5f00a02533c5d4285070947a
+  4178fac7ee744e1b66e1db88a0d57116613805214ae97d29b6073c54ca98f5bd:
+    id: 69a28c267a778cfffbfb67be
+    path: "authors/jeffli6789/69a28c267a778cfffbfb67be/original/download.bin"
+    page: https://crackmes.one/crackme/69a28c267a778cfffbfb67be
