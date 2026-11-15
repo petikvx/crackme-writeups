@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69ffdc47d7ff92e1214c0079
+
+urls:
+  page: https://crackmes.one/crackme/69ffdc47d7ff92e1214c0079
+  download: https://crackmes.one/download/crackme/69ffdc47d7ff92e1214c0079
+
+title: "atoc's superEZcrackME"
+author_on_site: "atoc"
+author_local: "atoc"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C (mingw-w64) + bytecode .bvs"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "ae114043c137d2509d63e112cd88bd77fd8a574622a4491b2af9075cd568f8e6"
+  md5: "a20ddf4306a9c7e791b5ad376296e895"
+  size_bytes: 20635
+
+status: solved
+solution_summary: "ZIP dans ZIP (bvessel.exe + cm.bvs) ; mini-VM : IMPEXT in.txt puis JE var0==420 → écrire 420 dans in.txt (tools/superez-solve.py)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-15T12:45:30Z"

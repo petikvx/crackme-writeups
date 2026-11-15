@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69ffdc47d7ff92e1214c0079:
+    sha256: "ae114043c137d2509d63e112cd88bd77fd8a574622a4491b2af9075cd568f8e6"
+    path: "authors/atoc/69ffdc47d7ff92e1214c0079/original/download.bin"
+    title: "atoc's superEZcrackME"
+
+by_sha256:
+  ae114043c137d2509d63e112cd88bd77fd8a574622a4491b2af9075cd568f8e6:
+    id: 69ffdc47d7ff92e1214c0079
+    path: "authors/atoc/69ffdc47d7ff92e1214c0079/original/download.bin"
+    page: https://crackmes.one/crackme/69ffdc47d7ff92e1214c0079
