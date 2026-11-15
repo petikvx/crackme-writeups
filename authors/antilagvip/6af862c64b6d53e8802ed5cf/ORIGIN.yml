@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6af862c64b6d53e8802ed5cf
+
+urls:
+  page: https://crackmes.one/crackme/6af862c64b6d53e8802ed5cf
+  download: https://crackmes.one/download/crackme/6af862c64b6d53e8802ed5cf
+
+title: "antilagvip's hard crackme"
+author_on_site: "antilagvip"
+author_local: "antilagvip"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++ (MinGW-w64)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "dc118127f6adad064fddeb5b0d3d1494c1c08ab554b218bc1c96d86c549c8181"
+  md5: "654a359821e427ada39299d2295b9500"
+  size_bytes: 346663
+
+status: solved
+solution_summary: "Keygen : serial 24 car. base32 (ABCDEFGHJKLMNPQRSTUVWXYZ23456789), 12 premiers libres, 12 derniers dérivés par mini-VM chiffrée splitmix64 ; ex. PETKPETKPETKMQZ2KFCJZ3CC (tools/antilagvip-hard-solve.py)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-15T18:43:47Z"

@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6af862c64b6d53e8802ed5cf:
+    sha256: "dc118127f6adad064fddeb5b0d3d1494c1c08ab554b218bc1c96d86c549c8181"
+    path: "authors/antilagvip/6af862c64b6d53e8802ed5cf/original/download.bin"
+    title: "antilagvip's hard crackme"
+
+by_sha256:
+  dc118127f6adad064fddeb5b0d3d1494c1c08ab554b218bc1c96d86c549c8181:
+    id: 6af862c64b6d53e8802ed5cf
+    path: "authors/antilagvip/6af862c64b6d53e8802ed5cf/original/download.bin"
+    page: https://crackmes.one/crackme/6af862c64b6d53e8802ed5cf
