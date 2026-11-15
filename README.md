@@ -326,6 +326,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [lypd0](authors/lypd0/README.md) | lypd0 | 1 (Lantern01) | 1 / 1 |
 | [acidbyte](authors/acidbyte/README.md) | AcidByte | 1 (Acid's First Crackme) | 1 / 1 |
 | [atoc](authors/atoc/README.md) | atoc | 1 (superEZcrackME : VM bvessel) | 1 / 1 |
+| [momospc](authors/momospc/README.md) | momospc | 1 (MyCrackme) | 1 / 1 |
 | [MyCrackTool](authors/MyCrackTool/README.md) | MyCrackTool | 1 (learn for begineer : pack de 3 ELF) | 1 / 1 |
 | [liboxin](authors/liboxin/README.md) | liboxin | 1 (unpack me v1, protecteur aegis) | 1 / 1 |
 | [0xbadc0de](authors/0xbadc0de/README.md) | 0xbadc0de | 1 (XOR Challenge) | 1 / 1 |
@@ -427,6 +428,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-15 | [momospc's MyCrackme](authors/momospc/6941aea10992a052ab22239d/) | momospc |
 | 2026-11-15 | [atoc's superEZcrackME](authors/atoc/69ffdc47d7ff92e1214c0079/) | atoc |
 | 2026-11-15 | [Tenzo Crackme](authors/tenzo_aoki/69f114ad3fba64e45dcea925/) | tenzo_aoki |
 | 2026-11-15 | [MyCrackTool's learn for begineer](authors/MyCrackTool/69d55b193e328e778db05348/) | MyCrackTool |
