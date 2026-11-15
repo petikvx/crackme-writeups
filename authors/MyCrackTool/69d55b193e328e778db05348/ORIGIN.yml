@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69d55b193e328e778db05348
+
+urls:
+  page: https://crackmes.one/crackme/69d55b193e328e778db05348
+  download: https://crackmes.one/download/crackme/69d55b193e328e778db05348
+
+title: "MyCrackTool's learn for begineer"
+author_on_site: "MyCrackTool"
+author_local: "MyCrackTool"
+
+platform: "Multiplatform"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "99ed9b524f11be23508b3439252043bbdab8786a8e25f1cbad8b15acb9e41849"
+  md5: "ef718ba2d41958978a0b8160ae8870a5"
+  size_bytes: 202272
+
+status: solved
+solution_summary: "Zip protégé (crackmes.one) contenant un zip de 3 ELF : easy = kali ; mid = kali + 777 (le XOR 0x42 est du leurre, compare direct à 0x37) ; hard = kali_secret_<time(0)/10>_key (clé régénérée toutes les 10 s). tools/ladder-solve.py --check"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-15T08:36:40Z"

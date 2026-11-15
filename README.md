@@ -325,6 +325,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [glitch_baby](authors/glitch_baby/README.md) | Glitch_Baby | 1 (Wheredakey) | 1 / 1 |
 | [lypd0](authors/lypd0/README.md) | lypd0 | 1 (Lantern01) | 1 / 1 |
 | [acidbyte](authors/acidbyte/README.md) | AcidByte | 1 (Acid's First Crackme) | 1 / 1 |
+| [MyCrackTool](authors/MyCrackTool/README.md) | MyCrackTool | 1 (learn for begineer : pack de 3 ELF) | 1 / 1 |
 | [liboxin](authors/liboxin/README.md) | liboxin | 1 (unpack me v1, protecteur aegis) | 1 / 1 |
 | [0xbadc0de](authors/0xbadc0de/README.md) | 0xbadc0de | 1 (XOR Challenge) | 1 / 1 |
 | [feliz](authors/feliz/README.md) | Feliz | 1 (Feliz's crackme) | 1 / 1 |
@@ -425,6 +426,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-15 | [MyCrackTool's learn for begineer](authors/MyCrackTool/69d55b193e328e778db05348/) | MyCrackTool |
 | 2026-11-15 | [whekkees's new crack me](authors/whekkees/69b906c7ddd6176826ae8a28/) | whekkees |
 | 2026-11-15 | [FLRSCRNSVR (RE CTF 2026 screensaver)](authors/jeffli6789/69a28c267a778cfffbfb67be/) | jeffli6789 |
 | 2026-11-15 | [AcidByte's Acid's First Crackme](authors/acidbyte/6999f719c1756e2381cffa34/) | acidbyte |

@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69d55b193e328e778db05348:
+    sha256: "99ed9b524f11be23508b3439252043bbdab8786a8e25f1cbad8b15acb9e41849"
+    path: "authors/MyCrackTool/69d55b193e328e778db05348/original/download.bin"
+    title: "MyCrackTool's learn for begineer"
+
+by_sha256:
+  99ed9b524f11be23508b3439252043bbdab8786a8e25f1cbad8b15acb9e41849:
+    id: 69d55b193e328e778db05348
+    path: "authors/MyCrackTool/69d55b193e328e778db05348/original/download.bin"
+    page: https://crackmes.one/crackme/69d55b193e328e778db05348
