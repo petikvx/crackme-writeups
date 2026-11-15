@@ -324,6 +324,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [mas](authors/mas/README.md) | MAS | 3 (zW0rM + Type Punning + ZSecure) | 3 / 3 |
 | [glitch_baby](authors/glitch_baby/README.md) | Glitch_Baby | 1 (Wheredakey) | 1 / 1 |
 | [lypd0](authors/lypd0/README.md) | lypd0 | 1 (Lantern01) | 1 / 1 |
+| [acidbyte](authors/acidbyte/README.md) | AcidByte | 1 (Acid's First Crackme) | 1 / 1 |
 | [liboxin](authors/liboxin/README.md) | liboxin | 1 (unpack me v1, protecteur aegis) | 1 / 1 |
 | [0xbadc0de](authors/0xbadc0de/README.md) | 0xbadc0de | 1 (XOR Challenge) | 1 / 1 |
 | [feliz](authors/feliz/README.md) | Feliz | 1 (Feliz's crackme) | 1 / 1 |
@@ -424,6 +425,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-15 | [AcidByte's Acid's First Crackme](authors/acidbyte/6999f719c1756e2381cffa34/) | acidbyte |
 | 2026-11-14 | [crazy_bg's Picky Keygen Me!](authors/crazy_bg/6af20c184ab951a9999da51e/) | crazy_bg |
 | 2026-11-14 | [liboxin's unpack me v1](authors/liboxin/6af59fc52c7537120cbe8a22/) | liboxin |
 | 2026-11-14 | [zouave](authors/s4r/5aa9b4e233c5d40a63746b21/) | s4r |

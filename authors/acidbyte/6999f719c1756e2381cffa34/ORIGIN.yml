@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6999f719c1756e2381cffa34
+
+urls:
+  page: https://crackmes.one/crackme/6999f719c1756e2381cffa34
+  download: https://crackmes.one/download/crackme/6999f719c1756e2381cffa34
+
+title: "AcidByte's Acid&#39;s First Crackme"
+author_on_site: "AcidByte"
+author_local: "acidbyte"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "ea01da3799f67cddfc81e9489b444d3888b9fa37a59fb640b9410fbc270074bf"
+  md5: "a31092e031d3b968ed35e7b91aaaf125"
+  size_bytes: 388399
+
+status: solved
+solution_summary: "Mot de passe fixe secret123 : le binaire compare SHA256(saisie+MachineGuid) à SHA256(sel+MachineGuid), le MachineGuid s'annule ; sel = \")?9\" \"(?.\" \"khi\" XOR 0x5a. Download = ZIP contenant license.exe. Confirmé sous Wine (petik refusé)."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-15T00:42:47Z"
