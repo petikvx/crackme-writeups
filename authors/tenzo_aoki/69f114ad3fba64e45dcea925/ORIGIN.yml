@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69f114ad3fba64e45dcea925
+
+urls:
+  page: https://crackmes.one/crackme/69f114ad3fba64e45dcea925
+  download: https://crackmes.one/download/crackme/69f114ad3fba64e45dcea925
+
+title: "tenzo_aoki's Tenzo Crackme"
+author_on_site: "tenzo_aoki"
+author_local: "tenzo_aoki"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "6e0dc59c40d3d92453257316e1b5de4f8732dc112be7bc914d7d2ec2da3432c3"
+  md5: "4055d0bd8c4719b8e585324e3ea2d871"
+  size_bytes: 109829
+
+status: solved
+solution_summary: "Mot de passe wowyoufoundit (13 car.) : boucle xor/add/ror/xor inversée octet par octet (tableaux A/B immédiats)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-15T10:38:25Z"

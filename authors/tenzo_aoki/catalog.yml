@@ -5,8 +5,17 @@ by_id:
     path: "authors/tenzo_aoki/6aa09754dbb3353b753967e4/original/Crackme_Tenzo.exe"
     title: "tenzo_aoki's Tenzo Crack ME Beta"
 
+  69f114ad3fba64e45dcea925:
+    sha256: "6e0dc59c40d3d92453257316e1b5de4f8732dc112be7bc914d7d2ec2da3432c3"
+    path: "authors/tenzo_aoki/69f114ad3fba64e45dcea925/original/download.bin"
+    title: "tenzo_aoki's Tenzo Crackme"
+
 by_sha256:
   70f450e4a51b9d26d6f1d4031c3ed484ffa74b02263392ab2e6cff7b51caf2c2:
     id: 6aa09754dbb3353b753967e4
     path: "authors/tenzo_aoki/6aa09754dbb3353b753967e4/original/Crackme_Tenzo.exe"
     page: https://crackmes.one/crackme/6aa09754dbb3353b753967e4
+  6e0dc59c40d3d92453257316e1b5de4f8732dc112be7bc914d7d2ec2da3432c3:
+    id: 69f114ad3fba64e45dcea925
+    path: "authors/tenzo_aoki/69f114ad3fba64e45dcea925/original/download.bin"
+    page: https://crackmes.one/crackme/69f114ad3fba64e45dcea925

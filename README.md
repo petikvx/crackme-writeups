@@ -309,7 +309,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [fentcat](authors/fentcat/README.md) | FentCat | 1 (Assembler Crackme) | 1 / 1 |
 | [sallos](authors/sallos/README.md) | Sallos | 2 (Key License + EscapeFromMatrix) | 2 / 2 |
 | [tempesta](authors/tempesta/README.md) | Tempesta | 1 (Lord Winderton) | 1 / 1 |
-| [tenzo_aoki](authors/tenzo_aoki/README.md) | tenzo_aoki | 1 (Tenzo Crack ME Beta) | 1 / 1 |
+| [tenzo_aoki](authors/tenzo_aoki/README.md) | tenzo_aoki | 2 (Tenzo Crack ME Beta, Tenzo Crackme) | 2 / 2 |
 | [towel](authors/towel/README.md) | Towel | 2 (Mars Analytica + QR Scanner) | 2 / 2 |
 | [alpjs](authors/alpjs/README.md) | alpjs | 1 (custom vmp) | 0 / 1 |
 | [bang1338](authors/bang1338/README.md) | bang1338 | 1 (Oops! All sarr) | 1 / 1 |
@@ -426,6 +426,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-15 | [Tenzo Crackme](authors/tenzo_aoki/69f114ad3fba64e45dcea925/) | tenzo_aoki |
 | 2026-11-15 | [MyCrackTool's learn for begineer](authors/MyCrackTool/69d55b193e328e778db05348/) | MyCrackTool |
 | 2026-11-15 | [whekkees's new crack me](authors/whekkees/69b906c7ddd6176826ae8a28/) | whekkees |
 | 2026-11-15 | [FLRSCRNSVR (RE CTF 2026 screensaver)](authors/jeffli6789/69a28c267a778cfffbfb67be/) | jeffli6789 |
