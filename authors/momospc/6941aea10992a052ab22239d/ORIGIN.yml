@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6941aea10992a052ab22239d
+
+urls:
+  page: https://crackmes.one/crackme/6941aea10992a052ab22239d
+  download: https://crackmes.one/download/crackme/6941aea10992a052ab22239d
+
+title: "momospc's MyCrackme"
+author_on_site: "momospc"
+author_local: "momospc"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C++"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "446a0a7a5c572de394d94c0dbef54abac6b168173899a8c742d773a587d4525f"
+  md5: "8a47d980513c150418c3dd462d301f14"
+  size_bytes: 6389
+
+status: solved
+solution_summary: "ELF C++ : sum(x(c[i]+i)) == 0x539 avec x(v)=5*((3v+7)/2)-11 ; mot de passe !!k -> `!!k` (super_secret_password = leurre, exit 1 silencieux) ; tools/momospc-solve.py"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-15T16:38:40Z"

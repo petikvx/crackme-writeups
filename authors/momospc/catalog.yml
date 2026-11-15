@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6941aea10992a052ab22239d:
+    sha256: "446a0a7a5c572de394d94c0dbef54abac6b168173899a8c742d773a587d4525f"
+    path: "authors/momospc/6941aea10992a052ab22239d/original/download.bin"
+    title: "momospc's MyCrackme"
+
+by_sha256:
+  446a0a7a5c572de394d94c0dbef54abac6b168173899a8c742d773a587d4525f:
+    id: 6941aea10992a052ab22239d
+    path: "authors/momospc/6941aea10992a052ab22239d/original/download.bin"
+    page: https://crackmes.one/crackme/6941aea10992a052ab22239d
