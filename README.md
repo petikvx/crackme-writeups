@@ -328,7 +328,8 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [atoc](authors/atoc/README.md) | atoc | 1 (superEZcrackME : VM bvessel) | 1 / 1 |
 | [momospc](authors/momospc/README.md) | momospc | 1 (MyCrackme) | 1 / 1 |
 | [MyCrackTool](authors/MyCrackTool/README.md) | MyCrackTool | 1 (learn for begineer : pack de 3 ELF) | 1 / 1 |
-| [liboxin](authors/liboxin/README.md) | liboxin | 1 (unpack me v1, protecteur aegis) | 1 / 1 |
+| [antilagvip](authors/antilagvip/README.md) | antilagvip | 1 (antilagvip's hard crackme : mini-VM chiffrée) | 1 / 1 |
+| [liboxin](authors/liboxin/README.md) | liboxin | 2 (unpack me v1 + v3, protecteur aegis) | 2 / 2 |
 | [0xbadc0de](authors/0xbadc0de/README.md) | 0xbadc0de | 1 (XOR Challenge) | 1 / 1 |
 | [feliz](authors/feliz/README.md) | Feliz | 1 (Feliz's crackme) | 1 / 1 |
 | [Elzzie](authors/Elzzie/README.md) | Elzzie | 1 (winkeygenme) | 1 / 1 |
@@ -428,6 +429,8 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-15 | [liboxin's Unpack me v3](authors/liboxin/6af9f24cc0ad374eab0818d1/) | liboxin |
+| 2026-11-15 | [antilagvip's hard crackme](authors/antilagvip/6af862c64b6d53e8802ed5cf/) | antilagvip |
 | 2026-11-15 | [momospc's MyCrackme](authors/momospc/6941aea10992a052ab22239d/) | momospc |
 | 2026-11-15 | [atoc's superEZcrackME](authors/atoc/69ffdc47d7ff92e1214c0079/) | atoc |
 | 2026-11-15 | [Tenzo Crackme](authors/tenzo_aoki/69f114ad3fba64e45dcea925/) | tenzo_aoki |
