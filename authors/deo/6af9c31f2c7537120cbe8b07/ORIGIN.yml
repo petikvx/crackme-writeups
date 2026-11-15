@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6af9c31f2c7537120cbe8b07
+
+urls:
+  page: https://crackmes.one/crackme/6af9c31f2c7537120cbe8b07
+  download: https://crackmes.one/download/crackme/6af9c31f2c7537120cbe8b07
+
+title: "deo's DEOBF ME"
+author_on_site: "deo"
+author_local: "deo"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "d0638eda36d4ff8a7d266037936d7328265644561c128195d219c922ab33b6ef"
+  md5: "d12b0740355fc716f3b672c0ee77ef48"
+  size_bytes: 3608855
+
+status: solved
+solution_summary: "Pas de serial (la page demande de localiser les blobs chiffrés). Zip imbriqué (crackmes.one → deob.zip → deob.exe). Blob chiffré = section stub .a1jpc7M, RVA 0xa1c080, 0x828 octets, xor+add rolling (clé 0x1fef3488, pas 0x6595a395) -> résolveur d imports par hash ror13 + saut OEP 0xca7c. tools/deo-deobf-solve.py"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-15T22:45:25Z"

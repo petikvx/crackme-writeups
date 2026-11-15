@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6af9c31f2c7537120cbe8b07:
+    sha256: "d0638eda36d4ff8a7d266037936d7328265644561c128195d219c922ab33b6ef"
+    path: "authors/deo/6af9c31f2c7537120cbe8b07/original/download.bin"
+    title: "deo's DEOBF ME"
+
+by_sha256:
+  d0638eda36d4ff8a7d266037936d7328265644561c128195d219c922ab33b6ef:
+    id: 6af9c31f2c7537120cbe8b07
+    path: "authors/deo/6af9c31f2c7537120cbe8b07/original/download.bin"
+    page: https://crackmes.one/crackme/6af9c31f2c7537120cbe8b07
