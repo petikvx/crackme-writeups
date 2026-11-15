@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69b906c7ddd6176826ae8a28
+
+urls:
+  page: https://crackmes.one/crackme/69b906c7ddd6176826ae8a28
+  download: https://crackmes.one/download/crackme/69b906c7ddd6176826ae8a28
+
+title: "whekkees's new crack me by whekkees"
+author_on_site: "whekkees"
+author_local: "whekkees"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++ (MSVC 2022)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "56a733da6096c7c13fa48a0d2cb8d45570711b9b8406a619cc26f6ea01632d95"
+  md5: "7034f5ff6a0ec4cf725d3b62b6bc507c"
+  size_bytes: 8701
+
+status: solved
+solution_summary: "aucun mot de passe valide : eax final (0x388…) n'atteint jamais 0x6f3a9b21 (brute-force 2^32 + courts) ; solution = patch je->jmp @ VA 0x1400013d1 (74 07 -> eb 07) sur copie ; ZIP imbriqué crackme6.exe ; ex. petik -> Wrong sur l'original"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-15T04:36:40Z"

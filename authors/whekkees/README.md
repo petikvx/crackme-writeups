@@ -10,3 +10,4 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml).
 |---|---|---|---|---|
 | 1 | [my first simple crack me](69b18083ddd6176826ae8947/) | [`69b18083…`](https://crackmes.one/crackme/69b18083ddd6176826ae8947) | Windows PE64 console (MSVC) | **solved** — `whekkees` / `qwert` |
 | 2 | [very easy crack me $$$](69b18b47ddd6176826ae8950/) | [`69b18b47…`](https://crackmes.one/crackme/69b18b47ddd6176826ae8950) | Windows PE64 console (MSVC) | **solved** — `whekkes` / `qwerty` |
+| 3 | [new crack me](69b906c7ddd6176826ae8a28/) | [`69b906c7…`](https://crackmes.one/crackme/69b906c7ddd6176826ae8a28) | Windows PE64 console (MSVC, ZIP imbriqué `crackme6.exe`) | **solved (patch)** — aucun password valide ; `je`→`jmp` @ `0x1400013d1` |

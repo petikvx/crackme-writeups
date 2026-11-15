@@ -335,7 +335,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [nx3n](authors/nx3n/README.md) | nx3n | 1 (Find a password) | 1 / 1 |
 | [brandon_w](authors/brandon_w/README.md) | brandon_w | 1 (simple windows crackme) | 1 / 1 |
 | [kcgaming](authors/kcgaming/README.md) | kcgaming | 1 (very simple keycheck) | 1 / 1 |
-| [whekkees](authors/whekkees/README.md) | whekkees | 2 (my first simple crack me, very easy crack me $$$) | 2 / 2 |
+| [whekkees](authors/whekkees/README.md) | whekkees | 3 (my first simple crack me, very easy crack me $$$, new crack me) | 3 / 3 |
 | [white_canary](authors/white_canary/README.md) | White_Canary | 1 (Adversarial Mind) | 1 / 1 |
 | [n0sync_](authors/n0sync_/README.md) | n0sync_ | 1 (Complex) | 1 / 1 |
 | [rm7rv](authors/rm7rv/README.md) | rm7rv | 1 (my first crackme) | 1 / 1 |
@@ -425,6 +425,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-15 | [whekkees's new crack me](authors/whekkees/69b906c7ddd6176826ae8a28/) | whekkees |
 | 2026-11-15 | [FLRSCRNSVR (RE CTF 2026 screensaver)](authors/jeffli6789/69a28c267a778cfffbfb67be/) | jeffli6789 |
 | 2026-11-15 | [AcidByte's Acid's First Crackme](authors/acidbyte/6999f719c1756e2381cffa34/) | acidbyte |
 | 2026-11-14 | [crazy_bg's Picky Keygen Me!](authors/crazy_bg/6af20c184ab951a9999da51e/) | crazy_bg |

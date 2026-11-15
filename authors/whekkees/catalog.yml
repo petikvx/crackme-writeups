@@ -10,6 +10,11 @@ by_id:
     path: "authors/whekkees/69b18b47ddd6176826ae8950/original/download.bin"
     title: "whekkees's very easy crack me $$$ by whekkees"
 
+  69b906c7ddd6176826ae8a28:
+    sha256: "56a733da6096c7c13fa48a0d2cb8d45570711b9b8406a619cc26f6ea01632d95"
+    path: "authors/whekkees/69b906c7ddd6176826ae8a28/original/download.bin"
+    title: "whekkees's new crack me by whekkees"
+
 by_sha256:
   f5c035dcf70db04111097c92f90b94f70bb2eebf79f1cfcf119b019bfc6bfb17:
     id: 69b18083ddd6176826ae8947
@@ -19,3 +24,7 @@ by_sha256:
     id: 69b18b47ddd6176826ae8950
     path: "authors/whekkees/69b18b47ddd6176826ae8950/original/download.bin"
     page: https://crackmes.one/crackme/69b18b47ddd6176826ae8950
+  56a733da6096c7c13fa48a0d2cb8d45570711b9b8406a619cc26f6ea01632d95:
+    id: 69b906c7ddd6176826ae8a28
+    path: "authors/whekkees/69b906c7ddd6176826ae8a28/original/download.bin"
+    page: https://crackmes.one/crackme/69b906c7ddd6176826ae8a28
