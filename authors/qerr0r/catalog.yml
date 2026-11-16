@@ -10,6 +10,11 @@ by_id:
     path: "authors/qerr0r/69a65ee60f5b9757a6a5f73f/original/crackit"
     title: "QERR0R's CrackIt;)"
 
+  69a806c17b3cc38c80464e06:
+    sha256: "e7d60125173e1d54a57cfcb8318041d88c252e60e375cf2cb9b36e0597e637cc"
+    path: "authors/qerr0r/69a806c17b3cc38c80464e06/original/download.bin"
+    title: "QERR0R's ASCII_CRACK"
+
 by_sha256:
   c17a56fe9caf1c9105212f8b4c72b9d7b998f3b862521e8a1235b532a97e5cd8:
     id: 69a65b6c7a778cfffbfb680e
@@ -19,3 +24,7 @@ by_sha256:
     id: 69a65ee60f5b9757a6a5f73f
     path: "authors/qerr0r/69a65ee60f5b9757a6a5f73f/original/crackit"
     page: https://crackmes.one/crackme/69a65ee60f5b9757a6a5f73f
+  e7d60125173e1d54a57cfcb8318041d88c252e60e375cf2cb9b36e0597e637cc:
+    id: 69a806c17b3cc38c80464e06
+    path: "authors/qerr0r/69a806c17b3cc38c80464e06/original/download.bin"
+    page: https://crackmes.one/crackme/69a806c17b3cc38c80464e06

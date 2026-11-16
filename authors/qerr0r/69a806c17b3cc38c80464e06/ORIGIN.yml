@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69a806c17b3cc38c80464e06
+
+urls:
+  page: https://crackmes.one/crackme/69a806c17b3cc38c80464e06
+  download: https://crackmes.one/download/crackme/69a806c17b3cc38c80464e06
+
+title: "QERR0R's ASCII_CRACK"
+author_on_site: "QERR0R"
+author_local: "qerr0r"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "e7d60125173e1d54a57cfcb8318041d88c252e60e375cf2cb9b36e0597e637cc"
+  md5: "798939795298ec632ea5ff9a8354b53c"
+  size_bytes: 8072
+
+status: solved
+solution_summary: "flag CTF{S3cR3T_AsSc1_Fl4g}{@_@} : argv[1][i]+(6-i) mod 256 == encoded_flag ; inverse trivial (tools/ascii-crack-solve.py)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-16T12:38:18Z"

@@ -153,7 +153,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
 | [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 466 / 466 |
 | [chaltu](authors/chaltu/README.md) | chaltu | 4 (a Treasure + Double Door + Accsess me please + FRONTLINES) | 4 / 4 |
-| [qerr0r](authors/qerr0r/README.md) | QERR0R | 2 (crackit + CrackIt;)) | 2 / 2 |
+| [qerr0r](authors/qerr0r/README.md) | QERR0R | 3 (crackit + CrackIt;) + ASCII_CRACK) | 3 / 3 |
 | [steve_maxwell](authors/steve_maxwell/README.md) | steve_maxwell | 1 (X-0-R) | 1 / 1 |
 | [vodeff](authors/vodeff/README.md) | vodeff | 1 (FindLicenseKey) | 1 / 1 |
 | [segfaults](authors/segfaults/README.md) | segfaults | 1 (Jame's Cybersecurity Company) | 1 / 1 |
@@ -430,6 +430,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-16 | [ASCII_CRACK](authors/qerr0r/69a806c17b3cc38c80464e06/) | QERR0R |
 | 2026-11-16 | [BadEngineer's PlsCrackMe](authors/badengineer/697f67fe977274421cc111ef/) | BadEngineer |
 | 2026-11-16 | [DonCris's Time Rift 2026](authors/doncris/69569523c0f39eab872f88ac/) | DonCris |
 | 2026-11-16 | [fon37's The Winner](authors/fon37/6ad6b78f4ab951a9999d9f4e/) | fon37 |
