@@ -9,7 +9,7 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml).
 | # | Titre | ID | Plateforme | Solution |
 |---|---|---|---|---|
 | 1 | [Secret Menu](6aadf84e48cda5a2aaa3de61/) | [`6aadf84e…`](https://crackmes.one/crackme/6aadf84e48cda5a2aaa3de61) | Python / PyInstaller | **solved** — `justasimplexor` |
-| 2 | [King of Asgard](6acf9047ace07d1c3fbc4c0f/) | [`6acf9047…`](https://crackmes.one/crackme/6acf9047ace07d1c3fbc4c0f) | ELF64 C (UPX) | **solved** — `CMO{IamLokiofAsgardandIamburdenedwithgloriouspurpose}` |
+| 2 | [King of Asgard](6acf9047ace07d1c3fbc4c0f/) | [`6acf9047…`](https://crackmes.one/crackme/6acf9047ace07d1c3fbc4c0f) | ELF64 C (UPX) | **solved** — `CMO{IamLokiofAsgardandIamburdenedwithgloriouspurpose}` || 3 | [The Winner](6ad6b78f4ab951a9999d9f4e/) | [`6ad6b78f…`](https://crackmes.one/crackme/6ad6b78f4ab951a9999d9f4e) | ELF64 C (GMP, dans ZIP) | **solved** — `CMO{the_WI3NERSSS_takes_1t_ALL}` |
 
 ## Ajouter un crackme
 

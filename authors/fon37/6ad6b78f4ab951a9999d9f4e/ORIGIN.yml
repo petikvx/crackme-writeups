@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6ad6b78f4ab951a9999d9f4e
+
+urls:
+  page: https://crackmes.one/crackme/6ad6b78f4ab951a9999d9f4e
+  download: https://crackmes.one/download/crackme/6ad6b78f4ab951a9999d9f4e
+
+title: "fon37's The Winner"
+author_on_site: "fon37"
+author_local: "fon37"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "5166c5e2b71beefe50e9eb52af5620f7b0ae3019c7bdb766280ecab06d14f127"
+  md5: "fa909018747cd325491f690fe98fe2c8"
+  size_bytes: 4372
+
+status: solved
+solution_summary: "RSA-1024 (GMP) n/e/C obfusqués par ror/rol ; d petit -> Wiener ; password CMO{the_WI3NERSSS_takes_1t_ALL}"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-16T06:45:41Z"

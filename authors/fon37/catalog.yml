@@ -10,6 +10,11 @@ by_id:
     path: "authors/fon37/6acf9047ace07d1c3fbc4c0f/original/crackme"
     title: "fon37's King of Asgard"
 
+  6ad6b78f4ab951a9999d9f4e:
+    sha256: "5166c5e2b71beefe50e9eb52af5620f7b0ae3019c7bdb766280ecab06d14f127"
+    path: "authors/fon37/6ad6b78f4ab951a9999d9f4e/original/download.bin"
+    title: "fon37's The Winner"
+
 by_sha256:
   7cb1206c8ca80c8e3fb23269d45255ef75579f52eb7f34314ad9e494cd484b8c:
     id: 6aadf84e48cda5a2aaa3de61
@@ -19,3 +24,7 @@ by_sha256:
     id: 6acf9047ace07d1c3fbc4c0f
     path: "authors/fon37/6acf9047ace07d1c3fbc4c0f/original/crackme"
     page: https://crackmes.one/crackme/6acf9047ace07d1c3fbc4c0f
+  5166c5e2b71beefe50e9eb52af5620f7b0ae3019c7bdb766280ecab06d14f127:
+    id: 6ad6b78f4ab951a9999d9f4e
+    path: "authors/fon37/6ad6b78f4ab951a9999d9f4e/original/download.bin"
+    page: https://crackmes.one/crackme/6ad6b78f4ab951a9999d9f4e
