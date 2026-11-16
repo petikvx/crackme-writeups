@@ -15,6 +15,11 @@ by_id:
     path: "authors/liboxin/6af9f24cc0ad374eab0818d1/original/download.bin"
     title: "liboxin's Unpack me v3"
 
+  6af00c585fa39ab0d4ac2236:
+    sha256: "bc4d6e96c89298b8f7b248206e5a9c4ffb0c467a86cde8b50256034a52184ebd"
+    path: "authors/liboxin/6af00c585fa39ab0d4ac2236/original/download.bin"
+    title: "liboxin's liboxin&#39;s hellgate1"
+
 by_sha256:
   bde7649418ee21bc7195aec59a5060888a3244d723fe06bcd04dee29cc5622ab:
     id: 6af59fc52c7537120cbe8a22
@@ -28,3 +33,7 @@ by_sha256:
     id: 6af9f24cc0ad374eab0818d1
     path: "authors/liboxin/6af9f24cc0ad374eab0818d1/original/download.bin"
     page: https://crackmes.one/crackme/6af9f24cc0ad374eab0818d1
+  bc4d6e96c89298b8f7b248206e5a9c4ffb0c467a86cde8b50256034a52184ebd:
+    id: 6af00c585fa39ab0d4ac2236
+    path: "authors/liboxin/6af00c585fa39ab0d4ac2236/original/download.bin"
+    page: https://crackmes.one/crackme/6af00c585fa39ab0d4ac2236

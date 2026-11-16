@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6af00c585fa39ab0d4ac2236
+
+urls:
+  page: https://crackmes.one/crackme/6af00c585fa39ab0d4ac2236
+  download: https://crackmes.one/download/crackme/6af00c585fa39ab0d4ac2236
+
+title: "liboxin's liboxin&#39;s hellgate1"
+author_on_site: "liboxin"
+author_local: "liboxin"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "bc4d6e96c89298b8f7b248206e5a9c4ffb0c467a86cde8b50256034a52184ebd"
+  md5: "89807f79db05580ef14c3b5ebc2a3e6c"
+  size_bytes: 270099
+
+status: solved
+solution_summary: "Input 16 octets en hexa 60ca82e9e1d419424688d241affaa094 (flag CMO{9_r0und5_0f_c0ld_5t33l_0n3_d00r_0nly}) : mini-VM dont le prédicat est 9 rounds inversibles (xor RK, SBOX^K9, cascade ADD, ROL, MUL impair) ; on inverse depuis C11^C14 ; .text déchiffré par le stub aegis (tools/aegis-unpack.py)."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-16T16:43:40Z"
