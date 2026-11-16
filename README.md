@@ -334,7 +334,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [0xbadc0de](authors/0xbadc0de/README.md) | 0xbadc0de | 1 (XOR Challenge) | 1 / 1 |
 | [feliz](authors/feliz/README.md) | Feliz | 1 (Feliz's crackme) | 1 / 1 |
 | [Elzzie](authors/Elzzie/README.md) | Elzzie | 1 (winkeygenme) | 1 / 1 |
-| [micky23310](authors/micky23310/README.md) | micky23310 | 1 (HiddenFlag) | 1 / 1 |
+| [micky23310](authors/micky23310/README.md) | micky23310 | 2 (HiddenFlag, guessme) | 2 / 2 |
 | [mintcocs](authors/mintcocs/README.md) | mintcocs | 2 (learning_vm, party invitation) | 2 / 2 |
 | [stels](authors/stels/README.md) | stels | 1 (sob Obfuscator Challenge) | 1 / 1 |
 | [nx3n](authors/nx3n/README.md) | nx3n | 1 (Find a password) | 1 / 1 |
@@ -430,6 +430,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-16 | [micky23310's guessme](authors/micky23310/6aefd3da4b6d53e8802ed439/) | micky23310 |
 | 2026-11-16 | [liboxin's hellgate1](authors/liboxin/6af00c585fa39ab0d4ac2236/) | liboxin |
 | 2026-11-16 | [ASCII_CRACK](authors/qerr0r/69a806c17b3cc38c80464e06/) | QERR0R |
 | 2026-11-16 | [BadEngineer's PlsCrackMe](authors/badengineer/697f67fe977274421cc111ef/) | BadEngineer |

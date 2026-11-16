@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6aefd3da4b6d53e8802ed439
+
+urls:
+  page: https://crackmes.one/crackme/6aefd3da4b6d53e8802ed439
+  download: https://crackmes.one/download/crackme/6aefd3da4b6d53e8802ed439
+
+title: "micky23310's guessme"
+author_on_site: "micky23310"
+author_local: "micky23310"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C (MinGW-w64 GCC 16.2)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "9379605ca7f376e2ba0cb574f5e24232a1b18d2f93e14bcd750f71c9837c4df9"
+  md5: "2101dadc4d4b3ac00c092c720a1347d2"
+  size_bytes: 21176
+
+status: solved
+solution_summary: "Passphrase 16 car. r3v3rs1ng_1s_fun (inversion du bloc 8 tours 0x1400018b0, cible = const ^ key[0xb0]) -> CMO{1nv3rt_th3_8_r0unds}; le hint CMO{strings_w1ll_l13_t0_y0u} est un leurre"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-16T18:45:23Z"
