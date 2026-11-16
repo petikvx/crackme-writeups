@@ -266,6 +266,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [howosec](authors/howosec/README.md) | howosec | 1 (Password And Flag in C) | 1 / 1 |
 | [popacracker](authors/popacracker/README.md) | PopaCracker | 1 (Python CrackMe) | 1 / 1 |
 | [noname_user](authors/noname_user/README.md) | noname_User | 2 | 2 / 2 |
+| [noname_User](authors/noname_User/README.md) | noname_User (dossier casse différente) | 1 (idk) | 1 / 1 |
 | [nizzix](authors/nizzix/README.md) | Nizzix | 1 (Ageis) | 1 / 1 |
 | [thefakeking](authors/thefakeking/README.md) | TheFakeKing | 1 (Basic ConsoleBased) | 1 / 1 |
 | [svz](authors/svz/README.md) | SVz | 2 (Orrery + Orrery 2) | 2 / 2 |
@@ -429,6 +430,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-16 | [noname_User's idk](authors/noname_User/6af3568bc0ad374eab08177e/) | noname_User |
 | 2026-11-15 | [liboxin's Unpack me v3](authors/liboxin/6af9f24cc0ad374eab0818d1/) | liboxin |
 | 2026-11-15 | [antilagvip's hard crackme](authors/antilagvip/6af862c64b6d53e8802ed5cf/) | antilagvip |
 | 2026-11-15 | [momospc's MyCrackme](authors/momospc/6941aea10992a052ab22239d/) | momospc |

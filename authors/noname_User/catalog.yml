@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6af3568bc0ad374eab08177e:
+    sha256: "79ab3b4a1b3d5633553054b62928902a1a878a999399ec7368f622738e3689c6"
+    path: "authors/noname_User/6af3568bc0ad374eab08177e/original/download.bin"
+    title: "noname_User's idk"
+
+by_sha256:
+  79ab3b4a1b3d5633553054b62928902a1a878a999399ec7368f622738e3689c6:
+    id: 6af3568bc0ad374eab08177e
+    path: "authors/noname_User/6af3568bc0ad374eab08177e/original/download.bin"
+    page: https://crackmes.one/crackme/6af3568bc0ad374eab08177e
