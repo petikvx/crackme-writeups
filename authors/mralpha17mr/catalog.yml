@@ -5,8 +5,17 @@ by_id:
     path: "authors/mralpha17mr/6ae559aa5fa39ab0d4ac1fd8/original/upload-mothlight.zip"
     title: "mrAlpha17mr's mothlight"
 
+  6aed2ae0c0ad374eab081633:
+    sha256: "db28e508184a3fde69900930f899ba48270c48f310cf72b97499e9dde2eaebb8"
+    path: "authors/mralpha17mr/6aed2ae0c0ad374eab081633/original/download.bin"
+    title: "mrAlpha17mr's lamplighter"
+
 by_sha256:
   1ff9209b0571bd845ac58fb44367769c436d530cce2dbfbdd43e597c06201f00:
     id: 6ae559aa5fa39ab0d4ac1fd8
     path: "authors/mralpha17mr/6ae559aa5fa39ab0d4ac1fd8/original/upload-mothlight.zip"
     page: https://crackmes.one/crackme/6ae559aa5fa39ab0d4ac1fd8
+  db28e508184a3fde69900930f899ba48270c48f310cf72b97499e9dde2eaebb8:
+    id: 6aed2ae0c0ad374eab081633
+    path: "authors/mralpha17mr/6aed2ae0c0ad374eab081633/original/download.bin"
+    page: https://crackmes.one/crackme/6aed2ae0c0ad374eab081633

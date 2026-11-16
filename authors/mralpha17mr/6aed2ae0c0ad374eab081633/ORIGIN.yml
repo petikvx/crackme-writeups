@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6aed2ae0c0ad374eab081633
+
+urls:
+  page: https://crackmes.one/crackme/6aed2ae0c0ad374eab081633
+  download: https://crackmes.one/download/crackme/6aed2ae0c0ad374eab081633
+
+title: "mrAlpha17mr's lamplighter"
+author_on_site: "mrAlpha17mr"
+author_local: "mralpha17mr"
+
+platform: "Multiplatform (Python 3.9+)"
+arch: ""
+language: "Python"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "db28e508184a3fde69900930f899ba48270c48f310cf72b97499e9dde2eaebb8"
+  md5: "b3d71449acf2b2f704137a6143a6fc33"
+  size_bytes: 7056
+
+status: solved
+solution_summary: "NK-<a>-<b>-<c> = derive_nk(name, clé 16 o tirée du LSB rouge du PNG embarqué dans la charge XOR('lamp')+zlib) ; petik→NK-DA9D-0366-2E88 ; CrackMes1→NK-1618-6D04-2AB9 (CMO{FB288316}) ; solveur tools/lamplighter-solve.py"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-16T02:37:39Z"
