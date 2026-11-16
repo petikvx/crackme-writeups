@@ -330,7 +330,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [momospc](authors/momospc/README.md) | momospc | 1 (MyCrackme) | 1 / 1 |
 | [MyCrackTool](authors/MyCrackTool/README.md) | MyCrackTool | 1 (learn for begineer : pack de 3 ELF) | 1 / 1 |
 | [antilagvip](authors/antilagvip/README.md) | antilagvip | 1 (antilagvip's hard crackme : mini-VM chiffrée) | 1 / 1 |
-| [liboxin](authors/liboxin/README.md) | liboxin | 2 (unpack me v1 + v3, protecteur aegis) | 2 / 2 |
+| [liboxin](authors/liboxin/README.md) | liboxin | 3 (unpack me v1 + v3, hellgate1 ; protecteur aegis) | 3 / 3 |
 | [0xbadc0de](authors/0xbadc0de/README.md) | 0xbadc0de | 1 (XOR Challenge) | 1 / 1 |
 | [feliz](authors/feliz/README.md) | Feliz | 1 (Feliz's crackme) | 1 / 1 |
 | [Elzzie](authors/Elzzie/README.md) | Elzzie | 1 (winkeygenme) | 1 / 1 |
@@ -430,6 +430,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-16 | [liboxin's hellgate1](authors/liboxin/6af00c585fa39ab0d4ac2236/) | liboxin |
 | 2026-11-16 | [ASCII_CRACK](authors/qerr0r/69a806c17b3cc38c80464e06/) | QERR0R |
 | 2026-11-16 | [BadEngineer's PlsCrackMe](authors/badengineer/697f67fe977274421cc111ef/) | BadEngineer |
 | 2026-11-16 | [DonCris's Time Rift 2026](authors/doncris/69569523c0f39eab872f88ac/) | DonCris |
