@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a30eab0a4b247348ae805c4:
+    sha256: "074722444e7bd823c5b29753cec8759bf18e9e6fe8d642447968e746dc0eff1c"
+    path: "authors/admin31/6a30eab0a4b247348ae805c4/original/download.bin"
+    title: "admin31's cantcrack"
+
+by_sha256:
+  074722444e7bd823c5b29753cec8759bf18e9e6fe8d642447968e746dc0eff1c:
+    id: 6a30eab0a4b247348ae805c4
+    path: "authors/admin31/6a30eab0a4b247348ae805c4/original/download.bin"
+    page: https://crackmes.one/crackme/6a30eab0a4b247348ae805c4

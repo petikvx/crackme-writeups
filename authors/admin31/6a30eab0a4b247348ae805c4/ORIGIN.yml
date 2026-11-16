@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a30eab0a4b247348ae805c4
+
+urls:
+  page: https://crackmes.one/crackme/6a30eab0a4b247348ae805c4
+  download: https://crackmes.one/download/crackme/6a30eab0a4b247348ae805c4
+
+title: "admin31's cantcrack"
+author_on_site: "admin31"
+author_local: "admin31"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++ (MSVC)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "074722444e7bd823c5b29753cec8759bf18e9e6fe8d642447968e746dc0eff1c"
+  md5: "53f31885880240867bc8cba655d9cc15"
+  size_bytes: 9336
+
+status: solved
+solution_summary: "Mot de passe fixe nnoae-2026-hps (pas de user ; clé 12 octets XOR 0x37/0x41/0x23 par tranches 5+4+3). tools/cantcrack-solve.py"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-16T20:42:30Z"
