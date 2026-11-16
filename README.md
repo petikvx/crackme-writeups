@@ -352,7 +352,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [qpdudusydi](authors/qpdudusydi/README.md) | qpdudusydi | 2 (Very Easy, XOR Easy) | 2 / 2 |
 | [Lacks](authors/Lacks/README.md) | Lacks | 1 (Lacks's Level 1) | 1 / 1 |
 | [ended](authors/ended/README.md) | ended | 1 (catgirl.crack) | 1 / 1 |
-| [badengineer](authors/badengineer/README.md) | BadEngineer | 3 (First Crackme, BeginnerFriendly, EasiestEver) | 3 / 3 |
+| [badengineer](authors/badengineer/README.md) | BadEngineer | 4 (First Crackme, BeginnerFriendly, EasiestEver, PlsCrackMe) | 4 / 4 |
 | [sarahmills](authors/sarahmills/README.md) | sarahmills | 1 (Gopher Secrets) | 1 / 1 |
 | [kanax01](authors/kanax01/README.md) | Kanax01 | 1 (Fixed Easy Crackme) | 1 / 1 |
 | [vestige46](authors/vestige46/README.md) | vestige46 | 1 (GetToKnow) | 1 / 1 |
@@ -430,6 +430,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-16 | [BadEngineer's PlsCrackMe](authors/badengineer/697f67fe977274421cc111ef/) | BadEngineer |
 | 2026-11-16 | [DonCris's Time Rift 2026](authors/doncris/69569523c0f39eab872f88ac/) | DonCris |
 | 2026-11-16 | [fon37's The Winner](authors/fon37/6ad6b78f4ab951a9999d9f4e/) | fon37 |
 | 2026-11-16 | [noname_User's idk](authors/noname_User/6af3568bc0ad374eab08177e/) | noname_User |

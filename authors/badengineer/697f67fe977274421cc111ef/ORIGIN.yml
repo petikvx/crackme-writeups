@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 697f67fe977274421cc111ef
+
+urls:
+  page: https://crackmes.one/crackme/697f67fe977274421cc111ef
+  download: https://crackmes.one/download/crackme/697f67fe977274421cc111ef
+
+title: "BadEngineer's PlsCrackMe"
+author_on_site: "BadEngineer"
+author_local: "badengineer"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "4c0611bdb00b3c91d00d8fb3f8e67ebe304f5e0698ab44c9cadc31c0e13b35c7"
+  md5: "5a22778c950a74edad432e5c0761f2c3"
+  size_bytes: 187896
+
+status: solved
+solution_summary: "ZIP (pw crackmes.one) contenant NormalCrackme.exe ; mot de passe 13 chars : 3 chiffres + 3 spéciaux + 3 majuscules + 4 minuscules, ex. Pe7!Tk9@Ik#2x (pas de user, petik non applicable)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-16T10:44:56Z"
