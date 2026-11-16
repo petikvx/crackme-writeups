@@ -133,7 +133,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [microsoftstorage](authors/microsoftstorage/README.md) | MicrosoftStorage | 1 (ACrack) | 1 / 1 |
 | [cyberpenguin](authors/cyberpenguin/README.md) | Cyberpenguin | 1 (What password???) | 1 / 1 |
 | [solitikburmaldatik](authors/solitikburmaldatik/README.md) | SolitikBurmaldatik | 1 (FirstCrackMe) | 1 / 1 |
-| [doncris](authors/doncris/README.md) | DonCris | 1 (Existential Vending Machine) | 1 / 1 |
+| [doncris](authors/doncris/README.md) | DonCris | 2 (Existential Vending Machine + Time Rift 2026) | 2 / 2 |
 | [simbahdd](authors/simbahdd/README.md) | SimbaHDD | 5 (CRACKME + very easy crackme + first golang crackme + easy crackme + CRACKME 2) | 5 / 5 |
 | [monsignor](authors/monsignor/README.md) | Monsignor | 1 (Monsignor's Monsignors Crackme) | 1 / 1 |
 | [tdaron](authors/tdaron/README.md) | tdaron | 1 (Use your brain) | 1 / 1 |
@@ -317,7 +317,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [victormeloasm](authors/victormeloasm/README.md) | victormeloasm | 2 (Froggate II + Simple Frog) | 1 / 2 |
 | [nillya](authors/nillya/README.md) | Nillya | 1 (Nillya's Pass CrackMe) | 0 / 1 |
 | [leotrungkien](authors/leotrungkien/README.md) | Leotrungkien | 1 (Fugs) | 1 / 1 |
-| [fon37](authors/fon37/README.md) | fon37 | 2 (Secret Menu + King of Asgard) | 2 / 2 |
+| [fon37](authors/fon37/README.md) | fon37 | 3 (Secret Menu + King of Asgard + The Winner) | 3 / 3 |
 | [memetic0](authors/memetic0/README.md) | memetic0 | 2 (Tropical, Lattice) | 2 / 2 |
 | [vetementsvmnts](authors/vetementsvmnts/README.md) | vetementsvmnts | 5 | 5 / 5 |
 | [acheylate](authors/acheylate/README.md) | acheylate | 5 (Find password L+W, State Machine, Beat The Game, Patch It Cli Game) | 5 / 5 |
@@ -430,6 +430,8 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-16 | [DonCris's Time Rift 2026](authors/doncris/69569523c0f39eab872f88ac/) | DonCris |
+| 2026-11-16 | [fon37's The Winner](authors/fon37/6ad6b78f4ab951a9999d9f4e/) | fon37 |
 | 2026-11-16 | [noname_User's idk](authors/noname_User/6af3568bc0ad374eab08177e/) | noname_User |
 | 2026-11-15 | [liboxin's Unpack me v3](authors/liboxin/6af9f24cc0ad374eab0818d1/) | liboxin |
 | 2026-11-15 | [antilagvip's hard crackme](authors/antilagvip/6af862c64b6d53e8802ed5cf/) | antilagvip |

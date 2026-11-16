@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69569523c0f39eab872f88ac
+
+urls:
+  page: https://crackmes.one/crackme/69569523c0f39eab872f88ac
+  download: https://crackmes.one/download/crackme/69569523c0f39eab872f88ac
+
+title: "DonCris's Time Rift 2026"
+author_on_site: "DonCris"
+author_local: "doncris"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "a0bd8e19b41c2f862ff99db493d21b67126343622e752c3126134a8a818e0df8"
+  md5: "25c2d4a8fd2946d8bd3b2c7da1db295f"
+  size_bytes: 454934
+
+status: solved
+solution_summary: "3 étapes : flux=132 (2026-1894), mot de passe `tomorrow`, clé=(djb2(nom)^0x2026)*132 ; petik→35738094480"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-16T08:44:06Z"
