@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69245c422d267f28f69b806e
+
+urls:
+  page: https://crackmes.one/crackme/69245c422d267f28f69b806e
+  download: https://crackmes.one/download/crackme/69245c422d267f28f69b806e
+
+title: "vilxd's decode me"
+author_on_site: "vilxd"
+author_local: "vilxd"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "ae5c2f68890cb1b49c7913bb8b031c93d98c5fb888e14360905339353fa57c4a"
+  md5: "b4c72f7de7d4d9fa0cbfe1f3fc251852"
+  size_bytes: 41471
+
+status: solved
+solution_summary: "password Pa>__-3\\\\->L@>_> (secret Pa100-322-1L@101 avec 0→_, 1→>, 2→\\\\)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-16T22:37:57Z"

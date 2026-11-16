@@ -15,6 +15,11 @@ by_id:
     path: "authors/vilxd/690fa2f12d267f28f69b7c44/original/download.bin"
     title: "vilxd's crack the points"
 
+  69245c422d267f28f69b806e:
+    sha256: "ae5c2f68890cb1b49c7913bb8b031c93d98c5fb888e14360905339353fa57c4a"
+    path: "authors/vilxd/69245c422d267f28f69b806e/original/download.bin"
+    title: "vilxd's decode me"
+
 by_sha256:
   07ae9709141687e122f94427a38d9a12848fe6278d96bad5bafd93e65ce85f51:
     id: 6a70bc1c08712c1a17cbac5a
@@ -28,3 +33,7 @@ by_sha256:
     id: 690fa2f12d267f28f69b7c44
     path: "authors/vilxd/690fa2f12d267f28f69b7c44/original/download.bin"
     page: https://crackmes.one/crackme/690fa2f12d267f28f69b7c44
+  ae5c2f68890cb1b49c7913bb8b031c93d98c5fb888e14360905339353fa57c4a:
+    id: 69245c422d267f28f69b806e
+    path: "authors/vilxd/69245c422d267f28f69b806e/original/download.bin"
+    page: https://crackmes.one/crackme/69245c422d267f28f69b806e

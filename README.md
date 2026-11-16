@@ -279,7 +279,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [jasper676767](authors/jasper676767/README.md) | Jasper676767 | 3 (Red light + forgot password + Functions!) | 3 / 3 |
 | [pitou](authors/pitou/README.md) | pitou | 1 (Evaisve) | 1 / 1 |
 | [fatih](authors/fatih/README.md) | Fatih | 1 (S-BOX) | 1 / 1 |
-| [vilxd](authors/vilxd/README.md) | vilxd | 3 (points + CRACK ME DLL + crack the points) | 3 / 3 |
+| [vilxd](authors/vilxd/README.md) | vilxd | 4 (points + CRACK ME DLL + crack the points + decode me) | 4 / 4 |
 | [mesit21](authors/mesit21/README.md) | mesit21 | 1 (the stary console) | 1 / 1 |
 | [mazzotti](authors/mazzotti/README.md) | Mazzotti | 6 (patch-me + multi-layer + cortisol + getting started keygen + back to the beginning + rage) | 6 / 6 |
 | [fourexp](authors/fourexp/README.md) | fourexp | 1 (fourexps hard crackme) | 1 / 1 |
@@ -431,6 +431,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-16 | [vilxd's decode me](authors/vilxd/69245c422d267f28f69b806e/) | vilxd |
 | 2026-11-16 | [admin31's cantcrack](authors/admin31/6a30eab0a4b247348ae805c4/) | admin31 |
 | 2026-11-16 | [micky23310's guessme](authors/micky23310/6aefd3da4b6d53e8802ed439/) | micky23310 |
 | 2026-11-16 | [liboxin's hellgate1](authors/liboxin/6af00c585fa39ab0d4ac2236/) | liboxin |
