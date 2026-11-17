@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6afbe8004b6d53e8802ed677
+
+urls:
+  page: https://crackmes.one/crackme/6afbe8004b6d53e8802ed677
+  download: https://crackmes.one/download/crackme/6afbe8004b6d53e8802ed677
+
+title: "victormeloasm's Orbiyal Relay"
+author_on_site: "victormeloasm"
+author_local: "victormeloasm"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C/C++ (ELF64 PIE, sans sections)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "dadb2939b738ad94cff76e367f4236ee6ca7cbf28871c6519c6654c29846e89a"
+  md5: "141b28a214c717118a451bc0ccfd829e"
+  size_bytes: 4613
+
+status: solved
+solution_summary: "keygen : h=SHA-256('ORBITAL/V1:'+user+':SOYUZ/2026') ; serial 4 mots ARX résolus par z3 ; petik→D61353CD-38AD8806-6D1E04F5-76AB1026"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-17T08:44:50Z"

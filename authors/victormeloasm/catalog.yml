@@ -10,6 +10,11 @@ by_id:
     path: "authors/victormeloasm/6aae098bcab6678aefe9de31/original/simplefrog"
     title: "victormeloasm's Simple Frog"
 
+  6afbe8004b6d53e8802ed677:
+    sha256: "dadb2939b738ad94cff76e367f4236ee6ca7cbf28871c6519c6654c29846e89a"
+    path: "authors/victormeloasm/6afbe8004b6d53e8802ed677/original/download.bin"
+    title: "victormeloasm's Orbiyal Relay"
+
 by_sha256:
   4c80cb260356765d019042951ecc1dbf54ab38dae2459bbea8455cfd45ca3793:
     id: 6aa471e83b246e477b6c0be7
@@ -23,3 +28,7 @@ by_sha256:
     id: 6aae098bcab6678aefe9de31
     path: "authors/victormeloasm/6aae098bcab6678aefe9de31/original/simplefrog"
     page: https://crackmes.one/crackme/6aae098bcab6678aefe9de31
+  dadb2939b738ad94cff76e367f4236ee6ca7cbf28871c6519c6654c29846e89a:
+    id: 6afbe8004b6d53e8802ed677
+    path: "authors/victormeloasm/6afbe8004b6d53e8802ed677/original/download.bin"
+    page: https://crackmes.one/crackme/6afbe8004b6d53e8802ed677

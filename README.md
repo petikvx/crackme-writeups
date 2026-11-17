@@ -314,7 +314,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [towel](authors/towel/README.md) | Towel | 2 (Mars Analytica + QR Scanner) | 2 / 2 |
 | [alpjs](authors/alpjs/README.md) | alpjs | 1 (custom vmp) | 0 / 1 |
 | [bang1338](authors/bang1338/README.md) | bang1338 | 1 (Oops! All sarr) | 1 / 1 |
-| [victormeloasm](authors/victormeloasm/README.md) | victormeloasm | 2 (Froggate II + Simple Frog) | 1 / 2 |
+| [victormeloasm](authors/victormeloasm/README.md) | victormeloasm | 3 (Froggate II + Simple Frog + Orbiyal Relay) | 2 / 3 |
 | [nillya](authors/nillya/README.md) | Nillya | 1 (Nillya's Pass CrackMe) | 0 / 1 |
 | [leotrungkien](authors/leotrungkien/README.md) | Leotrungkien | 1 (Fugs) | 1 / 1 |
 | [fon37](authors/fon37/README.md) | fon37 | 3 (Secret Menu + King of Asgard + The Winner) | 3 / 3 |
@@ -434,6 +434,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-17 | [victormeloasm's Orbiyal Relay](authors/victormeloasm/6afbe8004b6d53e8802ed677/) | victormeloasm |
 | 2026-11-17 | [SoftwareBreaker's License Checker](authors/softwarebreaker/6a4545a639dd6183d62b9e95/) | softwarebreaker |
 | 2026-11-17 | [iseey0u-re's iseey0u](authors/iseey0u-re/6a00a162d7ff92e1214c008d/) | iseey0u-re |
 | 2026-11-17 | [Ploxied's Easy Crackme](authors/ploxied/69cbde056793d479be018f09/) | Ploxied |
