@@ -5,8 +5,17 @@ by_id:
     path: "authors/rodrigoteixeira/6abfc1a30885f990699dc0c2/original/main.exe"
     title: "RodrigoTeixeira's Loggin"
 
+  6ac121acace07d1c3fbc4898:
+    sha256: "a9e9f094be6d8984d7f2c71476730fbe5a536ff5793ce96dba5484e9a5f1ef2a"
+    path: "authors/rodrigoteixeira/6ac121acace07d1c3fbc4898/original/download.bin"
+    title: "RodrigoTeixeira's Simulation password"
+
 by_sha256:
   707d4e4bf7944e07af1b42eaeaae8e77a5afdce7de473f85fa530cca04e3dcfc:
     id: 6abfc1a30885f990699dc0c2
     path: "authors/rodrigoteixeira/6abfc1a30885f990699dc0c2/original/main.exe"
     page: https://crackmes.one/crackme/6abfc1a30885f990699dc0c2
+  a9e9f094be6d8984d7f2c71476730fbe5a536ff5793ce96dba5484e9a5f1ef2a:
+    id: 6ac121acace07d1c3fbc4898
+    path: "authors/rodrigoteixeira/6ac121acace07d1c3fbc4898/original/download.bin"
+    page: https://crackmes.one/crackme/6ac121acace07d1c3fbc4898

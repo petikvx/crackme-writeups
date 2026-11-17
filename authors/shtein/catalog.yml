@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69c40c1c3e328e778db05228:
+    sha256: "eacaa8d4ea76fdc7ed9bb6558044a2a1611593b1fef55e2acff13cecff96d8cc"
+    path: "authors/shtein/69c40c1c3e328e778db05228/original/download.bin"
+    title: "Shtein's vm rust crackme"
+
+by_sha256:
+  eacaa8d4ea76fdc7ed9bb6558044a2a1611593b1fef55e2acff13cecff96d8cc:
+    id: 69c40c1c3e328e778db05228
+    path: "authors/shtein/69c40c1c3e328e778db05228/original/download.bin"
+    page: https://crackmes.one/crackme/69c40c1c3e328e778db05228

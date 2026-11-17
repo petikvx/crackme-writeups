@@ -330,6 +330,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [admin31](authors/admin31/README.md) | admin31 | 1 (cantcrack) | 1 / 1 |
 | [ploxied](authors/ploxied/README.md) | Ploxied | 1 (Ploxied's Easy Crackme) | 1 / 1 |
 | [atoc](authors/atoc/README.md) | atoc | 1 (superEZcrackME : VM bvessel) | 1 / 1 |
+| [leenear](authors/Leenear/README.md) | Leenear | 1 (Wait, it was all linear?) | 1 / 1 |
 | [momospc](authors/momospc/README.md) | momospc | 1 (MyCrackme) | 1 / 1 |
 | [iseey0u-re](authors/iseey0u-re/README.md) | iseey0u-re | 1 (iseey0u) | 1 / 1 |
 | [MyCrackTool](authors/MyCrackTool/README.md) | MyCrackTool | 1 (learn for begineer : pack de 3 ELF) | 1 / 1 |
@@ -372,7 +373,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [alogen](authors/alogen/README.md) | alogen | 1 (Simple Java Verify) | 1 / 1 |
 | [va7d1n3](authors/va7d1n3/README.md) | Va7D1n3 | 1 (Automata Simulation) | 1 / 1 |
 | [confining0367](authors/confining0367/README.md) | confining0367 | 1 (Key) | 1 / 1 |
-| [rodrigoteixeira](authors/rodrigoteixeira/README.md) | RodrigoTeixeira | 1 (Loggin) | 1 / 1 |
+| [rodrigoteixeira](authors/rodrigoteixeira/README.md) | RodrigoTeixeira | 2 (Loggin, Simulation password) | 2 / 2 |
 | [Dirtbikercj](authors/Dirtbikercj/README.md) | Dirtbikercj | 1 (Secure License Portal) | 1 / 1 |
 | [tihiyomut](authors/tihiyomut/README.md) | TihiyOmut | 1 (EZFTP_ByTOMUT) | 1 / 1 |
 | [werrec](authors/werrec/README.md) | werrec | 1 (Retro OEM License Check) | 1 / 1 |
@@ -434,6 +435,8 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-17 | [RodrigoTeixeira's Simulation password](authors/rodrigoteixeira/6ac121acace07d1c3fbc4898/) | RodrigoTeixeira |
+| 2026-11-17 | [Leenear's Wait, it was all linear?](authors/Leenear/6ac393370885f990699dc118/) | Leenear |
 | 2026-11-17 | [victormeloasm's Orbiyal Relay](authors/victormeloasm/6afbe8004b6d53e8802ed677/) | victormeloasm |
 | 2026-11-17 | [SoftwareBreaker's License Checker](authors/softwarebreaker/6a4545a639dd6183d62b9e95/) | softwarebreaker |
 | 2026-11-17 | [iseey0u-re's iseey0u](authors/iseey0u-re/6a00a162d7ff92e1214c008d/) | iseey0u-re |

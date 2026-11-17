@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6ac121acace07d1c3fbc4898
+
+urls:
+  page: https://crackmes.one/crackme/6ac121acace07d1c3fbc4898
+  download: https://crackmes.one/download/crackme/6ac121acace07d1c3fbc4898
+
+title: "RodrigoTeixeira's Simulation password"
+author_on_site: "RodrigoTeixeira"
+author_local: "rodrigoteixeira"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "a9e9f094be6d8984d7f2c71476730fbe5a536ff5793ce96dba5484e9a5f1ef2a"
+  md5: "bf5ba4b166731388b0427be1f4496a38"
+  size_bytes: 12347
+
+status: solved
+solution_summary: "40 octets (20 paires) ; R=T²+B² >= 462.783 requis, max continu 462.788 -> mot quasi optimal avec octets >= 0x80 : hex 3fca41c623655bf8173b2a652d656bdf69ca5da43f654665b1e35a6569657e65df8fd265832a8315 (tools/simulation-password-solve.py)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-17T16:44:27Z"
