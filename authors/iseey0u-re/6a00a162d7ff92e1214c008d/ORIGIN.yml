@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a00a162d7ff92e1214c008d
+
+urls:
+  page: https://crackmes.one/crackme/6a00a162d7ff92e1214c008d
+  download: https://crackmes.one/download/crackme/6a00a162d7ff92e1214c008d
+
+title: "iseey0u"
+author_on_site: "iseey0u-re"
+author_local: "iseey0u-re"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++ (MSVC)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "934e87222cf74cf2cba914cc5b2bc68e3f0f554b4a17da413daf16f966936a12"
+  md5: "9f5c624ae86b1bcac16607247afb43e8"
+  size_bytes: 106194
+
+status: solved
+solution_summary: "Valide seulement sous débogueur (IsDebuggerPresent) : clé XOR 0x6d, mot de passe 14 14 14 14 + SBQS[]UC (le leurre crackmes, clé 0x5d, quitte silencieusement) ; tools/iseey0u-solve.py"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-17T04:41:17Z"

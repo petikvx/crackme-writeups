@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a00a162d7ff92e1214c008d:
+    sha256: "934e87222cf74cf2cba914cc5b2bc68e3f0f554b4a17da413daf16f966936a12"
+    path: "authors/iseey0u-re/6a00a162d7ff92e1214c008d/original/download.bin"
+    title: "iseey0u"
+
+by_sha256:
+  934e87222cf74cf2cba914cc5b2bc68e3f0f554b4a17da413daf16f966936a12:
+    id: 6a00a162d7ff92e1214c008d
+    path: "authors/iseey0u-re/6a00a162d7ff92e1214c008d/original/download.bin"
+    page: https://crackmes.one/crackme/6a00a162d7ff92e1214c008d

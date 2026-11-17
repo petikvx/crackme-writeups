@@ -330,6 +330,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [ploxied](authors/ploxied/README.md) | Ploxied | 1 (Ploxied's Easy Crackme) | 1 / 1 |
 | [atoc](authors/atoc/README.md) | atoc | 1 (superEZcrackME : VM bvessel) | 1 / 1 |
 | [momospc](authors/momospc/README.md) | momospc | 1 (MyCrackme) | 1 / 1 |
+| [iseey0u-re](authors/iseey0u-re/README.md) | iseey0u-re | 1 (iseey0u) | 1 / 1 |
 | [MyCrackTool](authors/MyCrackTool/README.md) | MyCrackTool | 1 (learn for begineer : pack de 3 ELF) | 1 / 1 |
 | [antilagvip](authors/antilagvip/README.md) | antilagvip | 1 (antilagvip's hard crackme : mini-VM chiffrée) | 1 / 1 |
 | [liboxin](authors/liboxin/README.md) | liboxin | 3 (unpack me v1 + v3, hellgate1 ; protecteur aegis) | 3 / 3 |
@@ -432,6 +433,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-17 | [iseey0u-re's iseey0u](authors/iseey0u-re/6a00a162d7ff92e1214c008d/) | iseey0u-re |
 | 2026-11-17 | [Ploxied's Easy Crackme](authors/ploxied/69cbde056793d479be018f09/) | Ploxied |
 | 2026-11-16 | [vilxd's decode me](authors/vilxd/69245c422d267f28f69b806e/) | vilxd |
 | 2026-11-16 | [admin31's cantcrack](authors/admin31/6a30eab0a4b247348ae805c4/) | admin31 |
