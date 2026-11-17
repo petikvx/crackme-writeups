@@ -326,6 +326,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [glitch_baby](authors/glitch_baby/README.md) | Glitch_Baby | 1 (Wheredakey) | 1 / 1 |
 | [lypd0](authors/lypd0/README.md) | lypd0 | 1 (Lantern01) | 1 / 1 |
 | [acidbyte](authors/acidbyte/README.md) | AcidByte | 1 (Acid's First Crackme) | 1 / 1 |
+| [softwarebreaker](authors/softwarebreaker/README.md) | SoftwareBreaker | 1 (SoftwareBreaker's License Checker) | 1 / 1 |
 | [admin31](authors/admin31/README.md) | admin31 | 1 (cantcrack) | 1 / 1 |
 | [ploxied](authors/ploxied/README.md) | Ploxied | 1 (Ploxied's Easy Crackme) | 1 / 1 |
 | [atoc](authors/atoc/README.md) | atoc | 1 (superEZcrackME : VM bvessel) | 1 / 1 |
@@ -433,6 +434,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-17 | [SoftwareBreaker's License Checker](authors/softwarebreaker/6a4545a639dd6183d62b9e95/) | softwarebreaker |
 | 2026-11-17 | [iseey0u-re's iseey0u](authors/iseey0u-re/6a00a162d7ff92e1214c008d/) | iseey0u-re |
 | 2026-11-17 | [Ploxied's Easy Crackme](authors/ploxied/69cbde056793d479be018f09/) | Ploxied |
 | 2026-11-16 | [vilxd's decode me](authors/vilxd/69245c422d267f28f69b806e/) | vilxd |

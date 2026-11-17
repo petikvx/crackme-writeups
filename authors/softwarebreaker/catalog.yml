@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a4545a639dd6183d62b9e95:
+    sha256: "a9b6b116fd353903a918682163beb1c72f58818ed908cd70adf04992294e5478"
+    path: "authors/softwarebreaker/6a4545a639dd6183d62b9e95/original/download.bin"
+    title: "SoftwareBreaker's License Checker"
+
+by_sha256:
+  a9b6b116fd353903a918682163beb1c72f58818ed908cd70adf04992294e5478:
+    id: 6a4545a639dd6183d62b9e95
+    path: "authors/softwarebreaker/6a4545a639dd6183d62b9e95/original/download.bin"
+    page: https://crackmes.one/crackme/6a4545a639dd6183d62b9e95

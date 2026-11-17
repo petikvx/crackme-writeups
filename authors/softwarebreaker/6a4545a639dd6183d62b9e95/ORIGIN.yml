@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a4545a639dd6183d62b9e95
+
+urls:
+  page: https://crackmes.one/crackme/6a4545a639dd6183d62b9e95
+  download: https://crackmes.one/download/crackme/6a4545a639dd6183d62b9e95
+
+title: "SoftwareBreaker's License Checker"
+author_on_site: "SoftwareBreaker"
+author_local: "softwarebreaker"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C++ (GCC)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "a9b6b116fd353903a918682163beb1c72f58818ed908cd70adf04992294e5478"
+  md5: "49e44cf9d6d291ebcb0fe0c185005493"
+  size_bytes: 4616
+
+status: solved
+solution_summary: "license.key 40 o : nom SoftwareBreaker (NUL-padded 32) + KIRA + checksum 0x30 (sum(key[i%14]^name[i]), key P@s$w0r(|12345) ; tools/softwarebreaker-solve.py. Nom fixe : petik rejeté"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-17T06:42:52Z"
