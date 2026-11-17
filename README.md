@@ -327,6 +327,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [lypd0](authors/lypd0/README.md) | lypd0 | 1 (Lantern01) | 1 / 1 |
 | [acidbyte](authors/acidbyte/README.md) | AcidByte | 1 (Acid's First Crackme) | 1 / 1 |
 | [admin31](authors/admin31/README.md) | admin31 | 1 (cantcrack) | 1 / 1 |
+| [ploxied](authors/ploxied/README.md) | Ploxied | 1 (Ploxied's Easy Crackme) | 1 / 1 |
 | [atoc](authors/atoc/README.md) | atoc | 1 (superEZcrackME : VM bvessel) | 1 / 1 |
 | [momospc](authors/momospc/README.md) | momospc | 1 (MyCrackme) | 1 / 1 |
 | [MyCrackTool](authors/MyCrackTool/README.md) | MyCrackTool | 1 (learn for begineer : pack de 3 ELF) | 1 / 1 |
@@ -431,6 +432,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-17 | [Ploxied's Easy Crackme](authors/ploxied/69cbde056793d479be018f09/) | Ploxied |
 | 2026-11-16 | [vilxd's decode me](authors/vilxd/69245c422d267f28f69b806e/) | vilxd |
 | 2026-11-16 | [admin31's cantcrack](authors/admin31/6a30eab0a4b247348ae805c4/) | admin31 |
 | 2026-11-16 | [micky23310's guessme](authors/micky23310/6aefd3da4b6d53e8802ed439/) | micky23310 |

@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69cbde056793d479be018f09:
+    sha256: "b1d3beb0410a5ff4abcc7062a0217a26b4300e5a8dac56c968957bbbd01f0353"
+    path: "authors/ploxied/69cbde056793d479be018f09/original/download.bin"
+    title: "Ploxied's Easy Crackme"
+
+by_sha256:
+  b1d3beb0410a5ff4abcc7062a0217a26b4300e5a8dac56c968957bbbd01f0353:
+    id: 69cbde056793d479be018f09
+    path: "authors/ploxied/69cbde056793d479be018f09/original/download.bin"
+    page: https://crackmes.one/crackme/69cbde056793d479be018f09

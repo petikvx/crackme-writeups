@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69cbde056793d479be018f09
+
+urls:
+  page: https://crackmes.one/crackme/69cbde056793d479be018f09
+  download: https://crackmes.one/download/crackme/69cbde056793d479be018f09
+
+title: "Ploxied's Easy Crackme"
+author_on_site: "Ploxied"
+author_local: "ploxied"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "b1d3beb0410a5ff4abcc7062a0217a26b4300e5a8dac56c968957bbbd01f0353"
+  md5: "64dc30d4658143bba3c7c7cca589863d"
+  size_bytes: 359120
+
+status: solved
+solution_summary: "mot de passe -559038737 (0xDEADBEEF signé) ; check 0x2856a42f = leurre"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-17T02:42:03Z"
