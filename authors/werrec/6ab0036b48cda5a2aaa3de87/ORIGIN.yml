@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6ab0036b48cda5a2aaa3de87
+
+urls:
+  page: https://crackmes.one/crackme/6ab0036b48cda5a2aaa3de87
+  download: https://crackmes.one/download/crackme/6ab0036b48cda5a2aaa3de87
+
+title: "werrec's LATTICE4"
+author_on_site: "werrec"
+author_local: "werrec"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C (MinGW-w64)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "8f8280f65f6b26e5ee0556a5d6f90c62153a8b7a80cde998fe08dc999963a915"
+  md5: "ec0ba30e06b933aa990db60a3aad89e7"
+  size_bytes: 10946
+
+status: solved
+solution_summary: "Serial 16 alnum L4tT1cE4Gf256Z3x (pas de user ; 8 premiers chars par MITM sur 4 hash, 8 suivants par inversion AES MixColumns du stage 2 RC4/VirtualAlloc) -> flag{GF256_lattice_beats_hand_math}"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-17T20:39:21Z"

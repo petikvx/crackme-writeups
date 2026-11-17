@@ -5,8 +5,17 @@ by_id:
     path: "authors/werrec/6aafdc79dbb3353b75396911/original/crackme_02.exe"
     title: "werrec's Retro OEM License Check"
 
+  6ab0036b48cda5a2aaa3de87:
+    sha256: "8f8280f65f6b26e5ee0556a5d6f90c62153a8b7a80cde998fe08dc999963a915"
+    path: "authors/werrec/6ab0036b48cda5a2aaa3de87/original/download.bin"
+    title: "werrec's LATTICE4"
+
 by_sha256:
   010619f204753bffc0734cfee115cde94b795ec8bee8c04d3b128ddfef7e21c9:
     id: 6aafdc79dbb3353b75396911
     path: "authors/werrec/6aafdc79dbb3353b75396911/original/crackme_02.exe"
     page: https://crackmes.one/crackme/6aafdc79dbb3353b75396911
+  8f8280f65f6b26e5ee0556a5d6f90c62153a8b7a80cde998fe08dc999963a915:
+    id: 6ab0036b48cda5a2aaa3de87
+    path: "authors/werrec/6ab0036b48cda5a2aaa3de87/original/download.bin"
+    page: https://crackmes.one/crackme/6ab0036b48cda5a2aaa3de87

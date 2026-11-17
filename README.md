@@ -376,7 +376,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [rodrigoteixeira](authors/rodrigoteixeira/README.md) | RodrigoTeixeira | 2 (Loggin, Simulation password) | 2 / 2 |
 | [Dirtbikercj](authors/Dirtbikercj/README.md) | Dirtbikercj | 1 (Secure License Portal) | 1 / 1 |
 | [tihiyomut](authors/tihiyomut/README.md) | TihiyOmut | 1 (EZFTP_ByTOMUT) | 1 / 1 |
-| [werrec](authors/werrec/README.md) | werrec | 1 (Retro OEM License Check) | 1 / 1 |
+| [werrec](authors/werrec/README.md) | werrec | 2 (Retro OEM License Check, LATTICE4) | 2 / 2 |
 | [pietrogamer](authors/pietrogamer/README.md) | pietrogamer | 1 (Embrace RSA) | 1 / 1 |
 | [nake](authors/nake/README.md) | nake | 1 (SP network cipher) | 1 / 1 |
 | [kamil123](authors/kamil123/README.md) | kamil123 | 2 (Mini LLM Sentinel, Needle in a Haystack) | 2 / 2 |
@@ -435,6 +435,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-17 | [werrec's LATTICE4](authors/werrec/6ab0036b48cda5a2aaa3de87/) | werrec |
 | 2026-11-17 | [RodrigoTeixeira's Simulation password](authors/rodrigoteixeira/6ac121acace07d1c3fbc4898/) | RodrigoTeixeira |
 | 2026-11-17 | [Leenear's Wait, it was all linear?](authors/Leenear/6ac393370885f990699dc118/) | Leenear |
 | 2026-11-17 | [victormeloasm's Orbiyal Relay](authors/victormeloasm/6afbe8004b6d53e8802ed677/) | victormeloasm |
