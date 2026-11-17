@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6ac393370885f990699dc118
+
+urls:
+  page: https://crackmes.one/crackme/6ac393370885f990699dc118
+  download: https://crackmes.one/download/crackme/6ac393370885f990699dc118
+
+title: "Leenear's (keygenme) Wait, it was all linear? Always have been."
+author_on_site: "Leenear"
+author_local: "Leenear"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "25ad41f3154494156c24b216e42268e026177d816d4a8be799bb6dd8f310fd2d"
+  md5: "1b4d7c2f484b9e2e1bd39a7adc3a389d"
+  size_bytes: 4108
+
+status: solved
+solution_summary: "Serial unique de 32 car. : dixon_lifts_RA+I_mod_2^8_in_O~mn (systeme lineaire 8x8 genere par xorshift32 ; tools/leenear-linear-solve.py). Pas de username (petik non applicable)."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-17T14:44:54Z"

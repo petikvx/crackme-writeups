@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6ac393370885f990699dc118:
+    sha256: "25ad41f3154494156c24b216e42268e026177d816d4a8be799bb6dd8f310fd2d"
+    path: "authors/Leenear/6ac393370885f990699dc118/original/download.bin"
+    title: "Leenear's (keygenme) Wait, it was all linear? Always have been."
+
+by_sha256:
+  25ad41f3154494156c24b216e42268e026177d816d4a8be799bb6dd8f310fd2d:
+    id: 6ac393370885f990699dc118
+    path: "authors/Leenear/6ac393370885f990699dc118/original/download.bin"
+    page: https://crackmes.one/crackme/6ac393370885f990699dc118
