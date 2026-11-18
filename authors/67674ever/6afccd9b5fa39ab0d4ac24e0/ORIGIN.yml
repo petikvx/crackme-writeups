@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6afccd9b5fa39ab0d4ac24e0
+
+urls:
+  page: https://crackmes.one/crackme/6afccd9b5fa39ab0d4ac24e0
+  download: https://crackmes.one/download/crackme/6afccd9b5fa39ab0d4ac24e0
+
+title: "67674ever's My lib obfusction"
+author_on_site: "67674ever"
+author_local: "67674ever"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++ (obfuscpp)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "e53ea034987e688c35a3b178bdd7dff04238c0475905d67e5d9dbef34cdaf5b3"
+  md5: "861a35fb6226b14c69ee0ef50103d376"
+  size_bytes: 22635
+
+status: solved
+solution_summary: "Licence constante en argv[1] : 67_67-67-xd_Confuse (blob chiffré splitmix64 déchiffré ; comparaison par hash FNV1a+mix64). Anti-debug : faux positif Wine (flags heap)."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-18T06:40:41Z"

@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6afccd9b5fa39ab0d4ac24e0:
+    sha256: "e53ea034987e688c35a3b178bdd7dff04238c0475905d67e5d9dbef34cdaf5b3"
+    path: "authors/67674ever/6afccd9b5fa39ab0d4ac24e0/original/download.bin"
+    title: "67674ever's My lib obfusction"
+
+by_sha256:
+  e53ea034987e688c35a3b178bdd7dff04238c0475905d67e5d9dbef34cdaf5b3:
+    id: 6afccd9b5fa39ab0d4ac24e0
+    path: "authors/67674ever/6afccd9b5fa39ab0d4ac24e0/original/download.bin"
+    page: https://crackmes.one/crackme/6afccd9b5fa39ab0d4ac24e0
