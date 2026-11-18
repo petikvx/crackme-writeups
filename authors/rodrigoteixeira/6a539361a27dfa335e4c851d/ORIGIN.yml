@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a539361a27dfa335e4c851d
+
+urls:
+  page: https://crackmes.one/crackme/6a539361a27dfa335e4c851d
+  download: https://crackmes.one/download/crackme/6a539361a27dfa335e4c851d
+
+title: "RodrigoTeixeira's Encrypted Password"
+author_on_site: "RodrigoTeixeira"
+author_local: "rodrigoteixeira"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "b3e0542377f40269726bf1acae5c39c2aaefa77d64d6a01beb49347f10d1a865"
+  md5: "1e08fd91a1b701290cfc606455ca7749"
+  size_bytes: 89020
+
+status: solved
+solution_summary: "mot de passe littéral `Password\\0` (backslash + zéro), chaîne chiffrée par boucle (acc|1)*octet ; pas de nom d'utilisateur"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-18T10:40:34Z"

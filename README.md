@@ -374,7 +374,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [alogen](authors/alogen/README.md) | alogen | 1 (Simple Java Verify) | 1 / 1 |
 | [va7d1n3](authors/va7d1n3/README.md) | Va7D1n3 | 1 (Automata Simulation) | 1 / 1 |
 | [confining0367](authors/confining0367/README.md) | confining0367 | 1 (Key) | 1 / 1 |
-| [rodrigoteixeira](authors/rodrigoteixeira/README.md) | RodrigoTeixeira | 2 (Loggin, Simulation password) | 2 / 2 |
+| [rodrigoteixeira](authors/rodrigoteixeira/README.md) | RodrigoTeixeira | 3 (Loggin, Simulation password, Encrypted Password) | 3 / 3 |
 | [Dirtbikercj](authors/Dirtbikercj/README.md) | Dirtbikercj | 1 (Secure License Portal) | 1 / 1 |
 | [tihiyomut](authors/tihiyomut/README.md) | TihiyOmut | 1 (EZFTP_ByTOMUT) | 1 / 1 |
 | [werrec](authors/werrec/README.md) | werrec | 2 (Retro OEM License Check, LATTICE4) | 2 / 2 |
@@ -440,6 +440,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 | 2026-11-18 | [67674ever's My lib obfusction](authors/67674ever/6afccd9b5fa39ab0d4ac24e0/) | 67674ever |
 | 2026-11-18 | [echo_labyrinth](authors/kamil123/6a99ed02585e8875bcbebea7/) | kamil123 |
 | 2026-11-17 | [werrec's LATTICE4](authors/werrec/6ab0036b48cda5a2aaa3de87/) | werrec |
+| 2026-11-18 | [RodrigoTeixeira's Encrypted Password](authors/rodrigoteixeira/6a539361a27dfa335e4c851d/) | RodrigoTeixeira |
 | 2026-11-17 | [RodrigoTeixeira's Simulation password](authors/rodrigoteixeira/6ac121acace07d1c3fbc4898/) | RodrigoTeixeira |
 | 2026-11-17 | [Leenear's Wait, it was all linear?](authors/Leenear/6ac393370885f990699dc118/) | Leenear |
 | 2026-11-17 | [victormeloasm's Orbiyal Relay](authors/victormeloasm/6afbe8004b6d53e8802ed677/) | victormeloasm |
