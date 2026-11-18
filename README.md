@@ -411,6 +411,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [sacredgravel44](authors/sacredgravel44/README.md) | sacredgravel44 | 1 (matryoshka9) | 0 / 1 *(parked)* |
 | [gordonbm](authors/gordonbm/README.md) | GordonBM | 1 (Reverse_Keygenme) | 1 / 1 |
 | [pyderall](authors/pyderall/README.md) | pyderall | 1 (TickTock) | 1 / 1 |
+| [iamwololo](authors/iamwololo/README.md) | iamwololo | 1 (Matryoshka) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -436,6 +437,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-18 | [iamwololo's Matryoshka](authors/iamwololo/68ff42b82d267f28f69b78c8/) | iamwololo |
 | 2026-11-18 | [Lacks's Level 2](authors/Lacks/6a5129c471ee08cad748dcae/) | Lacks |
 | 2026-11-18 | [67674ever's My lib obfusction](authors/67674ever/6afccd9b5fa39ab0d4ac24e0/) | 67674ever |
 | 2026-11-18 | [echo_labyrinth](authors/kamil123/6a99ed02585e8875bcbebea7/) | kamil123 |

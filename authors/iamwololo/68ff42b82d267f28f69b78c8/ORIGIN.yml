@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 68ff42b82d267f28f69b78c8
+
+urls:
+  page: https://crackmes.one/crackme/68ff42b82d267f28f69b78c8
+  download: https://crackmes.one/download/crackme/68ff42b82d267f28f69b78c8
+
+title: "iamwololo's Matryoshka"
+author_on_site: "iamwololo"
+author_local: "iamwololo"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "f0ae9c5d3784212ae0cb97c724204fc554a5ea91f07a02810393c7a93d8d523d"
+  md5: "59addf241e79aaef9cb6095997ad3ffb"
+  size_bytes: 10169
+
+status: solved
+solution_summary: "ZIP imbriqués (pw crackmes.one) puis ELF loader memfd à 4 couches XOR (argv[1][i]-C) ; clé fb39 -> u win good job!!!!"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-18T12:37:43Z"

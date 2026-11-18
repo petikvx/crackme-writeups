@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  68ff42b82d267f28f69b78c8:
+    sha256: "f0ae9c5d3784212ae0cb97c724204fc554a5ea91f07a02810393c7a93d8d523d"
+    path: "authors/iamwololo/68ff42b82d267f28f69b78c8/original/download.bin"
+    title: "iamwololo's Matryoshka"
+
+by_sha256:
+  f0ae9c5d3784212ae0cb97c724204fc554a5ea91f07a02810393c7a93d8d523d:
+    id: 68ff42b82d267f28f69b78c8
+    path: "authors/iamwololo/68ff42b82d267f28f69b78c8/original/download.bin"
+    page: https://crackmes.one/crackme/68ff42b82d267f28f69b78c8
