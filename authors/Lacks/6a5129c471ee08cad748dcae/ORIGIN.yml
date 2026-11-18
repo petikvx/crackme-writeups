@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a5129c471ee08cad748dcae
+
+urls:
+  page: https://crackmes.one/crackme/6a5129c471ee08cad748dcae
+  download: https://crackmes.one/download/crackme/6a5129c471ee08cad748dcae
+
+title: "Lacks's Level 2"
+author_on_site: "Lacks"
+author_local: "Lacks"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++ (MSVC)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "debd6a4876c1933f7135a132cef16fb14660d8e25be18a98302ad3c885483a7a"
+  md5: "63170f95e3c48ff0d9cea99036cc0334"
+  size_bytes: 9023
+
+status: solved
+solution_summary: "Secret Key = reverse (7 octets 28 3f 2c 3f 28 29 3f XOR 0x5a ; pas de user, petik non applicable)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-18T08:39:10Z"

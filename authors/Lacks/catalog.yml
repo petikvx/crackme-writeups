@@ -5,8 +5,17 @@ by_id:
     path: "authors/Lacks/6a512980234391ae74f63ae8/original/download.bin"
     title: "Lacks's Level 1"
 
+  6a5129c471ee08cad748dcae:
+    sha256: "debd6a4876c1933f7135a132cef16fb14660d8e25be18a98302ad3c885483a7a"
+    path: "authors/Lacks/6a5129c471ee08cad748dcae/original/download.bin"
+    title: "Lacks's Level 2"
+
 by_sha256:
   489aaa8d0feaea9aad011be74bfbf2177fd4e7569849beb600ed271ca03940d4:
     id: 6a512980234391ae74f63ae8
     path: "authors/Lacks/6a512980234391ae74f63ae8/original/download.bin"
     page: https://crackmes.one/crackme/6a512980234391ae74f63ae8
+  debd6a4876c1933f7135a132cef16fb14660d8e25be18a98302ad3c885483a7a:
+    id: 6a5129c471ee08cad748dcae
+    path: "authors/Lacks/6a5129c471ee08cad748dcae/original/download.bin"
+    page: https://crackmes.one/crackme/6a5129c471ee08cad748dcae

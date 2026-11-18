@@ -320,6 +320,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [fon37](authors/fon37/README.md) | fon37 | 3 (Secret Menu + King of Asgard + The Winner) | 3 / 3 |
 | [memetic0](authors/memetic0/README.md) | memetic0 | 2 (Tropical, Lattice) | 2 / 2 |
 | [vetementsvmnts](authors/vetementsvmnts/README.md) | vetementsvmnts | 5 | 5 / 5 |
+| [67674ever](authors/67674ever/README.md) | 67674ever | 1 (My lib obfusction) | 1 / 1 |
 | [acheylate](authors/acheylate/README.md) | acheylate | 5 (Find password L+W, State Machine, Beat The Game, Patch It Cli Game) | 5 / 5 |
 | [keep](authors/keep/README.md) | Keep | 2 (sygil gui + console) | 2 / 2 |
 | [mas](authors/mas/README.md) | MAS | 3 (zW0rM + Type Punning + ZSecure) | 3 / 3 |
@@ -355,7 +356,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [eilay_yosfan](authors/eilay_yosfan/README.md) | Eilay_Yosfan | 1 (3OutOf6) | 1 / 1 |
 | [nullerf](authors/nullerf/README.md) | NullerF | 2 (Easiest + Simple_GUI_crackme) | 2 / 2 |
 | [qpdudusydi](authors/qpdudusydi/README.md) | qpdudusydi | 2 (Very Easy, XOR Easy) | 2 / 2 |
-| [Lacks](authors/Lacks/README.md) | Lacks | 1 (Lacks's Level 1) | 1 / 1 |
+| [Lacks](authors/Lacks/README.md) | Lacks | 2 (Lacks's Level 1 + Level 2) | 2 / 2 |
 | [ended](authors/ended/README.md) | ended | 1 (catgirl.crack) | 1 / 1 |
 | [badengineer](authors/badengineer/README.md) | BadEngineer | 4 (First Crackme, BeginnerFriendly, EasiestEver, PlsCrackMe) | 4 / 4 |
 | [sarahmills](authors/sarahmills/README.md) | sarahmills | 1 (Gopher Secrets) | 1 / 1 |
@@ -435,6 +436,8 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-18 | [Lacks's Level 2](authors/Lacks/6a5129c471ee08cad748dcae/) | Lacks |
+| 2026-11-18 | [67674ever's My lib obfusction](authors/67674ever/6afccd9b5fa39ab0d4ac24e0/) | 67674ever |
 | 2026-11-18 | [echo_labyrinth](authors/kamil123/6a99ed02585e8875bcbebea7/) | kamil123 |
 | 2026-11-17 | [werrec's LATTICE4](authors/werrec/6ab0036b48cda5a2aaa3de87/) | werrec |
 | 2026-11-17 | [RodrigoTeixeira's Simulation password](authors/rodrigoteixeira/6ac121acace07d1c3fbc4898/) | RodrigoTeixeira |
