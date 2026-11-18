@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69470c4d523504d8c842eb93:
+    sha256: "64cced7fbc411b1bbd9535203de9ef2373a4c6fa701e38d88a987634033ed531"
+    path: "authors/janicious/69470c4d523504d8c842eb93/original/download.bin"
+    title: "janicious's WinAPI GUI Crackme"
+
+by_sha256:
+  64cced7fbc411b1bbd9535203de9ef2373a4c6fa701e38d88a987634033ed531:
+    id: 69470c4d523504d8c842eb93
+    path: "authors/janicious/69470c4d523504d8c842eb93/original/download.bin"
+    page: https://crackmes.one/crackme/69470c4d523504d8c842eb93

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69470c4d523504d8c842eb93
+
+urls:
+  page: https://crackmes.one/crackme/69470c4d523504d8c842eb93
+  download: https://crackmes.one/download/crackme/69470c4d523504d8c842eb93
+
+title: "janicious's WinAPI GUI Crackme"
+author_on_site: "janicious"
+author_local: "janicious"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++ (MinGW)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "64cced7fbc411b1bbd9535203de9ef2373a4c6fa701e38d88a987634033ed531"
+  md5: "48e0d23647f0ef93d08d48a0530cb2d3"
+  size_bytes: 131527
+
+status: solved
+solution_summary: "Serial XXXX-XXXX-XXXX (14 car., '-' en 4 et 9, alnum) dont la somme des chiffres vaut 24 ; petik→GN6N-BS1N-5Q75 (tools/janicious-solve.py)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-18T16:40:29Z"
