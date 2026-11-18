@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a99ed02585e8875bcbebea7
+
+urls:
+  page: https://crackmes.one/crackme/6a99ed02585e8875bcbebea7
+  download: https://crackmes.one/download/crackme/6a99ed02585e8875bcbebea7
+
+title: "kamil123's echo_labyrinth"
+author_on_site: "kamil123"
+author_local: "kamil123"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/download.bin"
+  name: "download.bin"
+  sha256: "9b12882957faf8b63cef91372e7fd6a507e19cb4e37047d3a47d6d3d6cfe3686"
+  md5: "619f8847d06400fd2b9a8ff557914193"
+  size_bytes: 21532
+
+status: solved
+solution_summary: "Mot de passe r3flect (7 car., pas de username) : rol3/xor-key, somme+xor, djb2-xor 0x9c670a5c, hash 8 bits, FNV final ; MITM sur le hash"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-18T00:39:24Z"

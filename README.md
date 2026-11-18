@@ -379,7 +379,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [werrec](authors/werrec/README.md) | werrec | 2 (Retro OEM License Check, LATTICE4) | 2 / 2 |
 | [pietrogamer](authors/pietrogamer/README.md) | pietrogamer | 1 (Embrace RSA) | 1 / 1 |
 | [nake](authors/nake/README.md) | nake | 1 (SP network cipher) | 1 / 1 |
-| [kamil123](authors/kamil123/README.md) | kamil123 | 2 (Mini LLM Sentinel, Needle in a Haystack) | 2 / 2 |
+| [kamil123](authors/kamil123/README.md) | kamil123 | 3 (Mini LLM Sentinel, Needle in a Haystack, echo_labyrinth) | 3 / 3 |
 | [fenata](authors/fenata/README.md) | fenata | 1 (Easiest_my_first) | 1 / 1 |
 | [kretrod](authors/kretrod/README.md) | kretrod | 1 (kretrod's my first password crackme) | 1 / 1 |
 | [crazy_bg](authors/crazy_bg/README.md) | crazy_bg | 2 (Keygen Me!, Picky Keygen Me!) | 2 / 2 |
@@ -435,6 +435,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-18 | [echo_labyrinth](authors/kamil123/6a99ed02585e8875bcbebea7/) | kamil123 |
 | 2026-11-17 | [werrec's LATTICE4](authors/werrec/6ab0036b48cda5a2aaa3de87/) | werrec |
 | 2026-11-17 | [RodrigoTeixeira's Simulation password](authors/rodrigoteixeira/6ac121acace07d1c3fbc4898/) | RodrigoTeixeira |
 | 2026-11-17 | [Leenear's Wait, it was all linear?](authors/Leenear/6ac393370885f990699dc118/) | Leenear |
