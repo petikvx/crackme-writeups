@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a37ceb1a4b247348ae80637:
+    sha256: "c7e40438bd858d2bd44ce1fd98514ee0a81602f5ba7e524a900cc7f86470c918"
+    path: "authors/karity/6a37ceb1a4b247348ae80637/original/karity-crackme-E.exe"
+    title: "karity's karity"
+
+by_sha256:
+  c7e40438bd858d2bd44ce1fd98514ee0a81602f5ba7e524a900cc7f86470c918:
+    id: 6a37ceb1a4b247348ae80637
+    path: "authors/karity/6a37ceb1a4b247348ae80637/original/karity-crackme-E.exe"
+    page: https://crackmes.one/crackme/6a37ceb1a4b247348ae80637

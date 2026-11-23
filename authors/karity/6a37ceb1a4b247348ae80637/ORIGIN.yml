@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a37ceb1a4b247348ae80637
+
+urls:
+  page: https://crackmes.one/crackme/6a37ceb1a4b247348ae80637
+  download: https://crackmes.one/download/crackme/6a37ceb1a4b247348ae80637
+
+title: "karity's karity"
+author_on_site: "karity"
+author_local: "karity"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/karity-crackme-E.exe"
+  name: "karity-crackme-E.exe"
+  sha256: "c7e40438bd858d2bd44ce1fd98514ee0a81602f5ba7e524a900cc7f86470c918"
+  md5: "1006c3d8dd9a54ebc6aef7cc15313513"
+  size_bytes: 242688
+
+status: solved
+solution_summary: "Puzzle d'échecs : mat en 3 des blancs (Nh6+ Kh8, Qg8+ Rxg8, Nf7#) ; entrée 20 car. = 7 libres + f7h6e6g8h6f7 + 1 libre, ex. petik__f7h6e6g8h6f7!"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-23T18:40:49Z"
