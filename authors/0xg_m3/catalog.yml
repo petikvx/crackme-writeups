@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6b006f8f5fa39ab0d4ac259f:
+    sha256: "76c97eead25325fd6abc578850915c6ccce17e546a0f0ce133487eb81b93b16a"
+    path: "authors/0xg_m3/6b006f8f5fa39ab0d4ac259f/original/latch"
+    title: "0xg_m3's latch"
+
+by_sha256:
+  76c97eead25325fd6abc578850915c6ccce17e546a0f0ce133487eb81b93b16a:
+    id: 6b006f8f5fa39ab0d4ac259f
+    path: "authors/0xg_m3/6b006f8f5fa39ab0d4ac259f/original/latch"
+    page: https://crackmes.one/crackme/6b006f8f5fa39ab0d4ac259f

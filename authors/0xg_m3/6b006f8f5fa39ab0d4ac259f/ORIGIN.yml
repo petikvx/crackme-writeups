@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6b006f8f5fa39ab0d4ac259f
+
+urls:
+  page: https://crackmes.one/crackme/6b006f8f5fa39ab0d4ac259f
+  download: https://crackmes.one/download/crackme/6b006f8f5fa39ab0d4ac259f
+
+title: "0xg_m3's latch"
+author_on_site: "0xg_m3"
+author_local: "0xg_m3"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/latch"
+  name: "latch"
+  sha256: "76c97eead25325fd6abc578850915c6ccce17e546a0f0ce133487eb81b93b16a"
+  md5: "c82bf148af7a7b4cb460ca88a2aeff3a"
+  size_bytes: 14552
+
+status: solved
+solution_summary: "Flag SNHT{bc124766cca7ecfe7518d8c46d3cfec1b39d0c95} (46 car.) : 4 rondes xor clé / sbox / permutation de bits + xor final, inversées par tools/latch-solve.py"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-23T05:42:01Z"
