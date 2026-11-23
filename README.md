@@ -134,6 +134,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [cyberpenguin](authors/cyberpenguin/README.md) | Cyberpenguin | 1 (What password???) | 1 / 1 |
 | [solitikburmaldatik](authors/solitikburmaldatik/README.md) | SolitikBurmaldatik | 1 (FirstCrackMe) | 1 / 1 |
 | [doncris](authors/doncris/README.md) | DonCris | 5 (Existential Vending Machine + Time Rift 2026 + Santa's Secret Gift Vault + New Year's Resolution Vault 2026 + S.N.A.P.) | 5 / 5 |
+| [openwiredsource](authors/openwiredsource/README.md) | OpenWiredSource | 1 (The Wired) | 1 / 1 |
 | [karity](authors/karity/README.md) | karity | 1 (karity's karity) | 1 / 1 |
 | [ulevel](authors/ulevel/README.md) | Ulevel | 1 (rsame_v2) | 1 / 1 |
 | [simbahdd](authors/simbahdd/README.md) | SimbaHDD | 5 (CRACKME + very easy crackme + first golang crackme + easy crackme + CRACKME 2) | 5 / 5 |
@@ -446,6 +447,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-23 | [OpenWiredSource's The Wired](authors/openwiredsource/6a3720828a86e4c2c55254ec/) | OpenWiredSource |
 | 2026-11-23 | [DonCris's Santa's Network Admin Portal (S.N.A.P.)](authors/doncris/69554b1024bfc29298329f00/) | DonCris |
 | 2026-11-23 | [karity's karity](authors/karity/6a37ceb1a4b247348ae80637/) | karity |
 | 2026-11-23 | [crackme_l6_hard](authors/kamil123/6a9866c2cab6678aefe9dc75/) | kamil123 |

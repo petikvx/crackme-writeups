@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a3720828a86e4c2c55254ec:
+    sha256: "a88e98bdcc899a25b5d6a65ab339eb842c1c5f2efe4b592a35f2bbde3c3108a1"
+    path: "authors/openwiredsource/6a3720828a86e4c2c55254ec/original/thewired"
+    title: "OpenWiredSource's The Wired"
+
+by_sha256:
+  a88e98bdcc899a25b5d6a65ab339eb842c1c5f2efe4b592a35f2bbde3c3108a1:
+    id: 6a3720828a86e4c2c55254ec
+    path: "authors/openwiredsource/6a3720828a86e4c2c55254ec/original/thewired"
+    page: https://crackmes.one/crackme/6a3720828a86e4c2c55254ec

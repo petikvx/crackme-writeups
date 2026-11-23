@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a3720828a86e4c2c55254ec
+
+urls:
+  page: https://crackmes.one/crackme/6a3720828a86e4c2c55254ec
+  download: https://crackmes.one/download/crackme/6a3720828a86e4c2c55254ec
+
+title: "OpenWiredSource's The Wired"
+author_on_site: "OpenWiredSource"
+author_local: "openwiredsource"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/thewired"
+  name: "thewired"
+  sha256: "a88e98bdcc899a25b5d6a65ab339eb842c1c5f2efe4b592a35f2bbde3c3108a1"
+  md5: "27cf2f4e26f46b0aa5270f390eb735b0"
+  size_bytes: 192728
+
+status: solved
+solution_summary: "argv[1] = we_all_love_serial_experiments_lain (blob @0x4120 XOR cle cyclique '.gnu.version' lue dans .shstrtab)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-23T19:37:49Z"
