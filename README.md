@@ -275,6 +275,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [muffin](authors/muffin/README.md) | muffin | 1 (The Goat) | 1 / 1 |
 | [soulreaper](authors/soulreaper/README.md) | soulreaper | 3 (Dead Terminal + XorGate + Death Trap) | 3 / 3 |
 | [toasterbirb](authors/toasterbirb/README.md) | toasterbirb | 11 (yap + série asm flags…branchless-fixed + main.cpp + argc + shellcoding + ieee_754) | 11 / 11 |
+| [xensar69](authors/xensar69/README.md) | xEnsar69 | 1 (Determinism) | 1 / 1 |
 | [ttlhacker](authors/ttlhacker/README.md) | ttlhacker | 3 (hell86 + jittery + hard_software) | 3 / 3 |
 | [jasper676767](authors/jasper676767/README.md) | Jasper676767 | 3 (Red light + forgot password + Functions!) | 3 / 3 |
 | [pitou](authors/pitou/README.md) | pitou | 1 (Evaisve) | 1 / 1 |
@@ -441,6 +442,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-23 | [xEnsar69's Determinism](authors/xensar69/695197010c16072f40f5a538/) | xEnsar69 |
 | 2026-11-23 | [wism's crack me medium](authors/wism/6b0353074ab951a9999da879/) | wism |
 | 2026-11-23 | [ieee_754](authors/toasterbirb/6b0231274ab951a9999da832/) | toasterbirb |
 | 2026-11-23 | [0xg_m3's latch](authors/0xg_m3/6b006f8f5fa39ab0d4ac259f/) | 0xg_m3 |

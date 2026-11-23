@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 695197010c16072f40f5a538
+
+urls:
+  page: https://crackmes.one/crackme/695197010c16072f40f5a538
+  download: https://crackmes.one/download/crackme/695197010c16072f40f5a538
+
+title: "xEnsar69's Determinism"
+author_on_site: "xEnsar69"
+author_local: "xensar69"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/gate.exe"
+  name: "gate.exe"
+  sha256: "f6a4d7420a65189520b65a8b65262271f7c20bde54e8bf43eebab99b5b7dc6c6"
+  md5: "7a241b81a38f7e276d84c4526ef81b97"
+  size_bytes: 19968
+
+status: solved
+solution_summary: "Seul prédicat : len(nom) >= 6 et len(mdp) >= 3*len(nom) (0x14000183e), contenu du mdp ignoré. petik1 -> petik1petik1petik1 (petik, 5 car., refusé)."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-23T10:37:56Z"

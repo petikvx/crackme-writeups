@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  695197010c16072f40f5a538:
+    sha256: "f6a4d7420a65189520b65a8b65262271f7c20bde54e8bf43eebab99b5b7dc6c6"
+    path: "authors/xensar69/695197010c16072f40f5a538/original/gate.exe"
+    title: "xEnsar69's Determinism"
+
+by_sha256:
+  f6a4d7420a65189520b65a8b65262271f7c20bde54e8bf43eebab99b5b7dc6c6:
+    id: 695197010c16072f40f5a538
+    path: "authors/xensar69/695197010c16072f40f5a538/original/gate.exe"
+    page: https://crackmes.one/crackme/695197010c16072f40f5a538
