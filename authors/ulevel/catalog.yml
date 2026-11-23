@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  699af49ac2d74fe054b1c31d:
+    sha256: "6f82aac64a60e6e325933a746aa67e17a049f0541770abcff117576392a94c97"
+    path: "authors/ulevel/699af49ac2d74fe054b1c31d/original/rsacrackme2.zip"
+    title: "Ulevel's rsame_v2"
+
+by_sha256:
+  6f82aac64a60e6e325933a746aa67e17a049f0541770abcff117576392a94c97:
+    id: 699af49ac2d74fe054b1c31d
+    path: "authors/ulevel/699af49ac2d74fe054b1c31d/original/rsacrackme2.zip"
+    page: https://crackmes.one/crackme/699af49ac2d74fe054b1c31d

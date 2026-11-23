@@ -134,6 +134,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [cyberpenguin](authors/cyberpenguin/README.md) | Cyberpenguin | 1 (What password???) | 1 / 1 |
 | [solitikburmaldatik](authors/solitikburmaldatik/README.md) | SolitikBurmaldatik | 1 (FirstCrackMe) | 1 / 1 |
 | [doncris](authors/doncris/README.md) | DonCris | 4 (Existential Vending Machine + Time Rift 2026 + Santa's Secret Gift Vault + New Year's Resolution Vault 2026) | 4 / 4 |
+| [ulevel](authors/ulevel/README.md) | Ulevel | 1 (rsame_v2) | 1 / 1 |
 | [simbahdd](authors/simbahdd/README.md) | SimbaHDD | 5 (CRACKME + very easy crackme + first golang crackme + easy crackme + CRACKME 2) | 5 / 5 |
 | [monsignor](authors/monsignor/README.md) | Monsignor | 1 (Monsignor's Monsignors Crackme) | 1 / 1 |
 | [tdaron](authors/tdaron/README.md) | tdaron | 1 (Use your brain) | 1 / 1 |
@@ -444,6 +445,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-23 | [Ulevel's rsame_v2](authors/ulevel/699af49ac2d74fe054b1c31d/) | Ulevel |
 | 2026-11-23 | [DonCris's New Year's Resolution Vault 2026](authors/doncris/695549ef6199fe19c0574632/) | DonCris |
 | 2026-11-23 | [DonCris's Santa's Secret Gift Vault](authors/doncris/6954bb346d227ff9fc540009/) | DonCris |
 | 2026-11-23 | [Hossam.Zaid's Crack ID & Password](authors/hossam-zaid/6afe53bfc0ad374eab0819a2/) | Hossam.Zaid |

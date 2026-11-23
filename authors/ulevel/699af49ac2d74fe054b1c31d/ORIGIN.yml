@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 699af49ac2d74fe054b1c31d
+
+urls:
+  page: https://crackmes.one/crackme/699af49ac2d74fe054b1c31d
+  download: https://crackmes.one/download/crackme/699af49ac2d74fe054b1c31d
+
+title: "Ulevel's rsame_v2"
+author_on_site: "Ulevel"
+author_local: "ulevel"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/rsacrackme2.zip"
+  name: "rsacrackme2.zip"
+  sha256: "6f82aac64a60e6e325933a746aa67e17a049f0541770abcff117576392a94c97"
+  md5: "8d9ab9ce30ab14cefee502749a9420b7"
+  size_bytes: 6234
+
+status: solved
+solution_summary: "RSA-64 : serial^65537 mod 0x954338b7d20e11fd == 0x16069c61de505bd6 ; N=3673858757*2927576537 ; serial 4048192110296323912 (pas de nom, donc pas de petik)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-23T15:42:23Z"
