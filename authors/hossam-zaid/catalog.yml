@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6afe53bfc0ad374eab0819a2:
+    sha256: "d06fec0e14d50cf065e7a844ac69c89ed913c547b701b2e8bb771476a335f281"
+    path: "authors/hossam-zaid/6afe53bfc0ad374eab0819a2/original/id_password.exe"
+    title: "Hossam.Zaid's Crack ID & Password"
+
+by_sha256:
+  d06fec0e14d50cf065e7a844ac69c89ed913c547b701b2e8bb771476a335f281:
+    id: 6afe53bfc0ad374eab0819a2
+    path: "authors/hossam-zaid/6afe53bfc0ad374eab0819a2/original/id_password.exe"
+    page: https://crackmes.one/crackme/6afe53bfc0ad374eab0819a2

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6afe53bfc0ad374eab0819a2
+
+urls:
+  page: https://crackmes.one/crackme/6afe53bfc0ad374eab0819a2
+  download: https://crackmes.one/download/crackme/6afe53bfc0ad374eab0819a2
+
+title: "Hossam.Zaid's Crack ID & Password"
+author_on_site: "Hossam.Zaid"
+author_local: "hossam-zaid"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/id_password.exe"
+  name: "id_password.exe"
+  sha256: "d06fec0e14d50cf065e7a844ac69c89ed913c547b701b2e8bb771476a335f281"
+  md5: "609b60192768584073e6a8062ff8c16c"
+  size_bytes: 20992
+
+status: solved
+solution_summary: "ID 1337beef (XOR 0xabcd/0x1234 inversés) ; password 3b36bbda = ((rol32(0xa5a5a5a5^ID,5)+0x13579bdf)^0xdeadbeef)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-23T12:42:36Z"
