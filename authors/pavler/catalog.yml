@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6953df6c9eeae0b752a69c93:
+    sha256: "dc072b785c9c48d4c9713d22b53b8fd778b62fbe6134006962071cb44216a935"
+    path: "authors/pavler/6953df6c9eeae0b752a69c93/original/XMM.exe"
+    title: "pavler's pavler6"
+
+by_sha256:
+  dc072b785c9c48d4c9713d22b53b8fd778b62fbe6134006962071cb44216a935:
+    id: 6953df6c9eeae0b752a69c93
+    path: "authors/pavler/6953df6c9eeae0b752a69c93/original/XMM.exe"
+    page: https://crackmes.one/crackme/6953df6c9eeae0b752a69c93

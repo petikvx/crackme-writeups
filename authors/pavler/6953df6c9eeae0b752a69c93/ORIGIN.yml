@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6953df6c9eeae0b752a69c93
+
+urls:
+  page: https://crackmes.one/crackme/6953df6c9eeae0b752a69c93
+  download: https://crackmes.one/download/crackme/6953df6c9eeae0b752a69c93
+
+title: "pavler's pavler6"
+author_on_site: "pavler"
+author_local: "pavler"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/XMM.exe"
+  name: "XMM.exe"
+  sha256: "dc072b785c9c48d4c9713d22b53b8fd778b62fbe6134006962071cb44216a935"
+  md5: "524d5b93486a129877f77927950a5076"
+  size_bytes: 29184
+
+status: solved
+solution_summary: "Mini-VM SSE inversée (pshufb/xor/rol3/mul3) : mot de passe R3v3rs3_S1MD_K3y (16 octets)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-23T22:56:50Z"
