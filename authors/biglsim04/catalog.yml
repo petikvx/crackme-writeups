@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  691de1d12d267f28f69b7f16:
+    sha256: "5bc42934ff7111b306e2adeffdf462ce686621e10876e08bbcb606d85f73b6ed"
+    path: "authors/biglsim04/691de1d12d267f28f69b7f16/original/puzzle.zip"
+    title: "Biglsim04's puzzle"
+
+by_sha256:
+  5bc42934ff7111b306e2adeffdf462ce686621e10876e08bbcb606d85f73b6ed:
+    id: 691de1d12d267f28f69b7f16
+    path: "authors/biglsim04/691de1d12d267f28f69b7f16/original/puzzle.zip"
+    page: https://crackmes.one/crackme/691de1d12d267f28f69b7f16

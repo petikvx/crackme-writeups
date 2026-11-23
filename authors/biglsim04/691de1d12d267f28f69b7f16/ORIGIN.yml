@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 691de1d12d267f28f69b7f16
+
+urls:
+  page: https://crackmes.one/crackme/691de1d12d267f28f69b7f16
+  download: https://crackmes.one/download/crackme/691de1d12d267f28f69b7f16
+
+title: "Biglsim04's puzzle"
+author_on_site: "Biglsim04"
+author_local: "biglsim04"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/puzzle.zip"
+  name: "puzzle.zip"
+  sha256: "5bc42934ff7111b306e2adeffdf462ce686621e10876e08bbcb606d85f73b6ed"
+  md5: "3bb58d07bc6d371c4453243ed28bd723"
+  size_bytes: 97302
+
+status: solved
+solution_summary: "Mot de passe fixe MYPASS123 : 9 octets XOR 0x9f à VA 0x14002b550, comparés à la saisie (pas de user). Mini-VM rdtsc = leurre."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-23T22:43:09Z"
