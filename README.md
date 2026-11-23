@@ -418,6 +418,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [0xg_m3](authors/0xg_m3/README.md) | 0xg_m3 | 1 (latch) | 1 / 1 |
 | [wism](authors/wism/README.md) | wism | 1 (wism's crack me medium) | 1 / 1 |
 | [threadsvector](authors/threadsvector/README.md) | threadsvector | 1 (threadsvector's Multi) | 1 / 1 |
+| [hossam-zaid](authors/hossam-zaid/README.md) | Hossam.Zaid | 1 (Crack ID & Password) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -443,6 +444,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-23 | [Hossam.Zaid's Crack ID & Password](authors/hossam-zaid/6afe53bfc0ad374eab0819a2/) | Hossam.Zaid |
 | 2026-11-23 | [threadsvector's Multi](authors/threadsvector/6aff1e214ab951a9999da799/) | threadsvector |
 | 2026-11-23 | [xEnsar69's Determinism](authors/xensar69/695197010c16072f40f5a538/) | xEnsar69 |
 | 2026-11-23 | [wism's crack me medium](authors/wism/6b0353074ab951a9999da879/) | wism |
