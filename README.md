@@ -133,7 +133,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [microsoftstorage](authors/microsoftstorage/README.md) | MicrosoftStorage | 1 (ACrack) | 1 / 1 |
 | [cyberpenguin](authors/cyberpenguin/README.md) | Cyberpenguin | 1 (What password???) | 1 / 1 |
 | [solitikburmaldatik](authors/solitikburmaldatik/README.md) | SolitikBurmaldatik | 1 (FirstCrackMe) | 1 / 1 |
-| [doncris](authors/doncris/README.md) | DonCris | 2 (Existential Vending Machine + Time Rift 2026) | 2 / 2 |
+| [doncris](authors/doncris/README.md) | DonCris | 3 (Existential Vending Machine + Time Rift 2026 + Santa's Secret Gift Vault) | 3 / 3 |
 | [simbahdd](authors/simbahdd/README.md) | SimbaHDD | 5 (CRACKME + very easy crackme + first golang crackme + easy crackme + CRACKME 2) | 5 / 5 |
 | [monsignor](authors/monsignor/README.md) | Monsignor | 1 (Monsignor's Monsignors Crackme) | 1 / 1 |
 | [tdaron](authors/tdaron/README.md) | tdaron | 1 (Use your brain) | 1 / 1 |
@@ -444,6 +444,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-23 | [DonCris's Santa's Secret Gift Vault](authors/doncris/6954bb346d227ff9fc540009/) | DonCris |
 | 2026-11-23 | [Hossam.Zaid's Crack ID & Password](authors/hossam-zaid/6afe53bfc0ad374eab0819a2/) | Hossam.Zaid |
 | 2026-11-23 | [threadsvector's Multi](authors/threadsvector/6aff1e214ab951a9999da799/) | threadsvector |
 | 2026-11-23 | [xEnsar69's Determinism](authors/xensar69/695197010c16072f40f5a538/) | xEnsar69 |

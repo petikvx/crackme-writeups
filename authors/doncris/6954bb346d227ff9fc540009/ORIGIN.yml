@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6954bb346d227ff9fc540009
+
+urls:
+  page: https://crackmes.one/crackme/6954bb346d227ff9fc540009
+  download: https://crackmes.one/download/crackme/6954bb346d227ff9fc540009
+
+title: "DonCris's  Santa&#39;s Secret Gift Vault"
+author_on_site: "DonCris"
+author_local: "doncris"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/ChristmasCrackme_CPP.exe"
+  name: "ChristmasCrackme_CPP.exe"
+  sha256: "779f79e6a28544b2aad5b7b1a84a3ad84594d82c4eed97d63996a90c1dc61f85"
+  md5: "0ee4ff4fee55f503993bceba1ea4235e"
+  size_bytes: 2340302
+
+status: solved
+solution_summary: "Code de 18 caractères : XOR 0x1f de la table TARGET (0x140076000) -> HoHoHo_Merry_Xmas! ; flag FLAG{S4nt4_L0v3s_C++}"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-23T13:34:48Z"
