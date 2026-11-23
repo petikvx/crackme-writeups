@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6aff1e214ab951a9999da799:
+    sha256: "a5342d6b33fe055cdceaf878e35efaaeb98cc0934c56a96fb84a66dbe779fad9"
+    path: "authors/threadsvector/6aff1e214ab951a9999da799/original/crackmebythreadvector.exe"
+    title: "threadsvector's Multi"
+
+by_sha256:
+  a5342d6b33fe055cdceaf878e35efaaeb98cc0934c56a96fb84a66dbe779fad9:
+    id: 6aff1e214ab951a9999da799
+    path: "authors/threadsvector/6aff1e214ab951a9999da799/original/crackmebythreadvector.exe"
+    page: https://crackmes.one/crackme/6aff1e214ab951a9999da799
