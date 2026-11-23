@@ -415,6 +415,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [janicious](authors/janicious/README.md) | janicious | 1 (WinAPI GUI Crackme) | 1 / 1 |
 | [p-ssvv0rol](authors/p-ssvv0rol/README.md) | P@ssvv0Rol | 1 (B64crk) | 1 / 1 |
 | [0xg_m3](authors/0xg_m3/README.md) | 0xg_m3 | 1 (latch) | 1 / 1 |
+| [wism](authors/wism/README.md) | wism | 1 (wism's crack me medium) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -440,6 +441,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-23 | [wism's crack me medium](authors/wism/6b0353074ab951a9999da879/) | wism |
 | 2026-11-23 | [ieee_754](authors/toasterbirb/6b0231274ab951a9999da832/) | toasterbirb |
 | 2026-11-23 | [0xg_m3's latch](authors/0xg_m3/6b006f8f5fa39ab0d4ac259f/) | 0xg_m3 |
 | 2026-11-23 | [P@ssvv0Rol's B64crk](authors/p-ssvv0rol/6b0173312c7537120cbe8c73/) | P@ssvv0Rol |
