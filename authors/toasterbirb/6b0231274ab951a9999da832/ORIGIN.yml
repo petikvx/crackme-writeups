@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6b0231274ab951a9999da832
+
+urls:
+  page: https://crackmes.one/crackme/6b0231274ab951a9999da832
+  download: https://crackmes.one/download/crackme/6b0231274ab951a9999da832
+
+title: "toasterbirb's ieee_754"
+author_on_site: "toasterbirb"
+author_local: "toasterbirb"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/bin"
+  name: "bin"
+  sha256: "f9b826ba71d5596a73311f5aa2d976b3f3bc2121b00a572d99973df6b8d568ed"
+  md5: "8c1cde1bd9ccaca1b24c435b9d5cb009"
+  size_bytes: 14536
+
+status: solved
+solution_summary: "8 floats negatifs (exposant non biaise = code ASCII, mantisse 0xC3) puis -inf -> password ; ex. python3 tools/ieee754-solve.py -q (pas de user, petik non applicable)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-23T07:39:37Z"

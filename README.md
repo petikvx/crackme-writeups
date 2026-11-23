@@ -274,7 +274,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [muhemed](authors/muhemed/README.md) | muhemed | 1 (muhemed crackme) | 1 / 1 |
 | [muffin](authors/muffin/README.md) | muffin | 1 (The Goat) | 1 / 1 |
 | [soulreaper](authors/soulreaper/README.md) | soulreaper | 3 (Dead Terminal + XorGate + Death Trap) | 3 / 3 |
-| [toasterbirb](authors/toasterbirb/README.md) | toasterbirb | 10 (yap + série asm flags…branchless-fixed + main.cpp + argc + shellcoding) | 10 / 10 |
+| [toasterbirb](authors/toasterbirb/README.md) | toasterbirb | 11 (yap + série asm flags…branchless-fixed + main.cpp + argc + shellcoding + ieee_754) | 11 / 11 |
 | [ttlhacker](authors/ttlhacker/README.md) | ttlhacker | 3 (hell86 + jittery + hard_software) | 3 / 3 |
 | [jasper676767](authors/jasper676767/README.md) | Jasper676767 | 3 (Red light + forgot password + Functions!) | 3 / 3 |
 | [pitou](authors/pitou/README.md) | pitou | 1 (Evaisve) | 1 / 1 |
@@ -440,6 +440,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-23 | [ieee_754](authors/toasterbirb/6b0231274ab951a9999da832/) | toasterbirb |
 | 2026-11-23 | [0xg_m3's latch](authors/0xg_m3/6b006f8f5fa39ab0d4ac259f/) | 0xg_m3 |
 | 2026-11-23 | [P@ssvv0Rol's B64crk](authors/p-ssvv0rol/6b0173312c7537120cbe8c73/) | P@ssvv0Rol |
 | 2026-11-18 | [janicious's WinAPI GUI Crackme](authors/janicious/69470c4d523504d8c842eb93/) | janicious |
