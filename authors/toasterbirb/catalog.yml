@@ -50,6 +50,11 @@ by_id:
     path: "authors/toasterbirb/6869167eaadb6eeafb398fb4/original/shellcoding"
     title: "toasterbirb's shellcoding"
 
+  6b0231274ab951a9999da832:
+    sha256: "f9b826ba71d5596a73311f5aa2d976b3f3bc2121b00a572d99973df6b8d568ed"
+    path: "authors/toasterbirb/6b0231274ab951a9999da832/original/bin"
+    title: "toasterbirb's ieee_754"
+
 by_sha256:
   4420c47f5c1ddaf46b9add156e6badc6ff66af3b0ea38a7c714b6e0d6acf1d82:
     id: 6a77541805a9e80a907242fe
@@ -91,3 +96,7 @@ by_sha256:
     id: 6869167eaadb6eeafb398fb4
     path: "authors/toasterbirb/6869167eaadb6eeafb398fb4/original/shellcoding"
     page: https://crackmes.one/crackme/6869167eaadb6eeafb398fb4
+  f9b826ba71d5596a73311f5aa2d976b3f3bc2121b00a572d99973df6b8d568ed:
+    id: 6b0231274ab951a9999da832
+    path: "authors/toasterbirb/6b0231274ab951a9999da832/original/bin"
+    page: https://crackmes.one/crackme/6b0231274ab951a9999da832
