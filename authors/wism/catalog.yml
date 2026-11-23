@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6b0353074ab951a9999da879:
+    sha256: "88cc15476b9eeb03edeb84d8aa625873761f7adad3704a0b41a995562d86b1d3"
+    path: "authors/wism/6b0353074ab951a9999da879/original/crackmebywism.exe"
+    title: "wism's crack me medium"
+
+by_sha256:
+  88cc15476b9eeb03edeb84d8aa625873761f7adad3704a0b41a995562d86b1d3:
+    id: 6b0353074ab951a9999da879
+    path: "authors/wism/6b0353074ab951a9999da879/original/crackmebywism.exe"
+    page: https://crackmes.one/crackme/6b0353074ab951a9999da879

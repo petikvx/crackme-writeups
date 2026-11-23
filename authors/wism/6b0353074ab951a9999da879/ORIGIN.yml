@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6b0353074ab951a9999da879
+
+urls:
+  page: https://crackmes.one/crackme/6b0353074ab951a9999da879
+  download: https://crackmes.one/download/crackme/6b0353074ab951a9999da879
+
+title: "wism's crack me medium"
+author_on_site: "wism"
+author_local: "wism"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackmebywism.exe"
+  name: "crackmebywism.exe"
+  sha256: "88cc15476b9eeb03edeb84d8aa625873761f7adad3704a0b41a995562d86b1d3"
+  md5: "92a29229f72ea715a47f2c5fa4bda5b7"
+  size_bytes: 18944
+
+status: solved
+solution_summary: "Mot de passe 69GoodBoy69 : le programme hache la saisie et le littéral 69GoodBoy69 (immédiats dans main) avec le même pipeline ; pas de user."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-23T08:38:09Z"
