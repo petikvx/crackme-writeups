@@ -15,6 +15,11 @@ by_id:
     path: "authors/doncris/6954bb346d227ff9fc540009/original/ChristmasCrackme_CPP.exe"
     title: "DonCris's  Santa&#39;s Secret Gift Vault"
 
+  695549ef6199fe19c0574632:
+    sha256: "fce0da7edb0f59535580974402b2b983dd36cd9c474cb13080e188c7c638bd36"
+    path: "authors/doncris/695549ef6199fe19c0574632/original/crackme.exe"
+    title: "DonCris's New Year&#39;s Resolution Vault 2026"
+
 by_sha256:
   b604f5840512560b22f433f8e66a30cd1547903419dfe9c4527c1f8d89181e3e:
     id: 696280f08cfebaa7f00e32b0
@@ -28,3 +33,7 @@ by_sha256:
     id: 6954bb346d227ff9fc540009
     path: "authors/doncris/6954bb346d227ff9fc540009/original/ChristmasCrackme_CPP.exe"
     page: https://crackmes.one/crackme/6954bb346d227ff9fc540009
+  fce0da7edb0f59535580974402b2b983dd36cd9c474cb13080e188c7c638bd36:
+    id: 695549ef6199fe19c0574632
+    path: "authors/doncris/695549ef6199fe19c0574632/original/crackme.exe"
+    page: https://crackmes.one/crackme/695549ef6199fe19c0574632
