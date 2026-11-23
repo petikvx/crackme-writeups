@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6b0173312c7537120cbe8c73
+
+urls:
+  page: https://crackmes.one/crackme/6b0173312c7537120cbe8c73
+  download: https://crackmes.one/download/crackme/6b0173312c7537120cbe8c73
+
+title: "P@ssvv0Rol's B64crk"
+author_on_site: "P@ssvv0Rol"
+author_local: "p-ssvv0rol"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++ (MinGW)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/B64crk.exe"
+  name: "B64crk.exe"
+  sha256: "f319eed72cb8f6ca22dca7e5fe10db129d54052442ff68feaa545a0fa23c0552"
+  md5: "5d92a699a3ce05326a3003c77a5af25c"
+  size_bytes: 143872
+
+status: solved
+solution_summary: "Mot de passe CMO{AAy_1ir5t_@1g0rithm} : table de 24 dwords en .data (octet bas) ; entrée et référence encodées base64 puis comparées"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-23T04:58:03Z"

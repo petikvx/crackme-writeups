@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6b0173312c7537120cbe8c73:
+    sha256: "f319eed72cb8f6ca22dca7e5fe10db129d54052442ff68feaa545a0fa23c0552"
+    path: "authors/p-ssvv0rol/6b0173312c7537120cbe8c73/original/B64crk.exe"
+    title: "P@ssvv0Rol's B64crk"
+
+by_sha256:
+  f319eed72cb8f6ca22dca7e5fe10db129d54052442ff68feaa545a0fa23c0552:
+    id: 6b0173312c7537120cbe8c73
+    path: "authors/p-ssvv0rol/6b0173312c7537120cbe8c73/original/B64crk.exe"
+    page: https://crackmes.one/crackme/6b0173312c7537120cbe8c73

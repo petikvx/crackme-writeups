@@ -413,6 +413,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [pyderall](authors/pyderall/README.md) | pyderall | 1 (TickTock) | 1 / 1 |
 | [iamwololo](authors/iamwololo/README.md) | iamwololo | 1 (Matryoshka) | 1 / 1 |
 | [janicious](authors/janicious/README.md) | janicious | 1 (WinAPI GUI Crackme) | 1 / 1 |
+| [p-ssvv0rol](authors/p-ssvv0rol/README.md) | P@ssvv0Rol | 1 (B64crk) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -438,6 +439,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-23 | [P@ssvv0Rol's B64crk](authors/p-ssvv0rol/6b0173312c7537120cbe8c73/) | P@ssvv0Rol |
 | 2026-11-18 | [janicious's WinAPI GUI Crackme](authors/janicious/69470c4d523504d8c842eb93/) | janicious |
 | 2026-11-18 | [iamwololo's Matryoshka](authors/iamwololo/68ff42b82d267f28f69b78c8/) | iamwololo |
 | 2026-11-18 | [Lacks's Level 2](authors/Lacks/6a5129c471ee08cad748dcae/) | Lacks |
