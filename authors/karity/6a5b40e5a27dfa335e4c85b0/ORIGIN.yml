@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a5b40e5a27dfa335e4c85b0
+
+urls:
+  page: https://crackmes.one/crackme/6a5b40e5a27dfa335e4c85b0
+  download: https://crackmes.one/download/crackme/6a5b40e5a27dfa335e4c85b0
+
+title: "karity's karity"
+author_on_site: "karity"
+author_local: "karity"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/karity-crackme-I.exe"
+  name: "karity-crackme-I.exe"
+  sha256: "8255a2e933a0b5d3271ee1915d8100a0e6809f754cc44cd309c308fedce30f96"
+  md5: "25dbdfd849c666359df631327371c288"
+  size_bytes: 46080
+
+status: solved
+solution_summary: "Flag fixe KARITY{fAke_aP1_n0_1dA!} : IAT détournée (IsDebuggerPresent/CheckRemoteDebuggerPresent/GetTickCount) vers un checker XOR chaîné sur 24 octets (table 0x14000a060, clé 27*i+0x2f, init 'Z') ; en-tête PE corrompu (Wine refuse l'original)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-23T20:44:45Z"

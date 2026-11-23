@@ -5,8 +5,17 @@ by_id:
     path: "authors/karity/6a37ceb1a4b247348ae80637/original/karity-crackme-E.exe"
     title: "karity's karity"
 
+  6a5b40e5a27dfa335e4c85b0:
+    sha256: "8255a2e933a0b5d3271ee1915d8100a0e6809f754cc44cd309c308fedce30f96"
+    path: "authors/karity/6a5b40e5a27dfa335e4c85b0/original/karity-crackme-I.exe"
+    title: "karity's karity"
+
 by_sha256:
   c7e40438bd858d2bd44ce1fd98514ee0a81602f5ba7e524a900cc7f86470c918:
     id: 6a37ceb1a4b247348ae80637
     path: "authors/karity/6a37ceb1a4b247348ae80637/original/karity-crackme-E.exe"
     page: https://crackmes.one/crackme/6a37ceb1a4b247348ae80637
+  8255a2e933a0b5d3271ee1915d8100a0e6809f754cc44cd309c308fedce30f96:
+    id: 6a5b40e5a27dfa335e4c85b0
+    path: "authors/karity/6a5b40e5a27dfa335e4c85b0/original/karity-crackme-I.exe"
+    page: https://crackmes.one/crackme/6a5b40e5a27dfa335e4c85b0
