@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6aff1e214ab951a9999da799
+
+urls:
+  page: https://crackmes.one/crackme/6aff1e214ab951a9999da799
+  download: https://crackmes.one/download/crackme/6aff1e214ab951a9999da799
+
+title: "threadsvector's Multi"
+author_on_site: "threadsvector"
+author_local: "threadsvector"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackmebythreadvector.exe"
+  name: "crackmebythreadvector.exe"
+  sha256: "a5342d6b33fe055cdceaf878e35efaaeb98cc0934c56a96fb84a66dbe779fad9"
+  md5: "4533f47371d8707ccfb1a9ec6634497e"
+  size_bytes: 1013248
+
+status: solved
+solution_summary: "Password 123threadvector321 : concat des 4 std::string globales .data (123+thread+vector+321), comparé à la saisie ; tools/threadsvector-solve.py"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-23T11:43:21Z"
