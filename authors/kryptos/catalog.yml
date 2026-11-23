@@ -5,8 +5,17 @@ by_id:
     path: "authors/kryptos/6a5010dac630e9c9509785f6/original/hecate"
     title: "Kryptos's Hecate linux/unix"
 
+  6a50104508b99fa0d448cd96:
+    sha256: "f2a48babe5e60e139079f7afdae619bc6082d6b5c94cba22649167a4e6e22621"
+    path: "authors/kryptos/6a50104508b99fa0d448cd96/original/hecate.exe"
+    title: "Kryptos's Hecate"
+
 by_sha256:
   0cccfa3e391533258c2ec6d8478cde30e8bef7e4789e500b317964d43c51b424:
     id: 6a5010dac630e9c9509785f6
     path: "authors/kryptos/6a5010dac630e9c9509785f6/original/hecate"
     page: https://crackmes.one/crackme/6a5010dac630e9c9509785f6
+  f2a48babe5e60e139079f7afdae619bc6082d6b5c94cba22649167a4e6e22621:
+    id: 6a50104508b99fa0d448cd96
+    path: "authors/kryptos/6a50104508b99fa0d448cd96/original/hecate.exe"
+    page: https://crackmes.one/crackme/6a50104508b99fa0d448cd96
