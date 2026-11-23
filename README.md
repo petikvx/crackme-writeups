@@ -134,6 +134,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [cyberpenguin](authors/cyberpenguin/README.md) | Cyberpenguin | 1 (What password???) | 1 / 1 |
 | [solitikburmaldatik](authors/solitikburmaldatik/README.md) | SolitikBurmaldatik | 1 (FirstCrackMe) | 1 / 1 |
 | [doncris](authors/doncris/README.md) | DonCris | 6 (Existential Vending Machine + Time Rift 2026 + Santa's Secret Gift Vault + New Year's Resolution Vault 2026 + S.N.A.P. + Party Protocol 2026) | 6 / 6 |
+| [lambogames](authors/lambogames/README.md) | Lambogames | 1 (Hide and C#) | 1 / 1 |
 | [openwiredsource](authors/openwiredsource/README.md) | OpenWiredSource | 1 (The Wired) | 1 / 1 |
 | [karity](authors/karity/README.md) | karity | 1 (karity's karity) | 1 / 1 |
 | [pavler](authors/pavler/README.md) | pavler | 1 (pavler6) | 1 / 1 |
@@ -449,6 +450,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-24 | [Lambogames's Hide and C#](authors/lambogames/6964291088fc494dab5d937f/) | Lambogames |
 | 2026-11-24 | [DonCris's Party Protocol 2026](authors/doncris/695697552617884f13d7c17d/) | DonCris |
 | 2026-11-23 | [pavler's pavler6](authors/pavler/6953df6c9eeae0b752a69c93/) | pavler |
 | 2026-11-23 | [Biglsim04's puzzle](authors/biglsim04/691de1d12d267f28f69b7f16/) | Biglsim04 |

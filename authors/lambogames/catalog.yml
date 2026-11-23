@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6964291088fc494dab5d937f:
+    sha256: "853f2980702c9ea4e9092fcc75436fe7a227513120fc2b7a37039a2814450c14"
+    path: "authors/lambogames/6964291088fc494dab5d937f/original/CrackMe_Protected.exe"
+    title: "Lambogames's Hide and C#"
+
+by_sha256:
+  853f2980702c9ea4e9092fcc75436fe7a227513120fc2b7a37039a2814450c14:
+    id: 6964291088fc494dab5d937f
+    path: "authors/lambogames/6964291088fc494dab5d937f/original/CrackMe_Protected.exe"
+    page: https://crackmes.one/crackme/6964291088fc494dab5d937f

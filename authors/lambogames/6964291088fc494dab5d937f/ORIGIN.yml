@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6964291088fc494dab5d937f
+
+urls:
+  page: https://crackmes.one/crackme/6964291088fc494dab5d937f
+  download: https://crackmes.one/download/crackme/6964291088fc494dab5d937f
+
+title: "Lambogames's Hide and C#"
+author_on_site: "Lambogames"
+author_local: "lambogames"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++/CLI (mixed mode)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/CrackMe_Protected.exe"
+  name: "CrackMe_Protected.exe"
+  sha256: "853f2980702c9ea4e9092fcc75436fe7a227513120fc2b7a37039a2814450c14"
+  md5: "6306f7810ada06ac1fd6524e17e07cf1"
+  size_bytes: 40960
+
+status: solved
+solution_summary: "mot de passe SUPER_SECRET_KEY : c[i]^0x5b, tableau 16 octets construit par DynamicMethod (IL émis à l'exécution), check natif dans le corps patché de _0xC._0x0"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-23T23:37:00Z"
