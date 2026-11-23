@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 695697552617884f13d7c17d
+
+urls:
+  page: https://crackmes.one/crackme/695697552617884f13d7c17d
+  download: https://crackmes.one/download/crackme/695697552617884f13d7c17d
+
+title: "DonCris's Party Protocol 2026"
+author_on_site: "DonCris"
+author_local: "doncris"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/PartyProtocol.exe"
+  name: "PartyProtocol.exe"
+  sha256: "4a5e424441566f7e47171183370d6beb3bdd1ce97906b14924277d2e93f9d8e9"
+  md5: "9e98aaf0580a61da20c70eb2e3b986ba"
+  size_bytes: 2342335
+
+status: solved
+solution_summary: "keygen petik→126555142 : h=0xdeadbeef ; h=rol((c^h)*0x12345678,5) ; code=(h*0x7ea) mod-sub 0xcafebabe ; année système 2026 requise"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-23T23:35:16Z"
