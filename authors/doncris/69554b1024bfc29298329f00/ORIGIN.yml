@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69554b1024bfc29298329f00
+
+urls:
+  page: https://crackmes.one/crackme/69554b1024bfc29298329f00
+  download: https://crackmes.one/download/crackme/69554b1024bfc29298329f00
+
+title: "DonCris's Santa&#39;s Network Admin Portal (S.N.A.P.)"
+author_on_site: "DonCris"
+author_local: "doncris"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/elf_portal.exe"
+  name: "elf_portal.exe"
+  sha256: "cd16e655b7709d3e52a1a88ed38f6e895df7ca5bbfd7691a308d389c1b74d7e5"
+  md5: "fcb7cf228cd595e8dd4341cc5492a6e0"
+  size_bytes: 2704636
+
+status: solved
+solution_summary: "keygen petik→524947593 : h=0xcafebabe ; par octet c : h^=c, h=ror(h,c%7+1), h+=0x5aa55aa5, h^=h<<4 ; final h^0xdeadbeef ; serial en décimal u32"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-23T19:36:12Z"

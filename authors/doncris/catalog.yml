@@ -20,6 +20,11 @@ by_id:
     path: "authors/doncris/695549ef6199fe19c0574632/original/crackme.exe"
     title: "DonCris's New Year&#39;s Resolution Vault 2026"
 
+  69554b1024bfc29298329f00:
+    sha256: "cd16e655b7709d3e52a1a88ed38f6e895df7ca5bbfd7691a308d389c1b74d7e5"
+    path: "authors/doncris/69554b1024bfc29298329f00/original/elf_portal.exe"
+    title: "DonCris's Santa&#39;s Network Admin Portal (S.N.A.P.)"
+
 by_sha256:
   b604f5840512560b22f433f8e66a30cd1547903419dfe9c4527c1f8d89181e3e:
     id: 696280f08cfebaa7f00e32b0
@@ -37,3 +42,7 @@ by_sha256:
     id: 695549ef6199fe19c0574632
     path: "authors/doncris/695549ef6199fe19c0574632/original/crackme.exe"
     page: https://crackmes.one/crackme/695549ef6199fe19c0574632
+  cd16e655b7709d3e52a1a88ed38f6e895df7ca5bbfd7691a308d389c1b74d7e5:
+    id: 69554b1024bfc29298329f00
+    path: "authors/doncris/69554b1024bfc29298329f00/original/elf_portal.exe"
+    page: https://crackmes.one/crackme/69554b1024bfc29298329f00
