@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a9866c2cab6678aefe9dc75
+
+urls:
+  page: https://crackmes.one/crackme/6a9866c2cab6678aefe9dc75
+  download: https://crackmes.one/download/crackme/6a9866c2cab6678aefe9dc75
+
+title: "kamil123's crackme_l6_hard"
+author_on_site: "kamil123"
+author_local: "kamil123"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme_l6_hard.exe"
+  name: "crackme_l6_hard.exe"
+  sha256: "c65389363b3cbe19d2595a4142a5f0eea5087bf803bb26ffde47fc0ee71eda67"
+  md5: "d02c331ff412087fb5a23d6525812c1e"
+  size_bytes: 47616
+
+status: solved
+solution_summary: "Nom au hash FNV1a+murmur == 0x2b7f4dcc (ex. petik2CmaMj, préfixe petik + 6 car. par meet-in-the-middle) ; serial constant 2774-8852-F1D9-648A = sortie de la mini-VM (4 u16), vérifié sous Wine"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-23T17:39:23Z"

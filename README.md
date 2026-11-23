@@ -382,7 +382,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [werrec](authors/werrec/README.md) | werrec | 2 (Retro OEM License Check, LATTICE4) | 2 / 2 |
 | [pietrogamer](authors/pietrogamer/README.md) | pietrogamer | 1 (Embrace RSA) | 1 / 1 |
 | [nake](authors/nake/README.md) | nake | 1 (SP network cipher) | 1 / 1 |
-| [kamil123](authors/kamil123/README.md) | kamil123 | 3 (Mini LLM Sentinel, Needle in a Haystack, echo_labyrinth) | 3 / 3 |
+| [kamil123](authors/kamil123/README.md) | kamil123 | 4 (crackme_l6_hard, Mini LLM Sentinel, Needle in a Haystack, echo_labyrinth) | 4 / 4 |
 | [fenata](authors/fenata/README.md) | fenata | 1 (Easiest_my_first) | 1 / 1 |
 | [kretrod](authors/kretrod/README.md) | kretrod | 1 (kretrod's my first password crackme) | 1 / 1 |
 | [crazy_bg](authors/crazy_bg/README.md) | crazy_bg | 2 (Keygen Me!, Picky Keygen Me!) | 2 / 2 |
@@ -445,6 +445,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-23 | [crackme_l6_hard](authors/kamil123/6a9866c2cab6678aefe9dc75/) | kamil123 |
 | 2026-11-23 | [Ulevel's rsame_v2](authors/ulevel/699af49ac2d74fe054b1c31d/) | Ulevel |
 | 2026-11-23 | [DonCris's New Year's Resolution Vault 2026](authors/doncris/695549ef6199fe19c0574632/) | DonCris |
 | 2026-11-23 | [DonCris's Santa's Secret Gift Vault](authors/doncris/6954bb346d227ff9fc540009/) | DonCris |
