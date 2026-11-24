@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69aaf24f18b5d7ee470935e5:
+    sha256: "a4d9f721e3c504e282ba48fa841f18201b12b15f58cef6981c345923714663ba"
+    path: "authors/deluks/69aaf24f18b5d7ee470935e5/original/crackme_mini.js"
+    title: "DeLuks's Chamber of Reflections"
+
+by_sha256:
+  a4d9f721e3c504e282ba48fa841f18201b12b15f58cef6981c345923714663ba:
+    id: 69aaf24f18b5d7ee470935e5
+    path: "authors/deluks/69aaf24f18b5d7ee470935e5/original/crackme_mini.js"
+    page: https://crackmes.one/crackme/69aaf24f18b5d7ee470935e5

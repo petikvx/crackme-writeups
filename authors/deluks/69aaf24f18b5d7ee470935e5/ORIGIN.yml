@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69aaf24f18b5d7ee470935e5
+
+urls:
+  page: https://crackmes.one/crackme/69aaf24f18b5d7ee470935e5
+  download: https://crackmes.one/download/crackme/69aaf24f18b5d7ee470935e5
+
+title: "DeLuks's Chamber of Reflections"
+author_on_site: "DeLuks"
+author_local: "deluks"
+
+platform: "Multiplatform"
+arch: ""
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme_mini.js"
+  name: "crackme_mini.js"
+  sha256: "a4d9f721e3c504e282ba48fa841f18201b12b15f58cef6981c345923714663ba"
+  md5: "9e99233b1b066044010d0747ac04b79f"
+  size_bytes: 22764
+
+status: solved
+solution_summary: "Mini-VM JS : mot de passe = KEY[i]^0xab -> FLAG-JSVM-1337 (pas de user)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-24T01:34:30Z"

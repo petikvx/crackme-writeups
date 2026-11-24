@@ -139,6 +139,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [openwiredsource](authors/openwiredsource/README.md) | OpenWiredSource | 1 (The Wired) | 1 / 1 |
 | [karity](authors/karity/README.md) | karity | 1 (karity's karity) | 1 / 1 |
 | [pavler](authors/pavler/README.md) | pavler | 1 (pavler6) | 1 / 1 |
+| [deluks](authors/deluks/README.md) | DeLuks | 1 (Chamber of Reflections) | 1 / 1 |
 | [biglsim04](authors/biglsim04/README.md) | Biglsim04 | 1 (puzzle) | 1 / 1 |
 | [ulevel](authors/ulevel/README.md) | Ulevel | 1 (rsame_v2) | 1 / 1 |
 | [simbahdd](authors/simbahdd/README.md) | SimbaHDD | 5 (CRACKME + very easy crackme + first golang crackme + easy crackme + CRACKME 2) | 5 / 5 |
@@ -451,6 +452,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-24 | [DeLuks's Chamber of Reflections](authors/deluks/69aaf24f18b5d7ee470935e5/) | DeLuks |
 | 2026-11-24 | [Gadget](authors/mas/6987dc623eb49a23d34176ed/) | MAS |
 | 2026-11-24 | [CorpCons's EasyVM](authors/corpcons/69723bb7d735cd51e7a1aa78/) | CorpCons |
 | 2026-11-24 | [Lambogames's Hide and C#](authors/lambogames/6964291088fc494dab5d937f/) | Lambogames |
