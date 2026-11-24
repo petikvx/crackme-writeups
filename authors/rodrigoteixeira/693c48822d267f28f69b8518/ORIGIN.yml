@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 693c48822d267f28f69b8518
+
+urls:
+  page: https://crackmes.one/crackme/693c48822d267f28f69b8518
+  download: https://crackmes.one/download/crackme/693c48822d267f28f69b8518
+
+title: "RodrigoTeixeira's Roullete Simulator"
+author_on_site: "RodrigoTeixeira"
+author_local: "rodrigoteixeira"
+
+platform: "Multiplatform"
+arch: ""
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/main.class"
+  name: "main.class"
+  sha256: "eaa7e973051601a69e389bd3e7fb3f50163c94e9d3d87e134dec6bef727fd4cb"
+  md5: "7644b3bed23aa0936238c3860d3c260f"
+  size_bytes: 3421
+
+status: solved
+solution_summary: "seed PRNG = nanoTime&0xFFFF retrouvé par les issues observées ; mise de tout le solde sur les gains prédits jusqu'à overflow int32 (money<0)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-24T23:39:13Z"

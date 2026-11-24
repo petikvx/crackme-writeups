@@ -15,6 +15,11 @@ by_id:
     path: "authors/rodrigoteixeira/6a539361a27dfa335e4c851d/original/download.bin"
     title: "RodrigoTeixeira's Encrypted Password"
 
+  693c48822d267f28f69b8518:
+    sha256: "eaa7e973051601a69e389bd3e7fb3f50163c94e9d3d87e134dec6bef727fd4cb"
+    path: "authors/rodrigoteixeira/693c48822d267f28f69b8518/original/main.class"
+    title: "RodrigoTeixeira's Roullete Simulator"
+
 by_sha256:
   707d4e4bf7944e07af1b42eaeaae8e77a5afdce7de473f85fa530cca04e3dcfc:
     id: 6abfc1a30885f990699dc0c2
@@ -28,3 +33,7 @@ by_sha256:
     id: 6a539361a27dfa335e4c851d
     path: "authors/rodrigoteixeira/6a539361a27dfa335e4c851d/original/download.bin"
     page: https://crackmes.one/crackme/6a539361a27dfa335e4c851d
+  eaa7e973051601a69e389bd3e7fb3f50163c94e9d3d87e134dec6bef727fd4cb:
+    id: 693c48822d267f28f69b8518
+    path: "authors/rodrigoteixeira/693c48822d267f28f69b8518/original/main.class"
+    page: https://crackmes.one/crackme/693c48822d267f28f69b8518

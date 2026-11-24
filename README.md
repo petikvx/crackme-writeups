@@ -395,7 +395,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [alogen](authors/alogen/README.md) | alogen | 1 (Simple Java Verify) | 1 / 1 |
 | [va7d1n3](authors/va7d1n3/README.md) | Va7D1n3 | 1 (Automata Simulation) | 1 / 1 |
 | [confining0367](authors/confining0367/README.md) | confining0367 | 1 (Key) | 1 / 1 |
-| [rodrigoteixeira](authors/rodrigoteixeira/README.md) | RodrigoTeixeira | 3 (Loggin, Simulation password, Encrypted Password) | 3 / 3 |
+| [rodrigoteixeira](authors/rodrigoteixeira/README.md) | RodrigoTeixeira | 4 (Loggin, Simulation password, Encrypted Password, Roullete Simulator) | 4 / 4 |
 | [Dirtbikercj](authors/Dirtbikercj/README.md) | Dirtbikercj | 1 (Secure License Portal) | 1 / 1 |
 | [tihiyomut](authors/tihiyomut/README.md) | TihiyOmut | 1 (EZFTP_ByTOMUT) | 1 / 1 |
 | [werrec](authors/werrec/README.md) | werrec | 2 (Retro OEM License Check, LATTICE4) | 2 / 2 |
@@ -469,6 +469,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-25 | [RodrigoTeixeira's Roullete Simulator](authors/rodrigoteixeira/693c48822d267f28f69b8518/) | RodrigoTeixeira |
 | 2026-11-25 | [Coder_90's KeyGenMeV3](authors/coder_90/691f53d32d267f28f69b7f62/) | Coder_90 |
 | 2026-11-24 | [oloL_neB's Goth House](authors/olol_neb/6a59546f055757d3df60fd53/) | olol_neb |
 | 2026-11-24 | [OTC's Keygen](authors/otc/6a526a25234391ae74f63b19/) | OTC |
