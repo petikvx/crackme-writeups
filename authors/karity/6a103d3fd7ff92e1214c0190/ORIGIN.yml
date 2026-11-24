@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a103d3fd7ff92e1214c0190
+
+urls:
+  page: https://crackmes.one/crackme/6a103d3fd7ff92e1214c0190
+  download: https://crackmes.one/download/crackme/6a103d3fd7ff92e1214c0190
+
+title: "karity's karity"
+author_on_site: "karity"
+author_local: "karity"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/karity-crackme-A.exe"
+  name: "karity-crackme-A.exe"
+  sha256: "cbff2112fa8bb6b7f9d554fbf29f9c65e2164e439db7b6df6f8cc28364325af0"
+  md5: "0a4b809ebbecb8a3be377af2e7c0e443"
+  size_bytes: 19968
+
+status: solved
+solution_summary: "Serial 29 car. : 4 CRC32 (init 0, sans xorout) sur [0:16],[6:22],[13:29],[0:29] ; z3 -> d*4iWz,FkO%wTst-hN|Af\\Ob'1d`u (non unique)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-24T03:39:18Z"
