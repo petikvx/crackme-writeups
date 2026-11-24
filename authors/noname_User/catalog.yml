@@ -5,8 +5,17 @@ by_id:
     path: "authors/noname_User/6af3568bc0ad374eab08177e/original/download.bin"
     title: "noname_User's idk"
 
+  6a4604cc6840520e01b22008:
+    sha256: "16be28532f333d66478f0934baccbcaa0bbf0db411d2aca5f3e8d2a10ca20ffb"
+    path: "authors/noname_User/6a4604cc6840520e01b22008/original/hi_bf.py"
+    title: "noname_User's It was entirely written by an obf that I found somewhere on GitHub and modified with AI."
+
 by_sha256:
   79ab3b4a1b3d5633553054b62928902a1a878a999399ec7368f622738e3689c6:
     id: 6af3568bc0ad374eab08177e
     path: "authors/noname_User/6af3568bc0ad374eab08177e/original/download.bin"
     page: https://crackmes.one/crackme/6af3568bc0ad374eab08177e
+  16be28532f333d66478f0934baccbcaa0bbf0db411d2aca5f3e8d2a10ca20ffb:
+    id: 6a4604cc6840520e01b22008
+    path: "authors/noname_User/6a4604cc6840520e01b22008/original/hi_bf.py"
+    page: https://crackmes.one/crackme/6a4604cc6840520e01b22008

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a4604cc6840520e01b22008
+
+urls:
+  page: https://crackmes.one/crackme/6a4604cc6840520e01b22008
+  download: https://crackmes.one/download/crackme/6a4604cc6840520e01b22008
+
+title: "noname_User's It was entirely written by an obf that I found somewhere on GitHub and modified with AI."
+author_on_site: "noname_User"
+author_local: "noname_User"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/hi_bf.py"
+  name: "hi_bf.py"
+  sha256: "16be28532f333d66478f0934baccbcaa0bbf0db411d2aca5f3e8d2a10ca20ffb"
+  md5: "f41aa899bd383126cc8506cfd29fd9f5"
+  size_bytes: 18543
+
+status: solved
+solution_summary: "Pas de serial : script Python protégé ShadowForge (VM custom) dont le programme se réduit à print('hi'). tools/hi-bf-solve.py décrypte les sections (SHA-256 XOR-stream) et le prouve."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-24T18:43:48Z"
