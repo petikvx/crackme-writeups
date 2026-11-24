@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 698907e7e2ba6023bfaca9fe
+
+urls:
+  page: https://crackmes.one/crackme/698907e7e2ba6023bfaca9fe
+  download: https://crackmes.one/download/crackme/698907e7e2ba6023bfaca9fe
+
+title: "genass3's Continental"
+author_on_site: "genass3"
+author_local: "genass3"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C/C++ (mingw)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/continental.exe"
+  name: "continental.exe"
+  sha256: "a97a0b18c563bbcdee4184dd5fb391fa6c76d2969ced58da53fc8df0dd8b01a3"
+  md5: "1aa220412806f21557c42396ca0f55b2"
+  size_bytes: 96256
+
+status: solved
+solution_summary: "Mini-VM : out=((c^0xAA^k)<<(k&0xF))&0xFF, k=(k<<1)^0x55 (k0=0), memcmp avec ee c0 00 00 b0 58 80 d0 88 ; password ex. D100?2ICH (tout préfixe valide, ex. D)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-24T16:43:18Z"
