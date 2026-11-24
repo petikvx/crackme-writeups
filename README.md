@@ -344,7 +344,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [acidbyte](authors/acidbyte/README.md) | AcidByte | 1 (Acid's First Crackme) | 1 / 1 |
 | [softwarebreaker](authors/softwarebreaker/README.md) | SoftwareBreaker | 1 (SoftwareBreaker's License Checker) | 1 / 1 |
 | [admin31](authors/admin31/README.md) | admin31 | 1 (cantcrack) | 1 / 1 |
-| [ploxied](authors/ploxied/README.md) | Ploxied | 2 (Easy Crackme, Calculator) | 2 / 2 |
+| [ploxied](authors/ploxied/README.md) | Ploxied | 3 (Easy Crackme, Calculator, Crack/Keygen Me) | 3 / 3 |
 | [razkom](authors/razkom/README.md) | RAZKOM | 1 (razkom_v1.1) | 1 / 1 |
 | [atoc](authors/atoc/README.md) | atoc | 1 (superEZcrackME : VM bvessel) | 1 / 1 |
 | [leenear](authors/Leenear/README.md) | Leenear | 1 (Wait, it was all linear?) | 1 / 1 |
@@ -463,6 +463,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-24 | [Ploxied's Crack/Keygen Me](authors/ploxied/694c3de30c16072f40f5a3d2/) | Ploxied |
 | 2026-11-24 | [hwenzy's c++ crackme 6/10](authors/hwenzy/6a42f1446840520e01b21fc6/) | hwenzy |
 | 2026-11-24 | [talhasa's Simple VM Crackme](authors/talhasa/6a14efc48fab7bbca273029c/) | talhasa |
 | 2026-11-24 | [Kryptos's Simple login crackme](authors/kryptos/69e13f938afd9d6c48b488fd/) | Kryptos |

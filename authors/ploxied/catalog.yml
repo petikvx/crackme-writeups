@@ -10,6 +10,11 @@ by_id:
     path: "authors/ploxied/69700154d735cd51e7a1aa58/original/crackme.exe"
     title: "Ploxied's Calculator"
 
+  694c3de30c16072f40f5a3d2:
+    sha256: "67be9a81fcd8ebf87f1c6e04d946f06ad6150d9add4326283d9c0da1afa84c78"
+    path: "authors/ploxied/694c3de30c16072f40f5a3d2/original/crackme.rar"
+    title: "Ploxied's Crack/Keygen Me"
+
 by_sha256:
   b1d3beb0410a5ff4abcc7062a0217a26b4300e5a8dac56c968957bbbd01f0353:
     id: 69cbde056793d479be018f09
@@ -19,3 +24,7 @@ by_sha256:
     id: 69700154d735cd51e7a1aa58
     path: "authors/ploxied/69700154d735cd51e7a1aa58/original/crackme.exe"
     page: https://crackmes.one/crackme/69700154d735cd51e7a1aa58
+  67be9a81fcd8ebf87f1c6e04d946f06ad6150d9add4326283d9c0da1afa84c78:
+    id: 694c3de30c16072f40f5a3d2
+    path: "authors/ploxied/694c3de30c16072f40f5a3d2/original/crackme.rar"
+    page: https://crackmes.one/crackme/694c3de30c16072f40f5a3d2

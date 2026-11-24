@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 694c3de30c16072f40f5a3d2
+
+urls:
+  page: https://crackmes.one/crackme/694c3de30c16072f40f5a3d2
+  download: https://crackmes.one/download/crackme/694c3de30c16072f40f5a3d2
+
+title: "Ploxied's Crack/Keygen Me"
+author_on_site: "Ploxied"
+author_local: "ploxied"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++ (MinGW)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme.rar"
+  name: "crackme.rar"
+  sha256: "67be9a81fcd8ebf87f1c6e04d946f06ad6150d9add4326283d9c0da1afa84c78"
+  md5: "f0f48f1ce82ab1df5fd302ccbddfdecd"
+  size_bytes: 84993
+
+status: solved
+solution_summary: "Keygen : password = HEX majuscule(reverse(user XOR 0x0d)), user <= 8 car. ; petik→666479687D. Chaînes .data XOR 0x5a."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-24T16:41:22Z"
