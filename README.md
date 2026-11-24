@@ -376,7 +376,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [eilay_yosfan](authors/eilay_yosfan/README.md) | Eilay_Yosfan | 1 (3OutOf6) | 1 / 1 |
 | [nullerf](authors/nullerf/README.md) | NullerF | 2 (Easiest + Simple_GUI_crackme) | 2 / 2 |
 | [qpdudusydi](authors/qpdudusydi/README.md) | qpdudusydi | 2 (Very Easy, XOR Easy) | 2 / 2 |
-| [Lacks](authors/Lacks/README.md) | Lacks | 2 (Lacks's Level 1 + Level 2) | 2 / 2 |
+| [Lacks](authors/Lacks/README.md) | Lacks | 3 (Lacks's Level 1 + Level 2 + Level 3) | 3 / 3 |
 | [ended](authors/ended/README.md) | ended | 1 (catgirl.crack) | 1 / 1 |
 | [badengineer](authors/badengineer/README.md) | BadEngineer | 4 (First Crackme, BeginnerFriendly, EasiestEver, PlsCrackMe) | 4 / 4 |
 | [sarahmills](authors/sarahmills/README.md) | sarahmills | 1 (Gopher Secrets) | 1 / 1 |
@@ -467,6 +467,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-24 | [Lacks's Level 3](authors/Lacks/6a512a442c3088f968e1341b/) | Lacks |
 | 2026-11-24 | [idanhajbeko's The Rabbit Hole](authors/idanhajbeko/6a91838fcab6678aefe9db6c/) | idanhajbeko |
 | 2026-11-24 | [lantern01's yuri](authors/lantern01/6b05de424b6d53e8802ed86e/) | lantern01 |
 | 2026-11-24 | [casam's Keygen Crackme](authors/casam/69c53f51f2d49d8512f64b7a/) | casam |

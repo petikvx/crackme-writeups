@@ -10,6 +10,11 @@ by_id:
     path: "authors/Lacks/6a5129c471ee08cad748dcae/original/download.bin"
     title: "Lacks's Level 2"
 
+  6a512a442c3088f968e1341b:
+    sha256: "1073f2f51d00337ae08a9e05cfa213576cc84fa9a60dd84302431fc1de0c9dbe"
+    path: "authors/Lacks/6a512a442c3088f968e1341b/original/level3.exe"
+    title: "Lacks's Level 3"
+
 by_sha256:
   489aaa8d0feaea9aad011be74bfbf2177fd4e7569849beb600ed271ca03940d4:
     id: 6a512980234391ae74f63ae8
@@ -19,3 +24,7 @@ by_sha256:
     id: 6a5129c471ee08cad748dcae
     path: "authors/Lacks/6a5129c471ee08cad748dcae/original/download.bin"
     page: https://crackmes.one/crackme/6a5129c471ee08cad748dcae
+  1073f2f51d00337ae08a9e05cfa213576cc84fa9a60dd84302431fc1de0c9dbe:
+    id: 6a512a442c3088f968e1341b
+    path: "authors/Lacks/6a512a442c3088f968e1341b/original/level3.exe"
+    page: https://crackmes.one/crackme/6a512a442c3088f968e1341b

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a512a442c3088f968e1341b
+
+urls:
+  page: https://crackmes.one/crackme/6a512a442c3088f968e1341b
+  download: https://crackmes.one/download/crackme/6a512a442c3088f968e1341b
+
+title: "Lacks's Level 3"
+author_on_site: "Lacks"
+author_local: "Lacks"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/level3.exe"
+  name: "level3.exe"
+  sha256: "1073f2f51d00337ae08a9e05cfa213576cc84fa9a60dd84302431fc1de0c9dbe"
+  md5: "46db2c9c540a86eb911ac094930b3f65"
+  size_bytes: 19968
+
+status: solved
+solution_summary: "serial = ((somme des octets signés du username) * 0x539) ^ 0x5a5a ; petik→742191"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-24T20:39:19Z"
