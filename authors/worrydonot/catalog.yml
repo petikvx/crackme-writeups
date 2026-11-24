@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a3fdead6840520e01b21f9e:
+    sha256: "9ed9e25f458765aa4e5fb1a20b5d48b5874da34f20ff512d119df2c314572c6f"
+    path: "authors/worrydonot/6a3fdead6840520e01b21f9e/original/rollandroll"
+    title: "worrydonot's Crackme For Beginners"
+
+by_sha256:
+  9ed9e25f458765aa4e5fb1a20b5d48b5874da34f20ff512d119df2c314572c6f:
+    id: 6a3fdead6840520e01b21f9e
+    path: "authors/worrydonot/6a3fdead6840520e01b21f9e/original/rollandroll"
+    page: https://crackmes.one/crackme/6a3fdead6840520e01b21f9e

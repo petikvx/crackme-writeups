@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a3fdead6840520e01b21f9e
+
+urls:
+  page: https://crackmes.one/crackme/6a3fdead6840520e01b21f9e
+  download: https://crackmes.one/download/crackme/6a3fdead6840520e01b21f9e
+
+title: "worrydonot's Crackme For Beginners"
+author_on_site: "worrydonot"
+author_local: "worrydonot"
+
+platform: "macOS"
+arch: "arm64"
+language: "C++"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/rollandroll"
+  name: "rollandroll"
+  sha256: "9ed9e25f458765aa4e5fb1a20b5d48b5874da34f20ff512d119df2c314572c6f"
+  md5: "42cc4237401892e923d22f706f5518e9"
+  size_bytes: 57816
+
+status: solved
+solution_summary: "password NevERGOnnaRUnaROunDAnDdeseRTyOU : par octet t=c^0xF puis t(t+1)/2, joint par '-' et comparé à une chaîne constante (inversion par racine triangulaire)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-24T10:38:18Z"
