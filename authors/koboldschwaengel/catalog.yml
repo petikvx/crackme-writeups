@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a58c547055757d3df60fd47:
+    sha256: "8f1d0123ca4a13aa7016f2a89343e5bceef2cb7b7e137bc109bae817969b91e0"
+    path: "authors/koboldschwaengel/6a58c547055757d3df60fd47/original/WhereIsTheChallange.zip"
+    title: "koboldschwaengel's Where is the challange?"
+
+by_sha256:
+  8f1d0123ca4a13aa7016f2a89343e5bceef2cb7b7e137bc109bae817969b91e0:
+    id: 6a58c547055757d3df60fd47
+    path: "authors/koboldschwaengel/6a58c547055757d3df60fd47/original/WhereIsTheChallange.zip"
+    page: https://crackmes.one/crackme/6a58c547055757d3df60fd47

@@ -424,6 +424,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [janicious](authors/janicious/README.md) | janicious | 1 (WinAPI GUI Crackme) | 1 / 1 |
 | [p-ssvv0rol](authors/p-ssvv0rol/README.md) | P@ssvv0Rol | 1 (B64crk) | 1 / 1 |
 | [oqra1](authors/oqra1/README.md) | oqra1 | 1 (selfkey) | 1 / 1 |
+| [koboldschwaengel](authors/koboldschwaengel/README.md) | koboldschwaengel | 1 (Where is the challange?) | 1 / 1 |
 | [0xg_m3](authors/0xg_m3/README.md) | 0xg_m3 | 1 (latch) | 1 / 1 |
 | [wism](authors/wism/README.md) | wism | 1 (wism's crack me medium) | 1 / 1 |
 | [threadsvector](authors/threadsvector/README.md) | threadsvector | 1 (threadsvector's Multi) | 1 / 1 |
@@ -453,6 +454,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-24 | [koboldschwaengel's Where is the challange?](authors/koboldschwaengel/6a58c547055757d3df60fd47/) | koboldschwaengel |
 | 2026-11-24 | [oqra1's selfkey](authors/oqra1/6a1f01752b3df128c1df5d6e/) | oqra1 |
 | 2026-11-24 | [liboxin's CrackMe Hard 4](authors/liboxin/6a1b1a448fab7bbca27302fc/) | liboxin |
 | 2026-11-24 | [DeLuks's Chamber of Reflections](authors/deluks/69aaf24f18b5d7ee470935e5/) | DeLuks |

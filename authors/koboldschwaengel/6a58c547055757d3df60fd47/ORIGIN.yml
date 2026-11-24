@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a58c547055757d3df60fd47
+
+urls:
+  page: https://crackmes.one/crackme/6a58c547055757d3df60fd47
+  download: https://crackmes.one/download/crackme/6a58c547055757d3df60fd47
+
+title: "koboldschwaengel's Where is the challange?"
+author_on_site: "koboldschwaengel"
+author_local: "koboldschwaengel"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++ (MSVC)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/WhereIsTheChallange.zip"
+  name: "WhereIsTheChallange.zip"
+  sha256: "8f1d0123ca4a13aa7016f2a89343e5bceef2cb7b7e137bc109bae817969b91e0"
+  md5: "45af5c47b2009e0e1e15bb19898337d1"
+  size_bytes: 23297
+
+status: solved
+solution_summary: "Polyglot PNG+ZIP -> stripper.exe -> PE en overlay (vrai crackme) ; mot de passe = octets 31 32 33 61 62 63 71 71 XOR 0x50 = abc123!! (préfixe de 8 car. suffisant ; pas de user)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-24T08:42:44Z"
