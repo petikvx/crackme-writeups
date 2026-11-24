@@ -264,7 +264,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [fragus](authors/fragus/README.md) | Fragus | 1 (Very simple crackme) | 1 / 1 |
 | [hfirewoxlf](authors/hfirewoxlf/README.md) | hFireWoxlf | 1 (My First Rust Crackme) | 1 / 1 |
 | [vulnix](authors/vulnix/README.md) | vulnix | 1 (easyjerk) | 1 / 1 |
-| [idanhajbeko](authors/idanhajbeko/README.md) | idanhajbeko | 1 (babyFirstCrackme) | 1 / 1 |
+| [idanhajbeko](authors/idanhajbeko/README.md) | idanhajbeko | 2 (babyFirstCrackme, The Rabbit Hole) | 2 / 2 |
 | [userrrrrr](authors/userrrrrr/README.md) | userrrrrr | 1 (EasyCrackme) | 1 / 1 |
 | [mark_godez](authors/mark_godez/README.md) | Mark_Godez | 1 (Godez_Mark crackme) | 1 / 1 |
 | [izijerry](authors/izijerry/README.md) | izijerry | 1 (int overflow) | 1 / 1 |
@@ -467,6 +467,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-24 | [idanhajbeko's The Rabbit Hole](authors/idanhajbeko/6a91838fcab6678aefe9db6c/) | idanhajbeko |
 | 2026-11-24 | [lantern01's yuri](authors/lantern01/6b05de424b6d53e8802ed86e/) | lantern01 |
 | 2026-11-24 | [casam's Keygen Crackme](authors/casam/69c53f51f2d49d8512f64b7a/) | casam |
 | 2026-11-24 | [niko122's niko's vm final!! :)](authors/niko122/69b9bb123e328e778db0517b/) | niko122 |

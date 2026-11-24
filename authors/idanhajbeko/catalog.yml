@@ -5,8 +5,17 @@ by_id:
     path: "authors/idanhajbeko/680d04208f555589f3530fb5/original/babtFirstCrackme.zip"
     title: "idanhajbeko's babyFirstCrackme"
 
+  6a91838fcab6678aefe9db6c:
+    sha256: "f5581e5d2f1697a48d41cf17aeaccb2f25fc95a6503674f978ecf962c63a668a"
+    path: "authors/idanhajbeko/6a91838fcab6678aefe9db6c/original/main.exe"
+    title: "idanhajbeko's The Rabbit Hole"
+
 by_sha256:
   8c4f4e2e3f78fa7744350ddafba9597cce9190530373779ac4ed7b2ed3353629:
     id: 680d04208f555589f3530fb5
     path: "authors/idanhajbeko/680d04208f555589f3530fb5/original/babtFirstCrackme.zip"
     page: https://crackmes.one/crackme/680d04208f555589f3530fb5
+  f5581e5d2f1697a48d41cf17aeaccb2f25fc95a6503674f978ecf962c63a668a:
+    id: 6a91838fcab6678aefe9db6c
+    path: "authors/idanhajbeko/6a91838fcab6678aefe9db6c/original/main.exe"
+    page: https://crackmes.one/crackme/6a91838fcab6678aefe9db6c

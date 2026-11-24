@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a91838fcab6678aefe9db6c
+
+urls:
+  page: https://crackmes.one/crackme/6a91838fcab6678aefe9db6c
+  download: https://crackmes.one/download/crackme/6a91838fcab6678aefe9db6c
+
+title: "idanhajbeko's The Rabbit Hole"
+author_on_site: "idanhajbeko"
+author_local: "idanhajbeko"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/main.exe"
+  name: "main.exe"
+  sha256: "f5581e5d2f1697a48d41cf17aeaccb2f25fc95a6503674f978ecf962c63a668a"
+  md5: "8085d7ada6e747a9d06af54507799930"
+  size_bytes: 167070
+
+status: solved
+solution_summary: "nom (somme octets = 510, ex. petiL) ; go right x3, go forward x2 (z=3+2i), look around, 'follow the rabbit', 'the red pill' (xor Wonderland + c%26)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-24T19:37:47Z"
