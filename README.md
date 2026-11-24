@@ -344,6 +344,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [acidbyte](authors/acidbyte/README.md) | AcidByte | 1 (Acid's First Crackme) | 1 / 1 |
 | [softwarebreaker](authors/softwarebreaker/README.md) | SoftwareBreaker | 1 (SoftwareBreaker's License Checker) | 1 / 1 |
 | [genass3](authors/genass3/README.md) | genass3 | 1 (Continental) | 1 / 1 |
+| [otc](authors/otc/README.md) | OTC | 1 (OTC's Keygen) | 1 / 1 |
 | [lantern01](authors/lantern01/README.md) | lantern01 | 1 (lantern01's yuri) | 1 / 1 |
 | [admin31](authors/admin31/README.md) | admin31 | 1 (cantcrack) | 1 / 1 |
 | [ploxied](authors/ploxied/README.md) | Ploxied | 3 (Easy Crackme, Calculator, Crack/Keygen Me) | 3 / 3 |
@@ -467,6 +468,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-24 | [OTC's Keygen](authors/otc/6a526a25234391ae74f63b19/) | OTC |
 | 2026-11-24 | [Lacks's Ultimate Boss Level](authors/Lacks/6a5158ee71ee08cad748dcc9/) | Lacks |
 | 2026-11-24 | [Lacks's Level 3](authors/Lacks/6a512a442c3088f968e1341b/) | Lacks |
 | 2026-11-24 | [idanhajbeko's The Rabbit Hole](authors/idanhajbeko/6a91838fcab6678aefe9db6c/) | idanhajbeko |

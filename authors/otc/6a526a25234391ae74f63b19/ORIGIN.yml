@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a526a25234391ae74f63b19
+
+urls:
+  page: https://crackmes.one/crackme/6a526a25234391ae74f63b19
+  download: https://crackmes.one/download/crackme/6a526a25234391ae74f63b19
+
+title: "OTC's Keygen"
+author_on_site: "OTC"
+author_local: "otc"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/task"
+  name: "task"
+  sha256: "fe25f1e9051e8101be086f0038fa40cf4a05afccacfefc9df12e1494db38e51d"
+  md5: "1bbe7f389afa9fdf8c79c14e54310388"
+  size_bytes: 29140
+
+status: solved
+solution_summary: "Stub qui dump un ELF dans memfd_create+fexecve ; nom imposé 'Speed' (base64 U3BlZWQ=), puis 2e champ = sha256hex(md5hex(nom) XOR 0x42 octet par octet) = 2cacc3f62f300a06501df12be978b0a0857e768841ccc75d89986da061f0b55f"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-24T21:43:17Z"

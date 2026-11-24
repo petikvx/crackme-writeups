@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a526a25234391ae74f63b19:
+    sha256: "fe25f1e9051e8101be086f0038fa40cf4a05afccacfefc9df12e1494db38e51d"
+    path: "authors/otc/6a526a25234391ae74f63b19/original/task"
+    title: "OTC's Keygen"
+
+by_sha256:
+  fe25f1e9051e8101be086f0038fa40cf4a05afccacfefc9df12e1494db38e51d:
+    id: 6a526a25234391ae74f63b19
+    path: "authors/otc/6a526a25234391ae74f63b19/original/task"
+    page: https://crackmes.one/crackme/6a526a25234391ae74f63b19
