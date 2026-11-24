@@ -15,6 +15,11 @@ by_id:
     path: "authors/mas/6aa5ccb13b246e477b6c0c12/original/ZSecure.exe"
     title: "MAS's ZSecure"
 
+  6987dc623eb49a23d34176ed:
+    sha256: "b59b419fc36c75d9808754e83a512022392ae319afd64ebbb8a54f398fe4dc30"
+    path: "authors/mas/6987dc623eb49a23d34176ed/original/gadget.zip"
+    title: "MAS's Gadget"
+
 by_sha256:
   975ea2949fb15747394c0bc88fd214d3054aa3cb46bfeff59e5ed18d1f7fe2e2:
     id: 6aa8483c48cda5a2aaa3ddc1
@@ -28,3 +33,7 @@ by_sha256:
     id: 6aa5ccb13b246e477b6c0c12
     path: "authors/mas/6aa5ccb13b246e477b6c0c12/original/ZSecure.exe"
     page: https://crackmes.one/crackme/6aa5ccb13b246e477b6c0c12
+  b59b419fc36c75d9808754e83a512022392ae319afd64ebbb8a54f398fe4dc30:
+    id: 6987dc623eb49a23d34176ed
+    path: "authors/mas/6987dc623eb49a23d34176ed/original/gadget.zip"
+    page: https://crackmes.one/crackme/6987dc623eb49a23d34176ed

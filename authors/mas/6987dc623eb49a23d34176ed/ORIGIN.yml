@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6987dc623eb49a23d34176ed
+
+urls:
+  page: https://crackmes.one/crackme/6987dc623eb49a23d34176ed
+  download: https://crackmes.one/download/crackme/6987dc623eb49a23d34176ed
+
+title: "MAS's Gadget"
+author_on_site: "MAS"
+author_local: "mas"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/gadget.zip"
+  name: "gadget.zip"
+  sha256: "b59b419fc36c75d9808754e83a512022392ae319afd64ebbb8a54f398fe4dc30"
+  md5: "d89838c794b486990316719ca4870ee4"
+  size_bytes: 27299
+
+status: solved
+solution_summary: "Flag z+{GAdg3t_CaN_Bu1ld_fu11_pr0GrAM} : cible hex (.rdata 0x14000a110) = hex(XOR(base64(flag), 98 df répété)) ; gadgets dans gadget.hex"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-24T00:45:12Z"

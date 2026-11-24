@@ -331,7 +331,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [67674ever](authors/67674ever/README.md) | 67674ever | 1 (My lib obfusction) | 1 / 1 |
 | [acheylate](authors/acheylate/README.md) | acheylate | 5 (Find password L+W, State Machine, Beat The Game, Patch It Cli Game) | 5 / 5 |
 | [keep](authors/keep/README.md) | Keep | 2 (sygil gui + console) | 2 / 2 |
-| [mas](authors/mas/README.md) | MAS | 3 (zW0rM + Type Punning + ZSecure) | 3 / 3 |
+| [mas](authors/mas/README.md) | MAS | 4 (zW0rM + Type Punning + ZSecure + Gadget) | 4 / 4 |
 | [glitch_baby](authors/glitch_baby/README.md) | Glitch_Baby | 1 (Wheredakey) | 1 / 1 |
 | [lypd0](authors/lypd0/README.md) | lypd0 | 1 (Lantern01) | 1 / 1 |
 | [acidbyte](authors/acidbyte/README.md) | AcidByte | 1 (Acid's First Crackme) | 1 / 1 |
@@ -451,6 +451,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-24 | [Gadget](authors/mas/6987dc623eb49a23d34176ed/) | MAS |
 | 2026-11-24 | [CorpCons's EasyVM](authors/corpcons/69723bb7d735cd51e7a1aa78/) | CorpCons |
 | 2026-11-24 | [Lambogames's Hide and C#](authors/lambogames/6964291088fc494dab5d937f/) | Lambogames |
 | 2026-11-24 | [DonCris's Party Protocol 2026](authors/doncris/695697552617884f13d7c17d/) | DonCris |
