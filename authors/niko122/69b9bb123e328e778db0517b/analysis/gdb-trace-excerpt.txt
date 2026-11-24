@@ -1,0 +1,60 @@
+DISP idx=0 table=14000e320 rcx=7ffffe22b1f0
+F 03
+F 00
+F 00
+F 00
+F 00
+DISP idx=0 table=14000e320 rcx=7ffffe22b1f0
+F 06
+F 00
+F 00
+F 00
+F 00
+DISP idx=0 table=14000e320 rcx=7ffffe22b1f0
+F 03
+F 00
+F 00
+F 00
+F 00
+DISP idx=0 table=14000e320 rcx=7ffffe22b1f0
+F 06
+F 00
+F 00
+F 00
+F 00
+DISP idx=28 table=14000e320 rcx=7ffffe22b1f0
+DISP idx=31 table=14000e320 rcx=7ffffe22b1f0
+DISP idx=30 table=14000e320 rcx=7ffffe22b1f0
+F 03
+F 00
+F 00
+F 14
+F ffffffbc
+F ffffffe0
+F ffffffd8
+F 54
+F 00
+F 09
+F ffffff91
+F 19
+F ffffff88
+F 3f
+F 33
+F ffffffbc
+F ffffff89
+F fffffffa
+F 33
+F 5d
+F ffffffb7
+F ffffff9d
+F 01
+F ffffffe8
+F ffffffa1
+F ffffffda
+F 6f
+F ffffffe8
+F 23
+F 6b
+F ffffffc5
+F ffffffb9
+F ffffffa7

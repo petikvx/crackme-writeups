@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69b9bb123e328e778db0517b
+
+urls:
+  page: https://crackmes.one/crackme/69b9bb123e328e778db0517b
+  download: https://crackmes.one/download/crackme/69b9bb123e328e778db0517b
+
+title: "niko122's niko&#39;s vm final!! :)"
+author_on_site: "niko122"
+author_local: "niko122"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/vm-final.exe"
+  name: "vm-final.exe"
+  sha256: "6d7b03835fc87c47280d58fa0a6775ac32554e79253fbafbb540b21f2cac29e0"
+  md5: "1161af8cbf766fcd71066b93a0406f10"
+  size_bytes: 60416
+
+status: solved
+solution_summary: "Mot de passe fixe de 84 car. : HELLO! - HELLO! - I HOPE YOU ENJOY THIS CRACK ME IT TOOK ME A WHILE - !@#$%^&*()_+-= (opcode CHECK de la VM : ct ^ keystream ChaCha-like, key 0xd8e0bc14 ; solveur tools/niko122-solve.py ; petik -> Wrong)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-24T17:41:28Z"

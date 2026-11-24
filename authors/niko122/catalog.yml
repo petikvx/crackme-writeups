@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69b9bb123e328e778db0517b:
+    sha256: "6d7b03835fc87c47280d58fa0a6775ac32554e79253fbafbb540b21f2cac29e0"
+    path: "authors/niko122/69b9bb123e328e778db0517b/original/vm-final.exe"
+    title: "niko122's niko&#39;s vm final!! :)"
+
+by_sha256:
+  6d7b03835fc87c47280d58fa0a6775ac32554e79253fbafbb540b21f2cac29e0:
+    id: 69b9bb123e328e778db0517b
+    path: "authors/niko122/69b9bb123e328e778db0517b/original/vm-final.exe"
+    page: https://crackmes.one/crackme/69b9bb123e328e778db0517b
