@@ -10,6 +10,11 @@ by_id:
     path: "authors/kryptos/6a50104508b99fa0d448cd96/original/hecate.exe"
     title: "Kryptos's Hecate"
 
+  69e13f938afd9d6c48b488fd:
+    sha256: "f5e0d7eef306e78b0c937d735931d73f542470449b94be15597e437e1e27a1aa"
+    path: "authors/kryptos/69e13f938afd9d6c48b488fd/original/crackmepls.exe"
+    title: "Kryptos's Simple login crackme"
+
 by_sha256:
   0cccfa3e391533258c2ec6d8478cde30e8bef7e4789e500b317964d43c51b424:
     id: 6a5010dac630e9c9509785f6
@@ -19,3 +24,7 @@ by_sha256:
     id: 6a50104508b99fa0d448cd96
     path: "authors/kryptos/6a50104508b99fa0d448cd96/original/hecate.exe"
     page: https://crackmes.one/crackme/6a50104508b99fa0d448cd96
+  f5e0d7eef306e78b0c937d735931d73f542470449b94be15597e437e1e27a1aa:
+    id: 69e13f938afd9d6c48b488fd
+    path: "authors/kryptos/69e13f938afd9d6c48b488fd/original/crackmepls.exe"
+    page: https://crackmes.one/crackme/69e13f938afd9d6c48b488fd

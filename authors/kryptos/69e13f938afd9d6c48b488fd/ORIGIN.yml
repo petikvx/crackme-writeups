@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69e13f938afd9d6c48b488fd
+
+urls:
+  page: https://crackmes.one/crackme/69e13f938afd9d6c48b488fd
+  download: https://crackmes.one/download/crackme/69e13f938afd9d6c48b488fd
+
+title: "Kryptos's Simple login crackme"
+author_on_site: "Kryptos"
+author_local: "kryptos"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackmepls.exe"
+  name: "crackmepls.exe"
+  sha256: "f5e0d7eef306e78b0c937d735931d73f542470449b94be15597e437e1e27a1aa"
+  md5: "2173e8ce136b825ecab3dbef6253681d"
+  size_bytes: 18944
+
+status: solved
+solution_summary: "keygen user->pass : h=((t<<3)^t), t=(i+1)*c+h ; pass=str(int32(h*0x539 ^ 0x5a5a)) ; petik -> -1873409733"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-24T14:39:29Z"
