@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6b05de424b6d53e8802ed86e:
+    sha256: "3619c25d305a644c4c4f800695101ac99cdb0249abe5bf7bdb648726b0b49d1b"
+    path: "authors/lantern01/6b05de424b6d53e8802ed86e/original/owncm.exe"
+    title: "lantern01's yuri"
+
+by_sha256:
+  3619c25d305a644c4c4f800695101ac99cdb0249abe5bf7bdb648726b0b49d1b:
+    id: 6b05de424b6d53e8802ed86e
+    path: "authors/lantern01/6b05de424b6d53e8802ed86e/original/owncm.exe"
+    page: https://crackmes.one/crackme/6b05de424b6d53e8802ed86e

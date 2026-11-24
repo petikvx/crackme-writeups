@@ -344,6 +344,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [acidbyte](authors/acidbyte/README.md) | AcidByte | 1 (Acid's First Crackme) | 1 / 1 |
 | [softwarebreaker](authors/softwarebreaker/README.md) | SoftwareBreaker | 1 (SoftwareBreaker's License Checker) | 1 / 1 |
 | [genass3](authors/genass3/README.md) | genass3 | 1 (Continental) | 1 / 1 |
+| [lantern01](authors/lantern01/README.md) | lantern01 | 1 (lantern01's yuri) | 1 / 1 |
 | [admin31](authors/admin31/README.md) | admin31 | 1 (cantcrack) | 1 / 1 |
 | [ploxied](authors/ploxied/README.md) | Ploxied | 3 (Easy Crackme, Calculator, Crack/Keygen Me) | 3 / 3 |
 | [razkom](authors/razkom/README.md) | RAZKOM | 1 (razkom_v1.1) | 1 / 1 |
@@ -466,6 +467,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-24 | [lantern01's yuri](authors/lantern01/6b05de424b6d53e8802ed86e/) | lantern01 |
 | 2026-11-24 | [casam's Keygen Crackme](authors/casam/69c53f51f2d49d8512f64b7a/) | casam |
 | 2026-11-24 | [niko122's niko's vm final!! :)](authors/niko122/69b9bb123e328e778db0517b/) | niko122 |
 | 2026-11-24 | [genass3's Continental](authors/genass3/698907e7e2ba6023bfaca9fe/) | genass3 |

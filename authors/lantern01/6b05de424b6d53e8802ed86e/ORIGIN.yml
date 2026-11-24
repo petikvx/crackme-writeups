@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6b05de424b6d53e8802ed86e
+
+urls:
+  page: https://crackmes.one/crackme/6b05de424b6d53e8802ed86e
+  download: https://crackmes.one/download/crackme/6b05de424b6d53e8802ed86e
+
+title: "lantern01's yuri"
+author_on_site: "lantern01"
+author_local: "lantern01"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++ (MinGW, OpenSSL)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/owncm.exe"
+  name: "owncm.exe"
+  sha256: "3619c25d305a644c4c4f800695101ac99cdb0249abe5bf7bdb648726b0b49d1b"
+  md5: "32763ca9871f414df99134683b916f7f"
+  size_bytes: 165440
+
+status: solved
+solution_summary: "serial = SHA-256(name) en hex minuscule ; petik→85b78375c6a53c396b86f2dab223836c6549a6a1c5d0370bb50d259382603bbb"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-24T19:34:32Z"
