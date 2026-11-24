@@ -341,6 +341,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [softwarebreaker](authors/softwarebreaker/README.md) | SoftwareBreaker | 1 (SoftwareBreaker's License Checker) | 1 / 1 |
 | [admin31](authors/admin31/README.md) | admin31 | 1 (cantcrack) | 1 / 1 |
 | [ploxied](authors/ploxied/README.md) | Ploxied | 2 (Easy Crackme, Calculator) | 2 / 2 |
+| [razkom](authors/razkom/README.md) | RAZKOM | 1 (razkom_v1.1) | 1 / 1 |
 | [atoc](authors/atoc/README.md) | atoc | 1 (superEZcrackME : VM bvessel) | 1 / 1 |
 | [leenear](authors/Leenear/README.md) | Leenear | 1 (Wait, it was all linear?) | 1 / 1 |
 | [momospc](authors/momospc/README.md) | momospc | 1 (MyCrackme) | 1 / 1 |
@@ -458,6 +459,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-24 | [RAZKOM's razkom_v1.1](authors/razkom/69968b7589af4192123d7aad/) | RAZKOM |
 | 2026-11-24 | [Ploxied's Calculator](authors/ploxied/69700154d735cd51e7a1aa58/) | Ploxied |
 | 2026-11-24 | [SomeoneLol's [INSANELY HARD] Uncrackable.exe](authors/someonelol/6942f04b0992a052ab2223e6/) | SomeoneLol |
 | 2026-11-24 | [Coder_90's CrackMe4](authors/coder_90/6969e9e3e3ae2054ed59d494/) | Coder_90 |

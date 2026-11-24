@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69968b7589af4192123d7aad
+
+urls:
+  page: https://crackmes.one/crackme/69968b7589af4192123d7aad
+  download: https://crackmes.one/download/crackme/69968b7589af4192123d7aad
+
+title: "RAZKOM's razkom_v1.1"
+author_on_site: "RAZKOM"
+author_local: "razkom"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/razkom_v1.zip"
+  name: "razkom_v1.zip"
+  sha256: "c7a194427aa50e218dfbb050573d3fc704fb3256315195d54c49635cb58233ec"
+  md5: "d87e9d28eeeaf23fbb6e2c16eb8febc3"
+  size_bytes: 6425
+
+status: solved
+solution_summary: "Clé RAR-AAA-ZAZ-KAK-OAO-MAM : par groupe c3=(c1+c2)%26+A avec c3 imposé (RAZKOM), 1er char libre ; seule cette clé déchiffre lisiblement le message XOR (secret word BAZOOKA)."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-24T12:39:44Z"

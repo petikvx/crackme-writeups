@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69968b7589af4192123d7aad:
+    sha256: "c7a194427aa50e218dfbb050573d3fc704fb3256315195d54c49635cb58233ec"
+    path: "authors/razkom/69968b7589af4192123d7aad/original/razkom_v1.zip"
+    title: "RAZKOM's razkom_v1.1"
+
+by_sha256:
+  c7a194427aa50e218dfbb050573d3fc704fb3256315195d54c49635cb58233ec:
+    id: 69968b7589af4192123d7aad
+    path: "authors/razkom/69968b7589af4192123d7aad/original/razkom_v1.zip"
+    page: https://crackmes.one/crackme/69968b7589af4192123d7aad
