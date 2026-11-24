@@ -432,6 +432,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [sacredgravel44](authors/sacredgravel44/README.md) | sacredgravel44 | 1 (matryoshka9) | 0 / 1 *(parked)* |
 | [gordonbm](authors/gordonbm/README.md) | GordonBM | 1 (Reverse_Keygenme) | 1 / 1 |
 | [pyderall](authors/pyderall/README.md) | pyderall | 1 (TickTock) | 1 / 1 |
+| [olol_neb](authors/olol_neb/README.md) | oloL_neB | 1 (Goth House) | 1 / 1 |
 | [iamwololo](authors/iamwololo/README.md) | iamwololo | 1 (Matryoshka) | 1 / 1 |
 | [janicious](authors/janicious/README.md) | janicious | 1 (WinAPI GUI Crackme) | 1 / 1 |
 | [p-ssvv0rol](authors/p-ssvv0rol/README.md) | P@ssvv0Rol | 1 (B64crk) | 1 / 1 |
@@ -468,6 +469,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-24 | [oloL_neB's Goth House](authors/olol_neb/6a59546f055757d3df60fd53/) | olol_neb |
 | 2026-11-24 | [OTC's Keygen](authors/otc/6a526a25234391ae74f63b19/) | OTC |
 | 2026-11-24 | [Lacks's Ultimate Boss Level](authors/Lacks/6a5158ee71ee08cad748dcc9/) | Lacks |
 | 2026-11-24 | [Lacks's Level 3](authors/Lacks/6a512a442c3088f968e1341b/) | Lacks |

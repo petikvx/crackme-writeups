@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a59546f055757d3df60fd53
+
+urls:
+  page: https://crackmes.one/crackme/6a59546f055757d3df60fd53
+  download: https://crackmes.one/download/crackme/6a59546f055757d3df60fd53
+
+title: "oloL_neB's Goth House"
+author_on_site: "oloL_neB"
+author_local: "olol_neb"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/gothhouse"
+  name: "gothhouse"
+  sha256: "89605fa4f6206e974920bc508130b77d5a8ab0492b23353fc20f7f0697ec2591"
+  md5: "89ada182a66282a8f81bb3ea683403d7"
+  size_bytes: 15088
+
+status: solved
+solution_summary: "Secret de 17 caractères `buttercupcosplays` : SHA256(6 octets j+c) XORé cumulativement, comparé à une table de 17x32 octets ; brute-force par caractère (tools/gothhouse-solve.py)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-24T21:45:04Z"

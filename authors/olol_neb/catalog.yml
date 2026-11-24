@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a59546f055757d3df60fd53:
+    sha256: "89605fa4f6206e974920bc508130b77d5a8ab0492b23353fc20f7f0697ec2591"
+    path: "authors/olol_neb/6a59546f055757d3df60fd53/original/gothhouse"
+    title: "oloL_neB's Goth House"
+
+by_sha256:
+  89605fa4f6206e974920bc508130b77d5a8ab0492b23353fc20f7f0697ec2591:
+    id: 6a59546f055757d3df60fd53
+    path: "authors/olol_neb/6a59546f055757d3df60fd53/original/gothhouse"
+    page: https://crackmes.one/crackme/6a59546f055757d3df60fd53
