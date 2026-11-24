@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69a20bf018b5d7ee47093527
+
+urls:
+  page: https://crackmes.one/crackme/69a20bf018b5d7ee47093527
+  download: https://crackmes.one/download/crackme/69a20bf018b5d7ee47093527
+
+title: "toasterbirb's notes"
+author_on_site: "toasterbirb"
+author_local: "toasterbirb"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/notes.zip"
+  name: "notes.zip"
+  sha256: "94baf98587541470533d6d5e3341deffb4353bb8124ed1f36482f22f03411eb7"
+  md5: "188b8d3227f8c9bbe8212106edfe6653"
+  size_bytes: 6108
+
+status: solved
+solution_summary: "Format .note = adler32(mdp+\\n) u32 LE en clair + XOR ((i+key[i&3])&0xff) avec key = ce checksum : déchiffrable sans mdp → flag{top_notch_military_grade_encryption} ; mdp collisionnant aaaaaac8z90 accepté par note_viewer"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-24T10:40:58Z"

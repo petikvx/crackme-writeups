@@ -55,6 +55,11 @@ by_id:
     path: "authors/toasterbirb/6b0231274ab951a9999da832/original/bin"
     title: "toasterbirb's ieee_754"
 
+  69a20bf018b5d7ee47093527:
+    sha256: "94baf98587541470533d6d5e3341deffb4353bb8124ed1f36482f22f03411eb7"
+    path: "authors/toasterbirb/69a20bf018b5d7ee47093527/original/notes.zip"
+    title: "toasterbirb's notes"
+
 by_sha256:
   4420c47f5c1ddaf46b9add156e6badc6ff66af3b0ea38a7c714b6e0d6acf1d82:
     id: 6a77541805a9e80a907242fe
@@ -100,3 +105,7 @@ by_sha256:
     id: 6b0231274ab951a9999da832
     path: "authors/toasterbirb/6b0231274ab951a9999da832/original/bin"
     page: https://crackmes.one/crackme/6b0231274ab951a9999da832
+  94baf98587541470533d6d5e3341deffb4353bb8124ed1f36482f22f03411eb7:
+    id: 69a20bf018b5d7ee47093527
+    path: "authors/toasterbirb/69a20bf018b5d7ee47093527/original/notes.zip"
+    page: https://crackmes.one/crackme/69a20bf018b5d7ee47093527

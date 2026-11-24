@@ -19,6 +19,7 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml) (id ↔ sha256).
 | 9 | [argc](68698837aadb6eeafb399017/) | [`68698837…`](https://crackmes.one/crackme/68698837aadb6eeafb399017) | Linux ELF64 PIE C | 5-6 args, `argv[1]==argv[2]` (`_start` fait argc>>1) — `petik petik a b c` |
 | 10 | [shellcoding](6869167eaadb6eeafb398fb4/) | [`6869167e…`](https://crackmes.one/crackme/6869167eaadb6eeafb398fb4) | Linux ELF64 PIE strippé | fichier `get_number.png` = shellcode `90 89 f8 83 e0 01 83 c0 02 c3` (f(t)=2+(t&1)) |
 | 11 | [ieee_754](6b0231274ab951a9999da832/) | [`6b023127…`](https://crackmes.one/crackme/6b0231274ab951a9999da832) | Linux ELF64 PIE strippé | 8 floats négatifs (exposant = char−127, mantisse `0xC3`) + `-inf` → `password` |
+| 12 | [notes](69a20bf018b5d7ee47093527/) | [`69a20bf0…`](https://crackmes.one/crackme/69a20bf018b5d7ee47093527) | Linux ELF64 PIE strippé (zip) | clé = Adler-32 en clair dans l'en-tête → flag `flag{top_notch_military_grade_encryption}` ; mdp `aaaaaac8z90` (collision) |
 
 Les six ELF NASM (flags → branchless-fixed) ont une section **Debug GDB (pas à pas)** dans leur `README.md` (adresses, breakpoints, commandes).  
 `yap` est hors série asm (C++).
