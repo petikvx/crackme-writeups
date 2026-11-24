@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69700154d735cd51e7a1aa58
+
+urls:
+  page: https://crackmes.one/crackme/69700154d735cd51e7a1aa58
+  download: https://crackmes.one/download/crackme/69700154d735cd51e7a1aa58
+
+title: "Ploxied's Calculator"
+author_on_site: "Ploxied"
+author_local: "ploxied"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme.exe"
+  name: "crackme.exe"
+  sha256: "64c09d08038bf45511bbeb04e41fe2fb803561047c85b060113b98b1eb3b3efd"
+  md5: "16bb86b79607846f8beb21e109796741"
+  size_bytes: 1052160
+
+status: solved
+solution_summary: "License key (strings XOR 0x67, anti-debug XOR 0x10) : VeryHardCalculator ; aussi icrackedit! et CALC-G00DJ0B-XFGAFASDA-GAWRRASSD acceptées"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-24T12:36:15Z"

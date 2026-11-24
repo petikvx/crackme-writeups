@@ -5,8 +5,17 @@ by_id:
     path: "authors/ploxied/69cbde056793d479be018f09/original/download.bin"
     title: "Ploxied's Easy Crackme"
 
+  69700154d735cd51e7a1aa58:
+    sha256: "64c09d08038bf45511bbeb04e41fe2fb803561047c85b060113b98b1eb3b3efd"
+    path: "authors/ploxied/69700154d735cd51e7a1aa58/original/crackme.exe"
+    title: "Ploxied's Calculator"
+
 by_sha256:
   b1d3beb0410a5ff4abcc7062a0217a26b4300e5a8dac56c968957bbbd01f0353:
     id: 69cbde056793d479be018f09
     path: "authors/ploxied/69cbde056793d479be018f09/original/download.bin"
     page: https://crackmes.one/crackme/69cbde056793d479be018f09
+  64c09d08038bf45511bbeb04e41fe2fb803561047c85b060113b98b1eb3b3efd:
+    id: 69700154d735cd51e7a1aa58
+    path: "authors/ploxied/69700154d735cd51e7a1aa58/original/crackme.exe"
+    page: https://crackmes.one/crackme/69700154d735cd51e7a1aa58
