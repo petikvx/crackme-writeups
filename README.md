@@ -189,6 +189,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [illusionxxx](authors/illusionxxx/README.md) | illusionxxx | 1 (simple crackme) | 1 / 1 |
 | [0x3xp](authors/0x3xp/README.md) | 0x3xp | 1 (Project Obscura) | 1 / 1 |
 | [coder_90](authors/coder_90/README.md) | Coder_90 | 1 (CrackMe4) | 1 / 1 |
+| [someonelol](authors/someonelol/README.md) | SomeoneLol | 1 (Uncrackable) | 1 / 1 |
 | [esofl](authors/esofl/README.md) | esofl | 1 (esofl's easycrack) | 1 / 1 |
 | [inxaneninja](authors/inxaneninja/README.md) | inxaneninja | 1 (Keygen Practice) | 1 / 1 |
 | [loz](authors/loz/README.md) | Loz | 2 (Password Login 2) | 2 / 2 |
@@ -457,6 +458,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-24 | [SomeoneLol's [INSANELY HARD] Uncrackable.exe](authors/someonelol/6942f04b0992a052ab2223e6/) | SomeoneLol |
 | 2026-11-24 | [Coder_90's CrackMe4](authors/coder_90/6969e9e3e3ae2054ed59d494/) | Coder_90 |
 | 2026-11-24 | [toasterbirb's notes](authors/toasterbirb/69a20bf018b5d7ee47093527/) | toasterbirb |
 | 2026-11-24 | [worrydonot's Crackme For Beginners](authors/worrydonot/6a3fdead6840520e01b21f9e/) | worrydonot |

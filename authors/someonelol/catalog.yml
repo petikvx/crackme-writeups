@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6942f04b0992a052ab2223e6:
+    sha256: "c90b8d3611b10ca9015c409d06496cfae64567a3247c2a7fd6923ca20af6d0e4"
+    path: "authors/someonelol/6942f04b0992a052ab2223e6/original/crackme.exe"
+    title: "SomeoneLol's [INSANELY HARD] Uncrackable.exe"
+
+by_sha256:
+  c90b8d3611b10ca9015c409d06496cfae64567a3247c2a7fd6923ca20af6d0e4:
+    id: 6942f04b0992a052ab2223e6
+    path: "authors/someonelol/6942f04b0992a052ab2223e6/original/crackme.exe"
+    page: https://crackmes.one/crackme/6942f04b0992a052ab2223e6
