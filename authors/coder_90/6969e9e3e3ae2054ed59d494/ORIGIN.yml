@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6969e9e3e3ae2054ed59d494
+
+urls:
+  page: https://crackmes.one/crackme/6969e9e3e3ae2054ed59d494
+  download: https://crackmes.one/download/crackme/6969e9e3e3ae2054ed59d494
+
+title: "Coder_90's CrackMe4"
+author_on_site: "Coder_90"
+author_local: "coder_90"
+
+platform: "Windows"
+arch: "x86"
+language: "C++ Builder (VCL)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/CrackMe4.exe"
+  name: "CrackMe4.exe"
+  sha256: "ba5716bbcc8e35e287068d2da62b54abbb9fe5c8c35723d6e6ca8f230a105278"
+  md5: "8ecb6e9d77992e6e30691e9d0cabad59"
+  size_bytes: 3661824
+
+status: solved
+solution_summary: "Keygen : esi=h(name,0x55AA55AA), edi=h(name,esi), serial=HEX8(esi)-HEX8(edi) ; petik -> 0359A047-FFE0CE68"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-24T11:43:11Z"

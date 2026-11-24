@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6969e9e3e3ae2054ed59d494:
+    sha256: "ba5716bbcc8e35e287068d2da62b54abbb9fe5c8c35723d6e6ca8f230a105278"
+    path: "authors/coder_90/6969e9e3e3ae2054ed59d494/original/CrackMe4.exe"
+    title: "Coder_90's CrackMe4"
+
+by_sha256:
+  ba5716bbcc8e35e287068d2da62b54abbb9fe5c8c35723d6e6ca8f230a105278:
+    id: 6969e9e3e3ae2054ed59d494
+    path: "authors/coder_90/6969e9e3e3ae2054ed59d494/original/CrackMe4.exe"
+    page: https://crackmes.one/crackme/6969e9e3e3ae2054ed59d494
