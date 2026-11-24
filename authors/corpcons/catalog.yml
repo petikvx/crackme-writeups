@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69723bb7d735cd51e7a1aa78:
+    sha256: "7cb0dc8ec0933fd6828ebae43701c527c9bdfec1441b623602737c96721702c1"
+    path: "authors/corpcons/69723bb7d735cd51e7a1aa78/original/EasyVM.zip"
+    title: "CorpCons's EasyVM"
+
+by_sha256:
+  7cb0dc8ec0933fd6828ebae43701c527c9bdfec1441b623602737c96721702c1:
+    id: 69723bb7d735cd51e7a1aa78
+    path: "authors/corpcons/69723bb7d735cd51e7a1aa78/original/EasyVM.zip"
+    page: https://crackmes.one/crackme/69723bb7d735cd51e7a1aa78

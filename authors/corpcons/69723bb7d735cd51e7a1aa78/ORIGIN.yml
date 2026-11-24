@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69723bb7d735cd51e7a1aa78
+
+urls:
+  page: https://crackmes.one/crackme/69723bb7d735cd51e7a1aa78
+  download: https://crackmes.one/download/crackme/69723bb7d735cd51e7a1aa78
+
+title: "CorpCons's EasyVM"
+author_on_site: "CorpCons"
+author_local: "corpcons"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++ (MSVC)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/EasyVM.zip"
+  name: "EasyVM.zip"
+  sha256: "7cb0dc8ec0933fd6828ebae43701c527c9bdfec1441b623602737c96721702c1"
+  md5: "299d43324bc8bd1f01c95fe55486f263"
+  size_bytes: 108804
+
+status: solved
+solution_summary: "Mini-VM (bytecode 3 octets/instr) ; condition k0+k1+k2+k3+k4+k6-k5 == 0x161 mod 256 (k7 s'annule, k8/k9 ignorés) ; ex. petik0t_42 → CORRECT!!!!!"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-24T00:41:35Z"
