@@ -359,6 +359,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [Elzzie](authors/Elzzie/README.md) | Elzzie | 1 (winkeygenme) | 1 / 1 |
 | [micky23310](authors/micky23310/README.md) | micky23310 | 2 (HiddenFlag, guessme) | 2 / 2 |
 | [niko122](authors/niko122/README.md) | niko122 | 1 (niko's vm final!! :)) | 1 / 1 |
+| [casam](authors/casam/README.md) | casam | 1 (casam's Keygen Crackme) | 1 / 1 |
 | [mintcocs](authors/mintcocs/README.md) | mintcocs | 2 (learning_vm, party invitation) | 2 / 2 |
 | [stels](authors/stels/README.md) | stels | 1 (sob Obfuscator Challenge) | 1 / 1 |
 | [nx3n](authors/nx3n/README.md) | nx3n | 1 (Find a password) | 1 / 1 |
@@ -465,6 +466,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-24 | [casam's Keygen Crackme](authors/casam/69c53f51f2d49d8512f64b7a/) | casam |
 | 2026-11-24 | [niko122's niko's vm final!! :)](authors/niko122/69b9bb123e328e778db0517b/) | niko122 |
 | 2026-11-24 | [genass3's Continental](authors/genass3/698907e7e2ba6023bfaca9fe/) | genass3 |
 | 2026-11-24 | [Ploxied's Crack/Keygen Me](authors/ploxied/694c3de30c16072f40f5a3d2/) | Ploxied |

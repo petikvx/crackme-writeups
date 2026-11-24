@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69c53f51f2d49d8512f64b7a
+
+urls:
+  page: https://crackmes.one/crackme/69c53f51f2d49d8512f64b7a
+  download: https://crackmes.one/download/crackme/69c53f51f2d49d8512f64b7a
+
+title: "casam's Keygen Crackme"
+author_on_site: "casam"
+author_local: "casam"
+
+platform: "Windows"
+arch: "x86"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/CrackMe.exe"
+  name: "CrackMe.exe"
+  sha256: "081685df00d1ada4760c94dc35605d17c66f30a0395ea7b92fca7aefa8372510"
+  md5: "1b2f9254f449ef668e700c330eebad20"
+  size_bytes: 164864
+
+status: solved
+solution_summary: "Code = f(MachineGuid) : GUID sans tirets, a-f→1-6, entier ×4 //10, chiffres 0→x / 1-9→a-i. Pas de login (petik sans effet). Ex. d2971356-9611-4a15-a76b-23131d1d92a5 → agahhedbghddefdfxgxdhibebefeifhf. Solveur tools/casam-keygen-solve.py"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-24T17:49:31Z"

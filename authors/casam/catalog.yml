@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69c53f51f2d49d8512f64b7a:
+    sha256: "081685df00d1ada4760c94dc35605d17c66f30a0395ea7b92fca7aefa8372510"
+    path: "authors/casam/69c53f51f2d49d8512f64b7a/original/CrackMe.exe"
+    title: "casam's Keygen Crackme"
+
+by_sha256:
+  081685df00d1ada4760c94dc35605d17c66f30a0395ea7b92fca7aefa8372510:
+    id: 69c53f51f2d49d8512f64b7a
+    path: "authors/casam/69c53f51f2d49d8512f64b7a/original/CrackMe.exe"
+    page: https://crackmes.one/crackme/69c53f51f2d49d8512f64b7a
