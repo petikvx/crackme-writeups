@@ -20,6 +20,11 @@ by_id:
     path: "authors/mas/6987dc623eb49a23d34176ed/original/gadget.zip"
     title: "MAS's Gadget"
 
+  69de9b7a471059af19ad091e:
+    sha256: "20a6cc028302e45fc7c82fd6d4d449b49cf3f93174b1ab9318131781ea455b86"
+    path: "authors/mas/69de9b7a471059af19ad091e/original/ActivateMe.exe"
+    title: "MAS's Find The Key"
+
 by_sha256:
   975ea2949fb15747394c0bc88fd214d3054aa3cb46bfeff59e5ed18d1f7fe2e2:
     id: 6aa8483c48cda5a2aaa3ddc1
@@ -37,3 +42,7 @@ by_sha256:
     id: 6987dc623eb49a23d34176ed
     path: "authors/mas/6987dc623eb49a23d34176ed/original/gadget.zip"
     page: https://crackmes.one/crackme/6987dc623eb49a23d34176ed
+  20a6cc028302e45fc7c82fd6d4d449b49cf3f93174b1ab9318131781ea455b86:
+    id: 69de9b7a471059af19ad091e
+    path: "authors/mas/69de9b7a471059af19ad091e/original/ActivateMe.exe"
+    page: https://crackmes.one/crackme/69de9b7a471059af19ad091e
