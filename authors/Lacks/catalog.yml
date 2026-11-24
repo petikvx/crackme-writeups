@@ -15,6 +15,11 @@ by_id:
     path: "authors/Lacks/6a512a442c3088f968e1341b/original/level3.exe"
     title: "Lacks's Level 3"
 
+  6a5158ee71ee08cad748dcc9:
+    sha256: "a8e91f09af2344981a93ffa1c57c674197e543ee6217da851c9c73093b22366c"
+    path: "authors/Lacks/6a5158ee71ee08cad748dcc9/original/UltimateBoss.exe"
+    title: "Lacks's Ultimate Boss Level"
+
 by_sha256:
   489aaa8d0feaea9aad011be74bfbf2177fd4e7569849beb600ed271ca03940d4:
     id: 6a512980234391ae74f63ae8
@@ -28,3 +33,7 @@ by_sha256:
     id: 6a512a442c3088f968e1341b
     path: "authors/Lacks/6a512a442c3088f968e1341b/original/level3.exe"
     page: https://crackmes.one/crackme/6a512a442c3088f968e1341b
+  a8e91f09af2344981a93ffa1c57c674197e543ee6217da851c9c73093b22366c:
+    id: 6a5158ee71ee08cad748dcc9
+    path: "authors/Lacks/6a5158ee71ee08cad748dcc9/original/UltimateBoss.exe"
+    page: https://crackmes.one/crackme/6a5158ee71ee08cad748dcc9

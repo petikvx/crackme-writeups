@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a5158ee71ee08cad748dcc9
+
+urls:
+  page: https://crackmes.one/crackme/6a5158ee71ee08cad748dcc9
+  download: https://crackmes.one/download/crackme/6a5158ee71ee08cad748dcc9
+
+title: "Lacks's Ultimate Boss Level"
+author_on_site: "Lacks"
+author_local: "Lacks"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++ (MSVC)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/UltimateBoss.exe"
+  name: "UltimateBoss.exe"
+  sha256: "a8e91f09af2344981a93ffa1c57c674197e543ee6217da851c9c73093b22366c"
+  md5: "b2d29100ca868e8c99df62ba0550c74c"
+  size_bytes: 30208
+
+status: solved
+solution_summary: "Keygen : part1 = sum(name)*31, part2 = (part1 ^ 0x1337) + 0x7b ; petik → 16771 / 21295"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-24T20:40:41Z"
