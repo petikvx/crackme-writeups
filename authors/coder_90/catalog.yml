@@ -5,8 +5,17 @@ by_id:
     path: "authors/coder_90/6969e9e3e3ae2054ed59d494/original/CrackMe4.exe"
     title: "Coder_90's CrackMe4"
 
+  691f53d32d267f28f69b7f62:
+    sha256: "347f9efc340bc5d94e94655ceb68ac542fc6dc8dfa259448de3509975bcde503"
+    path: "authors/coder_90/691f53d32d267f28f69b7f62/original/keygenme.rar"
+    title: "Coder_90's KeyGenMeV3"
+
 by_sha256:
   ba5716bbcc8e35e287068d2da62b54abbb9fe5c8c35723d6e6ca8f230a105278:
     id: 6969e9e3e3ae2054ed59d494
     path: "authors/coder_90/6969e9e3e3ae2054ed59d494/original/CrackMe4.exe"
     page: https://crackmes.one/crackme/6969e9e3e3ae2054ed59d494
+  347f9efc340bc5d94e94655ceb68ac542fc6dc8dfa259448de3509975bcde503:
+    id: 691f53d32d267f28f69b7f62
+    path: "authors/coder_90/691f53d32d267f28f69b7f62/original/keygenme.rar"
+    page: https://crackmes.one/crackme/691f53d32d267f28f69b7f62

@@ -189,7 +189,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [yuri](authors/yuri/README.md) | Yuri | 1 (Simple Keygen) | 1 / 1 |
 | [illusionxxx](authors/illusionxxx/README.md) | illusionxxx | 1 (simple crackme) | 1 / 1 |
 | [0x3xp](authors/0x3xp/README.md) | 0x3xp | 1 (Project Obscura) | 1 / 1 |
-| [coder_90](authors/coder_90/README.md) | Coder_90 | 1 (CrackMe4) | 1 / 1 |
+| [coder_90](authors/coder_90/README.md) | Coder_90 | 2 (CrackMe4, KeyGenMeV3) | 2 / 2 |
 | [someonelol](authors/someonelol/README.md) | SomeoneLol | 1 (Uncrackable) | 1 / 1 |
 | [esofl](authors/esofl/README.md) | esofl | 1 (esofl's easycrack) | 1 / 1 |
 | [inxaneninja](authors/inxaneninja/README.md) | inxaneninja | 1 (Keygen Practice) | 1 / 1 |
@@ -469,6 +469,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-25 | [Coder_90's KeyGenMeV3](authors/coder_90/691f53d32d267f28f69b7f62/) | Coder_90 |
 | 2026-11-24 | [oloL_neB's Goth House](authors/olol_neb/6a59546f055757d3df60fd53/) | olol_neb |
 | 2026-11-24 | [OTC's Keygen](authors/otc/6a526a25234391ae74f63b19/) | OTC |
 | 2026-11-24 | [Lacks's Ultimate Boss Level](authors/Lacks/6a5158ee71ee08cad748dcc9/) | Lacks |

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 691f53d32d267f28f69b7f62
+
+urls:
+  page: https://crackmes.one/crackme/691f53d32d267f28f69b7f62
+  download: https://crackmes.one/download/crackme/691f53d32d267f28f69b7f62
+
+title: "Coder_90's KeyGenMeV3"
+author_on_site: "Coder_90"
+author_local: "coder_90"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/keygenme.rar"
+  name: "keygenme.rar"
+  sha256: "347f9efc340bc5d94e94655ceb68ac542fc6dc8dfa259448de3509975bcde503"
+  md5: "739ed530a9e0d6a66a1749e74d68e0e3"
+  size_bytes: 1112150
+
+status: solved
+solution_summary: "Keygen name→serial hex 32 bits (hash rol/xor/add, constantes 0x55555555/0xdeadc0de) ; petik→F285F30F"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-24T23:35:57Z"
