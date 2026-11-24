@@ -5,8 +5,17 @@ by_id:
     path: "authors/hwenzy/6a8900cd585e8875bcbebcbb/original/crackme.exe"
     title: "hwenzy's c++ CrackMe 4/10"
 
+  6a42f1446840520e01b21fc6:
+    sha256: "89c05787c314c249147958425ad4f9f3374c7e0ded8d52c1636fa9e4eb6fe9ef"
+    path: "authors/hwenzy/6a42f1446840520e01b21fc6/original/crackme_6_10.exe"
+    title: "hwenzy's c++ crackme 6/10"
+
 by_sha256:
   ba013a89e0b10e80c38d4e0d0fd65a0c29716542d772e5ee5b944cda4c3552fb:
     id: 6a8900cd585e8875bcbebcbb
     path: "authors/hwenzy/6a8900cd585e8875bcbebcbb/original/crackme.exe"
     page: https://crackmes.one/crackme/6a8900cd585e8875bcbebcbb
+  89c05787c314c249147958425ad4f9f3374c7e0ded8d52c1636fa9e4eb6fe9ef:
+    id: 6a42f1446840520e01b21fc6
+    path: "authors/hwenzy/6a42f1446840520e01b21fc6/original/crackme_6_10.exe"
+    page: https://crackmes.one/crackme/6a42f1446840520e01b21fc6

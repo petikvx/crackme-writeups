@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a42f1446840520e01b21fc6
+
+urls:
+  page: https://crackmes.one/crackme/6a42f1446840520e01b21fc6
+  download: https://crackmes.one/download/crackme/6a42f1446840520e01b21fc6
+
+title: "hwenzy's c++ crackme 6/10"
+author_on_site: "hwenzy"
+author_local: "hwenzy"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme_6_10.exe"
+  name: "crackme_6_10.exe"
+  sha256: "89c05787c314c249147958425ad4f9f3374c7e0ded8d52c1636fa9e4eb6fe9ef"
+  md5: "f7c45544ff9c6741f04dae1f0be5a4fb"
+  size_bytes: 173568
+
+status: solved
+solution_summary: "Licence de 12 car. : fold(SipHash24(L,K1)) ^ lo32(SipHash24(L,K2)) ^ lo32(SipHash24(L,K3)) ^ 0x11223344 == 0xd390a0ba (32 bits seulement -> brute-force C). Ex. i9aaaaaaus91 (pas de user : petik n'est pas applicable)."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-24T15:39:08Z"
