@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a4ed135ff6e6f7f8214fe19:
+    sha256: "c55326a6ea269f4cd5bb39b8f5e1b72bb62fd73d68de6846ce5b38b06d572b5d"
+    path: "authors/imchill1n/6a4ed135ff6e6f7f8214fe19/original/crackme.exe"
+    title: "ImChill1n's very simple login"
+
+by_sha256:
+  c55326a6ea269f4cd5bb39b8f5e1b72bb62fd73d68de6846ce5b38b06d572b5d:
+    id: 6a4ed135ff6e6f7f8214fe19
+    path: "authors/imchill1n/6a4ed135ff6e6f7f8214fe19/original/crackme.exe"
+    page: https://crackmes.one/crackme/6a4ed135ff6e6f7f8214fe19

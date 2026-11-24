@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a4ed135ff6e6f7f8214fe19
+
+urls:
+  page: https://crackmes.one/crackme/6a4ed135ff6e6f7f8214fe19
+  download: https://crackmes.one/download/crackme/6a4ed135ff6e6f7f8214fe19
+
+title: "ImChill1n's very simple login"
+author_on_site: "ImChill1n"
+author_local: "imchill1n"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme.exe"
+  name: "crackme.exe"
+  sha256: "c55326a6ea269f4cd5bb39b8f5e1b72bb62fd73d68de6846ce5b38b06d572b5d"
+  md5: "455e1d7fb7f54c887370e0ee8fc01fbc"
+  size_bytes: 141312
+
+status: solved
+solution_summary: "Keygen : n=sum(octets user)*0x841, écrit en binaire, bits inversés, relu en base 2 puis décimal ; petik→954018"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-24T08:45:54Z"
