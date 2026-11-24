@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a160248d7ff92e1214c01ed
+
+urls:
+  page: https://crackmes.one/crackme/6a160248d7ff92e1214c01ed
+  download: https://crackmes.one/download/crackme/6a160248d7ff92e1214c01ed
+
+title: "SimbaHDD's FirstCrackMe"
+author_on_site: "SimbaHDD"
+author_local: "simbahdd"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme.exe"
+  name: "crackme.exe"
+  sha256: "ccfdf0777c3d61bba7824387355d2517eade91ded73c4691aca0f7466e64bf5f"
+  md5: "2b59a8b4e7e8bf60ea21e2da546e59f7"
+  size_bytes: 8704
+
+status: solved
+solution_summary: "mot de 20 caractères contenant 'crackme' (ex. crackme1111111111111) : Length==len(text2) && Contains('crackme')"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-24T03:41:23Z"

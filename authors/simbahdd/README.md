@@ -13,6 +13,7 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml) (id ↔ sha256).
 | 3 | [SimbaHDD's first golang crackme](6a1608d1d7ff92e1214c01f5/) | [`6a1608d1…`](https://crackmes.one/crackme/6a1608d1d7ff92e1214c01f5) | Windows PE32+ Go (ZIP imbriqué) | password `simba123` (qword LE comparé dans `main.main`) |
 | 4 | [easy crackme](6a160789d7ff92e1214c01f1/) | [`6a160789…`](https://crackmes.one/crackme/6a160789d7ff92e1214c01f1) | Windows .NET PE32 (ZIP imbriqué) | password `crackme12345simba` (littéral base64 décodé) |
 | 5 | [SimbaHDD's CRACKME (2)](6a36d8a4a4b247348ae80623/) | [`6a36d8a4…`](https://crackmes.one/crackme/6a36d8a4a4b247348ae80623) | Windows PE32+ MinGW (ZIP) | clé non imprimable hex `3c0f553c2422ac30aeafac55` (`((c^0x55)+7)^0x33` == `CR4CKM3_1234`) |
+| 6 | [SimbaHDD's FirstCrackMe](6a160248d7ff92e1214c01ed/) | [`6a160248…`](https://crackmes.one/crackme/6a160248d7ff92e1214c01ed) | Windows .NET PE32 | 20 caractères contenant `crackme` (ex. `crackme1111111111111`) |
 
 ## Arborescence d’un challenge
 
