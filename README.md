@@ -334,6 +334,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [vetementsvmnts](authors/vetementsvmnts/README.md) | vetementsvmnts | 5 | 5 / 5 |
 | [67674ever](authors/67674ever/README.md) | 67674ever | 1 (My lib obfusction) | 1 / 1 |
 | [zitadokm](authors/zitadokm/README.md) | zitadokm | 1 (Get Flag) | 1 / 1 |
+| [talhasa](authors/talhasa/README.md) | talhasa | 1 (Simple VM Crackme) | 1 / 1 |
 | [acheylate](authors/acheylate/README.md) | acheylate | 5 (Find password L+W, State Machine, Beat The Game, Patch It Cli Game) | 5 / 5 |
 | [keep](authors/keep/README.md) | Keep | 2 (sygil gui + console) | 2 / 2 |
 | [mas](authors/mas/README.md) | MAS | 4 (zW0rM + Type Punning + ZSecure + Gadget) | 4 / 4 |
@@ -461,6 +462,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-24 | [talhasa's Simple VM Crackme](authors/talhasa/6a14efc48fab7bbca273029c/) | talhasa |
 | 2026-11-24 | [Kryptos's Simple login crackme](authors/kryptos/69e13f938afd9d6c48b488fd/) | Kryptos |
 | 2026-11-24 | [zitadokm's Get Flag](authors/zitadokm/69b1acfd6793d479be018d2c/) | zitadokm |
 | 2026-11-24 | [Fatmike's Crackme #10 (RecordPlayer)](authors/fatmike/69a2c7347b3cc38c80464d8f/) | Fatmike |

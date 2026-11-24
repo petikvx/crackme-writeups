@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a14efc48fab7bbca273029c
+
+urls:
+  page: https://crackmes.one/crackme/6a14efc48fab7bbca273029c
+  download: https://crackmes.one/download/crackme/6a14efc48fab7bbca273029c
+
+title: "talhasa's Simple VM Crackme"
+author_on_site: "talhasa"
+author_local: "talhasa"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/vm.exe"
+  name: "vm.exe"
+  sha256: "24f6ba3a86f58d9cac75e287838d19d44224551851f1fac8d3a78d97de82921a"
+  md5: "d0cdfc6e4aabaf67918a558eacb0f8ba"
+  size_bytes: 18944
+
+status: solved
+solution_summary: "VM : saisie ^ 0x11 == \"r!cCtre0\" → clé c0rRect! (pas de login)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-24T15:37:10Z"

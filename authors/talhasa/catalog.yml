@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a14efc48fab7bbca273029c:
+    sha256: "24f6ba3a86f58d9cac75e287838d19d44224551851f1fac8d3a78d97de82921a"
+    path: "authors/talhasa/6a14efc48fab7bbca273029c/original/vm.exe"
+    title: "talhasa's Simple VM Crackme"
+
+by_sha256:
+  24f6ba3a86f58d9cac75e287838d19d44224551851f1fac8d3a78d97de82921a:
+    id: 6a14efc48fab7bbca273029c
+    path: "authors/talhasa/6a14efc48fab7bbca273029c/original/vm.exe"
+    page: https://crackmes.one/crackme/6a14efc48fab7bbca273029c
