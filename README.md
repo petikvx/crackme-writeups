@@ -161,6 +161,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [bageyelet](authors/bageyelet/README.md) | bageyelet | 1 (rop-obf) | 1 / 1 |
 | [crackmes-de](authors/crackmes-de/README.md) | crackmes.de | 30+ | 466 / 466 |
 | [chaltu](authors/chaltu/README.md) | chaltu | 4 (a Treasure + Double Door + Accsess me please + FRONTLINES) | 4 / 4 |
+| [fatmike](authors/fatmike/README.md) | Fatmike | 1 (Crackme #10 RecordPlayer) | 1 / 1 |
 | [qerr0r](authors/qerr0r/README.md) | QERR0R | 3 (crackit + CrackIt;) + ASCII_CRACK) | 3 / 3 |
 | [steve_maxwell](authors/steve_maxwell/README.md) | steve_maxwell | 1 (X-0-R) | 1 / 1 |
 | [vodeff](authors/vodeff/README.md) | vodeff | 1 (FindLicenseKey) | 1 / 1 |
@@ -459,6 +460,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-24 | [Fatmike's Crackme #10 (RecordPlayer)](authors/fatmike/69a2c7347b3cc38c80464d8f/) | Fatmike |
 | 2026-11-24 | [RAZKOM's razkom_v1.1](authors/razkom/69968b7589af4192123d7aad/) | RAZKOM |
 | 2026-11-24 | [Ploxied's Calculator](authors/ploxied/69700154d735cd51e7a1aa58/) | Ploxied |
 | 2026-11-24 | [SomeoneLol's [INSANELY HARD] Uncrackable.exe](authors/someonelol/6942f04b0992a052ab2223e6/) | SomeoneLol |

@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69a2c7347b3cc38c80464d8f:
+    sha256: "f51d12306d7e52f4b75ae70c0a8c96a00fc006a0c83019f90e46adcb419c200b"
+    path: "authors/fatmike/69a2c7347b3cc38c80464d8f/original/Crackme10.zip"
+    title: "Fatmike's Fatmike&#39;s Crackme #10 (crackmes.one CTF 2026)"
+
+by_sha256:
+  f51d12306d7e52f4b75ae70c0a8c96a00fc006a0c83019f90e46adcb419c200b:
+    id: 69a2c7347b3cc38c80464d8f
+    path: "authors/fatmike/69a2c7347b3cc38c80464d8f/original/Crackme10.zip"
+    page: https://crackmes.one/crackme/69a2c7347b3cc38c80464d8f

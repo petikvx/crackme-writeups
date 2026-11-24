@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69a2c7347b3cc38c80464d8f
+
+urls:
+  page: https://crackmes.one/crackme/69a2c7347b3cc38c80464d8f
+  download: https://crackmes.one/download/crackme/69a2c7347b3cc38c80464d8f
+
+title: "Fatmike's Fatmike&#39;s Crackme #10 (crackmes.one CTF 2026)"
+author_on_site: "Fatmike"
+author_local: "fatmike"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C/C++"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Crackme10.zip"
+  name: "Crackme10.zip"
+  sha256: "f51d12306d7e52f4b75ae70c0a8c96a00fc006a0c83019f90e46adcb419c200b"
+  md5: "99bba6f17b7ebfdc2f56fc6080c338bc"
+  size_bytes: 734027
+
+status: solved
+solution_summary: "Patch 2 octets (mov dl,1 -> 0 : sens + pitch) ; flag CMO{y0u_g0t_r1ckr0ll3d} = fenêtre 23 octets du WAV à 3,000 s XOR clé, FNV-1a 0x18940a3d"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-24T13:35:14Z"
