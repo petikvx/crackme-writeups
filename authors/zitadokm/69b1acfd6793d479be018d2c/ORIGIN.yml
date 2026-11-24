@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69b1acfd6793d479be018d2c
+
+urls:
+  page: https://crackmes.one/crackme/69b1acfd6793d479be018d2c
+  download: https://crackmes.one/download/crackme/69b1acfd6793d479be018d2c
+
+title: "zitadokm's Get Flag"
+author_on_site: "zitadokm"
+author_local: "zitadokm"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Crackme.exe"
+  name: "Crackme.exe"
+  sha256: "40c598157613ea4dc2495b9a3faadcf1812bc33a625b46cdbc261c24a5dc1a4a"
+  md5: "44c9db59f7e220cf327c0adb3ac9e0da"
+  size_bytes: 27136
+
+status: solved
+solution_summary: "Pas de saisie : flag = champ Form1.flag, XOR clé int32 LE 701385128 -> sajd2908jdklajdklaj9012u90askldjas90213sadasdasd90i2 (vérifié en mémoire sous Wine)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-24T13:41:00Z"

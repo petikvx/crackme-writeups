@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69b1acfd6793d479be018d2c:
+    sha256: "40c598157613ea4dc2495b9a3faadcf1812bc33a625b46cdbc261c24a5dc1a4a"
+    path: "authors/zitadokm/69b1acfd6793d479be018d2c/original/Crackme.exe"
+    title: "zitadokm's Get Flag"
+
+by_sha256:
+  40c598157613ea4dc2495b9a3faadcf1812bc33a625b46cdbc261c24a5dc1a4a:
+    id: 69b1acfd6793d479be018d2c
+    path: "authors/zitadokm/69b1acfd6793d479be018d2c/original/Crackme.exe"
+    page: https://crackmes.one/crackme/69b1acfd6793d479be018d2c
