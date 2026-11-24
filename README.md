@@ -345,7 +345,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [iseey0u-re](authors/iseey0u-re/README.md) | iseey0u-re | 1 (iseey0u) | 1 / 1 |
 | [MyCrackTool](authors/MyCrackTool/README.md) | MyCrackTool | 1 (learn for begineer : pack de 3 ELF) | 1 / 1 |
 | [antilagvip](authors/antilagvip/README.md) | antilagvip | 1 (antilagvip's hard crackme : mini-VM chiffrée) | 1 / 1 |
-| [liboxin](authors/liboxin/README.md) | liboxin | 3 (unpack me v1 + v3, hellgate1 ; protecteur aegis) | 3 / 3 |
+| [liboxin](authors/liboxin/README.md) | liboxin | 4 (unpack me v1 + v3, hellgate1, CrackMe Hard 4) | 4 / 4 |
 | [0xbadc0de](authors/0xbadc0de/README.md) | 0xbadc0de | 1 (XOR Challenge) | 1 / 1 |
 | [feliz](authors/feliz/README.md) | Feliz | 1 (Feliz's crackme) | 1 / 1 |
 | [Elzzie](authors/Elzzie/README.md) | Elzzie | 1 (winkeygenme) | 1 / 1 |
@@ -452,6 +452,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-24 | [liboxin's CrackMe Hard 4](authors/liboxin/6a1b1a448fab7bbca27302fc/) | liboxin |
 | 2026-11-24 | [DeLuks's Chamber of Reflections](authors/deluks/69aaf24f18b5d7ee470935e5/) | DeLuks |
 | 2026-11-24 | [Gadget](authors/mas/6987dc623eb49a23d34176ed/) | MAS |
 | 2026-11-24 | [CorpCons's EasyVM](authors/corpcons/69723bb7d735cd51e7a1aa78/) | CorpCons |
