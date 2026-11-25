@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a9539f948cda5a2aaa3dc49
+
+urls:
+  page: https://crackmes.one/crackme/6a9539f948cda5a2aaa3dc49
+  download: https://crackmes.one/download/crackme/6a9539f948cda5a2aaa3dc49
+
+title: "prolokmn2's Figger V2"
+author_on_site: "prolokmn2"
+author_local: "prolokmn2"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C (MinGW, code obfusqué)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/figger.exe"
+  name: "figger.exe"
+  sha256: "c18024015506328349ffa345a61d64c3aa518daec852b1267374fcb7c9cea760"
+  md5: "63891ea17c1a261c1e80d0257228d8f1"
+  size_bytes: 132990
+
+status: solved
+solution_summary: "Pas de user (petik non applicable). Key A = keygen(t,1), Key B = keygen(t,2) avec t = time()//30 (fenêtre courante ou précédente acceptée) ; keygen = petite fonction de hachage 40 tours mod 0x7fffffff. tools/figger-solve.py --check."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-25T01:38:41Z"
