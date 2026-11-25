@@ -281,7 +281,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [nizzix](authors/nizzix/README.md) | Nizzix | 1 (Ageis) | 1 / 1 |
 | [thefakeking](authors/thefakeking/README.md) | TheFakeKing | 1 (Basic ConsoleBased) | 1 / 1 |
 | [svz](authors/svz/README.md) | SVz | 2 (Orrery + Orrery 2) | 2 / 2 |
-| [ray33ee](authors/ray33ee/README.md) | ray33ee | 3 (x or and add + obscurio-1 + obscurio-3) | 3 / 3 |
+| [ray33ee](authors/ray33ee/README.md) | ray33ee | 4 (x or and add + obscurio-1 + obscurio-2 + obscurio-3) | 4 / 4 |
 | [muhemed](authors/muhemed/README.md) | muhemed | 1 (muhemed crackme) | 1 / 1 |
 | [muffin](authors/muffin/README.md) | muffin | 1 (The Goat) | 1 / 1 |
 | [soulreaper](authors/soulreaper/README.md) | soulreaper | 3 (Dead Terminal + XorGate + Death Trap) | 3 / 3 |
@@ -348,6 +348,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [prolokmn2](authors/prolokmn2/README.md) | prolokmn2 | 2 (Figger V2, Figger) | 2 / 2 |
 | [longurara](authors/longurara/README.md) | longurara | 1 (decode me (hard)) | 1 / 1 |
 | [otc](authors/otc/README.md) | OTC | 1 (OTC's Keygen) | 1 / 1 |
+| [stefa9](authors/stefa9/README.md) | stefa9 | 1 (Memory Me) | 1 / 1 |
 | [lantern01](authors/lantern01/README.md) | lantern01 | 1 (lantern01's yuri) | 1 / 1 |
 | [admin31](authors/admin31/README.md) | admin31 | 1 (cantcrack) | 1 / 1 |
 | [ploxied](authors/ploxied/README.md) | Ploxied | 3 (Easy Crackme, Calculator, Crack/Keygen Me) | 3 / 3 |
@@ -441,7 +442,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [p-ssvv0rol](authors/p-ssvv0rol/README.md) | P@ssvv0Rol | 1 (B64crk) | 1 / 1 |
 | [oqra1](authors/oqra1/README.md) | oqra1 | 1 (selfkey) | 1 / 1 |
 | [worrydonot](authors/worrydonot/README.md) | worrydonot | 1 (worrydonot's Crackme For Beginners) | 1 / 1 |
-| [koboldschwaengel](authors/koboldschwaengel/README.md) | koboldschwaengel | 1 (Where is the challange?) | 1 / 1 |
+| [koboldschwaengel](authors/koboldschwaengel/README.md) | koboldschwaengel | 2 (Where is the challange?, Medium) | 2 / 2 |
 | [imchill1n](authors/imchill1n/README.md) | ImChill1n | 1 (very simple login) | 1 / 1 |
 | [0xg_m3](authors/0xg_m3/README.md) | 0xg_m3 | 1 (latch) | 1 / 1 |
 | [wism](authors/wism/README.md) | wism | 1 (wism's crack me medium) | 1 / 1 |
@@ -472,6 +473,9 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-25 | [koboldschwaengel's Medium](authors/koboldschwaengel/6951b52d0c16072f40f5a546/) | koboldschwaengel |
+| 2026-11-25 | [stefa9's Memory Me](authors/stefa9/694ec0f80c16072f40f5a475/) | stefa9 |
+| 2026-11-25 | [ray33ee's obscurio (2)](authors/ray33ee/6a9465a6cab6678aefe9dbe2/) | ray33ee |
 | 2026-11-25 | [prolokmn2's Figger](authors/prolokmn2/6a94900f3b246e477b6c0a7f/) | prolokmn2 |
 | 2026-11-25 | [prolokmn2's Figger V2](authors/prolokmn2/6a9539f948cda5a2aaa3dc49/) | prolokmn2 |
 | 2026-11-25 | [sally1337's Nexus! (Lite)](authors/sally1337/694af49f0c16072f40f5a379/) | sally1337 |

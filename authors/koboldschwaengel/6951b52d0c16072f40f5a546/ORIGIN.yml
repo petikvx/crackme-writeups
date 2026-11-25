@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6951b52d0c16072f40f5a546
+
+urls:
+  page: https://crackmes.one/crackme/6951b52d0c16072f40f5a546
+  download: https://crackmes.one/download/crackme/6951b52d0c16072f40f5a546
+
+title: "koboldschwaengel's Medium"
+author_on_site: "koboldschwaengel"
+author_local: "koboldschwaengel"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme.zip"
+  name: "crackme.zip"
+  sha256: "175e1ab4ccdb0264c35ee6c6a828734469d15e7a187a164d84146e2a08677649"
+  md5: "79d4af2acc5aa827ab016e45d049addc"
+  size_bytes: 7585
+
+status: solved
+solution_summary: "Mot de passe 7 octets non ASCII dd bf de ad 9c ec 9e = 'pass123' XOR (0xad,0xde alternés), vérifié sous Wine (shellcode déchiffré à l'exécution, XOR 0x10 + IsDebuggerPresent)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-25T03:45:45Z"
