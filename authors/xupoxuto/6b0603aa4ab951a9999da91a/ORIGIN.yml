@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6b0603aa4ab951a9999da91a
+
+urls:
+  page: https://crackmes.one/crackme/6b0603aa4ab951a9999da91a
+  download: https://crackmes.one/download/crackme/6b0603aa4ab951a9999da91a
+
+title: "XuPoxuTo's firefly"
+author_on_site: "XuPoxuTo"
+author_local: "xupoxuto"
+
+platform: "Multiplatform"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/cRackmEEE.py"
+  name: "cRackmEEE.py"
+  sha256: "ee4b1489e23df9794f824e8c37391eef48f3558b637714f822ea6aa4e7f414c7"
+  md5: "0b8be67f2a35416ad187ede41f19d445"
+  size_bytes: 569354
+
+status: pending
+solution_summary: "recon : Python 3.13 obfusqué « FireFly » ; 4 string pools déchiffrés (shake_128 ⊕ blob → zlib) ; VM interne restante"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-25T16:29:34Z"

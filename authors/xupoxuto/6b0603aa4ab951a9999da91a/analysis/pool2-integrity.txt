@@ -1,0 +1,91 @@
+0	QQ622931023sf_FireFly_hy394939823TO
+1	getattr
+2	isinstance
+3	tuple
+4	exec
+5	RuntimeError
+6	!!! Editing is prohibited !!!
+7	JS923723324CA_FireFly_JW978301055ti
+8	f_globals
+9	f_code
+10	co_name
+11	<module>
+12	f_back
+13	list
+14	MLT5MTK2-4T6P-9961-46R3-6GNMYS4WL4LN
+15	3LL1UYMO-ON9T-3GGY-4PAZ-GC7AQDCMDXS8
+16	N30YTAUN-YY90-25J4-GXRO-BBFAKGTPHQPV
+17	__import__
+18	sys
+19	_getframe
+20	mV673914218_FireFly_453743711Yt
+21	eval
+22	globals
+23	EBCGXRZI-SM9K-92SU-QFJT-2R7HVCK8R375
+24	1MVT8MWR-DJI8-F8NP-B74R-RB8B13JYSN11
+25	KREUIJAE-4ER9-L3BZ-FO1G-56BWUSYB5PJS
+26	LM5GQ9DS-GCNR-JJXH-RUZV-6IGQNDAPELSN
+27	YZIGAAO4-GAPS-XIDP-26MJ-6F3P8AAVM6CQ
+28	POSVZRVV-AUZ5-1U61-NXWG-UCJPJ5A4RB0L
+29	len
+30	co_consts
+31	PS221607601_FireFly_543173081Nw
+32	Si515817212Wn_FireFly_Vm877640870vG
+33	co_names
+34	hashlib
+35	sha256
+36	co_code
+37	digest
+38	__doc__
+39	vars
+40	oB89567745af_FireFly_ld89567749od
+41	Li89567768Qo_FireFly_zA89567771IS
+42	wc289597565VA_FireFly_gi989843800RR
+43	join
+44	__class__
+45	Uq687498022Yf_FireFly_tE345142786KG
+46	__module__
+47	to_bytes
+48	decode
+49	ZA977228391UQ_FireFly_oS484884174xK
+50	dict
+51	AE89567786SE_FireFly_pR89567789yS
+52	xf234498814_FireFly_274721887cg
+53	AX321894954_FireFly_320040595Xf
+54	Pw281338579DQ_FireFly_Jd718265706qC
+55	cA349943382_FireFly_777546736jS
+56	Vo267012989KB_FireFly_Eo659710693dY
+57	get
+58	Ce992221742_FireFly_661552686Oa
+59	lB505855713_FireFly_847005157tU
+60	Dj210566787_FireFly_495879227AB
+61	Ah369856642fO_FireFly_aY872048956gR
+62	cx157118150NI_FireFly_UY870434066Fy
+63	mo412671250LJ_FireFly_yg441986869TG
+64	by241360298vC_FireFly_ai994722421ay
+65	hM640601759GP_FireFly_Ic335225518nM
+66	Dw170676336WP_FireFly_Vk321334834dC
+67	
+# 😳🔞 / иди нахуй
+
+                `         '
+;,,,             `       '             ,,,;
+`YES8888bo.       :     :       .od8888YES'
+  888IO8DO88b.     :   :     .d8888I8DO88
+  8LOVEY'  `Y8b.   `   '   .d8Y'  `YLOVE8
+ jTHEE!  .db.  Yb. '   ' .dY  .db.  8THEE!
+   `888  Y88Y    `b ( ) d'    Y88Y  888'
+    8MYb  '"        ,',        "'  dMY8
+   j8prECIOUSgf"'   ':'   `"?g8prECIOUSk
+     'Y'   .8'     d' 'b     '8.   'Y'
+      !   .8' db  d'; ;`b  db '8.   !
+         d88  `'  8 ; ; 8  `'  88b
+        d88Ib   .g8 ',' 8g.   dI88b
+       :888LOVE88Y'     'Y88LOVE888:
+       '! THEE888'       `888THEE !'
+          '8Y  `Y         Y'  Y8'
+           Y                   Y
+           !                   !
+
+68	little
+69	b'\xf1C\xd5\\~\xfe\n\x81\xff\x9ex\xb5\x1eI\x86b\xfa\x0b-\x07F&@\xa6\x1c\t\xb8\xdd\xab\xe7\x03q'

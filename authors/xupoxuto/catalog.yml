@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6b0603aa4ab951a9999da91a:
+    sha256: "ee4b1489e23df9794f824e8c37391eef48f3558b637714f822ea6aa4e7f414c7"
+    path: "authors/xupoxuto/6b0603aa4ab951a9999da91a/original/cRackmEEE.py"
+    title: "XuPoxuTo's firefly"
+
+by_sha256:
+  ee4b1489e23df9794f824e8c37391eef48f3558b637714f822ea6aa4e7f414c7:
+    id: 6b0603aa4ab951a9999da91a
+    path: "authors/xupoxuto/6b0603aa4ab951a9999da91a/original/cRackmEEE.py"
+    page: https://crackmes.one/crackme/6b0603aa4ab951a9999da91a

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6b06510b4b6d53e8802ed888
+
+urls:
+  page: https://crackmes.one/crackme/6b06510b4b6d53e8802ed888
+  download: https://crackmes.one/download/crackme/6b06510b4b6d53e8802ed888
+
+title: "liboxin's easy vm v2"
+author_on_site: "liboxin"
+author_local: "liboxin"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/supervm_v144_full_5mb.exe"
+  name: "supervm_v144_full_5mb.exe"
+  sha256: "58231c214c2bb01ebf00bb11d55d57d2954f83645ae4f4aba8ff4b9892be2876"
+  md5: "b390120c858fa9e8a0bb9d987842c1f0"
+  size_bytes: 4806656
+
+status: pending
+solution_summary: "recon : protecteur aegis v144, table AGIS déchiffrée (mix(hdr+0x4c ^ hdr+0x68)) ; .text chiffré par pages, boucle XOR dans une zone .aegis encore chiffrée"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-25T16:29:30Z"

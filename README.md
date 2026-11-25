@@ -363,7 +363,11 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [iseey0u-re](authors/iseey0u-re/README.md) | iseey0u-re | 1 (iseey0u) | 1 / 1 |
 | [MyCrackTool](authors/MyCrackTool/README.md) | MyCrackTool | 1 (learn for begineer : pack de 3 ELF) | 1 / 1 |
 | [antilagvip](authors/antilagvip/README.md) | antilagvip | 1 (antilagvip's hard crackme : mini-VM chiffrée) | 1 / 1 |
-| [liboxin](authors/liboxin/README.md) | liboxin | 4 (unpack me v1 + v3, hellgate1, CrackMe Hard 4) | 4 / 4 |
+| [liboxin](authors/liboxin/README.md) | liboxin | 5 (unpack me v1 + v3, hellgate1, CrackMe Hard 4, easy vm v2) | 4 / 5 |
+| [coleywoley](authors/coleywoley/README.md) | coleywoley | 1 (palisade updated) | 0 / 1 |
+| [julian55](authors/julian55/README.md) | julian55 | 1 (Solve Me C++ (2) Upgraded Version) | 0 / 1 |
+| [xupoxuto](authors/xupoxuto/README.md) | XuPoxuTo | 1 (firefly) | 0 / 1 |
+| [lvhatpruple](authors/lvhatpruple/README.md) | LvHatpruple | 2 (Maze by LvHa, Neural Net) | 0 / 2 |
 | [0xbadc0de](authors/0xbadc0de/README.md) | 0xbadc0de | 1 (XOR Challenge) | 1 / 1 |
 | [feliz](authors/feliz/README.md) | Feliz | 1 (Feliz's crackme) | 1 / 1 |
 | [Elzzie](authors/Elzzie/README.md) | Elzzie | 1 (winkeygenme) | 1 / 1 |

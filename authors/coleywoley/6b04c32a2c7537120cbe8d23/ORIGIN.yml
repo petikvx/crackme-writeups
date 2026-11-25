@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6b04c32a2c7537120cbe8d23
+
+urls:
+  page: https://crackmes.one/crackme/6b04c32a2c7537120cbe8d23
+  download: https://crackmes.one/download/crackme/6b04c32a2c7537120cbe8d23
+
+title: "coleywoley's palisade updated"
+author_on_site: "coleywoley"
+author_local: "coleywoley"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/palisade.exe"
+  name: "palisade.exe"
+  sha256: "f885677aecce9cd8de7232936218b2ab53ab29697ebec67020a64ad6b7b57209"
+  md5: "40b0b26204ae6f474de7f0b8b4646e32"
+  size_bytes: 332800
+
+status: pending
+solution_summary: "recon : flag CMO{40 car. base32 ABCDEFGHJKLMNPQRSTUVWXYZ23456789} = 200 bits ; 7 étapes de « seal », 2 VM (.vma/.vmb) + vérif type Reed-Solomon GF(2^8) poly 0x11B"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-25T16:29:42Z"

@@ -25,6 +25,11 @@ by_id:
     path: "authors/liboxin/6a1b1a448fab7bbca27302fc/original/rust_cm.exe"
     title: "liboxin's CrackMe Hard 4"
 
+  6b06510b4b6d53e8802ed888:
+    sha256: "58231c214c2bb01ebf00bb11d55d57d2954f83645ae4f4aba8ff4b9892be2876"
+    path: "authors/liboxin/6b06510b4b6d53e8802ed888/original/supervm_v144_full_5mb.exe"
+    title: "liboxin's easy vm v2"
+
 by_sha256:
   bde7649418ee21bc7195aec59a5060888a3244d723fe06bcd04dee29cc5622ab:
     id: 6af59fc52c7537120cbe8a22
@@ -46,3 +51,7 @@ by_sha256:
     id: 6a1b1a448fab7bbca27302fc
     path: "authors/liboxin/6a1b1a448fab7bbca27302fc/original/rust_cm.exe"
     page: https://crackmes.one/crackme/6a1b1a448fab7bbca27302fc
+  58231c214c2bb01ebf00bb11d55d57d2954f83645ae4f4aba8ff4b9892be2876:
+    id: 6b06510b4b6d53e8802ed888
+    path: "authors/liboxin/6b06510b4b6d53e8802ed888/original/supervm_v144_full_5mb.exe"
+    page: https://crackmes.one/crackme/6b06510b4b6d53e8802ed888

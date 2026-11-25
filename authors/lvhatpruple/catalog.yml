@@ -5,8 +5,17 @@ by_id:
     path: "authors/lvhatpruple/6a79adce05a9e80a90724338/original/LvHaMaze.exe"
     title: "LvHatpruple's Maze by LvHa"
 
+  6b05ea525fa39ab0d4ac26bf:
+    sha256: "835c30b97ab531d48c01ce9b720220835e4e99566cec056bf533afb38cf69ead"
+    path: "authors/lvhatpruple/6b05ea525fa39ab0d4ac26bf/original/NNcrackme-t.exe"
+    title: "LvHatpruple's Neural Net"
+
 by_sha256:
   f5ea238e54ba0c20872ded53669b07d7983aa8c64fbc21ed11937bbcc66dc82b:
     id: 6a79adce05a9e80a90724338
     path: "authors/lvhatpruple/6a79adce05a9e80a90724338/original/LvHaMaze.exe"
     page: https://crackmes.one/crackme/6a79adce05a9e80a90724338
+  835c30b97ab531d48c01ce9b720220835e4e99566cec056bf533afb38cf69ead:
+    id: 6b05ea525fa39ab0d4ac26bf
+    path: "authors/lvhatpruple/6b05ea525fa39ab0d4ac26bf/original/NNcrackme-t.exe"
+    page: https://crackmes.one/crackme/6b05ea525fa39ab0d4ac26bf

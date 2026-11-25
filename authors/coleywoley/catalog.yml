@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6b04c32a2c7537120cbe8d23:
+    sha256: "f885677aecce9cd8de7232936218b2ab53ab29697ebec67020a64ad6b7b57209"
+    path: "authors/coleywoley/6b04c32a2c7537120cbe8d23/original/palisade.exe"
+    title: "coleywoley's palisade updated"
+
+by_sha256:
+  f885677aecce9cd8de7232936218b2ab53ab29697ebec67020a64ad6b7b57209:
+    id: 6b04c32a2c7537120cbe8d23
+    path: "authors/coleywoley/6b04c32a2c7537120cbe8d23/original/palisade.exe"
+    page: https://crackmes.one/crackme/6b04c32a2c7537120cbe8d23

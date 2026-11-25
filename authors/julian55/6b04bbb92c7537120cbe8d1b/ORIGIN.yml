@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6b04bbb92c7537120cbe8d1b
+
+urls:
+  page: https://crackmes.one/crackme/6b04bbb92c7537120cbe8d1b
+  download: https://crackmes.one/download/crackme/6b04bbb92c7537120cbe8d1b
+
+title: "julian55's Solve Me C++ (2) Upgraded Version"
+author_on_site: "julian55"
+author_local: "julian55"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme_protected.exe"
+  name: "crackme_protected.exe"
+  sha256: "83ffceaf14ae2b60c6cd8b2180b09d728ca5d9087d6e3c964558d23c76a69295"
+  md5: "e4df58b8ecb7425ab826aaf7030e1b06"
+  size_bytes: 1230848
+
+status: pending
+solution_summary: "recon : protecteur à VM (.apsvm 230 Ko) + pool de strings chiffré (.apsstr), aucune string en clair"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-25T16:29:59Z"

@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6b04bbb92c7537120cbe8d1b:
+    sha256: "83ffceaf14ae2b60c6cd8b2180b09d728ca5d9087d6e3c964558d23c76a69295"
+    path: "authors/julian55/6b04bbb92c7537120cbe8d1b/original/crackme_protected.exe"
+    title: "julian55's Solve Me C++ (2) Upgraded Version"
+
+by_sha256:
+  83ffceaf14ae2b60c6cd8b2180b09d728ca5d9087d6e3c964558d23c76a69295:
+    id: 6b04bbb92c7537120cbe8d1b
+    path: "authors/julian55/6b04bbb92c7537120cbe8d1b/original/crackme_protected.exe"
+    page: https://crackmes.one/crackme/6b04bbb92c7537120cbe8d1b
