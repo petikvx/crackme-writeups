@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69a1f44218b5d7ee4709351d
+
+urls:
+  page: https://crackmes.one/crackme/69a1f44218b5d7ee4709351d
+  download: https://crackmes.one/download/crackme/69a1f44218b5d7ee4709351d
+
+title: "howosec's Not to simple KeyGen V2"
+author_on_site: "howosec"
+author_local: "howosec"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/howo-not-to-simple-keygen"
+  name: "howo-not-to-simple-keygen"
+  sha256: "8b685085320c61337679f34eedc5aa338b5cc38c782ab5034581f33ae6c08804"
+  md5: "66125edca0416cf2d93ed71f70bd8c5a"
+  size_bytes: 819856
+
+status: solved
+solution_summary: "keygen: serial 16 car. ; s[(i+3)%17]==4*H[i], H=hash(hash(name)+hash(email)) ; petik / petik1@mail.com -> AAA@AAAAAAAAAAAA"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-25T09:39:20Z"

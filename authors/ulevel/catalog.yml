@@ -5,8 +5,17 @@ by_id:
     path: "authors/ulevel/699af49ac2d74fe054b1c31d/original/rsacrackme2.zip"
     title: "Ulevel's rsame_v2"
 
+  69a200150f5b9757a6a5f6ee:
+    sha256: "ee36f2891128acc0282e2963ef1bae7843dc3fe45ea7871022f4cc4a80be48c3"
+    path: "authors/ulevel/69a200150f5b9757a6a5f6ee/original/RSAme_v3.zip"
+    title: "Ulevel's rsame_v3"
+
 by_sha256:
   6f82aac64a60e6e325933a746aa67e17a049f0541770abcff117576392a94c97:
     id: 699af49ac2d74fe054b1c31d
     path: "authors/ulevel/699af49ac2d74fe054b1c31d/original/rsacrackme2.zip"
     page: https://crackmes.one/crackme/699af49ac2d74fe054b1c31d
+  ee36f2891128acc0282e2963ef1bae7843dc3fe45ea7871022f4cc4a80be48c3:
+    id: 69a200150f5b9757a6a5f6ee
+    path: "authors/ulevel/69a200150f5b9757a6a5f6ee/original/RSAme_v3.zip"
+    page: https://crackmes.one/crackme/69a200150f5b9757a6a5f6ee

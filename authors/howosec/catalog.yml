@@ -5,8 +5,17 @@ by_id:
     path: "authors/howosec/6973ebc6d735cd51e7a1aa97/original/senha-e-flag-C-2"
     title: "howosec's Password And Flag in C"
 
+  69a1f44218b5d7ee4709351d:
+    sha256: "8b685085320c61337679f34eedc5aa338b5cc38c782ab5034581f33ae6c08804"
+    path: "authors/howosec/69a1f44218b5d7ee4709351d/original/howo-not-to-simple-keygen"
+    title: "howosec's Not to simple KeyGen V2"
+
 by_sha256:
   2849760cc674e39bc691cada99f6e1256e93cb4b7d61e5092fd8df559e2d7e5b:
     id: 6973ebc6d735cd51e7a1aa97
     path: "authors/howosec/6973ebc6d735cd51e7a1aa97/original/senha-e-flag-C-2"
     page: https://crackmes.one/crackme/6973ebc6d735cd51e7a1aa97
+  8b685085320c61337679f34eedc5aa338b5cc38c782ab5034581f33ae6c08804:
+    id: 69a1f44218b5d7ee4709351d
+    path: "authors/howosec/69a1f44218b5d7ee4709351d/original/howo-not-to-simple-keygen"
+    page: https://crackmes.one/crackme/69a1f44218b5d7ee4709351d

@@ -143,7 +143,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [pavler](authors/pavler/README.md) | pavler | 1 (pavler6) | 1 / 1 |
 | [deluks](authors/deluks/README.md) | DeLuks | 1 (Chamber of Reflections) | 1 / 1 |
 | [biglsim04](authors/biglsim04/README.md) | Biglsim04 | 1 (puzzle) | 1 / 1 |
-| [ulevel](authors/ulevel/README.md) | Ulevel | 1 (rsame_v2) | 1 / 1 |
+| [ulevel](authors/ulevel/README.md) | Ulevel | 2 (rsame_v2 + rsame_v3) | 2 / 2 |
 | [simbahdd](authors/simbahdd/README.md) | SimbaHDD | 5 (CRACKME + very easy crackme + first golang crackme + easy crackme + CRACKME 2) | 5 / 5 |
 | [monsignor](authors/monsignor/README.md) | Monsignor | 1 (Monsignor's Monsignors Crackme) | 1 / 1 |
 | [tdaron](authors/tdaron/README.md) | tdaron | 1 (Use your brain) | 1 / 1 |
@@ -276,7 +276,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [ezloom](authors/ezloom/README.md) | ezloom | 1 (really easy) | 1 / 1 |
 | [yanderemia](authors/yanderemia/README.md) | YandereMia | 2 | 2 / 2 |
 | [svidnet](authors/svidnet/README.md) | svidnet | 2 (ZEXOR-v1 (Linux), ZEXOR-01 (Windows)) | 2 / 2 |
-| [howosec](authors/howosec/README.md) | howosec | 1 (Password And Flag in C) | 1 / 1 |
+| [howosec](authors/howosec/README.md) | howosec | 2 (Password And Flag in C, Not to simple KeyGen V2) | 2 / 2 |
 | [popacracker](authors/popacracker/README.md) | PopaCracker | 1 (Python CrackMe) | 1 / 1 |
 | [noname_user](authors/noname_user/README.md) | noname_User | 2 | 2 / 2 |
 | [noname_User](authors/noname_User/README.md) | noname_User (dossier casse différente) | 1 (idk) | 1 / 1 |
@@ -478,6 +478,8 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-25 | [Ulevel's rsame_v3](authors/ulevel/69a200150f5b9757a6a5f6ee/) | Ulevel |
+| 2026-11-25 | [howosec's Not to simple KeyGen V2](authors/howosec/69a1f44218b5d7ee4709351d/) | howosec |
 | 2026-11-25 | [TheSwedishLord's SirCrackaLot v2](authors/theswedishlord/69a07e02fb7f76ef92045c40/) | TheSwedishLord |
 | 2026-11-25 | [awaplay's OBSCURA](authors/awaplay/69a0533c0b6d36e727710a87/) | awaplay |
 | 2026-11-25 | [Coder_90's Crack It!](authors/coder_90/697e6957e04ca145cd9d13b4/) | Coder_90 |

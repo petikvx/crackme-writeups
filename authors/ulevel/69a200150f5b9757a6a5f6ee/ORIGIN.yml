@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69a200150f5b9757a6a5f6ee
+
+urls:
+  page: https://crackmes.one/crackme/69a200150f5b9757a6a5f6ee
+  download: https://crackmes.one/download/crackme/69a200150f5b9757a6a5f6ee
+
+title: "Ulevel's rsame_v3"
+author_on_site: "Ulevel"
+author_local: "ulevel"
+
+platform: "Windows"
+arch: "x86-64"
+language: "C++ (MSVC)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/RSAme_v3.zip"
+  name: "RSAme_v3.zip"
+  sha256: "ee36f2891128acc0282e2963ef1bae7843dc3fe45ea7871022f4cc4a80be48c3"
+  md5: "7a63ffd300af132e7fce7e9629d70a9a"
+  size_bytes: 28397
+
+status: solved
+solution_summary: "Signature RSA-128 de MD5(name) (e=65537, n factorisé en 2×64 bits) : petik1→20a2ef0578285296f0f318853a214eb6 (petik impossible : MD5 >= n)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-25T09:42:20Z"
