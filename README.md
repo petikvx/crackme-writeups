@@ -346,6 +346,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [acidbyte](authors/acidbyte/README.md) | AcidByte | 1 (Acid's First Crackme) | 1 / 1 |
 | [softwarebreaker](authors/softwarebreaker/README.md) | SoftwareBreaker | 1 (SoftwareBreaker's License Checker) | 1 / 1 |
 | [genass3](authors/genass3/README.md) | genass3 | 1 (Continental) | 1 / 1 |
+| [awaplay](authors/awaplay/README.md) | awaplay | 1 (OBSCURA) | 1 / 1 |
 | [codergithub](authors/codergithub/README.md) | codergithub | 1 (VBO) | 1 / 1 |
 | [sally1337](authors/sally1337/README.md) | sally1337 | 1 (Nexus! Lite) | 1 / 1 |
 | [prolokmn2](authors/prolokmn2/README.md) | prolokmn2 | 3 (Figger V2, Figger, FiggerC) | 3 / 3 |
@@ -476,6 +477,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-25 | [awaplay's OBSCURA](authors/awaplay/69a0533c0b6d36e727710a87/) | awaplay |
 | 2026-11-25 | [Coder_90's Crack It!](authors/coder_90/697e6957e04ca145cd9d13b4/) | Coder_90 |
 | 2026-11-25 | [White_Canary's TooManyChecks](authors/white_canary/69761202511e37b6d1f8ed43/) | White_Canary |
 | 2026-11-25 | [codergithub's VBO](authors/codergithub/6a8fbe16cab6678aefe9db0f/) | codergithub |

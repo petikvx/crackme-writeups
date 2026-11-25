@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69a0533c0b6d36e727710a87:
+    sha256: "d4bbc5387f03d2a329938a40bd9951157256d72d205df1b95a587b42cbecb217"
+    path: "authors/awaplay/69a0533c0b6d36e727710a87/original/ProjectOfEntrophy1.exe"
+    title: "awaplay's OBSCURA"
+
+by_sha256:
+  d4bbc5387f03d2a329938a40bd9951157256d72d205df1b95a587b42cbecb217:
+    id: 69a0533c0b6d36e727710a87
+    path: "authors/awaplay/69a0533c0b6d36e727710a87/original/ProjectOfEntrophy1.exe"
+    page: https://crackmes.one/crackme/69a0533c0b6d36e727710a87

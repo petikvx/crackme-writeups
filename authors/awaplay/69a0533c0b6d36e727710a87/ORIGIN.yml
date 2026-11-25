@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69a0533c0b6d36e727710a87
+
+urls:
+  page: https://crackmes.one/crackme/69a0533c0b6d36e727710a87
+  download: https://crackmes.one/download/crackme/69a0533c0b6d36e727710a87
+
+title: "awaplay's OBSCURA"
+author_on_site: "awaplay"
+author_local: "awaplay"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/ProjectOfEntrophy1.exe"
+  name: "ProjectOfEntrophy1.exe"
+  sha256: "d4bbc5387f03d2a329938a40bd9951157256d72d205df1b95a587b42cbecb217"
+  md5: "6bbc2936dd9a63d1708f077a51bbdf0f"
+  size_bytes: 280064
+
+status: solved
+solution_summary: "Ligne de 16 octets avec somme signée <= 0x100 (chemin xor/rol3 de 0x140003320) et t[i]^buf[i] imprimable ; ex. hex 32311304021114160101101501080102 (tools/awaplay-solve.py -q)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-25T08:43:38Z"
