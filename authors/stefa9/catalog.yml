@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  694ec0f80c16072f40f5a475:
+    sha256: "0d250e26582003df908be6ed61face3df7d5d995ec1b42a52613b8e0ef9133c4"
+    path: "authors/stefa9/694ec0f80c16072f40f5a475/original/test.exe"
+    title: "stefa9's Memory Me"
+
+by_sha256:
+  0d250e26582003df908be6ed61face3df7d5d995ec1b42a52613b8e0ef9133c4:
+    id: 694ec0f80c16072f40f5a475
+    path: "authors/stefa9/694ec0f80c16072f40f5a475/original/test.exe"
+    page: https://crackmes.one/crackme/694ec0f80c16072f40f5a475

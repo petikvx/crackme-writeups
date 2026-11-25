@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 694ec0f80c16072f40f5a475
+
+urls:
+  page: https://crackmes.one/crackme/694ec0f80c16072f40f5a475
+  download: https://crackmes.one/download/crackme/694ec0f80c16072f40f5a475
+
+title: "stefa9's Memory Me"
+author_on_site: "stefa9"
+author_local: "stefa9"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/test.exe"
+  name: "test.exe"
+  sha256: "0d250e26582003df908be6ed61face3df7d5d995ec1b42a52613b8e0ef9133c4"
+  md5: "198ec41f3479001cae554affc5ba6208"
+  size_bytes: 42496
+
+status: solved
+solution_summary: "Pas de serial : écrire en mémoire du processus vivant (WriteProcessMemory / /proc/pid/mem) le bool 0x14000B0B8 = 1 et le dword suivant 0x14000B0BC = 0xFFFFFFFE ; le fichier ne doit pas être patché (auto-hash SHA-256). Solveur tools/stefa9-solve.py (Wine)."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-25T03:42:19Z"
