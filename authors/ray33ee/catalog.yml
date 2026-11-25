@@ -15,6 +15,11 @@ by_id:
     path: "authors/ray33ee/6a88726c3b246e477b6c094d/original/crackus.exe"
     title: "ray33ee's obscurio - 1"
 
+  6a9465a6cab6678aefe9dbe2:
+    sha256: "0cff5da73d9ba8b2e3e3d7162e9ec6b6ec81e8d2fc45d46f6c207a0980b443e4"
+    path: "authors/ray33ee/6a9465a6cab6678aefe9dbe2/original/obscurio2.zip"
+    title: "ray33ee's obscurio"
+
 by_sha256:
   0bd5e02796ac81072ea2c49bb83196d702a17329a0355626880d74b4f0affa24:
     id: 6a81d143184836c0dbe7d7e1
@@ -33,3 +38,7 @@ by_sha256:
     id: 6a88726c3b246e477b6c094d
     path: "authors/ray33ee/6a88726c3b246e477b6c094d/original/obscurio1.zip"
     page: https://crackmes.one/crackme/6a88726c3b246e477b6c094d
+  0cff5da73d9ba8b2e3e3d7162e9ec6b6ec81e8d2fc45d46f6c207a0980b443e4:
+    id: 6a9465a6cab6678aefe9dbe2
+    path: "authors/ray33ee/6a9465a6cab6678aefe9dbe2/original/obscurio2.zip"
+    page: https://crackmes.one/crackme/6a9465a6cab6678aefe9dbe2

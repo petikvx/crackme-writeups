@@ -1,0 +1,8 @@
+$ printf "petik~~~\naavzzZZZZ///``8~\n" | xvfb-run -a wine crackus.exe
+Enter username: Enter password: well done lmao
+
+$ ... mauvais password (aavzzZZZZ///``8~x)
+Enter username: Enter password: nope
+
+$ ... petik / hello
+Enter username: Enter password: nope
