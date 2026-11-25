@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 695cf0fbceeed14a30906492
+
+urls:
+  page: https://crackmes.one/crackme/695cf0fbceeed14a30906492
+  download: https://crackmes.one/download/crackme/695cf0fbceeed14a30906492
+
+title: "bytemomo's Pwn Flick"
+author_on_site: "bytemomo"
+author_local: "bytemomo"
+
+platform: "Multiplatform"
+arch: "wasm32"
+language: "Odin (WebAssembly / emscripten)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/pwn-flick.zip"
+  name: "pwn-flick.zip"
+  sha256: "98badd6e9e16992f41f547d596d5e91250bfea03676d251d3672b55350865ce0"
+  md5: "236159067d33ebf67e173900dadcf3d9"
+  size_bytes: 5356040
+
+status: solved
+solution_summary: "licence i64 = 12297931375574707090 (0xaaab076dc942eb92) ; 154 gardes MBA f(L)==const dans index.wasm, résolues bit à bit (unique) ; pas de nom/user"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-25T05:37:57Z"

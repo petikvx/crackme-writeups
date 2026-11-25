@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  695cf0fbceeed14a30906492:
+    sha256: "98badd6e9e16992f41f547d596d5e91250bfea03676d251d3672b55350865ce0"
+    path: "authors/bytemomo/695cf0fbceeed14a30906492/original/pwn-flick.zip"
+    title: "bytemomo's Pwn Flick"
+
+by_sha256:
+  98badd6e9e16992f41f547d596d5e91250bfea03676d251d3672b55350865ce0:
+    id: 695cf0fbceeed14a30906492
+    path: "authors/bytemomo/695cf0fbceeed14a30906492/original/pwn-flick.zip"
+    page: https://crackmes.one/crackme/695cf0fbceeed14a30906492

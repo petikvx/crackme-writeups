@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+        <title>Pawn Flick</title>
+        <meta name="title" content="Pawn Flick" />
+        <meta name="viewport" content="width=device-width" />
+
+        <style>
+            body {
+                margin: 0px;
+                overflow: hidden;
+                background-color: black;
+                font-family: sans-serif;
+            }
+            canvas.game_canvas {
+                border: 0px none;
+                background-color: black;
+                padding-left: 0;
+                padding-right: 0;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+            }
+
+            /* --- LICENSE UI STYLES --- */
+            #license-overlay {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.95);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                z-index: 1000;
+            }
+
+            .license-box {
+                background-color: #1a1a1a;
+                border: 1px solid #444;
+                color: #e0e0e0;
+                padding: 40px;
+                max-width: 400px;
+                width: 80%;
+                border-radius: 8px;
+                box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .license-box h2 {
+                margin-top: 0;
+                color: #fff;
+            }
+
+            #license-input {
+                padding: 12px;
+                border-radius: 4px;
+                border: 1px solid #555;
+                background-color: #333;
+                color: white;
+                font-size: 16px;
+                text-align: center;
+            }
+
+            #license-input:focus {
+                outline: 2px solid #4CAF50;
+                border-color: transparent;
+            }
+
+            #start-btn {
+                background-color: #4CAF50;
+                color: white;
+                padding: 12px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                font-size: 16px;
+                font-weight: bold;
+                transition: background-color 0.2s;
+            }
+
+            #start-btn:hover {
+                background-color: #45a049;
+            }
+
+            #error-msg {
+                color: #ff6b6b;
+                font-size: 14px;
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div id="license-overlay">
+            <div class="license-box">
+                <h2>Authentication</h2>
+                <p>Please enter your license key to initialize the WASM module.</p>
+                <input type="text" id="license-input" placeholder="e.g. 987654321" autocomplete="off">
+                <div id="error-msg">Invalid Key Format</div>
+                <button id="start-btn">Initialize Game</button>
+            </div>
+        </div>
+
+        <canvas class="game_canvas" id="canvas" oncontextmenu="event.preventDefault()" tabindex="-1"></canvas>
+        <script type="text/javascript" src="odin.js"></script>
+        <script>
+            var odinMemoryInterface = null;
+            var odinImports = null;
+
+            var Module = {
+                instantiateWasm: (loaderImports, successCallback) => {
+                    return new Promise((resolve, reject) => {
+                        const inputField = document.getElementById('license-input');
+                        const startBtn = document.getElementById('start-btn');
+                        const errorMsg = document.getElementById('error-msg');
+                        const overlay = document.getElementById('license-overlay');
+
+                        inputField.focus();
+
+                        startBtn.onclick = async function() {
+                            const userValue = inputField.value.trim();
+
+                            errorMsg.style.display = 'none';
+                            startBtn.disabled = true;
+                            startBtn.innerText = "Checking...";
+
+                            try {
+                                if(userValue === "") throw new Error("Empty Key");
+                                const licenseBigInt = BigInt(userValue);
+                                odinMemoryInterface = new odin.WasmMemoryInterface();
+                                odinMemoryInterface.setIntSize(4);
+
+                                odinImports = odin.setupDefaultImports(odinMemoryInterface);
+                                // 3. Create the License Global
+                                const aegisImports = {
+                                    license_value: new WebAssembly.Global({ value: "i64", mutable: false }, licenseBigInt),
+                                };
+
+                                // 4. Merge everything together
+                                // We ignore the 'loaderImports' passed in initially because they might be stale.
+                                // We rely on our fresh 'odinImports'.
+                                const currentAttemptImports = {
+                                    ...odinImports,
+                                    ...loaderImports, // Keep loader imports if they contain other necessary system stuff
+                                    aegis: {
+                                        ...(odinImports.aegis || {}),
+                                        ...(loaderImports.aegis || {}),
+                                        ...aegisImports,
+                                    },
+                                };
+
+                                // --- CRITICAL FIX ENDS HERE ---
+
+                                // 5. Fetch and Instantiate
+                                const response = await fetch("index.wasm");
+                                const output = await WebAssembly.instantiateStreaming(response, currentAttemptImports);
+
+                                // 6. Success!
+                                var e = output.instance.exports;
+
+                                // Update the interface with the working instance
+                                odinMemoryInterface.setExports(e);
+                                odinMemoryInterface.setMemory(e.memory);
+
+                                successCallback(output.instance);
+                                resolve(output.instance);
+
+                                overlay.style.display = 'none';
+                                document.getElementById('canvas').focus();
+
+                            } catch (err) {
+                                console.error("Attempt failed:", err);
+
+                                // 7. Reset UI for retry
+                                errorMsg.textContent = "Key rejected. Please try again.";
+                                errorMsg.style.display = "block";
+                                startBtn.disabled = false;
+                                startBtn.innerText = "Initialize Game";
+
+                                // We DO NOT reject the promise. We just wait for the user to click again.
+                                // The 'odinMemoryInterface' we just created is now garbage,
+                                // but that's fine because the next click will create a new one.
+                            }
+                        };
+                    });
+                },
+
+                // ... (The rest of the code remains exactly the same) ...
+                onRuntimeInitialized: () => {
+                    var e = wasmExports;
+                    e._start();
+                    e.main_start();
+
+                    function send_resize() {
+                        var canvas = document.getElementById("canvas");
+                        e.web_window_size_changed(canvas.width, canvas.height);
+                    }
+
+                    window.addEventListener("resize", function (event) { send_resize(); }, true);
+                    send_resize();
+
+                    function do_main_update() {
+                        if (!e.main_update()) {
+                            e.main_end();
+                            e._end();
+                            return;
+                        }
+                        window.requestAnimationFrame(do_main_update);
+                    }
+
+                    window.requestAnimationFrame(do_main_update);
+                },
+                print: (function () {
+                    var element = document.getElementById("output");
+                    if (element) element.value = "";
+                    return function (text) {
+                        if (arguments.length > 1) text = Array.prototype.slice.call(arguments).join(" ");
+                        console.log(text);
+                        if (element) {
+                            element.value += text + "\n";
+                            element.scrollTop = element.scrollHeight;
+                        }
+                    };
+                })(),
+                canvas: (function () {
+                    return document.getElementById("canvas");
+                })(),
+            };
+        </script>
+
+        <script async type="text/javascript" src="index.js"></script>
+    </body>
+</html>
