@@ -345,7 +345,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [softwarebreaker](authors/softwarebreaker/README.md) | SoftwareBreaker | 1 (SoftwareBreaker's License Checker) | 1 / 1 |
 | [genass3](authors/genass3/README.md) | genass3 | 1 (Continental) | 1 / 1 |
 | [sally1337](authors/sally1337/README.md) | sally1337 | 1 (Nexus! Lite) | 1 / 1 |
-| [prolokmn2](authors/prolokmn2/README.md) | prolokmn2 | 1 (Figger V2) | 1 / 1 |
+| [prolokmn2](authors/prolokmn2/README.md) | prolokmn2 | 2 (Figger V2, Figger) | 2 / 2 |
 | [longurara](authors/longurara/README.md) | longurara | 1 (decode me (hard)) | 1 / 1 |
 | [otc](authors/otc/README.md) | OTC | 1 (OTC's Keygen) | 1 / 1 |
 | [lantern01](authors/lantern01/README.md) | lantern01 | 1 (lantern01's yuri) | 1 / 1 |
@@ -472,6 +472,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-25 | [prolokmn2's Figger](authors/prolokmn2/6a94900f3b246e477b6c0a7f/) | prolokmn2 |
 | 2026-11-25 | [prolokmn2's Figger V2](authors/prolokmn2/6a9539f948cda5a2aaa3dc49/) | prolokmn2 |
 | 2026-11-25 | [sally1337's Nexus! (Lite)](authors/sally1337/694af49f0c16072f40f5a379/) | sally1337 |
 | 2026-11-25 | [longurara's decode me (hard)](authors/longurara/69424c290992a052ab2223bb/) | longurara |

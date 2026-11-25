@@ -5,8 +5,17 @@ by_id:
     path: "authors/prolokmn2/6a9539f948cda5a2aaa3dc49/original/figger.exe"
     title: "prolokmn2's Figger V2"
 
+  6a94900f3b246e477b6c0a7f:
+    sha256: "7825980e2316bc4d1df1c9277b2f8a2fab2595f78329967383bc85abf78bac51"
+    path: "authors/prolokmn2/6a94900f3b246e477b6c0a7f/original/lock.exe"
+    title: "prolokmn2's Figger"
+
 by_sha256:
   c18024015506328349ffa345a61d64c3aa518daec852b1267374fcb7c9cea760:
     id: 6a9539f948cda5a2aaa3dc49
     path: "authors/prolokmn2/6a9539f948cda5a2aaa3dc49/original/figger.exe"
     page: https://crackmes.one/crackme/6a9539f948cda5a2aaa3dc49
+  7825980e2316bc4d1df1c9277b2f8a2fab2595f78329967383bc85abf78bac51:
+    id: 6a94900f3b246e477b6c0a7f
+    path: "authors/prolokmn2/6a94900f3b246e477b6c0a7f/original/lock.exe"
+    page: https://crackmes.one/crackme/6a94900f3b246e477b6c0a7f
