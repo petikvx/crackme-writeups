@@ -35,6 +35,11 @@ by_id:
     path: "authors/jeffli6789/69a28c267a778cfffbfb67be/original/download.bin"
     title: "jeffli6789's Crackmes.one RE CTF 2026"
 
+  69a28d2efbfe0ef21de945d9:
+    sha256: "098d7f95f06e0ce0bb162a6aa13d0ece5b81463d10e2f5bab1e2471c277443a1"
+    path: "authors/jeffli6789/69a28d2efbfe0ef21de945d9/original/httpd_handout.zip"
+    title: "jeffli6789's Crackmes.one RE CTF 2026"
+
 by_sha256:
   7526418ecada66780062b7f6ca7205c4540d6e2800fc994a4d02f75ae4b2b673:
     id: 69a2911b7a778cfffbfb67ca
@@ -64,3 +69,7 @@ by_sha256:
     id: 69a28c267a778cfffbfb67be
     path: "authors/jeffli6789/69a28c267a778cfffbfb67be/original/download.bin"
     page: https://crackmes.one/crackme/69a28c267a778cfffbfb67be
+  098d7f95f06e0ce0bb162a6aa13d0ece5b81463d10e2f5bab1e2471c277443a1:
+    id: 69a28d2efbfe0ef21de945d9
+    path: "authors/jeffli6789/69a28d2efbfe0ef21de945d9/original/httpd_handout.zip"
+    page: https://crackmes.one/crackme/69a28d2efbfe0ef21de945d9

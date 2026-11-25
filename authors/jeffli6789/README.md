@@ -15,6 +15,7 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml) (id ↔ sha256).
 | 5 | [Date of Birth](5f4efbb133c5d4357b3b00a0/) | [`5f4efbb1…`](https://crackmes.one/crackme/5f4efbb133c5d4357b3b00a0) | Linux ELF64 | **solved** — DOB = aujourd'hui − ~128 ans (`10/03/1898` le 2026-10-03) |
 | 6 | [bubbly](5f00a02533c5d4285070947a/) | [`5f00a025…`](https://crackmes.one/crackme/5f00a02533c5d4285070947a) | Linux ELF64 | bubble-sort pilote depuis stdin |
 | 7 | [RE CTF 2026 — FLRSCRNSVR](69a28c267a778cfffbfb67be/) | [`69a28c26…`](https://crackmes.one/crackme/69a28c267a778cfffbfb67be) | Windows PE64 screensaver | **solved** — `CMO{frogt4s7ic_r3vers1ng}` |
+| 8 | [RE CTF 2026 — httpd](69a28d2efbfe0ef21de945d9/) | [`69a28d2e…`](https://crackmes.one/crackme/69a28d2efbfe0ef21de945d9) | FreeBSD ELF64 (Go) | **solved** — sniffeur ICMP caché dans `net/http.init`, clé AES depuis le ping magique → `CMO{fUn_w1th_m4g1c_p4ck3t5}` |
 
 Chaque challenge a une section **Debug GDB (pas à pas)** dans son `README.md` (maze : piège `read` fd=2 ; x86 : patch shellcode + `mprotect` ; wallpaper : état / WALL ; Orbit Fold : PIE strippé, `cx == 0x728a`). Date of Birth : analyse 100 % statique + preuve native (pas de session GDB).
 

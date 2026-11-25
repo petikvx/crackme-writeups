@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69a28d2efbfe0ef21de945d9
+
+urls:
+  page: https://crackmes.one/crackme/69a28d2efbfe0ef21de945d9
+  download: https://crackmes.one/download/crackme/69a28d2efbfe0ef21de945d9
+
+title: "jeffli6789's Crackmes.one RE CTF 2026"
+author_on_site: "jeffli6789"
+author_local: "jeffli6789"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/httpd_handout.zip"
+  name: "httpd_handout.zip"
+  sha256: "098d7f95f06e0ce0bb162a6aa13d0ece5b81463d10e2f5bab1e2471c277443a1"
+  md5: "3e445a576717d0bf14ab37c2356fb16e"
+  size_bytes: 3631068
+
+status: solved
+solution_summary: "Backdoor Go/FreeBSD : sniffeur pcap ICMP (re0) caché dans net/http.init ; echo request id 0x1337 + data c6de5fe5 → clé=IV AES-128-CBC dérivée du paquet (DF, TTL64, seq1) déchiffre le flag CMO{fUn_w1th_m4g1c_p4ck3t5} (tools/httpd-solve.py, preuve statique uniquement)."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-25T14:35:24Z"
