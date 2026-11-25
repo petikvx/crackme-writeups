@@ -5,8 +5,17 @@ by_id:
     path: "authors/white_canary/69cc0fa13e328e778db052a7/original/download.bin"
     title: "White_Canary's Adversarial Mind"
 
+  69761202511e37b6d1f8ed43:
+    sha256: "1b13efc7605c0b046594011a371175bc0eb8838ad3cfd35953b5390a4a5ddf2b"
+    path: "authors/white_canary/69761202511e37b6d1f8ed43/original/TooManyChecks.exe"
+    title: "White_Canary's TooManyChecks"
+
 by_sha256:
   5ab9e8ca2be4a1e63fac7663ec836678120dee35b05732416b16ca3baab6c000:
     id: 69cc0fa13e328e778db052a7
     path: "authors/white_canary/69cc0fa13e328e778db052a7/original/download.bin"
     page: https://crackmes.one/crackme/69cc0fa13e328e778db052a7
+  1b13efc7605c0b046594011a371175bc0eb8838ad3cfd35953b5390a4a5ddf2b:
+    id: 69761202511e37b6d1f8ed43
+    path: "authors/white_canary/69761202511e37b6d1f8ed43/original/TooManyChecks.exe"
+    page: https://crackmes.one/crackme/69761202511e37b6d1f8ed43

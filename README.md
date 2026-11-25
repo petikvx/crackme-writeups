@@ -191,7 +191,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [yuri](authors/yuri/README.md) | Yuri | 1 (Simple Keygen) | 1 / 1 |
 | [illusionxxx](authors/illusionxxx/README.md) | illusionxxx | 1 (simple crackme) | 1 / 1 |
 | [0x3xp](authors/0x3xp/README.md) | 0x3xp | 1 (Project Obscura) | 1 / 1 |
-| [coder_90](authors/coder_90/README.md) | Coder_90 | 2 (CrackMe4, KeyGenMeV3) | 2 / 2 |
+| [coder_90](authors/coder_90/README.md) | Coder_90 | 3 (CrackMe4, KeyGenMeV3, Crack It!) | 3 / 3 |
 | [someonelol](authors/someonelol/README.md) | SomeoneLol | 1 (Uncrackable) | 1 / 1 |
 | [esofl](authors/esofl/README.md) | esofl | 1 (esofl's easycrack) | 1 / 1 |
 | [inxaneninja](authors/inxaneninja/README.md) | inxaneninja | 1 (Keygen Practice) | 1 / 1 |
@@ -375,7 +375,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [brandon_w](authors/brandon_w/README.md) | brandon_w | 1 (simple windows crackme) | 1 / 1 |
 | [kcgaming](authors/kcgaming/README.md) | kcgaming | 1 (very simple keycheck) | 1 / 1 |
 | [whekkees](authors/whekkees/README.md) | whekkees | 3 (my first simple crack me, very easy crack me $$$, new crack me) | 3 / 3 |
-| [white_canary](authors/white_canary/README.md) | White_Canary | 1 (Adversarial Mind) | 1 / 1 |
+| [white_canary](authors/white_canary/README.md) | White_Canary | 2 (Adversarial Mind, TooManyChecks) | 2 / 2 |
 | [n0sync_](authors/n0sync_/README.md) | n0sync_ | 1 (Complex) | 1 / 1 |
 | [rm7rv](authors/rm7rv/README.md) | rm7rv | 1 (my first crackme) | 1 / 1 |
 | [Demian](authors/Demian/README.md) | Demian | 1 (entry level crackme) | 1 / 1 |
@@ -476,6 +476,8 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-25 | [Coder_90's Crack It!](authors/coder_90/697e6957e04ca145cd9d13b4/) | Coder_90 |
+| 2026-11-25 | [White_Canary's TooManyChecks](authors/white_canary/69761202511e37b6d1f8ed43/) | White_Canary |
 | 2026-11-25 | [codergithub's VBO](authors/codergithub/6a8fbe16cab6678aefe9db0f/) | codergithub |
 | 2026-11-25 | [bytemomo's Pwn Flick](authors/bytemomo/695cf0fbceeed14a30906492/) | bytemomo |
 | 2026-11-25 | [cracka0's Derive64 v1.0](authors/cracka0/69556d5d6199fe19c0574637/) | cracka0 |

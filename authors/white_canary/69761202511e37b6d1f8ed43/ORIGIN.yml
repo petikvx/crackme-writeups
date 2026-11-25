@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69761202511e37b6d1f8ed43
+
+urls:
+  page: https://crackmes.one/crackme/69761202511e37b6d1f8ed43
+  download: https://crackmes.one/download/crackme/69761202511e37b6d1f8ed43
+
+title: "White_Canary's TooManyChecks"
+author_on_site: "White_Canary"
+author_local: "white_canary"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/TooManyChecks.exe"
+  name: "TooManyChecks.exe"
+  sha256: "1b13efc7605c0b046594011a371175bc0eb8838ad3cfd35953b5390a4a5ddf2b"
+  md5: "d623447c3e52d26fd2e7dc6e4888f753"
+  size_bytes: 245248
+
+status: solved
+solution_summary: "Flag assemblé à l'exécution depuis 6 fragments de std::string : Flag(ByP@$$_a_B0$$) (checks anti-debug sans effet sur le flag)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-25T07:40:23Z"

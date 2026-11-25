@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 697e6957e04ca145cd9d13b4
+
+urls:
+  page: https://crackmes.one/crackme/697e6957e04ca145cd9d13b4
+  download: https://crackmes.one/download/crackme/697e6957e04ca145cd9d13b4
+
+title: "Coder_90's Crack It!"
+author_on_site: "Coder_90"
+author_local: "coder_90"
+
+platform: "Windows"
+arch: "x86"
+language: "C++ (Borland C++ Builder, VCL)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/Crack_It.exe"
+  name: "Crack_It.exe"
+  sha256: "15a5eeb8eca7bb8cbe60a721bb259905445c434b20c1b90ff9bf16514aad4dfe"
+  md5: "650a0542022fc73bcc364e851d5b71e5"
+  size_bytes: 3719680
+
+status: solved
+solution_summary: "RSA jouet : texte lu en entier big-endian m, check m^65537 mod n == c ; n (131 bits) = 98317*5628631*189985006751*25019942076868181 -> mot de passe unique C0d3r_9O_Crack!T"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-25T07:42:15Z"

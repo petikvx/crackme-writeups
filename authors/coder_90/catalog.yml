@@ -10,6 +10,11 @@ by_id:
     path: "authors/coder_90/691f53d32d267f28f69b7f62/original/keygenme.rar"
     title: "Coder_90's KeyGenMeV3"
 
+  697e6957e04ca145cd9d13b4:
+    sha256: "15a5eeb8eca7bb8cbe60a721bb259905445c434b20c1b90ff9bf16514aad4dfe"
+    path: "authors/coder_90/697e6957e04ca145cd9d13b4/original/Crack_It.exe"
+    title: "Coder_90's Crack It!"
+
 by_sha256:
   ba5716bbcc8e35e287068d2da62b54abbb9fe5c8c35723d6e6ca8f230a105278:
     id: 6969e9e3e3ae2054ed59d494
@@ -19,3 +24,7 @@ by_sha256:
     id: 691f53d32d267f28f69b7f62
     path: "authors/coder_90/691f53d32d267f28f69b7f62/original/keygenme.rar"
     page: https://crackmes.one/crackme/691f53d32d267f28f69b7f62
+  15a5eeb8eca7bb8cbe60a721bb259905445c434b20c1b90ff9bf16514aad4dfe:
+    id: 697e6957e04ca145cd9d13b4
+    path: "authors/coder_90/697e6957e04ca145cd9d13b4/original/Crack_It.exe"
+    page: https://crackmes.one/crackme/697e6957e04ca145cd9d13b4
