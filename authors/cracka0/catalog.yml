@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69556d5d6199fe19c0574637:
+    sha256: "4fe691a06881c57700fae78cac00547bea3c3bbae6be51436284eadae5279b7e"
+    path: "authors/cracka0/69556d5d6199fe19c0574637/original/craackme.exe"
+    title: "cracka0's Derive64 v1.0"
+
+by_sha256:
+  4fe691a06881c57700fae78cac00547bea3c3bbae6be51436284eadae5279b7e:
+    id: 69556d5d6199fe19c0574637
+    path: "authors/cracka0/69556d5d6199fe19c0574637/original/craackme.exe"
+    page: https://crackmes.one/crackme/69556d5d6199fe19c0574637

@@ -133,7 +133,8 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [microsoftstorage](authors/microsoftstorage/README.md) | MicrosoftStorage | 1 (ACrack) | 1 / 1 |
 | [cyberpenguin](authors/cyberpenguin/README.md) | Cyberpenguin | 1 (What password???) | 1 / 1 |
 | [solitikburmaldatik](authors/solitikburmaldatik/README.md) | SolitikBurmaldatik | 1 (FirstCrackMe) | 1 / 1 |
-| [doncris](authors/doncris/README.md) | DonCris | 6 (Existential Vending Machine + Time Rift 2026 + Santa's Secret Gift Vault + New Year's Resolution Vault 2026 + S.N.A.P. + Party Protocol 2026) | 6 / 6 |
+| [cracka0](authors/cracka0/README.md) | cracka0 | 1 (Derive64 v1.0) | 1 / 1 |
+| [doncris](authors/doncris/README.md) | DonCris | 7 (Existential Vending Machine + Time Rift 2026 + Santa's Secret Gift Vault + New Year's Resolution Vault 2026 + S.N.A.P. + Party Protocol 2026 + The Quantum Box) | 7 / 7 |
 | [lambogames](authors/lambogames/README.md) | Lambogames | 1 (Hide and C#) | 1 / 1 |
 | [corpcons](authors/corpcons/README.md) | CorpCons | 1 (EasyVM) | 1 / 1 |
 | [openwiredsource](authors/openwiredsource/README.md) | OpenWiredSource | 1 (The Wired) | 1 / 1 |
@@ -473,6 +474,8 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-25 | [cracka0's Derive64 v1.0](authors/cracka0/69556d5d6199fe19c0574637/) | cracka0 |
+| 2026-11-25 | [DonCris's The Quantum Box](authors/doncris/6954afa36d227ff9fc540004/) | DonCris |
 | 2026-11-25 | [memetic0's Veil](authors/memetic0/6a8f377348cda5a2aaa3db51/) | memetic0 |
 | 2026-11-25 | [prolokmn2's FiggerC](authors/prolokmn2/6a95576fcab6678aefe9dbfe/) | prolokmn2 |
 | 2026-11-25 | [koboldschwaengel's Medium](authors/koboldschwaengel/6951b52d0c16072f40f5a546/) | koboldschwaengel |

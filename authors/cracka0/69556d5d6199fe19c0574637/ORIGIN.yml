@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69556d5d6199fe19c0574637
+
+urls:
+  page: https://crackmes.one/crackme/69556d5d6199fe19c0574637
+  download: https://crackmes.one/download/crackme/69556d5d6199fe19c0574637
+
+title: "cracka0's Derive64 v1.0"
+author_on_site: "cracka0"
+author_local: "cracka0"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/craackme.exe"
+  name: "craackme.exe"
+  sha256: "4fe691a06881c57700fae78cac00547bea3c3bbae6be51436284eadae5279b7e"
+  md5: "f81dc1f5296d5440b417f4ebd3a3f060"
+  size_bytes: 15872
+
+status: solved
+solution_summary: "user `you` / password `solved` : paire de référence dont le hash 64 bits H(user,pwd) (0x1400011c0) est comparé ; petik non géré (pas de keygen)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-25T05:36:24Z"
