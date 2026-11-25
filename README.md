@@ -446,7 +446,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [p-ssvv0rol](authors/p-ssvv0rol/README.md) | P@ssvv0Rol | 1 (B64crk) | 1 / 1 |
 | [oqra1](authors/oqra1/README.md) | oqra1 | 1 (selfkey) | 1 / 1 |
 | [worrydonot](authors/worrydonot/README.md) | worrydonot | 1 (worrydonot's Crackme For Beginners) | 1 / 1 |
-| [koboldschwaengel](authors/koboldschwaengel/README.md) | koboldschwaengel | 2 (Where is the challange?, Medium) | 2 / 2 |
+| [koboldschwaengel](authors/koboldschwaengel/README.md) | koboldschwaengel | 3 (Where is the challange?, Medium, APicturePerfectPassword) | 3 / 3 |
 | [imchill1n](authors/imchill1n/README.md) | ImChill1n | 1 (very simple login) | 1 / 1 |
 | [0xg_m3](authors/0xg_m3/README.md) | 0xg_m3 | 1 (latch) | 1 / 1 |
 | [wism](authors/wism/README.md) | wism | 1 (wism's crack me medium) | 1 / 1 |
@@ -478,6 +478,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-25 | [koboldschwaengel's APicturePerfectPassword](authors/koboldschwaengel/6a57feec0691b3daf2a3f27f/) | koboldschwaengel |
 | 2026-11-25 | [Ulevel's rsame_v3](authors/ulevel/69a200150f5b9757a6a5f6ee/) | Ulevel |
 | 2026-11-25 | [howosec's Not to simple KeyGen V2](authors/howosec/69a1f44218b5d7ee4709351d/) | howosec |
 | 2026-11-25 | [TheSwedishLord's SirCrackaLot v2](authors/theswedishlord/69a07e02fb7f76ef92045c40/) | TheSwedishLord |

@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a57feec0691b3daf2a3f27f
+
+urls:
+  page: https://crackmes.one/crackme/6a57feec0691b3daf2a3f27f
+  download: https://crackmes.one/download/crackme/6a57feec0691b3daf2a3f27f
+
+title: "koboldschwaengel's APicturePerfectPassword"
+author_on_site: "koboldschwaengel"
+author_local: "koboldschwaengel"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/APicturePerfectPassword.zip"
+  name: "APicturePerfectPassword.zip"
+  sha256: "7a1318eb20948b2db5cd15722f18ffdb03e972cc8960783fd4cb2fd976915ec7"
+  md5: "a38107d3ce01c662b3f5148f0b11699f"
+  size_bytes: 25913
+
+status: solved
+solution_summary: "Mot de passe à 6 chiffres 426371 : les 6 BMP-chiffres 100x100 sont collés côte à côte puis memcmp avec solution_data ; solveur = reconnaissance de chaque tranche."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-25T10:38:01Z"

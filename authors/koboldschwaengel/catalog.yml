@@ -10,6 +10,11 @@ by_id:
     path: "authors/koboldschwaengel/6951b52d0c16072f40f5a546/original/crackme.zip"
     title: "koboldschwaengel's Medium"
 
+  6a57feec0691b3daf2a3f27f:
+    sha256: "7a1318eb20948b2db5cd15722f18ffdb03e972cc8960783fd4cb2fd976915ec7"
+    path: "authors/koboldschwaengel/6a57feec0691b3daf2a3f27f/original/APicturePerfectPassword.zip"
+    title: "koboldschwaengel's APicturePerfectPassword"
+
 by_sha256:
   8f1d0123ca4a13aa7016f2a89343e5bceef2cb7b7e137bc109bae817969b91e0:
     id: 6a58c547055757d3df60fd47
@@ -19,3 +24,7 @@ by_sha256:
     id: 6951b52d0c16072f40f5a546
     path: "authors/koboldschwaengel/6951b52d0c16072f40f5a546/original/crackme.zip"
     page: https://crackmes.one/crackme/6951b52d0c16072f40f5a546
+  7a1318eb20948b2db5cd15722f18ffdb03e972cc8960783fd4cb2fd976915ec7:
+    id: 6a57feec0691b3daf2a3f27f
+    path: "authors/koboldschwaengel/6a57feec0691b3daf2a3f27f/original/APicturePerfectPassword.zip"
+    page: https://crackmes.one/crackme/6a57feec0691b3daf2a3f27f
