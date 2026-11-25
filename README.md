@@ -283,7 +283,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [nizzix](authors/nizzix/README.md) | Nizzix | 1 (Ageis) | 1 / 1 |
 | [thefakeking](authors/thefakeking/README.md) | TheFakeKing | 1 (Basic ConsoleBased) | 1 / 1 |
 | [svz](authors/svz/README.md) | SVz | 2 (Orrery + Orrery 2) | 2 / 2 |
-| [ray33ee](authors/ray33ee/README.md) | ray33ee | 4 (x or and add + obscurio-1 + obscurio-2 + obscurio-3) | 4 / 4 |
+| [ray33ee](authors/ray33ee/README.md) | ray33ee | 5 (x or and add + obscurio-1 + obscurio-2 + obscurio-3 + shifty) | 5 / 5 |
 | [muhemed](authors/muhemed/README.md) | muhemed | 1 (muhemed crackme) | 1 / 1 |
 | [muffin](authors/muffin/README.md) | muffin | 1 (The Goat) | 1 / 1 |
 | [soulreaper](authors/soulreaper/README.md) | soulreaper | 3 (Dead Terminal + XorGate + Death Trap) | 3 / 3 |
@@ -478,6 +478,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-25 | [ray33ee's shifty keygen](authors/ray33ee/6a7c9611184836c0dbe7d76d/) | ray33ee |
 | 2026-11-25 | [koboldschwaengel's APicturePerfectPassword](authors/koboldschwaengel/6a57feec0691b3daf2a3f27f/) | koboldschwaengel |
 | 2026-11-25 | [Ulevel's rsame_v3](authors/ulevel/69a200150f5b9757a6a5f6ee/) | Ulevel |
 | 2026-11-25 | [howosec's Not to simple KeyGen V2](authors/howosec/69a1f44218b5d7ee4709351d/) | howosec |

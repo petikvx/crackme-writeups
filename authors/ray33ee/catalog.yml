@@ -20,6 +20,11 @@ by_id:
     path: "authors/ray33ee/6a9465a6cab6678aefe9dbe2/original/obscurio2.zip"
     title: "ray33ee's obscurio"
 
+  6a7c9611184836c0dbe7d76d:
+    sha256: "548719a71a26c7bdd0dfae2cc3bfe442083e7f187edfadb5b1fb89705af9fd8e"
+    path: "authors/ray33ee/6a7c9611184836c0dbe7d76d/original/shifty.exe"
+    title: "ray33ee's shifty keygen"
+
 by_sha256:
   0bd5e02796ac81072ea2c49bb83196d702a17329a0355626880d74b4f0affa24:
     id: 6a81d143184836c0dbe7d7e1
@@ -42,3 +47,7 @@ by_sha256:
     id: 6a9465a6cab6678aefe9dbe2
     path: "authors/ray33ee/6a9465a6cab6678aefe9dbe2/original/obscurio2.zip"
     page: https://crackmes.one/crackme/6a9465a6cab6678aefe9dbe2
+  548719a71a26c7bdd0dfae2cc3bfe442083e7f187edfadb5b1fb89705af9fd8e:
+    id: 6a7c9611184836c0dbe7d76d
+    path: "authors/ray33ee/6a7c9611184836c0dbe7d76d/original/shifty.exe"
+    page: https://crackmes.one/crackme/6a7c9611184836c0dbe7d76d

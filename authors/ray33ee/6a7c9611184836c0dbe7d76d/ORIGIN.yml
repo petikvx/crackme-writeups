@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a7c9611184836c0dbe7d76d
+
+urls:
+  page: https://crackmes.one/crackme/6a7c9611184836c0dbe7d76d
+  download: https://crackmes.one/download/crackme/6a7c9611184836c0dbe7d76d
+
+title: "ray33ee's shifty keygen"
+author_on_site: "ray33ee"
+author_local: "ray33ee"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/shifty.exe"
+  name: "shifty.exe"
+  sha256: "548719a71a26c7bdd0dfae2cc3bfe442083e7f187edfadb5b1fb89705af9fd8e"
+  md5: "0cfd5a1bea4a59e837dc27de4ab3bc99"
+  size_bytes: 89088
+
+status: solved
+solution_summary: "Keygen : FNV1a(user) -> splitmix64 ; 10000 ops 64 bits bijectives (S-box AES, Feistel, rotations…) inversées depuis le target ; petik→b936ff-2a5af-525-23"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-25T11:34:25Z"

@@ -12,6 +12,7 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml) (id ↔ sha256).
 | 2 | [obscurio - 1](6a88726c3b246e477b6c094d/) | [`6a88726c…`](https://crackmes.one/crackme/6a88726c3b246e477b6c094d) | Windows x86-64 | password `r4y_0b5Curi0_I729` |
 | 3 | [obscurio - 3](6a9ae805cab6678aefe9dcb2/) | [`6a9ae805…`](https://crackmes.one/crackme/6a9ae805cab6678aefe9dcb2) | Windows x86-64 | VM + poly GF(65521) ; `petik`→`E768-16D7-…-F87D` |
 | 4 | [obscurio (2)](6a9465a6cab6678aefe9dbe2/) | [`6a9465a6…`](https://crackmes.one/crackme/6a9465a6cab6678aefe9dbe2) | Windows x86-64 | VM boolean-only ; `petik~~~`→``aavzzZZZZ///``8~`` |
+| 5 | [shifty keygen](6a7c9611184836c0dbe7d76d/) | [`6a7c9611…`](https://crackmes.one/crackme/6a7c9611184836c0dbe7d76d) | Windows x86-64 | keygen FNV+splitmix, 10000 ops inversées ; `petik`→`b936ff-2a5af-525-23` |
 
 ## Arborescence d’un challenge
 
