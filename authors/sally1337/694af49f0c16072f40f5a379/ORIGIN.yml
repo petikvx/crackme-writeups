@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 694af49f0c16072f40f5a379
+
+urls:
+  page: https://crackmes.one/crackme/694af49f0c16072f40f5a379
+  download: https://crackmes.one/download/crackme/694af49f0c16072f40f5a379
+
+title: "sally1337's Nexus! (Lite)"
+author_on_site: "sally1337"
+author_local: "sally1337"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/nexus-lite.exe"
+  name: "nexus-lite.exe"
+  sha256: "05bfa131fef54ffc3dec074fd61009118e7b7880f50cc0262f7ba25020393557"
+  md5: "2cfb384801bac2b5d45d3c471e444db1"
+  size_bytes: 29696
+
+status: solved
+solution_summary: "Master key en clair dans .rdata : NEXUS-MASTER-KEY-2025 (pas de user)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-25T00:39:19Z"

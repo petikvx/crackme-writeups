@@ -344,6 +344,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [acidbyte](authors/acidbyte/README.md) | AcidByte | 1 (Acid's First Crackme) | 1 / 1 |
 | [softwarebreaker](authors/softwarebreaker/README.md) | SoftwareBreaker | 1 (SoftwareBreaker's License Checker) | 1 / 1 |
 | [genass3](authors/genass3/README.md) | genass3 | 1 (Continental) | 1 / 1 |
+| [sally1337](authors/sally1337/README.md) | sally1337 | 1 (Nexus! Lite) | 1 / 1 |
 | [longurara](authors/longurara/README.md) | longurara | 1 (decode me (hard)) | 1 / 1 |
 | [otc](authors/otc/README.md) | OTC | 1 (OTC's Keygen) | 1 / 1 |
 | [lantern01](authors/lantern01/README.md) | lantern01 | 1 (lantern01's yuri) | 1 / 1 |
@@ -470,6 +471,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-25 | [sally1337's Nexus! (Lite)](authors/sally1337/694af49f0c16072f40f5a379/) | sally1337 |
 | 2026-11-25 | [longurara's decode me (hard)](authors/longurara/69424c290992a052ab2223bb/) | longurara |
 | 2026-11-25 | [RodrigoTeixeira's Roullete Simulator](authors/rodrigoteixeira/693c48822d267f28f69b8518/) | RodrigoTeixeira |
 | 2026-11-25 | [Coder_90's KeyGenMeV3](authors/coder_90/691f53d32d267f28f69b7f62/) | Coder_90 |

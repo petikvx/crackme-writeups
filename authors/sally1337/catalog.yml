@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  694af49f0c16072f40f5a379:
+    sha256: "05bfa131fef54ffc3dec074fd61009118e7b7880f50cc0262f7ba25020393557"
+    path: "authors/sally1337/694af49f0c16072f40f5a379/original/nexus-lite.exe"
+    title: "sally1337's Nexus! (Lite)"
+
+by_sha256:
+  05bfa131fef54ffc3dec074fd61009118e7b7880f50cc0262f7ba25020393557:
+    id: 694af49f0c16072f40f5a379
+    path: "authors/sally1337/694af49f0c16072f40f5a379/original/nexus-lite.exe"
+    page: https://crackmes.one/crackme/694af49f0c16072f40f5a379
