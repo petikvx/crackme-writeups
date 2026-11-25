@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6b03f2c82c7537120cbe8ce7
+
+urls:
+  page: https://crackmes.one/crackme/6b03f2c82c7537120cbe8ce7
+  download: https://crackmes.one/download/crackme/6b03f2c82c7537120cbe8ce7
+
+title: "julian55's Solve Me C++"
+author_on_site: "julian55"
+author_local: "julian55"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme_protected5.exe"
+  name: "crackme_protected5.exe"
+  sha256: "68bafd7897a4ed228569f9f54c37bb9932757cdade2576b6da7feed42d31b389"
+  md5: "c7185bbd183cdcc6823fb3a30d5793cc"
+  size_bytes: 979968
+
+status: pending
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-25T18:03:12Z"

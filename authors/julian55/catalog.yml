@@ -5,8 +5,17 @@ by_id:
     path: "authors/julian55/6b04bbb92c7537120cbe8d1b/original/crackme_protected.exe"
     title: "julian55's Solve Me C++ (2) Upgraded Version"
 
+  6b03f2c82c7537120cbe8ce7:
+    sha256: "68bafd7897a4ed228569f9f54c37bb9932757cdade2576b6da7feed42d31b389"
+    path: "authors/julian55/6b03f2c82c7537120cbe8ce7/original/crackme_protected5.exe"
+    title: "julian55's Solve Me C++"
+
 by_sha256:
   83ffceaf14ae2b60c6cd8b2180b09d728ca5d9087d6e3c964558d23c76a69295:
     id: 6b04bbb92c7537120cbe8d1b
     path: "authors/julian55/6b04bbb92c7537120cbe8d1b/original/crackme_protected.exe"
     page: https://crackmes.one/crackme/6b04bbb92c7537120cbe8d1b
+  68bafd7897a4ed228569f9f54c37bb9932757cdade2576b6da7feed42d31b389:
+    id: 6b03f2c82c7537120cbe8ce7
+    path: "authors/julian55/6b03f2c82c7537120cbe8ce7/original/crackme_protected5.exe"
+    page: https://crackmes.one/crackme/6b03f2c82c7537120cbe8ce7

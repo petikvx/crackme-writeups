@@ -30,6 +30,11 @@ by_id:
     path: "authors/liboxin/6b06510b4b6d53e8802ed888/original/supervm_v144_full_5mb.exe"
     title: "liboxin's easy vm v2"
 
+  6afddc654ab951a9999da75a:
+    sha256: "6063361886fe37dbc261a7e72864c0eb98bffd0a345b28d4de0400a0f1491e3b"
+    path: "authors/liboxin/6afddc654ab951a9999da75a/original/vmcrack2.protected.exe"
+    title: "liboxin's easy vm"
+
 by_sha256:
   bde7649418ee21bc7195aec59a5060888a3244d723fe06bcd04dee29cc5622ab:
     id: 6af59fc52c7537120cbe8a22
@@ -55,3 +60,7 @@ by_sha256:
     id: 6b06510b4b6d53e8802ed888
     path: "authors/liboxin/6b06510b4b6d53e8802ed888/original/supervm_v144_full_5mb.exe"
     page: https://crackmes.one/crackme/6b06510b4b6d53e8802ed888
+  6063361886fe37dbc261a7e72864c0eb98bffd0a345b28d4de0400a0f1491e3b:
+    id: 6afddc654ab951a9999da75a
+    path: "authors/liboxin/6afddc654ab951a9999da75a/original/vmcrack2.protected.exe"
+    page: https://crackmes.one/crackme/6afddc654ab951a9999da75a

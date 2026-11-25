@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6afddc654ab951a9999da75a
+
+urls:
+  page: https://crackmes.one/crackme/6afddc654ab951a9999da75a
+  download: https://crackmes.one/download/crackme/6afddc654ab951a9999da75a
+
+title: "liboxin's easy vm"
+author_on_site: "liboxin"
+author_local: "liboxin"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/vmcrack2.protected.exe"
+  name: "vmcrack2.protected.exe"
+  sha256: "6063361886fe37dbc261a7e72864c0eb98bffd0a345b28d4de0400a0f1491e3b"
+  md5: "3f7ab95229f9e69d126f9b7735792c52"
+  size_bytes: 3246080
+
+status: pending
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-25T18:03:15Z"
