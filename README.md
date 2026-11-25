@@ -370,6 +370,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [lvhatpruple](authors/lvhatpruple/README.md) | LvHatpruple | 2 (Maze by LvHa, Neural Net) | 0 / 2 |
 | [0xbadc0de](authors/0xbadc0de/README.md) | 0xbadc0de | 1 (XOR Challenge) | 1 / 1 |
 | [feliz](authors/feliz/README.md) | Feliz | 1 (Feliz's crackme) | 1 / 1 |
+| [moonware](authors/moonware/README.md) | MoonWare | 1 (.NET Framework : VM Avm) | 1 / 1 |
 | [Elzzie](authors/Elzzie/README.md) | Elzzie | 1 (winkeygenme) | 1 / 1 |
 | [micky23310](authors/micky23310/README.md) | micky23310 | 2 (HiddenFlag, guessme) | 2 / 2 |
 | [niko122](authors/niko122/README.md) | niko122 | 1 (niko's vm final!! :)) | 1 / 1 |
@@ -482,6 +483,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-25 | [MoonWare's .NET Framework](authors/moonware/6afa127e4b6d53e8802ed627/) | MoonWare |
 | 2026-11-25 | [ray33ee's shifty keygen](authors/ray33ee/6a7c9611184836c0dbe7d76d/) | ray33ee |
 | 2026-11-25 | [koboldschwaengel's APicturePerfectPassword](authors/koboldschwaengel/6a57feec0691b3daf2a3f27f/) | koboldschwaengel |
 | 2026-11-25 | [Ulevel's rsame_v3](authors/ulevel/69a200150f5b9757a6a5f6ee/) | Ulevel |

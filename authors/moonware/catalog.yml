@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6afa127e4b6d53e8802ed627:
+    sha256: "330c328041b24295f3461c791d9c64ad8907b29870fa0296e49a7c72647d3b07"
+    path: "authors/moonware/6afa127e4b6d53e8802ed627/original/CrackMe.exe"
+    title: "MoonWare's .NET Framework"
+
+by_sha256:
+  330c328041b24295f3461c791d9c64ad8907b29870fa0296e49a7c72647d3b07:
+    id: 6afa127e4b6d53e8802ed627
+    path: "authors/moonware/6afa127e4b6d53e8802ed627/original/CrackMe.exe"
+    page: https://crackmes.one/crackme/6afa127e4b6d53e8802ed627

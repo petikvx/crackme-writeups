@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6afa127e4b6d53e8802ed627
+
+urls:
+  page: https://crackmes.one/crackme/6afa127e4b6d53e8802ed627
+  download: https://crackmes.one/download/crackme/6afa127e4b6d53e8802ed627
+
+title: "MoonWare's .NET Framework"
+author_on_site: "MoonWare"
+author_local: "moonware"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/CrackMe.exe"
+  name: "CrackMe.exe"
+  sha256: "330c328041b24295f3461c791d9c64ad8907b29870fa0296e49a7c72647d3b07"
+  md5: "fb55a6ad5921544bd64d288e087c2510"
+  size_bytes: 51200
+
+status: solved
+solution_summary: "user ElfGroups / password e73cddb195c38ff1a614f323107e58c671cdbea7bc2b1588 : constants lues via oracle de préfixe sur la comparaison char par char de la VM Avm (dotnet natif + shim IsDebuggerPresent)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-25T18:03:19Z"
