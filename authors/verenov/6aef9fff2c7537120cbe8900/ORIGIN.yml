@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6aef9fff2c7537120cbe8900
+
+urls:
+  page: https://crackmes.one/crackme/6aef9fff2c7537120cbe8900
+  download: https://crackmes.one/download/crackme/6aef9fff2c7537120cbe8900
+
+title: "verenov's my first crackme :)"
+author_on_site: "verenov"
+author_local: "verenov"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme.exe"
+  name: "crackme.exe"
+  sha256: "0dce891bfdf86d03e5b74cebf4a317295481d78b714724bfed96d8daf4e526ae"
+  md5: "ee89d04da206a978816da437eefbff13"
+  size_bytes: 134656
+
+status: pending
+solution_summary: ""
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-25T19:57:14Z"

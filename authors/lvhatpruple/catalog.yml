@@ -10,6 +10,11 @@ by_id:
     path: "authors/lvhatpruple/6b05ea525fa39ab0d4ac26bf/original/NNcrackme-t.exe"
     title: "LvHatpruple's Neural Net"
 
+  6b033049c0ad374eab081ac7:
+    sha256: "b55dc67262b0f4b3fa6a21acb4b3af3c367f302fe080ebabbc093955a55aae3b"
+    path: "authors/lvhatpruple/6b033049c0ad374eab081ac7/original/traumatized.exe"
+    title: "LvHatpruple's Traumatized AI"
+
 by_sha256:
   f5ea238e54ba0c20872ded53669b07d7983aa8c64fbc21ed11937bbcc66dc82b:
     id: 6a79adce05a9e80a90724338
@@ -19,3 +24,7 @@ by_sha256:
     id: 6b05ea525fa39ab0d4ac26bf
     path: "authors/lvhatpruple/6b05ea525fa39ab0d4ac26bf/original/NNcrackme-t.exe"
     page: https://crackmes.one/crackme/6b05ea525fa39ab0d4ac26bf
+  b55dc67262b0f4b3fa6a21acb4b3af3c367f302fe080ebabbc093955a55aae3b:
+    id: 6b033049c0ad374eab081ac7
+    path: "authors/lvhatpruple/6b033049c0ad374eab081ac7/original/traumatized.exe"
+    page: https://crackmes.one/crackme/6b033049c0ad374eab081ac7

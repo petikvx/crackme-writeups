@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6aee4f712c7537120cbe88b4:
+    sha256: "f0d22c9cb25331d2b873b07d48b0560fc2f6dfff93574617b77090a4dba75175"
+    path: "authors/tragedia/6aee4f712c7537120cbe88b4/original/eazy_crack.exe"
+    title: "tragedia's eazy crack"
+
+by_sha256:
+  f0d22c9cb25331d2b873b07d48b0560fc2f6dfff93574617b77090a4dba75175:
+    id: 6aee4f712c7537120cbe88b4
+    path: "authors/tragedia/6aee4f712c7537120cbe88b4/original/eazy_crack.exe"
+    page: https://crackmes.one/crackme/6aee4f712c7537120cbe88b4
