@@ -330,7 +330,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [nillya](authors/nillya/README.md) | Nillya | 1 (Nillya's Pass CrackMe) | 0 / 1 |
 | [leotrungkien](authors/leotrungkien/README.md) | Leotrungkien | 1 (Fugs) | 1 / 1 |
 | [fon37](authors/fon37/README.md) | fon37 | 3 (Secret Menu + King of Asgard + The Winner) | 3 / 3 |
-| [memetic0](authors/memetic0/README.md) | memetic0 | 2 (Tropical, Lattice) | 2 / 2 |
+| [memetic0](authors/memetic0/README.md) | memetic0 | 3 (Tropical, Lattice, Veil) | 3 / 3 |
 | [vetementsvmnts](authors/vetementsvmnts/README.md) | vetementsvmnts | 5 | 5 / 5 |
 | [67674ever](authors/67674ever/README.md) | 67674ever | 1 (My lib obfusction) | 1 / 1 |
 | [zitadokm](authors/zitadokm/README.md) | zitadokm | 1 (Get Flag) | 1 / 1 |
@@ -345,7 +345,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [softwarebreaker](authors/softwarebreaker/README.md) | SoftwareBreaker | 1 (SoftwareBreaker's License Checker) | 1 / 1 |
 | [genass3](authors/genass3/README.md) | genass3 | 1 (Continental) | 1 / 1 |
 | [sally1337](authors/sally1337/README.md) | sally1337 | 1 (Nexus! Lite) | 1 / 1 |
-| [prolokmn2](authors/prolokmn2/README.md) | prolokmn2 | 2 (Figger V2, Figger) | 2 / 2 |
+| [prolokmn2](authors/prolokmn2/README.md) | prolokmn2 | 3 (Figger V2, Figger, FiggerC) | 3 / 3 |
 | [longurara](authors/longurara/README.md) | longurara | 1 (decode me (hard)) | 1 / 1 |
 | [otc](authors/otc/README.md) | OTC | 1 (OTC's Keygen) | 1 / 1 |
 | [stefa9](authors/stefa9/README.md) | stefa9 | 1 (Memory Me) | 1 / 1 |
@@ -473,6 +473,8 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-25 | [memetic0's Veil](authors/memetic0/6a8f377348cda5a2aaa3db51/) | memetic0 |
+| 2026-11-25 | [prolokmn2's FiggerC](authors/prolokmn2/6a95576fcab6678aefe9dbfe/) | prolokmn2 |
 | 2026-11-25 | [koboldschwaengel's Medium](authors/koboldschwaengel/6951b52d0c16072f40f5a546/) | koboldschwaengel |
 | 2026-11-25 | [stefa9's Memory Me](authors/stefa9/694ec0f80c16072f40f5a475/) | stefa9 |
 | 2026-11-25 | [ray33ee's obscurio (2)](authors/ray33ee/6a9465a6cab6678aefe9dbe2/) | ray33ee |

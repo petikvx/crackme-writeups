@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a8f377348cda5a2aaa3db51
+
+urls:
+  page: https://crackmes.one/crackme/6a8f377348cda5a2aaa3db51
+  download: https://crackmes.one/download/crackme/6a8f377348cda5a2aaa3db51
+
+title: "memetic0's Veil"
+author_on_site: "memetic0"
+author_local: "memetic0"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "C (static ELF)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/veil.zip"
+  name: "veil.zip"
+  sha256: "126f4661e21c47dadd2b47c1518c6ec2370f022f3ec5ae6f1075a1bf470d18a1"
+  md5: "9a1eb3e7a8cfc5bf90eb1816a0bcad79"
+  size_bytes: 32858
+
+status: solved
+solution_summary: "Clé 128 hex = état initial d'un automate cellulaire 512 cellules (12 pas, règle s&3) ; contraintes sur états 6 et 12 résolues par z3 ; tables .bss leurre si TracerPid≠0. Clé: 5070ed578e3ac5d1734d619f4b17b89181fe485b3c98b828d4aaeeff230ea624e7c729cf9eaa898526b645dd7ff01a642176700b4e416d7909a19f3ede9cf6d9"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-25T04:44:25Z"

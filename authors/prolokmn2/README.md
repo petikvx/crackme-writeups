@@ -10,3 +10,4 @@ Voir [`author.yml`](author.yml) · [`catalog.yml`](catalog.yml).
 |---|---|---|---|---|
 | 1 | [prolokmn2's Figger V2](6a9539f948cda5a2aaa3dc49/) | [`6a9539f9…`](https://crackmes.one/crackme/6a9539f948cda5a2aaa3dc49) | Windows PE64 (MinGW, obfusqué), deux clés liées à `time()/30` | **solved** — keygen `tools/figger-solve.py` (Key A = `keygen(t,1)`, Key B = `keygen(t,2)`, `t = time//30`) |
 | 2 | [prolokmn2's Figger](6a94900f3b246e477b6c0a7f/) | [`6a94900f…`](https://crackmes.one/crackme/6a94900f3b246e477b6c0a7f) | Windows PE64 (MinGW, obfusqué), clé liée à `time()/30` | **solved** — keygen `tools/lock-solve.py` |
+| 3 | [prolokmn2's FiggerC](6a95576fcab6678aefe9dbfe/) | [`6a95576f…`](https://crackmes.one/crackme/6a95576fcab6678aefe9dbfe) | Windows PE64 (MinGW, SHA-256 + mini-VM), clé liée à `time()/30` | **solved** — keygen `tools/figgerc-solve.py` (`sha256("FSX::crackme::v1::9f3a-rotating"‖be64(t))[:8]` hex MAJ, `t = time//30`, `t` ou `t-1`) |

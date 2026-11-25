@@ -10,6 +10,11 @@ by_id:
     path: "authors/memetic0/6add58b64ab951a9999da0c8/original/lattice6-crackmes.zip"
     title: "memetic0's Lattice"
 
+  6a8f377348cda5a2aaa3db51:
+    sha256: "126f4661e21c47dadd2b47c1518c6ec2370f022f3ec5ae6f1075a1bf470d18a1"
+    path: "authors/memetic0/6a8f377348cda5a2aaa3db51/original/veil.zip"
+    title: "memetic0's Veil"
+
 by_sha256:
   2132f2a38c7f9e37203909b65b4b826b3beace5791b26b56ffcc9c66248dd27c:
     id: 6aadc96d585e8875bcbec043
@@ -19,3 +24,7 @@ by_sha256:
     id: 6add58b64ab951a9999da0c8
     path: "authors/memetic0/6add58b64ab951a9999da0c8/original/lattice6-crackmes.zip"
     page: https://crackmes.one/crackme/6add58b64ab951a9999da0c8
+  126f4661e21c47dadd2b47c1518c6ec2370f022f3ec5ae6f1075a1bf470d18a1:
+    id: 6a8f377348cda5a2aaa3db51
+    path: "authors/memetic0/6a8f377348cda5a2aaa3db51/original/veil.zip"
+    page: https://crackmes.one/crackme/6a8f377348cda5a2aaa3db51

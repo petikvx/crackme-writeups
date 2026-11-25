@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a95576fcab6678aefe9dbfe
+
+urls:
+  page: https://crackmes.one/crackme/6a95576fcab6678aefe9dbfe
+  download: https://crackmes.one/download/crackme/6a95576fcab6678aefe9dbfe
+
+title: "prolokmn2's FiggerC"
+author_on_site: "prolokmn2"
+author_local: "prolokmn2"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme.exe"
+  name: "crackme.exe"
+  sha256: "fab0ac37f1ef1b08988656bc4603621ea4efc73164193e07a17d68fb96f19969"
+  md5: "ad76fe2997bba6dec36483e5856bf671"
+  size_bytes: 131404
+
+status: solved
+solution_summary: "Pas de user (petik non applicable). Clé = sha256(\"FSX::crackme::v1::9f3a-rotating\" || be64(time//30))[:8] en hex MAJ (16 car.), fenêtre t ou t-1 ; contrôle par mini-VM (OR des XOR). tools/figgerc-solve.py --check."
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-25T04:42:26Z"
