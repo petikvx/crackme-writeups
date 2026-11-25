@@ -29,7 +29,7 @@ binary:
   size_bytes: 4806656
 
 status: pending
-solution_summary: "recon : protecteur aegis v144, table AGIS déchiffrée (mix(hdr+0x4c ^ hdr+0x68)) ; .text chiffré par pages, boucle XOR dans une zone .aegis encore chiffrée"
+solution_summary: "dépaqueté (tools/aegis-unpack-v144.py) + mini-VM reversée : VM1 = FNV-1a modifié → 0x9f3c8d51, VM2 = murmur-like à l'envers → 0x92e28c11 sur 22 octets ; clé non trouvée (collision 64 bits, MITM prêt)"
 
 download:
   zip_password: crackmes.one
