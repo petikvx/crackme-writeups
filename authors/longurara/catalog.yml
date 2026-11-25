@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  69424c290992a052ab2223bb:
+    sha256: "452ace30093573c4605a1a662d7bea16cb82ffa9c3aa7aec4c712c1dd4971b41"
+    path: "authors/longurara/69424c290992a052ab2223bb/original/decode-password.exe"
+    title: "longurara's decode me (hard)"
+
+by_sha256:
+  452ace30093573c4605a1a662d7bea16cb82ffa9c3aa7aec4c712c1dd4971b41:
+    id: 69424c290992a052ab2223bb
+    path: "authors/longurara/69424c290992a052ab2223bb/original/decode-password.exe"
+    page: https://crackmes.one/crackme/69424c290992a052ab2223bb

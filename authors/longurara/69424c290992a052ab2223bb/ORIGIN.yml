@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69424c290992a052ab2223bb
+
+urls:
+  page: https://crackmes.one/crackme/69424c290992a052ab2223bb
+  download: https://crackmes.one/download/crackme/69424c290992a052ab2223bb
+
+title: "longurara's decode me (hard)"
+author_on_site: "longurara"
+author_local: "longurara"
+
+platform: "Windows"
+arch: "x86-64"
+language: ""
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/decode-password.exe"
+  name: "decode-password.exe"
+  sha256: "452ace30093573c4605a1a662d7bea16cb82ffa9c3aa7aec4c712c1dd4971b41"
+  md5: "cce2bc1abc14d957e116545aa6466c4b"
+  size_bytes: 335347
+
+status: solved
+solution_summary: "password youhavedecodedit! (17 car. ; (secret[i]-i)^0x55 ; pas de user, pas de petik)"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-25T00:37:53Z"
