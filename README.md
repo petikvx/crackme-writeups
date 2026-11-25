@@ -452,6 +452,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [wism](authors/wism/README.md) | wism | 1 (wism's crack me medium) | 1 / 1 |
 | [threadsvector](authors/threadsvector/README.md) | threadsvector | 1 (threadsvector's Multi) | 1 / 1 |
 | [hossam-zaid](authors/hossam-zaid/README.md) | Hossam.Zaid | 1 (Crack ID & Password) | 1 / 1 |
+| [theswedishlord](authors/theswedishlord/README.md) | TheSwedishLord | 1 (SirCrackaLot v2) | 1 / 1 |
 
 ## Mis de côté (PARKED — y revenir)
 
@@ -477,6 +478,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-25 | [TheSwedishLord's SirCrackaLot v2](authors/theswedishlord/69a07e02fb7f76ef92045c40/) | TheSwedishLord |
 | 2026-11-25 | [awaplay's OBSCURA](authors/awaplay/69a0533c0b6d36e727710a87/) | awaplay |
 | 2026-11-25 | [Coder_90's Crack It!](authors/coder_90/697e6957e04ca145cd9d13b4/) | Coder_90 |
 | 2026-11-25 | [White_Canary's TooManyChecks](authors/white_canary/69761202511e37b6d1f8ed43/) | White_Canary |

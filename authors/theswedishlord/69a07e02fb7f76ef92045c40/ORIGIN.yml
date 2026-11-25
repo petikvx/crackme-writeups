@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 69a07e02fb7f76ef92045c40
+
+urls:
+  page: https://crackmes.one/crackme/69a07e02fb7f76ef92045c40
+  download: https://crackmes.one/download/crackme/69a07e02fb7f76ef92045c40
+
+title: "TheSwedishLord's SirCrackaLot v2"
+author_on_site: "TheSwedishLord"
+author_local: "theswedishlord"
+
+platform: "Unix/linux etc."
+arch: "x86-64"
+language: "Rust"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/SirCrackaLot.zip"
+  name: "SirCrackaLot.zip"
+  sha256: "5518263ea857f3ef4bd75ea77d381b498f9aa5bb56cd649b4806202d93596b53"
+  md5: "9df62ac38709aa5178c8206c3f39fe08"
+  size_bytes: 164256
+
+status: solved
+solution_summary: "keygen petik→1174-ADE9-5D52-0047 : 4 sceaux hexa (hash FNV-like du nom, rol/add16 × inv(0x7a69), shuffle LCG Σarr·(k+1), CRC16/ARC) ; seed anti-debug = 0"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-25T08:47:22Z"
