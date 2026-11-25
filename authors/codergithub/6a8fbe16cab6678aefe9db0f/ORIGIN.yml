@@ -1,0 +1,36 @@
+# Origine crackmes.one — généré par scripts/add-crackme.sh
+id: 6a8fbe16cab6678aefe9db0f
+
+urls:
+  page: https://crackmes.one/crackme/6a8fbe16cab6678aefe9db0f
+  download: https://crackmes.one/download/crackme/6a8fbe16cab6678aefe9db0f
+
+title: "codergithub's VBO"
+author_on_site: "codergithub"
+author_local: "codergithub"
+
+platform: "macOS Mach-O arm64"
+arch: "arm64"
+language: "C (clang, obfuscé)"
+
+difficulty: null
+quality: null
+size: ""
+published: null
+
+series_index: null
+local_slug: null
+
+binary:
+  path: "original/crackme"
+  name: "crackme"
+  sha256: "84930efce42d52e876790fe050db5a8bfa96a3970049be1e3fe047e25781491a"
+  md5: "d24a3ced49107d9e677b2f5989f1f587"
+  size_bytes: 33936
+
+status: solved
+solution_summary: "clé FLAG-7A3F-9B1C-4D8E-2E6A (pas de user) : 4 contraintes 16 bits (a^b=0xe123, b*0x9e37+c, rol16(d,5)^c, somme) à 5 solutions ; seule la bonne déchiffre le message (splitmix64) FLAG{VBO_VIRTUAL_MACHINE_CRACKME_SOLVED_2026}"
+
+download:
+  zip_password: crackmes.one
+  fetched_at: "2026-11-25T06:51:45Z"

@@ -346,6 +346,7 @@ Le script cherche `authors/*/<id>/` **avant** tout téléchargement.
 | [acidbyte](authors/acidbyte/README.md) | AcidByte | 1 (Acid's First Crackme) | 1 / 1 |
 | [softwarebreaker](authors/softwarebreaker/README.md) | SoftwareBreaker | 1 (SoftwareBreaker's License Checker) | 1 / 1 |
 | [genass3](authors/genass3/README.md) | genass3 | 1 (Continental) | 1 / 1 |
+| [codergithub](authors/codergithub/README.md) | codergithub | 1 (VBO) | 1 / 1 |
 | [sally1337](authors/sally1337/README.md) | sally1337 | 1 (Nexus! Lite) | 1 / 1 |
 | [prolokmn2](authors/prolokmn2/README.md) | prolokmn2 | 3 (Figger V2, Figger, FiggerC) | 3 / 3 |
 | [longurara](authors/longurara/README.md) | longurara | 1 (decode me (hard)) | 1 / 1 |
@@ -475,6 +476,7 @@ Dates = jour du commit write-up / soluce sur `main` (**plus récent en haut**).
 
 | Date | Crackme | Auteur |
 |---|---|---|
+| 2026-11-25 | [codergithub's VBO](authors/codergithub/6a8fbe16cab6678aefe9db0f/) | codergithub |
 | 2026-11-25 | [bytemomo's Pwn Flick](authors/bytemomo/695cf0fbceeed14a30906492/) | bytemomo |
 | 2026-11-25 | [cracka0's Derive64 v1.0](authors/cracka0/69556d5d6199fe19c0574637/) | cracka0 |
 | 2026-11-25 | [DonCris's The Quantum Box](authors/doncris/6954afa36d227ff9fc540004/) | DonCris |

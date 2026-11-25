@@ -1,0 +1,12 @@
+# Index id ↔ sha256 ↔ path
+by_id:
+  6a8fbe16cab6678aefe9db0f:
+    sha256: "84930efce42d52e876790fe050db5a8bfa96a3970049be1e3fe047e25781491a"
+    path: "authors/codergithub/6a8fbe16cab6678aefe9db0f/original/crackme"
+    title: "codergithub's VBO"
+
+by_sha256:
+  84930efce42d52e876790fe050db5a8bfa96a3970049be1e3fe047e25781491a:
+    id: 6a8fbe16cab6678aefe9db0f
+    path: "authors/codergithub/6a8fbe16cab6678aefe9db0f/original/crackme"
+    page: https://crackmes.one/crackme/6a8fbe16cab6678aefe9db0f
